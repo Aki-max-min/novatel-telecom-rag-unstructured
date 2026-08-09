@@ -1,0 +1,26 @@
+plan_id,plan_name,price,validity_days,data_gb,voice_minutes,sms_limit,ott_benefits,fiveg_eligible,auto_renew
+2001,Power Pack 499,499.00,1,1.65,600,300,Netflix Included,false,false
+2002,Elite 149,149.00,7,6.82,1000,0,Amazon Prime Included,true,false
+2003,Digital 149,149.00,90,1.45,1500,50,Zee5 Included,false,false
+2004,Talktime King 199,199.00,56,6.04,Unlimited,300,SonyLIV Included,true,false
+2005,Unlimited 799,799.00,1,6.57,1500,150,Netflix + Prime Bundle,true,false
+2006,Basic 399,399.00,30,8.15,300,0,Zee5 Included,true,false
+2007,Weekend Special 399,399.00,7,2.06,100,100,Disney+ Hotstar Included,false,false
+2008,Rapid 179,179.00,365,6.16,600,100,Netflix + Prime Bundle,true,false
+2009,Weekend Special 179,179.00,7,9.50,2000,0,Netflix Included,true,true
+2010,Digital 949,949.00,180,3.56,2000,100,Netflix Included,false,true
+2011,Star 199,199.00,180,1.53,300,50,No OTT Benefit,false,true
+2012,Night Owl 179,179.00,28,5.04,300,150,Multi-OTT Bundle,true,false
+2013,Basic 949,949.00,90,9.62,300,50,SonyLIV Included,true,true
+2014,Digital 249,249.00,56,9.90,1500,300,Netflix + Prime Bundle,true,false
+2015,Data Plus 849,849.00,1,5.11,100,300,No OTT Benefit,true,true
+2016,Night Owl 899,899.00,90,8.90,300,0,Netflix + Prime Bundle,true,true
+2017,Digital 239,239.00,365,1.91,Unlimited,0,SonyLIV Included,false,false
+2018,Power Pack 899,899.00,56,9.60,1000,0,Amazon Prime Included,true,false
+2019,Weekend Special 649,649.00,180,9.75,2000,100,JioCinema Included,true,true
+2020,Super Saver 299,299.00,365,4.26,Unlimited,300,Zee5 Included,false,false
+2021,Family Plan 699,699.00,84,9.17,300,300,Multi-OTT Bundle,true,true
+2022,Turbo 849,849.00,30,8.25,2000,50,SonyLIV Included,true,true
+2023,Super Saver 99,99.00,56,5.25,1500,100,JioCinema Included,true,false
+2024,Basic 479,479.00,7,2.98,300,100,SonyLIV Included,false,false
+2025,Star 2999,2999.00,1,5.32,100,0,Amazon Prime Included,true,false

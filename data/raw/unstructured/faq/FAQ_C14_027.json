@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C14_027",
+  "question": "How do I find offers available exclusively for my number?",
+  "answer": "Personalised offers based on your usage and tenure appear under Offers > For You in the app. These are dynamically generated and may differ from generic advertised offers, so always check in-app before assuming a promotional rate applies.",
+  "category": "C14",
+  "category_name": "Offers & Promotions",
+  "department": "Marketing",
+  "customer_scope": "prepaid",
+  "last_updated": "2026-05-23",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C14_overview"
+  ],
+  "tags": [
+    "offers",
+    "c14"
+  ]
+}

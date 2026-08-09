@@ -1,0 +1,21 @@
+{
+  "document_id": "KB_C13_selfcare_login_issues",
+  "title": "Resolving My NovaTel App Login and OTP Issues",
+  "document_type": "KB Article",
+  "category": "C13",
+  "department": "Digital Channels",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-07",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C13_001"
+  ],
+  "tags": [
+    "c13",
+    "how-to"
+  ],
+  "content": "# Resolving My NovaTel App Login and OTP Issues\n\n**Document ID:** KB_C13_selfcare_login_issues\n**Category:** C13 — App & Self-Care Portal\n**Department:** Digital Channels\n**Last Updated:** 2026-07-29\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nCommon login failure scenarios and fixes for the self-care app.\n\n## Common Scenarios\n\n| Symptom | Likely Cause | Fix |\n|---|---|---|\n| OTP not received | SIM has no signal | Ensure signal, retry after 30s |\n| OTP received late | SMS delivery delay | Use 'Login via Missed Call' |\n| 'Account locked' | 5 failed attempts | Wait 30 min or reset via email link |\n\n## Escalation Path\n\nPersistent failures after all steps should be logged per SOP_C13_APP_ACCESS_ISSUES.",
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C13_selfcare_login_issues.md",
+  "file_type": "markdown"
+}

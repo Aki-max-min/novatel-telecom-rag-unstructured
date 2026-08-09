@@ -1,0 +1,18 @@
+{
+  "chunk_id": "TARIFF_PREPAID_2026H2_chunk_000",
+  "document_id": "TARIFF_PREPAID_2026H2",
+  "chunk_index": 0,
+  "text": "# Prepaid Tariff Catalogue — H2 2026\n\n**Document ID:** TARIFF_PREPAID_2026H2\n**Category:** C02 — Plans & Subscriptions\n**Last Updated:** 2026-06-28\n**Version:** 1.0\n\n| Plan | Price (₹) | Validity | Data/day | Voice | SMS/day |\n|---|---:|---|---|---|---|\n| Value Combo 199 | 199 | 28 days | 1GB | Unlimited | 100 |\n| Value Combo 299 | 299 | 28 days | 2GB | Unlimited | 100 |\n| Value Combo 599 | 599 | 56 days | 2GB | Unlimited | 100 |\n| Annual 1999 | 1,999 | 365 days | 1.5GB | Unlimited | 100 |\n| Data Booster 61 | 61 | 1 day | 2GB (add-on) | — | — |\n\n*All prices are illustrative synthetic figures for RAG-testing purposes and do not reflect live tariffs. GST is additional unless stated. FUP speed reduction applies beyond the daily data allowance (see KB_C09_fup_data_speed).*",
+  "title": "Prepaid Tariff Catalogue — H2 2026",
+  "document_type": "Tariff Catalogue",
+  "category": "C02",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-27",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\tariff\\TARIFF_PREPAID_2026H2.md",
+  "file_type": "markdown"
+}

@@ -1,0 +1,18 @@
+{
+  "chunk_id": "TRX_003_chunk_000",
+  "document_id": "TRX_003",
+  "chunk_index": 0,
+  "text": "# Call Transcript: Escalating an Unresolved Billing Complaint\n\n**Document ID:** TRX_003\n**Category:** C16 — Complaints & Grievances\n**Department:** Customer Care\n**Channel:** Voice (Call Centre)\n**Date:** 2026-05-17\n\n---\n\nAgent: Thank you for calling NovaTel support, this is Meera.\nCustomer: I raised a complaint 10 days ago about a wrong charge and no one has resolved it.\nAgent: I apologise for the delay. Could you share your complaint reference number?\nCustomer: It's CMP-2026-88431.\nAgent: I see this was logged under Billing and the SLA target was 7 working days. Since it's exceeded, I'm escalating this to our Nodal Officer team right now with priority flag.\nCustomer: How long will that take?\nAgent: You should receive an update within 2 working days from the Nodal team. I'll also send you the direct escalation reference by SMS.\nCustomer: Alright, thank you.\nAgent: Thank you for your patience, is there anything else?\nCustomer: No, that's it.",
+  "title": "Escalating an Unresolved Billing Complaint",
+  "document_type": "Support Transcript",
+  "category": "C16",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-27",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\transcripts\\TRX_003.md",
+  "file_type": "markdown"
+}

@@ -1,0 +1,20 @@
+{
+  "chunk_id": "Policy_C18_security_policy_chunk_000",
+  "document_id": "Policy_C18_security_policy",
+  "chunk_index": 0,
+  "text": "Fraud Prevention and Account Security Policy\n\nDocument ID: Policy_C18_security_policy\n\nCategory: C18 — Security & Fraud\n\nDepartment: Security\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\n1. Purpose\n\nSets out NovaTel's commitments and customer-facing procedures for preventing and responding to SIM swap fraud, phishing, and account takeover.\n\n2. Policy Statements\n\nNovaTel will never request OTPs, passwords, or full card numbers via outbound call, SMS, or email.\n\nAny SIM replacement request is subject to full KYC re-verification regardless of urgency claimed by the requester.\n\nConfirmed fraud incidents are logged, and law-enforcement liaison is initiated for cases involving financial loss.",
+  "title": "Fraud Prevention and Account Security Policy",
+  "document_type": "Policy",
+  "category": "C18",
+  "department": "Security",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c18"
+  ],
+  "file_path": "data\\raw\\unstructured\\policies\\Policy_C18_security_policy.docx",
+  "file_type": "docx"
+}

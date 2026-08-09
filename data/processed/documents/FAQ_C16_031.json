@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C16_031",
+  "title": "How do I escalate a complaint that hasn't been resolved?",
+  "document_type": "FAQ",
+  "category": "C16",
+  "department": "Customer Care",
+  "customer_scope": "postpaid",
+  "version": "1.0",
+  "last_updated": "2026-06-28",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C16_overview"
+  ],
+  "tags": [
+    "complaints",
+    "c16"
+  ],
+  "content": "Question: How do I escalate a complaint that hasn't been resolved?\n\nAnswer: If your ticket remains unresolved beyond the stated SLA, use Help > Escalate Complaint in the app to route it to a senior care team, or contact the Nodal Officer for your circle as published on the NovaTel website, per TRAI's mandated grievance-redressal hierarchy.\n\nTopic: Complaints & Grievances",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C16_031.json",
+  "file_type": "json"
+}

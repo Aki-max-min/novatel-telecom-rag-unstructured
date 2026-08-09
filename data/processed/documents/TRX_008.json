@@ -1,0 +1,16 @@
+{
+  "document_id": "TRX_008",
+  "title": "Postpaid Account Closure Request",
+  "document_type": "Support Transcript",
+  "category": "C21",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-12",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Call Transcript: Postpaid Account Closure Request\n\n**Document ID:** TRX_008\n**Category:** C21 — Termination & Deactivation\n**Department:** Customer Care\n**Channel:** Voice (Call Centre)\n**Date:** 2026-05-31\n\n---\n\nAgent: NovaTel Customer Care, this is Vivek.\nCustomer: I'd like to close my postpaid connection.\nAgent: I can help with that. May I ask the reason, in case there's something we can resolve first?\nCustomer: I'm relocating abroad permanently.\nAgent: Understood. Before closure, you'll need to clear any outstanding dues — I see your current balance is ₹0, so you're clear. I'll process the closure request now; your final bill will be generated within 5-7 working days for any pro-rated charges.\nCustomer: Will I get my number back if I return?\nAgent: The number enters a cooling-off period after closure and may be reassigned after that, so it's not guaranteed. I'll note your request; is there anything else?\nCustomer: No, that's all, thank you.",
+  "file_path": "data\\raw\\unstructured\\transcripts\\TRX_008.md",
+  "file_type": "markdown"
+}

@@ -1,0 +1,16 @@
+{
+  "document_id": "TRX_002",
+  "title": "Suspected SIM Swap Fraud — Emergency Block",
+  "document_type": "Support Transcript",
+  "category": "C18",
+  "department": "Security",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-17",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Call Transcript: Suspected SIM Swap Fraud — Emergency Block\n\n**Document ID:** TRX_002\n**Category:** C18 — Security & Fraud\n**Department:** Security\n**Channel:** Voice (Call Centre)\n**Date:** 2026-05-13\n\n---\n\nAgent: NovaTel Fraud Helpline, this is Karan speaking.\nCustomer: I think someone swapped my SIM! I just lost signal and I'm getting bank OTP messages I didn't request!\nAgent: I understand, let's act quickly. Can you confirm your registered number and your date of birth for verification?\nCustomer: Yes, it's 97XXXXXX10, DOB 14 March 1990.\nAgent: Thank you, verified. I'm blocking this SIM right now as a precaution... Done, the SIM is now blocked.\nCustomer: What do I do next?\nAgent: Please contact your bank immediately to flag possible fraudulent activity, and visit your nearest NovaTel store with a photo ID to get a verified replacement SIM. I'm also logging this as a priority security incident on our end.\nCustomer: Thank you so much.\nAgent: Of course, please stay alert for any further suspicious messages and don't share any OTPs with anyone.",
+  "file_path": "data\\raw\\unstructured\\transcripts\\TRX_002.md",
+  "file_type": "markdown"
+}

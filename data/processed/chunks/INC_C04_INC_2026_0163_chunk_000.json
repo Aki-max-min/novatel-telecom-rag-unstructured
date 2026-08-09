@@ -1,0 +1,21 @@
+{
+  "chunk_id": "INC_C04_INC_2026_0163_chunk_000",
+  "document_id": "INC_C04_INC_2026_0163",
+  "chunk_index": 0,
+  "text": "# Incident Report: Duplicate Billing Cycle Run for Postpaid Segment\n\n**Incident ID:** INC-2026-0163\n**Category:** C04 — Billing & Invoices\n**Region:** Pan-India\n**Severity:** P1\n**Department:** Billing\n**Date Logged:** 2026-07-04\n**Status:** Resolved\n\n## Summary\nA scheduling error in the billing batch job caused ~12,000 postpaid customers to be billed twice for the June cycle.\n\n## Timeline\nDetected via automated reconciliation checks; batch job halted within 40 minutes; duplicate charges auto-reversed within 48 hours; affected customers notified via SMS.\n\n## Customer Impact\nEstimated customers affected and service categories impacted are recorded in the internal incident-management system (ref: INC-2026-0163). Customer-facing status was published under Network > Service Status for the outage duration.\n\n## Resolution\nService was restored per the timeline above. A follow-up Root Cause Analysis is tracked separately where applicable (see related_ids).\n\n## Preventive Actions\nPreventive/corrective actions arising from this incident are tracked in the linked RCA document, where one was raised.",
+  "title": "Duplicate Billing Cycle Run for Postpaid Segment",
+  "document_type": "Incident Report",
+  "category": "C04",
+  "department": "Billing",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "p1",
+    "pan-india"
+  ],
+  "file_path": "data\\raw\\unstructured\\incidents\\INC_C04_INC_2026_0163.md",
+  "file_type": "markdown"
+}

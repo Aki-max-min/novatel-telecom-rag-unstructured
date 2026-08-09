@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C08_016",
+  "question": "How is a reported network outage resolved and communicated?",
+  "answer": "Outages are logged, assigned a severity level, and tracked to resolution by the Network Operations Centre (NOC). Estimated restoration times are published in-app under Service Status; affected customers may receive an SMS/app notification once service is restored.",
+  "category": "C08",
+  "category_name": "Network Coverage & Outages",
+  "department": "Network",
+  "customer_scope": "enterprise",
+  "last_updated": "2026-06-01",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C08_overview"
+  ],
+  "tags": [
+    "network",
+    "c08"
+  ]
+}

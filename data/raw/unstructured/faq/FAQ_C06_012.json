@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C06_012",
+  "question": "Will I lose my current plan benefits if I port into NovaTel?",
+  "answer": "No \u2014 once porting completes, you select a NovaTel plan of your choice; your old operator's plan does not carry over. Your number, however, remains unchanged, and any unused balance with the previous operator is non-transferable.",
+  "category": "C06",
+  "category_name": "Number Portability (MNP)",
+  "department": "Regulatory",
+  "customer_scope": "postpaid",
+  "last_updated": "2026-06-26",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C06_overview"
+  ],
+  "tags": [
+    "number",
+    "c06"
+  ]
+}

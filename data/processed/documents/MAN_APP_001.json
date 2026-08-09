@@ -1,0 +1,16 @@
+{
+  "document_id": "MAN_APP_001",
+  "title": "My NovaTel App — User Guide",
+  "document_type": "User Manual",
+  "category": "C13",
+  "department": "Digital Channels",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-27",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# My NovaTel App — User Guide\n\n**Document ID:** MAN_APP_001\n**Category:** C13 — App & Self-Care Portal\n**Last Updated:** 2026-07-10\n**Version:** 1.0\n\n---\n\n## Getting Started\n\nDownload from the Play Store/App Store, log in with your registered mobile number, and verify via OTP.\n\n## Key Features\n\n- Recharge & bill payment\n- Usage tracking (data/voice/SMS)\n- VAS management\n- Complaint lodging and tracking\n- Roaming pack activation\n\n## Troubleshooting\n\nSee KB_C13_selfcare_login_issues for login problems.",
+  "file_path": "data\\raw\\unstructured\\manuals\\MAN_APP_001.md",
+  "file_type": "markdown"
+}

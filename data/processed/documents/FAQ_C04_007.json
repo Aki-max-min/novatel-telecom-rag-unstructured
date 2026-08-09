@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C04_007",
+  "title": "Why is my postpaid bill higher than my plan rental this month?",
+  "document_type": "FAQ",
+  "category": "C04",
+  "department": "Billing",
+  "customer_scope": "prepaid",
+  "version": "1.0",
+  "last_updated": "2026-07-14",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C04_overview"
+  ],
+  "tags": [
+    "billing",
+    "c04"
+  ],
+  "content": "Question: Why is my postpaid bill higher than my plan rental this month?\n\nAnswer: Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance. A full itemised breakdown is available under Billing > View Bill Details in the app.\n\nTopic: Billing & Invoices",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C04_007.json",
+  "file_type": "json"
+}

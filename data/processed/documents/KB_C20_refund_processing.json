@@ -1,0 +1,21 @@
+{
+  "document_id": "KB_C20_refund_processing",
+  "title": "Processing Duplicate Charge and Billing Refunds",
+  "document_type": "KB Article",
+  "category": "C20",
+  "department": "Billing",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-09",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C20_001"
+  ],
+  "tags": [
+    "c20",
+    "how-to"
+  ],
+  "content": "# Processing Duplicate Charge and Billing Refunds\n\n**Document ID:** KB_C20_refund_processing\n**Category:** C20 — Refunds & Adjustments\n**Department:** Billing\n**Last Updated:** 2026-05-16\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nDescribes how refunds for duplicate/erroneous charges are validated and issued.\n\n## Steps\n\n1. Customer reports issue with transaction reference.\n2. Billing team validates against the payment gateway ledger.\n3. Approved refunds are issued to source (5-7 working days) or as account credit (instant-24h).\n\n## SLA\n\nStandard refund decisioning target: 5 working days from ticket creation.",
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C20_refund_processing.md",
+  "file_type": "markdown"
+}

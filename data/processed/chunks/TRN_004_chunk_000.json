@@ -1,0 +1,18 @@
+{
+  "chunk_id": "TRN_004_chunk_000",
+  "document_id": "TRN_004",
+  "chunk_index": 0,
+  "text": "# KYC and Regulatory Basics for Frontline Staff\n\n**Document ID:** TRN_004\n**Department:** Compliance\n**Category:** General (C01-C29)\n**Last Updated:** 2026-05-19\n**Version:** 1.0\n\n---\n\n## Learning Objectives\n\nStaff understand acceptable ID documents, video-KYC procedure, and consequences of KYC non-compliance.\n\n## Acceptable Documents\n\nAadhaar (with consent), Passport, Voter ID, Driving Licence — must be original, legible, and unexpired.\n\n## Video KYC Checklist\n\n- [ ] Liveness check completed (customer performs a random action on request)\n- [ ] Document held next to face, both clearly visible\n- [ ] Geo-tag and timestamp captured automatically\n- [ ] Customer consent to data processing explicitly recorded\n\n## Consequences of Errors\n\nIncomplete or fraudulent KYC exposes the company to regulatory penalties and licence risk — never bypass a required verification step, even under customer pressure.",
+  "title": "KYC and Regulatory Basics for Frontline Staff",
+  "document_type": "Training Manual",
+  "category": "GENERAL",
+  "department": "Compliance",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-15",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\training\\TRN_004.md",
+  "file_type": "markdown"
+}

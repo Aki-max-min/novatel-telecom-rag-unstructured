@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C01_002",
+  "title": "Can I merge two customer accounts under one profile?",
+  "document_type": "FAQ",
+  "category": "C01",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-11",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C01_overview"
+  ],
+  "tags": [
+    "account",
+    "c01"
+  ],
+  "content": "Question: Can I merge two customer accounts under one profile?\n\nAnswer: Account merging is supported only for connections held by the same KYC-verified individual. Raise a request via the app under Help > Account Services > Merge Accounts, or contact care. Processing typically takes 3-5 working days.\n\nTopic: Account Management",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C01_002.json",
+  "file_type": "json"
+}

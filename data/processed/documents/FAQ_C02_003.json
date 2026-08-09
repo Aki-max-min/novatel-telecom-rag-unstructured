@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C02_003",
+  "title": "When does my prepaid plan expire?",
+  "document_type": "FAQ",
+  "category": "C02",
+  "department": "Product",
+  "customer_scope": "postpaid",
+  "version": "1.0",
+  "last_updated": "2026-05-14",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C02_overview"
+  ],
+  "tags": [
+    "plans",
+    "c02"
+  ],
+  "content": "Question: When does my prepaid plan expire?\n\nAnswer: Your plan validity is shown under My Plan in the app. Most prepaid packs run for 28-day cycles from the date of activation; some promotional packs run 30/56/84/365 days. The exact expiry date and time are displayed on the plan summary screen.\n\nTopic: Plans & Subscriptions",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C02_003.json",
+  "file_type": "json"
+}

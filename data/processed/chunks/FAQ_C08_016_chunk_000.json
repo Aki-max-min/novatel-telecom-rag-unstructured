@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C08_016_chunk_000",
+  "document_id": "FAQ_C08_016",
+  "chunk_index": 0,
+  "text": "Question: How is a reported network outage resolved and communicated?\n\nAnswer: Outages are logged, assigned a severity level, and tracked to resolution by the Network Operations Centre (NOC). Estimated restoration times are published in-app under Service Status; affected customers may receive an SMS/app notification once service is restored.\n\nTopic: Network Coverage & Outages",
+  "title": "How is a reported network outage resolved and communicated?",
+  "document_type": "FAQ",
+  "category": "C08",
+  "department": "Network",
+  "customer_scope": "enterprise",
+  "version": "1.0",
+  "last_updated": "2026-07-24",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C08_overview"
+  ],
+  "tags": [
+    "network",
+    "c08"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C08_016.json",
+  "file_type": "json"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C10_020_chunk_000",
+  "document_id": "FAQ_C10_020",
+  "chunk_index": 0,
+  "text": "Question: How do I set up a personalised caller tune?\n\nAnswer: Open VAS > Caller Tunes in the app, browse or search the catalogue, and select 'Set as Caller Tune'. Charges and validity are shown before confirmation; the tune activates within a few hours.\n\nTopic: Value Added Services (VAS)",
+  "title": "How do I set up a personalised caller tune?",
+  "document_type": "FAQ",
+  "category": "C10",
+  "department": "Product",
+  "customer_scope": "prepaid",
+  "version": "1.0",
+  "last_updated": "2026-05-16",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C10_overview"
+  ],
+  "tags": [
+    "value",
+    "c10"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C10_020.json",
+  "file_type": "json"
+}

@@ -1,0 +1,21 @@
+{
+  "document_id": "RCA_INC_2026_0184",
+  "title": "RCA: My NovaTel App Login Outage (INC-2026-0184)",
+  "document_type": "RCA",
+  "category": "C13",
+  "department": "Digital Channels",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "INC_INC_2026_0184"
+  ],
+  "tags": [
+    "c13",
+    "rca"
+  ],
+  "content": "RCA: My NovaTel App Login Outage (INC-2026-0184)\n\nDocument ID: RCA_INC_2026_0184\n\nCategory: C13 — App & Self-Care Portal\n\nDepartment: Digital Channels\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nIncident Reference\n\nINC-2026-0184\n\nProblem Statement\n\nAll app logins failed for 55 minutes following an authentication service deployment.\n\nRoot Cause\n\nA TLS certificate reference in the new deployment pointed to a staging certificate rather than production, which was not caught by the deployment's automated smoke tests.\n\nContributing Factors\n\nSmoke tests did not include a certificate-validity/environment check.\n\nRollback procedure required manual trigger rather than automatic health-check-based rollback.\n\nCorrective Actions\n\nAdd certificate-environment validation to the deployment smoke-test suite (target: 14 days).\n\nImplement automatic rollback on authentication-service health-check failure (target: 45 days).\n\nStatus\n\nBoth actions in progress; owner: Digital Channels Engineering team.",
+  "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0184.docx",
+  "file_type": "docx"
+}

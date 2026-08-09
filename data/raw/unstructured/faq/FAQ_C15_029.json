@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C15_029",
+  "question": "How do I redeem loyalty reward points?",
+  "answer": "Loyalty points accrued through tenure and recharge activity are visible under Rewards in the app and can be redeemed for data vouchers, partner discounts, or plan upgrades. Points typically expire 12 months after being credited if unused.",
+  "category": "C15",
+  "category_name": "Loyalty & Rewards",
+  "department": "Marketing",
+  "customer_scope": "postpaid",
+  "last_updated": "2026-07-19",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C15_overview"
+  ],
+  "tags": [
+    "loyalty",
+    "c15"
+  ]
+}

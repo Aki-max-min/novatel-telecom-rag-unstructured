@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C24_047",
+  "title": "What connectivity options does NovaTel offer for IoT/M2M devices?",
+  "document_type": "FAQ",
+  "category": "C24",
+  "department": "Enterprise Sales",
+  "customer_scope": "enterprise",
+  "version": "1.0",
+  "last_updated": "2026-06-10",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C24_overview"
+  ],
+  "tags": [
+    "iot",
+    "c24"
+  ],
+  "content": "Question: What connectivity options does NovaTel offer for IoT/M2M devices?\n\nAnswer: NovaTel offers NB-IoT, LTE-M, and standard cellular M2M SIM profiles with volume-based data pooling, remote SIM management, and dedicated APNs for enterprise IoT deployments (fleet tracking, smart metering, POS terminals, etc.).\n\nTopic: IoT & M2M Services",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C24_047.json",
+  "file_type": "json"
+}

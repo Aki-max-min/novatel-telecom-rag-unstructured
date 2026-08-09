@@ -1,0 +1,20 @@
+{
+  "chunk_id": "SOP_C16_COMPLAINT_ESCALATION_chunk_000",
+  "document_id": "SOP_C16_COMPLAINT_ESCALATION",
+  "chunk_index": 0,
+  "text": "Complaint Escalation and Nodal Officer Referral\n\nDocument ID: SOP_C16_COMPLAINT_ESCALATION\n\nCategory: C16 — Complaints & Grievances\n\nDepartment: Customer Care\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nPurpose\n\nTo define the tiered escalation process for complaints exceeding standard resolution SLAs, aligned to TRAI's grievance redressal framework.\n\nProcedure\n\nTier 1 (Customer Care): target resolution within 3-7 working days depending on complaint category.\n\nIf unresolved at Tier 1 SLA expiry, auto-escalate to the circle Nodal Officer with full ticket history.\n\nNodal Officer reviews and responds within 2 additional working days.\n\nIf still unresolved, escalate to the Appellate Authority, and inform the customer of their right to approach TRAI/consumer forum if applicable.\n\nRelated Documents\n\nKB_C16_complaint_escalation",
+  "title": "Complaint Escalation and Nodal Officer Referral",
+  "document_type": "SOP",
+  "category": "C16",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c16"
+  ],
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C16_COMPLAINT_ESCALATION.docx",
+  "file_type": "docx"
+}

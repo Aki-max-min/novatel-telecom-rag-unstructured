@@ -1,0 +1,23 @@
+{
+  "chunk_id": "RCA_INC_2026_0179_chunk_000",
+  "document_id": "RCA_INC_2026_0179",
+  "chunk_index": 0,
+  "text": "RCA: Pune FTTH Regional Outage (INC-2026-0179)\n\nDocument ID: RCA_INC_2026_0179\n\nCategory: C25 — Broadband & FTTH Services\n\nDepartment: Network\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nIncident Reference\n\nINC-2026-0179\n\nProblem Statement\n\nA construction excavation severed a primary fibre trunk, affecting ~2,800 broadband customers for approximately 5.7 hours.\n\nRoot Cause\n\nThe affected trunk route lacked route diversity, meaning a single cut caused a full regional outage with no automatic failover path.\n\nContributing Factors\n\nSplicing team dispatch relied on a single on-call technician for the region.\n\nRoute-diversity investment for this corridor was previously deprioritised due to lower customer density at the time of original build.\n\nCorrective Actions\n\nPrioritise route-diversity build-out for the Pune regional trunk given increased customer density (target: 6 months, capital planning required).\n\nIncrease on-call splicing technician coverage for the region to at least two available resources (target: 30 days).\n\nStatus\n\nAction 2 completed; Action 1 submitted for capital budget approval; owner: Network Infrastructure team.",
+  "title": "RCA: Pune FTTH Regional Outage (INC-2026-0179)",
+  "document_type": "RCA",
+  "category": "C25",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "INC_INC_2026_0179"
+  ],
+  "tags": [
+    "c25",
+    "rca"
+  ],
+  "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0179.docx",
+  "file_type": "docx"
+}

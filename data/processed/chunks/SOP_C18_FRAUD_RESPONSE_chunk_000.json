@@ -1,0 +1,20 @@
+{
+  "chunk_id": "SOP_C18_FRAUD_RESPONSE_chunk_000",
+  "document_id": "SOP_C18_FRAUD_RESPONSE",
+  "chunk_index": 0,
+  "text": "SIM Swap Fraud and Phishing Incident Response\n\nDocument ID: SOP_C18_FRAUD_RESPONSE\n\nCategory: C18 — Security & Fraud\n\nDepartment: Security\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nPurpose\n\nTo enable rapid containment of suspected SIM swap fraud, phishing, or account takeover attempts.\n\nProcedure\n\nVerify caller identity via an independent channel (not the potentially compromised number).\n\nBlock the affected SIM immediately if fraud indicators are present, even before full verification completes, if risk is imminent.\n\nLog the case as a P1 security incident.\n\nIssue a verified replacement SIM only after standard KYC re-verification.\n\nNotify the Security and Legal teams for cases involving confirmed financial loss for potential law-enforcement liaison.\n\nRelated Documents\n\nKB_C18_fraud_response, TRN_003",
+  "title": "SIM Swap Fraud and Phishing Incident Response",
+  "document_type": "SOP",
+  "category": "C18",
+  "department": "Security",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c18"
+  ],
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C18_FRAUD_RESPONSE.docx",
+  "file_type": "docx"
+}

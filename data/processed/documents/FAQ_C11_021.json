@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C11_021",
+  "title": "What are the rates for international calls and SMS from my plan?",
+  "document_type": "FAQ",
+  "category": "C11",
+  "department": "Product",
+  "customer_scope": "postpaid",
+  "version": "1.0",
+  "last_updated": "2026-07-29",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C11_overview"
+  ],
+  "tags": [
+    "international",
+    "c11"
+  ],
+  "content": "Question: What are the rates for international calls and SMS from my plan?\n\nAnswer: Standard International Long Distance (ISD) rates apply per destination country unless you have an ISD pack. Check Rates > International under the app for current per-minute and per-SMS rates, or activate a country-specific ISD pack for discounted rates.\n\nTopic: International Calling & SMS",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C11_021.json",
+  "file_type": "json"
+}

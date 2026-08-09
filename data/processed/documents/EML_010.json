@@ -1,0 +1,16 @@
+{
+  "document_id": "EML_010",
+  "title": "Complaint Escalation Acknowledgement",
+  "document_type": "Sample Email",
+  "category": "C16",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-18",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Sample Email: Complaint Escalation Acknowledgement\n\n**Document ID:** EML_010\n**Category:** C16 — Complaints & Grievances\n**Department:** Customer Care\n**Date:** 2026-07-08\n\n---\n\n**Subject: Your Complaint Has Been Escalated — Ref CMP-2026-88431**\n\nDear Customer,\n\nWe're sorry your original complaint was not resolved within our standard timeline. It has now been escalated to our Nodal Officer team for priority review, and you should receive an update within 2 working days.\n\nWe appreciate your patience.\n\nRegards,\nNovaTel Customer Care",
+  "file_path": "data\\raw\\unstructured\\emails\\EML_010.md",
+  "file_type": "markdown"
+}

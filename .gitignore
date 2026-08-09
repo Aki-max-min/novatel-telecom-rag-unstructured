@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.env
+.env.*
+
+.vscode/
+.idea/
+
+.pytest_cache/
+.mypy_cache/
+
+*.log
+
+# Hugging Face / model caches
+.cache/
+.cache/huggingface/

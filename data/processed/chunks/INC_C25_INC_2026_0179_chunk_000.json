@@ -1,0 +1,21 @@
+{
+  "chunk_id": "INC_C25_INC_2026_0179_chunk_000",
+  "document_id": "INC_C25_INC_2026_0179",
+  "chunk_index": 0,
+  "text": "# Incident Report: FTTH Regional Outage — Fibre Cut\n\n**Incident ID:** INC-2026-0179\n**Category:** C25 — Broadband & FTTH Services\n**Region:** Pune Circle\n**Severity:** P1\n**Department:** Network\n**Date Logged:** 2026-05-09\n**Status:** Resolved\n\n## Summary\nA construction excavation severed a primary fibre trunk affecting ~2,800 broadband customers.\n\n## Timeline\nOutage detected 14:02 IST; splicing team dispatched; service restored 19:45 IST after trunk repair and re-splicing.\n\n## Customer Impact\nEstimated customers affected and service categories impacted are recorded in the internal incident-management system (ref: INC-2026-0179). Customer-facing status was published under Network > Service Status for the outage duration.\n\n## Resolution\nService was restored per the timeline above. A follow-up Root Cause Analysis is tracked separately where applicable (see related_ids).\n\n## Preventive Actions\nPreventive/corrective actions arising from this incident are tracked in the linked RCA document, where one was raised.",
+  "title": "FTTH Regional Outage — Fibre Cut",
+  "document_type": "Incident Report",
+  "category": "C25",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-06",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "p1",
+    "pune_circle"
+  ],
+  "file_path": "data\\raw\\unstructured\\incidents\\INC_C25_INC_2026_0179.md",
+  "file_type": "markdown"
+}

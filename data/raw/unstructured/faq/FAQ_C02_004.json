@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C02_004",
+  "question": "What happens if I don't recharge before my plan expires?",
+  "answer": "Your outgoing services (calls, SMS, data) are suspended, though you can typically still receive incoming calls for a grace period (commonly 15-90 days depending on the plan) before the number is recycled per licence conditions. Recharge promptly to avoid deactivation.",
+  "category": "C02",
+  "category_name": "Plans & Subscriptions",
+  "department": "Product",
+  "customer_scope": "prepaid",
+  "last_updated": "2026-05-25",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C02_overview"
+  ],
+  "tags": [
+    "plans",
+    "c02"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C19_037",
+  "question": "How does NovaTel use my call and location data?",
+  "answer": "Data is processed per our Privacy Policy (see Policy_C19_privacy_policy) strictly for service delivery, billing, legal/regulatory compliance, network optimisation, and \u2014 where you have consented \u2014 personalised offers. You can review and manage consent preferences under Privacy Settings in the app.",
+  "category": "C19",
+  "category_name": "Privacy & Data Protection",
+  "department": "Legal",
+  "customer_scope": "enterprise",
+  "last_updated": "2026-07-21",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C19_overview"
+  ],
+  "tags": [
+    "privacy",
+    "c19"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C09_fup_data_speed_chunk_000",
+  "document_id": "KB_C09_fup_data_speed",
+  "chunk_index": 0,
+  "text": "# Understanding Fair Usage Policy (FUP) and Data Speed Drops\n\n**Document ID:** KB_C09_fup_data_speed\n**Category:** C09 — Data Services & Speed\n**Department:** Network\n**Last Updated:** 2026-05-28\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nClarifies why data speeds reduce after a certain usage threshold.\n\n## How FUP Works\n\nEach plan specifies a high-speed data allowance (e.g., 1.5GB/day or 50GB/cycle). Once exceeded, speed is capped (commonly 64-512 kbps) for the remainder of the cycle rather than data being blocked.\n\n## Checking Your FUP Status\n\nMy Plan > Data Usage shows consumption against your high-speed allowance in real time.",
+  "title": "Understanding Fair Usage Policy (FUP) and Data Speed Drops",
+  "document_type": "KB Article",
+  "category": "C09",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-29",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C09_001"
+  ],
+  "tags": [
+    "c09",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C09_fup_data_speed.md",
+  "file_type": "markdown"
+}

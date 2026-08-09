@@ -1,0 +1,20 @@
+{
+  "chunk_id": "Policy_C23_enterprise_terms_chunk_000",
+  "document_id": "Policy_C23_enterprise_terms",
+  "chunk_index": 0,
+  "text": "Enterprise & Business Connectivity Commercial Policy\n\nDocument ID: Policy_C23_enterprise_terms\n\nCategory: C23 — Enterprise & Business Services\n\nDepartment: Enterprise Sales\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\n1. Purpose\n\nSets the general commercial and service framework for enterprise and business customers, superseded in specifics by individually signed agreements.\n\n2. Policy Statements\n\nEnterprise pricing is volume-tiered and subject to a minimum committed line count.\n\nEach enterprise account is assigned a dedicated Account Manager and centralised billing.\n\nService Level Agreements (SLAs) for connectivity uptime and fault-resolution time are defined per contract, typically stricter than standard consumer SLAs.",
+  "title": "Enterprise & Business Connectivity Commercial Policy",
+  "document_type": "Policy",
+  "category": "C23",
+  "department": "Enterprise Sales",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c23"
+  ],
+  "file_path": "data\\raw\\unstructured\\policies\\Policy_C23_enterprise_terms.docx",
+  "file_type": "docx"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C03_006_chunk_000",
+  "document_id": "FAQ_C03_006",
+  "chunk_index": 0,
+  "text": "Question: What payment methods are accepted for recharge?\n\nAnswer: UPI, debit/credit cards, net banking, NovaTel Wallet, and authorised retail outlets are all supported. Auto-pay via UPI mandate or saved card is available for postpaid bill payments and prepaid plan renewal.\n\nTopic: Recharge & Payments",
+  "title": "What payment methods are accepted for recharge?",
+  "document_type": "FAQ",
+  "category": "C03",
+  "department": "Finance",
+  "customer_scope": "postpaid",
+  "version": "1.0",
+  "last_updated": "2026-06-05",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C03_overview"
+  ],
+  "tags": [
+    "recharge",
+    "c03"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C03_006.json",
+  "file_type": "json"
+}

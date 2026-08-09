@@ -1,0 +1,21 @@
+{
+  "document_id": "KB_C03_recharge_failures",
+  "title": "Troubleshooting Failed Recharge Transactions",
+  "document_type": "KB Article",
+  "category": "C03",
+  "department": "Finance",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-24",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C03_001"
+  ],
+  "tags": [
+    "c03",
+    "how-to"
+  ],
+  "content": "# Troubleshooting Failed Recharge Transactions\n\n**Document ID:** KB_C03_recharge_failures\n**Category:** C03 — Recharge & Payments\n**Department:** Finance\n**Last Updated:** 2026-08-08\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nGuidance for diagnosing a recharge that was debited but not credited to the account.\n\n## Step-by-Step Diagnosis\n\n1. Confirm the debit in the payment app/bank statement.\n2. Check **Recharge History** in My NovaTel for a 'Pending' status.\n3. Wait 60 minutes for auto-reconciliation.\n4. If still pending after 24 hours, raise a ticket referencing SOP_C03_RECHARGE_FAILURE.\n\n## Common Root Causes\n\n- Gateway timeout after debit confirmation\n- Bank-side delay in settlement file transfer\n- Duplicate transaction ID collision (rare)\n\n## Escalation\n\nUnresolved cases beyond 48 hours should be escalated per SOP_C03_RECHARGE_FAILURE Step 5.",
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C03_recharge_failures.md",
+  "file_type": "markdown"
+}

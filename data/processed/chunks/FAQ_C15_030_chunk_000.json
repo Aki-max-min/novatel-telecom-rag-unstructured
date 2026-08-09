@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C15_030_chunk_000",
+  "document_id": "FAQ_C15_030",
+  "chunk_index": 0,
+  "text": "Question: Why did my loyalty tier drop from Gold to Silver?\n\nAnswer: Loyalty tiers are recalculated periodically (typically annually) based on trailing recharge value and account tenure. A reduction usually reflects lower recharge activity in the assessment window; tier criteria are published under Rewards > Tier Benefits.\n\nTopic: Loyalty & Rewards",
+  "title": "Why did my loyalty tier drop from Gold to Silver?",
+  "document_type": "FAQ",
+  "category": "C15",
+  "department": "Marketing",
+  "customer_scope": "enterprise",
+  "version": "1.0",
+  "last_updated": "2026-04-12",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C15_overview"
+  ],
+  "tags": [
+    "loyalty",
+    "c15"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C15_030.json",
+  "file_type": "json"
+}

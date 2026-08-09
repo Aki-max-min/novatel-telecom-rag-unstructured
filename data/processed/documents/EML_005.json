@@ -1,0 +1,16 @@
+{
+  "document_id": "EML_005",
+  "title": "Account Closure Confirmation",
+  "document_type": "Sample Email",
+  "category": "C21",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-27",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Sample Email: Account Closure Confirmation\n\n**Document ID:** EML_005\n**Category:** C21 — Termination & Deactivation\n**Department:** Customer Care\n**Date:** 2026-05-29\n\n---\n\n**Subject: Confirmation of Account Closure Request**\n\nDear Customer,\n\nThis confirms we have received and processed your request to close postpaid connection ending XXXX21. Your final bill will be generated within 5-7 working days reflecting any pro-rated charges up to the closure date.\n\nWe're sorry to see you go and hope to serve you again in the future.\n\nRegards,\nNovaTel Customer Care",
+  "file_path": "data\\raw\\unstructured\\emails\\EML_005.md",
+  "file_type": "markdown"
+}

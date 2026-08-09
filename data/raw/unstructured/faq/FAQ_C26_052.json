@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C26_052",
+  "question": "I'm still getting spam calls despite registering for DND \u2014 what can I do?",
+  "answer": "Report the offending number via Help > Report UCC (Unsolicited Commercial Communication) with the date/time of the call. Repeated complaints against a number are escalated to TRAI's complaint-monitoring system.",
+  "category": "C26",
+  "category_name": "DND & Spam Management",
+  "department": "Regulatory",
+  "customer_scope": "prepaid",
+  "last_updated": "2026-07-02",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C26_overview"
+  ],
+  "tags": [
+    "dnd",
+    "c26"
+  ]
+}

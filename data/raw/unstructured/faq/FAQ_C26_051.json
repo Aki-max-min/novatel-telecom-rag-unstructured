@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C26_051",
+  "question": "How do I register for Do Not Disturb (DND) to stop promotional calls/SMS?",
+  "answer": "Send 'START 0' via SMS to the DND short code (or use Help > DND Preferences in the app) to block all commercial communication, or 'START' followed by a category code to block specific categories only, per TRAI's DND regulations.",
+  "category": "C26",
+  "category_name": "DND & Spam Management",
+  "department": "Regulatory",
+  "customer_scope": "all",
+  "last_updated": "2026-05-18",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C26_overview"
+  ],
+  "tags": [
+    "dnd",
+    "c26"
+  ]
+}

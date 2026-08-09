@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C23_045",
+  "question": "What is included in an Enterprise Business Connectivity plan?",
+  "answer": "Enterprise plans typically bundle pooled voice/data across a fleet of numbers, dedicated account management, centralised billing, and SLA-backed connectivity for leased lines/MPLS where applicable. See Policy_C23_enterprise_terms for the current commercial framework.",
+  "category": "C23",
+  "category_name": "Enterprise & Business Services",
+  "department": "Enterprise Sales",
+  "customer_scope": "enterprise",
+  "last_updated": "2026-05-24",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C23_overview"
+  ],
+  "tags": [
+    "enterprise",
+    "c23"
+  ]
+}

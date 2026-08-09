@@ -1,0 +1,16 @@
+{
+  "document_id": "EML_007",
+  "title": "FTTH Fault Ticket Update",
+  "document_type": "Sample Email",
+  "category": "C25",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-23",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Sample Email: FTTH Fault Ticket Update\n\n**Document ID:** EML_007\n**Category:** C25 — Broadband & FTTH Services\n**Department:** Network\n**Date:** 2026-05-30\n\n---\n\n**Subject: Your Broadband Fault Ticket FT-2026-33012 — Technician Scheduled**\n\nDear Customer,\n\nWe've identified a fibre-line fault affecting your connection. A technician has been scheduled to visit between 10:00-14:00 tomorrow to complete the repair. As per our service commitment, a pro-rated bill credit for the downtime will be applied automatically to your next invoice.\n\nWe apologise for the inconvenience.\n\nRegards,\nNovaTel Broadband Support",
+  "file_path": "data\\raw\\unstructured\\emails\\EML_007.md",
+  "file_type": "markdown"
+}

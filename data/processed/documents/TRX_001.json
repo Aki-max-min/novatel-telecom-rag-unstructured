@@ -1,0 +1,16 @@
+{
+  "document_id": "TRX_001",
+  "title": "Recharge Failure — Amount Debited, Not Credited",
+  "document_type": "Support Transcript",
+  "category": "C03",
+  "department": "Finance",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-02",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Call Transcript: Recharge Failure — Amount Debited, Not Credited\n\n**Document ID:** TRX_001\n**Category:** C03 — Recharge & Payments\n**Department:** Finance\n**Channel:** Voice (Call Centre)\n**Date:** 2026-05-06\n\n---\n\nAgent: Thank you for calling NovaTel, this is Rhea, how may I help you?\nCustomer: My recharge of ₹299 got debited but my plan hasn't started.\nAgent: I'm sorry for the inconvenience. May I have your registered mobile number and the transaction reference ID, please?\nCustomer: It's 98XXXXXX21, and the reference is UPI2608091234.\nAgent: Thank you. I can see the transaction is showing as pending on our end. This can happen due to a brief delay with the payment gateway. It typically auto-resolves within 30-60 minutes.\nCustomer: It's already been 3 hours.\nAgent: Understood, in that case I'll raise this for manual reconciliation right away. You'll receive an SMS update within 24 hours, and if it isn't auto-credited by then, the amount will be automatically reversed to your source account.\nCustomer: Okay, thank you.\nAgent: You're welcome. Is there anything else I can help you with today?\nCustomer: No, that's all.\nAgent: Thank you for calling NovaTel, have a great day!",
+  "file_path": "data\\raw\\unstructured\\transcripts\\TRX_001.md",
+  "file_type": "markdown"
+}

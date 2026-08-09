@@ -1,0 +1,16 @@
+{
+  "document_id": "TRX_005",
+  "title": "Slow 4G Data Speed Complaint",
+  "document_type": "Support Transcript",
+  "category": "C09",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-26",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Call Transcript: Slow 4G Data Speed Complaint\n\n**Document ID:** TRX_005\n**Category:** C09 — Data Services & Speed\n**Department:** Network\n**Channel:** Voice (Call Centre)\n**Date:** 2026-05-06\n\n---\n\nAgent: NovaTel technical support, this is Divya.\nCustomer: My internet has been really slow the past two days.\nAgent: I'm sorry to hear that. Could you run a speed test from Network > Speed Test in the app and tell me the result?\nCustomer: It shows 0.8 Mbps.\nAgent: Thank you. Let me check your data usage... I see you've crossed your plan's daily high-speed data limit, so Fair Usage Policy has capped your speed for today. This resets at midnight.\nCustomer: Oh I didn't realise that.\nAgent: No problem — you can also purchase a Data Booster pack from the app for immediate high-speed data if you need it now.\nCustomer: I'll do that, thanks!",
+  "file_path": "data\\raw\\unstructured\\transcripts\\TRX_005.md",
+  "file_type": "markdown"
+}

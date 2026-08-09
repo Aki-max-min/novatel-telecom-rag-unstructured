@@ -1,0 +1,16 @@
+{
+  "document_id": "REL_2026_07",
+  "title": "My NovaTel App v7.4.0",
+  "document_type": "Release Notes",
+  "category": "GENERAL",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-12",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Release Notes: My NovaTel App v7.4.0\n\n**Document ID:** REL_2026_07\n**Release Date:** 2026-05-28\n**Version:** 1.0\n\n## Changes\n- Added biometric login support (fingerprint/face unlock)\n- Fixed an issue where OTP resend was disabled for longer than intended after failed attempts\n- Improved bill breakdown screen with expandable line items\n- Accessibility: improved screen-reader labelling across the Billing and Recharge sections",
+  "file_path": "data\\raw\\unstructured\\release_notes\\REL_2026_07.md",
+  "file_type": "markdown"
+}

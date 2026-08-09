@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C18_035",
+  "question": "I think my SIM was swapped fraudulently \u2014 what should I do immediately?",
+  "answer": "Call our 24x7 fraud helpline immediately to block the SIM, then visit a store with ID to reissue a verified SIM. Also alert your bank if the number is linked to banking OTPs, and file a complaint with local cyber-crime authorities.",
+  "category": "C18",
+  "category_name": "Security & Fraud",
+  "department": "Security",
+  "customer_scope": "all",
+  "last_updated": "2026-07-12",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C18_overview"
+  ],
+  "tags": [
+    "security",
+    "c18"
+  ]
+}

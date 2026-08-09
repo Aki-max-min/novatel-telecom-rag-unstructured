@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C23_046_chunk_000",
+  "document_id": "FAQ_C23_046",
+  "chunk_index": 0,
+  "text": "Question: How do we add or remove numbers from our corporate account in bulk?\n\nAnswer: Bulk additions/removals are handled through your dedicated Enterprise Account Manager or via the Enterprise Self-Care portal's bulk-upload (CSV) feature, subject to standard KYC for each new connection.\n\nTopic: Enterprise & Business Services",
+  "title": "How do we add or remove numbers from our corporate account in bulk?",
+  "document_type": "FAQ",
+  "category": "C23",
+  "department": "Enterprise Sales",
+  "customer_scope": "enterprise",
+  "version": "1.0",
+  "last_updated": "2026-06-21",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C23_overview"
+  ],
+  "tags": [
+    "enterprise",
+    "c23"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C23_046.json",
+  "file_type": "json"
+}

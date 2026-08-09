@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C27_054",
+  "question": "Is the My NovaTel app compatible with screen readers?",
+  "answer": "Yes, the app is developed to align with WCAG 2.1 AA guidelines and is compatible with major mobile screen readers (TalkBack/VoiceOver). Report any accessibility issue via Help > Feedback > Accessibility Issue.",
+  "category": "C27",
+  "category_name": "Accessibility Services",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "last_updated": "2026-06-05",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C27_overview"
+  ],
+  "tags": [
+    "accessibility",
+    "c27"
+  ]
+}

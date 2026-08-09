@@ -1,0 +1,16 @@
+{
+  "document_id": "TRX_006",
+  "title": "FTTH Broadband Down — Red Light on ONT",
+  "document_type": "Support Transcript",
+  "category": "C25",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Call Transcript: FTTH Broadband Down — Red Light on ONT\n\n**Document ID:** TRX_006\n**Category:** C25 — Broadband & FTTH Services\n**Department:** Network\n**Channel:** Voice (Call Centre)\n**Date:** 2026-07-25\n\n---\n\nAgent: NovaTel broadband support, this is Sanjay.\nCustomer: My internet is down, the light on the box is red.\nAgent: Understood. Could you confirm the fibre cable is firmly connected to the ONT and hasn't been bent sharply anywhere?\nCustomer: It looks connected fine.\nAgent: In that case this is likely a fibre-line issue on our side. I'm logging a fault ticket now — reference FT-2026-33012. A technician will visit within 24 hours.\nCustomer: Is there compensation for the downtime?\nAgent: If the outage exceeds our published SLA, a bill credit is applied automatically to your next cycle — no action needed on your part.\nCustomer: Okay, thank you.",
+  "file_path": "data\\raw\\unstructured\\transcripts\\TRX_006.md",
+  "file_type": "markdown"
+}

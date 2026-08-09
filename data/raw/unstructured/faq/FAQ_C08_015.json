@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C08_015",
+  "question": "Why is there no network coverage in my area?",
+  "answer": "Coverage gaps can result from terrain/building obstruction, an outage under investigation, or the area being outside current tower footprint. Check Network > Coverage Map in the app for real-time status, or report the location so our Network team can log it for planning.",
+  "category": "C08",
+  "category_name": "Network Coverage & Outages",
+  "department": "Network",
+  "customer_scope": "all",
+  "last_updated": "2026-08-03",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C08_overview"
+  ],
+  "tags": [
+    "network",
+    "c08"
+  ]
+}

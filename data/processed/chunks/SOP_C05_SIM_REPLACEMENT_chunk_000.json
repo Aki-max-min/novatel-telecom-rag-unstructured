@@ -1,0 +1,20 @@
+{
+  "chunk_id": "SOP_C05_SIM_REPLACEMENT_chunk_000",
+  "document_id": "SOP_C05_SIM_REPLACEMENT",
+  "chunk_index": 0,
+  "text": "Issuing a Duplicate/Replacement SIM\n\nDocument ID: SOP_C05_SIM_REPLACEMENT\n\nCategory: C05 — SIM Card Services\n\nDepartment: Customer Care\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nPurpose\n\nTo standardise the process for issuing a replacement SIM for lost, damaged, or swapped SIM cards while preventing fraudulent reissue.\n\nScope\n\nApplies to all in-store and video-KYC based SIM replacement requests.\n\nProcedure\n\nVerify customer identity against KYC records (photo ID match, or video-KYC liveness check).\n\nConfirm no active fraud flag exists on the account before proceeding.\n\nIssue new SIM with same number; deactivate old SIM as part of the same transaction.\n\nInstruct customer to restart device and confirm network registration before leaving the store / ending the session.\n\nLog the replacement reason code (lost/damaged/swap/device change) in the CRM.\n\nExceptions\n\nIf fraud is suspected at any point, halt the process and route to SOP_C18_FRAUD_RESPONSE.\n\nRelated Documents\n\nKB_C05_sim_swap_troubleshooting, FAQ_C05_002",
+  "title": "Issuing a Duplicate/Replacement SIM",
+  "document_type": "SOP",
+  "category": "C05",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c05"
+  ],
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C05_SIM_REPLACEMENT.docx",
+  "file_type": "docx"
+}

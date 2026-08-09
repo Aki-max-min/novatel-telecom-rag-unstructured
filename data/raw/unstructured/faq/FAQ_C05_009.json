@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C05_009",
+  "question": "My SIM card shows 'No Service' after I inserted it in a new phone.",
+  "answer": "Reinsert the SIM, restart the device, and confirm the correct network mode (Auto) is selected. If the issue persists, the SIM's IMSI profile may need re-registration on the network \u2014 this is common after switching devices with an eSIM/physical SIM swap. Dial the SIM-status check code or visit a store for a replacement SIM with the same number.",
+  "category": "C05",
+  "category_name": "SIM Card Services",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "last_updated": "2026-08-08",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C05_overview"
+  ],
+  "tags": [
+    "sim",
+    "c05"
+  ]
+}

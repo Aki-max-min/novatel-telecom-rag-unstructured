@@ -1,0 +1,18 @@
+{
+  "chunk_id": "EML_006_chunk_000",
+  "document_id": "EML_006",
+  "chunk_index": 0,
+  "text": "# Sample Email: Network Speed Complaint Follow-up\n\n**Document ID:** EML_006\n**Category:** C09 — Data Services & Speed\n**Department:** Network\n**Date:** 2026-08-01\n\n---\n\n**Subject: Update on Your Data Speed Concern**\n\nDear Customer,\n\nThank you for reporting slow data speeds. On review, your account had crossed the high-speed data allowance under your current plan, triggering Fair Usage Policy throttling. This resets automatically on your next billing cycle date.\n\nIf you require additional high-speed data before then, Data Booster packs are available under Recharge > Add-ons in the app.\n\nRegards,\nNovaTel Technical Support",
+  "title": "Network Speed Complaint Follow-up",
+  "document_type": "Sample Email",
+  "category": "C09",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-17",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\emails\\EML_006.md",
+  "file_type": "markdown"
+}

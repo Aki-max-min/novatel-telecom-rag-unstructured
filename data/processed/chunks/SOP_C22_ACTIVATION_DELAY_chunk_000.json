@@ -1,0 +1,20 @@
+{
+  "chunk_id": "SOP_C22_ACTIVATION_DELAY_chunk_000",
+  "document_id": "SOP_C22_ACTIVATION_DELAY",
+  "chunk_index": 0,
+  "text": "New Connection Activation Delay Resolution\n\nDocument ID: SOP_C22_ACTIVATION_DELAY\n\nCategory: C22 — New Connection Activation\n\nDepartment: Customer Care\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nPurpose\n\nTo resolve cases where a new SIM has not activated within the expected service window.\n\nProcedure\n\nCheck Activation Status for a rejection or pending-reason code.\n\nIf KYC document mismatch is the cause, contact customer for re-submission.\n\nIf a provisioning delay is confirmed with no document issue, escalate to Network Provisioning for manual activation.\n\nTarget resolution: 48 hours (prepaid), 72 hours (postpaid) from original activation request.\n\nRelated Documents\n\nKB_C22_new_activation_delay",
+  "title": "New Connection Activation Delay Resolution",
+  "document_type": "SOP",
+  "category": "C22",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c22"
+  ],
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C22_ACTIVATION_DELAY.docx",
+  "file_type": "docx"
+}

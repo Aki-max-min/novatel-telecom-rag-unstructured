@@ -1,0 +1,21 @@
+{
+  "document_id": "KB_C16_complaint_escalation",
+  "title": "Navigating the Complaint Escalation Ladder",
+  "document_type": "KB Article",
+  "category": "C16",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-26",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C16_001"
+  ],
+  "tags": [
+    "c16",
+    "how-to"
+  ],
+  "content": "# Navigating the Complaint Escalation Ladder\n\n**Document ID:** KB_C16_complaint_escalation\n**Category:** C16 — Complaints & Grievances\n**Department:** Customer Care\n**Last Updated:** 2026-06-07\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nExplains the tiered escalation path for unresolved complaints, per TRAI's grievance redressal framework.\n\n## Escalation Tiers\n\n1. Customer Care (first contact) — target 3-7 working days\n2. Nodal Officer (circle-level) — if unresolved after Tier 1 SLA\n2. Appellate Authority — if unresolved after Nodal Officer response\n3. Consumer forum / TRAI (external, last resort)\n\n## How to Escalate\n\nUse Help > Escalate Complaint in-app, quoting the original ticket number at each tier.",
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C16_complaint_escalation.md",
+  "file_type": "markdown"
+}

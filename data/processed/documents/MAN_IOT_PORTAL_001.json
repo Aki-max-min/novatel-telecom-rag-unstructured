@@ -1,0 +1,16 @@
+{
+  "document_id": "MAN_IOT_PORTAL_001",
+  "title": "Enterprise IoT Management Portal — Quick Start",
+  "document_type": "User Manual",
+  "category": "C24",
+  "department": "Enterprise Sales",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-20",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Enterprise IoT Management Portal — Quick Start\n\n**Document ID:** MAN_IOT_PORTAL_001\n**Category:** C24 — IoT & M2M Services\n**Last Updated:** 2026-06-05\n**Version:** 1.0\n\n---\n\n## Purpose\n\nGuide for enterprise administrators managing bulk IoT/M2M SIM fleets.\n\n## Key Functions\n\n- Bulk activate/suspend/terminate SIMs\n- Usage-anomaly alert configuration\n- API key management for programmatic access\n- Data-pool allocation across SIM groups\n\n## Getting Access\n\nProvisioned by your NovaTel Enterprise Account Manager upon contract signature; login credentials are issued to the registered admin email.",
+  "file_path": "data\\raw\\unstructured\\manuals\\MAN_IOT_PORTAL_001.md",
+  "file_type": "markdown"
+}

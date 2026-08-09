@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C10_020",
+  "question": "How do I set up a personalised caller tune?",
+  "answer": "Open VAS > Caller Tunes in the app, browse or search the catalogue, and select 'Set as Caller Tune'. Charges and validity are shown before confirmation; the tune activates within a few hours.",
+  "category": "C10",
+  "category_name": "Value Added Services (VAS)",
+  "department": "Product",
+  "customer_scope": "prepaid",
+  "last_updated": "2026-08-03",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C10_overview"
+  ],
+  "tags": [
+    "value",
+    "c10"
+  ]
+}

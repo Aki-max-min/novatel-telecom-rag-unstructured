@@ -1,0 +1,21 @@
+{
+  "document_id": "KB_C07_roaming_activation",
+  "title": "Activating and Managing International Roaming",
+  "document_type": "KB Article",
+  "category": "C07",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-09",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C07_001"
+  ],
+  "tags": [
+    "c07",
+    "how-to"
+  ],
+  "content": "# Activating and Managing International Roaming\n\n**Document ID:** KB_C07_roaming_activation\n**Category:** C07 — Roaming\n**Department:** Product\n**Last Updated:** 2026-06-30\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nGuidance on preparing a NovaTel connection for international travel.\n\n## Pre-Departure Checklist\n\n- Activate an IR pack matching destination and duration\n- Confirm device band compatibility for destination country\n- Enable data roaming in device settings on arrival\n- Save the international emergency helpline number\n\n## Managing Usage Abroad\n\nTrack real-time roaming usage under Roaming > Usage Tracker to avoid unexpected charges after the pack is exhausted.",
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C07_roaming_activation.md",
+  "file_type": "markdown"
+}

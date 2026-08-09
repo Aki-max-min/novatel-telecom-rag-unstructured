@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C16_032",
+  "title": "What is the standard resolution timeline for a service complaint?",
+  "document_type": "FAQ",
+  "category": "C16",
+  "department": "Customer Care",
+  "customer_scope": "prepaid",
+  "version": "1.0",
+  "last_updated": "2026-04-25",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C16_overview"
+  ],
+  "tags": [
+    "complaints",
+    "c16"
+  ],
+  "content": "Question: What is the standard resolution timeline for a service complaint?\n\nAnswer: Most service complaints (billing disputes, service requests) are targeted for resolution within 3-7 working days depending on category and complexity; network-related complaints may take longer if field investigation is required.\n\nTopic: Complaints & Grievances",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C16_032.json",
+  "file_type": "json"
+}

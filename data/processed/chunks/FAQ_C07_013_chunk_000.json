@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C07_013_chunk_000",
+  "document_id": "FAQ_C07_013",
+  "chunk_index": 0,
+  "text": "Question: How do I activate international roaming before travelling?\n\nAnswer: Activate an International Roaming (IR) pack from the app under Roaming > International Packs at least 4-6 hours before departure. Ensure your device supports the destination network's bands and that data roaming is toggled on in device settings on arrival.\n\nTopic: Roaming",
+  "title": "How do I activate international roaming before travelling?",
+  "document_type": "FAQ",
+  "category": "C07",
+  "department": "Product",
+  "customer_scope": "prepaid",
+  "version": "1.0",
+  "last_updated": "2026-07-27",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C07_overview"
+  ],
+  "tags": [
+    "roaming",
+    "c07"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C07_013.json",
+  "file_type": "json"
+}

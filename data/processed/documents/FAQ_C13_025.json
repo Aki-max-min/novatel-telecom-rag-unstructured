@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C13_025",
+  "title": "I can't log in to the My NovaTel app — it says 'OTP not received'.",
+  "document_type": "FAQ",
+  "category": "C13",
+  "department": "Digital Channels",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-15",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C13_overview"
+  ],
+  "tags": [
+    "app",
+    "c13"
+  ],
+  "content": "Question: I can't log in to the My NovaTel app — it says 'OTP not received'.\n\nAnswer: Ensure the registered SIM has network signal and isn't blocking service SMS. Try 'Resend OTP' after 30 seconds, or use the 'Login via Missed Call' alternative if enabled. Persistent failures may indicate an SMS-delivery issue with your handset's spam filter.\n\nTopic: App & Self-Care Portal",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C13_025.json",
+  "file_type": "json"
+}

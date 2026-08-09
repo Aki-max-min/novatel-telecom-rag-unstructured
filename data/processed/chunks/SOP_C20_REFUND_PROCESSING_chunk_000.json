@@ -1,0 +1,20 @@
+{
+  "chunk_id": "SOP_C20_REFUND_PROCESSING_chunk_000",
+  "document_id": "SOP_C20_REFUND_PROCESSING",
+  "chunk_index": 0,
+  "text": "Duplicate Charge and Billing Refund Processing\n\nDocument ID: SOP_C20_REFUND_PROCESSING\n\nCategory: C20 — Refunds & Adjustments\n\nDepartment: Billing\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nPurpose\n\nTo standardise validation and issuance of refunds for duplicate or erroneous charges.\n\nProcedure\n\nValidate the disputed transaction(s) against the payment gateway ledger.\n\nApprove refund if duplication or billing error is confirmed.\n\nIssue refund to source (5-7 working days) or as account credit (instant to 24 hours), per customer preference where offered.\n\nRecord refund reason code for monthly billing-quality reporting.\n\nRelated Documents\n\nKB_C20_refund_processing",
+  "title": "Duplicate Charge and Billing Refund Processing",
+  "document_type": "SOP",
+  "category": "C20",
+  "department": "Billing",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c20"
+  ],
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C20_REFUND_PROCESSING.docx",
+  "file_type": "docx"
+}

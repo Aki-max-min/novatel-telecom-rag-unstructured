@@ -1,0 +1,21 @@
+{
+  "document_id": "KB_C22_new_activation_delay",
+  "title": "Diagnosing Delayed New SIM Activation",
+  "document_type": "KB Article",
+  "category": "C22",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-02",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C22_001"
+  ],
+  "tags": [
+    "c22",
+    "how-to"
+  ],
+  "content": "# Diagnosing Delayed New SIM Activation\n\n**Document ID:** KB_C22_new_activation_delay\n**Category:** C22 — New Connection Activation\n**Department:** Customer Care\n**Last Updated:** 2026-07-06\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nRoot-cause checklist when a new SIM has not activated within the expected window.\n\n## Checklist\n\n- Confirm KYC document match (name/photo legible, address current)\n- Check Activation Status in-app for a rejection reason code\n- Confirm no duplicate active connection exists on the same ID exceeding regulatory connection limits\n\n## Escalation\n\nDelays beyond 48 hours (prepaid) or 72 hours (postpaid) should be escalated per SOP_C22_ACTIVATION_DELAY.",
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C22_new_activation_delay.md",
+  "file_type": "markdown"
+}

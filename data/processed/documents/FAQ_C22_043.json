@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C22_043",
+  "title": "How long does new SIM activation take after purchase?",
+  "document_type": "FAQ",
+  "category": "C22",
+  "department": "Customer Care",
+  "customer_scope": "prepaid",
+  "version": "1.0",
+  "last_updated": "2026-05-20",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C22_overview"
+  ],
+  "tags": [
+    "new",
+    "c22"
+  ],
+  "content": "Question: How long does new SIM activation take after purchase?\n\nAnswer: Prepaid SIMs with completed KYC typically activate within a few hours to 24 hours. Postpaid connections may take up to 48 hours pending credit/address verification, per regulatory activation procedures.\n\nTopic: New Connection Activation",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C22_043.json",
+  "file_type": "json"
+}

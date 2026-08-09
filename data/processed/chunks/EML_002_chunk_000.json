@@ -1,0 +1,18 @@
+{
+  "chunk_id": "EML_002_chunk_000",
+  "document_id": "EML_002",
+  "chunk_index": 0,
+  "text": "# Sample Email: Recharge Reconciliation Confirmation\n\n**Document ID:** EML_002\n**Category:** C03 — Recharge & Payments\n**Department:** Finance\n**Date:** 2026-07-15\n\n---\n\n**Subject: Your Recharge Has Been Successfully Credited**\n\nDear Customer,\n\nWe're pleased to confirm that your recharge of ₹299 (Transaction Ref: UPI2608091234), which was previously pending, has now been successfully credited to your account. Your new plan validity is reflected in the My NovaTel app.\n\nWe apologise for the delay and any inconvenience caused.\n\nRegards,\nNovaTel Customer Care",
+  "title": "Recharge Reconciliation Confirmation",
+  "document_type": "Sample Email",
+  "category": "C03",
+  "department": "Finance",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-04",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\emails\\EML_002.md",
+  "file_type": "markdown"
+}

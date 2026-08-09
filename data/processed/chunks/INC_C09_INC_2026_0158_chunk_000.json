@@ -1,0 +1,21 @@
+{
+  "chunk_id": "INC_C09_INC_2026_0158_chunk_000",
+  "document_id": "INC_C09_INC_2026_0158",
+  "chunk_index": 0,
+  "text": "# Incident Report: Data Speed Degradation During IPL Match\n\n**Incident ID:** INC-2026-0158\n**Category:** C09 — Data Services & Speed\n**Region:** Bengaluru Circle\n**Severity:** P2\n**Department:** Network\n**Date Logged:** 2026-03-24\n**Status:** Resolved\n\n## Summary\nLocalised congestion at 6 sites near a stadium during a high-footfall event caused sustained data speed drops.\n\n## Timeline\nCongestion alarms triggered at 19:05 IST; temporary capacity boost via portable COW (Cell on Wheels) deployed by 20:10; normal service resumed post-event.\n\n## Customer Impact\nEstimated customers affected and service categories impacted are recorded in the internal incident-management system (ref: INC-2026-0158). Customer-facing status was published under Network > Service Status for the outage duration.\n\n## Resolution\nService was restored per the timeline above. A follow-up Root Cause Analysis is tracked separately where applicable (see related_ids).\n\n## Preventive Actions\nPreventive/corrective actions arising from this incident are tracked in the linked RCA document, where one was raised.",
+  "title": "Data Speed Degradation During IPL Match",
+  "document_type": "Incident Report",
+  "category": "C09",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-12",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "p2",
+    "bengaluru_circle"
+  ],
+  "file_path": "data\\raw\\unstructured\\incidents\\INC_C09_INC_2026_0158.md",
+  "file_type": "markdown"
+}

@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C09_018",
+  "title": "What does 'FUP applied' mean on my data usage?",
+  "document_type": "FAQ",
+  "category": "C09",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-21",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C09_overview"
+  ],
+  "tags": [
+    "data",
+    "c09"
+  ],
+  "content": "Question: What does 'FUP applied' mean on my data usage?\n\nAnswer: Fair Usage Policy (FUP) applies once you exceed the high-speed data limit included in your plan; speeds are then typically reduced (e.g., to 64/128/512 kbps) for the remainder of the billing cycle rather than data being stopped entirely.\n\nTopic: Data Services & Speed",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C09_018.json",
+  "file_type": "json"
+}

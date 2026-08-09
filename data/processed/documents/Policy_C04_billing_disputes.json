@@ -1,0 +1,18 @@
+{
+  "document_id": "Policy_C04_billing_disputes",
+  "title": "Billing Dispute Resolution Policy",
+  "document_type": "Policy",
+  "category": "C04",
+  "department": "Billing",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c04"
+  ],
+  "content": "Billing Dispute Resolution Policy\n\nDocument ID: Policy_C04_billing_disputes\n\nCategory: C04 — Billing & Invoices\n\nDepartment: Billing\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\n1. Purpose\n\nDefines the framework for customers to dispute billed charges and the timelines for resolution.\n\n2. Policy Statements\n\nDisputes must be raised within 90 days of the relevant bill's generation date.\n\nStandard disputes are targeted for resolution within 5-7 working days; complex usage investigations may take up to 15 working days.\n\nCharges under active dispute are not sent to external collections until resolution.\n\n3. Customer Rights\n\nCustomers dissatisfied with the dispute outcome may escalate per SOP_C16_COMPLAINT_ESCALATION, and ultimately to TRAI or a consumer forum.",
+  "file_path": "data\\raw\\unstructured\\policies\\Policy_C04_billing_disputes.docx",
+  "file_type": "docx"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C26_051_chunk_000",
+  "document_id": "FAQ_C26_051",
+  "chunk_index": 0,
+  "text": "Question: How do I register for Do Not Disturb (DND) to stop promotional calls/SMS?\n\nAnswer: Send 'START 0' via SMS to the DND short code (or use Help > DND Preferences in the app) to block all commercial communication, or 'START' followed by a category code to block specific categories only, per TRAI's DND regulations.\n\nTopic: DND & Spam Management",
+  "title": "How do I register for Do Not Disturb (DND) to stop promotional calls/SMS?",
+  "document_type": "FAQ",
+  "category": "C26",
+  "department": "Regulatory",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-26",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C26_overview"
+  ],
+  "tags": [
+    "dnd",
+    "c26"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C26_051.json",
+  "file_type": "json"
+}

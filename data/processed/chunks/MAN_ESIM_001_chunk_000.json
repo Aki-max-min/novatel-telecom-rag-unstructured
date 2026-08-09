@@ -1,0 +1,18 @@
+{
+  "chunk_id": "MAN_ESIM_001_chunk_000",
+  "document_id": "MAN_ESIM_001",
+  "chunk_index": 0,
+  "text": "# Activating an eSIM on a Compatible Device\n\n**Document ID:** MAN_ESIM_001\n**Category:** C05 — SIM Card Services\n**Last Updated:** 2026-07-22\n**Version:** 1.0\n\n---\n\n## Requirements\n\nAn eSIM-compatible, network-unlocked device and an active NovaTel connection eligible for eSIM conversion.\n\n## Steps\n\n1. Request eSIM conversion via SIM Services > eSIM in the app.\n2. Scan the QR code emailed/displayed upon approval using Settings > Add Cellular Plan.\n3. Wait for activation confirmation (typically within 10 minutes).\n\n## Notes\n\nThe physical SIM is deactivated automatically once the eSIM profile is confirmed active.",
+  "title": "Activating an eSIM on a Compatible Device",
+  "document_type": "User Manual",
+  "category": "C05",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-16",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\manuals\\MAN_ESIM_001.md",
+  "file_type": "markdown"
+}

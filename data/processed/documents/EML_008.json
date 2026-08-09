@@ -1,0 +1,16 @@
+{
+  "document_id": "EML_008",
+  "title": "KYC Re-verification Reminder",
+  "document_type": "Sample Email",
+  "category": "C17",
+  "department": "Compliance",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-28",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Sample Email: KYC Re-verification Reminder\n\n**Document ID:** EML_008\n**Category:** C17 — KYC & Identity Verification\n**Department:** Compliance\n**Date:** 2026-08-06\n\n---\n\n**Subject: Action Required: Complete Your KYC Re-verification by 30 August 2026**\n\nDear Customer,\n\nAs part of periodic regulatory compliance, we request you complete KYC re-verification for your connection by 30 August 2026. You can do this via Video KYC in the My NovaTel app (Account > KYC Update) or by visiting any Experience Store with original ID.\n\nPlease note that outgoing services may be suspended if this is not completed within the stated window.\n\nRegards,\nNovaTel Compliance Team",
+  "file_path": "data\\raw\\unstructured\\emails\\EML_008.md",
+  "file_type": "markdown"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C01_001_chunk_000",
+  "document_id": "FAQ_C01_001",
+  "chunk_index": 0,
+  "text": "Question: How do I update the mobile number registered on my account?\n\nAnswer: Log in to the My NovaTel app or self-care portal, go to Profile > Contact Details, and select 'Update Alternate Number'. You will need to verify via OTP sent to your existing registered number. If you no longer have access to it, visit a NovaTel Experience Store with valid photo ID.\n\nTopic: Account Management",
+  "title": "How do I update the mobile number registered on my account?",
+  "document_type": "FAQ",
+  "category": "C01",
+  "department": "Customer Care",
+  "customer_scope": "prepaid",
+  "version": "1.0",
+  "last_updated": "2026-05-06",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C01_overview"
+  ],
+  "tags": [
+    "account",
+    "c01"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C01_001.json",
+  "file_type": "json"
+}

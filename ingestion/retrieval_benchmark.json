@@ -1,0 +1,271 @@
+[
+  {
+    "question_id": "Q01",
+    "category": "C01",
+    "question": "I don't have access to my old registered phone number anymore. How can I update the number on my account?",
+    "expected_document_ids": ["FAQ_C01_001"]
+  },
+  {
+    "question_id": "Q02",
+    "category": "C02",
+    "question": "How can I check when my current prepaid plan will stop being valid?",
+    "expected_document_ids": [
+      "FAQ_C02_003",
+      "KB_C02_plan_expiry",
+      "Policy_C02_plan_lifecycle"
+    ]
+  },
+  {
+    "question_id": "Q03",
+    "category": "C03",
+    "question": "Money was deducted when I tried to recharge, but the recharge hasn't appeared on my account. What should I do?",
+    "expected_document_ids": [
+      "FAQ_C03_005",
+      "KB_C03_recharge_failures",
+      "TRX_001"
+    ]
+  },
+  {
+    "question_id": "Q04",
+    "category": "C04",
+    "question": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
+    "expected_document_ids": [
+      "FAQ_C04_007",
+      "KB_C04_bill_disputes"
+    ]
+  },
+  {
+    "question_id": "Q05",
+    "category": "C05",
+    "question": "I put my SIM into another phone and now it says there is no network. What can I do?",
+    "expected_document_ids": [
+      "FAQ_C05_009",
+      "KB_C05_sim_swap_troubleshooting"
+    ]
+  },
+  {
+    "question_id": "Q06",
+    "category": "C06",
+    "question": "If I move my existing number to NovaTel, how long will the porting process take?",
+    "expected_document_ids": [
+      "FAQ_C06_011",
+      "KB_C06_porting_process"
+    ]
+  },
+  {
+    "question_id": "Q07",
+    "category": "C07",
+    "question": "I'm travelling outside India. How do I turn on international roaming before I leave?",
+    "expected_document_ids": [
+      "FAQ_C07_013",
+      "KB_C07_roaming_activation"
+    ]
+  },
+  {
+    "question_id": "Q08",
+    "category": "C08",
+    "question": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+    "expected_document_ids": [
+      "FAQ_C08_015",
+      "KB_C08_outage_status_check"
+    ]
+  },
+  {
+    "question_id": "Q09",
+    "category": "C09",
+    "question": "My mobile internet has become much slower than usual. Could a data usage limit be causing this?",
+    "expected_document_ids": [
+      "FAQ_C09_017",
+      "FAQ_C09_018",
+      "KB_C09_fup_data_speed"
+    ]
+  },
+  {
+    "question_id": "Q10",
+    "category": "C10",
+    "question": "I was subscribed to a service I don't remember requesting. How can I cancel it?",
+    "expected_document_ids": [
+      "FAQ_C10_019",
+      "SOP_C10_VAS_DISPUTE"
+    ]
+  },
+  {
+    "question_id": "Q11",
+    "category": "C11",
+    "question": "How much will I be charged if I call or send an SMS to a number in another country?",
+    "expected_document_ids": [
+      "FAQ_C11_021"
+    ]
+  },
+  {
+    "question_id": "Q12",
+    "category": "C12",
+    "question": "How do I check whether my handset supports NovaTel 5G and VoLTE?",
+    "expected_document_ids": [
+      "FAQ_C12_023",
+      "FAQ_C12_024",
+      "MAN_DEVICE_VOLTE_001"
+    ]
+  },
+  {
+    "question_id": "Q13",
+    "category": "C13",
+    "question": "The OTP for signing into the My NovaTel app isn't arriving. How can I log in?",
+    "expected_document_ids": [
+      "FAQ_C13_025",
+      "KB_C13_selfcare_login_issues"
+    ]
+  },
+  {
+    "question_id": "Q14",
+    "category": "C14",
+    "question": "Are there any special recharge offers available specifically for my mobile number?",
+    "expected_document_ids": [
+      "FAQ_C14_027",
+      "EML_009"
+    ]
+  },
+  {
+    "question_id": "Q15",
+    "category": "C15",
+    "question": "I had Gold loyalty status before, but now I'm Silver. Why did my loyalty tier change?",
+    "expected_document_ids": [
+      "FAQ_C15_030"
+    ]
+  },
+  {
+    "question_id": "Q16",
+    "category": "C16",
+    "question": "I've already complained about this issue but nobody has resolved it. How can I escalate my complaint?",
+    "expected_document_ids": [
+      "FAQ_C16_031",
+      "KB_C16_complaint_escalation",
+      "TRX_003"
+    ]
+  },
+  {
+    "question_id": "Q17",
+    "category": "C17",
+    "question": "What documents do I need to provide if NovaTel asks me to complete KYC verification again?",
+    "expected_document_ids": [
+      "FAQ_C17_033",
+      "FAQ_C17_034",
+      "KB_C17_kyc_reverification"
+    ]
+  },
+  {
+    "question_id": "Q18",
+    "category": "C18",
+    "question": "I think someone has fraudulently replaced my SIM. What should I do immediately?",
+    "expected_document_ids": [
+      "FAQ_C18_035",
+      "KB_C18_fraud_response",
+      "TRX_002"
+    ]
+  },
+  {
+    "question_id": "Q19",
+    "category": "C19",
+    "question": "What happens to my call and location information, and how does NovaTel use it?",
+    "expected_document_ids": [
+      "FAQ_C19_037",
+      "KB_C19_privacy_data_requests",
+      "Policy_C19_privacy_policy"
+    ]
+  },
+  {
+    "question_id": "Q20",
+    "category": "C20",
+    "question": "I was charged twice for the same recharge. How can I get the extra amount refunded?",
+    "expected_document_ids": [
+      "FAQ_C20_039",
+      "KB_C20_refund_processing",
+      "SOP_C20_REFUND_PROCESSING",
+      "Policy_C20_refund_policy"
+    ]
+  },
+  {
+    "question_id": "Q21",
+    "category": "C21",
+    "question": "I want to permanently close my postpaid connection. How do I do that?",
+    "expected_document_ids": [
+      "FAQ_C21_041",
+      "KB_C21_account_closure"
+    ]
+  },
+  {
+    "question_id": "Q22",
+    "category": "C22",
+    "question": "I bought a new SIM but it still isn't active after a full day. What should I do?",
+    "expected_document_ids": [
+      "FAQ_C22_044",
+      "KB_C22_new_activation_delay",
+      "SOP_C22_ACTIVATION_DELAY"
+    ]
+  },
+  {
+    "question_id": "Q23",
+    "category": "C23",
+    "question": "What does a NovaTel enterprise connectivity plan include for a business?",
+    "expected_document_ids": [
+      "FAQ_C23_045",
+      "KB_C23_enterprise_onboarding",
+      "TARIFF_POSTPAID_2026H2",
+      "Policy_C23_enterprise_terms"
+    ]
+  },
+  {
+    "question_id": "Q24",
+    "category": "C24",
+    "question": "We have thousands of IoT SIM cards. How can our organisation monitor their usage?",
+    "expected_document_ids": [
+      "FAQ_C24_048",
+      "MAN_IOT_PORTAL_001"
+    ]
+  },
+  {
+    "question_id": "Q25",
+    "category": "C25",
+    "question": "My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?",
+    "expected_document_ids": [
+      "FAQ_C25_049",
+      "KB_C25_ftth_fault_diagnosis",
+      "MAN_ROUTER_001"
+    ]
+  },
+  {
+    "question_id": "Q26",
+    "category": "C26",
+    "question": "I registered for DND but I'm still receiving promotional calls. How can I report this?",
+    "expected_document_ids": [
+      "FAQ_C26_052",
+      "KB_C26_dnd_registration"
+    ]
+  },
+  {
+    "question_id": "Q27",
+    "category": "C27",
+    "question": "Does the My NovaTel app work with screen readers for visually impaired users?",
+    "expected_document_ids": [
+      "FAQ_C27_054"
+    ]
+  },
+  {
+    "question_id": "Q28",
+    "category": "C28",
+    "question": "What is TRAI's role in regulating telecom operators like NovaTel?",
+    "expected_document_ids": [
+      "FAQ_C28_055",
+      "Policy_C28_regulatory_compliance"
+    ]
+  },
+  {
+    "question_id": "Q29",
+    "category": "C29",
+    "question": "My phone says the SIM isn't provisioned for voice calls. How can I fix this?",
+    "expected_document_ids": [
+      "FAQ_C29_057",
+      "KB_C29_network_reset_guide"
+    ]
+  }
+]

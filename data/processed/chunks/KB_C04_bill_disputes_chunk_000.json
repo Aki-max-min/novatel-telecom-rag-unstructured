@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C04_bill_disputes_chunk_000",
+  "document_id": "KB_C04_bill_disputes",
+  "chunk_index": 0,
+  "text": "# Reading and Disputing Your Postpaid Bill\n\n**Document ID:** KB_C04_bill_disputes\n**Category:** C04 — Billing & Invoices\n**Department:** Billing\n**Last Updated:** 2026-06-28\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nExplains bill components and the dispute process for postpaid customers.\n\n## Bill Components\n\n- Base plan rental (pro-rated if mid-cycle change)\n- Usage beyond plan allowance\n- One-time/VAS charges\n- Taxes (GST)\n- Adjustments/credits from prior cycles\n\n## Raising a Dispute\n\nUse Billing > Dispute Charge, selecting the specific line item. Disputes must be raised within 90 days of bill generation per Policy_C04_billing_disputes.\n\n## Resolution Timeline\n\nMost disputes are resolved within 5-7 working days; complex usage investigations may take up to 15 working days.",
+  "title": "Reading and Disputing Your Postpaid Bill",
+  "document_type": "KB Article",
+  "category": "C04",
+  "department": "Billing",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-07",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C04_001"
+  ],
+  "tags": [
+    "c04",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C04_bill_disputes.md",
+  "file_type": "markdown"
+}

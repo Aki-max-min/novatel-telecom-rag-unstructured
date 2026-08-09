@@ -1,0 +1,16 @@
+{
+  "document_id": "EML_004",
+  "title": "Number Porting Confirmation",
+  "document_type": "Sample Email",
+  "category": "C06",
+  "department": "Regulatory",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-13",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Sample Email: Number Porting Confirmation\n\n**Document ID:** EML_004\n**Category:** C06 — Number Portability (MNP)\n**Department:** Regulatory\n**Date:** 2026-07-29\n\n---\n\n**Subject: Your Number Porting Request Has Been Confirmed**\n\nDear Customer,\n\nYour request to port number 98XXXXXX21 to NovaTel has been approved. Porting is expected to complete within 2 working days. You will receive an SMS once your new NovaTel SIM is ready for activation — please insert it only after receiving this confirmation.\n\nThank you for choosing NovaTel.\n\nRegards,\nNovaTel Onboarding Team",
+  "file_path": "data\\raw\\unstructured\\emails\\EML_004.md",
+  "file_type": "markdown"
+}

@@ -1,0 +1,21 @@
+{
+  "document_id": "KB_C19_privacy_data_requests",
+  "title": "Handling Customer Data Access and Deletion Requests",
+  "document_type": "KB Article",
+  "category": "C19",
+  "department": "Legal",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-23",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C19_001"
+  ],
+  "tags": [
+    "c19",
+    "how-to"
+  ],
+  "content": "# Handling Customer Data Access and Deletion Requests\n\n**Document ID:** KB_C19_privacy_data_requests\n**Category:** C19 — Privacy & Data Protection\n**Department:** Legal\n**Last Updated:** 2026-07-23\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nExplains the process for a customer requesting a copy or deletion of their personal data.\n\n## Process\n\n1. Customer submits request via Privacy Settings > My Data.\n2. Identity is verified.\n3. Data export/deletion is actioned within the regulatory timeline (typically 30 days).\n4. Certain records (e.g., Call Detail Records) are retained per statutory minimum retention periods even after deletion requests, per Policy_C19_privacy_policy.",
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C19_privacy_data_requests.md",
+  "file_type": "markdown"
+}

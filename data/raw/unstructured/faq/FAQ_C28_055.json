@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C28_055",
+  "question": "What is TRAI and how does it regulate NovaTel's services?",
+  "answer": "The Telecom Regulatory Authority of India (TRAI) is the sector regulator responsible for tariff oversight, quality-of-service benchmarks, consumer-protection rules (DND, KYC, MNP), and licence compliance for all telecom operators, including NovaTel.",
+  "category": "C28",
+  "category_name": "Regulatory & Compliance (TRAI)",
+  "department": "Legal",
+  "customer_scope": "postpaid",
+  "last_updated": "2026-06-05",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C28_overview"
+  ],
+  "tags": [
+    "regulatory",
+    "c28"
+  ]
+}

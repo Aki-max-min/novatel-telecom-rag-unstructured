@@ -1,0 +1,20 @@
+{
+  "chunk_id": "SOP_C10_VAS_DISPUTE_chunk_000",
+  "document_id": "SOP_C10_VAS_DISPUTE",
+  "chunk_index": 0,
+  "text": "Handling Unauthorised VAS Subscription Complaints\n\nDocument ID: SOP_C10_VAS_DISPUTE\n\nCategory: C10 — Value Added Services (VAS)\n\nDepartment: Product\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nPurpose\n\nTo ensure unauthorised Value Added Service (VAS) charges are investigated and refunded consistently, per consent-based subscription regulations.\n\nProcedure\n\nPull the VAS activation log for the disputed service, including channel (SMS/USSD/WAP click/app) and timestamp.\n\nIf consent cannot be clearly evidenced, approve a full refund of charges for the disputed service.\n\nDeactivate the VAS immediately regardless of the consent outcome, if the customer requests deactivation.\n\nLog the activation channel for pattern analysis — repeated unconsented activations from a single VAS partner are escalated to Legal/Compliance.\n\nRelated Documents\n\nFAQ_C10_001, TRN_001",
+  "title": "Handling Unauthorised VAS Subscription Complaints",
+  "document_type": "SOP",
+  "category": "C10",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c10"
+  ],
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C10_VAS_DISPUTE.docx",
+  "file_type": "docx"
+}

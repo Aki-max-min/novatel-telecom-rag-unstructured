@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C25_050",
+  "question": "Can I get a static IP address on my home broadband plan?",
+  "answer": "Static IP is available as a paid add-on on select broadband plans, primarily intended for hosting/remote-access use cases. Request activation via Broadband > Add-ons in the self-care portal.",
+  "category": "C25",
+  "category_name": "Broadband & FTTH Services",
+  "department": "Network",
+  "customer_scope": "prepaid",
+  "last_updated": "2026-05-13",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C25_overview"
+  ],
+  "tags": [
+    "broadband",
+    "c25"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C11_022",
+  "title": "Can I call an international number that is out of network coverage in my recipient's country?",
+  "document_type": "FAQ",
+  "category": "C11",
+  "department": "Product",
+  "customer_scope": "postpaid",
+  "version": "1.0",
+  "last_updated": "2026-06-21",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C11_overview"
+  ],
+  "tags": [
+    "international",
+    "c11"
+  ],
+  "content": "Question: Can I call an international number that is out of network coverage in my recipient's country?\n\nAnswer: Call connectivity depends on the recipient's local network availability, not on your NovaTel plan. If the call fails to connect, retry later or use an internet-based calling alternative where data connectivity exists.\n\nTopic: International Calling & SMS",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C11_022.json",
+  "file_type": "json"
+}

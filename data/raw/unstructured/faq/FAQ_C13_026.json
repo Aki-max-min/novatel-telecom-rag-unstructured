@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C13_026",
+  "question": "How do I enable biometric login on the self-care app?",
+  "answer": "Go to App Settings > Security > Biometric Login and enable fingerprint or face unlock, following your device's OS prompts. This replaces password entry for subsequent logins on that device only.",
+  "category": "C13",
+  "category_name": "App & Self-Care Portal",
+  "department": "Digital Channels",
+  "customer_scope": "all",
+  "last_updated": "2026-05-11",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C13_overview"
+  ],
+  "tags": [
+    "app",
+    "c13"
+  ]
+}

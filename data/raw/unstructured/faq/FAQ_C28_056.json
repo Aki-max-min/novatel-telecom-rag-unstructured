@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C28_056",
+  "question": "Where can I find NovaTel's published Quality of Service (QoS) metrics?",
+  "answer": "Circle-wise QoS metrics (call drop rate, complaint resolution turnaround, network availability) are published quarterly on the NovaTel website's Regulatory Disclosures section, in line with TRAI reporting norms.",
+  "category": "C28",
+  "category_name": "Regulatory & Compliance (TRAI)",
+  "department": "Legal",
+  "customer_scope": "prepaid",
+  "last_updated": "2026-05-20",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C28_overview"
+  ],
+  "tags": [
+    "regulatory",
+    "c28"
+  ]
+}

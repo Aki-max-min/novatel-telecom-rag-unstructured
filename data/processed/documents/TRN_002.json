@@ -1,0 +1,16 @@
+{
+  "document_id": "TRN_002",
+  "title": "Frontline Response to Network Outage Queries",
+  "document_type": "Training Manual",
+  "category": "GENERAL",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-30",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Frontline Response to Network Outage Queries\n\n**Document ID:** TRN_002\n**Department:** Network\n**Category:** General (C01-C29)\n**Last Updated:** 2026-05-06\n**Version:** 1.0\n\n---\n\n## Learning Objectives\n\nAgents can check outage status tools, set correct customer expectations, and escalate P1 issues.\n\n## Using the Outage Dashboard\n\nAgents must check the internal NOC dashboard (not just the customer-facing map, which may lag by up to 15 minutes) before confirming outage status to a customer.\n\n## Setting Expectations\n\nNever commit to an exact restoration time unless it is published by NOC. Use ranges (e.g., 'within the next 4 hours') and offer SMS notification opt-in for restoration alerts.\n\n## Escalation Trigger\n\nAny report suggesting >500 affected customers in one area that is not yet on the dashboard should be flagged to NOC immediately as a potential undetected outage.",
+  "file_path": "data\\raw\\unstructured\\training\\TRN_002.md",
+  "file_type": "markdown"
+}

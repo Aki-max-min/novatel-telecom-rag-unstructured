@@ -1,0 +1,16 @@
+{
+  "document_id": "EML_009",
+  "title": "Personalised Offer Notification",
+  "document_type": "Sample Email",
+  "category": "C14",
+  "department": "Marketing",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-22",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Sample Email: Personalised Offer Notification\n\n**Document ID:** EML_009\n**Category:** C14 — Offers & Promotions\n**Department:** Marketing\n**Date:** 2026-05-03\n\n---\n\n**Subject: A Recharge Offer Picked Just for You**\n\nDear Customer,\n\nBased on your usage pattern, we're pleased to offer you an exclusive recharge of ₹299 for 2GB/day and unlimited calls, valid for the next 5 days. This offer is visible under Offers > For You in the My NovaTel app.\n\nThank you for being a valued NovaTel customer.\n\nRegards,\nNovaTel Marketing Team",
+  "file_path": "data\\raw\\unstructured\\emails\\EML_009.md",
+  "file_type": "markdown"
+}

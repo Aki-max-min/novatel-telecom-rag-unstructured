@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C20_040_chunk_000",
+  "document_id": "FAQ_C20_040",
+  "chunk_index": 0,
+  "text": "Question: How long do refunds to my bank account typically take?\n\nAnswer: Once approved, refunds to source (card/UPI/net banking) generally reflect within 5-7 working days, subject to your bank's processing time. Refunds to NovaTel Wallet or account balance are typically instant to 24 hours.\n\nTopic: Refunds & Adjustments",
+  "title": "How long do refunds to my bank account typically take?",
+  "document_type": "FAQ",
+  "category": "C20",
+  "department": "Billing",
+  "customer_scope": "enterprise",
+  "version": "1.0",
+  "last_updated": "2026-07-11",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C20_overview"
+  ],
+  "tags": [
+    "refunds",
+    "c20"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C20_040.json",
+  "file_type": "json"
+}

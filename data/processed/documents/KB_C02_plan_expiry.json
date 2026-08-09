@@ -1,0 +1,21 @@
+{
+  "document_id": "KB_C02_plan_expiry",
+  "title": "Understanding Plan Validity and Expiry",
+  "document_type": "KB Article",
+  "category": "C02",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-13",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C02_001"
+  ],
+  "tags": [
+    "c02",
+    "how-to"
+  ],
+  "content": "# Understanding Plan Validity and Expiry\n\n**Document ID:** KB_C02_plan_expiry\n**Category:** C02 — Plans & Subscriptions\n**Department:** Product\n**Last Updated:** 2026-06-02\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nThis article explains how prepaid plan validity is calculated, where to check it, and what happens at expiry.\n\n## Checking Your Plan Validity\n\n1. Open the My NovaTel app.\n2. Go to **My Plan**.\n3. The expiry date/time is shown under 'Validity'.\n\n## What Happens at Expiry\n\nOn expiry, outgoing services stop. Incoming calls typically continue for a grace period (15-90 days depending on plan type) before the number enters the deactivation cycle.\n\n## Related Documents\n\n- FAQ_C02_003 (plan expiry FAQ)\n- Policy_C02_plan_lifecycle",
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C02_plan_expiry.md",
+  "file_type": "markdown"
+}

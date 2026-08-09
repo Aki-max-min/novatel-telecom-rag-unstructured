@@ -1,0 +1,16 @@
+{
+  "document_id": "REL_2026_05",
+  "title": "Enterprise Self-Care Portal v3.1",
+  "document_type": "Release Notes",
+  "category": "GENERAL",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-11",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Release Notes: Enterprise Self-Care Portal v3.1\n\n**Document ID:** REL_2026_05\n**Release Date:** 2026-04-28\n**Version:** 1.0\n\n## Changes\n- Added bulk CSV upload for SIM activation/deactivation requests\n- New usage-anomaly alerting dashboard for IoT SIM fleets\n- Fixed an export bug where CDR reports truncated after 50,000 rows",
+  "file_path": "data\\raw\\unstructured\\release_notes\\REL_2026_05.md",
+  "file_type": "markdown"
+}

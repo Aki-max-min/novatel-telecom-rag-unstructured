@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C07_014",
+  "question": "What happens if I don't activate a roaming pack and use my phone abroad?",
+  "answer": "You will be billed at standard (non-discounted) per-minute/per-MB roaming tariffs, which are significantly higher than pack rates. We strongly recommend activating a pack in advance; emergency top-up roaming packs can also be purchased via SMS while abroad where supported.",
+  "category": "C07",
+  "category_name": "Roaming",
+  "department": "Product",
+  "customer_scope": "all",
+  "last_updated": "2026-06-25",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C07_overview"
+  ],
+  "tags": [
+    "roaming",
+    "c07"
+  ]
+}

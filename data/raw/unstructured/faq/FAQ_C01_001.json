@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C01_001",
+  "question": "How do I update the mobile number registered on my account?",
+  "answer": "Log in to the My NovaTel app or self-care portal, go to Profile > Contact Details, and select 'Update Alternate Number'. You will need to verify via OTP sent to your existing registered number. If you no longer have access to it, visit a NovaTel Experience Store with valid photo ID.",
+  "category": "C01",
+  "category_name": "Account Management",
+  "department": "Customer Care",
+  "customer_scope": "prepaid",
+  "last_updated": "2026-08-05",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C01_overview"
+  ],
+  "tags": [
+    "account",
+    "c01"
+  ]
+}

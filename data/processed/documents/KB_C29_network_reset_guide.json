@@ -1,0 +1,21 @@
+{
+  "document_id": "KB_C29_network_reset_guide",
+  "title": "Resetting Device Network Settings for Persistent Connectivity Issues",
+  "document_type": "KB Article",
+  "category": "C29",
+  "department": "Technical Support",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-18",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C29_001"
+  ],
+  "tags": [
+    "c29",
+    "how-to"
+  ],
+  "content": "# Resetting Device Network Settings for Persistent Connectivity Issues\n\n**Document ID:** KB_C29_network_reset_guide\n**Category:** C29 — Technical Support & Troubleshooting\n**Department:** Technical Support\n**Last Updated:** 2026-06-30\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nGeneric troubleshooting guide for connectivity issues not resolved by a restart.\n\n## Steps\n\n1. Note current Wi-Fi passwords (they will be cleared).\n2. Settings > General/System > Reset > Reset Network Settings.\n3. Reconnect to Wi-Fi and re-enter mobile data APN if manually configured (rare on NovaTel-provisioned SIMs).\n4. If mobile data still fails, contact care for network-side provisioning check.",
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C29_network_reset_guide.md",
+  "file_type": "markdown"
+}

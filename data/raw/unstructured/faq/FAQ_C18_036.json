@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C18_036",
+  "question": "How do I report a suspicious call or SMS claiming to be from NovaTel?",
+  "answer": "Forward suspicious SMS to the designated anti-fraud short code, or report via Help > Report Fraud in the app with a screenshot. NovaTel never asks for OTPs, passwords, or full card numbers over a call.",
+  "category": "C18",
+  "category_name": "Security & Fraud",
+  "department": "Security",
+  "customer_scope": "enterprise",
+  "last_updated": "2026-06-19",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C18_overview"
+  ],
+  "tags": [
+    "security",
+    "c18"
+  ]
+}

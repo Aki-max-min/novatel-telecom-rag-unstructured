@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C17_034",
+  "question": "How do I complete re-verification if I'm asked to update my KYC?",
+  "answer": "Visit a NovaTel Experience Store with original ID proof, or complete Video KYC via the app under Account > KYC Update if enabled in your circle. Failure to complete requested re-verification within the notified window may result in service suspension per licence conditions.",
+  "category": "C17",
+  "category_name": "KYC & Identity Verification",
+  "department": "Compliance",
+  "customer_scope": "all",
+  "last_updated": "2026-07-31",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C17_overview"
+  ],
+  "tags": [
+    "kyc",
+    "c17"
+  ]
+}

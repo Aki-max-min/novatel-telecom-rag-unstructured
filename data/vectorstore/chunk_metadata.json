@@ -1,0 +1,3008 @@
+[
+  {
+    "chunk_id": "COV_NORTH_2026_chunk_000",
+    "document_id": "COV_NORTH_2026",
+    "chunk_index": 0,
+    "title": "North Zone Coverage Summary (Delhi NCR, Punjab, UP West)",
+    "document_type": "Coverage Map Description",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-09",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\coverage_maps\\COV_NORTH_2026.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "COV_SOUTH_2026_chunk_000",
+    "document_id": "COV_SOUTH_2026",
+    "chunk_index": 0,
+    "title": "South Zone Coverage Summary (Karnataka, Tamil Nadu, Kerala)",
+    "document_type": "Coverage Map Description",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-17",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\coverage_maps\\COV_SOUTH_2026.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "EML_001_chunk_000",
+    "document_id": "EML_001",
+    "chunk_index": 0,
+    "title": "Response to Billing Dispute",
+    "document_type": "Sample Email",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\emails\\EML_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "EML_002_chunk_000",
+    "document_id": "EML_002",
+    "chunk_index": 0,
+    "title": "Recharge Reconciliation Confirmation",
+    "document_type": "Sample Email",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-04",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\emails\\EML_002.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "EML_003_chunk_000",
+    "document_id": "EML_003",
+    "chunk_index": 0,
+    "title": "Fraud Alert Confirmation",
+    "document_type": "Sample Email",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\emails\\EML_003.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "EML_004_chunk_000",
+    "document_id": "EML_004",
+    "chunk_index": 0,
+    "title": "Number Porting Confirmation",
+    "document_type": "Sample Email",
+    "category": "C06",
+    "department": "Regulatory",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-13",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\emails\\EML_004.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "EML_005_chunk_000",
+    "document_id": "EML_005",
+    "chunk_index": 0,
+    "title": "Account Closure Confirmation",
+    "document_type": "Sample Email",
+    "category": "C21",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-27",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\emails\\EML_005.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "EML_006_chunk_000",
+    "document_id": "EML_006",
+    "chunk_index": 0,
+    "title": "Network Speed Complaint Follow-up",
+    "document_type": "Sample Email",
+    "category": "C09",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-17",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\emails\\EML_006.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "EML_007_chunk_000",
+    "document_id": "EML_007",
+    "chunk_index": 0,
+    "title": "FTTH Fault Ticket Update",
+    "document_type": "Sample Email",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-23",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\emails\\EML_007.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "EML_008_chunk_000",
+    "document_id": "EML_008",
+    "chunk_index": 0,
+    "title": "KYC Re-verification Reminder",
+    "document_type": "Sample Email",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-28",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\emails\\EML_008.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "EML_009_chunk_000",
+    "document_id": "EML_009",
+    "chunk_index": 0,
+    "title": "Personalised Offer Notification",
+    "document_type": "Sample Email",
+    "category": "C14",
+    "department": "Marketing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-22",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\emails\\EML_009.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "EML_010_chunk_000",
+    "document_id": "EML_010",
+    "chunk_index": 0,
+    "title": "Complaint Escalation Acknowledgement",
+    "document_type": "Sample Email",
+    "category": "C16",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\emails\\EML_010.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "FAQ_C01_001_chunk_000",
+    "document_id": "FAQ_C01_001",
+    "chunk_index": 0,
+    "title": "How do I update the mobile number registered on my account?",
+    "document_type": "FAQ",
+    "category": "C01",
+    "department": "Customer Care",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-05-06",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C01_overview"
+    ],
+    "tags": [
+      "account",
+      "c01"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C01_001.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C01_002_chunk_000",
+    "document_id": "FAQ_C01_002",
+    "chunk_index": 0,
+    "title": "Can I merge two customer accounts under one profile?",
+    "document_type": "FAQ",
+    "category": "C01",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-11",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C01_overview"
+    ],
+    "tags": [
+      "account",
+      "c01"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C01_002.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C02_003_chunk_000",
+    "document_id": "FAQ_C02_003",
+    "chunk_index": 0,
+    "title": "When does my prepaid plan expire?",
+    "document_type": "FAQ",
+    "category": "C02",
+    "department": "Product",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-05-14",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C02_overview"
+    ],
+    "tags": [
+      "plans",
+      "c02"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C02_003.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C02_004_chunk_000",
+    "document_id": "FAQ_C02_004",
+    "chunk_index": 0,
+    "title": "What happens if I don't recharge before my plan expires?",
+    "document_type": "FAQ",
+    "category": "C02",
+    "department": "Product",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-06-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C02_overview"
+    ],
+    "tags": [
+      "plans",
+      "c02"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C02_004.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C03_005_chunk_000",
+    "document_id": "FAQ_C03_005",
+    "chunk_index": 0,
+    "title": "Why did my recharge fail even though the amount was debited?",
+    "document_type": "FAQ",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-07-28",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C03_overview"
+    ],
+    "tags": [
+      "recharge",
+      "c03"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C03_005.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C03_006_chunk_000",
+    "document_id": "FAQ_C03_006",
+    "chunk_index": 0,
+    "title": "What payment methods are accepted for recharge?",
+    "document_type": "FAQ",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-06-05",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C03_overview"
+    ],
+    "tags": [
+      "recharge",
+      "c03"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C03_006.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C04_007_chunk_000",
+    "document_id": "FAQ_C04_007",
+    "chunk_index": 0,
+    "title": "Why is my postpaid bill higher than my plan rental this month?",
+    "document_type": "FAQ",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-07-14",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C04_overview"
+    ],
+    "tags": [
+      "billing",
+      "c04"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C04_007.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C04_008_chunk_000",
+    "document_id": "FAQ_C04_008",
+    "chunk_index": 0,
+    "title": "Can I get my bill in a different language or in large print?",
+    "document_type": "FAQ",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-06-12",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C04_overview"
+    ],
+    "tags": [
+      "billing",
+      "c04"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C04_008.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C05_009_chunk_000",
+    "document_id": "FAQ_C05_009",
+    "chunk_index": 0,
+    "title": "My SIM card shows 'No Service' after I inserted it in a new phone.",
+    "document_type": "FAQ",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-03",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C05_overview"
+    ],
+    "tags": [
+      "sim",
+      "c05"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C05_009.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C05_010_chunk_000",
+    "document_id": "FAQ_C05_010",
+    "chunk_index": 0,
+    "title": "How do I get a duplicate SIM if mine is lost or damaged?",
+    "document_type": "FAQ",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-06-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C05_overview"
+    ],
+    "tags": [
+      "sim",
+      "c05"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C05_010.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C06_011_chunk_000",
+    "document_id": "FAQ_C06_011",
+    "chunk_index": 0,
+    "title": "How long does number portability (MNP) take?",
+    "document_type": "FAQ",
+    "category": "C06",
+    "department": "Regulatory",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-20",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C06_overview"
+    ],
+    "tags": [
+      "number",
+      "c06"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C06_011.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C06_012_chunk_000",
+    "document_id": "FAQ_C06_012",
+    "chunk_index": 0,
+    "title": "Will I lose my current plan benefits if I port into NovaTel?",
+    "document_type": "FAQ",
+    "category": "C06",
+    "department": "Regulatory",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-07-26",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C06_overview"
+    ],
+    "tags": [
+      "number",
+      "c06"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C06_012.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C07_013_chunk_000",
+    "document_id": "FAQ_C07_013",
+    "chunk_index": 0,
+    "title": "How do I activate international roaming before travelling?",
+    "document_type": "FAQ",
+    "category": "C07",
+    "department": "Product",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-07-27",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C07_overview"
+    ],
+    "tags": [
+      "roaming",
+      "c07"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C07_013.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C07_014_chunk_000",
+    "document_id": "FAQ_C07_014",
+    "chunk_index": 0,
+    "title": "What happens if I don't activate a roaming pack and use my phone abroad?",
+    "document_type": "FAQ",
+    "category": "C07",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-23",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C07_overview"
+    ],
+    "tags": [
+      "roaming",
+      "c07"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C07_014.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C08_015_chunk_000",
+    "document_id": "FAQ_C08_015",
+    "chunk_index": 0,
+    "title": "Why is there no network coverage in my area?",
+    "document_type": "FAQ",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-07",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C08_overview"
+    ],
+    "tags": [
+      "network",
+      "c08"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C08_015.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C08_016_chunk_000",
+    "document_id": "FAQ_C08_016",
+    "chunk_index": 0,
+    "title": "How is a reported network outage resolved and communicated?",
+    "document_type": "FAQ",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-07-24",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C08_overview"
+    ],
+    "tags": [
+      "network",
+      "c08"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C08_016.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C09_017_chunk_000",
+    "document_id": "FAQ_C09_017",
+    "chunk_index": 0,
+    "title": "Why is my 4G/5G data speed slower than expected?",
+    "document_type": "FAQ",
+    "category": "C09",
+    "department": "Network",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-05-30",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C09_overview"
+    ],
+    "tags": [
+      "data",
+      "c09"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C09_017.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C09_018_chunk_000",
+    "document_id": "FAQ_C09_018",
+    "chunk_index": 0,
+    "title": "What does 'FUP applied' mean on my data usage?",
+    "document_type": "FAQ",
+    "category": "C09",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-21",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C09_overview"
+    ],
+    "tags": [
+      "data",
+      "c09"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C09_018.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C10_019_chunk_000",
+    "document_id": "FAQ_C10_019",
+    "chunk_index": 0,
+    "title": "How do I unsubscribe from a Value Added Service (VAS) I didn't request?",
+    "document_type": "FAQ",
+    "category": "C10",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C10_overview"
+    ],
+    "tags": [
+      "value",
+      "c10"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C10_019.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C10_020_chunk_000",
+    "document_id": "FAQ_C10_020",
+    "chunk_index": 0,
+    "title": "How do I set up a personalised caller tune?",
+    "document_type": "FAQ",
+    "category": "C10",
+    "department": "Product",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-05-16",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C10_overview"
+    ],
+    "tags": [
+      "value",
+      "c10"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C10_020.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C11_021_chunk_000",
+    "document_id": "FAQ_C11_021",
+    "chunk_index": 0,
+    "title": "What are the rates for international calls and SMS from my plan?",
+    "document_type": "FAQ",
+    "category": "C11",
+    "department": "Product",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-07-29",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C11_overview"
+    ],
+    "tags": [
+      "international",
+      "c11"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C11_021.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C11_022_chunk_000",
+    "document_id": "FAQ_C11_022",
+    "chunk_index": 0,
+    "title": "Can I call an international number that is out of network coverage in my recipient's country?",
+    "document_type": "FAQ",
+    "category": "C11",
+    "department": "Product",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-06-21",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C11_overview"
+    ],
+    "tags": [
+      "international",
+      "c11"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C11_022.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C12_023_chunk_000",
+    "document_id": "FAQ_C12_023",
+    "chunk_index": 0,
+    "title": "Is my phone compatible with NovaTel's 5G network?",
+    "document_type": "FAQ",
+    "category": "C12",
+    "department": "Technical Support",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-19",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C12_overview"
+    ],
+    "tags": [
+      "device",
+      "c12"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C12_023.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C12_024_chunk_000",
+    "document_id": "FAQ_C12_024",
+    "chunk_index": 0,
+    "title": "Why doesn't VoLTE/HD Voice work on my phone?",
+    "document_type": "FAQ",
+    "category": "C12",
+    "department": "Technical Support",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-22",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C12_overview"
+    ],
+    "tags": [
+      "device",
+      "c12"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C12_024.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C13_025_chunk_000",
+    "document_id": "FAQ_C13_025",
+    "chunk_index": 0,
+    "title": "I can't log in to the My NovaTel app — it says 'OTP not received'.",
+    "document_type": "FAQ",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C13_overview"
+    ],
+    "tags": [
+      "app",
+      "c13"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C13_025.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C13_026_chunk_000",
+    "document_id": "FAQ_C13_026",
+    "chunk_index": 0,
+    "title": "How do I enable biometric login on the self-care app?",
+    "document_type": "FAQ",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-11",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C13_overview"
+    ],
+    "tags": [
+      "app",
+      "c13"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C13_026.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C14_027_chunk_000",
+    "document_id": "FAQ_C14_027",
+    "chunk_index": 0,
+    "title": "How do I find offers available exclusively for my number?",
+    "document_type": "FAQ",
+    "category": "C14",
+    "department": "Marketing",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-05-19",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C14_overview"
+    ],
+    "tags": [
+      "offers",
+      "c14"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C14_027.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C14_028_chunk_000",
+    "document_id": "FAQ_C14_028",
+    "chunk_index": 0,
+    "title": "Can I combine two promotional offers on the same recharge?",
+    "document_type": "FAQ",
+    "category": "C14",
+    "department": "Marketing",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-05-07",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C14_overview"
+    ],
+    "tags": [
+      "offers",
+      "c14"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C14_028.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C15_029_chunk_000",
+    "document_id": "FAQ_C15_029",
+    "chunk_index": 0,
+    "title": "How do I redeem loyalty reward points?",
+    "document_type": "FAQ",
+    "category": "C15",
+    "department": "Marketing",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-06-10",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C15_overview"
+    ],
+    "tags": [
+      "loyalty",
+      "c15"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C15_029.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C15_030_chunk_000",
+    "document_id": "FAQ_C15_030",
+    "chunk_index": 0,
+    "title": "Why did my loyalty tier drop from Gold to Silver?",
+    "document_type": "FAQ",
+    "category": "C15",
+    "department": "Marketing",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-04-12",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C15_overview"
+    ],
+    "tags": [
+      "loyalty",
+      "c15"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C15_030.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C16_031_chunk_000",
+    "document_id": "FAQ_C16_031",
+    "chunk_index": 0,
+    "title": "How do I escalate a complaint that hasn't been resolved?",
+    "document_type": "FAQ",
+    "category": "C16",
+    "department": "Customer Care",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-06-28",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C16_overview"
+    ],
+    "tags": [
+      "complaints",
+      "c16"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C16_031.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C16_032_chunk_000",
+    "document_id": "FAQ_C16_032",
+    "chunk_index": 0,
+    "title": "What is the standard resolution timeline for a service complaint?",
+    "document_type": "FAQ",
+    "category": "C16",
+    "department": "Customer Care",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-04-25",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C16_overview"
+    ],
+    "tags": [
+      "complaints",
+      "c16"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C16_032.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C17_033_chunk_000",
+    "document_id": "FAQ_C17_033",
+    "chunk_index": 0,
+    "title": "What documents are required for SIM KYC verification?",
+    "document_type": "FAQ",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-06-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C17_overview"
+    ],
+    "tags": [
+      "kyc",
+      "c17"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C17_033.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C17_034_chunk_000",
+    "document_id": "FAQ_C17_034",
+    "chunk_index": 0,
+    "title": "How do I complete re-verification if I'm asked to update my KYC?",
+    "document_type": "FAQ",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-12",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C17_overview"
+    ],
+    "tags": [
+      "kyc",
+      "c17"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C17_034.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C18_035_chunk_000",
+    "document_id": "FAQ_C18_035",
+    "chunk_index": 0,
+    "title": "I think my SIM was swapped fraudulently — what should I do immediately?",
+    "document_type": "FAQ",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-17",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C18_overview"
+    ],
+    "tags": [
+      "security",
+      "c18"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C18_035.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C18_036_chunk_000",
+    "document_id": "FAQ_C18_036",
+    "chunk_index": 0,
+    "title": "How do I report a suspicious call or SMS claiming to be from NovaTel?",
+    "document_type": "FAQ",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-04-17",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C18_overview"
+    ],
+    "tags": [
+      "security",
+      "c18"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C18_036.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C19_037_chunk_000",
+    "document_id": "FAQ_C19_037",
+    "chunk_index": 0,
+    "title": "How does NovaTel use my call and location data?",
+    "document_type": "FAQ",
+    "category": "C19",
+    "department": "Legal",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-07-06",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C19_overview"
+    ],
+    "tags": [
+      "privacy",
+      "c19"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C19_037.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C19_038_chunk_000",
+    "document_id": "FAQ_C19_038",
+    "chunk_index": 0,
+    "title": "How do I request deletion of my personal data after closing my account?",
+    "document_type": "FAQ",
+    "category": "C19",
+    "department": "Legal",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-05-05",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C19_overview"
+    ],
+    "tags": [
+      "privacy",
+      "c19"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C19_038.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C20_039_chunk_000",
+    "document_id": "FAQ_C20_039",
+    "chunk_index": 0,
+    "title": "I was charged twice for the same recharge — how do I get a refund?",
+    "document_type": "FAQ",
+    "category": "C20",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C20_overview"
+    ],
+    "tags": [
+      "refunds",
+      "c20"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C20_039.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C20_040_chunk_000",
+    "document_id": "FAQ_C20_040",
+    "chunk_index": 0,
+    "title": "How long do refunds to my bank account typically take?",
+    "document_type": "FAQ",
+    "category": "C20",
+    "department": "Billing",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-07-11",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C20_overview"
+    ],
+    "tags": [
+      "refunds",
+      "c20"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C20_040.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C21_041_chunk_000",
+    "document_id": "FAQ_C21_041",
+    "chunk_index": 0,
+    "title": "How do I permanently deactivate/close my postpaid connection?",
+    "document_type": "FAQ",
+    "category": "C21",
+    "department": "Customer Care",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-06-06",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C21_overview"
+    ],
+    "tags": [
+      "termination",
+      "c21"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C21_041.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C21_042_chunk_000",
+    "document_id": "FAQ_C21_042",
+    "chunk_index": 0,
+    "title": "Can I reactivate a number that was deactivated for non-payment?",
+    "document_type": "FAQ",
+    "category": "C21",
+    "department": "Customer Care",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-04-20",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C21_overview"
+    ],
+    "tags": [
+      "termination",
+      "c21"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C21_042.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C22_043_chunk_000",
+    "document_id": "FAQ_C22_043",
+    "chunk_index": 0,
+    "title": "How long does new SIM activation take after purchase?",
+    "document_type": "FAQ",
+    "category": "C22",
+    "department": "Customer Care",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-05-20",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C22_overview"
+    ],
+    "tags": [
+      "new",
+      "c22"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C22_043.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C22_044_chunk_000",
+    "document_id": "FAQ_C22_044",
+    "chunk_index": 0,
+    "title": "Why is my new SIM still showing 'No Service' after 24 hours?",
+    "document_type": "FAQ",
+    "category": "C22",
+    "department": "Customer Care",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-06-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C22_overview"
+    ],
+    "tags": [
+      "new",
+      "c22"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C22_044.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C23_045_chunk_000",
+    "document_id": "FAQ_C23_045",
+    "chunk_index": 0,
+    "title": "What is included in an Enterprise Business Connectivity plan?",
+    "document_type": "FAQ",
+    "category": "C23",
+    "department": "Enterprise Sales",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-07-31",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C23_overview"
+    ],
+    "tags": [
+      "enterprise",
+      "c23"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C23_045.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C23_046_chunk_000",
+    "document_id": "FAQ_C23_046",
+    "chunk_index": 0,
+    "title": "How do we add or remove numbers from our corporate account in bulk?",
+    "document_type": "FAQ",
+    "category": "C23",
+    "department": "Enterprise Sales",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-06-21",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C23_overview"
+    ],
+    "tags": [
+      "enterprise",
+      "c23"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C23_046.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C24_047_chunk_000",
+    "document_id": "FAQ_C24_047",
+    "chunk_index": 0,
+    "title": "What connectivity options does NovaTel offer for IoT/M2M devices?",
+    "document_type": "FAQ",
+    "category": "C24",
+    "department": "Enterprise Sales",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-06-10",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C24_overview"
+    ],
+    "tags": [
+      "iot",
+      "c24"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C24_047.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C24_048_chunk_000",
+    "document_id": "FAQ_C24_048",
+    "chunk_index": 0,
+    "title": "How do we monitor usage across thousands of IoT SIMs?",
+    "document_type": "FAQ",
+    "category": "C24",
+    "department": "Enterprise Sales",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-07-07",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C24_overview"
+    ],
+    "tags": [
+      "iot",
+      "c24"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C24_048.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C25_049_chunk_000",
+    "document_id": "FAQ_C25_049",
+    "chunk_index": 0,
+    "title": "Why is my FTTH broadband connection showing 'LOS' (Loss of Signal) on the ONT?",
+    "document_type": "FAQ",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-05-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C25_overview"
+    ],
+    "tags": [
+      "broadband",
+      "c25"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C25_049.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C25_050_chunk_000",
+    "document_id": "FAQ_C25_050",
+    "chunk_index": 0,
+    "title": "Can I get a static IP address on my home broadband plan?",
+    "document_type": "FAQ",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-04-17",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C25_overview"
+    ],
+    "tags": [
+      "broadband",
+      "c25"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C25_050.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C26_051_chunk_000",
+    "document_id": "FAQ_C26_051",
+    "chunk_index": 0,
+    "title": "How do I register for Do Not Disturb (DND) to stop promotional calls/SMS?",
+    "document_type": "FAQ",
+    "category": "C26",
+    "department": "Regulatory",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-26",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C26_overview"
+    ],
+    "tags": [
+      "dnd",
+      "c26"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C26_051.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C26_052_chunk_000",
+    "document_id": "FAQ_C26_052",
+    "chunk_index": 0,
+    "title": "I'm still getting spam calls despite registering for DND — what can I do?",
+    "document_type": "FAQ",
+    "category": "C26",
+    "department": "Regulatory",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-06-14",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C26_overview"
+    ],
+    "tags": [
+      "dnd",
+      "c26"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C26_052.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C27_053_chunk_000",
+    "document_id": "FAQ_C27_053",
+    "chunk_index": 0,
+    "title": "What accessibility support does NovaTel offer for hearing-impaired customers?",
+    "document_type": "FAQ",
+    "category": "C27",
+    "department": "Customer Care",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C27_overview"
+    ],
+    "tags": [
+      "accessibility",
+      "c27"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C27_053.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C27_054_chunk_000",
+    "document_id": "FAQ_C27_054",
+    "chunk_index": 0,
+    "title": "Is the My NovaTel app compatible with screen readers?",
+    "document_type": "FAQ",
+    "category": "C27",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-03",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C27_overview"
+    ],
+    "tags": [
+      "accessibility",
+      "c27"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C27_054.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C28_055_chunk_000",
+    "document_id": "FAQ_C28_055",
+    "chunk_index": 0,
+    "title": "What is TRAI and how does it regulate NovaTel's services?",
+    "document_type": "FAQ",
+    "category": "C28",
+    "department": "Legal",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-04-14",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C28_overview"
+    ],
+    "tags": [
+      "regulatory",
+      "c28"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C28_055.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C28_056_chunk_000",
+    "document_id": "FAQ_C28_056",
+    "chunk_index": 0,
+    "title": "Where can I find NovaTel's published Quality of Service (QoS) metrics?",
+    "document_type": "FAQ",
+    "category": "C28",
+    "department": "Legal",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-07-01",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C28_overview"
+    ],
+    "tags": [
+      "regulatory",
+      "c28"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C28_056.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C29_057_chunk_000",
+    "document_id": "FAQ_C29_057",
+    "chunk_index": 0,
+    "title": "My phone shows 'SIM not provisioned for voice' — how do I fix this?",
+    "document_type": "FAQ",
+    "category": "C29",
+    "department": "Technical Support",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-06-22",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C29_overview"
+    ],
+    "tags": [
+      "technical",
+      "c29"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C29_057.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C29_058_chunk_000",
+    "document_id": "FAQ_C29_058",
+    "chunk_index": 0,
+    "title": "How do I reset my device's network settings to fix persistent connectivity issues?",
+    "document_type": "FAQ",
+    "category": "C29",
+    "department": "Technical Support",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-05-01",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C29_overview"
+    ],
+    "tags": [
+      "technical",
+      "c29"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C29_058.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "INC_C03_INC_2026_0203_chunk_000",
+    "document_id": "INC_C03_INC_2026_0203",
+    "chunk_index": 0,
+    "title": "UPI Recharge Gateway Timeout Spike",
+    "document_type": "Incident Report",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-10",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p2",
+      "pan-india"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C03_INC_2026_0203.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C04_INC_2026_0163_chunk_000",
+    "document_id": "INC_C04_INC_2026_0163",
+    "chunk_index": 0,
+    "title": "Duplicate Billing Cycle Run for Postpaid Segment",
+    "document_type": "Incident Report",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p1",
+      "pan-india"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C04_INC_2026_0163.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C05_INC_2026_0171_chunk_000",
+    "document_id": "INC_C05_INC_2026_0171",
+    "chunk_index": 0,
+    "title": "SIM Provisioning Delay Post-System Upgrade",
+    "document_type": "Incident Report",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-31",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p2",
+      "delhi_ncr"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C05_INC_2026_0171.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C07_INC_2026_0190_chunk_000",
+    "document_id": "INC_C07_INC_2026_0190",
+    "chunk_index": 0,
+    "title": "Roaming Pack Activation Failures",
+    "document_type": "Incident Report",
+    "category": "C07",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p2",
+      "pan-india"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C07_INC_2026_0190.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C08_INC_2026_0142_chunk_000",
+    "document_id": "INC_C08_INC_2026_0142",
+    "chunk_index": 0,
+    "title": "4G Cell Cluster Outage",
+    "document_type": "Incident Report",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-13",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p1",
+      "mumbai_west_circle"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C08_INC_2026_0142.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C08_INC_2026_0211_chunk_000",
+    "document_id": "INC_C08_INC_2026_0211",
+    "chunk_index": 0,
+    "title": "5G Site Cluster Down Due to Power Outage",
+    "document_type": "Incident Report",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p2",
+      "chennai_circle"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C08_INC_2026_0211.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C09_INC_2026_0158_chunk_000",
+    "document_id": "INC_C09_INC_2026_0158",
+    "chunk_index": 0,
+    "title": "Data Speed Degradation During IPL Match",
+    "document_type": "Incident Report",
+    "category": "C09",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-12",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p2",
+      "bengaluru_circle"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C09_INC_2026_0158.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C13_INC_2026_0184_chunk_000",
+    "document_id": "INC_C13_INC_2026_0184",
+    "chunk_index": 0,
+    "title": "My NovaTel App Login Outage",
+    "document_type": "Incident Report",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-10",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p1",
+      "pan-india"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C13_INC_2026_0184.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C18_INC_2026_0197_chunk_000",
+    "document_id": "INC_C18_INC_2026_0197",
+    "chunk_index": 0,
+    "title": "Phishing SMS Campaign Impersonating NovaTel",
+    "document_type": "Incident Report",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-10",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p1",
+      "pan-india"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C18_INC_2026_0197.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C25_INC_2026_0179_chunk_000",
+    "document_id": "INC_C25_INC_2026_0179",
+    "chunk_index": 0,
+    "title": "FTTH Regional Outage — Fibre Cut",
+    "document_type": "Incident Report",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-06",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p1",
+      "pune_circle"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C25_INC_2026_0179.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C02_plan_expiry_chunk_000",
+    "document_id": "KB_C02_plan_expiry",
+    "chunk_index": 0,
+    "title": "Understanding Plan Validity and Expiry",
+    "document_type": "KB Article",
+    "category": "C02",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-13",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C02_001"
+    ],
+    "tags": [
+      "c02",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C02_plan_expiry.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C03_recharge_failures_chunk_000",
+    "document_id": "KB_C03_recharge_failures",
+    "chunk_index": 0,
+    "title": "Troubleshooting Failed Recharge Transactions",
+    "document_type": "KB Article",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-24",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C03_001"
+    ],
+    "tags": [
+      "c03",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C03_recharge_failures.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C04_bill_disputes_chunk_000",
+    "document_id": "KB_C04_bill_disputes",
+    "chunk_index": 0,
+    "title": "Reading and Disputing Your Postpaid Bill",
+    "document_type": "KB Article",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-07",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C04_001"
+    ],
+    "tags": [
+      "c04",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C04_bill_disputes.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C05_sim_swap_troubleshooting_chunk_000",
+    "document_id": "KB_C05_sim_swap_troubleshooting",
+    "chunk_index": 0,
+    "title": "Diagnosing 'No Service' After a SIM Swap",
+    "document_type": "KB Article",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-25",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C05_001"
+    ],
+    "tags": [
+      "c05",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C05_sim_swap_troubleshooting.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C06_porting_process_chunk_000",
+    "document_id": "KB_C06_porting_process",
+    "chunk_index": 0,
+    "title": "End-to-End Guide to Number Porting (MNP)",
+    "document_type": "KB Article",
+    "category": "C06",
+    "department": "Regulatory",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C06_001"
+    ],
+    "tags": [
+      "c06",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C06_porting_process.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C07_roaming_activation_chunk_000",
+    "document_id": "KB_C07_roaming_activation",
+    "chunk_index": 0,
+    "title": "Activating and Managing International Roaming",
+    "document_type": "KB Article",
+    "category": "C07",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-09",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C07_001"
+    ],
+    "tags": [
+      "c07",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C07_roaming_activation.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C08_outage_status_check_chunk_000",
+    "document_id": "KB_C08_outage_status_check",
+    "chunk_index": 0,
+    "title": "How to Check and Report a Network Outage",
+    "document_type": "KB Article",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-09",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C08_001"
+    ],
+    "tags": [
+      "c08",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C08_outage_status_check.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C09_fup_data_speed_chunk_000",
+    "document_id": "KB_C09_fup_data_speed",
+    "chunk_index": 0,
+    "title": "Understanding Fair Usage Policy (FUP) and Data Speed Drops",
+    "document_type": "KB Article",
+    "category": "C09",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-29",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C09_001"
+    ],
+    "tags": [
+      "c09",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C09_fup_data_speed.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C13_selfcare_login_issues_chunk_000",
+    "document_id": "KB_C13_selfcare_login_issues",
+    "chunk_index": 0,
+    "title": "Resolving My NovaTel App Login and OTP Issues",
+    "document_type": "KB Article",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-07",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C13_001"
+    ],
+    "tags": [
+      "c13",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C13_selfcare_login_issues.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C16_complaint_escalation_chunk_000",
+    "document_id": "KB_C16_complaint_escalation",
+    "chunk_index": 0,
+    "title": "Navigating the Complaint Escalation Ladder",
+    "document_type": "KB Article",
+    "category": "C16",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-26",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C16_001"
+    ],
+    "tags": [
+      "c16",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C16_complaint_escalation.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C17_kyc_reverification_chunk_000",
+    "document_id": "KB_C17_kyc_reverification",
+    "chunk_index": 0,
+    "title": "Completing KYC Re-Verification Requests",
+    "document_type": "KB Article",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-03",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C17_001"
+    ],
+    "tags": [
+      "c17",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C17_kyc_reverification.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C18_fraud_response_chunk_000",
+    "document_id": "KB_C18_fraud_response",
+    "chunk_index": 0,
+    "title": "Responding to Suspected SIM Swap Fraud or Phishing",
+    "document_type": "KB Article",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-02",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C18_001"
+    ],
+    "tags": [
+      "c18",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C18_fraud_response.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C19_privacy_data_requests_chunk_000",
+    "document_id": "KB_C19_privacy_data_requests",
+    "chunk_index": 0,
+    "title": "Handling Customer Data Access and Deletion Requests",
+    "document_type": "KB Article",
+    "category": "C19",
+    "department": "Legal",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-23",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C19_001"
+    ],
+    "tags": [
+      "c19",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C19_privacy_data_requests.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C20_refund_processing_chunk_000",
+    "document_id": "KB_C20_refund_processing",
+    "chunk_index": 0,
+    "title": "Processing Duplicate Charge and Billing Refunds",
+    "document_type": "KB Article",
+    "category": "C20",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-09",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C20_001"
+    ],
+    "tags": [
+      "c20",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C20_refund_processing.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C21_account_closure_chunk_000",
+    "document_id": "KB_C21_account_closure",
+    "chunk_index": 0,
+    "title": "Closing or Reactivating a Deactivated Connection",
+    "document_type": "KB Article",
+    "category": "C21",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C21_001"
+    ],
+    "tags": [
+      "c21",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C21_account_closure.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C22_new_activation_delay_chunk_000",
+    "document_id": "KB_C22_new_activation_delay",
+    "chunk_index": 0,
+    "title": "Diagnosing Delayed New SIM Activation",
+    "document_type": "KB Article",
+    "category": "C22",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-02",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C22_001"
+    ],
+    "tags": [
+      "c22",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C22_new_activation_delay.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C23_enterprise_onboarding_chunk_000",
+    "document_id": "KB_C23_enterprise_onboarding",
+    "chunk_index": 0,
+    "title": "Enterprise Account Onboarding Overview",
+    "document_type": "KB Article",
+    "category": "C23",
+    "department": "Enterprise Sales",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C23_001"
+    ],
+    "tags": [
+      "c23",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C23_enterprise_onboarding.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C25_ftth_fault_diagnosis_chunk_000",
+    "document_id": "KB_C25_ftth_fault_diagnosis",
+    "chunk_index": 0,
+    "title": "Diagnosing Common FTTH Broadband Faults",
+    "document_type": "KB Article",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-12",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C25_001"
+    ],
+    "tags": [
+      "c25",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C25_ftth_fault_diagnosis.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C26_dnd_registration_chunk_000",
+    "document_id": "KB_C26_dnd_registration",
+    "chunk_index": 0,
+    "title": "Registering for DND and Reporting Spam",
+    "document_type": "KB Article",
+    "category": "C26",
+    "department": "Regulatory",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-04",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C26_001"
+    ],
+    "tags": [
+      "c26",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C26_dnd_registration.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C28_qos_disclosures_chunk_000",
+    "document_id": "KB_C28_qos_disclosures",
+    "chunk_index": 0,
+    "title": "Understanding Published Quality of Service (QoS) Metrics",
+    "document_type": "KB Article",
+    "category": "C28",
+    "department": "Legal",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-14",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C28_001"
+    ],
+    "tags": [
+      "c28",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C28_qos_disclosures.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C29_network_reset_guide_chunk_000",
+    "document_id": "KB_C29_network_reset_guide",
+    "chunk_index": 0,
+    "title": "Resetting Device Network Settings for Persistent Connectivity Issues",
+    "document_type": "KB Article",
+    "category": "C29",
+    "department": "Technical Support",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C29_001"
+    ],
+    "tags": [
+      "c29",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C29_network_reset_guide.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "MAN_APP_001_chunk_000",
+    "document_id": "MAN_APP_001",
+    "chunk_index": 0,
+    "title": "My NovaTel App — User Guide",
+    "document_type": "User Manual",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-27",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\manuals\\MAN_APP_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "MAN_DEVICE_VOLTE_001_chunk_000",
+    "document_id": "MAN_DEVICE_VOLTE_001",
+    "chunk_index": 0,
+    "title": "Enabling VoLTE / HD Voice on Your Device",
+    "document_type": "User Manual",
+    "category": "C12",
+    "department": "Technical Support",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-17",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\manuals\\MAN_DEVICE_VOLTE_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "MAN_ESIM_001_chunk_000",
+    "document_id": "MAN_ESIM_001",
+    "chunk_index": 0,
+    "title": "Activating an eSIM on a Compatible Device",
+    "document_type": "User Manual",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-16",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\manuals\\MAN_ESIM_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "MAN_IOT_PORTAL_001_chunk_000",
+    "document_id": "MAN_IOT_PORTAL_001",
+    "chunk_index": 0,
+    "title": "Enterprise IoT Management Portal — Quick Start",
+    "document_type": "User Manual",
+    "category": "C24",
+    "department": "Enterprise Sales",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-20",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\manuals\\MAN_IOT_PORTAL_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "MAN_ROUTER_001_chunk_000",
+    "document_id": "MAN_ROUTER_001",
+    "chunk_index": 0,
+    "title": "Home FTTH Wi-Fi Router — Setup Guide",
+    "document_type": "User Manual",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-24",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\manuals\\MAN_ROUTER_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "Policy_C02_plan_lifecycle_chunk_000",
+    "document_id": "Policy_C02_plan_lifecycle",
+    "chunk_index": 0,
+    "title": "Prepaid & Postpaid Plan Lifecycle Policy",
+    "document_type": "Policy",
+    "category": "C02",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c02"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C02_plan_lifecycle.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "Policy_C04_billing_disputes_chunk_000",
+    "document_id": "Policy_C04_billing_disputes",
+    "chunk_index": 0,
+    "title": "Billing Dispute Resolution Policy",
+    "document_type": "Policy",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c04"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C04_billing_disputes.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "Policy_C17_kyc_policy_chunk_000",
+    "document_id": "Policy_C17_kyc_policy",
+    "chunk_index": 0,
+    "title": "Customer Identity Verification (KYC) Policy",
+    "document_type": "Policy",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c17"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C17_kyc_policy.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "Policy_C18_security_policy_chunk_000",
+    "document_id": "Policy_C18_security_policy",
+    "chunk_index": 0,
+    "title": "Fraud Prevention and Account Security Policy",
+    "document_type": "Policy",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c18"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C18_security_policy.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "Policy_C19_privacy_policy_chunk_000",
+    "document_id": "Policy_C19_privacy_policy",
+    "chunk_index": 0,
+    "title": "Customer Data Privacy Policy",
+    "document_type": "Policy",
+    "category": "C19",
+    "department": "Legal",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c19"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C19_privacy_policy.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "Policy_C20_refund_policy_chunk_000",
+    "document_id": "Policy_C20_refund_policy",
+    "chunk_index": 0,
+    "title": "Refunds and Billing Adjustments Policy",
+    "document_type": "Policy",
+    "category": "C20",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c20"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C20_refund_policy.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "Policy_C23_enterprise_terms_chunk_000",
+    "document_id": "Policy_C23_enterprise_terms",
+    "chunk_index": 0,
+    "title": "Enterprise & Business Connectivity Commercial Policy",
+    "document_type": "Policy",
+    "category": "C23",
+    "department": "Enterprise Sales",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c23"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C23_enterprise_terms.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "Policy_C28_regulatory_compliance_chunk_000",
+    "document_id": "Policy_C28_regulatory_compliance",
+    "chunk_index": 0,
+    "title": "Regulatory Compliance and TRAI Disclosure Policy",
+    "document_type": "Policy",
+    "category": "C28",
+    "department": "Legal",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c28"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C28_regulatory_compliance.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "RCA_INC_2026_0142_chunk_000",
+    "document_id": "RCA_INC_2026_0142",
+    "chunk_index": 0,
+    "title": "RCA: Mumbai West 4G Cluster Outage (INC-2026-0142)",
+    "document_type": "RCA",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "INC_INC_2026_0142"
+    ],
+    "tags": [
+      "c08",
+      "rca"
+    ],
+    "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0142.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "RCA_INC_2026_0163_chunk_000",
+    "document_id": "RCA_INC_2026_0163",
+    "chunk_index": 0,
+    "title": "RCA: Duplicate Postpaid Billing Cycle Run (INC-2026-0163)",
+    "document_type": "RCA",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "INC_INC_2026_0163"
+    ],
+    "tags": [
+      "c04",
+      "rca"
+    ],
+    "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0163.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "RCA_INC_2026_0179_chunk_000",
+    "document_id": "RCA_INC_2026_0179",
+    "chunk_index": 0,
+    "title": "RCA: Pune FTTH Regional Outage (INC-2026-0179)",
+    "document_type": "RCA",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "INC_INC_2026_0179"
+    ],
+    "tags": [
+      "c25",
+      "rca"
+    ],
+    "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0179.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "RCA_INC_2026_0184_chunk_000",
+    "document_id": "RCA_INC_2026_0184",
+    "chunk_index": 0,
+    "title": "RCA: My NovaTel App Login Outage (INC-2026-0184)",
+    "document_type": "RCA",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "INC_INC_2026_0184"
+    ],
+    "tags": [
+      "c13",
+      "rca"
+    ],
+    "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0184.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "RCA_INC_2026_0197_chunk_000",
+    "document_id": "RCA_INC_2026_0197",
+    "chunk_index": 0,
+    "title": "RCA: Phishing SMS Campaign Impersonating NovaTel (INC-2026-0197)",
+    "document_type": "RCA",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "INC_INC_2026_0197"
+    ],
+    "tags": [
+      "c18",
+      "rca"
+    ],
+    "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0197.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "REL_2026_05_chunk_000",
+    "document_id": "REL_2026_05",
+    "chunk_index": 0,
+    "title": "Enterprise Self-Care Portal v3.1",
+    "document_type": "Release Notes",
+    "category": "GENERAL",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-11",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\release_notes\\REL_2026_05.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "REL_2026_06_chunk_000",
+    "document_id": "REL_2026_06",
+    "chunk_index": 0,
+    "title": "Network Platform Release — VoLTE Band Expansion",
+    "document_type": "Release Notes",
+    "category": "GENERAL",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-23",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\release_notes\\REL_2026_06.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "REL_2026_07_chunk_000",
+    "document_id": "REL_2026_07",
+    "chunk_index": 0,
+    "title": "My NovaTel App v7.4.0",
+    "document_type": "Release Notes",
+    "category": "GENERAL",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-12",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\release_notes\\REL_2026_07.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "SOP_C03_RECHARGE_FAILURE_chunk_000",
+    "document_id": "SOP_C03_RECHARGE_FAILURE",
+    "chunk_index": 0,
+    "title": "Handling Failed / Stuck Recharge Transactions",
+    "document_type": "SOP",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c03"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C03_RECHARGE_FAILURE.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C05_SIM_REPLACEMENT_chunk_000",
+    "document_id": "SOP_C05_SIM_REPLACEMENT",
+    "chunk_index": 0,
+    "title": "Issuing a Duplicate/Replacement SIM",
+    "document_type": "SOP",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c05"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C05_SIM_REPLACEMENT.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C08_OUTAGE_MANAGEMENT_chunk_000",
+    "document_id": "SOP_C08_OUTAGE_MANAGEMENT",
+    "chunk_index": 0,
+    "title": "Network Outage Detection, Triage and Communication",
+    "document_type": "SOP",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c08"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C08_OUTAGE_MANAGEMENT.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C10_VAS_DISPUTE_chunk_000",
+    "document_id": "SOP_C10_VAS_DISPUTE",
+    "chunk_index": 0,
+    "title": "Handling Unauthorised VAS Subscription Complaints",
+    "document_type": "SOP",
+    "category": "C10",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c10"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C10_VAS_DISPUTE.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C13_APP_ACCESS_ISSUES_chunk_000",
+    "document_id": "SOP_C13_APP_ACCESS_ISSUES",
+    "chunk_index": 0,
+    "title": "Resolving Persistent App Login / OTP Failures",
+    "document_type": "SOP",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c13"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C13_APP_ACCESS_ISSUES.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C16_COMPLAINT_ESCALATION_chunk_000",
+    "document_id": "SOP_C16_COMPLAINT_ESCALATION",
+    "chunk_index": 0,
+    "title": "Complaint Escalation and Nodal Officer Referral",
+    "document_type": "SOP",
+    "category": "C16",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c16"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C16_COMPLAINT_ESCALATION.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C17_KYC_VERIFICATION_chunk_000",
+    "document_id": "SOP_C17_KYC_VERIFICATION",
+    "chunk_index": 0,
+    "title": "New Connection and Re-Verification KYC Procedure",
+    "document_type": "SOP",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c17"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C17_KYC_VERIFICATION.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C18_FRAUD_RESPONSE_chunk_000",
+    "document_id": "SOP_C18_FRAUD_RESPONSE",
+    "chunk_index": 0,
+    "title": "SIM Swap Fraud and Phishing Incident Response",
+    "document_type": "SOP",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c18"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C18_FRAUD_RESPONSE.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C20_REFUND_PROCESSING_chunk_000",
+    "document_id": "SOP_C20_REFUND_PROCESSING",
+    "chunk_index": 0,
+    "title": "Duplicate Charge and Billing Refund Processing",
+    "document_type": "SOP",
+    "category": "C20",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c20"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C20_REFUND_PROCESSING.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C21_ACCOUNT_CLOSURE_chunk_000",
+    "document_id": "SOP_C21_ACCOUNT_CLOSURE",
+    "chunk_index": 0,
+    "title": "Voluntary Account Closure and Reactivation",
+    "document_type": "SOP",
+    "category": "C21",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c21"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C21_ACCOUNT_CLOSURE.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C22_ACTIVATION_DELAY_chunk_000",
+    "document_id": "SOP_C22_ACTIVATION_DELAY",
+    "chunk_index": 0,
+    "title": "New Connection Activation Delay Resolution",
+    "document_type": "SOP",
+    "category": "C22",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c22"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C22_ACTIVATION_DELAY.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C25_FTTH_FAULT_HANDLING_chunk_000",
+    "document_id": "SOP_C25_FTTH_FAULT_HANDLING",
+    "chunk_index": 0,
+    "title": "FTTH Broadband Fault Ticket Handling",
+    "document_type": "SOP",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c25"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C25_FTTH_FAULT_HANDLING.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "TARIFF_POSTPAID_2026H2_chunk_000",
+    "document_id": "TARIFF_POSTPAID_2026H2",
+    "chunk_index": 0,
+    "title": "Postpaid & Enterprise Tariff Catalogue — H2 2026",
+    "document_type": "Tariff Catalogue",
+    "category": "C23",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\tariff\\TARIFF_POSTPAID_2026H2.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TARIFF_PREPAID_2026H2_chunk_000",
+    "document_id": "TARIFF_PREPAID_2026H2",
+    "chunk_index": 0,
+    "title": "Prepaid Tariff Catalogue — H2 2026",
+    "document_type": "Tariff Catalogue",
+    "category": "C02",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-27",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\tariff\\TARIFF_PREPAID_2026H2.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRN_001_chunk_000",
+    "document_id": "TRN_001",
+    "chunk_index": 0,
+    "title": "New Hire Foundations: Handling Billing Queries",
+    "document_type": "Training Manual",
+    "category": "GENERAL",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-20",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\training\\TRN_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRN_002_chunk_000",
+    "document_id": "TRN_002",
+    "chunk_index": 0,
+    "title": "Frontline Response to Network Outage Queries",
+    "document_type": "Training Manual",
+    "category": "GENERAL",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-30",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\training\\TRN_002.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRN_003_chunk_000",
+    "document_id": "TRN_003",
+    "chunk_index": 0,
+    "title": "Fraud and SIM-Swap Response Training",
+    "document_type": "Training Manual",
+    "category": "GENERAL",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-09",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\training\\TRN_003.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRN_004_chunk_000",
+    "document_id": "TRN_004",
+    "chunk_index": 0,
+    "title": "KYC and Regulatory Basics for Frontline Staff",
+    "document_type": "Training Manual",
+    "category": "GENERAL",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\training\\TRN_004.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRX_001_chunk_000",
+    "document_id": "TRX_001",
+    "chunk_index": 0,
+    "title": "Recharge Failure — Amount Debited, Not Credited",
+    "document_type": "Support Transcript",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-02",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRX_002_chunk_000",
+    "document_id": "TRX_002",
+    "chunk_index": 0,
+    "title": "Suspected SIM Swap Fraud — Emergency Block",
+    "document_type": "Support Transcript",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-17",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_002.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRX_003_chunk_000",
+    "document_id": "TRX_003",
+    "chunk_index": 0,
+    "title": "Escalating an Unresolved Billing Complaint",
+    "document_type": "Support Transcript",
+    "category": "C16",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-27",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_003.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRX_004_chunk_000",
+    "document_id": "TRX_004",
+    "chunk_index": 0,
+    "title": "Number Porting Enquiry",
+    "document_type": "Support Transcript",
+    "category": "C06",
+    "department": "Regulatory",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_004.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRX_005_chunk_000",
+    "document_id": "TRX_005",
+    "chunk_index": 0,
+    "title": "Slow 4G Data Speed Complaint",
+    "document_type": "Support Transcript",
+    "category": "C09",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-26",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_005.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRX_006_chunk_000",
+    "document_id": "TRX_006",
+    "chunk_index": 0,
+    "title": "FTTH Broadband Down — Red Light on ONT",
+    "document_type": "Support Transcript",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_006.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRX_007_chunk_000",
+    "document_id": "TRX_007",
+    "chunk_index": 0,
+    "title": "KYC Re-verification Request",
+    "document_type": "Support Transcript",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_007.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRX_008_chunk_000",
+    "document_id": "TRX_008",
+    "chunk_index": 0,
+    "title": "Postpaid Account Closure Request",
+    "document_type": "Support Transcript",
+    "category": "C21",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-12",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_008.md",
+    "file_type": "markdown"
+  }
+]

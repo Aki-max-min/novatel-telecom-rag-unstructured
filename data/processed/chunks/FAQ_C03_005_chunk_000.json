@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C03_005_chunk_000",
+  "document_id": "FAQ_C03_005",
+  "chunk_index": 0,
+  "text": "Question: Why did my recharge fail even though the amount was debited?\n\nAnswer: This usually happens due to a bank/payment-gateway timeout after the debit was confirmed but before NovaTel's system received acknowledgement. In most cases the recharge auto-credits within 30-60 minutes. If not credited within 24 hours, the amount is auto-reversed to source; otherwise raise a ticket with the transaction reference.\n\nTopic: Recharge & Payments",
+  "title": "Why did my recharge fail even though the amount was debited?",
+  "document_type": "FAQ",
+  "category": "C03",
+  "department": "Finance",
+  "customer_scope": "prepaid",
+  "version": "1.0",
+  "last_updated": "2026-07-28",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C03_overview"
+  ],
+  "tags": [
+    "recharge",
+    "c03"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C03_005.json",
+  "file_type": "json"
+}

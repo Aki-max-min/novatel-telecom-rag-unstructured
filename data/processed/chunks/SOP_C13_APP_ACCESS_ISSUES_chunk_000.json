@@ -1,0 +1,20 @@
+{
+  "chunk_id": "SOP_C13_APP_ACCESS_ISSUES_chunk_000",
+  "document_id": "SOP_C13_APP_ACCESS_ISSUES",
+  "chunk_index": 0,
+  "text": "Resolving Persistent App Login / OTP Failures\n\nDocument ID: SOP_C13_APP_ACCESS_ISSUES\n\nCategory: C13 — App & Self-Care Portal\n\nDepartment: Digital Channels\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nPurpose\n\nTo provide a consistent troubleshooting and escalation path for customers unable to log in to the My NovaTel app.\n\nProcedure\n\nConfirm SIM has active signal and the device is not on Airplane Mode.\n\nAttempt OTP resend after the mandatory 30-second cooldown.\n\nIf OTP still fails, offer 'Login via Missed Call' as an alternate verification method.\n\nIf account shows 'Locked' status, advise the 30-minute auto-unlock window or process a manual unlock after identity verification.\n\nEscalate to Digital Channels engineering if failures are reported at scale (>50 tickets/hour) as a potential platform incident.\n\nRelated Documents\n\nKB_C13_selfcare_login_issues",
+  "title": "Resolving Persistent App Login / OTP Failures",
+  "document_type": "SOP",
+  "category": "C13",
+  "department": "Digital Channels",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c13"
+  ],
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C13_APP_ACCESS_ISSUES.docx",
+  "file_type": "docx"
+}

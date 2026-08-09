@@ -1,0 +1,18 @@
+{
+  "document_id": "Policy_C17_kyc_policy",
+  "title": "Customer Identity Verification (KYC) Policy",
+  "document_type": "Policy",
+  "category": "C17",
+  "department": "Compliance",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c17"
+  ],
+  "content": "Customer Identity Verification (KYC) Policy\n\nDocument ID: Policy_C17_kyc_policy\n\nCategory: C17 — KYC & Identity Verification\n\nDepartment: Compliance\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\n1. Purpose\n\nEstablishes the mandatory identity verification standards for new connections and periodic re-verification, in line with applicable telecom licensing and regulatory requirements.\n\n2. Accepted Documents\n\nAadhaar (with explicit consent for e-KYC)\n\nPassport\n\nVoter ID\n\nDriving Licence\n\n3. Policy Statements\n\nNo connection may be activated without completed KYC verification.\n\nPeriodic re-verification may be mandated by regulatory directive; non-completion within the notified window results in service suspension.\n\nKYC records are retained per the statutory minimum retention period even after account closure.",
+  "file_path": "data\\raw\\unstructured\\policies\\Policy_C17_kyc_policy.docx",
+  "file_type": "docx"
+}

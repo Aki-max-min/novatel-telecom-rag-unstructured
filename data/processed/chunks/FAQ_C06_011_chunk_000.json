@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C06_011_chunk_000",
+  "document_id": "FAQ_C06_011",
+  "chunk_index": 0,
+  "text": "Question: How long does number portability (MNP) take?\n\nAnswer: Under current TRAI timelines, intra-circle porting is typically completed within 2 working days and inter-circle porting within 4 working days of a valid Unique Porting Code (UPC) request, provided there are no dues or open disputes on the account.\n\nTopic: Number Portability (MNP)",
+  "title": "How long does number portability (MNP) take?",
+  "document_type": "FAQ",
+  "category": "C06",
+  "department": "Regulatory",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-20",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C06_overview"
+  ],
+  "tags": [
+    "number",
+    "c06"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C06_011.json",
+  "file_type": "json"
+}

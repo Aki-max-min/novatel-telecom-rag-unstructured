@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C24_048",
+  "question": "How do we monitor usage across thousands of IoT SIMs?",
+  "answer": "The Enterprise IoT Management Portal provides a dashboard for bulk usage monitoring, alerting on anomalous consumption, and remote SIM state changes (activate/suspend/terminate) via API or UI.",
+  "category": "C24",
+  "category_name": "IoT & M2M Services",
+  "department": "Enterprise Sales",
+  "customer_scope": "enterprise",
+  "last_updated": "2026-06-02",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C24_overview"
+  ],
+  "tags": [
+    "iot",
+    "c24"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "document_id": "KB_C21_account_closure",
+  "title": "Closing or Reactivating a Deactivated Connection",
+  "document_type": "KB Article",
+  "category": "C21",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-18",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C21_001"
+  ],
+  "tags": [
+    "c21",
+    "how-to"
+  ],
+  "content": "# Closing or Reactivating a Deactivated Connection\n\n**Document ID:** KB_C21_account_closure\n**Category:** C21 — Termination & Deactivation\n**Department:** Customer Care\n**Last Updated:** 2026-05-30\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nCovers both voluntary closure and reactivation after non-payment deactivation.\n\n## Voluntary Closure\n\n1. Clear outstanding dues.\n2. Submit closure request (app or store).\n3. Final bill generated; number enters cooling-off period.\n\n## Reactivation After Non-Payment\n\nPossible within the retention window (commonly 90 days) by clearing dues; may require re-KYC if the gap exceeds regulatory thresholds.",
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C21_account_closure.md",
+  "file_type": "markdown"
+}

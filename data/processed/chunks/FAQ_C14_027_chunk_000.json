@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C14_027_chunk_000",
+  "document_id": "FAQ_C14_027",
+  "chunk_index": 0,
+  "text": "Question: How do I find offers available exclusively for my number?\n\nAnswer: Personalised offers based on your usage and tenure appear under Offers > For You in the app. These are dynamically generated and may differ from generic advertised offers, so always check in-app before assuming a promotional rate applies.\n\nTopic: Offers & Promotions",
+  "title": "How do I find offers available exclusively for my number?",
+  "document_type": "FAQ",
+  "category": "C14",
+  "department": "Marketing",
+  "customer_scope": "prepaid",
+  "version": "1.0",
+  "last_updated": "2026-05-19",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C14_overview"
+  ],
+  "tags": [
+    "offers",
+    "c14"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C14_027.json",
+  "file_type": "json"
+}

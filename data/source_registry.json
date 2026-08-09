@@ -1,0 +1,49 @@
+{
+  "internal_sources": [
+    {
+      "source_id": "SRC_INT_001",
+      "name": "NovaTel Internal Knowledge Base (CMS)",
+      "type": "internal",
+      "description": "Primary authoring system for FAQs, KB articles, SOPs, and policies. All synthetic content in this package is authored as if sourced here."
+    },
+    {
+      "source_id": "SRC_INT_002",
+      "name": "NovaTel NOC Incident Management System",
+      "type": "internal",
+      "description": "Source system of record for incident reports and RCAs."
+    },
+    {
+      "source_id": "SRC_INT_003",
+      "name": "NovaTel CRM / Call Centre Platform",
+      "type": "internal",
+      "description": "Source of call transcripts and sample support emails (synthetic reconstructions for RAG testing)."
+    },
+    {
+      "source_id": "SRC_INT_004",
+      "name": "NovaTel Product & Pricing Systems",
+      "type": "internal",
+      "description": "Source of tariff catalogue data (illustrative/synthetic figures only)."
+    }
+  ],
+  "external_reference_sources": [
+    {
+      "source_id": "SRC_EXT_001",
+      "name": "Telecom Regulatory Authority of India (TRAI)",
+      "type": "external",
+      "url": "https://www.trai.gov.in",
+      "description": "Referenced for general, publicly known regulatory frameworks: DND/UCC rules, Mobile Number Portability (MNP) timelines, KYC norms, and Quality of Service (QoS) reporting requirements. No document in this package reproduces TRAI text verbatim; all regulatory descriptions are original paraphrase of publicly known frameworks and are illustrative rather than legal reference."
+    },
+    {
+      "source_id": "SRC_EXT_002",
+      "name": "Department of Telecommunications (DoT), Government of India",
+      "type": "external",
+      "url": "https://www.dot.gov.in",
+      "description": "Referenced for general licensing-condition context (KYC, data retention norms). General/public knowledge, not verbatim reproduction."
+    }
+  ],
+  "notes": [
+    "This is a SYNTHETIC dataset built for RAG-pipeline testing. 'NovaTel' is a fictional operator; no real company, real customer, or real transaction data is used anywhere in this package.",
+    "Where specific regulatory timelines or figures are cited (e.g., MNP porting windows, DND short codes), they reflect generally known public information about the Indian telecom regulatory framework as background realism, not verified up-to-date legal advice. Do not use this package as a compliance reference in a real deployment.",
+    "All tariff figures are marked illustrative/synthetic within the relevant documents."
+  ]
+}

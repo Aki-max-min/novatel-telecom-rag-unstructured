@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C19_038",
+  "question": "How do I request deletion of my personal data after closing my account?",
+  "answer": "Submit a data-deletion request via Privacy Settings > My Data > Request Deletion. Certain records must be retained for the regulatory minimum retention period (e.g., CDRs) even after account closure, per licence and law-enforcement requirements.",
+  "category": "C19",
+  "category_name": "Privacy & Data Protection",
+  "department": "Legal",
+  "customer_scope": "postpaid",
+  "last_updated": "2026-07-08",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C19_overview"
+  ],
+  "tags": [
+    "privacy",
+    "c19"
+  ]
+}

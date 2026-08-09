@@ -1,0 +1,19 @@
+{
+  "document_id": "INC_C13_INC_2026_0184",
+  "title": "My NovaTel App Login Outage",
+  "document_type": "Incident Report",
+  "category": "C13",
+  "department": "Digital Channels",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-10",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "p1",
+    "pan-india"
+  ],
+  "content": "# Incident Report: My NovaTel App Login Outage\n\n**Incident ID:** INC-2026-0184\n**Category:** C13 — App & Self-Care Portal\n**Region:** Pan-India\n**Severity:** P1\n**Department:** Digital Channels\n**Date Logged:** 2026-03-15\n**Status:** Resolved\n\n## Summary\nAn authentication microservice deployment introduced a certificate misconfiguration, blocking all app logins for 55 minutes.\n\n## Timeline\nDeployment rolled back within 20 minutes of alert; certificate corrected; full service restored at T+55 minutes.\n\n## Customer Impact\nEstimated customers affected and service categories impacted are recorded in the internal incident-management system (ref: INC-2026-0184). Customer-facing status was published under Network > Service Status for the outage duration.\n\n## Resolution\nService was restored per the timeline above. A follow-up Root Cause Analysis is tracked separately where applicable (see related_ids).\n\n## Preventive Actions\nPreventive/corrective actions arising from this incident are tracked in the linked RCA document, where one was raised.",
+  "file_path": "data\\raw\\unstructured\\incidents\\INC_C13_INC_2026_0184.md",
+  "file_type": "markdown"
+}

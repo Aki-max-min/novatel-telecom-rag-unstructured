@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C06_porting_process_chunk_000",
+  "document_id": "KB_C06_porting_process",
+  "chunk_index": 0,
+  "text": "# End-to-End Guide to Number Porting (MNP)\n\n**Document ID:** KB_C06_porting_process\n**Category:** C06 — Number Portability (MNP)\n**Department:** Regulatory\n**Last Updated:** 2026-06-23\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nDescribes the full mobile number portability journey for a customer switching to NovaTel.\n\n## Process Steps\n\n1. SMS 'PORT <10-digit number>' to 1900 to receive a Unique Porting Code (UPC).\n2. Visit a NovaTel store or complete online porting request with the UPC and ID proof.\n3. Choose a plan; submit KYC.\n4. Await porting confirmation SMS (2 working days intra-circle, 4 working days inter-circle).\n5. Insert the new NovaTel SIM once notified; the old SIM deactivates automatically.\n\n## Common Rejection Reasons\n\n- UPC expired (valid 15 days, 4 days if from J&K/Assam/NE circles)\n- Outstanding dues with donor operator\n- Ongoing request for change of ownership",
+  "title": "End-to-End Guide to Number Porting (MNP)",
+  "document_type": "KB Article",
+  "category": "C06",
+  "department": "Regulatory",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-18",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C06_001"
+  ],
+  "tags": [
+    "c06",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C06_porting_process.md",
+  "file_type": "markdown"
+}

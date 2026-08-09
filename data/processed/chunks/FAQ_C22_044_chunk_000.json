@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C22_044_chunk_000",
+  "document_id": "FAQ_C22_044",
+  "chunk_index": 0,
+  "text": "Question: Why is my new SIM still showing 'No Service' after 24 hours?\n\nAnswer: This can indicate pending KYC verification, a mismatch in submitted documents, or a provisioning delay. Check SIM Services > Activation Status in the app, or contact care with your application/reference number.\n\nTopic: New Connection Activation",
+  "title": "Why is my new SIM still showing 'No Service' after 24 hours?",
+  "document_type": "FAQ",
+  "category": "C22",
+  "department": "Customer Care",
+  "customer_scope": "postpaid",
+  "version": "1.0",
+  "last_updated": "2026-06-15",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C22_overview"
+  ],
+  "tags": [
+    "new",
+    "c22"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C22_044.json",
+  "file_type": "json"
+}

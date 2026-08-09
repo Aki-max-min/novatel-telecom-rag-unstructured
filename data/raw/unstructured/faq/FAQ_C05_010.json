@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C05_010",
+  "question": "How do I get a duplicate SIM if mine is lost or damaged?",
+  "answer": "Visit any NovaTel Experience Store with valid photo ID matching your KYC record, or verify identity via video-KYC in the app under SIM Services > Replace SIM. A duplicate SIM is issued instantly in most cases; your number and remaining balance/plan carry over unchanged.",
+  "category": "C05",
+  "category_name": "SIM Card Services",
+  "department": "Customer Care",
+  "customer_scope": "postpaid",
+  "last_updated": "2026-05-11",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C05_overview"
+  ],
+  "tags": [
+    "sim",
+    "c05"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "document_id": "SOP_C21_ACCOUNT_CLOSURE",
+  "title": "Voluntary Account Closure and Reactivation",
+  "document_type": "SOP",
+  "category": "C21",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c21"
+  ],
+  "content": "Voluntary Account Closure and Reactivation\n\nDocument ID: SOP_C21_ACCOUNT_CLOSURE\n\nCategory: C21 — Termination & Deactivation\n\nDepartment: Customer Care\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nPurpose\n\nTo standardise the closure of active connections and reactivation of connections deactivated for non-payment.\n\nProcedure — Closure\n\nConfirm all outstanding dues are cleared or scheduled for final settlement.\n\nProcess closure request; generate final pro-rated bill within 5-7 working days.\n\nPlace the number into the regulatory cooling-off period before recycling.\n\nProcedure — Reactivation\n\nConfirm the request is within the retention window (typically 90 days).\n\nClear outstanding dues and complete re-KYC if required.\n\nReactivate connection with original number where still held in cooling-off inventory.\n\nRelated Documents\n\nKB_C21_account_closure",
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C21_ACCOUNT_CLOSURE.docx",
+  "file_type": "docx"
+}

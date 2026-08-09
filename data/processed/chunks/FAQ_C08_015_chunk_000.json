@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C08_015_chunk_000",
+  "document_id": "FAQ_C08_015",
+  "chunk_index": 0,
+  "text": "Question: Why is there no network coverage in my area?\n\nAnswer: Coverage gaps can result from terrain/building obstruction, an outage under investigation, or the area being outside current tower footprint. Check Network > Coverage Map in the app for real-time status, or report the location so our Network team can log it for planning.\n\nTopic: Network Coverage & Outages",
+  "title": "Why is there no network coverage in my area?",
+  "document_type": "FAQ",
+  "category": "C08",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-07",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C08_overview"
+  ],
+  "tags": [
+    "network",
+    "c08"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C08_015.json",
+  "file_type": "json"
+}

@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C12_023",
+  "question": "Is my phone compatible with NovaTel's 5G network?",
+  "answer": "Check Device Compatibility under Help > Device Support and enter your IMEI or device model. Compatibility depends on supported 5G NR bands (n1/n3/n78 etc.) and whether the handset is carrier-unlocked for our network.",
+  "category": "C12",
+  "category_name": "Device Compatibility",
+  "department": "Technical Support",
+  "customer_scope": "all",
+  "last_updated": "2026-06-11",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C12_overview"
+  ],
+  "tags": [
+    "device",
+    "c12"
+  ]
+}

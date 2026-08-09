@@ -1,0 +1,21 @@
+{
+  "chunk_id": "INC_C18_INC_2026_0197_chunk_000",
+  "document_id": "INC_C18_INC_2026_0197",
+  "chunk_index": 0,
+  "text": "# Incident Report: Phishing SMS Campaign Impersonating NovaTel\n\n**Incident ID:** INC-2026-0197\n**Category:** C18 — Security & Fraud\n**Region:** Pan-India\n**Severity:** P1\n**Department:** Security\n**Date Logged:** 2026-07-16\n**Status:** Resolved\n\n## Summary\nA third-party phishing campaign sent SMS messages impersonating NovaTel billing alerts with a malicious link.\n\n## Timeline\nFlagged via customer fraud reports; anti-fraud short code alert broadcast within 4 hours; domain reported for takedown; law-enforcement liaison initiated.\n\n## Customer Impact\nEstimated customers affected and service categories impacted are recorded in the internal incident-management system (ref: INC-2026-0197). Customer-facing status was published under Network > Service Status for the outage duration.\n\n## Resolution\nService was restored per the timeline above. A follow-up Root Cause Analysis is tracked separately where applicable (see related_ids).\n\n## Preventive Actions\nPreventive/corrective actions arising from this incident are tracked in the linked RCA document, where one was raised.",
+  "title": "Phishing SMS Campaign Impersonating NovaTel",
+  "document_type": "Incident Report",
+  "category": "C18",
+  "department": "Security",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-10",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "p1",
+    "pan-india"
+  ],
+  "file_path": "data\\raw\\unstructured\\incidents\\INC_C18_INC_2026_0197.md",
+  "file_type": "markdown"
+}

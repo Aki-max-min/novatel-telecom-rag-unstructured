@@ -1,0 +1,1533 @@
+{
+  "total_questions": 29,
+  "document_metrics": {
+    "top1": 0.896551724137931,
+    "top3": 1.0,
+    "top5": 1.0
+  },
+  "category_metrics": {
+    "top1": 0.9655172413793104,
+    "top3": 1.0,
+    "top5": 1.0
+  },
+  "results": [
+    {
+      "question_id": "Q01",
+      "category": "C01",
+      "question": "I don't have access to my old registered phone number anymore. How can I update the number on my account?",
+      "expected_document_ids": [
+        "FAQ_C01_001"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C01_001",
+          "chunk_id": "FAQ_C01_001_chunk_000",
+          "category": "C01",
+          "title": "How do I update the mobile number registered on my account?",
+          "score": 0.683832585811615
+        },
+        {
+          "document_id": "TRX_004",
+          "chunk_id": "TRX_004_chunk_000",
+          "category": "C06",
+          "title": "Number Porting Enquiry",
+          "score": 0.455480694770813
+        },
+        {
+          "document_id": "TRX_002",
+          "chunk_id": "TRX_002_chunk_000",
+          "category": "C18",
+          "title": "Suspected SIM Swap Fraud — Emergency Block",
+          "score": 0.4460885524749756
+        },
+        {
+          "document_id": "KB_C06_porting_process",
+          "chunk_id": "KB_C06_porting_process_chunk_000",
+          "category": "C06",
+          "title": "End-to-End Guide to Number Porting (MNP)",
+          "score": 0.4397880733013153
+        },
+        {
+          "document_id": "FAQ_C21_042",
+          "chunk_id": "FAQ_C21_042_chunk_000",
+          "category": "C21",
+          "title": "Can I reactivate a number that was deactivated for non-payment?",
+          "score": 0.41013824939727783
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q02",
+      "category": "C02",
+      "question": "How can I check when my current prepaid plan will stop being valid?",
+      "expected_document_ids": [
+        "FAQ_C02_003",
+        "KB_C02_plan_expiry",
+        "Policy_C02_plan_lifecycle"
+      ],
+      "top5": [
+        {
+          "document_id": "KB_C02_plan_expiry",
+          "chunk_id": "KB_C02_plan_expiry_chunk_000",
+          "category": "C02",
+          "title": "Understanding Plan Validity and Expiry",
+          "score": 0.6623491048812866
+        },
+        {
+          "document_id": "FAQ_C02_003",
+          "chunk_id": "FAQ_C02_003_chunk_000",
+          "category": "C02",
+          "title": "When does my prepaid plan expire?",
+          "score": 0.6500550508499146
+        },
+        {
+          "document_id": "Policy_C02_plan_lifecycle",
+          "chunk_id": "Policy_C02_plan_lifecycle_chunk_000",
+          "category": "C02",
+          "title": "Prepaid & Postpaid Plan Lifecycle Policy",
+          "score": 0.5997942686080933
+        },
+        {
+          "document_id": "FAQ_C02_004",
+          "chunk_id": "FAQ_C02_004_chunk_000",
+          "category": "C02",
+          "title": "What happens if I don't recharge before my plan expires?",
+          "score": 0.4705551266670227
+        },
+        {
+          "document_id": "EML_002",
+          "chunk_id": "EML_002_chunk_000",
+          "category": "C03",
+          "title": "Recharge Reconciliation Confirmation",
+          "score": 0.4515267610549927
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q03",
+      "category": "C03",
+      "question": "Money was deducted when I tried to recharge, but the recharge hasn't appeared on my account. What should I do?",
+      "expected_document_ids": [
+        "KB_C03_recharge_failures",
+        "TRX_001",
+        "FAQ_C03_005"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C03_005",
+          "chunk_id": "FAQ_C03_005_chunk_000",
+          "category": "C03",
+          "title": "Why did my recharge fail even though the amount was debited?",
+          "score": 0.5986478328704834
+        },
+        {
+          "document_id": "FAQ_C20_039",
+          "chunk_id": "FAQ_C20_039_chunk_000",
+          "category": "C20",
+          "title": "I was charged twice for the same recharge — how do I get a refund?",
+          "score": 0.5457363128662109
+        },
+        {
+          "document_id": "EML_002",
+          "chunk_id": "EML_002_chunk_000",
+          "category": "C03",
+          "title": "Recharge Reconciliation Confirmation",
+          "score": 0.5250260829925537
+        },
+        {
+          "document_id": "SOP_C03_RECHARGE_FAILURE",
+          "chunk_id": "SOP_C03_RECHARGE_FAILURE_chunk_000",
+          "category": "C03",
+          "title": "Handling Failed / Stuck Recharge Transactions",
+          "score": 0.5217412114143372
+        },
+        {
+          "document_id": "TRX_001",
+          "chunk_id": "TRX_001_chunk_000",
+          "category": "C03",
+          "title": "Recharge Failure — Amount Debited, Not Credited",
+          "score": 0.48578184843063354
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q04",
+      "category": "C04",
+      "question": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
+      "expected_document_ids": [
+        "FAQ_C04_007",
+        "KB_C04_bill_disputes"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C04_007",
+          "chunk_id": "FAQ_C04_007_chunk_000",
+          "category": "C04",
+          "title": "Why is my postpaid bill higher than my plan rental this month?",
+          "score": 0.7808767557144165
+        },
+        {
+          "document_id": "KB_C04_bill_disputes",
+          "chunk_id": "KB_C04_bill_disputes_chunk_000",
+          "category": "C04",
+          "title": "Reading and Disputing Your Postpaid Bill",
+          "score": 0.436942994594574
+        },
+        {
+          "document_id": "Policy_C02_plan_lifecycle",
+          "chunk_id": "Policy_C02_plan_lifecycle_chunk_000",
+          "category": "C02",
+          "title": "Prepaid & Postpaid Plan Lifecycle Policy",
+          "score": 0.35210758447647095
+        },
+        {
+          "document_id": "TARIFF_POSTPAID_2026H2",
+          "chunk_id": "TARIFF_POSTPAID_2026H2_chunk_000",
+          "category": "C23",
+          "title": "Postpaid & Enterprise Tariff Catalogue — H2 2026",
+          "score": 0.34840986132621765
+        },
+        {
+          "document_id": "EML_005",
+          "chunk_id": "EML_005_chunk_000",
+          "category": "C21",
+          "title": "Account Closure Confirmation",
+          "score": 0.31700772047042847
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q05",
+      "category": "C05",
+      "question": "I put my SIM into another phone and now it says there is no network. What can I do?",
+      "expected_document_ids": [
+        "KB_C05_sim_swap_troubleshooting",
+        "FAQ_C05_009"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C05_009",
+          "chunk_id": "FAQ_C05_009_chunk_000",
+          "category": "C05",
+          "title": "My SIM card shows 'No Service' after I inserted it in a new phone.",
+          "score": 0.6015572547912598
+        },
+        {
+          "document_id": "KB_C29_network_reset_guide",
+          "chunk_id": "KB_C29_network_reset_guide_chunk_000",
+          "category": "C29",
+          "title": "Resetting Device Network Settings for Persistent Connectivity Issues",
+          "score": 0.5317783355712891
+        },
+        {
+          "document_id": "FAQ_C22_044",
+          "chunk_id": "FAQ_C22_044_chunk_000",
+          "category": "C22",
+          "title": "Why is my new SIM still showing 'No Service' after 24 hours?",
+          "score": 0.4924851059913635
+        },
+        {
+          "document_id": "FAQ_C29_057",
+          "chunk_id": "FAQ_C29_057_chunk_000",
+          "category": "C29",
+          "title": "My phone shows 'SIM not provisioned for voice' — how do I fix this?",
+          "score": 0.4907090663909912
+        },
+        {
+          "document_id": "KB_C05_sim_swap_troubleshooting",
+          "chunk_id": "KB_C05_sim_swap_troubleshooting_chunk_000",
+          "category": "C05",
+          "title": "Diagnosing 'No Service' After a SIM Swap",
+          "score": 0.45975708961486816
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q06",
+      "category": "C06",
+      "question": "If I move my existing number to NovaTel, how long will the porting process take?",
+      "expected_document_ids": [
+        "FAQ_C06_011",
+        "KB_C06_porting_process"
+      ],
+      "top5": [
+        {
+          "document_id": "KB_C06_porting_process",
+          "chunk_id": "KB_C06_porting_process_chunk_000",
+          "category": "C06",
+          "title": "End-to-End Guide to Number Porting (MNP)",
+          "score": 0.7009484767913818
+        },
+        {
+          "document_id": "TRX_004",
+          "chunk_id": "TRX_004_chunk_000",
+          "category": "C06",
+          "title": "Number Porting Enquiry",
+          "score": 0.6884207725524902
+        },
+        {
+          "document_id": "EML_004",
+          "chunk_id": "EML_004_chunk_000",
+          "category": "C06",
+          "title": "Number Porting Confirmation",
+          "score": 0.6862552165985107
+        },
+        {
+          "document_id": "FAQ_C06_012",
+          "chunk_id": "FAQ_C06_012_chunk_000",
+          "category": "C06",
+          "title": "Will I lose my current plan benefits if I port into NovaTel?",
+          "score": 0.6493988037109375
+        },
+        {
+          "document_id": "FAQ_C06_011",
+          "chunk_id": "FAQ_C06_011_chunk_000",
+          "category": "C06",
+          "title": "How long does number portability (MNP) take?",
+          "score": 0.5792030096054077
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q07",
+      "category": "C07",
+      "question": "I'm travelling outside India. How do I turn on international roaming before I leave?",
+      "expected_document_ids": [
+        "KB_C07_roaming_activation",
+        "FAQ_C07_013"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C07_013",
+          "chunk_id": "FAQ_C07_013_chunk_000",
+          "category": "C07",
+          "title": "How do I activate international roaming before travelling?",
+          "score": 0.6930689811706543
+        },
+        {
+          "document_id": "KB_C07_roaming_activation",
+          "chunk_id": "KB_C07_roaming_activation_chunk_000",
+          "category": "C07",
+          "title": "Activating and Managing International Roaming",
+          "score": 0.5697275400161743
+        },
+        {
+          "document_id": "FAQ_C07_014",
+          "chunk_id": "FAQ_C07_014_chunk_000",
+          "category": "C07",
+          "title": "What happens if I don't activate a roaming pack and use my phone abroad?",
+          "score": 0.485774964094162
+        },
+        {
+          "document_id": "FAQ_C11_022",
+          "chunk_id": "FAQ_C11_022_chunk_000",
+          "category": "C11",
+          "title": "Can I call an international number that is out of network coverage in my recipient's country?",
+          "score": 0.3891822099685669
+        },
+        {
+          "document_id": "INC_C07_INC_2026_0190",
+          "chunk_id": "INC_C07_INC_2026_0190_chunk_000",
+          "category": "C07",
+          "title": "Roaming Pack Activation Failures",
+          "score": 0.37385523319244385
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q08",
+      "category": "C08",
+      "question": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+      "expected_document_ids": [
+        "KB_C08_outage_status_check",
+        "FAQ_C08_015"
+      ],
+      "top5": [
+        {
+          "document_id": "KB_C29_network_reset_guide",
+          "chunk_id": "KB_C29_network_reset_guide_chunk_000",
+          "category": "C29",
+          "title": "Resetting Device Network Settings for Persistent Connectivity Issues",
+          "score": 0.6179866194725037
+        },
+        {
+          "document_id": "FAQ_C08_015",
+          "chunk_id": "FAQ_C08_015_chunk_000",
+          "category": "C08",
+          "title": "Why is there no network coverage in my area?",
+          "score": 0.5640899538993835
+        },
+        {
+          "document_id": "FAQ_C11_022",
+          "chunk_id": "FAQ_C11_022_chunk_000",
+          "category": "C11",
+          "title": "Can I call an international number that is out of network coverage in my recipient's country?",
+          "score": 0.5608991384506226
+        },
+        {
+          "document_id": "FAQ_C13_025",
+          "chunk_id": "FAQ_C13_025_chunk_000",
+          "category": "C13",
+          "title": "I can't log in to the My NovaTel app — it says 'OTP not received'.",
+          "score": 0.5589801073074341
+        },
+        {
+          "document_id": "FAQ_C12_023",
+          "chunk_id": "FAQ_C12_023_chunk_000",
+          "category": "C12",
+          "title": "Is my phone compatible with NovaTel's 5G network?",
+          "score": 0.5533230304718018
+        }
+      ],
+      "document_hit_top1": false,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": false,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q09",
+      "category": "C09",
+      "question": "My mobile internet has become much slower than usual. Could a data usage limit be causing this?",
+      "expected_document_ids": [
+        "KB_C09_fup_data_speed",
+        "FAQ_C09_018",
+        "FAQ_C09_017"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C09_017",
+          "chunk_id": "FAQ_C09_017_chunk_000",
+          "category": "C09",
+          "title": "Why is my 4G/5G data speed slower than expected?",
+          "score": 0.654206395149231
+        },
+        {
+          "document_id": "TRX_005",
+          "chunk_id": "TRX_005_chunk_000",
+          "category": "C09",
+          "title": "Slow 4G Data Speed Complaint",
+          "score": 0.6271305680274963
+        },
+        {
+          "document_id": "EML_006",
+          "chunk_id": "EML_006_chunk_000",
+          "category": "C09",
+          "title": "Network Speed Complaint Follow-up",
+          "score": 0.5571957230567932
+        },
+        {
+          "document_id": "KB_C09_fup_data_speed",
+          "chunk_id": "KB_C09_fup_data_speed_chunk_000",
+          "category": "C09",
+          "title": "Understanding Fair Usage Policy (FUP) and Data Speed Drops",
+          "score": 0.5563417673110962
+        },
+        {
+          "document_id": "INC_C09_INC_2026_0158",
+          "chunk_id": "INC_C09_INC_2026_0158_chunk_000",
+          "category": "C09",
+          "title": "Data Speed Degradation During IPL Match",
+          "score": 0.4146175980567932
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q10",
+      "category": "C10",
+      "question": "I was subscribed to a service I don't remember requesting. How can I cancel it?",
+      "expected_document_ids": [
+        "FAQ_C10_019",
+        "SOP_C10_VAS_DISPUTE"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C10_019",
+          "chunk_id": "FAQ_C10_019_chunk_000",
+          "category": "C10",
+          "title": "How do I unsubscribe from a Value Added Service (VAS) I didn't request?",
+          "score": 0.6182599067687988
+        },
+        {
+          "document_id": "FAQ_C21_041",
+          "chunk_id": "FAQ_C21_041_chunk_000",
+          "category": "C21",
+          "title": "How do I permanently deactivate/close my postpaid connection?",
+          "score": 0.44870954751968384
+        },
+        {
+          "document_id": "SOP_C10_VAS_DISPUTE",
+          "chunk_id": "SOP_C10_VAS_DISPUTE_chunk_000",
+          "category": "C10",
+          "title": "Handling Unauthorised VAS Subscription Complaints",
+          "score": 0.41731899976730347
+        },
+        {
+          "document_id": "EML_008",
+          "chunk_id": "EML_008_chunk_000",
+          "category": "C17",
+          "title": "KYC Re-verification Reminder",
+          "score": 0.40079569816589355
+        },
+        {
+          "document_id": "FAQ_C26_051",
+          "chunk_id": "FAQ_C26_051_chunk_000",
+          "category": "C26",
+          "title": "How do I register for Do Not Disturb (DND) to stop promotional calls/SMS?",
+          "score": 0.39202865958213806
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q11",
+      "category": "C11",
+      "question": "How much will I be charged if I call or send an SMS to a number in another country?",
+      "expected_document_ids": [
+        "FAQ_C11_021"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C11_021",
+          "chunk_id": "FAQ_C11_021_chunk_000",
+          "category": "C11",
+          "title": "What are the rates for international calls and SMS from my plan?",
+          "score": 0.6643524169921875
+        },
+        {
+          "document_id": "FAQ_C07_014",
+          "chunk_id": "FAQ_C07_014_chunk_000",
+          "category": "C07",
+          "title": "What happens if I don't activate a roaming pack and use my phone abroad?",
+          "score": 0.5042476058006287
+        },
+        {
+          "document_id": "FAQ_C11_022",
+          "chunk_id": "FAQ_C11_022_chunk_000",
+          "category": "C11",
+          "title": "Can I call an international number that is out of network coverage in my recipient's country?",
+          "score": 0.49411624670028687
+        },
+        {
+          "document_id": "EML_001",
+          "chunk_id": "EML_001_chunk_000",
+          "category": "C04",
+          "title": "Response to Billing Dispute",
+          "score": 0.4112870395183563
+        },
+        {
+          "document_id": "FAQ_C04_008",
+          "chunk_id": "FAQ_C04_008_chunk_000",
+          "category": "C04",
+          "title": "Can I get my bill in a different language or in large print?",
+          "score": 0.37755709886550903
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q12",
+      "category": "C12",
+      "question": "How do I check whether my handset supports NovaTel 5G and VoLTE?",
+      "expected_document_ids": [
+        "FAQ_C12_024",
+        "FAQ_C12_023",
+        "MAN_DEVICE_VOLTE_001"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C12_023",
+          "chunk_id": "FAQ_C12_023_chunk_000",
+          "category": "C12",
+          "title": "Is my phone compatible with NovaTel's 5G network?",
+          "score": 0.7142567038536072
+        },
+        {
+          "document_id": "MAN_DEVICE_VOLTE_001",
+          "chunk_id": "MAN_DEVICE_VOLTE_001_chunk_000",
+          "category": "C12",
+          "title": "Enabling VoLTE / HD Voice on Your Device",
+          "score": 0.6690490245819092
+        },
+        {
+          "document_id": "REL_2026_06",
+          "chunk_id": "REL_2026_06_chunk_000",
+          "category": "GENERAL",
+          "title": "Network Platform Release — VoLTE Band Expansion",
+          "score": 0.5843766927719116
+        },
+        {
+          "document_id": "FAQ_C12_024",
+          "chunk_id": "FAQ_C12_024_chunk_000",
+          "category": "C12",
+          "title": "Why doesn't VoLTE/HD Voice work on my phone?",
+          "score": 0.5593445301055908
+        },
+        {
+          "document_id": "FAQ_C24_047",
+          "chunk_id": "FAQ_C24_047_chunk_000",
+          "category": "C24",
+          "title": "What connectivity options does NovaTel offer for IoT/M2M devices?",
+          "score": 0.46331048011779785
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q13",
+      "category": "C13",
+      "question": "The OTP for signing into the My NovaTel app isn't arriving. How can I log in?",
+      "expected_document_ids": [
+        "KB_C13_selfcare_login_issues",
+        "FAQ_C13_025"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C13_025",
+          "chunk_id": "FAQ_C13_025_chunk_000",
+          "category": "C13",
+          "title": "I can't log in to the My NovaTel app — it says 'OTP not received'.",
+          "score": 0.7993128895759583
+        },
+        {
+          "document_id": "MAN_APP_001",
+          "chunk_id": "MAN_APP_001_chunk_000",
+          "category": "C13",
+          "title": "My NovaTel App — User Guide",
+          "score": 0.6948254108428955
+        },
+        {
+          "document_id": "SOP_C13_APP_ACCESS_ISSUES",
+          "chunk_id": "SOP_C13_APP_ACCESS_ISSUES_chunk_000",
+          "category": "C13",
+          "title": "Resolving Persistent App Login / OTP Failures",
+          "score": 0.680199146270752
+        },
+        {
+          "document_id": "KB_C13_selfcare_login_issues",
+          "chunk_id": "KB_C13_selfcare_login_issues_chunk_000",
+          "category": "C13",
+          "title": "Resolving My NovaTel App Login and OTP Issues",
+          "score": 0.6672689318656921
+        },
+        {
+          "document_id": "REL_2026_07",
+          "chunk_id": "REL_2026_07_chunk_000",
+          "category": "GENERAL",
+          "title": "My NovaTel App v7.4.0",
+          "score": 0.6066036224365234
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q14",
+      "category": "C14",
+      "question": "Are there any special recharge offers available specifically for my mobile number?",
+      "expected_document_ids": [
+        "FAQ_C14_027",
+        "EML_009"
+      ],
+      "top5": [
+        {
+          "document_id": "EML_009",
+          "chunk_id": "EML_009_chunk_000",
+          "category": "C14",
+          "title": "Personalised Offer Notification",
+          "score": 0.5583417415618896
+        },
+        {
+          "document_id": "EML_001",
+          "chunk_id": "EML_001_chunk_000",
+          "category": "C04",
+          "title": "Response to Billing Dispute",
+          "score": 0.43652477860450745
+        },
+        {
+          "document_id": "FAQ_C01_001",
+          "chunk_id": "FAQ_C01_001_chunk_000",
+          "category": "C01",
+          "title": "How do I update the mobile number registered on my account?",
+          "score": 0.423275887966156
+        },
+        {
+          "document_id": "EML_002",
+          "chunk_id": "EML_002_chunk_000",
+          "category": "C03",
+          "title": "Recharge Reconciliation Confirmation",
+          "score": 0.4145682156085968
+        },
+        {
+          "document_id": "FAQ_C03_006",
+          "chunk_id": "FAQ_C03_006_chunk_000",
+          "category": "C03",
+          "title": "What payment methods are accepted for recharge?",
+          "score": 0.4052790403366089
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q15",
+      "category": "C15",
+      "question": "I had Gold loyalty status before, but now I'm Silver. Why did my loyalty tier change?",
+      "expected_document_ids": [
+        "FAQ_C15_030"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C15_030",
+          "chunk_id": "FAQ_C15_030_chunk_000",
+          "category": "C15",
+          "title": "Why did my loyalty tier drop from Gold to Silver?",
+          "score": 0.8008856773376465
+        },
+        {
+          "document_id": "FAQ_C15_029",
+          "chunk_id": "FAQ_C15_029_chunk_000",
+          "category": "C15",
+          "title": "How do I redeem loyalty reward points?",
+          "score": 0.35126543045043945
+        },
+        {
+          "document_id": "EML_001",
+          "chunk_id": "EML_001_chunk_000",
+          "category": "C04",
+          "title": "Response to Billing Dispute",
+          "score": 0.28535300493240356
+        },
+        {
+          "document_id": "EML_002",
+          "chunk_id": "EML_002_chunk_000",
+          "category": "C03",
+          "title": "Recharge Reconciliation Confirmation",
+          "score": 0.28211867809295654
+        },
+        {
+          "document_id": "KB_C02_plan_expiry",
+          "chunk_id": "KB_C02_plan_expiry_chunk_000",
+          "category": "C02",
+          "title": "Understanding Plan Validity and Expiry",
+          "score": 0.2634756565093994
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q16",
+      "category": "C16",
+      "question": "I've already complained about this issue but nobody has resolved it. How can I escalate my complaint?",
+      "expected_document_ids": [
+        "KB_C16_complaint_escalation",
+        "TRX_003",
+        "FAQ_C16_031"
+      ],
+      "top5": [
+        {
+          "document_id": "EML_010",
+          "chunk_id": "EML_010_chunk_000",
+          "category": "C16",
+          "title": "Complaint Escalation Acknowledgement",
+          "score": 0.6167334318161011
+        },
+        {
+          "document_id": "FAQ_C16_031",
+          "chunk_id": "FAQ_C16_031_chunk_000",
+          "category": "C16",
+          "title": "How do I escalate a complaint that hasn't been resolved?",
+          "score": 0.5914758443832397
+        },
+        {
+          "document_id": "SOP_C16_COMPLAINT_ESCALATION",
+          "chunk_id": "SOP_C16_COMPLAINT_ESCALATION_chunk_000",
+          "category": "C16",
+          "title": "Complaint Escalation and Nodal Officer Referral",
+          "score": 0.4889848828315735
+        },
+        {
+          "document_id": "TRX_003",
+          "chunk_id": "TRX_003_chunk_000",
+          "category": "C16",
+          "title": "Escalating an Unresolved Billing Complaint",
+          "score": 0.4879607856273651
+        },
+        {
+          "document_id": "KB_C16_complaint_escalation",
+          "chunk_id": "KB_C16_complaint_escalation_chunk_000",
+          "category": "C16",
+          "title": "Navigating the Complaint Escalation Ladder",
+          "score": 0.486718088388443
+        }
+      ],
+      "document_hit_top1": false,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q17",
+      "category": "C17",
+      "question": "What documents do I need to provide if NovaTel asks me to complete KYC verification again?",
+      "expected_document_ids": [
+        "FAQ_C17_034",
+        "FAQ_C17_033",
+        "KB_C17_kyc_reverification"
+      ],
+      "top5": [
+        {
+          "document_id": "EML_008",
+          "chunk_id": "EML_008_chunk_000",
+          "category": "C17",
+          "title": "KYC Re-verification Reminder",
+          "score": 0.7377883195877075
+        },
+        {
+          "document_id": "FAQ_C17_034",
+          "chunk_id": "FAQ_C17_034_chunk_000",
+          "category": "C17",
+          "title": "How do I complete re-verification if I'm asked to update my KYC?",
+          "score": 0.730095386505127
+        },
+        {
+          "document_id": "SOP_C17_KYC_VERIFICATION",
+          "chunk_id": "SOP_C17_KYC_VERIFICATION_chunk_000",
+          "category": "C17",
+          "title": "New Connection and Re-Verification KYC Procedure",
+          "score": 0.6829296946525574
+        },
+        {
+          "document_id": "FAQ_C17_033",
+          "chunk_id": "FAQ_C17_033_chunk_000",
+          "category": "C17",
+          "title": "What documents are required for SIM KYC verification?",
+          "score": 0.6709689497947693
+        },
+        {
+          "document_id": "TRX_007",
+          "chunk_id": "TRX_007_chunk_000",
+          "category": "C17",
+          "title": "KYC Re-verification Request",
+          "score": 0.6707131266593933
+        }
+      ],
+      "document_hit_top1": false,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q18",
+      "category": "C18",
+      "question": "I think someone has fraudulently replaced my SIM. What should I do immediately?",
+      "expected_document_ids": [
+        "KB_C18_fraud_response",
+        "TRX_002",
+        "FAQ_C18_035"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C18_035",
+          "chunk_id": "FAQ_C18_035_chunk_000",
+          "category": "C18",
+          "title": "I think my SIM was swapped fraudulently — what should I do immediately?",
+          "score": 0.7995265126228333
+        },
+        {
+          "document_id": "KB_C18_fraud_response",
+          "chunk_id": "KB_C18_fraud_response_chunk_000",
+          "category": "C18",
+          "title": "Responding to Suspected SIM Swap Fraud or Phishing",
+          "score": 0.6712142825126648
+        },
+        {
+          "document_id": "SOP_C05_SIM_REPLACEMENT",
+          "chunk_id": "SOP_C05_SIM_REPLACEMENT_chunk_000",
+          "category": "C05",
+          "title": "Issuing a Duplicate/Replacement SIM",
+          "score": 0.661348283290863
+        },
+        {
+          "document_id": "TRX_002",
+          "chunk_id": "TRX_002_chunk_000",
+          "category": "C18",
+          "title": "Suspected SIM Swap Fraud — Emergency Block",
+          "score": 0.6591949462890625
+        },
+        {
+          "document_id": "SOP_C18_FRAUD_RESPONSE",
+          "chunk_id": "SOP_C18_FRAUD_RESPONSE_chunk_000",
+          "category": "C18",
+          "title": "SIM Swap Fraud and Phishing Incident Response",
+          "score": 0.6554280519485474
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q19",
+      "category": "C19",
+      "question": "What happens to my call and location information, and how does NovaTel use it?",
+      "expected_document_ids": [
+        "KB_C19_privacy_data_requests",
+        "FAQ_C19_037",
+        "Policy_C19_privacy_policy"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C19_037",
+          "chunk_id": "FAQ_C19_037_chunk_000",
+          "category": "C19",
+          "title": "How does NovaTel use my call and location data?",
+          "score": 0.7678129076957703
+        },
+        {
+          "document_id": "FAQ_C11_022",
+          "chunk_id": "FAQ_C11_022_chunk_000",
+          "category": "C11",
+          "title": "Can I call an international number that is out of network coverage in my recipient's country?",
+          "score": 0.598393440246582
+        },
+        {
+          "document_id": "KB_C07_roaming_activation",
+          "chunk_id": "KB_C07_roaming_activation_chunk_000",
+          "category": "C07",
+          "title": "Activating and Managing International Roaming",
+          "score": 0.5760664343833923
+        },
+        {
+          "document_id": "Policy_C19_privacy_policy",
+          "chunk_id": "Policy_C19_privacy_policy_chunk_000",
+          "category": "C19",
+          "title": "Customer Data Privacy Policy",
+          "score": 0.5654975175857544
+        },
+        {
+          "document_id": "TRX_004",
+          "chunk_id": "TRX_004_chunk_000",
+          "category": "C06",
+          "title": "Number Porting Enquiry",
+          "score": 0.5266927480697632
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q20",
+      "category": "C20",
+      "question": "I was charged twice for the same recharge. How can I get the extra amount refunded?",
+      "expected_document_ids": [
+        "KB_C20_refund_processing",
+        "FAQ_C20_039",
+        "SOP_C20_REFUND_PROCESSING",
+        "Policy_C20_refund_policy"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C20_039",
+          "chunk_id": "FAQ_C20_039_chunk_000",
+          "category": "C20",
+          "title": "I was charged twice for the same recharge — how do I get a refund?",
+          "score": 0.8082413673400879
+        },
+        {
+          "document_id": "SOP_C20_REFUND_PROCESSING",
+          "chunk_id": "SOP_C20_REFUND_PROCESSING_chunk_000",
+          "category": "C20",
+          "title": "Duplicate Charge and Billing Refund Processing",
+          "score": 0.546311616897583
+        },
+        {
+          "document_id": "KB_C20_refund_processing",
+          "chunk_id": "KB_C20_refund_processing_chunk_000",
+          "category": "C20",
+          "title": "Processing Duplicate Charge and Billing Refunds",
+          "score": 0.534991443157196
+        },
+        {
+          "document_id": "EML_002",
+          "chunk_id": "EML_002_chunk_000",
+          "category": "C03",
+          "title": "Recharge Reconciliation Confirmation",
+          "score": 0.4916047155857086
+        },
+        {
+          "document_id": "FAQ_C03_005",
+          "chunk_id": "FAQ_C03_005_chunk_000",
+          "category": "C03",
+          "title": "Why did my recharge fail even though the amount was debited?",
+          "score": 0.47033676505088806
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q21",
+      "category": "C21",
+      "question": "I want to permanently close my postpaid connection. How do I do that?",
+      "expected_document_ids": [
+        "KB_C21_account_closure",
+        "FAQ_C21_041"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C21_041",
+          "chunk_id": "FAQ_C21_041_chunk_000",
+          "category": "C21",
+          "title": "How do I permanently deactivate/close my postpaid connection?",
+          "score": 0.8643274307250977
+        },
+        {
+          "document_id": "EML_005",
+          "chunk_id": "EML_005_chunk_000",
+          "category": "C21",
+          "title": "Account Closure Confirmation",
+          "score": 0.6184651255607605
+        },
+        {
+          "document_id": "TRX_008",
+          "chunk_id": "TRX_008_chunk_000",
+          "category": "C21",
+          "title": "Postpaid Account Closure Request",
+          "score": 0.5409017205238342
+        },
+        {
+          "document_id": "KB_C21_account_closure",
+          "chunk_id": "KB_C21_account_closure_chunk_000",
+          "category": "C21",
+          "title": "Closing or Reactivating a Deactivated Connection",
+          "score": 0.4428788423538208
+        },
+        {
+          "document_id": "FAQ_C19_038",
+          "chunk_id": "FAQ_C19_038_chunk_000",
+          "category": "C19",
+          "title": "How do I request deletion of my personal data after closing my account?",
+          "score": 0.4383886158466339
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q22",
+      "category": "C22",
+      "question": "I bought a new SIM but it still isn't active after a full day. What should I do?",
+      "expected_document_ids": [
+        "FAQ_C22_044",
+        "KB_C22_new_activation_delay",
+        "SOP_C22_ACTIVATION_DELAY"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C22_044",
+          "chunk_id": "FAQ_C22_044_chunk_000",
+          "category": "C22",
+          "title": "Why is my new SIM still showing 'No Service' after 24 hours?",
+          "score": 0.6742091178894043
+        },
+        {
+          "document_id": "FAQ_C05_009",
+          "chunk_id": "FAQ_C05_009_chunk_000",
+          "category": "C05",
+          "title": "My SIM card shows 'No Service' after I inserted it in a new phone.",
+          "score": 0.5884413719177246
+        },
+        {
+          "document_id": "KB_C22_new_activation_delay",
+          "chunk_id": "KB_C22_new_activation_delay_chunk_000",
+          "category": "C22",
+          "title": "Diagnosing Delayed New SIM Activation",
+          "score": 0.525982677936554
+        },
+        {
+          "document_id": "SOP_C22_ACTIVATION_DELAY",
+          "chunk_id": "SOP_C22_ACTIVATION_DELAY_chunk_000",
+          "category": "C22",
+          "title": "New Connection Activation Delay Resolution",
+          "score": 0.5064135193824768
+        },
+        {
+          "document_id": "KB_C05_sim_swap_troubleshooting",
+          "chunk_id": "KB_C05_sim_swap_troubleshooting_chunk_000",
+          "category": "C05",
+          "title": "Diagnosing 'No Service' After a SIM Swap",
+          "score": 0.5023545622825623
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q23",
+      "category": "C23",
+      "question": "What does a NovaTel enterprise connectivity plan include for a business?",
+      "expected_document_ids": [
+        "FAQ_C23_045",
+        "KB_C23_enterprise_onboarding",
+        "Policy_C23_enterprise_terms",
+        "TARIFF_POSTPAID_2026H2"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C23_045",
+          "chunk_id": "FAQ_C23_045_chunk_000",
+          "category": "C23",
+          "title": "What is included in an Enterprise Business Connectivity plan?",
+          "score": 0.6775078177452087
+        },
+        {
+          "document_id": "Policy_C23_enterprise_terms",
+          "chunk_id": "Policy_C23_enterprise_terms_chunk_000",
+          "category": "C23",
+          "title": "Enterprise & Business Connectivity Commercial Policy",
+          "score": 0.6208747625350952
+        },
+        {
+          "document_id": "FAQ_C24_047",
+          "chunk_id": "FAQ_C24_047_chunk_000",
+          "category": "C24",
+          "title": "What connectivity options does NovaTel offer for IoT/M2M devices?",
+          "score": 0.5774282813072205
+        },
+        {
+          "document_id": "MAN_IOT_PORTAL_001",
+          "chunk_id": "MAN_IOT_PORTAL_001_chunk_000",
+          "category": "C24",
+          "title": "Enterprise IoT Management Portal — Quick Start",
+          "score": 0.5574754476547241
+        },
+        {
+          "document_id": "Policy_C28_regulatory_compliance",
+          "chunk_id": "Policy_C28_regulatory_compliance_chunk_000",
+          "category": "C28",
+          "title": "Regulatory Compliance and TRAI Disclosure Policy",
+          "score": 0.5047467350959778
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q24",
+      "category": "C24",
+      "question": "We have thousands of IoT SIM cards. How can our organisation monitor their usage?",
+      "expected_document_ids": [
+        "MAN_IOT_PORTAL_001",
+        "FAQ_C24_048"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C24_048",
+          "chunk_id": "FAQ_C24_048_chunk_000",
+          "category": "C24",
+          "title": "How do we monitor usage across thousands of IoT SIMs?",
+          "score": 0.7566695213317871
+        },
+        {
+          "document_id": "MAN_IOT_PORTAL_001",
+          "chunk_id": "MAN_IOT_PORTAL_001_chunk_000",
+          "category": "C24",
+          "title": "Enterprise IoT Management Portal — Quick Start",
+          "score": 0.49342548847198486
+        },
+        {
+          "document_id": "FAQ_C24_047",
+          "chunk_id": "FAQ_C24_047_chunk_000",
+          "category": "C24",
+          "title": "What connectivity options does NovaTel offer for IoT/M2M devices?",
+          "score": 0.377120703458786
+        },
+        {
+          "document_id": "REL_2026_05",
+          "chunk_id": "REL_2026_05_chunk_000",
+          "category": "GENERAL",
+          "title": "Enterprise Self-Care Portal v3.1",
+          "score": 0.3646603226661682
+        },
+        {
+          "document_id": "FAQ_C19_037",
+          "chunk_id": "FAQ_C19_037_chunk_000",
+          "category": "C19",
+          "title": "How does NovaTel use my call and location data?",
+          "score": 0.3645944595336914
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q25",
+      "category": "C25",
+      "question": "My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?",
+      "expected_document_ids": [
+        "KB_C25_ftth_fault_diagnosis",
+        "FAQ_C25_049",
+        "MAN_ROUTER_001"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C25_049",
+          "chunk_id": "FAQ_C25_049_chunk_000",
+          "category": "C25",
+          "title": "Why is my FTTH broadband connection showing 'LOS' (Loss of Signal) on the ONT?",
+          "score": 0.7364062070846558
+        },
+        {
+          "document_id": "KB_C25_ftth_fault_diagnosis",
+          "chunk_id": "KB_C25_ftth_fault_diagnosis_chunk_000",
+          "category": "C25",
+          "title": "Diagnosing Common FTTH Broadband Faults",
+          "score": 0.6455863118171692
+        },
+        {
+          "document_id": "TRX_006",
+          "chunk_id": "TRX_006_chunk_000",
+          "category": "C25",
+          "title": "FTTH Broadband Down — Red Light on ONT",
+          "score": 0.5169046521186829
+        },
+        {
+          "document_id": "EML_007",
+          "chunk_id": "EML_007_chunk_000",
+          "category": "C25",
+          "title": "FTTH Fault Ticket Update",
+          "score": 0.46843627095222473
+        },
+        {
+          "document_id": "MAN_ROUTER_001",
+          "chunk_id": "MAN_ROUTER_001_chunk_000",
+          "category": "C25",
+          "title": "Home FTTH Wi-Fi Router — Setup Guide",
+          "score": 0.4599224925041199
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q26",
+      "category": "C26",
+      "question": "I registered for DND but I'm still receiving promotional calls. How can I report this?",
+      "expected_document_ids": [
+        "KB_C26_dnd_registration",
+        "FAQ_C26_052"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C26_052",
+          "chunk_id": "FAQ_C26_052_chunk_000",
+          "category": "C26",
+          "title": "I'm still getting spam calls despite registering for DND — what can I do?",
+          "score": 0.734121561050415
+        },
+        {
+          "document_id": "KB_C26_dnd_registration",
+          "chunk_id": "KB_C26_dnd_registration_chunk_000",
+          "category": "C26",
+          "title": "Registering for DND and Reporting Spam",
+          "score": 0.6357554197311401
+        },
+        {
+          "document_id": "FAQ_C26_051",
+          "chunk_id": "FAQ_C26_051_chunk_000",
+          "category": "C26",
+          "title": "How do I register for Do Not Disturb (DND) to stop promotional calls/SMS?",
+          "score": 0.5198618173599243
+        },
+        {
+          "document_id": "FAQ_C18_036",
+          "chunk_id": "FAQ_C18_036_chunk_000",
+          "category": "C18",
+          "title": "How do I report a suspicious call or SMS claiming to be from NovaTel?",
+          "score": 0.44458913803100586
+        },
+        {
+          "document_id": "SOP_C10_VAS_DISPUTE",
+          "chunk_id": "SOP_C10_VAS_DISPUTE_chunk_000",
+          "category": "C10",
+          "title": "Handling Unauthorised VAS Subscription Complaints",
+          "score": 0.4108459949493408
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q27",
+      "category": "C27",
+      "question": "Does the My NovaTel app work with screen readers for visually impaired users?",
+      "expected_document_ids": [
+        "FAQ_C27_054"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C27_054",
+          "chunk_id": "FAQ_C27_054_chunk_000",
+          "category": "C27",
+          "title": "Is the My NovaTel app compatible with screen readers?",
+          "score": 0.7990170121192932
+        },
+        {
+          "document_id": "FAQ_C27_053",
+          "chunk_id": "FAQ_C27_053_chunk_000",
+          "category": "C27",
+          "title": "What accessibility support does NovaTel offer for hearing-impaired customers?",
+          "score": 0.6840434670448303
+        },
+        {
+          "document_id": "REL_2026_07",
+          "chunk_id": "REL_2026_07_chunk_000",
+          "category": "GENERAL",
+          "title": "My NovaTel App v7.4.0",
+          "score": 0.5509136915206909
+        },
+        {
+          "document_id": "FAQ_C04_008",
+          "chunk_id": "FAQ_C04_008_chunk_000",
+          "category": "C04",
+          "title": "Can I get my bill in a different language or in large print?",
+          "score": 0.486974835395813
+        },
+        {
+          "document_id": "MAN_APP_001",
+          "chunk_id": "MAN_APP_001_chunk_000",
+          "category": "C13",
+          "title": "My NovaTel App — User Guide",
+          "score": 0.43926966190338135
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q28",
+      "category": "C28",
+      "question": "What is TRAI's role in regulating telecom operators like NovaTel?",
+      "expected_document_ids": [
+        "Policy_C28_regulatory_compliance",
+        "FAQ_C28_055"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C28_055",
+          "chunk_id": "FAQ_C28_055_chunk_000",
+          "category": "C28",
+          "title": "What is TRAI and how does it regulate NovaTel's services?",
+          "score": 0.8180740475654602
+        },
+        {
+          "document_id": "Policy_C28_regulatory_compliance",
+          "chunk_id": "Policy_C28_regulatory_compliance_chunk_000",
+          "category": "C28",
+          "title": "Regulatory Compliance and TRAI Disclosure Policy",
+          "score": 0.6616464257240295
+        },
+        {
+          "document_id": "KB_C28_qos_disclosures",
+          "chunk_id": "KB_C28_qos_disclosures_chunk_000",
+          "category": "C28",
+          "title": "Understanding Published Quality of Service (QoS) Metrics",
+          "score": 0.49277597665786743
+        },
+        {
+          "document_id": "Policy_C18_security_policy",
+          "chunk_id": "Policy_C18_security_policy_chunk_000",
+          "category": "C18",
+          "title": "Fraud Prevention and Account Security Policy",
+          "score": 0.46320343017578125
+        },
+        {
+          "document_id": "FAQ_C28_056",
+          "chunk_id": "FAQ_C28_056_chunk_000",
+          "category": "C28",
+          "title": "Where can I find NovaTel's published Quality of Service (QoS) metrics?",
+          "score": 0.442604124546051
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    },
+    {
+      "question_id": "Q29",
+      "category": "C29",
+      "question": "My phone says the SIM isn't provisioned for voice calls. How can I fix this?",
+      "expected_document_ids": [
+        "KB_C29_network_reset_guide",
+        "FAQ_C29_057"
+      ],
+      "top5": [
+        {
+          "document_id": "FAQ_C29_057",
+          "chunk_id": "FAQ_C29_057_chunk_000",
+          "category": "C29",
+          "title": "My phone shows 'SIM not provisioned for voice' — how do I fix this?",
+          "score": 0.8439012765884399
+        },
+        {
+          "document_id": "MAN_DEVICE_VOLTE_001",
+          "chunk_id": "MAN_DEVICE_VOLTE_001_chunk_000",
+          "category": "C12",
+          "title": "Enabling VoLTE / HD Voice on Your Device",
+          "score": 0.5817134380340576
+        },
+        {
+          "document_id": "FAQ_C12_024",
+          "chunk_id": "FAQ_C12_024_chunk_000",
+          "category": "C12",
+          "title": "Why doesn't VoLTE/HD Voice work on my phone?",
+          "score": 0.48551392555236816
+        },
+        {
+          "document_id": "FAQ_C05_009",
+          "chunk_id": "FAQ_C05_009_chunk_000",
+          "category": "C05",
+          "title": "My SIM card shows 'No Service' after I inserted it in a new phone.",
+          "score": 0.4643478989601135
+        },
+        {
+          "document_id": "FAQ_C22_044",
+          "chunk_id": "FAQ_C22_044_chunk_000",
+          "category": "C22",
+          "title": "Why is my new SIM still showing 'No Service' after 24 hours?",
+          "score": 0.45648691058158875
+        }
+      ],
+      "document_hit_top1": true,
+      "document_hit_top3": true,
+      "document_hit_top5": true,
+      "category_hit_top1": true,
+      "category_hit_top3": true,
+      "category_hit_top5": true
+    }
+  ]
+}

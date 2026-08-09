@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C27_053",
+  "title": "What accessibility support does NovaTel offer for hearing-impaired customers?",
+  "document_type": "FAQ",
+  "category": "C27",
+  "department": "Customer Care",
+  "customer_scope": "postpaid",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C27_overview"
+  ],
+  "tags": [
+    "accessibility",
+    "c27"
+  ],
+  "content": "Question: What accessibility support does NovaTel offer for hearing-impaired customers?\n\nAnswer: We offer SMS-based/relay customer support, a dedicated accessible IVR flow, and large-print/audio billing formats. Registered accessibility needs can be flagged under Profile > Accessibility Preferences to tailor future communications.\n\nTopic: Accessibility Services",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C27_053.json",
+  "file_type": "json"
+}

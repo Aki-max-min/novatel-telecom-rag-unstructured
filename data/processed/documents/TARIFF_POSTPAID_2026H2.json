@@ -1,0 +1,16 @@
+{
+  "document_id": "TARIFF_POSTPAID_2026H2",
+  "title": "Postpaid & Enterprise Tariff Catalogue — H2 2026",
+  "document_type": "Tariff Catalogue",
+  "category": "C23",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Postpaid & Enterprise Tariff Catalogue — H2 2026\n\n**Document ID:** TARIFF_POSTPAID_2026H2\n**Category:** C23 — Enterprise & Business Services\n**Last Updated:** 2026-07-04\n**Version:** 1.0\n\n| Plan | Rental (₹/month) | Data | Voice | Notes |\n|---|---:|---|---|---|\n| Individual 499 | 499 | 75GB/month | Unlimited | 1 free OTT subscription |\n| Individual 999 | 999 | 150GB/month | Unlimited | 2 free OTT subscriptions, intl roaming pack credit |\n| Enterprise Pooled 50 | 499/line (min. 50 lines) | 40GB pooled/line | Unlimited on-net | Centralised billing, dedicated Account Manager |\n\n*Enterprise commercial terms are subject to a signed agreement; figures shown are illustrative for RAG-testing purposes only.*",
+  "file_path": "data\\raw\\unstructured\\tariff\\TARIFF_POSTPAID_2026H2.md",
+  "file_type": "markdown"
+}

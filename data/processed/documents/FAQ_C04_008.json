@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C04_008",
+  "title": "Can I get my bill in a different language or in large print?",
+  "document_type": "FAQ",
+  "category": "C04",
+  "department": "Billing",
+  "customer_scope": "enterprise",
+  "version": "1.0",
+  "last_updated": "2026-06-12",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C04_overview"
+  ],
+  "tags": [
+    "billing",
+    "c04"
+  ],
+  "content": "Question: Can I get my bill in a different language or in large print?\n\nAnswer: Yes. Bill language preference (English/Hindi/regional) can be set under Profile > Communication Preferences. For visually-impaired customers, NovaTel offers large-print and audio bill formats — see the Accessibility Services section of the app.\n\nTopic: Billing & Invoices",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C04_008.json",
+  "file_type": "json"
+}

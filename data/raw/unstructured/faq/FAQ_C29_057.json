@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C29_057",
+  "question": "My phone shows 'SIM not provisioned for voice' \u2014 how do I fix this?",
+  "answer": "This typically indicates a network-side provisioning issue rather than a device fault. Restart the device, toggle Airplane Mode, and if unresolved, contact care with your number so the account can be re-provisioned on the network.",
+  "category": "C29",
+  "category_name": "Technical Support & Troubleshooting",
+  "department": "Technical Support",
+  "customer_scope": "postpaid",
+  "last_updated": "2026-07-20",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C29_overview"
+  ],
+  "tags": [
+    "technical",
+    "c29"
+  ]
+}

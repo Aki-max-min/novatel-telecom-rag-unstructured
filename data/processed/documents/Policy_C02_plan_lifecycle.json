@@ -1,0 +1,18 @@
+{
+  "document_id": "Policy_C02_plan_lifecycle",
+  "title": "Prepaid & Postpaid Plan Lifecycle Policy",
+  "document_type": "Policy",
+  "category": "C02",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c02"
+  ],
+  "content": "Prepaid & Postpaid Plan Lifecycle Policy\n\nDocument ID: Policy_C02_plan_lifecycle\n\nCategory: C02 — Plans & Subscriptions\n\nDepartment: Product\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\n1. Purpose\n\nThis policy governs the lifecycle of prepaid and postpaid plans, including activation, validity, renewal, and expiry-related service treatment.\n\n2. Policy Statements\n\nPrepaid plan validity begins at the moment of successful activation and is fixed for the stated duration (e.g., 28/56/84/365 days).\n\nOn expiry, outgoing services are suspended; incoming services continue for a grace period defined by plan type and licence conditions.\n\nPostpaid plan changes take effect either immediately (with pro-rated charges) or from the next billing cycle, per the customer's selection at the time of change.\n\n3. Exceptions\n\nEnterprise pooled plans follow the terms of the signed commercial agreement, which may override standard individual-plan lifecycle rules.\n\n4. Review Cycle\n\nThis policy is reviewed annually or upon material regulatory change, whichever is earlier.",
+  "file_path": "data\\raw\\unstructured\\policies\\Policy_C02_plan_lifecycle.docx",
+  "file_type": "docx"
+}

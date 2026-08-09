@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C09_017",
+  "question": "Why is my 4G/5G data speed slower than expected?",
+  "answer": "Speed can be affected by network congestion at peak hours, device compatibility with 5G bands, distance from the tower, indoor signal attenuation, or fair-usage throttling after crossing your plan's high-speed data quota. Run a speed test under Network > Speed Test to compare against your plan's expected range.",
+  "category": "C09",
+  "category_name": "Data Services & Speed",
+  "department": "Network",
+  "customer_scope": "enterprise",
+  "last_updated": "2026-07-29",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C09_overview"
+  ],
+  "tags": [
+    "data",
+    "c09"
+  ]
+}

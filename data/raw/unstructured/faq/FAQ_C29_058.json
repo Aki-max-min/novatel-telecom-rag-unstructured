@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C29_058",
+  "question": "How do I reset my device's network settings to fix persistent connectivity issues?",
+  "answer": "On most Android/iOS devices, go to Settings > General/System > Reset > Reset Network Settings. This clears saved Wi-Fi/APN/Bluetooth configurations, so ensure you know your Wi-Fi passwords before proceeding. This is a common first troubleshooting step for both data and calling issues.",
+  "category": "C29",
+  "category_name": "Technical Support & Troubleshooting",
+  "department": "Technical Support",
+  "customer_scope": "postpaid",
+  "last_updated": "2026-05-31",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C29_overview"
+  ],
+  "tags": [
+    "technical",
+    "c29"
+  ]
+}

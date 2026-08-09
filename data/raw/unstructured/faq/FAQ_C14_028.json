@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C14_028",
+  "question": "Can I combine two promotional offers on the same recharge?",
+  "answer": "Generally no \u2014 most promotional offers are mutually exclusive and the system will apply only one (typically the higher-value one) per transaction unless the offer terms explicitly state it is stackable.",
+  "category": "C14",
+  "category_name": "Offers & Promotions",
+  "department": "Marketing",
+  "customer_scope": "postpaid",
+  "last_updated": "2026-06-01",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C14_overview"
+  ],
+  "tags": [
+    "offers",
+    "c14"
+  ]
+}

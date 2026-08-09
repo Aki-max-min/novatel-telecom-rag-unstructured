@@ -1,0 +1,18 @@
+{
+  "document_id": "Policy_C19_privacy_policy",
+  "title": "Customer Data Privacy Policy",
+  "document_type": "Policy",
+  "category": "C19",
+  "department": "Legal",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c19"
+  ],
+  "content": "Customer Data Privacy Policy\n\nDocument ID: Policy_C19_privacy_policy\n\nCategory: C19 — Privacy & Data Protection\n\nDepartment: Legal\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\n1. Purpose\n\nDescribes how NovaTel collects, uses, retains, and protects customer personal data, and the rights available to customers.\n\n2. Data We Collect\n\nKYC identity and address data\n\nCall Detail Records (CDRs) and data-usage records\n\nBilling and payment data\n\nLocation data derived from network signalling (for service and regulatory purposes)\n\n3. Use of Data\n\nData is used for service delivery, billing, fraud prevention, network optimisation, legal/regulatory compliance, and — where consented — personalised marketing.\n\n4. Retention\n\nCDRs and KYC records are retained for the statutory minimum period mandated by licence conditions, even after account closure or a data-deletion request.\n\n5. Customer Rights\n\nCustomers may request access to, correction of, or deletion of their personal data (subject to statutory retention exceptions) via Privacy Settings in the app.",
+  "file_path": "data\\raw\\unstructured\\policies\\Policy_C19_privacy_policy.docx",
+  "file_type": "docx"
+}

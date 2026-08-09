@@ -1,0 +1,18 @@
+{
+  "document_id": "SOP_C03_RECHARGE_FAILURE",
+  "title": "Handling Failed / Stuck Recharge Transactions",
+  "document_type": "SOP",
+  "category": "C03",
+  "department": "Finance",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c03"
+  ],
+  "content": "Handling Failed / Stuck Recharge Transactions\n\nDocument ID: SOP_C03_RECHARGE_FAILURE\n\nCategory: C03 — Recharge & Payments\n\nDepartment: Finance\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nPurpose\n\nTo define the standard procedure for diagnosing and resolving recharge transactions where payment was debited but not credited to the customer account.\n\nScope\n\nApplies to all prepaid and postpaid recharge channels: app, web self-care, UPI, cards, net banking, and retail POS.\n\nProcedure\n\nVerify the transaction reference ID and debit confirmation provided by the customer.\n\nCheck transaction status in the Payment Reconciliation Dashboard.\n\nIf status is 'Pending', advise the customer that auto-reconciliation typically completes within 60 minutes.\n\nIf unresolved after 24 hours, raise a manual reconciliation ticket to the Payments Ops team.\n\nIf the gateway confirms the debit but NovaTel has no record within 48 hours, process a goodwill account-balance credit pending final reconciliation, and flag for audit.\n\nClose the ticket only once the customer confirms plan/balance is credited, or the amount is refunded to source.\n\nExceptions\n\nTransactions flagged as suspected fraud are routed to SOP_C18_FRAUD_RESPONSE instead of standard reconciliation.\n\nRetail POS cash transactions follow the Retail Cash Reconciliation SOP (out of scope here).\n\nRelated Documents\n\nKB_C03_recharge_failures, FAQ_C03_001, FAQ_C03_002",
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C03_RECHARGE_FAILURE.docx",
+  "file_type": "docx"
+}

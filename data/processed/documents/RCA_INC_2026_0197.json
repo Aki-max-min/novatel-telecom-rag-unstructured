@@ -1,0 +1,21 @@
+{
+  "document_id": "RCA_INC_2026_0197",
+  "title": "RCA: Phishing SMS Campaign Impersonating NovaTel (INC-2026-0197)",
+  "document_type": "RCA",
+  "category": "C18",
+  "department": "Security",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "INC_INC_2026_0197"
+  ],
+  "tags": [
+    "c18",
+    "rca"
+  ],
+  "content": "RCA: Phishing SMS Campaign Impersonating NovaTel (INC-2026-0197)\n\nDocument ID: RCA_INC_2026_0197\n\nCategory: C18 — Security & Fraud\n\nDepartment: Security\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nIncident Reference\n\nINC-2026-0197\n\nProblem Statement\n\nA third-party phishing campaign impersonated NovaTel billing alerts via SMS, directing customers to a malicious link.\n\nRoot Cause\n\nExternal bad actors spoofed NovaTel's SMS sender ID format; this is an external attack rather than an internal system failure, but response coordination had gaps.\n\nContributing Factors\n\nDelay of several hours between first customer reports and the broadcast anti-fraud alert.\n\nNo pre-existing rapid-takedown relationship with the specific hosting provider used for the phishing domain.\n\nCorrective Actions\n\nReduce the customer-report-to-broadcast-alert threshold via an automated spike-detection rule on fraud-report volume (target: 30 days).\n\nEstablish standing takedown-request relationships with major hosting providers via the industry CERT-In liaison channel.\n\nStatus\n\nAction 1 completed; Action 2 in progress; owner: Security team.",
+  "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0197.docx",
+  "file_type": "docx"
+}

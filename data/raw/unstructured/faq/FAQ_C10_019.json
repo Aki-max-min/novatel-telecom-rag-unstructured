@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C10_019",
+  "question": "How do I unsubscribe from a Value Added Service (VAS) I didn't request?",
+  "answer": "Go to My Subscriptions in the app to view all active VAS (caller tunes, content packs, insurance add-ons, etc.) and deactivate any you did not authorise. Unauthorised VAS activation can also be reported via Complaints for a refund review, per TRAI's consent-based subscription rules.",
+  "category": "C10",
+  "category_name": "Value Added Services (VAS)",
+  "department": "Product",
+  "customer_scope": "all",
+  "last_updated": "2026-05-27",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C10_overview"
+  ],
+  "tags": [
+    "value",
+    "c10"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "document_id": "KB_C28_qos_disclosures",
+  "title": "Understanding Published Quality of Service (QoS) Metrics",
+  "document_type": "KB Article",
+  "category": "C28",
+  "department": "Legal",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-14",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C28_001"
+  ],
+  "tags": [
+    "c28",
+    "how-to"
+  ],
+  "content": "# Understanding Published Quality of Service (QoS) Metrics\n\n**Document ID:** KB_C28_qos_disclosures\n**Category:** C28 — Regulatory & Compliance (TRAI)\n**Department:** Legal\n**Last Updated:** 2026-05-12\n**Version:** 1.0\n**Source Authority:** Internal Knowledge Base\n\n---\n\n## Purpose\n\nExplains what QoS metrics NovaTel publishes and what they mean.\n\n## Key Metrics\n\n- Call drop rate (benchmark: ≤2%)\n- Complaint resolution within timeline (benchmark: ≥95% within SLA)\n- Network availability (benchmark: ≥99%)\n\n## Where Published\n\nQuarterly circle-wise reports are published under Regulatory Disclosures on the NovaTel website, per TRAI's QoS regulations.",
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C28_qos_disclosures.md",
+  "file_type": "markdown"
+}

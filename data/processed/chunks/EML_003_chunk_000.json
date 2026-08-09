@@ -1,0 +1,18 @@
+{
+  "chunk_id": "EML_003_chunk_000",
+  "document_id": "EML_003",
+  "chunk_index": 0,
+  "text": "# Sample Email: Fraud Alert Confirmation\n\n**Document ID:** EML_003\n**Category:** C18 — Security & Fraud\n**Department:** Security\n**Date:** 2026-06-09\n\n---\n\n**Subject: Your SIM Has Been Blocked as Requested**\n\nDear Customer,\n\nAs per your request on our Fraud Helpline, your SIM (ending XXXX21) has been blocked with immediate effect to prevent unauthorised use. Please visit your nearest NovaTel Experience Store with a valid photo ID to collect a verified replacement SIM.\n\nWe also recommend informing your bank(s) of this incident if your number is linked to OTP-based transactions.\n\nStay safe,\nNovaTel Security Team",
+  "title": "Fraud Alert Confirmation",
+  "document_type": "Sample Email",
+  "category": "C18",
+  "department": "Security",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\emails\\EML_003.md",
+  "file_type": "markdown"
+}

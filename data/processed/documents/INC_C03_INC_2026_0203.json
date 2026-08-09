@@ -1,0 +1,19 @@
+{
+  "document_id": "INC_C03_INC_2026_0203",
+  "title": "UPI Recharge Gateway Timeout Spike",
+  "document_type": "Incident Report",
+  "category": "C03",
+  "department": "Finance",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-10",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "p2",
+    "pan-india"
+  ],
+  "content": "# Incident Report: UPI Recharge Gateway Timeout Spike\n\n**Incident ID:** INC-2026-0203\n**Category:** C03 — Recharge & Payments\n**Region:** Pan-India\n**Severity:** P2\n**Department:** Finance\n**Date Logged:** 2026-07-19\n**Status:** Resolved\n\n## Summary\nA payment-gateway partner experienced elevated latency causing a spike in recharge transactions stuck in 'Pending'.\n\n## Timeline\nGateway partner notified; auto-reconciliation job run manually to clear backlog within 6 hours; all pending transactions resolved (credited or reversed).\n\n## Customer Impact\nEstimated customers affected and service categories impacted are recorded in the internal incident-management system (ref: INC-2026-0203). Customer-facing status was published under Network > Service Status for the outage duration.\n\n## Resolution\nService was restored per the timeline above. A follow-up Root Cause Analysis is tracked separately where applicable (see related_ids).\n\n## Preventive Actions\nPreventive/corrective actions arising from this incident are tracked in the linked RCA document, where one was raised.",
+  "file_path": "data\\raw\\unstructured\\incidents\\INC_C03_INC_2026_0203.md",
+  "file_type": "markdown"
+}

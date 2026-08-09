@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C21_042",
+  "question": "Can I reactivate a number that was deactivated for non-payment?",
+  "answer": "Reactivation is possible within the operator's retention window (commonly up to 90 days) by clearing dues and completing any required re-verification. Beyond this window the number may be permanently released and cannot be recovered.",
+  "category": "C21",
+  "category_name": "Termination & Deactivation",
+  "department": "Customer Care",
+  "customer_scope": "prepaid",
+  "last_updated": "2026-08-02",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C21_overview"
+  ],
+  "tags": [
+    "termination",
+    "c21"
+  ]
+}

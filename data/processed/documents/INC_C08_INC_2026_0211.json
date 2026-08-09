@@ -1,0 +1,19 @@
+{
+  "document_id": "INC_C08_INC_2026_0211",
+  "title": "5G Site Cluster Down Due to Power Outage",
+  "document_type": "Incident Report",
+  "category": "C08",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-15",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "p2",
+    "chennai_circle"
+  ],
+  "content": "# Incident Report: 5G Site Cluster Down Due to Power Outage\n\n**Incident ID:** INC-2026-0211\n**Category:** C08 — Network Coverage & Outages\n**Region:** Chennai Circle\n**Severity:** P2\n**Department:** Network\n**Date Logged:** 2026-07-17\n**Status:** Resolved\n\n## Summary\nA regional grid power outage without adequate battery backup runtime caused 14 5G sites to go offline.\n\n## Timeline\nSites reverted to 4G-only via automatic failover where power allowed; generator backup deployed to worst-affected sites within 5 hours; full restoration within 9 hours.\n\n## Customer Impact\nEstimated customers affected and service categories impacted are recorded in the internal incident-management system (ref: INC-2026-0211). Customer-facing status was published under Network > Service Status for the outage duration.\n\n## Resolution\nService was restored per the timeline above. A follow-up Root Cause Analysis is tracked separately where applicable (see related_ids).\n\n## Preventive Actions\nPreventive/corrective actions arising from this incident are tracked in the linked RCA document, where one was raised.",
+  "file_path": "data\\raw\\unstructured\\incidents\\INC_C08_INC_2026_0211.md",
+  "file_type": "markdown"
+}

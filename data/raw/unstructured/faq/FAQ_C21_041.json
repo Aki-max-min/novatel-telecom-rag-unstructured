@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C21_041",
+  "question": "How do I permanently deactivate/close my postpaid connection?",
+  "answer": "Submit a closure request via Help > Account Services > Close Connection, or visit a store. Ensure all outstanding dues are cleared and any final bill is settled; the number enters a regulatory cooling-off period before being recycled.",
+  "category": "C21",
+  "category_name": "Termination & Deactivation",
+  "department": "Customer Care",
+  "customer_scope": "postpaid",
+  "last_updated": "2026-06-04",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C21_overview"
+  ],
+  "tags": [
+    "termination",
+    "c21"
+  ]
+}

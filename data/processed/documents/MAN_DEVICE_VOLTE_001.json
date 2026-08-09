@@ -1,0 +1,16 @@
+{
+  "document_id": "MAN_DEVICE_VOLTE_001",
+  "title": "Enabling VoLTE / HD Voice on Your Device",
+  "document_type": "User Manual",
+  "category": "C12",
+  "department": "Technical Support",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-17",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "content": "# Enabling VoLTE / HD Voice on Your Device\n\n**Document ID:** MAN_DEVICE_VOLTE_001\n**Category:** C12 — Device Compatibility\n**Last Updated:** 2026-06-10\n**Version:** 1.0\n\n---\n\n## Requirements\n\nA VoLTE-capable device and a 4G/5G NovaTel SIM.\n\n## Steps (Android, general)\n\nSettings > Network & Internet > SIM > VoLTE Calling > toggle ON. (Menu names vary by manufacturer.)\n\n## Steps (iOS, general)\n\nSettings > Cellular > Cellular Data Options > Enable LTE > Voice & Data.\n\n## Still Not Working?\n\nConfirm device model support via Help > Device Support > Check IMEI, and see FAQ_C12_002.",
+  "file_path": "data\\raw\\unstructured\\manuals\\MAN_DEVICE_VOLTE_001.md",
+  "file_type": "markdown"
+}

@@ -1,0 +1,19 @@
+{
+  "faq_id": "FAQ_C12_024",
+  "question": "Why doesn't VoLTE/HD Voice work on my phone?",
+  "answer": "VoLTE requires a VoLTE-enabled handset, a compatible SIM, and the VoLTE/4G Calling setting enabled in device settings. Some imported or older devices may not support VoLTE on Indian bands even if they support 4G data.",
+  "category": "C12",
+  "category_name": "Device Compatibility",
+  "department": "Technical Support",
+  "customer_scope": "all",
+  "last_updated": "2026-07-19",
+  "version": "1.0",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C12_overview"
+  ],
+  "tags": [
+    "device",
+    "c12"
+  ]
+}

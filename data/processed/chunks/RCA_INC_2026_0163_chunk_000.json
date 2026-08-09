@@ -1,0 +1,23 @@
+{
+  "chunk_id": "RCA_INC_2026_0163_chunk_000",
+  "document_id": "RCA_INC_2026_0163",
+  "chunk_index": 0,
+  "text": "RCA: Duplicate Postpaid Billing Cycle Run (INC-2026-0163)\n\nDocument ID: RCA_INC_2026_0163\n\nCategory: C04 — Billing & Invoices\n\nDepartment: Billing\n\nCustomer Scope: all\n\nVersion: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base\n\nIncident Reference\n\nINC-2026-0163\n\nProblem Statement\n\nApproximately 12,000 postpaid customers were billed twice for the June cycle due to a duplicate batch-job execution.\n\nRoot Cause\n\nA scheduler configuration change inadvertently left the previous month's billing job trigger active alongside the new one, causing the batch to fire twice for the same cycle.\n\nContributing Factors\n\nScheduler change was not validated against a full pre-production dry run covering trigger de-duplication.\n\nAutomated reconciliation alerting caught the issue only after the second run completed, not before.\n\nCorrective Actions\n\nAdd a pre-execution duplicate-trigger check to the billing batch framework (target: 30 days).\n\nIntroduce a mandatory dry-run validation gate for all scheduler configuration changes affecting billing (target: 45 days).\n\nAdd a pre-completion alert threshold so duplicate runs are caught before charges are finalised, not only after.\n\nStatus\n\nAction 1 completed; Actions 2-3 in progress; owner: Billing Engineering team.",
+  "title": "RCA: Duplicate Postpaid Billing Cycle Run (INC-2026-0163)",
+  "document_type": "RCA",
+  "category": "C04",
+  "department": "Billing",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "INC_INC_2026_0163"
+  ],
+  "tags": [
+    "c04",
+    "rca"
+  ],
+  "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0163.docx",
+  "file_type": "docx"
+}

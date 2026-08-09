@@ -1,0 +1,21 @@
+{
+  "chunk_id": "INC_C08_INC_2026_0142_chunk_000",
+  "document_id": "INC_C08_INC_2026_0142",
+  "chunk_index": 0,
+  "text": "# Incident Report: 4G Cell Cluster Outage\n\n**Incident ID:** INC-2026-0142\n**Category:** C08 — Network Coverage & Outages\n**Region:** Mumbai West Circle\n**Severity:** P1\n**Department:** Network\n**Date Logged:** 2026-04-30\n**Status:** Resolved\n\n## Summary\nFibre backhaul cut near Andheri due to third-party roadworks caused a 3-hour outage affecting ~40 4G sites.\n\n## Timeline\n06:12 IST fault detected via NOC alarms; 06:20 field team dispatched; 08:40 temporary microwave backhaul restored; 09:15 fibre repaired and primary path restored.\n\n## Customer Impact\nEstimated customers affected and service categories impacted are recorded in the internal incident-management system (ref: INC-2026-0142). Customer-facing status was published under Network > Service Status for the outage duration.\n\n## Resolution\nService was restored per the timeline above. A follow-up Root Cause Analysis is tracked separately where applicable (see related_ids).\n\n## Preventive Actions\nPreventive/corrective actions arising from this incident are tracked in the linked RCA document, where one was raised.",
+  "title": "4G Cell Cluster Outage",
+  "document_type": "Incident Report",
+  "category": "C08",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-13",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "p1",
+    "mumbai_west_circle"
+  ],
+  "file_path": "data\\raw\\unstructured\\incidents\\INC_C08_INC_2026_0142.md",
+  "file_type": "markdown"
+}

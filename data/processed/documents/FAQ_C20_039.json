@@ -1,0 +1,21 @@
+{
+  "document_id": "FAQ_C20_039",
+  "title": "I was charged twice for the same recharge — how do I get a refund?",
+  "document_type": "FAQ",
+  "category": "C20",
+  "department": "Billing",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-15",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C20_overview"
+  ],
+  "tags": [
+    "refunds",
+    "c20"
+  ],
+  "content": "Question: I was charged twice for the same recharge — how do I get a refund?\n\nAnswer: Duplicate-charge refunds are usually auto-detected and reversed within 3-5 working days. If not, raise a ticket under Billing > Report Issue with both transaction references; approved refunds are credited to the original payment method or as account balance.\n\nTopic: Refunds & Adjustments",
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C20_039.json",
+  "file_type": "json"
+}

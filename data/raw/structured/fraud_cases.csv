@@ -1,0 +1,175 @@
+case_id,customer_id,case_type,reported_at,status
+24001,1597,Identity Theft,2026-07-22 04:00:00,Investigating
+24002,2213,Identity Theft,2025-10-26 19:00:00,Resolved
+24003,1053,Spam Reports,2025-09-18 22:00:00,Resolved
+24004,1385,Phishing,2025-12-12 02:00:00,Resolved
+24005,1659,Fake KYC Attempt,2026-02-27 18:00:00,Resolved
+24006,2205,Phishing,2025-12-19 20:00:00,Investigating
+24007,2457,Phishing,2026-06-04 09:00:00,Resolved
+24008,1151,Unauthorized Recharge,2026-06-24 10:00:00,Resolved
+24009,2044,Identity Theft,2026-01-11 08:00:00,Resolved
+24010,2611,Phishing,2025-10-25 23:00:00,Resolved
+24011,1401,Phishing,2026-07-27 06:00:00,Resolved
+24012,1946,Phishing,2025-10-12 01:00:00,Resolved
+24013,1794,Unauthorized Recharge,2025-10-03 22:00:00,Resolved
+24014,1395,Identity Theft,2026-03-25 07:00:00,Resolved
+24015,2166,Fake KYC Attempt,2025-11-18 15:00:00,Investigating
+24016,2356,Phishing,2026-08-01 18:00:00,Resolved
+24017,1363,SIM Swap,2026-06-27 09:00:00,Investigating
+24018,1403,SIM Swap,2026-01-17 03:00:00,Investigating
+24019,2497,Identity Theft,2026-07-10 21:00:00,Resolved
+24020,2437,Fake KYC Attempt,2026-01-10 04:00:00,Resolved
+24021,2434,Identity Theft,2026-07-06 23:00:00,Resolved
+24022,2071,Spam Reports,2026-06-24 19:00:00,Investigating
+24023,1679,Unauthorized Recharge,2026-07-20 23:00:00,Investigating
+24024,2540,Fake KYC Attempt,2026-08-05 10:00:00,Resolved
+24025,1886,Spam Reports,2026-04-06 21:00:00,Resolved
+24026,2303,SIM Swap,2026-03-27 19:00:00,Resolved
+24027,2637,Spam Reports,2026-01-05 21:00:00,Investigating
+24028,1049,Spam Reports,2026-02-22 05:00:00,Resolved
+24029,2053,Identity Theft,2025-12-13 05:00:00,Resolved
+24030,2104,Unauthorized Recharge,2025-12-16 22:00:00,Resolved
+24031,1948,Spam Reports,2025-10-22 13:00:00,Resolved
+24032,1143,Identity Theft,2025-11-10 21:00:00,Resolved
+24033,1335,SIM Swap,2025-09-15 04:00:00,Resolved
+24034,2596,Identity Theft,2025-10-06 10:00:00,Resolved
+24035,1878,SIM Swap,2026-02-05 09:00:00,Resolved
+24036,1185,Identity Theft,2026-08-04 20:00:00,Resolved
+24037,2254,Fake KYC Attempt,2025-10-11 00:00:00,Resolved
+24038,1164,Identity Theft,2026-05-19 21:00:00,Investigating
+24039,2270,Spam Reports,2026-06-26 09:00:00,Resolved
+24040,2701,Identity Theft,2025-11-02 14:00:00,Investigating
+24041,1830,Unauthorized Recharge,2026-01-01 13:00:00,Resolved
+24042,1748,Identity Theft,2025-11-04 18:00:00,Investigating
+24043,1543,Unauthorized Recharge,2025-08-11 15:00:00,Investigating
+24044,2797,SIM Swap,2025-08-19 18:00:00,Resolved
+24045,2531,SIM Swap,2025-12-26 11:00:00,Investigating
+24046,1890,Unauthorized Recharge,2026-01-30 01:00:00,Investigating
+24047,1274,Fake KYC Attempt,2026-02-12 07:00:00,Investigating
+24048,1199,Fake KYC Attempt,2026-02-07 13:00:00,Resolved
+24049,1092,SIM Swap,2026-06-15 16:00:00,Investigating
+24050,2091,Spam Reports,2025-11-08 17:00:00,Investigating
+24051,2344,Fake KYC Attempt,2026-07-22 14:00:00,Resolved
+24052,1636,Unauthorized Recharge,2026-04-23 19:00:00,Investigating
+24053,1202,Phishing,2025-10-12 18:00:00,Resolved
+24054,2277,Unauthorized Recharge,2025-11-15 17:00:00,Resolved
+24055,1842,Identity Theft,2025-12-27 19:00:00,Investigating
+24056,2771,Fake KYC Attempt,2026-07-26 11:00:00,Resolved
+24057,2197,Phishing,2026-02-16 23:00:00,Resolved
+24058,1019,Unauthorized Recharge,2025-12-02 11:00:00,Resolved
+24059,2711,SIM Swap,2026-04-22 10:00:00,Resolved
+24060,2630,Spam Reports,2026-03-30 04:00:00,Resolved
+24061,1537,Identity Theft,2025-11-09 06:00:00,Resolved
+24062,1256,Spam Reports,2025-09-11 10:00:00,Resolved
+24063,1629,Identity Theft,2026-02-06 22:00:00,Investigating
+24064,1598,Fake KYC Attempt,2026-04-25 04:00:00,Investigating
+24065,2526,Identity Theft,2025-08-22 03:00:00,Resolved
+24066,2193,SIM Swap,2025-11-19 18:00:00,Investigating
+24067,1942,Identity Theft,2025-10-18 01:00:00,Resolved
+24068,2115,SIM Swap,2025-11-21 20:00:00,Resolved
+24069,1430,Unauthorized Recharge,2026-05-04 11:00:00,Resolved
+24070,1852,Phishing,2026-07-01 21:00:00,Resolved
+24071,1889,SIM Swap,2026-01-18 18:00:00,Resolved
+24072,2753,SIM Swap,2026-05-18 04:00:00,Investigating
+24073,2763,Identity Theft,2025-08-11 10:00:00,Investigating
+24074,1289,Unauthorized Recharge,2026-05-08 10:00:00,Resolved
+24075,2292,Phishing,2026-07-02 13:00:00,Resolved
+24076,2509,Phishing,2025-09-23 15:00:00,Resolved
+24077,1400,Unauthorized Recharge,2026-03-07 14:00:00,Resolved
+24078,1525,Identity Theft,2026-04-27 12:00:00,Resolved
+24079,1961,Fake KYC Attempt,2025-09-09 00:00:00,Resolved
+24080,1700,SIM Swap,2026-06-29 08:00:00,Resolved
+24081,2223,Phishing,2025-08-26 06:00:00,Resolved
+24082,2614,Unauthorized Recharge,2026-07-06 21:00:00,Resolved
+24083,2644,Phishing,2026-06-06 21:00:00,Resolved
+24084,1329,Fake KYC Attempt,2026-04-27 06:00:00,Resolved
+24085,1043,Spam Reports,2026-07-10 05:00:00,Investigating
+24086,2629,Spam Reports,2026-06-01 07:00:00,Investigating
+24087,2737,Fake KYC Attempt,2025-12-14 04:00:00,Resolved
+24088,2546,Spam Reports,2026-05-02 20:00:00,Resolved
+24089,2370,SIM Swap,2026-02-23 04:00:00,Investigating
+24090,2724,Phishing,2026-01-17 13:00:00,Investigating
+24091,1737,Phishing,2026-07-29 08:00:00,Investigating
+24092,1145,Unauthorized Recharge,2026-07-18 16:00:00,Investigating
+24093,2242,Phishing,2025-08-30 16:00:00,Investigating
+24094,2250,Phishing,2026-03-02 00:00:00,Resolved
+24095,2401,Phishing,2026-03-18 10:00:00,Resolved
+24096,1387,Identity Theft,2026-02-17 23:00:00,Investigating
+24097,1215,Spam Reports,2026-06-07 07:00:00,Investigating
+24098,2765,Phishing,2025-08-16 16:00:00,Resolved
+24099,2767,Phishing,2025-12-14 06:00:00,Resolved
+24100,2461,SIM Swap,2025-12-02 17:00:00,Resolved
+24101,1105,Phishing,2026-02-27 15:00:00,Resolved
+24102,2662,Fake KYC Attempt,2026-02-25 16:00:00,Resolved
+24103,2083,Phishing,2026-04-03 23:00:00,Resolved
+24104,2176,Fake KYC Attempt,2026-03-22 05:00:00,Resolved
+24105,2415,Fake KYC Attempt,2025-12-17 04:00:00,Investigating
+24106,2198,SIM Swap,2026-05-01 22:00:00,Investigating
+24107,2140,SIM Swap,2025-10-31 07:00:00,Investigating
+24108,2692,Unauthorized Recharge,2025-10-19 10:00:00,Investigating
+24109,2581,Phishing,2026-07-10 08:00:00,Resolved
+24110,2177,Phishing,2025-09-20 11:00:00,Resolved
+24111,1959,Unauthorized Recharge,2026-02-22 22:00:00,Resolved
+24112,1864,Unauthorized Recharge,2026-07-10 16:00:00,Investigating
+24113,1854,Fake KYC Attempt,2025-12-15 05:00:00,Investigating
+24114,2752,Fake KYC Attempt,2026-02-01 07:00:00,Resolved
+24115,2011,Unauthorized Recharge,2025-11-06 08:00:00,Resolved
+24116,2506,Fake KYC Attempt,2025-11-27 23:00:00,Resolved
+24117,2155,Identity Theft,2025-10-15 22:00:00,Resolved
+24118,1100,Identity Theft,2026-03-10 11:00:00,Resolved
+24119,2795,Spam Reports,2026-06-19 14:00:00,Resolved
+24120,1442,Phishing,2026-04-18 23:00:00,Resolved
+24121,2040,Unauthorized Recharge,2025-10-16 14:00:00,Resolved
+24122,2283,Identity Theft,2025-08-20 18:00:00,Investigating
+24123,2640,SIM Swap,2026-03-30 17:00:00,Investigating
+24124,1425,Phishing,2025-08-19 08:00:00,Investigating
+24125,2683,Unauthorized Recharge,2025-10-17 07:00:00,Investigating
+24126,1943,Identity Theft,2026-04-07 10:00:00,Investigating
+24127,1431,Fake KYC Attempt,2026-02-11 17:00:00,Resolved
+24128,2460,Unauthorized Recharge,2026-02-24 10:00:00,Resolved
+24129,1443,Identity Theft,2025-10-13 12:00:00,Resolved
+24130,1468,SIM Swap,2026-02-28 06:00:00,Resolved
+24131,1746,Identity Theft,2025-12-19 00:00:00,Investigating
+24132,1154,Phishing,2025-12-28 18:00:00,Resolved
+24133,1062,SIM Swap,2026-05-15 23:00:00,Resolved
+24134,2313,Phishing,2026-03-21 16:00:00,Resolved
+24135,2682,Identity Theft,2026-07-15 10:00:00,Investigating
+24136,1576,Fake KYC Attempt,2025-10-21 22:00:00,Resolved
+24137,2801,Spam Reports,2026-06-22 19:00:00,Investigating
+24138,1379,Identity Theft,2025-11-23 12:00:00,Resolved
+24139,1277,Fake KYC Attempt,2026-05-07 04:00:00,Resolved
+24140,1820,Phishing,2026-05-22 19:00:00,Investigating
+24141,2568,Phishing,2025-10-15 18:00:00,Resolved
+24142,2554,SIM Swap,2026-06-03 15:00:00,Resolved
+24143,1039,Spam Reports,2026-05-02 20:00:00,Resolved
+24144,2100,Identity Theft,2026-04-11 10:00:00,Resolved
+24145,1241,Fake KYC Attempt,2025-12-15 21:00:00,Investigating
+24146,1539,Fake KYC Attempt,2026-04-15 12:00:00,Resolved
+24147,2777,Phishing,2025-12-20 21:00:00,Investigating
+24148,2635,Spam Reports,2025-12-10 14:00:00,Resolved
+24149,2332,Unauthorized Recharge,2026-03-07 01:00:00,Resolved
+24150,1726,Phishing,2025-09-16 04:00:00,Resolved
+24151,2398,SIM Swap,2026-06-04 17:00:00,Resolved
+24152,1353,Unauthorized Recharge,2026-01-25 07:00:00,Resolved
+24153,1115,SIM Swap,2026-05-09 23:00:00,Investigating
+24154,1356,Phishing,2025-12-04 15:00:00,Resolved
+24155,1526,Unauthorized Recharge,2026-06-26 07:00:00,Resolved
+24156,2808,SIM Swap,2026-04-08 13:00:00,Resolved
+24157,2560,Fake KYC Attempt,2026-05-08 18:00:00,Resolved
+24158,1302,Identity Theft,2026-07-05 05:00:00,Resolved
+24159,2150,Spam Reports,2025-09-13 18:00:00,Resolved
+24160,2330,Identity Theft,2026-03-01 22:00:00,Resolved
+24161,1628,Phishing,2025-08-10 02:00:00,Resolved
+24162,1359,Unauthorized Recharge,2026-05-28 14:00:00,Resolved
+24163,2712,Identity Theft,2025-09-05 14:00:00,Investigating
+24164,1594,Fake KYC Attempt,2026-07-05 11:00:00,Resolved
+24165,1166,Fake KYC Attempt,2026-01-25 05:00:00,Resolved
+24166,1156,Phishing,2025-12-29 04:00:00,Resolved
+24167,1721,Identity Theft,2026-01-10 03:00:00,Resolved
+24168,2465,Spam Reports,2026-02-02 05:00:00,Resolved
+24169,1888,Phishing,2025-08-09 07:00:00,Resolved
+24170,1017,Phishing,2026-04-02 07:00:00,Resolved
+24171,2666,Fake KYC Attempt,2026-04-02 00:00:00,Resolved
+24172,1404,Fake KYC Attempt,2026-04-05 14:00:00,Investigating
+24173,2489,Unauthorized Recharge,2026-04-15 23:00:00,Resolved
+24174,1742,Fake KYC Attempt,2025-08-15 19:00:00,Resolved

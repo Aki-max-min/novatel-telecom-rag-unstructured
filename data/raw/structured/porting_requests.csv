@@ -1,0 +1,224 @@
+port_id,customer_id,old_circle,new_circle,request_date,status
+15001,1691,Rajasthan,UP West,2026-03-06,Accepted
+15002,1466,Kerala,Haryana,2025-08-14,Rejected
+15003,1426,Punjab,Gujarat,2025-11-08,Rejected
+15004,1609,Chennai,Maharashtra,2026-01-12,Accepted
+15005,2613,UP East,UP West,2026-02-01,Accepted
+15006,2260,Odisha,Punjab,2025-11-03,Accepted
+15007,2523,MP,Maharashtra,2026-05-11,Pending
+15008,2062,Punjab,MP,2025-11-04,Rejected
+15009,1387,Kolkata,Punjab,2025-12-27,Accepted
+15010,2561,Assam,Kerala,2025-12-23,Accepted
+15011,1437,Maharashtra,MP,2026-01-01,Accepted
+15012,2250,UP West,Punjab,2026-05-07,Rejected
+15013,1991,Delhi,Andhra Pradesh,2025-11-14,Accepted
+15014,2428,MP,Haryana,2025-10-21,Pending
+15015,2437,Maharashtra,Tamil Nadu,2025-11-07,Pending
+15016,2340,Bihar,Gujarat,2025-12-19,Accepted
+15017,2758,West Bengal,Karnataka,2026-03-28,Accepted
+15018,2276,Odisha,Tamil Nadu,2026-08-07,Pending
+15019,2715,Assam,Odisha,2025-08-29,Accepted
+15020,2392,Kolkata,Delhi,2025-11-16,Pending
+15021,2039,Assam,Haryana,2025-11-26,Accepted
+15022,1742,Kolkata,Kerala,2025-09-07,Accepted
+15023,2244,West Bengal,Odisha,2025-09-20,Accepted
+15024,1410,Tamil Nadu,Mumbai,2025-10-09,Pending
+15025,1289,Assam,Bihar,2026-08-06,Pending
+15026,1572,Andhra Pradesh,Gujarat,2025-10-24,Pending
+15027,1484,Karnataka,Rajasthan,2025-10-29,Accepted
+15028,1934,Rajasthan,Bihar,2026-07-04,Pending
+15029,2280,West Bengal,Maharashtra,2025-10-15,Accepted
+15030,1128,Delhi,Assam,2025-11-11,Pending
+15031,2781,Maharashtra,Mumbai,2025-12-20,Pending
+15032,2608,Bihar,West Bengal,2025-11-29,Accepted
+15033,1448,Tamil Nadu,Mumbai,2026-04-24,Rejected
+15034,2510,Andhra Pradesh,Rajasthan,2026-01-15,Accepted
+15035,2061,Kolkata,MP,2026-05-20,Pending
+15036,2539,Delhi,Punjab,2026-05-15,Accepted
+15037,2013,Gujarat,Tamil Nadu,2026-05-10,Accepted
+15038,2146,Tamil Nadu,Assam,2026-07-03,Accepted
+15039,2620,Rajasthan,Chennai,2025-12-19,Pending
+15040,1141,Delhi,Bihar,2026-07-23,Rejected
+15041,1585,Delhi,Maharashtra,2026-04-17,Pending
+15042,2183,Karnataka,MP,2025-12-25,Accepted
+15043,2407,Maharashtra,Bihar,2026-07-01,Accepted
+15044,1695,Karnataka,Rajasthan,2026-02-14,Accepted
+15045,2778,Andhra Pradesh,Kolkata,2026-01-16,Accepted
+15046,2237,Delhi,Kerala,2026-07-01,Pending
+15047,1010,Chennai,UP West,2025-09-15,Accepted
+15048,1464,Andhra Pradesh,Karnataka,2025-09-24,Rejected
+15049,1440,Assam,Odisha,2026-02-21,Rejected
+15050,2676,Kolkata,Maharashtra,2025-08-14,Rejected
+15051,2292,Tamil Nadu,Gujarat,2026-01-17,Pending
+15052,2635,Assam,MP,2025-09-22,Accepted
+15053,2693,Gujarat,Bihar,2026-02-23,Accepted
+15054,2379,Tamil Nadu,Delhi,2026-08-09,Pending
+15055,1055,MP,West Bengal,2025-10-08,Accepted
+15056,1630,Mumbai,Rajasthan,2026-01-15,Accepted
+15057,1551,Assam,Kolkata,2026-08-05,Accepted
+15058,1788,UP West,Kerala,2025-08-19,Rejected
+15059,2345,Chennai,MP,2026-02-21,Rejected
+15060,1804,Andhra Pradesh,Delhi,2026-06-26,Accepted
+15061,1965,Gujarat,Karnataka,2026-01-31,Accepted
+15062,2678,Punjab,Bihar,2026-03-12,Pending
+15063,2706,Karnataka,Kerala,2026-01-21,Rejected
+15064,1936,Punjab,Andhra Pradesh,2026-02-03,Accepted
+15065,2506,Mumbai,Delhi,2025-11-06,Accepted
+15066,2239,Maharashtra,Andhra Pradesh,2026-03-31,Accepted
+15067,2666,UP East,West Bengal,2025-08-24,Pending
+15068,2350,Mumbai,MP,2026-04-28,Accepted
+15069,2396,Punjab,MP,2025-09-15,Accepted
+15070,2724,Tamil Nadu,Punjab,2025-10-30,Accepted
+15071,2688,Haryana,Punjab,2026-06-28,Pending
+15072,1233,Kerala,Haryana,2026-02-03,Pending
+15073,1328,West Bengal,Bihar,2026-01-27,Pending
+15074,2764,Bihar,Punjab,2025-10-26,Rejected
+15075,2762,Chennai,Gujarat,2025-10-10,Rejected
+15076,2459,Kerala,Mumbai,2025-09-06,Accepted
+15077,2738,Delhi,Karnataka,2025-12-20,Accepted
+15078,1728,Punjab,Haryana,2026-05-20,Accepted
+15079,2318,West Bengal,Andhra Pradesh,2026-04-28,Accepted
+15080,1232,Tamil Nadu,Mumbai,2026-05-10,Pending
+15081,2083,Bihar,Gujarat,2026-08-04,Pending
+15082,1566,Maharashtra,Tamil Nadu,2025-12-16,Rejected
+15083,2787,MP,Kolkata,2026-04-12,Accepted
+15084,2317,Andhra Pradesh,UP West,2026-04-23,Accepted
+15085,2278,Delhi,West Bengal,2026-07-06,Pending
+15086,1688,Gujarat,UP East,2026-04-01,Accepted
+15087,2465,Assam,Gujarat,2025-11-13,Rejected
+15088,2789,UP West,West Bengal,2025-10-15,Accepted
+15089,1990,Delhi,West Bengal,2026-01-23,Pending
+15090,1814,UP West,Assam,2025-08-16,Rejected
+15091,1780,Assam,Kolkata,2026-07-21,Accepted
+15092,1829,Mumbai,Chennai,2025-10-22,Accepted
+15093,2390,Andhra Pradesh,MP,2025-12-24,Pending
+15094,1641,Haryana,West Bengal,2026-07-08,Accepted
+15095,1246,Rajasthan,MP,2026-01-25,Pending
+15096,2086,Gujarat,UP East,2025-12-10,Accepted
+15097,1304,Gujarat,MP,2026-07-11,Pending
+15098,1575,MP,Kolkata,2026-03-12,Pending
+15099,2654,UP West,Assam,2025-11-04,Accepted
+15100,1362,Assam,Kolkata,2026-06-07,Accepted
+15101,1063,Gujarat,Odisha,2025-08-28,Accepted
+15102,1570,Andhra Pradesh,Assam,2026-03-02,Rejected
+15103,1510,Kerala,UP East,2026-01-24,Pending
+15104,1582,Bihar,Gujarat,2025-09-05,Accepted
+15105,1798,Karnataka,MP,2025-11-03,Accepted
+15106,2050,Odisha,Assam,2026-08-01,Accepted
+15107,1644,Kerala,Maharashtra,2025-11-29,Accepted
+15108,1267,Chennai,Rajasthan,2026-05-15,Accepted
+15109,1556,Andhra Pradesh,Delhi,2025-12-31,Pending
+15110,1682,Chennai,Rajasthan,2025-12-01,Accepted
+15111,1359,Haryana,Maharashtra,2025-09-11,Accepted
+15112,2319,Delhi,Bihar,2025-12-18,Accepted
+15113,1016,Tamil Nadu,Karnataka,2026-01-05,Accepted
+15114,2651,Delhi,Karnataka,2025-11-26,Pending
+15115,2703,Mumbai,Kerala,2026-04-17,Accepted
+15116,1291,Kolkata,Delhi,2025-10-08,Accepted
+15117,2629,Andhra Pradesh,Delhi,2026-08-04,Accepted
+15118,1618,Karnataka,Rajasthan,2025-12-13,Accepted
+15119,1022,Karnataka,Chennai,2025-12-29,Rejected
+15120,1294,Chennai,Kolkata,2025-10-11,Rejected
+15121,2515,Mumbai,MP,2025-11-07,Accepted
+15122,1185,Assam,UP West,2026-03-27,Accepted
+15123,2132,MP,Assam,2026-01-30,Pending
+15124,1664,Karnataka,Punjab,2025-08-13,Accepted
+15125,2595,Andhra Pradesh,Maharashtra,2026-07-05,Accepted
+15126,1204,Maharashtra,Assam,2026-03-13,Accepted
+15127,1777,Punjab,Kolkata,2026-04-30,Pending
+15128,1025,Maharashtra,Bihar,2026-02-10,Accepted
+15129,2714,Tamil Nadu,UP West,2026-04-21,Accepted
+15130,2138,Maharashtra,Mumbai,2025-09-05,Accepted
+15131,1024,Rajasthan,Punjab,2025-12-04,Pending
+15132,1234,Chennai,Punjab,2025-10-17,Accepted
+15133,1634,Bihar,Odisha,2026-02-25,Accepted
+15134,1436,Chennai,Gujarat,2025-10-27,Pending
+15135,2102,Bihar,Assam,2026-03-27,Pending
+15136,2159,West Bengal,Odisha,2026-07-13,Rejected
+15137,1253,Delhi,West Bengal,2026-07-08,Pending
+15138,1736,Andhra Pradesh,UP West,2026-06-29,Rejected
+15139,2548,UP West,Gujarat,2026-03-11,Accepted
+15140,1937,Gujarat,UP West,2025-09-07,Pending
+15141,2445,Kolkata,Assam,2026-07-19,Rejected
+15142,2638,Haryana,UP West,2026-02-18,Accepted
+15143,1325,Kolkata,Haryana,2026-07-03,Accepted
+15144,2291,Gujarat,Andhra Pradesh,2026-02-21,Accepted
+15145,2035,Assam,Kolkata,2026-05-16,Pending
+15146,1557,Kolkata,Karnataka,2025-10-22,Pending
+15147,2594,Tamil Nadu,Haryana,2026-06-04,Rejected
+15148,2017,Tamil Nadu,Andhra Pradesh,2025-10-21,Accepted
+15149,1993,Gujarat,UP East,2025-11-13,Rejected
+15150,1518,Gujarat,Mumbai,2026-08-05,Rejected
+15151,2306,Kolkata,Kerala,2026-03-22,Accepted
+15152,1282,Gujarat,Rajasthan,2026-01-20,Accepted
+15153,1746,Rajasthan,Punjab,2026-07-24,Pending
+15154,1492,Kerala,Assam,2026-01-18,Accepted
+15155,2795,Punjab,Delhi,2026-04-15,Rejected
+15156,1249,Gujarat,Mumbai,2026-04-02,Accepted
+15157,1213,Maharashtra,Odisha,2026-06-20,Accepted
+15158,2760,Punjab,Chennai,2026-02-07,Rejected
+15159,2797,Odisha,Rajasthan,2026-03-28,Rejected
+15160,1429,UP West,Kerala,2025-12-06,Pending
+15161,2508,Maharashtra,Chennai,2026-01-06,Accepted
+15162,1811,Mumbai,Kolkata,2025-09-13,Pending
+15163,1835,Chennai,Assam,2025-09-25,Accepted
+15164,2214,Rajasthan,Tamil Nadu,2026-01-29,Pending
+15165,2067,Rajasthan,Delhi,2026-07-08,Pending
+15166,1066,Assam,West Bengal,2026-05-22,Accepted
+15167,1580,Delhi,Bihar,2026-04-24,Pending
+15168,2097,UP East,Delhi,2026-03-18,Rejected
+15169,2397,Kolkata,Chennai,2025-09-29,Accepted
+15170,1164,West Bengal,Assam,2026-06-03,Pending
+15171,2798,UP East,Odisha,2026-05-04,Rejected
+15172,1881,Karnataka,Delhi,2026-06-30,Pending
+15173,2653,Maharashtra,Bihar,2025-11-05,Accepted
+15174,2117,Kerala,Kolkata,2026-05-31,Accepted
+15175,1469,Kerala,Haryana,2026-01-18,Pending
+15176,2444,West Bengal,Assam,2026-07-11,Accepted
+15177,2256,Kolkata,Delhi,2025-11-28,Accepted
+15178,2481,Kerala,Karnataka,2026-03-31,Accepted
+15179,2060,Gujarat,Andhra Pradesh,2026-04-01,Accepted
+15180,1299,Punjab,Gujarat,2025-10-27,Accepted
+15181,2163,Odisha,Kerala,2026-03-17,Accepted
+15182,2283,Kerala,Bihar,2026-02-23,Accepted
+15183,1588,Punjab,Odisha,2025-11-29,Accepted
+15184,2026,Kolkata,Chennai,2025-11-11,Pending
+15185,1159,Kolkata,West Bengal,2026-06-30,Pending
+15186,1303,Delhi,Maharashtra,2025-11-25,Accepted
+15187,1976,Mumbai,Haryana,2026-04-16,Accepted
+15188,1018,Tamil Nadu,Haryana,2026-01-01,Accepted
+15189,1243,Haryana,Gujarat,2026-05-18,Accepted
+15190,2605,Kolkata,Kerala,2025-09-04,Accepted
+15191,1920,Assam,Tamil Nadu,2026-04-22,Accepted
+15192,1645,Haryana,Assam,2025-11-14,Accepted
+15193,2453,Kerala,Karnataka,2026-05-05,Accepted
+15194,1611,Delhi,Assam,2026-03-20,Rejected
+15195,1425,Maharashtra,MP,2025-11-24,Accepted
+15196,1239,Mumbai,Punjab,2025-11-25,Pending
+15197,2461,Delhi,Assam,2025-09-24,Accepted
+15198,1697,UP East,Karnataka,2025-12-05,Pending
+15199,2238,Rajasthan,Tamil Nadu,2026-07-07,Accepted
+15200,2044,Gujarat,Odisha,2025-12-07,Rejected
+15201,2405,Kerala,Mumbai,2025-09-07,Accepted
+15202,2101,Delhi,Rajasthan,2026-03-13,Accepted
+15203,2104,Karnataka,Delhi,2025-12-25,Rejected
+15204,1535,UP West,Gujarat,2025-12-01,Pending
+15205,1248,Bihar,Kerala,2026-03-29,Accepted
+15206,2607,Rajasthan,Mumbai,2026-05-19,Rejected
+15207,1050,UP East,Kerala,2026-03-21,Rejected
+15208,2727,Karnataka,Haryana,2026-04-18,Accepted
+15209,2712,Karnataka,Tamil Nadu,2026-02-21,Accepted
+15210,1885,UP West,West Bengal,2025-10-07,Pending
+15211,2711,Gujarat,Chennai,2026-01-10,Accepted
+15212,2696,Kerala,MP,2026-01-09,Accepted
+15213,1561,Andhra Pradesh,MP,2026-05-09,Pending
+15214,2189,Kerala,Bihar,2025-10-22,Rejected
+15215,2616,Kerala,West Bengal,2026-03-25,Pending
+15216,1692,Delhi,Andhra Pradesh,2025-08-15,Accepted
+15217,1180,Andhra Pradesh,MP,2026-03-04,Accepted
+15218,1903,Mumbai,Kerala,2025-08-25,Accepted
+15219,1740,Karnataka,Gujarat,2026-01-21,Accepted
+15220,1173,Kolkata,Karnataka,2026-02-25,Pending
+15221,1334,Haryana,Gujarat,2025-10-02,Accepted
+15222,2258,UP West,Andhra Pradesh,2025-11-04,Accepted
+15223,1058,MP,Assam,2025-12-20,Accepted

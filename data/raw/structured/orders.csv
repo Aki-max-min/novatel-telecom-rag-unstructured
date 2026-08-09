@@ -1,0 +1,787 @@
+order_id,customer_id,order_type,order_date,status,amount
+16001,2721,New Connection,2026-04-28 15:00:00,Fulfilled,968.57
+16002,2774,SIM Replacement,2026-06-24 11:00:00,Fulfilled,526.38
+16003,1798,Plan Upgrade Order,2026-01-23 11:00:00,Fulfilled,62.93
+16004,2521,Device Purchase,2025-12-03 18:00:00,Fulfilled,833.74
+16005,1114,SIM Replacement,2026-02-20 04:00:00,Fulfilled,233.22
+16006,2195,Device Purchase,2025-09-20 04:00:00,Cancelled,375.33
+16007,1262,Device Purchase,2026-06-12 22:00:00,Pending,879.79
+16008,1022,SIM Replacement,2026-03-21 06:00:00,Fulfilled,432.75
+16009,2181,New Connection,2026-03-25 22:00:00,Fulfilled,372.19
+16010,1562,Device Purchase,2026-01-19 04:00:00,Fulfilled,646.60
+16011,2686,Number Port Order,2025-08-31 12:00:00,Fulfilled,812.02
+16012,1246,Device Purchase,2025-08-22 12:00:00,Fulfilled,644.86
+16013,1629,SIM Replacement,2026-05-02 23:00:00,Fulfilled,941.83
+16014,1873,Number Port Order,2025-09-02 22:00:00,Fulfilled,273.61
+16015,2700,SIM Replacement,2026-07-13 11:00:00,Fulfilled,735.31
+16016,2364,Device Purchase,2026-07-24 14:00:00,Fulfilled,49.37
+16017,2270,Plan Upgrade Order,2026-01-19 05:00:00,Fulfilled,349.35
+16018,2390,Device Purchase,2025-08-23 23:00:00,Fulfilled,918.62
+16019,1491,Plan Upgrade Order,2026-06-14 22:00:00,Fulfilled,160.77
+16020,2562,Device Purchase,2026-02-01 04:00:00,Fulfilled,363.35
+16021,1082,Device Purchase,2026-02-19 09:00:00,Cancelled,454.04
+16022,1002,Number Port Order,2026-05-07 10:00:00,Fulfilled,55.80
+16023,1692,Device Purchase,2026-01-06 04:00:00,Cancelled,847.90
+16024,1820,SIM Replacement,2025-11-11 06:00:00,Fulfilled,926.76
+16025,1454,Plan Upgrade Order,2025-08-11 13:00:00,Cancelled,152.41
+16026,1557,Plan Upgrade Order,2026-05-24 00:00:00,Pending,96.37
+16027,2348,Plan Upgrade Order,2025-08-22 19:00:00,Fulfilled,982.07
+16028,2007,Plan Upgrade Order,2026-06-28 11:00:00,Fulfilled,635.03
+16029,1079,SIM Replacement,2026-06-06 23:00:00,Fulfilled,326.36
+16030,1241,New Connection,2026-03-17 09:00:00,Fulfilled,479.24
+16031,1186,Device Purchase,2026-03-13 21:00:00,Fulfilled,75.39
+16032,1428,SIM Replacement,2026-06-26 03:00:00,Fulfilled,998.42
+16033,1852,Device Purchase,2025-09-13 13:00:00,Pending,714.15
+16034,1203,Plan Upgrade Order,2026-06-06 03:00:00,Cancelled,330.57
+16035,2099,Plan Upgrade Order,2026-05-09 01:00:00,Cancelled,370.31
+16036,2138,New Connection,2026-01-08 01:00:00,Cancelled,666.31
+16037,1789,Plan Upgrade Order,2026-07-04 17:00:00,Fulfilled,423.40
+16038,1487,Device Purchase,2026-01-31 15:00:00,Fulfilled,351.32
+16039,1242,Plan Upgrade Order,2026-02-23 13:00:00,Fulfilled,484.09
+16040,1275,Plan Upgrade Order,2025-11-24 06:00:00,Fulfilled,176.21
+16041,2804,New Connection,2026-03-30 16:00:00,Fulfilled,360.19
+16042,1876,SIM Replacement,2025-11-08 03:00:00,Cancelled,157.50
+16043,1149,SIM Replacement,2026-02-05 03:00:00,Fulfilled,410.69
+16044,1869,Device Purchase,2026-04-06 14:00:00,Fulfilled,906.25
+16045,1486,New Connection,2026-07-02 01:00:00,Fulfilled,703.19
+16046,2740,SIM Replacement,2025-11-21 00:00:00,Fulfilled,381.45
+16047,2503,Device Purchase,2026-05-16 00:00:00,Fulfilled,882.84
+16048,2412,Number Port Order,2025-11-07 17:00:00,Cancelled,366.85
+16049,2710,Plan Upgrade Order,2025-09-23 20:00:00,Fulfilled,638.84
+16050,1488,New Connection,2026-03-13 17:00:00,Pending,375.36
+16051,1790,Plan Upgrade Order,2026-07-11 12:00:00,Fulfilled,325.34
+16052,2506,New Connection,2026-01-05 15:00:00,Fulfilled,215.72
+16053,2121,Plan Upgrade Order,2026-05-24 19:00:00,Fulfilled,164.45
+16054,2484,Number Port Order,2025-11-25 23:00:00,Fulfilled,97.23
+16055,2134,Device Purchase,2026-07-24 18:00:00,Fulfilled,31.06
+16056,1353,Plan Upgrade Order,2025-09-22 21:00:00,Fulfilled,920.03
+16057,2346,Number Port Order,2026-03-03 03:00:00,Fulfilled,464.13
+16058,2734,Number Port Order,2025-09-08 17:00:00,Fulfilled,315.65
+16059,1747,Plan Upgrade Order,2026-03-26 09:00:00,Cancelled,193.06
+16060,1855,Plan Upgrade Order,2025-09-15 22:00:00,Fulfilled,223.08
+16061,1354,New Connection,2026-02-17 06:00:00,Fulfilled,151.73
+16062,1569,New Connection,2026-06-04 16:00:00,Cancelled,257.16
+16063,1052,SIM Replacement,2026-01-12 16:00:00,Fulfilled,564.99
+16064,1540,Plan Upgrade Order,2025-10-25 00:00:00,Fulfilled,737.55
+16065,2011,SIM Replacement,2025-11-15 05:00:00,Fulfilled,556.70
+16066,1757,Plan Upgrade Order,2026-02-27 02:00:00,Fulfilled,332.44
+16067,1882,Plan Upgrade Order,2025-10-30 02:00:00,Fulfilled,807.91
+16068,1363,Number Port Order,2026-07-25 02:00:00,Fulfilled,487.24
+16069,2384,Plan Upgrade Order,2026-07-18 11:00:00,Cancelled,952.21
+16070,2280,New Connection,2026-06-27 23:00:00,Pending,140.56
+16071,1480,New Connection,2026-03-11 01:00:00,Fulfilled,171.13
+16072,2263,SIM Replacement,2025-08-28 00:00:00,Fulfilled,583.31
+16073,1618,Device Purchase,2026-01-20 14:00:00,Fulfilled,915.20
+16074,2257,Number Port Order,2026-01-24 18:00:00,Cancelled,765.55
+16075,1697,Number Port Order,2025-11-23 17:00:00,Fulfilled,589.52
+16076,1219,SIM Replacement,2026-04-18 20:00:00,Pending,719.44
+16077,1756,New Connection,2025-12-16 01:00:00,Fulfilled,484.80
+16078,2805,Device Purchase,2026-04-05 02:00:00,Fulfilled,21.43
+16079,2509,New Connection,2025-08-26 12:00:00,Fulfilled,362.92
+16080,1373,Number Port Order,2026-06-25 22:00:00,Fulfilled,974.78
+16081,2546,Device Purchase,2025-09-02 07:00:00,Fulfilled,502.08
+16082,1265,Number Port Order,2025-12-02 09:00:00,Fulfilled,685.13
+16083,1753,SIM Replacement,2025-09-23 20:00:00,Fulfilled,792.04
+16084,1750,New Connection,2025-12-19 07:00:00,Fulfilled,28.34
+16085,2491,New Connection,2025-10-13 19:00:00,Fulfilled,289.34
+16086,1525,Device Purchase,2026-05-01 08:00:00,Pending,286.23
+16087,1177,Number Port Order,2026-02-07 18:00:00,Fulfilled,361.39
+16088,1042,Plan Upgrade Order,2026-04-02 20:00:00,Pending,550.61
+16089,1924,SIM Replacement,2025-10-19 00:00:00,Fulfilled,131.72
+16090,2407,Plan Upgrade Order,2025-11-23 03:00:00,Fulfilled,944.05
+16091,1543,Plan Upgrade Order,2026-03-17 20:00:00,Fulfilled,407.65
+16092,1187,Number Port Order,2025-09-17 15:00:00,Fulfilled,777.33
+16093,2453,SIM Replacement,2026-05-27 13:00:00,Fulfilled,979.58
+16094,1074,Number Port Order,2026-07-26 11:00:00,Fulfilled,67.64
+16095,1760,Number Port Order,2026-02-02 10:00:00,Pending,426.41
+16096,1643,Device Purchase,2026-04-26 01:00:00,Cancelled,80.48
+16097,1514,Number Port Order,2026-04-07 17:00:00,Pending,852.89
+16098,1950,New Connection,2026-01-14 22:00:00,Pending,337.49
+16099,2732,Device Purchase,2026-01-31 13:00:00,Fulfilled,761.85
+16100,1886,Number Port Order,2025-10-04 13:00:00,Fulfilled,493.09
+16101,1236,Plan Upgrade Order,2025-11-06 08:00:00,Fulfilled,357.81
+16102,2259,Plan Upgrade Order,2025-12-14 17:00:00,Fulfilled,457.80
+16103,1686,New Connection,2026-05-07 03:00:00,Fulfilled,68.78
+16104,1211,Device Purchase,2025-08-28 03:00:00,Fulfilled,961.90
+16105,2176,Device Purchase,2025-10-01 05:00:00,Cancelled,799.46
+16106,1495,Plan Upgrade Order,2026-01-21 03:00:00,Fulfilled,477.89
+16107,1646,Plan Upgrade Order,2026-05-05 20:00:00,Pending,199.17
+16108,1845,New Connection,2026-01-22 05:00:00,Fulfilled,484.27
+16109,1285,Number Port Order,2025-09-10 13:00:00,Fulfilled,128.87
+16110,1895,New Connection,2026-02-22 12:00:00,Fulfilled,81.37
+16111,1639,Device Purchase,2025-11-13 21:00:00,Fulfilled,372.67
+16112,1410,SIM Replacement,2026-03-22 12:00:00,Fulfilled,808.64
+16113,2097,New Connection,2026-03-26 12:00:00,Fulfilled,818.55
+16114,1346,Plan Upgrade Order,2026-05-04 07:00:00,Fulfilled,365.74
+16115,2606,SIM Replacement,2025-11-24 22:00:00,Fulfilled,881.82
+16116,1631,Device Purchase,2026-04-20 07:00:00,Fulfilled,806.21
+16117,2650,Device Purchase,2025-09-28 12:00:00,Fulfilled,241.43
+16118,1367,New Connection,2025-09-06 10:00:00,Fulfilled,429.92
+16119,2355,Number Port Order,2026-07-05 08:00:00,Fulfilled,663.76
+16120,2293,Device Purchase,2025-11-30 11:00:00,Fulfilled,746.06
+16121,2000,New Connection,2026-04-26 10:00:00,Pending,952.71
+16122,2133,New Connection,2025-10-18 00:00:00,Fulfilled,141.78
+16123,2470,Plan Upgrade Order,2026-06-27 00:00:00,Fulfilled,722.98
+16124,1008,Device Purchase,2026-03-14 03:00:00,Pending,220.53
+16125,1485,Plan Upgrade Order,2025-10-17 15:00:00,Pending,16.15
+16126,2025,Device Purchase,2025-08-28 07:00:00,Fulfilled,437.92
+16127,2282,Device Purchase,2025-11-04 04:00:00,Fulfilled,701.53
+16128,1159,Number Port Order,2025-12-01 03:00:00,Fulfilled,250.83
+16129,1497,Number Port Order,2026-07-11 02:00:00,Cancelled,291.32
+16130,2162,New Connection,2025-11-07 14:00:00,Fulfilled,21.24
+16131,1833,Device Purchase,2025-08-19 15:00:00,Fulfilled,464.84
+16132,1655,New Connection,2026-05-19 08:00:00,Fulfilled,125.54
+16133,1774,Device Purchase,2025-12-29 02:00:00,Fulfilled,585.06
+16134,2448,Plan Upgrade Order,2026-03-03 13:00:00,Cancelled,554.66
+16135,2558,Device Purchase,2025-11-02 15:00:00,Pending,498.94
+16136,1511,SIM Replacement,2025-08-13 12:00:00,Fulfilled,367.85
+16137,2563,Number Port Order,2026-02-21 11:00:00,Fulfilled,85.83
+16138,2381,SIM Replacement,2025-10-18 19:00:00,Fulfilled,177.28
+16139,2063,Plan Upgrade Order,2025-10-31 02:00:00,Fulfilled,989.94
+16140,1091,Number Port Order,2026-01-14 12:00:00,Fulfilled,495.93
+16141,1201,Device Purchase,2026-02-10 05:00:00,Fulfilled,196.39
+16142,2296,Plan Upgrade Order,2025-12-02 06:00:00,Cancelled,926.11
+16143,1605,Plan Upgrade Order,2026-03-09 00:00:00,Fulfilled,470.27
+16144,2639,New Connection,2026-04-19 16:00:00,Fulfilled,214.99
+16145,2075,Device Purchase,2026-08-07 01:00:00,Fulfilled,491.99
+16146,2187,Device Purchase,2025-12-07 19:00:00,Cancelled,257.28
+16147,1066,New Connection,2026-05-25 02:00:00,Fulfilled,39.35
+16148,1012,Plan Upgrade Order,2025-08-19 20:00:00,Fulfilled,427.51
+16149,1888,Number Port Order,2026-01-30 22:00:00,Fulfilled,780.38
+16150,2047,Plan Upgrade Order,2025-09-13 22:00:00,Fulfilled,924.80
+16151,1109,SIM Replacement,2026-01-09 18:00:00,Pending,618.33
+16152,2766,SIM Replacement,2025-11-01 12:00:00,Fulfilled,284.89
+16153,1014,New Connection,2026-06-13 05:00:00,Pending,217.67
+16154,1007,New Connection,2026-07-27 10:00:00,Pending,577.59
+16155,1118,SIM Replacement,2026-05-02 15:00:00,Fulfilled,202.61
+16156,2550,Plan Upgrade Order,2026-06-01 04:00:00,Pending,287.06
+16157,2398,Plan Upgrade Order,2026-05-29 02:00:00,Fulfilled,636.06
+16158,1677,New Connection,2025-09-22 00:00:00,Fulfilled,268.67
+16159,1124,Number Port Order,2025-09-10 12:00:00,Fulfilled,630.19
+16160,2369,SIM Replacement,2025-11-27 15:00:00,Fulfilled,292.58
+16161,1532,New Connection,2026-06-15 01:00:00,Cancelled,8.93
+16162,2221,Number Port Order,2025-09-24 16:00:00,Fulfilled,868.30
+16163,1029,New Connection,2026-04-26 06:00:00,Cancelled,917.71
+16164,1321,New Connection,2026-01-21 18:00:00,Pending,410.02
+16165,2421,Plan Upgrade Order,2026-07-12 11:00:00,Fulfilled,631.88
+16166,1455,New Connection,2026-07-28 08:00:00,Cancelled,108.11
+16167,2383,Number Port Order,2026-04-01 16:00:00,Fulfilled,486.10
+16168,1424,Device Purchase,2026-07-07 05:00:00,Cancelled,927.54
+16169,2530,Plan Upgrade Order,2025-10-18 07:00:00,Fulfilled,76.39
+16170,2493,Number Port Order,2026-01-23 20:00:00,Fulfilled,113.33
+16171,2780,SIM Replacement,2025-10-23 12:00:00,Fulfilled,247.31
+16172,1216,Number Port Order,2025-12-21 23:00:00,Cancelled,796.23
+16173,1113,Device Purchase,2025-12-04 08:00:00,Fulfilled,285.27
+16174,1831,Plan Upgrade Order,2025-12-25 11:00:00,Fulfilled,769.14
+16175,1679,SIM Replacement,2026-04-11 19:00:00,Fulfilled,736.97
+16176,2488,SIM Replacement,2026-05-28 18:00:00,Fulfilled,321.19
+16177,1122,New Connection,2025-09-12 12:00:00,Fulfilled,869.17
+16178,2532,SIM Replacement,2026-04-11 00:00:00,Fulfilled,250.55
+16179,1609,Number Port Order,2026-05-24 14:00:00,Fulfilled,309.00
+16180,2167,SIM Replacement,2026-05-06 08:00:00,Fulfilled,824.67
+16181,1026,New Connection,2025-08-25 18:00:00,Fulfilled,690.52
+16182,2420,Number Port Order,2025-09-17 17:00:00,Fulfilled,106.20
+16183,1444,New Connection,2026-05-16 09:00:00,Fulfilled,415.23
+16184,2033,Device Purchase,2026-04-05 10:00:00,Fulfilled,690.04
+16185,1490,Plan Upgrade Order,2025-10-09 03:00:00,Pending,502.90
+16186,2541,Device Purchase,2025-09-30 17:00:00,Cancelled,471.32
+16187,1624,Device Purchase,2025-11-02 21:00:00,Fulfilled,902.70
+16188,2040,Plan Upgrade Order,2026-02-12 12:00:00,Fulfilled,345.29
+16189,2497,Number Port Order,2026-03-01 10:00:00,Fulfilled,662.31
+16190,2217,Plan Upgrade Order,2026-03-20 05:00:00,Pending,230.94
+16191,1247,New Connection,2025-10-17 03:00:00,Fulfilled,354.78
+16192,2718,Number Port Order,2026-05-16 07:00:00,Fulfilled,239.94
+16193,2205,New Connection,2026-06-23 08:00:00,Pending,424.93
+16194,1447,Number Port Order,2025-08-22 16:00:00,Fulfilled,40.60
+16195,1339,New Connection,2025-09-05 19:00:00,Fulfilled,954.49
+16196,2746,SIM Replacement,2026-01-24 19:00:00,Fulfilled,553.54
+16197,1517,SIM Replacement,2025-09-18 09:00:00,Pending,873.77
+16198,1419,Device Purchase,2025-12-18 23:00:00,Fulfilled,424.58
+16199,2748,Number Port Order,2025-12-27 15:00:00,Fulfilled,215.95
+16200,1938,New Connection,2025-11-15 19:00:00,Fulfilled,322.56
+16201,1128,Device Purchase,2026-06-13 02:00:00,Fulfilled,841.44
+16202,1500,New Connection,2026-02-20 19:00:00,Fulfilled,99.43
+16203,2573,Plan Upgrade Order,2025-10-28 17:00:00,Pending,823.87
+16204,1567,SIM Replacement,2026-07-27 09:00:00,Fulfilled,756.99
+16205,2567,Plan Upgrade Order,2025-11-01 21:00:00,Fulfilled,942.33
+16206,1576,Number Port Order,2026-02-23 10:00:00,Cancelled,758.62
+16207,2072,Device Purchase,2026-04-25 20:00:00,Fulfilled,507.31
+16208,1935,Plan Upgrade Order,2026-02-22 05:00:00,Fulfilled,443.81
+16209,1032,New Connection,2026-01-13 20:00:00,Pending,472.20
+16210,2319,Device Purchase,2025-12-06 18:00:00,Fulfilled,903.93
+16211,2471,New Connection,2026-05-15 05:00:00,Cancelled,589.46
+16212,2302,Number Port Order,2026-05-10 20:00:00,Fulfilled,517.62
+16213,1200,Plan Upgrade Order,2026-06-04 19:00:00,Fulfilled,895.84
+16214,2790,Plan Upgrade Order,2026-05-05 15:00:00,Fulfilled,109.11
+16215,1536,Number Port Order,2025-10-10 05:00:00,Fulfilled,408.87
+16216,2009,Plan Upgrade Order,2026-03-25 08:00:00,Fulfilled,811.40
+16217,2728,New Connection,2025-08-10 08:00:00,Cancelled,56.20
+16218,2165,SIM Replacement,2026-05-24 10:00:00,Fulfilled,409.62
+16219,2518,Number Port Order,2025-10-05 14:00:00,Fulfilled,800.53
+16220,2094,Plan Upgrade Order,2026-05-27 21:00:00,Fulfilled,161.75
+16221,2148,Plan Upgrade Order,2025-11-22 08:00:00,Pending,271.22
+16222,1795,Device Purchase,2025-08-10 12:00:00,Fulfilled,403.07
+16223,1450,Device Purchase,2025-11-27 13:00:00,Pending,413.80
+16224,2656,Device Purchase,2026-08-06 02:00:00,Fulfilled,541.25
+16225,1828,SIM Replacement,2025-10-10 11:00:00,Fulfilled,937.42
+16226,1635,Number Port Order,2025-10-12 09:00:00,Fulfilled,125.00
+16227,1739,Device Purchase,2025-10-06 11:00:00,Fulfilled,614.30
+16228,1006,SIM Replacement,2025-08-14 19:00:00,Cancelled,965.23
+16229,1669,Plan Upgrade Order,2026-01-17 10:00:00,Fulfilled,260.64
+16230,1357,Number Port Order,2025-10-11 18:00:00,Cancelled,294.29
+16231,1940,New Connection,2025-12-14 07:00:00,Fulfilled,688.19
+16232,1331,New Connection,2025-12-01 11:00:00,Fulfilled,119.36
+16233,2612,Device Purchase,2026-02-25 22:00:00,Fulfilled,306.21
+16234,2684,SIM Replacement,2026-05-28 12:00:00,Pending,291.93
+16235,2680,Device Purchase,2025-11-21 07:00:00,Fulfilled,926.76
+16236,1103,Device Purchase,2025-12-23 03:00:00,Pending,675.10
+16237,2243,Plan Upgrade Order,2025-11-02 15:00:00,Fulfilled,544.12
+16238,1098,New Connection,2026-02-09 16:00:00,Fulfilled,701.63
+16239,1239,Device Purchase,2026-04-18 20:00:00,Fulfilled,360.08
+16240,1169,New Connection,2026-03-15 19:00:00,Fulfilled,338.70
+16241,1102,Number Port Order,2026-03-20 22:00:00,Fulfilled,288.02
+16242,1080,New Connection,2025-12-20 10:00:00,Fulfilled,95.10
+16243,2623,Plan Upgrade Order,2026-07-04 16:00:00,Fulfilled,778.72
+16244,2762,Plan Upgrade Order,2026-07-27 23:00:00,Fulfilled,350.57
+16245,2759,New Connection,2025-12-07 18:00:00,Fulfilled,769.99
+16246,1038,Device Purchase,2026-04-26 00:00:00,Fulfilled,516.07
+16247,1509,Number Port Order,2026-01-20 10:00:00,Fulfilled,572.32
+16248,1724,New Connection,2026-05-11 11:00:00,Fulfilled,683.22
+16249,1425,Number Port Order,2025-08-14 10:00:00,Fulfilled,734.66
+16250,2275,Plan Upgrade Order,2025-10-26 18:00:00,Fulfilled,840.87
+16251,1893,New Connection,2025-12-06 08:00:00,Fulfilled,181.35
+16252,2539,Number Port Order,2026-05-04 16:00:00,Fulfilled,45.08
+16253,2583,SIM Replacement,2025-08-24 00:00:00,Fulfilled,438.27
+16254,1523,New Connection,2026-08-02 20:00:00,Fulfilled,62.90
+16255,2529,Device Purchase,2025-12-02 12:00:00,Fulfilled,850.20
+16256,2463,SIM Replacement,2026-04-11 14:00:00,Cancelled,534.00
+16257,2584,Number Port Order,2025-09-20 14:00:00,Fulfilled,908.65
+16258,2709,Device Purchase,2026-06-07 08:00:00,Fulfilled,59.28
+16259,2229,Number Port Order,2025-10-09 02:00:00,Fulfilled,44.55
+16260,2256,Plan Upgrade Order,2026-04-23 11:00:00,Fulfilled,378.53
+16261,1803,Plan Upgrade Order,2025-11-23 10:00:00,Fulfilled,734.47
+16262,1482,Device Purchase,2025-09-26 13:00:00,Pending,299.87
+16263,2783,SIM Replacement,2026-06-02 09:00:00,Fulfilled,289.03
+16264,2224,Number Port Order,2025-12-26 07:00:00,Pending,126.60
+16265,2337,Plan Upgrade Order,2026-05-23 09:00:00,Fulfilled,251.81
+16266,2477,Number Port Order,2026-03-29 11:00:00,Fulfilled,730.12
+16267,1521,Device Purchase,2025-12-30 10:00:00,Fulfilled,53.20
+16268,1870,SIM Replacement,2026-04-04 12:00:00,Fulfilled,45.75
+16269,1047,New Connection,2026-02-20 02:00:00,Pending,736.38
+16270,2514,Device Purchase,2026-05-23 14:00:00,Fulfilled,415.86
+16271,1813,Number Port Order,2026-01-17 15:00:00,Fulfilled,463.48
+16272,1819,Number Port Order,2025-08-30 10:00:00,Fulfilled,370.21
+16273,2644,New Connection,2026-06-22 07:00:00,Fulfilled,276.62
+16274,2096,Plan Upgrade Order,2025-08-20 05:00:00,Pending,541.63
+16275,1861,SIM Replacement,2026-07-19 00:00:00,Fulfilled,308.19
+16276,1084,Plan Upgrade Order,2026-02-24 09:00:00,Pending,13.43
+16277,1857,New Connection,2026-06-11 11:00:00,Fulfilled,922.56
+16278,1668,New Connection,2026-08-06 02:00:00,Fulfilled,760.08
+16279,1695,SIM Replacement,2026-01-01 20:00:00,Fulfilled,850.93
+16280,2241,Number Port Order,2026-05-13 22:00:00,Fulfilled,964.02
+16281,2455,Number Port Order,2025-08-15 07:00:00,Fulfilled,112.72
+16282,1005,Plan Upgrade Order,2025-11-28 23:00:00,Fulfilled,335.92
+16283,1421,Plan Upgrade Order,2026-01-30 10:00:00,Fulfilled,410.85
+16284,2619,Device Purchase,2025-12-15 16:00:00,Fulfilled,987.94
+16285,2744,Device Purchase,2026-02-24 22:00:00,Fulfilled,631.78
+16286,1316,SIM Replacement,2026-06-14 16:00:00,Fulfilled,639.38
+16287,1687,Device Purchase,2026-04-19 04:00:00,Fulfilled,499.82
+16288,1937,Number Port Order,2025-11-28 05:00:00,Pending,895.83
+16289,2738,Number Port Order,2025-12-15 03:00:00,Fulfilled,329.53
+16290,2672,SIM Replacement,2025-11-21 23:00:00,Fulfilled,532.85
+16291,1580,SIM Replacement,2025-12-12 14:00:00,Fulfilled,368.70
+16292,2316,Number Port Order,2025-12-25 07:00:00,Fulfilled,591.47
+16293,2394,Device Purchase,2026-03-07 01:00:00,Pending,662.31
+16294,1161,Number Port Order,2025-12-18 14:00:00,Fulfilled,851.52
+16295,2401,Plan Upgrade Order,2026-05-18 02:00:00,Cancelled,938.10
+16296,1582,Device Purchase,2026-07-31 03:00:00,Fulfilled,515.43
+16297,1206,Device Purchase,2026-08-07 15:00:00,Pending,752.93
+16298,1253,New Connection,2026-01-10 18:00:00,Fulfilled,575.49
+16299,1432,Number Port Order,2025-09-22 23:00:00,Pending,967.40
+16300,1164,SIM Replacement,2026-03-09 17:00:00,Fulfilled,379.04
+16301,2771,Number Port Order,2026-03-09 18:00:00,Cancelled,551.87
+16302,2266,Number Port Order,2025-08-18 05:00:00,Fulfilled,753.36
+16303,1476,Plan Upgrade Order,2026-06-24 10:00:00,Pending,209.89
+16304,2510,New Connection,2026-07-08 21:00:00,Fulfilled,661.36
+16305,2135,Plan Upgrade Order,2026-06-16 09:00:00,Fulfilled,58.08
+16306,2418,New Connection,2026-05-26 13:00:00,Fulfilled,693.27
+16307,1971,New Connection,2025-09-04 03:00:00,Fulfilled,20.16
+16308,2059,New Connection,2025-08-27 06:00:00,Fulfilled,951.39
+16309,2090,Number Port Order,2026-07-01 19:00:00,Fulfilled,991.61
+16310,1343,Number Port Order,2026-07-16 19:00:00,Fulfilled,481.63
+16311,2008,Number Port Order,2026-08-01 22:00:00,Fulfilled,503.81
+16312,2653,Plan Upgrade Order,2025-09-09 07:00:00,Fulfilled,425.61
+16313,1620,Number Port Order,2025-12-05 03:00:00,Fulfilled,314.49
+16314,1955,New Connection,2026-04-18 11:00:00,Pending,309.11
+16315,2784,Number Port Order,2026-05-13 10:00:00,Pending,472.32
+16316,2237,Device Purchase,2026-01-28 10:00:00,Pending,86.94
+16317,2289,Device Purchase,2026-02-08 20:00:00,Fulfilled,973.69
+16318,2177,New Connection,2026-07-02 16:00:00,Pending,398.16
+16319,2528,Plan Upgrade Order,2026-01-02 03:00:00,Fulfilled,668.69
+16320,2153,SIM Replacement,2026-03-15 22:00:00,Cancelled,939.17
+16321,1839,SIM Replacement,2026-05-08 09:00:00,Fulfilled,802.70
+16322,1593,Number Port Order,2026-03-15 22:00:00,Fulfilled,321.75
+16323,1163,Number Port Order,2026-07-25 14:00:00,Pending,46.06
+16324,1166,Number Port Order,2026-08-02 07:00:00,Fulfilled,881.41
+16325,1384,Number Port Order,2026-05-28 19:00:00,Fulfilled,344.14
+16326,1973,Device Purchase,2026-02-12 22:00:00,Pending,988.35
+16327,2523,Plan Upgrade Order,2025-10-31 04:00:00,Fulfilled,365.88
+16328,2433,Number Port Order,2025-12-08 16:00:00,Cancelled,395.53
+16329,1663,New Connection,2025-12-20 20:00:00,Pending,819.86
+16330,1134,SIM Replacement,2026-03-29 05:00:00,Fulfilled,412.99
+16331,1641,Plan Upgrade Order,2026-06-17 16:00:00,Fulfilled,637.93
+16332,1097,New Connection,2026-03-20 13:00:00,Fulfilled,178.46
+16333,1197,Device Purchase,2026-08-04 04:00:00,Fulfilled,629.06
+16334,1644,Number Port Order,2025-08-09 19:00:00,Fulfilled,234.29
+16335,2169,New Connection,2026-07-31 09:00:00,Fulfilled,162.24
+16336,1471,Number Port Order,2026-06-03 14:00:00,Fulfilled,191.76
+16337,1279,Plan Upgrade Order,2026-03-21 05:00:00,Fulfilled,61.05
+16338,2788,Plan Upgrade Order,2026-01-04 08:00:00,Cancelled,255.49
+16339,2320,Plan Upgrade Order,2026-01-02 10:00:00,Fulfilled,915.57
+16340,2699,SIM Replacement,2025-11-16 08:00:00,Pending,221.98
+16341,1653,New Connection,2026-06-21 00:00:00,Fulfilled,963.29
+16342,1601,Number Port Order,2026-07-11 10:00:00,Fulfilled,184.91
+16343,2713,SIM Replacement,2025-12-03 19:00:00,Fulfilled,302.29
+16344,1446,New Connection,2026-07-28 02:00:00,Fulfilled,500.94
+16345,2615,New Connection,2026-02-13 01:00:00,Cancelled,826.90
+16346,2692,SIM Replacement,2026-06-07 11:00:00,Fulfilled,475.35
+16347,1020,SIM Replacement,2025-11-20 03:00:00,Pending,435.12
+16348,1545,Number Port Order,2025-12-21 12:00:00,Fulfilled,736.98
+16349,2198,Device Purchase,2026-07-16 21:00:00,Cancelled,816.35
+16350,1037,New Connection,2026-07-08 02:00:00,Pending,150.65
+16351,2060,New Connection,2025-09-16 05:00:00,Fulfilled,264.13
+16352,1160,Device Purchase,2025-09-01 10:00:00,Fulfilled,61.80
+16353,1349,Plan Upgrade Order,2026-06-19 03:00:00,Fulfilled,504.55
+16354,2704,New Connection,2026-03-21 13:00:00,Fulfilled,238.51
+16355,1252,Number Port Order,2025-10-20 23:00:00,Fulfilled,119.50
+16356,1987,Number Port Order,2025-08-31 11:00:00,Fulfilled,790.46
+16357,1473,Device Purchase,2026-05-03 14:00:00,Fulfilled,412.24
+16358,2073,SIM Replacement,2025-09-18 01:00:00,Fulfilled,701.85
+16359,1708,Device Purchase,2026-01-23 06:00:00,Fulfilled,979.83
+16360,2354,New Connection,2026-02-08 15:00:00,Fulfilled,317.13
+16361,2576,Device Purchase,2025-11-05 04:00:00,Fulfilled,233.42
+16362,1990,Plan Upgrade Order,2026-05-18 13:00:00,Fulfilled,897.88
+16363,1834,Number Port Order,2026-05-02 11:00:00,Fulfilled,721.56
+16364,1647,Device Purchase,2025-11-29 19:00:00,Fulfilled,683.16
+16365,2414,New Connection,2025-09-10 16:00:00,Pending,74.10
+16366,2791,New Connection,2026-05-25 19:00:00,Fulfilled,594.32
+16367,2548,SIM Replacement,2026-06-14 19:00:00,Fulfilled,326.76
+16368,2643,SIM Replacement,2026-05-09 19:00:00,Fulfilled,433.55
+16369,2212,Plan Upgrade Order,2026-07-28 17:00:00,Fulfilled,515.25
+16370,2089,Device Purchase,2025-10-01 12:00:00,Pending,467.82
+16371,1225,Number Port Order,2026-07-15 01:00:00,Fulfilled,19.60
+16372,1151,SIM Replacement,2025-10-25 09:00:00,Pending,627.87
+16373,1085,SIM Replacement,2025-09-19 17:00:00,Cancelled,583.41
+16374,2055,Number Port Order,2026-03-31 00:00:00,Fulfilled,213.36
+16375,2269,SIM Replacement,2026-03-02 11:00:00,Pending,425.79
+16376,1713,SIM Replacement,2026-01-09 03:00:00,Fulfilled,754.46
+16377,2215,Device Purchase,2025-08-23 04:00:00,Fulfilled,570.72
+16378,2651,Device Purchase,2026-07-09 18:00:00,Fulfilled,804.78
+16379,2190,Plan Upgrade Order,2025-08-15 07:00:00,Cancelled,677.71
+16380,2112,SIM Replacement,2025-10-16 01:00:00,Fulfilled,230.51
+16381,2589,New Connection,2026-05-23 17:00:00,Fulfilled,83.16
+16382,1837,New Connection,2026-06-20 00:00:00,Fulfilled,419.23
+16383,2168,Plan Upgrade Order,2025-12-24 22:00:00,Fulfilled,629.29
+16384,2633,Number Port Order,2026-08-02 23:00:00,Fulfilled,980.50
+16385,1273,Device Purchase,2025-09-01 22:00:00,Fulfilled,506.69
+16386,1451,Plan Upgrade Order,2025-08-15 01:00:00,Fulfilled,144.14
+16387,2443,Device Purchase,2025-09-02 20:00:00,Fulfilled,648.84
+16388,2350,Number Port Order,2026-02-07 14:00:00,Cancelled,245.38
+16389,2662,Device Purchase,2026-02-28 22:00:00,Pending,942.12
+16390,2801,SIM Replacement,2025-09-22 17:00:00,Fulfilled,970.70
+16391,2029,Number Port Order,2026-03-27 12:00:00,Fulfilled,842.74
+16392,2322,Device Purchase,2026-06-14 12:00:00,Fulfilled,115.65
+16393,2408,Number Port Order,2026-06-16 17:00:00,Fulfilled,372.37
+16394,2030,Number Port Order,2026-06-15 22:00:00,Fulfilled,286.84
+16395,1784,Number Port Order,2025-11-02 02:00:00,Fulfilled,881.81
+16396,2649,SIM Replacement,2026-02-22 16:00:00,Fulfilled,572.52
+16397,1901,Number Port Order,2026-07-22 10:00:00,Fulfilled,962.57
+16398,2711,Plan Upgrade Order,2025-10-20 11:00:00,Pending,341.53
+16399,1317,Device Purchase,2026-02-07 05:00:00,Fulfilled,159.43
+16400,2598,SIM Replacement,2026-07-23 12:00:00,Pending,305.91
+16401,2156,New Connection,2026-02-24 08:00:00,Fulfilled,446.12
+16402,1310,Plan Upgrade Order,2025-10-26 01:00:00,Fulfilled,931.69
+16403,1394,Plan Upgrade Order,2025-10-27 22:00:00,Fulfilled,869.93
+16404,1467,Device Purchase,2025-10-03 21:00:00,Fulfilled,281.94
+16405,2164,Number Port Order,2025-10-01 14:00:00,Fulfilled,23.60
+16406,1140,Number Port Order,2025-10-18 04:00:00,Fulfilled,723.86
+16407,1249,Number Port Order,2025-11-04 08:00:00,Cancelled,715.61
+16408,1430,SIM Replacement,2026-02-13 00:00:00,Fulfilled,820.71
+16409,2690,Plan Upgrade Order,2025-09-02 12:00:00,Fulfilled,243.28
+16410,1595,SIM Replacement,2025-08-09 18:00:00,Cancelled,750.75
+16411,1001,Device Purchase,2026-05-28 11:00:00,Fulfilled,249.51
+16412,1992,Device Purchase,2026-07-20 14:00:00,Fulfilled,716.13
+16413,1568,New Connection,2025-08-26 18:00:00,Fulfilled,162.52
+16414,1762,Device Purchase,2025-10-18 10:00:00,Fulfilled,928.89
+16415,2487,New Connection,2026-01-29 06:00:00,Fulfilled,48.55
+16416,1196,Number Port Order,2025-10-14 13:00:00,Fulfilled,896.81
+16417,2668,New Connection,2026-08-06 09:00:00,Fulfilled,9.77
+16418,1830,Plan Upgrade Order,2026-01-31 00:00:00,Pending,632.04
+16419,1332,SIM Replacement,2026-04-21 09:00:00,Fulfilled,121.39
+16420,1541,Plan Upgrade Order,2026-01-27 07:00:00,Fulfilled,674.05
+16421,2145,New Connection,2026-02-11 11:00:00,Fulfilled,83.63
+16422,1192,New Connection,2026-07-02 22:00:00,Pending,56.63
+16423,1019,SIM Replacement,2026-06-30 06:00:00,Fulfilled,121.43
+16424,1939,New Connection,2026-03-18 22:00:00,Cancelled,813.81
+16425,2725,SIM Replacement,2026-07-12 22:00:00,Fulfilled,123.16
+16426,2547,SIM Replacement,2025-11-15 23:00:00,Fulfilled,267.11
+16427,2146,Device Purchase,2025-11-24 14:00:00,Fulfilled,994.18
+16428,2618,Plan Upgrade Order,2025-10-13 00:00:00,Fulfilled,379.84
+16429,2317,Number Port Order,2025-09-09 02:00:00,Fulfilled,241.08
+16430,1922,Device Purchase,2025-10-25 00:00:00,Fulfilled,535.55
+16431,2304,Number Port Order,2025-09-28 17:00:00,Fulfilled,286.19
+16432,1738,SIM Replacement,2026-07-29 20:00:00,Fulfilled,449.15
+16433,1661,New Connection,2026-03-12 17:00:00,Fulfilled,711.71
+16434,1905,Number Port Order,2026-05-27 04:00:00,Fulfilled,380.24
+16435,1799,Number Port Order,2026-06-28 08:00:00,Pending,404.53
+16436,1152,SIM Replacement,2026-03-06 01:00:00,Fulfilled,131.86
+16437,2298,New Connection,2025-10-22 00:00:00,Pending,399.82
+16438,1560,New Connection,2026-06-14 17:00:00,Fulfilled,411.63
+16439,2520,New Connection,2025-09-01 09:00:00,Fulfilled,612.96
+16440,2782,SIM Replacement,2026-04-15 04:00:00,Fulfilled,427.96
+16441,2591,Device Purchase,2025-12-15 07:00:00,Fulfilled,668.28
+16442,1914,Device Purchase,2025-09-08 16:00:00,Fulfilled,141.61
+16443,2268,SIM Replacement,2026-03-04 21:00:00,Cancelled,966.51
+16444,2312,New Connection,2026-02-20 19:00:00,Fulfilled,996.68
+16445,1433,New Connection,2026-07-12 21:00:00,Fulfilled,774.57
+16446,1550,Device Purchase,2026-05-07 08:00:00,Fulfilled,752.80
+16447,2770,Device Purchase,2025-08-10 20:00:00,Fulfilled,69.90
+16448,1860,Number Port Order,2025-09-06 19:00:00,Fulfilled,390.41
+16449,2631,Plan Upgrade Order,2025-10-19 15:00:00,Fulfilled,845.31
+16450,2332,Number Port Order,2026-02-23 14:00:00,Fulfilled,604.20
+16451,1326,SIM Replacement,2026-08-06 19:00:00,Fulfilled,300.60
+16452,1858,SIM Replacement,2026-05-06 05:00:00,Fulfilled,250.41
+16453,2300,SIM Replacement,2026-05-20 20:00:00,Cancelled,570.19
+16454,1459,Number Port Order,2025-11-20 16:00:00,Fulfilled,43.36
+16455,1583,Number Port Order,2025-08-15 23:00:00,Fulfilled,236.73
+16456,1075,SIM Replacement,2026-06-06 08:00:00,Fulfilled,568.65
+16457,1909,Number Port Order,2026-06-13 13:00:00,Fulfilled,76.37
+16458,2715,Device Purchase,2025-08-24 22:00:00,Pending,117.96
+16459,1745,Plan Upgrade Order,2026-04-15 12:00:00,Fulfilled,484.83
+16460,1293,Plan Upgrade Order,2026-02-27 20:00:00,Fulfilled,381.82
+16461,2267,SIM Replacement,2025-12-26 03:00:00,Fulfilled,626.40
+16462,2368,Number Port Order,2026-02-21 22:00:00,Cancelled,376.26
+16463,1314,Device Purchase,2025-10-17 23:00:00,Fulfilled,109.20
+16464,1769,Number Port Order,2025-09-20 17:00:00,Fulfilled,374.76
+16465,1744,SIM Replacement,2025-09-04 10:00:00,Pending,964.20
+16466,2074,Number Port Order,2025-09-28 12:00:00,Fulfilled,391.67
+16467,1598,Number Port Order,2025-09-26 02:00:00,Fulfilled,973.14
+16468,1369,SIM Replacement,2026-02-21 22:00:00,Pending,519.13
+16469,2342,New Connection,2026-05-23 12:00:00,Fulfilled,507.18
+16470,1024,SIM Replacement,2025-10-04 04:00:00,Fulfilled,246.28
+16471,2098,New Connection,2026-07-29 15:00:00,Fulfilled,866.77
+16472,2261,Plan Upgrade Order,2025-11-15 14:00:00,Cancelled,512.10
+16473,1309,New Connection,2026-05-19 07:00:00,Fulfilled,803.84
+16474,1572,Plan Upgrade Order,2026-06-01 09:00:00,Fulfilled,323.39
+16475,2119,Number Port Order,2025-09-24 22:00:00,Fulfilled,923.95
+16476,1502,Plan Upgrade Order,2025-10-30 14:00:00,Fulfilled,718.56
+16477,1214,Plan Upgrade Order,2025-11-18 12:00:00,Pending,550.10
+16478,2626,Device Purchase,2026-02-18 07:00:00,Fulfilled,872.67
+16479,1172,Device Purchase,2026-04-27 16:00:00,Fulfilled,627.81
+16480,2450,Number Port Order,2026-05-03 04:00:00,Fulfilled,49.83
+16481,2208,SIM Replacement,2026-01-31 09:00:00,Pending,677.25
+16482,2749,Device Purchase,2026-01-03 20:00:00,Fulfilled,231.63
+16483,1374,Number Port Order,2026-08-02 12:00:00,Fulfilled,561.21
+16484,2264,SIM Replacement,2026-01-07 18:00:00,Fulfilled,918.58
+16485,1180,Number Port Order,2026-01-14 04:00:00,Pending,674.40
+16486,2106,SIM Replacement,2026-06-12 03:00:00,Pending,220.87
+16487,2436,Number Port Order,2026-05-21 03:00:00,Pending,70.89
+16488,2678,New Connection,2026-07-03 15:00:00,Cancelled,15.41
+16489,1518,Plan Upgrade Order,2026-07-09 14:00:00,Fulfilled,372.44
+16490,1223,Number Port Order,2026-06-09 23:00:00,Fulfilled,253.17
+16491,2660,Number Port Order,2026-08-08 14:00:00,Fulfilled,651.65
+16492,2281,Device Purchase,2026-06-05 23:00:00,Fulfilled,4.67
+16493,2001,New Connection,2026-05-04 18:00:00,Fulfilled,111.98
+16494,2638,Plan Upgrade Order,2026-04-25 02:00:00,Fulfilled,943.12
+16495,2005,Device Purchase,2025-08-25 04:00:00,Fulfilled,551.68
+16496,2043,Device Purchase,2026-06-13 05:00:00,Fulfilled,725.71
+16497,2159,Plan Upgrade Order,2026-03-31 20:00:00,Cancelled,736.77
+16498,1607,Device Purchase,2026-03-23 19:00:00,Pending,943.94
+16499,1306,SIM Replacement,2025-09-30 14:00:00,Fulfilled,180.90
+16500,1933,SIM Replacement,2026-04-17 15:00:00,Fulfilled,940.51
+16501,1555,Device Purchase,2025-10-29 23:00:00,Fulfilled,959.04
+16502,1836,Number Port Order,2026-05-23 11:00:00,Fulfilled,238.93
+16503,1613,New Connection,2026-02-05 00:00:00,Fulfilled,282.54
+16504,2524,SIM Replacement,2025-12-22 07:00:00,Fulfilled,359.20
+16505,2655,Plan Upgrade Order,2026-08-01 03:00:00,Fulfilled,167.76
+16506,1464,SIM Replacement,2026-07-26 02:00:00,Fulfilled,744.45
+16507,1719,Plan Upgrade Order,2026-04-16 21:00:00,Fulfilled,893.76
+16508,2140,SIM Replacement,2025-08-17 08:00:00,Fulfilled,22.04
+16509,1171,Device Purchase,2026-03-31 13:00:00,Fulfilled,126.06
+16510,1906,New Connection,2026-03-02 11:00:00,Fulfilled,642.44
+16511,2113,Device Purchase,2026-07-02 01:00:00,Fulfilled,466.58
+16512,1821,New Connection,2025-12-23 06:00:00,Fulfilled,23.04
+16513,1980,SIM Replacement,2026-05-28 00:00:00,Fulfilled,517.70
+16514,1775,Device Purchase,2026-03-11 05:00:00,Pending,732.36
+16515,2580,New Connection,2026-01-08 10:00:00,Fulfilled,201.87
+16516,2330,SIM Replacement,2026-03-13 18:00:00,Fulfilled,165.79
+16517,2160,New Connection,2025-10-05 12:00:00,Fulfilled,218.86
+16518,1563,SIM Replacement,2025-08-14 06:00:00,Fulfilled,279.24
+16519,1048,Device Purchase,2025-10-22 06:00:00,Fulfilled,660.27
+16520,1527,New Connection,2026-05-13 12:00:00,Fulfilled,767.31
+16521,1823,Plan Upgrade Order,2026-05-14 18:00:00,Fulfilled,541.93
+16522,1570,Device Purchase,2026-05-29 10:00:00,Fulfilled,177.13
+16523,2758,Number Port Order,2025-12-16 02:00:00,Fulfilled,292.91
+16524,2534,SIM Replacement,2026-03-14 07:00:00,Fulfilled,521.80
+16525,1340,SIM Replacement,2026-03-17 05:00:00,Fulfilled,995.99
+16526,2214,Device Purchase,2025-12-03 11:00:00,Fulfilled,409.63
+16527,1903,SIM Replacement,2026-06-17 04:00:00,Fulfilled,302.90
+16528,1866,New Connection,2025-12-18 05:00:00,Fulfilled,301.50
+16529,2272,SIM Replacement,2026-04-16 03:00:00,Fulfilled,165.57
+16530,2174,Plan Upgrade Order,2026-07-03 14:00:00,Cancelled,214.39
+16531,2475,Device Purchase,2025-08-22 15:00:00,Fulfilled,688.34
+16532,2698,Plan Upgrade Order,2026-01-08 00:00:00,Fulfilled,358.21
+16533,1329,Number Port Order,2025-09-17 21:00:00,Fulfilled,628.77
+16534,1312,Device Purchase,2025-12-15 03:00:00,Fulfilled,749.55
+16535,2367,Plan Upgrade Order,2026-03-31 12:00:00,Cancelled,89.36
+16536,1810,Device Purchase,2025-10-16 23:00:00,Cancelled,844.24
+16537,1666,Number Port Order,2025-09-09 16:00:00,Fulfilled,296.69
+16538,1853,SIM Replacement,2026-01-24 22:00:00,Cancelled,809.24
+16539,1498,Number Port Order,2026-03-29 08:00:00,Pending,928.94
+16540,1034,Plan Upgrade Order,2025-12-19 19:00:00,Fulfilled,101.99
+16541,2231,New Connection,2025-11-18 13:00:00,Fulfilled,558.10
+16542,2101,Number Port Order,2026-07-06 12:00:00,Fulfilled,239.68
+16543,2798,Number Port Order,2025-08-08 05:00:00,Fulfilled,58.71
+16544,2141,Device Purchase,2026-06-12 07:00:00,Fulfilled,623.98
+16545,1389,Number Port Order,2026-07-31 10:00:00,Fulfilled,568.84
+16546,1220,SIM Replacement,2026-07-02 18:00:00,Fulfilled,779.05
+16547,2067,Device Purchase,2026-04-13 04:00:00,Cancelled,726.19
+16548,2797,Device Purchase,2026-05-14 03:00:00,Cancelled,551.67
+16549,2235,Device Purchase,2026-06-16 21:00:00,Fulfilled,571.52
+16550,1264,SIM Replacement,2025-09-19 09:00:00,Fulfilled,508.52
+16551,2220,Device Purchase,2025-10-26 11:00:00,Fulfilled,772.44
+16552,2703,Number Port Order,2026-07-20 08:00:00,Fulfilled,560.49
+16553,1650,Number Port Order,2026-03-14 17:00:00,Fulfilled,625.85
+16554,2194,SIM Replacement,2025-10-17 15:00:00,Fulfilled,51.58
+16555,2432,Number Port Order,2026-01-07 02:00:00,Fulfilled,898.32
+16556,2036,New Connection,2026-05-31 20:00:00,Fulfilled,417.52
+16557,2474,Plan Upgrade Order,2026-03-22 17:00:00,Cancelled,359.91
+16558,2066,New Connection,2025-11-08 20:00:00,Fulfilled,814.41
+16559,2079,New Connection,2025-08-28 21:00:00,Fulfilled,770.21
+16560,2211,New Connection,2026-06-18 20:00:00,Pending,416.75
+16561,1300,Number Port Order,2025-12-28 20:00:00,Fulfilled,616.54
+16562,1390,New Connection,2026-03-11 15:00:00,Fulfilled,38.33
+16563,2435,SIM Replacement,2025-12-05 03:00:00,Fulfilled,845.09
+16564,2265,Number Port Order,2026-02-06 10:00:00,Fulfilled,590.26
+16565,1501,Plan Upgrade Order,2025-09-22 00:00:00,Fulfilled,65.34
+16566,1093,Device Purchase,2025-11-23 17:00:00,Fulfilled,833.04
+16567,2778,Plan Upgrade Order,2026-04-01 05:00:00,Fulfilled,633.37
+16568,1927,New Connection,2026-02-22 13:00:00,Fulfilled,28.95
+16569,1436,Device Purchase,2026-02-10 09:00:00,Fulfilled,270.14
+16570,1185,SIM Replacement,2026-03-06 18:00:00,Cancelled,983.80
+16571,2207,Number Port Order,2025-08-08 12:00:00,Fulfilled,790.63
+16572,1277,New Connection,2026-03-05 10:00:00,Fulfilled,156.93
+16573,2694,SIM Replacement,2025-08-29 10:00:00,Fulfilled,688.58
+16574,1255,Plan Upgrade Order,2025-11-30 20:00:00,Cancelled,244.30
+16575,1351,Plan Upgrade Order,2026-07-22 23:00:00,Fulfilled,695.81
+16576,1138,Device Purchase,2025-10-11 05:00:00,Fulfilled,810.40
+16577,2472,SIM Replacement,2025-10-07 23:00:00,Cancelled,957.46
+16578,2735,Device Purchase,2025-12-10 03:00:00,Fulfilled,371.59
+16579,2031,Number Port Order,2026-04-07 11:00:00,Fulfilled,685.70
+16580,1865,Plan Upgrade Order,2025-09-06 01:00:00,Fulfilled,762.79
+16581,2719,SIM Replacement,2026-03-07 09:00:00,Pending,393.19
+16582,2579,Plan Upgrade Order,2026-02-06 06:00:00,Fulfilled,303.38
+16583,2244,Plan Upgrade Order,2026-01-22 07:00:00,Fulfilled,56.11
+16584,1707,New Connection,2026-03-26 17:00:00,Fulfilled,648.96
+16585,1916,New Connection,2025-12-21 08:00:00,Fulfilled,612.23
+16586,1234,Number Port Order,2026-05-18 03:00:00,Fulfilled,387.18
+16587,1977,Plan Upgrade Order,2026-05-04 23:00:00,Fulfilled,621.68
+16588,2076,Device Purchase,2025-12-26 10:00:00,Pending,444.38
+16589,1559,Number Port Order,2026-07-24 15:00:00,Fulfilled,978.75
+16590,1162,Device Purchase,2026-03-01 16:00:00,Fulfilled,383.77
+16591,2574,SIM Replacement,2025-12-05 21:00:00,Pending,365.91
+16592,1877,Plan Upgrade Order,2026-05-21 07:00:00,Fulfilled,241.07
+16593,1406,Number Port Order,2026-06-10 22:00:00,Fulfilled,672.09
+16594,2193,Device Purchase,2026-01-19 20:00:00,Fulfilled,743.57
+16595,2513,Number Port Order,2025-10-30 02:00:00,Fulfilled,421.98
+16596,2677,Number Port Order,2026-04-12 02:00:00,Fulfilled,412.61
+16597,2413,Number Port Order,2026-05-05 12:00:00,Pending,396.47
+16598,2620,SIM Replacement,2026-01-18 14:00:00,Fulfilled,661.99
+16599,2459,New Connection,2026-04-21 08:00:00,Pending,814.89
+16600,1998,Plan Upgrade Order,2026-05-01 05:00:00,Fulfilled,0.89
+16601,2365,Plan Upgrade Order,2026-04-27 01:00:00,Fulfilled,357.02
+16602,1754,Device Purchase,2026-01-26 22:00:00,Fulfilled,517.55
+16603,2155,SIM Replacement,2026-01-08 10:00:00,Fulfilled,576.92
+16604,1779,Number Port Order,2025-11-15 14:00:00,Fulfilled,199.92
+16605,1294,Plan Upgrade Order,2025-12-03 01:00:00,Fulfilled,315.94
+16606,1573,SIM Replacement,2025-09-28 00:00:00,Fulfilled,601.05
+16607,2095,SIM Replacement,2025-08-20 21:00:00,Fulfilled,362.93
+16608,1958,Number Port Order,2025-08-13 06:00:00,Fulfilled,870.22
+16609,1302,Number Port Order,2026-01-22 15:00:00,Cancelled,577.27
+16610,2170,Device Purchase,2026-05-30 03:00:00,Fulfilled,416.83
+16611,1148,New Connection,2026-02-06 14:00:00,Fulfilled,183.53
+16612,1674,Number Port Order,2025-10-07 15:00:00,Fulfilled,262.20
+16613,2498,Number Port Order,2025-11-24 08:00:00,Fulfilled,41.80
+16614,2306,Number Port Order,2025-08-12 11:00:00,Fulfilled,403.70
+16615,2127,New Connection,2026-01-12 21:00:00,Fulfilled,822.16
+16616,1107,SIM Replacement,2026-06-25 17:00:00,Fulfilled,804.25
+16617,1058,Number Port Order,2026-07-16 00:00:00,Fulfilled,997.71
+16618,2538,Plan Upgrade Order,2026-07-28 15:00:00,Fulfilled,649.90
+16619,2150,New Connection,2025-09-13 07:00:00,Fulfilled,821.78
+16620,2103,Plan Upgrade Order,2026-04-12 21:00:00,Fulfilled,887.11
+16621,1528,SIM Replacement,2026-03-21 10:00:00,Fulfilled,288.75
+16622,2786,Device Purchase,2026-01-17 12:00:00,Fulfilled,143.53
+16623,1420,SIM Replacement,2025-08-24 03:00:00,Cancelled,952.46
+16624,2012,Number Port Order,2026-04-07 13:00:00,Fulfilled,613.14
+16625,1069,Plan Upgrade Order,2026-02-22 23:00:00,Cancelled,233.64
+16626,1411,SIM Replacement,2026-07-15 20:00:00,Fulfilled,588.66
+16627,1440,New Connection,2026-03-19 13:00:00,Fulfilled,955.71
+16628,1027,Plan Upgrade Order,2025-10-19 05:00:00,Fulfilled,984.97
+16629,2326,Number Port Order,2026-02-16 23:00:00,Fulfilled,669.02
+16630,2687,Number Port Order,2025-09-29 12:00:00,Fulfilled,678.25
+16631,1086,SIM Replacement,2026-05-29 13:00:00,Fulfilled,250.88
+16632,1730,Device Purchase,2025-09-01 00:00:00,Fulfilled,29.79
+16633,1401,Device Purchase,2026-03-07 05:00:00,Fulfilled,138.41
+16634,1319,Device Purchase,2026-02-15 10:00:00,Pending,979.28
+16635,1979,Device Purchase,2026-02-18 03:00:00,Pending,568.47
+16636,2519,New Connection,2026-02-22 12:00:00,Pending,241.90
+16637,1872,SIM Replacement,2026-04-17 08:00:00,Cancelled,987.69
+16638,2492,New Connection,2026-07-30 11:00:00,Fulfilled,322.99
+16639,1090,Plan Upgrade Order,2026-07-13 06:00:00,Fulfilled,343.35
+16640,1131,New Connection,2025-08-30 10:00:00,Cancelled,816.13
+16641,1199,Device Purchase,2025-11-14 08:00:00,Fulfilled,444.21
+16642,1981,SIM Replacement,2026-05-11 17:00:00,Cancelled,862.33
+16643,1710,Plan Upgrade Order,2026-04-01 16:00:00,Fulfilled,433.52
+16644,2314,SIM Replacement,2026-08-05 13:00:00,Cancelled,743.11
+16645,2637,SIM Replacement,2025-08-10 19:00:00,Fulfilled,210.17
+16646,1378,Plan Upgrade Order,2026-05-29 14:00:00,Fulfilled,561.92
+16647,1578,New Connection,2025-08-15 14:00:00,Fulfilled,914.79
+16648,2439,Plan Upgrade Order,2025-10-27 14:00:00,Fulfilled,655.40
+16649,2391,Number Port Order,2025-12-29 19:00:00,Fulfilled,179.10
+16650,2525,Plan Upgrade Order,2026-06-04 02:00:00,Fulfilled,159.61
+16651,1481,SIM Replacement,2026-05-10 13:00:00,Fulfilled,435.26
+16652,2663,SIM Replacement,2025-08-16 07:00:00,Fulfilled,313.33
+16653,2490,Plan Upgrade Order,2026-07-29 14:00:00,Fulfilled,972.35
+16654,1438,Number Port Order,2025-08-26 02:00:00,Fulfilled,107.89
+16655,1908,Number Port Order,2026-07-10 11:00:00,Pending,732.63
+16656,2794,Device Purchase,2026-01-26 14:00:00,Fulfilled,107.68
+16657,1070,Device Purchase,2026-02-06 01:00:00,Fulfilled,509.29
+16658,1918,Device Purchase,2025-12-19 05:00:00,Fulfilled,84.49
+16659,1537,Plan Upgrade Order,2026-02-06 01:00:00,Fulfilled,791.87
+16660,1292,Number Port Order,2026-08-05 22:00:00,Fulfilled,441.46
+16661,1232,Number Port Order,2026-07-02 01:00:00,Pending,987.66
+16662,1147,Plan Upgrade Order,2025-11-17 20:00:00,Fulfilled,741.72
+16663,1059,Number Port Order,2026-01-23 13:00:00,Fulfilled,254.35
+16664,2781,SIM Replacement,2025-09-22 07:00:00,Pending,779.85
+16665,1934,Plan Upgrade Order,2025-11-10 20:00:00,Pending,287.26
+16666,2335,SIM Replacement,2025-10-31 11:00:00,Fulfilled,932.92
+16667,1417,Number Port Order,2025-10-08 09:00:00,Pending,98.11
+16668,2645,Number Port Order,2025-11-06 08:00:00,Cancelled,225.14
+16669,2507,Number Port Order,2025-12-30 01:00:00,Fulfilled,363.32
+16670,1765,SIM Replacement,2025-12-14 05:00:00,Pending,27.22
+16671,1044,New Connection,2026-02-04 02:00:00,Fulfilled,21.04
+16672,1049,Device Purchase,2025-12-23 15:00:00,Fulfilled,896.57
+16673,2023,SIM Replacement,2026-01-22 10:00:00,Fulfilled,388.56
+16674,1817,Device Purchase,2026-01-17 18:00:00,Fulfilled,507.69
+16675,1962,New Connection,2026-06-16 07:00:00,Pending,175.42
+16676,2130,SIM Replacement,2025-12-24 23:00:00,Fulfilled,739.49
+16677,2374,Number Port Order,2025-11-01 21:00:00,Pending,648.49
+16678,1988,Number Port Order,2025-12-24 16:00:00,Cancelled,537.41
+16679,1483,New Connection,2026-03-24 17:00:00,Pending,317.13
+16680,1883,Device Purchase,2026-03-21 21:00:00,Fulfilled,10.41
+16681,1616,Plan Upgrade Order,2026-05-07 18:00:00,Fulfilled,489.39
+16682,1603,Device Purchase,2025-10-24 07:00:00,Fulfilled,324.33
+16683,1158,Number Port Order,2026-07-28 18:00:00,Fulfilled,570.53
+16684,2642,Device Purchase,2026-05-11 07:00:00,Pending,16.58
+16685,1621,Number Port Order,2026-02-26 16:00:00,Cancelled,63.80
+16686,2071,Plan Upgrade Order,2026-01-07 16:00:00,Fulfilled,821.75
+16687,1283,SIM Replacement,2026-02-03 23:00:00,Pending,962.11
+16688,1361,Plan Upgrade Order,2026-06-19 18:00:00,Fulfilled,94.09
+16689,2614,Plan Upgrade Order,2025-12-02 14:00:00,Fulfilled,472.38
+16690,2003,New Connection,2026-05-06 12:00:00,Fulfilled,851.65
+16691,1969,Plan Upgrade Order,2025-10-16 06:00:00,Pending,915.86
+16692,1061,Number Port Order,2026-06-02 16:00:00,Fulfilled,917.89
+16693,2469,Number Port Order,2025-10-30 00:00:00,Fulfilled,665.77
+16694,2500,Plan Upgrade Order,2025-09-25 21:00:00,Fulfilled,748.78
+16695,1100,Plan Upgrade Order,2026-01-30 10:00:00,Fulfilled,591.45
+16696,1842,SIM Replacement,2025-10-15 21:00:00,Fulfilled,556.97
+16697,2213,Plan Upgrade Order,2026-05-15 04:00:00,Fulfilled,399.34
+16698,2120,SIM Replacement,2026-02-21 11:00:00,Pending,520.49
+16699,2586,Device Purchase,2026-06-12 16:00:00,Cancelled,944.01
+16700,1112,New Connection,2026-07-04 18:00:00,Fulfilled,922.83
+16701,1878,Plan Upgrade Order,2026-04-11 18:00:00,Fulfilled,103.75
+16702,1530,Device Purchase,2025-10-22 00:00:00,Fulfilled,89.39
+16703,2429,SIM Replacement,2026-04-25 10:00:00,Pending,912.07
+16704,2522,New Connection,2026-05-10 12:00:00,Fulfilled,155.09
+16705,2708,New Connection,2026-03-07 09:00:00,Pending,472.39
+16706,1976,New Connection,2025-10-27 12:00:00,Cancelled,41.70
+16707,1322,Number Port Order,2026-08-07 03:00:00,Fulfilled,161.24
+16708,1222,SIM Replacement,2026-02-22 22:00:00,Fulfilled,334.56
+16709,1105,Number Port Order,2025-09-16 09:00:00,Fulfilled,390.10
+16710,2377,SIM Replacement,2026-01-10 08:00:00,Fulfilled,381.82
+16711,1770,Number Port Order,2025-12-19 02:00:00,Fulfilled,189.16
+16712,2387,New Connection,2026-05-21 21:00:00,Pending,718.96
+16713,2739,Plan Upgrade Order,2026-01-08 15:00:00,Cancelled,705.55
+16714,1520,Plan Upgrade Order,2025-10-05 06:00:00,Fulfilled,344.57
+16715,1274,Plan Upgrade Order,2025-12-24 01:00:00,Fulfilled,866.78
+16716,1064,Device Purchase,2026-02-24 01:00:00,Fulfilled,252.50
+16717,2052,Plan Upgrade Order,2026-02-20 20:00:00,Fulfilled,812.77
+16718,2295,Number Port Order,2025-12-27 04:00:00,Fulfilled,693.91
+16719,2476,Number Port Order,2025-08-23 06:00:00,Fulfilled,511.91
+16720,1413,New Connection,2026-07-05 05:00:00,Fulfilled,542.91
+16721,2123,SIM Replacement,2026-05-05 12:00:00,Fulfilled,269.31
+16722,2375,Plan Upgrade Order,2025-10-05 03:00:00,Fulfilled,223.81
+16723,2682,SIM Replacement,2026-03-05 00:00:00,Fulfilled,585.30
+16724,1911,New Connection,2026-07-14 14:00:00,Fulfilled,64.59
+16725,2592,Device Purchase,2025-09-25 23:00:00,Fulfilled,201.03
+16726,1452,Plan Upgrade Order,2025-10-20 19:00:00,Fulfilled,595.38
+16727,1165,Device Purchase,2025-12-16 23:00:00,Fulfilled,488.22
+16728,1474,Plan Upgrade Order,2025-09-26 00:00:00,Fulfilled,867.90
+16729,1320,Plan Upgrade Order,2026-04-27 19:00:00,Pending,893.64
+16730,1341,Plan Upgrade Order,2025-11-17 02:00:00,Cancelled,660.00
+16731,1700,Device Purchase,2026-07-05 20:00:00,Pending,698.60
+16732,1505,SIM Replacement,2025-11-13 14:00:00,Fulfilled,641.29
+16733,2742,New Connection,2025-12-11 15:00:00,Fulfilled,466.63
+16734,1741,Plan Upgrade Order,2025-09-09 01:00:00,Cancelled,940.53
+16735,2434,Plan Upgrade Order,2025-10-18 12:00:00,Fulfilled,611.89
+16736,2310,Device Purchase,2026-04-28 20:00:00,Fulfilled,93.66
+16737,1391,Plan Upgrade Order,2025-11-27 10:00:00,Fulfilled,944.86
+16738,1849,Plan Upgrade Order,2026-05-03 03:00:00,Fulfilled,634.93
+16739,1167,Number Port Order,2026-05-30 10:00:00,Fulfilled,896.96
+16740,1213,New Connection,2025-11-27 13:00:00,Fulfilled,570.71
+16741,2216,Number Port Order,2026-03-26 00:00:00,Pending,290.17
+16742,1899,Plan Upgrade Order,2026-04-29 09:00:00,Pending,926.88
+16743,1759,Plan Upgrade Order,2025-08-16 10:00:00,Fulfilled,949.70
+16744,2809,Number Port Order,2026-01-20 10:00:00,Fulfilled,167.73
+16745,1945,SIM Replacement,2026-03-31 14:00:00,Fulfilled,537.69
+16746,1023,New Connection,2026-01-14 11:00:00,Pending,544.43
+16747,1671,Number Port Order,2025-11-29 06:00:00,Fulfilled,598.82
+16748,1305,Plan Upgrade Order,2025-10-25 02:00:00,Fulfilled,98.92
+16749,2795,New Connection,2025-08-26 21:00:00,Fulfilled,499.41
+16750,2379,Number Port Order,2025-10-15 16:00:00,Cancelled,581.37
+16751,1226,New Connection,2026-06-12 17:00:00,Cancelled,237.21
+16752,2799,SIM Replacement,2026-06-14 13:00:00,Pending,502.66
+16753,2516,Plan Upgrade Order,2025-08-15 04:00:00,Fulfilled,131.40
+16754,2635,Plan Upgrade Order,2026-04-19 10:00:00,Cancelled,719.93
+16755,1392,Number Port Order,2026-07-04 10:00:00,Fulfilled,458.53
+16756,1496,Number Port Order,2026-03-20 18:00:00,Cancelled,34.96
+16757,2085,SIM Replacement,2026-03-04 07:00:00,Fulfilled,483.25
+16758,1051,Number Port Order,2026-08-02 15:00:00,Fulfilled,973.60
+16759,2278,Device Purchase,2026-06-27 02:00:00,Fulfilled,745.83
+16760,2238,SIM Replacement,2025-12-10 08:00:00,Fulfilled,710.95
+16761,2404,Plan Upgrade Order,2025-12-20 22:00:00,Fulfilled,796.98
+16762,1132,Number Port Order,2026-02-13 17:00:00,Fulfilled,101.71
+16763,2536,Number Port Order,2026-07-08 21:00:00,Cancelled,28.41
+16764,1108,SIM Replacement,2026-05-08 04:00:00,Fulfilled,360.06
+16765,1617,Number Port Order,2026-01-04 23:00:00,Fulfilled,916.49
+16766,2714,New Connection,2026-03-04 14:00:00,Fulfilled,80.52
+16767,1594,Device Purchase,2025-10-02 10:00:00,Fulfilled,173.17
+16768,1696,Plan Upgrade Order,2025-10-07 02:00:00,Fulfilled,939.36
+16769,1891,SIM Replacement,2025-12-10 03:00:00,Fulfilled,672.86
+16770,1904,SIM Replacement,2026-05-14 05:00:00,Fulfilled,182.66
+16771,1732,SIM Replacement,2026-03-24 10:00:00,Fulfilled,899.99
+16772,1461,New Connection,2026-06-15 23:00:00,Fulfilled,547.74
+16773,1170,SIM Replacement,2026-06-21 05:00:00,Fulfilled,217.95
+16774,1897,Device Purchase,2026-01-01 11:00:00,Fulfilled,453.01
+16775,2796,Device Purchase,2025-10-04 05:00:00,Fulfilled,918.63
+16776,1824,Device Purchase,2026-04-03 17:00:00,Fulfilled,204.45
+16777,1468,SIM Replacement,2026-07-10 11:00:00,Fulfilled,575.74
+16778,1783,New Connection,2026-06-25 18:00:00,Fulfilled,644.84
+16779,1036,Device Purchase,2025-08-27 13:00:00,Pending,412.35
+16780,2028,SIM Replacement,2026-01-19 23:00:00,Fulfilled,982.56
+16781,2200,New Connection,2026-05-28 14:00:00,Pending,567.09
+16782,1337,Device Purchase,2026-06-07 11:00:00,Fulfilled,164.40
+16783,2568,Number Port Order,2026-04-26 04:00:00,Fulfilled,730.69
+16784,2061,Plan Upgrade Order,2026-03-29 08:00:00,Fulfilled,764.51
+16785,2189,New Connection,2025-08-29 12:00:00,Fulfilled,136.89
+16786,1699,Number Port Order,2026-06-12 08:00:00,Fulfilled,26.31

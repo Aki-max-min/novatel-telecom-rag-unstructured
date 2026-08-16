@@ -1,0 +1,135 @@
+[
+  {
+    "id": "S01",
+    "question": "What is customer 1001's account status?",
+    "expected_table": "customer_master",
+    "expected_method": "exact_filter",
+    "expected_filter_column": "customer_id",
+    "expected_filter_value": 1001,
+    "query_type": "exact_lookup"
+  },
+  {
+    "id": "S02",
+    "question": "What plan is customer 1001 on?",
+    "expected_table": "subscriptions",
+    "expected_method": "exact_filter",
+    "expected_filter_column": "customer_id",
+    "expected_filter_value": 1001,
+    "query_type": "filter"
+  },
+  {
+    "id": "S03",
+    "question": "Show invoices for customer 1009",
+    "expected_table": "invoices",
+    "expected_method": "exact_filter",
+    "expected_filter_column": "customer_id",
+    "expected_filter_value": 1009,
+    "query_type": "filter"
+  },
+  {
+    "id": "S04",
+    "question": "How many recharge_transactions have status FAILED?",
+    "expected_table": "recharge_transactions",
+    "expected_method": "aggregate",
+    "expected_filter_column": "status",
+    "expected_filter_value": "FAILED",
+    "query_type": "aggregate"
+  },
+  {
+    "id": "S05",
+    "question": "List all overdue invoices",
+    "expected_table": "invoices",
+    "expected_method": "exact_filter",
+    "expected_filter_column": "payment_status",
+    "expected_filter_value": "Overdue",
+    "query_type": "filter"
+  },
+  {
+    "id": "S06",
+    "question": "Show all open tickets",
+    "expected_table": "tickets",
+    "expected_method": "exact_filter",
+    "expected_filter_column": "status",
+    "expected_filter_value": "Open",
+    "query_type": "filter"
+  },
+  {
+    "id": "S07",
+    "question": "How many payment_transactions are SUCCESS?",
+    "expected_table": "payment_transactions",
+    "expected_method": "aggregate",
+    "expected_filter_column": "status",
+    "expected_filter_value": "SUCCESS",
+    "query_type": "aggregate"
+  },
+  {
+    "id": "S08",
+    "question": "Show sim_inventory with status Blocked",
+    "expected_table": "sim_inventory",
+    "expected_method": "exact_filter",
+    "expected_filter_column": "status",
+    "expected_filter_value": "Blocked",
+    "query_type": "filter"
+  },
+  {
+    "id": "S09",
+    "question": "Show kyc_records with status Pending",
+    "expected_table": "kyc_records",
+    "expected_method": "exact_filter",
+    "expected_filter_column": "status",
+    "expected_filter_value": "Pending",
+    "query_type": "filter"
+  },
+  {
+    "id": "S10",
+    "question": "Show porting_requests with status Rejected",
+    "expected_table": "porting_requests",
+    "expected_method": "exact_filter",
+    "expected_filter_column": "status",
+    "expected_filter_value": "Rejected",
+    "query_type": "filter"
+  },
+  {
+    "id": "S11",
+    "question": "Show orders with status Cancelled",
+    "expected_table": "orders",
+    "expected_method": "exact_filter",
+    "expected_filter_column": "status",
+    "expected_filter_value": "Cancelled",
+    "query_type": "filter"
+  },
+  {
+    "id": "S12",
+    "question": "Show fraud_cases with status Investigating",
+    "expected_table": "fraud_cases",
+    "expected_method": "exact_filter",
+    "expected_filter_column": "status",
+    "expected_filter_value": "Investigating",
+    "query_type": "filter"
+  },
+  {
+    "id": "S13",
+    "question": "Show escalation_cases with status Open",
+    "expected_table": "escalation_cases",
+    "expected_method": "exact_filter",
+    "expected_filter_column": "status",
+    "expected_filter_value": "Open",
+    "query_type": "filter"
+  },
+  {
+    "id": "S14",
+    "question": "Show fiber_inventory with status Suspended",
+    "expected_table": "fiber_inventory",
+    "expected_method": "exact_filter",
+    "expected_filter_column": "status",
+    "expected_filter_value": "Suspended",
+    "query_type": "filter"
+  },
+  {
+    "id": "S15",
+    "question": "asdkjaslkdj random gibberish query",
+    "expected_table": null,
+    "expected_method": null,
+    "query_type": "negative"
+  }
+]

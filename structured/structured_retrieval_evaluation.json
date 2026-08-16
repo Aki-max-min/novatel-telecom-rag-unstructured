@@ -1,0 +1,384 @@
+{
+  "total_questions": 15,
+  "parsing_accuracy": 1.0,
+  "end_to_end_accuracy": 1.0,
+  "average_latency_sec": 0.0017329851786295574,
+  "parsing_results": [
+    {
+      "id": "S01",
+      "question": "What is customer 1001's account status?",
+      "query_type": "exact_lookup",
+      "passed": true,
+      "parsed": {
+        "table": "customer_master",
+        "method": "exact_filter",
+        "filter_column": "customer_id",
+        "filter_value": 1001
+      },
+      "expected": {
+        "table": "customer_master",
+        "method": "exact_filter",
+        "filter_column": "customer_id",
+        "filter_value": 1001
+      }
+    },
+    {
+      "id": "S02",
+      "question": "What plan is customer 1001 on?",
+      "query_type": "filter",
+      "passed": true,
+      "parsed": {
+        "table": "subscriptions",
+        "method": "exact_filter",
+        "filter_column": "customer_id",
+        "filter_value": 1001
+      },
+      "expected": {
+        "table": "subscriptions",
+        "method": "exact_filter",
+        "filter_column": "customer_id",
+        "filter_value": 1001
+      }
+    },
+    {
+      "id": "S03",
+      "question": "Show invoices for customer 1009",
+      "query_type": "filter",
+      "passed": true,
+      "parsed": {
+        "table": "invoices",
+        "method": "exact_filter",
+        "filter_column": "customer_id",
+        "filter_value": 1009
+      },
+      "expected": {
+        "table": "invoices",
+        "method": "exact_filter",
+        "filter_column": "customer_id",
+        "filter_value": 1009
+      }
+    },
+    {
+      "id": "S04",
+      "question": "How many recharge_transactions have status FAILED?",
+      "query_type": "aggregate",
+      "passed": true,
+      "parsed": {
+        "table": "recharge_transactions",
+        "method": "aggregate",
+        "filter_column": "status",
+        "filter_value": "FAILED"
+      },
+      "expected": {
+        "table": "recharge_transactions",
+        "method": "aggregate",
+        "filter_column": "status",
+        "filter_value": "FAILED"
+      }
+    },
+    {
+      "id": "S05",
+      "question": "List all overdue invoices",
+      "query_type": "filter",
+      "passed": true,
+      "parsed": {
+        "table": "invoices",
+        "method": "exact_filter",
+        "filter_column": "payment_status",
+        "filter_value": "Overdue"
+      },
+      "expected": {
+        "table": "invoices",
+        "method": "exact_filter",
+        "filter_column": "payment_status",
+        "filter_value": "Overdue"
+      }
+    },
+    {
+      "id": "S06",
+      "question": "Show all open tickets",
+      "query_type": "filter",
+      "passed": true,
+      "parsed": {
+        "table": "tickets",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Open"
+      },
+      "expected": {
+        "table": "tickets",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Open"
+      }
+    },
+    {
+      "id": "S07",
+      "question": "How many payment_transactions are SUCCESS?",
+      "query_type": "aggregate",
+      "passed": true,
+      "parsed": {
+        "table": "payment_transactions",
+        "method": "aggregate",
+        "filter_column": "status",
+        "filter_value": "SUCCESS"
+      },
+      "expected": {
+        "table": "payment_transactions",
+        "method": "aggregate",
+        "filter_column": "status",
+        "filter_value": "SUCCESS"
+      }
+    },
+    {
+      "id": "S08",
+      "question": "Show sim_inventory with status Blocked",
+      "query_type": "filter",
+      "passed": true,
+      "parsed": {
+        "table": "sim_inventory",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Blocked"
+      },
+      "expected": {
+        "table": "sim_inventory",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Blocked"
+      }
+    },
+    {
+      "id": "S09",
+      "question": "Show kyc_records with status Pending",
+      "query_type": "filter",
+      "passed": true,
+      "parsed": {
+        "table": "kyc_records",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Pending"
+      },
+      "expected": {
+        "table": "kyc_records",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Pending"
+      }
+    },
+    {
+      "id": "S10",
+      "question": "Show porting_requests with status Rejected",
+      "query_type": "filter",
+      "passed": true,
+      "parsed": {
+        "table": "porting_requests",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Rejected"
+      },
+      "expected": {
+        "table": "porting_requests",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Rejected"
+      }
+    },
+    {
+      "id": "S11",
+      "question": "Show orders with status Cancelled",
+      "query_type": "filter",
+      "passed": true,
+      "parsed": {
+        "table": "orders",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Cancelled"
+      },
+      "expected": {
+        "table": "orders",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Cancelled"
+      }
+    },
+    {
+      "id": "S12",
+      "question": "Show fraud_cases with status Investigating",
+      "query_type": "filter",
+      "passed": true,
+      "parsed": {
+        "table": "fraud_cases",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Investigating"
+      },
+      "expected": {
+        "table": "fraud_cases",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Investigating"
+      }
+    },
+    {
+      "id": "S13",
+      "question": "Show escalation_cases with status Open",
+      "query_type": "filter",
+      "passed": true,
+      "parsed": {
+        "table": "escalation_cases",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Open"
+      },
+      "expected": {
+        "table": "escalation_cases",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Open"
+      }
+    },
+    {
+      "id": "S14",
+      "question": "Show fiber_inventory with status Suspended",
+      "query_type": "filter",
+      "passed": true,
+      "parsed": {
+        "table": "fiber_inventory",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Suspended"
+      },
+      "expected": {
+        "table": "fiber_inventory",
+        "method": "exact_filter",
+        "filter_column": "status",
+        "filter_value": "Suspended"
+      }
+    },
+    {
+      "id": "S15",
+      "question": "asdkjaslkdj random gibberish query",
+      "query_type": "negative",
+      "passed": true,
+      "parsed": {
+        "table": null,
+        "method": null,
+        "error": "Could not determine relevant table"
+      },
+      "expected": {
+        "table": null,
+        "method": null,
+        "filter_column": null,
+        "filter_value": null
+      }
+    }
+  ],
+  "end_to_end_results": [
+    {
+      "id": "S01",
+      "question": "What is customer 1001's account status?",
+      "passed": true,
+      "num_results": 1,
+      "latency_sec": 0.0050182342529296875
+    },
+    {
+      "id": "S02",
+      "question": "What plan is customer 1001 on?",
+      "passed": true,
+      "num_results": 1,
+      "latency_sec": 0.00023317337036132812
+    },
+    {
+      "id": "S03",
+      "question": "Show invoices for customer 1009",
+      "passed": true,
+      "num_results": 5,
+      "latency_sec": 0.000362396240234375
+    },
+    {
+      "id": "S04",
+      "question": "How many recharge_transactions have status FAILED?",
+      "passed": true,
+      "num_results": 1,
+      "latency_sec": 0.0020503997802734375
+    },
+    {
+      "id": "S05",
+      "question": "List all overdue invoices",
+      "passed": true,
+      "num_results": 5,
+      "latency_sec": 0.0031685829162597656
+    },
+    {
+      "id": "S06",
+      "question": "Show all open tickets",
+      "passed": true,
+      "num_results": 5,
+      "latency_sec": 0.0024039745330810547
+    },
+    {
+      "id": "S07",
+      "question": "How many payment_transactions are SUCCESS?",
+      "passed": true,
+      "num_results": 1,
+      "latency_sec": 0.010262250900268555
+    },
+    {
+      "id": "S08",
+      "question": "Show sim_inventory with status Blocked",
+      "passed": true,
+      "num_results": 5,
+      "latency_sec": 0.000446319580078125
+    },
+    {
+      "id": "S09",
+      "question": "Show kyc_records with status Pending",
+      "passed": true,
+      "num_results": 5,
+      "latency_sec": 0.0003991127014160156
+    },
+    {
+      "id": "S10",
+      "question": "Show porting_requests with status Rejected",
+      "passed": true,
+      "num_results": 5,
+      "latency_sec": 0.0002720355987548828
+    },
+    {
+      "id": "S11",
+      "question": "Show orders with status Cancelled",
+      "passed": true,
+      "num_results": 5,
+      "latency_sec": 0.0004401206970214844
+    },
+    {
+      "id": "S12",
+      "question": "Show fraud_cases with status Investigating",
+      "passed": true,
+      "num_results": 5,
+      "latency_sec": 0.0002918243408203125
+    },
+    {
+      "id": "S13",
+      "question": "Show escalation_cases with status Open",
+      "passed": true,
+      "num_results": 5,
+      "latency_sec": 0.00034427642822265625
+    },
+    {
+      "id": "S14",
+      "question": "Show fiber_inventory with status Suspended",
+      "passed": true,
+      "num_results": 5,
+      "latency_sec": 0.00029158592224121094
+    },
+    {
+      "id": "S15",
+      "question": "asdkjaslkdj random gibberish query",
+      "passed": true,
+      "num_results": 0,
+      "latency_sec": 1.049041748046875e-05
+    }
+  ]
+}

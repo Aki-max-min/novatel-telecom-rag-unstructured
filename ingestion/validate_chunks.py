@@ -47,6 +47,9 @@ def main():
     chunk_ids = set()
     document_ids = set()
 
+    # Store chunk indices for each document
+    document_chunk_indices = {}
+
     for file_path in files:
 
         try:
@@ -67,7 +70,10 @@ def main():
 
             continue
 
+        # --------------------------------------------------
         # Required fields
+        # --------------------------------------------------
+
         for field in REQUIRED_FIELDS:
 
             if field not in chunk:
@@ -77,14 +83,20 @@ def main():
                     f"missing field '{field}'"
                 )
 
+        # --------------------------------------------------
         # Empty text
+        # --------------------------------------------------
+
         if not chunk.get("text", "").strip():
 
             errors.append(
                 f"{file_path.name}: empty text"
             )
 
+        # --------------------------------------------------
         # Duplicate chunk IDs
+        # --------------------------------------------------
+
         chunk_id = chunk.get(
             "chunk_id"
         )
@@ -98,26 +110,60 @@ def main():
 
         chunk_ids.add(chunk_id)
 
+        # --------------------------------------------------
         # Document IDs
+        # --------------------------------------------------
+
         document_id = chunk.get(
             "document_id"
         )
 
         if document_id:
+
             document_ids.add(
                 document_id
             )
 
+        # --------------------------------------------------
         # Chunk index
-        if chunk.get("chunk_index") != 0:
+        # --------------------------------------------------
+
+        chunk_index = chunk.get(
+            "chunk_index"
+        )
+
+        if not isinstance(
+            chunk_index,
+            int
+        ):
 
             errors.append(
                 f"{file_path.name}: "
-                f"unexpected chunk_index "
-                f"{chunk.get('chunk_index')}"
+                f"chunk_index must be an integer"
             )
 
+        else:
+
+            if chunk_index < 0:
+
+                errors.append(
+                    f"{file_path.name}: "
+                    f"chunk_index cannot be negative"
+                )
+
+            if document_id:
+
+                document_chunk_indices.setdefault(
+                    document_id,
+                    []
+                ).append(
+                    chunk_index
+                )
+
+        # --------------------------------------------------
         # Category validation
+        # --------------------------------------------------
+
         category = chunk.get(
             "category"
         )
@@ -134,6 +180,36 @@ def main():
                     f"{file_path.name}: "
                     f"invalid category '{category}'"
                 )
+
+    # ------------------------------------------------------
+    # Validate chunk indices per document
+    # ------------------------------------------------------
+
+    for document_id, indices in (
+        document_chunk_indices.items()
+    ):
+
+        sorted_indices = sorted(
+            indices
+        )
+
+        expected_indices = list(
+            range(
+                len(sorted_indices)
+            )
+        )
+
+        if sorted_indices != expected_indices:
+
+            errors.append(
+                f"{document_id}: "
+                f"chunk indices are not sequential: "
+                f"{sorted_indices}"
+            )
+
+    # ------------------------------------------------------
+    # Summary
+    # ------------------------------------------------------
 
     print()
 

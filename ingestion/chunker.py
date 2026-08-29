@@ -70,8 +70,8 @@ class DocumentChunker:
 
     def __init__(
         self,
-        max_words=450,
-        overlap_words=60
+        max_words=250,
+        overlap_words=40
     ):
 
         self.max_words = max_words

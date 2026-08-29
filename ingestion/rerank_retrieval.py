@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 import faiss
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, CrossEncoder
 
 
 # ============================================================
@@ -25,7 +25,10 @@ CHUNK_DIR = Path(
     "data/processed/chunks"
 )
 
-MODEL_NAME = "all-MiniLM-L6-v2"
+EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
+
+# Lightweight cross-encoder for second-stage reranking
+RERANKER_MODEL_NAME = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 
 
 # ============================================================
@@ -33,21 +36,9 @@ MODEL_NAME = "all-MiniLM-L6-v2"
 # ============================================================
 
 def load_chunk_text(chunk_id):
-    """
-    Load the actual chunk text from the processed
-    chunk JSON file.
-
-    chunk_metadata.json contains metadata only,
-    so the text must be loaded separately.
-    """
-
-    chunk_path = (
-        CHUNK_DIR /
-        f"{chunk_id}.json"
-    )
+    chunk_path = CHUNK_DIR / f"{chunk_id}.json"
 
     if not chunk_path.exists():
-
         raise FileNotFoundError(
             f"Chunk file not found: {chunk_path}"
         )
@@ -57,16 +48,11 @@ def load_chunk_text(chunk_id):
         "r",
         encoding="utf-8"
     ) as f:
-
         chunk = json.load(f)
 
-    text = chunk.get(
-        "text",
-        ""
-    )
+    text = chunk.get("text", "")
 
     if not text.strip():
-
         raise ValueError(
             f"Empty text in chunk: {chunk_path}"
         )
@@ -81,7 +67,7 @@ def load_chunk_text(chunk_id):
 def main():
 
     print("=" * 80)
-    print("NOVATEL RETRIEVAL EVALUATION")
+    print("NOVATEL RERANKING EXPERIMENT")
     print("=" * 80)
 
     # --------------------------------------------------------
@@ -93,7 +79,6 @@ def main():
         "r",
         encoding="utf-8"
     ) as f:
-
         benchmark = json.load(f)
 
     # --------------------------------------------------------
@@ -105,11 +90,10 @@ def main():
         "r",
         encoding="utf-8"
     ) as f:
-
         metadata = json.load(f)
 
     # --------------------------------------------------------
-    # Load FAISS index
+    # Load FAISS
     # --------------------------------------------------------
 
     index = faiss.read_index(
@@ -120,36 +104,28 @@ def main():
     # Load embedding model
     # --------------------------------------------------------
 
-    print()
-    print(
-        "Loading embedding model..."
-    )
+    print("\nLoading embedding model...")
 
-    model = SentenceTransformer(
-        MODEL_NAME,
+    embedding_model = SentenceTransformer(
+        EMBEDDING_MODEL_NAME,
         local_files_only=True
     )
 
-    print(
-        "Benchmark questions:",
-        len(benchmark)
-    )
+    # --------------------------------------------------------
+    # Load reranker
+    # --------------------------------------------------------
 
-    print(
-        "FAISS vectors:",
-        index.ntotal
+    print("Loading reranker...")
+
+    reranker = CrossEncoder(
+        RERANKER_MODEL_NAME
     )
 
     # --------------------------------------------------------
-    # Preload chunk text
-    #
-    # This avoids repeatedly opening the same chunk files
-    # during contextual relevancy calculation.
+    # Load chunk texts
     # --------------------------------------------------------
 
-    print(
-        "Loading chunk text..."
-    )
+    print("Loading chunk text...")
 
     chunk_texts = {}
 
@@ -162,35 +138,30 @@ def main():
         )
 
     print(
-        "Chunk texts loaded:",
-        len(chunk_texts)
+        f"Benchmark questions: {len(benchmark)}"
     )
 
-    # --------------------------------------------------------
-    # Metrics
-    # --------------------------------------------------------
+    print(
+        f"FAISS vectors: {index.ntotal}"
+    )
+
+    # ========================================================
+    # METRICS
+    # ========================================================
 
     top1_hits = 0
     top3_hits = 0
     top5_hits = 0
 
-    category_top1 = 0
-    category_top3 = 0
-    category_top5 = 0
-
     precision_at_1_total = 0.0
     precision_at_3_total = 0.0
     precision_at_5_total = 0.0
 
-    contextual_relevancy_at_1_total = 0.0
-    contextual_relevancy_at_3_total = 0.0
-    contextual_relevancy_at_5_total = 0.0
-
     results = []
 
-    # --------------------------------------------------------
-    # Evaluate each benchmark question
-    # --------------------------------------------------------
+    # ========================================================
+    # EVALUATE
+    # ========================================================
 
     for item in benchmark:
 
@@ -200,30 +171,23 @@ def main():
             item["expected_document_ids"]
         )
 
-        expected_category = (
-            item["category"]
-        )
-
         # ----------------------------------------------------
-        # Encode query
+        # Stage 1: FAISS candidate retrieval
         # ----------------------------------------------------
 
-        query_embedding = model.encode(
+        query_embedding = embedding_model.encode(
             [question],
             convert_to_numpy=True,
             normalize_embeddings=True
         ).astype("float32")
 
-        # ----------------------------------------------------
-        # FAISS retrieval
-        # ----------------------------------------------------
-
+        # Retrieve 10 candidates instead of 5
         scores, indices = index.search(
             query_embedding,
-            5
+            10
         )
 
-        retrieved = []
+        candidates = []
 
         for score, idx in zip(
             scores[0],
@@ -239,7 +203,7 @@ def main():
                 ""
             )
 
-            retrieved.append(
+            candidates.append(
                 {
                     "document_id":
                         doc["document_id"],
@@ -253,7 +217,7 @@ def main():
                     "title":
                         doc["title"],
 
-                    "score":
+                    "faiss_score":
                         float(score),
 
                     "text":
@@ -262,22 +226,44 @@ def main():
             )
 
         # ----------------------------------------------------
-        # Retrieved IDs/categories
+        # Stage 2: CrossEncoder reranking
+        # ----------------------------------------------------
+
+        pairs = [
+            (
+                question,
+                candidate["text"]
+            )
+            for candidate in candidates
+        ]
+
+        reranker_scores = reranker.predict(
+            pairs
+        )
+
+        for candidate, reranker_score in zip(
+            candidates,
+            reranker_scores
+        ):
+            candidate["reranker_score"] = float(
+                reranker_score
+            )
+
+        # Highest reranker score first
+        reranked = sorted(
+            candidates,
+            key=lambda x: x["reranker_score"],
+            reverse=True
+        )
+
+        # ----------------------------------------------------
+        # Evaluate top 1 / 3 / 5
         # ----------------------------------------------------
 
         retrieved_ids = [
             x["document_id"]
-            for x in retrieved
+            for x in reranked
         ]
-
-        retrieved_categories = [
-            x["category"]
-            for x in retrieved
-        ]
-
-        # ----------------------------------------------------
-        # Document-level retrieval
-        # ----------------------------------------------------
 
         hit1 = any(
             doc_id in expected_ids
@@ -304,40 +290,12 @@ def main():
             top5_hits += 1
 
         # ----------------------------------------------------
-        # Category-level retrieval
-        # ----------------------------------------------------
-
-        cat1 = (
-            expected_category
-            in retrieved_categories[:1]
-        )
-
-        cat3 = (
-            expected_category
-            in retrieved_categories[:3]
-        )
-
-        cat5 = (
-            expected_category
-            in retrieved_categories[:5]
-        )
-
-        if cat1:
-            category_top1 += 1
-
-        if cat3:
-            category_top3 += 1
-
-        if cat5:
-            category_top5 += 1
-
-        # ----------------------------------------------------
-        # Retrieval precision
+        # Precision
         # ----------------------------------------------------
 
         def precision_at_k(k):
 
-            top_k = retrieved[:k]
+            top_k = reranked[:k]
 
             if not top_k:
                 return 0.0
@@ -349,10 +307,7 @@ def main():
                 in expected_ids
             )
 
-            return (
-                relevant /
-                len(top_k)
-            )
+            return relevant / len(top_k)
 
         p1 = precision_at_k(1)
         p3 = precision_at_k(3)
@@ -363,74 +318,7 @@ def main():
         precision_at_5_total += p5
 
         # ----------------------------------------------------
-        # Contextual relevancy
-        #
-        # This uses semantic similarity between the benchmark
-        # question and retrieved chunk text.
-        #
-        # It is an embedding-based relevancy proxy, NOT an
-        # LLM-as-a-judge metric.
-        # ----------------------------------------------------
-
-        retrieved_texts = [
-            doc["text"]
-            for doc in retrieved
-        ]
-
-        context_embeddings = model.encode(
-            retrieved_texts,
-            convert_to_numpy=True,
-            normalize_embeddings=True
-        ).astype("float32")
-
-        contextual_scores = (
-            context_embeddings
-            @ query_embedding[0]
-        )
-
-        for doc, contextual_score in zip(
-            retrieved,
-            contextual_scores
-        ):
-
-            doc[
-                "contextual_relevancy_score"
-            ] = float(
-                contextual_score
-            )
-
-        # ----------------------------------------------------
-        # Contextual relevancy @ K
-        #
-        # Average semantic similarity of retrieved contexts.
-        # ----------------------------------------------------
-
-        relevancy_at_1 = float(
-            contextual_scores[:1].mean()
-        )
-
-        relevancy_at_3 = float(
-            contextual_scores[:3].mean()
-        )
-
-        relevancy_at_5 = float(
-            contextual_scores[:5].mean()
-        )
-
-        contextual_relevancy_at_1_total += (
-            relevancy_at_1
-        )
-
-        contextual_relevancy_at_3_total += (
-            relevancy_at_3
-        )
-
-        contextual_relevancy_at_5_total += (
-            relevancy_at_5
-        )
-
-        # ----------------------------------------------------
-        # Save per-question result
+        # Save result
         # ----------------------------------------------------
 
         results.append(
@@ -439,7 +327,7 @@ def main():
                     item["question_id"],
 
                 "category":
-                    expected_category,
+                    item["category"],
 
                 "question":
                     question,
@@ -448,7 +336,7 @@ def main():
                     list(expected_ids),
 
                 "top5":
-                    retrieved,
+                    reranked[:5],
 
                 "document_hit_top1":
                     hit1,
@@ -459,15 +347,6 @@ def main():
                 "document_hit_top5":
                     hit5,
 
-                "category_hit_top1":
-                    cat1,
-
-                "category_hit_top3":
-                    cat3,
-
-                "category_hit_top5":
-                    cat5,
-
                 "precision_at_1":
                     p1,
 
@@ -475,66 +354,35 @@ def main():
                     p3,
 
                 "precision_at_5":
-                    p5,
-
-                "contextual_relevancy_at_1":
-                    relevancy_at_1,
-
-                "contextual_relevancy_at_3":
-                    relevancy_at_3,
-
-                "contextual_relevancy_at_5":
-                    relevancy_at_5
+                    p5
             }
         )
 
     # ========================================================
-    # TOTAL
+    # AGGREGATE RESULTS
     # ========================================================
 
     total = len(benchmark)
 
-    # ========================================================
-    # AGGREGATE METRICS
-    # ========================================================
-
     precision_at_1 = (
-        precision_at_1_total /
-        total
+        precision_at_1_total / total
     )
 
     precision_at_3 = (
-        precision_at_3_total /
-        total
+        precision_at_3_total / total
     )
 
     precision_at_5 = (
-        precision_at_5_total /
-        total
-    )
-
-    contextual_relevancy_at_1 = (
-        contextual_relevancy_at_1_total /
-        total
-    )
-
-    contextual_relevancy_at_3 = (
-        contextual_relevancy_at_3_total /
-        total
-    )
-
-    contextual_relevancy_at_5 = (
-        contextual_relevancy_at_5_total /
-        total
+        precision_at_5_total / total
     )
 
     # ========================================================
-    # DOCUMENT-LEVEL RESULTS
+    # PRINT RESULTS
     # ========================================================
 
     print()
     print("=" * 80)
-    print("DOCUMENT-LEVEL RETRIEVAL RESULTS")
+    print("RERANKED RETRIEVAL RESULTS")
     print("=" * 80)
 
     print(
@@ -552,37 +400,9 @@ def main():
         f"({top5_hits / total * 100:.2f}%)"
     )
 
-    # ========================================================
-    # CATEGORY RESULTS
-    # ========================================================
-
     print()
     print("=" * 80)
-    print("CATEGORY-LEVEL RETRIEVAL RESULTS")
-    print("=" * 80)
-
-    print(
-        f"Top-1: {category_top1}/{total} "
-        f"({category_top1 / total * 100:.2f}%)"
-    )
-
-    print(
-        f"Top-3: {category_top3}/{total} "
-        f"({category_top3 / total * 100:.2f}%)"
-    )
-
-    print(
-        f"Top-5: {category_top5}/{total} "
-        f"({category_top5 / total * 100:.2f}%)"
-    )
-
-    # ========================================================
-    # PRECISION RESULTS
-    # ========================================================
-
-    print()
-    print("=" * 80)
-    print("RETRIEVAL PRECISION RESULTS")
+    print("RERANKED PRECISION")
     print("=" * 80)
 
     print(
@@ -601,31 +421,7 @@ def main():
     )
 
     # ========================================================
-    # CONTEXTUAL RELEVANCY
-    # ========================================================
-
-    print()
-    print("=" * 80)
-    print("CONTEXTUAL RELEVANCY RESULTS")
-    print("=" * 80)
-
-    print(
-        f"Contextual Relevancy@1: "
-        f"{contextual_relevancy_at_1 * 100:.2f}%"
-    )
-
-    print(
-        f"Contextual Relevancy@3: "
-        f"{contextual_relevancy_at_3 * 100:.2f}%"
-    )
-
-    print(
-        f"Contextual Relevancy@5: "
-        f"{contextual_relevancy_at_5 * 100:.2f}%"
-    )
-
-    # ========================================================
-    # PER-QUESTION RESULTS
+    # PER QUESTION
     # ========================================================
 
     print()
@@ -646,12 +442,10 @@ def main():
         print(
             f"{status} | "
             f"{result['question_id']} | "
-            f"{result['category']} | "
             f"Top-1: {top1['document_id']} | "
-            f"Score: {top1['score']:.4f} | "
-            f"P@5: {result['precision_at_5']:.2f} | "
-            f"CR@1: "
-            f"{result['contextual_relevancy_at_1']:.4f}"
+            f"FAISS: {top1['faiss_score']:.4f} | "
+            f"Reranker: {top1['reranker_score']:.4f} | "
+            f"P@3: {result['precision_at_3']:.2f}"
         )
 
     # ========================================================
@@ -660,10 +454,19 @@ def main():
 
     output_path = Path(
         "data/vectorstore/"
-        "retrieval_evaluation.json"
+        "reranked_retrieval_evaluation.json"
     )
 
     evaluation_output = {
+
+        "method":
+            "FAISS Top-10 + CrossEncoder reranking",
+
+        "embedding_model":
+            EMBEDDING_MODEL_NAME,
+
+        "reranker_model":
+            RERANKER_MODEL_NAME,
 
         "total_questions":
             total,
@@ -680,18 +483,6 @@ def main():
                 top5_hits / total
         },
 
-        "category_metrics": {
-
-            "top1":
-                category_top1 / total,
-
-            "top3":
-                category_top3 / total,
-
-            "top5":
-                category_top5 / total
-        },
-
         "retrieval_precision": {
 
             "precision_at_1":
@@ -702,18 +493,6 @@ def main():
 
             "precision_at_5":
                 precision_at_5
-        },
-
-        "contextual_relevancy": {
-
-            "relevancy_at_1":
-                contextual_relevancy_at_1,
-
-            "relevancy_at_3":
-                contextual_relevancy_at_3,
-
-            "relevancy_at_5":
-                contextual_relevancy_at_5
         },
 
         "results":
@@ -735,7 +514,7 @@ def main():
 
     print()
     print(
-        "Detailed evaluation saved to:",
+        "Detailed results saved to:",
         output_path
     )
 

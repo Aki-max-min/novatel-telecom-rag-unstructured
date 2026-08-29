@@ -81,8 +81,8 @@ def main():
     )
 
     chunker = DocumentChunker(
-        max_words=450,
-        overlap_words=60
+        max_words=250,
+        overlap_words=40
     )
 
     total_chunks = 0

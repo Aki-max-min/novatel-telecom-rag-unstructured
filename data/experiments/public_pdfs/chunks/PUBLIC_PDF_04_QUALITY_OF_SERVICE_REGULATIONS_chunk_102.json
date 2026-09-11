@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_102",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 102,
+  "text": "repair like (i) Fault repair by next working day in Urban areas (≥85%), (ii) Fault repair within five days in Urban areas (100%), (iii) Fault repair by next working day in rural and hilly areas (≥75%) and (iv) Fault repair within seven days in rural and hilly areas (100%). However, in the final regulation, only two parameters are retained i.e. (i) Fault repair by the next working day with a benchmark of ≥ 85% and (ii) Fault repair within three working days with a benchmark of ≥99%. Thus, 50% of the parameters related to fault repair have been deregulated for the access wireline services. (c) In summary, the number of parameters in the compliance and reporting list has been reduced from 15 to 13 for wireline access services. 135 (iii) Access (Wireless) Services: Similarly, with an aim to transit towards light-touch regulations, the QoS parameters under access (wireless) services have also been reviewed by the Authority and parameters like SDCCH Congestion, Traffic Channel congestion and Messaging have been shifted for monitoring and compliance by the service provider and reporting to the Authority as the performance against these parameters has been consistent by all the service providers. However, the performance against these parameters will continue to be monitored by the Authority without any applicable FD. Further, the Authority has decided to drop two parameters from the regulations which are related to DCR Temporal Distribution {CS_QTD(97, 90) and PS_QTD(97, 96)} and PDP context activation success rate for wireless data service, as proposed",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

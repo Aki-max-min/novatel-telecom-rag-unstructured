@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_021",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 21,
+  "text": "sub- regulation (6) and forty eight hours specified in second proviso, the intervening Sundays and Public Holidays declared under the Negotiable Instrument Act, 1881 (26 of 1881) shall be excluded. 1[(7) The Recipient Operator shall be liable to pay Per Port Transaction charge for each porting request of the mobile number to the Mobile Number Portability Service provider as notified by the Authority from time to time. (8) The Recipient Operator shall be liable to comply with the Quality of Service parameters, as specified by the Authority from time to time.]] 2[9. Action by Mobile Number Portability Service provider.— (1) Upon receipt of the request for unique porting code, the concerned Mobile Number Portability Service provider shall check from its database whether:- (a) the mobile number has been ported earlier and, if so, a period of ninety days has not elapsed from the date of its last porting; (b) porting request is already in process for the same mobile number; (c) unique porting code has already been issued and not expired yet. (2) Where Mobile Number Portability Service provider finds that the conditions (a) or (b) or 1 Subs by the Eighth Amendment Regulations, 2019, reg. 3 (w.e.f. 11.11.2019) for the following: “(7) The Recipient Operator shall be liable to pay Per Port Transaction charge for each successful porting of the mobile number to the Mobile Number Portability Service provider: Provided that the Recipient Operator shall be liable to comply with the Quality of Service parameters, as specified by the",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

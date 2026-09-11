@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_3155374",
+  "title": "Phosphatidylinositol 4,5-Bisphosphate Functions as a Second Messenger that Regulates Cytoskeleton–Plasma Membrane Adhesion",
+  "content": "Binding interactions between the plasma membrane and the cytoskeleton define cell functions such as cell shape, formation of cell processes, cell movement, and endocytosis. Here we use optical tweezers tether force measurements and show that plasma membrane phosphatidylinositol 4,5-bisphosphate (PIP2) acts as a second messenger that regulates the adhesion energy between the cytoskeleton and the plasma membrane. Receptor stimuli that hydrolyze PIP2 lowered adhesion energy, a process that could be mimicked by expressing PH domains that sequester PIP2 or by targeting a 5'-PIP2-phosphatase to the plasma membrane to selectively lower plasma membrane PIP2 concentration. Our study suggests that plasma membrane PIP2 controls dynamic membrane functions and cell shape by locally increasing and decreasing the adhesion between the actin-based cortical cytoskeleton and the plasma membrane.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

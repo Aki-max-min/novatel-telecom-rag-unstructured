@@ -1,0 +1,18 @@
+{
+  "chunk_id": "TRX_001_chunk_001",
+  "document_id": "TRX_001",
+  "chunk_index": 1,
+  "text": "confirm the resolution has fully addressed your concern? Customer: Yes, that's sorted now, thank you. Agent: Perfect. I've added a note to your account and you'll also receive a confirmation SMS shortly. ## Diagnostic Notes (Internal) - Identity verified via registered number and OTP. - Relevant backend status checked before providing resolution timeline. - Case closed after customer confirmation; escalated only if unresolved beyond the stated SLA. ## Escalation This case required escalation to a specialist team after first-line troubleshooting did not resolve it within the call. ## Related Documents No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
+  "title": "Recharge Failure — Amount Debited, Not Credited",
+  "document_type": "Support Transcript",
+  "category": "C03",
+  "department": "Finance",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-02",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\transcripts\\TRX_001.md",
+  "file_type": "markdown"
+}

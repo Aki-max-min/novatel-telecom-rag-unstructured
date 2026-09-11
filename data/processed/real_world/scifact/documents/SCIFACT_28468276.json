@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_28468276",
+  "title": "Breaching the basement membrane: who, when and how?",
+  "content": "The basement membrane (BM), a specialized network of extracellular matrix macromolecules, surrounds epithelial, endothelial, muscle, fat and nerve cells. During development, immune surveillance and disease states ranging from cancer to fibrosis, host cells penetrate the BM by engaging tissue-invasive programs, the identity of which remain largely undefined. Although it is commonly assumed that all cells employ similar mechanisms to cross BM barriers, accumulating evidence indicates that cells might selectively mobilize protease-dependent or -independent invasion programs. New data indicate that protease-dependent transmigration is largely reliant on a group of membrane-anchored metalloenzymes, termed the membrane-type matrix metalloproteinases, which irreversibly remodel BM structure. By contrast, mechanisms that enable protease-independent transmigration remain undefined and potentially involve the reversible disassembly of the BM network. Further characterization of the molecular mechanisms underlying BM transmigration should provide important insights into pathophysiologic tissue remodeling events and also enable the development of novel therapeutics.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

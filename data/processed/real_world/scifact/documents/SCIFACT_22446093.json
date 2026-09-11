@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22446093",
+  "title": "What is the best way to help caregivers in cancer and palliative care? A systematic literature review of interventions and their effectiveness.",
+  "content": "Informal carers in cancer and palliative care are known to have high needs and psychological morbidity, yet a literature review identified few targeted interventions. This systematic review of interventions for carers of patients using home cancer and palliative care services searched Medline, CancerLit, Psycinfo and Cinahl databases. The terms used were carer(s), caregiver(s), palliative and cancer. Papers that reported interventions for adults actively providing informal care for noninstitutionalized cancer and palliative care patients were reviewed. Twenty-two interventions were identified, comprising home nursing care (four), respite services (three), social networks and activity enhancement (two), problem solving and education (three) and group work (10). Of these, nine were delivered solely to carers (i.e., were targeted services). Only six of the carers' interventions had been evaluated, two of these had used a randomized control trial (RCT; grades IB), three employed a single group methodology (two prospective grades IIIC and one retrospective grade IIIC) and one was evaluated using facilitator feedback. There was a lack of outcome evaluation designs, small sample sizes and a reliance on intervention descriptions and formative evaluations. Methodological challenges may mean alternatives to 'pure' RCTs should be considered. The current evidence contributes more to understanding feasibility and acceptability than to effectiveness. Practitioners and evaluators must prioritize the further development of intervention studies.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

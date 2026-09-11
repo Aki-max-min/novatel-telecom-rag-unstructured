@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_054",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 54,
+  "text": "of commercial communications 50 BLOCK PROMO *1909*50# Banking/Insurance/Financial products/ credit cards, 1 BLOCK 1 *1909*1# Real Estate, 2 BLOCK 2 *1909*2# Education, 3 BLOCK 3 *1909*3# Health, 4 BLOCK 4 *1909*4# Consumer goods and automobiles, 5 BLOCK 5 *1909*5# Communication/Broadcasting / Entertainment/IT, 6 BLOCK 6 *1909*6# Tourism and Leisure, 7 BLOCK 7 *1909*7# Food and Beverages; 8 BLOCK 8 *1909*8# Note-1: In case of communication with customer executive of Customer Care Center of access provider, preference to opt-out may be communicated; Note-2: Customer to be communicated with confirmation and final status along with options to unblock; Note-3: FULLY BLOCK option shall put the customer in Fully Blocked state and block service as well as promotional types of commercial communications for all categories of content, mode, time band and day types; Note-4: BLOCK PROMO option shall block only promotional types of commercial communications for all categories of content, mode, time band and day types except service and transaction type of commercial communications; Provided that the Authority may, from time to time, add or remove number of category(ies), or sub 30 category(ies) for content; Customer can opt-in for any or all of following Commercial Communications Content category(ies) of content: UCC Category to be unblocked or opted in IVRS: Call to 1909 and press at prompt to unblock SMS to 1909 following text USSD send All UCC Categories (to be unblocked) 90 UNBLOCK ALL *#1909*90# All UCC Categories (to be unblocked) except Promotional 51 UNBLOCK SERVICE *#1909*51# Banking/Insurance /Financial products/ credit cards, 91",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

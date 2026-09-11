@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5271210",
+  "title": "MicroRNAs: new tools for diagnosis, prognosis, and therapy in hepatocellular carcinoma?",
+  "content": "MicroRNAs (miRNAs) are evolutionarily conserved small noncoding RNAs involved in the regulation of gene expression and protein translation. Many studies have shown that they play a crucial role in driving organ and tissue differentiation during embryogenesis and in the fine-tuning of fundamental biological processes, such as proliferation and apoptosis. Growing evidence indicates that their deregulation plays an important role in cancer onset and progression as well, where they act as oncogenes or oncosuppressors. In this review, we highlight the most recent findings regarding the role of miRNAs in hepatocellular carcinoma (HCC) by analyzing the possible mechanisms by which they contribute to this neoplasm. Moreover, we discuss the possible role of circulating miRNAs as biomarkers, a field that needs urgent improvement in the clinical surveillance of HCC, and the fascinating possibility of using them as therapeutic targets or drugs themselves.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22134353",
+  "title": "Regulation of self-ligands for activating natural killer cell receptors.",
+  "content": "Natural killer (NK) cells are able to lyse infected and tumor cells while sparing healthy cells. Recognition of diseased cells by NK cells is governed by several activating and inhibitory receptors. We review numerous pathways that have been implicated in the regulation of self-ligands for activating receptors, including NKG2D, DNAM-1, LFA-1, NKp30, NKp44, NKp46, NKp65, and NKp80 found on NK cells and some T cells. Understanding how the regulation of self-encoded ligand expression is regulated may provide novel avenues for future therapeutic approaches to infections and cancer.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

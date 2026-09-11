@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_017",
+  "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+  "chunk_index": 17,
+  "text": "2[* * * *] 10.Premium Rate Service and Value Added Service ----- (1) Every service provider providing or giving access to a Premium Rate Service shall ensure that the rate of such call is conveyed to the consumer through a voice alert prior to the materialisation of the call; Provided that the voice alert shall be in English and the local language of the service area. (2) Every service provider shall, on activation of a value added service, inform the consumer, through SMS, the validity period of such service, the charges for renewal and the procedure for the consumer to unsubscribe from the service. 3[10A. Information to consumers on data usage--- (1) Every service provider shall, through SMS or USSD, provide to all consumers of the Cellular Mobile Telephone Service on whose mobile phone data services are activated, except those consumers who have availed data service through special tariff vouchers or combo vouchers or add-on pack or under a tariff plan which provides for free or discounted tariff in the tariff plan for usage of data upto a certain limit, after every ten megabytes of data used by the consumer, the quantum of data used during a session: 1 Subs. by the Second Amendment Regulations, 2012, reg. 2 (w.e.f. 21.02.2012), for the following: “forty five days” 2 Del. the words “Provided that it shall not be obligatory on the part of the service provider to provide information to a consumer who is roaming outside the country.” by the Eleventh Amendment",
+  "title": "01 telecom consumers protection",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/01_telecom_consumers_protection.pdf",
+  "file_type": "pdf"
+}

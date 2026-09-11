@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_34604584",
+  "title": "Genome-wide analysis reveals SR protein cooperation and competition in regulated splicing.",
+  "content": "SR proteins are well-characterized RNA binding proteins that promote exon inclusion by binding to exonic splicing enhancers (ESEs). However, it has been unclear whether regulatory rules deduced on model genes apply generally to activities of SR proteins in the cell. Here, we report global analyses of two prototypical SR proteins, SRSF1 (SF2/ASF) and SRSF2 (SC35), using splicing-sensitive arrays and CLIP-seq on mouse embryo fibroblasts (MEFs). Unexpectedly, we find that these SR proteins promote both inclusion and skipping of exons in vivo, but their binding patterns do not explain such opposite responses. Further analyses reveal that loss of one SR protein is accompanied by coordinated loss or compensatory gain in the interaction of other SR proteins at the affected exons. Therefore, specific effects on regulated splicing by one SR protein actually depend on a complex set of relationships with multiple other SR proteins in mammalian genomes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

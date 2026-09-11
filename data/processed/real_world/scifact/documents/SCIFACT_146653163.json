@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_146653163",
+  "title": "Social Isolation and Social Support: An Applied Perspective",
+  "content": "Considerable empirical evidence substantiates the importance of social networks and support to health and well-being among the elderly. But considerably more research is necessary before successful interventions can be more generally implemented to positively alter an elder's network. In this article, the authors discuss social supportand isolationfrom an appliedperspective. They have combined presentations originally made at a National Institute on Aging-sponsored symposium on applied gerontology held in August 1992. They make some general observations concerning the field of applied social relations in later life, describe the mental health aspects of these relations, list some fundamental principles and existing technology for this field, describe the use of a brief screening instrument for social isolation developed by one of the authors (Lubben), and explore varying domains of knowledge concerning elder soical relations. They conclude by outlining some areas that they see as requiring the attention o...",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

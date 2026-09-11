@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_142",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 142,
+  "text": "Recipient may be required to be Informed in order to protect his interest from any likely misuse or confirm about the transactions or for the purpose of authenticating the transaction. Transactional messages may be required to be sent to comply with other regulatory requirements. Access Providers are getting SMS termination charges for transactional messages as specified by the Authority from time to time. Therefore, there is no need to further compensate access provider for carrying transactional messages. 3.3.33 To allow principal entities to manage their own DSAs, the Authority is of the view that following measures may be required to be taken: i. assign header or Header root for SMS via Header Registration Functionality, on its own or through its agents, as per allocation and assignment principles and policies, to facilitate content provider or principal entity to get new headers; ii. carry out pre-verifications of documents and credentials submitted by an individual, business entity or legal entity requesting for assigning of the header; iii. bind with a mobile device and mobile number(s), in a secure and safe manner, which shall be used subsequently on regular intervals for logins to the sessions by the header assignee; iv. Carry out additional authentications in case of a request for headers to be issued to SEBI registered brokers or other entities specified by Authority by directions, orders or instructions issued from time to time; v. Carry out additional authentications in case of a request for headers to be issued to government entities, corporate(s) or",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

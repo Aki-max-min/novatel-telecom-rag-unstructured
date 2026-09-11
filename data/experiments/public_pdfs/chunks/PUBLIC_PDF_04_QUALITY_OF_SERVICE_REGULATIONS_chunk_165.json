@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_165",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 165,
+  "text": "international examples of individual telecom service providers achieving ultra-low latency. However, it is important to note that such stringent benchmarks have not been widely prescribed by regulators globally. Moreover, we believe that the attainment of such benchmarks should be primarily driven by market forces to attract and retain customers. (iii) The stakeholders also submitted that while recommending these stringent benchmarks, the Authority should consider various operational challenges and factors. Achieving higher benchmarks depends heavily on the quality and capacity of the backhaul network, which can be affected by challenging terrain, Right of Way (RoW) issues, the cost of fiberizing base transceiver stations (BTS), and local issues. Routing variations due to route occupancy and network conditions can lead to latency differences, and damage to submarine cables or major fiber cuts can result in traffic re-routing and higher latency. Network congestion from high numbers of connected users and interference from physical obstacles, competing wireless signals, or environmental factors also contribute to latency variations. Additionally, the use of cloud-based services can introduce extra latency based on the geographical location of servers, and decisions by non-licensees like CDN providers can impact latency. Security measures such as firewalls, intrusion detection systems, and encryption can introduce processing delays. Considering that latency is measured from the user reference point at the Point of Presence (POP) or Internet Service Provider (ISP) gateway node to the international gateway (IGSP/NIXI), we recommend maintaining the same benchmarks of less than 250ms for wireless networks and less than 120ms for wireline networks.",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17671145",
+  "title": "ROR-γ drives androgen receptor expression and represents a therapeutic target in castration-resistant prostate cancer",
+  "content": "The androgen receptor (AR) is overexpressed and hyperactivated in human castration-resistant prostate cancer (CRPC). However, the determinants of AR overexpression in CRPC are poorly defined. Here we show that retinoic acid receptor-related orphan receptor γ (ROR-γ) is overexpressed and amplified in metastatic CRPC tumors, and that ROR-γ drives AR expression in the tumors. ROR-γ recruits nuclear receptor coactivator 1 and 3 (NCOA1 and NCOA3, also known as SRC-1 and SRC-3) to an AR-ROR response element (RORE) to stimulate AR gene transcription. ROR-γ antagonists suppress the expression of both AR and its variant AR-V7 in prostate cancer (PCa) cell lines and tumors. ROR-γ antagonists also markedly diminish genome-wide AR binding, H3K27ac abundance and expression of the AR target gene network. Finally, ROR-γ antagonists suppressed tumor growth in multiple AR-expressing, but not AR-negative, xenograft PCa models, and they effectively sensitized CRPC tumors to enzalutamide, without overt toxicity, in mice. Taken together, these results establish ROR-γ as a key player in CRPC by acting upstream of AR and as a potential therapeutic target for advanced PCa.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1958440",
+  "title": "Human chorionic gonadotropin levels in maternal blood in late pregnancy: relation to birthweight, sex and condition of the infant at birth.",
+  "content": "A total of 527 blood samples was obtained from an unselected population of women between 36 and 40 weeks gestation. Serum human chorionic gonadotropin (hCG) levels were measured using a specific radioimmunoassay for the beta 1-subunit of hCG. Serum hCG levels were higher in primigravidae and in women carrying female fetuses. They were also related to the birthweight of the child and to the occurrence of fetal distress.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

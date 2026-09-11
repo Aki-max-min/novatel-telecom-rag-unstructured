@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_015",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 15,
+  "text": "the customer ≥ 98% Quarterly II. Fault Repair (ii) Fault incidences (No. of faults per 100 subscribers) ≤ 5 Quarterly (iii) Fault repair by next working day ≥ 85% Quarterly (iv) Fault repair within three working days ≥ 99% Quarterly 102 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] Rent rebate/ validity extension in case fault is repaired after three(3) working days: For post-paid subscribers: Proportional rent rebate for actual number of days, during which fault remains pending shall be credited in next bill. For pre-paid subscribers: The validity of subscribed tariff offering shall be increased for actual number of days during which fault remain pending. (v) Mean Time-To-Repair (MTTR) ≤ 10 hours Quarterly III. Point of Interconnection (vi) Point of Interconnection (POI) Congestion (90th percentile value) ≤ 0.5% Quarterly 5. Duration of time of alert for the called party.- (1) The duration of time of alert for an incoming voice call, which is neither answered nor rejected by the called party, shall be sixty seconds for access service (wireline). (2) The terminating network shall, on expiry of sixty seconds in case of access service (wireline), release the incoming voice call and transmit the call release message to the originating network: Provided that the originating network may release an unanswered call after ninety seconds in case the call release message is not received from the terminating network. SECTION IV QUALITY OF SERVICE PARAMETERS FOR ACCESS SERVICE (WIRELESS) 6. Quality of Service parameters in respect of which compliance reports are to be",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

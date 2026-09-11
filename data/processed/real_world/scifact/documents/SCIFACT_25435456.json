@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_25435456",
+  "title": "Microenvironmental regulation of biomacromolecular therapies",
+  "content": "There is currently great interest in molecular therapies to treat various diseases, and this has prompted extensive efforts to achieve target-specific and controlled delivery of bioactive macromolecules (for example, proteins, antibodies, DNA and small interfering RNA) through the design of smart drug carriers. By contrast, the influence of the microenvironment in which the target cell resides and the effect it might have on the success of biomacromolecular therapies has been under-appreciated. The extracellular matrix (ECM) component of the cellular niche may be particularly important, as many diseases and injury disrupt the normal ECM architecture, the cell adhesion to ECM, and the subsequent cellular activities. This Review will discuss the importance of the ECM and the ECM–cell interactions on the cell response to bioactive macromolecules, and suggest how this information could lead to new criteria for the design of novel drug delivery systems.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

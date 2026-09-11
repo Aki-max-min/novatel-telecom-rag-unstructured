@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_3858268",
+  "title": "Lipid Desaturation Is a Metabolic Marker and Therapeutic Target of Ovarian Cancer Stem Cells.",
+  "content": "Lack of sensitive single-cell analysis tools has limited the characterization of metabolic activity in cancer stem cells. By hyperspectral-stimulated Raman scattering imaging of single living cells and mass spectrometry analysis of extracted lipids, we report here significantly increased levels of unsaturated lipids in ovarian cancer stem cells (CSCs) as compared to non-CSCs. Higher lipid unsaturation levels were also detected in CSC-enriched spheroids compared to monolayer cultures of ovarian cancer cell lines or primary cells. Inhibition of lipid desaturases effectively eliminated CSCs, suppressed sphere formation in vitro, and blocked tumor initiation capacity in vivo. Mechanistically, we demonstrate that nuclear factor κB (NF-κB) directly regulates the expression levels of lipid desaturases, and inhibition of desaturases blocks NF-κB signaling. Collectively, our findings reveal that increased lipid unsaturation is a metabolic marker for ovarian CSCs and a target for CSC-specific therapy.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

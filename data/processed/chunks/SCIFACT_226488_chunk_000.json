@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_226488_chunk_000",
+  "document_id": "SCIFACT_226488",
+  "chunk_index": 0,
+  "text": "Activin/Nodal growth factors control a broad range of biological processes, including early cell fate decisions, organogenesis and adult tissue homeostasis. Here, we provide an overview of the mechanisms by which the Activin/Nodal signalling pathway governs stem cell function in these different stages of development. We describe recent findings that associate Activin/Nodal signalling to pathological conditions, focusing on cancer stem cells in tumorigenesis and its potential as a target for therapies. Moreover, we will discuss future directions and questions that currently remain unanswered on the role of Activin/Nodal signalling in stem cell self-renewal, differentiation and proliferation.",
+  "title": "Activin/Nodal signalling in stem cells.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12742164",
+  "title": "Direct isolation of human central nervous system stem cells.",
+  "content": "Stem cells, which are clonogenic cells with self-renewal and multilineage differentiation properties, have the potential to replace or repair damaged tissue. We have directly isolated clonogenic human central nervous system stem cells (hCNS-SC) from fresh human fetal brain tissue, using antibodies to cell surface markers and fluorescence-activated cell sorting. These hCNS-SC are phenotypically 5F3 (CD133)(+), 5E12(+), CD34(-), CD45(-), and CD24(-/lo). Single CD133(+) CD34(-) CD45(-) sorted cells initiated neurosphere cultures, and the progeny of clonogenic cells could differentiate into both neurons and glial cells. Single cells from neurosphere cultures initiated from CD133(+) CD34(-) CD45(-) cells were again replated as single cells and were able to reestablish neurosphere cultures, demonstrating the self-renewal potential of this highly enriched population. Upon transplantation into brains of immunodeficient neonatal mice, the sorted/expanded hCNS-SC showed potent engraftment, proliferation, migration, and neural differentiation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

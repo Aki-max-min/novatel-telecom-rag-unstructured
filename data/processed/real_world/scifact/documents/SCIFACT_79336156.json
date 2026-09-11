@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_79336156",
+  "title": "Beta-band oscillations--signalling the status quo?",
+  "content": "In this review, we consider the potential functional role of beta-band oscillations, which at present is not yet well understood. We discuss evidence from recent studies on top-down mechanisms involved in cognitive processing, on the motor system and on the pathophysiology of movement disorders that suggest a unifying hypothesis: beta-band activity seems related to the maintenance of the current sensorimotor or cognitive state. We hypothesize that beta oscillations and/or coupling in the beta-band are expressed more strongly if the maintenance of the status quo is intended or predicted, than if a change is expected. Moreover, we suggest that pathological enhancement of beta-band activity is likely to result in an abnormal persistence of the status quo and a deterioration of flexible behavioural and cognitive control.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

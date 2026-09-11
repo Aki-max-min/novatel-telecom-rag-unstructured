@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10354110",
+  "title": "Follicular B cell trafficking within the spleen actively restricts humoral immune responses.",
+  "content": "Follicular (FO) and marginal zone (MZ) B cells are maintained in distinct locations within the spleen, but the genetic basis for this separation is still enigmatic. We now report that B cell sequestration requires lineage-specific regulation of migratory receptors by the transcription factor Klf2. Moreover, using gene-targeted mice we show that altered splenic B cell migration confers a significant in vivo gain-of-function phenotype to FO B cells, including the ability to quickly respond to MZ-associated antigens and pathogens in a T cell-dependent manner. This work demonstrates that in wild-type animals, naive FO B cells are actively removed from the MZ, thus restricting their capacity to respond to blood-borne pathogens.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

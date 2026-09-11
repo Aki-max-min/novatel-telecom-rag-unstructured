@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_119",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 119,
+  "text": "(Wireline) services, accordingly the same have been clubbed together to simplify the compliance requirements. The parameters with benchmarks for Access Service (Wireline) are provided in regulation 4; for Access Service (Wireless) in regulation 6 and 7, while for the Broadband (Wireline) services these are provided in regulation 9. Customer service-related parameters for all three services are provided in regulation 10. The analysis of inputs received from the stakeholders, on service provisioning and fault repair is covered in the following paras. 5.2.1 Provision of service within 7 working days of payment of demand note by the customer {Access (Wireline) and Broadband (Wireline)} (a) Input of Stakeholders (i) Few stakeholders submitted that, at present, both wireline and wireless services are provisioned only on a demand basis and subject to technical feasibility. Therefore, there is no need to monitor or report this redundant parameter. This parameter should be removed from monitoring and reporting. (ii) Further, it has been suggested that in case the Authority wishes to continue to monitor this parameter, the benchmarks should be kept in line with the existing benchmark. One stakeholder has suggested that it should be 10 working days for broadband services in view of the following challenges- a) Challenging terrain, b) Local public issues / holidays, c) Access issues / non-availability of customers, d) Last mile connectivity issues, e) Unplanned holidays declared by local authorities, f) Catastrophic weather (iii) Some stakeholders suggested that the benchmark should be reduced to 95%. As there can be some exceptional cases where",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

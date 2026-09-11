@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18078750",
+  "title": "Golgi Export of the Kir2.1 Channel Is Driven by a Trafficking Signal Located within Its Tertiary Structure",
+  "content": "Mechanisms that are responsible for sorting newly synthesized proteins for traffic to the cell surface from the Golgi are poorly understood. Here, we show that the potassium channel Kir2.1, mutations in which are associated with Andersen-Tawil syndrome, is selected as cargo into Golgi export carriers in an unusual signal-dependent manner. Unlike conventional trafficking signals, which are typically comprised of short linear peptide sequences, Golgi exit of Kir2.1 is dictated by residues that are embedded within the confluence of two separate domains. This signal patch forms a recognition site for interaction with the AP1 adaptor complex, thereby marking Kir2.1 for incorporation into clathrin-coated vesicles at the trans-Golgi. The identification of a trafficking signal in the tertiary structure of Kir2.1 reveals a quality control step that couples protein conformation to Golgi export and provides molecular insight into how mutations in Kir2.1 arrest the channels at the Golgi.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6079486",
+  "title": "Direct neuronal reprogramming: learning from and for development.",
+  "content": "The key signalling pathways and transcriptional programmes that instruct neuronal diversity during development have largely been identified. In this Review, we discuss how this knowledge has been used to successfully reprogramme various cell types into an amazing array of distinct types of functional neurons. We further discuss the extent to which direct neuronal reprogramming recapitulates embryonic development, and examine the particular barriers to reprogramming that may exist given a cell's unique developmental history. We conclude with a recently proposed model for cell specification called the 'Cook Islands' model, and consider whether it is a fitting model for cell specification based on recent results from the direct reprogramming field.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

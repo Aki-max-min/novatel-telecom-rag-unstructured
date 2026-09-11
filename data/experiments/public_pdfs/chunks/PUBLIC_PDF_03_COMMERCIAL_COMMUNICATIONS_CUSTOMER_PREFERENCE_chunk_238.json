@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_238",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 238,
+  "text": "accepted and propagated through a network of nodes. It breaks the underlying technology if everyone has their own DLT network. Who can be trusted in this scenario? The truth is that a consortium of DLT networks can publish their records to each other through request-response APIs. Each exchange of information may be broken into elementary steps that are chained together with tokens exchanged from either side. It would be impossible for any side to reconstruct the exchange with different data without co-operation from the other side. Further, a periodic hash of exchanged information and tokens can be published to the entire consortium making any two party cooperation infeasible. 110 other FinTech applications. These ‘sandboxes’ have been created or are in the process of being created in the US, Singapore, UK, Australia, and Abu Dhabi. The UK Financial Conduct Authority (FCA) for example, has started a FinTech sandbox program, which allows a limited launch of FinTech applications, products, and services. In the US, a bill has been proposed to mandate federal support for FinTech sandboxes. In Singapore, the Monetary Authority of Singapore (MAS) recently published its FinTech regulatory sandbox guidelines. Regulatory sandboxes that allow DLTs to be tested in markets may be embraced in a familiar form to that of the ‘test and learn’. 11 Impact of Regulations on Access Providers and the ecosystem 11.1 Comparison with current regulations (Notified in year 2010): Obligations of access providers as per current regulations puts the burden on the access providers for doing the",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_054",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 54,
+  "text": "content with the list of telephone numbers and preference(s) of category of conetnt by the target recipient customer in the Distributed Ledger for Preference (DL- Preference); and (b) verification of consent(s) by comparing the target telephone number(s), category of content with the list of telephone numbers and consent(s) given by the recipient to 38 the sender in the Distributed Ledger for Consent (DL-Consent); and (c) verification of time band(s) by comparing the target telephone number(s), type of target time band for delivery with the list of telephone numbers and preferrence(s) of time band(s) of target recipient customer in Distributed Ledger for Preference (DL- Preference); and (d) verification of type of day(s) by comparing the target telephone number(s), type of target day(s) for delivery with the list of telephone numbers and preferrence(s) of type of day(s) of target recipient customer in Distributed Ledger for Preference (DL- Preference); (e) output of scrubbed list is a positive match of verifications in either of 2(a) or 2(b) as consent given by the recipient to the sender(s) shall override choice of preference(s) made by the recipient customer and positive match of verifications in 2(c) or 2(d); 7. Every Access Provider shall formulate: - (1) Message Sequence Charts for messages with parameter details and time sequence to provide details about the process between two entities and action taken by particular entity; (2) Flow Charts to provide details about the process between two entities and action taken; 39 SCHEDULE-II Code of Practice for Process of registration, modification",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

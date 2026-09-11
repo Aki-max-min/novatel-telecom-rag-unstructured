@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26952804",
+  "title": "The role of autophagy in cancer development and response to therapy",
+  "content": "Autophagy is a process in which subcellular membranes undergo dynamic morphological changes that lead to the degradation of cellular proteins and cytoplasmic organelles. This process is an important cellular response to stress or starvation. Many studies have shed light on the importance of autophagy in cancer, but it is still unclear whether autophagy suppresses tumorigenesis or provides cancer cells with a rescue mechanism under unfavourable conditions. What is the present state of our knowledge about the role of autophagy in cancer development, and in response to therapy? And how can the autophagic process be manipulated to improve anticancer therapeutics?",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

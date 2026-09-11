@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18421962",
+  "title": "Assessing the ceRNA hypothesis with quantitative measurements of miRNA and target abundance.",
+  "content": "Recent studies have reported that competitive endogenous RNAs (ceRNAs) can act as sponges for a microRNA (miRNA) through their binding sites and that changes in ceRNA abundances from individual genes can modulate the activity of miRNAs. Consideration of this hypothesis would benefit from knowing the quantitative relationship between a miRNA and its endogenous target sites. Here, we altered intracellular target site abundance through expression of an miR-122 target in hepatocytes and livers and analyzed the effects on miR-122 target genes. Target repression was released in a threshold-like manner at high target site abundance (≥1.5 × 10(5) added target sites per cell), and this threshold was insensitive to the effective levels of the miRNA. Furthermore, in response to extreme metabolic liver disease models, global target site abundance of hepatocytes did not change sufficiently to affect miRNA-mediated repression. Thus, modulation of miRNA target abundance is unlikely to cause significant effects on gene expression and metabolism through a ceRNA effect.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

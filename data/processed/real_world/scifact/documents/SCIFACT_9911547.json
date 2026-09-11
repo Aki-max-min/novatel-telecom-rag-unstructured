@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9911547",
+  "title": "Angiopoietin-like protein 3 supports the activity of hematopoietic stem cells in the bone marrow niche.",
+  "content": "The physiologic roles of angiopoietin-like proteins (Angptls) in the hematopoietic system remain unknown. Here we show that hematopoietic stem cells (HSCs) in Angptl3-null mice are decreased in number and quiescence. HSCs transplanted into Angptl3-null recipient mice exhibited impaired repopulation. Bone marrow sinusoidal endothelial cells express high levels of Angptl3 and are adjacent to HSCs. Importantly, bone marrow stromal cells or endothelium deficient in Angptl3 have a significantly decreased ability to support the expansion of repopulating HSCs. Angptl3 represses the expression of the transcription factor Ikaros, whose unregulated overexpression diminishes the repopulation activity of HSCs. Angptl3, as an extrinsic factor, thus supports the stemness of HSCs in the bone marrow niche.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

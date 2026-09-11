@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_180",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 180,
+  "text": "issue necessary directions to device manufacturers for ensuring proper functioning of operating systems or platforms which are available to TRAI’s UCC mobile app. ii. While one stakeholder suggested that TRAI mobile app should be promoted by all service providers/manufacturers & software providers. All permissions required by the app should be available on the phone by default. Customer may have option to modify. Mobile app makes it easy to manage preferences/ consent and complaints. App can also make it possible to run data analytics to further improve processes. 5.2.5 Review of structure of financial disincentive for access providers i. Stakeholders from the side of TSPs have a common view that there should not be any provision of the financial disincentive on the TSPs unless there is any violation at TSP end with regards to any regulation/direction issued by the Authority from time to time. The financial disincentive imposed on Access Service providers on account of UTM should be done away with. Few stakeholders suggested that present system may continue, and access providers may further strengthen process to be followed at the time of providing telecom resources to RTM, TMSE, aggregators etc. They may also consider including location tagging of place of office premises / place from where commercial communication calls would be made. TSPs also submitted that they do due diligence at the time of providing telecom resources and also carry out appropriate checks and they should not be held responsible for any violations by UTMs. TSPs further submitted that for",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_39048693",
+  "title": "Synapsin I Cre transgene expression in male mice produces germline recombination in progeny.",
+  "content": "The cre/LoxP system can produce conditional loss of gene function in specific cell types such as neurons. A transgenic mouse line, utilized by multiple studies, used the Synapsin I promoter to drive expression of cre (SynCre) to achieve neuronal-specific cre expression. Herein we describe that cre expression can also be observed in SynCre mice within the testes after being bred into a floxed transgenic mouse line. Cre transcript was expressed in testes resulting in recombination of the floxed substrate in testes. In the majority of cases, progeny of male SynCre mice inherited a germline recombined floxed allele, while this was never observed in progeny from female mice carrying the SynCre allele. This observation should alert investigators to a potential confound using these mice and enables male germ cell \"deletor\" strategies.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

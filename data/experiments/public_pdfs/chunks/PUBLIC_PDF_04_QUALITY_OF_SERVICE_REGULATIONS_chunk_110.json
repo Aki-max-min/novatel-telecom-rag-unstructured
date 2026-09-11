@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_110",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 110,
+  "text": "quarterly PMRs submitted by the service providers, the Authority has noted that due to the long performance assessment period of a quarter and further averaging over a large Service Area, the real issues related to QoS are not reflected adequately in the quarterly performance reports. (iv) It is further noted that the performance reporting for network-related parameters of mobile services was already being provided monthly before the amendment in the regulations in 2017. (v) In view of the above, the Authority is of the opinion that granular QoS performance monitoring of Access (Wireless) services i.e. at monthly level is essential for reflection of true performance and the protection of interest of the consumers. The mobile consumers constitute almost 97.15 % of the total consumer base as on 30th April 2024, as given in Figure 4. Figure 4: Wireless and Wireline Telephone Subscribers as on 30th April 2024 (vi) Further, considering that overall share of wireline subscribers in total telecom subscriber base is quite low and there is a need to encourage investment in the wireline domain by way of enabling ease of doing business, the Authority has decided to continue quarterly performance reporting for Wireline (Access) and Broadband (Wireline) services. However, the fault rectification related parameters for wireline services have been made more stringent. 97.15% 2.85% Wirless Wireline 138 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] 4.5 QoS performance monitoring and reporting should be at LSA level and not at State, UT, or District level (a) Input of Stakeholders (i)",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

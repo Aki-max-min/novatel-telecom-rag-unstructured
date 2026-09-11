@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_011",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 11,
+  "text": "of their preferences registered, under the applicable category, in the Preference Register; “Promotional voice call” means commercial communication any voice Commercial Communication containing promotional material or advertisement of a product or service: Provided that if promotional content is mixed with any type of commercial Voice Call, such voice call shall be treated as a Promotional Voice Call. Explanation: These calls shall only be delivered to Subscribers who have not blocked their preference, under the applicable category, in the Preference Register or have given their 8 Consent in the Consent Register, as applicable. If the Sender has acquired explicit digital consent, as provided under these regulations, from the intended Recipient, such Promotional calls with Explicit Consent of the Recipient shall be delivered to the Recipients irrespective of their preferences registered, under the applicable category, in the Preference Register.; “Recipient”, in relation to a commercial communication, means an authorised user of the telephone number(s) to whom the message is sent or voice call is made. Explanation: Where a recipient of a message or voice call has one or more Telephone numbers in addition to the Telephone number to which the message was sent or voice call was made, the recipient shall be treated as a separate recipient with respect to each such Telephone number; “Referred Telephone Number” (RTN) means telephone number or telecom resource referred to in the content of commercial communication messages or voice calls from the sender; “Registered Telemarketer (RTM)\" means any telemarketer who is registered with the access provider(s)",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

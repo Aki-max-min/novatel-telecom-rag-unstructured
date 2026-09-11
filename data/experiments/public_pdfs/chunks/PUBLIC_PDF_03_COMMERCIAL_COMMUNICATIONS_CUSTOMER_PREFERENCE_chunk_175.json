@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_175",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 175,
+  "text": "or eliminate victimization: Aggressive actions aimed at suspected unregistered telemarketers may sometime lead to victimization of customers, on account of false or faulty complaints or due to misidentification. The complaint handling mechanism has to be able to prevent or mitigate such victimization. There need to be processes for determining whether the owner of the number against whom a complaint has been filed has a business or commercial relationship with the complainant. Instead of disconnecting telecom resources immediately, there need to be provisions to issue notices, to put connections in suspend mode, and to put Usage Cap till investigations are completed. 5.1.13 Developing Scoring System for detecting UCC: It has reported that unregistered telemarketers often take SIMs from multiple access providers and changes their patterns in order to bypass detection. To detect and act against such UTMs operating across service providers or RTMs involved in unauthorized activities, a scoring system needs to be developed. Data from this scoring system can be shared access providers to further enhance their signature solutions. Parameters which should be considered for determining the score need to be identified and agreed upon by access providers. 5.2 Comments of Stakeholders 5.2.1 Reduction in time gap for complaint resolution: i. Regarding automation of complaint handling system (Real time/cloud based), most of the stakeholders agreed that there is a need to reduce the delays but practically doing it may be a challenge. Stakeholders submitted that, current system require 7 days Turn Around Time (TAT) in total (3 days for OSP",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

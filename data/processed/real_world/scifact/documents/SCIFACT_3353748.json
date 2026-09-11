@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_3353748",
+  "title": "Metaplasia and transdifferentiation: from pure biology to the clinic",
+  "content": "Transformations from one tissue type to another make up a well established set of phenomena that can be explained by the principles of developmental biology. Although these phenomena might be rare in nature, we can now imagine the possibility of deliberately reprogramming cells from one tissue type to another by manipulating the expression of transcription factors. This approach could generate new therapies for many human diseases.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

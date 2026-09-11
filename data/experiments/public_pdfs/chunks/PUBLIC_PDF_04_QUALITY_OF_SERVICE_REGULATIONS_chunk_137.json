@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_137",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 137,
+  "text": "considers such ‘Base Station’ as working. While some service providers are considering all cells of one technology (2G/ 3G/ 4G) as one ‘Base Stations’. In this way, performance submitted by different service providers against these parameters has wide variation. Figure 5 given below, presents comparative performance of four service providers in Himachal Pradesh LSA for one year against the parameter ‘Base Station Accumulated Downtime’. It shows that three service providers have similar performance whereas one service provider has different performance, though all are meeting the benchmark. One of the main reasons for such diverse performance among service providers could be adoption of different definitions for ‘Base station’ by different service providers. Figure-5: Base Station Accumulated Downtime (HP LSA) (iv) The stakeholders also submitted that telecom towers are strategically placed to overlap coverage areas and that the overlap ensures that if one cell goes down, the adjacent cells can cover the affected area. In this regard, the Authority is of the view that deployment of multi-base stations is done to meet capacity requirements and overlaps of cell coverage areas are defined for smooth handover for continuity of the services without any breaks or call drops. As such overlapping of cells is not a substitute for cell outages and consequent load takeover. (v) In fact, cells of a base station form part of the access network and provide network connectivity to the end consumers. Therefore, the cell availability in the access network is the most essential requirement. Further, a cell is a",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

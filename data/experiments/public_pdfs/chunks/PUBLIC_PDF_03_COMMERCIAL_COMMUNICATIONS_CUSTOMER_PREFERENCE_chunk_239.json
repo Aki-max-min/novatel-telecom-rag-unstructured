@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_239",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 239,
+  "text": "‘test and learn’. 11 Impact of Regulations on Access Providers and the ecosystem 11.1 Comparison with current regulations (Notified in year 2010): Obligations of access providers as per current regulations puts the burden on the access providers for doing the following: i. Setting up of Customer Preference Registration Facility and synchronizing with the central facility maintained by TRAI in a semi-automatic or manual mode. ii. Setting up Complaints Registration facility and handling a manual complaints resolution process including examination of complaints by verifying CDRs and disconnecting telephone connection violating UCC regulations. It also includes synchronizing the complaint related information and updates on TRAI portal iii. Scrubbing of the commercial communication messages against preference and also scrubbing and filtering voice calls from 140-level numbers to the customers who have opted-out from receiving commercial communications iv. Implementing signature solution and updating such solutions periodically for next threats v. Header registration (whitelisting) and maintain records of entities to effectively handle complaints vi. Verification of various records of registered telemarketers at the time of taking telecom resources, maintaining telemarketers’ telecom resource records and to manage compliances of regulatory requirements for telemarketers vii. Creating blacklist of telemarketers and UTMs closed for violation of the regulations Further, the current regulation also provides for financial disincentive of up to Rs 5000 for every complaint by the subscriber of unsolicited commercial communication from an unregistered telemarketer. Such provisions have now been removed with protections built into technology solutions, thus reducing access provider’s’ risk and burden. New framework is",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

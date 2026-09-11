@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_37405449",
+  "title": "Familial gastroesophageal reflux and development of Barrett's esophagus.",
+  "content": "The family of an elderly man with Barrett's esophagus was examined for gastroesophageal reflux and development of Barrett's esophagus. All five living children have gastroesophageal reflux or esophagitis, or both, and three have unequivocal Barrett's esophagus. Two third-generation descendents have gastroesophageal reflux. This pattern suggests autosomal dominant transmission of the gastroesophageal reflux trait. The family also has a high prevalence of cancer, which may represent the cancer family syndrome.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

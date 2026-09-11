@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_020",
+  "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+  "chunk_index": 20,
+  "text": "4G, 5G 10 Mode FDD/ TDD/ NA (NA stands for ‘Not Applicable’) 11 Radiating frequency band (MHz) It should be number without mentioning MHz like 900, 1800, 2100 etc. 12 Types of Media Connectivity Fiber/ Microwave/ Satellite/ Other 13 Whether Cell is a part of network slicing? Yes/ No 14 Date of Commissioning of Base Station and Date of De- commissioning of Base Station, if any In DD-MMM-YY format like 01-JAN-24 15 TCBH and CBBH It should be starting time of the TCBH/ CBBH in 24 Hours format like busy hour of 1 to 2 pm should be written as 13:00. TCBH is as defined in the regulations, whereas CBBH should be one-hour period in a day during which the cell experiences the maximum traffic. iii. Details of all Base Stations/ cells of all technology working in the LSA should be provided. All Base Stations/ cells working for at least one day in the reporting period should be included. iv. In sheet ‘Downtime’, cell wise downtime of each day of the reporting period in decimal hours (upto two decimal places) is to be mentioned. Like 90 minutes downtime is to be reported as 1.50. v. In sheets ‘DCR_CS’, ‘DCR_PS’, ‘DL_PDR’ and ‘UL_PDR’, cell wise DCR and PDR of each day of the reporting period observed during CBBH is to be mentioned in decimal (upto two decimal places). Further CBBH of each cell of each day of the reporting period is to be mentioned in sheet ‘CBBH’ in 24 Hours format.",
+  "title": "10 qos submission reports direction",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/10_qos_submission_reports_direction.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_374902_chunk_001",
+  "document_id": "SCIFACT_374902",
+  "chunk_index": 1,
+  "text": "per year by 2016, or within 10 years of full implementation of the strategy, and reduce the prevalence of HIV to less than 1% within 50 years. We estimate that in 2032, the yearly cost of the present strategy and the theoretical strategy would both be US$1.7 billion; however, after this time, the cost of the present strategy would continue to increase whereas that of the theoretical strategy would decrease. INTERPRETATION Universal voluntary HIV testing and immediate ART, combined with present prevention approaches, could have a major effect on severe generalised HIV/AIDS epidemics. This approach merits further mathematical modelling, research, and broad consultation.",
+  "title": "Universal voluntary HIV testing with immediate antiretroviral therapy as a strategy for elimination of HIV transmission: a mathematical model.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

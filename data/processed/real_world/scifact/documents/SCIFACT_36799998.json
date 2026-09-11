@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_36799998",
+  "title": "Improving outcomes of acute kidney injury: report of an initiative",
+  "content": "Acute kidney injury (AKI) is a complex disorder comprising several etiological factors and occurring in multiple settings. The disorder has a variety of clinical manifestations that range from minimal elevation in serum creatinine level to anuric renal failure. We describe the formation of a multidisciplinary collaborative network focused on AKI. This Acute Kidney Injury Network has proposed uniform standards for diagnosing and classifying AKI. These proposed standards will need to be validated in future studies, a process that will be facilitated by the Acute Kidney Injury Network, which offers a forum that encourages acquisition of knowledge to improve patient outcomes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_073",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 73,
+  "text": "The compliance against this parameter shall be measured through the test calls based on measurement setup and methodology as provided in para 4.4.1 above. (iii) Typical download or upload speed is the download or upload speed which will be available to the users in the service area during TCBH in normal network conditions except during unusually high traffic spikes. (iv) The download and upload speed test measurements shall be conducted utilizing at least three concurrent TCP connections. The measurement, as per prescribed measurement setup and process, shall be conducted for each plan offered by the service provider in the service area. In case the typical download or upload speeds are not linked to any plan and applicable for all tariff offerings in the service area, common test calls shall be made for measurement of the performance against this parameter. (v) Typical download or upload speed shall be the 10th percentile of respective download and upload speeds after arranging the results of test calls in ascending order. (vi) The service provider will maintain the declared typical download or upload speed for the committed plan period. If typical download or upload speed, offered in any plan to the consumers, is found to be lower than the declared value during assessment period, then the service provider shall notify the same to the affected customers and also declare revised typical download and upload speed. (vii) Customer may verify declared typical download and upload speed through TRAI MySpeed app with location access enabled. The service",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

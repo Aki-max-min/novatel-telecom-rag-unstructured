@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_113",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 113,
+  "text": "and operated by the access providers as per their requirements, who may specify terms and conditions for agreements with entities and action to be taken when an entity fails to perform the desired role or carry out its responsibilities. With a co-regulatory approach and codes(s) of practice by the access providers the governance framework can evolve over time, as needed. This would provide the access providers flexibility in developing the system to attain regulatory objectives. The issues listed below are to be dealt with in a Code Practice (to be called the Code of Practice for Entities or CoP- Entities) to achieve regulatory objectives in conformance with the regulations: i. details of the requirements for robust verifications and authentication mechanism of telemarketers, ii. registration of entities, iii. establishing system in this regard, iv. securing the data, v. offering services to the senders of commercial communications, vi. flexibility to principal entities to manage headers, vii. assigning headers, viii. header format and structure, ix. identity display to the recipients, x. Categorization of content types etc., xi. role and responsibilities of participants, xii. processes for safe and secure handling of data, Access provider should enforce provisions in the CoP-Entities by entering into agreements with the participating entities and ensure compliance using technology driven solutions. While finalizing header format and structure of header, it may be ensured that numbering series is in accordance to the as per National Numbering Plan of DoT or any directions or guidelines issued in this 64 regard. Currently 140",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

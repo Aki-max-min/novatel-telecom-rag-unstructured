@@ -1,0 +1,18 @@
+{
+  "chunk_id": "TRX_006_chunk_001",
+  "document_id": "TRX_006",
+  "chunk_index": 1,
+  "text": "OTP. - Relevant backend status checked before providing resolution timeline. - Case closed after customer confirmation; escalated only if unresolved beyond the stated SLA. ## Escalation This case was resolved on the first contact. ## Related Documents No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
+  "title": "FTTH Broadband Down — Red Light on ONT",
+  "document_type": "Support Transcript",
+  "category": "C25",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\transcripts\\TRX_006.md",
+  "file_type": "markdown"
+}

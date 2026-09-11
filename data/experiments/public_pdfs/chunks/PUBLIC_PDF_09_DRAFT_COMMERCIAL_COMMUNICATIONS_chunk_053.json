@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_053",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 53,
+  "text": "and compared with the list of preference(s) of the recipient and/or purpose of consent given by the recipient to the sender for the purpose of scrubbing and for this purpose access provider shall ensure that (a) any commercial communication through its network takes place only using registered content template(s) for transaction and/ or content template(s) for promotion; (b) Unique Identity for registered template of content shall be assigned to the sender(s) at the time of registration of content template; (a) Following Label shall be prefixed by the access provider to the text of commercial communication: - (i) Label <Transactional> in case of Transactional Message; (ii) Label <Service> in case of Service Message; (iii) Label <Promotional> in case of Promotional Message; (b) Every Access Provider shall suffix relevant information required to revoke the consent to the text of promotional message; (c) Content template shall be recorded on Distributed Ledger for Content Template (DL- CT) in an immutable and non repudiable manner; (2) commercial communication is sent to the particular telephone number(s) in the target list of telephone numbers provided by the sender, to whom he wishes to send commercial communication only after scrubbing the target list and scrubbing includes (a) verification of preference(s) by comparing the target telephone numbers, category of content with the list of telephone numbers and preference(s) of category of conetnt by the target recipient customer in the Distributed Ledger for Preference (DL- Preference); and (b) verification of consent(s) by comparing the target telephone number(s), category of content",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

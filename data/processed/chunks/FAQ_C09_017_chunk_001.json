@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C09_017_chunk_001",
+  "document_id": "FAQ_C09_017",
+  "chunk_index": 1,
+  "text": "location (indoor/outdoor), device 5G band support | Run Network > Speed Test and compare to your plan's expected range | | Slow speed, high-speed data quota already exceeded | Fair Usage Policy throttling | Data usage against plan's high-speed allowance | This is expected behaviour — see the FUP explanation for typical throttled speeds | ### Example Scenario **Customer situation:** A customer notices data speeds have dropped sharply partway through the billing cycle. **What happens:** If their high-speed data quota has already been used up, the drop is consistent with fair-usage throttling rather than a coverage or device issue, which the Speed Test result against their plan's expected range can help confirm. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C09_overview. Topic: Data Services & Speed",
+  "title": "Why is my 4G/5G data speed slower than expected?",
+  "document_type": "FAQ",
+  "category": "C09",
+  "department": "Network",
+  "customer_scope": "enterprise",
+  "version": "1.0",
+  "last_updated": "2026-05-30",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C09_overview"
+  ],
+  "tags": [
+    "data",
+    "c09"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C09_017.json",
+  "file_type": "json"
+}

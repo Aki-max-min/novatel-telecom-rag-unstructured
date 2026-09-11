@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_019",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 19,
+  "text": "corresponding benchmark for respective QoS parameters shall come into force with effect from specified ‘Effective date’ and the benchmarks for the QoS parameters specified against the previous assessment period shall stand withdrawn accordingly. 104 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] (2) Every service provider shall, in all its tariff offerings for broadband (wireless) service, indicate the typical download and upload speed generally available to the consumers. 7. Quality of Service parameter in respect of which compliance is to be monitored by the service provider and reported to the Authority.─ (1) Every service provider providing access service (wireless) shall meet and monitor the benchmarks, to be measured as per the measurement methodology provided in Schedule-I, for each of the following QoS parameters, namely: − S. No. Name of Parameter Benchmark Assessment period Effective date (i) Maximum Bandwidth utilization between radio and core network during TCBH ≤ 80% Quarterly 01.10.2024 Monthly 01.04.2025 (ii) SDCCH Congestion/ RRC Congestion ≤1% Quarterly 01.10.2024 Monthly 01.04.2025 (iii) Traffic Channel congestion i.e. TCH, RAB, E- RAB, EN-DC (E-UTRAN New Radio Dual Connectivity for NSA to access 4G and 5G both networks at same time) or DRB (Data Radio Bearer for SA) Congestion ≤ 2% Quarterly 01.10.2024 Monthly 01.04.2025 (iv) Connections with good voice quality ≥ 95% Quarterly 01.10.2024 Monthly 01.04.2025 (v) Jitter (in 4G and 5G network) ≤ 50 msec Quarterly 01.10.2024 Monthly 01.04.2025 (vi) Messaging: Successful SMS delivery within service provider's network ≥ 95% Quarterly 01.10.2024 Monthly 01.04.2025 Note: The assessment period and corresponding benchmark",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

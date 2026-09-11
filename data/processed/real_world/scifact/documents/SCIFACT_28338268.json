@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_28338268",
+  "title": "Dominant optic atrophy, deafness, ptosis, ophthalmoplegia, dystaxia, and myopathy. A new syndrome.",
+  "content": "Twenty-three members of a 96-member family exhibited an autosomal dominant disorder which has not previously been described. This disorder involves progressive optic atrophy, abnormal electroretinography without retinal pigment changes, and progressive sensorineural hearing loss usually evident in the first or second decade of life. In midlife, ptosis, ophthalmoplegia, dystaxia, and a nonspecific myopathy occur.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21012916",
+  "title": "Ephrin B1–mediated repulsion and signaling control germinal center T cell territoriality and function",
+  "content": "Follicular T helper (TFH) cells orchestrate the germinal center (GC) reaction locally. Local mechanisms regulating their dynamics and helper functions are not well defined. Here we found that GC-expressed ephrin B1 (EFNB1) repulsively inhibited T cell to B cell adhesion and GC TFH retention by signaling through TFH-expressed EPHB6 receptor. At the same time, EFNB1 promoted interleukin-21 production from GC TFH cells by signaling predominantly through EPHB4. Consequently, EFNB1-null GCs were associated with defective production of plasma cells despite harboring excessive TFH cells. In a competitive GC reaction, EFNB1-deficient B cells more efficiently interacted with TFH cells and produced more bone-marrow plasma cells, likely as a result of gaining more contact-dependent help. Our results reveal a contact-dependent repulsive guidance system that controls GC TFH dynamics and effector functions locally.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

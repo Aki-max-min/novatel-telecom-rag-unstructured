@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_191",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 191,
+  "text": "effective IVR System certainly optimizes the load on the agents. Further, if the service provider prefers direct landing at the agent, the service providers should provision sufficient incoming lines for customer care numbers to ensure that it remain accessible to the subscribers. 5.6.5 Termination/ closure of service within seven working days of receipt of customer’s request (a) Input of Stakeholders Some of the stakeholders submitted that every timeline should be defined in working days. The existing parameters and the benchmarks should continue as is on quarterly basis. (b) Analysis and Conclusion Considering the submission of various stakeholders, the Authority has decided to define timeline on working day basis for this parameter. Termination/ closure of service should not be withheld on account of pending dues or any other reason. It is further clarified that no billing or charging should be done beyond seven working days of receipt of the customer’s request. 5.6.6 Refund of deposits within 45 days of closure of service or non-provisioning of service (a) Input of Stakeholders (i) Some stakeholders submitted that refund of deposits should be allowed within 60 working days of closures and that their intention is to maximize their efforts to reach out to the customer and successfully refund their account. It is also claimed that reducing the number of days could negatively impact customer satisfaction as customers often take some time to respond. Therefore, maintaining a 60-day resolution period allows them to ensure the best possible customer experience. (ii) Some of the service providers",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

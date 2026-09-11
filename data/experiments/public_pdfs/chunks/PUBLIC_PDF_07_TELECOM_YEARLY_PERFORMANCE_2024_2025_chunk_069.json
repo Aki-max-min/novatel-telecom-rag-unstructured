@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_069",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 69,
+  "text": "Revenue from VAS 1.24 1.26 0.70% 1.6. Other revenue 3.48 5.77 3.20% 2 B. Usage outside Home Service Area 2.1 Revenue from Outroamers (outside HSA) 1.35 1.63 0.90% 3 C. Total revenue from home subscribers (A+B) 156.14 180.22 100% 4 D. Revenue from inroamers and interconnect charges received 22.03 22.24 5 E. Total Gross Revenue (C+D) 178.17 202.47 6 F. Net inter-operable settlement charges payable -28.93 -28.01 7 Net Revenue (ARPU) (5+6) 149.25 174.46 9. The following chart presents the comparison of share of Revenue as a percentage of total Revenue during the year 2024-25. 81 Chart 2.4: Composition of Revenue of wireless Service during the year 2024-25 10. It may be seen in the above chart that revenue from data usage comprises about 86.32% of total revenue from wireless services during the year 2024-25. B. Usage Pattern 11. Average Minutes of Usage (MOUs) per subscriber per month increased from 962.61 during the year 2023-24 to 1000.27 in 2024-25 with yearly growth rate of 3.91%. 12. The following table presents the Minutes of Usage per subscriber per month for various categories of circles and various platforms for payment viz. post-paid and pre-paid. 82 Table 2.4: - Category-wise Minutes of Usages (MOUs) per subscriber per month: - 13. Minutes of Usage (MOUs) per subscriber per month for postpaid services decreased from 544 during the year 2023-24 to 503 in 2024-25. However, MoUs for prepaid services increased from 997 to 1047 during the same period. 14. Outgoing MoUs per subscriber per month",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

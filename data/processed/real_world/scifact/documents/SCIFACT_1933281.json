@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1933281",
+  "title": "CD169+ MACROPHAGES PRESENT LIPID ANTIGENS TO MEDIATE EARLY ACTIVATION OF INVARIANT NKT CELLS IN LYMPH NODES",
+  "content": "Invariant natural killer T cells (iNKT cells) are involved in the host defense against microbial infection. Although it is known that iNKT cells recognize glycolipids presented by CD1d, how and where they encounter antigen in vivo remains unclear. Here we used multiphoton microscopy to visualize the dynamics and activation of iNKT cells in lymph nodes. After antigen administration, iNKT cells became confined in a CD1d-dependent manner in close proximity to subcapsular sinus CD169(+) macrophages. These macrophages retained, internalized and presented lipid antigen and were required for iNKT cell activation, cytokine production and population expansion. Thus, CD169(+) macrophages can act as true antigen-presenting cells controlling early iNKT cell activation and favoring the fast initiation of immune responses.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

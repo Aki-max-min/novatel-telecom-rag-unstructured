@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_341324_chunk_001",
+  "document_id": "SCIFACT_341324",
+  "chunk_index": 1,
+  "text": "found to have recurrence of tuberculosis in 2 years of follow-up. Among the 221 patients initially infected with drug-susceptible organisms, drug resistance did not develop in any of the 7 patients in whom the treatment failed or the 10 who had recurrence of tuberculosis. Further, 5 of the 7 patients in whom the treatment failed continued to excrete drug-susceptible bacilli at 6 months. Adverse drug reactions were observed in 38 (14%) of the 262 patients. Only 3 (1.1%) needed a modification in the treatment. CONCLUSION This thrice-weekly 6-month regimen of antitubercular drugs, when administered under full supervision, is associated with a high rate of favourable treatment outcomes in HIV-negative patients with newly diagnosed sputum smearpositive pulmonary tuberculosis. There are few adverse drug reactions in these patients.",
+  "title": "Efficacy of the 6-month thrice-weekly regimen in the treatment of new sputum smear-positive pulmonary tuberculosis under clinical trial conditions.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

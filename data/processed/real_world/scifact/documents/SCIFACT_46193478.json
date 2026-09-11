@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_46193478",
+  "title": "A negative staining method for high resolution electron microscopy of viruses.",
+  "content": "Abstract A simple technique has been developed for the study of the external form and structure of virus particles. High contrast with good preservation is obtained by mixing virus preparations with 1% phosphotungstic acid adjusted to pH 7.5 and spraying directly onto electron microscope supporting films made from evaporated carbon. The application of the technique to tobacco mosaic virus and turnip yellow mosaic virus is described. Structural details suggested by X-ray diffraction methods have been resolved.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

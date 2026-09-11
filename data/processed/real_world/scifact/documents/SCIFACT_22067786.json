@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22067786",
+  "title": "Monte Carlo tests for associations between disease and alleles at highly polymorphic loci.",
+  "content": "In an association analysis comparing cases and controls with respect to allele frequencies at a highly polymorphic locus, a potential problem is that the conventional chi-squared test may not be valid for a large, sparse contingency table. However, reliance on statistics with known asymptotic distribution is now unnecessary, as Monte Carlo simulations can be performed to estimate the significance level of any test statistic. We have implemented a Monte Carlo method for four 'chi-squared' test statistics, three of which involved combination of alleles, and evaluated their performance on a real data set. Combining rare alleles to avoid small expected cell counts, and considering each allele in turn against the rest, reduced the power to detect a genuine association when the number of alleles was very large. We should either not combine alleles at all, or combine them in such a way that preserves the evidence for an association.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21793890",
+  "title": "BCR/ABL modifies the kinetics and fidelity of DNA double-strand breaks repair in hematopoietic cells.",
+  "content": "The oncogenic BCR/ABL tyrosine kinase facilitates the repair of DNA double-strand breaks (DSBs). We find that after gamma-irradiation BCR/ABL-positive leukemia cells accumulate more DSBs in comparison to normal cells. These lesions are efficiently repaired in a time-dependent fashion by BCR/ABL-stimulated non-homologous end-joining (NHEJ) followed by homologous recombination repair (HRR) mechanisms. However, mutations and large deletions were detected in HRR and NHEJ products, respectively, in BCR/ABL-positive leukemia cells. We propose that unfaithful repair of DSBs may contribute to genomic instability in the Philadelphia chromosome-positive leukemias.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_069",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 69,
+  "text": "ARPU per month for the pre-paid segment is Rs.187 and the ARPU per month for the post-paid segment is Rs.182.72 for Q.E. Jun-25. 2.6 The following table presents the ARPU per month for various categories of circles and platforms for payment viz. post-paid and pre-paid. 66 Table 2.2: Monthly ARPU – Wireless Services in QE Jun-25 Circle Category ARPU per month (in Rs.) Postpaid Prepaid Blended Circle A 205.40 206.21 206.13 Circle B 148.46 180.45 178.70 Circle C 157.22 185.07 182.57 Metros 203.29 147.84 159.51 All India 182.72 187.00 186.62 All private SPs 186.94 197.15 196.21 PSU 94.53 72.43 73.57 2.7 The following table presents the composition of ARPU per month for QE Jun-25. Table 2.3: Composition of ARPU per month - Wireless Services S.No. Item Revenue (excl. service tax) per subscriber per month (in Rs.) % Share of total revenue per subscriber per month 1 A. Usage from Home Service Area 1.1. Rental Revenue 0.92 0.48 1.2. Revenue from calls 15.02 7.78 1.3. Revenue from SMS 0.17 0.09 1.4. Revenue from data usage 166.63 86.35 1.5. Revenue from Other VAS 1.28 0.66 1.6. Other revenue 6.97 3.61 2 B. Usage outside Home Service Area 2.1 Revenue from outroamers 1.97 1.02 3 C. Total revenue from home subscribers (A+B) 192.97 100.00 67 4 D. Revenue from inroamers and interconnect charges received 18.16 5 E. Total Gross Revenue (C+D) 211.13 6 F. Net inter-operable settlement charges payable -24.51 7 Net Revenue (ARPU) (E+F) 186.62 * includes Interconnect Usages Charges (IUC) and",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_72180760",
+  "title": "Oncologists' perceptions of the effects of cancer patients' companions on physician-patient interactions",
+  "content": "To determine physicians' perceptions of the effects that the companions of cancer patients have on physician-patient communication, semistructured interviews were conducted with 12 oncologists (6 medical, 4 surgical, and 2 radiation) from a total population of 21 oncologists. The physicians estimated that threefourths of their patients brought companions with them to consultations and said that these consultations were more complex for the physician. The behaviors of the companions varied from domination to passive note taking, and the companions who were young professional men or older women who accompanied their husbands were the most assertive and asked the most questions. All possible coalitions were observed during medical visits. The physicians perceived that companions and patients often had different agendas and noted differences in the companions' behaviors according to their gender and whether they lived in rural or urban areas.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

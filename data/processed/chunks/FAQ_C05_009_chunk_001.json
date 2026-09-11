@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C05_009_chunk_001",
+  "document_id": "FAQ_C05_009",
+  "chunk_index": 1,
+  "text": "hasn't picked up the network yet, or wrong network mode | Network mode setting (should be Auto) | Reinsert SIM, restart device, confirm Auto mode | | No Service' persists after reinsert/restart/mode check | IMSI profile not re-registered for the new device | Whether this followed an eSIM/physical SIM swap | Dial the SIM-status check code or visit a store for a replacement SIM | ### Escalation A store visit for a same-number replacement SIM is the documented next step if the device-side checks and status-check code don't resolve it. ### Example Scenario **Customer situation:** A customer moved their physical SIM into a new phone and it shows 'No Service'. **What happens:** After reinserting the SIM, restarting the device, and confirming Auto network mode without success, this points to the IMSI re-registration case described for device switches, so a status-check code or store visit is the next step. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C05_overview. Topic: SIM Card Services",
+  "title": "My SIM card shows 'No Service' after I inserted it in a new phone.",
+  "document_type": "FAQ",
+  "category": "C05",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-03",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C05_overview"
+  ],
+  "tags": [
+    "sim",
+    "c05"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C05_009.json",
+  "file_type": "json"
+}

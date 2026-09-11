@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29399239",
+  "title": "Neutrophil extracellular traps: Is immunity the second function of chromatin?",
+  "content": "Neutrophil extracellular traps (NETs) are made of processed chromatin bound to granular and selected cytoplasmic proteins. NETs are released by white blood cells called neutrophils, maybe as a last resort, to control microbial infections. This release of chromatin is the result of a unique form of cell death, dubbed \"NETosis. \" Here we review our understanding of how NETs are made, their function in infections and as danger signals, and their emerging importance in autoimmunity and coagulation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_099",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 99,
+  "text": "of complaint; total number of complaints to be resolved as an Originating Access Provider, according to the date of occurrence of unsolicited commercial communication; total number of senders against whom complaints were reported under clause (e); total number of complaints out of reported complaints under clause(e), after completion of investigation, found to be valid complaint(s); total number of senders, under clause(f) against whom complaints were found to be valid; total number of Senders out of reported Senders under clause (h) against whom action has been taken under regulation 25; breakup of total number of Senders out of reported Senders under clause (h) against whom action has been taken under regulation 25 for different time-periods, in the manner and format specified by the Authority from time to time; numbers of commercial communications sent by each sender, reported under clause(h); total number of outgoing communications made by the sender(s), reported under clause(f) and exceeding the restriction limits from the deemed date of imposition of such restrictions; record of Senders for all the complaints such as, name of Sender, category of Sender (individual/ Enterprise), address and other relevant details to uniquely identify the Sender. 55 Schedule-VI List of key activities (but not an exhaustive list) for preparation of migration plan Introducing Distributed Ledger (DL) for registration of entities (DL-Entities); To register entities declared by access provider or access provider(s) together for various functions and registers like Header Register; Consent Register; Consent Template Register; Content Template Register; Content Template Verifier; Complaint Register; Preference Register;",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_020",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 20,
+  "text": "portal with authentication through OTP; or (g) Any other means as may be prescribed by the Authority from time to time. 7. Every Access Provider shall ensure that preferences recorded or modified by the subscriber are given effect to in near real time and in such a manner that no delivery of commercial communication is made or blocked in contravention to the subscribers’ preference after twenty-four hours or such time as the Authority may prescribe. 15 CHAPTER-IV FUNCTIONS OF ACCESS PROVIDERS 8. Every Access Provider shall undertake following activities in accordance with the provisions of these regulations before allowing any commercial communication through its network(s): - (1) Develop Code(s) of Practice to establish system and make arrangements to govern the specified activities: - (a) Code of Practice for Entities of ecosystem (CoP-Entities) as per Schedule-I; (b) Code of Practice for Registration of preference(s), recording consent(s) and revocation of consent(s) (CoP-Preference) as per Schedule-II; (c) Code of Practice for Complaint Handling (CoP-Complaints) as per Schedule-III; (d) Code of Practice for Unsolicited Commercial Communications Detection (CoP- UCC_Detect) as per Schedule-IV; (e) Code of Practice for monthly reporting (CoP-Reports) as per Schedule-V (2) Register entities as provided for in Code(s) of Practice for Entities (3) Register Sender(s) and assign the header(s), header root(s); (4) Register the content templates; (5) Register the consent templates; 9. Every Access Provider shall ensure that no commercial communication is made to any recipient, except as per the preference(s) or digitally registered consent(s) registered in accordance with these regulations.",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

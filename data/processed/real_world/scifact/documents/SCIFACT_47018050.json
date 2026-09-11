@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_47018050",
+  "title": "CRISPR–Cas9 genome editing induces a p53-mediated DNA damage response",
+  "content": "Here, we report that genome editing by CRISPR–Cas9 induces a p53-mediated DNA damage response and cell cycle arrest in immortalized human retinal pigment epithelial cells, leading to a selection against cells with a functional p53 pathway. Inhibition of p53 prevents the damage response and increases the rate of homologous recombination from a donor template. These results suggest that p53 inhibition may improve the efficiency of genome editing of untransformed cells and that p53 function should be monitored when developing cell-based therapies utilizing CRISPR–Cas9. CRISPR–Cas9-induced DNA damage triggers p53 to limit the efficiency of gene editing in immortalized human retinal pigment epithelial cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

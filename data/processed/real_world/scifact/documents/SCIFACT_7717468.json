@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7717468",
+  "title": "Loss of allergen 1 confers a hypervirulent phenotype that resembles mucoid switch variants of Cryptococcus neoformans.",
+  "content": "Microbial survival in a host is usually dependent on the ability of a pathogen to undergo changes that promote escape from host defense mechanisms. The human-pathogenic fungus Cryptococcus neoformans undergoes phenotypic switching in vivo that promotes persistence in tissue. By microarray and real-time PCR analyses, the allergen 1 gene (ALL1) was found to be downregulated in the hypervirulent mucoid switch variant, both during logarithmic growth and during intracellular growth in macrophages. The ALL1 gene encodes a small cytoplasmic protein that is involved in capsule formation. Growth of an all1Delta gene deletion mutant was normal. Similar to cells of the mucoid switch variant, all1Delta cells produced a larger polysaccharide capsule than cells of the smooth parent and the complemented strain produced, and the enlarged capsule inhibited macrophage phagocytosis. The mutant exhibited a modest defect in capsule induction compared to all of the other variants. In animal models the phenotype of the all1Delta mutant mimicked the hypervirulent phenotype of the mucoid switch variant, which is characterized by decreased host survival and elevated intracranial pressure. Decreased survival is likely the result of both an ineffective cell-mediated immune response and impaired phagocytosis by macrophages. Consequently, we concluded that, unlike loss of most virulence-associated genes, where loss of gene function results in attenuated virulence, loss of the ALL1 gene enhances virulence by altering the host-pathogen interaction and thereby impairing clearance. Our data identified the first cryptococcal gene associated with elevated intracranial pressure and support the hypothesis that an environmental opportunistic pathogen has modified its virulence in vivo by epigenetic downregulation of gene function.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

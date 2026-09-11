@@ -1,0 +1,725 @@
+{
+    "dataset": "Real-World Public Telecom PDFs",
+    "evaluation_type": "Document-level retrieval evaluation",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "index_type": "IndexFlatIP",
+    "total_documents": 10,
+    "total_chunks": 1162,
+    "evaluation_queries": 30,
+    "metrics": {
+        "Recall@1": 0.4666666666666667,
+        "Recall@3": 0.7666666666666667,
+        "Recall@5": 0.9,
+        "Recall@10": 1.0,
+        "MRR@10": 0.645
+    },
+    "query_results": [
+        {
+            "query_id": "RW_001",
+            "query": "What rights do I have as a telecom customer?",
+            "relevant_documents": [
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 0.0,
+                "Recall@5": 0.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.16666666666666666
+            }
+        },
+        {
+            "query_id": "RW_002",
+            "query": "What protection do I have if my telecom company provides poor service?",
+            "relevant_documents": [
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 0.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.2
+            }
+        },
+        {
+            "query_id": "RW_003",
+            "query": "What should a telecom company do to protect its customers?",
+            "relevant_documents": [
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 0.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.2
+            }
+        },
+        {
+            "query_id": "RW_004",
+            "query": "How can I complain to my telecom service provider?",
+            "relevant_documents": [
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_005",
+            "query": "What should I do if my telecom company does not resolve my complaint?",
+            "relevant_documents": [
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_006",
+            "query": "Where should I go if I have a problem with my mobile or telecom service?",
+            "relevant_documents": [
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 0.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.2
+            }
+        },
+        {
+            "query_id": "RW_007",
+            "query": "How can I stop receiving unwanted promotional calls and messages?",
+            "relevant_documents": [
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_008",
+            "query": "Can I report spam calls and unwanted SMS messages?",
+            "relevant_documents": [
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.3333333333333333
+            }
+        },
+        {
+            "query_id": "RW_009",
+            "query": "How can I control which promotional messages I receive?",
+            "relevant_documents": [
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.5
+            }
+        },
+        {
+            "query_id": "RW_010",
+            "query": "What level of service quality should I expect from my telecom provider?",
+            "relevant_documents": [
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_011",
+            "query": "What can I do if my mobile network service quality is poor?",
+            "relevant_documents": [
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_012",
+            "query": "Are there any standards for call quality and network performance?",
+            "relevant_documents": [
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_013",
+            "query": "What rules protect me from unwanted commercial calls and messages?",
+            "relevant_documents": [
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_014",
+            "query": "What are telecom companies required to do about spam and promotional communication?",
+            "relevant_documents": [
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_015",
+            "query": "What regulations exist to control unwanted commercial communication?",
+            "relevant_documents": [
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_016",
+            "query": "Can I change my mobile operator without changing my phone number?",
+            "relevant_documents": [
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_017",
+            "query": "How do I port my mobile number to another telecom company?",
+            "relevant_documents": [
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_018",
+            "query": "What are the rules for keeping my phone number when switching telecom providers?",
+            "relevant_documents": [
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.5
+            }
+        },
+        {
+            "query_id": "RW_019",
+            "query": "Where can I find information about how the telecom sector is performing?",
+            "relevant_documents": [
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.5
+            }
+        },
+        {
+            "query_id": "RW_020",
+            "query": "How has the telecom industry performed during the last year?",
+            "relevant_documents": [
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.5
+            }
+        },
+        {
+            "query_id": "RW_021",
+            "query": "What are the latest yearly trends in the telecom sector?",
+            "relevant_documents": [
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.5
+            }
+        },
+        {
+            "query_id": "RW_022",
+            "query": "What were the latest telecom performance statistics in 2025?",
+            "relevant_documents": [
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_023",
+            "query": "How did the telecom sector perform from April to June 2025?",
+            "relevant_documents": [
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_024",
+            "query": "What recent telecom subscriber and performance statistics are available?",
+            "relevant_documents": [
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+            ],
+            "metrics": {
+                "Recall@1": 1.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 1.0
+            }
+        },
+        {
+            "query_id": "RW_025",
+            "query": "Are there any new proposed rules about unwanted commercial calls and messages?",
+            "relevant_documents": [
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.3333333333333333
+            }
+        },
+        {
+            "query_id": "RW_026",
+            "query": "What changes are being proposed for controlling spam calls and promotional messages?",
+            "relevant_documents": [
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.3333333333333333
+            }
+        },
+        {
+            "query_id": "RW_027",
+            "query": "What new telecom rules are being considered for commercial communications?",
+            "relevant_documents": [
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 1.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.5
+            }
+        },
+        {
+            "query_id": "RW_028",
+            "query": "How is the quality of telecom services checked and reported?",
+            "relevant_documents": [
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 0.0,
+                "Recall@5": 1.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.25
+            }
+        },
+        {
+            "query_id": "RW_029",
+            "query": "Who monitors whether telecom companies are meeting service quality standards?",
+            "relevant_documents": [
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+                "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 0.0,
+                "Recall@5": 0.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.16666666666666666
+            }
+        },
+        {
+            "query_id": "RW_030",
+            "query": "How do telecom companies report their service quality performance?",
+            "relevant_documents": [
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+            ],
+            "retrieved_documents": [
+                "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+                "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+                "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+                "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+                "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+                "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+                "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+                "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+            ],
+            "metrics": {
+                "Recall@1": 0.0,
+                "Recall@3": 0.0,
+                "Recall@5": 0.0,
+                "Recall@10": 1.0,
+                "ReciprocalRank@10": 0.16666666666666666
+            }
+        }
+    ]
+}

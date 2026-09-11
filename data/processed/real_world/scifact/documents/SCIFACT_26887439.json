@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26887439",
+  "title": "Survivin depletion preferentially reduces the survival of activated K-Ras-transformed cells.",
+  "content": "To identify cancer-specific targets, we have conducted a synthetic lethal screen using a small interfering RNA (siRNA) library targeting approximately 4,000 individual genes for enhanced killing in the DLD-1 colon carcinoma cell line that expresses an activated copy of the K-Ras oncogene. We found that siRNAs targeting baculoviral inhibitor of apoptosis repeat-containing 5 (survivin) significantly reduced the survival of activated K-Ras-transformed cells compared with its normal isogenic counterpart in which the mutant K-Ras gene had been disrupted (DKS-8). In addition, survivin siRNA induced a transient G(2)-M arrest and marked polyploidy that was associated with increased caspase-3 activation in the activated K-Ras cells. These results indicate that tumors expressing the activated K-Ras oncogene may be particularly sensitive to inhibitors of the survivin protein.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

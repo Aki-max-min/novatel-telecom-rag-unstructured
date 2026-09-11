@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_33904473",
+  "title": "Induced regeneration—the progress and promise of direct reprogramming for heart repair",
+  "content": "Regeneration of cardiac tissue has the potential to transform cardiovascular medicine. Recent advances in stem cell biology and direct reprogramming, or transdifferentiation, have produced powerful new tools to advance this goal. In this Review we examine key developments in the generation of new cardiomyocytes in vitro as well as the exciting progress that has been made toward in vivo reprogramming of cardiac tissue. We also address controversies and hurdles that challenge the field.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

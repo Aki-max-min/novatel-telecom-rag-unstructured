@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5409905",
+  "title": "Sequential histone-modifying activities determine the robustness of transdifferentiation",
+  "content": "Natural interconversions between distinct somatic cell types have been reported in species as diverse as jellyfish and mice. The efficiency and reproducibility of some reprogramming events represent unexploited avenues in which to probe mechanisms that ensure robust cell conversion. We report that a conserved H3K27me3/me2 demethylase, JMJD-3.1, and the H3K4 methyltransferase Set1 complex cooperate to ensure invariant transdifferentiation (Td) of postmitotic Caenorhabditis elegans hindgut cells into motor neurons. At single-cell resolution, robust conversion requires stepwise histone-modifying activities, functionally partitioned into discrete phases of Td through nuclear degradation of JMJD-3.1 and phase-specific interactions with transcription factors that have conserved roles in cell plasticity and terminal fate selection. Our results draw parallels between epigenetic mechanisms underlying robust Td in nature and efficient cell reprogramming in vitro.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

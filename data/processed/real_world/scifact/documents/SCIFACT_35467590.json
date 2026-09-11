@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_35467590",
+  "title": "Structure and developmental regulation of Golli-mbp, a 105-kilobase gene that encompasses the myelin basic protein gene and is expressed in cells in the oligodendrocyte lineage in the brain.",
+  "content": "We have identified a novel transcription unit of 105 kilobases (called the Golli-mbp gene) that encompasses the mouse myelin basic protein (MBP) gene. Three unique exons within this gene are alternatively spliced into MBP exons and introns to produce a family of MBP gene-related mRNAs that are under individual developmental regulation. These mRNAs are temporally expressed within cells of the oligodendrocyte lineage at progressive stages of differentiation. Thus, the MBP gene is a part of a more complex gene structure, the products of which may play a role in oligodendrocyte differentiation prior to myelination. One Golli-mbp mRNA that encodes a protein antigenically related to MBP is also expressed in the spleen and other non-neural tissues.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

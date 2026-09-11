@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_051",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 51,
+  "text": "as QSD(s, t). (e) The QSD(s, t) so derived using the DCR matrix of cells of Circuit Switched (CS) network will be the performance against parameter ‘DCR Spatial Distribution Measure for Circuit Switched (2G/3G) network [CS_QSD (s, t)]’. Similarly QSD(s, t) derived using the DCR matrix of cells of Packet Switched (PS) network will be the performance against parameter ‘DCR Spatial Distribution Measure for Packet Switched (4G/5G and beyond) network [PS_QSD (s, t)]’. (f) DCR value QSD(s, t) in a LSA will be considered as meeting the benchmark, when value QSD(s, t) ≤ Benchmark QSD for respective networks. (g) In case t% of total number of days or s% of total number of cells is not an integer and includes fractional value then the DCR value shall be rounded to the nearest integer value and the same is to be considered for computation of the network’s performance assessment. Figure 1: Terminology for DCR Matrix (iv) There may, however, be situations when DCR data for a few cells may not be available for some of the days of the assessment period. For example, this could happen in a case when the cell was installed and commissioned in the middle of the assessment period; or if a particular cell is shutdown for certain legitimate reasons; or if there was a genuine technical difficulty in acquiring data for a few days. There may also be cases where the net voice traffic handled by a cell on a particular day was zero or DCR",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_042",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 42,
+  "text": "Every Access Provider shall formulate structure and format for headers to be assigned Senders for the purpose of commercial communications via sending SMS or making voice calls to participants which shall include following: - SMS Header, SMS Header Root, SMS Header Branch for Senders sending Promotional SMS, Transactional SMS and Service SMS from 11-character alphanumeric strings which are not allocated or assigned by DoT for other purpose(s) or in accordance to directions of the Authority/ DoT; Calling Line Identity for Senders making Promotional Voice Calls, Transactional Voice Calls and Service Voice Calls from 140-level numbering series or any other numbering series directed by the Authority/DoT; 3. Every Access Provider shall formulate Code of Practice for Entities (CoP-Entities) involved from registered sender(s) to recipient(s) and CoP-Entities shall include at least following entities: - Header Registrar; Consent Registrar; Consent Template Registrar; Content Template Registrar; Content Template Verifier; Telemarketer Functional Entity Registrar for various functions prescribed in the relevant regulation(s); timeline(s) for implementation of the functionality referred in code of practice and operationalizing it; such other matters as the Authority may deem fit, from time to time; CoP-Entities shall also include at least following Distributed Ledger Nodes for the purpose of: - Header Register; Consent Register; Consent Template Register; 23 Content Template Register; Content Template Verifier; Complaint Register; Preference Register; Telemarketer Scrubbing Function Register; Telemarketer Message Delivery Function Register; Telemarketer Voice Delivery Function Register; CoP-Entities shall include at least following: - implementation details for all functional entities; additional measures, as deemed fit by",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

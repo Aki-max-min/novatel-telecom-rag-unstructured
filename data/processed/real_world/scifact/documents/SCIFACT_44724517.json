@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_44724517",
+  "title": "Kruppel-like factor 2 is a transcriptional regulator of chronic and acute inflammation.",
+  "content": "Although myeloid cell activation is requisite for an optimal innate immune response, this process must be tightly controlled to prevent collateral host tissue damage. Kruppel-like factor 2 (KLF2) is a potent regulator of myeloid cell proinflammatory activation. As an approximately 30% to 50% reduction in KLF2 levels has been observed in human subjects with acute or chronic inflammatory disorders, we studied the biological response to inflammation in KLF2(+/-) mice. Herein, we show that partial deficiency of KLF2 modulates the in vivo response to acute (sepsis) and subacute (skin) inflammatory challenge. Mechanistically, we link the anti-inflammatory effects of KLF2 to the inhibition of NF-κB transcriptional activity. Collectively, the observations provide biologically relevant insights into KLF2-mediated modulation of these inflammatory processes that could potentially be manipulated for therapeutic gain.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_224",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 224,
+  "text": "and signatures to control who can do what within the shared ledger. Entries can also be updated by one, some or all of the participants, according to rules agreed by the network. Figure 14: Difference between Centralized, Decentralized and Distributed Architecture 8 Important properties of DLT 8.1 Reconciliation Through Cryptography: In DLT networks different actors (users) of the ledger come to a consensus about the state of the underlying data through consensus algorithms (e.g. Proof of Work, Proof of Stake, Practical Byzantine Fault Tolerance). 8.2 Replicated to Many Institutions: In DLT networks, many parties can have a copy of some or all of the data, making it less likely to have a single point of failure. An additional benefit of this technology is that if one ledger is compromised, the remainder are not. Many parties can also confirm that those records have been added by performing the reconciliation calculations themselves. 8.3 Granular Access Control: Distributed ledgers use ‘keys’ and signatures to control who can do what inside the shared ledger. These keys can be assigned specific capabilities and can be designed in a way that can only operate/ function under certain conditions. 104 Figure 15: Comparison of implementation of record keeping between traditional and DLT based systems 8.4 Transparency and Privacy: Because many parties have a copy of the ledger, and many parties can verify every record, a shared ledger has a high degree of transparency. This can enable a participant with the right access privileges (e.g.: regulator or an",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

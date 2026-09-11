@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_186",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 186,
+  "text": "ranking. The authority must recommend common rules for scoring of all TSPs in case of the present signature filtrations. The source of UCC may be identified based on the analysis of content of A2P/ P2P SMSs. Scoring system may be based on historical patterns, time of communication, mode of communication or depend on season especially in case of promotional messages. ii. Regarding collaboration among access providers, some stakeholders suggested that it may be unwise to share the specifics of a signature solution with all entities, as this would help in creating UCCs that can bypass the signature solution implementations. However, if some access providers decide to work together, then they could selectively share information to help each other via a common secure platform that allows them to exchange information. 5.3 Analysis of inputs and conclusions Following paras deliberates on the issues which are related to complaint handling. Issues and responses to the questions raised in the consultation paper are also summarized. Key points from the current regulatory approach and approaches taken in other jurisdictions to deal with the issues were also considered while analyzing inputs and concluding the issues. Analysis of inputs and conclusions of the Authority are as follows: 5.3.1 Customer Complaint Registration Facility (CCRF): Similar to the provisions in the current regulations, access provider should establish CCRF for its customers to make complaint(s). However, facility may be made more efficient and effective by automating most of the complaint handling processes. Considering computational resources and networking technologies which are",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

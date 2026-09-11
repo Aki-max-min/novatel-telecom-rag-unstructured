@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_38300781",
+  "title": "Ionic protein-lipid interaction at the plasma membrane: what can the charge do?",
+  "content": "Phospholipids are the major components of cell membranes, but they have functional roles beyond forming lipid bilayers. In particular, acidic phospholipids form microdomains in the plasma membrane and can ionically interact with proteins via polybasic sequences, which can have functional consequences for the protein. The list of proteins regulated by ionic protein-lipid interaction has been quickly expanding, and now includes membrane proteins, cytoplasmic soluble proteins, and viral proteins. Here we review how acidic phospholipids in the plasma membrane regulate protein structure and function via ionic interactions, and how Ca(2+) regulates ionic protein-lipid interactions via direct and indirect mechanisms.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

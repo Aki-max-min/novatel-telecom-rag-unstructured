@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4343811",
+  "title": "Specific interference by ingested dsRNA.",
+  "content": "A genetic interference phenomenon in the nematode Caenorhabditis elegans has been described in which expression of an individual gene can be specifically reduced by microinjecting a corresponding fragment of double-stranded (ds) RNA. One striking feature of this process is a spreading effect: interference in a broad region of the animal is observed following the injection of dsRNA into the extracellular body cavity. Here we show that C. elegans can respond in a gene-specific manner to dsRNA encountered in the environment. C. elegans normally feed on bacteria, ingesting and grinding them in the pharynx and subsequently absorbing bacterial contents in the gut. We find that Escherichia coli bacteria expressing dsRNAs can confer specific interference effects on the nematode larvae that feed on them.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

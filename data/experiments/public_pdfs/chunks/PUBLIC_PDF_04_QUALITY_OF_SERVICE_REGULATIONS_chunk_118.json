@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_118",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 118,
+  "text": "5 years to implement the regulation. Above comments seem to have been submitted without any comprehensive study of the consultation paper. However, the Authority has decided that the regulations shall come into force with effect from 1st October 2024. Apart from that the Authority has also decided to give additional time of six months for changing reporting frequency from quarterly to monthly in respect of Access (Wireless) service. In addition, the Authority has decided to provide a glide path upto two and half years in a phased manner for certain parameters. The QoS regulations are applicable to the service providers as specified in the Regulation in line with the mandate provided in TRAI Act, 1997 as amended from time to time. 5.2 QUALITY OF SERVICE PARAMETERS FOR ACCESS SERVICE (WIRELINE) (Regulation 4) The service provisioning and fault repair parameters are similar in nature for Access Service (Wireline) and Broadband (Wireline) services. The draft regulation in the consultation paper proposed common parameters for both services. However, considering the distinct service requirements and separate licensing framework for wireline access services and broadband services, the Authority has prescribed the parameters and benchmarks under relevant regulations separately. Further, since the customer service-related parameters are similar for Access Service (Wireline), Access Service (Wireless), and Broadband (Wireline) services, accordingly the same have been clubbed together to simplify the compliance requirements. The parameters with benchmarks for Access Service (Wireline) are provided in regulation 4; for Access Service (Wireless) in regulation 6 and 7, while for the Broadband",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

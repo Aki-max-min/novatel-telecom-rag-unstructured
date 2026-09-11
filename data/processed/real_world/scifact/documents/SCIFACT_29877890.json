@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29877890",
+  "title": "Histone chaperones and nucleosome assembly.",
+  "content": "Recent structures of the nucleosome core particle reveal details of histone-histone and histone-DNA interactions. These structures have now set the stage for understanding chromatin assembly and dynamics during replication and transcription. Histone chaperones and chromatin remodeling complexes are important in both of these processes. The nucleosome and its protein core, the histone octamer, have twofold symmetry, which histone chaperones may use to bind core histones. Recent studies suggest that the nucleoplasmin pentamer may mediate histone storage, sperm chromatin decondensation and nucleosome assembly, by dimerizing to form a decamer. In this model, histone binding on the lateral surface of the chaperone involves stereospecific interactions and a shared twofold axis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

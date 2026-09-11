@@ -1,0 +1,15 @@
+{
+  "page_id": 770,
+  "pdf_path": "reports\\08_telecom_performance_apr_jun_2025.pdf",
+  "pdf_name": "08_telecom_performance_apr_jun_2025.pdf",
+  "document_id": "08_telecom_performance_apr_jun_2025",
+  "page_number": 99,
+  "page_number_zero_based": 98,
+  "image_path": "page_images\\08_telecom_performance_apr_jun_2025\\page_0099.jpg",
+  "embedding_path": "embeddings\\08_telecom_performance_apr_jun_2025\\page_0099.pt",
+  "embedding_shape": [
+    1,
+    1030,
+    128
+  ]
+}

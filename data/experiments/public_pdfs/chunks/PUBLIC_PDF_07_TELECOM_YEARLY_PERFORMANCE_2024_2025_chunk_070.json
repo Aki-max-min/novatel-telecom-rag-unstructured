@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_070",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 70,
+  "text": "(MOUs) per subscriber per month for postpaid services decreased from 544 during the year 2023-24 to 503 in 2024-25. However, MoUs for prepaid services increased from 997 to 1047 during the same period. 14. Outgoing MoUs per subscriber per month increased from 480 during 2023-24 to 500 in 2024-25 and Incoming MoUs per subscriber per month also increased from 483 to 500 during the same period. Segment MOUs Year Circle A Circle B Circle C Metros All India Postpaid Outgoing MOU 2023-24 271.37 270.64 352.35 241.62 277.61 2024-25 255.79 240.18 307.89 237.19 256.39 Incoming MOU 2023-24 256.45 270.25 345.66 223.06 266.73 2024-25 243.21 240.67 303.83 218.04 246.99 Total MOU 2023-24 527.82 540.89 698.01 464.68 544.35 2024-25 499.00 480.85 611.72 455.23 503.38 Prepaid Outgoing MOU 2023-24 447.00 491.58 615.13 488.07 496.38 2024-25 477.07 516.68 636.42 512.52 522.90 Incoming MOU 2023-24 443.66 499.42 637.25 466.43 500.28 2024-25 473.42 521.22 653.31 484.97 524.05 Total MOU 2023-24 890.66 991.00 1252.38 954.49 996.66 2024-25 950.50 1037.91 1289.73 997.49 1046.95 Blended Outgoing MOU 2023-24 433.02 481.65 594.78 442.76 479.91 2024-25 456.88 502.12 607.64 456.44 500.01 Incoming MOU 2023-24 428.76 489.12 614.67 421.69 482.70 2024-25 452.42 506.44 622.69 430.60 500.26 Total MOU 2023-24 861.78 970.77 1209.45 864.46 962.61 2024-25 909.30 1008.56 1230.33 887.04 1000.27 83 Table 2.5: Category-wise average number of outgoing SMS per subscriber per month Category Postpaid Prepaid Blended 2023-24 2024-25 2023-24 2024-25 2023-24 2024-25 Circle A 13.01 11.31 11.49 10.88 11.61 10.92 Circle B 6.68 4.90 10.61 10.32 10.43 10.04 Circle C 12.00 9.70",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

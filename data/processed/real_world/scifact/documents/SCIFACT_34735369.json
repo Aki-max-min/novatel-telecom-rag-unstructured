@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_34735369",
+  "title": "Actin dynamics and cell-cell adhesion in epithelia.",
+  "content": "Recent advances in the field of intercellular adhesion highlight the importance of adherens junction association with the underlying actin cytoskeleton. In skin epithelial cells a dynamic feature of adherens junction formation involves filopodia, which physically project into the membrane of adjacent cells, catalyzing the clustering of adherens junction protein complexes at their tips. In turn, actin polymerization is stimulated at the cytoplasmic interface of these complexes. Although the mechanism remains unclear, the VASP/Mena family of proteins seems to be involved in organizing actin polymerization at these sites. In vivo, adherens junction formation appears to rely upon filopodia in processes where epithelial sheets must be physically moved closer to form stable intercellular connections, for example, in ventral closure in embryonic development or wound healing in the postnatal animal.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

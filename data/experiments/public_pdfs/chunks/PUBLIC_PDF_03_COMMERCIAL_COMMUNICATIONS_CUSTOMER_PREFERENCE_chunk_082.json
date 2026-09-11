@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_082",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 82,
+  "text": "and testing. 5 5thAmendment Dated 18th March 2011 Re-determination of dates for Regulations 12, 17 and 18 to 22, due to non-availability of level series for telemarketers for fixed line networks. 6 6thAmendment Dated 5th September 2011 Re-determination of dates for Regulations 12, 17 and 18 to 22 as Level '140' series allocated for telemarketers for fixed network on 16th August 2011. Added: \"Transaction Message\" definition- information pertaining to Depositories registered with SEBI, DTH operators and information from a registered educational institution to its students. Added: Exempting Government and Statutory Bodies from definition of UCC- any message transmitted by or on directions of bodies established under the Constitution or the Central Government or State Government, or the Authority or by any agency authorized by the Authority was exempted from the definition of UCC. Modified: Reduced time period to change preference- for changing preferences reduced from three months to seven days. Introduced: timing restrictions for delivery of commercial communications- commercial communication other than Transactional message to be sent only between 0900 to 2100 hrs. Added: Capping on SMS/ Day- 100 (for pre-paid) and 300 SMS/SIM/Day (for post-paid) with provisions for exempting categories as specified from time to time. Introduced: Format and structure for SMS Header in Schedule-I '140' series and SMS headers for providing Telecom resources to Telemarketer for voice calls in Schedule-III 7 7thAmendment Dated 25th October 2011 Introduced: \"Promotional SMS Charge\" as charge payable by an OAP to the TAP for each promotional SMS sent by a RTM from",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

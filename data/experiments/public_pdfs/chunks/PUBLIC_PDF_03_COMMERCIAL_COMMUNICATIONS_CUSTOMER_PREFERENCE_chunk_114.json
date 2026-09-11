@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_114",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 114,
+  "text": "solutions. While finalizing header format and structure of header, it may be ensured that numbering series is in accordance to the as per National Numbering Plan of DoT or any directions or guidelines issued in this 64 regard. Currently 140 series is assigned for telemarketing promotional calls and level “5” is allocated to access providers to assign short codes. Level “1” short codes for messages are being assigned by DoT which are accessible across access providers. Under current regulations, level “5” is also used to provide reply path to the customer to respond against received commercial communication, same may be considered while formulating codes of practice. To ensure that senders obey the regulations and in case of default, actions may be taken against them and licensing requirements for International Long Distance traffic, senders originating commercial communications outside from the country would route traffic via International Long-Distance Operators (ILDOs) as being done at present. In view of this, the Authority decided to specify similar provisions in the regulations for ILDOs to block traffic related to bulk messages. 3.3.4 Unbundling and delegation of functions: Registered Telemarketers (RTMs) at present carry out multiple functions, such as scrubbing against record of preferences, checking against records of consents provided by principal entities, delivering messages or voice calls, etc. Under the revised regulations more functions are required, such as consent acquisition, entity registration, etc. Unbundling of composite functions as independent functions and introducing new functions, which can also be independently performed, provide opportunities to new players",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

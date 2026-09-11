@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5270265",
+  "title": "Combating trastuzumab resistance by targeting SRC, a common node downstream of multiple resistance pathways",
+  "content": "Trastuzumab is a successful rationally designed ERBB2-targeted therapy. However, about half of individuals with ERBB2-overexpressing breast cancer do not respond to trastuzumab-based therapies, owing to various resistance mechanisms. Clinically applicable regimens for overcoming trastuzumab resistance of different mechanisms are not yet available. We show that the nonreceptor tyrosine kinase c-SRC (SRC) is a key modulator of trastuzumab response and a common node downstream of multiple trastuzumab resistance pathways. We find that SRC is activated in both acquired and de novo trastuzumab-resistant cells and uncover a novel mechanism of SRC regulation involving dephosphorylation by PTEN. Increased SRC activation conferred considerable trastuzumab resistance in breast cancer cells and correlated with trastuzumab resistance in patients. Targeting SRC in combination with trastuzumab sensitized multiple lines of trastuzumab-resistant cells to trastuzumab and eliminated trastuzumab-resistant tumors in vivo, suggesting the potential clinical application of this strategy to overcome trastuzumab resistance.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

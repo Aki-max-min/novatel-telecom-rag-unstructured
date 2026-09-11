@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_071",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 71,
+  "text": "following table presents the total MOU (usage from, and outside, the home service area) per subscriber per month for various categories of circles and various platforms for payment viz. post-paid and pre-paid during Q.E. Jun-25. Table 2.4: MOU per subscriber per month - QE Jun-25 MOU per subscriber per month Post-paid Pre-paid Blended Circle category Outgoing MOU Incoming MOU Total MOU Outgoing MOU Incoming MOU Total MOU Outgoing MOU Incoming MOU Total MOU Circle A 259 249 508 488 484 971 466 461 927 Circle B 236 238 474 517 523 1040 502 507 1009 Circle C 298 294 592 635 651 1286 605 619 1224 Metro 240 222 462 518 492 1009 459 435 894 All India 256 247 503 527 528 1055 503 503 1006 2.10 The overall ratio of incoming MOUs and outgoing MOUs for the Q.E. Jun-25 is 50:50. 68 2.11 Average number of Outgoing SMS per subscriber per month is 10 in Q.E. Jun- 25. The following table presents the outgoing SMS usage (usage from and outside, the home service area) per subscriber per month for various categories of circles and various categories of subscribers viz. post-paid and pre-paid during Q.E. Jun-25. Table 2.5: No. of Outgoing SMS per subscriber per month during QE Jun-25 Circle category Outgoing SMS per subscriber per month Post-paid Pre-paid Blended Circle A 12 10 10 Circle B 4 9 9 Circle C 8 15 14 Metro 7 7 7 All India 9 10 10 Chart 2.3: Minutes of Usage",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

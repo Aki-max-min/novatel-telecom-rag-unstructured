@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_183",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 183,
+  "text": "and hash-codes and recommended creating a centralised data sharing and coordination platform to facilitate this. ii. Other stakeholders did not support enhancing existing signature solutions. 5.2.8 Artificial Intelligence (AI) to improve performance of signature solutions: Most of the stakeholders agreed that Artificial Intelligence (AI) based solutions can improve the performance of signature solutions and enhance its capabilities. For example, AI with honeypot can have an artificially intelligent bot which can be programmed to interact with suspected unregistered telemarketers or registered telemarketer not complying with the regulations. Such measures can also help to learn emerging new patterns in UCC which may be required additional remedial measures to be taken by the access providers. These patterns than can be shared with the various TSPs for the implementation in their signature solution. Stakeholders submitted that implementation of the AI solutions would require more discussion between TRAI, TSPs, and vendors. 5.2.9 Honeypots to detect and collect evidences for UCC i. TSPs agreed that honeypots can be helpful in detecting and collecting evidence of unsolicited communications. An artificially intelligent honeypot can be programmed by TSPs to fish out defaulter telemarketers/ UTMs on the basis of call patterns. However, only new numbers should be used in honeypot i.e. no recycled number should be used in honeypot, as it may be possible to get solicited communication on such numbers. Stakeholders also suggested that deployment of honeypots along with use of cryptographic signatures to collect evidence can help to identify similarity among samples collected from multiple sources. Such",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_049",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 49,
+  "text": "one licensed service area may establish such fail-proof connectivity to the main and Disaster recovery sites of the Mobile Number Portability Service providers common for all its licensed service areas; and (b) an Access Provider, who is also an International Long Distance Operator providing carriage service to any Access Provider, may establish such fail-proof connectivity to the main and Disaster recovery sites of the Mobile Number Portability Service providers common for all its licensed services and share its Local Number Portability Database across its various licensed activities for the purpose of implementing Mobile Number Portability Service: Provided further that no Access Provider or International Long Distance Operator providing carriage service to any Access Provider shall share its Local Number Portability Database with another Access Provider or International Long Distance Operator: Provided further that a service provider who is sharing its Local Number Portability Database across its licensed activities shall ensure that such sharing of Local Number Portability Database enables it to directly route messages to ported mobile numbers. (3) Every Access Provider on whose network a message originates shall be responsible for the correct routing of such message. (4) In case of international incoming messages, the International Long Distance Operator carrying such messages shall be responsible for correct routing of messages. (5) Every Access Provider and International Long Distance Operator shall put in place suitable mechanism for safeguarding the data provided by porting subscribers from unauthorized interception or unauthorized access and shall ensure that such data is used solely for",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

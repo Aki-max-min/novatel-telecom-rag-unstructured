@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_006",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 6,
+  "text": "of varied participants and their database can be spread across multiple sites or institutions; records are stored one after the other in a continuous ledger and can only be added when the participants reach a consensus; “Entity Register” means a Distributed Ledger for Entities (DL-Entities) having a records of all entities registered to carry out telemarketing related function(s) with all relevant details. “Explicit consent” means such consent as has been verified directly from the Recipient in a robust and verifiable manner and recorded by Consent Registrar as defined under these regulations; “Fully blocked” means stoppage of all types of commercial communication requiring explicit consent except commercial communication sent under inferred consent; “Header” means an alphanumeric string of maximum eleven characters or numbers assigned to an individual, business or legal entity under these regulations to send commercial communications; “Header Root” means the common sub string of block of headers, starting from the first character; “Header Branch” means the sub string of a header other than header root; “Header Registration Facility or HRF” means the facility established by Header Registrar, under relevant regulations, for registration or de-registration of the header of any principal entity or content provider for sending commercial communications; “Header Register” means a Distributed Ledger for Header (DL-Header) which keeps records of header(s), its purpose of sending commercial communications and details of sender to whom it is assigned in a safe and secure manner; “Header Registrar” is an authorised entity under relevant regulations responsible for maintaining the header register, header",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

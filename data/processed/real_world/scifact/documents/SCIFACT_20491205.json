@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20491205",
+  "title": "Prison health care: a review of the literature.",
+  "content": "The prison population is increasing and the health problems of prisoners are considerable. Prison is designed with punishment, correction and rehabilitation to the community in mind and these goals may conflict with the aims of health care. A literature review showed that the main issues in prison health care are mental health, substance abuse and communicable diseases. Women prisoners and older prisoners have needs which are distinct from other prisoners. Health promotion and the health of the community outside prisons are desirable aims of prison health care. The delivery of effective health care to prisoners is dependent upon partnership between health and prison services and telemedicine is one possible mode of delivery.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_41982985",
+  "title": "Altered TCR signaling from geometrically repatterned immunological synapses.",
+  "content": "The immunological synapse is a specialized cell-cell junction that is defined by large-scale spatial patterns of receptors and signaling molecules yet remains largely enigmatic in terms of formation and function. We used supported bilayer membranes and nanometer-scale structures fabricated onto the underlying substrate to impose geometric constraints on immunological synapse formation. Analysis of the resulting alternatively patterned synapses revealed a causal relation between the radial position of T cell receptors (TCRs) and signaling activity, with prolonged signaling from TCR microclusters that had been mechanically trapped in the peripheral regions of the synapse. These results are consistent with a model of the synapse in which spatial translocation of TCRs represents a direct mechanism of signal regulation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

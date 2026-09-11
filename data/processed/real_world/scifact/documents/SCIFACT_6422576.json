@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6422576",
+  "title": "Ubiquitin-dependent protein degradation.",
+  "content": "A growing number of cellular regulatory mechanisms are being linked to protein modification by the polypeptide ubiquitin. These include key transitions in the cell cycle, class I antigen processing, signal transduction pathways, and receptor-mediated endocytosis. In most, but not all, of these examples, ubiquitination of a protein leads to its degradation by the 26S proteasome. Following attachment of ubiquitin to a substrate and binding of the ubiquitinated protein to the proteasome, the bound substrate must be unfolded (and eventually deubiquitinated) and translocated through a narrow set of channels that leads to the proteasome interior, where the polypeptide is cleaved into short peptides. Protein ubiquitination and deubiquitination are both mediated by large enzyme families, and the proteasome itself comprises a family of related but functionally distinct particles. This diversity underlies both the high substrate specificity of the ubiquitin system and the variety of regulatory mechanisms that it serves.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_039",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 39,
+  "text": "that Authority may, if it so desires, by direction, specify the content and method of making such communication to the complainant; (iii) take appropriate remedial action, as provided for in the Regulations and in the Code of Practice(s), to control Unsolicited Commercial Communications from such Senders so as to ensure compliance with these Regulations; in case of occurrence of complained communications under clause (4)(b) related to promotional Voice Calls made using the number resource(s) allotted from series assigned for transactional and service calls, examine within a maximum time of two business hours, whether there are similar complaints or reports against the same Sender; (i) if it is found that the number of complaints against the Sender are from five or more than five unique Recipients during the last ten days, suspend the outgoing services of all the telecom resources of the Sender which were utilized for sending UCC and initiate investigation by issuing a notice to the Sender, under sub-regulation (5)(d)(i) to give opportunity to represent the case; investigate within five business days from the date of receipt of representation from the Sender and record the reasons of its findings and if the conclusion of is that the Sender was engaged in sending the Unsolicited Commercial Communications, it shall act against such Sender as under- (A) for the first instance of violation, outgoing services of all the telecom resources of the Sender including PRI/SIP trunks etc shall be barred by all the Access Providers for a period of fifteen days,",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

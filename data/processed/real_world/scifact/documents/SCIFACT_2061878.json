@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2061878",
+  "title": "NEAT1: A novel cancer‐related long non‐coding RNA",
+  "content": "Aberrant overexpression of the long non-coding RNA NEAT1 (nuclear paraspeckle assembly transcript 1) has been documented in different types of solid tumours, such as lung cancer, oesophageal cancer, colorectal cancer and hepatocellular carcinoma, in which its high levels are associated with poor prognosis. In contrast, NEAT1 is downregulated in acute promyelocytic leukaemia where it promotes leucocyte differentiation. In this review, we provide an overview of current evidence concerning the oncogenic role and potential clinical utilities of NEAT1. Further investigations are warranted to elucidate the upstream and downstream mechanisms of NEAT1 overexpression.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

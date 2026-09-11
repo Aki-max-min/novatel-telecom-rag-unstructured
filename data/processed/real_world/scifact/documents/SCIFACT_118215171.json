@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_118215171",
+  "title": "How to calculate sample size in animal studies",
+  "content": "Researcher must calculate the sample size before starting of any animal study. It should be adequate enough to detect a small significant difference between the groups. Small sample size is not only responsible for the insignificant result but also for the less power of the study. Calculation of sample size involves complex statistics but it can be simplified to help the researchers who are not from statistical background.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

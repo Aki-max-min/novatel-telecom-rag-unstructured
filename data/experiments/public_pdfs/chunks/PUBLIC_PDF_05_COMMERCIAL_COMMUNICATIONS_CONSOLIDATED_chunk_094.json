@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_094",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 94,
+  "text": "in accordance with the established procedure. 2. Every Access Provider shall formulate codes of practice (CoP-UCC_Detect) for system, functions and process prescribed as following: - implementation details for detecting Unsolicited Commercial Communications related to suspicious unregistered telemarketing activity using Signature solution, deploying honeypots and other technical measures; minimum standards of technical measures to share intelligence information, rules, criteria to detect suspected sources of spam; approaches to detect and identify unregistered Unsolicited Commercial Communications sender(s), who are camouflaging themselves by fragmenting their activity across multiple phone numbers; approaches for deployment of honeypots to capture Unsolicited Commercial Communications voice call(s); approaches to detect and identify source(s) of dictionary attacks; timeline(s) for implementation of the functionality referred in code of practice and operationalizing it; such other matters as the Authority may deem fit, from time to time. 3. Report of entities found to be engaged in making or causing to make silent calls, robocalls, abandoned calls or using telephone directory harvesting software to make Unsolicited Commercial Communications, as and when came to notice of the access provider, or as provided for in the regulations for the registered sender(s) with the access providers, on basis of following criteria: - Ratio of Abandon Calls to total attempted calls for a registered entity exceeding 3% over a period of 24 Hours by an entity using Auto Dialer for Commercial Communications calls; 52 Ratio of Silent Calls to total attempted calls for a registered entity exceeding 1% over a period of 24 hour by an entity using",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_070",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 70,
+  "text": "100.00 67 4 D. Revenue from inroamers and interconnect charges received 18.16 5 E. Total Gross Revenue (C+D) 211.13 6 F. Net inter-operable settlement charges payable -24.51 7 Net Revenue (ARPU) (E+F) 186.62 * includes Interconnect Usages Charges (IUC) and Roaming Settlement Charges (RSC). #There is a difference in ARPU calculated by TRAI and the figures published by TSPs in their financial statements. This is because each TSP has a different methodology to calculate the ARPU. For example, one of the TSPs calculated ARPU by dividing the service revenue by the average number of subscribers during the quarter. Another TSP calculated ARPU by dividing operating revenue as given in the P&L account for the quarter by the average subscriber base for the current and previous quarters. Further, TRAI calculates ARPU per month as Quarterly Revenue adjusted for interconnect usage charges and roaming settlement charges divided by average subscribers during the quarter for its own regulatory analysis. Therefore, the different methods result in a TRAI ARPU figure being less than what a TSP would declare in its quarterly financial results or presents to investors/Credit rating agencies. 2.8 On an all-India average, the overall MOU per month decreased by 1.93% from 1026 in Q.E. Mar-25 to 1006 in Q.E. Jun-25. 2.9 The following table presents the total MOU (usage from, and outside, the home service area) per subscriber per month for various categories of circles and various platforms for payment viz. post-paid and pre-paid during Q.E. Jun-25. Table 2.4: MOU per subscriber",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

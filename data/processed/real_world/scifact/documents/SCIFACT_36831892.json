@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_36831892",
+  "title": "Histone tails: Directing the chromatin response to DNA damage.",
+  "content": "Considerable energetic investment is devoted to altering large stretches of chromatin adjacent to DNA double strand breaks (DSBs). Immediately ensuing DSB formation, a myriad of histone modifications are elicited to create a platform for inducible and modular assembly of DNA repair protein complexes in the vicinity of the DNA lesion. This complex signaling network is critical to repair DNA damage and communicate with cellular processes that occur in cis and in trans to the genomic lesion. Failure to properly execute DNA damage inducible chromatin changes is associated with developmental abnormalities, immunodeficiency, and malignancy in humans and in genetically engineered mouse models. This review will discuss current knowledge of DNA damage responsive histone changes that occur in mammalian cells, highlighting their involvement in the maintenance of genome integrity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

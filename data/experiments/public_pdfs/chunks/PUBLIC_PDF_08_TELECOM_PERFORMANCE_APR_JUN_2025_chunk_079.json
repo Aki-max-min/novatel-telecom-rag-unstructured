@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_079",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 79,
+  "text": "Switched (2G/3G) network [CS_QSD (88, 88)] ≤ 2% 0 0.0% 0 0.0% (ix) DCR Spatial Distribution Measure for Packet Switched (4G/5G and beyond) network [PS_QSD (92, 92)] ≤ 2% 2 2.3% 1 1.1% (x) Downlink Packet Drop Rate for Packet Switched Network (4G/5G and beyond) [DLPDR_QSD (88, 88)] ≤ 2% 0 0.0% 0 0.0% 79 (xi) Uplink Packet Drop Rate for Packet Switched Network (4G/5G and beyond) [ULPDR_QSD (88, 88)] ≤ 2% 1 1.1% 0 0.0% IV. Broadband Service (xii) Latency (in 4G and 5G network) ≤ 75 msec 0 0.0% 0 0.0% (xiii) Packet Drop Rate (in 4G and 5G network) ≤ 3% 0 0.0% 0 0.0% (xiv) Percentile value of measured test samples for which download and upload speed is ≥ offered typical download and upload speed in tariff offerings 80th percentile 0 0.0% 1 1.1% V. Customer Service (xv) Billing and charging complaints ≤ 0.1% 0 0.0% 0 0.0% (xvi) Resolution of billing/ charging complaints within four weeks 100% 0 0.0% 0 0.0% (xvii) Application of adjustment to customer’s account within one week from the date of resolution of billing and charging complaints or rectification of faults or rectification of significant network outage, as applicable 100% 0 0.0% 0 0.0% (xviii) Accessibility of call centre/ customer care ≥ 95% 0 0.0% 0 0.0% (xix) Percentage of calls answered by the operators (voice to voice) within 90 seconds ≥ 95% 6 6.8% 3 3.4% (xx) Termination/ closure of service within seven working 100% 0 0.0% 0 0.0% 80",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

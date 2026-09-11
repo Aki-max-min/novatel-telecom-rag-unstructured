@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_39661951",
+  "title": "Familial Barrett's esophagus associated with adenocarcinoma.",
+  "content": "A family with six cases of Barrett's esophagus over three generations is described. The Barrett's esophagus affected only males, and there were three associated adenocarcinomas. The mechanism of inheritance is compatible with an autosomal dominant pattern with nearly complete penetrance. Other case reports in the literature are compared with this familial case of Barrett's esophagus with associated adenocarcinomas.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

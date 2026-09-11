@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_28069701",
+  "title": "Detecting selective sweeps: a new approach based on hidden markov models.",
+  "content": "Detecting and localizing selective sweeps on the basis of SNP data has recently received considerable attention. Here we introduce the use of hidden Markov models (HMMs) for the detection of selective sweeps in DNA sequences. Like previously published methods, our HMMs use the site frequency spectrum, and the spatial pattern of diversity along the sequence, to identify selection. In contrast to earlier approaches, our HMMs explicitly model the correlation structure between linked sites. The detection power of our methods, and their accuracy for estimating the selected site location, is similar to that of competing methods for constant size populations. In the case of population bottlenecks, however, our methods frequently showed fewer false positives.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

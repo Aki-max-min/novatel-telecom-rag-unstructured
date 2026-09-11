@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_118568_chunk_001",
+  "document_id": "SCIFACT_118568",
+  "chunk_index": 1,
+  "text": "model. CONCLUSIONS In a clinically relevant murine sepsis model, intravenous rhAng-1 treatment alone is sufficient to significantly improve a variety of sepsis-associated organ dysfunctions and survival time, most likely by preserving endothelial barrier function. Further studies are needed to pave the road for clinical application of this therapy concept.",
+  "title": "Acute administration of recombinant Angiopoietin-1 ameliorates multiple-organ dysfunction syndrome and improves survival in murine sepsis.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21855837",
+  "title": "Epigenetic instability in ES cells and cloned mice.",
+  "content": "Cloning by nuclear transfer (NT) is an inefficient process in which most clones die before birth and survivors often display growth abnormalities. In an effort to correlate gene expression with survival and fetal overgrowth, we have examined imprinted gene expression in both mice cloned by nuclear transfer and in the embryonic stem (ES) cell donor populations from which they were derived. The epigenetic state of the ES cell genome was found to be extremely unstable. Similarly, variation in imprinted gene expression was observed in most cloned mice, even in those derived from ES cells of the same subclone. Many of the animals survived to adulthood despite widespread gene dysregulation, indicating that mammalian development may be rather tolerant to epigenetic aberrations of the genome. These data imply that even apparently normal cloned animals may have subtle abnormalities in gene expression.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

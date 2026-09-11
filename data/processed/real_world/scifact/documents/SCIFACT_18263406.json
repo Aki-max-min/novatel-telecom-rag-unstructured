@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18263406",
+  "title": "Detection of alternative lengthening of telomeres by telomere quantitative PCR",
+  "content": "Alternative lengthening of telomeres (ALT) is one of the two known telomere length maintenance mechanisms that are essential for the unlimited proliferation potential of cancer cells. Existing methods for detecting ALT in tumors require substantial amounts of tumor material and are labor intensive, making it difficult to study prevalence and prognostic significance of ALT in large tumor cohorts. Here, we present a novel strategy utilizing telomere quantitative PCR to diagnose ALT. The protocol is more rapid than conventional methods and scrutinizes two distinct characteristics of ALT cells concurrently: long telomeres and the presence of C-circles (partially double-stranded circles of telomeric C-strand DNA). Requiring only 30 ng of genomic DNA, this protocol will facilitate large-scale studies of ALT in tumors and can be readily adopted by clinical laboratories.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17997584",
+  "title": "Integrin αvβ8-Mediated TGF-β Activation by Effector Regulatory T Cells Is Essential for Suppression of T-Cell-Mediated Inflammation",
+  "content": "Regulatory T (Treg) cells play a pivotal role in suppressing self-harmful T cell responses, but how Treg cells mediate suppression to maintain immune homeostasis and limit responses during inflammation is unclear. Here we show that effector Treg cells express high amounts of the integrin αvβ8, which enables them to activate latent transforming growth factor-β (TGF-β). Treg-cell-specific deletion of integrin αvβ8 did not result in a spontaneous inflammatory phenotype, suggesting that this pathway is not important in Treg-cell-mediated maintenance of immune homeostasis. However, Treg cells lacking expression of integrin αvβ8 were unable to suppress pathogenic T cell responses during active inflammation. Thus, our results identify a mechanism by which Treg cells suppress exuberant immune responses, highlighting a key role for effector Treg-cell-mediated activation of latent TGF-β in suppression of self-harmful T cell responses during active inflammation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

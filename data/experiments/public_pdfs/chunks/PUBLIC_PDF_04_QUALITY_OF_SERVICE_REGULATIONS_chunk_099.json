@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_099",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 99,
+  "text": "Figure-3: Enhancement of key capabilities from IMT-Advanced to IMT-2020 [Source: ITU-R M.2083: IMT Vision] (iv) Analysis of performance monitoring reports and consumer complaints reveals that the present QoS performance is not able to match consumer requirements despite technological advancements. The share of ‘Faults and Network Related Complaints’, in overall consumer complaints, remains significantly high as is evident from Table 1. Table-1: Proportion of ‘Faults and Network Related Complaints’ in overall Consumer Complaints ervice Year 2019 Year 2020 Year 2021 Year 2022 Year 2023 Mobile 66.9% 78.1% 82.0% 75.9% 75.2% Basic 68.2% 65.7% 65.0% 69.9% 73.0% Broadband 74.9% 71.5% 74.0% 72.0% 77.6% 134 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] In view of the aforesaid, the Authority is of the view that a comprehensive review of existing QoS standards is essential at this stage. 4.2 Provide a Clear Glide-path towards De-regulation (a) Input of Stakeholders (i) Multiple stakeholders submitted that TRAI should consider and prescribe a phased transition or a glide path towards deregulation of QoS and for the purpose of oversight and monitoring, the move towards deregulation should be progressively accompanied by using third-party apps/ surveys by independent agencies for assessing QoS. This will empower market forces to drive efficiency, innovation and investment and bring more enhanced focus towards servicing customers. (ii) Stakeholders also submitted that a light touch regulatory framework with limited parameters measured and reported quarterly is recommended in the short term, while in the long term, complete deregulation with continued oversight through drive tests and third-party surveys",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

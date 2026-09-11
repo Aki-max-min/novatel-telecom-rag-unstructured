@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_128",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 128,
+  "text": "monitoring purposes. No need to include this parameter in reporting, as TSPs are actively monitoring and reporting Points of Interconnection (PoI) congestion. (ii) One of the stakeholders stated that presently POIs are common for Wireline and Wireless networks between private access service providers. Accordingly, this parameter would not apply separately for wireline and wireless. (b) Analysis and Conclusion (i) The PoI is an important interface which affects the quality of service and therefore needs continuous monitoring at the service provider end. In the case of PoI congestion, it is not possible to make calls to another network which seriously affects QoS and consumer experience. (ii) In the consultation paper, this parameter was for monitoring and reporting to the Authority (regulation 4). However, considering the importance of the parameter and dropping of parameter ‘Grade of Service’ from the regulation, the Authority has decided that this parameter will be complied as per the prescribed benchmark. 5.2.7 Registration of demand for new wireline connection irrespective of technical feasibility (a) Input of Stakeholders Some of the stakeholders said that it should not be considered as part of QoS KPIs to be monitored & reported. This requirement will only increase compliance burden without significantly benefiting the consumers (b) Analysis and Conclusion Considering the feedback from the stakeholders, the Authority has decided to drop this parameter from the regulation. 5.2.8 Requests for Shift of Telephone Connection to be attended within three days (a) Input of Stakeholders (i) Some of the stakeholders submitted that this parameter should",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

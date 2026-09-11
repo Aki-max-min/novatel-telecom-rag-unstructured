@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12440953",
+  "title": "Roles for MicroRNAs in Conferring Robustness to Biological Processes",
+  "content": "Biological systems use a variety of mechanisms to maintain their functions in the face of environmental and genetic perturbations. Increasing evidence suggests that, among their roles as posttranscriptional repressors of gene expression, microRNAs (miRNAs) help to confer robustness to biological processes by reinforcing transcriptional programs and attenuating aberrant transcripts, and they may in some network contexts help suppress random fluctuations in transcript copy number. These activities have important consequences for normal development and physiology, disease, and evolution. Here, we will discuss examples and principles of miRNAs that contribute to robustness in animal systems.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

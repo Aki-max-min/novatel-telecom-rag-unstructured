@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27077180",
+  "title": "Transient receptor potential channels as drug targets: from the science of basic research to the art of medicine.",
+  "content": "The large Trp gene family encodes transient receptor potential (TRP) proteins that form novel cation-selective ion channels. In mammals, 28 Trp channel genes have been identified. TRP proteins exhibit diverse permeation and gating properties and are involved in a plethora of physiologic functions with a strong impact on cellular sensing and signaling pathways. Indeed, mutations in human genes encoding TRP channels, the so-called \"TRP channelopathies,\" are responsible for a number of hereditary diseases that affect the musculoskeletal, cardiovascular, genitourinary, and nervous systems. This review gives an overview of the functional properties of mammalian TRP channels, describes their roles in acquired and hereditary diseases, and discusses their potential as drug targets for therapeutic intervention.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

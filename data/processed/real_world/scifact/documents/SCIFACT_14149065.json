@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14149065",
+  "title": "E-cadherin engagement stimulates proliferation via Rac1",
+  "content": "E-cadherin has been linked to the suppression of tumor growth and the inhibition of cell proliferation in culture. We observed that progressively decreasing the seeding density of normal rat kidney-52E (NRK-52E) or MCF-10A epithelial cells from confluence, indeed, released cells from growth arrest. Unexpectedly, a further decrease in seeding density so that cells were isolated from neighboring cells decreased proliferation. Experiments using microengineered substrates showed that E-cadherin engagement stimulated the peak in proliferation at intermediate seeding densities, and that the proliferation arrest at high densities did not involve E-cadherin, but rather resulted from a crowding-dependent decrease in cell spreading against the underlying substrate. Rac1 activity, which was induced by E-cadherin engagement specifically at intermediate seeding densities, was required for the cadherin-stimulated proliferation, and the control of Rac1 activation by E-cadherin was mediated by p120-catenin. Together, these findings demonstrate a stimulatory role for E-cadherin in proliferative regulation, and identify a simple mechanism by which cell–cell contact may trigger or inhibit epithelial cell proliferation in different settings.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

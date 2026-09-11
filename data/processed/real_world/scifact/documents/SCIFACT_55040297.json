@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_55040297",
+  "title": "A diversity of beta diversities: straightening up a concept gone awry. Part 1. Defining beta diversity as a function of alpha and gamma diversity",
+  "content": "The term beta diversity has been used to refer to a wide variety of phenomena. Although all of these encompass some kind of compositional heterogeneity between places, many are not related to each other in any predictable way. The present two-part review aims to put the different phenomena that have been called beta diversity into a common conceptual framework, and to explain what each of them measures. In this first part, the focus is on defining a beta component of diversity. This involves deciding what diversity is and how the observed total or gamma diversity (g) is partitioned into alpha (a) and beta (b) components. Several different definitions of ‘‘beta diversity’’ that result from these decisions have been used in the ecological literature. True beta diversity is obtained when the total effective number of species in a dataset (true gamma diversity g) is multiplicatively partitioned into the effective number of species per compositionally distinct",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

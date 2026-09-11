@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14461101",
+  "title": "Tyrosine-Phosphorylated Caveolin-1 Blocks Bacterial Uptake by Inducing Vav2-RhoA-Mediated Cytoskeletal Rearrangements",
+  "content": "Certain bacterial adhesins appear to promote a pathogen's extracellular lifestyle rather than its entry into host cells. However, little is known about the stimuli elicited upon such pathogen host-cell interactions. Here, we report that type IV pili (Tfp)-producing Neisseria gonorrhoeae (P(+)GC) induces an immediate recruitment of caveolin-1 (Cav1) in the host cell, which subsequently prevents bacterial internalization by triggering cytoskeletal rearrangements via downstream phosphotyrosine signaling. A broad and unbiased analysis of potential interaction partners for tyrosine-phosphorylated Cav1 revealed a direct interaction with the Rho-family guanine nucleotide exchange factor Vav2. Both Vav2 and its substrate, the small GTPase RhoA, were found to play a direct role in the Cav1-mediated prevention of bacterial uptake. Our findings, which have been extended to enteropathogenic Escherichia coli, highlight how Tfp-producing bacteria avoid host cell uptake. Further, our data establish a mechanistic link between Cav1 phosphorylation and pathogen-induced cytoskeleton reorganization and advance our understanding of caveolin function.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

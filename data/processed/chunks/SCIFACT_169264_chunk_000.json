@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_169264_chunk_000",
+  "document_id": "SCIFACT_169264",
+  "chunk_index": 0,
+  "text": "A multitude of nanoparticles, such as titanium oxide (TiO2), zinc oxide, aluminum oxide, gold oxide, silver oxide, iron oxide, and silica oxide, are found in many chemical, cosmetic, pharmaceutical, and electronic products. Recently, SiO2 nanoparticles were shown to have an inert toxicity profile and no association with an irreversible toxicological change in animal models. Hence, exposure to SiO2 nanoparticles is on the increase. SiO2 nanoparticles are routinely used in numerous materials, from strengthening filler for concrete and other construction composites, to nontoxic platforms for biomedical application, such as drug delivery and theragnostics. On the other hand, recent in vitro experiments indicated that SiO2 nanoparticles were cytotoxic. Therefore, we investigated these nanoparticles to identify potentially toxic pathways by analyzing the adsorbed protein corona on the surface of SiO2 nanoparticles in the blood and brain of the rat. Four types of SiO2 nanoparticles were chosen for investigation, and the protein corona of each type was analyzed using liquid chromatography-tandem mass spectrometry technology. In total, 115 and 48 plasma proteins from the rat were identified as being bound to negatively charged 20 nm and 100 nm SiO2 nanoparticles, respectively, and 50 and 36 proteins were found for 20 nm and 100 nm arginine-coated SiO2 nanoparticles, respectively. Higher numbers of proteins were adsorbed onto the 20 nm sized SiO2 nanoparticles than onto the 100 nm sized nanoparticles regardless of charge. When proteins were compared between the two charges, higher numbers of proteins were found for arginine-coated positively charged SiO2 nanoparticles than for the negatively",
+  "title": "Analysis of SiO2 nanoparticles binding proteins in rat blood and brain homogenate",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

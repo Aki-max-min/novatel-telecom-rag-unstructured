@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14753395",
+  "title": "Structure and function of the blood–brain barrier",
+  "content": "Neural signalling within the central nervous system (CNS) requires a highly controlled microenvironment. Cells at three key interfaces form barriers between the blood and the CNS: the blood-brain barrier (BBB), blood-CSF barrier and the arachnoid barrier. The BBB at the level of brain microvessel endothelium is the major site of blood-CNS exchange. The structure and function of the BBB is summarised, the physical barrier formed by the endothelial tight junctions, and the transport barrier resulting from membrane transporters and vesicular mechanisms. The roles of associated cells are outlined, especially the endfeet of astrocytic glial cells, and pericytes and microglia. The embryonic development of the BBB, and changes in pathology are described. The BBB is subject to short and long-term regulation, which may be disturbed in pathology. Any programme for drug discovery or delivery, to target or avoid the CNS, needs to consider the special features of the BBB.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

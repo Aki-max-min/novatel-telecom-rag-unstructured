@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_161",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 161,
+  "text": "to do it in right manner next time. For this purpose, one of the way may be to provide information to the customer to download and use mobile app which takes care of format related issue. In view of above, the Authority decides that access provider be required to provide details about format and procedure to customer whose request has been rejected on grounds of incomplete information or incorrect format and codify this requirement in the appropriate Code(s) of Practice. 4.3.4 Adopting technology driven solutions: Distributed Ledger Technologies (DLT) (refer para 6 to 10 of this explanatory memorandum) with complementing technology and platforms can enable sharing of preference data and execution of scrubbing processes, in a multi participant environment, in safe and secure manner. Authority is of the view that technology driven solutions may take care of complexity for providing refined choices of preferences and quickly applying for enforcement while end users of the system may need to deal only with the business interfaces. The technology will also make it easier to implement the proposed ‘Scrubbing as a Service’ model. 4.3.5 Preferences should be recorded on the Distributed Ledger for Preferences (DL-Preferences) and be made available for scrubbing. DL-Preferences should be established, maintained and operated by the access provider or any other agency on its behalf. DL-Preference ledger should perform following functions: i. recording preferences of customer(s) in non-repudiable and immutable manner; ii. maintaining relevant details about customer; iii. retaining preferences information during mobile number portability process, with changes in",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

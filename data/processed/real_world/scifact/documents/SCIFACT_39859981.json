@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_39859981",
+  "title": "Symmetric signalling within asymmetric dimers of the Staphylococcus aureus receptor histidine kinase AgrC.",
+  "content": "Virulence in Staphylococcus aureus is largely under control of the accessory gene regulator (agr) quorum-sensing system. The AgrC receptor histidine kinase detects its autoinducing peptide (AIP) ligand and generates an intracellular signal resulting in secretion of virulence factors. Although agr is a well-studied quorum-sensing system, little is known about the mechanism of AgrC activation. By co-immunoprecipitation analysis and intermolecular complementation of receptor mutants, we showed that AgrC forms ligand-independent dimers that undergo trans-autophosphorylation upon interaction with AIP. Remarkably, addition of specific AIPs to AgrC mutant dimers with only one functional sensor domain caused symmetric activation of either kinase domain despite the sensor asymmetry. Furthermore, mutant dimers involving one constitutive protomer demonstrated ligand-independent activity, irrespective of which protomer was kinase deficient. These results demonstrate that signalling through either individual AgrC protomer causes symmetric activation of both kinase domains. We suggest that such signalling across the dimer interface may be an important mechanism for dimeric quorum-sensing receptors to rapidly elicit a response upon signal detection.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

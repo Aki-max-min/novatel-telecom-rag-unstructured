@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_090",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 90,
+  "text": "typical download and upload speed in tariff offerings 90th percentile ❖ Fault incidences (No. of faults per 100 subscribers) ≤5 ❖ Billing and charging complaints ≤0.1% ❖ Application of adjustment to customer’s account within one week from the date of resolution of billing and charging complaints or rectification of faults or rectification of significant network outage, as applicable 100% 90 (ii) QoS parameters where performance deteriorated in this quarter as compared to the previous quarter ❖ Fault repair by next working day ≥85% ❖ Fault repair within three working days ≥99% ❖ Resolution of billing/ charging complaints within four weeks 100% ❖ Percentage of calls answered by the operators (voice to voice) within 90 seconds ≥95% Table 4.6: Parameter-wise analysis of non-compliance of QoS benchmarks for Broadband Service Providers Parameter Benchmark Service Provider Service Area Performance Percentile value of measured test samples for which download and upload speed is ≥ offered typical download and upload speed in tariff offerings 90th percentile Alegra Communication Pvt. Ltd. MH Kindly refer to TRAI’s website https://www.trai.gov.in/ sites/default/files/2025- 07/Performance_Report_ 29072025.pdf Bangalore Broadband Network Pvt Ltd. KT Deshkal Network Pvt. Ltd. KT GTPL KCBPL Broadband Private Limited KOL GTPL KCBPL Broadband Private Limited OR GTPL KCBPL Broadband Private Limited WB Kerala Fibre Optic Network Ltd. KR Mahanagar Telephone Nigam Ltd. AI ZITA Telecom Pvt. Ltd BR ZITA Telecom Pvt. Ltd KOL ZITA Telecom Pvt. Ltd WB Fault incidences (No. of faults per 100 subscribers) ≤ 5 Airfiber Networks Pvt. Ltd. TN 9.72 K NET Solutions Private",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

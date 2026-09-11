@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29125354",
+  "title": "Transcriptional Repression of Gata3 Is Essential for Early B Cell Commitment",
+  "content": "The mechanisms underlying the silencing of alternative fate potentials in very early B cell precursors remain unclear. Using gain- and loss-of-function approaches together with a synthetic Zinc-finger polypeptide (6ZFP) engineered to prevent transcription factor binding to a defined cis element, we show that the transcription factor EBF1 promotes B cell lineage commitment by directly repressing expression of the T-cell-lineage-requisite Gata3 gene. Ebf1-deficient lymphoid progenitors exhibited increased T cell lineage potential and elevated Gata3 transcript expression, whereas enforced EBF1 expression inhibited T cell differentiation and caused rapid loss of Gata3 mRNA. Notably, 6ZFP-mediated perturbation of EBF1 binding to a Gata3 regulatory region restored Gata3 expression, abrogated EBF1-driven suppression of T cell differentiation, and prevented B cell differentiation via a GATA3-dependent mechanism. Furthermore, EBF1 binding to Gata3 regulatory sites induced repressive histone modifications across this region. These data identify a transcriptional circuit critical for B cell lineage commitment.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

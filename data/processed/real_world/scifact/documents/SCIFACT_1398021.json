@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1398021",
+  "title": "Familial hiatal hernia in a large five generation family confirming true autosomal dominant inheritance.",
+  "content": "BACKGROUND Familial hiatal hernia has only rarely been documented. AIMS To describe the pattern of inheritance of familial hiatal hernia within an affected family. SUBJECTS Thirty eight members of a family pedigree across five generations. METHODS All family members were interviewed and investigated by barium meal for evidence of a hiatal hernia. RESULTS Twenty three of 38 family members had radiological evidence of a hiatal hernia. No individual with a hiatal hernia was born to unaffected parents. In one case direct male to male transmission was shown. CONCLUSIONS Familial inheritance of hiatal hernia does occur. Evidence of direct male to male transmission points to an autosomal dominant mode of inheritance.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

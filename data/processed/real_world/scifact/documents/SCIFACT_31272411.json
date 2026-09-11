@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_31272411",
+  "title": "Immune signaling by RIG-I-like receptors.",
+  "content": "The RIG-I-like receptors (RLRs) RIG-I, MDA5, and LGP2 play a major role in pathogen sensing of RNA virus infection to initiate and modulate antiviral immunity. The RLRs detect viral RNA ligands or processed self RNA in the cytoplasm to trigger innate immunity and inflammation and to impart gene expression that serves to control infection. Importantly, RLRs cooperate in signaling crosstalk networks with Toll-like receptors and other factors to impart innate immunity and to modulate the adaptive immune response. RLR regulation occurs at a variety of levels ranging from autoregulation to ligand and cofactor interactions and posttranslational modifications. Abberant RLR signaling or dysregulation of RLR expression is now implicated in the development of autoimmune diseases. Understanding the processes of RLR signaling and response will provide insights to guide RLR-targeted therapeutics for antiviral and immune-modifying applications.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_011",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 11,
+  "text": "serving node to ISP Gateway Node [Intra-network] or Internet Exchange Point Link(s) ≤ 80% 5. Jitter ≤ 40ms 6. Accessibility of call centre/ customer care ≥ 95% 26. A total of approximately 912 private satellite TV channels have been permitted by the Ministry of Information and Broadcasting (MIB) for uplinking only/downlinking only/both uplinking & downlinking. x 27. As per the reporting done by broadcasters in pursuance of the Tariff Order dated 3rd March 2017, as amended, out of 902 permitted satellite TV channels which are available for downlinking in India, there are 333 satellite pay TV channels as on 30th June, 2025. Out of 333 pay channels, 232 are SD satellite pay TV channels and 101 are HD satellite pay TV channels. 28. During the QE 30th June 2025, there were 4 pay DTH service providers in the country. 29. Pay DTH has attained total active subscriber base of around 56.07 million. This is in addition to the subscribers of the DD Free Dish (free DTH services of Doordarshan). The total active subscriber base has declined from 56.92 million in quarter ending March 2025 to 56.07 million in quarter ending June 2025. 30. Apart from the radio channels operated by All India Radio, the public broadcaster, as per the data reported by FM Radio operators to TRAI, as on 31st March 2025, there were 388 operational private FM Radio channels in 113 cities operated by 33 private FM Radio operators. During the quarter ending 30th June 2025, one channel operated",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

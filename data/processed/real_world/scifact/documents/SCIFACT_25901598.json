@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_25901598",
+  "title": "An acetylation switch in p53 mediates holo-TFIID recruitment.",
+  "content": "Posttranslational modifications mediate important regulatory functions in biology. The acetylation of the p53 transcription factor, for example, promotes transcriptional activation of target genes including p21. Here we show that the acetylation of two lysine residues in p53 promotes recruitment of the TFIID subunit TAF1 to the p21 promoter through its bromodomains. UV irradiation of cells diacetylates p53 at lysines 373 and 382, which in turn recruits TAF1 to a distal p53-binding site on the p21 promoter prior to looping to the core promoter. Disruption of acetyl-p53/bromodomain interaction inhibits TAF1 recruitment to both the distal p53-binding site and the core promoter. Further, the TFIID subunits TAF4, TAF5, and TBP are detected on the core promoter prior to TAF1, suggesting that, upon DNA damage, distinct subunits of TFIID may be recruited separately to the p21 promoter and that the transcriptional activation depends on posttranslational modification of the p53 transcription factor.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

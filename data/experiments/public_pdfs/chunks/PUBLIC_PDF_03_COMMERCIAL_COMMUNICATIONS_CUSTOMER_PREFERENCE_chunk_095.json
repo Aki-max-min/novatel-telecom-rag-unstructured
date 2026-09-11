@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_095",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 95,
+  "text": "the origination, transmission, processing and delivery of commercial communications, which can make it difficult to establish responsibility in case of violations of UCC regulations. Therefore, it might be necessary to register all such entities and intermediaries, such as Senders or content providers, TMSEs, Principal Entities, aggregators and others. It might also be necessary to specify Standard agreements between entities in the chain. 3.1.3 Registers and Registrars for different purposes, e.g. assigning headers, recording consents, registering consent/ content templates and execution of agreements: RTMs often communicate with those who have opted out of commercial communications on the ground that the consent of the recipient has been obtained for such communication. However, records of such consent are not available in a digital form. Further, this consent information is not considered during scrubbing. Instances of mixing of transactional messages with the promotional messages have also been observed. In such cases, 57 telemarketers express their inability to inspect every message passing given their very high volume. One approach to tackle both these issues would be to mandate pre-registered content templates and consent templates. Then technological solutions can be deployed to ensure that the consent obtained, or the contents of a transactional message are in line with regulations. Headers may also be registered, and suitable rules developed for assigning the headers. To manage all these functionalities, it will be necessary to establish dedicated, trusted entities (registrars), who can operate a network for sharing, managing and storing information in a secure manner. The registrars and the",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_076",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 76,
+  "text": "and the receiver's clock at the time of arrival, measured in the same units. If Si is the RTP timestamp from packet i, and Ri is the time of arrival in RTP timestamps units for packet i, then for two packets i and j the inter-arrival jitter D can be expressed as: D(i,j) = (Rj - Ri ) - (Sj - Si ) (iv) The Jitter measurements should be conducted as per the test setup as prescribed in para 4.4.1 above for each technology separately for RTP and UDP. The test calls for Jitter shall be made during TCBH. (v) The IPDV (jitter) shall be calculated as mean deviation based on the samples collected for the delay measurement as per the setup used for measurement of latency as per ITU-T Recommendation G.1051. 124 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] 6.3. Fault Repair 6.3.1. Fault incidences (No. of faults per 100 subscribers) Same as provided in para 3.2.1 above. 6.3.2. Fault repair by next working day and Fault repair within three working days Same as provided in para 3.2.2 above. 7. Measurement Methodology for QoS Parameters under Regulation 10.- Customer Service 7.1. Customer Service 7.1.1. Billing and charging complaints (i) Billing and the charging complaints for post-paid or pre-paid subscribers shall include, but not limited to, the following: (a) payment made and not credited. (b) payment made on time, but late payment charges levied wrongly. (c) double charges. (d) charging for toll free services. (e) local call charges billed as",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

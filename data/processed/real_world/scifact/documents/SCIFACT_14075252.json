@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14075252",
+  "title": "Paraneoplastic thrombocytosis: the secrets of tumor self-promotion.",
+  "content": "Paraneoplastic thrombocytosis is associated with many solid tumors and often correlates with reduced survival. Recent studies suggest that a pathogenic feed back loop may be operative between platelets and tumor cells, with reciprocal interactions between tumor growth/metastasis and thrombocytosis/platelet activation. Specific molecular pathways have been identified in which tumors can stimulate platelet production and activation; activated platelets can, in turn, promote tumor growth and metastasis. Taken together, these findings provide exciting new potential targets for therapeutic intervention.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

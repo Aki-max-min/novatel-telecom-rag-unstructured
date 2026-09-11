@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_207972_chunk_001",
+  "document_id": "SCIFACT_207972",
+  "chunk_index": 1,
+  "text": "treatment in a time-dependent manner in two different cell lines. FIP-2 has consensus sequences for several potential posttranslational modifications. These data suggest that FIP-2 is one of the cellular targets for Ad E3-14.7K and that its mechanism of affecting cell death involves the TNF receptor, RIP, or a downstream molecule affected by either of these two molecules.",
+  "title": "Interaction of an adenovirus E3 14.7-kilodalton protein with a novel tumor necrosis factor alpha-inducible cellular protein containing leucine zipper domains.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

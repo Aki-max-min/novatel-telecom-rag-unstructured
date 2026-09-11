@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_33127778",
+  "title": "Early gastric cancer and dysplasia.",
+  "content": "Since the concept of early gastric cancer was first described in Japan in 1962, its treatment has evolved from curative surgical resection to endoscopic resection, initially with polypectomy to more recently with endoscopic submucosal dissection. As worldwide experience with these endoscopic techniques evolve and gain acceptance, studies have confirmed its comparable effectiveness with historical surgical outcomes in carefully selected patients. The criteria for endoscopic resection have expanded to offer more patients improved quality of life, avoiding the morbidity and mortality associated with surgery. This article summarizes the evolutional role of endoscopic and surgical therapy in early gastric cancer.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

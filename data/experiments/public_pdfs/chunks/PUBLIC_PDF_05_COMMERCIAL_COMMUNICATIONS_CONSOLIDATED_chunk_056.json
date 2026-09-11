@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_056",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 56,
+  "text": "commercial communications as well as communication sent by the Government. (2) Any Call Management Application that facilitates blanket blocking of such designated number series or tag it as spam shall be deemed non-compliant with these regulations: Provided that the consumers shall have the right to individually manage their own call preferences through such Call Management Applications: Provided further that Authority may take appropriate enforcement measures, against non-compliant Call Management Applications in coordination with relevant authorities, if required. 35. Terminating Access Provider (TAP) may charge Originating Access Provider (OAP) for Commercial communication messages as following: - Upto Rs. 0.05 (five paisa only) for each promotional SMS; Upto Rs. 0.05 (five paisa only) for each service SMS; Upto Rs. 0.05 (five paisa only) for each Transactional SMS; Provided that there shall be no Service SMS charge on: - any message transmitted by or on the directions of the Central Government or State 29 Government; any message transmitted by or on the directions of bodies established under the Constitution; any message transmitted by or on the directions of the Authority; any message transmitted by any agency authorized by the Authority from time to time; 36. Authority may set up or permit to set up a Regulatory Sandbox for testing implementation of regulatory checks using DLT networks and other technological solutions complementing DLT network(s) and to operationalize such regulatory sandbox, the Authority may, by order or direction, specify the requisite processes. 37. Every Access Provider and International Long Distance Operators shall ensure that no",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24351680",
+  "title": "Telomeres and telomerase: more than the end of the line",
+  "content": "Early studies of telomerase suggested that telomeres are maintained by an elegant but relatively simple and highly conserved mechanism of telomerase-mediated replication. As we learn more, it has become clear that the mechanism is elegant but not as simple as first thought. It is also evident that, although many species use similar, sometimes identical, DNA sequences for telomeres, these species express their own individuality in the way they regulate these sequences and, perhaps, in the additional tasks that they have imposed on their telomeric DNA. The striking similarities between telomeres in different species have revealed much about chromosome ends; the differences are proving to be equally informative. In addition to the differences between species that use telomerase, there are also a few exceptional organisms with atypical telomeres for which no telomerase activity has been detected. This review addresses recent studies, the insights they offer, and, perhaps more importantly, the questions they raise.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

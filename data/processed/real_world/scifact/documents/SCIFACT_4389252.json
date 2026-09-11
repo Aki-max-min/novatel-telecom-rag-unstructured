@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4389252",
+  "title": "Centrosome polarization delivers secretory granules to the immunological synapse",
+  "content": "Cytotoxic T lymphocytes (CTLs) destroy virally infected and tumorigenic cells by releasing the contents of specialized secretory lysosomes—termed ‘lytic granules’—at the immunological synapse formed between the CTL and the target. On contact with the target cell, the microtubule organizing centre of the CTL polarizes towards the target and granules move along microtubules in a minus-end direction towards the polarized microtubule organizing centre. However, the final steps of secretion have remained unclear. Here we show that CTLs do not require actin or plus-end microtubule motors for secretion, but instead the centrosome moves to and contacts the plasma membrane at the central supramolecular activation cluster of the immunological synapse. Actin and IQGAP1 are cleared away from the synapse, and granules are delivered directly to the plasma membrane. These data show that CTLs use a previously unreported mechanism for delivering secretory granules to the immunological synapse, with granule secretion controlled by centrosome delivery to the plasma membrane.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

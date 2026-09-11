@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21114100",
+  "title": "A small molecule restores function to TRPML1 mutant isoforms responsible for mucolipidosis type IV.",
+  "content": "Mucolipidosis type IV (MLIV) is an autosomal recessive lysosomal storage disorder often characterized by severe neurodevelopmental abnormalities and neuro-retinal degeneration. Mutations in the TRPML1 gene are causative for MLIV. We used lead optimization strategies to identify--and MLIV patient fibroblasts to test--small-molecule activators for their potential to restore TRPML1 mutant channel function. Using the whole-lysosome planar patch-clamp technique, we found that activation of MLIV mutant isoforms by the endogenous ligand PI(3,5)P2 is strongly reduced, while activity can be increased using synthetic ligands. We also found that the F465L mutation renders TRPML1 pH insensitive, while F408Δ impacts synthetic ligand binding. Trafficking defects and accumulation of zinc in lysosomes of MLIV mutant fibroblasts can be rescued by the small molecule treatment. Collectively, our data demonstrate that small molecules can be used to restore channel function and rescue disease associated abnormalities in patient cells expressing specific MLIV point mutations.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

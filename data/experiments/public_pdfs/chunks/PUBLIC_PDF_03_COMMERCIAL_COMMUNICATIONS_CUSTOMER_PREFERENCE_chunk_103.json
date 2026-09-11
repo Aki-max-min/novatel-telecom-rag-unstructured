@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_103",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 103,
+  "text": "stakeholders from the telecom industry, however, indicated that the present systems were working adequately. One of the stakeholders was of the view that requiring consent forms to be uploaded on a central repository may not be feasible. They argued that consent is usually taken as part of a larger service contract as individual contracts cannot be signed for every term/condition. Such contracts may, therefore, contain commercial secrets and personally identifiable information, which are not relevant to this purpose. Further, such consent is often taken in the form of an electronic click-wrap agreement. Uploading of such electronic templates will not serve any purpose and will merely increase the workload and costs for delivery of services. They were of the view that consent forms should be demanded ex-post during an investigation of a complaint and a case-by-case review of this nature would be more efficient and cost-effective. Another industry stakeholder suggested that uploading of consent taken by TMSEs carries the risk of compromising customers’ privacy or the business entity’s commercial secrets. v. One of the stakeholders informed that it uses telecom services for the purpose of Membership with its political party and they had launched a nationwide ‘missed call’ campaign to enroll new members. They use a toll-free number for the membership drive. Here, the missed calls are considered as consent for opt-in given by any person (subscriber of that mobile number) for membership and for receiving political campaign and information dissemination from the party to its members. vi. Three stakeholders responded",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

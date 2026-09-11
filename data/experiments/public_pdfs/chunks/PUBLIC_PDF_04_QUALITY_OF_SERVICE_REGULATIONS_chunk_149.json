@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_149",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 149,
+  "text": "meet these standards due to operational challenges. There is no precedence in any country where this parameter is captured to derive at QoS standards. These parameters and benchmarks are more theoretical and not practical in a real-time technology-agnostic network. TSPs are already overburdened in extracting the data for the existing parameter and meeting the benchmark. Further, various types of interference faced by TSPs such as from illegal repeaters, atmospheric ducting, etc. make it impossible for TSPs to achieve such benchmarks based on the revised calculation methodology. Instead of solely focussing on problems related to call muting and muffling being caused by network reliability and maintainability, the Authority should also consider that these also depend on factors such as customers' location, distance from the network site, the number of connected users, the type of handset used, and usage patterns, whether it's steady or on-the-go. It is further submitted that the impact of this revision could hinder rural network expansion and lead to the entire industry becoming non-compliant to this parameter. It is further submitted that while setting QSD, QTD thresholds in earlier regulation (2017), computation/ assessment/ validation was done for sample service areas, however, same has not been shared this time. (ii) Few service providers highlighted that the provision of 2G services across the country is primarily a social obligation rather than a business interest, with no new developments or planned investments due to its status as an outdated technology. The increasing rollout of 4G networks has resulted in many 2G",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

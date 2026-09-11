@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C10_019_chunk_001",
+  "document_id": "FAQ_C10_019",
+  "chunk_index": 1,
+  "text": "simply deactivating the service. ### Example Scenario **Customer situation:** A customer finds a content-pack subscription on their account they never signed up for and has already been charged. **What happens:** Deactivating it under My Subscriptions stops further charges, but recovering the amount already charged requires reporting it via Complaints as an unauthorised activation. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C10_overview. Topic: Value Added Services (VAS)",
+  "title": "How do I unsubscribe from a Value Added Service (VAS) I didn't request?",
+  "document_type": "FAQ",
+  "category": "C10",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-15",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C10_overview"
+  ],
+  "tags": [
+    "value",
+    "c10"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C10_019.json",
+  "file_type": "json"
+}

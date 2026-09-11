@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_049",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 49,
+  "text": "non-repudiable manner; synchronize records, in real time, among all consent ledgers available with participating nodes in Consent Acquisition Functionality in an immutable and non-repudiable manner; maintain with minimum performance requirements as specified; perform any other function and keep relevant details required for carrying out pre and post checks for regulatory compliance; Content Template Registrar (CTR) to carry out content template registration function; keep records of registered templates in immutable and non repudiable manner; maintain with minimum performance requirements as specified; perform any other function and keep relevant details required for carrying out pre and post checks for regulatory compliance; Content Format and Type Verifiers (CFTV) to carry out content verification; keep records with all relevant details for future references; Telemarketers for Scrubbing function (TM-SF) to carry out scrubbing; keep record of all numbers scrubbed for complaints resolution; maintain with minimum performance requirements as specified; perform any other function and keep relevant details required for carrying out pre and post checks for regulatory compliance; Telemarketers for Delivery Function of Messages with telecom resource connectivity to AP (TM-DF) to carry out delivery function insert its Unique identity with delivery processing reference number along with identity through which scrubbing was carried out; authenticate source of the messages submitted for delivery by header assignee or by aggregator and ensure their identity is part of content of message for traceability; maintain with minimum performance requirements as specified; perform any other function and keep other relevant details which may be required for carrying out pre and",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

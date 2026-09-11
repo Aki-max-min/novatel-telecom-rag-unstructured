@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_199",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 199,
+  "text": "parallel. Action against the RTMs must be part of Code of Practice for Complaint handling. As discussed earlier in Para 3.3, UCC eco system is to be controlled and managed by the access provider and specific actions to be taken against RTMs would be part of CoPs. Access provider’s performance in terms of keeping a check on RTMs would be measured on the basis of aggregated complaints received by OAP against RTMs. OAP should carry preliminary examination of the complaints in two days so that appropriate action may be taken against suspected sender of UCC. In view of above, For OAP, the Authority decides that in case the complaint is related to RTM, OAP should examine, within one business day from the date of receipt of complaint, whether all regulatory pre-checks were carried out in the reported case before delivering UCC, and in case, answer is yes then OAP should communicate to TAP to inform complainant about the closure of complaint as provided for in the Code(s) of Practice. In case, answer is no, then OAP should, within two business days from the date of receipt of complaint, take actions against the defaulting entity and communicate to TAP to inform the complainant about the action taken against his complaint as provided for in Code(s) of Practice. 5.3.11 Structured way to deal with complaints against suspected UTMs: The Distributed Ledger for Complaints (DL-Complaints) having histories of complainant and against whom complaints are being made used in conjunction with UCC_Detect_System would make",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

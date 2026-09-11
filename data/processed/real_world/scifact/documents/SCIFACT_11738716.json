@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11738716",
+  "title": "Steroid hormone signalling links reproduction to lifespan in dietary-restricted Caenorhabditis elegans.",
+  "content": "Dietary restriction (DR) increases healthspan and longevity in many species, including primates, but it is often accompanied by impaired reproductive function. Whether signals associated with the reproductive system contribute to or are required for DR effects on lifespan has not been established. Here we show that expression of the cytochrome P450 DAF-9/CYP450 and production of the steroid hormone Δ(7)-dafachronic acid (DA) are increased in C. elegans subjected to DR. DA signalling through the non-canonical nuclear hormone receptor NHR-8/NHR and the nutrient-responsive kinase let-363/mTOR is essential for DR-mediated longevity. Steroid signalling also affects germline plasticity in response to nutrient deprivation and this is required to achieve lifespan extension. These data demonstrate that steroid signalling links germline physiology to lifespan when nutrients are limited, and establish a central role for let-363/mTOR in integrating signals derived from nutrients and steroid hormones.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

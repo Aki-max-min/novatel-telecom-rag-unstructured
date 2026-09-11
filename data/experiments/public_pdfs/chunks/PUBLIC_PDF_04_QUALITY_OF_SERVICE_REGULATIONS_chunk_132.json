@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_132",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 132,
+  "text": "has details of all the sites of the service providers which can be accessed by the individuals for locating sites in any area. (iv) Some stakeholders said that the decision to share such specific and salient data should be left with the concerned operator as confidentiality/ commerciality is involved. (b) Analysis and Conclusion (i) Information on mobile network coverage is important from the perspective of QoS. One cannot expect good QoS in a non-coverage area. (ii) The availability of a service wise geospatial coverage map on the service provider’s website will help consumers to make informed decisions. Further, it also provides broader boundaries for QoS expectations by the consumers. An informed consumer is always beneficial to the service provider to manage complaints more efficiently. (iii) The mobile network coverage maps are not only useful for consumers but will also provide status of telecom coverage across the country, which can be used by Central and State Governments for planning various e-enabled services. This will also enable evidence-based data driven evaluation of requirements of any regulatory or policy intervention, if needed. (iv) Globally, many countries have introduced geospatial mobile and fixed line service coverage maps for the benefit of consumers. Federal Communications Commission (FCC), USA has mapped15 telecom infrastructure including fixed and mobile coverage even at the household and business area level. Service providers in the USA have published their network coverage maps on their websites16. 15 https://broadbandmap.fcc.gov/home 16 https://www.t-mobile.com/coverage/coverage-map 146 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] Similarly, the regulator in",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

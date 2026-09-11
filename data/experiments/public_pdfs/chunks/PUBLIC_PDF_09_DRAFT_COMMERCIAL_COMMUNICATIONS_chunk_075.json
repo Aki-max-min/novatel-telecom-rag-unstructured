@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_075",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 75,
+  "text": "Message Delivery Function Register; (x) Telemarketer Voice Delivery Function Register; (b) Deadline(s) for registering entities with DL-Entities (i) Header Register; (ii) Consent Register; (iii) Consent Template Register; (iv) Content Template Register; (v) Content Template Verifier; (vi) Complaint Register; (vii) Preference Register; (viii) At least one entity for Telemarketer Scrubbing Function; (ix) At least one entity for Telemarketer Message Delivery Function Register; (x) At least one entity for Telemarketer Voice Delivery Function Register; (2) Registration of existing assignee of Headers with Header Registrar; (a) stop assigning headers without verification of identity and scope of senders; (b) register existing assignee of headers after verification of identity and scope documents of Unsolicited Commercial Communications sender(s) and bind to phone 56 number(s); (c) assign or reassign current owner of header(s) considering at least following: - (i) Whether headeris not assigned to any other sender(s); (ii) Whether header is matching with brand name of a company; (iii) Whether header is look alike with other popular header(s) and may mislead recipients; (iv) Any other reason or fact which is important to consider before assigning header; (d) use temporary header(s), during migration phase, for all earlier assigned headers; (e) fixing deadline for working of temporary headers; (3) Start assigning new headers (a) assign headers after due diligence, verification of identity and scope documents of Unsolicited Commercial Communications sender(s) and bind to phone number(s); (b) consider reason(s) and fact(s) which are important to be considered before assigning headers and do not mislead recipients; (c) consider headers which may",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

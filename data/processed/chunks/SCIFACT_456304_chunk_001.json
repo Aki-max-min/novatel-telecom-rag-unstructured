@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_456304_chunk_001",
+  "document_id": "SCIFACT_456304",
+  "chunk_index": 1,
+  "text": "not show any gradient, neither for men nor for women. CONCLUSION Multiple risk behaviour is more common among lower educated people. An increasing polarization in socio-economic inequalities is assessed from 2001 to 2004 among men. Therefore, health promotion programmes should focus on the lower socio-economic classes and target risk behaviours simultaneously.",
+  "title": "Multiple risk behaviour: increasing socio-economic gap over time?",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

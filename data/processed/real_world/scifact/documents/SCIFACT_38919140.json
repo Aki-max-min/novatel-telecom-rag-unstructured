@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_38919140",
+  "title": "Snail coordinately regulates downstream pathways to control multiple aspects of mammalian neural precursor development.",
+  "content": "The Snail transcription factor plays a key role in regulating diverse developmental processes but is not thought to play a role in mammalian neural precursors. Here, we have examined radial glial precursor cells of the embryonic murine cortex and demonstrate that Snail regulates their survival, self-renewal, and differentiation into intermediate progenitors and neurons via two distinct and separable target pathways. First, Snail promotes cell survival by antagonizing a p53-dependent death pathway because coincident p53 knockdown rescues survival deficits caused by Snail knockdown. Second, we show that the cell cycle phosphatase Cdc25b is regulated by Snail in radial precursors and that Cdc25b coexpression is sufficient to rescue the decreased radial precursor proliferation and differentiation observed upon Snail knockdown. Thus, Snail acts via p53 and Cdc25b to coordinately regulate multiple aspects of mammalian embryonic neural precursor biology.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

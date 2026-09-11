@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_35321950",
+  "title": "Staphylococcus aureus and Candida albicans infection (animal experiments).",
+  "content": "During a certain period of the course of infection in white mice inoculated intraperitoneally with the pure culture of a proteolysing strain of Candida albicans, Staphylococcus aureus and C. albicans both, were isolated simultaneously from the peritoneal abscesses, especially those adhering to the stomach, duodenum, pancreas and the upper part of small intestine. This concommitant occurrence of the two pathogens was further corroborated by histopathological examination which revealed large number of staphylococci present in the close neighbourhood of Candida cells, usually in the center of the granulomata caused by the fungus. In view of the facts that the proteolytic end-products of C. albicans can offer a good substratum for the growth of S. aureus and the latter may be isolated from the intestinal tract of apparently healthy mice, possibly as a constituent of the transient microflora, the co-existence of these two important aetiologic agents of endogenous infections as encountered during this study appears to be of great clinical interest. Furthermore, these observations also demonstrate the importance of controlling the bacterial flora of mice for pure mycological studies.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

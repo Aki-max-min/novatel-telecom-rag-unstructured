@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20018321",
+  "title": "Mitochondrial RNA Granules Are Centers for Posttranscriptional RNA Processing and Ribosome Biogenesis.",
+  "content": "Cytoplasmic RNA granules play a central role in mRNA metabolism, but the importance of mitochondrial RNA granules remains relatively unexplored. We characterized their proteome and found that they contain a large toolbox of proteins dedicated to RNA metabolism. Investigation of four uncharacterized putative RNA-binding proteins-two RNA helicases, DHX30 and DDX28, and two proteins of the Fas-activated serine-threonine kinase (FASTKD) family, FASTKD2 and FASTKD5-demonstrated that both helicases and FASTKD2 are required for mitochondrial ribosome biogenesis. RNA-sequencing (RNA-seq) analysis showed that DDX28 and FASTKD2 bound the 16S rRNA. FASTKD5 is required for maturing precursor mRNAs that are not flanked by tRNAs and that therefore cannot be processed by the canonical mRNA maturation pathway. Silencing FASTKD5 rendered mature COX I mRNA almost undetectable, which severely reduced the synthesis of COX I, resulting in a complex IV assembly defect. These data demonstrate that mitochondrial RNA granules are centers for posttranscriptional RNA processing and the biogenesis of mitochondrial ribosomes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_44264297",
+  "title": "Network meta-analysis for indirect treatment comparisons.",
+  "content": "I present methods for assessing the relative effectiveness of two treatments when they have not been compared directly in a randomized trial but have each been compared to other treatments. These network meta-analysis techniques allow estimation of both heterogeneity in the effect of any given treatment and inconsistency ('incoherence') in the evidence from different pairs of treatments. A simple estimation procedure using linear mixed models is given and used in a meta-analysis of treatments for acute myocardial infarction.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

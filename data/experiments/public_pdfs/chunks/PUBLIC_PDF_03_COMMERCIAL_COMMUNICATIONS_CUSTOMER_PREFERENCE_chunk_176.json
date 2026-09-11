@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_176",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 176,
+  "text": "most of the stakeholders agreed that there is a need to reduce the delays but practically doing it may be a challenge. Stakeholders submitted that, current system require 7 days Turn Around Time (TAT) in total (3 days for OSP & 3 days for TSP & one day for close looping). There is scope of compressing the Turn Around Time (TAT) by 1 day each side (excluding Saturday & Sunday), but 2 days are required for proper validation of CDRs, due to customer data privacy the CDR access is available only with Nodal officer of circle. Moreover, at times TSPs have to co-ordinate with RTMs for locating activity logs. ii. Few stakeholders stated that most of the TSPs are already using semi-automated or automated process for receiving complaints and for its resolution, it includes complaint logging through self-service mode like SMS, web, mobile App. They can further automate it, by applying additional validations at initial level of examination of complaints such as registration status of the customer, length of UCC content, length of header, key word filtration of content etc., and can instantly provide the reasons for rejection of invalid UCC complaints to the complainant. iii. One stakeholder suggested that a possible change can be the early barring of telecom resources allocated to a UTM post an advance notice and an opportunity of being heard. The outgoing services should be barred immediately on validation of the complaint with the CDRs and notice of disconnection should be issued to the customer.",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_033",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 33,
+  "text": "within fifteen minutes of the complaint or report made by the customer with unique reference number; to provide details to the subscriber about the mobile app provided for in sub-regulation (2)(d) to provide details of format and procedure to the Customer, as given in the appropriate Codes of Practice, when a complaint is treated as invalid by the Access Provider on the grounds of incomplete information or improper format: 19 Provided that - if the complaints against Unsolicited Commercial Communication, made through Voice Calls or Message, contain the mobile number of the Sender, the mobile number of the complainant, the date of UCC and a brief about of UCC Voice Call or Message, it shall be treated as a valid complaint and for the guidance of the complainant regarding manner of description of UCC, a template shall be provided in mobile app and web portal of the Access Providers who may collect additional information to support the investigation, if available with or provided by the complainant. The mandatory fields, if displayed, shall be marked with an asterisk (*); the name of business or legal entity on whose behalf Unsolicited Commercial Communication was made and purpose of Commercial Communications shall be captured; however, these shall not be treated as mandatory fields for complaint registration or investigation. 24. Distributed Ledger(s) for Complaints: Every Access Provider shall establish or cause to establish Distributed Ledger(s) for Complaints (DL-Complaints) with requisite functions, processes and interfaces: - to record complaints and reports regarding violation of Regulations",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

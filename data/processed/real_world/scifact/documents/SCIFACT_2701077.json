@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2701077",
+  "title": "Hematopoietic stem cell quiescence promotes error-prone DNA repair and mutagenesis.",
+  "content": "Most adult stem cells, including hematopoietic stem cells (HSCs), are maintained in a quiescent or resting state in vivo. Quiescence is widely considered to be an essential protective mechanism for stem cells that minimizes endogenous stress caused by cellular respiration and DNA replication. We demonstrate that HSC quiescence can also have detrimental effects. We found that HSCs have unique cell-intrinsic mechanisms ensuring their survival in response to ionizing irradiation (IR), which include enhanced prosurvival gene expression and strong activation of p53-mediated DNA damage response. We show that quiescent and proliferating HSCs are equally radioprotected but use different types of DNA repair mechanisms. We describe how nonhomologous end joining (NHEJ)-mediated DNA repair in quiescent HSCs is associated with acquisition of genomic rearrangements, which can persist in vivo and contribute to hematopoietic abnormalities. Our results demonstrate that quiescence is a double-edged sword that renders HSCs intrinsically vulnerable to mutagenesis following DNA damage.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

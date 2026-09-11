@@ -1,31 +1,65 @@
 # Diagnosing 'No Service' After a SIM Swap
 
-**Document ID:** KB_C05_sim_swap_troubleshooting  
-**Category:** C05 — SIM Card Services  
-**Department:** Customer Care  
-**Last Updated:** 2026-08-06  
-**Version:** 1.0  
+**Document ID:** KB_C05_sim_swap_troubleshooting
+**Category:** C05 — SIM Card Services
+**Department:** Customer Care
+**Customer Scope:** all
+**Last Updated:** 2026-07-25
+**Version:** 1.0
 **Source Authority:** Internal Knowledge Base
 
 ---
+## Summary
 
-## Purpose
+This article explains how sim card services issues in this area are diagnosed and resolved, and what customers and front-line agents should check before escalating.
 
-Step-by-step diagnostic flow for a SIM that shows no network after insertion.
+## Symptoms
 
-## Diagnostic Flow
+- The self-care app or portal shows an error, a stuck status, or no visible change after the action.
+- Customer reports the feature or service is not behaving as expected.
+- The issue is intermittent and not consistently reproducible.
 
-```mermaid
-flowchart TD
-A[No Service after SIM insert] --> B{Restarted device?}
-B -- No --> C[Restart device]
-B -- Yes --> D{Correct network mode?}
-D -- No --> E[Set to Auto/4G+5G]
-D -- Yes --> F{Persists after 30 min?}
-F -- Yes --> G[Escalate: possible IMSI re-registration issue]
-F -- No --> H[Resolved]
-```
+## Preconditions
 
-## When to Escalate
+- Customer identity has been verified (registered number and, where applicable, OTP).
+- The account is active and not under a fraud, legal, or compliance hold.
 
-If the flow reaches step G, log a ticket per SOP_C05_SIM_REPLACEMENT and flag for provisioning-team review.
+## Cause
+
+This is typically caused by a data-sync delay between the customer-facing app and the backend system of record.
+
+## Resolution — Step by Step
+
+| Step | Action | Expected Result | If Failed |
+|---|---|---|---|
+| 1 | Confirm the reported issue | Issue resolved / status updated | Proceed to next step or escalate |
+| 2 | Check system status | Issue resolved / status updated | Proceed to next step or escalate |
+| 3 | Apply the standard fix | Issue resolved / status updated | Proceed to next step or escalate |
+| 4 | Confirm resolution with the customer | Issue resolved / status updated | Proceed to next step or escalate |
+
+1. **Confirm the reported issue.** Ask the customer for the exact screen/message and time it occurred.
+2. **Check system status.** Verify the relevant backend status (billing, provisioning, network, payment) for the account.
+3. **Apply the standard fix.** Retry the action, refresh the record, or trigger the relevant backend re-sync as documented for this scenario.
+4. **Confirm resolution with the customer.** Ask the customer to verify the fix on their end before closing.
+
+## Validation
+
+Confirm the account reflects the expected state (e.g. correct balance, plan, status, or setting) before closing the interaction.
+
+## Exceptions
+
+- Cases linked to suspected fraud are routed to the Fraud & Security Response team instead of standard resolution.
+- Enterprise/bulk accounts may require coordination with the assigned account manager rather than the standard consumer flow.
+
+## Escalation Criteria
+
+- If the standard steps above do not resolve the issue, escalate with reference to: FAQ_C05_001.
+- Escalations beyond first-line resolution are logged with a unique ticket reference and routed to the relevant specialist team, with an SLA acknowledgement sent to the customer within 24 hours.
+
+## Related Issues
+
+- Repeated occurrences for the same customer may indicate an upstream system issue and should be flagged to the relevant platform team.
+
+## Related Documents
+
+Related documents: FAQ_C05_001.

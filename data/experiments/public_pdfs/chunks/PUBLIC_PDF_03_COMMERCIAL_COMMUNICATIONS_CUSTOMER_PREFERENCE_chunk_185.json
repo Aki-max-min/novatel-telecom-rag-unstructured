@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_185",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 185,
+  "text": "scrubbing or there may be one- time charge (akin to registration fees). 5.2.12 Mitigation or elimination of cases of victimization i. Most of the Stakeholders were in agreement for the need to have mechanism which avoids or eliminates victimization and supported options such as Reputation-based analysis which may take into account various factors like age of subscription, authentication at the time of subscription, address verification method etc. 91 ii. Some of the stakeholders also supported need of considering complainant’s prior business, commercial or social relationship with the party against whom complaint is made need to be considered while resolving the complaint. They also submitted that TAP need to have access to a database of customers mapped to their business/commercial relationships so that potential cases of false complaint may be flagged before sharing with OAP. The actual process of registration may also be enhanced to record the source, timestamp and additional relevant metadata like parent-child, peer or family-based relationships that may be relevant in dispute resolutions. iii. Stakeholders suggested that first notice should be issued then connection may be put in suspend mode or applying Usage Cap till investigation is completed. 5.2.13 Developing a scoring system for UCC i. TSPs are of view that present signature filtration has capability for scoring/ ranking. The authority must recommend common rules for scoring of all TSPs in case of the present signature filtrations. The source of UCC may be identified based on the analysis of content of A2P/ P2P SMSs. Scoring system may be",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

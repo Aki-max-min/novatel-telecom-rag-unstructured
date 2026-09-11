@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_048",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 48,
+  "text": "clause (i) of regulation 12, the Mobile Number Portability Service provider shall retain the scanned copy of the authorization letter for a minimum period of six months.] 1 Ins. by the Seventh Amendment Regulations, 2018, reg. 13(c) (w.e.f. 16.12.2019) 2 Ins. by the Seventh Amendment Regulations, 2018, reg. 13(d) (w.e.f. 16.12.2019) 3 Ins. by the Fifth Amendment Regulations, 2013, reg. 9 (w.e.f. 20.10.2013) 17. Obligations of Access Providers, National Long Distance Operators and International Long Distance Operators.— (1) All existing interconnect agreements or arrangements between Access Providers, National Long Distance Operators and International Long Distance Operators shall, upon the coming into force of these regulations, stand amended so as to conform to the provisions of these regulations as regards routing of calls to and from ported mobile numbers. (2) Every Access Provider and every International Long Distance Operator providing carriage service to any Access Provider shall, within thirty days of coming into force of these regulations or before commencement of Access Service or carriage service as the case may be, shall establish fail- proof connectivity from its Mobile Number Portability gateway to the main and Disaster recovery sites of the Mobile Number Portability Service providers at its own cost: Provided that– (a) an Access Provider having licenses in more than one licensed service area may establish such fail-proof connectivity to the main and Disaster recovery sites of the Mobile Number Portability Service providers common for all its licensed service areas; and (b) an Access Provider, who is also an International",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14180217",
+  "title": "The Buccaneer software for automated model building. 1. Tracing protein chains.",
+  "content": "A new technique for the automated tracing of protein chains in experimental electron-density maps is described. The technique relies on the repeated application of an oriented electron-density likelihood target function to identify likely C(alpha) positions. This function is applied both in the location of a few promising ;seed' positions in the map and to grow those initial C(alpha) positions into extended chain fragments. Techniques for assembling the chain fragments into an initial chain trace are discussed.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

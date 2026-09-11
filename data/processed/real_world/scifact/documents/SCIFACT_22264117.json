@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22264117",
+  "title": "The Aging Epigenome.",
+  "content": "During aging, the mechanisms that normally maintain health and stress resistance strikingly decline, resulting in decrepitude, frailty, and ultimately death. Exactly when and how this decline occurs is unknown. Changes in transcriptional networks and chromatin state lie at the heart of age-dependent decline. These epigenomic changes are not only observed during aging but also profoundly affect cellular function and stress resistance, thereby contributing to the progression of aging. We propose that the dysregulation of transcriptional and chromatin networks is a crucial component of aging. Understanding age-dependent epigenomic changes will yield key insights into how aging begins and progresses and should lead to the development of new therapeutics that delay or even reverse aging and age-related diseases.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

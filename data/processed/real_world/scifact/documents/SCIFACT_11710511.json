@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11710511",
+  "title": "Adherens junctions in Drosophila retinal morphogenesis.",
+  "content": "Adherens junctions and their core molecular components, classic cadherins, make major contributions to animal morphogenesis. Although the significance of cadherins in development is generally accepted, the mechanisms regulating adherens junction function during morphogenesis remain a subject of intense research. Adherens junctions are involved in the organization of simple cellular patterns, and more complex cell shape changes and cell movements that depend on the dynamic modulation of adherens junctions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

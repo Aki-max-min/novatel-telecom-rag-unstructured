@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5094468",
+  "title": "Mitochondria as sensors and regulators of calcium signalling",
+  "content": "During the past two decades calcium (Ca2+) accumulation in energized mitochondria has emerged as a biological process of utmost physiological relevance. Mitochondrial Ca2+ uptake was shown to control intracellular Ca2+ signalling, cell metabolism, cell survival and other cell-type specific functions by buffering cytosolic Ca2+ levels and regulating mitochondrial effectors. Recently, the identity of mitochondrial Ca2+ transporters has been revealed, opening new perspectives for investigation and molecular intervention.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

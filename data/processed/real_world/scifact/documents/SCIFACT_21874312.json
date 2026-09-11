@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21874312",
+  "title": "Risk for breast cancer development determined by mammographic parenchymal pattern.",
+  "content": "A classification of risk for developing breast cancer has been devised based solely on the appearance of the breast parenchyma by mammography. Four groups of patients were isolated. The study encompassed a five-year period and was done by reviewing the mammograms of all women over the age of 30 who had been examined at Hutzel Hospital, Detroit. The average time of followup would be approximately 2 1/2 years. Four groups had an incidence of developing breast cancer of 0.1, 0.4, 1.7, and 2.2. These parenchymal patterns are described and criteria for their identification are given.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

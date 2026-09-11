@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6040392",
+  "title": "The role of epigenetics in aging and age-related diseases",
+  "content": "The role of epigenetics in aging and age-related diseases is a key issue in molecular physiology and medicine because certain epigenetic factors are thought to mediate, at least in part, the relationship between the genome and the environment. An active role for epigenetics in aging must meet two prior conditions: there must be specific epigenetic changes during aging and they must be functionally associated with the aged phenotype. Assuming that specific epigenetic modifications can have a direct functional outcome in aging, it is also essential to establish whether they depend on genetic, environmental or stochastic factors, and if they can be transmitted from one generation to the next. Here we discuss current knowledge about these matters and future directions in the field.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

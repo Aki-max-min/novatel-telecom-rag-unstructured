@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_053",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 53,
+  "text": "0.16 0.31 9.44 17.28 9.60 17.59 21 Rajasthan 0.41 0.58 25.66 25.40 26.07 25.97 22 Sikkim 0.00 0.002 0.37 0.27 0.37 0.27 23 Tamil Nadu incl. Chennai 0.54 0.87 17.47 44.61 18.01 45.47 24 Telangana 0.28 0.32 12.79 22.79 13.08 23.11 25 Tripura 0.01 0.02 1.05 1.11 1.07 1.13 26 Uttar Pradesh (UPE+UPW) 1.70 2.09 63.72 63.63 65.41 65.72 27 Uttarakhand 0.10 0.07 4.71 4.98 4.81 5.05 28 West Bengal incl. Kolkata 0.45 0.42 25.17 37.72 25.61 38.13 Union Territories 1 Andaman & Nicobar Islands 0.03 0.02 0.19 0.18 0.23 0.21 2 Chandigarh 0.0002 0.01 0.03 1.34 0.03 1.36 3 Dadar & Nagar Haweli (incl. Daman & Diu) 0.005 0.01 0.29 0.54 0.30 0.55 4 Delhi 0.05 3.45 0.27 32.12 0.31 35.56 5 Jammu & Kashmir 0.09 0.05 4.48 5.29 4.58 5.34 6 Ladakh 0.002 0.003 0.31 0.11 0.32 0.11 7 Lakshdweep 0.02 0.00001 0.03 0.004 0.05 0.004 8 Puduchery 0.02 0.06 0.33 0.74 0.36 0.79 Total 8.84 16.14 398.85 545.28 407.69 561.42 Grand Total 24.98 944.12 969.10 61 61. The following table depicts the number of internet subscribers of top five service providers and their market share as on 31st March, 2025: - Table 1.40: Internet Subscriber Base and Market Share of top 5 Service Providers – 31.03.2025 S.No ISP No. of Subscribers (in million) Market Share 1 Reliance Jio Infocomm Ltd 476.58* 49.18% 2 Bharti Airtel Ltd. 303.61* 31.33% 3 Vodafone Idea Ltd 134.10 13.84% 4 Bharat Sanchar Nigam Ltd. 37.54 3.87% 5 Atria Convergence Technologies Limited 2.29",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1641873",
+  "title": "Meiosis in Drosophila: seeing is believing.",
+  "content": "Recently many exciting advances have been achieved in our understanding of Drosophila meiosis due to combined cytological and genetic approaches. New techniques have permitted the characterization of chromosome position and spindle formation in female meiosis I. The proteins encoded by the nod and ncd genes, two genes known to be needed for the proper partitioning of chromosomes lacking exchange events, have been identified and found to be kinesin-like motors. The effects of mutations in these genes on the spindle and chromosomes, together with the localization of the proteins, have yielded a model for the mechanism of female meiosis I. In male meiosis I, the chromosomal regions responsible for homolog pairing have been resolved to the level of specific DNA sequences. This provides a foundation for elucidating the molecular basis of meiotic pairing. The cytological techniques available in Drosophila also have permitted inroads into the regulation of sister-chromatid segregation. The products of two genes (mei-S332 and ord) essential for sister-chromatid cohesion have been identified recently. Additional advances in understanding Drosophila meiosis are the delineation of a functional centromere by using minichromosome derivatives and the identification of several regulatory genes for the meiotic cell cycle.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

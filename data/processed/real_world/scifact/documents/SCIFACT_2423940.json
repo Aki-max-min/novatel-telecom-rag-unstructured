@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2423940",
+  "title": "The Drosophila DHR96 nuclear receptor binds cholesterol and regulates cholesterol homeostasis.",
+  "content": "Cholesterol homeostasis is required to maintain normal cellular function and avoid the deleterious effects of hypercholesterolemia. Here we show that the Drosophila DHR96 nuclear receptor binds cholesterol and is required for the coordinate transcriptional response of genes that are regulated by cholesterol and involved in cholesterol uptake, trafficking, and storage. DHR96 mutants die when grown on low levels of cholesterol and accumulate excess cholesterol when maintained on a high-cholesterol diet. The cholesterol accumulation phenotype can be attributed to misregulation of npc1b, an ortholog of the mammalian Niemann-Pick C1-like 1 gene NPC1L1, which is essential for dietary cholesterol uptake. These studies define DHR96 as a central regulator of cholesterol homeostasis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

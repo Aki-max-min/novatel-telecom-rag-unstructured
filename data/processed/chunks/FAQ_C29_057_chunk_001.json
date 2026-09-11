@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C29_057_chunk_001",
+  "document_id": "FAQ_C29_057",
+  "chunk_index": 1,
+  "text": "side | Account provisioning status | Contact care with your number so the account can be re-provisioned | ### Escalation Contacting care with your number for re-provisioning is the documented step once the device-side resets don't clear the message. ### Example Scenario **Customer situation:** A customer sees 'SIM not provisioned for voice' and has already restarted their phone without success. **What happens:** Since this is described as a network-side issue rather than a device fault, contacting care with the number for re-provisioning is the next step after the quick device-side checks. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C29_overview. Topic: Technical Support & Troubleshooting",
+  "title": "My phone shows 'SIM not provisioned for voice' — how do I fix this?",
+  "document_type": "FAQ",
+  "category": "C29",
+  "department": "Technical Support",
+  "customer_scope": "postpaid",
+  "version": "1.0",
+  "last_updated": "2026-06-22",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C29_overview"
+  ],
+  "tags": [
+    "technical",
+    "c29"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C29_057.json",
+  "file_type": "json"
+}

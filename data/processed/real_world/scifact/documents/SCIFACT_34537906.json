@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_34537906",
+  "title": "The molecular requirements for cytokinesis.",
+  "content": "After anaphase onset, animal cells build an actomyosin contractile ring that constricts the plasma membrane to generate two daughter cells connected by a cytoplasmic bridge. The bridge is ultimately severed to complete cytokinesis. Myriad techniques have been used to identify proteins that participate in cytokinesis in vertebrates, insects, and nematodes. A conserved core of about 20 proteins are individually involved with cytokinesis in most animal cells. These components are found in the contractile ring, on the central spindle, within the RhoA pathway, and on vesicles that expand the membrane and sever the bridge. Cytokinesis involves additional proteins, but they, or their requirement in cytokinesis, are not conserved among animal cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

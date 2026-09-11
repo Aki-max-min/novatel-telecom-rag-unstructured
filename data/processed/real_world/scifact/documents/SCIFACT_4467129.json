@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4467129",
+  "title": "Multiple mechanisms disrupt the let-7 microRNA family in neuroblastoma",
+  "content": "Poor prognosis in neuroblastoma is associated with genetic amplification of MYCN. MYCN is itself a target of let-7, a tumour suppressor family of microRNAs implicated in numerous cancers. LIN28B, an inhibitor of let-7 biogenesis, is overexpressed in neuroblastoma and has been reported to regulate MYCN. Here we show, however, that LIN28B is dispensable in MYCN-amplified neuroblastoma cell lines, despite de-repression of let-7. We further demonstrate that MYCN messenger RNA levels in amplified disease are exceptionally high and sufficient to sponge let-7, which reconciles the dispensability of LIN28B. We found that genetic loss of let-7 is common in neuroblastoma, inversely associated with MYCN amplification, and independently associated with poor outcomes, providing a rationale for chromosomal loss patterns in neuroblastoma. We propose that let-7 disruption by LIN28B, MYCN sponging, or genetic loss is a unifying mechanism of neuroblastoma development with broad implications for cancer pathogenesis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

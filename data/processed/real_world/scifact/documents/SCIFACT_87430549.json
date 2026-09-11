@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_87430549",
+  "title": "Stem Cells,Cancer and Cancer Stem Cells",
+  "content": "Stem cells are defined as cells able to both extensively self-renew and differentiate into progenitors. Research data show that more resistant stem cells than common cancer cells exist in cancer patients. To identify unrecognized differences between cancer stem cells and cancer cells might be able to develope effective classification,diagnose and treat ment for cancer.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_020",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 20,
+  "text": "that preferences recorded or modified by the Subscriber are given effect to in near real time and in such a manner that no delivery of commercial communication is made or blocked in contravention to the Subscribers’ preference after twenty-four hours or such time as the Authority may prescribe. CHAPTER-IV FUNCTIONS OF ACCESS PROVIDERS 8. Every Access Provider shall undertake following activities in accordance with the provisions of these regulations before allowing any commercial communication through its network(s): - Develop Code(s) of Practice to establish system and make arrangements to govern the specified activities: - Code of Practice for Entities of ecosystem (CoP-Entities) as per Schedule-I; Code of Practice for Registration of preference(s), recording consent(s) and revocation of consent(s) (CoP-Preference) as per Schedule-II; Code of Practice for Complaint Handling (CoP-Complaints) as per Schedule-III; Code of Practice for Unsolicited Commercial Communications Detection (CoP-UCC_Detect) as per Schedule-IV; Code of Practice for monthly reporting (CoP-Reports) as per Schedule-V Register entities as provided for in Code(s) of Practice for Entities Register Sender(s) and assign the header(s), header root(s); Register the Content Templates; Register the Consent Templates; 9. Every Access Provider shall ensure that no commercial communication is made to any Recipient, except as per the preference(s) or digitally registered consent(s) registered in accordance with these regulations. 12 10. Every Access Provider shall ensure that no commercial communication takes place through its network(s) except by using header(s) assigned to the registered Sender(s) for the purpose of sending commercial communication; 11. Every Access Provider shall give due",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

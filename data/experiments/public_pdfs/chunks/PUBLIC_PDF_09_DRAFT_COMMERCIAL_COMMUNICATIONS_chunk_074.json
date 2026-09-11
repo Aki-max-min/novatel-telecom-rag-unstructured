@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_074",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 74,
+  "text": "an interim measure to control unsolicited commercial communications during the investigation phase; (j) total number of senders out of reported senders under clause(h), who were put under restricted limits of usage or disconnected, after conclusion of the investigation: - (i) total number of senders out of reported senders under clause(h), who were given warning against first instance of violations; (ii) total number of senders out of reported senders under clause(h), found to violating second time; (iii) total number of senders out of reported senders under clause(h), found to be violating third or more number of times; (k) numbers of commercial communications sent by each sender, reported under clause(h); (l) total number of outgoing communications made by the sender(s), reported under clause(f) and exceeding the restriction limits from the deemed date of imposition of such restrictions; 55 Schedule-VI List of key activities (but not an exhaustive list) for preparation of migration plan (1) Introducing Distributed Ledger (DL) for registration of entities (DL-Entities); (a) To register entities declared by access provider or access provider(s) together for various functions and registers like (i) Header Register; (ii) Consent Register; (iii) Consent Template Register; (iv) Content Template Register; (v) Content Template Verifier; (vi) Complaint Register; (vii) Preference Register; (viii) Telemarketer Scrubbing Function Register; (ix) Telemarketer Message Delivery Function Register; (x) Telemarketer Voice Delivery Function Register; (b) Deadline(s) for registering entities with DL-Entities (i) Header Register; (ii) Consent Register; (iii) Consent Template Register; (iv) Content Template Register; (v) Content Template Verifier; (vi) Complaint Register; (vii) Preference",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

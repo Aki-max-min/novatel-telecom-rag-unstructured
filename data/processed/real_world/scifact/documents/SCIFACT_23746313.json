@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_23746313",
+  "title": "Staphylococcus aureus RNAIII and the endoribonuclease III coordinately regulate spa gene expression.",
+  "content": "Staphylococcus aureus RNAIII is one of the largest regulatory RNAs, which controls several virulence genes encoding exoproteins and cell-wall-associated proteins. One of the RNAIII effects is the repression of spa gene (coding for the surface protein A) expression. Here, we show that spa repression occurs not only at the transcriptional level but also by RNAIII-mediated inhibition of translation and degradation of the stable spa mRNA by the double-strand-specific endoribonuclease III (RNase III). The 3' end domain of RNAIII, partially complementary to the 5' part of spa mRNA, efficiently anneals to spa mRNA through an initial loop-loop interaction. Although this annealing is sufficient to inhibit in vitro the formation of the translation initiation complex, the coordinated action of RNase III is essential in vivo to degrade the mRNA and irreversibly arrest translation. Our results further suggest that RNase III is recruited for targeting the paired RNAs. These findings add further complexity to the expression of the S. aureus virulon.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

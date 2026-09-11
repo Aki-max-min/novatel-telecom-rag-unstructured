@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_043",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 43,
+  "text": "complainant: Provided further that the Authority may specify different criteria for initiating action under sub- clauses (i) and (ii) above from time to time; in case of occurrence of complained communications under sub regulations (5)(d)(i) above, OAP shall issue a notice to the Sender to give opportunity to represent the case; shall investigate within five business days from the date of receipt of representation from the Sender and record the reasons of its findings and if the conclusion of OAP is that the Sender or its TM was engaged in sending the Unsolicited Commercial Communications, OAP shall take action against such Sender as under- for the first instance of violation, outgoing services of all telecom resources allotted to the Sender including PRI/SIP trunks, SIMs etc. shall be barred by all the Access Providers for a period of fifteen days, irrespective of whether those telecom resources were actually used or not in making such communications; for the second and subsequent instances of violations, - (i) all telecom resources of the Sender including PRI/SIP trunks, SIMs etc. shall be disconnected by all the Access Providers for one year, irrespective of whether those telecom resources were actually used or not in making such communications; (ii) OAP shall put the Sender under the blacklist category and no new telecom resources shall be provided by any Access Provider to such Sender during this period; (iii) all the devices used for making UCC shall also be blocked across all the Access Providers for a period of",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

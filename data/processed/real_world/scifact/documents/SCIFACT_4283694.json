@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4283694",
+  "title": "Instability and decay of the primary structure of DNA",
+  "content": "Although DNA is the carrier of genetic information, it has limited chemical stability. Hydrolysis, oxidation and nonenzymatic methylation of DNA occur at significant ratesin vivo, and are counteracted by specific DNA repair processes. The spontaneous decay of DNA is likely to be a major factor in mutagenesis, carcinogenesis and ageing, and also sets limits for the recovery of DNA fragments from fossils.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

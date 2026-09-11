@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_285794",
+  "title": "Quantitative Detection of Hepatitis C Virus RNA by Light Cycler PCR and Comparison with Two Different PCR Assays",
+  "content": "The new Light Cycler technology was adapted to the detection of hepatitis C virus (HCV) RNA in clinical samples. Sera from 81 patients were tested by Light Cycler PCR, AMPLICOR HCV Monitor assay, and in-house PCR. Our data demonstrate that Light Cycler is a fast and reliable method for the detection and quantitation of HCV RNA.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

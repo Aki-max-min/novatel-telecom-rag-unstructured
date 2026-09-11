@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_15405204",
+  "title": "Spontaneous autoimmunity prevented by thymic expression of a single self-antigen",
+  "content": "The expression of self-antigen in the thymus is believed to be responsible for the deletion of autoreactive T lymphocytes, a critical process in the maintenance of unresponsiveness to self. The Autoimmune regulator (Aire) gene, which is defective in the disorder autoimmune polyglandular syndrome type 1, has been shown to promote the thymic expression of self-antigens. A clear link, however, between specific thymic self-antigens and a single autoimmune phenotype in this model has been lacking. We show that autoimmune eye disease in aire-deficient mice develops as a result of loss of thymic expression of a single eye antigen, interphotoreceptor retinoid-binding protein (IRBP). In addition, lack of IRBP expression solely in the thymus, even in the presence of aire expression, is sufficient to trigger spontaneous eye-specific autoimmunity. These results suggest that failure of thymic expression of selective single self-antigens can be sufficient to cause organ-specific autoimmune disease, even in otherwise self-tolerant individuals.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_019",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 19,
+  "text": "PREFERENCE REGISTRATION 6. Every Access Provider shall establish Customer Preference Registration Facility (CPRF) and shall make necessary arrangements to facilitate its customers, on 24 hours X 7 days basis throughout the year: to provide ways and means to record consent or record revocation of consent related to Commercial Communication and exercise his preference(s) from the list(s), mentioned in the Schedule-II, of choices for: - preference(s) of categories of Commercial Communication; preference(s) of the mode(s) of communication, preference(s) of time band(s) and types of day(s) of the week including public and national holidays; to provide following modes, free of cost, to the customer, as per his choice, to register, modify or 11 de register preference(s): - sending SMS to short code 1909; or calling on 1909; or Interactive Voice Response System (IVRS); or sending USSD; or Mobile app developed in this regard either by the Authority or by any other person or entity and approved by the Authority; or Web portal with authentication through OTP; or Any other means as may be prescribed by the Authority from time to time. to duly acknowledge the receipt within fifteen minutes of the request made by the customer for registering, modifying, deregistering the preference with unique reference number; 7. Every Access Provider shall ensure that preferences recorded or modified by the Subscriber are given effect to in near real time and in such a manner that no delivery of commercial communication is made or blocked in contravention to the Subscribers’ preference after twenty-four hours",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

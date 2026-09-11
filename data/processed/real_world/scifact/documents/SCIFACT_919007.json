@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_919007",
+  "title": "The evolution of Fox genes and their role in development and disease",
+  "content": "The forkhead box (Fox) family of transcription factors, which originated in unicellular eukaryotes, has expanded over time through multiple duplication events, and sometimes through gene loss, to over 40 members in mammals. Fox genes have evolved to acquire a specialized function in many key biological processes. Mutations in Fox genes have a profound effect on human disease, causing phenotypes as varied as cancer, glaucoma and language disorders. We summarize the salient features of the evolution of the Fox gene family and highlight the diverse contribution of various Fox subfamilies to developmental processes, from organogenesis to speech acquisition.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

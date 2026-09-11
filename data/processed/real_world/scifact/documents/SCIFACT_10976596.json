@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10976596",
+  "title": "The curious case of the tumour virus: 50 years of Burkitt's lymphoma",
+  "content": "Burkitt's lymphoma (BL) was first described 50 years ago, and the first human tumour virus Epstein–Barr virus (EBV) was discovered in BL tumours soon after. Since then, the role of EBV in the development of BL has become more and more enigmatic. Only recently have we finally begun to understand, at the cellular and molecular levels, the complex and interesting interaction of EBV with B cells that creates a predisposition for the development of BL. Here, we discuss the intertwined histories of EBV and BL and their relationship to the cofactors in BL pathogenesis: malaria and the MYC translocation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

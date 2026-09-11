@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_064",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 64,
+  "text": "is any aggregation point between Radio and Core Network, the bandwidth utilization for such link shall be measured. 120 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] Figure-3-High level network segments in 4G/5G network 5.2. SDCCH Congestion/ RRC Congestion and Traffic Channel congestion i.e. TCH, RAB, E-RAB, EN-DC (E-UTRAN New Radio Dual Connectivity for NSA to access 4G and 5G both networks at same time) or DRB (Data Radio Bearer for SA) Congestion (i) The congestion in the network leads to non-establishment of the call. The congestion can be in the signaling channel known as a Standalone Dedicated Control Channel (SDCCH) (in respect of GSM network) or Radio Resource Control (RRC) in 4G and 5G New Radio. (ii) Traffic channel or TCH is a logical channel that carries either encoded speech or user data. If there is no free TCH, the call is not connected because there is no free channel in RAN of a service provider to serve a call attempt. (iii) The numbers of blocked calls are those call attempts by subscribers where there is no free channel available to serve a call attempt. Hence connection establishment (accessibility) represents congestion in the radio access network. The congestion may be at SDCCH level or TCH level. (iv) These parameters shall be measured using network-generated data in Time Consistent Busy Hour (TCBH) over the assessment period. The following general formula shall be used to measure the performance against these two parameters. The respective radio network counters, for respective technology, shall be",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_011",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 11,
+  "text": "provided in Schedule-I; (y) “Quarter” means a period of three consecutive months ending on the 30th June, the 30th September, the 31st December and the 31st March of the financial year; (z) “Radio Access Bearer” or “RAB” means a service provided by the Access Stratum to the Non-Access Stratum for the transfer of user data between the User Equipment and the Core Network; (aa) “Radio Interface” means the interface between User Equipment and the Radio Access Network access point, which encompasses all the functionality required to maintain such interfaces; (bb) “Radio Resource Control” or “RRC” means a sub layer of radio interface layer 3 existing in the control plane which provides information transfer service to the Non-Access Stratum and is responsible for controlling the configuration of radio interface layers 1 and 2; (cc) “Regulations” means the Standards of Quality of Service of Access and Broadband (Wireline and Wireless) Service Regulations, 2024; (dd) “Service Provider” means any service provider to which these regulations apply; (ee) “Six Sigma” means a data driven statistical analysis-based approach for Quality Management System(QMS); (ff) “Stand-alone Dedicated Control Channel” or “SDCCH” means, a GSM control channel for signaling purposes where the majority of call setup occurs, which is used for communication between mobile station, i.e. mobile handset and Cell before such mobile station is assigned a Traffic Channel (TCH); (gg) “Tariff Offerings” means various tariffs offered by service providers to their subscribers including tariff plans, plan vouchers, special tariff vouchers, combo vouchers, top up vouchers and add-on",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

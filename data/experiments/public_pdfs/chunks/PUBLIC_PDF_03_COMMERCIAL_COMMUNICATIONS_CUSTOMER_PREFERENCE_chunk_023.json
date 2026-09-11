@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_023",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 23,
+  "text": "Access Providers shall adopt Distributed Ledger Technology (DLT) with permissioned and private DLT networks for implementation of the system, functions and processes as prescribed in Code(s) of Practice: to ensure that all necessary regulatory pre-checks are carried out for sending Commercial Communication; to operate smart contracts among entities for effectively controlling the flow of Commercial Communication; 14. Access Providers may authorise one or more DLT network operators, as deemed fit, to provide technology solution(s) to all entities to carry out the functions as provided for in these regulations. 15. Every Access Provider shall develop the prescribed Code(s) of Practice, if necessary, in collaboration with other Access Providers, including relevant stakeholders required to participate to carry out the functions provide for in these regulations. 16. The Access Providers shall submit the Code(s) of Practice (CoPs) to the Authority within three months from the date of coming into force of these regulations. 17. Authority may direct Access Provider(s) to make changes, at any time, in the Code(s) of Practice and Access Providers shall incorporate such changes and submit revised CoP within fifteen days from the date of direction issued in this regard. 18. Every Access Provider shall comply with the submitted Codes of Practices and implement them in accordance with the specified time line(s), Provided that any provision in Code(s) of Practice shall not have effect to the extent of being inconsistent with these regulations. 19. The Authority reserves the right to formulate a standard Code(s) of Practice in case the formulated",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

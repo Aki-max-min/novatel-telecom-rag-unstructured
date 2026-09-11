@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C06_porting_process_chunk_002",
+  "document_id": "KB_C06_porting_process",
+  "chunk_index": 2,
+  "text": "history attached, and the customer is informed of the new reference and expected timeline. ## Related Issues - A similar symptom can appear for a related but distinct request type; confirm the exact request before applying this fix. ## Related Documents Related documents: FAQ_C06_001.",
+  "title": "End-to-End Guide to Number Porting (MNP)",
+  "document_type": "KB Article",
+  "category": "C06",
+  "department": "Regulatory",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-18",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C06_001"
+  ],
+  "tags": [
+    "c06",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C06_porting_process.md",
+  "file_type": "markdown"
+}

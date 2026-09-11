@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_040",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 40,
+  "text": "performance against QoS parameters provided under regulation 6. Most of the QoS parameters are technology agnostic and applicable for all generations of the access service (wireless) networks except few parameters against which specific network generation has been specified. 4.1. Network Availability 4.1.1. Availability of service wise geospatial coverage map on service provider’s website for percentage of working cells (i) Under this parameter, the Access Service (Wireless) providers shall provide service wise (2G/ 3G/ 4G/ 5G) geospatial coverage maps on their website. Compliance against this parameter shall be reported to the Authority as per the specified timelines in regulation 6. (ii) To provide up to date status of mobile coverage to the consumers, coverage maps should be updated by the service providers earliest upon the cells are either commissioned or decommissioned or coverage is changed significantly due to any other reason in the Licensed or Authorized Service Area (LSA) network. (iii) All the changes in network coverage, due to any action in month ‘x’, shall be reflected in coverage map within 'x+3’ months. For example, the change in network coverage for any technology resulting due to any activity, including cell commissioning, decommissioning, network optimization etc., in month of March of the year should be reflected in the coverage maps latest by the month of June of the concerned year. The log of changes made in coverage map for respective assessed month shall be maintained for the purpose of audit. (iv) As cell coverage is dependent upon the cell loading or cell",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8979167",
+  "title": "Primate cytomegaloviruses encode and express an IL-10-like protein.",
+  "content": "An open reading frame (ORF) with homology to interleukin-10 (IL-10) has been identified in rhesus cytomegalovirus (RhCMV). The IL-10-like protein is generated from a multispliced, polyadenylated early gene transcript encompassing part of the corresponding UL111A ORF of human CMV (HCMV). Immunological analyses confirm expression of the IL-10-like protein both in tissue culture and in RhCMV-infected rhesus macaques. Conserved ORFs were subsequently identified in human, baboon, and African green monkey CMV, and a fully processed transcript has been mapped in fibroblasts infected with the Towne strain of HCMV. The conservation of this previously unrecognized ORF suggests that the protein may play an essential role in primate CMV persistence and pathogenesis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

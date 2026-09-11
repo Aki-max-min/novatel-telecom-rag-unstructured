@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13912224",
+  "title": "A Nexus for Gene Expression—Molecular Mechanisms of Spt5 and NusG in the Three Domains of Life",
+  "content": "Evolutionary related multisubunit RNA polymerases (RNAPs) transcribe the genomes of all living organisms. Whereas the core subunits of RNAPs are universally conserved in all three domains of life-indicative of a common evolutionary descent-this only applies to one RNAP-associated transcription factor-Spt5, also known as NusG in bacteria. All other factors that aid RNAP during the transcription cycle are specific for the individual domain or only conserved between archaea and eukaryotes. Spt5 and its bacterial homologue NusG regulate gene expression in several ways by (i) modulating transcription processivity and promoter proximal pausing, (ii) coupling transcription and RNA processing or translation, and (iii) recruiting termination factors and thereby silencing laterally transferred DNA and protecting the genome against double-stranded DNA breaks. This review discusses recent discoveries that identify Spt5-like factors as evolutionary conserved nexus for the regulation and coordination of the machineries responsible for information processing in the cell.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

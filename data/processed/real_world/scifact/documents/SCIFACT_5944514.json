@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5944514",
+  "title": "Pointing in the right direction: new developments in the field of planar cell polarity",
+  "content": "Planar cell polarity (PCP) is observed in an array of developmental processes that involve collective cell movement and tissue organization, and its disruption can lead to severe developmental defects. Recent studies in flies and vertebrates have identified new functions for PCP as well as new signalling components, and have proposed new mechanistic models. However, despite this progress, the search to simplify principles of understanding continues and important mechanistic uncertainties still pose formidable challenges.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

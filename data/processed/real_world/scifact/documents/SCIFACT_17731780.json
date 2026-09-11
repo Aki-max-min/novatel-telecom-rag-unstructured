@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17731780",
+  "title": "The Bacteroides sp. 3_1_23 Pif1 protein is a multifunctional helicase",
+  "content": "ScPif1 DNA helicase is the prototypical member of a 5'-to-3' helicase superfamily conserved from bacteria to human and plays various roles in the maintenance of genomic homeostasis. While many studies have been performed with eukaryotic Pif1 helicases, including yeast and human Pif1 proteins, the potential functions and biochemical properties of prokaryotic Pif1 helicases remain largely unknown. Here, we report the expression, purification and biochemical analysis of Pif1 helicase from Bacteroides sp. 3_1_23 (BsPif1). BsPif1 binds to a large panel of DNA substrates and, in particular, efficiently unwinds partial duplex DNAs with 5'-overhang, fork-like substrates, D-loop and flap-like substrates, suggesting that BsPif1 may act at stalled DNA replication forks and enhance Okazaki fragment maturation. Like its eukaryotic homologues, BsPif1 resolves R-loop structures and unwinds DNA-RNA hybrids. Furthermore, BsPif1 efficiently unfolds G-quadruplexes and disrupts nucleoprotein complexes. Altogether, these results highlight that prokaryotic Pif1 helicases may resolve common issues that arise during DNA transactions. Interestingly, we found that BsPif1 is different from yeast Pif1, but resembles more human Pif1 with regard to substrate specificity, helicase activity and mode of action. These findings are discussed in the context of the possible functions of prokaryotic Pif1 helicases in vivo.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

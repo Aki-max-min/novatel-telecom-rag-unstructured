@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5764562",
+  "title": "Chemical tools for biomolecular imaging.",
+  "content": "The visualization of biologically relevant molecules and activities inside living cells continues to transform cell biology into a truly quantitative science. However, despite the spectacular achievements in some areas of cell biology, the majority of cellular processes still operate invisibly, not illuminated by even our brightest laser beams. Further progress therefore will depend not only on improvements in instrumentation but also increasingly on the development of new fluorophores and fluorescent sensors to target these activities. In the following, we review some of the recent approaches to generating such sensors, the methods to attach them to selected biomolecules, and their applications to various biological problems.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

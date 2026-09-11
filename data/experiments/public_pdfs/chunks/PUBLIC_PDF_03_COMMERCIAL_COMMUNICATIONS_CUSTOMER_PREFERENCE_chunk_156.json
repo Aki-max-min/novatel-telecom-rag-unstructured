@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_156",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 156,
+  "text": "are one of the big problems today. Few stakeholders are of the view that TCCCPR regulations pertain only to commercial and transactional related communications. Presently, TSPs use analytical tools based on post-call CDR analysis to curb UCC menace. Using this technique, it is technically not feasible to record and identify missed calls such as silent calls and to proactively segregate A2P & P2P calls into Robo Calls, VoIP calls, obnoxious, threatening calls, etc. Expanding the scope of existing regulations to obnoxious or threatening will impose an unfair financial burden on the TSPs. Such cases may be left to law enforcement agencies to deal with in case to case manner. However, 81 other stakeholders suggested that all relevant derivatives of unsolicited communications including silent, obnoxious, threatening calls etc. and unauthorized communications should be captured by the UCC regulations. i. With regard to the role of the Government in unwanted communications, stakeholders mentioned that the Government should constitute strict laws to mitigate such unwanted communications while simultaneously creating conditions conducive for customers to lodge complaints with local LEA’s easily. TRAI can coordinate with other regulatory/enforcement authorities on Threat calls etc., to ensure strict action. ii. One stakeholder had the view that the standardization of regulations and ownership by government organizations will provide the consumer with the capability to direct its complaints to a centralized authority and will also restrict the unwanted solicitors’ capability to manipulate the regulatory norms. 4.2.7 Concerns from new types of calls e.g. Silent calls, Robo Calls, Auto Dialer",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

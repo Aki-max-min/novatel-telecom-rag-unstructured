@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27453479",
+  "title": "The fallacy of the ecological fallacy: the potential misuse of a concept and the consequences.",
+  "content": "Ecological studies have been evaluated in epidemiological contexts in terms of the \"ecological fallacy. \" Although the empirical evidence for a lack of comparability between correlations derived from ecological- and individual-level analyses is compelling, the conceptual meaning of the ecological fallacy remains problematic. This paper argues that issues in cross-level inference can be usefully conceptualized as validity problems, problems not peculiar to ecological-level analyses. Such an approach increases the recognition of both potential inference problems in individual-level studies and the unique contributions of ecological variables. This, in turn, expands the terrain for the location of causes for disease and interventions to improve the public's health.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

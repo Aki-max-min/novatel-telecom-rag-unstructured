@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22328290",
+  "title": "Immediate effects of droperidol",
+  "content": "The subjective and behavioural responses of 20 healthy volunteers taking droperidol 5 mg as part of a cognitive challenge programme were catalogued. Some form of akathisia was universally experienced. Half of the subjects were dysphoric, but there appeared to be a number of different inputs to their dysphoria and a range of other effects were noted, including sedation, dissociative experiences, alterations in sensation and subtle changes in physiognomy. The duration of these effects varied from a few hours to over a week. In the acute phase, insight as to the origin of what was happening was mixed. The results have implications for the interpretation of cognitive challenge tests, the nature of akathisia, clinical therapeutics and drug development. © 1998 John Wiley & Sons, Ltd.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

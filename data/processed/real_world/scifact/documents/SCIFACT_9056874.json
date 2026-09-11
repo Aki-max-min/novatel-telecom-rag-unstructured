@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9056874",
+  "title": "Incidence of cancer after immunosuppressive treatment for heart transplantation.",
+  "content": "Prolonged or intensive immunosuppressive therapy used after organ transplantation is complicated by an increased incidence of cancer. Striking differences in incidence are observed in heart and heart-lung transplant recipients when compared with renal transplant patients. The most significant increase was in the incidence of lymphomas in cardiac versus renal patients. Moreover, a two-fold greater increase of all neoplasms was found in cardiac recipients, with nearly a six-fold increase in visceral tumors. Several factors may account for these differences. In cardiac allograft recipients, intensive immunosuppression is frequently used to reverse acute rejection and the highest number of cardiac transplants was performed in the era of polypharmacy, usually consisting of triple therapy.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

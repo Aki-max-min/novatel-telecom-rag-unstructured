@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7046487",
+  "title": "Inflammation meets cancer, with NF-κB as the matchmaker",
+  "content": "Inflammation is a fundamental protective response that sometimes goes awry and becomes a major cofactor in the pathogenesis of many chronic human diseases, including cancer. Here we review the evolutionary relationship and opposing functions of the transcription factor NF-κB in inflammation and cancer. Although it seems to fulfill a distinctly tumor-promoting role in many types of cancer, NF-κB has a confounding role in certain tumors. Understanding the activity and function of NF-κB in the context of tumorigenesis is critical for its successful taming, an important challenge for modern cancer biology.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

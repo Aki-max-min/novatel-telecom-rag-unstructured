@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7228140",
+  "title": "Virtual microdissection identifies distinct tumor- and stroma-specific subtypes of pancreatic ductal adenocarcinoma",
+  "content": "Pancreatic ductal adenocarcinoma (PDAC) remains a lethal disease with a 5-year survival rate of 4%. A key hallmark of PDAC is extensive stromal involvement, which makes capturing precise tumor-specific molecular information difficult. Here we have overcome this problem by applying blind source separation to a diverse collection of PDAC gene expression microarray data, including data from primary tumor, metastatic and normal samples. By digitally separating tumor, stromal and normal gene expression, we have identified and validated two tumor subtypes, including a 'basal-like' subtype that has worse outcome and is molecularly similar to basal tumors in bladder and breast cancers. Furthermore, we define 'normal' and 'activated' stromal subtypes, which are independently prognostic. Our results provide new insights into the molecular composition of PDAC, which may be used to tailor therapies or provide decision support in a clinical setting where the choice and timing of therapies are critical.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

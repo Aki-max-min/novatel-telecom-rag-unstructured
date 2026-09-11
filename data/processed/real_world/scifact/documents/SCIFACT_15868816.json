@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_15868816",
+  "title": "The PAR proteins: fundamental players in animal cell polarization.",
+  "content": "The par genes were discovered in genetic screens for regulators of cytoplasmic partitioning in the early embryo of C. elegans, and encode six different proteins required for asymmetric cell division by the worm zygote. Some of the PAR proteins are localized asymmetrically and form physical complexes with one another. Strikingly, the PAR proteins have been found to regulate cell polarization in many different contexts in diverse animals, suggesting they form part of an ancient and fundamental mechanism for cell polarization. Although the picture of how the PAR proteins function remains incomplete, cell biology and biochemistry are beginning to explain how PAR proteins polarize cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11481946",
+  "title": "Obesity, type 2 diabetes, and cancer: the insulin and IGF connection.",
+  "content": "Epidemiological studies suggest a positive association between obesity and type 2 diabetes mellitus (T2D) with the risk of cancer and cancer-related mortality. Insulin resistance, hyperinsulinemia, increased levels of IGF, elevated levels of steroid and peptide hormones, and inflammatory markers appear to play a role in the connection between these different diseases. Medications, such as metformin and exogenous insulin, used to treat T2D may affect the risk of cancer and cancer-related mortality. Newer therapies targeting the insulin and IGF1 systems are being developed for use in cancer therapy.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

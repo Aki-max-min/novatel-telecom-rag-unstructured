@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7968532",
+  "title": "STING and the innate immune response to nucleic acids in the cytosol",
+  "content": "Cytosolic detection of pathogen-derived nucleic acids is critical for the initiation of innate immune defense against diverse bacterial, viral and eukaryotic pathogens. Conversely, inappropriate responses to cytosolic nucleic acids can produce severe autoimmune pathology. The host protein STING has been identified as a central signaling molecule in the innate immune response to cytosolic nucleic acids. STING seems to be especially critical for responses to cytosolic DNA and the unique bacterial nucleic acids called 'cyclic dinucleotides'. Here we discuss advances in the understanding of STING and highlight the many unresolved issues in the field.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

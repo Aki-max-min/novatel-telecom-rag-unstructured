@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17195001",
+  "title": "TOR Signaling in Growth and Metabolism",
+  "content": "The target of rapamycin (TOR) is a conserved Ser/Thr kinase that regulates cell growth and metabolism in response to environmental cues. Here, highlighting contributions from studies in model organisms, we review mammalian TOR complexes and the signaling branches they mediate. TOR is part of two distinct multiprotein complexes, TOR complex 1 (TORC1), which is sensitive to rapamycin, and TORC2, which is not. The physiological consequences of mammalian TORC1 dysregulation suggest that inhibitors of mammalian TOR may be useful in the treatment of cancer, cardiovascular disease, autoimmunity, and metabolic disorders.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

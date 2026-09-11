@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29321530",
+  "title": "PI3K and cancer: lessons, challenges and opportunities",
+  "content": "The central role of phosphoinositide 3-kinase (PI3K) activation in tumour cell biology has prompted a sizeable effort to target PI3K and/or downstream kinases such as AKT and mammalian target of rapamycin (mTOR) in cancer. However, emerging clinical data show limited single-agent activity of inhibitors targeting PI3K, AKT or mTOR at tolerated doses. One exception is the response to PI3Kδ inhibitors in chronic lymphocytic leukaemia, where a combination of cell-intrinsic and -extrinsic activities drive efficacy. Here, we review key challenges and opportunities for the clinical development of inhibitors targeting the PI3K–AKT–mTOR pathway. Through a greater focus on patient selection, increased understanding of immune modulation and strategic application of rational combinations, it should be possible to realize the potential of this promising class of targeted anticancer agents.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

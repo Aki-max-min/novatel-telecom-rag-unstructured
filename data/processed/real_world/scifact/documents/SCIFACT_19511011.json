@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19511011",
+  "title": "Reconstitution of the immune system after hematopoietic stem cell transplantation in humans",
+  "content": "Hematopoietic stem cell transplantation is associated with a severe immune deficiency. As a result, the patient is at high risk of infections. Innate immunity, including epithelial barriers, monocytes, granulocytes, and NK cells recovers within weeks after transplantation. By contrast, adaptive immunity recovers much slower. B- and T-cell counts normalize during the first months after transplantation, but in particular, T-cell immunity may remain impaired for years. During the last decade, much of the underlying mechanisms have been identified. These insights may provide new therapies to accelerate recovery.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

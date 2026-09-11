@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21307488",
+  "title": "HER-2/neu induces p53 ubiquitination via Akt-mediated MDM2 phosphorylation",
+  "content": "HER-2/neu amplification or overexpression can make cancer cells resistant to apoptosis and promotes their growth. p53 is crucial in regulating cell growth and apoptosis, and is often mutated or deleted in many types of tumour. Moreover, many tumours with a wild-type gene for p53 do not have normal p53 function, suggesting that some oncogenic signals suppress the function of p53. In this study, we show that HER-2/neu-mediated resistance to DNA-damaging agents requires the activation of Akt, which enhances MDM2-mediated ubiquitination and degradation of p53. Akt physically associates with MDM2 and phosphorylates it at Ser166 and Ser186. Phosphorylation of MDM2 enhances its nuclear localization and its interaction with p300, and inhibits its interaction with p19ARF, thus increasing p53 degradation. Our study indicates that blocking the Akt pathway mediated by HER-2/neu would increase the cytotoxic effect of DNA-damaging drugs in tumour cells with wild-type p53.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

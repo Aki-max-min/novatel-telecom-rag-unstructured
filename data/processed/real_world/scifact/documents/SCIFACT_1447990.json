@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1447990",
+  "title": "FOXO4 is necessary for neural differentiation of human embryonic stem cells.",
+  "content": "Proteostasis is critical for maintaining cell function and proteome stability may play an important role in human embryonic stem cell (hESC) immortality. Notably, hESC populations exhibit a high assembly of active proteasomes, a key node of the proteostasis network. FOXO4, an insulin/IGF-1 responsive transcription factor, regulates proteasome activity in hESCs. We find that loss of FOXO4 reduces the potential of hESCs to differentiate into neural lineages. Therefore, FOXO4 crosses evolutionary boundaries and links hESC function to invertebrate longevity modulation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21958900",
+  "title": "Variability in risk of gastrointestinal complications with individual non-steroidal anti-inflammatory drugs: results of a collaborative meta-analysis.",
+  "content": "OBJECTIVE To compare the relative risks of serious gastrointestinal complications reported with individual non-steroidal anti-inflammatory drugs. DESIGN Systematic review of controlled epidemiological studies that found a relation between use of the drugs and admission to hospital for haemorrhage or perforation. SETTING Hospital and community based case-control and cohort studies. MAIN OUTCOME MEASURES (a) Estimated relative risks of gastrointestinal complications with use of individual drugs, exposure to ibuprofen being used as reference; (b) a ranking that best summarised the sequence of relative risks observed in the studies. RESULTS 12 studies met the inclusion criteria. 11 provided comparative data on ibuprofen and other drugs. Ibuprofen ranked lowest or equal lowest for risk in 10 of the 11 studies. Pooled relative risks calculated with exposure to ibuprofen used as reference were all significantly greater than 1.0 (interval of point estimates 1.6 to 9.2). Overall, ibuprofen was associated with the lowest relative risk, followed by diclofenac. Azapropazone, tolmetin, ketoprofen, and piroxicam ranked highest for risk and indomethacin, naproxen, sulindac, and aspirin occupied intermediate positions. Higher doses of ibuprofen were associated with relative risks similar to those with naproxen and indomethacin. CONCLUSIONS The low risk of serious gastrointestinal complications with ibuprofen seems to be attributable mainly to the low doses of the drug used in clinical practice. In higher doses ibuprofen is associated with a similar risk to other non-steroidal anti-inflammatory drugs. Use of low risk drugs in low dosage as first line treatment would substantially reduce the morbidity and mortality due to serious gastrointestinal toxicity from these drugs.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

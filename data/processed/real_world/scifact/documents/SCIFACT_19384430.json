@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19384430",
+  "title": "Tex10 Coordinates Epigenetic Control of Super-Enhancer Activity in Pluripotency and Reprogramming.",
+  "content": "Super-enhancers (SEs) are large clusters of transcriptional enhancers that are co-occupied by multiple lineage-specific transcription factors driving expression of genes that define cell identity. In embryonic stem cells (ESCs), SEs are highly enriched for the core pluripotency factors Oct4, Sox2, and Nanog. In this study, we sought to dissect the molecular control mechanism of SE activity in pluripotency and reprogramming. Starting from a protein interaction network surrounding Sox2, we identified Tex10 as a key pluripotency factor that plays a functionally significant role in ESC self-renewal, early embryo development, and reprogramming. Tex10 is enriched at SEs in a Sox2-dependent manner and coordinates histone acetylation and DNA demethylation at SEs. Tex10 activity is also important for pluripotency and reprogramming in human cells. Our study therefore highlights Tex10 as a core component of the pluripotency network and sheds light on its role in epigenetic control of SE activity for cell fate determination.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

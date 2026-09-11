@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_16557565",
+  "title": "Local, Efflux-Dependent Auxin Gradients as a Common Module for Plant Organ Formation",
+  "content": "Plants, compared to animals, exhibit an amazing adaptability and plasticity in their development. This is largely dependent on the ability of plants to form new organs, such as lateral roots, leaves, and flowers during postembryonic development. Organ primordia develop from founder cell populations into organs by coordinated cell division and differentiation. Here, we show that organ formation in Arabidopsis involves dynamic gradients of the signaling molecule auxin with maxima at the primordia tips. These gradients are mediated by cellular efflux requiring asymmetrically localized PIN proteins, which represent a functionally redundant network for auxin distribution in both aerial and underground organs. PIN1 polar localization undergoes a dynamic rearrangement, which correlates with establishment of auxin gradients and primordium development. Our results suggest that PIN-dependent, local auxin gradients represent a common module for formation of all plant organs, regardless of their mature morphology or developmental origin.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

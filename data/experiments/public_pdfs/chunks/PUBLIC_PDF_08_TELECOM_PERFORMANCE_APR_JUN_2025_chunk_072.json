@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_072",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 72,
+  "text": "Circle category Outgoing SMS per subscriber per month Post-paid Pre-paid Blended Circle A 12 10 10 Circle B 4 9 9 Circle C 8 15 14 Metro 7 7 7 All India 9 10 10 Chart 2.3: Minutes of Usage by Out-roamers as a % of Total Minutes of Usage during Q.E. Jun-25 69 Chart 2.4: Outgoing SMS Usage by Out-roamers as a % of Total No. of Outgoing SMS Usage during Q.E. Jun-25 2.12 The following table presents the percentage break-up of outgoing minutes of usage from home service area between various categories of termination networks in the Q.E. Jun-25. Table 2.6: % Break-up of Outgoing minutes from Home Service Area (HSA) during the Q.E. Jun-2025 Category % Intra- circle to wireline % Intra- circle to own wireless % Intra- circle to other wireless % Inter- circle to wireline % Inter- circle to own wireless % Inter- circle to other wireless % ILD Circle A 0.40% 42.77% 42.50% 0.18% 7.06% 7.09% 0.01% Circle B 0.47% 39.28% 38.86% 0.17% 10.58% 10.63% 0.01% Circle C 0.32% 42.77% 32.44% 0.19% 12.98% 11.30% 0.00% Metros 0.70% 28.90% 30.42% 0.49% 19.02% 20.45% 0.03% All India 0.43% 40.25% 38.08% 0.20% 10.61% 10.42% 0.01% 2.13 The following chart presents the share of outroamers (who had availed roaming services) as a percentage of total subscribers during Q.E. Jun-25. 70 Chart 2.5: % Share of outroamers as a percentage of total subscribers during Q.E. Jun–2025 2.14 The usage pattern of outroamers i.e. usage from outside the home service",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

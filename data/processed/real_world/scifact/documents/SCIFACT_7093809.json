@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7093809",
+  "title": "Wnt signaling establishes anteroposterior neuronal polarity and requires retromer in C. elegans.",
+  "content": "Secreted Wnt proteins influence neural connectivity by regulating axon guidance, dendritic morphogenesis and synapse formation. We report a new role for Wnt and Frizzled proteins in establishing the anteroposterior polarity of the mechanosensory neurons ALM and PLM in C. elegans. Disruption of Wnt signaling leads to a complete inversion of ALM and PLM polarity: the anterior process adopts the length, branching pattern and synaptic properties of the wild-type posterior process, and vice versa. Different but overlapping sets of Wnt proteins regulate neuronal polarity in different body regions. Wnts act directly on PLM via the Frizzled LIN-17. In addition, we show that they are needed for axon branching and anteriorly directed axon growth. We also find that the retromer, a conserved protein complex that mediates transcytosis and endosome-to-Golgi protein trafficking, plays a key role in Wnt signaling. Deletion mutations of retromer subunits cause ALM and PLM polarity, and other Wnt-related defects. We show that retromer protein VPS-35 is required in Wnt-expressing cells and propose that retromer activity is needed to generate a fully active Wnt signal.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

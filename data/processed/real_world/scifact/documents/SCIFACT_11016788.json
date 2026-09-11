@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11016788",
+  "title": "sasCIF: an extension of core Crystallographic Information File for SAS",
+  "content": "Data acquisition packages developed at different small angle scattering facilities use different formats both for raw and processed data storage. To facilitate the data exchange between laboratories, a consensus in the small angle scattering community has been reached on an ASCII format for one-dimensional data which includes a self-describing header containing relevant information about the sample and instrumental conditions followed by raw or reduced data in a tabular form. This format called sasCIF was implemented as an extension of core CIF (Crystallographic Information File) dictionary.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

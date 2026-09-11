@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_181",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 181,
+  "text": "be made. TSPs also submitted that they do due diligence at the time of providing telecom resources and also carry out appropriate checks and they should not be held responsible for any violations by UTMs. TSPs further submitted that for management of header, TMSEs should be responsible and not the TSPs. It was also submitted that TMSEs should be made liable for appropriate use of headers and responsibility should be made clear at the time of assignment of header. TSPs should not be made responsible for any misuse of headers. TSPs requested Authority to remove provisions of financial disincentives on access providers in case of violations by UTMs. ii. Few TSPs submitted that they take several actions to identify UTMs such as analyzing calling patterns, their locations. TSPs have implemented spam detection solutions and they regularly update scripts for better results. 5.2.6 Levying strict financial disincentives for UCC using Robo call, auto-dialer calls i. Few stakeholders suggested to institute an automated screening system for filtering robocalls. They also suggested use of honeypots to identify such calls. In case, it is found after an investigation or it is evident that entity is making robocalls or using auto-diallers for telemarketing purpose then TSPs may be directed to disconnect the telecom resources of such callers. Further, if such calls are generated through RTM, a suitable penal clause in the agreement may be incorporated and such RTM should be blacklisted with immediate effect for a longer period beyond three years along with immediate forfeiture",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

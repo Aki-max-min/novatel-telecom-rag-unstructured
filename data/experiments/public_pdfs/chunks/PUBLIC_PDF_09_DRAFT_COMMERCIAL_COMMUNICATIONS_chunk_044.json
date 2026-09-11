@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_044",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 44,
+  "text": "Verifier; (f) Complaint Register; (g) Preference Register; (h) Telemarketer Scrubbing Function Register; (i) Telemarketer Message Delivery Function Register; (j) Telemarketer Voice Delivery Function Register; (3) CoP-Entities shall include at least following: - (a) implementation details for all functional entities; (b) additional measures, as deemed fit by access provider(s), for functional entities required to ensure regulatory compliance; (c) minimum standards of technical measures to effectively control the sending of unsolicited commercial electronic messages; (d) technical mechanism to make available latest version of relevant and reliable data for an entity to carry out its desired function; (e) such other matters as the Authority may deem fit, from time to time. 4. Every Access Provider shall carry out following functions: - (1) Header Registration Function (HRF) (a) assign header or Header root for SMS via Header Registration Functionality, on its own or through its agents, as per allocation and assignment principles and policies, to facilitate content provider or principal entity to get new headers; (b) carry out pre-verifications of documents and credentials submitted by an individual, 32 business entity or legal entity requesting for assigning of the header; (c) bind with a mobile device and mobile number(s), in a secure and safe manner, which shall be used subsequently on regular intervals for logins to the sessions by the header assignee; (d) carry out additional authentications in case of a request for headers to be issued to SEBI registered brokers or other entities specified by Authority by directions, orders or instructions issued from time",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10542877",
+  "title": "AZD9150, a next-generation antisense oligonucleotide inhibitor of STAT3 with early evidence of clinical activity in lymphoma and lung cancer",
+  "content": "Next-generation sequencing technologies have greatly expanded our understanding of cancer genetics. Antisense technology is an attractive platform with the potential to translate these advances into improved cancer therapeutics, because antisense oligonucleotide (ASO) inhibitors can be designed on the basis of gene sequence information alone. Recent human clinical data have demonstrated the potent activity of systemically administered ASOs targeted to genes expressed in the liver. We describe the preclinical activity and initial clinical evaluation of a class of ASOs containing constrained ethyl modifications for targeting the gene encoding the transcription factor STAT3, a notoriously difficult protein to inhibit therapeutically. Systemic delivery of the unformulated ASO, AZD9150, decreased STAT3 expression in a broad range of preclinical cancer models and showed antitumor activity in lymphoma and lung cancer models. AZD9150 preclinical activity translated into single-agent antitumor activity in patients with highly treatment-refractory lymphoma and non–small cell lung cancer in a phase 1 dose-escalation study.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

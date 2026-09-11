@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_048",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 48,
+  "text": "section summarizes information submitted by 1219 operators at the end of Mar-2025. Part-I consists of information of Internet services (both narrowband and broadband), Part-II consists of broadband services and Part-III covers narrowband services. Part-I: Internet* Service (broadband† + narrowband) 51. This report is compiled on the revised definition of Broadband speed i.e. > 2Mbps, as notified by DoT on 25.01.2023. As per reports received from 1219 operators, total number of internet subscribers increased from 954.40 million at the end of Mar-24 to 969.10 million at the end of Mar-25 with yearly growth rate of 1.54%. Out of a total of 969.10 million internet subscribers, number of broadband subscribers is 944.12 million and number of narrowband subscribers is 24.98 million at the end of Mar-25. 52. Wireless Internet subscribers increased from 914.13 million at the end of Mar-24 to 927.70 million at the end of Mar-25 with yearly growth rate of 1.48%. Wired Internet subscribers also increased from 40.27 million at the end of Mar-24 to 41.41 million at the end of Mar-25 with yearly growth rate of 2.83%. 53. Number of Broadband subscribers increased from 924.07 million at the end of Mar-24 to 944.12 million at the end of Mar-25 with yearly growth rate of 2.17%. The number of Narrowband subscribers decreased from 30.34 million at the end of Mar-24 to 24.98 million at the end of Mar- 25 with yearly rate of decline of 17.66%. * Internet: Interconnected global networks that use the internet protocol. † Broadband: Broadband is",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

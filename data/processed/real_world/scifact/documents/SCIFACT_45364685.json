@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_45364685",
+  "title": "Induction of the heat-shock response by carbon dioxide in Chironomus thummi.",
+  "content": "The effects of a set of stress treatments on gene expression of Chironomus thummi salivary gland cells have been analyzed. Among the treatments assayed, only during recovery from carbon dioxide have we observed a response similar to that previously described after heat-shock treatment: induction of the heat-shock puffs and synthesis of the heat-shock polypeptides. In these conditions, puffing and transcription of telomeric regions were observed, which led to the appearance of the temperature-inducible telomeric Balbiani ring T-BR-III. Other treatments failed to induce the heat-shock response, despite promoting real stress conditions to C. thummi larvae or salivary gland cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

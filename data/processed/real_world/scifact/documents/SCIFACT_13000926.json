@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13000926",
+  "title": "The role of free radicals in cold injuries.",
+  "content": "Cold injury is a tissue trauma produced by exposure to freezing temperatures and even brief exposure to a severely cold and windy environment. Rewarming of frozen tissue is associated with blood reperfusion and the simultaneous generation of free oxygen radicals. In this review is discussed the current understanding of the mechanism of action of free oxygen radicals as related to cold injury during rewarming. Decreased energy stores during ischaemia lead to the accumulation of adenine nucleotides and liberation of free fatty acids due to the breakdown of lipid membranes. On rewarming, free fatty acids are metabolized via cyclo-oxygenase and adenine nucleotides are metabolized via the xanthine oxidase pathway. These may be the source of free oxygen radicals. Leukocytes may also play a major role in the pathogenesis of cold injury. Oxygen radical scavengers, such as superoxide dismutase and catalase, may help to reduce the cold induced injury but their action is limited due to the inability readily to cross the plasma membrane. Lipid soluble antioxidants are likely to be more effective scavengers because of their presence in membranes where peroxidative reactions can be arrested.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

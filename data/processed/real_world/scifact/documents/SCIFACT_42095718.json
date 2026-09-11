@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_42095718",
+  "title": "Psychiatric comorbidity in chronic daily headache.",
+  "content": "Clinical evidence suggests that chronic daily headache (CDH) occurs in association with psychopathologies: previous studies have focused particularly on migraine. To evaluate this association, we studied, using the DSM-IIIR criteria, a population of 88 patients (18M, 70F) affected by CDH (mean duration 7.4 +/- 8.7 years). We documented the presence of a psychiatric disorder in 90% of this population. The most frequent diagnosis was a comorbidity of anxiety and mood disorders. The comorbidity of psychiatric disorders and headache has important implications as far as treatment is concerned.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

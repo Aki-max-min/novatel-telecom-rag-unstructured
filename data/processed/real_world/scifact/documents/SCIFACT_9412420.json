@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9412420",
+  "title": "Endogenous bone marrow MSCs are dynamic, fate-restricted participants in bone maintenance and regeneration.",
+  "content": "Mesenchymal stem cells (MSCs) commonly defined by in vitro functions have entered clinical application despite little definition of their function in residence. Here, we report genetic pulse-chase experiments that define osteoblastic cells as short-lived and nonreplicative, requiring replenishment from bone-marrow-derived, Mx1(+) stromal cells with \"MSC\" features. These cells respond to tissue stress and migrate to sites of injury, supplying new osteoblasts during fracture healing. Single cell transplantation yielded progeny that both preserve progenitor function and differentiate into osteoblasts, producing new bone. They are capable of local and systemic translocation and serial transplantation. While these cells meet current definitions of MSCs in vitro, they are osteolineage restricted in vivo in growing and adult animals. Therefore, bone-marrow-derived MSCs may be a heterogeneous population with the Mx1(+) population, representing a highly dynamic and stress responsive stem/progenitor cell population of fate-restricted potential that feeds the high cell replacement demands of the adult skeleton.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

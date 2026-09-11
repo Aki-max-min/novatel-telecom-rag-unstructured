@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_172",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 172,
+  "text": "stakeholders' submissions, the Authority has reviewed and revised the parameter's name and benchmark to \"Percentile value of measured test samples for which download and upload speed is ≥ offered typical download and upload speed in tariff offerings\" setting the benchmark at the 80th percentile for wireless broadband service and 90th percentile for wireline broadband services. It is also to be noted that these tests are to be conducted through the measurement setup as prescribed in the measurement methodology under Schedule-I. Therefore, the external factors are already minimized. In case the typical speeds are not linked to the broadband plan or tariff offerings, then the service providers are free to publish typical download and upload speeds for respective service in the service area. 5.4 Quality of Service parameter in respect of which compliance is to be monitored by the service provider and reported to the Authority (Wireless) [Regulation 7] 5.4.1 Maximum Bandwidth utilization between Radio and Core Network during TCBH (a) Input of Stakeholders Some of the stakeholders submitted that this parameter should be removed from the proposed draft Regulations. It is also submitted that the consultation paper does not provide enough clarification on reporting of this parameter. There are many links involved in service delivery and measurement of traffic on each of the links is not possible. Further, this is in the purview of network design and should not be part of the purview of QoS. (b) Analysis and Conclusion (i) This is an existing parameter in Broadband (Wireline) regulations,",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

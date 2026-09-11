@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_034",
+  "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+  "chunk_index": 34,
+  "text": "request for deactivation of STV; Step – 3: an SMS or e-mail shall be sent to the consumer on his registered mobile phone or e- mail, respectively, immediately after deactivation of renewal of the STV, informing him about the successful deactivation of the STV along with the name of the STV and a docket number of such deactivation.] 20 1[SCHEDULE – III Procedure for activation or deactivation of data services on request of the consumer through Interactive Voice Response (IVR) and SMS to toll free common short code 1925 under regulation 10B. (a) Through Interactive Voice Response (IVR): Step – 1. On receipt of request from the consumer through IVR, the service provider shall provide to the consumer, over the recorded IVR, the choice of language for interaction, which shall be in English, Hindi and in the regional language; Step – 2. The consumer is given an option to select the activation or deactivation of data service by pressing the appropriate key for the service to be activated or deactivated; Step – 3. On pressing the appropriate key, an SMS shall be delivered to the consumer informing him that his request has been received and the service shall be activated or deactivated, as the case may be, within four hours and that he shall receive an SMS confirming action taken on his request; Step – 4. In case the consumer presses an inappropriate key in step-3, IVR shall inform the consumer that the key pressed is wrong and the procedure",
+  "title": "01 telecom consumers protection",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/01_telecom_consumers_protection.pdf",
+  "file_type": "pdf"
+}

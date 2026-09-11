@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11238784",
+  "title": "LXRS and FXR: the yin and yang of cholesterol and fat metabolism.",
+  "content": "Liver X receptors (LXRs) and farnesoid X receptor (FXR) are nuclear receptors that function as intracellular sensors for sterols and bile acids, respectively. In response to their ligands, these receptors induce transcriptional responses that maintain a balanced, finely tuned regulation of cholesterol and bile acid metabolism. LXRs also permit the efficient storage of carbohydrate- and fat-derived energy, whereas FXR activation results in an overall decrease in triglyceride levels and modulation of glucose metabolism. The elegant, dual interplay between these two receptor systems suggests that they coevolved to constitute a highly sensitive and efficient system for the maintenance of total body fat and cholesterol homeostasis. Emerging evidence suggests that the tissue-specific action of these receptors is also crucial for the proper function of the cardiovascular, immune, reproductive, endocrine pancreas, renal, and central nervous systems. Together, LXRs and FXR represent potential therapeutic targets for the treatment and prevention of numerous metabolic and lipid-related diseases.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

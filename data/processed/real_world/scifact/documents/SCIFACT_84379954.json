@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_84379954",
+  "title": "Diversity and Evenness: A Unifying Notation and Its Consequences",
+  "content": "Three commonly used measures of diversity, Simpson's index, Shannon's entropy, and the total number of species, are related to Renyi's definition of a generalized entropy. A unified concept of diversity is presented, according to which there is a continuum of possible diversity measures. In a sense which becomes apparent, these measures provide estimates of the effective number of species present, and differ only in their tendency to include or to ignore the relatively rarer species. The notion of the diversity of a community as opposed to that of a sample is examined, and is related to the asymptotic form of the species—abundance curve. A new and plausible definition of evenness is derived.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

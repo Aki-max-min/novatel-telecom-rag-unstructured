@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26132041",
+  "title": "Vanishing cerebellar infarcts in a migraine patient.",
+  "content": "Recent population-based studies have suggested that migraine is a risk factor for the development of infarct-like lesions in the territory of the posterior circulation. These lesions are thought to be true vascular infarcts based on their size, location and magnetic resonance imaging (MRI) characteristics. However, as there are no postmortem studies identifying the pathology of these MRI findings, their true aetiology is unknown. A case patient with migraine is presented, who developed what appeared to be cerebellar infarcts on MRI, but these lesions vanished on repeat imaging 16 days later, questioning their aetiology as vascular ischaemic based infarcts.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

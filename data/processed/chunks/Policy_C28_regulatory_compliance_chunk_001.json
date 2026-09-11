@@ -1,0 +1,20 @@
+{
+  "chunk_id": "Policy_C28_regulatory_compliance_chunk_001",
+  "document_id": "Policy_C28_regulatory_compliance",
+  "chunk_index": 1,
+  "text": "applicable regulatory requirements (e.g. TRAI/DoT guidance) as general background context; it is not a substitute for legal advice. Audit Considerations All exceptions and manual overrides must be logged with justification for periodic audit review. Escalation Escalations beyond first-line resolution are logged with a unique ticket reference and routed to the relevant specialist team, with an SLA acknowledgement sent to the customer within 24 hours. Effective Date / Version Version 1.0, effective 2026-08-08. Review Cycle This policy is reviewed annually or upon material regulatory change, whichever is earlier. Related Documents No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
+  "title": "Regulatory Compliance and TRAI Disclosure Policy",
+  "document_type": "Policy",
+  "category": "C28",
+  "department": "Legal",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c28"
+  ],
+  "file_path": "data\\raw\\unstructured\\policies\\Policy_C28_regulatory_compliance.docx",
+  "file_type": "docx"
+}

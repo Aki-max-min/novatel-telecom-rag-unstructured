@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13726379",
+  "title": "Coronary heart disease in south Asians overseas: a review.",
+  "content": "Coronary heart disease rates have been reported in several parts of the world to be unusually high in people originating from the Indian subcontinent. High coronary disease rates appear to be common to South Asian groups of different geographical origin, religion, and language. This presents a challenge to the understanding of coronary heart disease: the high rates in South Asians are not explained on the basis of elevated serum cholesterol, smoking or hypertension. Low plasma HDL cholesterol, high plasma triglyceride levels and high prevalence of non-insulin-dependent diabetes have been consistently found in South Asians overseas: this probably reflects an underlying state of insulin resistance. Further studies are needed to determine whether this metabolic disturbance can account for the high rates of coronary heart disease in South Asians, and to identify possibilities for prevention.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

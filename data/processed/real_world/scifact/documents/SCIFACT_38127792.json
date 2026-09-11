@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_38127792",
+  "title": "Acentrosomal Microtubule Assembly in Mitosis: The Where, When, and How.",
+  "content": "In mitosis the cell assembles the bipolar spindle, a microtubule (MT)-based apparatus that segregates the duplicated chromosomes into two daughter cells. Most animal cells enter mitosis with duplicated centrosomes that provide an active source of dynamic MTs. However, it is now established that spindle assembly relies on the nucleation of acentrosomal MTs occurring around the chromosomes after nuclear envelope breakdown, and on pre-existing microtubules. Where chromosome-dependent MT nucleation occurs, when MT amplification takes place and how the two pathways function are still key questions that generate some controversies. We reconcile the data and present an integrated model accounting for acentrosomal microtubule assembly in the dividing cell.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_15969637",
+  "title": "Supplementary information: ‘MesoRD User’s Guide ’ and other",
+  "content": "UNLABELLED MesoRD is a tool for stochastic simulation of chemical reactions and diffusion. In particular, it is an implementation of the next subvolume method, which is an exact method to simulate the Markov process corresponding to the reaction-diffusion master equation. AVAILABILITY MesoRD is free software, written in C++ and licensed under the GNU general public license (GPL). MesoRD runs on Linux, Mac OS X, NetBSD, Solaris and Windows XP. It can be downloaded from http://mesord.sourceforge.net. CONTACT johan.elf@icm.uu.se; johan.hattne@embl-hamburg.de   SUPPLEMENTARY INFORMATION 'MesoRD User's Guide' and other documents are available at http://mesord.sourceforge.net.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

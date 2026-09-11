@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20758340",
+  "title": "Hierarchical organization of the plasma membrane: investigations by single-molecule tracking vs. fluorescence correlation spectroscopy.",
+  "content": "Single-molecule tracking and fluorescence correlation spectroscopy (FCS) applied to the plasma membrane in living cells have allowed a number of unprecedented observations, thus fostering a new basic understanding of molecular diffusion, interaction, and signal transduction in the plasma membrane. It is becoming clear that the plasma membrane is a heterogeneous entity, containing diverse structures on nano-meso-scales (2-200 nm) with a variety of lifetimes, where certain membrane molecules stay together for limited durations. Molecular interactions occur in the time-dependent inhomogeneous two-dimensional liquid of the plasma membrane, which might be a key for plasma membrane functions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

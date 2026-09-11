@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_169",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 169,
+  "text": "to improve the performance against benchmark to ≤ 2% over a period as mentioned in the regulation. The performance against this parameter shall be measured as per the measurement methodology provided in the Schedule-I of the regulation. The present benchmark for parameter ‘packet loss’ for wireline broadband i.e. < 1% has been retained. 5.3.10 Percentile value of measured test samples for which download and upload speed is ≥ offered typical download and upload speed in tariff offerings {Access (Wireless) and Broadband (Wireline)} (a) Input of Stakeholders (i) Some of the stakeholders argued against mandating parameters like minimum download speed for wireless networks, emphasizing that TSPs do not prescribe any minimum download speed and cannot guarantee one due to various uncontrollable factors. They highlighted TRAI's MySpeed app as a tool for customers to measure data speeds, attributing speed fluctuations on wireless networks to factors beyond TSPs' control, such as handset type, location, user traffic, and connectivity issues. They asserted that such parameters are not consumer-oriented or friendly and advocate for their removal from proposed regulations. (ii) The stakeholder also highlighted that for the benchmarks of 100% for the minimum download speed in the case of wireline networks, the calculation methodology appears to be erroneous and stated that the Authority is proposing 100% benchmarks based on the average of the lower 10% of all respective test calls. This approach seems incorrect if the benchmark is set at 100%. Nevertheless, considering the challenges highlighted for network latency and its applicability to wireline networks",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

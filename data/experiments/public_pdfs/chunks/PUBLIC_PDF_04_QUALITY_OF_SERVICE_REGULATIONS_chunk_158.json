@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_158",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 158,
+  "text": "Authority or its authorized agency or representative, on demand, for verifications. (xvi) Many stakeholders have submitted that QoS also depends on type and quality of user device (handset), which is beyond control of the service providers. However, none of the service provider has submitted any supporting document or data to support the submission. Therefore, the argument does not find any merit, however, if required, licensor may consider review of existing provisions related to quality of user device (handset). 5.3.7 Downlink Packet Drop Rate & Uplink Packet Drop Rate for Packet Switched Network (4G/ 5G and beyond) (a) Input of Stakeholders (i) Some of the stakeholders submitted that these parameters should not be part of the regulation since the main parameter ‘DCR’ is already included in the regulation. The parameter was introduced under QoS regulation, assuming it impacts voice service. However, many technical parameters related to voice services are only for engineering analysis and cannot be directly linked to Drop Call Rate. TSPs have been diligently adhering to TRAI's stringent norms, and their improved performance should not result in more stringent benchmarks. OEMs have also shown reluctance to capture these parameters, as it would necessitate significant upgrades to existing systems and data extraction counters. Thus, any revision in the existing parameters that would negatively impact the industry by rendering it non- compliant should be avoided, as it would lead to widespread non-compliance across the industry. Further, such parameters are not being monitored nor are these being reported in developed countries. (ii)",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

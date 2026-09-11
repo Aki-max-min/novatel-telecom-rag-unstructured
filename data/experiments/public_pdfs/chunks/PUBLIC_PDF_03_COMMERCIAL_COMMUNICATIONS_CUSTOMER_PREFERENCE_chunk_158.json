@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_158",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 158,
+  "text": "enable rapid and efficient trace-back for investigation and enforcement purposes. ii. Stakeholders also informed that the Federal Trade Commission and local industry bodies explored various approaches to stem Robo calling and spoofing. They determined that major changes to the legacy SS7 signaling protocol prevalent in voice network infrastructure was not viable and has thus focused the solution on next generation IP Multimedia Subsystem (IMS) network interconnection. To be clear, the approach does not require all voice switches to migrate to VoIP, only that the interconnecting trunks between operator networks employ IMS-based VoIP. Furthermore, SMS text messaging generally uses other signaling protocols for Application to Person (A2P) messaging which would require a comparable IP-based approach unless IMS is also adopted for such messaging to consumers. iii. One Stakeholder suggested that the registration and authentication process of the new framework should ensure that calls can be made only from some registered numbers. The validation process of the new framework may also ensure that the format of the message/calls is approved before distribution. This would considerably help in curbing Robo calls and silent calls. iv. Regarding International co-operation and collaboration needed to address the issues, no specific comments were received from stakeholders. 4.3 Analysis of inputs and conclusions Following paras deliberate upon the issues which are related to Customer Preference Registration System (CPRS). Issues and responses to the questions raised in the consultation paper are also summarized. Key points from the current regulatory approach and approaches taken in other jurisdictions to deal with",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

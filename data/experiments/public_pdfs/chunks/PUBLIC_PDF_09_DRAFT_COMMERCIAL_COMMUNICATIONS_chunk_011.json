@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_011",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 11,
+  "text": "basis of the purchase or transaction made by or done by the recipient with the sender within the tweleve months immediately preceding the date of the communication; or (v) on the basis of inquiry or application regarding products or services made by or submitted by recipient to sender within the three months immediately preceding the date of the receiving of communication, which relationship has not been previously terminated by either party; (vi) for social reasons, between a person or entity and a subscriber with or without an exchange of consideration, by voluntary two-way communication, initiated from both sides at different points in time; (ba) “Robo Calls” means any call made to any customer using an artificial or prerecorded voice to interactively deliver a voice message without the 9 involvement of human being on calling side for participating in the dialogue; (bb) “Scrubber” means an entity registered with the access provider(s) and authorised by the relevant regulations to perform the function of scrubbing in accordance with the relevant regulations; (bc) “Scrubbing” means process of comparing target list of telephone number(s) provided by the sender, to whom it wishes to send commercial communication with the list of telephone number(s) in DL-Preference and DL-Consent to check whether commercial communication(s) can be sent to the recipient as per his registered preference(s) or as per consent; (bd) “Sender”, in relation to a commercial communication, means (i) The person or entity who owns the telephone number or the header(s) that were used; (ii) A person or",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

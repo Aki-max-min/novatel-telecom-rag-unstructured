@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_167469018",
+  "title": "Drink Choice: Factors Influencing the Intention to Drink Wine",
+  "content": "This paper explores the reasons why consumers choose wine over other alcoholic beverages, with a focus upon the beliefs held by consumers towards the behaviour of wine drinking. The research findings show that attitudes are somewhat more predictive of the intention to drink wine than perceived social pressure. Nevertheless, both attitudinal and normative elements are required to adequately explain wine consumption. Despite the fact that the issue of health figured prominently amongst the salient beliefs identified in the qualitative phase of the research, the subsequent quantitative research found that drinking wine because of its purported health benefits was not a significant attitudinal or behavioural factor. Drinking wine because it provides ‘a variety of tastes and flavours’ and because it ‘goes well with food’ was found to be significantly more important. The results suggest that efforts to actively promote awareness of the health benefits of wine drinking may have limited value.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

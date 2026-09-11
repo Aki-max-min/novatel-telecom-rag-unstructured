@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20620012",
+  "title": "Hitting the target: emerging technologies in the search for kinase substrates.",
+  "content": "Through phosphorylation, protein kinases can alter the activity, localization, protein association, and stability of their targets. Despite the importance to our understanding of all aspects of cell biology, progress toward identifying bona fide substrates of specific protein kinases has been slow. Traditionally used techniques to identify true kinase substrates, such as genetics, yeast two-hybrid screens, and biochemical purification, are often laborious and unreliable. However, several new approaches have recently been developed and used successfully to identify genuine in vivo substrates of certain protein kinases. These methods include screening for phosphorylation of proteins from phage expression libraries, peptide library screens to determine optimal motifs favored by specific kinases, the use of phospho-motif antibodies, and an approach that uses structurally altered kinases and allele-specific adenosine triphosphate analogs and kinase inhibitors. We describe these approaches and discuss their utility and inherent caveats.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

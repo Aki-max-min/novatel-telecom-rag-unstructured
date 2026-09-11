@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_885056",
+  "title": "Summary",
+  "content": "Steroid receptor RNA activator (SRA), the only known RNA coactivator, augments transactivation by nuclear receptors (NRs). We identified SLIRP (SRA stem-loop interacting RNA binding protein) binding to a functional substructure of SRA, STR7. SLIRP is expressed in normal and tumor tissues, contains an RNA recognition motif (RRM), represses NR transactivation in a SRA- and RRM-dependent manner, augments the effect of Tamoxifen, and modulates association of SRC-1 with SRA. SHARP, a RRM-containing corepressor, also binds STR7, augmenting repression with SLIRP. SLIRP colocalizes with SKIP (Chr14q24.3), another NR coregulator, and reduces SKIP-potentiated NR signaling. SLIRP is recruited to endogenous promoters (pS2 and metallothionein), the latter in a SRA-dependent manner, while NCoR promoter recruitment is dependent on SLIRP. The majority of the endogenous SLIRP resides in the mitochondria. Our data demonstrate that SLIRP modulates NR transactivation, suggest it may regulate mitochondrial function, and provide mechanistic insight into interactions between SRA, SLIRP, SRC-1, and NCoR.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

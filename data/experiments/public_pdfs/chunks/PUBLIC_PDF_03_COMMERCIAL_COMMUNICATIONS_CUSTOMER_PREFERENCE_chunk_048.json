@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_048",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 48,
+  "text": "function from telemarketer; carry out Header Registration Function; keep record of headers throughout its lifecycle, i.e. free for assignment, assigned to an entity, withdrawn, surrendered, re-assigned etc.; keep record of header(s), header root(s) reserved for specific purpose; synchronize records, in real time, among all header ledgers available with participating nodes in Header Registration Functionality in an immutable and non-repudiable manner; maintain with minimum performance requirements as specified; perform any other function and keep relevant details required for carrying out pre and post checks for regulatory compliance; Consent Registrar (CR) to establish and maintain consent register as distributed ledger to keep consent, in a secure and safe manner, and make accessible relevant data for scrubbing function to the registered telemarketers for scrubbing; establish Customer Consent Acquisition Facility (CCAF), to record recipient’s consent to receive commercial communications from the sender or consent acquirer; establish Customer Consent Verification Facility (CCVF) for the purpose of facilitating: customers to verify, modify, renew or revoke their consent in respect of commercial 26 communications, and Access Providers to verify the consent in case of complaint; keep consent for each consent acquirer, in a manner that client data of entity is adequately protected; keep record of revocation of consent by the customer, whenever exercised, in an immutable and non-repudiable manner; synchronize records, in real time, among all consent ledgers available with participating nodes in Consent Acquisition Functionality in an immutable and non-repudiable manner; maintain with minimum performance requirements as specified; perform any other function and keep relevant details",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9705208",
+  "title": "Immune complex relay by subcapsular sinus macrophages and non-cognate B cells drives antibody affinity maturation",
+  "content": "Subcapsular sinus (SCS) macrophages capture antigens from lymph and present them intact for B cell encounter and follicular delivery. However, the properties of SCS macrophages are poorly defined. Here we show SCS macrophage development depended on lymphotoxin-alpha1beta2, and the cells had low lysosomal enzyme expression and retained opsonized antigens on their surface. Intravital imaging revealed immune complexes moving along macrophage processes into the follicle. Moreover, noncognate B cells relayed antigen opsonized by newly produced antibodies from the subcapsular region to the germinal center, and affinity maturation was impaired when this transport process was disrupted. Thus, we characterize SCS macrophages as specialized antigen-presenting cells functioning at the apex of an antigen transport chain that promotes humoral immunity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

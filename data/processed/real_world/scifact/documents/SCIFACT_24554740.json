@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24554740",
+  "title": "Integrins and cell proliferation: regulation of cyclin-dependent kinases via cytoplasmic signaling pathways.",
+  "content": "Cell cycle progression in mammalian cells is strictly regulated by both integrin-mediated adhesion to the extracellular matrix and by binding of growth factors to their receptors. This regulation is mediated by G1 phase cyclin-dependent kinases (CDKs), which are downstream of signaling pathways under the integrated control of both integrins and growth factor receptors. Recent advances demonstrate a surprisingly diverse array of integrin-dependent signals that are channeled into the regulation of the G1 phase CDKs. Regulation of cyclin D1 by the ERK pathway may provide a paradigm for understanding how cell adhesion can determine cell cycle progression.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

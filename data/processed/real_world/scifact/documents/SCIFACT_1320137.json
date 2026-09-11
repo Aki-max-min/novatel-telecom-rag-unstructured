@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1320137",
+  "title": "The twin-arginine translocation (Tat) protein export pathway",
+  "content": "The twin-arginine translocation (Tat) protein export system is present in the cytoplasmic membranes of most bacteria and archaea and has the highly unusual property of transporting fully folded proteins. The system must therefore provide a transmembrane pathway that is large enough to allow the passage of structured macromolecular substrates of different sizes but that maintains the impermeability of the membrane to ions. In the Gram-negative bacterium Escherichia coli, this complex task can be achieved by using only three small membrane proteins: TatA, TatB and TatC. In this Review, we summarize recent advances in our understanding of how this remarkable machine operates.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

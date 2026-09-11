@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_208",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 208,
+  "text": "precedent for regulating or monitoring QoS for carrier services. It is further submitted that from a consumer service level, the network is created as a whole, and not in isolation at access, core and transport levels, i.e., these elements are not designed in a mutually exclusive manner. It is natural that a challenge at any end within the network, impacts consumer experience, will be reflected in the overall consumer QoS. Therefore, there is no need to prescribe any additional regulations on NLD/ILD segments. (ii) One of the stakeholders submitted that the QoS parameters of the network for wired connectivity on OTN/DWDM should be Latency, and Unavailable seconds. While another stakeholder submitted that the QoS will remain the same with technologies like Fiber, CPRI, Lease-lines etc. Key parameters are “time delay”, jitter, “error ratio” which we need to take care of as per Link-budget. (b) Analysis and Conclusion (i) End-to-end QoS depends on the QoS contribution by each segment of the network including user equipment, access network, backhaul network, core network, and the rest of the path i.e. NLD or ILD segment, as applicable. (ii) Therefore, the QoS monitoring, and management framework of the service providers should be aligned to deliver end-to-end QoS to the end consumer. The degradation of performance in any segment of the network will adversely affect the user experience even though remaining network segments might be performing better than respective benchmarks. (iii) Accordingly, the Authority has taken an end-to-end approach for QoS in the regulations. The performance",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

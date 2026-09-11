@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_25612629",
+  "title": "Patent ductus arteriosus: are current neonatal treatment options better or worse than no treatment at all?",
+  "content": "Although a moderate-sized patent ductus arteriosus (PDA) needs to be closed by the time a child is 1-2 years old, there is great uncertainty about whether it needs to be closed during the neonatal period. Although 95% of neonatologists believe that a moderate-sized PDA should be closed if it persists in infants (born before 28 weeks) who still require mechanical ventilation, the number of neonatologists who treat a PDA when it occurs in infants who do not require mechanical ventilation varies widely. Both the high likelihood of spontaneous ductus closure and the absence of randomized controlled trials, specifically addressing the risks and benefits of neonatal ductus closure, add to the current uncertainty. New information suggests that early pharmacologic treatment has several important short-term benefits for the preterm newborn. By contrast, ductus ligation, while eliminating the detrimental effects of a PDA on lung development, may create its own set of morbidities that counteract many of the benefits derived from ductus closure.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

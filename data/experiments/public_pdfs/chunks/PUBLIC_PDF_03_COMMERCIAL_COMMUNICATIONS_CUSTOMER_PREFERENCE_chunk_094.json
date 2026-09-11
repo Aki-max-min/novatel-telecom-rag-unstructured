@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_094",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 94,
+  "text": "Out of 29 questions, 7 were mainly related to Customer Preference Registration System; 9 were related to the registration system for related entities, while rest 13 were related to Complaint Handling System. 2.2.2 There are a few issues which may be interrelated with multiple aspects e.g. Scrubbing as a Service may be useful to improve gap between time when preference was opted by customer and time it came into force, and it may also be helpful to improve gap between time when UCC complaint was made and its resolution. 3 Inputs, analysis and conclusions on issues related to Registration System for related entities 3.1 Issues related to Registration System for related entities 3.1.1 Robust verification and authentication of telemarketers: It is noticed that in case of unauthorized activities or violations of the regulations, it is often difficult to trace defaulting telemarketers and sender (i.e. content provider). This points to the need for clearly demarcating roles and responsibilities of various stakeholders in the value chain and for formulating mechanisms to make them traceable. This will require changes in the process of registration of RTMs and a process for robust verification and authentication. 3.1.2 Registration of Intermediaries, Principal Entities and their agreements: In addition to telemarketers, several other entities are involved in the origination, transmission, processing and delivery of commercial communications, which can make it difficult to establish responsibility in case of violations of UCC regulations. Therefore, it might be necessary to register all such entities and intermediaries, such as Senders or",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

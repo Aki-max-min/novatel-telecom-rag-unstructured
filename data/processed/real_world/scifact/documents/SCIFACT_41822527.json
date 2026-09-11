@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_41822527",
+  "title": "Inflammation and its role in neuroprotection, axonal regeneration and functional recovery after spinal cord injury.",
+  "content": "Trauma to the central nervous system (CNS) triggers intraparenchymal inflammation and activation of systemic immunity with the capacity to exacerbate neuropathology and stimulate mechanisms of tissue repair. Despite our incomplete understanding of the mechanisms that control these divergent functions, immune-based therapies are becoming a therapeutic focus. This review will address the complexities and controversies of post-traumatic neuroinflammation, particularly in spinal cord. In addition, current therapies designed to target neuroinflammatory cascades will be discussed.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

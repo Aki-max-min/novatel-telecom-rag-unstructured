@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_234",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 234,
+  "text": "to the changing needs of the sector. TRAI seeks to promote co-regulation and flexibility in this regulation. Retaining responsibility for an operational component is incompatible with this approach. 108 The second argument is that permissioned DLT network are not fully decentralized, which is a drawback of the proposed solution. This argument takes the other extreme viewpoint. The telcos, the telemarketers, the principal entities (businesses like banks, insurance companies, airlines, etc.) and the subscriber are all known participants in the system. There is no role for completely untrusted elements to participate in the system or to act as endorsers for the transactions. Further, non-repudiation of previous actions is important in the solution but not some other problems, like double-spending in cryptocurrencies, that requires other features of a fully-trustless system. In the present case, stakeholders can be allowed to record actions signed by them. A permissioned DLT network is just the right fit for this use case. § Distributed Ledger Technology is yet untested The technology is new, but it has been a long time in the making. The Byzantine General’s Problem at the heart of consensus determination has been studied in the context of fault tolerant computer system for four decades. The broader philosophical problem perhaps actually goes back to the days of the Roman Empire. The cryptographic tools used in DLT systems have a solid mathematical background and are military grade technologies. The same Linux Foundation which develops the operating system for enterprise computing system is behind the Hyperledger DLT.",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

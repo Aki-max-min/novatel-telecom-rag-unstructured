@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_43890638",
+  "title": "Hydrogen sulphide regulates intracellular pH in vascular smooth muscle cells.",
+  "content": "We investigated the role of hydrogen sulphide (H(2)S) in intracellular pH (pH(i)) regulation in vascular smooth muscle cells and its contribution on vasodilation. NaHS, a H(2)S donor, decreased pH(i) in a concentration-dependent manner ranging from 10 microM to 1mM. Neither inhibition of the Na(+)/H(+) exchanger with 5-(N-ethyl-N-isopropyl) amiloride, (EIPA, 10 microM), nor plasmalemmal Ca(2+)-ATPase with CdCl(2) (20nM) alters the effect of NaHS on pH(i). Blockade of the Cl(-)/HCO3- exchanger with 4,4'-diisothiocyanatostilbene-2,2'-disulfonic acid (DIDS) significantly attenuated the pH(i) lowering effect of NaHS. Moreover, NaHS significantly increased the activity of Cl(-)/HCO3- exchanger when measured with NH(4)Cl prepulse method. DIDS attenuated the vasorelaxation induced by NaHS whereas EIPA and CdCl(2) did not cause any change. In conclusion, H(2)S induced intracellular acidification via activation of Cl(-)/HCO3- exchanger, which is, at least partially, responsible for H(2)S-mediated vasorelaxation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

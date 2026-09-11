@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_070",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 70,
+  "text": "implementation of the functionality referred in code of practice and operationalizing it; such other matters as the Authority may deem fit, from time to time. 3. Report of entities found to be engaged in making or causing to make silent calls, robocalls, abandoned calls or using telephone directory harvesting software to make Unsolicited Commercial Communications, as and when came to notice of the access provider, or as provided for in the regulations for the registered sender(s) with the access providers, on basis of following criteria: - Ratio of Abandon Calls to total attempted calls for a registered entity exceeding 3% over a period of 24 Hours by an entity using Auto Dialer for Commercial Communications calls; Ratio of Silent Calls to total attempted calls for a registered entity exceeding 1% over a period of 24 41 hour by an entity using Auto Dialer for Commercial Communications Calls; Entity(ies) found to be using telephone number harvesting software for sending Unsolicited Commercial Communications are barred to use their network; 42 Schedule-V Action Items for preparing Code of Practice for Periodic Monthly Reporting (CoP-PMR) 1. Maintaining records of complaints on daily basis for each service area: - total number of complaints received on each day, from its customers as Terminating Access Provider, in each service area, against any registered sender; total number of complaints transferred on each day, to Originating Access Provider(s) including itself, in each service area, against any registered sender; total number of complaints to be resolved as an Originating Access",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

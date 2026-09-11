@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10190778",
+  "title": "Maternal alloantigens promote the development of tolerogenic fetal regulatory T cells in utero.",
+  "content": "As the immune system develops, T cells are selected or regulated to become tolerant of self antigens and reactive against foreign antigens. In mice, the induction of such tolerance is thought to be attributable to the deletion of self-reactive cells. Here, we show that the human fetal immune system takes advantage of an additional mechanism: the generation of regulatory T cells (Tregs) that suppress fetal immune responses. We find that substantial numbers of maternal cells cross the placenta to reside in fetal lymph nodes, inducing the development of CD4+CD25highFoxP3+ Tregs that suppress fetal antimaternal immunity and persist at least until early adulthood. These findings reveal a form of antigen-specific tolerance in humans, induced in utero and probably active in regulating immune responses after birth.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

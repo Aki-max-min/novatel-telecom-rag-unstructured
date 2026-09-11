@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_174",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 174,
+  "text": "applicable to them only after the full roll out of 4G services. 162 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] (b) Analysis and Conclusion Considering the submission of stakeholders, the Authority has reviewed these parameters. Now these parameters have been moved to a different category i.e. to be monitored and reported by the service provider without any financial disincentive. 5.4.3 Connections with good voice quality (a) Input of Stakeholders Some of the stakeholders submitted that the existing process has been well established, with all TSPs scrupulously adhering to the parameters set by TRAI, and systems are designed to capture the necessary data accordingly. Any revisions would necessitate modifications to these systems, along with thorough testing and auditing to ensure compliance with TRAI regulations. TSPs have been striving hard to meet TRAI's stringent norms, and their improved performance should not lead to more stringent benchmarks. (b) Analysis and Conclusion (i) It is clarified that no modification has been proposed in the consultation paper against this parameter except that now it would also include the performance of 5G VoNR, wherever applicable. However, it was observed that different TSPs were adopting different measurement criteria for evaluating the performance against this parameter. Accordingly, the Authority has elaborated the measurement criteria in Schedule-I to ensure adoption of uniform measurement criteria across service providers. (ii) Now this parameter will be monitored by service providers and reported to the Authority without any FD. 5.4.4 Jitter {Access (Wireless) and Broadband (Wireline)} (a) Input of Stakeholders (i) Some stakeholders",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6896063",
+  "title": "Senescence and aging: the critical roles of p53",
+  "content": "p53 functions as a transcription factor involved in cell-cycle control, DNA repair, apoptosis and cellular stress responses. However, besides inducing cell growth arrest and apoptosis, p53 activation also modulates cellular senescence and organismal aging. Senescence is an irreversible cell-cycle arrest that has a crucial role both in aging and as a robust physiological antitumor response, which counteracts oncogenic insults. Therefore, via the regulation of senescence, p53 contributes to tumor growth suppression, in a manner strictly dependent by its expression and cellular context. In this review, we focus on the recent advances on the contribution of p53 to cellular senescence and its implication for cancer therapy, and we will discuss p53’s impact on animal lifespan. Moreover, we describe p53-mediated regulation of several physiological pathways that could mediate its role in both senescence and aging.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

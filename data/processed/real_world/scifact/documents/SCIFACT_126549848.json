@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_126549848",
+  "title": "Disaster Management and Community Planning, and Public Participation: How to Achieve Sustainable Hazard Mitigation",
+  "content": "The paper offers first a brief historical overview of disaster management planning. Second, it reviews Australian and American research findings and show that they urge the field of disaster management to shift its focus from response and recovery to sustainable hazard mitigation. It is argued that in order for this shift to occur, it is necessary to integrate disaster management and community planning. Current practice seldom reflects such a synthesis, and this is one of the reasons why hazard awareness is absent from local decision-making processes. Third, it is asserted that if mitigative strategies are to be successfully implemented, then the disaster management process must incorporate public participation at the local decision-making level. The paper concludes with a case study of California's Portola Valley, which demonstrates that when public participation is integrated into disaster management planning and community planning, the result is sustainable hazard mitigation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

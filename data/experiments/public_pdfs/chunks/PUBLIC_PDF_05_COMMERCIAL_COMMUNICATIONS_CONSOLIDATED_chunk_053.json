@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_053",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 53,
+  "text": "such contravention, the Authority may by order direct the Access Providers to restore the telecom resources of the sender, partially or fully; and delete the name and address of such Sender from the blacklist, as the case may be, on payment of a restoration charge of five thousand rupees per resource to the Authority for restoration of all such telecom resources, subject to the condition that the total amount payable by the Sender shall not exceed five lakh rupees: Provided that in the case of PRI or SIP trunks, each DID number shall be treated as a separate telecom resource: Provided further that the amount payable under the clause (b) of this sub-regulation may be reduced or waived off by the Authority where it finds merit in the response furnished by the Sender: Provided also that Authority may specify from time to time Standard Operating Procedures or issue directions or instructions detailing exact steps to be taken to decide such cases. MIGRATION OF EXISTING REGISTERED ENTITIES AND RECORDS 30. Access providers shall prepare migration plan for existing data, process and role being played at present by different entities to the new system of data, process and role of new entities prescribed in these regulations; 31. List of key activities (but not an exhaustive list) for preparation of migration plan, attached are as per schedule-VI; CHAPTER-VII MISCELLANEOUS 32. No business or legal entity not registered with the access provider for the purpose of sending commercial communications under these regulations shall make",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

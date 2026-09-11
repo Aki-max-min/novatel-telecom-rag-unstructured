@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_026",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 26,
+  "text": "- sending SMS to short code 1909; or calling on 1909; or Interactive Voice Response System (IVRS); or Mobile app developed in this regard either by the Authority or by any other person or entity and approved by the Authority; or Web portal with authentication through One Time Password (OTP); or Any other means as may be notified by the Authority from time to time. Provided that every such complaint shall be made by a subscriber within three days of receipt of the unsolicited commercial communication; to duly acknowledge the receipt within fifteen minutes of the complaint or report made by the customer with unique reference number; to provide details to the subscriber about the mobile app provided for in sub-regulation (2)(d) to provide details about format and procedure to the customer, as given in the appropriate Code(s) of Practice, where a complaint is rejected by the access provider on the grounds of incomplete information or improper format; 24. Distributed Ledger(s) for Complaints: Every Access Provider shall establish or cause to establish 15 Distributed Ledger(s) for Complaints (DL-Complaints) with requisite functions, processes and interfaces: - to record complaints and reports regarding violation of Regulations made by the customer in the Distributed Ledger for Complaints (DL-Complaints) in an immutable and non repudiable manner; to record, at least, following details about the complaint or report regarding violation of Regulations: telephone number(s) or header(s) from which Unsolicited Commercial Communication was received; telephone number(s) of Complainant or reporter; Referred telephone number(s) (RTN), if any;",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

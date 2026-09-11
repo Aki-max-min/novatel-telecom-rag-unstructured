@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_37249641",
+  "title": "CTCF and Cohesin in Genome Folding and Transcriptional Gene Regulation.",
+  "content": "Genome function, replication, integrity, and propagation rely on the dynamic structural organization of chromosomes during the cell cycle. Genome folding in interphase provides regulatory segmentation for appropriate transcriptional control, facilitates ordered genome replication, and contributes to genome integrity by limiting illegitimate recombination. Here, we review recent high-resolution chromosome conformation capture and functional studies that have informed models of the spatial and regulatory compartmentalization of mammalian genomes, and discuss mechanistic models for how CTCF and cohesin control the functional architecture of mammalian chromosomes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

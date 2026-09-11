@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_012",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 12,
+  "text": "Telephone number; “Referred Telephone Number” (RTN) means telephone number or telecom resource referred to in the content of commercial communication messages or voice calls from the sender; “Registered Telemarketer (RTM)\" means any telemarketer who is registered with the access provider(s) in accordance with the procedure and conditions specified in these regulations. “Regulations” means the Telecom Commercial Communications Customer Preference Regulations, 2018, unless otherwise indicated; (ba) “Regulatory Sandbox” means specifically constructed experimental space, with a safe environment, within which various stakeholders can use Regulatory Technology solutions to develop and refine Code(s) of Practice to comply with new regulatory requirements; “Relationship” means a prior or existing relationship for business or commercial reasons, between a person or entity and a subscriber with or without an exchange of consideration, on the basis of the purchase or transaction made by or done by the recipient with the sender within the tweleve months immediately preceding the date of the communication; or on the basis of inquiry or application regarding products or services made by or submitted by recipient to sender within the three months immediately preceding the date of the receiving of communication, which relationship has not been previously terminated by either party; for social reasons, between a person or entity and a subscriber with or without an exchange of consideration, by voluntary two-way communication, initiated from both sides at different points in time; (bc) “Robo Calls” means any call made to any customer using an artificial or prerecorded voice to interactively deliver a voice message",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

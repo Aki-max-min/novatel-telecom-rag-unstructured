@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27438378",
+  "title": "Misread protein creates membrane channels: an essential step in the bactericidal action of aminoglycosides.",
+  "content": "Among the pleiotropic effects of aminoglycosides, their irreversible uptake and their blockade of initiating ribosomes have appeared to explain their bactericidal action, while the contributions of translational misreading and membrane damage and the mechanism of that damage have remained uncertain. We now present evidence that incorporation of misread proteins into the membrane can account for the membrane damage. The bactericidal action thus appears to result from the following sequence, in which each step is essential: slight initial entry of the antibiotic; interaction with chain-elongating ribosomes, resulting in misreading; incorporation of misread protein into the membrane, creating abnormal channels; increased (and irreversible) entry through these channels, and hence increased misreading and formation of channels; and, finally, blockade of initiating ribosomes. This mechanism can account for several previously unexplained observations: that streptomycin uptake requires protein synthesis during, but not after, the lag before the membrane damage; that streptomycin-resistant cells, which fail to take up streptomycin, can do so after treatment by another aminoglycoside; and that puromycin at moderate concentrations accelerates streptomycin uptake, while high concentrations (which release shorter chains) prevent it. In addition, puromycin, prematurely releasing polypeptides of normal sequence, also evidently creates channels, since it is reported to promote streptomycin uptake even in streptomycin-resistant cells. These findings imply that normal membrane proteins must be selected not only for a hydrophobic anchoring surface, but also for a tight fit in the membrane.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

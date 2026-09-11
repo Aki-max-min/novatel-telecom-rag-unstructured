@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_200",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 200,
+  "text": "provided for in Code(s) of Practice. 5.3.11 Structured way to deal with complaints against suspected UTMs: The Distributed Ledger for Complaints (DL-Complaints) having histories of complainant and against whom complaints are being made used in conjunction with UCC_Detect_System would make it possible to precisely identify UTMs. This approach would minimize victimization, while effectively detecting UTMs and prevent them from sending UCC. In view of above, the Authority decides that in case of complaint against a UTM also the OAP should examine CDRs in parallel to TAP, within one business day from the date of receipt of complaint, to check the occurrence of communication that is under investigation. In case, answer is no, then OAP should communicate to the TAP to inform the complainant about the closure of complaint in a manner prescribed in the CoP. In case answer is yes, then OAP should further examine, within two business days, whether there are similar complaints or reports against the same sender. i. Action should be expedited to control UCC, if multiple complaints are received against same 96 sender, Usage Cap should be applied immediately, which may be restored after due investigation if there is no guilt. Suffiicient time should be given for concluding the investigation as opportunity must be given to the sender who is kept under Usage Cap to defend themselves. The Authority decides that if there are complaints against the sender from ten or more recipients over a period of seven days preceding the date of receiving complaint, the",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27134931",
+  "title": "COMPASS, a histone H3 (Lysine 4) methyltransferase required for telomeric silencing of gene expression.",
+  "content": "The trithorax (Trx) family of proteins is required for maintaining a specific pattern of gene expression in some organisms. Recently we reported the isolation and characterization of COMPASS, a multiprotein complex that includes the Trx-related protein Set1 of the yeast Saccharomyces cerevisiae. Here we report that COMPASS catalyzes methylation of the fourth lysine of histone H3 in vitro. Set1 and several other components of COMPASS are also required for histone H3 methylation in vivo and for transcriptional silencing of a gene located near a chromosome telomere.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

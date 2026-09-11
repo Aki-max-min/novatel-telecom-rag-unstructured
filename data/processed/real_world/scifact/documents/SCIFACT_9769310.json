@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9769310",
+  "title": "IGF2 is parentally imprinted during human embryogenesis and in the Beckwith–Wiedemann syndrome",
+  "content": "The phenomenon of parental imprinting involves the preferential expression of one parental allele of a subset of chromosomal genes and has so far only been documented in the mouse. We show here, by exploiting sequence polymorphisms in exon nine of the human insulin–like growth factor 2 (IGF2) gene, that only the paternally–inherited allele is active in embryonic and extra–embryonic cells from first trimester pregnancies. In addition, only the paternal allele is expressed in tissues from a patient who suffered from Beckwith–Wiedemann syndrome. Thus the parental imprinting of IGF2 appears to be evolutionarily conserved from mouse to man and has implications for the generation of the Beckwith–Wiedemann syndrome.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

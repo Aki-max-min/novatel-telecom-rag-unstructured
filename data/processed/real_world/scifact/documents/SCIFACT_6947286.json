@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6947286",
+  "title": "Association analysis between anterior-pharynx defective-1 genes polymorphisms and Alzheimer's disease.",
+  "content": "Recent biological studies indicate the importance of anterior-pharynx defective-1 (APH-1) proteins in Alzheimer's disease (AD) pathogenesis. We scanned APH-1 genes for the presence of sequence variations by denaturing high performance liquid chromatography and analyzed their distribution in an Italian sample of 113 AD patients and 132 controls. We found six different polymorphisms: three of them, all in APH-1b, predict an aminoacid substitution (T27I, V199L and F217L); the others are either silent or in non-coding regions. None of them is significantly associated with the disease; data stratification by the apolipoprotein E epsilon4 carrier status show a trend for coexistence of the transversion c+651T>G (F217L) with the epsilon4 allele. Our data suggest that polymorphisms in APH-1a/b coding regions are not linked with higher risk for sporadic AD in our Italian population sample.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

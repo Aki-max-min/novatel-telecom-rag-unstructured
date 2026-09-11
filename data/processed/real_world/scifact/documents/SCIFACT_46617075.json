@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_46617075",
+  "title": "Retinoblastoma regulatory pathway in lung cancer.",
+  "content": "Lung cancer is the leading cause of cancer related deaths accounting for more deaths than breast, colon and prostate cancers combined. The Rb-p16 regulatory pathway plays an essential role in tumor suppression in the lung epithelium. This is evidenced by the nearly universal alterations in Rb-p16 pathway components in lung cancer, and the increased incidence of pulmonary carcinomas in persons with germline Rb mutations. Interestingly, p16 loss and Rb mutations preferentially occur in phenotypically distinct lung cancer subtypes. Analysis of human tumors has identified progressive preneoplastic lesions that accumulate molecular alterations in an orderly sequence. Epigenetic p16 gene modifications represent an early event in lung cancer progression. This review summarizes the human studies that demonstrate a critical role for the Rb-p16 tumor suppressor pathway in lung carcinogenesis, and discusses how these findings in combination with genetically engineered mouse models have significantly contributed to our understanding of lung cancer pathogenesis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_170",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 170,
+  "text": "100% benchmarks based on the average of the lower 10% of all respective test calls. This approach seems incorrect if the benchmark is set at 100%. Nevertheless, considering the challenges highlighted for network latency and its applicability to wireline networks where the speed observed may exhibit some variation, we recommend that the authority retains the existing benchmarks of >80% in the case of wireline networks. (iii) One service provider submitted that correction needs to be made in the language of the parameter so that it is only applicable if different speeds are offered by a TSP under different plans. Presently, no plans with differentiated speeds are offered; plans vary solely in terms of data volume, with no speed prescribed. TSPs are providing data speed on an 'as is, where is' basis, subject to dynamic factors such as technical aspects, technology, user devices, and coverage. This information is provided to consumers under TRAI instructions and reported accordingly. Therefore, the regulation wording needs adjustment to apply only if an operator offers different speeds under different plans. (iv) One of the stakeholders requested the Authority to modify the clause as \"Minimum download and upload speed against the minimum subscribed speed in offered data plans shall be verified as per RFC 6349 TCP Throughput Test (Layer4).\" 161 (v) One broadband service provider submitted that prescribing 100% of the minimum speed for broadband services is deemed unachievable due to factors beyond service providers' control, such as Wi-Fi router usage and faults in customer premises equipment,",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

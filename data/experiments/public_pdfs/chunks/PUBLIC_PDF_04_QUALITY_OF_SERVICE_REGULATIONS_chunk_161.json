@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_161",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 161,
+  "text": "data of UL-PDR and DL-PDR for all cells for TCBH on monthly basis for two quarters i.e., Apr’23 to Sept’23. The data was analyzed and a detailed analysis of performance against UL-PDR and DCR parameter, for all the TSPs for the month of June’2023, is depicted through box plot in Figure 7. Figure 7: Performance of different TSPs against UL-PDR and DCR parameter for June 2023 TSP Performance of UL-PDR on average basis Performance of UL-PDR on QSD (90, 90) basis QSD (90, 90) of DCR Value of 4G network TSP-1 TSP-2 TSP-3 Not applicable TSP-4 TSP-5 Observation: The performance of the parameter UL-PDR, when computed on average basis, is less than 1% (much lower than the benchmark of 2%) for all LSAs in respect to TSPs (except TSP-2). However, when the performance is computed on QSD (90, 90) basis, then wide variation across LSAs and TSPs is observed. Further, the 157 performance of some of the LSAs is breaching the benchmark of 2% and goes as high as 10% in some of the cases. Analysis of DL-PDR also gives similar observations. (iii) It is also noted that DCR performance may reflect relatively better performance if the call is not dropped by the service provider’s network in-spite of higher packet drop rates for longer duration. In such scenarios, the subscribers themselves release the call due to missing voice or call muting which is not counted in DCR and thereby showing better performance against this parameter (as is seen in case",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_30379039",
+  "title": "Comparison of the intrinsic kinase activity and substrate specificity of c-Abl and Bcr-Abl.",
+  "content": "We studied the intrinsic tyrosine kinase activity and substrate specificity of c-Abl and Bcr-Abl protein tyrosine kinases (PTKs) using the peptide substrates discovered from a synthetic combinatorial peptide library. Our data indicate that the phosphorylation of these peptides by Bcr-Abl was consistently stronger than that by c-Abl. Bcr-Abl also showed substrate preference towards those peptides with one or more positive charges.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

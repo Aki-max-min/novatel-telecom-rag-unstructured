@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17625068",
+  "title": "Penile Curvature Incidence in Hypospadias: Can It Be Determined?",
+  "content": "The aim was to retrospectively determine the real incidence of congenital penile curvature in various forms of hypospadias, in order to indicate intraoperative assessment and correction of curvature. We analyzed 842 patients with hypospadias who underwent surgery from 2003 to 2010, classified into two groups. First group was intraoperatively checked for curvature as a routine procedure, while a curvature in the second group was assessed mostly in severe hypospadias. Results are analyzed using Fisher's and chi-square tests. In total, 238 cases (28.3%) of associated curvature were confirmed. Curvature was significantly more frequent in the first group, regarding hypospadias in general (P < 0.01), as well as distal (P < 0.05) and midshaft forms (P < 0.01). Penile curvature is common figure in hypospadias, including distal types. Intraoperative testing for associated curvature should be considered as a routine procedure in hypospadias repair.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

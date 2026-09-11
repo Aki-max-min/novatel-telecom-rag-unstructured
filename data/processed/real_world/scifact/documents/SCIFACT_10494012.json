@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10494012",
+  "title": "A primate virus generates transformed human cells by fusion",
+  "content": "Amodel that explains both the origin and sporadic nature of cancer argues that cancer cells are a chance result of events that cause genomic and epigenetic variability. The prevailing view is that these events are mutations that affect chromosome segregation or stability. However, genomic and epigenetic variability is also triggered by cell fusion, which is often caused by viruses. Yet, cells fused by viruses are considered harmless because they die. We provide evidence that a primate virus uses both viral and exosomal proteins involved in cell fusion to produce transformed proliferating human cells. Although normal cells indeed fail to proliferate after fusion, expression of an oncogene or a mutated tumor suppressor p53 in just one of the fusion partners is sufficient to produce heterogeneous progeny. We also show that this virus can produce viable oncogenically transformed cells by fusing cells that are otherwise destined to die. Therefore, we argue that viruses can contribute to carcinogenesis by fusing cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

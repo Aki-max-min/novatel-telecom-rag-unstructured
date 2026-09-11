@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_178",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 178,
+  "text": "to automate resolution and enable advanced post-facto analysis for accurate reporting. App can have the built-in functionality of capturing call/SMS records from specific set of numbers – 140 series, SMS headers etc. for accurate data analytics, predictive modelling etc. ii. Other suggestions were, to extend CRM-like functionality for purpose of registering complaints and make it a self-service functionality and may also provide Chat-bot functionality on the Web Portal. 5.2.3 Entertaining complaints from customers who have not registered any preference i. TSPs and Telemarketers are of view that UCC complaint registration for non-DND customers should not be allowed, as this will create junk in the complaint database which will delay the resolution of complaints made by DND registered customers. Such customers should be encouraged to register their preference in the NCPR before lodging complaints. This will be one mode to popularise the exercise of preference by customers. Other stakeholders supported the view that access providers should provide resolution to customer complaints from customers who are not registered with NCPR, on the grounds that this will help access provider identify UTMs and RTMs which are not complying with regulations. Few stakeholders suggested that dynamic registration can be provided for customers not registered with NCPR. ii. Regarding the mechanism to avoid promotional call or SMS during roaming/call forwarding cases, Stakeholders suggested the followings: a. Few stakeholders suggested that customers may be provided with an option to opt-out to receive promotional commercial communication during roaming or call forwarding. TAPs may complete promotional and non-critical",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

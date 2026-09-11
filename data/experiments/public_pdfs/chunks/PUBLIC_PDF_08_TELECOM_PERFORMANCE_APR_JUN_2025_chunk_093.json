@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_093",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 93,
+  "text": "Latency ≤ 50 msec 3. Packet Drop Rate ≤ 1% 93 S.N. Parameter Benchmark 4. Maximum Bandwidth utilization of any Customer serving node to ISP Gateway Node [Intra-network] or Internet Exchange Point Link(s) ≤ 80% 5. Jitter ≤ 40ms 6. Accessibility of call centre/ customer care ≥ 95% 4.12 Detailed table containing QoS parameters for all the Broadband Service Providers is given in Annexure-4.3. 94 Chapter 5: Performance of Cable TV, DTH and Radio Broadcasting Services 95 Table 5.1: Key Parameters - Broadcasting & Cable TV Services S.No Parameter Mar-25 Jun-25 1 Number of Private satellite TV channels permitted by the Ministry of Information and Broadcasting (MIB) for uplinking only/ downlinking only/both uplinking and downlinking 918 912 2 Number of Pay TV Channels as reported by broadcasters 333 333 3 Total number of Multi System Operators (MSOs), who have been granted Permanent Registration (for 10 years) by the Ministry of I&B for providing Cable TV services through Digital Addressable Systems 845 842 4 Number of FM Radio Stations (excluding All India Radio) 388 388 5 Number of pay DTH Operators 4 4 6 Number of existing cities with operational FM Radio channels (excluding All India Radio) 113 113 7 Number of Operational Community Radio Stations 531 540 8 Number of total active Subscribers with pay DTH operators (in million) 56.92 56.07 A. Satellite TV Channels 5.1 A total of approximately 912 private satellite TV channels have been permitted by the Ministry of Information and Broadcasting (MIB) for uplinking only/downlinking only/both",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

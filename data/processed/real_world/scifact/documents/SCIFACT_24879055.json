@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24879055",
+  "title": "Distinct memory CD4+ T cells with commitment to T follicular helper- and T helper 1-cell lineages are generated after acute viral infection.",
+  "content": "CD4(+) T follicular helper (Tfh) cells provide the required signals to B cells for germinal center reactions that are necessary for long-lived antibody responses. However, it remains unclear whether there are CD4(+) memory T cells committed to the Tfh cell lineage after antigen clearance. By using adoptive transfer of antigen-specific memory CD4(+) T cell subpopulations in the lymphocytic choriomeningitis virus infection model, we found that there are distinct memory CD4(+) T cell populations with commitment to either Tfh- or Th1-cell lineages. Our conclusions are based on gene expression profiles, epigenetic studies, and phenotypic and functional analyses. Our findings indicate that CD4(+) memory T cells \"remember\" their previous effector lineage after antigen clearance, being poised to reacquire their lineage-specific effector functions upon antigen reencounter. These findings have important implications for rational vaccine design, where improving the generation and engagement of memory Tfh cells could be used to enhance vaccine-induced protective immunity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

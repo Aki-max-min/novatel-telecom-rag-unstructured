@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22431418",
+  "title": "The National Advisory Group on Immunization (NAGI) of the Republic of South Africa.",
+  "content": "The National Immunization Technical Advisory Group (NITAG) in South Africa, known as the National Advisory Group on Immunization (NAGI), was established in 1993 to advise the National Department of Health (DoH) on issues related to vaccination. Meetings are held as needed but at least twice a year. The scope includes vaccines and immunization and other relevant infectious disease issues. NAGI also makes recommendations on vaccine schedules and formulations. Agendas are set by DoH and the Chairman of NAGI. NAGI brings together experts from a range of different fields relevant to vaccines and vaccinations and has been an important resource for guiding the Expanded Program of Immunization (EPI) in South Africa.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

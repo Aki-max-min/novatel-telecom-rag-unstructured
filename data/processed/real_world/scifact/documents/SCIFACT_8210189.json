@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8210189",
+  "title": "RAS genes in Saccharomyces cerevisiae: signal transduction in search of a pathway.",
+  "content": "Ras proteins in budding yeasts initially appeared to regulate initiation of the cell cycle in response to nutrient availability. More recent work, while clarifying the mechanism of Ras-mediated signal transduction, has undermined our notion of the signal Ras transmits. We now suspect that Ras helps to coordinate cellular metabolism and mass accumulation, but what Ras responds to is not clear.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

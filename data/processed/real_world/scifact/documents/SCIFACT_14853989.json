@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14853989",
+  "title": "Neutrophil extracellular chromatin traps connect innate immune response to autoimmunity",
+  "content": "Autoantibodies to DNA and histones (chromatin) are the defining antigen specificity in systemic lupus erythematosus (SLE) and related musculoskeletal disorders but the mechanisms responsible for their induction remain mysterious. That situation rapidly changed once neutrophil extracellular chromatin traps (NETs) were discovered and observed to play a conserved role in innate immune responses to a broad variety of microbial pathogens. At the center of an infectious process, neutrophils exert various antimicrobial defenses, including the release of nuclear chromatin into the extracellular space. The externalized NETs, a complex meshwork of nuclear chromatin and antimicrobial proteins, serve to immobilize and degrade microbial pathogens. Here, we critically evaluate the evidence supporting NETs versus apoptotic bodies as a source for nuclear antigens in autoimmunity. We also discuss the possibility that NET chromatin forms an essential component of immune deposits in the pathogenesis of glomerulonephritis in SLE and other autoimmune immune complex diseases.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

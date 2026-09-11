@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20630805",
+  "title": "Histone phosphorylation: a chromatin modification involved in diverse nuclear events.",
+  "content": "Histone posttranslational modifications are key components of diverse processes that modulate chromatin structure. These marks function as signals during various chromatin-based events, and act as platforms for recruitment, assembly or retention of chromatin-associated factors. The best-known function of histone phosphorylation takes place during cellular response to DNA damage, when phosphorylated histone H2A(X) demarcates large chromatin domains around the site of DNA breakage. However, multiple studies have also shown that histone phosphorylation plays crucial roles in chromatin remodeling linked to other nuclear processes. In this review, we summarize the current knowledge of histone phosphorylation and describe the many kinases and phosphatases that regulate it. We discuss the key roles played by this histone mark in DNA repair, transcription and chromatin compaction during cell division and apoptosis. Additionally, we describe the intricate crosstalk that occurs between phosphorylation and other histone modifications and allows for sophisticated control over the chromatin remodeling processes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14083283",
+  "title": "Riesz pyramids for fast phase-based video magnification",
+  "content": "We present a new compact image pyramid representation, the Riesz pyramid, that can be used for real-time phase-based motion magnification. Our new representation is less overcomplete than even the smallest two orientation, octave-bandwidth complex steerable pyramid, and can be implemented using compact, efficient linear filters in the spatial domain. Motion-magnified videos produced with this new representation are of comparable quality to those produced with the complex steerable pyramid. When used with phase-based video magnification, the Riesz pyramid phase-shifts image features along only their dominant orientation rather than every orientation like the complex steerable pyramid.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

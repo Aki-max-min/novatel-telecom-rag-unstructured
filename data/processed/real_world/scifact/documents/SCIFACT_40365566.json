@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_40365566",
+  "title": "Conventional and monocyte-derived CD11b(+) dendritic cells initiate and maintain T helper 2 cell-mediated immunity to house dust mite allergen.",
+  "content": "Dendritic cells (DCs) are crucial for mounting allergic airway inflammation, but it is unclear which subset of DCs performs this task. By using CD64 and MAR-1 staining, we reliably separated CD11b(+) monocyte-derived DCs (moDCs) from conventional DCs (cDCs) and studied antigen uptake, migration, and presentation assays of lung and lymph node (LN) DCs in response to inhaled house dust mite (HDM). Mainly CD11b(+) cDCs but not CD103(+) cDCs induced T helper 2 (Th2) cell immunity in HDM-specific T cells in vitro and asthma in vivo. Studies in Flt3l(-/-) mice, lacking all cDCs, revealed that moDCs were also sufficient to induce Th2 cell-mediated immunity but only when high-dose HDM was given. The main function of moDCs was the production of proinflammatory chemokines and allergen presentation in the lung during challenge. Thus, we have identified migratory CD11b(+) cDCs as the principal subset inducing Th2 cell-mediated immunity in the LN, whereas moDCs orchestrate allergic inflammation in the lung.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

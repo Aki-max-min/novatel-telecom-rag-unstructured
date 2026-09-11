@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_3903084",
+  "title": "Health workers cohort study: methods and study design.",
+  "content": "Objective: To examine different health outcomes that are associated with specific lifestyle and genetic factors. Materials and methods: From March 2004 to April 2006, a sample of employees from three different health and academic institutions, as well as their family members, were enrolled in the study after providing informed consent. At baseline and follow-up (2010-2013), participants completed a self-administered questionnaire, a physical examination, and provided blood samples. Results: A total of 10 729 participants aged 6 to 94 years were recruited at baseline. Of these, 70% were females, and 50% were from the Mexican Social Security Institute. Nearly 42% of the adults in the sample were overweight, while 20% were obese. Conclusion: Our study can offer new insights into disease mechanisms and prevention through the analysis of risk factor information in a large sample of Mexicans.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

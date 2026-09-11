@@ -1,0 +1,3022 @@
+{
+  "experiment": "E9",
+  "description": "Combined Synthetic + Public Telecom retrieval baseline",
+  "index": {
+    "total_chunks": 1545,
+    "dimension": 384,
+    "synthetic_chunks": 383,
+    "public_chunks": 1162
+  },
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "top_k": 10,
+  "benchmarks": {
+    "synthetic_queries": 29,
+    "public_queries": 30,
+    "total_queries": 59
+  },
+  "synthetic": {
+    "source": "synthetic",
+    "total_queries": 29,
+    "metrics": {
+      "R@1": 0.6896551724137931,
+      "R@3": 0.896551724137931,
+      "R@5": 0.9310344827586207,
+      "R@10": 0.9310344827586207,
+      "MRR@10": 0.7942528735632185
+    },
+    "results": [
+      {
+        "query_number": 1,
+        "question_id": "Q01",
+        "query": "I don't have access to my old registered phone number anymore. How can I update the number on my account?",
+        "expected_document_ids": [
+          "FAQ_C01_001"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C01_001",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "SOP_C05_SIM_REPLACEMENT",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "FAQ_C29_057",
+          "TRX_004",
+          "TRX_002",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C01_001",
+            "chunk_id": "FAQ_C01_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5996716022491455
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_064",
+            "source_corpus": "public",
+            "score": 0.44249895215034485
+          },
+          {
+            "document_id": "SOP_C05_SIM_REPLACEMENT",
+            "chunk_id": "SOP_C05_SIM_REPLACEMENT_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.44002774357795715
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_063",
+            "source_corpus": "public",
+            "score": 0.42239195108413696
+          },
+          {
+            "document_id": "FAQ_C29_057",
+            "chunk_id": "FAQ_C29_057_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.4179592728614807
+          },
+          {
+            "document_id": "TRX_004",
+            "chunk_id": "TRX_004_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.417604923248291
+          },
+          {
+            "document_id": "TRX_002",
+            "chunk_id": "TRX_002_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.41696488857269287
+          },
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_084",
+            "source_corpus": "public",
+            "score": 0.3992726802825928
+          }
+        ]
+      },
+      {
+        "query_number": 2,
+        "question_id": "Q02",
+        "query": "How can I check when my current prepaid plan will stop being valid?",
+        "expected_document_ids": [
+          "FAQ_C02_003",
+          "KB_C02_PLAN_EXPIRY",
+          "POLICY_C02_PLAN_LIFECYCLE"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C02_003",
+          "POLICY_C02_PLAN_LIFECYCLE",
+          "KB_C02_PLAN_EXPIRY",
+          "TARIFF_POSTPAID_2026H2",
+          "TARIFF_PREPAID_2026H2",
+          "KB_C22_NEW_ACTIVATION_DELAY",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+          "FAQ_C21_041",
+          "KB_C18_FRAUD_RESPONSE",
+          "KB_C08_OUTAGE_STATUS_CHECK"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C02_003",
+            "chunk_id": "FAQ_C02_003_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6236207485198975
+          },
+          {
+            "document_id": "POLICY_C02_PLAN_LIFECYCLE",
+            "chunk_id": "Policy_C02_plan_lifecycle_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5886248350143433
+          },
+          {
+            "document_id": "KB_C02_PLAN_EXPIRY",
+            "chunk_id": "KB_C02_plan_expiry_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.506486713886261
+          },
+          {
+            "document_id": "TARIFF_POSTPAID_2026H2",
+            "chunk_id": "TARIFF_POSTPAID_2026H2_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.4468168616294861
+          },
+          {
+            "document_id": "TARIFF_PREPAID_2026H2",
+            "chunk_id": "TARIFF_PREPAID_2026H2_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.4387882351875305
+          },
+          {
+            "document_id": "KB_C22_NEW_ACTIVATION_DELAY",
+            "chunk_id": "KB_C22_new_activation_delay_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.40538620948791504
+          },
+          {
+            "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+            "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_010",
+            "source_corpus": "public",
+            "score": 0.4043744206428528
+          },
+          {
+            "document_id": "FAQ_C21_041",
+            "chunk_id": "FAQ_C21_041_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.40354466438293457
+          },
+          {
+            "document_id": "KB_C18_FRAUD_RESPONSE",
+            "chunk_id": "KB_C18_fraud_response_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.39637261629104614
+          },
+          {
+            "document_id": "KB_C08_OUTAGE_STATUS_CHECK",
+            "chunk_id": "KB_C08_outage_status_check_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.3961268365383148
+          }
+        ]
+      },
+      {
+        "query_number": 3,
+        "question_id": "Q03",
+        "query": "Money was deducted when I tried to recharge, but the recharge hasn't appeared on my account. What should I do?",
+        "expected_document_ids": [
+          "FAQ_C03_005",
+          "KB_C03_RECHARGE_FAILURES",
+          "TRX_001"
+        ],
+        "retrieved_document_ids": [
+          "TRX_001",
+          "SOP_C03_RECHARGE_FAILURE",
+          "EML_002",
+          "KB_C03_RECHARGE_FAILURES",
+          "FAQ_C03_005",
+          "FAQ_C20_039",
+          "SOP_C20_REFUND_PROCESSING",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "KB_C20_REFUND_PROCESSING"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "TRX_001",
+            "chunk_id": "TRX_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5074189305305481
+          },
+          {
+            "document_id": "SOP_C03_RECHARGE_FAILURE",
+            "chunk_id": "SOP_C03_RECHARGE_FAILURE_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.49650663137435913
+          },
+          {
+            "document_id": "EML_002",
+            "chunk_id": "EML_002_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.47984814643859863
+          },
+          {
+            "document_id": "KB_C03_RECHARGE_FAILURES",
+            "chunk_id": "KB_C03_recharge_failures_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.4612957537174225
+          },
+          {
+            "document_id": "FAQ_C03_005",
+            "chunk_id": "FAQ_C03_005_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.4578208923339844
+          },
+          {
+            "document_id": "FAQ_C20_039",
+            "chunk_id": "FAQ_C20_039_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.4457828402519226
+          },
+          {
+            "document_id": "SOP_C20_REFUND_PROCESSING",
+            "chunk_id": "SOP_C20_REFUND_PROCESSING_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.402946799993515
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_077",
+            "source_corpus": "public",
+            "score": 0.38541266322135925
+          },
+          {
+            "document_id": "KB_C20_REFUND_PROCESSING",
+            "chunk_id": "KB_C20_refund_processing_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.37436962127685547
+          }
+        ]
+      },
+      {
+        "query_number": 4,
+        "question_id": "Q04",
+        "query": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
+        "expected_document_ids": [
+          "FAQ_C04_007",
+          "KB_C04_BILL_DISPUTES"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C04_007",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+          "KB_C04_BILL_DISPUTES",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "TARIFF_POSTPAID_2026H2"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C04_007",
+            "chunk_id": "FAQ_C04_007_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6003261804580688
+          },
+          {
+            "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+            "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_010",
+            "source_corpus": "public",
+            "score": 0.4150087833404541
+          },
+          {
+            "document_id": "KB_C04_BILL_DISPUTES",
+            "chunk_id": "KB_C04_bill_disputes_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.3706509470939636
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_078",
+            "source_corpus": "public",
+            "score": 0.36998701095581055
+          },
+          {
+            "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+            "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_070",
+            "source_corpus": "public",
+            "score": 0.3624429702758789
+          },
+          {
+            "document_id": "TARIFF_POSTPAID_2026H2",
+            "chunk_id": "TARIFF_POSTPAID_2026H2_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.3343682885169983
+          }
+        ]
+      },
+      {
+        "query_number": 5,
+        "question_id": "Q05",
+        "query": "I put my SIM into another phone and now it says there is no network. What can I do?",
+        "expected_document_ids": [
+          "FAQ_C05_009",
+          "KB_C05_SIM_SWAP_TROUBLESHOOTING"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C05_009",
+          "MAN_ESIM_001",
+          "FAQ_C29_057",
+          "MAN_DEVICE_VOLTE_001",
+          "SOP_C05_SIM_REPLACEMENT",
+          "FAQ_C12_024",
+          "TRX_002",
+          "SOP_C22_ACTIVATION_DELAY"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C05_009",
+            "chunk_id": "FAQ_C05_009_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.49068892002105713
+          },
+          {
+            "document_id": "MAN_ESIM_001",
+            "chunk_id": "MAN_ESIM_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.41439133882522583
+          },
+          {
+            "document_id": "FAQ_C29_057",
+            "chunk_id": "FAQ_C29_057_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.41417503356933594
+          },
+          {
+            "document_id": "MAN_DEVICE_VOLTE_001",
+            "chunk_id": "MAN_DEVICE_VOLTE_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.40599775314331055
+          },
+          {
+            "document_id": "SOP_C05_SIM_REPLACEMENT",
+            "chunk_id": "SOP_C05_SIM_REPLACEMENT_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.396190881729126
+          },
+          {
+            "document_id": "FAQ_C12_024",
+            "chunk_id": "FAQ_C12_024_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.37911349534988403
+          },
+          {
+            "document_id": "TRX_002",
+            "chunk_id": "TRX_002_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.3696196675300598
+          },
+          {
+            "document_id": "SOP_C22_ACTIVATION_DELAY",
+            "chunk_id": "SOP_C22_ACTIVATION_DELAY_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.36110496520996094
+          }
+        ]
+      },
+      {
+        "query_number": 6,
+        "question_id": "Q06",
+        "query": "If I move my existing number to NovaTel, how long will the porting process take?",
+        "expected_document_ids": [
+          "FAQ_C06_011",
+          "KB_C06_PORTING_PROCESS"
+        ],
+        "retrieved_document_ids": [
+          "TRX_004",
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+          "FAQ_C06_012",
+          "EML_004"
+        ],
+        "hit_rank": null,
+        "retrieved_chunks": [
+          {
+            "document_id": "TRX_004",
+            "chunk_id": "TRX_004_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6655009388923645
+          },
+          {
+            "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+            "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_045",
+            "source_corpus": "public",
+            "score": 0.6087489724159241
+          },
+          {
+            "document_id": "FAQ_C06_012",
+            "chunk_id": "FAQ_C06_012_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5968050956726074
+          },
+          {
+            "document_id": "EML_004",
+            "chunk_id": "EML_004_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5866129398345947
+          }
+        ]
+      },
+      {
+        "query_number": 7,
+        "question_id": "Q07",
+        "query": "I'm travelling outside India. How do I turn on international roaming before I leave?",
+        "expected_document_ids": [
+          "FAQ_C07_013",
+          "KB_C07_ROAMING_ACTIVATION"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C07_013",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "KB_C07_ROAMING_ACTIVATION",
+          "FAQ_C07_014",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C07_013",
+            "chunk_id": "FAQ_C07_013_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5913107395172119
+          },
+          {
+            "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+            "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_020",
+            "source_corpus": "public",
+            "score": 0.5569803714752197
+          },
+          {
+            "document_id": "KB_C07_ROAMING_ACTIVATION",
+            "chunk_id": "KB_C07_roaming_activation_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.489928275346756
+          },
+          {
+            "document_id": "FAQ_C07_014",
+            "chunk_id": "FAQ_C07_014_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.42863333225250244
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_001",
+            "source_corpus": "public",
+            "score": 0.4093153774738312
+          }
+        ]
+      },
+      {
+        "query_number": 8,
+        "question_id": "Q08",
+        "query": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+        "expected_document_ids": [
+          "FAQ_C08_015",
+          "KB_C08_OUTAGE_STATUS_CHECK"
+        ],
+        "retrieved_document_ids": [
+          "MAN_ESIM_001",
+          "FAQ_C08_015",
+          "MAN_ROUTER_001",
+          "FAQ_C12_023",
+          "MAN_DEVICE_VOLTE_001",
+          "MAN_IOT_PORTAL_001",
+          "FAQ_C11_022",
+          "INC_C08_INC_2026_0142",
+          "INC_C08_INC_2026_0211"
+        ],
+        "hit_rank": 2,
+        "retrieved_chunks": [
+          {
+            "document_id": "MAN_ESIM_001",
+            "chunk_id": "MAN_ESIM_001_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.6179994344711304
+          },
+          {
+            "document_id": "FAQ_C08_015",
+            "chunk_id": "FAQ_C08_015_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.6004583835601807
+          },
+          {
+            "document_id": "MAN_ROUTER_001",
+            "chunk_id": "MAN_ROUTER_001_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.589350700378418
+          },
+          {
+            "document_id": "FAQ_C12_023",
+            "chunk_id": "FAQ_C12_023_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5873723030090332
+          },
+          {
+            "document_id": "MAN_DEVICE_VOLTE_001",
+            "chunk_id": "MAN_DEVICE_VOLTE_001_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5783696174621582
+          },
+          {
+            "document_id": "MAN_IOT_PORTAL_001",
+            "chunk_id": "MAN_IOT_PORTAL_001_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5677325129508972
+          },
+          {
+            "document_id": "FAQ_C11_022",
+            "chunk_id": "FAQ_C11_022_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5474557876586914
+          },
+          {
+            "document_id": "INC_C08_INC_2026_0142",
+            "chunk_id": "INC_C08_INC_2026_0142_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5254104137420654
+          },
+          {
+            "document_id": "INC_C08_INC_2026_0211",
+            "chunk_id": "INC_C08_INC_2026_0211_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5200384259223938
+          }
+        ]
+      },
+      {
+        "query_number": 9,
+        "question_id": "Q09",
+        "query": "My mobile internet has become much slower than usual. Could a data usage limit be causing this?",
+        "expected_document_ids": [
+          "FAQ_C09_017",
+          "FAQ_C09_018",
+          "KB_C09_FUP_DATA_SPEED"
+        ],
+        "retrieved_document_ids": [
+          "TRX_005",
+          "FAQ_C09_017",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "hit_rank": 2,
+        "retrieved_chunks": [
+          {
+            "document_id": "TRX_005",
+            "chunk_id": "TRX_005_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6333755254745483
+          },
+          {
+            "document_id": "FAQ_C09_017",
+            "chunk_id": "FAQ_C09_017_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5890892744064331
+          },
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_042",
+            "source_corpus": "public",
+            "score": 0.5157527327537537
+          },
+          {
+            "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+            "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_056",
+            "source_corpus": "public",
+            "score": 0.4994986653327942
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_171",
+            "source_corpus": "public",
+            "score": 0.4916909337043762
+          }
+        ]
+      },
+      {
+        "query_number": 10,
+        "question_id": "Q10",
+        "query": "I was subscribed to a service I don't remember requesting. How can I cancel it?",
+        "expected_document_ids": [
+          "FAQ_C10_019",
+          "SOP_C10_VAS_DISPUTE"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C10_019",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "KB_C25_FTTH_FAULT_DIAGNOSIS",
+          "SOP_C10_VAS_DISPUTE",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C10_019",
+            "chunk_id": "FAQ_C10_019_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5879523158073425
+          },
+          {
+            "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+            "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_036",
+            "source_corpus": "public",
+            "score": 0.4272332787513733
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_064",
+            "source_corpus": "public",
+            "score": 0.4069020748138428
+          },
+          {
+            "document_id": "KB_C25_FTTH_FAULT_DIAGNOSIS",
+            "chunk_id": "KB_C25_ftth_fault_diagnosis_chunk_002",
+            "source_corpus": "synthetic",
+            "score": 0.3954319655895233
+          },
+          {
+            "document_id": "SOP_C10_VAS_DISPUTE",
+            "chunk_id": "SOP_C10_VAS_DISPUTE_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.3937268555164337
+          },
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_084",
+            "source_corpus": "public",
+            "score": 0.3888060450553894
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_056",
+            "source_corpus": "public",
+            "score": 0.3713589906692505
+          }
+        ]
+      },
+      {
+        "query_number": 11,
+        "question_id": "Q11",
+        "query": "How much will I be charged if I call or send an SMS to a number in another country?",
+        "expected_document_ids": [
+          "FAQ_C11_021"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "FAQ_C11_021",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "hit_rank": 2,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+            "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_027",
+            "source_corpus": "public",
+            "score": 0.5781646966934204
+          },
+          {
+            "document_id": "FAQ_C11_021",
+            "chunk_id": "FAQ_C11_021_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5772282481193542
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_083",
+            "source_corpus": "public",
+            "score": 0.5426305532455444
+          },
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_056",
+            "source_corpus": "public",
+            "score": 0.48274537920951843
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_077",
+            "source_corpus": "public",
+            "score": 0.45509135723114014
+          }
+        ]
+      },
+      {
+        "query_number": 12,
+        "question_id": "Q12",
+        "query": "How do I check whether my handset supports NovaTel 5G and VoLTE?",
+        "expected_document_ids": [
+          "FAQ_C12_023",
+          "FAQ_C12_024",
+          "MAN_DEVICE_VOLTE_001"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C12_023",
+          "MAN_DEVICE_VOLTE_001",
+          "FAQ_C12_024",
+          "FAQ_C09_017",
+          "FAQ_C24_047",
+          "MAN_APP_001",
+          "MAN_ESIM_001",
+          "MAN_IOT_PORTAL_001"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C12_023",
+            "chunk_id": "FAQ_C12_023_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.72905033826828
+          },
+          {
+            "document_id": "MAN_DEVICE_VOLTE_001",
+            "chunk_id": "MAN_DEVICE_VOLTE_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6459137201309204
+          },
+          {
+            "document_id": "FAQ_C12_024",
+            "chunk_id": "FAQ_C12_024_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5997368097305298
+          },
+          {
+            "document_id": "FAQ_C09_017",
+            "chunk_id": "FAQ_C09_017_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.4503909945487976
+          },
+          {
+            "document_id": "FAQ_C24_047",
+            "chunk_id": "FAQ_C24_047_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.44165778160095215
+          },
+          {
+            "document_id": "MAN_APP_001",
+            "chunk_id": "MAN_APP_001_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.4174913763999939
+          },
+          {
+            "document_id": "MAN_ESIM_001",
+            "chunk_id": "MAN_ESIM_001_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.4149130880832672
+          },
+          {
+            "document_id": "MAN_IOT_PORTAL_001",
+            "chunk_id": "MAN_IOT_PORTAL_001_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.41172921657562256
+          }
+        ]
+      },
+      {
+        "query_number": 13,
+        "question_id": "Q13",
+        "query": "The OTP for signing into the My NovaTel app isn't arriving. How can I log in?",
+        "expected_document_ids": [
+          "FAQ_C13_025",
+          "KB_C13_SELFCARE_LOGIN_ISSUES"
+        ],
+        "retrieved_document_ids": [
+          "MAN_APP_001",
+          "SOP_C13_APP_ACCESS_ISSUES",
+          "FAQ_C13_025",
+          "FAQ_C01_001",
+          "KB_C13_SELFCARE_LOGIN_ISSUES",
+          "MAN_IOT_PORTAL_001",
+          "MAN_ESIM_001"
+        ],
+        "hit_rank": 3,
+        "retrieved_chunks": [
+          {
+            "document_id": "MAN_APP_001",
+            "chunk_id": "MAN_APP_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.7016830444335938
+          },
+          {
+            "document_id": "SOP_C13_APP_ACCESS_ISSUES",
+            "chunk_id": "SOP_C13_APP_ACCESS_ISSUES_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6918635964393616
+          },
+          {
+            "document_id": "FAQ_C13_025",
+            "chunk_id": "FAQ_C13_025_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6427549123764038
+          },
+          {
+            "document_id": "FAQ_C01_001",
+            "chunk_id": "FAQ_C01_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6027408838272095
+          },
+          {
+            "document_id": "KB_C13_SELFCARE_LOGIN_ISSUES",
+            "chunk_id": "KB_C13_selfcare_login_issues_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5993792414665222
+          },
+          {
+            "document_id": "MAN_IOT_PORTAL_001",
+            "chunk_id": "MAN_IOT_PORTAL_001_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5949469804763794
+          },
+          {
+            "document_id": "MAN_ESIM_001",
+            "chunk_id": "MAN_ESIM_001_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5940682888031006
+          }
+        ]
+      },
+      {
+        "query_number": 14,
+        "question_id": "Q14",
+        "query": "Are there any special recharge offers available specifically for my mobile number?",
+        "expected_document_ids": [
+          "EML_009",
+          "FAQ_C14_027"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+        ],
+        "hit_rank": null,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+            "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_022",
+            "source_corpus": "public",
+            "score": 0.4667627811431885
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_083",
+            "source_corpus": "public",
+            "score": 0.4167550802230835
+          },
+          {
+            "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+            "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_016",
+            "source_corpus": "public",
+            "score": 0.4039090871810913
+          }
+        ]
+      },
+      {
+        "query_number": 15,
+        "question_id": "Q15",
+        "query": "I had Gold loyalty status before, but now I'm Silver. Why did my loyalty tier change?",
+        "expected_document_ids": [
+          "FAQ_C15_030"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C15_030",
+          "FAQ_C15_029",
+          "KB_C22_NEW_ACTIVATION_DELAY",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "KB_C18_FRAUD_RESPONSE",
+          "KB_C05_SIM_SWAP_TROUBLESHOOTING",
+          "POLICY_C18_SECURITY_POLICY",
+          "KB_C02_PLAN_EXPIRY",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C15_030",
+            "chunk_id": "FAQ_C15_030_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6690220236778259
+          },
+          {
+            "document_id": "FAQ_C15_029",
+            "chunk_id": "FAQ_C15_029_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.362417995929718
+          },
+          {
+            "document_id": "KB_C22_NEW_ACTIVATION_DELAY",
+            "chunk_id": "KB_C22_new_activation_delay_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.27654755115509033
+          },
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_074",
+            "source_corpus": "public",
+            "score": 0.266679972410202
+          },
+          {
+            "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+            "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_080",
+            "source_corpus": "public",
+            "score": 0.26551151275634766
+          },
+          {
+            "document_id": "KB_C18_FRAUD_RESPONSE",
+            "chunk_id": "KB_C18_fraud_response_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.2642286419868469
+          },
+          {
+            "document_id": "KB_C05_SIM_SWAP_TROUBLESHOOTING",
+            "chunk_id": "KB_C05_sim_swap_troubleshooting_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.2623123526573181
+          },
+          {
+            "document_id": "POLICY_C18_SECURITY_POLICY",
+            "chunk_id": "Policy_C18_security_policy_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.25886255502700806
+          },
+          {
+            "document_id": "KB_C02_PLAN_EXPIRY",
+            "chunk_id": "KB_C02_plan_expiry_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.2550789713859558
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_151",
+            "source_corpus": "public",
+            "score": 0.25482529401779175
+          }
+        ]
+      },
+      {
+        "query_number": 16,
+        "question_id": "Q16",
+        "query": "I've already complained about this issue but nobody has resolved it. How can I escalate my complaint?",
+        "expected_document_ids": [
+          "FAQ_C16_031",
+          "KB_C16_COMPLAINT_ESCALATION",
+          "TRX_003"
+        ],
+        "retrieved_document_ids": [
+          "KB_C16_COMPLAINT_ESCALATION",
+          "EML_010",
+          "KB_C22_NEW_ACTIVATION_DELAY",
+          "KB_C03_RECHARGE_FAILURES",
+          "KB_C09_FUP_DATA_SPEED",
+          "FAQ_C16_031",
+          "KB_C25_FTTH_FAULT_DIAGNOSIS",
+          "KB_C05_SIM_SWAP_TROUBLESHOOTING",
+          "TRX_003",
+          "TRX_001"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "KB_C16_COMPLAINT_ESCALATION",
+            "chunk_id": "KB_C16_complaint_escalation_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5807101130485535
+          },
+          {
+            "document_id": "EML_010",
+            "chunk_id": "EML_010_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5130704641342163
+          },
+          {
+            "document_id": "KB_C22_NEW_ACTIVATION_DELAY",
+            "chunk_id": "KB_C22_new_activation_delay_chunk_002",
+            "source_corpus": "synthetic",
+            "score": 0.48490217328071594
+          },
+          {
+            "document_id": "KB_C03_RECHARGE_FAILURES",
+            "chunk_id": "KB_C03_recharge_failures_chunk_002",
+            "source_corpus": "synthetic",
+            "score": 0.48073577880859375
+          },
+          {
+            "document_id": "KB_C09_FUP_DATA_SPEED",
+            "chunk_id": "KB_C09_fup_data_speed_chunk_002",
+            "source_corpus": "synthetic",
+            "score": 0.47900962829589844
+          },
+          {
+            "document_id": "FAQ_C16_031",
+            "chunk_id": "FAQ_C16_031_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.4779015779495239
+          },
+          {
+            "document_id": "KB_C25_FTTH_FAULT_DIAGNOSIS",
+            "chunk_id": "KB_C25_ftth_fault_diagnosis_chunk_002",
+            "source_corpus": "synthetic",
+            "score": 0.4770752787590027
+          },
+          {
+            "document_id": "KB_C05_SIM_SWAP_TROUBLESHOOTING",
+            "chunk_id": "KB_C05_sim_swap_troubleshooting_chunk_002",
+            "source_corpus": "synthetic",
+            "score": 0.4764079451560974
+          },
+          {
+            "document_id": "TRX_003",
+            "chunk_id": "TRX_003_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.46884363889694214
+          },
+          {
+            "document_id": "TRX_001",
+            "chunk_id": "TRX_001_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.46408045291900635
+          }
+        ]
+      },
+      {
+        "query_number": 17,
+        "question_id": "Q17",
+        "query": "What documents do I need to provide if NovaTel asks me to complete KYC verification again?",
+        "expected_document_ids": [
+          "FAQ_C17_033",
+          "FAQ_C17_034",
+          "KB_C17_KYC_REVERIFICATION"
+        ],
+        "retrieved_document_ids": [
+          "SOP_C17_KYC_VERIFICATION",
+          "TRX_007",
+          "EML_008",
+          "POLICY_C17_KYC_POLICY",
+          "FAQ_C17_034",
+          "FAQ_C17_033",
+          "KB_C17_KYC_REVERIFICATION",
+          "FAQ_C01_001",
+          "FAQ_C22_044"
+        ],
+        "hit_rank": 5,
+        "retrieved_chunks": [
+          {
+            "document_id": "SOP_C17_KYC_VERIFICATION",
+            "chunk_id": "SOP_C17_KYC_VERIFICATION_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6943029165267944
+          },
+          {
+            "document_id": "TRX_007",
+            "chunk_id": "TRX_007_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6854175925254822
+          },
+          {
+            "document_id": "EML_008",
+            "chunk_id": "EML_008_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6825728416442871
+          },
+          {
+            "document_id": "POLICY_C17_KYC_POLICY",
+            "chunk_id": "Policy_C17_kyc_policy_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6568864583969116
+          },
+          {
+            "document_id": "FAQ_C17_034",
+            "chunk_id": "FAQ_C17_034_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6363735198974609
+          },
+          {
+            "document_id": "FAQ_C17_033",
+            "chunk_id": "FAQ_C17_033_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6002001762390137
+          },
+          {
+            "document_id": "KB_C17_KYC_REVERIFICATION",
+            "chunk_id": "KB_C17_kyc_reverification_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5864875316619873
+          },
+          {
+            "document_id": "FAQ_C01_001",
+            "chunk_id": "FAQ_C01_001_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5448697805404663
+          },
+          {
+            "document_id": "FAQ_C22_044",
+            "chunk_id": "FAQ_C22_044_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5365407466888428
+          }
+        ]
+      },
+      {
+        "query_number": 18,
+        "question_id": "Q18",
+        "query": "I think someone has fraudulently replaced my SIM. What should I do immediately?",
+        "expected_document_ids": [
+          "FAQ_C18_035",
+          "KB_C18_FRAUD_RESPONSE",
+          "TRX_002"
+        ],
+        "retrieved_document_ids": [
+          "SOP_C18_FRAUD_RESPONSE",
+          "FAQ_C18_035",
+          "TRX_002",
+          "SOP_C05_SIM_REPLACEMENT",
+          "KB_C18_FRAUD_RESPONSE",
+          "EML_003",
+          "KB_C05_SIM_SWAP_TROUBLESHOOTING",
+          "KB_C22_NEW_ACTIVATION_DELAY",
+          "TRN_003"
+        ],
+        "hit_rank": 2,
+        "retrieved_chunks": [
+          {
+            "document_id": "SOP_C18_FRAUD_RESPONSE",
+            "chunk_id": "SOP_C18_FRAUD_RESPONSE_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6656242609024048
+          },
+          {
+            "document_id": "FAQ_C18_035",
+            "chunk_id": "FAQ_C18_035_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6653605699539185
+          },
+          {
+            "document_id": "TRX_002",
+            "chunk_id": "TRX_002_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6500551104545593
+          },
+          {
+            "document_id": "SOP_C05_SIM_REPLACEMENT",
+            "chunk_id": "SOP_C05_SIM_REPLACEMENT_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6434223055839539
+          },
+          {
+            "document_id": "KB_C18_FRAUD_RESPONSE",
+            "chunk_id": "KB_C18_fraud_response_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6165497899055481
+          },
+          {
+            "document_id": "EML_003",
+            "chunk_id": "EML_003_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.561051070690155
+          },
+          {
+            "document_id": "KB_C05_SIM_SWAP_TROUBLESHOOTING",
+            "chunk_id": "KB_C05_sim_swap_troubleshooting_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5503712892532349
+          },
+          {
+            "document_id": "KB_C22_NEW_ACTIVATION_DELAY",
+            "chunk_id": "KB_C22_new_activation_delay_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5344592332839966
+          },
+          {
+            "document_id": "TRN_003",
+            "chunk_id": "TRN_003_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5250074863433838
+          }
+        ]
+      },
+      {
+        "query_number": 19,
+        "question_id": "Q19",
+        "query": "What happens to my call and location information, and how does NovaTel use it?",
+        "expected_document_ids": [
+          "FAQ_C19_037",
+          "KB_C19_PRIVACY_DATA_REQUESTS",
+          "POLICY_C19_PRIVACY_POLICY"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C11_022",
+          "FAQ_C19_037",
+          "FAQ_C18_036",
+          "FAQ_C05_010",
+          "FAQ_C10_020",
+          "TRX_004",
+          "FAQ_C06_012",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED"
+        ],
+        "hit_rank": 2,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C11_022",
+            "chunk_id": "FAQ_C11_022_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6336779594421387
+          },
+          {
+            "document_id": "FAQ_C19_037",
+            "chunk_id": "FAQ_C19_037_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6190992593765259
+          },
+          {
+            "document_id": "FAQ_C18_036",
+            "chunk_id": "FAQ_C18_036_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5737409591674805
+          },
+          {
+            "document_id": "FAQ_C05_010",
+            "chunk_id": "FAQ_C05_010_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5513077974319458
+          },
+          {
+            "document_id": "FAQ_C10_020",
+            "chunk_id": "FAQ_C10_020_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5464249849319458
+          },
+          {
+            "document_id": "TRX_004",
+            "chunk_id": "TRX_004_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5379425287246704
+          },
+          {
+            "document_id": "FAQ_C06_012",
+            "chunk_id": "FAQ_C06_012_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5314227342605591
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_179",
+            "source_corpus": "public",
+            "score": 0.5155714154243469
+          },
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_017",
+            "source_corpus": "public",
+            "score": 0.5094524621963501
+          }
+        ]
+      },
+      {
+        "query_number": 20,
+        "question_id": "Q20",
+        "query": "I was charged twice for the same recharge. How can I get the extra amount refunded?",
+        "expected_document_ids": [
+          "FAQ_C20_039",
+          "KB_C20_REFUND_PROCESSING",
+          "POLICY_C20_REFUND_POLICY",
+          "SOP_C20_REFUND_PROCESSING"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C20_039",
+          "SOP_C20_REFUND_PROCESSING",
+          "EML_002",
+          "KB_C20_REFUND_PROCESSING",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "TRX_001",
+          "SOP_C03_RECHARGE_FAILURE",
+          "POLICY_C20_REFUND_POLICY",
+          "KB_C03_RECHARGE_FAILURES"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C20_039",
+            "chunk_id": "FAQ_C20_039_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6547931432723999
+          },
+          {
+            "document_id": "SOP_C20_REFUND_PROCESSING",
+            "chunk_id": "SOP_C20_REFUND_PROCESSING_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5504230856895447
+          },
+          {
+            "document_id": "EML_002",
+            "chunk_id": "EML_002_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.4634780287742615
+          },
+          {
+            "document_id": "KB_C20_REFUND_PROCESSING",
+            "chunk_id": "KB_C20_refund_processing_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.4319044351577759
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_077",
+            "source_corpus": "public",
+            "score": 0.4181501865386963
+          },
+          {
+            "document_id": "TRX_001",
+            "chunk_id": "TRX_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.4039134085178375
+          },
+          {
+            "document_id": "SOP_C03_RECHARGE_FAILURE",
+            "chunk_id": "SOP_C03_RECHARGE_FAILURE_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.4014410376548767
+          },
+          {
+            "document_id": "POLICY_C20_REFUND_POLICY",
+            "chunk_id": "Policy_C20_refund_policy_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.39826327562332153
+          },
+          {
+            "document_id": "KB_C03_RECHARGE_FAILURES",
+            "chunk_id": "KB_C03_recharge_failures_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.3827909529209137
+          }
+        ]
+      },
+      {
+        "query_number": 21,
+        "question_id": "Q21",
+        "query": "I want to permanently close my postpaid connection. How do I do that?",
+        "expected_document_ids": [
+          "FAQ_C21_041",
+          "KB_C21_ACCOUNT_CLOSURE"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C21_041",
+          "TRX_008",
+          "EML_005",
+          "SOP_C21_ACCOUNT_CLOSURE",
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+          "KB_C21_ACCOUNT_CLOSURE",
+          "POLICY_C02_PLAN_LIFECYCLE",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "FAQ_C19_038"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C21_041",
+            "chunk_id": "FAQ_C21_041_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.693320631980896
+          },
+          {
+            "document_id": "TRX_008",
+            "chunk_id": "TRX_008_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5152050256729126
+          },
+          {
+            "document_id": "EML_005",
+            "chunk_id": "EML_005_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.44885098934173584
+          },
+          {
+            "document_id": "SOP_C21_ACCOUNT_CLOSURE",
+            "chunk_id": "SOP_C21_ACCOUNT_CLOSURE_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.41276106238365173
+          },
+          {
+            "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+            "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_040",
+            "source_corpus": "public",
+            "score": 0.3839317560195923
+          },
+          {
+            "document_id": "KB_C21_ACCOUNT_CLOSURE",
+            "chunk_id": "KB_C21_account_closure_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.3487361669540405
+          },
+          {
+            "document_id": "POLICY_C02_PLAN_LIFECYCLE",
+            "chunk_id": "Policy_C02_plan_lifecycle_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.348530113697052
+          },
+          {
+            "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+            "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_023",
+            "source_corpus": "public",
+            "score": 0.336815744638443
+          },
+          {
+            "document_id": "FAQ_C19_038",
+            "chunk_id": "FAQ_C19_038_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.3356969952583313
+          }
+        ]
+      },
+      {
+        "query_number": 22,
+        "question_id": "Q22",
+        "query": "I bought a new SIM but it still isn't active after a full day. What should I do?",
+        "expected_document_ids": [
+          "FAQ_C22_044",
+          "KB_C22_NEW_ACTIVATION_DELAY",
+          "SOP_C22_ACTIVATION_DELAY"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C22_044",
+          "FAQ_C05_009",
+          "KB_C05_SIM_SWAP_TROUBLESHOOTING",
+          "KB_C22_NEW_ACTIVATION_DELAY",
+          "MAN_ESIM_001",
+          "SOP_C22_ACTIVATION_DELAY",
+          "INC_C05_INC_2026_0171",
+          "SOP_C05_SIM_REPLACEMENT"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C22_044",
+            "chunk_id": "FAQ_C22_044_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5555679202079773
+          },
+          {
+            "document_id": "FAQ_C05_009",
+            "chunk_id": "FAQ_C05_009_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5374494194984436
+          },
+          {
+            "document_id": "KB_C05_SIM_SWAP_TROUBLESHOOTING",
+            "chunk_id": "KB_C05_sim_swap_troubleshooting_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.49840670824050903
+          },
+          {
+            "document_id": "KB_C22_NEW_ACTIVATION_DELAY",
+            "chunk_id": "KB_C22_new_activation_delay_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.49667441844940186
+          },
+          {
+            "document_id": "MAN_ESIM_001",
+            "chunk_id": "MAN_ESIM_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.47709497809410095
+          },
+          {
+            "document_id": "SOP_C22_ACTIVATION_DELAY",
+            "chunk_id": "SOP_C22_ACTIVATION_DELAY_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.458518922328949
+          },
+          {
+            "document_id": "INC_C05_INC_2026_0171",
+            "chunk_id": "INC_C05_INC_2026_0171_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.45026418566703796
+          },
+          {
+            "document_id": "SOP_C05_SIM_REPLACEMENT",
+            "chunk_id": "SOP_C05_SIM_REPLACEMENT_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.4390990138053894
+          }
+        ]
+      },
+      {
+        "query_number": 23,
+        "question_id": "Q23",
+        "query": "What does a NovaTel enterprise connectivity plan include for a business?",
+        "expected_document_ids": [
+          "FAQ_C23_045",
+          "KB_C23_ENTERPRISE_ONBOARDING",
+          "POLICY_C23_ENTERPRISE_TERMS",
+          "TARIFF_POSTPAID_2026H2"
+        ],
+        "retrieved_document_ids": [
+          "POLICY_C23_ENTERPRISE_TERMS",
+          "POLICY_C19_PRIVACY_POLICY",
+          "FAQ_C23_045",
+          "POLICY_C28_REGULATORY_COMPLIANCE",
+          "FAQ_C24_047",
+          "POLICY_C02_PLAN_LIFECYCLE",
+          "POLICY_C18_SECURITY_POLICY",
+          "MAN_IOT_PORTAL_001",
+          "POLICY_C17_KYC_POLICY",
+          "FAQ_C04_007"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "POLICY_C23_ENTERPRISE_TERMS",
+            "chunk_id": "Policy_C23_enterprise_terms_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.7267410159111023
+          },
+          {
+            "document_id": "POLICY_C19_PRIVACY_POLICY",
+            "chunk_id": "Policy_C19_privacy_policy_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5985797047615051
+          },
+          {
+            "document_id": "FAQ_C23_045",
+            "chunk_id": "FAQ_C23_045_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5813764333724976
+          },
+          {
+            "document_id": "POLICY_C28_REGULATORY_COMPLIANCE",
+            "chunk_id": "Policy_C28_regulatory_compliance_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5596005916595459
+          },
+          {
+            "document_id": "FAQ_C24_047",
+            "chunk_id": "FAQ_C24_047_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5437774658203125
+          },
+          {
+            "document_id": "POLICY_C02_PLAN_LIFECYCLE",
+            "chunk_id": "Policy_C02_plan_lifecycle_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5436160564422607
+          },
+          {
+            "document_id": "POLICY_C18_SECURITY_POLICY",
+            "chunk_id": "Policy_C18_security_policy_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5126981735229492
+          },
+          {
+            "document_id": "MAN_IOT_PORTAL_001",
+            "chunk_id": "MAN_IOT_PORTAL_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5025948286056519
+          },
+          {
+            "document_id": "POLICY_C17_KYC_POLICY",
+            "chunk_id": "Policy_C17_kyc_policy_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.4957823157310486
+          },
+          {
+            "document_id": "FAQ_C04_007",
+            "chunk_id": "FAQ_C04_007_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.482094943523407
+          }
+        ]
+      },
+      {
+        "query_number": 24,
+        "question_id": "Q24",
+        "query": "We have thousands of IoT SIM cards. How can our organisation monitor their usage?",
+        "expected_document_ids": [
+          "FAQ_C24_048",
+          "MAN_IOT_PORTAL_001"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C24_048",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "MAN_IOT_PORTAL_001",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C24_048",
+            "chunk_id": "FAQ_C24_048_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6495893001556396
+          },
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_073",
+            "source_corpus": "public",
+            "score": 0.5024317502975464
+          },
+          {
+            "document_id": "MAN_IOT_PORTAL_001",
+            "chunk_id": "MAN_IOT_PORTAL_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.47170576453208923
+          },
+          {
+            "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+            "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_027",
+            "source_corpus": "public",
+            "score": 0.45652443170547485
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_092",
+            "source_corpus": "public",
+            "score": 0.4491131901741028
+          },
+          {
+            "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+            "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_072",
+            "source_corpus": "public",
+            "score": 0.44008055329322815
+          }
+        ]
+      },
+      {
+        "query_number": 25,
+        "question_id": "Q25",
+        "query": "My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?",
+        "expected_document_ids": [
+          "FAQ_C25_049",
+          "KB_C25_FTTH_FAULT_DIAGNOSIS",
+          "MAN_ROUTER_001"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C25_049",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "TRX_006"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C25_049",
+            "chunk_id": "FAQ_C25_049_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6964516043663025
+          },
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_112",
+            "source_corpus": "public",
+            "score": 0.5256999731063843
+          },
+          {
+            "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+            "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_096",
+            "source_corpus": "public",
+            "score": 0.5194593667984009
+          },
+          {
+            "document_id": "TRX_006",
+            "chunk_id": "TRX_006_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.49185502529144287
+          }
+        ]
+      },
+      {
+        "query_number": 26,
+        "question_id": "Q26",
+        "query": "I registered for DND but I'm still receiving promotional calls. How can I report this?",
+        "expected_document_ids": [
+          "FAQ_C26_052",
+          "KB_C26_DND_REGISTRATION"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C26_052",
+          "KB_C26_DND_REGISTRATION",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "FAQ_C18_036",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "SOP_C10_VAS_DISPUTE"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C26_052",
+            "chunk_id": "FAQ_C26_052_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6076991558074951
+          },
+          {
+            "document_id": "KB_C26_DND_REGISTRATION",
+            "chunk_id": "KB_C26_dnd_registration_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5039682388305664
+          },
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_038",
+            "source_corpus": "public",
+            "score": 0.45924022793769836
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_027",
+            "source_corpus": "public",
+            "score": 0.429523229598999
+          },
+          {
+            "document_id": "FAQ_C18_036",
+            "chunk_id": "FAQ_C18_036_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.4199332296848297
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_093",
+            "source_corpus": "public",
+            "score": 0.4083945155143738
+          },
+          {
+            "document_id": "SOP_C10_VAS_DISPUTE",
+            "chunk_id": "SOP_C10_VAS_DISPUTE_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.40297818183898926
+          }
+        ]
+      },
+      {
+        "query_number": 27,
+        "question_id": "Q27",
+        "query": "Does the My NovaTel app work with screen readers for visually impaired users?",
+        "expected_document_ids": [
+          "FAQ_C27_054"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C27_054",
+          "FAQ_C27_053",
+          "FAQ_C04_008",
+          "MAN_APP_001",
+          "REL_2026_07",
+          "FAQ_C12_023",
+          "FAQ_C18_036",
+          "MAN_IOT_PORTAL_001",
+          "SCIFACT_313394"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C27_054",
+            "chunk_id": "FAQ_C27_054_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.7250511646270752
+          },
+          {
+            "document_id": "FAQ_C27_053",
+            "chunk_id": "FAQ_C27_053_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5324499011039734
+          },
+          {
+            "document_id": "FAQ_C04_008",
+            "chunk_id": "FAQ_C04_008_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5094282031059265
+          },
+          {
+            "document_id": "MAN_APP_001",
+            "chunk_id": "MAN_APP_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.41814684867858887
+          },
+          {
+            "document_id": "REL_2026_07",
+            "chunk_id": "REL_2026_07_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.39315301179885864
+          },
+          {
+            "document_id": "FAQ_C12_023",
+            "chunk_id": "FAQ_C12_023_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.34910690784454346
+          },
+          {
+            "document_id": "FAQ_C18_036",
+            "chunk_id": "FAQ_C18_036_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.34792444109916687
+          },
+          {
+            "document_id": "MAN_IOT_PORTAL_001",
+            "chunk_id": "MAN_IOT_PORTAL_001_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.3365643620491028
+          },
+          {
+            "document_id": "SCIFACT_313394",
+            "chunk_id": "SCIFACT_313394_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.3316229283809662
+          }
+        ]
+      },
+      {
+        "query_number": 28,
+        "question_id": "Q28",
+        "query": "What is TRAI's role in regulating telecom operators like NovaTel?",
+        "expected_document_ids": [
+          "FAQ_C28_055",
+          "POLICY_C28_REGULATORY_COMPLIANCE"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C28_055",
+          "POLICY_C28_REGULATORY_COMPLIANCE",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C28_055",
+            "chunk_id": "FAQ_C28_055_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.7177482843399048
+          },
+          {
+            "document_id": "POLICY_C28_REGULATORY_COMPLIANCE",
+            "chunk_id": "Policy_C28_regulatory_compliance_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6316078901290894
+          },
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_000",
+            "source_corpus": "public",
+            "score": 0.5867241024971008
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_239",
+            "source_corpus": "public",
+            "score": 0.5721237659454346
+          },
+          {
+            "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+            "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_000",
+            "source_corpus": "public",
+            "score": 0.5631883144378662
+          },
+          {
+            "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+            "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_000",
+            "source_corpus": "public",
+            "score": 0.5480484366416931
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_090",
+            "source_corpus": "public",
+            "score": 0.5029991865158081
+          }
+        ]
+      },
+      {
+        "query_number": 29,
+        "question_id": "Q29",
+        "query": "My phone says the SIM isn't provisioned for voice calls. How can I fix this?",
+        "expected_document_ids": [
+          "FAQ_C29_057",
+          "KB_C29_NETWORK_RESET_GUIDE"
+        ],
+        "retrieved_document_ids": [
+          "FAQ_C29_057",
+          "MAN_DEVICE_VOLTE_001",
+          "FAQ_C12_024",
+          "MAN_ESIM_001",
+          "FAQ_C22_044",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "KB_C05_SIM_SWAP_TROUBLESHOOTING",
+          "INC_C05_INC_2026_0171"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "FAQ_C29_057",
+            "chunk_id": "FAQ_C29_057_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6838454008102417
+          },
+          {
+            "document_id": "MAN_DEVICE_VOLTE_001",
+            "chunk_id": "MAN_DEVICE_VOLTE_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5902053117752075
+          },
+          {
+            "document_id": "FAQ_C12_024",
+            "chunk_id": "FAQ_C12_024_chunk_001",
+            "source_corpus": "synthetic",
+            "score": 0.5381357073783875
+          },
+          {
+            "document_id": "MAN_ESIM_001",
+            "chunk_id": "MAN_ESIM_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.45897531509399414
+          },
+          {
+            "document_id": "FAQ_C22_044",
+            "chunk_id": "FAQ_C22_044_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.4566843509674072
+          },
+          {
+            "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+            "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_002",
+            "source_corpus": "public",
+            "score": 0.41675397753715515
+          },
+          {
+            "document_id": "KB_C05_SIM_SWAP_TROUBLESHOOTING",
+            "chunk_id": "KB_C05_sim_swap_troubleshooting_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.4133107364177704
+          },
+          {
+            "document_id": "INC_C05_INC_2026_0171",
+            "chunk_id": "INC_C05_INC_2026_0171_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.40882158279418945
+          }
+        ]
+      }
+    ]
+  },
+  "public": {
+    "source": "public",
+    "total_queries": 30,
+    "metrics": {
+      "R@1": 0.43333333333333335,
+      "R@3": 0.7,
+      "R@5": 0.7666666666666667,
+      "R@10": 0.8,
+      "MRR@10": 0.5816666666666667
+    },
+    "results": [
+      {
+        "query_number": 1,
+        "question_id": "RW_001",
+        "query": "What rights do I have as a telecom customer?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+        ],
+        "hit_rank": 6,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_007",
+            "source_corpus": "public",
+            "score": 0.5791671276092529
+          },
+          {
+            "document_id": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+            "chunk_id": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL_chunk_030",
+            "source_corpus": "public",
+            "score": 0.5760155916213989
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_038",
+            "source_corpus": "public",
+            "score": 0.557331919670105
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_040",
+            "source_corpus": "public",
+            "score": 0.5300698280334473
+          },
+          {
+            "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+            "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_000",
+            "source_corpus": "public",
+            "score": 0.5265629291534424
+          },
+          {
+            "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+            "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_008",
+            "source_corpus": "public",
+            "score": 0.5204659104347229
+          }
+        ]
+      },
+      {
+        "query_number": 2,
+        "question_id": "RW_002",
+        "query": "What protection do I have if my telecom company provides poor service?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "hit_rank": 5,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_181",
+            "source_corpus": "public",
+            "score": 0.5704358220100403
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_036",
+            "source_corpus": "public",
+            "score": 0.5605348348617554
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_023",
+            "source_corpus": "public",
+            "score": 0.5376273989677429
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_037",
+            "source_corpus": "public",
+            "score": 0.5359799265861511
+          },
+          {
+            "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+            "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_000",
+            "source_corpus": "public",
+            "score": 0.5317339897155762
+          },
+          {
+            "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+            "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_007",
+            "source_corpus": "public",
+            "score": 0.530551016330719
+          }
+        ]
+      },
+      {
+        "query_number": 3,
+        "question_id": "RW_003",
+        "query": "What should a telecom company do to protect its customers?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "hit_rank": null,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_246",
+            "source_corpus": "public",
+            "score": 0.6246520280838013
+          },
+          {
+            "document_id": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+            "chunk_id": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL_chunk_023",
+            "source_corpus": "public",
+            "score": 0.541856050491333
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_037",
+            "source_corpus": "public",
+            "score": 0.4957576096057892
+          }
+        ]
+      },
+      {
+        "query_number": 4,
+        "question_id": "RW_004",
+        "query": "How can I complain to my telecom service provider?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+            "chunk_id": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL_chunk_024",
+            "source_corpus": "public",
+            "score": 0.579369306564331
+          },
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_035",
+            "source_corpus": "public",
+            "score": 0.5537106990814209
+          },
+          {
+            "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+            "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_007",
+            "source_corpus": "public",
+            "score": 0.5332784056663513
+          }
+        ]
+      },
+      {
+        "query_number": 5,
+        "question_id": "RW_005",
+        "query": "What should I do if my telecom company does not resolve my complaint?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+            "chunk_id": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL_chunk_024",
+            "source_corpus": "public",
+            "score": 0.5445562601089478
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_028",
+            "source_corpus": "public",
+            "score": 0.5443980097770691
+          },
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_036",
+            "source_corpus": "public",
+            "score": 0.5398586988449097
+          },
+          {
+            "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+            "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_007",
+            "source_corpus": "public",
+            "score": 0.5365644097328186
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_028",
+            "source_corpus": "public",
+            "score": 0.5252658724784851
+          }
+        ]
+      },
+      {
+        "query_number": 6,
+        "question_id": "RW_006",
+        "query": "Where should I go if I have a problem with my mobile or telecom service?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "hit_rank": null,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_181",
+            "source_corpus": "public",
+            "score": 0.5501052737236023
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_143",
+            "source_corpus": "public",
+            "score": 0.49937009811401367
+          },
+          {
+            "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+            "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_005",
+            "source_corpus": "public",
+            "score": 0.46790993213653564
+          }
+        ]
+      },
+      {
+        "query_number": 7,
+        "question_id": "RW_007",
+        "query": "How can I stop receiving unwanted promotional calls and messages?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "FAQ_C26_051",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_056",
+            "source_corpus": "public",
+            "score": 0.5143957138061523
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_057",
+            "source_corpus": "public",
+            "score": 0.49815911054611206
+          },
+          {
+            "document_id": "FAQ_C26_051",
+            "chunk_id": "FAQ_C26_051_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.4901849627494812
+          },
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_011",
+            "source_corpus": "public",
+            "score": 0.48333579301834106
+          }
+        ]
+      },
+      {
+        "query_number": 8,
+        "question_id": "RW_008",
+        "query": "Can I report spam calls and unwanted SMS messages?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "FAQ_C26_052",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "hit_rank": 4,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_032",
+            "source_corpus": "public",
+            "score": 0.5249305963516235
+          },
+          {
+            "document_id": "FAQ_C26_052",
+            "chunk_id": "FAQ_C26_052_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5178380012512207
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_032",
+            "source_corpus": "public",
+            "score": 0.4955694377422333
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_084",
+            "source_corpus": "public",
+            "score": 0.4851868748664856
+          }
+        ]
+      },
+      {
+        "query_number": 9,
+        "question_id": "RW_009",
+        "query": "How can I control which promotional messages I receive?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "hit_rank": 2,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_010",
+            "source_corpus": "public",
+            "score": 0.5615745782852173
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_122",
+            "source_corpus": "public",
+            "score": 0.5197484493255615
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_053",
+            "source_corpus": "public",
+            "score": 0.44401395320892334
+          }
+        ]
+      },
+      {
+        "query_number": 10,
+        "question_id": "RW_010",
+        "query": "What level of service quality should I expect from my telecom provider?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_097",
+            "source_corpus": "public",
+            "score": 0.6217366456985474
+          },
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_085",
+            "source_corpus": "public",
+            "score": 0.5983791351318359
+          }
+        ]
+      },
+      {
+        "query_number": 11,
+        "question_id": "RW_011",
+        "query": "What can I do if my mobile network service quality is poor?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_109",
+            "source_corpus": "public",
+            "score": 0.5711813569068909
+          },
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_078",
+            "source_corpus": "public",
+            "score": 0.5142995119094849
+          }
+        ]
+      },
+      {
+        "query_number": 12,
+        "question_id": "RW_012",
+        "query": "Are there any standards for call quality and network performance?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_147",
+            "source_corpus": "public",
+            "score": 0.6426212787628174
+          }
+        ]
+      },
+      {
+        "query_number": 13,
+        "question_id": "RW_013",
+        "query": "What rules protect me from unwanted commercial calls and messages?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_019",
+            "source_corpus": "public",
+            "score": 0.6477659940719604
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_149",
+            "source_corpus": "public",
+            "score": 0.6316370964050293
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_017",
+            "source_corpus": "public",
+            "score": 0.5964938402175903
+          }
+        ]
+      },
+      {
+        "query_number": 14,
+        "question_id": "RW_014",
+        "query": "What are telecom companies required to do about spam and promotional communication?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_023",
+            "source_corpus": "public",
+            "score": 0.5689131021499634
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_190",
+            "source_corpus": "public",
+            "score": 0.5226746797561646
+          },
+          {
+            "document_id": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+            "chunk_id": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL_chunk_023",
+            "source_corpus": "public",
+            "score": 0.5119739174842834
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_068",
+            "source_corpus": "public",
+            "score": 0.504130482673645
+          }
+        ]
+      },
+      {
+        "query_number": 15,
+        "question_id": "RW_015",
+        "query": "What regulations exist to control unwanted commercial communication?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_023",
+            "source_corpus": "public",
+            "score": 0.6601882576942444
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_021",
+            "source_corpus": "public",
+            "score": 0.6422189474105835
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_017",
+            "source_corpus": "public",
+            "score": 0.6170966625213623
+          }
+        ]
+      },
+      {
+        "query_number": 16,
+        "question_id": "RW_016",
+        "query": "Can I change my mobile operator without changing my phone number?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "TRX_004",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "FAQ_C01_001"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+            "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_036",
+            "source_corpus": "public",
+            "score": 0.52012699842453
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_063",
+            "source_corpus": "public",
+            "score": 0.5094376802444458
+          },
+          {
+            "document_id": "TRX_004",
+            "chunk_id": "TRX_004_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5047973394393921
+          },
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_084",
+            "source_corpus": "public",
+            "score": 0.5006223917007446
+          },
+          {
+            "document_id": "FAQ_C01_001",
+            "chunk_id": "FAQ_C01_001_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.5004474520683289
+          }
+        ]
+      },
+      {
+        "query_number": 17,
+        "question_id": "RW_017",
+        "query": "How do I port my mobile number to another telecom company?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+        ],
+        "retrieved_document_ids": [
+          "TRX_004",
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+        ],
+        "hit_rank": 2,
+        "retrieved_chunks": [
+          {
+            "document_id": "TRX_004",
+            "chunk_id": "TRX_004_chunk_000",
+            "source_corpus": "synthetic",
+            "score": 0.6605493426322937
+          },
+          {
+            "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+            "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_013",
+            "source_corpus": "public",
+            "score": 0.6135644912719727
+          }
+        ]
+      },
+      {
+        "query_number": 18,
+        "question_id": "RW_018",
+        "query": "What are the rules for keeping my phone number when switching telecom providers?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED"
+        ],
+        "hit_rank": 2,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_063",
+            "source_corpus": "public",
+            "score": 0.5918160676956177
+          },
+          {
+            "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+            "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_039",
+            "source_corpus": "public",
+            "score": 0.590826153755188
+          },
+          {
+            "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+            "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_008",
+            "source_corpus": "public",
+            "score": 0.5556854009628296
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_063",
+            "source_corpus": "public",
+            "score": 0.5553443431854248
+          },
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_084",
+            "source_corpus": "public",
+            "score": 0.5489097833633423
+          }
+        ]
+      },
+      {
+        "query_number": 19,
+        "question_id": "RW_019",
+        "query": "Where can I find information about how the telecom sector is performing?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "hit_rank": 2,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_015",
+            "source_corpus": "public",
+            "score": 0.6156973838806152
+          },
+          {
+            "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+            "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_000",
+            "source_corpus": "public",
+            "score": 0.553673505783081
+          }
+        ]
+      },
+      {
+        "query_number": 20,
+        "question_id": "RW_020",
+        "query": "How has the telecom industry performed during the last year?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "hit_rank": 2,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_015",
+            "source_corpus": "public",
+            "score": 0.5915732383728027
+          },
+          {
+            "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+            "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_000",
+            "source_corpus": "public",
+            "score": 0.5361812114715576
+          }
+        ]
+      },
+      {
+        "query_number": 21,
+        "question_id": "RW_021",
+        "query": "What are the latest yearly trends in the telecom sector?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "hit_rank": 2,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_015",
+            "source_corpus": "public",
+            "score": 0.6415917873382568
+          },
+          {
+            "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+            "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_002",
+            "source_corpus": "public",
+            "score": 0.5576632618904114
+          }
+        ]
+      },
+      {
+        "query_number": 22,
+        "question_id": "RW_022",
+        "query": "What were the latest telecom performance statistics in 2025?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_015",
+            "source_corpus": "public",
+            "score": 0.63002610206604
+          },
+          {
+            "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+            "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_000",
+            "source_corpus": "public",
+            "score": 0.6155845522880554
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_109",
+            "source_corpus": "public",
+            "score": 0.5607093572616577
+          }
+        ]
+      },
+      {
+        "query_number": 23,
+        "question_id": "RW_023",
+        "query": "How did the telecom sector perform from April to June 2025?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_015",
+            "source_corpus": "public",
+            "score": 0.6360841989517212
+          },
+          {
+            "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+            "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_000",
+            "source_corpus": "public",
+            "score": 0.537656307220459
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_107",
+            "source_corpus": "public",
+            "score": 0.5224138498306274
+          }
+        ]
+      },
+      {
+        "query_number": 24,
+        "question_id": "RW_024",
+        "query": "What recent telecom subscriber and performance statistics are available?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "hit_rank": 1,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_002",
+            "source_corpus": "public",
+            "score": 0.61408931016922
+          },
+          {
+            "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+            "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_067",
+            "source_corpus": "public",
+            "score": 0.6058902740478516
+          }
+        ]
+      },
+      {
+        "query_number": 25,
+        "question_id": "RW_025",
+        "query": "Are there any new proposed rules about unwanted commercial calls and messages?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED"
+        ],
+        "hit_rank": null,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_157",
+            "source_corpus": "public",
+            "score": 0.6450002193450928
+          },
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_019",
+            "source_corpus": "public",
+            "score": 0.638325572013855
+          }
+        ]
+      },
+      {
+        "query_number": 26,
+        "question_id": "RW_026",
+        "query": "What changes are being proposed for controlling spam calls and promotional messages?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "hit_rank": 3,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_149",
+            "source_corpus": "public",
+            "score": 0.558724045753479
+          },
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_010",
+            "source_corpus": "public",
+            "score": 0.5445723533630371
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_068",
+            "source_corpus": "public",
+            "score": 0.5321210622787476
+          }
+        ]
+      },
+      {
+        "query_number": 27,
+        "question_id": "RW_027",
+        "query": "What new telecom rules are being considered for commercial communications?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "hit_rank": 2,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+            "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_057",
+            "source_corpus": "public",
+            "score": 0.6485657691955566
+          },
+          {
+            "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+            "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_017",
+            "source_corpus": "public",
+            "score": 0.6457844376564026
+          },
+          {
+            "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+            "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_017",
+            "source_corpus": "public",
+            "score": 0.6320288181304932
+          },
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_006",
+            "source_corpus": "public",
+            "score": 0.5984300374984741
+          }
+        ]
+      },
+      {
+        "query_number": 28,
+        "question_id": "RW_028",
+        "query": "How is the quality of telecom services checked and reported?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "hit_rank": null,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_109",
+            "source_corpus": "public",
+            "score": 0.6216217279434204
+          },
+          {
+            "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+            "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_000",
+            "source_corpus": "public",
+            "score": 0.5746644735336304
+          }
+        ]
+      },
+      {
+        "query_number": 29,
+        "question_id": "RW_029",
+        "query": "Who monitors whether telecom companies are meeting service quality standards?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "hit_rank": null,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_097",
+            "source_corpus": "public",
+            "score": 0.6285930275917053
+          }
+        ]
+      },
+      {
+        "query_number": 30,
+        "question_id": "RW_030",
+        "query": "How do telecom companies report their service quality performance?",
+        "expected_document_ids": [
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "retrieved_document_ids": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "hit_rank": null,
+        "retrieved_chunks": [
+          {
+            "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+            "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_014",
+            "source_corpus": "public",
+            "score": 0.6358479261398315
+          }
+        ]
+      }
+    ]
+  },
+  "overall": {
+    "total_queries": 59,
+    "metrics": {
+      "R@1": 0.559322033898305,
+      "R@3": 0.7966101694915254,
+      "R@5": 0.847457627118644,
+      "R@10": 0.864406779661017,
+      "MRR@10": 0.6861581920903955
+    }
+  }
+}

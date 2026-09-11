@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C22_044_chunk_001",
+  "document_id": "FAQ_C22_044",
+  "chunk_index": 1,
+  "text": "| Resubmit or correct the flagged document detail | | No Service' after 24h, Activation Status shows no issue flagged | Provisioning delay on the network side | Application/reference number | Contact care with the application/reference number | ### Escalation Contacting care with the application/reference number is the documented next step when Activation Status doesn't show a clear KYC or document cause. ### Example Scenario **Customer situation:** A customer's new SIM still shows 'No Service' a full day after purchase. **What happens:** Checking SIM Services > Activation Status first identifies whether it's a KYC, document, or provisioning issue, which determines whether the fix is on the customer's side (KYC/documents) or requires contacting care with the reference number. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C22_overview. Topic: New Connection Activation",
+  "title": "Why is my new SIM still showing 'No Service' after 24 hours?",
+  "document_type": "FAQ",
+  "category": "C22",
+  "department": "Customer Care",
+  "customer_scope": "postpaid",
+  "version": "1.0",
+  "last_updated": "2026-06-15",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C22_overview"
+  ],
+  "tags": [
+    "new",
+    "c22"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C22_044.json",
+  "file_type": "json"
+}

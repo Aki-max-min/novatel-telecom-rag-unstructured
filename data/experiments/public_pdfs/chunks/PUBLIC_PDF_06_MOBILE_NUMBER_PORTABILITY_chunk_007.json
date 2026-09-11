@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_007",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 7,
+  "text": "facilitate in its entire network, Mobile Number Portability to all subscribers, both pre-paid and post-paid and shall, upon request, provide the same on a non-discriminatory basis. 4[5. Obligation to set up mechanism for allocation of unique porting code.— (1) Every Access Provider shall set up, in its mobile network, a mechanism for the purpose of receiving Short Message Service (SMS) from its subscribers requesting for a unique porting code and forwarding the same to the Mobile Number Portability zone to which the mobile number belongs; 1 Ins. by the Ninth Amendment Regulations, 2024, reg. 2 (w.e.f. 01.07.2024) 2 Subs. by the Seventh Amendment Regulations, 2018, reg. 2(g) (w.e.f. 16.12.2019), for the following: “by an Access Provider” 3 Del. the words “The Mobile Number Portability shall be limited to within a given licensed service area;” by the Sixth Amendment Regulations, 2015, reg. 3 (w.e.f. 03.05.2015) 4 Subs. by the Seventh Amendment Regulations, 2018, reg. 3 (w.e.f. 16.12.2019), for the following: “5. Obligation to set up mechanism for allocation of unique porting code.- Every Access Provider shall, within sixty days from the date of these regulations coming into force, set up, in its mobile network, a mechanism for the purpose of— (a) receiving Short Message Service (SMS) messages from its subscribers requesting for a unique porting code; (b) allocating a unique porting code for each such request and communicating it to the subscriber forthwith through Short Message Service (SMS) message through an automated process; and (c) retaining such unique porting number on",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

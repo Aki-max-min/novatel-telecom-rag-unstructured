@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17991818",
+  "title": "THE ORIGIN AND DIFFERENTIATION OF MICROGLIAL CELLS DURING DEVELOPMENT",
+  "content": "Some authors claim that microglia originate from the neuroepithelium, although most now believe that microglial cells are of mesodermal origin, and probably belong to the monocyte/macrophage cell line. These cells must enter the developing central nervous system (CNS) from the blood stream, the ventricular space or the meninges. Afterward microglial cells are distributed more or less homogeneously through the entire nervous parenchyma. Stereotyped patterns of migration have been recognized during development, in which long-distance tangential migration precedes radial migration of individual cells. Microglial cells moving through the nervous parenchyma are ameboid microglia, which apparently differentiate into ramified microglia after reaching their definitive location. This is supported by the presence of cells showing intermediate features between those of ameboid and ramified microglia. The factors that control the invasion of the nervous parenchyma, migration within the developing CNS and differentiation of microglial cells are not well known. These phenomena apparently depend on environmental factors such as soluble or cell-surface bound molecules and components of the extracellular matrix. Microglial cells within the developing CNS are involved in clearing cell debris and withdrawing misdirected or transitory axons, and presumably support cell survival and neurite growth.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

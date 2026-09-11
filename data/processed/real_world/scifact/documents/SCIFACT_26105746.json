@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26105746",
+  "title": "Influenza A myocarditis developing in an adult liver transplant recipient despite vaccination: a case report and review of the literature.",
+  "content": "Solid organ transplant recipients receiving chronic immunosuppressive agents are at increased risk to acquire influenza virus despite vaccination. Myocarditis is a known but rare complication of influenza infection. We present the first adult liver transplant recipient who received prophylactic vaccination but developed influenza A myocarditis. This may occur in solid organ transplant recipients, because they have reduced response to protein vaccines, which may leave them vulnerable to infections. Studies are needed to evaluate if antiviral chemoprophylaxis in solid organ transplant recipients during influenza season would be an effective preventive therapy against influenza in this high-risk population.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

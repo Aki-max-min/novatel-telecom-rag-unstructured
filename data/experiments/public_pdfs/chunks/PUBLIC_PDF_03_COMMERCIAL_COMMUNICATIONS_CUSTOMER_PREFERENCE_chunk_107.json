@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_107",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 107,
+  "text": "authentication based on cryptographic keys. Both also recommended selective access to TMSE client databases, based on the identity of the agency trying to get access, and registered preferences of customers. Few recommended storing encrypted logs of TMSE transactions in order to enable regular audits. 3.2.6 Managing Header Assignments by Principal Entities for their DSAs: Most of the banks and other stakeholders supported this. They expressed that extending capability to manage header assignments 61 to them will help them to better control and manage headers assigned to their DSAs or any entity authorized by them to perform commercial communication functions on their behalf. 3.2.7 Changes in the Header Format and Structure: i. Most of the stakeholder have commented that headers assigned by RTMs / TMSEs to Principal Entities should be unique. One of the entity has suggested Header format as <Name of entity> - <operator><operator code><unique 3-digit TM code given>. ii. Few other service providers have commented that first two digits of the header should clearly convey the nature of communication like ‘PR’ for promotional communication and ‘TR’ for transactional communication followed by organization’s header. They suggested an increase in the length of header up to 11 digits for covering maximum entities with unique headers. It should be the web-based interface like domain name registration for the header assignment. They also recommended automatically revoking the authorization for headers which remain unused for a period of 6 months or more. Additional characters should be allowed to be incorporated in the headers to",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

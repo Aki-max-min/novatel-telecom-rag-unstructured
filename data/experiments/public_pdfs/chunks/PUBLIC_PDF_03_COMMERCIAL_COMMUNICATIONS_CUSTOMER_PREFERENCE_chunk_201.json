@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_201",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 201,
+  "text": "the sender who is kept under Usage Cap to defend themselves. The Authority decides that if there are complaints against the sender from ten or more recipients over a period of seven days preceding the date of receiving complaint, the OAP should put the sender under Usage Cap and at the same time should initiate investigation. Such restrictions should be in place till investigation is complete or for thirty days from the date of effect of restrictions, whichever is earlier. ii. If complaints are not received from multiple recipients then before taking action, more checks should be done to find out whether sender has sent only few messages or made only few calls and can not reasonably be considred as UTM. In vieew of this the Authority decides that where number of complaints are from less than ten recipients, the OAP should, check from the previous thirty days data of CoP_UCC_Detect System whether suspected sender is involved in sending Commercial Communication in bulk or not (Definition of bulk may be by counting communications over a period of 24 hours, over a week and over a month). a. in case, answer is yes, the OAP should put sender under Usage Cap and at the same time initiate investigation. Such restrictions should be valid till investigation or thirty days from the date of effect of restrictions, whichever is earlier. b. in case, answer is no, OAP should warn such sender through appropriate means as provided for in CoPs and remove the usage",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

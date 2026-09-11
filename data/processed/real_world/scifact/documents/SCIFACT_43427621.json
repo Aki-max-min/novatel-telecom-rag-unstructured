@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_43427621",
+  "title": "Psychological treatment of malignant vasovagal syncope due to bloodphobia.",
+  "content": "A 17-year-old boy with frequent faints due to blood-injury phobia was studied. During cardiovascular reflex investigation in our syncope unit, 50 seconds of asystole were recorded. He was treated using systematic desensitization with muscular tension and cognitive techniques by the Pediatric Psychosocial Department and has not experienced syncopal events again.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

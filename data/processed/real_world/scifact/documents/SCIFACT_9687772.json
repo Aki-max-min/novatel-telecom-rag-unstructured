@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9687772",
+  "title": "XPG stabilizes TFIIH, allowing transactivation of nuclear receptors: implications for Cockayne syndrome in XP-G/CS patients.",
+  "content": "Mutations in the human XPG gene give rise to an inherited photosensitive disorder, xeroderma pigmentosum (XP) associated with Cockayne syndrome (XP-G/CS). The clinical features of CS in XP-G/CS patients are difficult to explain on the basis of a defect in nucleotide excision repair (NER). We found that XPG forms a stable complex with TFIIH, which is active in transcription and NER. Mutations in XPG found in XP-G/CS patient cells that prevent the association with TFIIH also resulted in the dissociation of CAK and XPD from the core TFIIH. As a consequence, the phosphorylation and transactivation of nuclear receptors were disturbed in XP-G/CS as well as xpg(-/-) MEF cells and could be restored by expression of wild-type XPG. These results provide an insight into the role of XPG in the stabilization of TFIIH and the regulation of gene expression and provide an explanation of some of the clinical features of XP-G/CS.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

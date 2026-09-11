@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20045514",
+  "title": "Spatial genome organization: contrasting views from chromosome conformation capture and fluorescence in situ hybridization.",
+  "content": "Although important for gene regulation, most studies of genome organization use either fluorescence in situ hybridization (FISH) or chromosome conformation capture (3C) methods. FISH directly visualizes the spatial relationship of sequences but is usually applied to a few loci at a time. The frequency at which sequences are ligated together by formaldehyde cross-linking can be measured genome-wide by 3C methods, with higher frequencies thought to reflect shorter distances. FISH and 3C should therefore give the same views of genome organization, but this has not been tested extensively. We investigated the murine HoxD locus with 3C carbon copy (5C) and FISH in different developmental and activity states and in the presence or absence of epigenetic regulators. We identified situations in which the two data sets are concordant but found other conditions under which chromatin topographies extrapolated from 5C or FISH data are not compatible. We suggest that products captured by 3C do not always reflect spatial proximity, with ligation occurring between sequences located hundreds of nanometers apart, influenced by nuclear environment and chromatin composition. We conclude that results obtained at high resolution with either 3C methods or FISH alone must be interpreted with caution and that views about genome organization should be validated by independent methods.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

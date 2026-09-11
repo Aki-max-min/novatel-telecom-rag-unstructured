@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14240343",
+  "title": "Small molecule modifiers of circadian clocks",
+  "content": "Circadian clocks orchestrate 24-h oscillations of essential physiological and behavioral processes in response to daily environmental changes. These clocks are remarkably precise under constant conditions yet highly responsive to resetting signals. With the molecular composition of the core oscillator largely established, recent research has increasingly focused on clock-modifying mechanisms/molecules. In particular, small molecule modifiers, intrinsic or extrinsic, are emerging as powerful tools for understanding basic clock biology as well as developing putative therapeutic agents for clock-associated diseases. In this review, we will focus on synthetic compounds capable of modifying the period, phase, or amplitude of circadian clocks, with particular emphasis on the mammalian clock. We will discuss the potential of exploiting these small molecule modifiers in both basic and translational research.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

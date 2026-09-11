@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C05_010_chunk_001",
+  "document_id": "FAQ_C05_010",
+  "chunk_index": 1,
+  "text": "need a replacement without losing their number or balance. **What happens:** Whether they visit a store with photo ID or complete video-KYC in the app, the number and remaining balance/plan carry over unchanged, and the replacement is typically issued instantly. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C05_overview. Topic: SIM Card Services",
+  "title": "How do I get a duplicate SIM if mine is lost or damaged?",
+  "document_type": "FAQ",
+  "category": "C05",
+  "department": "Customer Care",
+  "customer_scope": "postpaid",
+  "version": "1.0",
+  "last_updated": "2026-06-15",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C05_overview"
+  ],
+  "tags": [
+    "sim",
+    "c05"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C05_010.json",
+  "file_type": "json"
+}

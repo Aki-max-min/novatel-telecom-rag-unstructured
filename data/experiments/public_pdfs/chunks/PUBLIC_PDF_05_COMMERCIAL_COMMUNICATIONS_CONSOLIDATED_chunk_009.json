@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_009",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 9,
+  "text": "having performed a particular action; (ii) ensuring the availability of evidence that can be presented to Authority and used to prove that some kind of event or action has taken place; “One Time Password or OTP” means an automatically generated random number used to authenticate the action of user for a single transaction or session. “Originating Access Provider” (OAP) means the Access Provider who has provided the telecom resources to a sender; 7 “Permissioned DLT networks” means those DLT networks where participants in the process are preselected and addition of new record on the ledger is checked by a limited consensus process using a digital signature; “Preference of Category of Commercial Communication” means preference exercised by the customer to permit only a selected category of commercial communications out of available choices prescribed by relevant regulations; “Preference of Mode for Commercial Communication” means preference exercised by the customer to permit commercial communications only through the selected mode of communications from the choices for modes made available in the relevant regulations or code(s) of practice; “Preference of Time band and Day type for Commercial Communication” means preference exercised by the customer to permit unsolicited commercial communications only during time slots and type of days out of choices for time band(s) and types of day(s) made available in the relevant regulations; “Preference Register” means a Distributed Ledger for Preference (DL-Preference) which keeps records of preference(s) of customers about category of content, mode(s) of communication, time band(s), type of day(s) along with the details",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

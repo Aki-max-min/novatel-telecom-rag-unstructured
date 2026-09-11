@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_021",
+  "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+  "chunk_index": 21,
+  "text": "of the reporting period observed during CBBH is to be mentioned in decimal (upto two decimal places). Further CBBH of each cell of each day of the reporting period is to be mentioned in sheet ‘CBBH’ in 24 Hours format. vi. DCR and PDR values will be in % ranging from 0 to 100 (upto two decimal places). However, there is no need to place % sign against each DCR/ PDR value. vii. Apart from decimal DCR/ PDR value, only following applicable codes, as prescribed in the regulation, can be filled: DNE, NOP, NAV and NDM. No other value should be filled in DCR/ PDR cells. viii. In sheets ‘Call_established’, total number of cells successfully established in each cell during CBBH of each day of the reporting period is to be provided. D. Specific guideline for submission of Significant network outage report: i. Incidences of significant network outages (services not available in a district for more than 4 hours) are to be reported to the Authority in Annexure-II within 24 hours of their occurrence. ii. While submitting the report only Part-I of Annexure-II is to be submitted. iii. Action taken report including root cause of such significant network outage and corrective actions taken thereof are to be reported to the Authority in Annexure-II, within 72 hours of restoration of the services. Part-I of Annexure-II should be same as reported earlier and details of action taken are to be filled in Part-II. iv. All other guidelines as mentioned for Access (wireless)",
+  "title": "10 qos submission reports direction",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/10_qos_submission_reports_direction.pdf",
+  "file_type": "pdf"
+}

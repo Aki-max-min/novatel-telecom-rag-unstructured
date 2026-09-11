@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_100",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 100,
+  "text": "the email and phone numbers of telemarketers should be authenticated through one-time password (OTP). ii. Some stakeholders suggested that that telemarketer should declare the origination of calls/SMS by sharing latitude-longitude context Geo-tagging. One of them added that specific app like \"authenticator\" from Hotmail / google can be used. During OHD, one of the solution providers suggested that Block chain technology can be used to make the entities traceable. 3.2.2 Registration of Intermediaries, Principal Entities and their agreements: i. Almost all stakeholders supported the idea of registration of principal entities and TMSEs. Some supported that registration of aggregators should also be done. ii. A few stakeholders were of the view that registering new entities will not bring in additional effectiveness. They were of the view that it could in fact be counterproductive, since having too many registered entities in the chain will lead to as many disputes. They were also of the opinion that this would make it more difficult, rather than less, to establish accountability. However, stakeholders were divided on this issue and some were in favour of registration of content providers and other entities while others were opposed to it. Stakeholders in favour of registration argued that doing so will improve traceability and accountability. iii. Majority of stakeholders supported having standard agreements for principal entities, intermediaries and content providers or senders. One stakeholder mentioned that while Telemarketers are responsible for all the telemarketing activities initiated by them, they should ensure that other entities with whom they are in a",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

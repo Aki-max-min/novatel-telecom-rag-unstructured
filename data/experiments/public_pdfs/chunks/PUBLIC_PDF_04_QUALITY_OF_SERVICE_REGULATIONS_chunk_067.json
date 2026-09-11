@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_067",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 67,
+  "text": "TCBH. (v) The IPDV (jitter) shall be calculated as mean deviation based on the samples collected for the delay measurement as per the setup used for measurement of latency as per ITU-T Recommendation G.1051. 5.5. Messaging: Successful SMS delivery within service provider's network (i) This QoS parameter with benchmark specifies that successful SMS delivery should be completed in the service provider’s network. (ii) This performance against the benchmark shall be calculated through the following formula. % of successfully delivered SMS = 𝐍𝐨. 𝐨𝐟 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐚𝐧𝐝 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐝𝐞𝐥𝐢𝐯𝐞𝐫𝐞𝐝 𝐒𝐌𝐒 𝐢𝐧 𝐬𝐞𝐫𝐯𝐢𝐜𝐞 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐫′𝐬 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐒𝐌𝐒 𝐠𝐞𝐧𝐞𝐫𝐚𝐭𝐞𝐝 𝐰𝐢𝐭𝐡𝐢𝐧 𝐬𝐞𝐫𝐯𝐢𝐜𝐞 𝐩𝐫𝐨𝐯𝐢𝐝𝐞𝐫’𝐬 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐱𝟏𝟎𝟎 Note: The SMS delivery failure due to subscriber handset’s memory full, subscriber unreachable and handset switched off shall not be considered as SMS delivery failure for the purpose of above calculation. 5.6. Drive Tests by the Service Provider (i) The service providers are expected to conduct drive tests on a regular and on-going basis to address the network issues and subscriber complaints. (ii) The physical drive tests are commonly used to capture (a) network performance (b) actual user experience or for addressing network issues. However, the availability of large compute power and storage at affordable cost has enabled evolution of analytics models which may be used to predict user experience based on network log, spatial network data analytics and correlation. The prediction of network performance and user experience through network logs and data analytics are sometime referred as ‘virtual drive test’ by the service providers. (iii) The main",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

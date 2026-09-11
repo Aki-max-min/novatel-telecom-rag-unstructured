@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_049",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 49,
+  "text": "subscribers decreased from 30.34 million at the end of Mar-24 to 24.98 million at the end of Mar- 25 with yearly rate of decline of 17.66%. * Internet: Interconnected global networks that use the internet protocol. † Broadband: Broadband is a data connection that is able to support interactive services including Internet access and has the capability of the minimum download speed of 2 Mbps to an individual subscriber from the point of presence (POP) of the service provider intending to provide Broadband service. (Source – DoT) 57 Table 1.37: Trend of Internet subscriber base Segment Mode of Access Total Subscribers (in million) Wired Subscribers (in million) Wireless Subscribers (in million) Fixed Wireless (FWA-5G, Wi- Fi, Wi-Max, Radio, Satellite) Mobile Wireless (Handset/Don gle based) Total Wireless Mar-24 Mar-25 Mar-24 Mar-25 Mar-24 Mar-25 Mar-24 Mar-25 Mar-24 Mar-25 Broadband 40.06 41.39 0.79 4.89 883.22 897.84 884.01 902.74 924.07 944.12 Narrowband 0.22 0.02 0.003 0.002 30.12 24.96 30.12 24.96 30.34 24.98 Total 40.27 41.41 0.79 4.90 913.34 922.80 914.13 927.70 954.40 969.10 Note: This report is prepared considering the last reported (Nov-2024) internet subscription data submitted by M/s RJIL and M/s Bharti Airtel Ltd., as the requisite internet subscription data for Dec-24, Jan-25, Feb-25 and Mar-25 is not submitted by TSPs, in the prescribed report format. 54. The following charts present the composition of Internet Subscribers by mode of access and composition of Broadband & Narrowband subscription. Chart 1.16: Composition of Internet subscription as on 31st March, 2025 4.27% 0.51% 95.22% Wired Fixed",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

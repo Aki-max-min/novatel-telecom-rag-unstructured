@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_35777860",
+  "title": "Generation of induced pluripotent stem cells from Asian patients with chronic neurodegenerative diseases.",
+  "content": "Induced pluripotent stem (iPS) cells derived from disease patients are an invaluable resource for biomedical research and may provide a source for replacement therapies. In this study, we have generated iPS cells from Asian patients with chronic degenerative diseases of the nervous system, including spinal muscular atrophy (SMA), Parkinson disease (PD) and amyotrophic lateral sclerosis (ALS) by transduction with four factors (KLF4, SOX2, OCT4 and c-MYC). All of the iPS cells showed pluripotency similar to that of human embryonic stem cells (hESCs) and were able to differentiate into various somatic cell types in vitro and in vivo. Furthermore, the iPS cells also can be committed to differentiate into neural cells, the cell type that is affected in chronic degenerative diseases. Therefore, the patient-specific iPS cells we generated offer a cellular model in which to investigate disease mechanisms, discover and test novel drugs and develop new therapies for chronic neurodegenerative diseases.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

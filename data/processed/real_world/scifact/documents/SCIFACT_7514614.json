@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7514614",
+  "title": "Understanding the Odd Science of Aging",
+  "content": "Evolutionary considerations suggest aging is caused not by active gene programming but by evolved limitations in somatic maintenance, resulting in a build-up of damage. Ecological factors such as hazard rates and food availability influence the trade-offs between investing in growth, reproduction, and somatic survival, explaining why species evolved different life spans and why aging rate can sometimes be altered, for example, by dietary restriction. To understand the cell and molecular basis of aging is to unravel the multiplicity of mechanisms causing damage to accumulate and the complex array of systems working to keep damage at bay.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

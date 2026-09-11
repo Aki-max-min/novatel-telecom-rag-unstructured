@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_044",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 44,
+  "text": "mobile number to its Number Range Holder.] (5) In case, after porting of a mobile number to the Recipient Operator’s network, there is disconnection of the mobile number for any reason other than the reason specified in sub-regulation (4), the Recipient Operator shall, after 1[sixty days] of such disconnection, inform the Mobile Number Portability Service provider about such disconnection with a request for reversal of such mobile number to the Number Range Holder. 16. Rights and obligations of Mobile Number Portability Service provider. — (1) The Mobile Number Portability Service provider shall make all efforts to facilitate expeditious porting of mobile numbers through effective coordination with the Donor Operator and the Recipient Operator. (2) The Mobile Number Portability Service provider shall use the Number Portability Database only for the purpose of porting2[, allocating and verifying the unique porting code] and dipping and not for any other purpose. (3) The Mobile Number Portability Service provider shall generate specific sets of statistics regarding the number of porting requests received, the number of portings carried out successfully and the number of failed porting requests with reasons for failures. 3[(3)(a) The Mobile Number Portability Service provider shall generate reports regarding the number of requests received for unique porting code from the mobile subscribers, the number of unique porting code successfully allocated and the number of requests where no response or delayed response was received from the Donor Operator or any other reports required by the Authority from time to time.] (4) Upon receipt of",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_091",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 91,
+  "text": "to investment in securities market. Access Providers to • make necessary arrangements to filter and block particular type of SMSs using Signature solution • ensure before sending any SMS relating to investment advice or tip verify that the message is sent in accordance to the SEBI’s requirements 2 Key issues and concerns raised for seeking inputs 2.1 Issues and Concerns with the current regulatory framework 2.1.1 Despite taking various measures, UCC related complaints are on the rise and the problem is not fully under control. Provisions of blacklisting and introducing signature solutions in the network helped initially. Introduction of DND Mobile App by TRAI is a very convenient way for the customers to report about UCC complaints. More than 2 million complaints have been received so far and recent average of complaints is approximately 40 thousands per month. Since introduction of provisions for disconnecting telecom resources, approximately 1.4 million numbers have been disconnected while during February 2018, about 14 thousand numbers were disconnected. About 460 thousand numbers have been blacklisted so far. Despite disconnecting more than a million telephone numbers, UCC is not fully under control. 55 Figure 1: UCC Complaints over last few years Figure 2: Disconnection of Telecom resources for sending UCC 2.1.2 Various problem areas which are related to effectiveness and efficiency of the current regulatory framework have either been observed or came into notice are: i. The existing system takes about 24 hours to register preferences and requires up to seven days to enforce the revised",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

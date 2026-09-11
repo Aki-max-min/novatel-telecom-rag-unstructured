@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_032",
+  "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+  "chunk_index": 32,
+  "text": "SMS confirming the receipt of his request for deactivation of STV; Step – 7: in case any key is not pressed for 10 seconds in step-4, the consumer shall be given an option to “press 0 to repeat or press 9 to connect to a call-center agent”; Step – 8: on pressing ‘9’ in step-7, the call shall be transferred to a call centre agent who shall take the request of the consumer for deactivation of STV and shall inform the consumer that the STV shall be deactivated on the expiry of its validity period and he shall receive an SMS or e-mail confirming the receipt of his request for deactivation of STV; (b) Through SMS: Step – 1: On receipt of an SMS on short code from the consumer to deactivate a particular STV, the consumer is provided through SMS, a list of STVs activated on his mobile number and 19 corresponding keys for deactivation of different STVs and he is asked to send through SMS the particular key of the STV which he wants to deactivate; Step – 2: in case of receipt of an incorrect response from the consumer, an SMS shall be sent to the consumer giving him again the list of STVs activated on his mobile number and he shall be asked to select the STV; which he wants to deactivate by sending through SMS the appropriate key for that STV; Step – 3: on receipt of the key through SMS as in Step-1 or",
+  "title": "01 telecom consumers protection",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/01_telecom_consumers_protection.pdf",
+  "file_type": "pdf"
+}

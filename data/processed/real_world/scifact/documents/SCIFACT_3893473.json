@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_3893473",
+  "title": "TAL effectors are remote controls for gene activation.",
+  "content": "TAL (transcription activator-like) effectors constitute a novel class of DNA-binding proteins with predictable specificity. They are employed by Gram-negative plant-pathogenic bacteria of the genus Xanthomonas which translocate a cocktail of different effector proteins via a type III secretion system (T3SS) into plant cells where they serve as virulence determinants. Inside the plant cell, TALs localize to the nucleus, bind to target promoters, and induce expression of plant genes. DNA-binding specificity of TALs is determined by a central domain of tandem repeats. Each repeat confers recognition of one base pair (bp) in the DNA. Rearrangement of repeat modules allows design of proteins with desired DNA-binding specificities. Here, we summarize how TAL specificity is encoded, first structural data and first data on site-specific TAL nucleases.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

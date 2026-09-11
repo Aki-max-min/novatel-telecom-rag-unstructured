@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13235609",
+  "title": "VEGF inhibits tumor cell invasion and mesenchymal transition through a MET/VEGFR2 complex.",
+  "content": "Inhibition of VEGF signaling leads to a proinvasive phenotype in mouse models of glioblastoma multiforme (GBM) and in a subset of GBM patients treated with bevacizumab. Here, we demonstrate that vascular endothelial growth factor (VEGF) directly and negatively regulates tumor cell invasion through enhanced recruitment of the protein tyrosine phosphatase 1B (PTP1B) to a MET/VEGFR2 heterocomplex, thereby suppressing HGF-dependent MET phosphorylation and tumor cell migration. Consequently, VEGF blockade restores and increases MET activity in GBM cells in a hypoxia-independent manner, while inducing a program reminiscent of epithelial-to-mesenchymal transition highlighted by a T-cadherin to N-cadherin switch and enhanced mesenchymal features. Inhibition of MET in GBM mouse models blocks mesenchymal transition and invasion provoked by VEGF ablation, resulting in substantial survival benefit.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

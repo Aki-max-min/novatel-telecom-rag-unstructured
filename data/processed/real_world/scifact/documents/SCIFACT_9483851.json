@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9483851",
+  "title": "Unravelling mechanisms of p53-mediated tumour suppression",
+  "content": "p53 is a crucial tumour suppressor that responds to diverse stress signals by orchestrating specific cellular responses, including transient cell cycle arrest, cellular senescence and apoptosis, which are all processes associated with tumour suppression. However, recent studies have challenged the relative importance of these canonical cellular responses for p53-mediated tumour suppression and have highlighted roles for p53 in modulating other cellular processes, including metabolism, stem cell maintenance, invasion and metastasis, as well as communication within the tumour microenvironment. In this Opinion article, we discuss the roles of classical p53 functions, as well as emerging p53-regulated processes, in tumour suppression.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24746892",
+  "title": "Killing by bactericidal antibiotics does not depend on reactive oxygen species.",
+  "content": "Bactericidal antibiotics kill by modulating their respective targets. This traditional view has been challenged by studies that propose an alternative, unified mechanism of killing, whereby toxic reactive oxygen species (ROS) are produced in the presence of antibiotics. We found no correlation between an individual cell's probability of survival in the presence of antibiotic and its level of ROS. An ROS quencher, thiourea, protected cells from antibiotics present at low concentrations, but the effect was observed under anaerobic conditions as well. There was essentially no difference in survival of bacteria treated with various antibiotics under aerobic or anaerobic conditions. This suggests that ROS do not play a role in killing of bacterial pathogens by antibiotics.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

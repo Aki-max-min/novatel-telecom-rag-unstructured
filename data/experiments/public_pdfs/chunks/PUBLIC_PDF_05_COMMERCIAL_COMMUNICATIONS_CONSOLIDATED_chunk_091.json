@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_091",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 91,
+  "text": "taken by particular entity; Flow Charts to provide details about the process between two entities and action taken; 50 Schedule-IV Action Items for preparing Code of Practice for Unsolicited Commercial Communications Detection (CoP-UCC_Detect) 1. Every Access Provider shall establish, maintain and operate following system, functions and processes to detect sender(s) who are sending Unsolicited Commercial Communications in bulk and not complying with the regulation(s), and act to curb such activities: - System which have intelligence at least following functionalities: - identifying sender(s) on basis of signature(s); deploying honeypot(s) and using information collected by it; evolving signature(s) by learning over time; real-time sharing of UCC_Detect data and insights with other Access Providers over DLT, or as specified by the Authority, thereby, fostering industry-wide collaboration to enhance collective ability of the industry to detect, curb and prevent UCC; considering inputs available from DL-Complaints about complaints and reports and analyze them; considering inputs available, if any, from any other network element(s) of the access provider system(s); Identifying Senders based on the following signals or triggers parameters and treat such Senders as suspected UTMs:- (i) any Sender exceeding prescribed threshold number of calls, shall be observed for any of the following signals or triggers parameters as specified by the Authority from time to time:- (a) Call Recipient diversity (diversity in B-numbers) exceeding the prescribed threshold in a day; Explanation: Diversity in B-numbers here refers to the distinct or unique call Recipients (called party numbers) associated with the outgoing calls of the Sender; (b) average",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

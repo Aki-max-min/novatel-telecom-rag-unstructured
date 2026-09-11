@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_203",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 203,
+  "text": "sender within two business days after the date of receipt of the first complaint, against which the sender is to be warned. b. for second instance of violation, Usage Cap should continue for a period of six months. Second instance of the violation should include all the complaints against the sender after the issuance of first warning within two business days after the date of receipt of the complaint against which second warning is being given to the sender. c. for third and subsequent instances of violations, all telecom resources of the sender shall be disconnected for a period up to two years. 5.3.12 Review of structure of financial disincentive for access providers: At present, access providers are subject to financial disincentive if UCC complaints are found to have originated from their network. Financial disincentive for UCC complaint are being imposed on weekly basis and the provision of financial disincentive is applied even when UCC complaints are handled within given time frame and expected action is taken against UTM or RTM. At the time of amendment of the regulation for this provision, it was felt that Access Providers are responsible for carrying out due checks and verification of the customers and if bulk connections are being taken by customers and being misused then Access Providers are not discharging their due responsibilities. TSPs have represented, from time to time, against applying financial disincentives on counts of UCC complaints including even those UCC 97 complaints on which they have taken timely action.",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

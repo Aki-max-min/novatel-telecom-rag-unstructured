@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_196",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 196,
+  "text": "record the complaint and notify, in real time, the details of the complaint to the concerned OAP. TAP should verify within one business day, whether the alleged communication actually occurred between the complainant and the reported telephone number or header and update the findings on distributed ledger. TAP should also verify that date of receipt of complaint is within three days of receiving commercial communication and in case complaint is reported by the customer after three days, communicate to the customer about the closure of his complaint in accordance with the Code of Practice for Complaint Handling and change status of complaint to “report” instead of complaint. Business are usually closed on Saturdays, Sundays and Gazette holidays declared by Central Government and time required to act against UCC complaints may need to consider this. In view of this definition of “Business Day” was changed to any day other than a Saturday, Sunday or Gazette holidays declared by Centeral Government. 5.3.7 Issues with a single stage investigation process: The severity of punishments which are prescribed for offenders, is another reason investigation takes time. Currently, if a complaint against a UTM is found to be valid it leads to disconnection of all telecom resources belonging to that entity. Moreover, such person or entity is also blacklisted and cannot take resources from any of the access provider for a period of two years. In case of RTMs for the first five violations, the action is deduction from security deposits, and deductions increase for",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_088",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 88,
+  "text": "total complaints. The Authority has also simplified the measurement criteria for different QoS parameters to bring transparency and uniformity in the QoS performance measurement and reporting across service providers. Further, to bring transparency in QoS performance reporting, the service providers have been mandated to publish QoS performance, against prescribed parameters, on their website. (iii) Rationalization of QoS parameters- While finalizing the regulations, the need for each QoS parameter has been examined holistically inter-alia considering their impact on user experienced QoS, their relevance in present context and current level of performance, wherever applicable, as against global benchmarks. Accordingly, the Authority has dropped or merged five and eight parameters in the case of wireline and wireless services respectively. Further, six QoS parameters, to be monitored by the service providers and reported to the Authority, have been kept out of financial disincentives. (iv) Objective criteria for assessment of QoS performance- To ensure transparency in QoS performance measurement and ease of compliance, the Authority has provided detailed measurement methodology in the Schedule-I of the regulation. The objective measurement criteria will facilitate automation of QoS performance measurement which will ease the burden of compliance monitoring and reporting, on service providers. (v) Graded Financial Disincentive (FD) with maximum capping to encourage improvement in QoS- Present three regulations have different provisions for financial disincentives and some of them are graded. To encourage the service providers for continuous improvement in QoS, even after any default, the Authority has introduced graded application of FD for all service authorizations. The",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_063",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 63,
+  "text": "app. 5. Measurement Methodology for QoS Parameters under Regulation 7.- Access Service (Wireless) 5.1. Maximum Bandwidth utilization between radio and core network during TCBH (i) While radio level network congestion is reflected in different eNodeB/ gNodeB performance matrices like drop call rate or DCR, uplink packet drop rate or downlink packet drop rate, the fronthaul and backhaul segments also affects the voice and broadband performance including call muting, latency, packet drop rate etc. The high level network segments are depicted in Figure 3. (ii) The performance of segment-1 is already captured under call setup success rate, DCR Spatial distribution, UL/DL packet drop rate etc, the performance of segment-2 is to be measured under this parameter during TCBH. Service providers shall record the maximum bandwidth utilization in segment-2 of LSA network during TCBH for each eNodeB/gNodeB in the network. (iii) The service provider shall record the maximum bandwidth utilization of all the RAN to Core network link on any consecutive 4 days of the assessment period during TCBH. The highest bandwidth utilization, recorded during any of four days of each link shall be arranged in an ascending order. The 80th percentile value of such arranged observations shall be considered the performance against the benchmark specified in the regulation. In case there is any aggregation point between Radio and Core Network, the bandwidth utilization for such link shall be measured. 120 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] Figure-3-High level network segments in 4G/5G network 5.2. SDCCH Congestion/ RRC Congestion and Traffic",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

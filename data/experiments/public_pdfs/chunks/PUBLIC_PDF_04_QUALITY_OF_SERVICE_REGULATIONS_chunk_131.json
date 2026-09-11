@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_131",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 131,
+  "text": "5.3.1 Availability of service wise geospatial coverage map on service provider’s website for percentage of working cells (a) Input of Stakeholders (i) Multiple stakeholders submitted that this parameter should be removed. In case it is retained, there should be no benchmark and assessment period should be left to the discretion of TSPs. The stakeholders also highlighted that challenges in maintaining accurate geospatial service coverage maps include the complexity of ensuring 100% accuracy, operational difficulties in updating maps within strict timeframes, potential misinterpretation of coverage information, slow loading times for large maps, and discrepancies between map data and actual network status. As per them, given these challenges, mandating such maps on service providers' websites as part of QoS mandates may not be feasible. (ii) Two stakeholders submitted that this parameter is already part of NIA, 2022 issued by DoT. Relevant extract of NIA, 2022 is as follows: “To keep the customers informed about 5G roll out, the TSPs shall publish the network deployment map on their website depicting the areas where the services have been launched using 3300 MHz & 26 GHz bands.” They further submitted that it would not be right if the same topic is regulated by both Licensor and TRAI. (iii) Few stakeholders submitted that Tarang Sanchar portal has details of all the sites of the service providers which can be accessed by the individuals for locating sites in any area. (iv) Some stakeholders said that the decision to share such specific and salient data should be left",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_124",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 124,
+  "text": "required to use registered content templates. Further specific details to control UCC in such scenarios would be part of codes of practices formulated by access providers. Codes of Practice would be required to be updated with processes which are more refined considering the complaints and reports received in this regard. Co-regulation approach and provision for Codes of Practices would make UCC eco system to constantly evolve to handle real life scenarios. Figure 10: Illustration of Use of Templates in case of Explicit and Inferred consent 3.3.15 Types of Commercial Communications: Commercial Communications related to transactions may be divided into two types: one, directly related to the transaction where the communication must be immediate or within a short span of time; and the other, related to longer relationship for that transaction. For example, when a person purchases a product or services, a communication may be required to confirm the payment transactions or acknowledge subscription of service, while any follow up message related to expiry of warranty, recall of the product, software version upgrade, etc. may be sent long after it was procured. First category of communications may be delivered within thirty minutes of the transaction and may be referred to as transactional messages or calls while second type of category of communications may be referred to as the service messages or service call. Further specific details would be incorporated by the access providers while formulating codes of practice. Commercial communications related to promotions may also be divided on basis of category",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

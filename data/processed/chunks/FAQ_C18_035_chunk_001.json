@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C18_035_chunk_001",
+  "document_id": "FAQ_C18_035",
+  "chunk_index": 1,
+  "text": "SIM stopped working unexpectedly and suspects a fraudulent swap. **What happens:** Calling the 24x7 fraud helpline first blocks the SIM immediately, after which reissuing a verified replacement in-store and alerting their bank (if the number is linked to banking OTPs) are the following steps. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C18_overview. Topic: Security & Fraud",
+  "title": "I think my SIM was swapped fraudulently — what should I do immediately?",
+  "document_type": "FAQ",
+  "category": "C18",
+  "department": "Security",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-17",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C18_overview"
+  ],
+  "tags": [
+    "security",
+    "c18"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C18_035.json",
+  "file_type": "json"
+}

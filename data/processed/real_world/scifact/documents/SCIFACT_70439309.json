@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_70439309",
+  "title": "Cost-effectiveness in health and medicine",
+  "content": "1. Cost-Effectiveness Analysis as a Guide to Resource Allocation in Health: Roles and Limitations 2. Theoretical Foundations of Cost-Effectiveness Analysis 3. Framing and Designing the Cost-Effectiveness Analysis 4. Identifying and Valuing Outcomes 5. Assessing the Effectiveness of Health Interventions 6. Estimating Costs in Cost-Effectiveness Analysis 7. Time Preference 8. Reflecting Uncertainty in Cost-Effectiveness Analysis 9. Reporting Cost-Effectiveness Studies and Results Appendix A: Summary of Recommendations for the Reference Case Appendix B: Cost-Effectiveness of Strategies to Prevent Neural Tube Defects Appendix C: The Cost-Effectiveness of Dietary and Pharmacologic Therapy for Cholesterol Reduction in Adults",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

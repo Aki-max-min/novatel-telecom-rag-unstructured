@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_95102458",
+  "title": "Process analysis and economic evaluation for Poly(3-hydroxybutyrate) production by fermentation",
+  "content": "Abstract Several processes for the production and recovery of poly(3-hydroxybutyrate) (PHB) by Alcaligenes eutrophus, Alcaligenes latus, Methylobacterium organophilum, and recombinant Escherichia coli were designed based on the previously reported data and analyzed by computer-aided bioprocess design. PHB productivity, content, and yield significantly affected the final price of PHB. For the annual production of 2,850 tonnes of purified PHB, the process employing A. eutrophus with the recovery method of surfactant-hypochlorite digestion resulted in lowest price of PHB, $ 5.58/kg. As the production scale increased to one million tonnes per year, the price of PHB dropped to $ 4.75/kg. The cost of carbon substrate significantly affected the overall economics in large production scale. Therefore, the production cost can be considerably lowered when agricultural wastes, such as whey and molasses, are used.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

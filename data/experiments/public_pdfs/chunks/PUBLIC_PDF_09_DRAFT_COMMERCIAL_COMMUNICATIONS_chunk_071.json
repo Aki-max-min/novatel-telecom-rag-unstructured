@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_071",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 71,
+  "text": "as and when came to notice for the access provider, or as provided for in the regulations for the registered sender(s) with the access providers, on basis of following criteria: - (a) Ratio of Abandon Calls to total attempted calls for a registered entity exceeding 3% over a period of 24 Hours by an entity using Auto Dialer for Commercial Communications calls; (b) Ratio of Silent Calls to total attempted calls for a registered entity exceeding 1% over a period of 24 hour by an entity using Auto Dialer for Commercial Communications Calls; (c) Entity(ies) found to be using telephone number harvesting software for sending Unsolicited Commercial Communications are barred to use their network; 53 Schedule-V Action Items for preparing Code of Practice for Periodic Monthly Reporting (CoP-PMR) 1. Maintaining records of complaints on daily basis for each service area: - (a) total number of complaints received on each day, from its customers as Terminating Access Provider, in each service area, against any registered sender; (a) total number of complaints transferred on each day, to Originating Access Provider(s) including itself, in each service area, against any registered sender; (b) total number of complaints to be resolved as an Originating Access Provider, according to the date of receipt of complaints; (c) total number of complaints rejected on account of insufficient details for further examination, according to the date of receipt of complaint; (d) total number of complaints to be resolved as an Originating Access Provider, according to the date of occurrence",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

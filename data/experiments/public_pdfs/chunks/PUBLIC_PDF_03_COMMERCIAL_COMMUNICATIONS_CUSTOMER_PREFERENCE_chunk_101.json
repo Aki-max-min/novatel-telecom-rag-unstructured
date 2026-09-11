@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_101",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 101,
+  "text": "having standard agreements for principal entities, intermediaries and content providers or senders. One stakeholder mentioned that while Telemarketers are responsible for all the telemarketing activities initiated by them, they should ensure that other entities with whom they are in a business relationship enter into standardized agreements and they should also be responsible for the consequences of non- compliance and standardized agreements will enable it. Few rejected registrations and standard agreements for currently unregistered players on the grounds that performances would be impractical. iv. Stakeholders also recommended incorporating the RTM’s license number in an encoded form, at every step of the process. 3.2.3 Registers and Registrars for different purposes e.g. assigning headers, recording consents, registering 59 consent/ content templates and execution of agreements: i. Responses from stakeholders on the issue of header registration were mixed. Some stakeholders supported the idea of header registration with a central registry whereas some opposed it in favour of the current process of TSPs assigning header to the RTMs and TMSEs. In the current process, the RTMs and TMSEs are required to maintain the records related to header assignment. ii. One stakeholder added that a number of commercial communication messages are being observed to have promotional content under transactional headers. This can be curtailed by mandating the TMSEs to deploy anti-spam systems in their platform to identify and block messages basis keyword/ phrases etc. iii. Regarding the establishment of Consent Registrar and recording consent in a verifiable, immutable and non-repudiable manner, many stakeholders supported the idea",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

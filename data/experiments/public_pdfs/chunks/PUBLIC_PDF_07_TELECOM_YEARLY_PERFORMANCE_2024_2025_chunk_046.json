@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_046",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 46,
+  "text": "0.94 0.08 3.32 11 Karnataka 5.37 0.60 11.10 12 Kerala 4.81 8.42 3.89 13 Madhya Pradesh 1.87 0.11 6.13 14 Maharashtra Incl. Mumbai 4.12 0.19 8.18 15 Manipur 2.04 0.94 4.28 16 Meghalaya 1.96 0.36 8.08 17 Mizoram 3.18 0.09 5.65 18 Nagaland 1.52 0.76 2.32 19 Odisha 1.22 0.17 5.64 20 Punjab 5.25 1.91 9.75 21 Rajasthan 1.38 0.11 4.81 22 Sikkim 0.88 0.32 1.37 23 Tamil Nadu 3.96 0.61 6.75 24 Telengana 3.98 0.51 7.52 25 Tripura 1.14 0.29 2.34 26 Uttar Pradesh (UPE + UPW) 0.92 0.07 3.59 27 Uttarakhand 3.05 0.56 7.31 28 West Bengal incl. Kolkata 1.61 0.18 3.99 Union Territories 1 Andaman & Nicobar Islands 9.54 9.07 10.10 2 Chandigarh 9.97 - - 3 Dadra and Nagar Haveli and Daman and Diu 0.60 0.66 0.59 4 Delhi 19.20 0.01 19.25 5 Jammu & Kashmir 2.97 0.24 9.02 6 Ladakh 1.24 0.48 2.85 7 Lakshdweep 11.26 - - 8 Puduchery 3.41 2.84 3.64 Total 2.62 0.39 6.62 54 Public Call Offices (PCO) 45. Total number of PCOs in the country decreased from 0.21 lakh at the end of Mar-24 to 0.10 lakh at the end of Mar-25 with yearly declining rate of 50.68%. Detailed table of service provider wise PCOs is available at Annexure -1.3. Table 1.36: Rate of change & Market share of PCOs Service Provider Mar-24 Mar-25 Rate of change Market share (Mar-25) BSNL 15,411 7,394 -52.02% 72.60% MTNL 4,957 2,566 -48.23% 25.19% Quadrant 284 225 -20.77% 2.21% Total 20,652 10,185 -50.68% 100%",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C07_roaming_activation_chunk_001",
+  "document_id": "KB_C07_roaming_activation",
+  "chunk_index": 1,
+  "text": "standard fix | Issue resolved / status updated | Proceed to next step or escalate | | 4 | Confirm resolution with the customer | Issue resolved / status updated | Proceed to next step or escalate | 1. **Confirm the reported issue.** Ask the customer for the exact screen/message and time it occurred. 2. **Check system status.** Verify the relevant backend status (billing, provisioning, network, payment) for the account. 3. **Apply the standard fix.** Retry the action, refresh the record, or trigger the relevant backend re-sync as documented for this scenario. 4. **Confirm resolution with the customer.** Ask the customer to verify the fix on their end before closing. ## Validation Confirm the account reflects the expected state (e.g. correct balance, plan, status, or setting) before closing the interaction. ## Exceptions - Cases linked to suspected fraud are routed to the Fraud & Security Response team instead of standard resolution. - Enterprise/bulk accounts may require coordination with the assigned account manager rather than the standard consumer flow. ## Escalation Criteria - If the standard steps above do not resolve the issue, escalate with reference to: FAQ_C07_001. - Escalations beyond first-line resolution are logged with a unique ticket reference and routed to the relevant specialist team, with an SLA acknowledgement sent to the customer within 24 hours. ## Related Issues - Repeated occurrences for the same customer may indicate an upstream system issue and should be flagged to the relevant platform team. ## Related Documents Related documents: FAQ_C07_001.",
+  "title": "Activating and Managing International Roaming",
+  "document_type": "KB Article",
+  "category": "C07",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-09",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C07_001"
+  ],
+  "tags": [
+    "c07",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C07_roaming_activation.md",
+  "file_type": "markdown"
+}

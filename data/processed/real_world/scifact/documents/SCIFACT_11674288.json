@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11674288",
+  "title": "Cell type of origin influences the molecular and functional properties of mouse induced pluripotent stem cells",
+  "content": "Induced pluripotent stem cells (iPSCs) have been derived from various somatic cell populations through ectopic expression of defined factors. It remains unclear whether iPSCs generated from different cell types are molecularly and functionally similar. Here we show that iPSCs obtained from mouse fibroblasts, hematopoietic and myogenic cells exhibit distinct transcriptional and epigenetic patterns. Moreover, we demonstrate that cellular origin influences the in vitro differentiation potentials of iPSCs into embryoid bodies and different hematopoietic cell types. Notably, continuous passaging of iPSCs largely attenuates these differences. Our results suggest that early-passage iPSCs retain a transient epigenetic memory of their somatic cells of origin, which manifests as differential gene expression and altered differentiation capacity. These observations may influence ongoing attempts to use iPSCs for disease modeling and could also be exploited in potential therapeutic applications to enhance differentiation into desired cell lineages.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

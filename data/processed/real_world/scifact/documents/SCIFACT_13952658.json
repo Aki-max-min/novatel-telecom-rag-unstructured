@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13952658",
+  "title": "Immune cell promotion of metastasis",
+  "content": "Metastatic disease is the major cause of death from cancer, and immunotherapy and chemotherapy have had limited success in reversing its progression. Data from mouse models suggest that the recruitment of immunosuppressive cells to tumours protects metastatic cancer cells from surveillance by killer cells, which nullifies the effects of immunotherapy and thus establishes metastasis. Furthermore, in most cases, tumour-infiltrating immune cells differentiate into cells that promote each step of the metastatic cascade and thus are novel targets for therapy. In this Review, we describe how tumour-infiltrating immune cells contribute to the metastatic cascade and we discuss potential therapeutic strategies to target these cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

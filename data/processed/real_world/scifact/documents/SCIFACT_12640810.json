@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12640810",
+  "title": "Cortactin regulates cofilin and N-WASp activities to control the stages of invadopodium assembly and maturation",
+  "content": "Invadopodia are matrix-degrading membrane protrusions in invasive carcinoma cells. The mechanisms regulating invadopodium assembly and maturation are not understood. We have dissected the stages of invadopodium assembly and maturation and show that invadopodia use cortactin phosphorylation as a master switch during these processes. In particular, cortactin phosphorylation was found to regulate cofilin and Arp2/3 complex-dependent actin polymerization. Cortactin directly binds cofilin and inhibits its severing activity. Cortactin phosphorylation is required to release this inhibition so cofilin can sever actin filaments to create barbed ends at invadopodia to support Arp2/3-dependent actin polymerization. After barbed end formation, cortactin is dephosphorylated, which blocks cofilin severing activity thereby stabilizing invadopodia. These findings identify novel mechanisms for actin polymerization in the invadopodia of metastatic carcinoma cells and define four distinct stages of invadopodium assembly and maturation consisting of invadopodium precursor formation, actin polymerization, stabilization, and matrix degradation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

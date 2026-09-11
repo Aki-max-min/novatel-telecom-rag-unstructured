@@ -1,24 +1,65 @@
 # Processing Duplicate Charge and Billing Refunds
 
-**Document ID:** KB_C20_refund_processing  
-**Category:** C20 — Refunds & Adjustments  
-**Department:** Billing  
-**Last Updated:** 2026-05-16  
-**Version:** 1.0  
+**Document ID:** KB_C20_refund_processing
+**Category:** C20 — Refunds & Adjustments
+**Department:** Billing
+**Customer Scope:** all
+**Last Updated:** 2026-06-09
+**Version:** 1.0
 **Source Authority:** Internal Knowledge Base
 
 ---
+## Summary
 
-## Purpose
+This article explains how refunds & adjustments issues in this area are diagnosed and resolved, and what customers and front-line agents should check before escalating.
 
-Describes how refunds for duplicate/erroneous charges are validated and issued.
+## Symptoms
 
-## Steps
+- Customer reports the feature or service is not behaving as expected.
+- The self-care app or portal shows an error, a stuck status, or no visible change after the action.
+- The issue is intermittent and not consistently reproducible.
 
-1. Customer reports issue with transaction reference.
-2. Billing team validates against the payment gateway ledger.
-3. Approved refunds are issued to source (5-7 working days) or as account credit (instant-24h).
+## Preconditions
 
-## SLA
+- Customer identity has been verified (registered number and, where applicable, OTP).
+- The account is active and not under a fraud, legal, or compliance hold.
 
-Standard refund decisioning target: 5 working days from ticket creation.
+## Cause
+
+This is typically caused by a data-sync delay between the customer-facing app and the backend system of record.
+
+## Resolution — Step by Step
+
+| Step | Action | Expected Result | If Failed |
+|---|---|---|---|
+| 1 | Confirm the reported issue | Issue resolved / status updated | Proceed to next step or escalate |
+| 2 | Check system status | Issue resolved / status updated | Proceed to next step or escalate |
+| 3 | Apply the standard fix | Issue resolved / status updated | Proceed to next step or escalate |
+| 4 | Confirm resolution with the customer | Issue resolved / status updated | Proceed to next step or escalate |
+
+1. **Confirm the reported issue.** Ask the customer for the exact screen/message and time it occurred.
+2. **Check system status.** Verify the relevant backend status (billing, provisioning, network, payment) for the account.
+3. **Apply the standard fix.** Retry the action, refresh the record, or trigger the relevant backend re-sync as documented for this scenario.
+4. **Confirm resolution with the customer.** Ask the customer to verify the fix on their end before closing.
+
+## Validation
+
+Confirm the account reflects the expected state (e.g. correct balance, plan, status, or setting) before closing the interaction.
+
+## Exceptions
+
+- Cases linked to suspected fraud are routed to the Fraud & Security Response team instead of standard resolution.
+- Enterprise/bulk accounts may require coordination with the assigned account manager rather than the standard consumer flow.
+
+## Escalation Criteria
+
+- If the standard steps above do not resolve the issue, escalate with reference to: FAQ_C20_001.
+- Unresolved cases are automatically flagged for supervisor review after the stated SLA window, ensuring no request is left without a defined next action.
+
+## Related Issues
+
+- A similar symptom can appear for a related but distinct request type; confirm the exact request before applying this fix.
+
+## Related Documents
+
+Related documents: FAQ_C20_001.

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_066",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 66,
+  "text": "5G network) (i) Jitter provides a measure of variation in time in arrival of packets from a source to destination. A high value of jitter adversely affects the user experience especially in real time interactive applications. (ii) ITU-T Recommendation3 Y.1540 defines network parameters that may be used in specifying and assessing IP network performance. IP packet delay variation or IPDV or jitter is defined as the differences between the one-way delay of IP packet and reference IP packet transfer delay (e.g. average IPTD as a reference delay). (iii) The inter arrival jitter is the difference in the relative transit time for two packets. The relative transit time is the difference between a packet's Real-time Transport Protocol (RTP) timestamp and the receiver's clock at the time of arrival, measured in the same units. If Si is the RTP timestamp from packet i, and Ri is the time of arrival in RTP timestamps units for packet i, then for two packets i and j the inter-arrival jitter D can be expressed as: D(i,j) = (Rj - Ri ) - (Sj - Si ) (iv) The Jitter measurements should be conducted as per the test setup for each technology separately for RTP and UDP. The test calls for Jitter shall be made during TCBH. (v) The IPDV (jitter) shall be calculated as mean deviation based on the samples collected for the delay measurement as per the setup used for measurement of latency as per ITU-T Recommendation G.1051. 5.5. Messaging: Successful SMS delivery within",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_044",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 44,
+  "text": "a request for headers to be issued to SEBI registered brokers or other entities specified by Authority by directions, orders or instructions issued from time to time; carry out additional authentications in case of a request for headers to be issued to government entities, corporate(s) or well-known brands, including specific directions, orders or instructions, if any, issued from time to time by the Authority; carry out additional checks for look-alike headers which may mislead to a common recipient of commercial communication, it may also include proximity checks, similarity after substring swaps specifically in case of government entities, corporate(s), well-known brands while assigning headers irrespective of current assignments of such headers, and to follow specific directions, orders or instructions, if any, issued from time to time by the Authority; Consent Registration Function (CRF) record consent via Customer Consent Acquisition Functionality on Consent Register, on its own or through its agents, to facilitate consent acquirers to record the consent taken from the customers 24 in a robust manner which is immutable and non-repudiable and as specified by relevant regulations; Presenting content of consent acquisition template to the customer before taking consent; Taking agreement to the purpose of consent and details of sender; Authenticate customer giving the consent through OTP; record revocation of consent by the customer via revoke request in a robust manner which is immutable and non-repudiable and as specified by relevant regulations; record sufficient contact information, valid for at least 30 days, required to revoke consent and present it to",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

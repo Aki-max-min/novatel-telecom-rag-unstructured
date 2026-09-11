@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_078",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 78,
+  "text": "context of UCC. 1.1.5 Main heading 3, 4 and 5 provide summary of issues related to entities of UCC eco system, Customer Preference Registration System and Complaint Handling System respectively. These Paras also summarize the comments of stakeholders on the issues, analysis of inputs and decisions of the Authority. 1.1.6 Main heading 6 to 10 analyze Distributed Ledger Technology (DLT) from perspective of regulatory compliance through adoption of the technology. It provides details of capabilities of DLT, its important properties, types of DLT networks and summarizes appropriateness of type of DLT network for UCC eco system. 1.1.7 Finally, main heading 11 summarizes impact of new regulations on access providers and eco system. It also summarizes benefits of implementing new regulations to different stakeholders. 1.2 Regulatory Framework notified in 2007 1.2.1 These regulations envisaged the establishment of a National Do Not Call (NDNC) Registry to facilitate registration of requests from customers who do not wish to receive UCC. To improve the effectiveness of the framework, the Authority subsequently amended these regulations, incorporated financial disincentives for non-compliance with regulatory provisions by the telecom service providers. These regulations were further amended to simplify the customer enrolment process, smoothening the system for redressal of complaints related to UCC and imposing financial disincentives on Access Providers for non-compliance with regulatory provisions. 1.2.2 Despite measures taken by the Authority for curbing Unsolicited Commercial Communications, 48 dissatisfaction among telecom customers continued on this account and the regulatory framework set up by TUCCR-2007 was found to be not",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

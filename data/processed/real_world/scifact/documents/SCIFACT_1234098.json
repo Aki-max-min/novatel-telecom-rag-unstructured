@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1234098",
+  "title": "Dynamic capsule restructuring by the main pneumococcal autolysin LytA in response to the epithelium",
+  "content": "Bacterial pathogens produce complex carbohydrate capsules to protect against bactericidal immune molecules. Paradoxically, the pneumococcal capsule sensitizes the bacterium to antimicrobial peptides found on epithelial surfaces. Here we show that upon interaction with antimicrobial peptides, encapsulated pneumococci survive by removing capsule from the cell surface within minutes in a process dependent on the suicidal amidase autolysin LytA. In contrast to classical bacterial autolysis, during capsule shedding, LytA promotes bacterial survival and is dispersed circumferentially around the cell. However, both autolysis and capsule shedding depend on the cell wall hydrolytic activity of LytA. Capsule shedding drastically increases invasion of epithelial cells and is the main pathway by which pneumococci reduce surface bound capsule during early acute lung infection of mice. The previously unrecognized role of LytA in removing capsule to combat antimicrobial peptides may explain why nearly all clinical isolates of pneumococci conserve this enzyme despite the lethal selective pressure of antibiotics.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

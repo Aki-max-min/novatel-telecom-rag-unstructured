@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_014",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 14,
+  "text": "benchmarks specified in these regulations. (3) The quality management plan shall cover all technical and non-technical aspects of QoS including designing, implementation and monitoring of networks and customer services to ensure network availability, accessibility, retainability and customer experience. (4) Every service provider shall submit to the Authority the performance report of their quality management plan, on yearly basis, covering the implementation of Six Sigma quality management practices and its impact on the Quality- of-Service provided by the service provider in respect of each Quality of Service parameter specified in these regulations. (5) The Authority may, from time to time, through audit conducted either by its own officers or employees or through an agency appointed by it, verify and assess the performance of quality management plan. SECTION III QUALITY OF SERVICE PARAMETERS FOR ACCESS SERVICE (WIRELINE) 4. Quality of Service Parameters in respect of which compliance reports are to be submitted to the Authority.─ (1) Every service provider providing access service (wireline) shall meet the benchmarks, to be measured as per the measurement methodology provided in Schedule-I, for each of the following QoS parameters, namely:─ S. No. Name of Parameter Benchmark Assessment period I. Service Provisioning (i) Provision of a service within 7 working days of payment of demand note by the customer ≥ 98% Quarterly II. Fault Repair (ii) Fault incidences (No. of faults per 100 subscribers) ≤ 5 Quarterly (iii) Fault repair by next working day ≥ 85% Quarterly (iv) Fault repair within three working days ≥ 99% Quarterly",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

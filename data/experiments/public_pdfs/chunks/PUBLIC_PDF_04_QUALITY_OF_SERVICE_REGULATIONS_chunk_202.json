@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_202",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 202,
+  "text": "QoS should be technology neutral. It is also submitted that use cases and applications are emerging areas that change extremely fast and impact the consumer experience, something which is also driven by the consumer’s own usage behavior. Further, 171 the QoE felt by the consumer in question about an application or use-case is determined by several factors, most of which are outside the TSP’s control. Therefore, there should be no prescription on these aspects (application, use cases) for measurement and reporting of QoS and QoE, especially as far as the 4G and 5G networks are concerned. (iii) One of the stakeholders submitted that 3GPP has a well-defined QoS and QoE measurement framework, which is based on relevant standards and global best practices, the adoption of this framework may be considered prudent. (iv) One of the stakeholders submitted that a flexible framework of crowdsource collected data sources focused on both QoE and QoS which is respectful of privacy but independent from operators has the potential to unlock the majority of consumer QoE and QoS insights needed. (b) Analysis and Conclusion (for Q1 and Q2) (i) The ITU Quality of Service Regulation Manual,2017, provides clear demarcations for Quality of Service and Quality of Experience. As may be seen from Figure 10, the QoS only factors the network performance of the service provider. However, the QoE also covers performance of user device and other factors. Figure 10: Network performance, QoS and QoE (Source: ITU QoS Regulation Manual, 2017) (ii) It is further noted",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

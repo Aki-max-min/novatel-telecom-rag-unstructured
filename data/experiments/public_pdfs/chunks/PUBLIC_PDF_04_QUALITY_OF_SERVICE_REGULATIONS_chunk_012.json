@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_012",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 12,
+  "text": "and Cell before such mobile station is assigned a Traffic Channel (TCH); (gg) “Tariff Offerings” means various tariffs offered by service providers to their subscribers including tariff plans, plan vouchers, special tariff vouchers, combo vouchers, top up vouchers and add-on plans; (hh) “Telecommunication” means telecommunication as defined in the Telecom Regulatory Authority of India Act, 1997 (24 of 1997); (ii) “Telecommunication service” means telecommunication service as defined in the Telecommunications Act, 2023; (jj) “Time Consistent Busy Hour” or “TCBH” means the one-hour period starting at the same time each day for which the average traffic of the resource group concerned is greatest over the days under consideration and shall be decided as per the methodology specified in Schedule-I.; (kk) “Traffic Channel” or “TCH” means a logical channel which carries user information; 101 (ll) “Up Link (UL) Packet Drop Rate” or “UL-PDR” means percentage of voice traffic packets which are dropped by the network or lost in the network while transferring data on the uplink for Quality of Service (QoS) Class Identifier of voice traffic in packet switched (4G or 5G) radio access networks; (mm) “Voice over LTE” or “VoLTE” means voice call established, maintained and released using Internet Protocol (IP) Multi-Media Sub-System (IMS) in LTE or IMT-Advanced network; (nn) “Voice over New Radio” or “VoNR” means voice call established, maintained and released using Internet Protocol (IP) Multi-Media Sub-System (IMS) in IMT-2020 network; (2) Words and expressions used but not defined in these regulations, but defined in the Act or the",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

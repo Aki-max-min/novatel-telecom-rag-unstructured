@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_41900731",
+  "title": "Synchrotron radiation solution X-ray scattering study of the pH dependence of the quaternary structure of yeast pyruvate decarboxylase.",
+  "content": "The pH dependence of the quaternary structure of pyruvate decarboxylase from yeast was studied in the range 6.2 less than pH less than 8.4. There is an equilibrium with a midpoint around pH 7.5 between tetramers and dimers, and the catalytic activity of the enzyme depends on the volume fraction of tetramer. This equilibrium may provide an additional regulating mechanism besides substrate activation since accumulation of pyruvate would lead to a reduction in pH and hence an increase of the concentration of the catalytically active tetramer. Radiation damage during the X-ray scattering experiments results in a shift of this equilibrium and in the formation of octamers. These effects could be circumvented and analyzed using experimental and data processing methods which can be readily applied to other radiation-sensitive systems. The low-resolution shapes of the dimers and tetramers were determined from the scattering curves using spherical harmonics. The results indicate that a conformational change must occur in the dimers upon formation of the tetramers, in agreement with earlier circular dichroism measurements.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

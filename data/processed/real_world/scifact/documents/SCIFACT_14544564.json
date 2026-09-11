@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14544564",
+  "title": "Influence of Steroid Hormone Signaling on Life Span Control by Caenorhabditis elegans Insulin-Like Signaling",
+  "content": "Sterol-sensing nuclear receptors and insulin-like growth factor signaling play evolutionarily conserved roles in the control of aging. In the nematode Caenorhabditis elegans, bile acid-like steroid hormones known as dafachronic acids (DAs) influence longevity by binding to and regulating the activity of the conserved nuclear receptor DAF-12, and the insulin receptor (InsR) ortholog DAF-2 controls life span by inhibiting the FoxO transcription factor DAF-16. How the DA/DAF-12 pathway interacts with DAF-2/InsR signaling to control life span is poorly understood. Here we specifically investigated the roles of liganded and unliganded DAF-12 in life span control in the context of reduced DAF-2/InsR signaling. In animals with reduced daf-2/InsR activity, mutations that either reduce DA biosynthesis or fully abrogate DAF-12 activity shorten life span, suggesting that liganded DAF-12 promotes longevity. In animals with reduced DAF-2/InsR activity induced by daf-2/InsR RNAi, both liganded and unliganded DAF-12 promote longevity. However, in daf-2/InsR mutants, liganded and unliganded DAF-12 act in opposition to control life span. Thus, multiple DAF-12 activities influence life span in distinct ways in contexts of reduced DAF-2/InsR signaling. Our findings establish new roles for a conserved steroid signaling pathway in life span control and elucidate interactions among DA biosynthetic pathways, DAF-12, and DAF-2/InsR signaling in aging.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

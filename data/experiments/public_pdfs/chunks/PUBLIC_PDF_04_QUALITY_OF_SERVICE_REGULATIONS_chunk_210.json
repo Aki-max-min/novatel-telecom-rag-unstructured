@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_210",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 210,
+  "text": "through Regulations. (b) Analysis and Conclusion (i) Reliable telecom services have become an essential requirement of our personal, social and economic life. The quality of telecom services is becoming increasingly important to sustain the socio-economic development over the coming years. (ii) Delivering QoS is a lifecycle activity that can only be ensured through adoption of quality by design approach. If the network is not designed and implemented considering the QoS requirement, the QoS performance will only be an incidental outcome which may not support desired level of QoS. For example, if required uplink bandwidth, to support latency and download/ upload speed for broadband services, is not provisioned as per traffic engineering and design requirement, it will not be possible to meet QoS performance benchmarks against these parameters. 174 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] (iii) The service providers have confirmed that ‘Quality by Design,’ is already the guiding design principles for telecommunication networks. In order to adopt quality by design approach for design, implementation, maintenance and customer services, the quality management framework like Six Sigma can be quite useful. Therefore, to streamline the adoption of quality management plan, the regulation provides that the service providers shall prepare a plan for implementation of quality management process in their network and submit to the Authority within six months of the issue of these regulations. Thereafter, an annual report, on its implementation and impact on QoS, will be submitted. (iv) Further, the Authority is of the view that telecom networks need to",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

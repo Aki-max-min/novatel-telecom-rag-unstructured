@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24157077",
+  "title": "Cationic host defense (antimicrobial) peptides.",
+  "content": "Members of the cationic host defense (antimicrobial) peptide family are widely distributed in nature, existing in organisms from insects to plants to mammals and non-mammalian vertebrates. Although many demonstrate direct antimicrobial activity against bacteria, fungi, eukaryotic parasites and/or viruses, it has been established that cationic peptides have a key modulatory role in the innate immune response. More recent evidence suggests that host defense peptides are effective adjuvants, are synergistic with other immune effectors, polarize the adaptive response, and support wound healing. In addition, the mechanisms of action are being unraveled, which support more effective implementation of derivatives of these endogenous peptides as therapeutic agents.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

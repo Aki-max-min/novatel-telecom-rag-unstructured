@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_37641175",
+  "title": "Metabolic DNA as the origin of spontaneously released DNA?",
+  "content": "A DNA fraction is spontaneously released from living, but not dead or dying, human, other mammalian, avian, amphibian, plant, and prokaryote cells. The spontaneously released DNA fraction has been shown to be (a) present in both actively dividing and nondividing, differentiated cell populations; (b) labile; (c) associated with DNA-dependent RNA or DNA polymerase; (d) associated with an RNA fraction; and to have (e) a lower molecular weight than the typical genetic DNA fraction; and (f) Alu repeat sequences in increased proportions compared to a unique gene in plasma/serum. On the other hand, early autoradiographic and biochemical and quantitative cytochemical and cytophysical studies on DNA permitted the identification of a DNA fraction which was (1) present in both actively dividing and nondividing, differentiated cell populations; (2) labile; and (3) had a lower molecular weight than the typical genetic DNA fraction. This DNA fraction was termed metabolic DNA (m-DNA) and was proposed as possibly forming extra gene copies for the rapid production of m-RNA, to be destroyed subsequently. Therefore, we suggest that the metabolic DNA fraction might represent the precursor to the formation of the spontaneously released DNA fraction.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

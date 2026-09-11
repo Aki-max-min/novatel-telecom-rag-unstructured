@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21181273",
+  "title": "15-Hydroxyprostaglandin dehydrogenase is down-regulated in colorectal cancer.",
+  "content": "Prostaglandin E2 (PGE2) can stimulate tumor progression by modulating several proneoplastic pathways, including proliferation, angiogenesis, cell migration, invasion, and apoptosis. Although steady-state tissue levels of PGE2 stem from relative rates of biosynthesis and breakdown, most reports examining PGE2 have focused solely on the cyclooxygenase-dependent formation of this bioactive lipid. Enzymatic degradation of PGE2 involves the NAD+-dependent 15-hydroxyprostaglandin dehydrogenase (15-PGDH). The present study examined a range of normal tissues in the human and mouse and found high levels of 15-PGDH in the large intestine. By contrast, the expression of 15-PGDH is decreased in several colorectal carcinoma cell lines and in other human malignancies such as breast and lung carcinomas. Consistent with these findings, we observe diminished 15-Pgdh expression in ApcMin+/- mouse adenomas. Enzymatic activity of 15-PGDH correlates with expression levels and the genetic disruption of 15-Pgdh completely blocks production of the urinary PGE2 metabolite. Finally, 15-PGDH expression and activity are significantly down-regulated in human colorectal carcinomas relative to matched normal tissue. In summary, these results suggest a novel tumor suppressive role for 15-PGDH due to loss of expression during colorectal tumor progression.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

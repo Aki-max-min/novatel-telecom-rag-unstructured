@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_107",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 107,
+  "text": "lead to short-term fluctuations. Monthly averaging will inadvertently magnify these transient fluctuations, offering a distorted view of QoS. In their view, adopting a quarterly averaging approach provides a far more comprehensive picture by smoothing out these temporary fluctuations and capturing the broader trends in service delivery. (ii) It is also highlighted that the Access Providers with Wireless Access Authorizations in the license in India are upgrading their networks to 5G. Operations of the existing networks are influenced by technological upgrades, network expansions, and seasonal variations in demand. Quarterly averaging aligns with these operational cycles, making it a more pertinent timeframe for assessing the impact of infrastructure changes and upgrades on service quality. (iii) The stakeholders also suggested that shift from quarterly reporting to monthly reporting will increase reporting requirements significantly. The effectiveness of simply increasing reporting frequency and introducing additional benchmarks in enhancing the Quality of Service (QoS) and positively impacting customers' lives remains uncertain, as it does not directly address the challenges faced by the telecom industry. (iv) It is also referred that shift raises concerns about its alignment with the principles of Ease of Doing Business (EODB), a focal point of the Government. The substantial surge in compliance instances appears incongruent with the government's emphasis on streamlining processes and reducing bureaucratic hurdles. (v) The long-term trend analysis supported by quarterly averages facilitates strategic planning and decision- making in the telecom sector. Monitoring data latency on a quarterly basis empowers Access Service Providers to address persistent issues, leading to",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

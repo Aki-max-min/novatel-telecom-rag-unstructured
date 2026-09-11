@@ -1,7 +1,7 @@
 {
   "faq_id": "FAQ_C22_043",
   "question": "How long does new SIM activation take after purchase?",
-  "answer": "Prepaid SIMs with completed KYC typically activate within a few hours to 24 hours. Postpaid connections may take up to 48 hours pending credit/address verification, per regulatory activation procedures.",
+  "answer": "### Short Answer\n\nPrepaid SIMs with completed KYC typically activate within a few hours to 24 hours. Postpaid connections may take up to 48 hours pending credit/address verification, per regulatory activation procedures.\n\n### Detailed Explanation\n\nThe gap between prepaid and postpaid timelines comes down to what needs verifying first — prepaid just needs completed KYC, so it activates within hours, while postpaid additionally involves credit and address verification, which is why it's allowed up to 48 hours rather than 24.\n\n### Key Details\n\n| Detail | Value |\n|---|---|\n| Prepaid, KYC complete | A few hours to 24 hours |\n| Postpaid | Up to 48 hours, pending credit/address verification |\n\n### Conditions\n\n- The longer postpaid timeline specifically reflects credit and address verification, which prepaid activation doesn't require.\n\n### Example Scenario\n\n**Customer situation:** A customer bought a postpaid SIM and it's been 30 hours without activation.\n\n**What happens:** Since postpaid activation is allowed up to 48 hours pending credit/address verification, this is still within the expected window rather than a delay.\n\n### Related Information\n\nRelated documents referenced in NovaTel's internal metadata for this topic: KB_C22_overview.",
   "category": "C22",
   "category_name": "New Connection Activation",
   "department": "Customer Care",

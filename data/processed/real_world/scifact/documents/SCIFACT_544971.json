@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_544971",
+  "title": "DNA Deamination Mediates Innate Immunity to Retroviral Infection",
+  "content": "CEM15/APOBEC3G is a cellular protein required for resistance to infection by virion infectivity factor (Vif)-deficient human immunodeficiency virus (HIV). Here, using a murine leukemia virus (MLV)-based system, we provide evidence that CEM15/APOBEC3G is a DNA deaminase that is incorporated into virions during viral production and subsequently triggers massive deamination of deoxycytidine to deoxyuridine within the retroviral minus (first)-strand cDNA, thus providing a probable trigger for viral destruction. Furthermore, HIV Vif can protect MLV from this CEM15/APOBEC3G-dependent restriction. These findings imply that targeted DNA deamination is a major strategy of innate immunity to retroviruses and likely also contributes to the sequence variation observed in many viruses (including HIV).",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29518440",
+  "title": "Hypoxia of the renal medulla--its implications for disease.",
+  "content": "In land mammals, a major task of the kidney is to reabsorb water to allow survival in a dry environment. Water conservation is enhanced by the renal medulla, which concentrates the urine to a level up to four times the osmolality of plasma. To produce this unique gradient of osmolality, the medulla has a countercurrent system of vessels and tubules that dictates active reabsorption of sodium in a milieu poor in oxygen (Figure 1).1 In this review, we describe how hypoxia of the medulla may relate to susceptibility to acute and chronic renal injury. The Renal Medullary Concentrating Mechanism as . . .",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

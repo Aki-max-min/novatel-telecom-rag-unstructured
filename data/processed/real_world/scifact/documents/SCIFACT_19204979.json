@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19204979",
+  "title": "Pericytes of human skeletal muscle are myogenic precursors distinct from satellite cells",
+  "content": "Cells derived from blood vessels of human skeletal muscle can regenerate skeletal muscle, similarly to embryonic mesoangioblasts. However, adult cells do not express endothelial markers, but instead express markers of pericytes, such as NG2 proteoglycan and alkaline phosphatase (ALP), and can be prospectively isolated from freshly dissociated ALP+ cells. Unlike canonical myogenic precursors (satellite cells), pericyte-derived cells express myogenic markers only in differentiated myotubes, which they form spontaneously with high efficiency. When transplanted into severe combined immune deficient–X-linked, mouse muscular dystrophy (scid–mdx) mice, pericyte-derived cells colonize host muscle and generate numerous fibres expressing human dystrophin. Similar cells isolated from Duchenne patients, and engineered to express human mini-dystrophin, also give rise to many dystrophin-positive fibres in vivo. These data show that myogenic precursors, distinct from satellite cells, are associated with microvascular walls in the human skeletal muscle, may represent a correlate of embryonic 'mesoangioblasts' present after birth and may be a promising candidate for future cell-therapy protocols in patients.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_104",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 104,
+  "text": "upgradation, the Authority has considered the same and provided suitable glide paths for the transition to the benchmarks which have been either strengthened or introduced as a fresh benchmark. The effective date for the regulations is 1.10.2024 with quarterly reporting similar to the existing processes. This will enable service providers to switch to new Regulations without any difficulty. The glide paths have been provided through graded benchmarks against specific QoS parameters like Cumulative downtime, Worst Affected Cells due to downtime, Drop Call Rate, Latency (in 4G and 5G network) and Packet drop rate. (vi) With regard to the global reference cited by the stakeholders on QoS regulations, it is important to see the QoS regulations in overall context rather than citing references selectively. The attention of the service providers is drawn to the compilation of regulatory approach in two ITU reports namely (a) QoS Regulation Manual, 201713 and (b) ESTR-KPI-RAN- ‘Key performance indicators (KPIs) for radio access mobile networks’14. These reports clearly indicate that QoS regulatory framework varies across countries and are dependent upon overall regulatory ecosystem and prevailing consumer empowerment framework in those countries. In the countries having strong consumer protection regulations, wherein service providers and consumers have enforceable service contracts with compensation provisions, the QoS regulations may be less prescriptive. However, in other countries, the QoS regulations are quite similar and QoS performance parameters are prescribed as may be seen from ITU reports. 4.3 Create Working Groups on draft QoS Regulation (a) Input of Stakeholders Some of the",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

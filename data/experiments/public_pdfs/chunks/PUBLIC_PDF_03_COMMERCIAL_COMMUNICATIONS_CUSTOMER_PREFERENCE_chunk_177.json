@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_177",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 177,
+  "text": "resources allocated to a UTM post an advance notice and an opportunity of being heard. The outgoing services should be barred immediately on validation of the complaint with the CDRs and notice of disconnection should be issued to the customer. Telecom resources should be disconnected if no reasonable and admissible justification is received within 3-4 days. In the meantime, the complaint may be closed on the basis of applying barring of usage of telecom resources. UTM 88 details should not be published on the NCPR for blacklisting till a final decision is taken on unbarring or disconnection. iv. Many stakeholders supported the idea of using centralized cloud-based complaint redressal system. During OHD, some stakeholders suggested that it is technically possible to maintain all complaint related information through either a centralized database or through blockchain technology. Using this system, as soon as, a complaint is registered it should be also possible to track the history of a UCC call or SMS, its content and whether it should have been sent in the first place. 5.2.2 Changes in Complaint registration facility to improve complaint resolution i. All the stakeholders agreed that structured and pre-validated inputs from complaints using Mobile Apps and web portals may be helpful to capture relevant details of complaints, to automate resolution and enable advanced post-facto analysis for accurate reporting. App can have the built-in functionality of capturing call/SMS records from specific set of numbers – 140 series, SMS headers etc. for accurate data analytics, predictive modelling etc. ii.",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

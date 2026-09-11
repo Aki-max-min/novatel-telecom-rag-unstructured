@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_074",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 74,
+  "text": "the service provider shall notify the same to the affected customers and also declare revised typical download and upload speed. (vii) Customer may verify declared typical download and upload speed through TRAI MySpeed app with location access enabled. The service provider shall analyse the reason and take corrective action if any significant deviation is observed in consumer test results from TRAI MySpeed app. 6.2.5. Maximum Bandwidth utilization of any Customer serving node to ISP Gateway Node [Intra-network] or Internet Exchange Point Link(s) (i) The Internet Service Provider (ISP) can offer a good QoS to the customers only if there is enough bandwidth in the access segment, long distance segment and overseas segment of Internet bandwidths. (ii) The access segment is entirely managed and operated by the internet service provider. The broadband service can be provided through different access technologies like fibre, cable, DSL etc. The national long- distance segment is usually taken on lease from National Long Distance (NLD) Service providers and the overseas nearest access point segment is generally provided by the International Long Distance (ILD) service providers in the form of International Private Leased Circuit (IPLC) or Internet Leased Line (ILL). Therefore, enough bandwidth should be available in all the applicable segments to ensure good QoS. (iii) The service providers are required to monitor the bandwidth utilization during Time Consistent Busy Hours (TCBH) for each network link(s)/route. (iv) Average utilization of bandwidth in a route means utilization of bandwidth capacity on all the links of the route. For",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

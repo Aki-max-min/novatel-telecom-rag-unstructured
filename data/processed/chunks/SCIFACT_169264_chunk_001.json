@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_169264_chunk_001",
+  "document_id": "SCIFACT_169264",
+  "chunk_index": 1,
+  "text": "the 20 nm sized SiO2 nanoparticles than onto the 100 nm sized nanoparticles regardless of charge. When proteins were compared between the two charges, higher numbers of proteins were found for arginine-coated positively charged SiO2 nanoparticles than for the negatively charged nanoparticles. The proteins identified as bound in the corona from SiO2 nanoparticles were further analyzed with ClueGO, a Cytoscape plugin used in protein ontology and for identifying biological interaction pathways. Proteins bound on the surface of nanoparticles may affect functional and conformational properties and distributions in complicated biological processes.",
+  "title": "Analysis of SiO2 nanoparticles binding proteins in rat blood and brain homogenate",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

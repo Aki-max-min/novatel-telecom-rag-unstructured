@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL_chunk_003",
+  "document_id": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+  "chunk_index": 3,
+  "text": "plan shall be applicable; (h) “Complaint Centre” means a facility established under regulation 3 by the service provider; (i) “Consumer” means a consumer of a service provider to whom these regulations apply and includes its customer and subscriber; (j) “Consumer Care Number” means a telephone number earmarked by a service provider to access its Complaint Centre; (k) “General Information Number” means a telephone number earmarked by a service provider for providing information to the consumer in response to their query or request; (l) “Internet Service” means all types of Internet access or Internet content services as provided in the licence; (m) “Licence” means a licence granted or having effect as if granted under section 4 of the Indian Telegraph Act, 1885 (13 of 1885) or the provisions of the 4 Indian Wireless Telegraphy Act, 1933 (17 of 1933); (n) “regulations” means the Telecom Consumers Complaint Redressal Regulations, 2012; (o) “service provider” means a licensee to whom these regulations apply; (p) “service request” means a request made to a service provider by its consumer pertaining to his account, and includes, ---- (i) a request for change of tariff plan; (ii) a request for activation or deactivation of a value added service or a supplementary service or a special pack; (iii) a request for activation of any service available on the service provider’s network; and (iv) a request for shift or closure or termination of service or for billing details; (q) “SMS” means a message which is sent through short message service",
+  "title": "02 consumer complaint redressal",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/02_consumer_complaint_redressal.pdf",
+  "file_type": "pdf"
+}

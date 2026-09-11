@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17631671",
+  "title": "Cadherins in brain morphogenesis and wiring.",
+  "content": "Cadherins are Ca(2+)-dependent cell-cell adhesion molecules that play critical roles in animal morphogenesis. Various cadherin-related molecules have also been identified, which show diverse functions, not only for the regulation of cell adhesion but also for that of cell proliferation and planar cell polarity. During the past decade, understanding of the roles of these molecules in the nervous system has significantly progressed. They are important not only for the development of the nervous system but also for its functions and, in turn, for neural disorders. In this review, we discuss the roles of cadherins and related molecules in neural development and function in the vertebrate brain.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

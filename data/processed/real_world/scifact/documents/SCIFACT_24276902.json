@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24276902",
+  "title": "The Pain Catastrophizing Scale: Further Psychometric Evaluation with Adult Samples",
+  "content": "Previous studies with undergraduates have provided support for the reliability and oblique three-factor structure of a new scale, the Pain Catastrophizing Scale (PCS). We examined the reliability and validity of the PCS in adult community and pain outpatient samples. The PCS showed a high internal consistency in both groups. Using data from the community sample, confirmatory factor analyses showed that the PCS taps a single construct characterized by three related dimensions. Gender differences were obtained on the PCS total score in the community and the outpatient samples. The analyses also showed significant differences between the community and the outpatient samples on the PCS total and subscales. Overall, the results showed strong evidence of criterion-related, concurrent, and discriminant validity for the PCS in the community sample. Limitations of the present study are discussed.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

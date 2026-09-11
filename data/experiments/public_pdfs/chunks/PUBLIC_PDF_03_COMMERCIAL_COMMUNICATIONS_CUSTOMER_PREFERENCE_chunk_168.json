@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_168",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 168,
+  "text": "entity such as SEBI, RBI, Associations in the sector etc. The Authority decides that scope of UCC should not be widened but UCC ecosystem may enable for participation of interested government bodies or constitutional bodies or associations recognized by the authorities in the concerned sector. Moreover, UCC eco system should be able to provide information on the identity of the sender and 85 associated information about it. 4.3.15 Robo Calls, Auto Dialers with pre-recorded announcements and Auto dialers with live agents are a new source of UCC. These systems are sometimes causing spurt in UCC, repetitive call attempts to same customer in short span of time and also leading to silent calls which is very annoying to customers. These calls are difficult to proactively detect such callers but there must be regulatory provision to deal with the situation when it comes to the notice of the access provider or to the Authority. For senders who are registered and want to use Auto Dialers and the recipient has no issue in receiving such calls, it may be permissible. However, differences in volume of calls originated by the auto dialer and capacity of the system to handle answered calls may lead to abandoned calls. Auto dialers may also lead to silent calls because of its improper functioning or may be deliberately misused to make commercial communications in a disguised manner. In cases of complaints against UCC, normal procedure is to verify occurrence of communication by verifying call detail records, which may be",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

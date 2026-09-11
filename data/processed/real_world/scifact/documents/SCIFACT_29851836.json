@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29851836",
+  "title": "UV light-induced DNA synthesis arrest in HeLa cells is associated with changes in phosphorylation of human single-stranded DNA-binding protein.",
+  "content": "We show that DNA replication activity in extracts of human HeLa cells decreases following UV irradiation. Alterations in replication activity in vitro parallel the UV-induced block in cell cycle progression of these cells in culture. UV irradiation also induces specific changes in the pattern of phosphorylation of the 34 kDa subunit of a DNA replication protein, human single-stranded DNA-binding protein (hSSB). The appearance of a hyperphosphorylated form of hSSB correlates with reduced in vitro DNA replication activity in extracts of UV-irradiated cells. Replication activity can be restored to these extracts in vitro by addition of purified hSSB. These results suggest that UV-induced DNA synthesis arrest may be mediated in part through phosphorylation-related alterations in the activity of hSSB, an essential component of the DNA replication apparatus.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

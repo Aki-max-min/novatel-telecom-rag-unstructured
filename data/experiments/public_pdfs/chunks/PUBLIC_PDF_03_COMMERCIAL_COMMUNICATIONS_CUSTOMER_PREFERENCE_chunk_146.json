@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_146",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 146,
+  "text": "maximum six months after this time period consent to remain valid after renewing it. Renewal of existing consents and recording of such consents would be required in accordance to the provisions under new regulations. In this way migration of consent would be smooth and spread over time. 4 Inputs, analysis and conclusions on issues related to Customer Preference Registration System 4.1 Issues related to Customer Preference Registration System: - 4.1.1 Large time gap between registration or change request and execution for preferences: The time required for preference registration and its enforcement is seven days and keeping in view, the present technological capabilities, it is too long and is required to be reduced substantially. Reduction in time may require changes in the processes of Provider Customer Preference Register (PCPR), National Customer Preference Register (NCPR) or Customer Preference Database (CPDB) to register preference(s) and update it across all the databases quickly to enforce it. By providing Scrubbing as a Service, telemarketers may not be required to keep their system up for 24X7 and scrubbing would take latest data into consideration and help achieve a reduction in time for enforcement. 4.1.2 Increase penetration of Mobile App and ensure its availability on devices: Customers are facing difficulties in registering their preferences as they are not well acquainted with the format of registration of preference. Mobile Apps provide a convenient way to the customer to register his or her preferences. It is required to ensure the availability of Mobile Apps for registering preferences and complaints",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

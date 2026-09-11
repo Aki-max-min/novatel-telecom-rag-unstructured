@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_36497180",
+  "title": "Drug-resistant Salmonella in the United States: an epidemiologic perspective.",
+  "content": "Salmonellosis poses a health problem of large proportions in the United States. Annually, it accounts for more than 40,000 reported cases, 500 deaths, and financial costs well in excess of $50 million. Antimicrobial resistance is increasing in Salmonella strains, a finding that has important public health implications. Although the chain of transmission of the bacteria is often complex, combined epidemiologic and laboratory studies with the use of new methods in molecular biology make it possible to trace antimicrobial-resistant salmonellae to their primary source--foods of animal origin. These studies suggest that the antimicrobial drugs to which food animals are exposed provide selective pressure that leads to the appearance and persistence of resistant strains.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

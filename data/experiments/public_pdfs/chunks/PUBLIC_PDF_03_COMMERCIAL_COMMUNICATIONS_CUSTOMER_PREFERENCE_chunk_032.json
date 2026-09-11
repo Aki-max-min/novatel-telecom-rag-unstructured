@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_032",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 32,
+  "text": "for a period up to two years and OAP shall put the sender under blacklist category and communicate to all other access providers to not to allocate new telecom resources to such sender for up to two years from the date of such communication; Provided that the third instance of the violation shall include all the complaints received against the sender after the date of second warning within two business days after the receipt of the complaint against which telecom resources are being disconnected under this sub-regulation. Provided further that one telephone number may be allowed to be retained by such sender with the Usage Cap for a period up to two years. 26. Record keeping and reporting: Every Access Provider shall maintain records of complaints, from its customers and received from Terminating Access Provider(s), against registered sender(s) for sending unsolicited commercial communications on daily basis for each service area and submit performance monitoring report to the Authority as and when required in a format as prescribed. Every Access Provider shall maintain records of complaints, from its customers and received from Terminating Access Provider(s), against unregistered sender(s) for sending unsolicited commercial communications on daily basis for each service area and submit performance monitoring report to the Authority as and when required in a format as prescribed. Every Access Provider shall submit to the Authority its compliance reports in respect of unsolicited commercial communications, complaints or reports from its customers in such manner and format, at such periodic intervals and within",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

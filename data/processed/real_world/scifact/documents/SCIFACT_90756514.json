@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_90756514",
+  "title": "REVIEW ON CLINICALLY DEVELOPING ANTIBIOTICS",
+  "content": "The world is running out of antibiotics. Between 1940 and 1962, more than 20 new classes of antibiotics were marketed. Since then, only two new classes of antibiotics were marketed. Now, not enough analogues are reaching the market to stem the tide of antibiotic resistance, particularly among gram-negative bacteria which indicates the need of novel antibiotics for their effective action. This review describes those antibiotics in late-stage clinical development. Most of them belong to existing antibiotic classes and a few with a narrow spectrum of activity are novel compounds directed against novel targets. The reasons for some of the past failures to find new molecules and a path forward to help attract investments to fund the discovery of new antibiotics are described.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

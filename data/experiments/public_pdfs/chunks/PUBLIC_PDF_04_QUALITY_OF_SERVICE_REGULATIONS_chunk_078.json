@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_078",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 78,
+  "text": "types of complaints received from postpaid or pre-paid subscribers which involves any monetary aspect or validity period. Some of the examples of billing or charging related complaints are mentioned in para 7.1.1 above. The performance against this parameter for the assessment period shall be measured through the following formula: = {1 −( 𝐍𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐛𝐢𝐥𝐥𝐢𝐧𝐠 𝐨𝐫 𝐜𝐡𝐚𝐫𝐠𝐢𝐧𝐠 𝐜𝐨𝐦𝐩𝐥𝐚𝐢𝐧𝐭𝐬 𝐍𝐎𝐓 𝐫𝐞𝐬𝐨𝐥𝐯𝐞𝐝 𝐰𝐢𝐭𝐡𝐢𝐧 𝐟𝐨𝐮𝐫 𝐰𝐞𝐞𝐤𝐬 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐛𝐢𝐥𝐥𝐢𝐧𝐠 𝐨𝐫 𝐜𝐡𝐚𝐫𝐠𝐢𝐧𝐠 𝐜𝐨𝐦𝐩𝐥𝐚𝐢𝐧𝐭𝐬 𝐫𝐞𝐠𝐢𝐬𝐭𝐞𝐫𝐞𝐝)} × 𝟏𝟎𝟎 7.1.3. Application of adjustment to customer’s account within one week from the date of resolution of billing and charging complaints or rectification of faults or rectification of significant network outage, as applicable (i) A billing or charging complaint must be resolved within the time period prescribed in the respective regulation and any credit/ waiver/ adjustment arising out of resolution of that complaint must be made to the customer’s account within one week of resolution of the complaint and intimation thereto the customer, post-paid/ pre-paid. Further, in the case of postpaid customers, the same shall also be reflected in the next bill to be issued. (ii) Similarly, rent rebate to postpaid customer or validity extension to prepaid customer, due delay in rectification of faults or due to significant network outage of more than 24 hours, as applicable, shall be made within one week of rectification of significant network outage. 125 (iii) The performance against this parameter for the assessment period shall be measured through the following formula: = {𝟏− ( (𝐍𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐜𝐮𝐬𝐭𝐨𝐦𝐞𝐫𝐬 𝐭𝐨 𝐰𝐡𝐨𝐦 𝐜𝐫𝐞𝐝𝐢𝐭 𝐨𝐫 𝐰𝐚𝐢𝐯𝐞𝐫",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

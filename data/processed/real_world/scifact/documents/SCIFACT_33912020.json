@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_33912020",
+  "title": "Thioredoxin mediates oxidation-dependent phosphorylation of CRMP2 and growth cone collapse.",
+  "content": "Semaphorin3A (Sema3A) is a repulsive guidance molecule for axons, which acts by inducing growth cone collapse through phosphorylation of CRMP2 (collapsin response mediator protein 2). Here, we show a role for CRMP2 oxidation and thioredoxin (TRX) in the regulation of CRMP2 phosphorylation and growth cone collapse. Sema3A stimulation generated hydrogen peroxide (H2O2) through MICAL (molecule interacting with CasL) and oxidized CRMP2, enabling it to form a disulfide-linked homodimer through cysteine-504. Oxidized CRMP2 then formed a transient disulfide-linked complex with TRX, which stimulated CRMP2 phosphorylation by glycogen synthase kinase-3, leading to growth cone collapse. We also reconstituted oxidation-dependent phosphorylation of CRMP2 in vitro, using a limited set of purified proteins. Our results not only clarify the importance of H2O2 and CRMP2 oxidation in Sema3A-induced growth cone collapse but also indicate an unappreciated role for TRX in linking CRMP2 oxidation to phosphorylation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

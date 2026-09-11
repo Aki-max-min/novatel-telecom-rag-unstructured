@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11661377",
+  "title": "SNAREs — engines for membrane fusion",
+  "content": "Since the discovery of SNARE proteins in the late 1980s, SNAREs have been recognized as key components of protein complexes that drive membrane fusion. Despite considerable sequence divergence among SNARE proteins, their mechanism seems to be conserved and is adaptable for fusion reactions as diverse as those involved in cell growth, membrane repair, cytokinesis and synaptic transmission. A fascinating picture of these robust nanomachines is emerging.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

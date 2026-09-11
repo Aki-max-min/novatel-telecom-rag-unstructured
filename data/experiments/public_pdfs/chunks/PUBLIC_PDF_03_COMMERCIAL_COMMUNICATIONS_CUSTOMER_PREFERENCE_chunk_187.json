@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_187",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 187,
+  "text": "in the current regulations, access provider should establish CCRF for its customers to make complaint(s). However, facility may be made more efficient and effective by automating most of the complaint handling processes. Considering computational resources and networking technologies which are available now-a-days, it is possible to reduce the time required to register and acknowledge the complaint. System can quickly check whether requisite information is available or more information is to be sought from the complainant. Mobile App may be very helpful for the customer to intuitively and intelligently select the probable telephone numbers which may be UCC. Mobile App also helps the customer to retrieve requisite information from the device to make complaint in a convenient manner. It avoids or eliminates chances of rejection of complaint on grounds of non-availability of requisite details. App can also pre-validate data and submit information to other systems in a structured form. This helps to automate the process and take quick actions. Web portal may also help in pre-validating data and submitting information in structured form. But in case of making complaints via web portal or using another phone number other than the phone number on which UCC was received, authentication may be required via OTP. And if customer is not using the mobile app or web portal, it is required to guide him or her about the procedure for making complaint. This may be done by providing information via SMS, referring to links to get more information or suggesting available alternative modes to",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

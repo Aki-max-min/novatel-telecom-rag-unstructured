@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_39334724",
+  "title": "Evaluation of spatial filters to create smoothed maps of health data.",
+  "content": "Spatial filters have been used as an easy and intuitive way to create smoothed disease maps. Birth weight data from New York State for 1994 and 1995 are used to compare the traditional filter type of fixed geographical size with a filter size of constant or nearly constant population size. The latter are more appropriate for mapping disease in geographic areas with widely varying population density, such as New York State. Issues such as the choice of population size for the filter, the scale of smoothing, the ability to detect true spatial variation and the ability to smooth over random spatial noise are evaluated and discussed.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

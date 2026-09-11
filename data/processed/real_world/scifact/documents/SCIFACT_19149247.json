@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19149247",
+  "title": "Breaking the chains: structure and function of the deubiquitinases",
+  "content": "Ubiquitylation is a reversible protein modification that is implicated in many cellular functions. Recently, much progress has been made in the characterization of a superfamily of isopeptidases that remove ubiquitin: the deubiquitinases (DUBs; also known as deubiquitylating or deubiquitinating enzymes). Far from being uniform in structure and function, these enzymes display a myriad of distinct mechanistic features. The small number (<100) of DUBs might at first suggest a low degree of selectivity; however, DUBs are subject to multiple layers of regulation that modulate both their activity and their specificity. Due to their wide-ranging involvement in key regulatory processes, these enzymes might provide new therapeutic targets.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

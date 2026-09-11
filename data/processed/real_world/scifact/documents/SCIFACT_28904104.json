@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_28904104",
+  "title": "Repriming of DNA synthesis at stalled replication forks by human PrimPol",
+  "content": "DNA replication forks that collapse during the process of genomic duplication lead to double-strand breaks and constitute a threat to genomic stability. The risk of fork collapse is higher in the presence of replication inhibitors or after UV irradiation, which introduces specific modifications in the structure of DNA. In these cases, fork progression may be facilitated by error-prone translesion synthesis (TLS) DNA polymerases. Alternatively, the replisome may skip the damaged DNA, leaving an unreplicated gap to be repaired after replication. This mechanism strictly requires a priming event downstream of the lesion. Here we show that PrimPol, a new human primase and TLS polymerase, uses its primase activity to mediate uninterrupted fork progression after UV irradiation and to reinitiate DNA synthesis after dNTP depletion. As an enzyme involved in tolerance to DNA damage, PrimPol might become a target for cancer therapy.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

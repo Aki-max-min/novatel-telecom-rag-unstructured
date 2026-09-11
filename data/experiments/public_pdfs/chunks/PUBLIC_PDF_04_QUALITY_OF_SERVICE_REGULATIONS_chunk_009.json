@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_009",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 9,
+  "text": "arranging these thirty DCR values in ascending order and finding 90th percentile DCR value for that Cell would point to 27th DCR value (counted from lowest to highest DCR value); (m) “Consumer” means a consumer of a service provider falling in sub-regulation (3) of regulation 1 of these regulations and includes its customer and subscriber; (n) “Down Link (DL) Packet Drop Rate” or “DL-PDR” means percentage of voice traffic packets which are dropped by the network or lost in the network while transferring data on the downlink for Quality of Service (QoS) Class Identifier of voice traffic in packet switched (4G or 5G) radio access networks; (o) “Drop Call Rate” or “DCR” means the percentage of voice calls which once having been established are interrupted prior to their normal completion; (p) “Evolved-Universal Terrestrial Radio Access Network (E-UTRAN) Radio Access Bearer” or “E-RAB” means a user plane connection between User Equipment (UE) and Serving Gateway (SGW) in the LTE based technology; (q) “Jitter” means measure of the latency variation above and below the mean latency value; (r) “Latency” means the time taken by a packet to reach the receiving endpoint after being transmitted from the sending point in broadband service; (s) “License” means a license granted or having effect as if granted under section 4 of the Indian Telegraph Act, 1885 (13 of 1885) or the provisions of the Indian Wireless Telegraphy Act, 1933 (17 of 1933), as amended from time to time; (t) “Point of Interconnection” or “POI” means authorized",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

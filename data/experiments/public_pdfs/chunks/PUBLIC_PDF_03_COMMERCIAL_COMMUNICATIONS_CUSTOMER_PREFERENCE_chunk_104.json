@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_104",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 104,
+  "text": "drive. Here, the missed calls are considered as consent for opt-in given by any person (subscriber of that mobile number) for membership and for receiving political campaign and information dissemination from the party to its members. vi. Three stakeholders responded to this question on content templates and all three supported the idea. Majority of the stakeholders supported the idea of TRAI creating and operating the system. The need for centralization for administering such a complex system was quoted as the reason for supporting this stance. Stakeholders also commented that Content approval may cause significant delay and disruption as companies often make minor tweaks in templates to make 60 improvements. 3.2.4 Implementation phases of new system: Most of the stakeholders have supported implementation in a phased manner. Few stakeholders are of the view that there should be a trial period, during which participation must be voluntary for entities other than TSPs. One of the telemarketers has suggested that a time frame of 3-6 months be given to all entities to comply. Till then, the business must be allowed to run in parallel with the old system. 3.2.5 Securing Preference Data: i. Several of the stakeholders also agreed with employing scrubbing as a service model to protect customer data. Out of these, some stakeholders fully agreed with OTP based authentication for granting access to NCPR data while one solution provider opined that OTP based authentication cannot adequately address data protection concerns. Few stakeholders recommended authentication based on cryptographic keys. One of stakeholders",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

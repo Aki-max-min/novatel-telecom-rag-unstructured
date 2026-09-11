@@ -1,0 +1,23 @@
+{
+  "document_id": "SCIFACT_102662",
+  "title": "A rapid method for extraction of cotton (Gossypium spp.) genomic DNA suitable for RFLP or PCR analysis",
+  "document_type": "Scientific Literature",
+  "content": "Extraction of high-quality genomic DNA fromGossypium (cotton) species is difficult due to high levels of polysaccharide, oxidizable quinones, and other interfering substances. We describe a procedure that consistently permits isolation of cotton genomic DNA of satisfactory size and quality for RFLP and PCR analysis, as well as for most routine cloning applications. Several antioxidants, phenol-binding reagents, and phenol oxidase inhibitors are used throughout the procedure, and most polysaccharides are eliminated early in the procedure by isolation of nuclei.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

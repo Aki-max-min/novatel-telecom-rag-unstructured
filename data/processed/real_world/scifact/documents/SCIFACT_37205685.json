@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_37205685",
+  "title": "Spread of chloroquine resistance in Plasmodium falciparum.",
+  "content": "Malaria resistant to chloroquine has now been confirmed in more than 40 countries. The drug was introduced in 1934, but was not in large-scale use until the early 1950s. Anecdotal reports suggest that resistance emerged as early as 1957 both in Colombia and along the then Cambodia-Thailand border area. But by 1960, resistance in these areas was confirmed - and may represent two separate events. Resistance spread rapidly, with a new focus of resistance confirmed in East Africa by 1977. Chloroquine resistance represents a severe problem both for prophylaxis and treatment of malaria. In this aricle, David Payne traces the spread of resistance and discusses some of its implications.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

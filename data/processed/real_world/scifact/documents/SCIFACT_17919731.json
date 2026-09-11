@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17919731",
+  "title": "BRIEFINGS IN FUNCTIONAL GENOMICS AND PROTEOMICS. VOL 5. NO 3. 209^221 doi:10.1093/bfgp/ell028 Histone acetylation in gene regulation",
+  "content": "Genetic information is packaged in the highly dynamic nucleoprotein structure called chromatin. Many biological processes are regulated via post-translational modifications of key proteins. Acetylation of lysine residues at the N-terminal histone tails is one of the most studied covalent modifications influencing gene regulation in eukaryotic cells. This review focuses on the role of enzymes involved in controlling both histone and non-histone proteins acetylation levels in the cell, with particular emphasis on their effects on cancer.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

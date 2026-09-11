@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1067605",
+  "title": "Effective population size and patterns of molecular evolution and variation",
+  "content": "The effective size of a population, Ne, determines the rate of change in the composition of a population caused by genetic drift, which is the random sampling of genetic variants in a finite population. Ne is crucial in determining the level of variability in a population, and the effectiveness of selection relative to drift. This article reviews the properties of Ne in a variety of different situations of biological interest, and the factors that influence it. In particular, the action of selection means that Ne varies across the genome, and advances in genomic techniques are giving new insights into how selection shapes Ne.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

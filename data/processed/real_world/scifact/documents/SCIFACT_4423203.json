@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4423203",
+  "title": "Microbial engineering for the production of advanced biofuels",
+  "content": "Advanced biofuels produced by microorganisms have similar properties to petroleum-based fuels, and can 'drop in' to the existing transportation infrastructure. However, producing these biofuels in yields high enough to be useful requires the engineering of the microorganism's metabolism. Such engineering is not based on just one specific feedstock or host organism. Data-driven and synthetic-biology approaches can be used to optimize both the host and pathways to maximize fuel production. Despite some success, challenges still need to be met to move advanced biofuels towards commercialization, and to compete with more conventional fuels.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

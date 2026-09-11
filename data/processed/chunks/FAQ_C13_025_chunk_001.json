@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C13_025_chunk_001",
+  "document_id": "FAQ_C13_025",
+  "chunk_index": 1,
+  "text": "the registered SIM | Confirm signal, then use Resend OTP after 30 seconds | | OTP still not received after resend | SMS not reaching the device despite normal signal | Whether Login via Missed Call is enabled as an alternative | Try Login via Missed Call if available | | OTP failures persist across multiple attempts | Handset's own SMS spam filter may be blocking service messages | Device spam-filter/blocked-senders settings | Check the device's SMS filter settings for blocked NovaTel numbers | ### Example Scenario **Customer situation:** A customer keeps getting 'OTP not received' when trying to log in to the app. **What happens:** After confirming signal and trying Resend OTP without success, using Login via Missed Call sidesteps the SMS delivery issue entirely; if failures continue even then, checking the phone's own spam filter is the next thing to look at. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C13_overview. Topic: App & Self-Care Portal",
+  "title": "I can't log in to the My NovaTel app — it says 'OTP not received'.",
+  "document_type": "FAQ",
+  "category": "C13",
+  "department": "Digital Channels",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-15",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C13_overview"
+  ],
+  "tags": [
+    "app",
+    "c13"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C13_025.json",
+  "file_type": "json"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8386609",
+  "title": "Molecular and Cellular Approaches for Diversifying and Extending Optogenetics",
+  "content": "Optogenetic technologies employ light to control biological processes within targeted cells in vivo with high temporal precision. Here, we show that application of molecular trafficking principles can expand the optogenetic repertoire along several long-sought dimensions. Subcellular and transcellular trafficking strategies now permit (1) optical regulation at the far-red/infrared border and extension of optogenetic control across the entire visible spectrum, (2) increased potency of optical inhibition without increased light power requirement (nanoampere-scale chloride-mediated photocurrents that maintain the light sensitivity and reversible, step-like kinetic stability of earlier tools), and (3) generalizable strategies for targeting cells based not only on genetic identity, but also on morphology and tissue topology, to allow versatile targeting when promoters are not known or in genetically intractable organisms. Together, these results illustrate use of cell-biological principles to enable expansion of the versatile fast optogenetic technologies suitable for intact-systems biology and behavior.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

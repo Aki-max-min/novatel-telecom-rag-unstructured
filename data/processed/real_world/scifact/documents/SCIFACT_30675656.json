@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_30675656",
+  "title": "Dishevelled Activates JNK and Discriminates between JNK Pathways in Planar Polarity and wingless Signaling",
+  "content": "Frizzled family proteins have been described as receptors of Wnt signaling molecules. In Drosophila, the two known Frizzled proteins are associated with distinct developmental processes. Genesis of epithelial planar polarity requires Frizzled, whereas Dfz2 affects morphogenesis by wingless-mediated signaling. Dishevelled is required in both signaling pathways. Here, we use genetic and overexpression assays to show that Dishevelled activates JNK cascades. Rescue analysis reveals different protein domain requirements in Dishevelled for the two pathways; the C-terminal DEP domain is essential to rescue planar polarity defects and induce JNK signaling. Furthermore, the planar polarity-specific dsh1 allele is mutated in the DEP domain. Our results indicate that different Wnt/Fz signals activate distinct intracellular pathways, and Dishevelled discriminates among them by distinct domain interactions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

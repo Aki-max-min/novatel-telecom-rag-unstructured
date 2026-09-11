@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_017",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 17,
+  "text": "33.31 14 Maharashtra Incl. Mumbai 128.56 41.49 87.07 15 Manipur 2.52 1.05 1.47 16 Meghalaya 2.70 1.72 0.98 17 Mizoram 1.42 0.54 0.88 18 Nagaland 1.74 0.92 0.83 19 Odisha 35.65 23.29 12.36 20 Punjab 34.18 11.99 22.18 21 Rajasthan 66.14 35.56 30.58 22 Sikkim 0.79 0.49 0.30 23 Tamil Nadu 79.63 23.80 55.82 24 Telangana 41.82 16.55 25.27 25 Tripura 3.33 1.77 1.56 26 Uttar Pradesh (UPE + UPW) 167.85 90.20 77.65 27 Uttarakhand 12.52 6.34 6.18 28 West Bengal Incl. Kolkata 80.34 35.86 44.48 Union Territories 1 Andaman & Nicobar Islands 0.53 0.27 0.27 2 Chandigarh 1.95 0.03 1.92 3 Dadra and Nagar Haveli and Daman and Diu 0.94 0.33 0.61 4 Delhi 39.55 0.43 39.12 5 Jammu & Kashmir 12.18 5.88 6.30 6 Ladakh 0.54 0.31 0.22 7 Lakshdweep 0.07 0.02 0.05 8 Puduchery 1.23 0.39 0.84 Total 1200.80 534.69 666.11 21 Table 1.7: State/UT wise total Tele-density Sl.No. State/UT Total Tele-density (%) Total Rural Urban 1 Andhra Pradesh 84.33 74.21 101.02 2 Arunachal Pradesh 80.06 72.18 102.36 3 Assam 73.81 56.62 165.32 4 Bihar 55.70 44.57 133.94 5 Chhattisgarh 70.07 47.30 129.25 6 Goa 157.04 187.20 148.52 7 Gujarat 91.06 67.05 115.31 8 Haryana 118.16 71.67 179.01 9 Himachal Pradesh 120.37 86.96 409.45 10 Jharkhand 62.18 47.32 103.35 11 Karnataka 105.62 70.29 148.09 12 Kerala 119.51 - - 13 Madhya Pradesh 69.10 44.59 128.47 14 Maharashtra Incl. Mumbai 100.11 63.47 138.10 15 Manipur 76.60 47.65 135.41 16 Meghalaya 79.14 63.50 138.90 17 Mizoram 112.52 96.14 125.64",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

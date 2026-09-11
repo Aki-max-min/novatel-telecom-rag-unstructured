@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_471735_chunk_001",
+  "document_id": "SCIFACT_471735",
+  "chunk_index": 1,
+  "text": "gene is indicated by band-shift and DNase I footprinting experiments that demonstrate specific binding of the SoxR protein in cell extracts to the soxS promoter. The mode of SoxR binding to DNA appears to be similar to that of its homolog MerR in that the SoxR footprint spans the -10 to -35 region of the soxS promoter.",
+  "title": "Two-stage control of an oxidative stress regulon: the Escherichia coli SoxR protein triggers redox-inducible expression of the soxS regulatory gene.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

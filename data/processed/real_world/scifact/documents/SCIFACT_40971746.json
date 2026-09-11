@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_40971746",
+  "title": "A bird's-eye view of sex chromosome dosage compensation.",
+  "content": "Intensive study of a few genetically tractable species with XX/XY sex chromosomes has produced generalizations about the process of sex chromosome dosage compensation that do not fare well when applied to ZZ/ZW sex chromosome systems, such as those in birds. The inherent sexual imbalance in dose of sex chromosome genes has led to the evolution of sex-chromosome-wide mechanisms for balancing gene dosage between the sexes and relative to autosomal genes. Recent advances in our knowledge of avian genomes have led to a reexamination of sex-specific dosage compensation (SSDC) in birds, which is less effective than in known XX/XY systems. Insights about the mechanisms of SSDC in birds also suggest similarities to and differences from those in XX/XY species. Birds are thus offering new opportunities for studying dosage compensation in a ZZ/ZW system, which should shed light on the evolution of SSDC more broadly.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

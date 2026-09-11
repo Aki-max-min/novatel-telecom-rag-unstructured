@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_16625620",
+  "title": "Research in cardiovascular care: a position statement of the Council on Cardiovascular Nursing and Allied Professionals of the European Society of Cardiology.",
+  "content": "To deliver optimal patient care, evidence-based care is advocated and research is needed to support health care staff of all disciplines in deciding which options to use in their daily practice. Due to the increasing complexity of cardiac care across the life span of patients combined with the increasing opportunities and challenges in multidisciplinary research, the Science Committee of the Council on Cardiovascular Nursing and Allied Professionals (CCNAP) recognised the need for a position statement to guide researchers, policymakers and funding bodies to contribute to the advancement of the body of knowledge that is needed to further improve cardiovascular care. In this paper, knowledge gaps in current research related to cardiovascular patient care are identified, upcoming challenges are explored and recommendations for future research are given.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

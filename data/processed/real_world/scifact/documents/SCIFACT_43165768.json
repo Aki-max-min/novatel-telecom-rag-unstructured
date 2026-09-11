@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_43165768",
+  "title": "In vitro antimicrobial activity of mangrove plant Sonneratia alba.",
+  "content": "OBJECTIVE To investigate the antimicrobial property of mangrove plant Sonneratia alba (S. alba). METHODS The antimicrobial activity was evaluated using disc diffusion and microdilution methods against six microorganisms. Soxhlet apparatus was used for extraction with a series of solvents, n-hexane, ethyl acetate and methanol in sequence of increasing polarity. RESULTS Methanol extract appeared to be the most effective extract while n-hexane extract showed no activity. The antimicrobial activities were observed against the gram positive bacteria Staphylococcus aureus (S. aureus) and Bacillus cereus (B. cereus), the gram negative Escherichia coli (E. coli) and the yeast Cryptococcus neoformans. Pseudomonas aeruginosa and Candida albicans appeared to be not sensitive to the concentrations tested since no inhibition zone was observed. E. coli (17.5 mm) appeared to be the most sensitive strain followed by S. aureus (12.5 mm) and B. cereus (12.5 mm). CONCLUSIONS From this study, it can be concluded that S. alba exhibits antimicrobial activities against certain microorganisms.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

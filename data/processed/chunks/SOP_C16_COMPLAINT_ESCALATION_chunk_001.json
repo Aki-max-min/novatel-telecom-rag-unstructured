@@ -1,0 +1,20 @@
+{
+  "chunk_id": "SOP_C16_COMPLAINT_ESCALATION_chunk_001",
+  "document_id": "SOP_C16_COMPLAINT_ESCALATION",
+  "chunk_index": 1,
+  "text": "& Security Response SOP. Exception Handling Cases outside standard scope require supervisor sign-off before proceeding. Validation Confirm the account/system reflects the expected end state before the case is closed, and obtain customer confirmation where applicable. Escalation Escalations beyond first-line resolution are logged with a unique ticket reference and routed to the relevant specialist team, with an SLA acknowledgement sent to the customer within 24 hours. SLA / Timing First-line resolution target is same working day; escalations to specialist teams carry a 2-3 working day SLA. Audit Requirements Every action taken under this SOP must be logged against the account with agent ID, timestamp, and outcome for audit and quality-review purposes. Related Documents KB_C16_complaint_escalation",
+  "title": "Complaint Escalation and Nodal Officer Referral",
+  "document_type": "SOP",
+  "category": "C16",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c16"
+  ],
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C16_COMPLAINT_ESCALATION.docx",
+  "file_type": "docx"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_065",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 65,
+  "text": "be measured using network-generated data in Time Consistent Busy Hour (TCBH) over the assessment period. The following general formula shall be used to measure the performance against these two parameters. The respective radio network counters, for respective technology, shall be used for calculation of the performance. Signalling or traffic channel congestion = Number of blocked calls due to signal or traffic channel non−availability Number of originating call attempts × 100 5.3. Connections with good voice quality (i) The performance against this parameter shall be computed based on system generated measurement during TCBH of the LSA. (ii) The quality of voice in cellular mobile telecom services (GSM), is measured on a scale from 0 to 7 in GSM technology. As the quality deteriorates, this value increases. The quality of the voice is good, if this value remains between 0 and 4. (iii) In respect of 4G/5G networks, connection with uplink SINR ≥ 0dB provides assurance of good voice quality. (iv) Accordingly, the performance against the parameter for the assessment shall be calculated during TCBH through the following formula: = [(𝐆𝐒𝐌 𝐯𝐨𝐢𝐜𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 𝐰𝐢𝐭𝐡 𝐑𝐱 𝐐𝐮𝐚𝐥≤𝟒) + (𝟒𝐆/𝟓𝐆 𝐯𝐨𝐢𝐜𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧 𝐰𝐢𝐭𝐡 𝐒𝐈𝐍𝐑≥𝟎)] [𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐆𝐒𝐌 𝐯𝐨𝐢𝐜𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧+ 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝟒𝐆/𝟓𝐆 𝐯𝐨𝐢𝐜𝐞 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐨𝐧𝐬] × 𝟏𝟎𝟎 121 5.4. Jitter (in 4G and 5G network) (i) Jitter provides a measure of variation in time in arrival of packets from a source to destination. A high value of jitter adversely affects the user experience especially in real time interactive applications. (ii) ITU-T Recommendation3 Y.1540",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

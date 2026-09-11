@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10039688",
+  "title": "Extensive diversity of Ig-superfamily proteins in the immune system of insects.",
+  "content": "The extensive somatic diversification of immune receptors is a hallmark of higher vertebrates. However, whether molecular diversity contributes to immune protection in invertebrates is unknown. We present evidence that Drosophila immune-competent cells have the potential to express more than 18,000 isoforms of the immunoglobulin (Ig)-superfamily receptor Down syndrome cell adhesion molecule (Dscam). Secreted protein isoforms of Dscam were detected in the hemolymph, and hemocyte-specific loss of Dscam impaired the efficiency of phagocytic uptake of bacteria, possibly due to reduced bacterial binding. Importantly, the molecular diversity of Dscam transcripts generated through a mechanism of alternative splicing is highly conserved across major insect orders, suggesting an unsuspected molecular complexity of the innate immune system of insects.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

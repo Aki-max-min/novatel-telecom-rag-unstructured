@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_140",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 140,
+  "text": "there may be requirement to ensure protection of data which is recorded initially by an entity from a particular DLT system while same data might be used by another entity belonging to another DLT system. Appropriate measures are required while such data is shared across DLT systems and for its processing by applications running over DLT systems. It may also happen that an access provider may offer relatively more attractive price and also be lenient in taking action against the defaulters. It would not be desirable to put unnecessary burden on TAP for preliminary examination of UCC complaints which are originated because of poor system implementations by other OAPs or deliberate attempts to capture market by providing protection to telemarketers not complying with the regulations. In such scenarios, it would be preferred to encourage senders to use services of entities participating in the UCC eco system which have direct connectivity with the TAP. 3.3.32 Confining possibilities for all such entities to connect only to TAP would not be advisable as it may monopolize the market and increase the price. To address concerns such as protection of the data, appropriate implementation of system and processes to protect interests of senders and recipients, it may require having structure of promotional and transactional charges that encourages senders to prefer to route traffic directly to TAP and still keep options to take different route if required. In present regulations, promotional and transactional charges are fixed as Rs. 0.05 (five paisa only). The Authority is",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

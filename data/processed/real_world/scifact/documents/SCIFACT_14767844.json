@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14767844",
+  "title": "Golli protein negatively regulates store depletion-induced calcium influx in T cells.",
+  "content": "Calcium influx is crucial for T cell activation and differentiation. The detailed regulation of this process remains unclear. We report here that golli protein, an alternatively spliced product of the myelin basic protein gene, plays a critical role in regulating calcium influx in T cells. Golli-deficient T cells were hyperproliferative and showed enhanced calcium entry upon T cell receptor stimulation. We further found that golli regulates calcium influx in T cells through the inhibition of the store depletion-induced calcium influx. Mutation of the myristoylation site on golli disrupted its association with the plasma membrane and reversed its inhibitory action on Ca2+ influx, indicating that membrane association of golli was essential for its inhibitory action. These results indicate that golli functions in a unique way to regulate T cell activation through a mechanism involving the modulation of the calcium homeostasis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

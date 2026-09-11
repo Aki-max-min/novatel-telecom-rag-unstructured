@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_058",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 58,
+  "text": "for receiving of commercial communications: UCC Time band for Communication (Choices for Preference(s)) IVRS: Call to 1909 and press at prompt to block SMS: Send SMS to 1909 following text USSD: Dial USSD String All Time Bands (to be blocked) 20 BLOCK 20 *1909*20# 00:00 Hrs to 06:00 Hrs, 21 BLOCK 21 *1909*11# 06:00 Hrs to 08:00 Hrs, 22 BLOCK 22 *1909*22# 08:00 Hrs to 10:00 Hrs, 23 BLOCK 23 *1909*23# 10:00 Hrs to 12:00 Hrs, 24 BLOCK 24 *1909*24# 12:00 Hrs to 14:00 Hrs, 25 BLOCK 25 *1909*25# 14:00 Hrs to 16:00 Hrs, 26 BLOCK 26 *1909*26# 16:00 Hrs to 18:00 Hrs, 27 BLOCK 27 *1909*27# 18:00 Hrs to 21:00 Hrs, 28 BLOCK 28 *1909*28# 21:00 Hrs to 24:00 Hrs, 29 BLOCK 29 *1909*29# Note-1: Time Bands (i), (ii), (iii) and (ix) shall be default OFF for all customers irrespective of the status of registration of customer i.e. for all customers including those who have not registered any type of preference(s), anytime unless customer has registered its preference(s) and switched ON; Note-2: In case of communication with customer executive of Customer Care Center of access provider, preference to opt-out may be communicated; Note-3: Customer to be communicated with confirmation and final status along with options to unblock; Note-4: BLOCK 20 option shall block all categories of modes while saving current status of customer for categories of content, time band and day types, however transactional type of commercial communications may not be blocked; Provided that the Authority may, from time",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

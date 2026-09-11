@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4457834",
+  "title": "Human oocytes reprogram adult somatic nuclei of a type 1 diabetic to diploid pluripotent stem cells",
+  "content": "The transfer of somatic cell nuclei into oocytes can give rise to pluripotent stem cells that are consistently equivalent to embryonic stem cells, holding promise for autologous cell replacement therapy. Although methods to induce pluripotent stem cells from somatic cells by transcription factors are widely used in basic research, numerous differences between induced pluripotent stem cells and embryonic stem cells have been reported, potentially affecting their clinical use. Because of the therapeutic potential of diploid embryonic stem-cell lines derived from adult cells of diseased human subjects, we have systematically investigated the parameters affecting efficiency of blastocyst development and stem-cell derivation. Here we show that improvements to the oocyte activation protocol, including the use of both kinase and translation inhibitors, and cell culture in the presence of histone deacetylase inhibitors, promote development to the blastocyst stage. Developmental efficiency varied between oocyte donors, and was inversely related to the number of days of hormonal stimulation required for oocyte maturation, whereas the daily dose of gonadotropin or the total number of metaphase II oocytes retrieved did not affect developmental outcome. Because the use of concentrated Sendai virus for cell fusion induced an increase in intracellular calcium concentration, causing premature oocyte activation, we used diluted Sendai virus in calcium-free medium. Using this modified nuclear transfer protocol, we derived diploid pluripotent stem-cell lines from somatic cells of a newborn and, for the first time, an adult, a female with type 1 diabetes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

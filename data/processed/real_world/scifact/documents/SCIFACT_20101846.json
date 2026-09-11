@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20101846",
+  "title": "Homogeneously dispersed multimetal oxygen-evolving catalysts",
+  "content": "Earth-abundant first-row (3d) transition metal–based catalysts have been developed for the oxygen-evolution reaction (OER); however, they operate at overpotentials substantially above thermodynamic requirements. Density functional theory suggested that non-3d high-valency metals such as tungsten can modulate 3d metal oxides, providing near-optimal adsorption energies for OER intermediates. We developed a room-temperature synthesis to produce gelled oxyhydroxides materials with an atomically homogeneous metal distribution. These gelled FeCoW oxyhydroxides exhibit the lowest overpotential (191 millivolts) reported at 10 milliamperes per square centimeter in alkaline electrolyte. The catalyst shows no evidence of degradation after more than 500 hours of operation. X-ray absorption and computational studies reveal a synergistic interplay between tungsten, iron, and cobalt in producing a favorable local coordination environment and electronic structure that enhance the energetics for OER.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

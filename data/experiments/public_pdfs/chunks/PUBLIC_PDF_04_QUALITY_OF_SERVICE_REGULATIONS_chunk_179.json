@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_179",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 179,
+  "text": "such requirement should ideally be carried out by TRAI/ Government body, if required. (b) Analysis and Conclusion Considering the request of stakeholders, the Authority has decided to drop this parameter. 5.4.7 Service Coverage (a) Input of Stakeholders (i) Some of the stakeholders submitted that this parameter is part of the licensing norm. It will not be appropriate if the same topic is regulated by both Licensor and TRAI. Hence, this provision should not be part of QoS regulation. (ii) Some of the stakeholders submitted that this could continue to be part of perception of service parameters. (iii) Some of the stakeholders submitted that earlier these monitoring parameters were to be only monitored by TSPs without any reporting requirement and financial disincentives. However, the draft regulation has made this parameter triple stringent i.e. (a) introduction of reporting requirement, (b) compliance to be achieved as per the benchmark at LSA level and State/UT level, (c) FD on delayed reporting. (iv) One of the stakeholders submitted that there is no provision for the usage of crowdsource data in this measurement. Crowdsource data can effectively map between indoor and outdoor coverage and would be a positive inclusion as a possible measurement device in this section. 164 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] (b) Analysis and Conclusion Considering the request of stakeholders and due to the introduction of new parameter for availability of service wise geospatial coverage map on the service provider’s website, the Authority has decided to drop this parameter to avoid duplication",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

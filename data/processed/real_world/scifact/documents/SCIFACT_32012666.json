@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_32012666",
+  "title": "Declining tuberculosis notification trend associated with strengthened TB and expanded HIV care in Swaziland.",
+  "content": "This retrospective observational review documents the efforts of the Swaziland National Tuberculosis (TB) Control Programme between 2004 and 2014. The objective is to describe the disparity between actual declines in case notification and increases in estimated incidence. The review of policies and practices shows the most influential factors associated with the decrease in TB case notification to be an increase in access to antiretroviral therapy for co-infected TB patients, the general success of TB and human immunodeficiency virus service integration in the country and improvements in implementation of all components of directly observed treatment, active case finding, and rapid diagnosis using new technologies.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

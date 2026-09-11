@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_317204_chunk_001",
+  "document_id": "SCIFACT_317204",
+  "chunk_index": 1,
+  "text": "global canonical Wnt signaling appeared largely unaffected in the double Dvl mutants, suggesting that low Dvl levels are sufficient for functional canonical Wnt signals. In summary, we demonstrate that Dvl3 is required for cardiac outflow tract development and describe its importance in the PCP pathway during neurulation and cochlea development. Finally, we establish several developmental processes in which the three Dvls are functionally redundant.",
+  "title": "Murine Dishevelled 3 Functions in Redundant Pathways with Dishevelled 1 and 2 in Normal Cardiac Outflow Tract, Cochlea, and Neural Tube Development",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

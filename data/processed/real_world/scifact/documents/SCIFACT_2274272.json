@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2274272",
+  "title": "Human IRGM induces autophagy to eliminate intracellular mycobacteria.",
+  "content": "Immunity-related p47 guanosine triphosphatases (IRG) play a role in defense against intracellular pathogens. We found that the murine Irgm1 (LRG-47) guanosine triphosphatase induced autophagy and generated large autolysosomal organelles as a mechanism for the elimination of intracellular Mycobacterium tuberculosis. We also identified a function for a human IRG protein in the control of intracellular pathogens and report that the human Irgm1 ortholog, IRGM, plays a role in autophagy and in the reduction of intracellular bacillary load.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

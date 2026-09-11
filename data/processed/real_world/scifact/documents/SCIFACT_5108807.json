@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5108807",
+  "title": "CNTF reverses obesity-induced insulin resistance by activating skeletal muscle AMPK",
+  "content": "Ciliary neurotrophic factor (CNTF) induces weight loss and improves glucose tolerance in humans and rodents. CNTF is thought to act centrally by inducing hypothalamic neurogenesis to modulate food intake and peripherally by altering hepatic gene expression, in a manner similar to that of leptin. Here, we show that CNTF signals through the CNTFRα–IL-6R–gp130β receptor complex to increase fatty-acid oxidation and reduce insulin resistance in skeletal muscle by activating AMP-activated protein kinase (AMPK), independent of signaling through the brain. Thus, our findings further show that the antiobesogenic effects of CNTF in the periphery result from direct effects on skeletal muscle, and that these peripheral effects are not suppressed by diet-induced or genetic models of obesity, an essential requirement for the therapeutic treatment of obesity-related diseases.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "RCA_INC_2026_0197_chunk_001",
+  "document_id": "RCA_INC_2026_0197",
+  "chunk_index": 1,
+  "text": "see linked incident report for full detail. Corrective Actions Reduce the customer-report-to-broadcast-alert threshold via an automated spike-detection rule on fraud-report volume (target: 30 days). Establish standing takedown-request relationships with major hosting providers via the industry CERT-In liaison channel. Preventive Actions Longer-term preventive measures are tracked alongside the corrective actions above and reviewed at the next governance cycle. Monitoring Changes Monitoring thresholds/alerts relevant to this failure mode are reviewed and updated where the investigation identified a detection gap. Ownership Action 1 completed; Action 2 in progress; owner: Security team. Status Action 1 completed; Action 2 in progress; owner: Security team. Related Documents Related documents: INC_INC_2026_0197.",
+  "title": "RCA: Phishing SMS Campaign Impersonating NovaTel (INC-2026-0197)",
+  "document_type": "RCA",
+  "category": "C18",
+  "department": "Security",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "INC_INC_2026_0197"
+  ],
+  "tags": [
+    "c18",
+    "rca"
+  ],
+  "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0197.docx",
+  "file_type": "docx"
+}

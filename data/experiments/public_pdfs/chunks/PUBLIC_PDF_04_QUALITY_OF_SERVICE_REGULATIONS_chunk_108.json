@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_108",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 108,
+  "text": "and reducing bureaucratic hurdles. (v) The long-term trend analysis supported by quarterly averages facilitates strategic planning and decision- making in the telecom sector. Monitoring data latency on a quarterly basis empowers Access Service Providers to address persistent issues, leading to strategic improvements in network infrastructure over time. (vi) Considering the above, stakeholders suggested that quarterly averaging of QoS parameters would help TRAI in correctly assessing the QoS trends and would help in taking more informed decisions. Therefore, it was submitted that TRAI should continue with the present practice of quarterly averaging. (vii) One of the stakeholders submitted that the shift from quarterly to monthly reporting is considered highly beneficial in the telecom service industry due to several reasons including enabling quicker identification of trends and issues. This increased frequency is also seen as facilitating faster decision- making, improved performance monitoring, enhanced forecasting accuracy, increased accountability among stakeholders, better investor relations, and a potential competitive advantage. 137 (viii) One of the stakeholders submitted that the external factors are considered to contribute to variations in service quality and require continuous adaptation and innovation to deliver consistent services amidst a complex and dynamic operating environment. (b) Analysis and Conclusion (i) TRAI has been closely monitoring the performance of service providers against the QoS benchmarks through Performance Monitoring Reports (PMRs) submitted by service providers. It has been observed that even with the technological advancement in the field of telecommunications and advancement in performance management tools, the QoS experienced by the end consumers remains a",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

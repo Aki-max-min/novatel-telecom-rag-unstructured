@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_188",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 188,
+  "text": "If monitoring is still deemed necessary, they proposed reducing the benchmark to a threshold of > 90%. (ii) One of the stakeholders submitted that the rationale behind having both accessibility and percentage of calls answered parameters is unclear. It is suggested that only the percentage of calls answered should be retained. Under the existing QoS regulations for Broadband (Wireline), the benchmark for calls answered by operators was set at ≥ 80%, which service providers already struggle to meet. The new benchmark of ≥ 95% is deemed nearly impossible, and a request is made to reduce it to ≥ 85%. Additionally, the exclusion of other customer service avenues like mobile apps, social media, and chatbots from the measurement methodology is seen as outdated, as many customers are tech-savvy and use these channels. (iii) It is also highlighted that customer behaviour, such as contacting call centres for issues unrelated to broadband connectivity, creates unplanned demand, which is difficult to manage. The challenge is further compounded by variations in demand due to uncontrollable factors like weather and outages. Establishing and maintaining call centres to meet high benchmarks is particularly challenging and costly for pure play ISPs. Therefore, they requested the Authority to revisit the benchmarks, remove the accessibility to call centres as a parameter, and lower the calls answered benchmark from ≥ 95% to ≥ 85%. 167 (b) Analysis and Conclusion (i) The accessibility of call centre numbers is significant from the perspective of complaint redressal mechanism and customer service. Though the service",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

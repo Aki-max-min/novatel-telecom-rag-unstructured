@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9197092",
+  "title": "Molecular mechanisms of (-)-epicatechin and chlorogenic acid on the regulation of the apoptotic and survival/proliferation pathways in a human hepatoma cell line.",
+  "content": "Dietary polyphenols have been associated with reduced risk of chronic diseases, but the precise molecular mechanisms of protection remain unclear. This work was aimed at studying the effect of (-)-epicatechin (EC) and chlorogenic acid (CGA) on the regulation of apoptotic and survival/proliferation pathways in a human hepatoma cell line (HepG2). EC or CGA treatment for 18 h had a slight effect on cell viability and decreased reactive oxygen species formation, and EC alone promoted cell proliferation, whereas CGA increased glutathione levels. Phenols neither induced the caspase cascade for apoptosis nor affected expression levels of Bcl-xL or Bax. A sustained activation of the major survival signals AKT/PI-3-kinase and ERK was shown in EC-treated cells, rather than in CGA-exposed cells. These data suggest that EC and CGA have no effect on apoptosis and enhance the intrinsic cellular tolerance against oxidative insults either by activating survival/proliferation pathways or by increasing antioxidant potential in HepG2.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

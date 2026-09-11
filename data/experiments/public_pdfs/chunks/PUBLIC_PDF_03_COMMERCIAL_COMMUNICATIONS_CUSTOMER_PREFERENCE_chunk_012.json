@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_012",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 12,
+  "text": "property, or a business or investment opportunity that is offered or promoted; except where such entity maintains a distinct legal identity for the division or line of business dealing with offered goods, services or opportunity, in which case such division or line of business; (bg) “Sender information or SI” means the source, destination and routing information attached to a message or voice call, including, where applicable, the originator’s name and originating phone number, reference telephone number, and any other information that appears in the content of commercial communication identifying, or purporting to identify, the sender of the message or making voice call; (bh) “Service message or Service Call” means a message sent to a recipient or voice call made to recipient either with his consent or using a template registered for the purpose, the primary purpose of which is- to facilitate, complete, or confirm a commercial transaction that the recipient has previously consented to enter into with the sender; or to provide warranty information, product recall information, safety or security information with respect to a commercial product or service used or purchased by the recipient; to provide— (A) notification concerning a change in the terms or features of; or (B) notification of a change in the recipient’s standing or status with respect to; or (C) at regular periodic intervals, account balance information or other type of account statement with respect to, a subscription, membership, account, loan, or comparable ongoing; or (D) commercial relationship involving the ongoing purchase or use by",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

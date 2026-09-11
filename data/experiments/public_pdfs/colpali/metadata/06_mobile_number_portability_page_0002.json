@@ -1,0 +1,15 @@
+{
+  "page_id": 13,
+  "pdf_path": "regulations\\06_mobile_number_portability.pdf",
+  "pdf_name": "06_mobile_number_portability.pdf",
+  "document_id": "06_mobile_number_portability",
+  "page_number": 2,
+  "page_number_zero_based": 1,
+  "image_path": "page_images\\06_mobile_number_portability\\page_0002.jpg",
+  "embedding_path": "embeddings\\06_mobile_number_portability\\page_0002.pt",
+  "embedding_shape": [
+    1,
+    1030,
+    128
+  ]
+}

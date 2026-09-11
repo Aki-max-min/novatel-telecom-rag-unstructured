@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_003",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 3,
+  "text": "number assigned by the access provider in lieu of header or number; “Commercial Communication” means any voice call or message using telecommunication services, where the primary purpose is to inform about or advertise or solicit business for (A) goods or services; or (B) a supplier or prospective supplier of offered goods or services; or (C) a business or investment opportunity; or (D) a provider or prospective provider of such an opportunity; Explanation: For the purposes of this regulation it is immaterial whether the goods, services, land or opportunity referred to in the content of the communication exist(s), is/are lawful, or otherwise. Further, the purpose or intent of the communication may be inferred from: 4 (A) The content of the communication in the message or voice call (B) The manner in which the content of message or voice call is presented (C) The content in the communication during call back to phone numbers presented or referred to in the content of message or voice call; or the content presented at the web links included in such communication. “Consensus” means the concurrence among the participants on a distributed ledger to record an irrevocable data value, which is cryptographically secured; “Consent” means any voluntary permission given by the customer to sender to receive commercial communication related to specific purpose, product or service. Consent may be explicit or inferred as defined in these regulations; “Consent Acquirer or CA” means any sender with registered and valid header(s), who acquires consent through a prescribed process under",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_139",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 139,
+  "text": "OF INDIA: EXTRAORDINARY [PART III—SEC.4] (viii) The stakeholders have submitted that the reduction in network availability standards from 2% to 1% is deemed too stringent and doesn't account for factors beyond TSPs' control. However, the service providers have not provided supporting data or analysis against this proposed parameter with comments to substantiate their point. (ix) The analysis of the performance of the service providers against the present benchmark of ‘Base Station Accumulated downtime’ across LSAs is summarized below: Table-6: Service provider wise percentage of LSAs meeting the benchmark of Base Station Accumulated downtime TSP BS accumulated downtime QE Jun'23 QE Sept'23 QE Dec'23 QE Mar'24 TSP-1 <1% 95.5% 100.0% 100.0% 100.0% 1- 1.5% 4.5% 0.0% 0.0% 0.0% > 1.5% 0.0% 0.0% 0.0% 0.0% TSP-2 <1% 40.0% 40.0% 35.0% 45.0% 1- 1.5% 30.0% 25.0% 25.0% 20.0% > 1.5% 30.0% 35.0% 40.0% 35.0% TSP-3 <1% 100.0% 100.0% 100.0% 100.0% 1- 1.5% 0.0% 0.0% 0.0% 0.0% > 1.5% 0.0% 0.0% 0.0% 0.0% TSP-4 <1% 95.5% 100.0% 100.0% 100.0% 1- 1.5% 4.5% 0.0% 0.0% 0.0% > 1.5% 0.0% 0.0% 0.0% 0.0% TSP-5 <1% 95.5% 95.5% 100.0% 100.0% 1- 1.5% 4.5% 4.5% 0.0% 0.0% > 1.5% 0.0% 0.0% 0.0% 0.0% (x) From the above table, it may be seen that TSPs are already having network availability more than 99% in 95.5% LSA (except one TSP). This indicates that certain LSAs might be suffering due to higher benchmarks at present. Even with the revised parameter to be measured at the cell level, there should not be",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

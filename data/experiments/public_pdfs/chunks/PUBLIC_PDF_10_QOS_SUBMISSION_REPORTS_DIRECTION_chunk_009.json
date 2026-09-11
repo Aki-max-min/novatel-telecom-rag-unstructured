@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_009",
+  "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+  "chunk_index": 9,
+  "text": "Commissioning of Base Station Date of De- commissioning of Base Station, if any Downtime Annexure-I CGI Service Provider LSA Code 1-Oct-24 2-Oct-24 … … … 31-Dec-24 CBBH Annexure-I CGI Service Provider LSA Code 1-Oct-24 2-Oct-24 … … … 31-Dec-24 DCR_CS Annexure-I CGI Service Provider LSA Code 1-Oct-24 2-Oct-24 … … … 31-Dec-24 DCR_PS Annexure-I CGI Service Provider LSA Code 1-Oct-24 2-Oct-24 … … … 31-Dec-24 DL_PDR Annexure-I CGI Service Provider LSA Code 1-Oct-24 2-Oct-24 … … … 31-Dec-24 UL_PDR Annexure-I CGI Service Provider LSA Code 1-Oct-24 2-Oct-24 … … … 31-Dec-24 Call_Established Annexure-I CGI Service Provider LSA Code 1-Oct-24 2-Oct-24 … … … 31-Dec-24 SNO Annexure-II Date Time Date Time Date Time Measures taken to mitigate recurrence Part-II: Action taken report Fault rectified at Time taken in rectification of fault (in Hrs) Date of submisison of Final Report Root cause analysis with details of fault Part-I: Reporting of significant network outage Initial Report No [LSA/date(DDMMYYYY)/Sl No] Name of service provider Name of License Service area No. of Cells affected Approx. number of customers affected Technology (2G/ 3G/ 4G/ 5G) Fault reported at Name of District Name of State/UT Outage started from Primary Reason (Media fail/ Hardware fault/ Power failure/ Core network fault/ Other) Annexure-III Name of the Service Provider Report for the Quarter ending Year Postpaid Prepaid Postpaid Prepaid Benchmark - - - - ≥ 98% - ≤ 5 ≥ 85% - ≥ 99% ≤ 10 hrs ≤ 0.5% - - - ≤ 0.1% - - - - - -",
+  "title": "10 qos submission reports direction",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/10_qos_submission_reports_direction.pdf",
+  "file_type": "pdf"
+}

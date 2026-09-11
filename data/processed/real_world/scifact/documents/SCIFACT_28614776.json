@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_28614776",
+  "title": "Identification of functional cooperative mutations of SETD2 in human acute leukemia",
+  "content": "Acute leukemia characterized by chromosomal rearrangements requires additional molecular disruptions to develop into full-blown malignancy, yet the cooperative mechanisms remain elusive. Using whole-genome sequencing of a pair of monozygotic twins discordant for MLL (also called KMT2A) gene–rearranged leukemia, we identified a transforming MLL-NRIP3 fusion gene and biallelic mutations in SETD2 (encoding a histone H3K36 methyltransferase). Moreover, loss-of-function point mutations in SETD2 were recurrent (6.2%) in 241 patients with acute leukemia and were associated with multiple major chromosomal aberrations. We observed a global loss of H3K36 trimethylation (H3K36me3) in leukemic blasts with mutations in SETD2. In the presence of a genetic lesion, downregulation of SETD2 contributed to both initiation and progression during leukemia development by promoting the self-renewal potential of leukemia stem cells. Therefore, our study provides compelling evidence for SETD2 as a new tumor suppressor. Disruption of the SETD2-H3K36me3 pathway is a distinct epigenetic mechanism for leukemia development.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12787125",
+  "title": "The art and design of genetic screens: RNA interference",
+  "content": "The remarkable gene knockdown technique of RNAi has opened exciting new avenues for genetic screens in model organisms and human cells. Here we describe the current state of the art for RNAi screening, and stress the importance of well-designed assays and of analytical approaches for large-scale screening experiments, from high-throughput screens using simplified homogenous assays to microscopy and whole-animal experiments. Like classical genetic screens in the past, the success of large-scale RNAi surveys depends on a careful development of phenotypic assays and their interpretation in a relevant biological context.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

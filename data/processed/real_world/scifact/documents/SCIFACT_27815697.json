@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27815697",
+  "title": "The common marmoset as a novel animal model system for biomedical and neuroscience research applications.",
+  "content": "The common marmoset (Callithrix jacchus), a small New World primate, has been attracting much attention in the research field of biomedical science and neuroscience, based on its (i) cross-reactivity with human cytokines or hormones, (ii) comparative ease in handling due to its small size, (iii) high reproductive efficiency, (iv) establishment of basic research tools, and (v) advantages of its unique behavioral and cognitive characters. Various neurological disease models have been developed in the common marmoset, including Parkinson's disease, Huntington's disease, Alzheimer's disease, stroke, multiple sclerosis and spinal cord injury. We recently developed transgenic common marmoset with germline transmission, which is expected to provide a new animal model for the study of human diseases. In this review, we summarize the recent progress of biomedical research and neuroscience using common marmoset as an excellent model system.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

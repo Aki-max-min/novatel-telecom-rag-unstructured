@@ -1,0 +1,15 @@
+{
+  "page_id": 62,
+  "pdf_path": "regulations\\01_telecom_consumers_protection.pdf",
+  "pdf_name": "01_telecom_consumers_protection.pdf",
+  "document_id": "01_telecom_consumers_protection",
+  "page_number": 6,
+  "page_number_zero_based": 5,
+  "image_path": "page_images\\01_telecom_consumers_protection\\page_0006.jpg",
+  "embedding_path": "embeddings\\01_telecom_consumers_protection\\page_0006.pt",
+  "embedding_shape": [
+    1,
+    1030,
+    128
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_242",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 242,
+  "text": "required to be performed for regulatory compliances. This opens up the opportunity for various stakeholders to consolidate infrastructure resource requirements and share resources among themselves to bring down the cost of compliance. These entities will have a business model considering large number of commercial communication messages flowing through telecom networks. In this regard, it is observed that such messages are in order of 20 to 30 billion in a month. It is expected that cost of compliance to implement these regulations if calculated on per message basis would be minuscule while it will give flexibility to consumers to exercise various options relating to receipt of commercial communications, manage their consent effectively and also reduce the regulatory burden of the telecom service provider due to automation of processes and sharing various functions with participating entities. 11.6 Benefits to different stakeholders: Implementation of new regulatory framework would benefit all stakeholders. 11.6.1 Customers would be benefited as it would: i. Enable capabilities in the system to define categories for preferences in more granular manner and thus allowing them to precisely convey their interest areas; ii. Empowering them to know the scope and purpose of the consent before they give consent to the sender and requiring proper verifcation that customer has agreed to give consent; iii. Allowing them to set their preference about types of days, time bands on which they would like to receive commercial communications. It also allows them to set preferred modes of communication; iv. Empowering them to have more control",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

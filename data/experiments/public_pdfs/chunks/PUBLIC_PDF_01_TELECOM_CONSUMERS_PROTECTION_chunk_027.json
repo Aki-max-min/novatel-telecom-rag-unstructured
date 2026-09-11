@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_027",
+  "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+  "chunk_index": 27,
+  "text": "an URL to the relevant details as in (i) to (iv) above from which printable and saveable file(s) can be accessed and downloaded. 20. Information to consumer as soon as the mobile equipment is switched on by the consumer in the visiting country – Every service provider shall, immediately after the consumer switches on his mobile equipment in the visiting country, (a) provide to the consumer all the information and in the manner as specified in regulation 19; (b) alert and advise the consumer, through SMS, in case the consumer has not subscribed to any specific International Mobile Roaming Tariff Pack offered by the service provider, regarding the possibility of incurring significantly high charges due to usage of voice, SMS or data services at standard rates. 21. Information to consumers at different stages of exhaustion of entitled data usage while roaming internationally as per the selected tariff - Every service provider shall, through SMS, email and mobile application, if available, provide an alert, when the data usage exceeds fifty per cent, eighty per cent, ninety per cent and one hundred per cent of the data entitlement. 22. Information to the consumer who may initiate use of international mobile roaming service in a country or area not covered by the tariff subscribed or where the applicable tariff differs from the subscribed tariff – Every service provider shall, in case a consumer initiates use of international mobile roaming service in a country or area not covered by the tariff subscribed or where",
+  "title": "01 telecom consumers protection",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/01_telecom_consumers_protection.pdf",
+  "file_type": "pdf"
+}

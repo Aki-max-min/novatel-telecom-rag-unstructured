@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_042",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 42,
+  "text": "increased from 939.51 million at the end of Mar-25 to 949.93 million at the end of Jun-25. 1.34 The contribution of 2G, 3G, 4G and 5G data usage in total volume of wireless data usage are about 0.07%, 0.20%, 67.57% and 32.15% respectively during the QE Jun-25. 1.35 Technology-wise trend of growth in volume of wireless data usage is depicted in the following chart: - Chart 1.10: Trend of technology wise wireless data usase (in PB) 1.36 The following chart depicts the trend of number of wireless data subscribers and volume of wireless data usage in QE Jun-25. 47 66 57 49 48 272 263 221 159 132 44482 43083 41616 41424 43926 11383 12762 15082 17815 20903 56183 56174 56975 59447 65009 0 10000 20000 30000 40000 50000 60000 70000 Jun-24 Sep-24 Dec-24 Mar-25 Jun-25 Wireless Data Usage (In PB) 2G 3G 4G 5G Total wireless data usage (PB) 31 Chart 1.11: Trend of Wireless data subscribers (million) and volume of wireless data usage (PB) 32 Section C: Wireline Service Table 1.26: Service Providers providing Wireline Service [As on 30th June, 2025] Sl. No. Name of the Service Provider Area of Operation 1 Andhra Pradesh State FiberNet Ltd Andhra Pradesh 2 Bharat Sanchar Nigam Ltd. All India except Delhi and Mumbai 3 Bharti Airtel Ltd Andhra Pradesh, Assam, Delhi, Gujarat, Haryana, Himachal Pradesh, Jammu & Kashmir, Karnataka, Kerala, Kolkata, Madhya Pradesh, Maharashtra, Mumbai, Punjab, Rajasthan, Tamil Nadu including Chennai, UP-East and UP-West. 4 Satzilio Telecom Pvt. Ltd. (formerly VMIPL)",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_192",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 192,
+  "text": "in other jurisdictions such as in Singapore where in bulk is defined in the Spam Control Act (SCA) 2007, for details refer link https://sso.agc.gov.sg/Act/SCA2007. In view of this, the Authority also decides to define bulk based on number of messages or voice calls made during 24 hours, seven days and thirty days. The Authority also decides that Access Provider should entertain reports from such customers for detection of bulk UCC sender and non-compliance of regulation. Access Provider may be required to consider all the complaints made within relevant time period of commercial communication. Even if the complaint is received after the specified time period, TSP should not reject it, but consider it as report for use in UCC detection. 5.3.5 System to Detect UCC: To deal with UCC from UTM, signature solutions needs to be enhanced which shall be referred to as the UCC_Detect System. While determining whether a person or entity is suspected sender of UCC, this system may include additional sources of inputs such as sending information (SI) from reports, inputs collected from Honeypots, information shared by Signature Solutions of other access providers, information available from network elements e.g. HLR, miss call alerts etc. Such system would be able to identify suspected UTMs with greater accuracy when it is equipped with more information about suspected UCC senders. Technology based solutions can be designed to carry out all these checks and retrieve desired information in a short time. This system may also use Artificial Intelligence (AI) and Machine Learning",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

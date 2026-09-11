@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_147",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 147,
+  "text": "two separate benchmarks. One benchmark shall measure the call setup success rate within the service provider network with benchmark of 98%. The other parameter shall measure call setup success rate for all the incoming calls in the service area network from all other service providers' networks, including the networks of the service area, with the existing benchmark of ≥ 95%. It is pertinent to mention that Call Set-up Success Rate is a technology agnostic parameter which is applicable to voice call establishment in Circuit Switched network and Packet Switched network. 5.3.5 Point of Interconnection (PoI) Congestion (90th percentile value) (a) Input of Stakeholders (i) Some of the stakeholders submitted that this parameter should be removed from the proposed regulation. (ii) Some of the stakeholders submitted that this parameter can only be measured within the individual service provider networks and not between different service providers. Thus, end to end measurement of this parameter across operators, irrespective of the type of PoI (IP or TDM), is not technically feasible. (iii) It is also highlighted by the stakeholders that the PoIs for voice calls are technology neutral and do not cater specifically to 2G/3G traffic or 4G/5G traffic. Any bifurcation of parameter based on technologies should be removed from the draft regulation. Hence this parameter should be removed from QoS reporting. IP POIs are still at nascent stage and will increase gradually over next few years as this involves huge CAPEX involvement. 151 (iv) Stakeholders further submitted that if this parameter relates to",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

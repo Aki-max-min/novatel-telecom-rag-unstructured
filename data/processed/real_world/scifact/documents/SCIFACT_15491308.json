@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_15491308",
+  "title": "SIRT1 is required for long-term growth of human mesenchymal stem cells",
+  "content": "Human mesenchymal stem cells (MSCs) have therapeutic potential because of their ability to self-renew and differentiate into multiple tissues. However, senescence often occurs in MSCs when they are cultured in vitro and the molecular mechanisms underlying this effect remain unclear. In this study, we found that NAD-dependent protein deacetylase SIRT1 is differentially expressed in both human bone marrow-derived MSCs (B-MSCs) and adipose tissue-derived MSCs after increasing passages of cell culture. Using lentiviral shRNA we demonstrated that selective knockdown of SIRT1 in human MSCs at early passage slows down cell growth and accelerates cellular senescence. Conversely, overexpression of SIRT1 delays senescence in B-MSCs that have undergone prolonged in vitro culturing and the cells do not lose adipogenic and osteogenic potential. In addition, we found that the delayed accumulation of the protein p16 is involved in the effect of SIRT1. However, resveratrol, which has been used as an activator of SIRT1 deacetylase activity, only transiently promotes proliferation of B-MSCs. Our findings will help us understand the role of SIRT1 in the aging of normal diploid cells and may contribute to the prevention of human MSCs senescence thus benefiting MSCs-based tissue engineering and therapies.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

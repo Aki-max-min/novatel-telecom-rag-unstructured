@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_123",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 123,
+  "text": "templates, access providers may suspend the consent acquired under disguise or de-register the corresponding content templates. Dispute resolution between participant in UCC eco system and access providers would be in accordance to the agreements in which they have entered into. However, codes of practice may provide further specific details to deal with such situations. In view of the above, the CoP for entities may specify detailed procedure and policies to formulate templates, get them registered and apply them while delivering commercial communications. 3.3.14 Content templates to avoid instances of misuse on ground of inferred consent: Consent may be of 69 explicit type and inferred type. Inferred consent is not explicitly recorded in consent data, and therefore, cannot be checked for in the scrubbing process. However, content of commercial communication sent against inferred consent would largely be against content templates registered for this purpose. To check misuse of provisions for inferred consent, sender may be required to register content templates for sending content against inferred consent. While registering templates, type, nature and length of content may be checked so that it does not contain material for promotional purposes. Post-delivery checks on sample basis, may easily ensure compliance of the provisions for inferred consent. In case of inferred consent, sender may be required to use registered content templates. Further specific details to control UCC in such scenarios would be part of codes of practices formulated by access providers. Codes of Practice would be required to be updated with processes which are more",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

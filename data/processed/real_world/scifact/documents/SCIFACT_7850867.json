@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7850867",
+  "title": "Margination of white blood cells in microcapillary flow.",
+  "content": "Margination of white blood cells (WBCs) towards vessel walls is an essential precondition for their efficient adhesion to the vascular endothelium. We perform numerical simulations with a two-dimensional blood flow model to investigate the dependence of WBC margination on hydrodynamic interactions of blood cells with the vessel walls, as well as on their collective behavior and deformability. We find WBC margination to be optimal in intermediate ranges of red blood cell (RBC) volume fractions and flow rates, while, beyond these ranges, it is substantially attenuated. RBC aggregation enhances WBC margination, while WBC deformability reduces it. These results are combined in state diagrams, which identify WBC margination for a wide range of flow and cell suspension conditions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_122",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 122,
+  "text": "from the date of issue of work order for service provisioning. (v) Also, timelines for provisioning of service are revised from within 7 days to within 7 working days to provide sufficient time for installation of wireline connections. (vi) Provisioning of service to enterprise customers may be excluded while computing the performance against this parameter, provided provisioning of service is included in the Service Level Agreement signed with the respective customer. 5.2.2 Fault incidences (No. of faults per 100 subscribers) {Access (Wireline) and Broadband (Wireline)} (a) Input of Stakeholders (i) Many stakeholders suggested that the benchmark for wireline services should be aligned with the current wireline service benchmark, which is set at ≤7 in present regulations as against the proposed 142 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] benchmark of ≤ 5. As per stakeholders, this is required due to various challenges beyond TSPs control like challenging terrain, local public issues, access issues, last mile connectivity issues, electrical breakdown issues, fiber cuts. (ii) One of the stakeholders submitted that this parameter was never part of the current QoS regulations for broadband services and has been introduced afresh and requested the Authority not to introduce this parameter to Broadband service providers. (b) Analysis and Conclusion (i) The existing benchmark against fault incidence rate is ≤7 for Wireline. Presently, no similar parameter is prescribed for Broadband (Wireline) service. (ii) The fault incidence per 100 subscribers provides an objective measure of the quality of access network and installation practices followed by the service",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

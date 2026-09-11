@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_010",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 10,
+  "text": "of day(s) made available in the relevant regulations; “Preference Register” means a Distributed Ledger for Preference (DL-Preference) which keeps records of preference(s) of customers about category of content, mode(s) of communication, time band(s), type of day(s) along with the details of customer who has exercised choices of preference(s), day and time such choices or changes in choices were exercised in a safe and secure manner; “Private DLT networks” means those DLT networks where visibility is restricted to a subset of users; “Promotional messages” means the commercial communication containing promotional material or advertisement of a product or service: Provided that the Sender shall give an opt-out mechanism to the Recipient in the same Message, as may be specified by the Authority: Provided further that if promotional content is mixed with any type of Transactional or Service Message, such Message shall be treated as a Promotional Message. Explanation: These Messages shall only be delivered to Subscribers who have not blocked their preference under the applicable category in the Preference Register or have given their Consent in the Consent Register, as applicable. If the Sender has acquired explicit digital consent, as provided under the regulations, from the intended Recipient, then such Promotional Messages with explicit consent shall be delivered to the Recipients irrespective of their preferences registered, under the applicable category, in the Preference Register; “Promotional voice call” means commercial communication any voice Commercial Communication containing promotional material or advertisement of a product or service: Provided that if promotional content is mixed with",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

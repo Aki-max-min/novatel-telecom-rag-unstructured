@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_84884645",
+  "title": "Reproductive physiology of marsupials",
+  "content": "Preface 1. Historical introduction 2. Breeding biology of marsupials by family 3. Sexual differentiation and development 4. Male anatomy and spermatogenesis 5. The female urogenital tract and oogenesis 6. Ovarian function and control 7. Pregnancy and parturition 8. Lactation 9. Neuroendocrine control of seasonal breeding 10. Marsupials and the evolution of mammalian reproduction References Index.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

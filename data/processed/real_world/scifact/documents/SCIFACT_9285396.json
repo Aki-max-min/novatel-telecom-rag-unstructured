@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9285396",
+  "title": "The role of red cell distribution width in the prognosis of patients with gastric cancer.",
+  "content": "BACKGROUND Although the red cell distribution width (RDW) has been reported as a reliable predictor of prognosis in several types of cancer, to our knowledge the prognostic value of RDW in gastric carcinoma has not been studied, so far. OBJECTIVE We aimed to investigate the role of red cell distribution width (RDW) in predicting prognosis in gastric cancer patients. METHODS All gastric cancer patients who underwent curative surgery (n= 172, 110M/62F) over a five-year study period were evaluated. Data on demographics, preoperative RDW levels, tumor characteristics (early stage: I and II, advanced stage: IIIA-B-C), disease-free (DFS) and overall survival (OS) were retrospectively reviewed. Patients were classified as high RDW group (RDW ≥ 16, n= 62) or low RDW group (RDW < 16, n= 110). RESULTS Overall mortality and postoperative 60-day mortality in both groups were 55% and 14%, respectively. A borderline significant association between RDW (0.063) and mortality was noted. Preoperative RDW levels were significantly higher in patients with short-term mortality (17.9 ± 4.3 vs. 16 ± 3.2, p= 0.015). In high RDW group, the incidence of advanced gastric cancer was significantly higher (75 vs. 51%, p= 0.002), whereas DFS (0.035) and OS (p= 0.04) were lower. CONCLUSION The frequency of advanced cancer was high in patients with high RDWvalues. High RDW values were strongly associated with short-term mortality although only a borderline relationship with overall survival was observed.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

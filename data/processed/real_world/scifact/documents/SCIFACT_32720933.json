@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_32720933",
+  "title": "Human papillomavirus genotype 31 does not express detectable microRNA levels during latent or productive virus replication.",
+  "content": "It has recently become clear that several pathogenic DNA viruses express virally encoded microRNAs in infected cells. In particular, numerous microRNAs have been identified in a range of human and animal herpesviruses, and individual microRNAs have also been identified in members of the polyoma- and adenovirus families. Although their functions remain largely unknown, it seems likely that these viral microRNAs play an important role in viral replication in vivo. Here we present an analysis of the microRNAs expressed in human cells during the latent and productive phases of the human papillomavirus genotype 31 (HPV31) replication cycle. Although over 500 cellular microRNAs were cloned and identified, not a single HPV31-specific microRNA was obtained. We therefore concluded that HPV31, and possibly human papillomaviruses in general, does not express viral microRNAs.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

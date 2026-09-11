@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_253672_chunk_001",
+  "document_id": "SCIFACT_253672",
+  "chunk_index": 1,
+  "text": "patients were identified. One had mild illness but had negative results for avian H7N9 by rRT-PCR. All 43 close contacts tested negative for haemagglutination inhibition antibodies specific for avian H7N9. CONCLUSIONS The infection of the daughter probably resulted from contact with her father (the index patient) during unprotected exposure, suggesting that in this cluster the virus was able to transmit from person to person. The transmissibility was limited and non-sustainable.",
+  "title": "Probable person to person transmission of novel avian influenza A (H7N9) virus in Eastern China, 2013: epidemiological investigation",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

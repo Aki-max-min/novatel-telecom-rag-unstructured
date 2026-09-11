@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_226",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 226,
+  "text": "DLT’s also have ability to remove certain unnecessary intermediaries which in turn will reduce the means for content providers to bypass regulatory compliances. The distributed nature of DLT based records, can increase the speed of making latest updated data available for scrubbing, complaint handling, reconciliation to multiple involved parties. It can also reduce cost and reducing costs makes it most promising option for adopting it as a regulatory technology for control and management of commercial communications. 8.7 Adaptability of DLT to meet evolving requirements: In commercial communication space, nature of content of communication, preferences of customers are constantly evolving and may require regular update of business rules which are to be followed. DLT’s can be designed to integrate intelligent and programmable contracts and business rules with bookkeeping functions. The functionality can be combined with the machine learning algorithms to give it the flexibility and agility which is necessary in a technology which is intended to be used to regulate the compliances for commercial communications ecosystem. Further, the creation of DLT systems as shared infrastructure will allow TSPs to ensure regulatory compliance of UCC norms while optimizing the capital and operational expenditures. DLT 105 therefore has many advantages in terms of efficiency and effectiveness. 8.8 When combined, these properties can solve challenges of UCC regulatory checks and compliance that were previously very expensive or challenging. For the reasons discussed above, DLT seems to have exciting potential to support the needs of TSPs, Telemarketers, users for commercial communications with better control and",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

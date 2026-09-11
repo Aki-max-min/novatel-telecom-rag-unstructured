@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_023",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 23,
+  "text": "Quarterly (viii) Fault repair by next working day ≥ 85% Quarterly (ix) Fault repair within three working days ≥ 99% Quarterly Rent rebate/ validity extension in case fault is repaired after three (3) working days: For post-paid subscribers: Proportional rent rebate for actual number of days, during which fault remain pending, shall be credited in next bill. For pre-paid subscribers: The validity of subscribed tariff offering shall be increased for actual number of days, during which fault remain pending. (2) Every service provider shall, in all its tariff offerings for broadband (wireline) service, indicate the typical download and upload speed generally available to the consumers. 106 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] Explanation: For the purposes of this regulation, broadband (Wireline) service shall include all fixed wireless and wireline medium including copper, fibre, cables etc. SECTION VI QUALITY OF SERVICE PARAMETERS RELATED TO CUSTOMER SERVICE 10. Quality of Service Parameters in respect of which compliance reports are to be submitted to the Authority.─ (1) Every service provider providing access service (wireline) or access service (wireless) or broadband (wireline) service, as applicable, shall meet the benchmarks, to be measured as per the measurement methodology provided in Schedule-I, for each of the following QoS parameters, namely:─ S. No. Name of Parameter Benchmark Assessment period I. Customer Service (i) Billing and charging complaints ≤ 0.1% • Access service (wireline) and broadband (wireline) service – Quarterly • Access service (wireless)- o Quarterly w.e.f. 01.10.2024 o Monthly w.e.f. 01.04.2025 (ii) Resolution of billing/ charging",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

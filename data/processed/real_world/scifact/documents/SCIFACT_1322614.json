@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1322614",
+  "title": "New developments in the ATSAS program package for small-angle scattering data analysis",
+  "content": "New developments in the program package ATSAS (version 2.4) for the processing and analysis of isotropic small-angle X-ray and neutron scattering data are described. They include (i) multiplatform data manipulation and display tools, (ii) programs for automated data processing and calculation of overall parameters, (iii) improved usage of high- and low-resolution models from other structural methods, (iv) new algorithms to build three-dimensional models from weakly interacting oligomeric systems and complexes, and (v) enhanced tools to analyse data from mixtures and flexible systems. The new ATSAS release includes installers for current major platforms (Windows, Linux and Mac OSX) and provides improved indexed user documentation. The web-related developments, including a user discussion forum and a widened online access to run ATSAS programs, are also presented.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

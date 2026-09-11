@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19138874",
+  "title": "Nucleation of nuclear bodies by RNA",
+  "content": "The biogenesis of the many functional compartments contained in the mammalian cell nucleus is poorly understood. More specifically, little is known regarding the initial nucleation step required for nuclear body formation. Here we show that RNA can function as a structural element and a nucleator of nuclear bodies. We find that several types of coding and noncoding RNAs are sufficient to de novo assemble, and are physiologically enriched in, histone locus bodies (with associated Cajal bodies), nuclear speckles, paraspeckles and nuclear stress bodies. Formation of nuclear bodies occurs through recruitment and accumulation of proteins resident in the nuclear bodies by nucleating RNA. These results demonstrate that transcription is a driving force in nuclear body formation and RNA transcripts can function as a scaffold in the formation of major nuclear bodies. Together, these data suggest that RNA-primed biogenesis of nuclear bodies is a general principle of nuclear organization.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

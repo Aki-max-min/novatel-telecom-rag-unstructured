@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_055",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 55,
+  "text": "direction, shall give a reasonable opportunity of representation to the Access Provider as to why action has not been taken by the Access Provider against such sender or telemarketer: Provided further that the Sender or Telemarketer, as the case may be, may submit a representation to the Authority under regulation 29 against the action taken by the Access Provider.” 34. Every Access Provider shall ensure, within six months’ time, that all smart phone devices registered on its network support the permissions required for the functioning of such Apps as prescribed in the regulations 6(2)(e) and regulations 23(2)(d); Provided that where such devices do not permit functioning of such Apps as prescribed in regulations 6(2)(e) and regulations 23(2)(d), Access Providers shall, on the order or direction of the Authority, derecognize such devices from their telecom networks. Provided further that no order or direction of derecognition of devices shall be made by the Authority unless the concerned parties have been given a reasonable opportunity of representing against the contravention of regulations observed by the Authority. 34A. Prohibition on blocking designated number series by Call Management Applications.— (1) No Call Management Application or similar services shall tag, block, filter, or restrict incoming calls or messages originating from the designated number series assigned for commercial communications as well as communication sent by the Government. (2) Any Call Management Application that facilitates blanket blocking of such designated number series or tag it as spam shall be deemed non-compliant with these regulations: Provided that the consumers",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

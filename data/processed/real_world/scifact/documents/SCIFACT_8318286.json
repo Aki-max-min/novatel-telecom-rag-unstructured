@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8318286",
+  "title": "Adult Mammalian Neural Stem Cells and Neurogenesis: Five Decades Later.",
+  "content": "Adult somatic stem cells in various organs maintain homeostatic tissue regeneration and enhance plasticity. Since its initial discovery five decades ago, investigations of adult neurogenesis and neural stem cells have led to an established and expanding field that has significantly influenced many facets of neuroscience, developmental biology, and regenerative medicine. Here we review recent progress and focus on questions related to adult mammalian neural stem cells that also apply to other somatic stem cells. We further discuss emerging topics that are guiding the field toward better understanding adult neural stem cells and ultimately applying these principles to improve human health.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

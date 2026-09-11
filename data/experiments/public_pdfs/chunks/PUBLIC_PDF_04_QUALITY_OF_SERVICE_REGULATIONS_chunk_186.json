@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_186",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 186,
+  "text": "Analysis and Conclusion (i) Regulation on Audit of Metering & Billing accuracy does not prescribe any benchmark. Instead, it prescribes a methodology for audit of M&B system, which includes M&B related parameters of respective QoS regulations. Further, any audit is conducted on sample basis which cannot be the substitute for timely resolution of subscriber complaints. (ii) To further simplify the monitoring and reporting of performance against this parameter, the intermediate performance benchmark of resolution of 98% of complaints within 4 weeks has been removed in wireline access services. The existing benchmark for broadband service already requires 100% of the billing and charging complaints to be resolved within 4 weeks. (iii) To bring uniformity, now 100% of the billing and charging complaints to be resolved within four weeks for all services. 5.6.3 Application of adjustment to customer’s account within one week from the date of the resolution of billing and charging complaints or rectification of faults or rectification of significant network outage, as applicable (a) Analysis and Conclusion (i) In the Consultation paper, the name of parameter was ‘Application of credit/ waiver/ adjustment to customer’s account within one week from the date of resolution of complaints’. However, for the sake of clarity and uniformity, the name of parameter has been revised to ‘Application of adjustment to customer’s account within one week from the date of resolution of billing and charging complaints or rectification of faults or rectification of significant network outage, as applicable’. (ii) Regarding applying credit to postpaid customers, it",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

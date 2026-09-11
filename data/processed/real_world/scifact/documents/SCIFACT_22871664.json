@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22871664",
+  "title": "Characterization of a highly variable eutherian microRNA gene.",
+  "content": "Mouse microRNAs (miRNAs) miR-290-miR295 are encoded by a cluster of partially homologous pre-miRNA hairpins and are likely to be functionally important in embryonic stem (ES) cells and preimplantation embryos. We present evidence that a spliced, capped, and polyadenylated primary transcript spans this entire Early Embryonic microRNA Cluster (EEmiRC). Partial Drosha processing yields additional large nuclear RNA intermediates. A conserved promoter element containing a TATA-box directs EEmiRC transcription. Sequence analysis shows that the EEmiRC transcription unit is remarkably variable and can only be identified bioinformatically in placental (eutherian) mammals. Consistent with eutherian-specific function, EEmiRC is expressed in trophoblastic stem (TS) cells. When analyzing evolutionary and functional relationships, the organization of the entire miRNA loci should be considered in addition to the mature miRNA sequences. Application of this concept suggests that EEmiRC is a recently acquired rapidly evolving gene important for eutherian development.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_004",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 4,
+  "text": "licence under Section 4 of the Indian Telegraph Act, 1885 (13 of 1885) for providing Mobile Number Portability Service; 1[(ja) “Mobile Number Portability zone” or “MNP zone” means the zones contained in the Annexure-VI of the licence agreement for the Mobile Number Portability Service; (jb) “mobile number range” means the number series allocated by the licensor to an Access Provider 2[for the licenced service area];] 3[(jc) “Network Service Operator” means the operator defined under the Unified License (Virtual Network Operator) which owns the telecom core network and provides core network service to the Virtual Network Operator to connect different parts of the access network and gateway to other networks;] (k) “No Service Period” means the period of time between the disconnection of the mobile telephone service to the porting subscriber by the Donor Operator and the activation of mobile telephone service, on porting, by the Recipient Operator; (l) \"Number Portability Database” means the database maintained by each Mobile Number Portability Service provider in electronic form, holding the details of all ported mobile numbers in its zone, along with the complete history of all transactions relating to the porting of such numbers; (m) \"Number Range Holder\" means an Access Provider who was originally allotted, by the licensor, that number range to which the ported number belongs; (n) “Per Port Transaction charge” means the charge payable by the Recipient Operator to the Mobile Number Portability Service provider for 4[5[processing the porting request]] in respect of a mobile number; (o) “porting” means the",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18617259",
+  "title": "Research Letters",
+  "content": "We report a case of preclinical variant Creutzfeldt-Jakob disease (vCJD) in a patient who died from a non-neurological disorder 5 years after receiving a blood transfusion from a donor who subsequently developed vCJD. Protease-resistant prion protein (PrP(res)) was detected by western blot, paraffin-embedded tissue blot, and immunohistochemistry in the spleen, but not in the brain. Immunohistochemistry for prion protein was also positive in a cervical lymph node. The patient was a heterozygote at codon 129 of PRNP, suggesting that susceptibility to vCJD infection is not confined to the methionine homozygous PRNP genotype. These findings have major implications for future estimates and surveillance of vCJD in the UK.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

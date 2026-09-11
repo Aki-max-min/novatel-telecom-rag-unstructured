@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4363526",
+  "title": "Co-crystal structure of the HNF-3/fork head DNA-recognition motif resembles histone H5",
+  "content": "The three-dimensional structure of an HNF-3/fork head DNA-recognition motif complexed with DNA has been determined by X-ray crystallography at 2.5 Å resolution. This α/β protein binds B-DNA as a monomer, through interactions with the DNA backbone and through both direct and water-mediated major and minor groove base contacts, inducing a 13° bend. The transcription factor fold is very similar to the structure of histone H5. In its amino-terminal half, three α-helices adopt a compact structure that presents the third helix to the major groove. The remainder of the protein includes a twisted, antiparallel β-structure and random coil that interacts with the minor groove.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

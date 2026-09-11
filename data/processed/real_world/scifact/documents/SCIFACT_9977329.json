@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9977329",
+  "title": "Cell death and immune privilege.",
+  "content": "The host response to pathogens involves complex inflammatory responses and immune reactions. While these are central to host defense and vital to clearing infections, they are often accompanied by injury to surrounding tissue. Most organ systems can tolerate these responses without permanent consequences. However, there are sites that limit the spread of inflammation because it can threaten organ function. The most prominent examples of these are the eye, brain, and reproductive organs (testis, ovary), where even minor bouts of inflammation can have long-term consequences for the survival of the organism. In these organs immune responses either do not proceed, or proceed in a manner different from other areas; thus, they are called \"immunologically privileged. \" Here a functioning immune response can be the culprit that leads to disease.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

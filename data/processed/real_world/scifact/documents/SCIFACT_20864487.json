@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20864487",
+  "title": "Virus-specific cytotoxic T-lymphocyte responses select for amino-acid variation in simian immunodeficiency virus Env and Nef",
+  "content": "Cytotoxic T-lymphocyte (CTL) responses to human immunodeficiency virus arise early after infection, but ultimately fail to prevent progression to AIDS. Human immunodeficiency virus may evade the CTL response by accumulating amino-acid replacements within CTL epitopes. We studied 10 CTL epitopes during the course of simian immunodeficiency virus disease progression in three related macaques. All 10 of these CTL epitopes accumulated amino-acid replacements and showed evidence of positive selection by the time the macaques died. Many of the amino-acid replacements in these epitopes reduced or eliminated major histocompatibility complex class I binding and/or CTL recognition. These findings strongly support the CTL 'escape' hypothesis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

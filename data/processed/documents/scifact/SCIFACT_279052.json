@@ -1,0 +1,23 @@
+{
+  "document_id": "SCIFACT_279052",
+  "title": "Genomic imprinting in development, growth, behavior and stem cells.",
+  "document_type": "Scientific Literature",
+  "content": "Genes that are subject to genomic imprinting in mammals are preferentially expressed from a single parental allele. This imprinted expression of a small number of genes is crucial for normal development, as these genes often directly regulate fetal growth. Recent work has also demonstrated intricate roles for imprinted genes in the brain, with important consequences on behavior and neuronal function. Finally, new studies have revealed the importance of proper expression of specific imprinted genes in induced pluripotent stem cells and in adult stem cells. As we review here, these findings highlight the complex nature and developmental importance of imprinted genes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

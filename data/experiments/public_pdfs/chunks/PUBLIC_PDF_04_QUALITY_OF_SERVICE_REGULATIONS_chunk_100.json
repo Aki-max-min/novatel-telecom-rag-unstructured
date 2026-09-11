@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_100",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 100,
+  "text": "customers. (ii) Stakeholders also submitted that a light touch regulatory framework with limited parameters measured and reported quarterly is recommended in the short term, while in the long term, complete deregulation with continued oversight through drive tests and third-party surveys is advised. Globally, there are no prescriptive QoS regulations. The stakeholders requested to consider the sector's maturity and changing dynamics, to adopt a deregulation approach for QoS. (iii) One of the stakeholders submitted that prescriptive QoS regulations are implemented in numerous countries, including the United States, the European Union, the United Kingdom, Canada, and Australia, to ensure that telecom operators adhere to minimum standards of service quality and reliability. These regulations, imposed by telecommunications regulatory authorities, typically encompass network reliability, call completion rates, accessibility, and customer service standards, with monitoring and enforcement mechanisms varying by country. The common objective is to safeguard consumers and foster a competitive telecom market. It is further submitted that deregulating QoS parameters is perceived to have several potential drawbacks, including inadequate service standards, exacerbation of the digital divide, compromised consumer protection, potential market monopolization, quality variability among operators, reduced incentives for innovation, increased cybersecurity risks, potential job losses, and weakened accountability mechanisms. (b) Analysis and Conclusion (i) To reduce the compliance burden on service providers and to enable ease of doing business, the Authority has rationalized the number of QoS parameters and kept only important parameters which are necessary to protect consumers’ interests. Additionally, many of the parameters, which were under compliance, have now been",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

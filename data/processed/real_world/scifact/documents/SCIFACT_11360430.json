@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11360430",
+  "title": "Stem cell self-renewal specified by JAK-STAT activation in response to a support cell cue.",
+  "content": "Stem cells generate many differentiated, short-lived cell types, such as blood, skin, and sperm, throughout adult life. Stem cells maintain a long-term capacity to divide, producing daughter cells that either self-renew or initiate differentiation. Although the surrounding microenvironment or \"niche\" influences stem cell fate decisions, few signals that emanate from the niche to specify stem cell self-renewal have been identified. Here we demonstrate that the apical hub cells in the Drosophila testis act as a cellular niche that supports stem cell self-renewal. Hub cells express the ligand Unpaired (Upd), which activates the Janus kinase-signal transducer and activator of transcription (JAK-STAT) pathway in adjacent germ cells to specify self-renewal and continual maintenance of the germ line stem cell population.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_145",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 145,
+  "text": "the Access providers should prepare migration plan for transitioning from the existing data, processes and roles being played by different entities to the new system of data, processes and roles of new entities. RTMs already registered with the TRAI would be required to register on or before the date of enforcement of relevant regulations in this regard. Migration plan is to be formulated by the access providers and would also include procedures for migration of existing RTMs. 3.3.36 Detailed migration plan would be required to be formulated by access provider(s). This would include identification of typical activities required to be carried out for migrating existing processes and entities into new system and processes. This would also include preparing project management charts detailing sequence of implementation of activities and activities which can be carried out in parallel. On basis of identifying few broad level activities, it is assessed that all requisite activities to implement system and processes envisaged in the new regulations would take 3-4 months from the date of notification of the regulations. Migration plan for consents already recorded by the entities would be included as a part of migration plan for existing entities, processes and data. It may be noted that consent recorded under existing regulations are valid for maximum six months after this time period consent to remain valid after renewing it. Renewal of existing consents and recording of such consents would be required in accordance to the provisions under new regulations. In this way migration of consent",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

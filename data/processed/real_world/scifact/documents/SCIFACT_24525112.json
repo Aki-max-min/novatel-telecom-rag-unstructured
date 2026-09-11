@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24525112",
+  "title": "A case of paraquat intoxication caused by intravenous injection.",
+  "content": "Paraquat intoxication is a fatal problem. Most paraquat intoxications happen through oral administration. We report a case of death after intravenous paraquat injection. There is little clinical data on parenteral paraquat exposure, and we describe this case and fatal progression. Toxic symptoms and severe organ function impairment developed soon after injection. Treatment with repeated activated charcoal hemoperfusion with pulse steroids, cyclophosphamide, and antioxidants was attempted. The patient died from multiple organ failure 3 days after intoxication. This case indicates that paraquat intoxication via intravenous injection, even in very small amounts, has an extremely poor prognosis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

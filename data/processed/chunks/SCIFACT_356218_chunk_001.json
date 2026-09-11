@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_356218_chunk_001",
+  "document_id": "SCIFACT_356218",
+  "chunk_index": 1,
+  "text": "complications included a high rate of preterm delivery (59 percent) and growth retardation (37 percent). The infant survival rate was 93 percent. CONCLUSIONS Among pregnant women with moderate or severe renal insufficiency, the rates of complications due to worsening renal function, hypertension, and obstetrical complications are increased, but fetal survival is high.",
+  "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

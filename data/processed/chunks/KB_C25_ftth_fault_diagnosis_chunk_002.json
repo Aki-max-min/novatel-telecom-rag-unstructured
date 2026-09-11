@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C25_ftth_fault_diagnosis_chunk_002",
+  "document_id": "KB_C25_ftth_fault_diagnosis",
+  "chunk_index": 2,
+  "text": "window, ensuring no request is left without a defined next action. ## Related Issues - Repeated occurrences for the same customer may indicate an upstream system issue and should be flagged to the relevant platform team. ## Related Documents Related documents: FAQ_C25_001.",
+  "title": "Diagnosing Common FTTH Broadband Faults",
+  "document_type": "KB Article",
+  "category": "C25",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-12",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C25_001"
+  ],
+  "tags": [
+    "c25",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C25_ftth_fault_diagnosis.md",
+  "file_type": "markdown"
+}

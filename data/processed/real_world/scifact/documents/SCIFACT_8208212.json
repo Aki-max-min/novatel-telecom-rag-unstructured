@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8208212",
+  "title": "Dual and opposing roles of primary cilia in medulloblastoma development",
+  "content": "Recent work has shown that primary cilia are essential for Hedgehog (Hh) signaling during mammalian development. It is also known that aberrant Hh signaling can lead to cancer, but the role of primary cilia in oncogenesis is not known. Cerebellar granule neuron precursors (GNPs) can give rise to medulloblastomas, the most common malignant brain tumor in children. The primary cilium and Hh signaling are required for GNP proliferation. We asked whether primary cilia in GNPs have a role in medulloblastoma growth in mice. Genetic ablation of primary cilia blocked medulloblastoma formation when this tumor was driven by a constitutively active Smoothened protein (Smo), an upstream activator of Hh signaling. In contrast, removal of cilia was required for medulloblastoma growth by a constitutively active glioma-associated oncogene family zinc finger-2 (GLI2), a downstream transcription factor. Thus, primary cilia are either required for or inhibit medulloblastoma formation, depending on the initiating oncogenic event. Remarkably, the presence or absence of cilia was associated with specific variants of human medulloblastomas; primary cilia were found in medulloblastomas with activation in HH or WNT signaling but not in most medulloblastomas in other distinct molecular subgroups. Primary cilia could serve as a diagnostic tool and provide new insights into the mechanism of tumorigenesis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

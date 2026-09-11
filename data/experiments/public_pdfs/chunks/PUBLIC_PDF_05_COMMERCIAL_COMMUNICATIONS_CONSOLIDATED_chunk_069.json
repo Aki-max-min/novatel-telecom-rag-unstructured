@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_069",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 69,
+  "text": "scrubbing; establish Customer Consent Acquisition Facility (CCAF), to record recipient’s consent to receive commercial communications from the sender or consent acquirer; establish Customer Consent Verification Facility (CCVF) for the purpose of facilitating: customers to verify, modify, renew or revoke their consent in respect of commercial communications, and Access Providers to verify the consent in case of complaint; keep consent for each consent acquirer, in a manner that client data of entity is adequately protected; keep record of revocation of consent by the customer, whenever exercised, in an immutable and non-repudiable manner; synchronize records, in real time, among all consent ledgers available with participating nodes in Consent Acquisition Functionality in an immutable and non-repudiable manner; maintain with minimum performance requirements as specified; perform any other function and keep relevant details required for carrying out pre and post checks for regulatory compliance; Provided that the Authority may specify any other roles for Consent Registrar functions from time to 36 time. Content Template Registrar (CTR) to carry out content template registration function; keep records of registered templates in immutable and non repudiable manner; maintain with minimum performance requirements as specified; perform any other function and keep relevant details required for carrying out pre and post checks for regulatory compliance; Content Format and Type Verifiers (CFTV) to carry out content verification; keep records with all relevant details for future references; Telemarketers for Scrubbing function (TM-SF) to carry out scrubbing; keep record of all numbers scrubbed for complaints resolution; maintain with minimum performance requirements as",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

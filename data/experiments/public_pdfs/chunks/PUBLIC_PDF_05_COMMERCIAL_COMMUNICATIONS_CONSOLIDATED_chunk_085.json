@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_085",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 85,
+  "text": "calling on 1909 or number mentioned for revoking the consent during the voice call received from the sender(s); or (iii) calling on customer care number; or (iv) Interactive Voice Response System (IVRS); or (v) Mobile app developed in this regard either by the Authority or by any other person or entity and approved by the Authority; or (vi) Web portal with authentication through OTP; or (vii) Any other means as may be notified by the Authority from time to time. to remove the recipient's contact information (telephone number to which the message was sent) from the consent record(s) corresponding to the sender for all purposes requiring explicit consent except in case specific purpose(s) is indicated by the customer during revocation of consent from the consent register within 1 business day; to duly acknowledge the customer’s request to revoke the consent with unique reference number; to ensure that any person who receives request to revoke consent must not disclose the customer's personal information to others without his consent; to fetch details of the consent including its purpose(s), details about day and time when it was taken, and details about sender(s) or consent acquirer(s) who has or have taken the consent; 8. Every Access Provider shall establish, maintain and operate Distributed Ledger(s) for Consent (DL-Consent) with requisite functions, process and interfaces: - to record consent given by the customer to sender(s) or consent acquirer(s) in the Distribute Ledger for Consent (DL-Consent) in an immutable and non repudiable manner; to record, at least,",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

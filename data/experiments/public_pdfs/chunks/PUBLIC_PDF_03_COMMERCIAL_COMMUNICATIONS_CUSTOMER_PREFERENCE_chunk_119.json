@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_119",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 119,
+  "text": "by using OTP. Further it must be recorded in an immutable and non 66 repudiable manner. In case of explicit consent, recorded consent must be available as a part of consent register. To facilitate this, a Customer Consent Recording System needs to be established where a consent register is maintaintained by the Consent Registrar. A subscriber shall also be allowed to view or withdraw his or her consent at any time, for which the access provider shall set up facility for the subscriber to exercise the option to discontinue receiving further commercial communications from that sender, except in the cases which are exempt from the requirement of explicit consent. Consent may also be acquired by an entity other than the one that intends to send the communication communications to the recipients. In such cases, the fact should be clearly indicated while acquiring consent. Similar provisions are followed in other jurisdictions such as in Controlling the Assault of Non- Solicited Pornography and Marketing Act of 2003 (CAN-SPAM) Act of Federal Trade Commission (FTC) United States of America (USA), for details refer link https://www.ftc.gov/sites/default/files/documents/cases/2007/11/canspam.pdf 3.3.10 Inferred consent in cases of prior business or social relationships or in cases of customer’s conduct: Commercial communications may be sent where prior relationship exists between sender and recipient, within the scope of their relationship. The relationship may either be on account of business or commercial reasons, social reasons or it may be because of purchase made by the recipient or transactions entered into between sender and",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

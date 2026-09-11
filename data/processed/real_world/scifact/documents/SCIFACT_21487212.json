@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21487212",
+  "title": "Inhibition of cell proliferation and induction of apoptosis by ExFABP gene targeting.",
+  "content": "Ex-FABP, an extracellular fatty acid binding lipocalin, is physiologically expressed by differentiating chicken chondrocytes and myoblasts. Its expression is enhanced after cell treatment with inflammatory stimuli and repressed by anti-inflammatory agents, behaving as an acute phase protein. Chicken liver fragments in culture show enhanced protein expression after bacterial endotoxin treatment. To investigate the biological role of Ex-FABP, we stably transfected proliferating chondrocytes with an expression vector carrying antisense oriented Ex-FABP cDNA. We observed a dramatic loss of cell viability and a strong inhibition of cell proliferation and differentiation. When chondrocytes were transfected with the antisense oriented Ex-FABP cDNA we observed that Ex-FABP down-modulation increased apoptotic cell number. Myoblasts transfected with the same expression vector showed extensive cell death and impaired myotube formation. We suggest that Ex-FABP acts as a constitutive survival protein and that its expression and activation are fundamental to protect chondrocytes from cell death.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

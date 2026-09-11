@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_142559798",
+  "title": "Tammarniit (Mistakes): Inuit Relocation in the Eastern Arctic, 1939-63",
+  "content": "Preface Introduction 1. Are Inuit Indians?: Relief, Jurisdiction, and Government Responsibility 2. Social Welfare and Social Crisis in the Eastern Arctic 3. Planning for Relocation in the Eastern Arctic 4. Recolonizing the Arctic Islands: The 1953 Relocations to Resolute Bay and Craig Harbour 5. The Ennadai Lake Relocations, 1950-60 6. The Garry Lake Famine 7. The Whale Cove Relocation 8. Relocation and Responsibility, 1955-63 Notes Bibliography Index",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

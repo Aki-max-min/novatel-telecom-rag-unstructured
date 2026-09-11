@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_25183830",
+  "title": "Circadian rhythms and the regulation of metabolic tissue function and energy homeostasis.",
+  "content": "Circadian oscillators play an indispensable role in the coordination of physiological processes with the cyclic changes in the physical environment. A significant number of recent clinical and molecular studies suggest that circadian biology may play an important role in the regulation of adipose and other metabolic tissue functions. In this discussion, we present the hypothesis that circadian dysfunction may be involved in the pathogenesis of obesity, type 2 diabetes, and the metabolic syndrome.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13798951",
+  "title": "Differentiation of effector CD4 T cell populations (*).",
+  "content": "CD4 T cells play critical roles in mediating adaptive immunity to a variety of pathogens. They are also involved in autoimmunity, asthma, and allergic responses as well as in tumor immunity. During TCR activation in a particular cytokine milieu, naive CD4 T cells may differentiate into one of several lineages of T helper (Th) cells, including Th1, Th2, Th17, and iTreg, as defined by their pattern of cytokine production and function. In this review, we summarize the discovery, functions, and relationships among Th cells; the cytokine and signaling requirements for their development; the networks of transcription factors involved in their differentiation; the epigenetic regulation of their key cytokines and transcription factors; and human diseases involving defective CD4 T cell differentiation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

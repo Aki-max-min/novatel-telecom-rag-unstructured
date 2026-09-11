@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_41314611",
+  "title": "Uncoupling of leading- and lagging-strand DNA replication during lesion bypass in vivo.",
+  "content": "Numerous agents attack DNA, forming lesions that impair normal replication. Specialized DNA polymerases transiently replace the replicative polymerase and copy past lesions, thus generating mutations, the major initiating cause of cancer. We monitored, in Escherichia coli, the kinetics of replication of both strands of DNA molecules containing a single replication block in either the leading or lagging strand. Despite a block in the leading strand, lagging-strand synthesis proceeded further, implying transient uncoupling of concurrent strand synthesis. Replication through the lesion requires specialized DNA polymerases and is achieved with similar kinetics and efficiencies in both strands.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

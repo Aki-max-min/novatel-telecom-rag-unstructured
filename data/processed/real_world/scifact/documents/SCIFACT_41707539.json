@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_41707539",
+  "title": "Immune dysregulation in major depression: a critical review of existing evidence.",
+  "content": "It is now well established that depression is associated with immune dysregulation. It is not, however, known whether this immune dysregulation plays a role in the pathophysiology of major depression or whether it increases the susceptibility of the depressed patient to immune-related disorders. This article presents a critical review of existing evidence for immune dysregulation in major depression, including changes in leucocyte trafficking, lymphocyte function, and markers of immune activation. Possible mediators of immune dysregulation in major depression are briefly discussed. Finally, the relationship between major depression and several medical conditions such as infection, allergy and autoimmune disorders, cardiovascular diseases, cancer and AIDS is critically reviewed.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

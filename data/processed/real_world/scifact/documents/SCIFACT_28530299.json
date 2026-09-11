@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_28530299",
+  "title": "Division-coupled astrocytic differentiation and age-related depletion of neural stem cells in the adult hippocampus.",
+  "content": "Production of new neurons in the adult hippocampus decreases with age; this decline may underlie age-related cognitive impairment. Here we show that continuous depletion of the neural stem cell pool, as a consequence of their division, may contribute to the age-related decrease in hippocampal neurogenesis. Our results indicate that adult hippocampal stem cells, upon exiting their quiescent state, rapidly undergo a series of asymmetric divisions to produce dividing progeny destined to become neurons and subsequently convert into mature astrocytes. Thus, the decrease in the number of neural stem cells is a division-coupled process and is directly related to their production of new neurons. We present a scheme of the neurogenesis cascade in the adult hippocampus that includes a proposed \"disposable stem cell\" model and accounts for the disappearance of hippocampal neural stem cells, the appearance of new astrocytes, and the age-related decline in the production of new neurons.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

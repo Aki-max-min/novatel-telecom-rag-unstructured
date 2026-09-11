@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_141",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 141,
+  "text": "reported to the Authority within 24 hrs of start of the outage (a) Input of Stakeholders (i) Some of the stakeholders submitted that the introduction of an additional parameter in Quality of Service (QoS) reporting is deemed unnecessary, especially if it doesn't significantly impact service quality. They suggested that it should be part of the reporting requirement rather than a QoS parameter, with a reasonable reporting time of one week. They also pointed out that in compliance with TRAI's Direction dated 28.03.2023, they are already submitting a significant network outage monitoring report. 149 (ii) Additionally, they emphasized that factors beyond TSPs' control, such as power cuts and fiber cuts, need consideration before implementing such parameters. (iii) One of the stakeholders submitted that reporting major network outages to TRAI within 24 hours is an enormous task that demands significant time and effort, potentially distracting TSPs from their primary goal of restoring service. During an outage, TSPs prioritize restoration and involve multiple teams in analyzing and addressing the issue, making immediate reporting challenging. (iv) Some of the stakeholders argued against the provision of rent rebate stating that such rent rebate is technically possible in wireline where services are being provided at a fixed location, whereas, in case of cellular services, it will not be possible. Mobile nature of cellular services complicates tracking affected users and calculating rent rebates, with various scenarios making it technically infeasible, such as users' varying locations and handset statuses. This requirement could also lead to consumer complaints and",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

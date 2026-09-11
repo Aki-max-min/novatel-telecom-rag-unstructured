@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_038",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 38,
+  "text": "65.35 49.89 112.27 65.46 West Bengal (incl. Kolkata)* 57.75 113 78.63 57.87 112.85 78.72 All India 58.40 123.99 81.94 58.48 124.38 82.18 * Population data/projections are available state-wise only. Notes: 1. Tele-density figures are derived from the subscriber data provided by the operators and the projection of population from the ‘Report of the Technical Group on Population Projections for India and States 2011 – 2036’. 2. Delhi Service area, apart from the State of Delhi, includes wireless subscribers of the areas served by the local exchanges of Ghaziabad & Noida (in UP) and Gurgaon & Faridabad (in Haryana). 3. Data/information for Andhra Pradesh includes Telengana, Madhya Pradesh includes Chhatishgarh, Bihar includes Jharkhand, Maharashtra includes Goa, Uttar Pradesh includes Uttarakhand, West Bengal includes Sikkim and North- East includes Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland & Tripura states. 27 Table 1.23: State/UT wise Wireless (mobile) Subscriber Base Sl. No. States/UT Subscribers (in million) Total Rural Urban 1 Andhra Pradesh 42.40 23.81 18.59 2 Arunachal Pradesh 1.26 0.84 0.42 3 Assam 26.44 17.45 8.99 4 Bihar 72.16 51.20 20.96 5 Chhattisgarh 21.88 10.56 11.33 6 Goa 2.35 0.61 1.74 7 Gujarat 65.59 25.25 40.34 8 Haryana 35.50 12.25 23.25 9 Himachal Pradesh 8.89 5.81 3.09 10 Jharkhand 25.05 14.17 10.88 11 Karnataka 68.97 25.74 43.23 12 Kerala 41.46 18.05 23.41 13 Madhya Pradesh 59.56 27.67 31.88 14 Maharashtra 122.73 41.20 81.52 15 Manipur 2.42 0.99 1.43 16 Meghalaya 2.62 1.69 0.93 17 Mizoram 1.38 0.53 0.84 18 Nagaland 1.69 0.89 0.80 19 Odisha",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

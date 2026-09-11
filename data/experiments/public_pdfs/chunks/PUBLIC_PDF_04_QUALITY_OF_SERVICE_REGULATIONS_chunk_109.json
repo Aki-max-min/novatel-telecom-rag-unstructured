@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_109",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 109,
+  "text": "benchmarks through Performance Monitoring Reports (PMRs) submitted by service providers. It has been observed that even with the technological advancement in the field of telecommunications and advancement in performance management tools, the QoS experienced by the end consumers remains a key concern, despite such QoS requirements being supported by technology standards. Even with widespread coverage of 4G and 5G networks in the country (80% of the base stations are 4G/5G base stations), there are increasing number of complaints of call drops, call muting, low data throughput etc. though the service providers are meeting the quarterly QoS benchmarks. The extent of network issues is also reflected in the share of mobile network complaints provided in Table-1. (ii) The issues related to QoS may not get adequately reflected in the quarterly PMRs due to long performance assessment periods. Further, quarterly reporting may also result in degraded QoS in certain areas over a long duration in a month which may get compensated with improved or normal QoS performance in other months or weeks of the quarter. The impact of the averaging effect is especially important for the quality of mobile services which serve a very large subscriber base of more than 116.7 Crore (as on 30th April 2024). (iii) Upon detailed analysis of quarterly PMRs submitted by the service providers, the Authority has noted that due to the long performance assessment period of a quarter and further averaging over a large Service Area, the real issues related to QoS are not reflected adequately",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

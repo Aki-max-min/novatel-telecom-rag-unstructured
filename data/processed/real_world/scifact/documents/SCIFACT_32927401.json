@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_32927401",
+  "title": "Toll-like receptor 7 mediates pruritus",
+  "content": "Toll-like receptors are typically expressed in immune cells to regulate innate immunity. We found that functional Toll-like receptor 7 (TLR7) was expressed in C-fiber primary sensory neurons and was important for inducing itch (pruritus), but was not necessary for eliciting mechanical, thermal, inflammatory and neuropathic pain in mice. Our results indicate that TLR7 mediates itching and is a potential therapeutic target for anti-itch treatment in skin disease conditions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

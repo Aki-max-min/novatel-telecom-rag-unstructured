@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5760247",
+  "title": "A conserved mechanism for centromeric nucleosome recognition by centromere protein CENP-C.",
+  "content": "Chromosome segregation during mitosis requires assembly of the kinetochore complex at the centromere. Kinetochore assembly depends on specific recognition of the histone variant CENP-A in the centromeric nucleosome by centromere protein C (CENP-C). We have defined the determinants of this recognition mechanism and discovered that CENP-C binds a hydrophobic region in the CENP-A tail and docks onto the acidic patch of histone H2A and H2B. We further found that the more broadly conserved CENP-C motif uses the same mechanism for CENP-A nucleosome recognition. Our findings reveal a conserved mechanism for protein recruitment to centromeres and a histone recognition mode whereby a disordered peptide binds the histone tail through hydrophobic interactions facilitated by nucleosome docking.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

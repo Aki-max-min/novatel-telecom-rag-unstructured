@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5824955",
+  "title": "SIRT1 Redistribution on Chromatin Promotes Genomic Stability but Alters Gene Expression during Aging",
+  "content": "Genomic instability and alterations in gene expression are hallmarks of eukaryotic aging. The yeast histone deacetylase Sir2 silences transcription and stabilizes repetitive DNA, but during aging or in response to a DNA break, the Sir complex relocalizes to sites of genomic instability, resulting in the desilencing of genes that cause sterility, a characteristic of yeast aging. Using embryonic stem cells, we show that mammalian Sir2, SIRT1, represses repetitive DNA and a functionally diverse set of genes across the mouse genome. In response to DNA damage, SIRT1 dissociates from these loci and relocalizes to DNA breaks to promote repair, resulting in transcriptional changes that parallel those in the aging mouse brain. Increased SIRT1 expression promotes survival in a mouse model of genomic instability and suppresses age-dependent transcriptional changes. Thus, DNA damage-induced redistribution of SIRT1 and other chromatin-modifying proteins may be a conserved mechanism of aging in eukaryotes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

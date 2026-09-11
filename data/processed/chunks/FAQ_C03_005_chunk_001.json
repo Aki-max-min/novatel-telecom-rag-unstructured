@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C03_005_chunk_001",
+  "document_id": "FAQ_C03_005",
+  "chunk_index": 1,
+  "text": "| | Amount debited, plan not credited, 1-24 hours elapsed | Acknowledgement delayed beyond the typical window | Continue waiting; auto-reversal triggers automatically at 24 hours if it's not resolved by then | | 24+ hours elapsed, no credit and no reversal | Acknowledgement never reached NovaTel's system | Raise a ticket with the transaction reference | ### Escalation Raising a ticket with the transaction reference is the documented next step once the 24-hour auto-reversal window has passed without resolution. ### Example Scenario **Customer situation:** A customer recharged 90 minutes ago and the bank shows the debit, but the plan hasn't credited yet. **What happens:** Since this is still within the typical 30-60 minute to a few hours window, waiting is the recommended action before raising a ticket. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C03_overview. Topic: Recharge & Payments",
+  "title": "Why did my recharge fail even though the amount was debited?",
+  "document_type": "FAQ",
+  "category": "C03",
+  "department": "Finance",
+  "customer_scope": "prepaid",
+  "version": "1.0",
+  "last_updated": "2026-07-28",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C03_overview"
+  ],
+  "tags": [
+    "recharge",
+    "c03"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C03_005.json",
+  "file_type": "json"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6559201",
+  "title": "Mechanisms of astrocytogenesis in the mammalian brain.",
+  "content": "In the mammalian central nervous system, astrocytes are the most abundant cell type and play crucial roles in brain development and function. Astrocytes are known to be produced from multipotent neural stem cells (NSCs) at the late gestational stage during brain development, and accumulating evidence indicates that this stage-dependent generation of astrocytes from NSCs is achieved by systematic cooperation between environmental cues and cell-intrinsic programs. Exemplifying the former is cytokine signaling through the gp130-Janus kinase/signal transducer and activator of transcription 3 pathway, and exemplifying the latter is epigenetic modification of astrocyte-specific genes. Here, we introduce recent advances in our understanding of the mechanisms that coordinate astrocytogenesis from NSCs by modulating signaling pathways and epigenetic programs, with a particular focus on the developing mammalian forebrain.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

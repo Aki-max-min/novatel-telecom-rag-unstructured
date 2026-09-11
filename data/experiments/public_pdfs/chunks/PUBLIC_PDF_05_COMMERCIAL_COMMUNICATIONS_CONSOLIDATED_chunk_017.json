@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_017",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 17,
+  "text": "communication or scrubbing or aggregation. (bq) “Telephone number” means a number which may or may not have been assigned to the subscriber of a Public Switched Telecom Network (PSTN) or a wireless access network or a mobile network from a numbering series already assigned to a telecom service providers to which either an SMS or MMS can be sent, or Voice calls can be made. Explanation: For the purposes of these regulations, it is immaterial whether the telephone number is actually assigned to any customer or not or has ceased to exist; (br) “Telephone number harvesting software” means software that is specifically designed or marketed for use in — searching the Internet, directories, contact lists in devices for telephone numbers; and collecting, compiling, capturing or otherwise harvesting those telephone numbers; generating most likely valid telephone numbers using automated means; (bs) “Terminating Access Provider” (TAP) means the Access Provider of which Recipient of commercial communication is a Subscriber; 11 (bt) “Transactional Message or Transactional Voice Call” means a Message sent or Voice Call made by a Sender to its Customer or Subscriber in response to Customer initiated transaction within thirty minutes of the transaction relating to any product or service such as OTP from banks, non-bank-entities like e-commerce, apps login etc., transaction alerts and confirmations, balance alerts post completion of a transaction, refund information, etc. and such Messages or calls are not promotional in nature and does not require Explicit Consent; (bv) “Unregistered Telemarketer” (UTM) means any Sender of commercial communication",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

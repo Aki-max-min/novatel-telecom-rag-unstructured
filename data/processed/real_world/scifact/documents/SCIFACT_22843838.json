@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22843838",
+  "title": "[Vitamin D and latitude as environmental factors in multiple sclerosis].",
+  "content": "Multiple sclerosis (MS) shows a multifold increase in prevalence with an increase in latitudes, both north and south of the equator. One of the potential factors related to the difference of the prevalence is vitamin D, because the strength of ambient ultraviolet light, which is essential for vitamin D production, decreases with increasing latitude. It is known that vitamin D has immunomodulatory functions and suppresses an animal model of MS. It is also considered that vitamin D-related genes are critical susceptible genes for MS. An approach from environmental and genetic aspects is needed to investigate the association between vitamin D and MS.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

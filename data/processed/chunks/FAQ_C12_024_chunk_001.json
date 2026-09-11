@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C12_024_chunk_001",
+  "document_id": "FAQ_C12_024",
+  "chunk_index": 1,
+  "text": "or SIM isn't VoLTE-compatible | Whether the device is an imported/older model | Confirm device VoLTE support before assuming it's a settings issue | | VoLTE toggle present but calls still fall back to voice-only | Setting not actually enabled, or band incompatibility on an imported device | Whether VoLTE/4G Calling is switched on | Enable the setting; if already on, this may be a device band limitation | ### Example Scenario **Customer situation:** A customer has a 4G phone bought overseas and can't get VoLTE/HD Voice to work. **What happens:** Since some imported devices support 4G data without supporting VoLTE on Indian bands, this may be a device limitation rather than something fixable through account or SIM changes. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C12_overview. Topic: Device Compatibility",
+  "title": "Why doesn't VoLTE/HD Voice work on my phone?",
+  "document_type": "FAQ",
+  "category": "C12",
+  "department": "Technical Support",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-22",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C12_overview"
+  ],
+  "tags": [
+    "device",
+    "c12"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C12_024.json",
+  "file_type": "json"
+}

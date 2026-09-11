@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_163",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 163,
+  "text": "Time Division Duplexing (TDD) and Frequency Division Duplexing (FDD) and both bands support IMT Advance standard of ITU. Therefore, the interference in TDD bands cannot be considered as a limitation in meeting the benchmark. In TDD, there is a single carrier frequency only and uplink and downlink transmissions are separated in the time domain on a cell basis. Therefore, the service providers need to design, implement, synchronize and continuously optimize their TDD band network to prevent neighboring base stations from interfering with each other or deploy sufficient FDD bands to handle voice traffic and ensure QoS for voice calls. (vii) The Authority has further noted that all the service providers have deployed a combination of TDD and FDD cells. However, the DCR and packet drop rate performance varies considerably across the service providers. Some service providers have better packet drop rate performance for voice services than others in similar conditions as may be seen in Figure-7. Therefore, service providers need to design or optimize their TDD networks or deploy sufficient FDD cells to deliver required QoS performance. (viii) Based on the above analysis and the correlation of packet drop rate with DCR, the Authority has decided to measure the performance of UL-PDR and DL-PDR parameters on percentile basis, similar to that adopted for DCR parameters. (ix) Further, the percentile value for ULPDR and DLPDR parameters have been decided based on the analysis of PDR data provided by TSPs. Considering the submissions made by stakeholders, the Authority has decided that initially",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

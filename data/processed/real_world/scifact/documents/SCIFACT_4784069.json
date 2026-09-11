@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4784069",
+  "title": "Regulatory principles of pluripotency: from the ground state up.",
+  "content": "Pluripotency is the remarkable capacity of a single cell to engender all the specialized cell types of an adult organism. This property can be captured indefinitely through derivation of self-renewing embryonic stem cells (ESCs), which represent an invaluable platform to investigate cell fate decisions and disease. Recent advances have revealed that manipulation of distinct signaling cues can render ESCs in a uniform \"ground state\" of pluripotency, which more closely recapitulates the pluripotent naive epiblast. Here we discuss the extrinsic and intrinsic regulatory principles that underpin the nature of pluripotency and consider the emerging spectrum of pluripotent states.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_068",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 68,
+  "text": "generating tokens for corresponding OAP to access information of list of messages which would be required to be delivered by it; 5. Every Access Provider shall set up following functional entities or may delegate roles to perform following functions: - Header Registrar (HR) to establish and maintain header register as distributed ledger to keep headers, in a secure and safe manner, and make accessible relevant information for identifying the assignee at the time of request to carry out various functions, e.g. scrubbing function from the registered telemarketers for scrubbing, delivery function from telemarketer; carry out Header Registration Function; keep record of headers throughout its lifecycle, i.e. free for assignment, assigned to an entity, withdrawn, surrendered, re-assigned etc.; keep record of header(s), header root(s) reserved for specific purpose; synchronize records, in real time, among all header ledgers available with participating nodes in Header Registration Functionality in an immutable and non-repudiable manner; maintain with minimum performance requirements as specified; perform any other function and keep relevant details required for carrying out pre and post checks for regulatory compliance; Consent Registrar (CR) to establish and maintain consent register as distributed ledger to keep consent, in a secure and safe manner, and make accessible relevant data for scrubbing function to the registered telemarketers for scrubbing; establish Customer Consent Acquisition Facility (CCAF), to record recipient’s consent to receive commercial communications from the sender or consent acquirer; establish Customer Consent Verification Facility (CCVF) for the purpose of facilitating: customers to verify, modify, renew or revoke their",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

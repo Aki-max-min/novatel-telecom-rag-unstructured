@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6264468",
+  "title": "Regulation of pluripotency by RNA binding proteins.",
+  "content": "Establishment, maintenance, and exit from pluripotency require precise coordination of a cell's molecular machinery. Substantial headway has been made in deciphering many aspects of this elaborate system, particularly with respect to epigenetics, transcription, and noncoding RNAs. Less attention has been paid to posttranscriptional regulatory processes such as alternative splicing, RNA processing and modification, nuclear export, regulation of transcript stability, and translation. Here, we introduce the RNA binding proteins that enable the posttranscriptional regulation of gene expression, summarizing current and ongoing research on their roles at different regulatory points and discussing how they help script the fate of pluripotent stem cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

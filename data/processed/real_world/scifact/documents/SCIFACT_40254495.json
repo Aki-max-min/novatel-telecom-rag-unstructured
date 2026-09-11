@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_40254495",
+  "title": "Measuring Absolute RNA Copy Numbers at High Temporal Resolution Reveals Transcriptome Kinetics in Development.",
+  "content": "Transcript regulation is essential for cell function, and misregulation can lead to disease. Despite technologies to survey the transcriptome, we lack a comprehensive understanding of transcript kinetics, which limits quantitative biology. This is an acute challenge in embryonic development, where rapid changes in gene expression dictate cell fate decisions. By ultra-high-frequency sampling of Xenopus embryos and absolute normalization of sequence reads, we present smooth gene expression trajectories in absolute transcript numbers. During a developmental period approximating the first 8 weeks of human gestation, transcript kinetics vary by eight orders of magnitude. Ordering genes by expression dynamics, we find that \"temporal synexpression\" predicts common gene function. Remarkably, a single parameter, the characteristic timescale, can classify transcript kinetics globally and distinguish genes regulating development from those involved in cellular metabolism. Overall, our analysis provides unprecedented insight into the reorganization of maternal and embryonic transcripts and redefines our ability to perform quantitative biology.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

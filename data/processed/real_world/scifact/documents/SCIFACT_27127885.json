@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27127885",
+  "title": "An activator of the cAMP/PKA/CREB pathway promotes osteogenesis from human mesenchymal stem cells.",
+  "content": "Mesenchymal stem cells (MSCs) are multipotent adult stem cells capable of differentiating along the osteoblast, adipocyte, and chondrocyte lineages. Regulation of MSCs differentiation may be a useful tool for regenerative medicine and cell-based therapy. The discovery of small molecule that activates the osteogenic differentiation of MSCs could aid in the development of a new anabolic drug for osteoporosis treatment. We identified CW008, a derivative of pyrazole-pyridine, that stimulates osteoblast differentiation of human MSCs and increases bone formation in ovariectomized mice. CW008 promotes osteogenesis by activating cAMP/PKA/CREB signaling pathway and inhibiting leptin secretion. These results suggest that CW008 is an agonist of cAMP/PKA/CREB pathway in osteogenic differentiation and that application of CW008 may be useful for the treatment of bone-related diseases and for the study of bone biology.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

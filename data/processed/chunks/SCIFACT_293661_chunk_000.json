@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_293661_chunk_000",
+  "document_id": "SCIFACT_293661",
+  "chunk_index": 0,
+  "text": "The significant disparities in metabolism between tumor and normal cells have inspired the development of metabolism-based anti-tumor therapeutics. Arginine is a semi-essential amino acid because normal cells can not only synthesize arginine de novo but also take up extracellular arginine. Several types of tumors have abnormalities in arginine metabolism enzymes and completely rely on extracellular arginine to support necessary biological processes. This property is referred to as arginine auxotrophy. Taking advantage of characteristic arginine auxotrophy in tumors, arginine deprivation, which is generally induced by the use of arginine deiminase (ADI) and arginase I, has been investigated as a novel strategy for cancer therapy. Arginine deprivation demonstrated promising efficacy against arginine-auxotrophic tumors. By integrating perspectives from both clinical oncologists and laboratory scientists, this article reviews the important aspects of arginine deprivation as a promising anticancer therapy.",
+  "title": "Targeting arginine metabolism pathway to treat arginine-dependent cancers.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

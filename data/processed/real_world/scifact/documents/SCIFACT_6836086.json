@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6836086",
+  "title": "Identification of a Multicomponent Complex Required for Outer Membrane Biogenesis in Escherichia coli",
+  "content": "Gram-negative bacteria have an outer membrane (OM) that functions as a barrier to protect the cell from toxic compounds such as antibiotics and detergents. The OM is a highly asymmetric bilayer composed of phospholipids, glycolipids, and proteins. Assembly of this essential organelle occurs outside the cytoplasm in an environment that lacks obvious energy sources such as ATP, and the mechanisms involved are poorly understood. We describe the identification of a multiprotein complex required for the assembly of proteins in the OM of Escherichia coli. We also demonstrate genetic interactions between genes encoding components of this protein assembly complex and imp, which encodes a protein involved in the assembly of lipopolysaccharides (LPS) in the OM. These genetic interactions suggest a role for YfgL, one of the lipoprotein components of the protein assembly complex, in a homeostatic control mechanism that coordinates the overall OM assembly process.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

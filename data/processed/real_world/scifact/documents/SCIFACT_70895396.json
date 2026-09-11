@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_70895396",
+  "title": "The Endothelium: Modulator of Cardiovascular Function",
+  "content": "Introduction. Methods To Study Endothelium-Dependent Responses. Endothelium-Derived Relaxing Factor. Physiological Actions. Other Relaxing Substances Released By the Endothelium. Production of Contracting Agents. Local Regulation of Endothelium-Dependent Responses. Neurohumoral Regulation. Heterogeneity and Chronic Modulation. Disease. Therapeutic Implications. References. Subject Index.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

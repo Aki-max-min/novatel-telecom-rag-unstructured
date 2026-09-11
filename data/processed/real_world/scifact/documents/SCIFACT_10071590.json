@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10071590",
+  "title": "Acute myopericarditis after multiple vaccinations in an adolescent: case report and review of the literature.",
+  "content": "We report a case of postvaccination acute myopericarditis in an adolescent. The patient presented with acute chest pain, diffuse ST-segment elevation, and elevated cardiac enzyme levels. Cardiac MRI was consistent with acute myocarditis. He recovered within a few days with nonsteroidal antiinflammatory treatment and remains clinically stable, with improvement of MRI findings at the 10-week follow-up. Postvaccination cases of myopericarditis reported in the pediatric literature are also reviewed.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

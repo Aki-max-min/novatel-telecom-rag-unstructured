@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_197",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 197,
+  "text": "entity is also blacklisted and cannot take resources from any of the access provider for a period of two years. In case of RTMs for the first five violations, the action is deduction from security deposits, and deductions increase for each violation. After six violations, the RTM is blacklisted. This puts the access provider on cautious path as hurriedly concluding the investigation may lead to victimization. This creates situation in which taking action against UCC in aggressive manner leads to increase in wrongful actions and comprehensively investigating the cases leads to complaint resolution 95 taking a long time. Sometimes the fact that resolution takes a long time is exploited by spammers or entities deliberately defaulting to send UCC. 5.3.8 Introduce multi-stage investigation process to control UCC: The Authority is of the view that the aforementioned issue could be solved by making investigations multi-staged. The first stage, should be of preliminary examination of the complaints, if it is found that the person or entity against whom complaint is made is likely to be a spammer or sender of UCC in bulk then their facility to communicate should be temporarily restricted. For example, if a number is suspected of sending UCC in violation of regulations, their outgoing usage could be capped without restricting incoming calls, SMS and Internet. This cap would be in place until the investigation is concluded. With this change in approach, action may be taken quickly to address the UCC problem while sufficient time is available to comprehensively investigate",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

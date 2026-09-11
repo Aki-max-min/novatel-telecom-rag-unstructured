@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22371455",
+  "title": "Drug-induced thrombocytopenia: pathogenesis, evaluation, and management.",
+  "content": "Although drugs are a common cause of acute immune-mediated thrombocytopenia in adults, the drug etiology is often initially unrecognized. Most cases of drug-induced thrombocytopenia (DITP) are caused by drug-dependent antibodies that are specific for the drug structure and bind tightly to platelets by their Fab regions but only in the presence of the drug. A comprehensive database of 1301 published reports describing 317 drugs, available at www.ouhsc.edu/platelets, provides information on the level of evidence for a causal relation to thrombocytopenia. Typically, DITP occurs 1 to 2 weeks after beginning a new drug or suddenly after a single dose when a drug has previously been taken intermittently. However, severe thrombocytopenia can occur immediately after the first administration of antithrombotic agents that block fibrinogen binding to platelet GP IIb-IIIa, such as abciximab, tirofiban, and eptifibatide. Recovery from DITP usually begins within 1 to 2 days of stopping the drug and is typically complete within a week. Drug-dependent antibodies can persist for many years; therefore, it is important that the drug etiology be confirmed and the drug be avoided thereafter.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

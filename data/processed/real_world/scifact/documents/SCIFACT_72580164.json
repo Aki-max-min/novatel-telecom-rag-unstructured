@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_72580164",
+  "title": "Ansichten von Hausärzten zur Versorgung von unheilbar kranken Patienten am Lebensende - Ergebnisse einer Befragung in Niedersachsen",
+  "content": "Background: Family doctors play an important role in the health care for terminal ill and patients. The current level of palliative care in Germany is strongly criticised, however, empirical data is scare, particularly with respect to family doctors. Methods: Therefore, the attitudes of family doctors (sample: n= 257) in four representative regions in Lower Saxony were studied by using semi-structured telephone interviews. This was part of a health system researchers’ expert report. Results: 71doctors could be interviewed (28%). On the average, they cared for four palliative patients with cancer diseases and eight palliative patients with other diseases than cancer at that time. Many of the doctors were available for their patients around the clock, particularly in the final phase. The main area for improvement was considered to be the psychosocial support – rather than pain therapy, which is usually focussed. Furthermore, a considerable openness for the establishment of new palliative care structures was shown. Conclusion: Family doctors are highly motivated for palliative care and open for improvements. In the process, the diversity of opinion among professions and disciplines about the current situation and the further development of palliative care should be respected and considered.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

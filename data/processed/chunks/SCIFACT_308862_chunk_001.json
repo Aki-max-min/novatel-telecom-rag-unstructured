@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_308862_chunk_001",
+  "document_id": "SCIFACT_308862",
+  "chunk_index": 1,
+  "text": "and 29 in the long-term group. The 5-year overall mortality for short-term and long-term suppression was 19.0% and 15.2%, respectively; the observed hazard ratio was 1.42 (upper 95.71% confidence limit, 1.79; P=0.65 for noninferiority). Adverse events in both groups included fatigue, diminished sexual function, and hot flushes. CONCLUSIONS The combination of radiotherapy plus 6 months of androgen suppression provides inferior survival as compared with radiotherapy plus 3 years of androgen suppression in the treatment of locally advanced prostate cancer. (ClinicalTrials.gov number, NCT00003026.)",
+  "title": "Duration of androgen suppression in the treatment of prostate cancer.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

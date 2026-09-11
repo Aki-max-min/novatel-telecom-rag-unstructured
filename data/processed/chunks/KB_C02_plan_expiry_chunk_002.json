@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C02_plan_expiry_chunk_002",
+  "document_id": "KB_C02_plan_expiry",
+  "chunk_index": 2,
+  "text": "attached, and the customer is informed of the new reference and expected timeline. ## Related Issues - Repeated occurrences for the same customer may indicate an upstream system issue and should be flagged to the relevant platform team. ## Related Documents Related documents: FAQ_C02_001.",
+  "title": "Understanding Plan Validity and Expiry",
+  "document_type": "KB Article",
+  "category": "C02",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-13",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C02_001"
+  ],
+  "tags": [
+    "c02",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C02_plan_expiry.md",
+  "file_type": "markdown"
+}

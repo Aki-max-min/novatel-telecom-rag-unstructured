@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_121",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 121,
+  "text": "of such commercial communications and the manner in which these records are to be maintained. CoP may also formulate further specific measure to have better control on UCC in such scenarios. Similar definitions are already being followed in other jurisdictions such as in Spam Act 2003 of Australia Communication and Media Authority (ACMA) for further details refer link https://www.acma.gov.au/Industry/Marketers/Do-not-call-register/Fax- marketing-standard/do-not-call-register-legislation 3.3.11 Templates for Consent and Content to verify content with the scope of consent: Currently the scope of the consent taken is either too broad or unclear in most cases. In view of this it may be required to specify consent acquisition templates and get them registered. The consent template needs to be presented to the target recipient from whom consent is being acquired. Consent templates would require capturing scope of consent and intent of commercial communications that are to be sent against Figure 5: Probable templates for Transactional Messages 67 such consent. Categorization of content needs to be carried out in such a manner that it can be matched to the scope of consent. This may require registration of content templates. There may be multiple templates for consent and content depending upon the situation and the context. Templates may be required to be registered separately for each regional language or combination of multiple languages. There may be separate templates for awareness programs or messages to be sent on the instructions of Government or Statutory bodies and such messages would be considered as service messages. Templates may also be registered",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

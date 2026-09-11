@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_223",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 223,
+  "text": "an array of other tools with the basic functionality of a ledger which is to record transactions (or more generally changes of state). 7.3 DLT is Resistant to unauthorized changes: As a result of the methods by which information is secured and updated in a DLT-based record, participants can be confident that all copies of the ledger will match each other at any given point of time. Any changes to the ledger are visible to all participants, and changes are only incorporated after a consensus is reached among participants regarding the change. Thus, the record is resistant to unauthorized change or malicious tampering, and participants in the network will immediately be able to spot any change to any part of the ledger. 7.4 DLT Replicates data with security and accuracy: A distributed ledger is essentially an asset database that can be shared across a network of multiple sites, geographies or institutions. All participants within a network can have their own identical copy of the ledger. Any changes to the ledger are reflected in all copies in minutes, or in some cases, seconds. The assets can be financial, legal, physical or electronic. The security and accuracy of the assets stored in the ledger are maintained cryptographically through the use of ‘keys’ and signatures to control who can do what within the shared ledger. Entries can also be updated by one, some or all of the participants, according to rules agreed by the network. Figure 14: Difference between Centralized, Decentralized and Distributed",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

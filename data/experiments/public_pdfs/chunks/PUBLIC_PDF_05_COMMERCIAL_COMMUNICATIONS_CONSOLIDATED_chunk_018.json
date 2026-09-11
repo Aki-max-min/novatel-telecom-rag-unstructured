@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_018",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 18,
+  "text": "transaction alerts and confirmations, balance alerts post completion of a transaction, refund information, etc. and such Messages or calls are not promotional in nature and does not require Explicit Consent; (bv) “Unregistered Telemarketer” (UTM) means any Sender of commercial communication who is not registered for the purpose of telemarketing with the access provider(s); (bw) “Unsolicited commercial communication or UCC” means any commercial communication that is neither as per the consent nor the registered preferences of the Recipient and does not include: - any transactional message or transactional voice call; any service message or service voice call; any message or voice calls transmitted on the directions of the Central Government or the State Government or bodies established under the Constitution, when such communication is in public interest; any message or voice calls transmitted by or on the direction of the Authority or by any agency expressly authorized for the purpose by the Authority: Provided that any commercial communication made by a Sender which is not registered with any Access Provider for the purpose of sending commercial communication shall be treated as an Unsolicited Commercial Communication: Provided further that any message sent or voice call made, in the guise of commercial communication or otherwise, to deceive the recipient or to attempt to deceive the recipient shall be treated as an unsolicited commercial communication under these regulations so far as the misutilization of telecom resources by the sender is concerned; (bx) “Usage Cap” means a limit put on a telephone number for making",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

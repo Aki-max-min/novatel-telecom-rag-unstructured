@@ -1,0 +1,15 @@
+{
+  "page_id": 387,
+  "pdf_path": "regulations\\04_quality_of_service_regulations.pdf",
+  "pdf_name": "04_quality_of_service_regulations.pdf",
+  "document_id": "04_quality_of_service_regulations",
+  "page_number": 174,
+  "page_number_zero_based": 173,
+  "image_path": "page_images\\04_quality_of_service_regulations\\page_0174.jpg",
+  "embedding_path": "embeddings\\04_quality_of_service_regulations\\page_0174.pt",
+  "embedding_shape": [
+    1,
+    1030,
+    128
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "page_id": 0,
+  "pdf_path": "consultation_documents\\09_draft_commercial_communications.pdf",
+  "pdf_name": "09_draft_commercial_communications.pdf",
+  "document_id": "09_draft_commercial_communications",
+  "page_number": 1,
+  "page_number_zero_based": 0,
+  "image_path": "page_images\\09_draft_commercial_communications\\page_0001.jpg",
+  "embedding_path": "embeddings\\09_draft_commercial_communications\\page_0001.pt",
+  "embedding_shape": [
+    1,
+    1030,
+    128
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_055",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 55,
+  "text": "press at prompt to unblock SMS to 1909 following text USSD send All UCC Categories (to be unblocked) 90 UNBLOCK ALL *#1909*90# All UCC Categories (to be unblocked) except Promotional 51 UNBLOCK SERVICE *#1909*51# Banking/Insurance /Financial products/ credit cards, 91 UNBLOCK 91 *#1909*91# Real Estate, 92 UNBLOCK 92 *#1909*92# Education, 93 UNBLOCK 93 *#1909*93# Health, 94 UNBLOCK 94 *#1909*94# Consumer goods and automobiles, 95 UNBLOCK 95 *#1909*95# Communication/Br oadcasting/ Entertainment/IT, 96 UNBLOCK 96 *#1909*96# Tourism and Leisure, 97 UNBLOCK 97 *#1909*97# Food and Beverages; 98 UNBLOCK 98 *#1909*98# Note-1: In case of communication with customer executive of Customer Care Center of access provider, preference to opt-in may be communicated; Note-2: Customer to be communicated with confirmation and final status along with options to block Note-3: UNBLOCK ALL option shall unblock all categories of content, mode, time band and day types with default options; Note-4: UNBLOCK 51 shall restore service type of commercial communications for all categories of content, mode, time band and day types as per the previous state of the customer while he exercised block option last time or with the default options as the case may be while promotional type of commercial communications shall remain in blocked state; Provided that the Authority may, from time to time, add or remove number of category(ies), or sub category(ies) for content; 2. Procedure for registration of preference or change of preference of Mode for Commercial 31 Communications: - Customer can opt-out of any or all of following category(ies) of mode(s) of",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

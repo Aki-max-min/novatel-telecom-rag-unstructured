@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17768946",
+  "title": "XRCC4's interaction with XLF is required for coding (but not signal) end joining",
+  "content": "XRCC4 and XLF are structurally related proteins important for DNA Ligase IV function. XRCC4 forms a tight complex with DNA Ligase IV while XLF interacts directly with XRCC4. Both XRCC4 and XLF form homodimers that can polymerize as heterotypic filaments independently of DNA Ligase IV. Emerging structural and in vitro biochemical data suggest that XRCC4 and XLF together generate a filamentous structure that promotes bridging between DNA molecules. Here, we show that ablating XRCC4's affinity for XLF results in DNA repair deficits including a surprising deficit in VDJ coding, but not signal end joining. These data are consistent with a model whereby XRCC4/XLF complexes hold DNA ends together--stringently required for coding end joining, but dispensable for signal end joining. Finally, DNA-PK phosphorylation of XRCC4/XLF complexes disrupt DNA bridging in vitro, suggesting a regulatory role for DNA-PK's phosphorylation of XRCC4/XLF complexes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9675944",
+  "title": "Induction of pluripotent stem cells from mouse embryonic fibroblasts by Oct4 and Klf4 with small-molecule compounds.",
+  "content": "Somatic cells can be induced into pluripotent stem cells (iPSCs) with a combination of four transcription factors, Oct4/Sox2/Klf4/c-Myc or Oct4/Sox2/Nanog/LIN28. This provides an enabling platform to obtain patient-specific cells for various therapeutic and research applications. However, several problems remain for this approach to be therapeutically relevant due to drawbacks associated with efficiency and viral genome integration. Recently, it was shown that neural progenitor cells (NPCs) transduced with Oct4/Klf4 can be reprogrammed into iPSCs. However, NPCs express Sox2 endogenously, possibly facilitating reprogramming in the absence of exogenous Sox2. In this study, we identified a small-molecule combination, BIX-01294 and BayK8644, that enables reprogramming of Oct4/Klf4-transduced mouse embryonic fibroblasts, which do not endogenously express the factors essential for reprogramming. This study demonstrates that small molecules identified through a phenotypic screen can compensate for viral transduction of critical factors, such as Sox2, and improve reprogramming efficiency.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

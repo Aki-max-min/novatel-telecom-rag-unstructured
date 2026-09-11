@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_087",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 87,
+  "text": "days before to the expiry of its registration and paying specified fee. Introduced power to amend schedules specified in Schedules and make it effective within time limits Regulations 20(2)(a) and (b) proviso added regarding amending Schedule-V and accordingly modifying agreement(s) between AP(s)and RTM(s) within the specified time. In Schedule-III modified regarding fee(s) and security deposit requirements. 15 15th Amendment Dated 7th April 2014 Introduced power of the Authority to restore telecom resources Regulation 19B: Restoration of disconnected telecom resources- on a request made to the Authority and satisfying the Authority about reasonable steps taken to prevent recurrence of the contravention, the Authority may order restoration on payment of Rs. 500 for restoration of each telecom resource. 16 16th Amendment Dated 10th December 2014 Modified definition of header Regulation 2(m) modified to include alphanumeric or numeric identifier Modifed definition of transactional messages, defined sending entities, conditions for sending and recipients for such messages Regulation 2(ab) (iiiA), (iiiB), (iiiC), (iiiD) added to define transactional messages, sending entities and recipients for such messages as information sent by: - e-commerce agencies in response to e-commerce transactions made by their customers; - a company or a firm or depository participant, registered with SEBI or IRDA or AMFI or NCDE to its clients pertaining to the account of the client; - a registered company to its employees or agents or customers pertaining to goods or services provided by it. - a registered company or charitable trust or society or TSP, pertaining to its services or activities",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

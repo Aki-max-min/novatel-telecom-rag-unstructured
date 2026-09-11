@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_37182501",
+  "title": "B-cell self-tolerance in humans.",
+  "content": "Two mechanisms account for generation of the human antibody repertoire; V(D)J recombination during the early stages of B-cell development in the bone marrow and somatic mutation of immunoglobulin genes in mature B cells responding to antigen in the periphery. V(D)J recombination produces diversity by random joining of gene segments and somatic mutation by introducing random point mutations. Both are required to attain the degree of antigen receptor diversification that is necessary for immune protection: defects in either mechanism are associated with increased susceptibility to infection. However, the downside of producing enormous random diversity in the antibody repertoire is the generation of autoantibodies. To prevent autoimmunity B cells expressing autoantibodies are regulated by strict mechanisms that either modify the specificity of autoantibodies or the fate of cells expressing such antibodies. Abnormalities in B-cell self-tolerance are associated with a large number of autoimmune diseases, but the precise nature of the defects is less well defined. Here we summarize recent data on the self-reactive B-cell repertoire in healthy humans and in patients with autoimmunity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

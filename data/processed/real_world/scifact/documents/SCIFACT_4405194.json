@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4405194",
+  "title": "Induction of human neuronal cells by defined transcription factors",
+  "content": "Somatic cell nuclear transfer, cell fusion, or expression of lineage-specific factors have been shown to induce cell-fate changes in diverse somatic cell types. We recently observed that forced expression of a combination of three transcription factors, Brn2 (also known as Pou3f2), Ascl1 and Myt1l, can efficiently convert mouse fibroblasts into functional induced neuronal (iN) cells. Here we show that the same three factors can generate functional neurons from human pluripotent stem cells as early as 6 days after transgene activation. When combined with the basic helix-loop-helix transcription factor NeuroD1, these factors could also convert fetal and postnatal human fibroblasts into iN cells showing typical neuronal morphologies and expressing multiple neuronal markers, even after downregulation of the exogenous transcription factors. Importantly, the vast majority of human iN cells were able to generate action potentials and many matured to receive synaptic contacts when co-cultured with primary mouse cortical neurons. Our data demonstrate that non-neural human somatic cells, as well as pluripotent stem cells, can be converted directly into neurons by lineage-determining transcription factors. These methods may facilitate robust generation of patient-specific human neurons for in vitro disease modelling or future applications in regenerative medicine.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

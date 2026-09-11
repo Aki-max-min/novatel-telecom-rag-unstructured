@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_016",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 16,
+  "text": "after ninety seconds in case the call release message is not received from the terminating network. SECTION IV QUALITY OF SERVICE PARAMETERS FOR ACCESS SERVICE (WIRELESS) 6. Quality of Service parameters in respect of which compliance reports are to be submitted to the Authority. ─ (1) Every service provider providing access service (wireless) shall meet the benchmark, to be measured as per the measurement methodology provided in Schedule-I, for each of the following QoS parameters, namely:- S. No. Name of Parameter Benchmark Assessment period Effective date I. Network Availability (i) Availability of service wise geospatial coverage map on service provider’s website for percentage of working cells ≥ 99% Monthly 01.04.2025 (ii) Cumulative downtime (Cells not available for service) ≤ 2% Quarterly 01.10.2024 Monthly 01.04.2025 ≤ 1.5% Monthly 01.10.2025 ≤ 1% Monthly 01.10.2026 (iii) Worst Affected Cells due to downtime ≤ 2% Quarterly 01.10.2024 Monthly 01.04.2025 ≤ 1.5% Monthly 01.10.2025 ≤ 1% Monthly 01.10.2026 (iv) Percentage of significant network outage (services not available in a district for more than 4 hours) reported to the Authority within 24 hrs of start of the outage Compensation to the subscribers for significant network outages of more than 24 hrs: • For post-paid subscribers registered in the district: Proportional rent rebate, as per plan charges, for affected number of days shall be credited in next bill. • For the pre-paid subscribers registered in the district: The validity of subscribed tariff offering shall be increased by equal number of affected days. 100% Quarterly 01.10.2024 Monthly 01.04.2025",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

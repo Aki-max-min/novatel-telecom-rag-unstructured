@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_80109277",
+  "title": "The Bitterest Pills: The Troubling Story of Antipsychotic Drugs",
+  "content": "© Joanna Moncrieff 2013. All rights reserved. A challenging reappraisal of the history of antipsychotics, revealing how they were transformed from neurological poisons into magical cures, their benefits exaggerated and their toxic effects minimized or ignored.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

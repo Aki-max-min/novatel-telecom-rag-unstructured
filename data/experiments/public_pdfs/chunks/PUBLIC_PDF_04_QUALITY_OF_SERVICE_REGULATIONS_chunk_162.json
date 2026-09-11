@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_162",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 162,
+  "text": "drop rates for longer duration. In such scenarios, the subscribers themselves release the call due to missing voice or call muting which is not counted in DCR and thereby showing better performance against this parameter (as is seen in case of TSP-4). (iv) To understand this correlation, cell wise DCR and UL-PDR performance is compared for a TSP for QE Dec’2022. It is observed that 23.6% of total cells, having Cell_Q(90) of DCR ≤ 2%, were having UL-PDR more than 2%. The same is represented in Figure 8. While the other TSP, having relatively poor DCR, has a better packet drop rate. Therefore, it is evident that it is possible to have better DCR performance at the cost of poor packet drop rate which results in call muting. Figure 8: Performance of UL-PDR of Cells having DCR <=2% (v) As per ITU-R report M.2135-1 on ‘Guidelines for evaluation of radio interface technologies for IMT Advance’, a user is defined to have experienced a voice outage if less than 98% of the packets have been delivered successfully. Accordingly, the sixth amendment to the previous regulations, issued on 31st July 2018, used the packet drop rate limit to ≤ 2% to measure the performance. (vi) The IMT Advance supports both bands i.e. Time Division Duplexing (TDD) and Frequency Division Duplexing (FDD) and both bands support IMT Advance standard of ITU. Therefore, the interference in TDD bands cannot be considered as a limitation in meeting the benchmark. In TDD, there is a single",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

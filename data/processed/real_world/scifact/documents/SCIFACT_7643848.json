@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7643848",
+  "title": "Membrane topology of the 60-kDa Oxa1p homologue from Escherichia coli.",
+  "content": "We have characterized the membrane topology of a 60-kDa inner membrane protein from Escherichia coli that is homologous to the recently identified Oxa1p protein in Saccharomyces cerevisiae mitochondria implicated in the assembly of mitochondrial inner membrane proteins. Hydrophobicity and alkaline phosphatase fusion analyses suggest a membrane topology with six transmembrane segments, including an N-terminal signal-anchor sequence not present in mitochondrial Oxa1p. In contrast to partial N-terminal fusion protein constructs, the full-length protein folds into a protease-resistant conformation, suggesting that important folding determinants are present in the C-terminal part of the molecule.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

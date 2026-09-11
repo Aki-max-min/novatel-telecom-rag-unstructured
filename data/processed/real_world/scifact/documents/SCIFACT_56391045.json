@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_56391045",
+  "title": "DIASPORA BONDS: TAPPING THE DIASPORA DURING DIFFICULT TIMES",
+  "content": "India and Israel have raised over US$35 billion by tapping into the wealth of their diaspora communities. These diaspora bonds represent a stable and cheap source of external finance, often when countries lost access to international capital markets. For diaspora investors, these bonds offer the opportunity to help their country of origin while also providing an investment opportunity. The potential for diaspora bonds is significant for many countries with large diasporas abroad. However, diaspora bond issuance from countries with weak governance and high sovereign risk may require support for institutional capacity building and credit enhancement from multilateral or bilateral agencies. Haiti, for instance, could raise several hundred million dollars by issuing diaspora bonds provided a guarantee structure is created to build trust in the country's public institutions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -18,3 +18,12 @@ __pycache__/
 # Hugging Face / model caches
 .cache/
 .cache/huggingface/
+
+.venv/
+.venv_colpali/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+data/raw/real_world/telecom_mixed/
+data/raw/real_world/scifact/scifact.zip

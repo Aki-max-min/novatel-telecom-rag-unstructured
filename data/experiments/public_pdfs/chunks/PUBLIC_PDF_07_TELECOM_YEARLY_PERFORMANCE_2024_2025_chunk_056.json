@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_056",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 56,
+  "text": "however urban internet tele-density decreased from 111.75 to 110.79 from Mar-24 to Mar-25. Division Multiple Access (WCDMA), High Speed Data (HSD), High Speed Internet Access (HSIA), Wireless Fidelity (Wi-Fi), Worldwide Interoperability for Microwave Access (Wi-Max), Very Small Aperture Terminal (VSAT) § DSL – Digital Subscriber Line, LAN – Local Area Network 44.39 3.93 0.61 0.03 0.00 5.00 10.00 15.00 20.00 25.00 30.00 35.00 40.00 45.00 50.00 FWA-5G Wi-Fi Radio Wi-Max Subscribers in Lakhs 0.00 10.00 20.00 30.00 40.00 50.00 38.30 1.99 0.62 0.26 0.24 Subscriber (in million) 65 Table1.41: Subscriber Base & Tele-density - Rural & Urban Year ending Internet Subscribers (million) Internet tele-density (%) Rural Urban Total Rural Urban Overall Mar-2022 331.81 493.08 824.89 37.06 102.82 60.00 Mar-2023 357.99 523.26 881.25 39.84 107.11 63.53 Mar-2024 398.35 556.05 954.40 44.16 111.75 68.19 Mar-2025 407.69 561.42 969.10 45.03 110.79 68.63 Growth Mar-25 over Mar-24 (%) 2.34 0.97 1.54 1.97 -0.86 0.65 Table 1.42: Service Area wise number of Internet Subscribers per 100 population at the end of Mar-25 Service Area Internet Subscribers (in million) No. of Internet subscribers per 100 population Rural Urban Total Rural Urban Total Andhra Pradesh 31.05 41.60 72.65 58.83 106.06 78.96 Assam 13.38 6.95 20.33 43.66 120.69 55.84 Bihar 48.51 25.23 73.73 33.66 93.45 43.10 Delhi 1.58 56.06 57.63 - - 259.86 Gujarat 19.48 37.22 56.70 52.55 98.77 75.85 Haryana 9.68 11.08 20.76 55.17 82.59 67.05 Himachal Pradesh 4.00 2.67 6.67 59.16 341.95 88.45 Jammu & Kashmir 4.89 5.45 10.34 50.32 124.20 73.30 Karnataka 21.47 38.83 60.30",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

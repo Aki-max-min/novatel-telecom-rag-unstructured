@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_116",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 116,
+  "text": "have been finalized by the Authority after taking holistic perspective and analysis based on the performance data provided by the service providers. The analysis or justification for the revision of performance benchmarks has been provided against relevant QoS parameters in subsequent sections of this EM. 4.8 Regulatory Impact Analysis (RIA) (a) Input of Stakeholders Some stakeholders submitted that there should be a regulatory impact analysis (RIA) exercise to determine the need for a QoS Regulation overhaul. RIA is a systemic approach to assess the positive and negative effects of proposed and existing regulations. (b) Analysis and Conclusion (i) TRAI Act, 1997 mandates the Authority to ensure the quality of service to protect the interest of the consumers of telecommunication services. Accordingly, TRAI had laid down three regulations, as detailed in para 2.1 above, prescribing standards for Quality of Service (QoS) parameters of various telecom services. (ii) These regulations have been amended from time to time to incorporate emerging changes due to the introduction of new technologies and consumer requirements. The regular revisions in the regulations are essential to meet consumer expectations and to support emerging services and applications riding on telecom services. (iii) The benchmarks have been finalized by the Authority by taking a holistic perspective including the performance data provided by the service providers. (iv) The impact analysis of parameters on the quality of service has been undertaken by the Authority based on the outcome of the compliance reports against previous regulations, gap analysis between compliance reported and ground-level",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

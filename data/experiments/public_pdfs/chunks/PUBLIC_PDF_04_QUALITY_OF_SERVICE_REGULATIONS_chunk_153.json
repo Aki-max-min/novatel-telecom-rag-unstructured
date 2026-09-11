@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_153",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 153,
+  "text": "supports the understanding that performance of packet switched network (4G) is better than circuit switched networks (2G/ 3G) with respect to DCR related parameters. The bad performance of 2G/ 3G networks gets compensated through the good performance of 4G. (vi) Performance of different TSPs against DCR parameter, separately for Circuit/ Packet Switched network and for overall network, across all LSAs for QE March’2024 is depicted through box plot18 in figure 6. 18 Box plot is a graphical representation of the distribution of a dataset. It displays key summary statistics such as the median, quartiles, and potential outliers in a concise and visual manner. By using Box plot you can provide a summary of the distribution, identify potential and compare different datasets in a compact and visual manner. 25% 25% 153 Figure 6: Performance of different TSPs against DCR parameter TSP Performance of CS_QSD Performance of PS_QSD Performance of Overall_QSD TSP -1 TSP-2 TSP-3 Not applicable TSP-4 Not applicable TSP-5 Observation: • In respect of TSP-1: CS_QSD (90,90) is above benchmark i.e. >2% in approx. 25% LSAs and PS_QSD (90,90) < 2% in all LSAs but Overall_QSD (90,90) < 2% in all LSAs • In respect of TSP-5: CS_QSD (90,90) >2% in few LSAs and PS_QSD (90,90) < 2% in all LSAs but Overall_QSD (90,90) < 2% in all LSAs • There is wide variation in the performance of PS_QSD (90,90) among TSPs. 154 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] (vii) The comment of stakeholders that the Authority has not",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

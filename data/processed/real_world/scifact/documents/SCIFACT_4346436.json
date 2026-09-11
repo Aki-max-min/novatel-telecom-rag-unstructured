@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4346436",
+  "title": "Nonlinear Elasticity in Biological Gels",
+  "content": "Unlike most synthetic materials, biological materials often stiffen as they are deformed. This nonlinear elastic response, critical for the physiological function of some tissues, has been documented since at least the 19th century, but the molecular structure and the design principles responsible for it are unknown. Current models for this response require geometrically complex ordered structures unique to each material. In this Article we show that a much simpler molecular theory accounts for strain stiffening in a wide range of molecularly distinct biopolymer gels formed from purified cytoskeletal and extracellular proteins. This theory shows that systems of semi-flexible chains such as filamentous proteins arranged in an open crosslinked meshwork invariably stiffen at low strains without the need for a specific architecture or multiple elements with different intrinsic stiffnesses.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

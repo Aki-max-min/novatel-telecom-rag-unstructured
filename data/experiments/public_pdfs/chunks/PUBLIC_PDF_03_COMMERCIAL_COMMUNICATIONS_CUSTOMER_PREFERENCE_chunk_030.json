@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_030",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 30,
+  "text": "it is found that number of complaints against the sender are from ten or more than ten recipients over a period of last seven days, the OAP shall put sender under Usage Cap and at the same time shall initiate investigation as provided for in sub-regulation (6); Provided that such Usage Cap shall be valid till investigation is completed or thirty days from the date of effect of restrictions, whichever is earlier; in case it is found that number of complaints against the sender are from less than ten recipients over a period of last seven days, the OAP shall, from the previous thirty days data of CoP_UCC_Detect System, check whether suspected sender is involved in sending Commercial Communication in bulk or not; and (A) in case, sender has sent commercial communications in bulk, the OAP shall put the sender under Usage Cap, and at the same time initiate investigation as provided for in sub-regulation (6); Provided that such restrictions shall be valid till investigation in this regard is completed under relevant regulations or thirty days from the date of effect of restrictions, whichever is earlier; (B) in case, sender has not sent commercial communications in bulk, the OAP shall warn such sender through appropriate means as provided for in Code(s) of Practice; OAP shall issue notice, within three business days, to give opportunity to such sender(s), under sub regulations (5)(c)(i), (5)(c)(ii)(A) to represent his case and shall investigate, within thirty business days from the date of receipt of complaint",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

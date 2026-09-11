@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_16237005",
+  "title": "Single-RNA counting reveals alternative modes of gene expression in yeast",
+  "content": "Proper execution of transcriptional programs is a key requirement of gene expression regulation, demanding accurate control of timing and amplitude. How precisely the transcription machinery fulfills this task is not known. Using an in situ hybridization approach that detects single mRNA molecules, we measured mRNA abundance and transcriptional activity within single Saccharomyces cerevisiae cells. We found that expression levels for particular genes are higher than initially reported and can vary substantially among cells. However, variability for most constitutively expressed genes is unexpectedly small. Combining single-transcript measurements with computational modeling indicates that low expression variation is achieved by transcribing genes using single transcription-initiation events that are clearly separated in time, rather than by transcriptional bursts. In contrast, PDR5, a gene regulated by the transcription coactivator complex SAGA, is expressed using transcription bursts, resulting in larger variation. These data directly demonstrate the existence of multiple expression modes used to modulate the transcriptome.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

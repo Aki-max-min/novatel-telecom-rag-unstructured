@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_062",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 62,
+  "text": "not been used to send Messages through any Access Provider for a period of ninety days, or such period as may be specified by the Authority, through an automated process and reactivate such Headers upon request of the Senders; immediately suspend the traffic from a Sender, when a Header is blacklisted by the OAP for sending commercial communications, in violation of the regulations. Traffic should be resumed only after review of all the registered Headers and registered Content Templates of the registered Sender by the respective registrars and findings are recorded, or seven days from suspension, whichever is earlier. Repeat violations shall result in blacklisting of the Sender across all the Access Providers for a minimum period of one year; Consent Registration Function (CRF) record consent via Customer Consent Acquisition Functionality on Consent Register, on its own or through its agents, to facilitate consent acquirers to record the consent taken from the customers in a robust manner which is immutable and non-repudiable and as specified by relevant regulations; Presenting content of consent acquisition template to the customer before taking consent; Taking agreement to the purpose of consent and details of sender; Authenticate customer giving the consent through OTP; record revocation of consent by the customer via revoke request in a robust manner which is immutable and non-repudiable and as specified by relevant regulations; record sufficient contact information, valid for at least 30 days, required to revoke consent and present it to recipient to enable them to submit request for revoking",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27587267",
+  "title": "Autoradiography of chromosomal DNA fibers from Chinese hamster cells.",
+  "content": "Ignorance of the true length of the DNA molecules in the chromosomes of higher organisms has always been a major obstacle to understanding chromosome structure. Consequently, attempts have been made, usually with the aid of electron microscopy, to estimate the size of DNA in higher organisms. Solari (1) has reported the longest such DNA measured before now-a DNA fiber from a sea urchin sperm at least 93 μ, long.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

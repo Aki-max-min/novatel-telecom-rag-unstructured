@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_39462488",
+  "title": "Replisome stalling and stabilization at CGG repeats, which are responsible for chromosomal fragility",
+  "content": "Expanded CGG repeats cause chromosomal fragility and hereditary neurological disorders in humans. Replication forks stall at CGG repeats in a length-dependent manner in primate cells and in yeast. Saccharomyces cerevisiae proteins Tof1 and Mrc1 facilitate replication fork progression through CGG repeats. Remarkably, the fork-stabilizing role of Mrc1 does not involve its checkpoint function. Thus, chromosomal fragility might occur when forks stalled at expanded CGG repeats escape the S-phase checkpoint.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

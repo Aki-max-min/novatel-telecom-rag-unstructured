@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21439293",
+  "title": "Beyond pattern recognition: five immune checkpoints for scaling the microbial threat",
+  "content": "Pattern recognition by the innate immune system enables the detection of microorganisms, but how the level of microbial threat is evaluated — a process that is crucial for eliciting measured antimicrobial responses with minimal inflammatory tissue damage — is less well understood. New evidence has shown that features of microbial viability can be detected by the immune system and thereby induce robust responses that are not warranted for dead microorganisms. Here, we propose five immune checkpoints that, as defined here, collectively determine the gravity of microbial encounters.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

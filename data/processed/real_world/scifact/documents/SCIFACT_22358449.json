@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22358449",
+  "title": "Plzf regulates limb and axial skeletal patterning",
+  "content": "The promyelocytic leukaemia zinc finger (Plzf) protein (encoded by the gene Zfp145) belongs to the POZ/zinc-finger family of transcription factors. Here we generate Zfp145−/− mice and show that Plzf is essential for patterning of the limb and axial skeleton. Plzf inactivation results in patterning defects affecting all skeletal structures of the limb, including homeotic transformations of anterior skeletal elements into posterior structures. We demonstrate that Plzf acts as a growth-inhibitory and pro-apoptotic factor in the limb bud. The expression of members of the abdominal b (Abdb) Hox gene complex, as well as genes encoding bone morphogenetic proteins (Bmps), is altered in the developing limb of Zfp145−/− mice. Plzf regulates the expression of these genes in the absence of aberrant polarizing activity and independently of known patterning genes. Zfp145−/− mice also exhibit anterior-directed homeotic transformation throughout the axial skeleton with associated alterations in Hox gene expression. Plzf is therefore a mediator of anterior-to-posterior (AP) patterning in both the axial and appendicular skeleton and acts as a regulator of Hox gene expression.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

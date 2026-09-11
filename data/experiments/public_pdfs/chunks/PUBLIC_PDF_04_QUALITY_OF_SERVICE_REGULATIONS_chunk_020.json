@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_020",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 20,
+  "text": "Quarterly 01.10.2024 Monthly 01.04.2025 (v) Jitter (in 4G and 5G network) ≤ 50 msec Quarterly 01.10.2024 Monthly 01.04.2025 (vi) Messaging: Successful SMS delivery within service provider's network ≥ 95% Quarterly 01.10.2024 Monthly 01.04.2025 Note: The assessment period and corresponding benchmark for respective QoS parameters shall come into force with effect from specified ‘Effective date’ and the benchmarks for the QoS parameters specified against the previous assessment period shall stand withdrawn accordingly. (2) The service provider shall─ (a) measure the service coverage of the access service (wireless) through drive tests at periodic intervals and take remedial action to address problems related to network coverage, interference, call drop, voice quality and data speed observed during such drive tests; (b) maintain and make available such records as per clause (a) in electronic format to the Authority; and (c) provide to the Authority or any agency or representative authorized by the Authority, on demand, for verification, the primary data for the records maintained as per clause (b) above. (3) The Authority may, through drive tests of the access service (wireless) conducted either by its own officers or employees or through an agency appointed by it or through joint drive tests with the service provider, assess the quality of the service in the coverage area, and the service provider shall facilitate such drive tests. (4) The service provider shall, suo-moto, take all remedial action to rectify shortcomings or deficiencies, if any, detected during the joint drive tests involving service providers without waiting for any communication",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14692646",
+  "title": "Regulation of immune responses by extracellular vesicles",
+  "content": "Extracellular vesicles, including exosomes, are small membrane vesicles derived from multivesicular bodies or from the plasma membrane. Most, if not all, cell types release extracellular vesicles, which then enter the bodily fluids. These vesicles contain a subset of proteins, lipids and nucleic acids that are derived from the parent cell. It is thought that extracellular vesicles have important roles in intercellular communication, both locally and systemically, as they transfer their contents, including proteins, lipids and RNAs, between cells. Extracellular vesicles are involved in numerous physiological processes, and vesicles from both non-immune and immune cells have important roles in immune regulation. Moreover, extracellular vesicle-based therapeutics are being developed and clinically tested for the treatment of inflammatory diseases, autoimmune disorders and cancer. Given the tremendous therapeutic potential of extracellular vesicles, this Review focuses on their role in modulating immune responses, as well as their potential therapeutic applications.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

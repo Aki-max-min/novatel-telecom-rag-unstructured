@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29634262",
+  "title": "Gene supplementation therapy for recessive forms of inherited retinal dystrophies",
+  "content": "Over the last decade, gene supplementation therapy for inherited retinal degeneration has come of age. Early proof-of-concept studies in animal models of disease showed modest, but genuine improvements in retinal function and/or survival. Further development of the vectors used for gene transfer to the retina has led to better treatment efficacy in a wide variety of animal models, leading in 2008 to the initiation of three clinical trials for Leber congenital amaurosis caused by retinal pigment epithelium 65 deficiency. The results from these trials suggest that the treatment of inherited retinal dystrophy by gene therapy can be safe and effective. Here, we examine the progress of gene supplementation therapy in the retina, and discuss the potential for using gene therapy to treat different forms of inherited retinal degeneration.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

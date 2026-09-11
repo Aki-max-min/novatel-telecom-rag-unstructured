@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24044977",
+  "title": "Innate lymphoid cells: emerging insights in development, lineage relationships, and function.",
+  "content": "Innate lymphoid cells (ILCs) are immune cells that lack a specific antigen receptor yet can produce an array of effector cytokines that in variety match that of T helper cell subsets. ILCs function in lymphoid organogenesis, tissue remodeling, antimicrobial immunity, and inflammation, particularly at barrier surfaces. Their ability to promptly respond to insults inflicted by stress-causing microbes strongly suggests that ILCs are critical in first-line immunological defenses. Here, we review current data on developmental requirements, lineage relationships, and effector functions of two families of ILCs: (a) Rorγt-expressing cells involved in lymphoid tissue formation, mucosal immunity, and inflammation and (b) type 2 ILCs that are important for helminth immunity. We also discuss the potential roles of ILCs in the pathology of immune-mediated inflammatory and infectious diseases including allergy.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

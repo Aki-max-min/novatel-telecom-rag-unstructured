@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6826636",
+  "title": "GiardiaDB and TrichDB: integrated genomic resources for the eukaryotic protist pathogens Giardia lamblia and Trichomonas vaginalis",
+  "content": "GiardiaDB (http://GiardiaDB.org) and TrichDB (http://TrichDB.org) house the genome databases for Giardia lamblia and Trichomonas vaginalis, respectively, and represent the latest additions to the EuPathDB (http://EuPathDB.org) family of functional genomic databases. GiardiaDB and TrichDB employ the same framework as other EuPathDB sites (CryptoDB, PlasmoDB and ToxoDB), supporting fully integrated and searchable databases. Genomic-scale data available via these resources may be queried based on BLAST searches, annotation keywords and gene ID searches, GO terms, sequence motifs and other protein characteristics. Functional queries may also be formulated, based on transcript and protein expression data from a variety of platforms. Phylogenetic relationships may also be interrogated. The ability to combine the results from independent queries, and to store queries and query results for future use facilitates complex, genome-wide mining of functional genomic data.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

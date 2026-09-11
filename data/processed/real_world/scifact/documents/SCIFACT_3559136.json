@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_3559136",
+  "title": "Cancer-Associated Fibroblasts Neutralize the Anti-tumor Effect of CSF1 Receptor Blockade by Inducing PMN-MDSC Infiltration of Tumors.",
+  "content": "Tumor-associated macrophages (TAM) contribute to all aspects of tumor progression. Use of CSF1R inhibitors to target TAM is therapeutically appealing, but has had very limited anti-tumor effects. Here, we have identified the mechanism that limited the effect of CSF1R targeted therapy. We demonstrated that carcinoma-associated fibroblasts (CAF) are major sources of chemokines that recruit granulocytes to tumors. CSF1 produced by tumor cells caused HDAC2-mediated downregulation of granulocyte-specific chemokine expression in CAF, which limited migration of these cells to tumors. Treatment with CSF1R inhibitors disrupted this crosstalk and triggered a profound increase in granulocyte recruitment to tumors. Combining CSF1R inhibitor with a CXCR2 antagonist blocked granulocyte infiltration of tumors and showed strong anti-tumor effects.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

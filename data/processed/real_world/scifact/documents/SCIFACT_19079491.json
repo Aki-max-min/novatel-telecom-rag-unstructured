@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19079491",
+  "title": "Calcium: Regulation of cell death: the calcium–apoptosis link",
+  "content": "To live or to die? This crucial question eloquently reflects the dual role of Ca2+ in living organisms – survival factor or ruthless killer. It has long been known that Ca2+ signals govern a host of vital cell functions and so are necessary for cell survival. However, more recently it has become clear that cellular Ca2+ overload, or perturbation of intracellular Ca2+ compartmentalization, can cause cytotoxicity and trigger either apoptotic or necrotic cell death.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

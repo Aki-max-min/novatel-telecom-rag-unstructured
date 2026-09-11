@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_16319097",
+  "title": "Mechanisms of endocytosis.",
+  "content": "Endocytic mechanisms control the lipid and protein composition of the plasma membrane, thereby regulating how cells interact with their environments. Here, we review what is known about mammalian endocytic mechanisms, with focus on the cellular proteins that control these events. We discuss the well-studied clathrin-mediated endocytic mechanisms and dissect endocytic pathways that proceed independently of clathrin. These clathrin-independent pathways include the CLIC/GEEC endocytic pathway, arf6-dependent endocytosis, flotillin-dependent endocytosis, macropinocytosis, circular doral ruffles, phagocytosis, and trans-endocytosis. We also critically review the role of caveolae and caveolin1 in endocytosis. We highlight the roles of lipids, membrane curvature-modulating proteins, small G proteins, actin, and dynamin in endocytic pathways. We discuss the functional relevance of distinct endocytic pathways and emphasize the importance of studying these pathways to understand human disease processes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

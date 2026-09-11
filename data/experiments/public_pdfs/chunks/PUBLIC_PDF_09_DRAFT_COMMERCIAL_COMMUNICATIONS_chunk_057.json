@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_057",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 57,
+  "text": "with default options; Provided that the Authority may, from time to time, add or remove number of category(ies), or sub category(ies) for content; 2. Procedure for registration of preference or change of preference of Mode for Commercial Communications: - (1) Customer can opt-out of all of following categories or any of selected category(ies): 41 UCC Mode of Communication (Choices for Preference(s)) IVRS: Call to 1909 and press at prompt to block SMS:Send SMS to 1909followingte xt USSD:Dial USSD String All Categories of Mode (to be blocked) 10 BLOCK 10 *1909*10# (i) Voice Call, 11 BLOCK 11 *1909*11# (ii) SMS, 12 BLOCK 12 *1909*12# (iii) Auto Dialer Call (With Pre-recorded Announcement), 13 BLOCK 13 *1909*13# (iv) Auto Dialer Call (With Connectivity to live agent), 14 BLOCK 14 *1909*14# (v) Robo-Calls, 15 BLOCK 15 *1909*15# Note-1: In case of communication with customer executive of Customer Care Center of access provider, preference to opt-out may be communicated; Note-2: Customer to be communicated with confirmation and final status along with options to unblock; Provided that the Authority may, from time to time, add or remove number of category(ies), or sub category(ies) for mode; (2) Customer can opt-in for all of following categories or any of selected category(ies) of content: UCC Mode of Communication (Choices for Preference(s)) IVRS: Call to 1909 and press at prompt to block SMS:Send SMS to 1909following text USSD:Dial USSD String All Categories of Mode (to be unblocked) 80 UNBLOCK 80 *1909*80# (iii) Voice Call, 81 UNBLOCK81 *1909*81# (iv) SMS, 82",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

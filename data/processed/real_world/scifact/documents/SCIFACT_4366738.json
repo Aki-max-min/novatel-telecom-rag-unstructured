@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4366738",
+  "title": "Haematopoietic stem cells and early lymphoid progenitors occupy distinct bone marrow niches",
+  "content": "Although haematopoietic stem cells (HSCs) are commonly assumed to reside within a specialized microenvironment, or niche, most published experimental manipulations of the HSC niche have affected the function of diverse restricted progenitors. This raises the fundamental question of whether HSCs and restricted progenitors reside within distinct, specialized niches or whether they share a common niche. Here we assess the physiological sources of the chemokine CXCL12 for HSC and restricted progenitor maintenance. Cxcl12(DsRed) knock-in mice (DsRed-Express2 recombined into the Cxcl12 locus) showed that Cxcl12 was primarily expressed by perivascular stromal cells and, at lower levels, by endothelial cells, osteoblasts and some haematopoietic cells. Conditional deletion of Cxcl12 from haematopoietic cells or nestin-cre-expressing cells had little or no effect on HSCs or restricted progenitors. Deletion of Cxcl12 from endothelial cells depleted HSCs but not myeloerythroid or lymphoid progenitors. Deletion of Cxcl12 from perivascular stromal cells depleted HSCs and certain restricted progenitors and mobilized these cells into circulation. Deletion of Cxcl12 from osteoblasts depleted certain early lymphoid progenitors but not HSCs or myeloerythroid progenitors, and did not mobilize these cells into circulation. Different stem and progenitor cells thus reside in distinct cellular niches in bone marrow: HSCs occupy a perivascular niche and early lymphoid progenitors occupy an endosteal niche.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

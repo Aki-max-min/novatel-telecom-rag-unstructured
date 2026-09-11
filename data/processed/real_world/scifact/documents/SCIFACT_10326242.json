@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10326242",
+  "title": "Biallelic mutations in PALB2 cause Fanconi anemia subtype FA-N and predispose to childhood cancer",
+  "content": "PALB2 was recently identified as a nuclear binding partner of BRCA2. Biallelic BRCA2 mutations cause Fanconi anemia subtype FA-D1 and predispose to childhood malignancies. We identified pathogenic mutations in PALB2 (also known as FANCN) in seven families affected with Fanconi anemia and cancer in early childhood, demonstrating that biallelic PALB2 mutations cause a new subtype of Fanconi anemia, FA-N, and, similar to biallelic BRCA2 mutations, confer a high risk of childhood cancer.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13956305",
+  "title": "Major histocompatibility complex associations of ankylosing spondylitis are complex and involve further epistasis with ERAP1",
+  "content": "Ankylosing spondylitis (AS) is a common, highly heritable, inflammatory arthritis for which HLA-B*27 is the major genetic risk factor, although its role in the aetiology of AS remains elusive. To better understand the genetic basis of the MHC susceptibility loci, we genotyped 7,264 MHC SNPs in 22,647 AS cases and controls of European descent. We impute SNPs, classical HLA alleles and amino-acid residues within HLA proteins, and tested these for association to AS status. Here we show that in addition to effects due to HLA-B*27 alleles, several other HLA-B alleles also affect susceptibility. After controlling for the associated haplotypes in HLA-B, we observe independent associations with variants in the HLA-A, HLA-DPB1 and HLA-DRB1 loci. We also demonstrate that the ERAP1 SNP rs30187 association is not restricted only to carriers of HLA-B*27 but also found in HLA-B*40:01 carriers independently of HLA-B*27 genotype.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

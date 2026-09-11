@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5508750",
+  "title": "Molecular regulation of effector and memory T cell differentiation",
+  "content": "Immunological memory is a cardinal feature of adaptive immunity and an important goal of vaccination strategies. Here we highlight advances in the understanding of the diverse T lymphocyte subsets that provide acute and long-term protection from infection. These include new insights into the transcription factors, and the upstream 'pioneering' factors that regulate their accessibility to key sites of gene regulation, as well as metabolic regulators that contribute to the differentiation of effector and memory subsets; ontogeny and defining characteristics of tissue-resident memory lymphocytes; and origins of the remarkable heterogeneity exhibited by activated T cells. Collectively, these findings underscore progress in delineating the underlying pathways that control diversification in T cell responses but also reveal gaps in the knowledge, as well as the challenges that arise in the application of this knowledge to rationally elicit desired T cell responses through vaccination and immunotherapy.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

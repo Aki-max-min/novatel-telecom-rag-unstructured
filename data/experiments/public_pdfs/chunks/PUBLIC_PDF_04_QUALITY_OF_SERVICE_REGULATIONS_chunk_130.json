@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_130",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 130,
+  "text": "of Stakeholders (i) Some of the stakeholders submitted that this parameter should not be considered as part of the QoS parameters to be monitored & reported. (ii) The stakeholders have further submitted that the telecommunication industry has seen notable progress with the widespread adoption of all IP-based networks and advanced infrastructure, significantly enhancing the flexibility and capabilities of telecom networks. Network architecture shifts to IP-based systems, diminishing the relevance of traditional parameters like \"local exchanges\". Consequently, the necessity of adhering to the conventional parameters has become increasingly obsolete. 145 (iii) It is also suggested that consideration should be given to aligning the applicability of this parameter with the diverse network architectures deployed by various service providers. This approach accounts for the fact that some telecommunication networks may still rely on legacy infrastructure and have not completed the full migration to all-IP networks. (b) Analysis and Conclusion Considering the technological development and diminishing concept of ‘local exchanges’ due to flat charging irrespective of distance and the fact that the performance of POIs is already covered under QoS parameters, the Authority has considered the request of the stakeholder for dropping the parameter. Accordingly, the parameter has been dropped from QoS monitoring. 5.3 QUALITY OF SERVICE PARAMETERS FOR ACCESS SERVICE (WIRELESS) (Regulation 6) 5.3.1 Availability of service wise geospatial coverage map on service provider’s website for percentage of working cells (a) Input of Stakeholders (i) Multiple stakeholders submitted that this parameter should be removed. In case it is retained, there should be no",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

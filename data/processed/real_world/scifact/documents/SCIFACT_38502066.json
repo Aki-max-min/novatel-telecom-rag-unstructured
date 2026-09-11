@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_38502066",
+  "title": "IL-2 receptor signaling is essential for the development of Klrg1+ terminally differentiated T regulatory cells.",
+  "content": "Thymic-derived natural T regulatory cells (Tregs) are characterized by functional and phenotypic heterogeneity. Recently, a small fraction of peripheral Tregs has been shown to express Klrg1, but it remains unclear as to what extent Klrg1 defines a unique Treg subset. In this study, we show that Klrg1(+) Tregs represent a terminally differentiated Treg subset derived from Klrg1(-) Tregs. This subset is a recent Ag-responsive and highly activated short-lived Treg population that expresses enhanced levels of Treg suppressive molecules and that preferentially resides within mucosal tissues. The development of Klrg1(+) Tregs also requires extensive IL-2R signaling. This activity represents a distinct function for IL-2, independent from its contribution to Treg homeostasis and competitive fitness. These and other properties are analogous to terminally differentiated short-lived CD8(+) T effector cells. Our findings suggest that an important pathway driving Ag-activated conventional T lymphocytes also operates for Tregs.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

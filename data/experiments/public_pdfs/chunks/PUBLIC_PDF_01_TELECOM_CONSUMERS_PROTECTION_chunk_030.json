@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_030",
+  "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+  "chunk_index": 30,
+  "text": "details of STV such as name of STV, charges, validity period and toll free short code, in case of STV for SMS, and a web link, in case of STV for data, for deactivation of the STV and renew the STV; and Step – 4: the service provider shall, three days before the expiry of the validity period of STV after every renewal, inform the consumer, through SMS, the due date of renewal, the charges for renewal, the terms and conditions of renewal, the toll free short code for deactivation of STV and in case a request for deactivation is not received, renew the STV. 1 Ins. by the Seventh Amendment Regulations, 2013, Sch. I and II (w.e.f. 15.01.2014) 18 SCHEDULE – II Procedure for deactivation of STV at any time after renewal, on the request of the consumer, through Interactive Voice Response (IVR) or through SMS to a toll free short code or through web link. (a) Through Interactive Voice Response (IVR): Step – 1: The consumer makes a call on IVR telephone number of the service provider; Step – 2: the service provider shall provide to the consumer, over a recorded IVR, the choice of the language for interaction with IVR, which shall be in English, Hindi and in the regional language; Step – 3: The list of STVs activated on the mobile number of the consumer is provided to him and he is given the option to select the STV, which he wants to deactivate, by pressing",
+  "title": "01 telecom consumers protection",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/01_telecom_consumers_protection.pdf",
+  "file_type": "pdf"
+}

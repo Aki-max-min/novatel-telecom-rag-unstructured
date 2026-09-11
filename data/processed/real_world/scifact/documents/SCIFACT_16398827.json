@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_16398827",
+  "title": "Astrocyte-Mediated Distributed Plasticity at Hypothalamic Glutamate Synapses",
+  "content": "Afferent activity can induce fast, feed-forward changes in synaptic efficacy that are synapse specific. Using combined electrophysiology, caged molecule photolysis, and Ca(2+) imaging, we describe a plasticity in which the recruitment of astrocytes in response to afferent activity causes a fast and feed-forward, yet distributed increase in the amplitude of quantal synaptic currents at multiple glutamate synapses on magnocellular neurosecretory cells in the hypothalamic paraventricular nucleus. The plasticity is largely multiplicative, consistent with a proportional increase or \"scaling\" in the strength of all synapses on the neuron. This effect requires a metabotropic glutamate receptor-mediated rise in Ca(2+) in the astrocyte processes surrounding the neuron and the release of the gliotransmitter ATP, which acts on postsynaptic purinergic receptors. These data provide evidence for a form of distributed synaptic plasticity that is feed-forward, expressed quickly, and mediated by the synaptic activation of neighboring astrocytes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

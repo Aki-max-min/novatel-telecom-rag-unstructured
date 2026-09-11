@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7729656",
+  "title": "Lessons from more than 80 structures of the GluA2 ligand-binding domain in complex with agonists, antagonists and allosteric modulators.",
+  "content": "Ionotropic glutamate receptors (iGluRs) constitute a family of ligand-gated ion channels that are essential for mediating fast synaptic transmission in the central nervous system. These receptors play an important role for the development and function of the nervous system, and are essential in learning and memory. However, iGluRs are also implicated in or have causal roles for several brain disorders, e.g. epilepsy, Alzheimer's disease, Parkinson's disease and schizophrenia. Their involvement in neurological diseases has stimulated widespread interest in their structure and function. Since the first publication in 1998 of the structure of a recombinant soluble protein comprising the ligand-binding domain of GluA2 extensive studies have afforded numerous crystal structures of wildtype and mutant proteins including different ligands. The structural information obtained combined with functional data have led to models for receptor activation and desensitization by agonists, inhibition by antagonists and block of desensitization by positive allosteric modulators. Furthermore, the structural and functional studies have formed a powerful platform for the design of new selective compounds.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

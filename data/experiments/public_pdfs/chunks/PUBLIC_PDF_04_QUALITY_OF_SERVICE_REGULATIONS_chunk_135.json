@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_135",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 135,
+  "text": "submitted that this parameter should not be captured at the cell level, rather the existing BTS level parameter should continue. Further, stakeholders have also stated, without any supporting global benchmark or analysis, that they do not agree with the monthly submission and suggested that the existing parameters and the benchmark of ≤ 2% should continue on a quarterly basis. (ii) Some of the stakeholders submitted that cellular wireless technology relies on overlapping coverage through multiple cells. In matured networks, BTS densification enhances coverage and capacity, ensuring uninterrupted coverage for users even if a single cell goes down. Most BTSs cater to multiple technologies and frequency bands, so a single-cell outage doesn't necessarily lead to coverage loss. Therefore, measuring network availability at the cell level may not accurately reflect the consumer experience. The proposed reduction in network availability standards from 2% to 1% deemed too stringent and doesn't account for outages which can occur due to factors beyond TSPs' control, like power cuts, fiber cuts, and maintenance access issues. Such changes would unfairly label TSPs as non- compliant, despite their networks being currently compliant. (iii) One of the stakeholders submitted that Cell-level parameters are considered valuable for regulatory purposes as they provide detailed and localized insights into network performance and compliance. These insights enable regulatory authorities to enforce requirements, monitor operator compliance, and promote the delivery of high-quality telecommunications services to consumers. (b) Analysis and Conclusion (i) Network availability is an essential requirement of QoS. Poor network availability not only impacts",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

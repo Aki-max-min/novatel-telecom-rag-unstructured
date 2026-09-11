@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17194716",
+  "title": "Role of fascin in filopodial protrusion",
+  "content": "In this study, the mechanisms of actin-bundling in filopodia were examined. Analysis of cellular localization of known actin cross-linking proteins in mouse melanoma B16F1 cells revealed that fascin was specifically localized along the entire length of all filopodia, whereas other actin cross-linkers were not. RNA interference of fascin reduced the number of filopodia, and remaining filopodia had abnormal morphology with wavy and loosely bundled actin organization. Dephosphorylation of serine 39 likely determined cellular filopodia frequency. The constitutively active fascin mutant S39A increased the number and length of filopodia, whereas the inactive fascin mutant S39E reduced filopodia frequency. Fluorescence recovery after photobleaching of GFP-tagged wild-type and S39A fascin showed that dephosphorylated fascin underwent rapid cycles of association to and dissociation from actin filaments in filopodia, with t1/2 < 10 s. We propose that fascin is a key specific actin cross-linker, providing stiffness for filopodial bundles, and that its dynamic behavior allows for efficient coordination between elongation and bundling of filopodial actin filaments.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

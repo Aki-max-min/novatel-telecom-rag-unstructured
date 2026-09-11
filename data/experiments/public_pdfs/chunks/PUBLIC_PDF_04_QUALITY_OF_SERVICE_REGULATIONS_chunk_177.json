@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_177",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 177,
+  "text": "the State/ Union 163 Territory level is not possible due to the limitations of the SMSC and core network equipment, which lack geographical data. If this parameter is to be included, it should be measured as the ratio of SMSs originated and successfully delivered within 20 seconds to the total SMSs originated and successfully delivered within the network. (b) Analysis and Conclusion (i) Short Messaging Service (SMS) provides a secure and reliable channel of messaging to the users of mobile services without the use of the internet. Though the adoption of smartphones with internet subscriptions, enabling messaging over internet has gone up many folds, but still there are a significant number of feature phone users who are only dependent upon SMS as far as messaging is concerned. Additionally, online applications such as banking, e-commerce, e-office, public service delivery etc., are also using SMS for authentication or as an additional factor of authentication or verification. In case of delay in SMS delivery, such authentication or verification attempts may fail, which may result in failed transaction and inconvenience to consumers. (ii) Therefore, the draft regulation proposed a new QoS performance parameter for SMS delivery. Considering the global benchmarks and the fact that there may be a need for retries for SMS delivery in case the subscriber is not in the coverage area, or their phone is switched off etc., the proposed benchmark requires that 95% of the SMS should be delivered in the service provider’s own network. (iii) However, considering the issues",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

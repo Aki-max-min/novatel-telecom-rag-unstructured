@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4695107",
+  "title": "The challenges of overcoming antibiotic resistance: Plant extracts as potential sources of antimicrobial and resistance modifying agents",
+  "content": "The problem of antibiotic resistance, which has limited the use of cheap and old antibiotics, has necessitated the need for a continued search for new antimicrobial compounds. Understanding the mechanisms of resistance is important in the development of strategies to solving the problem. Active efflux of drugs, alteration of target sites and enzymatic degradations are the strategies by which pathogenic bacteria acquire or develop intrinsic resistance to antibiotics. Multi-drug resistance (MDR) pumps, capable of recognizing and expelling a variety of structurally unrelated compounds from the bacterial cell and conferring resistance to a wide range of antibiotics have since been characterized in many gram positive and gram negative pathogens like Staphylococcus aureus, Pseudomonas aeruginosa, Escherichia coli and, more recently, in mycobacteria. The ability of some chemical compounds (called MDR inhibitors or resistance modifying agents) to modify the resistance phenotype in bacteria by working synergistically with antibiotics in vitro has since been observed. The search for such compounds which can be combined with antibiotics in the treatment of drug resistant infections may be an alternative to overcoming the problem of resistance in bacteria. Crude extracts of medicinal plants stand out as veritable sources of potential resistance modifying agents and the African biosphere promises to be a potential source of such compounds owing to its rich plant species diversity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

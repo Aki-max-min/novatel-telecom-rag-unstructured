@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_093",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 93,
+  "text": "used within a month; deploying methods to detect the misuse of robotic calls, auto dialer calls or pre-recorded announcements, SIM Farm/SIM box type usage, etc.; use of advanced and reliable Artificial Intelligence (AI) and Machine Learning (ML) based technological solutions for proactive UCC detection, prevention and monitoring. provide ways and means for resolving complaint(s) by sharing information related to telephone number(s) of sender(s) against which complaint is made; every Access Provider shall deploy one honeypot in a Licensed Service Area for every five hundred (500) complaints registered in the previous calendar year subject to a minimum of ten (10) honeypots in each Licensed Service Area, or any such numbers as may be specified by the Authority from time to time, for logging the spam messages and recording voice calls. The Access Provider shall analyse the messages and calls recorded/logged by such honeypots once in every month, covering all such messages and calls recorded/logged since the date of last analysis done and prepare the list of suspected UTMs; Access Providers shall make available a feature for blocking spam messages/voice calls by the Recipient in the Mobile App of the Access Providers subject to technical feasibility and shall prompt the Recipient to register a complaint in the DLT system as a spam in accordance with the established procedure. 2. Every Access Provider shall formulate codes of practice (CoP-UCC_Detect) for system, functions and process prescribed as following: - implementation details for detecting Unsolicited Commercial Communications related to suspicious unregistered telemarketing activity using Signature",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

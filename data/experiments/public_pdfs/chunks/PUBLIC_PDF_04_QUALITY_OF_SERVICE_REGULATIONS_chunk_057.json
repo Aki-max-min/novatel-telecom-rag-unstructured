@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_057",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 57,
+  "text": "as far as possible and should be taken during Time Consistent Busy Hour (TCBH). To guarantee the spatial representation 1 https://www.itu.int/rec/T-REC-Y.1545.1/en Test Server at Internet Exchange point Wireless or Wireline Access and Core Network Wireless or fixed as applicable 118 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] of the measurements, the service providers should deploy test probes depending on the number of active customers in each city/town/region, which should consider the market size and demographics in the license service area concerned. These test calls must be spread over the service area covering all the geographical areas (cities/towns) in proportion of the total number of active customers and shall be further proportioned to cover all the tariff plans working in the service area if applicable. (c) To capture realistic users’ experience of wireless broadband service, test calls should be distributed across different mix of eNodeBs or gNodeBs cells comprising of city, rural, highway and rail routes. (d) For Wireless Broadband: (1) Test calls shall be made from at least 1067 distinct cell coverage areas in a service area having more than one lakh cells, 600 in case of service areas having less than 1 lakh cells. (2) Maximum five test calls per cell coverage area can be made preferably from the cell edges as far as possible. (3) In each assessment period, cells in different physical locations shall be covered until all distinct cell have been covered in previous 24 months. (e) The test calls shall be distributed within TCBH. (f)",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

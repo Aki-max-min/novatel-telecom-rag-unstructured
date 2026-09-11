@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_097",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 97,
+  "text": "to unregistered telemarketers or data may also leak out because of inadequate measures taken by RTMs or intermediaries to protect or secure data. Therefore, it is necessary to devise a mechanism to ensure that preference data or consent data used to scrub is protected. Scrubbing as a service model could be useful for doing so. OTP based authentication for queries made by individuals may be introduced for protecting preference or consent data. Other mechanisms may also be adopted to protect the data. 3.1.6 Changes in the Header Format and Structure: Headers are useful for the recipient of the commercial communication to identify sender, and for presentation of the content as a thread or at a single place, making it convenient for the customer to manage the content on his or her device. Headers may also require change in its format and structure to deal with new requirements of preferences, entities, or purpose. Headers may also be assigned in blocks to principal entities and different charges may be levied for a block of headers. Guidelines and mechanism shall be required for avoiding proximity match of headers with well-known entities while assigning the headers. 3.1.7 Managing Header Assignments by Principal Entities for their DSAs: Presently Direct Sales Agents (DSAs) or agents authorized by principal entities register themselves as telemarketers. DSAs or such agents independently acquire headers for carrying out commercial communication activities. Although they work on behalf of the same principal entity, action only lies against the individual header assigned to a",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

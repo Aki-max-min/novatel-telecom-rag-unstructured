@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22406695",
+  "title": "Origin and functions of tissue macrophages.",
+  "content": "Macrophages are distributed in tissues throughout the body and contribute to both homeostasis and disease. Recently, it has become evident that most adult tissue macrophages originate during embryonic development and not from circulating monocytes. Each tissue has its own composition of embryonically derived and adult-derived macrophages, but it is unclear whether macrophages of distinct origins are functionally interchangeable or have unique roles at steady state. This new understanding also prompts reconsideration of the function of circulating monocytes. Classical Ly6c(hi) monocytes patrol the extravascular space in resting organs, and Ly6c(lo) nonclassical monocytes patrol the vasculature. Inflammation triggers monocytes to differentiate into macrophages, but whether resident and newly recruited macrophages possess similar functions during inflammation is unclear. Here, we define the tools used for identifying the complex origin of tissue macrophages and discuss the relative contributions of tissue niche versus ontological origin to the regulation of macrophage functions during steady state and inflammation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_007",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 7,
+  "text": "of subscribers as on last day of the preceding financial year does not exceed ten thousand or as notified by Authority by an order or direction. 2. Definitions.— (1) In these regulations, unless the context otherwise requires,─ (a) “Act” means the Telecom Regulatory Authority of India Act, 1997 (24 of 1997); (b) “Access Service Authorization” means authorization in the designated Service Area under the Telecommunications Act, 2023 or authorization thereunder or as defined in Unified License as applicable; (c) “Access Service (Wireless)” means telecommunication service provided through a wireless telecommunication under access service authorization; (d) “Access Service (Wireline)” covers collection, carriage, transmission, and delivery of voice or non-voice messages over the Public Switched Telephone Network in a licensed or authorized service area and includes the provision of all types of services except those requiring a separate license or authorization; (e) “Authority” means the Telecom Regulatory Authority of India established under sub-section (1) of section 3 of the Act; (f) “Authorization” means the authorization as defined in the Telecommunications Act, 2023; (g) “Broadband” means a data connection, through wireless or wireline access media, that is able to support interactive services including Internet access and has the capability of delivering the minimum download speed, as specified by licensor from time to time, to an individual subscriber from the point of presence (POP) of the service provider intending to provide broadband service; (h) “Broadband Service” means a data service provided using broadband data connection by Internet Service Provider under any license or authorization;",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

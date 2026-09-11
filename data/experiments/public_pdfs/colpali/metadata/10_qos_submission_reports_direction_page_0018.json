@@ -1,0 +1,15 @@
+{
+  "page_id": 487,
+  "pdf_path": "regulations\\10_qos_submission_reports_direction.pdf",
+  "pdf_name": "10_qos_submission_reports_direction.pdf",
+  "document_id": "10_qos_submission_reports_direction",
+  "page_number": 18,
+  "page_number_zero_based": 17,
+  "image_path": "page_images\\10_qos_submission_reports_direction\\page_0018.jpg",
+  "embedding_path": "embeddings\\10_qos_submission_reports_direction\\page_0018.pt",
+  "embedding_shape": [
+    1,
+    1030,
+    128
+  ]
+}

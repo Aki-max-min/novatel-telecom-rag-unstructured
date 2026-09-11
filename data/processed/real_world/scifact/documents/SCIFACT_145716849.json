@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_145716849",
+  "title": "Transnationalism and identity",
+  "content": "Transnationalism and identity are concepts that inherently call for juxtaposition. This is so because many peoples' transnational networks of exchange and participation are grounded upon some perception of common identity; conversely, the identities of numerous individuals and groups of people are negotiated within social worlds that span more than one place. In this introductory article, the transnational perspective on migration studies is first discussed, followed by some critiques and outstanding questions. The final section summarises points raised by the contributing authors of the main articles in this themed issue of JEMS, especially with regard to various ways transnational settings and dynamics affect the construction, negotiation and reproduction of identities.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

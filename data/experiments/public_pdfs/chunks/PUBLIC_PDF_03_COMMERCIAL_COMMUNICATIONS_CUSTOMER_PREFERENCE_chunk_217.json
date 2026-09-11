@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_217",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 217,
+  "text": "evolution will be on both, the customer’s side and as well as business entity’s side. The selected technology solutions should provide a framework which adapts itself to meet such requirements and provide capability to carry out regulatory pre-checks in an immutable and non repudiable manner. 6.3 TSPs to ensure other entities perform requisite checks: Responsibility of honoring choices exercised by the customer while delivering commercial communications may require checks to be made by number of entities in content delivery chain. However, primary responsibility of protecting customers from UCC is of Telecom Service Providers (TSPs) which is a licensee and regulated directly. Other entities in commercial communication system are currently being regulated indirectly via standard agreements in which they have entered into while taking telecom resources from TSPs. Technology solutions may provide better grip in the hands of TSPs who may be primarily responsible to control UCC and honour choices exercised by the customers. 6.4 Standard Agreements prescribed via regulations to ensure checks by other entities: To ensure regulatory compliance for UCC, TSPs should be required to keep preferences of its customers about the types of commercial communications in which they are interested in and other types of commercial communications in which they are not interested. Customers expect that their service providers will take suitable measures for blocking unsolicited commercial communications. However, message sending entities or voice calling entities, who wishes to reach out to customers are huge in numbers and spread across the country and TSPs may not be in",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

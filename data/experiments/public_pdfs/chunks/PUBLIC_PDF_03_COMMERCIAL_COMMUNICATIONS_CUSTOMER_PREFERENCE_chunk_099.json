@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_099",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 99,
+  "text": "of calling line identity in a way which is easily recognizable and displayed after authentication may be useful. It is also desirable for organizations, government agencies and companies to forward their identity to a call recipient together with the call. This may require a robust mechanism to identify voice calls from particular organizations, e.g. by allocating dedicated numbering series to these entities or by using Intelligent network-based solutions or using capabilities of IP Multi-Media Subsystems. Solutions may also be required for providing flexibility to TMSEs to operate it and control its authorized entities. 3.1.9 Restoring sanctity of the Transactional Messages: It is observed that transactional messages and promotional messages are sometimes being mixed. It is necessary that before sending commercial communications, clear distinction is made about its category and the purpose for which it is sent. A better method for labelling it with the associated category and purpose is required. Sanctity of transactional SMS needs to be restored as they may only be such messages as are time critical and not promotional in nature. 3.2 Comments of Stakeholders 3.2.1 Robust verification and authentication of telemarketers: i. Almost all stakeholders supported the idea of change in the registration process in order to create a robust mechanism. Two of them opined that the email and phone numbers of telemarketers should be authenticated through one-time password (OTP). ii. Some stakeholders suggested that that telemarketer should declare the origination of calls/SMS by sharing latitude-longitude context Geo-tagging. One of them added that specific app like",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

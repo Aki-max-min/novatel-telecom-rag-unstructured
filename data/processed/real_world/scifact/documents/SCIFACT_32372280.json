@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_32372280",
+  "title": "Expression of optineurin, a glaucoma-linked gene, is influenced by elevated intraocular pressure.",
+  "content": "Optineurin (optic neuropathy inducing protein; OPTN) was recently linked to 16.7% of families with primary open-angle glaucoma. The function of OPTN in the eye is not known, but is present in the trabecular meshwork, which is responsible for maintenance of intraocular pressure (IOP). To gain insight into the role of OPTN in the development of glaucoma we studied its expression in response to factors known to be associated with the disease: elevated IOP, tumor necrosis factor-alpha (TNFalpha), and dexamethasone (DEX). We performed the treatments in human organ cultures under conditions mimicking physiological pressure. We find OPTN significantly upregulated after 2, 4, and 7 days of sustained elevated IOP. OPTN expression is also induced 2.3-fold by TNFalpha and 2.6-fold by prolonged DEX treatment. These results demonstrate that OPTN is part of the transcriptome responding to glaucomatous insults and support the protective role of this protein in the trabecular meshwork.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

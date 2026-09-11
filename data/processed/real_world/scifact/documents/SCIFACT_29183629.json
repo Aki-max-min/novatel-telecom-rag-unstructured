@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29183629",
+  "title": "Extra centrosomes and/or chromosomes prolong mitosis in human cells",
+  "content": "Using laser microsurgery and cell fusion we have explored how additional centrosomes and/or chromosomes influence the duration of mitosis in human cells. We found that doubling the chromosome number added approximately 10 min to a 20 min division, whereas doubling the number of centrosomes added approximately 30 min more. Extra centrosomes and/or chromosomes prolong mitosis by delaying satisfaction of the spindle assembly checkpoint. Thus mitosis can be prolonged by non-genetic means and extra chromosomes and centrosomes probably contribute to the elevated mitotic index seen in many tumours.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_016",
+  "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+  "chunk_index": 16,
+  "text": "seconds Percentage of calls answered by the operators (voice to voice) within 90 seconds Total number of requests received for Termination / Closure of service Number of requests for Termination / Closure of service completed after 7 working days Page 2 of 2 Annexure-V Guidelines to be followed while submitting the Compliance Reports for Access (wireless), Access (wireline) and Broadband (wireline) services and Significant network outage A. Mode of Submission of Reports: i. All reports are required to be submitted in online mode through the portal developed by TRAI in this regard by pushing the details through Application Programmable Interfaces (APIs). ii. Each service provider shall require to enable secure Application Programmable Interfaces (APIs) for submission of the reports. iii. However, till the APIs are developed and tested, reports may also be submitted by uploading of excel file on the portal. iv. Compliance report for Broadband (wireline) can be submitted either through API or through uploading of excel file on the portal. B. Common guideline for submission of compliance report for Access (wireless), Access (wireline) and Broadband (wireline) services and Significant network outage: i. LSA code, as given below, should be filled: S No LSA Name LSA Code S No LSA Name LSA Code 1 Andhra Pradesh AP 12 Madhya Pradesh MP 2 Assam AS 13 Maharashtra MH 3 Bihar BR 14 Mumbai MUM 4 Delhi DL 15 North East NE 5 Gujarat GJ 16 Odisha OR 6 Haryana HR 17 Punjab PB 7 Himachal Pradesh HP 18 Rajasthan RJ",
+  "title": "10 qos submission reports direction",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/10_qos_submission_reports_direction.pdf",
+  "file_type": "pdf"
+}

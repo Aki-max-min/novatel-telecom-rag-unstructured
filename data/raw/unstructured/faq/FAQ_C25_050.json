@@ -1,7 +1,7 @@
 {
   "faq_id": "FAQ_C25_050",
   "question": "Can I get a static IP address on my home broadband plan?",
-  "answer": "Static IP is available as a paid add-on on select broadband plans, primarily intended for hosting/remote-access use cases. Request activation via Broadband > Add-ons in the self-care portal.",
+  "answer": "### Short Answer\n\nStatic IP is available as a paid add-on on select broadband plans, primarily intended for hosting/remote-access use cases. Request activation via Broadband > Add-ons in the self-care portal.\n\n### Detailed Explanation\n\nThis is explicitly a paid add-on rather than a standard feature, and the answer notes the intended use case — hosting or remote access — which explains why it isn't offered as default: most home broadband use doesn't need a fixed address exposed to the internet, but specific technical use cases do.\n\n### Key Details\n\n| Detail | Value |\n|---|---|\n| Availability | Paid add-on, on select broadband plans |\n| Intended use case | Hosting or remote-access scenarios |\n| Where to request | Broadband > Add-ons in the self-care portal |\n\n### Conditions\n\n- Static IP is only available on select plans, not all broadband plans.\n\n### Example Scenario\n\n**Customer situation:** A customer wants to self-host a small server at home and needs a fixed IP address.\n\n**What happens:** Since this is a hosting use case, requesting the static IP add-on via Broadband > Add-ons (on plans where it's available) fits the intended purpose rather than being a standard inclusion.\n\n### Related Information\n\nRelated documents referenced in NovaTel's internal metadata for this topic: KB_C25_overview.",
   "category": "C25",
   "category_name": "Broadband & FTTH Services",
   "department": "Network",

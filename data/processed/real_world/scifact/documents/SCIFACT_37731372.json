@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_37731372",
+  "title": "Pregnancy in dialysis patients: a review of outcomes, complications, and management.",
+  "content": "Although uncommon, pregnancy occurs in women on chronic dialysis. In 1980 the incidence of pregnancy in women on dialysis was 0.9%. Studies from 1992 to 2003 indicate that pregnancy occurred in 1-7% of women on chronic dialysis. Half of the infants born to women on chronic dialysis survive. Of importance is that \"intensive dialysis\" of 16-24 hr/week is associated with improved infant survival. In this article, the incidence, duration, fetal and maternal complications, and outcomes of pregnancy in women on chronic dialysis are reviewed. The management of anemia, hypertension, electrolytes, bone minerals, and acid-base parameters in the pregnant dialysis patient is also summarized. Recommendations regarding the dialysis prescription for the pregnant woman on hemodialysis (HD) or peritoneal dialysis (PD) are also made. The complex and precarious condition of the pregnant woman on dialysis requires close collaboration between the patient, nephrologist, dialysis staff, obstetrician, and neonatologist to maximize the chance of a successful pregnancy.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

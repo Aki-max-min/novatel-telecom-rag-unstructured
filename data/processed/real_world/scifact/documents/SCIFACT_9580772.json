@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9580772",
+  "title": "Advances in high-resolution imaging--techniques for three-dimensional imaging of cellular structures.",
+  "content": "A fundamental goal in biology is to determine how cellular organization is coupled to function. To achieve this goal, a better understanding of organelle composition and structure is needed. Although visualization of cellular organelles using fluorescence or electron microscopy (EM) has become a common tool for the cell biologist, recent advances are providing a clearer picture of the cell than ever before. In particular, advanced light-microscopy techniques are achieving resolutions below the diffraction limit and EM tomography provides high-resolution three-dimensional (3D) images of cellular structures. The ability to perform both fluorescence and electron microscopy on the same sample (correlative light and electron microscopy, CLEM) makes it possible to identify where a fluorescently labeled protein is located with respect to organelle structures visualized by EM. Here, we review the current state of the art in 3D biological imaging techniques with a focus on recent advances in electron microscopy and fluorescence super-resolution techniques.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

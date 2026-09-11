@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_101",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 101,
+  "text": "all earlier assigned headers; 56 fixing deadline for working of temporary headers; Start assigning new headers assign headers after due diligence, verification of identity and scope documents of Unsolicited Commercial Communications sender(s) and bind to phone number(s); consider reason(s) and fact(s) which are important to be considered before assigning headers and do not mislead recipients; consider headers which may be required to be reserved for central and state government entities and also for statutory bodies; Develop mobile app for devices which may be required for senders during login to sessions for various activities like scrubbing, submission of messages to delivery, making voice calls etc.; Introduce telemarketer with scrubbing function, separate from telemarketer with delivery function Scrubbing envisaged in final form to be achieved in phased manner Initially, using data from existing register for customers’ preferences; subsequently, using records of DL-Preferences; then using records of DL for Header Register; then introducing virtual identities and tokens among entities to access real identities; then using records of DL for consent; Introduce DL for Complaints; Register existing consents on Consent Register; Register existing consents with consent registrar in robust manner to make it non-repudiable; stop taking consent not in accordance to these regulations; fix deadline for expiry of consent not registered with consent registrar; Register new consents on consent register as prescribed in relevant regulations or schedule or directions Develop Application Programme Interfaces (APIs) for Senders to recording consent with user agent or application client available on a mobile device or enterprise system; Broadening",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

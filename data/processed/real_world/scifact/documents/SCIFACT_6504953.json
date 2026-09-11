@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6504953",
+  "title": "Radiation-Related Cancer Risks at Low Doses among Atomic Bomb Survivors",
+  "content": "Abstract Pierce, D. A. and Preston, D. L. Radiation-Related Cancer Risks at Low Doses among Atomic Bomb Survivors. To clarify the information in the Radiation Effects Research Foundation data regarding cancer risks of low radiation doses, we focus on survivors with doses less than 0.5 Sv. For reasons indicated, we also restrict attention mainly to survivors within 3,000 m of the hypocenter of the bombs. Analysis is of solid cancer incidence from 1958–1994, involving 7,000 cancer cases among 50,000 survivors in that dose and distance range. The results provide useful risk estimates for doses as low as 0.05–0.1 Sv, which are not overestimated by linear risk estimates computed from the wider dose ranges 0–2 Sv or 0–4 Sv. There is a statistically significant risk in the range 0–0.1 Sv, and an upper confidence limit on any possible threshold is computed as 0.06 Sv. It is indicated that modification of the neutron dose estimates currently under consideration would not markedly change the conclusions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

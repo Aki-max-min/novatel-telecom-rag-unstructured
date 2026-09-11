@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_140",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 140,
+  "text": "availability more than 99% in 95.5% LSA (except one TSP). This indicates that certain LSAs might be suffering due to higher benchmarks at present. Even with the revised parameter to be measured at the cell level, there should not be any major impact on the outcome, as with cell level monitoring both numerator and denominator have similar impact on quantum and thereby percentage variations would be almost in similar proportion, considering the explanation from the service providers that incidences of only cell level faults are negligible in the network. (xi) However, considering stakeholders' submissions, the Authority has decided to revise the benchmark with a glide path as suggested by the stakeholders. The benchmark for the initial period has been fixed at the present level i.e. ≤ 2% as per the prescribed measurement methodology. This benchmark will subsequently be revised to ≤ 1% as per the prescribed time in the regulation. This will enable sufficient time to the service providers for ensuring compliance against this parameter. Here it may be noted that ITU-T recommendation G.1028 also provides a benchmark for service availability at 99% and the network availability is a pre-requisite for service availability. 5.3.3 Percentage of significant network outage (Services not available in a district for more than 4 hours) reported to the Authority within 24 hrs of start of the outage (a) Input of Stakeholders (i) Some of the stakeholders submitted that the introduction of an additional parameter in Quality of Service (QoS) reporting is deemed unnecessary, especially if",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

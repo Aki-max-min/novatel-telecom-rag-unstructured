@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_083",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 83,
+  "text": "Operators 4 4 6 Number of Operational Community Radio Stations 494 531 7 Number of total active Subscribers with pay DTH operators (in million) 61.97 56.92 A. Satellite TV Channels 1. A total of 918 private satellite TV channels have been permitted by the Ministry of Information and Broadcasting (MIB), as on 31.03.2025, for uplinking only/downlinking only/both uplinking & downlinking. The total number of satellite TV channels is depicted in Chart 5.1. Further, the permission-wise number of permitted satellite TV channels is given in the Table 5.2. 102 Chart 5.1: Trend of number of Satellite TV Channels Table 5.2: Permission-wise number of permitted satellite TV channels, as on 31.03.2025 Type of Permission Number of channels Remarks Uplinking only 10 TV channels uplinked from India but downlinked abroad only Downlinking only 63 TV channels uplinked from abroad but downlinked only in India Both Uplinking & downlinking 845 TV channels uplinked from India and also downlinked only in India Total 918 Out of 918 permitted satellite TV channels, 908 channels are available for downlinking in India. B. Pay TV Channels 2. As per the reporting done by broadcasters in pursuance of the Tariff Order dated 3rd March 2017 as amended, out of 908 permitted satellite TV channels that are available for downlinking in India, there are 333 satellite pay TV channels as on 31st March 2025. Out of 333 pay channels, 232 are SD satellite pay TV channels and 101 are HD satellite pay TV channels. A list of pay TV channels",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

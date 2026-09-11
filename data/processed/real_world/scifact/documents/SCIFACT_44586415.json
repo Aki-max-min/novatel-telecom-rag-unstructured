@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_44586415",
+  "title": "Most clinical tests cannot accurately diagnose rotator cuff pathology: a systematic review.",
+  "content": "QUESTION Do clinical tests accurately diagnose rotator cuff pathology? DESIGN A systematic review of investigations into the diagnostic accuracy of clinical tests for rotator cuff pathology. PARTICIPANTS People with shoulder pain who underwent clinical testing in order to diagnose rotator cuff pathology. OUTCOME MEASURES The diagnostic accuracy of clinical tests was determined using likelihood ratios. RESULTS Thirteen studies met the inclusion criteria. The 13 studies evaluated 14 clinical tests in 89 separate evaluations of diagnostic accuracy. Only one evaluation, palpation for supraspinatus ruptures, resulted in significant positive and negative likelihood ratios. Eight of the 89 evaluations resulted in either significant positive or negative likelihood ratios. However, none of these eight positive or negative likelihood ratios were found in other studies. Of the 89 evaluations of clinical tests 71 (80%) did not result in either significant positive or negative likelihood ratio evaluations across different studies. CONCLUSION Overall, most tests for rotator cuff pathology were inaccurate and cannot be recommended for clinical use. At best, suspicion of a rotator cuff tear may be heightened by a positive palpation, combined Hawkins/painful arc/infraspinatus test, Napoleon test, lift-off test, belly-press test, or drop-arm test, and it may be reduced by a negative palpation, empty can test or Hawkins-Kennedy test.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

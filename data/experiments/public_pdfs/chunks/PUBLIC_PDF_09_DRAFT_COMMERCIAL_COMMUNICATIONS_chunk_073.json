@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_073",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 73,
+  "text": "records of complaints, from its customers and received from Terminating Access Provider(s), against unregistered sender(s) for sending 54 unsolicited commercial communications on daily basis for each service area: - (a) total number of complaints received on each day, from its customers as Terminating Access Provider, in each service area, against any unregistered sender; (b) total number of complaints transferred on each day, to Originating Access Provider(s) including itself, in each service area, against any unregistered sender; (c) total number of complaints to be resolved as an Originating Access Provider, according to the date of receipt of complaints; (d) total number of complaints rejected on account of insufficient details for further examination, according to the date of receipt of complaint; (e) total number of complaints to be resolved as an Originating Access Provider, according to the date of occurrence of unsolicited commercial communication; (f) total number of senders against whom complaints were reported under clause (e); (g) total number of complaints out of reported complaints under clause(e), after completion of investigation, found to be valid complaint(s); (h) total number of senders, under clause(f) against whom complaints were found to be valid; (i) total number of senders out of reported senders under clause(h), who were put under restricted limits of usage, as an interim measure to control unsolicited commercial communications during the investigation phase; (j) total number of senders out of reported senders under clause(h), who were put under restricted limits of usage or disconnected, after conclusion of the investigation: - (i)",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

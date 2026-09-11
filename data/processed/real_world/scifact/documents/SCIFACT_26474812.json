@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26474812",
+  "title": "Age-structured red blood cell susceptibility and the dynamics of malaria infections.",
+  "content": "Malaria parasites and immune responses in an infected human interact on a dynamic landscape, in which a population of replicating parasites depletes a population of replenishing red blood cells (RBCs). These underlying dynamics receive relatively little attention, but they offer unique insights into the processes that control most malaria infections. Here, we focus on the observation that three of the four malaria-parasite species that infect humans are restricted to particular age classes of RBC. We explicitly incorporate this observation in models of infection dynamics to distinguish common from species-specific pressures on host immune responses, and we find that age structuring has profound effects on the course of infection. For all four species conditions exist under which the parasites may persist at low densities, or may clear, even in the absence of an immune response. Catastrophic anemia can occur even with the two species that attack only the youngest RBCs, although only a small fraction of cells are parasitized at any point. Furthermore, with these two, compensatory erythropoetic responses in the host accelerate parasite population growth. A \"basic reproduction rate\" characterizes these differences in outcomes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

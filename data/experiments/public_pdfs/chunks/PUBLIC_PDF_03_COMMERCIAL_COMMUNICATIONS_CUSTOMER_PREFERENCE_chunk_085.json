@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_085",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 85,
+  "text": "and more than 200 SMS/ hour delivered through its network except for RTM or TMSE; 51 Introduced 'Web-based UCC Complaint lodging system' and dedicated email address to lodge UCC related complaints. Added process to intimate for disconnecting resources: in Schedule-V (13), in addition to NTR for disconnecting resources, instructions received from NTR/ TRAI. Modified format for registering a complaint: Schedule VI (4): Appending telephone number or header to SMS with or without space after a comma 11 11thAmendment Dated 23rd May 2013 Modified definition of signature: changed to 'Characters or strings, or variants thereof, of a commercial communication and does not include subscriber related information' Introduced Transactional SMS charge: charges payable by an OAP to the TAP for each transactional SMS sent by an RTM or TMSE. Introduced cases for the exemption for \"Transactional SMS charge\" 12 12th Amendment Dated 24th May 2013 Introduced provisions for blacklisting: Modified Regulation 13(2), 18(3) for blacklisting customers and RTMs and communicating to all access providers to disconnect telecom resources. Introduced power of the Authority to restore resources: Regulation 19A introduced that the Authority may direct the Access Provider to restore all the telecom resources of a subscriber and delete the entry in the blacklist. 13 13th Amendment Dated 22nd August 2013 Introduced process to complain on behalf of others: Regulation 19(4), enabled to complain on behalf of others by adding details of the person on whose behalf complaint is being made to the brief description of such UCC. Included to issue notice to",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

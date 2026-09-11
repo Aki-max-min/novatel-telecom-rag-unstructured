@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_30101891",
+  "title": "Intravenous valproate is well tolerated in unstable patients with status epilepticus.",
+  "content": "The authors reviewed hospital records of 13 patients with status epilepticus and hypotension who received IV valproate therapy. Most patients were elderly (74.4 +/- 12.5 [SD] years) and received a loading dose of valproate of 25.1 +/- 5.0 mg/kg (range 14.7 to 32.7), at a rate of 36.6 +/- 25.1 mg/min (range 6.3 to 100). There were no significant changes in blood pressure, pulse, or use of vasopressors. The data suggest that valproate loading is well tolerated, even in patients with cardiovascular instability.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

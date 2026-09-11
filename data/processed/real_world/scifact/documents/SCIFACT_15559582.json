@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_15559582",
+  "title": "Plasma lipids and prolactin in patients with breast cancer.",
+  "content": "In a comparative study of pre- and postmenopausal women with benign and malignant breast disease, a number of differences were observed in circulating plasma prolactin and lipid concentrations. Plasma lipids, phospholipids, triglycerides, cholesterol and free fatty acids were all higher in blood obtained from breast cancer patients prior to surgery. HDL-Cholesterol levels were significantly lower in these patients. These differences remained when the patient groups were sub-divided according to menopausal status. Plasma prolactin concentrations were also found to be higher in cancer compared with non-cancer patients, this effect being more marked in premenopausal than in postmenopausal patients. Premenopausal patients with invasive or poorly differentiated disease had significantly higher prolactin levels than those with non-invasive disease. No correlations were found between plasma prolactin and any of the lipid fractions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26330861",
+  "title": "Requirement of NAD and SIR2 for life-span extension by calorie restriction in Saccharomyces cerevisiae.",
+  "content": "Calorie restriction extends life-span in a wide variety of organisms. Although it has been suggested that calorie restriction may work by reducing the levels of reactive oxygen species produced during respiration, the mechanism by which this regimen slows aging is uncertain. Here, we mimicked calorie restriction in yeast by physiological or genetic means and showed a substantial extension in life-span. This extension was not observed in strains mutant for SIR2 (which encodes the silencing protein Sir2p) or NPT1 (a gene in a pathway in the synthesis of NAD, the oxidized form of nicotinamide adenine dinucleotide). These findings suggest that the increased longevity induced by calorie restriction requires the activation of Sir2p by NAD.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

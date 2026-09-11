@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10812605",
+  "title": "Fibroblast heterogeneity in the cancer wound",
+  "content": "Fibroblasts regulate the structure and function of healthy tissues, participate transiently in tissue repair after acute inflammation, and assume an aberrant stimulatory role during chronic inflammatory states including cancer. Such cancer-associated fibroblasts (CAFs) modulate the tumor microenvironment and influence the behavior of neoplastic cells in either a tumor-promoting or tumor-inhibiting manner. These pleiotropic functions highlight the inherent plasticity of fibroblasts and may provide new avenues to understand and therapeutically intervene in malignancies. We discuss the emerging themes of CAF biology in the context of tumorigenesis and therapy.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

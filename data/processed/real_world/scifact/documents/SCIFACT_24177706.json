@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24177706",
+  "title": "Innate host defense requires TFEB-mediated transcription of cytoprotective and antimicrobial genes.",
+  "content": "Animal host defense against infection requires the expression of defense genes at the right place and the right time. Understanding such tight control of host defense requires the elucidation of the transcription factors involved. By using an unbiased approach in the model Caenorhabditis elegans, we discovered that HLH-30 (known as TFEB in mammals) is a key transcription factor for host defense. HLH-30 was activated shortly after Staphylococcus aureus infection, and drove the expression of close to 80% of the host response, including antimicrobial and autophagy genes that were essential for host tolerance of infection. TFEB was also rapidly activated in murine macrophages upon S. aureus infection and was required for proper transcriptional induction of several proinflammatory cytokines and chemokines. Thus, our data suggest that TFEB is a previously unappreciated, evolutionarily ancient transcription factor in the host response to infection.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

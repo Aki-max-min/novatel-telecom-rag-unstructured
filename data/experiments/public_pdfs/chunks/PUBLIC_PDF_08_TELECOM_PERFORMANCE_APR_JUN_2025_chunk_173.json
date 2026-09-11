@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_173",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 173,
+  "text": "S. N o. TSP Code LS A Co de Service Provisio ning Fault Repair Point of Interconne ction Customer Service Provisio n of a service within 7 working days of payment of demand note by the custome r Fault incidenc es (No. of faults per 100 subscrib ers) Fault repai r by next worki ng day Fault repai r withi n three worki ng days Mea n Time to Repa ir (MTT R) Point of Interconne ction (POI) Congestion (90th percentile value) Billing and chargin g compla ints Resolut ion of billing/ chargin g compla ints within four weeks Applica tion of adjust ment to custom er’s account within one week* Accessib ility of call centre/ custome r care Percent age of calls answer ed by the operato rs (voice to voice) within 90 second s Terminat ion/ closure of service within seven working days of receipt of customer ’s request Refund of deposits within 45 days of closure of service or non- provisio ning of service Bench mark ≥ 98% ≤ 5 ≥ 85% ≥ 99% ≤ 10 hrs ≤ 0.5% ≤ 0.1% 100% 100% ≥ 95% ≥ 95% 100% 100% 1 AIRTEL AP 99.31 0.15 85.70 99.16 2.55 0.00 0.00 NA 100.00 NA NA NA NA 2 APSFL AP NA 0.02 100.0 0 100.0 0 2.15 0.00 0.00 NA 100.00 98.85 98.86 NA NA 3 BSNL AP 100.00 0.16 95.75 100.00 6.26 0.00 0.01 100.00 100.00 97.59 98.73 100.00 100.00 4 RJIL AP NA 0.00 NA NA NA",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

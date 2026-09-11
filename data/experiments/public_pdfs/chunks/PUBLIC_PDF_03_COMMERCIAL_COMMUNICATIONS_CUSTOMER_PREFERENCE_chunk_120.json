@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_120",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 120,
+  "text": "and recipient, within the scope of their relationship. The relationship may either be on account of business or commercial reasons, social reasons or it may be because of purchase made by the recipient or transactions entered into between sender and recipient. Such communication may be limited to scope of inferred consent where consent can be reasonably inferred from the customer’s conduct or the business and the kind of relationship between the individual and the sender. There may be a wide variety of scenarios where such communications is required to be allowed, which would be too prescriptive to describe in the regulations, so only the broad principle can be defined. However, commercial communications on basis of such relationship should be limited for certain period. Keeping in view the variety of scenarios, this may not extend beyond twelve months as inferred consent. Misuse of this provision may be controlled on basis of reports and complaints against entities available in the DL-Complaints, and appropriate action may be taken considering complaints from unique recipients. In case of inquiry from customer about the product or services, this time period may be shorter and limited only to three months. Codes of Practice may include further details about requirements for senders to keep certain details in support of such commercial communications and the manner in which these records are to be maintained. CoP may also formulate further specific measure to have better control on UCC in such scenarios. Similar definitions are already being followed in other jurisdictions",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_43128141",
+  "title": "Enteral nutrition in the critically ill patient.",
+  "content": "Timing and route of nutrition provided to critically ill patients can affect their outcome. Early enteral nutrition has been shown to decrease specifically infectious morbidity in the critically ill patient. There is a small group of patients who are malnourished on arrival to the intensive care unit and in these patients parenteral nutrition is beneficial.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_3419709",
+  "title": "Treatment of nonalcoholic fatty liver disease: role of AMPK.",
+  "content": "Nonalcoholic fatty liver disease (NAFLD) is a growing worldwide epidemic and an important risk factor for the development of insulin resistance, type 2 diabetes, nonalcoholic steatohepatitis (NASH), and hepatic cellular carcinoma (HCC). Despite the prevalence of NAFLD, lifestyle interventions involving exercise and weight loss are the only accepted treatments for this disease. Over the last decade, numerous experimental compounds have been shown to improve NAFLD in preclinical animal models, and many of these therapeutics have been shown to increase the activity of the cellular energy sensor AMP-activated protein kinase (AMPK). Because AMPK activity is reduced by inflammation, obesity, and diabetes, increasing AMPK activity has been viewed as a viable therapeutic strategy to improve NAFLD. In this review, we propose three primary mechanisms by which AMPK activation may improve NAFLD. In addition, we examine the mechanisms by which AMPK is activated. Finally, we identify 27 studies that have used AMPK activators to reduce NAFLD. Future considerations for studies examining the relationship between AMPK and NAFLD are highlighted.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

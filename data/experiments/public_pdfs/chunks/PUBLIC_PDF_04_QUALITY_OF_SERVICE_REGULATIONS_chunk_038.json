@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_038",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 38,
+  "text": "credited to the customer account. Further, in the case of pre-paid subscribers, validity of the subscribed tariff offering shall be increased for the actual number of days, during which fault remained pending. The rent-rebate/ validity extension, as applicable, shall be made within one week from the date of rectification of fault and the rent rebate shall be reflected in the next bill. 3.2.3. Mean Time to Repair (MTTR) (i) MTTR is a measure of efficient fault resolution and operation management practices. The performance against this parameter, for the assessment period, shall be measured through the following formula: = 𝐒𝐮𝐦 𝐨𝐟 𝐭𝐢𝐦𝐞 𝐭𝐚𝐤𝐞𝐧 𝐭𝐨 𝐫𝐞𝐩𝐚𝐢𝐫 𝐞𝐚𝐜𝐡 𝐟𝐚𝐮𝐥𝐭 (𝐢𝐧 𝐡𝐨𝐮𝐫𝐬) 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐟𝐚𝐮𝐥𝐭𝐬 𝐜𝐥𝐞𝐚𝐫𝐞𝐝 (ii) For counting the repair time of each fault, only working hours (i.e., 8 AM to 6 PM) shall be taken into consideration. The duration shall be from the time of lodging of the complaint till the time of repair of the fault, excluding non-working hours. For example, in case a fault is reported at 3.30 PM on Monday, a working day, and if the fault is rectified at 12.30 PM on Tuesday, the total repair time for the fault will be 7 hours. 3.3. Point of Interconnection 3.3.1. Point of Interconnection (PoI) Congestion (90th percentile value) (i) Congestion at the POIs happens due to inadequate interconnection resources commensurate with the outgoing traffic at the Point of Interconnection between two telecom networks. (ii) The measurement of this parameter shall be made during Time Consistent Busy Hour. Performance",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

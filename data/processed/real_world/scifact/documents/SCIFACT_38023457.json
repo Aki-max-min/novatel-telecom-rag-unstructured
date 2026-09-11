@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_38023457",
+  "title": "Tumor necrosis factor alpha mediates apoptosis of brown adipocytes and defective brown adipocyte function in obesity.",
+  "content": "Severe quantitative and qualitative brown adipocyte defects are common in obesity. To investigate whether aberrant expression of tumor necrosis factor alpha (TNF-alpha) in obesity is involved in functional brown fat atrophy, we have studied genetically obese (ob/ob) mice with targeted null mutations in the genes encoding the two TNF receptors. The absence of both TNF receptors or p55 receptor alone resulted in a significant reduction in brown adipocyte apoptosis and an increase in beta(3)-adrenoreceptor and uncoupling protein-1 expression in obese mice. Increased numbers of multilocular functionally active brown adipocytes, and improved thermoregulation was also observed in obese animals lacking TNF-alpha function. These results indicate that TNF-alpha plays an important role in multiple aspects of brown adipose tissue biology and mediates the abnormalities that occur at this site in obesity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

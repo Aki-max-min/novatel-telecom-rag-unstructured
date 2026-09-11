@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_086",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 86,
+  "text": "for Consent (DL-Consent) with requisite functions, process and interfaces: - to record consent given by the customer to sender(s) or consent acquirer(s) in the Distribute Ledger for Consent (DL-Consent) in an immutable and non repudiable manner; to record, at least, following details of the consent: - telephone number of customer in international numbering format as referred in National Numbering Plan; Header of Sender(s) or Consent Acquirer(s) against which consent is taken; Day & Time when consent was taken; Validity period of consent; Type and purpose(s) of consent; to make consent data accessible for other entities in safe and secure manner; to keep record of revocation of consent by the customer with specific purpose(s), if any, in an immutable and non-repudiable manner; 47 to interact and exchange information with other relevant entities, responsible to carry out functions for regulatory compliance(s), in a safe and secure manner; to support any other functionalities as may be required to carry out functions for regulatory compliance(s); Provided that whenever a telecom resource is surrendered or closed, all the Consents registered against that telecom resource shall be revoked on the DL- Consent. 9. Every Access Provider shall specify: - Entity and process for generation of One Time Password (OTP) for different purposes and its validity period; Entity and process for verification of OTP received from the customer or for verification of entity carrying out activity under Code(s) of Practice for Entities; 10. Every Access Provider shall formulate: - Message Sequence Charts for messages with parameter details",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

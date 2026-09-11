@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_195352",
+  "title": "Insulin action and resistance in obesity and type 2 diabetes",
+  "content": "Nutritional excess is a major forerunner of type 2 diabetes. It enhances the secretion of insulin, but attenuates insulin's metabolic actions in the liver, skeletal muscle and adipose tissue. However, conflicting evidence indicates a lack of knowledge of the timing of these events during the development of obesity and diabetes, pointing to a key gap in our understanding of metabolic disease. This Perspective reviews alternate viewpoints and recent results on the temporal and mechanistic connections between hyperinsulinemia, obesity and insulin resistance. Although much attention has addressed early steps in the insulin signaling cascade, insulin resistance in obesity seems to be largely elicited downstream of these steps. New findings also connect insulin resistance to extensive metabolic cross-talk between the liver, adipose tissue, pancreas and skeletal muscle. These and other advances over the past 5 years offer exciting opportunities and daunting challenges for the development of new therapeutic strategies for the treatment of type 2 diabetes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

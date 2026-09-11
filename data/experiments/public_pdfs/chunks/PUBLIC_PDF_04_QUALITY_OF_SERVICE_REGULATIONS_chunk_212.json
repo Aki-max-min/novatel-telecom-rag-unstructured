@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_212",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 212,
+  "text": "to the operators to make a balanced decision in the best interest of their consumers as well as associated costs. (ii) One of the stakeholders submitted that AI for QoE requires capturing of customer usage statistics at UE level. The OEMs should be encouraged to install/ facilitate addition of QoE application in the CPE. (iii) One of the stakeholders submitted that AI based network performance measurement and monitoring on a real time basis, is extremely important in today’s context. The stakeholder also suggested some of the measures that are required to be taken to accelerate and augment the adoption of AI in this area. (b) Analysis and Conclusion (i) The latest network standards support QoS and QoE management features albeit at equipment and segment level. However, user experience is the aggregate outcome of QoS performance of each network segment i.e., access, backhaul, core and transport networks. (ii) The network generates a lot of performance data when user connect to the network or make voice calls or use data services. These network logs are generated for each segment of the network. (iii) Therefore, the Authority is of the opinion that adoption of AI enabled QoS management tools may play an important role in effectively managing end-to-end QoS in near real-time by collecting and analyzing the network logs of each network segment. Accordingly, the service providers are encouraged to evaluate and adopt AI tools for QoS management. ***** Uploaded by Dte. of Printing at Government of India Press, Ring Road, Mayapuri, New",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

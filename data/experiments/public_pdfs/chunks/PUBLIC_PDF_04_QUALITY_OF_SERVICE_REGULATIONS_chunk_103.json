@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_103",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 103,
+  "text": "without any applicable FD. Further, the Authority has decided to drop two parameters from the regulations which are related to DCR Temporal Distribution {CS_QTD(97, 90) and PS_QTD(97, 96)} and PDP context activation success rate for wireless data service, as proposed in the consultation paper. (iv) All Services: To further simplify the QoS regulatory framework and keep the regulation light touch, total 9 parameters (3 from access wireline, 3 from access wireless and 3 from broadband services) have been removed from the list of monitoring as proposed in the draft regulations. Further, common QoS parameters related to customer service have been prescribed for all three services. Service provider providing both access service (Wireline) and Broadband (Wireline) service shall meet the benchmarks for QoS parameters related to customer service aggregated for both the services. Instead of two separate parameters for pre-paid and post-paid related to Metering and Billing accuracy, the Authority has decided to combine these two parameters into one. Similarly, instead of two benchmarks for resolution of complaints, only one benchmark has been prescribed. All these steps will simplify the compliance and monitoring at the end of service provider. (v) As regard to service providers’ request for providing a glide path to provide time for bringing improvements in the network or upgradation, the Authority has considered the same and provided suitable glide paths for the transition to the benchmarks which have been either strengthened or introduced as a fresh benchmark. The effective date for the regulations is 1.10.2024 with quarterly reporting",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

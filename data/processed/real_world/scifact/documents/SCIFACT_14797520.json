@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14797520",
+  "title": "Noncoding Transcription by RNA Polymerase Pol IVb/Pol V Mediates Transcriptional Silencing of Overlapping and Adjacent Genes",
+  "content": "Nuclear transcription is not restricted to genes but occurs throughout the intergenic and noncoding space of eukaryotic genomes. The functional significance of this widespread noncoding transcription is mostly unknown. We show that Arabidopsis RNA polymerase IVb/Pol V, a multisubunit nuclear enzyme required for siRNA-mediated gene silencing of transposons and other repeats, transcribes intergenic and noncoding sequences, thereby facilitating heterochromatin formation and silencing of overlapping and adjacent genes. Pol IVb/Pol V transcription requires the chromatin-remodeling protein DRD1 but is independent of siRNA biogenesis. However, Pol IVb/Pol V transcription and siRNA production are both required to silence transposons, suggesting that Pol IVb/Pol V generates RNAs or chromatin structures that serve as scaffolds for siRNA-mediated heterochromatin-forming complexes. Pol IVb/Pol V function provides a solution to a paradox of epigenetic control: the need for transcription in order to transcriptionally silence the same region.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

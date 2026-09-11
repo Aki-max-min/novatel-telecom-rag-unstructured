@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_35884026",
+  "title": "Tyrosine phosphorylation and regulation of the AMPA receptor by SRC family tyrosine kinases.",
+  "content": "Phosphorylation of AMPA receptors is a major mechanism for the regulation of receptor function and underlies several forms of synaptic plasticity in the CNS. Although serine and threonine phosphorylation of AMPA receptors has been well studied, the potential role of tyrosine phosphorylation of AMPA receptors has not been investigated. Here, we show that the GluR2 subunit of AMPA receptors is tyrosine phosphorylated in vitro and in vivo by Src family tyrosine kinases on tyrosine 876 near its C terminus. In addition, GluR agonist treatment of cultured cortical neurons increased phosphorylation of tyrosine 876. The association with GluR2-interacting molecules GRIP1/2 was decreased by tyrosine phosphorylation of GluR2, whereas PICK1 interaction was not influenced. Moreover, mutation of tyrosine 876 eliminated AMPA- and NMDA-induced internalization of the GluR2 subunit. These data indicate that tyrosine phosphorylation of tyrosine 876 on the GluR2 C terminus by Src family tyrosine kinases is important for the regulation of AMPA receptor function and may be important for synaptic plasticity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_63858430",
+  "title": "Multiple Imputation For Nonresponse In Surveys",
+  "content": "multiple imputation for nonresponse in surveys is available in our book collection an online access to it is set as public so you can download it instantly. Our book servers hosts in multiple locations, allowing you to get the most less latency time to download any of our books like this one. Merely said, the multiple imputation for nonresponse in surveys is universally compatible with any devices to read.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

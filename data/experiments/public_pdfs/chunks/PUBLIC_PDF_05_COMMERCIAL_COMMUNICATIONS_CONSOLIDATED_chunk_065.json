@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_065",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 65,
+  "text": "Content Templates already allotted to the sender; (j) number of Content Templates of the sender blacklisted by the Access Providers: Provided that the Authority may specify any other parameters for this purpose from time to time; temporarily deactivate unused Content Templates i.e., Content Templates which may not have been used to send messages through any Access Provider for a period of ninety days, or such period as may be specified by the Authority, through an automated process and reactivate such Content Templates upon request of the Senders; (k) allow, in special circumstances and on requisition with reasons and proper justification from Principal Entity, more than three variables in the Content Templates, with the condition that – (i) after examining the sample message, reasons and proper justification for more variables shall be recorded by the competent authority designated by the Access Provider for this purpose and such authority shall be different from the Authority designated for the approval of Content Templates; (ii) each variable in the message template should be pre-tagged for the purpose it is proposed to 34 be used and no information other than those defined in pre-tagging shall be included in the variables; (iii) minimum thirty percent characters in the Content Template shall be fixed content; allow, where it is not possible to put the contents of a variable within the limit of thirty characters, more than one contiguous variable of the same type, after proper examination and justifications supported by sample message by the competent authority mention",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

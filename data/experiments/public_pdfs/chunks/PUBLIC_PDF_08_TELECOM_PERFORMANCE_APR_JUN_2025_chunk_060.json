@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_060",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 60,
+  "text": "28.02 51.60 Kolkata 1.40 18.52 19.92 43.76 103.06 66.24 West Bengal 26.13 21.06 47.19 Total 423.39 579.46 1002.85 46.73 113.83 70.87 * Population data/projections are available state-wise only. Notes: 1. No. of total internet subscribers per 100 population is derived from the subscriber data provided by the operators and the and the projection of population from the ‘Report of the Technical Group on Population Projections for India and States 2011 – 2036’. 2. Data/information for Andhra Pradesh includes Telengana, Madhya Pradesh includes Chhatishgarh, Bihar includes Jharkhand, Maharashtra includes Goa, Uttar Pradesh includes Uttarakhand, West Bengal includes Sikkim and North-East includes Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland & Tripura states. 54 Table 1.41: State/UT wise number of Internet Subscribers per 100 population at the end of Jun-25 S.N. State(s) Total Subscribers (In million) Tele-density (%) Rural Urban Total Rural Urban Total 1 Andhra Pradesh 18.51 18.75 37.26 55.62 92.32 69.53 2 Arunachal Pradesh 0.59 0.40 0.99 50.23 96.24 62.27 3 Assam 13.99 7.05 21.05 45.56 121.98 57.67 4 Bihar 39.50 17.57 57.07 34.43 107.61 43.55 5 Chattisgarh 9.21 9.99 19.20 41.22 115.69 61.97 6 Goa 0.67 1.83 2.50 193.50 146.60 156.81 7 Gujarat 20.62 37.35 57.97 55.96 101.86 78.85 8 Haryana 10.27 20.47 30.74 58.49 151.69 98.99 9 Himachal Pradesh 4.16 2.68 6.84 61.44 341.91 90.51 10 Jharkhand 11.53 8.97 20.50 38.65 83.05 50.45 11 Karnataka 21.87 40.55 62.42 58.45 129.67 90.88 12 Kerala 17.48 19.50 36.98 242.92 67.43 102.40 13 Madhya Pradesh 22.30 29.50 51.80 35.41 113.34 58.21 14 Maharashtra",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

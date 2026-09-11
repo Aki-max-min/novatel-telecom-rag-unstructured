@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_101",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 101,
+  "text": "and to enable ease of doing business, the Authority has rationalized the number of QoS parameters and kept only important parameters which are necessary to protect consumers’ interests. Additionally, many of the parameters, which were under compliance, have now been removed or moved to monitoring, thereby reducing the compliance burden of the service providers. This is a step by the Authority towards light touch regulation. However, further moves towards a light-touch regulatory framework are dependent upon the improvement in QoS performance by the service providers so that consumer complaints related to network issues are reduced and addressed in a time-bound manner. The present status of consumer complaints, as provided by the service providers, may be seen in Table-1, does not indicate any scope for further deregulation. (ii) Access (Wireline) Services: The QoS parameters for Access (Wireline) services are in line with the present regulations, except for the following revisions, which were also mentioned in the CP: (a) Fault incidence i.e., number of faults per 100 subscribers has been revised from ≤ 7 to ≤ 5 considering the criticality of the services dependent on wireline connectivity, centralized monitoring and management of faults and RoW reforms undertaken by the Government. (b) Further, in the consultation paper, there were four parameters for fault repair like (i) Fault repair by next working day in Urban areas (≥85%), (ii) Fault repair within five days in Urban areas (100%), (iii) Fault repair by next working day in rural and hilly areas (≥75%) and (iv) Fault repair",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_36889513",
+  "title": "Bile acids: natural ligands for an orphan nuclear receptor.",
+  "content": "Bile acids regulate the transcription of genes that control cholesterol homeostasis through molecular mechanisms that are poorly understood. Physiological concentrations of free and conjugated chenodeoxycholic acid, lithocholic acid, and deoxycholic acid activated the farnesoid X receptor (FXR; NR1H4), an orphan nuclear receptor. As ligands, these bile acids and their conjugates modulated interaction of FXR with a peptide derived from steroid receptor coactivator 1. These results provide evidence for a nuclear bile acid signaling pathway that may regulate cholesterol homeostasis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

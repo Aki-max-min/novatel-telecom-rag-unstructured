@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_051",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 51,
+  "text": "future references; (5) Telemarketers for Scrubbing function (TM-SF) to (a) carry out scrubbing; 36 (b) keep record of all numbers scrubbed for complaints resolution; (c) maintain with minimum performance requirements as specified; (d) perform any other function and keep relevant details required for carrying out pre and post checks for regulatory compliance; (6) Telemarketers for Delivery Function of Messages with telecom resource connectivity to AP (TM-DF) to (a) carry out delivery function (b) insert its Unique identity with delivery processing reference number along with identity through which scrubbing was carried out; (c) authenticate source of the messages submitted for delivery by header assignee or by aggregator and ensure their identity is part of content of message for traceability; (d) maintain with minimum performance requirements as specified; (e) perform any other function and keep other relevant details which may be required for carrying out pre and post checks for regulatory compliance; (7) Telemarketers for Aggregation Function for messages to other Telemarketer for delivery function (TM-AF) to (a) carry out aggregation function; (b) keep record of all numbers aggregated for complaints resolution and traceability; (c) authenticate source of the messages submitted for delivery by header assignee or by aggregator and ensure their identity is part of content of message for traceability; (d) maintain with minimum performance requirements as specified; (e) perform any other function and keep other relevant details which may be required for carrying out pre and post checks for regulatory compliance; (8) Telemarketer for voice calling function with Telecom Resource",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

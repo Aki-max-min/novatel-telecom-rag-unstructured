@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_055",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 55,
+  "text": "0.40 0.39 31.11 39.09 31.51 39.49 29.69 37.32 Maharashtra 0.45 0.55 33.31 47.43 33.76 47.98 32.16 47.23 Mumbai 0.02 0.65 1.30 30.89 1.32 31.55 1.30 31.17 North East 0.04 0.05 5.66 5.14 5.70 5.19 5.44 4.97 Orissa 0.18 0.07 17.46 9.65 17.64 9.72 17.10 8.79 Punjab 0.15 0.30 9.83 18.96 9.98 19.25 9.64 19.01 Rajasthan 0.37 0.53 26.56 26.32 26.93 26.85 26.07 25.97 Tamil Nadu 0.34 1.03 18.47 46.56 18.81 47.60 18.37 46.26 UP (East) 1.15 0.50 47.57 33.02 48.72 33.52 46.46 32.38 UP (West) 0.46 0.34 23.12 27.68 23.58 28.02 22.93 26.78 West Bengal 0.41 0.160 25.72 20.90 26.13 21.06 24.84 20.42 Grand Total 7.75 15.40 415.64 564.07 423.39 579.46 407.69 561.42 23.14 979.71 1002.85 969.10 *The information is compiled on the basis of reports submitted by the TSPs/ISPs. 47 Table 1.38: State/UT wise Break up of Rural-Urban internet subscriber base (in millions) S.No. State(s) Narrowband Broadband Total (Jun-2025) Rural Urban Rural Urban Rural Urban 1 Andhra Pradesh 0.43 0.51 18.08 18.24 18.51 18.75 2 Arunachal Pradesh 0.00 0.00 0.59 0.40 0.59 0.40 3 Assam 0.11 0.07 13.88 6.99 13.99 7.05 4 Bihar 0.79 0.20 38.71 17.37 39.50 17.57 5 Chattisgarh 0.09 0.09 9.12 9.90 9.21 9.99 6 Goa 0.01 0.01 0.66 1.81 0.67 1.83 7 Gujarat 0.20 0.38 20.42 36.97 20.62 37.35 8 Haryana 0.18 1.57 10.09 18.90 10.27 20.47 9 Himachal Pradesh 0.04 0.03 4.12 2.65 4.16 2.68 10 Jharkhand 0.15 0.10 11.38 8.87 11.53 8.97 11 Karnataka 1.16 2.42 20.70 38.13 21.87 40.55 12 Kerala 0.30",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

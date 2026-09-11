@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_058",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 58,
+  "text": "Items for preparing Code of Practice for Entity(ies) (CoP-Entities) 1. Entity Registration Functionality: (1) All entities with associated functions, who will be carrying out given functions for effective control of Unsolicited Commercial Communications being delivered through them, shall be declared by each Access Provider on their websites; (2) any individual, business entity or legal entity may carry out one or more functions while keeping all records and execution of functions separately against each activity for internal audit by the access provider to ensure the effectiveness of Unsolicited Commercial Communications control to meet regulatory outcomes specified in the regulations; (3) each functional entity shall be given unique identity by the access provider(s) to be used to authenticate and track the events; (4) The registration process of Sender and the Telemarketers by Access Providers shall include- (a) physical verification of the entity; (b) biometric authentication of the authorized person of the entity; (c) linking of the entity with a unique mobile number: Provided that the Authority may, from time to time, specify the manner of carrying out registration of such entities. 2. Every Access Provider shall formulate structure and format for headers to be assigned Senders for the purpose of commercial communications via sending SMS or making voice calls to participants which shall include following: - SMS Header for sending Transactional SMS, Service SMS, Promotional SMS and Government SMS from 11-character alphanumeric string, or as directed by the Authority, which are not allocated or assigned by DoT for other purposes: Provided that",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

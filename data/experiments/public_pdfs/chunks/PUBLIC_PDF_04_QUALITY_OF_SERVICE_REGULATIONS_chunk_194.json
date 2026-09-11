@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_194",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 194,
+  "text": "has been deleted from the regulations. The parameters, covering various performance aspects of this regulation, for customer satisfaction survey shall be prescribed by the Authority from time to time. (ii) The service providers shall be required to take corrective actions on the issues observed in the customer satisfaction survey, as per the provision of the regulations. 5.8 Record Keeping (Regulation 12) and Reporting (Regulation 13) (a) Input of Stakeholders (i) The stakeholders submitted that the primary data pertaining to Quality of Service is generated in raw form with every call/ data session. The first collection point of this data is the multiple geographically separated network nodes spread over the entire country with proprietary interfaces to collect data. The data from above referred various sources and equipment of different OEMs is neither uniform nor collected at a single point and it is collated and compiled in intelligible formats through an automated processes using the formula/ process as defined in the network management systems as per standards prescribed by TRAI. (ii) Therefore, they submitted that it is possible to automate the report submission with secondary and processed data, as is already implemented. The stakeholders submitted that it is not possible to provide access to primary data and requested that the requirement should be removed from the Regulations. (b) Analysis and Conclusion (i) The Authority has noted the detailed process of raw data collection from different network nodes as informed by the stakeholders. It has also been noted that raw data may be",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

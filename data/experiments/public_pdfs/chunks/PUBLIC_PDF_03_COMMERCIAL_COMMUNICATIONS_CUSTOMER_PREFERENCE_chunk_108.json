@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_108",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 108,
+  "text": "like domain name registration for the header assignment. They also recommended automatically revoking the authorization for headers which remain unused for a period of 6 months or more. Additional characters should be allowed to be incorporated in the headers to avoid proximity match of headers with well-known entities. iii. One service provider has suggested having 11 characters headers of the form XX-AAAAAABBB where § The first two characters ‘XX’ may denote TSP and Circle from where the message is being sent § Character ‘–‘ may act as a separator between the TSP and Content Provider § ‘AAAAAA’ may be the identity of the Content Provider, ‘BBB’ may denote the aggregator/end user on whose behalf RTM/TMSE has sent a message iv. Stakeholders suggested that shorter length of header allotment to PEs and the responsibility of checking the proximity issue should be with PEs. Well-known entities like banks and financial institutions should declare all headers used by them and also provide the possible misleading headers with proximity to such headers to NCPR portal through their service providers. The portal can disallow allocation of proximity headers basis the merits of the case. Some stakeholder suggested that Additional characters should be allowed to be incorporated in the headers to avoid proximity match of headers with well-known entities. v. Further suggestion received was that the proximity match could be resolved on the same principle as wherein first preference should be given to party having registered trademark for a particular brand name and in case neither",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

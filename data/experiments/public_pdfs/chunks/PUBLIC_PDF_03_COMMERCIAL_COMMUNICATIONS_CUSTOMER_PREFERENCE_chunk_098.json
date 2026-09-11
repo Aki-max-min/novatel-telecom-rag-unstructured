@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_098",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 98,
+  "text": "by principal entities register themselves as telemarketers. DSAs or such agents independently acquire headers for carrying out commercial communication activities. Although they work on behalf of the same principal entity, action only lies against the individual header assigned to a DSA or an agent. Principal entities may be required to take control of commercial communication activity being done on its behalf. Telemarketer registration system and header assignment process would thus require enhancements to provide more flexibility and better control to principal entities over their Direct Sales Agents (DSAs) or authorized agents to whom they have delegated commercial communication related functions. New system may provide capabilities to Principal entities to manage header assignments to their DSAs and authorized agents. It may also provide better control and management of header life cycles assigned to DSAs and authorized entities. 3.1.8 Transactional Voice Calls for Senders and technology solutions to display identity to the recipients: There are instances where RTMs or TMSEs have reasons to contact customers (who have opted out of commercial communications) via voice calls for justifiable and legitimate purposes. In such cases, it is 58 necessary for customers to know who is calling, even when the name of the calling party is not in the address book of the recipient. Display of calling line identity in a way which is easily recognizable and displayed after authentication may be useful. It is also desirable for organizations, government agencies and companies to forward their identity to a call recipient together with the call.",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

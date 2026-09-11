@@ -1,7 +1,7 @@
 {
   "faq_id": "FAQ_C03_006",
   "question": "What payment methods are accepted for recharge?",
-  "answer": "UPI, debit/credit cards, net banking, NovaTel Wallet, and authorised retail outlets are all supported. Auto-pay via UPI mandate or saved card is available for postpaid bill payments and prepaid plan renewal.",
+  "answer": "### Short Answer\n\nUPI, debit/credit cards, net banking, NovaTel Wallet, and authorised retail outlets are all supported. Auto-pay via UPI mandate or saved card is available for postpaid bill payments and prepaid plan renewal.\n\n### Detailed Explanation\n\nThe list covers both one-off payments (UPI, cards, net banking, wallet, retail outlets) and standing arrangements (auto-pay via UPI mandate or saved card), which is a meaningful distinction: auto-pay is specifically for recurring postpaid bills and prepaid renewals, not one-time top-ups.\n\n### Key Details\n\n| Detail | Value |\n|---|---|\n| One-time methods | UPI, debit/credit cards, net banking, NovaTel Wallet, authorised retail outlets |\n| Recurring/auto-pay | UPI mandate or saved card, for postpaid bills and prepaid renewal |\n\n### Example Scenario\n\n**Customer situation:** A customer wants their prepaid plan to renew automatically each cycle instead of recharging manually.\n\n**What happens:** They can set up auto-pay via a UPI mandate or saved card, which is supported specifically for prepaid plan renewal as well as postpaid bills.\n\n### Related Information\n\nRelated documents referenced in NovaTel's internal metadata for this topic: KB_C03_overview.",
   "category": "C03",
   "category_name": "Recharge & Payments",
   "department": "Finance",

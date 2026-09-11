@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_32742683",
+  "title": "Alteration of the Antitumor Immune Response by Cancer-Associated Fibroblasts",
+  "content": "Among cells present in the tumor microenvironment, activated fibroblasts termed cancer-associated fibroblasts (CAFs), play a critical role in the complex process of tumor-stroma interaction. CAFs, one of the prominent stromal cell populations in most types of human carcinomas, have been involved in tumor growth, angiogenesis, cancer stemness, extracellular matrix remodeling, tissue invasion, metastasis, and even chemoresistance. During the past decade, these activated tumor-associated fibroblasts have also been involved in the modulation of the anti-tumor immune response on various levels. In this review, we describe our current understanding of how CAFs accomplish this task as well as their potential therapeutic implications.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

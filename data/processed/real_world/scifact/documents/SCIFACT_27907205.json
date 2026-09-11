@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27907205",
+  "title": "Characteristics of a monoclonal antibody (RM124) against acute myelocytic leukemia cells.",
+  "content": "A monoclonal antibody was raised against cells from an experimental rat myelocytic leukemia (BNML). The major characteristics of the rat leukemia model resemble those of human acute myelocytic leukemia. The monoclonal antibody (MCA) RM124 was characterized with respect to its labeling pattern of BNML leukemia cells, normal rat bone marrow cells, and the hemopoietic stem cell (HSC), by flow cytometric methods and complement-dependent cytotoxicity assays. Flow cytometry revealed a much higher labeling of the leukemic cells by the MCA-RM124 compared with normal bone marrow cells, including CFU-S and CFU-C. Only a subpopulation of the normal granulocytes showed cross reactivity, however, at a lower labeling density. On using the cytotoxicity assays, it was evident that there was a selective killing of leukemic cells as compared with the activity towards the normal hemopoietic stem cells (CFU-S).",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_40500723",
+  "title": "Immigration cohorts and residential overcrowding in southern California",
+  "content": "To what degree do immigrants reduce their high rates of residential overcrowding with increasing length of residence in the United States? This question is addressed through the application of a “double cohort” method that nests birth cohorts within immigration cohorts. This method enables duration of immigration effects to be separated from aging effects as cohorts pass through life course phases, when family sizes may be growing or shrinking. The analysis finds that cohort trends differ sharply from the cross-sectional pattern observed at a single point in time. Cohorts’ growth in income is found to contribute substantially to the decline in overcrowding over time. Cohort trends among Hispanic immigrants, however, diverge from those among others, indicating much less decrease in overcrowding and even increases over certain age spans.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

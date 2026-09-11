@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_35256900",
+  "title": "Subcapsular encounter and complement-dependent transport of immune complexes by lymph node B cells",
+  "content": "The mechanism of B cell–antigen encounter in lymphoid tissues is incompletely understood. It is also unclear how immune complexes are transported to follicular dendritic cells. Here, using real-time two-photon microscopy we noted rapid delivery of immune complexes through the lymph to macrophages in the lymph node subcapsular sinus. B cells captured immune complexes by a complement receptor–dependent mechanism from macrophage processes that penetrated the follicle and transported the complexes to follicular dendritic cells. Furthermore, cognate B cells captured antigen-containing immune complexes from macrophage processes and migrated to the T zone. Our findings identify macrophages lining the subcapsular sinus as an important site of B cell encounter with immune complexes and show that intrafollicular B cell migration facilitates the transport of immune complexes as well as encounters with cognate antigen.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

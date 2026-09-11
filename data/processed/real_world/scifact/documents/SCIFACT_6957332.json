@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6957332",
+  "title": "The diagnosis and management of gastro-oesophageal reflux in infants.",
+  "content": "Gastro-oesophageal reflux (GOR) and gastro-oesophageal reflux disease (GORD) occur frequently during the first months of life. Gastro-oesophageal reflux may be a primary gastro-intestinal motility disorder, but it may also be secondary to other conditions such as cow's milk protein allergy. Objective diagnosis can be difficult because there may be absence of correlation between history, results of pH monitoring and histology. Severe GORD may cause minor symptoms, and minor GOR may cause severe symptoms. Several different therapeutic interventions exist. Simply stated, thickened formula reduces regurgitation and alginates and proton pump inhibitors can be used to decrease acid GOR, depending on the severity of the GORD. Efficacy data of prokinetic drugs are either lacking or disappointing. Regarding side-effects, interest has been focused on cisapride, although other molecules have similar effects. Long-term side-effects such as the nutritional consequence of therapeutic management have been insufficiently studied, especially for the acid-reducing molecules.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

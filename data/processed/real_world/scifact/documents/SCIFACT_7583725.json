@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7583725",
+  "title": "TRPM7 is required for breast tumor cell metastasis.",
+  "content": "TRPM7 encodes a Ca2+-permeable nonselective cation channel with kinase activity. TRPM7 has been implicated in control of cell adhesion and migration, but whether TRPM7 activity contributes to cancer progression has not been established. Here we report that high levels of TRPM7 expression independently predict poor outcome in breast cancer patients and that it is functionally required for metastasis formation in a mouse xenograft model of human breast cancer. Mechanistic investigation revealed that TRPM7 regulated myosin II-based cellular tension, thereby modifying focal adhesion number, cell-cell adhesion and polarized cell movement. Our findings therefore suggest that TRPM7 is part of a mechanosensory complex adopted by cancer cells to drive metastasis formation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

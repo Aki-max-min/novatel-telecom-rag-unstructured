@@ -1,0 +1,20 @@
+{
+  "chunk_id": "SOP_C10_VAS_DISPUTE_chunk_001",
+  "document_id": "SOP_C10_VAS_DISPUTE",
+  "chunk_index": 1,
+  "text": "Security Response SOP. Exception Handling Cases outside standard scope require supervisor sign-off before proceeding. Validation Confirm the account/system reflects the expected end state before the case is closed, and obtain customer confirmation where applicable. Escalation Unresolved cases are automatically flagged for supervisor review after the stated SLA window, ensuring no request is left without a defined next action. SLA / Timing Standard cases are resolved within 24-48 hours; escalated cases carry a 3-5 working day SLA. Audit Requirements Every action taken under this SOP must be logged against the account with agent ID, timestamp, and outcome for audit and quality-review purposes. Related Documents FAQ_C10_001, TRN_001",
+  "title": "Handling Unauthorised VAS Subscription Complaints",
+  "document_type": "SOP",
+  "category": "C10",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c10"
+  ],
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C10_VAS_DISPUTE.docx",
+  "file_type": "docx"
+}

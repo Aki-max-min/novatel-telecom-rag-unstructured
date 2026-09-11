@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2762601",
+  "title": "Reflecting on 25 years with MYC",
+  "content": "Just over 25 years ago, MYC, the human homologue of a retroviral oncogene, was identified. Since that time, MYC research has been intense and the advances impressive. On reflection, it is astonishing how each incremental insight into MYC regulation and function has also had an impact on numerous biological disciplines, including our understanding of molecular oncogenesis in general. Here we chronicle the major advances in our understanding of MYC biology, and peer into the future of MYC research.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,20 @@
+{
+  "chunk_id": "Policy_C23_enterprise_terms_chunk_001",
+  "document_id": "Policy_C23_enterprise_terms",
+  "chunk_index": 1,
+  "text": "TRAI/DoT guidance) as general background context; it is not a substitute for legal advice. Audit Considerations All exceptions and manual overrides must be logged with justification for periodic audit review. Escalation Unresolved cases are automatically flagged for supervisor review after the stated SLA window, ensuring no request is left without a defined next action. Effective Date / Version Version 1.0, effective 2026-08-08. Review Cycle This policy is reviewed annually or upon material regulatory change, whichever is earlier. Related Documents No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
+  "title": "Enterprise & Business Connectivity Commercial Policy",
+  "document_type": "Policy",
+  "category": "C23",
+  "department": "Enterprise Sales",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c23"
+  ],
+  "file_path": "data\\raw\\unstructured\\policies\\Policy_C23_enterprise_terms.docx",
+  "file_type": "docx"
+}

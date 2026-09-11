@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_154796494",
+  "title": "Citizen Participation and Citizen Evaluation in Disaster Recovery",
+  "content": "In April 1997, Grand Forks, North Dakota, and East Grand Forks, Minnesota, experienced a disastrous flood. Both cities have been textbook examples of success according to the Federal Emergency Management Agency. They have an updated infrastructure, paid for largely by the federal government. Their downtowns are on the road to recovery with new construction and businesses. The paths of the two cities have diverged in the social and political aftermath of the flood. East Grand Forks, following consultant suggestions, instituted extensive citizen participation initiatives. East Grand Forks has experienced political stability and citizen satisfaction. Grand Forks relied primarily on bureaucratic guidance to react to the disaster. Grand Forks has experienced changes in government structure, turnover of elected and appointed officials, and much less positive citizen evaluation. This study examines the effect of perceptions of citizen participation on the citizens’ evaluation of the success of the recovery.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

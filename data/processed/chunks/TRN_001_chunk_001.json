@@ -1,0 +1,18 @@
+{
+  "chunk_id": "TRN_001_chunk_001",
+  "document_id": "TRN_001",
+  "chunk_index": 1,
+  "text": "account details - [ ] Agent explained charges in plain language - [ ] Agent offered next steps (dispute/refund/escalation) where appropriate ## Key Definitions - **SLA** — the target time within which a request or issue should be resolved. - **Escalation** — handing a case to a specialist team when first-line steps do not resolve it. ## Worked Example A customer contacts care with the scenario covered in this module. The agent follows the standard steps, confirms resolution, and logs the interaction with the correct category tag. ## Common Mistakes - Skipping identity verification before making account changes. - Closing a case before the customer confirms the issue is resolved. ## Escalation - Unresolved cases are automatically flagged for supervisor review after the stated SLA window, ensuring no request is left without a defined next action. ## Knowledge Check 1. What is the first step before making any account change? 2. When should a case be escalated rather than retried? ## Related Documents No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
+  "title": "New Hire Foundations: Handling Billing Queries",
+  "document_type": "Training Manual",
+  "category": "GENERAL",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-20",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\training\\TRN_001.md",
+  "file_type": "markdown"
+}

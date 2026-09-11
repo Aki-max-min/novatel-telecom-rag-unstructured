@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_42693833",
+  "title": "Foxp3(+) T cells regulate immunoglobulin a selection and facilitate diversification of bacterial species responsible for immune homeostasis.",
+  "content": "Foxp3(+) T cells play a critical role for the maintenance of immune tolerance. Here we show that in mice, Foxp3(+) T cells contributed to diversification of gut microbiota, particularly of species belonging to Firmicutes. The control of indigenous bacteria by Foxp3(+) T cells involved regulatory functions both outside and inside germinal centers (GCs), consisting of suppression of inflammation and regulation of immunoglobulin A (IgA) selection in Peyer's patches, respectively. Diversified and selected IgAs contributed to maintenance of diversified and balanced microbiota, which in turn facilitated the expansion of Foxp3(+) T cells, induction of GCs, and IgA responses in the gut through a symbiotic regulatory loop. Thus, the adaptive immune system, through cellular and molecular components that are required for immune tolerance and through the diversification as well as selection of antibody repertoire, mediates host-microbial symbiosis by controlling the richness and balance of bacterial communities required for homeostasis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

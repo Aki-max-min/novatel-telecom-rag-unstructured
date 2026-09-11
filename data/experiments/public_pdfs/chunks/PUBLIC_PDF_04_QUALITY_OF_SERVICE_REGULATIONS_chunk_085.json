@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_085",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 85,
+  "text": "quality of telecom services is becoming increasingly important to sustain the socio-economic development over the coming years. Delivering Quality of Service (QoS) is a lifecycle activity that can only be ensured through adoption of best practices in quality management domain. Accordingly, telecom networks need to be designed, implemented and maintained for delivering end-to-end quality of service. 1.4 This regulation aims to provide a roadmap for the adoption of best practices to achieve Six Sigma-level quality performance in Indian telecom networks. The service providers need to integrate Six Sigma practices across all quality management processes to consistently improve network availability, network accessibility, service retainability and customer satisfaction matrices. 1.5 Quality lifecycle management frameworks like Six Sigma have been adopted across different industry verticals for reducing defects in products and services to bring continuous improvements in quality. The Six Sigma framework is equally relevant for adoption in the telecom domain for quality-of-service lifecycle management. 1.6 The Six Sigma framework provides a data-driven statistical analysis-based approach for quality management. Its adoption will lead to continuous monitoring, analysis and improvements in the quality of services. The process aims to bring data and statistics into play to help objectively identify root causes that impact quality. A high-level Six Sigma quality management typically involves five phases called DMAIC i.e. Define (D) quality issues, Measure (M) QoS performance, Analyze (A) QoS performance, Improve (I) QoS performance and Control (C) the reasons responsible for degraded QoS performance as shown in Figure-1. Figure 1: Six Sigma Quality Management Framework",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

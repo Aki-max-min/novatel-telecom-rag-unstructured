@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_007",
+  "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+  "chunk_index": 7,
+  "text": "customer’s account within one week from the date of resolution of billing and charging complaints or rectification of faults or rectification of significant network outage, as applicable Accessibility of call centre/ customer care Percentage of calls answered by the operators (voice to voice) within 90 seconds Termination/ closure of service within seven working days of receipt of customer’s request Refund of deposits within 45 days of closure of service or non- provisioning of service ≤ 75 msec ≤ 3% 80th percentile ≤ 50 msec ≤ 80% ≥ 95% ≤ 0.1% 100% 100% ≥ 95% ≥ 95% 100% 100% - - - - - - Customer Service Broadband Service Supporting Info Annuxure-I Total No. of established calls during TCBH of the reporting period Total No. of call attempts during TCBH of the reporting period Total No. of established calls during TCBH of the reporting period Total No. of call attempts during TCBH of the reporting period Pre-paid Post-paid Number of total billing and charging complaints reported Billing and charging complaints not found valid Number of billing or charging complaints NOT resolved within 4 weeks --- Billing and charging complaints Report ID (TSP-LSA- Period) Voice Connection Establishment (Accessibility) Intra service provider Inter-service provider Total number of working PoI TCBH of the network Number of cells for which geospatial coverage map is available on service provider’s website Number of Subscribers at the end of reporting period Supporting Info Annuxure-I --- Report ID (TSP-LSA- Period) Total number of call attempts on call centre /",
+  "title": "10 qos submission reports direction",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/10_qos_submission_reports_direction.pdf",
+  "file_type": "pdf"
+}

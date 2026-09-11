@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_076",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 76,
+  "text": "system ready to become part of scrubbing for all cases; Migration of existing registers with TRAI; Migrate NCPR data to DL-Preferences and have observer node for TRAI; Migrate Telemarketer registration module data of National Telemarketer Register (NTR) to DL- Entities and have observer node for TRAI; Migrate complaint module data to DL-Complaints and have observer node for TRAI; Introduce observer node of DL-Consents and observer nodes of rest of registers envisaged in the relevant regulations; Enhance signature solution capabilities and exchange intelligence information, rule, criteria and other relevant information among access providers to detect and identify suspicious Unregistered Telemarketing Activities more effectively and efficiently; 46 Deploy honeypots to detect and identify suspicious Unsolicited Commercial Communications Voice calls by capturing relevant information; 47 Explanatory Memorandum 1 Introduction 1.1 Overview 1.1.1 Unsolicited Commercial Communications (UCC) are communications, made via voice calls or SMS, to subscribers without their consent or willingness. Apart from being a source of inconvenience, such communications also impinge on the privacy of individuals. 1.1.2 To curb UCC, the Telecom Regulatory Authority of India (TRAI) notified the Telecom Unsolicited Commercial Communications Regulations (TUCCR), 2007 dated 5th June 2007, which put in place a framework for controlling UCC. These regulations were reviewed in year 2010 and TRAI released new regulations known as Telecom Commercial Communications Customer Preference Regulations (TCCCPR-2010) which were notified on 1st December 2010. Summary of these regulations, amendments made over a period and directions issued are given in sub-paras 1.2 to 1.4. 1.1.3 Despite taking various measures, UCC",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,87 @@
+{
+  "name": "NovaTel graph-dependent mini-benchmark",
+  "version": "1.0.0",
+  "purpose": "Questions whose answer lives in an internal operational document (SOP, RCA, Policy, Training) that a customer-phrased query does not lexically match, but which shares a Service, Channel, VerificationMethod or Tag with the documents that query does match. This is where graph expansion should help, if it helps anywhere.",
+  "authoring_method": {
+    "who": "Person B, by hand, against the real corpus",
+    "rule_1": "Every expected document was read and genuinely answers the question. No expected id was assigned because it happened to rank well.",
+    "rule_2": "Questions are phrased in customer language; the answer document uses internal/operational vocabulary.",
+    "rule_3": "Included only if no expected document is already at vector rank 1 - i.e. the question is genuinely not solved by semantic similarity alone. This selection is made on the VECTOR-ONLY arm and is blind to whether graph fusion helps.",
+    "rule_4": "Topic quotas applied to stop one theme dominating: broadband 3, SIM/fraud 2, refunds 2, DND 1, plus 1 cross-topic.",
+    "bias_disclosure": "Rule 3 makes this set deliberately hard for vector-only. Vector-only scores here are NOT comparable with the main 29-question benchmark, and the absolute numbers on this set mean nothing on their own - only the vector vs graph comparison within the set does."
+  },
+  "questions": [
+    {
+      "question_id": "GQ01",
+      "category": "C25",
+      "question": "If my home internet is down for most of a day because of a cable cut, will I get money back on my bill without asking for it?",
+      "expected_document_ids": ["SOP_C25_FTTH_FAULT_HANDLING", "Policy_C20_refund_policy"],
+      "graph_rationale": "The customer asks about compensation; the answer is one line inside a fault-handling SOP ('automatic pro-rated bill credit if downtime exceeds the published SLA threshold') and the refunds policy ('SLA-breach service credits are applied automatically'). Semantic search locks onto fault-report documents instead.",
+      "bridge": "Service:Broadband/FTTH Installation, Service:Refund"
+    },
+    {
+      "question_id": "GQ02",
+      "category": "C25",
+      "question": "Why did one cable cut knock out broadband for a whole region, and what long-term fix was agreed?",
+      "expected_document_ids": ["RCA_INC_2026_0179"],
+      "graph_rationale": "The root cause (no route diversity) and the corrective actions live only in the RCA. The incident report and the LOS troubleshooting documents share the vocabulary but not the answer.",
+      "bridge": "Service:Broadband/FTTH Installation"
+    },
+    {
+      "question_id": "GQ03",
+      "category": "C25",
+      "question": "How quickly is an engineer sent out for a business line compared with a home connection?",
+      "expected_document_ids": ["SOP_C25_FTTH_FAULT_HANDLING"],
+      "graph_rationale": "The 24-hour vs 4-hour enterprise dispatch split is stated only in the fault-handling SOP. The question's wording ('engineer', 'business line') matches enterprise and porting documents more closely than the SOP.",
+      "bridge": "Service:Broadband/FTTH Installation"
+    },
+    {
+      "question_id": "GQ04",
+      "category": "C18",
+      "question": "The agent blocked my SIM before finishing the identity checks. Is that the correct procedure?",
+      "expected_document_ids": ["SOP_C18_FRAUD_RESPONSE", "TRN_003"],
+      "graph_rationale": "Both the fraud-response SOP and the training manual authorise blocking before verification completes. A customer describing the event matches transcripts and alert emails first.",
+      "bridge": "Service:SIM Swap, VerificationMethod:Photo ID"
+    },
+    {
+      "question_id": "GQ05",
+      "category": "C18",
+      "question": "Which internal teams get involved if fraud on my number caused actual financial loss?",
+      "expected_document_ids": ["SOP_C18_FRAUD_RESPONSE"],
+      "graph_rationale": "The Security/Legal notification and law-enforcement liaison step is an internal escalation rule inside the SOP, not something customer-facing fraud documents mention.",
+      "bridge": "Service:SIM Swap, Service:Complaint Registration"
+    },
+    {
+      "question_id": "GQ06",
+      "category": "C05",
+      "question": "What proof does a store need before handing over a duplicate SIM?",
+      "expected_document_ids": ["SOP_C05_SIM_REPLACEMENT"],
+      "graph_rationale": "The identity requirements (photo ID match or video-KYC liveness, plus no active fraud flag) are in the replacement SOP; the customer-facing SIM FAQs describe the outcome, not the check.",
+      "bridge": "Service:SIM Swap, Service:KYC Verification, VerificationMethod:Video KYC"
+    },
+    {
+      "question_id": "GQ07",
+      "category": "C03",
+      "question": "How does the company decide that a failed payment which took my money should be given back?",
+      "expected_document_ids": ["SOP_C03_RECHARGE_FAILURE", "KB_C03_recharge_failures"],
+      "graph_rationale": "The decision procedure (verify reference id, check the reconciliation dashboard, wait for auto-reconciliation, then refund) is operational. The question's refund vocabulary pulls the refunds policy documents to the top instead.",
+      "bridge": "Service:Recharge, Service:Refund"
+    },
+    {
+      "question_id": "GQ08",
+      "category": "C20",
+      "question": "What record does the billing team keep about why refunds were given?",
+      "expected_document_ids": ["SOP_C20_REFUND_PROCESSING"],
+      "graph_rationale": "The refund reason code kept for monthly billing-quality reporting appears only in the processing SOP; the KB article and policy cover timelines and eligibility.",
+      "bridge": "Service:Refund, Service:Bill Payment"
+    },
+    {
+      "question_id": "GQ09",
+      "category": "C26",
+      "question": "If I ask to stop marketing messages, what does NovaTel have to do by law?",
+      "expected_document_ids": ["KB_C26_dnd_registration", "Policy_C28_regulatory_compliance"],
+      "graph_rationale": "The regulatory obligation sits in the compliance policy and the UCC escalation path in the DND KB article. The question's 'marketing messages' phrasing matches spam and security documents that do not state the obligation.",
+      "bridge": "Service:DND Activation, Service:Complaint Registration"
+    }
+  ]
+}

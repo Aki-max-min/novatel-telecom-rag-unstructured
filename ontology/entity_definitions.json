@@ -1,0 +1,1748 @@
+{
+  "schema_version": "4.0.0",
+  "note": "One entry per node type in the Phase 1 deterministic graph. 'source_field' names the metadata field read from data/processed/documents/*.json. 'key_field' is what makes the node unique; hub nodes are deduplicated on it so a Department appears once, not once per document. Phase 2 adds five content-derived node types extracted from document text with a curated pattern dictionary; their key is the canonical concept name.",
+  "entities": {
+    "Document": {
+      "description": "A single canonical unstructured document from the ingestion pipeline. Also used for stub nodes created from unresolved related_ids, which carry resolved=false.",
+      "source_field": "document_id",
+      "key_field": "document_id",
+      "node_id_pattern": "Document::<document_id>",
+      "deduplicated": true,
+      "expected_instances": "148 resolved + n unresolved stubs",
+      "properties": [
+        {
+          "name": "document_id",
+          "source_field": "document_id",
+          "type": "string",
+          "required": true,
+          "description": "Stable identifier, e.g. FAQ_012."
+        },
+        {
+          "name": "title",
+          "source_field": "title",
+          "type": "string",
+          "required": false,
+          "description": "Human-readable document title. Empty on stubs."
+        },
+        {
+          "name": "document_type",
+          "source_field": "document_type",
+          "type": "string",
+          "required": false,
+          "description": "Editorial form, duplicated here as a property for convenient filtering."
+        },
+        {
+          "name": "version",
+          "source_field": "version",
+          "type": "string",
+          "required": false,
+          "description": "Document version string as written in metadata."
+        },
+        {
+          "name": "last_updated",
+          "source_field": "last_updated",
+          "type": "string",
+          "required": false,
+          "description": "ISO date string of last update."
+        },
+        {
+          "name": "file_type",
+          "source_field": "file_type",
+          "type": "string",
+          "required": false,
+          "description": "Source file format: markdown, json, docx."
+        },
+        {
+          "name": "source_authority",
+          "source_field": "source_authority",
+          "type": "string",
+          "required": false,
+          "description": "Publishing authority, duplicated here as a property."
+        },
+        {
+          "name": "resolved",
+          "source_field": "derived",
+          "type": "boolean",
+          "required": true,
+          "description": "true when the document exists among the 148 canonical files; false for a stub created from a dangling related_id."
+        },
+        {
+          "name": "stub",
+          "source_field": "derived",
+          "type": "boolean",
+          "required": true,
+          "description": "Inverse of resolved. Present so stubs are trivially filterable in graphml."
+        }
+      ]
+    },
+    "DocumentType": {
+      "description": "The editorial form of a document. Hub node shared by every document of that form.",
+      "source_field": "document_type",
+      "key_field": "document_type",
+      "node_id_pattern": "DocumentType::<document_type>",
+      "deduplicated": true,
+      "expected_instances": "13 distinct values in the current corpus",
+      "properties": [
+        {
+          "name": "name",
+          "source_field": "document_type",
+          "type": "string",
+          "required": true,
+          "description": "Verbatim document_type value, e.g. FAQ, SOP, RCA."
+        }
+      ]
+    },
+    "Category": {
+      "description": "A NovaTel business category code declared in document metadata. The human-readable name comes from category_catalog in ontology_schema.json, not from the structured branch taxonomy.",
+      "source_field": "category",
+      "key_field": "category",
+      "node_id_pattern": "Category::<category_code>",
+      "deduplicated": true,
+      "expected_instances": "30 distinct codes (C01-C29 plus GENERAL)",
+      "properties": [
+        {
+          "name": "code",
+          "source_field": "category",
+          "type": "string",
+          "required": true,
+          "description": "Category code exactly as stored, e.g. C08 or GENERAL."
+        },
+        {
+          "name": "name",
+          "source_field": "catalog",
+          "type": "string",
+          "required": true,
+          "description": "Display name looked up in category_catalog."
+        },
+        {
+          "name": "name_source",
+          "source_field": "catalog",
+          "type": "string",
+          "required": true,
+          "description": "document when a name string appeared in the corpus, inferred when the name was assigned by the ontology author, unmapped for a code absent from the catalog."
+        }
+      ]
+    },
+    "Department": {
+      "description": "The internal business unit that owns the document. Hub node.",
+      "source_field": "department",
+      "key_field": "department",
+      "node_id_pattern": "Department::<department>",
+      "deduplicated": true,
+      "expected_instances": "13 distinct values in the current corpus",
+      "properties": [
+        {
+          "name": "name",
+          "source_field": "department",
+          "type": "string",
+          "required": true,
+          "description": "Verbatim department value, e.g. Network, Billing."
+        }
+      ]
+    },
+    "CustomerScope": {
+      "description": "The customer segment a document applies to. Hub node.",
+      "source_field": "customer_scope",
+      "key_field": "customer_scope",
+      "node_id_pattern": "CustomerScope::<customer_scope>",
+      "deduplicated": true,
+      "expected_instances": "4 distinct values: all, prepaid, postpaid, enterprise",
+      "properties": [
+        {
+          "name": "name",
+          "source_field": "customer_scope",
+          "type": "string",
+          "required": true,
+          "description": "Verbatim customer_scope value."
+        }
+      ]
+    },
+    "Tag": {
+      "description": "A free-form keyword attached to a document. Hub node shared by every document carrying that exact tag string.",
+      "source_field": "tags",
+      "key_field": "tag",
+      "node_id_pattern": "Tag::<tag>",
+      "deduplicated": true,
+      "expected_instances": "68 distinct tag strings in the current corpus",
+      "properties": [
+        {
+          "name": "name",
+          "source_field": "tags",
+          "type": "string",
+          "required": true,
+          "description": "Tag string used verbatim. No case folding, stemming or normalisation is applied in Phase 1."
+        }
+      ]
+    },
+    "SourceAuthority": {
+      "description": "The authority that published or vouches for the document. Hub node.",
+      "source_field": "source_authority",
+      "key_field": "source_authority",
+      "node_id_pattern": "SourceAuthority::<source_authority>",
+      "deduplicated": true,
+      "expected_instances": "1 distinct value in the current corpus (Internal Knowledge Base)",
+      "properties": [
+        {
+          "name": "name",
+          "source_field": "source_authority",
+          "type": "string",
+          "required": true,
+          "description": "Verbatim source_authority value."
+        }
+      ]
+    },
+    "Dataset": {
+      "description": "Corpus of origin. Kept so a future SciFact merge stays separable from NovaTel operational content.",
+      "source_field": "document_id",
+      "key_field": "dataset",
+      "node_id_pattern": "Dataset::<dataset>",
+      "deduplicated": true,
+      "expected_instances": "1 in the current corpus (NovaTel); SciFact appears only if SCIFACT_* documents are present",
+      "derivation_rule": "SciFact if document_id starts with SCIFACT_, else NovaTel.",
+      "properties": [
+        {
+          "name": "name",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "NovaTel or SciFact."
+        }
+      ]
+    },
+    "Service": {
+      "description": "A customer-facing telecom service or transaction (SIM Swap, Recharge, KYC Verification, ...). The anchor of the content layer: co-occurrence edges all start at a Service.",
+      "layer": "content",
+      "source_field": "content,title",
+      "key_field": "canonical concept name",
+      "node_id_pattern": "Service::<concept name>",
+      "deduplicated": true,
+      "extraction_method": "curated_pattern_dictionary",
+      "inbound_relationship": "MENTIONS_SERVICE",
+      "expected_instances": "14 declared, 14 evidenced in the current corpus",
+      "properties": [
+        {
+          "name": "name",
+          "source_field": "content,title",
+          "type": "string",
+          "required": true,
+          "description": "Canonical concept name, taken from the dictionary rather than from the matched text, so spelling variants collapse onto one node."
+        },
+        {
+          "name": "concept_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The node label, repeated as a property for convenient filtering."
+        },
+        {
+          "name": "extraction_method",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "Always 'curated_pattern_dictionary' in Phase 2."
+        },
+        {
+          "name": "trigger_count",
+          "source_field": "derived",
+          "type": "integer",
+          "required": true,
+          "description": "How many trigger phrases the dictionary declares for this concept."
+        },
+        {
+          "name": "document_frequency",
+          "source_field": "derived",
+          "type": "integer",
+          "required": true,
+          "description": "Number of documents that mention the concept."
+        }
+      ]
+    },
+    "Channel": {
+      "description": "A channel through which a service is delivered (My NovaTel App, Self-Care Portal, IVR, Helpline/Call Center, WhatsApp, Website).",
+      "layer": "content",
+      "source_field": "content,title",
+      "key_field": "canonical concept name",
+      "node_id_pattern": "Channel::<concept name>",
+      "deduplicated": true,
+      "extraction_method": "curated_pattern_dictionary",
+      "inbound_relationship": "MENTIONS_CHANNEL",
+      "expected_instances": "6 declared, 5 evidenced in the current corpus",
+      "properties": [
+        {
+          "name": "name",
+          "source_field": "content,title",
+          "type": "string",
+          "required": true,
+          "description": "Canonical concept name, taken from the dictionary rather than from the matched text, so spelling variants collapse onto one node."
+        },
+        {
+          "name": "concept_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The node label, repeated as a property for convenient filtering."
+        },
+        {
+          "name": "extraction_method",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "Always 'curated_pattern_dictionary' in Phase 2."
+        },
+        {
+          "name": "trigger_count",
+          "source_field": "derived",
+          "type": "integer",
+          "required": true,
+          "description": "How many trigger phrases the dictionary declares for this concept."
+        },
+        {
+          "name": "document_frequency",
+          "source_field": "derived",
+          "type": "integer",
+          "required": true,
+          "description": "Number of documents that mention the concept."
+        }
+      ]
+    },
+    "VerificationMethod": {
+      "description": "A mechanism for verifying customer identity (OTP, Video KYC, Biometric, ...). Distinct from Requirement: this is the act of verifying, not the paperwork.",
+      "layer": "content",
+      "source_field": "content,title",
+      "key_field": "canonical concept name",
+      "node_id_pattern": "VerificationMethod::<concept name>",
+      "deduplicated": true,
+      "extraction_method": "curated_pattern_dictionary",
+      "inbound_relationship": "MENTIONS_VERIFICATION",
+      "expected_instances": "7 declared, 5 evidenced in the current corpus",
+      "properties": [
+        {
+          "name": "name",
+          "source_field": "content,title",
+          "type": "string",
+          "required": true,
+          "description": "Canonical concept name, taken from the dictionary rather than from the matched text, so spelling variants collapse onto one node."
+        },
+        {
+          "name": "concept_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The node label, repeated as a property for convenient filtering."
+        },
+        {
+          "name": "extraction_method",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "Always 'curated_pattern_dictionary' in Phase 2."
+        },
+        {
+          "name": "trigger_count",
+          "source_field": "derived",
+          "type": "integer",
+          "required": true,
+          "description": "How many trigger phrases the dictionary declares for this concept."
+        },
+        {
+          "name": "document_frequency",
+          "source_field": "derived",
+          "type": "integer",
+          "required": true,
+          "description": "Number of documents that mention the concept."
+        }
+      ]
+    },
+    "Requirement": {
+      "description": "A document or artefact the customer must produce (Valid Photo ID, Address Proof, Aadhaar, PAN, Passport).",
+      "layer": "content",
+      "source_field": "content,title",
+      "key_field": "canonical concept name",
+      "node_id_pattern": "Requirement::<concept name>",
+      "deduplicated": true,
+      "extraction_method": "curated_pattern_dictionary",
+      "inbound_relationship": "MENTIONS_REQUIREMENT",
+      "expected_instances": "5 declared, 4 evidenced in the current corpus",
+      "properties": [
+        {
+          "name": "name",
+          "source_field": "content,title",
+          "type": "string",
+          "required": true,
+          "description": "Canonical concept name, taken from the dictionary rather than from the matched text, so spelling variants collapse onto one node."
+        },
+        {
+          "name": "concept_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The node label, repeated as a property for convenient filtering."
+        },
+        {
+          "name": "extraction_method",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "Always 'curated_pattern_dictionary' in Phase 2."
+        },
+        {
+          "name": "trigger_count",
+          "source_field": "derived",
+          "type": "integer",
+          "required": true,
+          "description": "How many trigger phrases the dictionary declares for this concept."
+        },
+        {
+          "name": "document_frequency",
+          "source_field": "derived",
+          "type": "integer",
+          "required": true,
+          "description": "Number of documents that mention the concept."
+        }
+      ]
+    },
+    "Location": {
+      "description": "A physical place a customer is directed to (NovaTel Experience Store, Retail Outlet).",
+      "layer": "content",
+      "source_field": "content,title",
+      "key_field": "canonical concept name",
+      "node_id_pattern": "Location::<concept name>",
+      "deduplicated": true,
+      "extraction_method": "curated_pattern_dictionary",
+      "inbound_relationship": "MENTIONS_LOCATION",
+      "expected_instances": "2 declared, 2 evidenced in the current corpus",
+      "properties": [
+        {
+          "name": "name",
+          "source_field": "content,title",
+          "type": "string",
+          "required": true,
+          "description": "Canonical concept name, taken from the dictionary rather than from the matched text, so spelling variants collapse onto one node."
+        },
+        {
+          "name": "concept_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The node label, repeated as a property for convenient filtering."
+        },
+        {
+          "name": "extraction_method",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "Always 'curated_pattern_dictionary' in Phase 2."
+        },
+        {
+          "name": "trigger_count",
+          "source_field": "derived",
+          "type": "integer",
+          "required": true,
+          "description": "How many trigger phrases the dictionary declares for this concept."
+        },
+        {
+          "name": "document_frequency",
+          "source_field": "derived",
+          "type": "integer",
+          "required": true,
+          "description": "Number of documents that mention the concept."
+        }
+      ]
+    }
+  },
+  "structured_entities": {
+    "CDR": {
+      "description": "A call detail record. The largest table: 16,017 rows, 36% of the graph.",
+      "branch": "structured",
+      "source_table": "cdr",
+      "source_field": "cdr rows",
+      "key_field": "cdr_id",
+      "node_id_pattern": "CDR:<cdr_id>",
+      "category_tag": "C27",
+      "shared_domain_concept": "Usage Records",
+      "foreign_keys": {},
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "cdr_id",
+          "source_field": "cdr_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "CorporateAccount": {
+      "description": "An enterprise account. Note: not FK-linked to customer_master in this schema.",
+      "branch": "structured",
+      "source_table": "corporate_accounts",
+      "source_field": "corporate_accounts rows",
+      "key_field": "corp_id",
+      "node_id_pattern": "CorporateAccount:<corp_id>",
+      "category_tag": "C21",
+      "shared_domain_concept": "Enterprise & Business Services",
+      "foreign_keys": {},
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "corp_id",
+          "source_field": "corp_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "Coverage5G": {
+      "description": "5G coverage percentage by region. Standalone.",
+      "branch": "structured",
+      "source_table": "coverage_5g",
+      "source_field": "coverage_5g rows",
+      "key_field": "coverage_id",
+      "node_id_pattern": "Coverage5G:<coverage_id>",
+      "category_tag": "C28",
+      "shared_domain_concept": "Network Coverage",
+      "foreign_keys": {},
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "coverage_id",
+          "source_field": "coverage_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "Customer": {
+      "description": "A subscriber account. The hub of the structured graph: 14 tables point at it.",
+      "branch": "structured",
+      "source_table": "customer_master",
+      "source_field": "customer_master rows",
+      "key_field": "customer_id",
+      "node_id_pattern": "Customer:<customer_id>",
+      "category_tag": "C01",
+      "shared_domain_concept": "Customer Account",
+      "foreign_keys": {},
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "customer_id",
+          "source_field": "customer_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "DeviceConfig": {
+      "description": "A device model with brand, IMEI and 5G support.",
+      "branch": "structured",
+      "source_table": "device_config",
+      "source_field": "device_config rows",
+      "key_field": "device_id",
+      "node_id_pattern": "DeviceConfig:<device_id>",
+      "category_tag": "C24",
+      "shared_domain_concept": "Device Compatibility",
+      "foreign_keys": {},
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "device_id",
+          "source_field": "device_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "DeviceRegistry": {
+      "description": "The registration of a device model against a customer.",
+      "branch": "structured",
+      "source_table": "device_registry",
+      "source_field": "device_registry rows",
+      "key_field": "registry_id",
+      "node_id_pattern": "DeviceRegistry:<registry_id>",
+      "category_tag": "C24",
+      "shared_domain_concept": "Device Compatibility",
+      "foreign_keys": {
+        "customer_id": "customer_master",
+        "device_id": "device_config"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "registry_id",
+          "source_field": "registry_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "EscalationCase": {
+      "description": "An escalation raised on a ticket, with level L1/L2/L3.",
+      "branch": "structured",
+      "source_table": "escalation_cases",
+      "source_field": "escalation_cases rows",
+      "key_field": "escalation_id",
+      "node_id_pattern": "EscalationCase:<escalation_id>",
+      "category_tag": "C29",
+      "shared_domain_concept": "Complaints & Grievances",
+      "foreign_keys": {
+        "ticket_id": "tickets"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "escalation_id",
+          "source_field": "escalation_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "ESIMProfile": {
+      "description": "An eSIM profile provisioned for a customer.",
+      "branch": "structured",
+      "source_table": "esim_profiles",
+      "source_field": "esim_profiles rows",
+      "key_field": "profile_id",
+      "node_id_pattern": "ESIMProfile:<profile_id>",
+      "category_tag": "C07",
+      "shared_domain_concept": "SIM Card Services",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "profile_id",
+          "source_field": "profile_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "FiberInventory": {
+      "description": "An FTTH/fibre connection installed for a customer.",
+      "branch": "structured",
+      "source_table": "fiber_inventory",
+      "source_field": "fiber_inventory rows",
+      "key_field": "fiber_id",
+      "node_id_pattern": "FiberInventory:<fiber_id>",
+      "category_tag": "C12",
+      "shared_domain_concept": "Broadband & FTTH Services",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "fiber_id",
+          "source_field": "fiber_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "FraudCase": {
+      "description": "A fraud case opened against a customer.",
+      "branch": "structured",
+      "source_table": "fraud_cases",
+      "source_field": "fraud_cases rows",
+      "key_field": "case_id",
+      "node_id_pattern": "FraudCase:<case_id>",
+      "category_tag": "C16",
+      "shared_domain_concept": "Security & Fraud",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "case_id",
+          "source_field": "case_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "Invoice": {
+      "description": "A postpaid bill for one billing cycle.",
+      "branch": "structured",
+      "source_table": "invoices",
+      "source_field": "invoices rows",
+      "key_field": "invoice_id",
+      "node_id_pattern": "Invoice:<invoice_id>",
+      "category_tag": "C04",
+      "shared_domain_concept": "Billing & Invoices",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "invoice_id",
+          "source_field": "invoice_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "KYCRecord": {
+      "description": "A KYC verification record for a customer.",
+      "branch": "structured",
+      "source_table": "kyc_records",
+      "source_field": "kyc_records rows",
+      "key_field": "kyc_id",
+      "node_id_pattern": "KYCRecord:<kyc_id>",
+      "category_tag": "C17",
+      "shared_domain_concept": "KYC & Identity Verification",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "kyc_id",
+          "source_field": "kyc_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "NetworkAlarm": {
+      "description": "An alarm raised at a network site, with severity and root cause.",
+      "branch": "structured",
+      "source_table": "network_alarms",
+      "source_field": "network_alarms rows",
+      "key_field": "alarm_id",
+      "node_id_pattern": "NetworkAlarm:<alarm_id>",
+      "category_tag": "C08",
+      "shared_domain_concept": "Network Outages",
+      "foreign_keys": {
+        "site_id": "network_sites"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "alarm_id",
+          "source_field": "alarm_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "NetworkSite": {
+      "description": "A radio site (4G/5G) with location and status.",
+      "branch": "structured",
+      "source_table": "network_sites",
+      "source_field": "network_sites rows",
+      "key_field": "site_id",
+      "node_id_pattern": "NetworkSite:<site_id>",
+      "category_tag": "C08",
+      "shared_domain_concept": "Network Coverage",
+      "foreign_keys": {},
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "site_id",
+          "source_field": "site_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "Offer": {
+      "description": "A promotional offer. Standalone - no FK to any other table.",
+      "branch": "structured",
+      "source_table": "offers",
+      "source_field": "offers rows",
+      "key_field": "offer_id",
+      "node_id_pattern": "Offer:<offer_id>",
+      "category_tag": "C15",
+      "shared_domain_concept": "Offers & Promotions",
+      "foreign_keys": {},
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "offer_id",
+          "source_field": "offer_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "Order": {
+      "description": "A customer order (new connection, device, upgrade).",
+      "branch": "structured",
+      "source_table": "orders",
+      "source_field": "orders rows",
+      "key_field": "order_id",
+      "node_id_pattern": "Order:<order_id>",
+      "category_tag": "C25",
+      "shared_domain_concept": "New Connection Activation",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "order_id",
+          "source_field": "order_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "OTTSubscription": {
+      "description": "An OTT service subscription for a customer.",
+      "branch": "structured",
+      "source_table": "ott_subscriptions",
+      "source_field": "ott_subscriptions rows",
+      "key_field": "ott_id",
+      "node_id_pattern": "OTTSubscription:<ott_id>",
+      "category_tag": "C14",
+      "shared_domain_concept": "Value Added Services",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "ott_id",
+          "source_field": "ott_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "PaymentTransaction": {
+      "description": "A payment attempt against an invoice (SUCCESS, FAILED or PENDING).",
+      "branch": "structured",
+      "source_table": "payment_transactions",
+      "source_field": "payment_transactions rows",
+      "key_field": "transaction_id",
+      "node_id_pattern": "PaymentTransaction:<transaction_id>",
+      "category_tag": "C05",
+      "shared_domain_concept": "Payments",
+      "foreign_keys": {
+        "invoice_id": "invoices",
+        "customer_id": "customer_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "transaction_id",
+          "source_field": "transaction_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "Plan": {
+      "description": "A tariff plan in the catalogue.",
+      "branch": "structured",
+      "source_table": "plan_master",
+      "source_field": "plan_master rows",
+      "key_field": "plan_id",
+      "node_id_pattern": "Plan:<plan_id>",
+      "category_tag": "C02",
+      "shared_domain_concept": "Plan Catalogue",
+      "foreign_keys": {},
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "plan_id",
+          "source_field": "plan_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "PortingRequest": {
+      "description": "An MNP porting request between circles.",
+      "branch": "structured",
+      "source_table": "porting_requests",
+      "source_field": "porting_requests rows",
+      "key_field": "port_id",
+      "node_id_pattern": "PortingRequest:<port_id>",
+      "category_tag": "C18",
+      "shared_domain_concept": "Number Portability",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "port_id",
+          "source_field": "port_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "RechargeTransaction": {
+      "description": "A prepaid recharge attempt against a plan.",
+      "branch": "structured",
+      "source_table": "recharge_transactions",
+      "source_field": "recharge_transactions rows",
+      "key_field": "recharge_id",
+      "node_id_pattern": "RechargeTransaction:<recharge_id>",
+      "category_tag": "C03",
+      "shared_domain_concept": "Recharge",
+      "foreign_keys": {
+        "plan_id": "plan_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "recharge_id",
+          "source_field": "recharge_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "RetailOutlet": {
+      "description": "A physical retail outlet. Standalone - no FK to any other table.",
+      "branch": "structured",
+      "source_table": "retail_outlets",
+      "source_field": "retail_outlets rows",
+      "key_field": "outlet_id",
+      "node_id_pattern": "RetailOutlet:<outlet_id>",
+      "category_tag": "C23",
+      "shared_domain_concept": "Retail & Store Network",
+      "foreign_keys": {},
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "outlet_id",
+          "source_field": "outlet_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "RoamingUsage": {
+      "description": "A roaming usage record for a customer in one country.",
+      "branch": "structured",
+      "source_table": "roaming_usage",
+      "source_field": "roaming_usage rows",
+      "key_field": "roam_id",
+      "node_id_pattern": "RoamingUsage:<roam_id>",
+      "category_tag": "C10",
+      "shared_domain_concept": "Roaming",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "roam_id",
+          "source_field": "roam_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "SIMInventory": {
+      "description": "A physical SIM in stock or issued.",
+      "branch": "structured",
+      "source_table": "sim_inventory",
+      "source_field": "sim_inventory rows",
+      "key_field": "sim_id",
+      "node_id_pattern": "SIMInventory:<sim_id>",
+      "category_tag": "C06",
+      "shared_domain_concept": "SIM Card Services",
+      "foreign_keys": {},
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "sim_id",
+          "source_field": "sim_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "Subscription": {
+      "description": "A customer's active or expired subscription to a plan.",
+      "branch": "structured",
+      "source_table": "subscriptions",
+      "source_field": "subscriptions rows",
+      "key_field": "subscription_id",
+      "node_id_pattern": "Subscription:<subscription_id>",
+      "category_tag": "C02",
+      "shared_domain_concept": "Subscription",
+      "foreign_keys": {
+        "customer_id": "customer_master",
+        "plan_id": "plan_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "subscription_id",
+          "source_field": "subscription_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "Technician": {
+      "description": "A field technician. Standalone - no FK to any other table.",
+      "branch": "structured",
+      "source_table": "technicians",
+      "source_field": "technicians rows",
+      "key_field": "tech_id",
+      "node_id_pattern": "Technician:<tech_id>",
+      "category_tag": "C23",
+      "shared_domain_concept": "Field Operations",
+      "foreign_keys": {},
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "tech_id",
+          "source_field": "tech_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "Ticket": {
+      "description": "A customer support ticket.",
+      "branch": "structured",
+      "source_table": "tickets",
+      "source_field": "tickets rows",
+      "key_field": "ticket_id",
+      "node_id_pattern": "Ticket:<ticket_id>",
+      "category_tag": "C11",
+      "shared_domain_concept": "Complaints & Grievances",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "ticket_id",
+          "source_field": "ticket_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    },
+    "VASSubscription": {
+      "description": "A value-added service subscription for a customer.",
+      "branch": "structured",
+      "source_table": "vas_subscriptions",
+      "source_field": "vas_subscriptions rows",
+      "key_field": "vas_id",
+      "node_id_pattern": "VASSubscription:<vas_id>",
+      "category_tag": "C26",
+      "shared_domain_concept": "Value Added Services",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      },
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType label, repeated as a property for filtering."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "The structured branch's category code from schema.py. Named category_tag, not category, because some tables (tickets) have their own category column. NOT comparable with the document branch's code of the same name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table the row came from."
+        },
+        {
+          "name": "vas_id",
+          "source_field": "vas_id",
+          "type": "scalar",
+          "required": true,
+          "description": "Primary key value, verbatim from the row."
+        }
+      ],
+      "property_selection_rule": "Primary key plus up to 6 columns matching the preference list (status/type/name/date/amount fields), in declared column order. FK columns are excluded - they are edges."
+    }
+  },
+  "concept_entities": {
+    "Concept": {
+      "description": "A shared business concept. The only valid join point between the document branch and the structured branch.",
+      "branch": "bridge",
+      "source_field": "structured_document_crosswalk.shared_domain_concept",
+      "key_field": "concept name",
+      "node_id_pattern": "Concept::<concept name>",
+      "deduplicated": true,
+      "expected_instances": "23 in the current vocabulary",
+      "properties": [
+        {
+          "name": "name",
+          "source_field": "crosswalk",
+          "type": "string",
+          "required": true,
+          "description": "Canonical concept name. This is the join key."
+        },
+        {
+          "name": "structured_entity_types",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "Comma-separated EntityTypes that realize this concept."
+        },
+        {
+          "name": "document_categories",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "Comma-separated document category codes that express it."
+        },
+        {
+          "name": "document_services",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "Comma-separated document Services that express it."
+        },
+        {
+          "name": "bridges_both_sides",
+          "source_field": "derived",
+          "type": "boolean",
+          "required": true,
+          "description": "True when the concept has both a structured and a document side."
+        }
+      ]
+    },
+    "EntityType": {
+      "description": "The schema-view node for one structured table. Carries the REALIZES_CONCEPT edge and receives INSTANCE_OF from its rows.",
+      "branch": "structured (schema view)",
+      "source_field": "structured/schema.py TABLE_SCHEMAS",
+      "key_field": "EntityType name",
+      "node_id_pattern": "EntityType:<EntityType>",
+      "deduplicated": true,
+      "expected_instances": "28",
+      "properties": [
+        {
+          "name": "entity_type",
+          "source_field": "derived",
+          "type": "string",
+          "required": true,
+          "description": "The EntityType name."
+        },
+        {
+          "name": "source_table",
+          "source_field": "schema",
+          "type": "string",
+          "required": true,
+          "description": "The SQL table it describes."
+        },
+        {
+          "name": "category_tag",
+          "source_field": "schema.category_tag",
+          "type": "string",
+          "required": true,
+          "description": "Structured branch code. NOT comparable with the document branch."
+        }
+      ]
+    }
+  }
+}

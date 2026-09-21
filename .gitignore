@@ -18,3 +18,8 @@ __pycache__/
 # Hugging Face / model caches
 .cache/
 .cache/huggingface/
+
+# Person B: regenerable knowledge-graph artefacts (~90MB, rebuilt by graph_builder / structured_graph_builder)
+knowledge_graph/output/
+__pycache__/
+*.pyc

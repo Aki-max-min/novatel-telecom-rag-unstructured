@@ -27,3 +27,7 @@ __pycache__/
 
 data/raw/real_world/telecom_mixed/
 data/raw/real_world/scifact/scifact.zip
+
+# Regenerable ColPali outputs (page images + tensors) - not source data
+data/experiments/public_pdfs/**/*.jpg
+data/experiments/public_pdfs/**/*.pt

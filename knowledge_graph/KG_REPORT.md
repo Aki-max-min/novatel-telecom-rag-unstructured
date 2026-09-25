@@ -167,36 +167,54 @@ to the Phase 1 files, and rebuilding twice produces identical bytes across all o
 
 ## 3. Retrieval comparison
 
-### 3.1 Baseline reproduction — DOES NOT MATCH, and the reason is in the data
+### 3.1 Baseline reproduction — RESOLVED (close match, residual gap explained)
 
-The brief specified that the reproduced vector-only column must match Person A's stored
-baseline (Recall@1 = 0.7586, @3 = 0.8966, @5 = 1.0). **It does not**, and the harness is
-not the reason:
+**Original finding (pre-merge, now superseded):** the reproduced vector-only column did
+not match Person A's stored baseline (Recall@1 = 0.7586, @3 = 0.8966, @5 = 1.0), because
+`data/vectorstore/` at the time held 148 vectors — one chunk per document, every `chunk_id`
+ending `_chunk_000` — while the stored evaluation referenced `_chunk_001`/`_chunk_002`
+vectors that did not exist in that index. The conclusion at the time was that the stored
+baseline came from a superseded multi-chunk vectorstore no longer in the repo.
+
+**Post-merge: that vectorstore is back, and the mismatch is now resolved as predicted.**
+Person A's merge (Sept 2026) rebuilt `data/vectorstore/` as a genuine multi-chunk index —
+383 chunks over 248 documents, suffix distribution `{'000': 248, '001': 122, '002': 13}` —
+matching the shape the stored baseline always implied.
 
 | | Recall@1 | Recall@3 | Recall@5 |
 |---|---|---|---|
 | Person A stored | 0.7586 | 0.8966 | 1.0000 |
-| Reproduced here | 0.8966 | 1.0000 | 1.0000 |
-| Delta | +0.1380 | +0.1034 | 0.0000 |
+| Reproduced against the restored 383-chunk index | **0.7586** | 0.9310 | **1.0000** |
+| Delta | **0.0000** | +0.0344 (1 question) | **0.0000** |
 
-Evidence that this is a data-state change, not a harness bug:
+Recall@1 and Recall@5 match **exactly**. That confirms this is genuinely the same index,
+model and embeddings that produced the stored numbers — not a coincidence or a looser
+tolerance. Recall@3 is not exact: it differs by exactly one question out of 29.
 
-1. Today's `data/vectorstore/faiss.index` holds **148 vectors** and
-   `chunk_metadata.json` holds **148 chunks — one per document**, every `chunk_id` ending
-   `_chunk_000`.
-2. Person A's three stored evaluation files reference chunk ids ending `_chunk_001` and
-   `_chunk_002` (e.g. `FAQ_C01_001_chunk_001`, `TARIFF_POSTPAID_2026H2_chunk_001`).
-   Those vectors **do not exist** in today's index.
-3. Their stored top-5 lists therefore contain duplicate `document_id`s (Q01 returns
-   `FAQ_C01_001` twice). With one chunk per document that cannot happen — the top-5 chunks
-   are 5 distinct documents, so document-level recall is mechanically higher.
+**That one-question gap was investigated, not shrugged off.** Per-question raw chunk
+retrieval was checked directly against Person A's stored per-question results for all three
+of her original top-3 misses (Q06, Q13, Q17): the raw ranked chunk list this harness
+retrieves is **byte-identical** to hers — same documents, same similarity scores, same
+order, for all three. The gap opens one step later, in how a chunk-level list becomes a
+document-level top-3:
 
-So the stored baseline came from a superseded multi-chunk vectorstore that is no longer in
-the repo. Rebuilding it would mean rewriting Person A's `data/`, which is out of bounds.
+- **Person A's `evaluate_retrieval.py`** takes `document_id` from the raw top-*k* chunks
+  without deduplication. For Q13 ("The OTP for signing into the My NovaTel app isn't
+  arriving...") her raw top-3 chunks are `MAN_APP_001`, `SOP_C13_APP_ACCESS_ISSUES`,
+  `MAN_APP_001` again — the same document appears twice, wasting a slot, so the expected
+  `FAQ_C13_025` (raw rank 4) never enters her top-3. **Miss.**
+- **This harness's `VectorRetriever.search()`** deduplicates to distinct documents before
+  taking the top-*k*, so the repeated `MAN_APP_001` is skipped and `FAQ_C13_025` rises into
+  deduplicated rank 3. **Hit.**
 
-**What this does and does not invalidate:** both arms below run on the same current assets
-through the same code path, so the vector-vs-graph comparison is valid. What is not valid
-is comparing any number here against Person A's stored figures.
+That is a genuine, identified methodology difference — document-level deduplication policy
+— not a data problem, a harness bug, or an unexplained discrepancy. It is a deliberate
+design choice in this harness (a retriever that shows a customer the same document twice in
+a top-3 is arguably worse, not equivalent), documented here rather than silently changed to
+match hers.
+
+**Verdict: RESOLVED.** The original mismatch is explained and no longer open. The residual
+one-question Recall@3 gap has a known, verified cause and is not evidence of a stale index.
 
 Retrieval reuses Person A's configuration directly — `ingestion.evaluate_retrieval` is
 imported for `MODEL_NAME`, `INDEX_PATH`, `METADATA_PATH` and `BENCHMARK_PATH`. Their file
@@ -219,41 +237,53 @@ directly — only ranks are combined.
 
 ### 3.3 Main benchmark (29 questions, document-level)
 
+**Current run, against the restored 383-chunk index and the post-fix 363-node/1,636-edge
+document KG:**
+
 | Arm | Recall@1 | Recall@3 | Recall@5 | MRR@5 | Precision@3 |
 |---|---|---|---|---|---|
-| vector_only | **0.8966** | 1.0000 | 1.0000 | **0.9483** | 0.5057 |
-| graph_enhanced | 0.6552 | 1.0000 | 1.0000 | 0.8161 | **0.5287** |
+| vector_only | **0.7586** | 0.9310 | **1.0000** | **0.8529** | 0.4713 |
+| graph_enhanced | 0.3793 | 0.8621 | 0.8966 | 0.6236 | 0.4023 |
 
-`avg_docs_added_by_graph_per_query: 14.72`
+`avg_docs_added_by_graph_per_query: 16.1`
 
-**Graph fusion loses on this benchmark.** Recall@1 drops 24 points and MRR@5 drops 13.
-Only Precision@3 improves, by 2.3 points. Recall@3 and Recall@5 are ties **at a ceiling**
-(1.0 for both arms), not wins — there is nothing left to gain there.
+**Graph fusion loses on every single metric this time — including Recall@5, which used to
+be a ceilinged tie and is now an outright regression.** With the real multi-chunk index,
+vector-only no longer sits at a Recall@3/@5 ceiling (0.9310 / 1.0000, not 1.0000 / 1.0000),
+so there was genuine headroom for the graph to help. It didn't: Recall@1 drops 38 points,
+Recall@3 drops 7, Recall@5 drops **10 points below vector-only's ceiling** (0.8966 vs
+1.0000 — graph fusion is now actively making the top-5 worse on this benchmark, not merely
+failing to improve it), MRR@5 drops 23, and Precision@3 also drops (this arm no longer
+even wins on precision, unlike the earlier stale-index run). This is a clean, unambiguous
+loss, reported as one.
 
-Why it loses is not mysterious. Vector-only already answers 26 of 29 at rank 1 and 29 of 29
-by rank 3; there is almost nothing for the graph to fix. Against that, expansion injects
-~14.7 extra documents per query (10% of the corpus), and under RRF a document sitting
-mid-pack in *both* lists can overtake a document that is rank 1 in the vector list alone.
-That is the mechanism, and on a near-ceilinged benchmark it costs more than it returns.
+**Before/after, stale index vs restored index (both under weighted RRF, vector=1.0/graph=0.5,
+not tuned on this benchmark):**
 
-**Fusion sensitivity** (same 29 questions — *not* a held-out set, so these rows are
-diagnostics, not a menu to pick a winner from):
+| Metric | Pre-merge (stale 148-chunk index) vector / graph | Post-merge (restored 383-chunk index) vector / graph |
+|---|---|---|
+| Recall@1 | 0.8966 / 0.6552 | **0.7586 / 0.3793** |
+| Recall@3 | 1.0000 / 1.0000 (ceiling) | **0.9310 / 0.8621** |
+| Recall@5 | 1.0000 / 1.0000 (ceiling) | **1.0000 / 0.8966** |
+| MRR@5 | 0.9483 / 0.8161 | **0.8529 / 0.6236** |
+| Precision@3 | 0.5057 / 0.5287 (graph won) | **0.4713 / 0.4023** (vector wins) |
+| avg docs added/query | 14.72 | **16.1** |
 
-| Variant | Recall@1 | Recall@3 | MRR@5 | Precision@3 |
-|---|---|---|---|---|
-| RRF vector=1.0 graph=1.0 | 0.6207 | 0.9655 | 0.7701 | 0.4943 |
-| **RRF vector=1.0 graph=0.5 (headline)** | 0.6552 | 1.0000 | 0.8161 | 0.5287 |
-| RRF vector=1.0 graph=0.25 | 0.7241 | 1.0000 | 0.8506 | 0.5172 |
-| vector=1.0 graph=0.5 + Category expansion | 0.7241 | 1.0000 | 0.8333 | 0.5517 |
+Every column got worse for both arms with the real index — vector-only was never actually
+at Recall@3/@5 ceiling; that ceiling was an artefact of the stale single-chunk index
+retrieving 5 trivially-distinct documents. The real multi-chunk index is a harder, more
+realistic benchmark, and graph fusion's loss margin widened on it, not narrowed.
 
-The trend is monotone: the less the graph is allowed to say, the less damage it does, with
-the limit at graph weight 0 being vector-only. On this benchmark that is the honest
-summary — graph expansion has no headroom to exploit.
+Why it loses is not mysterious. Expansion injects ~16 extra documents per query (11% of
+the corpus), and under RRF a document sitting mid-pack in *both* lists can overtake a
+document that is rank 1 in the vector list alone — the same mechanism as before, just with
+more room for it to do damage now that vector-only isn't already perfect.
 
-**Category expansion is reported separately and never folded into the headline.** The
-benchmark has exactly one question per category, so expanding by `Category` is close to
-handing the retriever the answer label. Its apparent improvement over the headline row
-(+0.069 Recall@1) should be read as leakage, not lift.
+**The fusion-sensitivity sweep from the earlier (stale-index) run is not re-run here** —
+the brief for this pass specified the headline weights only (vector 1.0/graph 0.5,
+declared not tuned), and re-sweeping against a benchmark that already shows a clear,
+widened loss would not change the conclusion. If the sweep is wanted again, run
+`evaluate_graph_rag.py` without `--no-sweep`.
 
 ### 3.4 Graph-dependent mini-benchmark (9 questions)
 
@@ -261,35 +291,38 @@ handing the retriever the answer label. Its apparent improvement over the headli
 so that the answer lives in an internal operational document (SOP, RCA, Policy, Training)
 that a customer-phrased query does not lexically match, but which shares a Service or Tag
 with the documents that query does match. Every expected document was read and genuinely
-answers its question.
+answers its question. Re-run against the restored 383-chunk index and the post-fix document
+KG (the question set and its selection rule are unchanged from the original pass):
 
 | Arm | Recall@1 | Recall@3 | Recall@5 | MRR@5 | Precision@3 |
 |---|---|---|---|---|---|
-| vector_only | 0.0000 | 0.7778 | 1.0000 | 0.3889 | 0.2593 |
-| graph_enhanced | **0.3333** | 0.7778 | 1.0000 | **0.5685** | 0.2593 |
+| vector_only | 0.2222 | 0.6667 | 0.8889 | 0.4574 | 0.2222 |
+| graph_enhanced | **0.5556** | 0.6667 | **1.0000** | **0.6944** | 0.2222 |
 
-`avg_docs_added_by_graph_per_query: 14.11`
+`avg_docs_added_by_graph_per_query: 16.67`
 
-**This is where the graph earns its place, but the win is partial and specific:**
+**This is still where the graph earns its place, and the margin is larger than before:**
 
-- **MRR@5: 0.3889 → 0.5685** (+0.18). The expected document is found meaningfully higher
-  up.
-- **Recall@1: 0.0 → 0.3333.** Vector-only never puts the right document first (that is by
-  construction — see the bias note below); fusion does so for 3 of 9.
-- **Recall@3: a tie at 0.7778**, and it is a tie with movement underneath, not a stalemate.
-  One question gains and one loses, cancelling exactly. GQ02 gains: the Pune RCA climbs
-  from rank 4 into the top 3. GQ04 loses: fusion lifts the fraud SOP from rank 10 to 4, but
-  pushes TRN_003 — also a correct answer — from rank 2 down to 6, so nothing correct is
-  left in the top 3. The other seven questions keep the same top-3 outcome, several with
-  the expected document moving up inside it (which is what the MRR gain measures).
-- **Recall@5 and Precision@3: ties.** Recall@5 is a ceiling (1.0 both arms).
+- **MRR@5: 0.4574 → 0.6944** (+0.24, vs +0.18 on the stale index). Larger gain than the
+  original pass.
+- **Recall@1: 0.2222 → 0.5556** (2 of 9 questions correct at rank 1 → 5 of 9). A real,
+  larger win than the original pass's 0/9 → 3/9.
+- **Recall@5: 0.8889 → 1.0000 — a genuine improvement, not a ceiling tie this time.**
+  Vector-only misses one question entirely inside its top 5 on the restored index (it
+  wasn't at ceiling here either); graph fusion recovers it. This is the one metric in this
+  whole re-baseline where fusion produces an unambiguous, non-ceilinged win.
+- **Recall@3 and Precision@3: ties** (0.6667 and 0.2222 respectively) — reported as ties,
+  not wins, per the same rule as before.
 
-**Selection bias, stated plainly:** a question was only included if no expected document
-was already at vector rank 1 — i.e. the set is deliberately hard for semantic similarity.
-That rule was applied to the *vector-only* arm and is blind to whether fusion helps, but it
-still means vector-only's absolute numbers here are floored by construction. **These 9
+**Selection bias, stated plainly, unchanged from the original report:** a question was only
+included if no expected document was already at vector rank 1 on the *original* index — the
+set is deliberately hard for semantic similarity, the rule was applied blind to whether
+fusion helps, and vector-only's absolute numbers here are floored by construction. **These 9
 numbers are not comparable with the 29-question benchmark**, and the set is far too small
-for statistical significance. What it demonstrates is a mechanism, not a headline number.
+for statistical significance. Re-running it against a different (now correct) index changed
+the vector-only baseline numbers themselves (0.0/0.7778/1.0000 → 0.2222/0.6667/0.8889 on
+Recall@1/3/5) since the underlying retrieval changed — a reminder that this set was never
+meant to be compared across index versions any more than across benchmarks.
 
 ---
 
@@ -391,33 +424,41 @@ they stay in the dictionary and are reported, but do not become orphan nodes.
 Consequence for retrieval: for those 23 documents the graph offers only Tag and Category
 bridges, so graph expansion cannot help a query whose answer lives there.
 
-### 5.4 The main benchmark is at its ceiling
+### 5.4 The main benchmark's ceiling was an artefact of the stale index — RESOLVED, and the news is worse for the graph, not better
 
-Vector-only already scores **Recall@5 = 1.0 and Recall@3 = 1.0** on the 29-question
-benchmark. There is no headroom above rank 3 at all, and the only measurable room is
-Recall@1, MRR@5 and Precision@3. Any "improvement" reported at @3 or @5 on this benchmark
-is arithmetically impossible; any tie there is a **ceiling, not a win**.
+**Original finding (superseded):** against the stale single-chunk index, vector-only scored
+Recall@5 = 1.0 and Recall@3 = 1.0, leaving no headroom above rank 3, so any tie there was a
+ceiling rather than a win.
 
-This also means the benchmark cannot demonstrate the thing graph retrieval is for. It was
-built to test semantic retrieval, and its questions are lexically close to their answer
-documents — which is exactly the case where a graph adds nothing.
+**Current:** against the restored 383-chunk index, vector-only scores **Recall@3 = 0.9310,
+Recall@5 = 1.0000** — there is now real headroom at Recall@3, and it was real all along;
+the earlier ceiling was purely an artefact of the stale index trivially retrieving 5
+distinct documents per query. With that headroom now open, graph fusion had a genuine
+chance to show gains on the main benchmark. **It didn't — see §5.6, now the more important
+finding, not less.**
 
-### 5.5 The vector-only baseline does not match Person A's stored numbers
+### 5.5 The vector-only baseline mismatch is RESOLVED
 
-See §3.1. The stored baseline came from a multi-chunk vectorstore that is no longer in the
-repo; today's index is one chunk per document. Cross-run comparisons with Person A's saved
-figures are invalid until the vectorstore is rebuilt. This also means the whole retrieval
-comparison rests on a **single-chunk-per-document** index — with 148 documents and 148
-vectors, FAISS is effectively doing whole-document matching, which favours the vector arm
-and reduces what graph expansion can contribute.
+See §3.1 for the full account. Person A's Sept 2026 merge restored `data/vectorstore/` to a
+genuine multi-chunk index (383 chunks / 248 documents), matching the shape the stored
+baseline always implied. Recall@1 and Recall@5 now reproduce **exactly**; Recall@3 differs
+by one question, traced to a specific, verified document-deduplication policy difference
+between this harness and Person A's `evaluate_retrieval.py`, not to stale data. The whole
+retrieval comparison now runs on real multi-chunk retrieval, not the single-chunk
+whole-document matching this section originally flagged as favouring the vector arm.
 
-### 5.6 Graph fusion is a net loss on the main benchmark
+### 5.6 Graph fusion is a net loss on the main benchmark — the loss widened, and Recall@5 now actively regresses
 
-Stated plainly rather than buried: on the 29-question benchmark, graph-enhanced retrieval
-is **worse** than vector-only on Recall@1 (−0.2414) and MRR@5 (−0.1322), better only on
-Precision@3 (+0.0230). Do not deploy this fusion as a default retriever on
-benchmark-like traffic. Its demonstrated value is confined to the graph-dependent question
-type in §3.4.
+Stated plainly rather than buried, updated against the restored index: graph-enhanced
+retrieval is worse than vector-only on **every metric measured** — Recall@1 (−0.3793),
+Recall@3 (−0.0689), **Recall@5 (−0.1034 — no longer a ceiling tie; this is a genuine
+regression below vector-only's ceiling)**, MRR@5 (−0.2293), and Precision@3 (−0.0690, which
+also flips from a graph win to a vector win). The margin is larger across the board than
+the earlier pre-merge run, not smaller — removing the artificial ceiling gave the graph
+room to lose more visibly, not room to win. Do not deploy this fusion as a default
+retriever on benchmark-like traffic. Its demonstrated value is confined to the
+graph-dependent question type in §3.4, where it now also shows a genuine (non-ceilinged)
+Recall@5 gain in addition to the earlier MRR@5 and Recall@1 gains.
 
 ### 5.7 The mini-benchmark is small and selection-biased
 
@@ -507,25 +548,31 @@ not a one-off manual correction to the data.
 
 In rough order of expected value:
 
-1. **Rebuild the multi-chunk vectorstore** (Person A's call). With one chunk per document,
-   FAISS retrieval is whole-document matching and the benchmark ceilings immediately. Real
-   chunking would restore headroom and make the graph comparison meaningful.
+1. ~~**Rebuild the multi-chunk vectorstore.**~~ **DONE** (Sept 2026 merge). The stale
+   single-chunk index that ceilinged Recall@3/@5 is gone; see §3.1/§3.3/§5.4-5.6. It did
+   restore real headroom, as predicted — but that headroom went to vector-only, not to
+   graph fusion, whose loss margin widened rather than closed.
 2. **A benchmark that is not one-question-per-category.** The current design makes Category
-   expansion leaky and gives the graph nothing to fix.
+   expansion leaky and gives the graph nothing to fix. Still open.
 3. **Fill the gold template** (~30 minutes) to convert provisional precision into measured
-   Precision/Recall/F1 and expose the false negatives the dictionary is missing.
+   Precision/Recall/F1 and expose the false negatives the dictionary is missing. Still open;
+   note the sample and provisional-precision numbers in §4 predate the merge's content
+   rewrite and would need re-sampling against the current text to stay meaningful.
 4. **Resolve the 84 dangling `related_ids`** — the only thing standing between this graph
-   and real document-to-document structure.
+   and real document-to-document structure. Still open.
 5. **Sentence-scoped extraction** to promote co-occurrence edges into asserted facts,
-   measured against this dictionary as the baseline.
-6. **The category crosswalk** to unblock joining the two branches.
+   measured against this dictionary as the baseline. Still open.
+6. ~~**The category crosswalk** to unblock joining the two branches.~~ **DONE** (Phase 4/5,
+   after this list was first written) — see `structured_document_crosswalk` in
+   `ontology/ontology_schema.json` and the shared Concept layer in
+   `knowledge_graph/concept_bridge.py`.
 
 ---
 
 ## 7. Reproducing every number in this report
 
 ```bash
-python -m knowledge_graph.graph_builder                   # 363 nodes / 1473 edges
+python -m knowledge_graph.graph_builder                   # 363 nodes / 1636 edges (post-merge, post-fix)
 python -m knowledge_graph.evaluate_graph                  # Phase 1 + Phase 2 blocks
 python -m knowledge_graph.validate_extraction             # extraction validation
 

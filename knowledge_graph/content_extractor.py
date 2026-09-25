@@ -349,6 +349,81 @@ def _snippet(text: str, start: int, end: int) -> str:
     return collapsed
 
 
+# ---------------------------------------------------------------------------
+# Context-sensitive trigger exclusion
+# ---------------------------------------------------------------------------
+# Same "boundary-safe matching" philosophy as the port/pan/store fixes above,
+# extended to bare-word triggers that are ambiguous without surrounding
+# context. Found via the Sep 2026 corpus merge: Person A's new document
+# template adds a structural "### Escalation" section heading to many FAQs
+# regardless of whether escalation is actually relevant, and that section's
+# own prose sometimes explicitly denies an escalation applies (e.g. FAQ_C01_001:
+# "...rather than a general support escalation"). A bare "escalation" trigger
+# fired on both, producing a false Complaint Registration concept on a document
+# about updating a phone number.
+#
+# Scoped narrowly to (concept_type, concept, phrase) triples that are known to
+# need it, rather than applied globally, so no other trigger's behaviour
+# changes. Corpus-wide check before adding this: only 2 of 30 heading-only
+# matches in the whole corpus belong to a different trigger (Roaming Activation
+# on two tariff documents), and neither is touched by this exclusion.
+NEGATION_SENSITIVE_TRIGGERS: frozenset = frozenset(
+    {
+        ("Service", "Complaint Registration", "escalation"),
+    }
+)
+
+#: Contrast/negation cues checked in the text immediately before a match.
+#: "rather than" and "instead of" are what the corpus actually uses to deny a
+#: concept applies; "not a"/"isn't a"/"is not a" cover the direct negations.
+NEGATION_CUES: Tuple[str, ...] = (
+    "rather than",
+    "instead of",
+    "not a",
+    "not an",
+    "isn't a",
+    "is not a",
+)
+NEGATION_WINDOW = 60  # characters checked before the match start
+
+_HEADING_LINE_PATTERN = re.compile(r"^#{1,6}\s*(.+?)\s*$")
+
+
+def _is_negated(text: str, match_start: int) -> bool:
+    """True if a negation/contrast cue appears just before the match."""
+    window = text[max(0, match_start - NEGATION_WINDOW) : match_start].lower()
+    return any(cue in window for cue in NEGATION_CUES)
+
+
+def _is_heading_only_match(text: str, match_start: int, match_end: int) -> bool:
+    """True if the match is the entire content of a markdown heading line.
+
+    A heading like "### Escalation" is a section label the document template
+    inserts structurally, not a prose assertion that the concept applies -
+    distinct from the same word appearing in a sentence.
+    """
+    line_start = text.rfind("\n", 0, match_start) + 1
+    line_end = text.find("\n", match_end)
+    if line_end == -1:
+        line_end = len(text)
+    line = text[line_start:line_end]
+    heading_match = _HEADING_LINE_PATTERN.match(line)
+    if not heading_match:
+        return False
+    return heading_match.group(1).strip().lower() == text[match_start:match_end].lower()
+
+
+def _is_excluded_match(
+    concept_type: str, name: str, phrase: str, text: str, match: re.Match
+) -> bool:
+    """Context checks applied only to triggers flagged as needing them."""
+    if (concept_type, name, phrase) not in NEGATION_SENSITIVE_TRIGGERS:
+        return False
+    return _is_negated(text, match.start()) or _is_heading_only_match(
+        text, match.start(), match.end()
+    )
+
+
 def extract_document_concepts(document: Dict[str, Any]) -> List[Dict[str, Any]]:
     """Return one record per (concept type, concept) found in a single document.
 
@@ -365,6 +440,8 @@ def extract_document_concepts(document: Dict[str, Any]) -> List[Dict[str, Any]]:
             for name, patterns in concepts.items():
                 for phrase, pattern in patterns:
                     for match in pattern.finditer(text):
+                        if _is_excluded_match(concept_type, name, phrase, text, match):
+                            continue
                         record = found.get((concept_type, name))
                         if record is None:
                             record = {

@@ -7,6 +7,15 @@ unstructured ingestion pipeline. `ingestion/`, `data/`, `structured/` and
 
 **Corpus:** the 148 canonical documents in `data/processed/documents/*.json`.
 
+> **Post-merge notice (2026-09-26).** Person A's `person-a/unstructured-integration` branch
+> was merged into `main`, rewriting the `content` field of all 148 documents (average length
+> 643 → 2,066 characters, adding structured "Short Answer / Detailed Explanation / Key
+> Details / Conditions / Escalation / Example Scenario" sections) while leaving every
+> metadata field byte-identical. Phase 1 (metadata graph) is unaffected — 333 nodes / 1,180
+> edges, unchanged. Phase 2 (content layer) is rebuilt against the new text; §2's Phase 2
+> block and §5.3 are marked **pre-merge baseline, superseded** with the current numbers given
+> alongside. §5.11 documents a false-positive bug the new text exposed and how it was fixed.
+
 ---
 
 ## 1. Ontology summary
@@ -97,6 +106,9 @@ makes the graph connected. Real document-to-document connectivity is zero: every
 
 ### Phase 2 (full graph)
 
+**PRE-MERGE BASELINE — SUPERSEDED.** Computed against the original ~643-char/document
+corpus, before the Sep 2026 merge rewrote document content:
+
 ```
 total_nodes: 363          total_edges: 1473
 Service 14 | Channel 5 | VerificationMethod 5 | Requirement 4 | Location 2
@@ -108,11 +120,44 @@ AVAILABLE_VIA 28 | REQUIRES_VERIFICATION 16 | REQUIRES_DOCUMENT 6
 documents_with_at_least_one_content_edge: 106 / 148
 ```
 
+**CURRENT (post-merge, post-fix) — the live baseline.** Same 30 concept nodes (the
+dictionary vocabulary didn't change), roughly 1.5× the mention edges — expected, since the
+new document text is 3.2× longer and elaborates every answer instead of stating it once:
+
+```
+total_nodes: 363          total_edges: 1636
+Service 14 | Channel 5 | VerificationMethod 5 | Requirement 4 | Location 2
+
+MENTIONS_SERVICE 192 | MENTIONS_CHANNEL 89 | MENTIONS_VERIFICATION 73
+MENTIONS_REQUIREMENT 15 | MENTIONS_LOCATION 9
+AVAILABLE_VIA 35 | REQUIRES_VERIFICATION 31 | REQUIRES_DOCUMENT 12
+
+documents_with_at_least_one_content_edge: 125 / 148
+```
+
+Full before/after, including the intermediate post-merge-pre-fix numbers (which briefly
+peaked higher on `MENTIONS_SERVICE` before a false-positive trigger was fixed — see §5.11):
+
+| Metric | Pre-merge (old) | Post-merge, pre-fix | Post-merge, post-fix (current) |
+|---|---:|---:|---:|
+| `documents_with_at_least_one_content_edge` | 106 / 148 | 127 / 148 | **125 / 148** |
+| `MENTIONS_SERVICE` | 132 | 228 | **192** |
+| `MENTIONS_CHANNEL` | 48 | 89 | **89** |
+| `MENTIONS_VERIFICATION` | 37 | 73 | **73** |
+| `MENTIONS_REQUIREMENT` | 18 | 15 | **15** |
+| `MENTIONS_LOCATION` | 8 | 9 | **9** |
+| `AVAILABLE_VIA` | 28 | 35 | **35** |
+| `REQUIRES_VERIFICATION` | 16 | 31 | **31** |
+| `REQUIRES_DOCUMENT` | 6 | 12 | **12** |
+| total graph edges | 1,473 | 1,672 | **1,636** |
+
 The content layer changed what the graph can answer. Phase 1 could only connect documents
 that shared a *filing* decision (same category, tag, department). Phase 2 connects
-documents that discuss the same *thing*: `Service::KYC Verification` reaches degree 38,
-the fourth-largest hub in the graph, linking C05 SIM documents to C17 KYC documents that
-no shared category or tag connects.
+documents that discuss the same *thing*: `Service::KYC Verification` reached degree 38 in
+the pre-merge graph, one of the largest hubs, linking C05 SIM documents to C17 KYC
+documents that no shared category or tag connects. (Exact degree shifts with the new
+content; the structural point — content-layer hubs cross categories that metadata-layer
+hubs cannot — still holds.)
 
 Phase 1 remains reproducible: `graph_builder --metadata-only` regenerates
 `nodes_metadata_only.json` and `edges_metadata_only.json` **byte-identical** (md5-verified)
@@ -321,17 +366,29 @@ These are unrelated meanings. **Do not join the branches on category code.** A j
 `inferred`; they are not the structured taxonomy. An explicit crosswalk is required and has
 not been built.
 
-### 5.3 Content coverage is 106/148
+### 5.3 Content coverage is 125/148 (pre-merge baseline was 106/148, superseded)
 
-42 documents (28%) produce no content edge at all. They are coverage maps, FUP/speed
-explainers and outage RCAs — documents about *network conditions* rather than *customer
-transactions*, so none of the five concept types applies. Loosening triggers to cover them
-would manufacture false edges. Four declared concepts also found no evidence anywhere
-(`Channel::WhatsApp`, `Requirement::PAN`, `VerificationMethod::PAN`,
-`VerificationMethod::Email Verification`); they stay in the dictionary and are reported,
-but do not become orphan nodes.
+**Pre-merge (superseded):** 42 documents (28%) produced no content edge at all — coverage
+maps, FUP/speed explainers and outage RCAs, about *network conditions* rather than
+*customer transactions*, so none of the five concept types applied.
 
-Consequence for retrieval: for those 42 documents the graph offers only Tag and Category
+**Current (post-merge):** coverage rose to 125/148 — 23 documents (16%) still produce no
+content edge, down from 42. The rewritten text is longer and touches more of the concept
+vocabulary incidentally (e.g. a coverage-map document now mentions "the My NovaTel app" in
+a "how to check status" aside it didn't have before), which is a genuine coverage gain, not
+an artifact. Checked the remaining 23 by category and title (not just trusting the count):
+they cluster in C08/C09 (coverage, FUP/speed), C11 (international call rates), C12/C24
+(device compatibility, VoLTE, IoT/M2M), C19 (privacy data requests), C21 (account closure),
+C23 (enterprise connectivity) and billing/security incident reports — topics genuinely
+outside the five-concept vocabulary (Service/Channel/VerificationMethod/Requirement/
+Location), not documents the dictionary is failing to catch. Loosening triggers further to
+cover them would manufacture false edges, not capture real signal.
+
+Four declared concepts still found no evidence anywhere (`Channel::WhatsApp`,
+`Requirement::PAN`, `VerificationMethod::PAN`, `VerificationMethod::Email Verification`);
+they stay in the dictionary and are reported, but do not become orphan nodes.
+
+Consequence for retrieval: for those 23 documents the graph offers only Tag and Category
 bridges, so graph expansion cannot help a query whose answer lives there.
 
 ### 5.4 The main benchmark is at its ceiling
@@ -391,6 +448,58 @@ the payload shape were validated offline — all 363 node rows and 1473 edge row
 the 13 allowed labels and 16 allowed types with no non-scalar property values — but the
 Cypher has never been executed against a live server. `neo4j_nodes` and
 `neo4j_relationships` report `not run` until it is.
+
+### 5.11 Bug found via the merge: bare "escalation" trigger fired on negated/heading text (fixed)
+
+Same reporting pattern as the earlier extraction bugs: what was found, why, the fix, and how
+it was verified — not just "fixed, trust me."
+
+**What was found.** After the Sep 2026 merge, `evaluate_graph`'s ground-truth spotcheck on
+`FAQ_C01_001` started returning an extra concept, `Service: Complaint Registration`, that
+should not be there — the document is about updating a phone number, not filing a
+complaint.
+
+**Root cause.** Person A's new document template adds a standard "### Escalation" section
+heading to many FAQs, and the `Complaint Registration` concept's dictionary included a bare
+`escalation` trigger (`knowledge_graph/content_extractor.py`). Two distinct false-positive
+sources, both traced to exact text before fixing anything:
+
+1. The heading itself — `### Escalation` — fires the bare-word trigger regardless of what
+   the section actually says. Corpus-wide check: 16 of 148 documents carry this heading,
+   and 10 of those 16 have **no other mention of "escalation" anywhere in the body** — for
+   those 10, the heading is the *only* reason the concept fired.
+2. The section's own prose, on `FAQ_C01_001` specifically, explicitly **denies** an
+   escalation applies: *"the store visit is the designated fallback rather than a general
+   support escalation."* A bare-word match can't distinguish an assertion from its negation.
+
+**The fix — narrow and rule-based, consistent with the existing dictionary approach (no
+ML).** Two context checks, scoped only to the `("Service", "Complaint Registration",
+"escalation")` trigger so no other concept's behaviour changes:
+
+- **Negation guard:** suppress a match if a contrast/negation cue (`rather than`,
+  `instead of`, `not a`, `not an`, `isn't a`, `is not a`) appears in the 60 characters
+  immediately before it.
+- **Heading-only guard:** suppress a match that is the *entire* content of a markdown
+  heading line (`### Escalation` alone) — a section label is not a prose assertion, distinct
+  from the same word inside a sentence.
+
+Checked corpus-wide before adding the heading rule: of 30 total heading-only matches across
+the whole corpus, only 2 belong to a different trigger (`Roaming` in two `TARIFF_*`
+documents), and the fix is scoped narrowly enough not to touch them.
+
+**Verification.**
+
+| Check | Result |
+|---|---|
+| `FAQ_C01_001` spotcheck after the fix | Exact match to the original expected set — `Complaint Registration` gone, all five other concepts unchanged |
+| Corpus-wide `MENTIONS_SERVICE` | 228 (post-merge, pre-fix) → 192 (post-fix) — 36 false-positive edges removed |
+| Documents whose concept set changed because of the fix | 36 of 148, all losing only the spurious `Complaint Registration` |
+| Documents that lost their *only* content edge (i.e. `Complaint Registration` was their sole concept) | 2 — `FAQ_C08_015`, `FAQ_C29_057` (both genuinely off-vocabulary: coverage/speed and device troubleshooting) |
+| Unrelated triggers affected | 0 (the Roaming/tariff heading matches were confirmed untouched) |
+
+This is now baked into `content_extractor.py` (`NEGATION_SENSITIVE_TRIGGERS`,
+`_is_negated`, `_is_heading_only_match`) and re-runs identically on every future rebuild —
+not a one-off manual correction to the data.
 
 ---
 

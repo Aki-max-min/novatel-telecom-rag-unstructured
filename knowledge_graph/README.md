@@ -193,6 +193,17 @@ running it once did. It finishes by running the verification query and printing
 If Neo4j is unreachable the loader prints startup instructions and exits with status 2
 rather than a stack trace.
 
+> **Operating note — reload order matters if the concept bridge is loaded.** When using
+> `graph_loader.py --reset`, Neo4j's `DETACH DELETE` removes every relationship touching a
+> deleted node — including bridge edges (`EXPRESSES_CONCEPT`) that originate on document-KG
+> nodes (`Category`, `Service`) but were added later by `concept_bridge.py`, which
+> `graph_loader.py` has no knowledge of. `REALIZES_CONCEPT` survives because it runs between
+> `EntityType`/`Concept`, neither a document-KG label, but `EXPRESSES_CONCEPT` does not.
+> **Always reload in this order: document KG first (`graph_loader.py`, `--reset` or not),
+> then `concept_bridge.py --load`** to restore the bridge edges. `structured_graph_loader.py
+> --reset` does not have this problem — it only deletes `:StructuredEntity`-labeled nodes,
+> which the bridge's `EXPRESSES_CONCEPT` edges never touch.
+
 ### 4. Query
 
 Open <http://localhost:7474> and use the ten example queries in

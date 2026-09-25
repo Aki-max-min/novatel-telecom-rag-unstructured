@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1583041",
+  "title": "Estimating prion concentration in fluids and tissues by quantitative PMCA",
+  "content": "Prions, the proteinaceous infectious agent responsible for prion diseases, can be detected with high sensitivity by protein misfolding cyclic amplification (PMCA) technology. Here we describe a quantitative PMCA procedure to calculate the concentration of very low levels of prions in biological samples. Using this procedure, we determined the quantities of misfolded prion protein (PrPSc) in brain, spleen, blood and urine of scrapie-affected hamsters.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

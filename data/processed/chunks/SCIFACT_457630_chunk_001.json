@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_457630_chunk_001",
+  "document_id": "SCIFACT_457630",
+  "chunk_index": 1,
+  "text": "with both HDI (R2 = 0.489, P < 0.001) and per capita gross domestic product (R2 = 0.331, P < 0.001). Stepwise multiple regression showed that HDI was significantly correlated with national age-standardized DALY rates in 2015 after adjusting for other confounding factors (P < 0.001). Conclusions The global health burden of vision loss due to cataract increased between 1990 and 2015 despite considerable efforts from the World Health Organization and VISION 2020 initiatives.",
+  "title": "Variations and Trends in Health Burden of Visual Impairment Due to Cataract: A Global Analysis.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12337611",
+  "title": "LIN28B induces neuroblastoma and enhances MYCN levels via let-7 suppression",
+  "content": "LIN28B regulates developmental processes by modulating microRNAs (miRNAs) of the let-7 family. A role for LIN28B in cancer has been proposed but has not been established in vivo. Here, we report that LIN28B showed genomic aberrations and extensive overexpression in high-risk neuroblastoma compared to several other tumor entities and normal tissues. High LIN28B expression was an independent risk factor for adverse outcome in neuroblastoma. LIN28B signaled through repression of the let-7 miRNAs and consequently resulted in elevated MYCN protein expression in neuroblastoma cells. LIN28B–let-7–MYCN signaling blocked differentiation of normal neuroblasts and neuroblastoma cells. These findings were fully recapitulated in a mouse model in which LIN28B expression in the sympathetic adrenergic lineage induced development of neuroblastomas marked by low let-7 miRNA levels and high MYCN protein expression. Interference with this pathway might offer therapeutic perspectives.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

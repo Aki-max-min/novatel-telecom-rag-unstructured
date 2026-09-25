@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_045",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 45,
+  "text": "to the sessions by the header assignee; (d) carry out additional authentications in case of a request for headers to be issued to SEBI registered brokers or other entities specified by Authority by directions, orders or instructions issued from time to time; (e) carry out additional authentications in case of a request for headers to be issued to government entities, corporate(s) or well-known brands, including specific directions, orders or instructions, if any, issued from time to time by the Authority; (f) carry out additional checks for look-alike headers which may mislead to a common recipient of commercial communication, it may also include proximity checks, similarity after substring swaps specifically in case of government entities, corporate(s), well-known brands while assigning headers irrespective of current assignments of such headers, and to follow specific directions, orders or instructions, if any, issued from time to time by the Authority; (2) Consent Registration Function (CRF) (a) record consent via Customer Consent Acquisition Functionality on Consent Register, on its own or through its agents, to facilitate consent acquirers to record the consent taken from the customers in a robust manner which is immutable and non-repudiable and as specified by relevant regulations; (b) Presenting content of consent acquisition template to the customer before taking consent; (c) Taking agreement to the purpose of consent and details of sender; (d) Authenticate customer giving the consent through OTP; (e) record revocation of consent by the customer via revoke request in a robust manner which is immutable and non-repudiable and as",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_044",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 44,
+  "text": "the calculation and no prior intimation to the subscriber is required in such cases. (iv) Further, the Authority, based on inputs from service providers and/or independent assessment, may consider allowing specific exclusions for prescribed duration in identified areas in case the downtime is affected due to conditions which are not under the control of the service providers like major law-and-order situation or major natural calamities affecting network maintenance or network restoration significantly. 4.1.3. Percentage of significant network outage (Services not available in a district for more than 4 hours) reported to the Authority within 24 hrs of start of the outage (i) Significant Network Outage (SNO) is a scenario when access (wireless) service is not available in any district for more than 4 hours due to any reason. All ‘cells’ physically located in the district shall be considered for deciding SNO. (ii) All such SNOs shall be reported to the Authority within 24 Hrs. from the start of any such outage. After restoration of the outage, the service provider shall report the summary of root cause along with details of action taken. (iii) If any such significant network outage continues for more than 24 hours, the service provider shall provide proportional rent rebate, as per subscribed tariff offering, for actual number of days of service outage to postpaid subscribers registered in the affected district(s) in next billing cycle. In the case of pre-paid subscribers registered in the district(s), the validity of their applicable active tariff offering, at the time of",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

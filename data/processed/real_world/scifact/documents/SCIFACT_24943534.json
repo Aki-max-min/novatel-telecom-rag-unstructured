@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24943534",
+  "title": "Hepatitis C and human immunodeficiency virus infection.",
+  "content": "In the United States, an estimated 200,000 persons are infected with both hepatitis C virus (HCV) and human immunodeficiency virus (HIV). As the lives of HIV-infected persons have been prolonged by use of highly active antiretroviral therapy, liver disease has emerged as an important, and in some settings, the leading cause of morbidity and mortality. Human immunodeficiency virus infection appears to adversely affect all stages of hepatitis C infection, leading to increased viral persistence and accelerated progression of HCV-related liver disease. In turn, hepatitis C may affect the management of HIV infection, increasing the incidence of liver toxicity caused by antiretroviral medications. The medical management of hepatitis C in HIV-infected persons remains controversial, in part because of the complexity of both infections and potential drug interactions, but chiefly because there is so little published information. Nonetheless, the burden of liver disease is too high to delay management of HIV/HCV-coinfected persons while awaiting better data. Instead, the management of hepatitis C today must be based on data generated on persons without HIV and an understanding of both infections. Properly designed studies of therapy in HIV/HCV-coinfected persons are needed to help guide management of these patients in the future.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

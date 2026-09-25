@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26462632",
+  "title": "Maximizing the diagnostic utility of endoscopic biopsy in dogs and cats with gastrointestinal disease.",
+  "content": "Flexible endoscopy has become a valuable tool for the diagnosis of many small animal gastrointestinal (GI) diseases, but the techniques must be performed carefully so that the results are meaningful. This article reviews the current diagnostic utility of flexible endoscopy, including practical/technical considerations for endoscopic biopsy, optimal instrumentation for mucosal specimen collection, the correlation of endoscopic indices to clinical activity and to histopathologic findings, and new developments in the endoscopic diagnosis of GI disease. Recent studies have defined endoscopic biopsy guidelines for the optimal number and quality of diagnostic specimens from different regions of the gut. They also have shown the value of ileal biopsy in the diagnosis of canine and feline chronic enteropathies, and have demonstrated the utility of endoscopic biopsy specimens beyond routine hematoxylin and eosin histopathological analysis, including their use in immunohistochemical, microbiological, and molecular studies.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

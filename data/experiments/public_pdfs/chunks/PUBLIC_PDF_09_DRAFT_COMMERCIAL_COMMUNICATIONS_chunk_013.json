@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_013",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 13,
+  "text": "identify, the sender of the message or making voice call; (bf) “Service message or Service Call” means a message sent to a recipient or voice call made to recipient either with his consent or using a template registered for the purpose, the primary purpose of which is- (i) to facilitate, complete, or confirm a commercial transaction that the recipient has previously consented to enter into with the sender; or 10 (ii) to provide warranty information, product recall information, safety or security information with respect to a commercial product or service used or purchased by the recipient; to provide— (A) notification concerning a change in the terms or features of; or (B) notification of a change in the recipient’s standing or status with respect to; or (C) at regular periodic intervals, account balance information or other type of account statement with respect to, a subscription, membership, account, loan, or comparable ongoing; or (D) commercial relationship involving the ongoing purchase or use by the recipient of products or services offered by the sender; or (E) information directly related to an employment relationship or related benefit plan in which the recipient is currently involved, participating, or enrolled; or (F) information relating to delivery of goods or services, including product updates or upgrades, that the recipient is entitled to receive under the terms of a transaction that the recipient has previously consented to enter into with the sender; (bg) “Signature” means pattern in communications from particular telephone number(s) or telecom resource(s) or person, entity",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

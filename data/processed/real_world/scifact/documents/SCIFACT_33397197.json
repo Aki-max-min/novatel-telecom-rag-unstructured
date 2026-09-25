@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_33397197",
+  "title": "Re-engineered CD40 receptor enables potent pharmacological activation of dendritic-cell cancer vaccines in vivo",
+  "content": "Modest clinical outcomes of dendritic-cell (DC) vaccine trials call for the refinement of DC vaccine design. Although many potential antigens have been identified, development of methods to enhance antigen presentation by DCs has lagged. We have engineered a potent, drug-inducible CD40 (iCD40) receptor that permits temporally controlled, lymphoid-localized, DC-specific activation. iCD40 is comprised of a membrane-localized cytoplasmic domain of CD40 fused to drug-binding domains. This allows it to respond to a lipid-permeable, high-affinity dimerizer drug while circumventing ectodomain-dependent negative-feedback mechanisms. These modifications permit prolonged activation of iCD40-expressing DCs in vivo, resulting in more potent CD8+ T-cell effector responses, including the eradication of previously established solid tumors, relative to activation of DCs ex vivo (P < 0.01), typical of most clinical DC protocols. In addition, iCD40-mediated DC activation exceeded that achieved by stimulating the full-length, endogenous CD40 receptor both in vitro and in vivo. Because iCD40 is insulated from the extracellular environment and can be activated within the context of an immunological synapse, iCD40-expressing DCs have a prolonged lifespan and should lead to more potent vaccines, perhaps even in immune-compromised patients.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

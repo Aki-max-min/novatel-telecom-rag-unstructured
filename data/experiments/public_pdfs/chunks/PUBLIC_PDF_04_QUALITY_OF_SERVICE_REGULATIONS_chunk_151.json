@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_151",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 151,
+  "text": "(iii) One of the stakeholders submitted that evaluating call drops separately for various technologies is essential for ensuring comprehensive monitoring, effective regulation, and continuous improvement of service quality in the Indian Telecom Sector, especially during periods of technological transition and diversification. It is further submitted that a technology-neutral framework for QoS measurement is 152 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] theoretically conceivable, its practical implementation is considered challenging due to the diverse nature of telecommunications technologies and services. (b) Analysis and Conclusion (i) Prior to 2017, performance against DCR was evaluated for the service area as a whole and daily performance was averaged over a period of quarter for assessment of the performance of service providers at the level of the Licensed Service Area (LSA). However, this methodology did not reflect the true picture as degraded DCR performance of some areas, or some days was getting compensated by good performance of some other areas or some other days. Therefore, vide the fifth amendment to the regulations issued on 18th August 2017, percentile-based measurements of the spatial and temporal distribution of DCR were introduced. (ii) Though, percentile-based measurement of DCR gave a better picture in comparison to average-based measurement, the issue of drop calls still persists. To understand the root cause of the problem, analysis of cell-wise DCR performance was undertaken on the data submitted by the TSPs in the performance reports. (iii) Accordingly, DCR matrix data of QE Dec’2022 was analyzed in detail. On analysis, it was observed that",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

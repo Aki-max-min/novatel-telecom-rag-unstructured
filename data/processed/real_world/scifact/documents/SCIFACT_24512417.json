@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24512417",
+  "title": "Lentiviral vector design and imaging approaches to visualize the early stages of cellular reprogramming.",
+  "content": "Induced pluripotent stem cells (iPSCs) can be derived from somatic cells by gene transfer of reprogramming transcription factors. Expression levels of these factors strongly influence the overall efficacy to form iPSC colonies, but additional contribution of stochastic cell-intrinsic factors has been proposed. Here, we present engineered color-coded lentiviral vectors in which codon-optimized reprogramming factors are co-expressed by a strong retroviral promoter that is rapidly silenced in iPSC, and imaged the conversion of fibroblasts to iPSC. We combined fluorescence microscopy with long-term single cell tracking, and used live-cell imaging to analyze the emergence and composition of early iPSC clusters. Applying our engineered lentiviral vectors, we demonstrate that vector silencing typically occurs prior to or simultaneously with the induction of an Oct4-EGFP pluripotency marker. Around 7 days post-transduction (pt), a subfraction of cells in clonal colonies expressed Oct4-EGFP and rapidly expanded. Cell tracking of single cell-derived iPSC colonies supported the concept that stochastic epigenetic changes are necessary for reprogramming. We also found that iPSC colonies may emerge as a genetic mosaic originating from different clusters. Improved vector design with continuous cell tracking thus creates a powerful system to explore the subtle dynamics of biological processes such as early reprogramming events.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

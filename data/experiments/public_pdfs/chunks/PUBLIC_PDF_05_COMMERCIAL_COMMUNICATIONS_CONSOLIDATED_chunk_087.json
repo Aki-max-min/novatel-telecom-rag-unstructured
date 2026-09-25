@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_087",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 87,
+  "text": "Entity and process for verification of OTP received from the customer or for verification of entity carrying out activity under Code(s) of Practice for Entities; 10. Every Access Provider shall formulate: - Message Sequence Charts for messages with parameter details and time sequence to provide details about the process between two entities and action taken by particular entity; Flow Charts to provide details about the process between two entities and action taken; 48 SCHEDULE-III List of Action items for Code of Practice for Complaint Handling (CoP-Complaints) 1. Every Access Provider shall formulate Code of Practice for Complaint handling (CoP-Complaints) and shall prescribe role, responsibilities of entities involved in examining, investigating and resolving complaints; 2. CoP-Complaints shall also include details about: - Complaint registration through voice call Procedure for a customer to make a call to 1909 for registering his complaint. Procedure and role of the customer care executive to interact with the customer about the details like particulars of telemarketer, the telephone number from which the unsolicited commercial communication has originated the date, time and brief description of such unsolicited commercial communication. Procedure and role of the customer care executive to register the customer complaint and acknowledge the complaint by providing a unique complaint number. Complaint Registration through SMS Format for making complaints in which a customer may register his complaint pertaining to receipt of unsolicited commercial communication. Details to be provided by the complainant e.g. Unsolicited Commercial Communications with date on which it was received along with content of",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

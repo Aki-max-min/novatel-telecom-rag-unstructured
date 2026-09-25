@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_23639838",
+  "title": "Surgical Resection for Patients with Solid Brain Metastases: Current Status",
+  "content": "Brain metastases occur in up to 40% of patients with cancer. Their management has been revolutionized in the last decade by three developments: improved imaging and detection of metastases, better treatment of systemic disease with the result that metastases occur more often; and improved surgical techniques including image-guided surgery to treat metastatic lesions. Class 1 data suggest that surgery is a better treatment for metastases than whole brain radiation. Other data suggest that metastases even in eloquent cortex can be removed safely. The complication rate is low and the recurrence rate is less than 10%. In general, indications for surgery include a mass with an unknown primary; a symptomatic mass including one in eloquent areas; a mass with considerable edema requiring high dose steroids; a mass greater than 3 cm; or patient preference when radiosurgery may also be an option. The question of radiosurgery or whole brain radiation as adjunct to surgical removal requires further evaluation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

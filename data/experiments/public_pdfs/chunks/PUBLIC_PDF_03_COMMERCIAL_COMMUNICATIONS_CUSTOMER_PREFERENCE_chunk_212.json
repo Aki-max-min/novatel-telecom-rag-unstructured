@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_212",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 212,
+  "text": "not expecting from the service providers to take responsibility of the device manufacturers in supporting the DnD App or such similar Apps but would only direct the service providers to derecognize such smart mobile phone devices on their network which do not support the functionality of such App on their device platform. x. Smartphone is defined in GSMA official document TS.06 regarding IMEI Allocation and Approval Process, for details refer https://www.gsma.com/newsroom/wp-content/uploads/TS.06- v13.0.pdf In view of this, the Authority decides that Access Provider should ensure, within six months’ time, that all smart phone devices registered on its network support the permissions required for the functioning of such Apps. If such devices do not permit functioning of such Apps then Access Providers shall, on the order or direction of the Authority, derecognize such devices from their telecom networks. However, before issuing order or direction of derecognition of devices, the concerned parties may be given a reasonable opportunity. 5.3.16 Scrubbing as a Service: As discussed in Para 3.3.4, Para 3.3.5, Para 4.3.1 and Para 4.3.4, Scrubbing may be offered as a Service using DLT networks and Scrubbing Function may be delegated to any other entity, if the processes can be run in an environment which is safe and secure during information exchange and execution. Using DLT networks, safety and security may be provided in a multi participant environment with peer to peer and distributed environment approach. 5.3.17 Auto Dialler Calls, Silent Calls and Robo Calls: Issues and concerns related to Auto dialler calls,",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

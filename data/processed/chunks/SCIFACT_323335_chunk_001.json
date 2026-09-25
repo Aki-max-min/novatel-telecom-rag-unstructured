@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_323335_chunk_001",
+  "document_id": "SCIFACT_323335",
+  "chunk_index": 1,
+  "text": "syncopal episodes during a follow-up of 51 X 6 months (29 X 3, 73 X 1) (P=ns). The Kaplan-Meier analysis in patients with and without asystole showed a mean time free of recurrence of 92 X 6 +/- 6 months vs 82 X 6 +/- 4 X 7 months (P=ns). The previous number of syncopes had a significant relationship with recurrences (P=0 X 002), but not therapy. There were no cardiac related deaths. CONCLUSIONS (1) Asystole during head-up tilt test does not imply a malignant outcome and syncope recurrence is low; (2) pacemaker or drug therapy do not significantly influence outcome which correlates to the previous number of syncopal episodes but not to gender, age, asystole occurrence, asystole duration and timing to asystole during head-up tilt test; (3) tilting protocol (angle) might influence time to and incidence of asystole during head-up tilt test.",
+  "title": "Long-term outcome of patients with asystole induced by head-up tilt test.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

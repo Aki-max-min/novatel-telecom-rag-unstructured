@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_045",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 45,
+  "text": "number of days of service outage to postpaid subscribers registered in the affected district(s) in next billing cycle. In the case of pre-paid subscribers registered in the district(s), the validity of their applicable active tariff offering, at the time of the start of the SNO, shall be increased by the equal number of days for which service outage continues. (iv) The outage duration of more than 12 hours in a calendar day shall be considered equal to one full day for the calculation of rent rebate or extension of validity. (v) However, recorded and reported force majeure incidences can be excluded for the calculation of rent rebate or extension of validity. 4.2. Voice Connection Establishment (Accessibility) 4.2.1. Call Set-up Success Rate (CSSR) (i) Call Set-up Success Rate (CSSR) is a technology agnostic parameter which is applicable to voice call establishment in Circuit Switched network and Packet Switched network using Voice over LTE (VoLTE) in 4G technology or Voice Over New Radio (VoNR) in 5G technology. (ii) Call Setup Success Rate is defined as the ratio of Established Calls to Call Attempts. ‘Established Calls’ mean the following events have happened in call setup: (a) Call attempt is made; (b) The signaling channel is allocated; (c) The call is routed to the outwards path of the terminating network; (d) An alert signal is received by caller in the form of ring back tone, busy tone, or an announcement. (iii) The CSSR shall be measured during time consistent busy hour of the monitored",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_74701974",
+  "title": "The Women's Interagency HIV Study",
+  "content": "The Women's Interagency HIV Study comprises the largest U.S. cohort to date of human immunodeficiency virus (HIV)-seropositive women (N = 2,058) with a comparison cohort of seronegative women (N = 568). The methodology, training, and quality assurance activities employed are described. The study pop",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

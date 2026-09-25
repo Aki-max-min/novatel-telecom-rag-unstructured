@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_200",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 200,
+  "text": "control, it would not be appropriate to expect that the TSPs should consistently achieve the prescribed benchmarks at all times, especially in rural areas and be made to pay FDs for minor transgressions without any consideration at appeal level. It is also suggested that the Authority should consider moving towards a light touch regulatory framework for QoS and deregulate the QoS parameters in the long term, while keeping the oversight through periodic drive tests and/or third-party surveys. (iii) One of the stakeholders submitted that a growing gap exists due to outdated QoS standards, network congestion, limited metrics focusing on speed rather than user needs, infrastructure limitations, rising user expectations, and user equipment quality. It is further suggested that revising QoS standards for new technologies, measuring performance at a more granular level, and considering factors beyond just the network itself, will help to bridge the gap. (iv) One of the stakeholders highlighted that customer satisfaction is seen as unreliable due to varying expectations and usage patterns. The stakeholders further submitted that shift from network-reported QoS to crowd-sourced data collected through mobile applications will help to incentivize operators to improve QoE to avoid losing customers. (v) One of the stakeholders submitted that there have been instances where there is a gap between the quality of service (QoS) experienced by customers and the network QoS reported by Telecom Service Providers (TSPs) in India. To address the gap between reported and experienced QoS, TRAI and TSPs need to work together to ensure transparency, accurate",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

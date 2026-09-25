@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_026",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 26,
+  "text": "4, regulation 6, regulation 7, regulation 9, and regulation 10, as applicable, and submit to the Authority, within sixty days of notification of these regulations, the documented process of collection, mapping and processing of data of each QoS parameter, indicating the correlation with 107 the primary data which are derived from system counters or codes in different network elements or through measurement setup, along with any aggregation, transformation or computations, exclusions, exceptions applied including electronic record keeping procedure. (2) Every service provider shall maintain complete and accurate records of raw or primary and processed data relating to the compliance of benchmark of each QoS parameters specified in regulations 4, regulation 6, regulation 7, regulation 9 and regulation 10, as applicable, in electronic form in such manner, period and format as may be directed by the Authority, from time to time. (3) The Authority may, from time to time, either by order or by direction, specify record keeping procedures and formats, including guidelines on measurement methodology, deployment of test probes with related infrastructure and publishing the performance of the service provider on its website for various QoS parameters specified in these regulations, to be followed by the service providers. (4) Every service provider shall preserve the records, as specified in sub-regulation (2), for at least one year after reporting the performance to the Authority and in case of disputes, all the records under dispute shall be maintained upto six months beyond the resolution of the dispute, or one year after reporting",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

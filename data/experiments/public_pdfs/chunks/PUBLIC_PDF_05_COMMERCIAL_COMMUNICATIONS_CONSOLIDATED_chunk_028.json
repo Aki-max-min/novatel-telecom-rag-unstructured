@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_028",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 28,
+  "text": "suspended or blacklisted by any Access Provider and its status is updated by it on DLT platform, other Access Providers shall stop traffic from such entities immediately, but not later than twenty-four hours from the time of suspension or blacklisting, and shall not allow re-registration of these entities during the period of suspension or blacklisting; (c) develop a mechanism for the registered Senders and RTMs to self-certify annually: - (i) their registration details so as to ensure availability of their up-to-date details with the Access Providers; (ii) all of their registered headers, content templates and Consent Templates: Provided that any failure on the part of the registered Sender or RTM to certify their registration details, registered headers, Content Template and Consent Templates shall lead to automatic suspension of such Senders and RTMs or their registered headers, content templates and Consent Templates, as the case may be: Provided further that Access Providers shall incorporate suitable provisions in its agreement with the Sender or RTM to ensure compliance of the provision; (d) ensure that the transmission of the Commercial Communication is authenticated by the Senders on whose name the Headers or number resources from special series for making commercial communication are issued, in such manner as may be specified by the Authority from time to time; (e) maintain proper traceability of Messages from Senders to the Recipients and accountability of each entity in the chain and to allow sufficient flexibility in the ecosystem and ensure that– 17 (i) there shall not be",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

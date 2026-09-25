@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13296399",
+  "title": "In Vivo CRISPR/Cas9 Gene Editing Corrects Retinal Dystrophy in the S334ter-3 Rat Model of Autosomal Dominant Retinitis Pigmentosa",
+  "content": "Reliable genome editing via Clustered Regularly Interspaced Short Palindromic Repeat (CRISPR)/Cas9 may provide a means to correct inherited diseases in patients. As proof of principle, we show that CRISPR/Cas9 can be used in vivo to selectively ablate the rhodopsin gene carrying the dominant S334ter mutation (Rho(S334)) in rats that model severe autosomal dominant retinitis pigmentosa. A single subretinal injection of guide RNA/Cas9 plasmid in combination with electroporation generated allele-specific disruption of Rho(S334), which prevented retinal degeneration and improved visual function.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

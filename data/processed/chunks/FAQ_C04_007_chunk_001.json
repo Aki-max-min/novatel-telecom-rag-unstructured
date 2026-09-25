@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C04_007_chunk_001",
+  "document_id": "FAQ_C04_007",
+  "chunk_index": 1,
+  "text": "or travel | Premium/IVR services, GST, or fair-usage overage | Review the full itemised breakdown to identify which applies | ### Example Scenario **Customer situation:** A customer changed plans partway through the billing cycle and the bill came in higher than the new plan's rental. **What happens:** The itemised breakdown under Billing > View Bill Details shows the pro-rated charge for the plan change as a separate line, explaining the difference. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C04_overview. Topic: Billing & Invoices",
+  "title": "Why is my postpaid bill higher than my plan rental this month?",
+  "document_type": "FAQ",
+  "category": "C04",
+  "department": "Billing",
+  "customer_scope": "prepaid",
+  "version": "1.0",
+  "last_updated": "2026-07-14",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C04_overview"
+  ],
+  "tags": [
+    "billing",
+    "c04"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C04_007.json",
+  "file_type": "json"
+}

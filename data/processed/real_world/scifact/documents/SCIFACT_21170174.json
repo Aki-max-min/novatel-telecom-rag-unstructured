@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21170174",
+  "title": "Crossover and noncrossover pathways in mouse meiosis.",
+  "content": "During meiosis, recombination between homologous chromosomes generates crossover (CR) and noncrossover (NCR) products. CRs establish connections between homologs, whereas intermediates leading to NCRs have been proposed to participate in homologous pairing. How these events are differentiated and regulated remains to be determined. We have developed a strategy to detect, quantify, and map NCRs in parallel to CRs, at the Psmb9 meiotic recombination hot spot, in male and female mouse germ lines. Our results report direct molecular evidence for distinct CR and NCR pathways of DNA double-strand break (DSB) repair in mouse meiosis based on three observations: both CRs and NCRs require Spo11, NCR products have shorter conversion tracts than CRs, and only CRs require the MutL homolog Mlh1. We show that both products are formed from middle to late pachytene of meiotic prophase and provide evidence for an Mlh1-independent CR pathway, where mismatch repair does not require Mlh1.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

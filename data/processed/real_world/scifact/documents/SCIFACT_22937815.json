@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22937815",
+  "title": "Roles of chromatin remodellers in DNA double strand break repair.",
+  "content": "Now that we have a good understanding of the DNA double strand break (DSB) repair mechanisms and DSB-induced damage signalling, attention is focusing on the changes to the chromatin environment needed for efficient DSB repair. Mutations in chromatin remodelling complexes have been identified in cancers, making it important to evaluate how they impact upon genomic stability. Our current understanding of the DSB repair pathways suggests that each one has distinct requirements for chromatin remodelling. Moreover, restricting the extent of chromatin modifications could be a significant factor regulating the decision of pathway usage. In this review, we evaluate the distinct DSB repair pathways for their potential need for chromatin remodelling and review the roles of ATP-driven chromatin remodellers in the pathways.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1727042",
+  "title": "Matrix Remodeling Promotes Pulmonary Hypertension through Feedback Mechanoactivation of the YAP/TAZ-miR-130/301 Circuit.",
+  "content": "Pulmonary hypertension (PH) is a deadly vascular disease with enigmatic molecular origins. We found that vascular extracellular matrix (ECM) remodeling and stiffening are early and pervasive processes that promote PH. In multiple pulmonary vascular cell types, such ECM stiffening induced the microRNA-130/301 family via activation of the co-transcription factors YAP and TAZ. MicroRNA-130/301 controlled a PPAR?-APOE-LRP8 axis, promoting collagen deposition and LOX-dependent remodeling and further upregulating YAP/TAZ via a mechanoactive feedback loop. In turn, ECM remodeling controlled pulmonary vascular cell crosstalk via such mechanotransduction, modulation of secreted vasoactive effectors, and regulation of associated microRNA pathways. In vivo, pharmacologic inhibition of microRNA-130/301, APOE, or LOX activity ameliorated ECM remodeling and PH. Thus, ECM remodeling, as controlled by the YAP/TAZ-miR-130/301 feedback circuit, is an early PH trigger and offers combinatorial therapeutic targets for this devastating disease.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

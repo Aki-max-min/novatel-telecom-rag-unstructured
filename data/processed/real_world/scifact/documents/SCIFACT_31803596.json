@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_31803596",
+  "title": "Gene expression analysis by cDNA microarray in oral squamous cell carcinoma.",
+  "content": "BACKGROUND Oral squamous cell carcinoma (OSCC) is common type of human cancer, but little is known about the molecular mechanisms deciding on this malignancy. Comprehensive gene expression profiling is essential for understanding OSCC. METHODS cDNA microarray was used to analyze expression patterns of 16 617 genes in nine OSCC patients. RESULTS Forty-seven genes with altered expression among all cases were extracted. The ontology of these 47 genes was classified into 10 categories. To validate the microarray data, the expression of genes, including TGFBI, FADD and DUSP1 was analyzed by reverse transcriptase-polymerase chain reaction (RT-PCR). By hierarchical clustering analysis, the nine cases were divided into two clusters. CONCLUSIONS The 47 genes are suggested as having a functional significance in oral squamous cell carcinogenesis. It is also suggested that the gene expression patterns by hierarchical clustering analysis can represent degrees of differentiation. The postoperative recovery was uneventful and patients free from tumor after surgery. In the future, on the occasion when the time comes that the number of cases accumulated for microarray increases and each case is observed more over a long-term, these data of 5-year survival rate will be added. Thereby, it will become possible to represent the malignancy of OSCC by these gene expression patterns.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

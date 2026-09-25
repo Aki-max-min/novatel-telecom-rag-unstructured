@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_061",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 61,
+  "text": "7310639 69 Internet Telephony** 70. As per the reports received from 17 service providers, providing Internet Telephony services, the total outgoing minutes of usage (MoU) for internet telephony is 329.65 million during the year 2024-25 as compare to 337.68 million during the year 2023-24. List of Internet Telephony Service providers is available at Annexure-1.7. ** Internet Telephony: Internet telephony is used as a generic term for the conveyance of voice, fax and related services, partially or wholly over packet-based, IP-based networks. (Source-ITU) 70 Chart 1.25: Trend in MOU for Internet Telephony Part-II: Broadband Service (Download Speed >=2Mbps) 71. The total number of broadband subscribers increased from 924.07 million at the end of Mar-24 to 944.12 million at the end of Mar-25 with yearly growth rate of 2.17%. Out of total 944.12 million number of broadband subscribers, number of wired broadband subscribers are 41.39 million and number of wireless broadband subscribers are 902.75 million at the end of Mar-25. 72. Top five broadband (wired+wireless) service providers in term of subscribers are Reliance Jio 476.58 million, Bharti Airtel 289.31 million, Vodafone Idea Ltd 126.41 million, BSNL 34.57 million and Atria Convergence 2.29 million. 73. In wired broadband segment, Reliance Jio Infocomm Ltd. holds 27.73% market share with 11.48 million subscribers followed by Bharti Airtel Ltd. with market share of 20.67% and 8.55 million subscribers at the end of Mar-25. 629.30 350.10 337.68 329.65 100.00 200.00 300.00 400.00 500.00 600.00 700.00 800.00 900.00 1000.00 1100.00 1200.00 1300.00 1400.00 Mar-22 Mar-23 Mar-24 Mar-25 Minutes",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

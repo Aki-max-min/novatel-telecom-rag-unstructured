@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27049238",
+  "title": "Large deformation of red blood cell ghosts in a simple shear flow.",
+  "content": "Red blood cells are known to change shape in response to local flow conditions. Deformability affects red blood cell physiological function and the hydrodynamic properties of blood. The immersed boundary method is used to simulate three-dimensional membrane-fluid flow interactions for cells with the same internal and external fluid viscosities. The method has been validated for small deformations of an initially spherical capsule in simple shear flow for both neo-Hookean and the Evans-Skalak membrane models. Initially oblate spheroidal capsules are simulated and it is shown that the red blood cell membrane exhibits asymptotic behavior as the ratio of the dilation modulus to the extensional modulus is increased and a good approximation of local area conservation is obtained. Tank treading behavior is observed and its period calculated.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

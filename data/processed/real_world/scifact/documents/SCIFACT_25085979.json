@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_25085979",
+  "title": "Developmental gene networks: a triathlon on the course to T cell identity",
+  "content": "Cells acquire their ultimate identities by activating combinations of transcription factors that initiate and sustain expression of the appropriate cell type-specific genes. T cell development depends on the progression of progenitor cells through three major phases, each of which is associated with distinct transcription factor ensembles that control the recruitment of these cells to the thymus, their proliferation, lineage commitment and responsiveness to T cell receptor signals, all before the allocation of cells to particular effector programmes. All three phases are essential for proper T cell development, as are the mechanisms that determine the boundaries between each phase. Cells that fail to shut off one set of regulators before the next gene network phase is activated are predisposed to leukaemic transformation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

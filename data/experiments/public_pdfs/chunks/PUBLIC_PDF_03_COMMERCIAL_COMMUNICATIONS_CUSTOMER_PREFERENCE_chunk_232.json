@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_232",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 232,
+  "text": "to the conclusions. The detractors have expressed the opinion that TRAI has been taken in by the hype to embrace a concept that’s neither ready for adoption nor suitable for use in the manner proposed. Let’s examine the broad arguments that are offered in support of such averments. § Slow speed, lack of scalability and wasteful energy use The blockchain chain is a cumbersome database that is slow and doesn’t scale well. It is also very expensive in terms of energy use. Therefore, blockchain should be avoided unless there are compelling reasons for its adoption. In the process of recording data on the system, the Distributed Ledger Technology (DLT) requires consensus to be built and maintained across multiple nodes. Compared to the conventional databases, this is indeed a slow process. It is especially slow in case of the blockchain underlying the bitcoin network because of the Proof of Work (PoW) algorithm for creating consensus. Registration of preferences or consent—or registration of entities, templates, complaints, etc. does not require speed. Some of these processes take 7 days to take effect today or are not handled at all. So speed isn’t crucial in the required solution. But whatever the speed limitation of a DLT network, these pertain to writing to the ledger. Reading from it is quite fast and an in-memory database that reads from the DLT network to provide a scrubbing service (for instance) has no performance limitations. The PoW algorithm is required for bitcoin because there is a race among",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

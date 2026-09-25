@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_15077696",
+  "title": "PrimPol Bypasses UV Photoproducts during Eukaryotic Chromosomal DNA Replication",
+  "content": "DNA damage can stall the DNA replication machinery, leading to genomic instability. Thus, numerous mechanisms exist to complete genome duplication in the absence of a pristine DNA template, but identification of the enzymes involved remains incomplete. Here, we establish that Primase-Polymerase (PrimPol; CCDC111), an archaeal-eukaryotic primase (AEP) in eukaryotic cells, is involved in chromosomal DNA replication. PrimPol is required for replication fork progression on ultraviolet (UV) light-damaged DNA templates, possibly mediated by its ability to catalyze translesion synthesis (TLS) of these lesions. This PrimPol UV lesion bypass pathway is not epistatic with the Pol η-dependent pathway and, as a consequence, protects xeroderma pigmentosum variant (XP-V) patient cells from UV-induced cytotoxicity. In addition, we establish that PrimPol is also required for efficient replication fork progression during an unperturbed S phase. These and other findings indicate that PrimPol is an important player in replication fork progression in eukaryotic cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

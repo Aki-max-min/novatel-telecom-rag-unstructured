@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17327939",
+  "title": "Exploiting lymphatic transport and complement activation in nanoparticle vaccines",
+  "content": "Antigen targeting and adjuvancy schemes that respectively facilitate delivery of antigen to dendritic cells and elicit their activation have been explored in vaccine development. Here we investigate whether nanoparticles can be used as a vaccine platform by targeting lymph node–residing dendritic cells via interstitial flow and activating these cells by in situ complement activation. After intradermal injection, interstitial flow transported ultra-small nanoparticles (25 nm) highly efficiently into lymphatic capillaries and their draining lymph nodes, targeting half of the lymph node–residing dendritic cells, whereas 100-nm nanoparticles were only 10% as efficient. The surface chemistry of these nanoparticles activated the complement cascade, generating a danger signal in situ and potently activating dendritic cells. Using nanoparticles conjugated to the model antigen ovalbumin, we demonstrate generation of humoral and cellular immunity in mice in a size- and complement-dependent manner.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

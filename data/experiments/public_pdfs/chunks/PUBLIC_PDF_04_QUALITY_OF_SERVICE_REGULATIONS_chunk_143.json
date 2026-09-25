@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_143",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 143,
+  "text": "the service provider to report the incidences of major network outages affecting the telecom services to the entire consumers of a revenue district continuously for a period of more than four hours, within twenty four hours of their occurrence and root cause of such major network outage with corrective actions taken thereof, within seventy two hours of restoration of the services. (ii) The quality of telecom service is closely related to the availability of the network. Prior to the issue of the Direction, there was no parameter to capture details of such network outages which affect a large number of consumers across a wide area like district or State. Sometimes, TRAI get to know about such network outages through the media reports or when the complaints are received. Accordingly, the Direction was issued to get information about major network outages in the country. (iii) Considering that the present exercise is for consolidation of all QoS parameters, this new parameter has been introduced in supersession of the Direction dated 28.03.2023. (iv) Significant Network Outage (SNO) has been defined as a scenario when access (wireless) service is not available in a district for more than 4 hours due to any reason. In the present day, when telecom services have become an integral part of our life, total outage of access (wireless) service in a district for more than 4 hours is a significant event which affects the entire consumers of the service provider in that district. Therefore, it is an important parameter",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

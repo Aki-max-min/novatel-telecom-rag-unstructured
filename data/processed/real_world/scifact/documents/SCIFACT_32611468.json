@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_32611468",
+  "title": "Ghrelin's second life: from appetite stimulator to glucose regulator.",
+  "content": "Ghrelin, a 28 amino acid peptide hormone produced by the stomach, was the first orexigenic hormone to be discovered from the periphery. The octanoyl modification at Ser³, mediated by ghrelin O-acyltransferase (GOAT), is essential for ghrelin's biological activity. Ghrelin stimulates food intake through binding to its receptor (GRLN-R) on neurons in the arcuate nucleus of the hypothalamus. Ghrelin is widely expressed throughout the body; accordingly, it is implicated in several other physiological functions, which include growth hormone release, gastric emptying, and body weight regulation. Ghrelin and GRLN-R expression are also found in the pancreas, suggesting a local physiological role. Accordingly, several recent studies now point towards an important role for ghrelin and its receptor in the regulation of blood glucose homeostasis, which is the main focus of this review. Several mechanisms of this regulation by ghrelin have been proposed, and one possibility is through the regulation of insulin secretion. Despite some controversy, most studies suggest that ghrelin exerts an inhibitory effect on insulin secretion, resulting in increased circulating glucose levels. Ghrelin may thus be a diabetogenic factor. Obesity-related type 2 diabetes has become an increasingly important health problem, almost reaching epidemic proportions in the world; therefore, antagonists of the ghrelin-GOAT signaling pathway, which will tackle both energy- and glucose homeostasis, may be considered as promising new therapies for this disease.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

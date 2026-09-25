@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2837758",
+  "title": "Therapeutic efficacy of a multi-epitope vaccine against Helicobacter pylori infection in BALB/c mice model.",
+  "content": "Epitope vaccine is a promising option for therapeutic vaccination against Helicobacter pylori (H. pylori) infection. In this study, we constructed a multi-epitope vaccine with five epitopes and mucosal adjuvant E. coli heat-labile enterotoxin B subunit (LTB) named HUepi-LTB and evaluated its therapeutic effect against H. pylori infection in BALB/c mice model. HUepi-LTB containing three Th epitopes from UreB and two B cell epitopes from UreB and HpaA was constructed and expressed in E. coli. Oral therapeutic immunization with HUepi-LTB significantly decreased H. pylori colonization compared with oral immunization with PBS, and the protection was correlated with antigen-specific CD4+ T cells and IgG and mucosal IgA antibody responses. This multi-epitope vaccine may be a promising vaccine candidate that may help to control H. pylori infection.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

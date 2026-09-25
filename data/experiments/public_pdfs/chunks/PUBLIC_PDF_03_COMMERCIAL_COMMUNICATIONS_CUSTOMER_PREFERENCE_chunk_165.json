@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_165",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 165,
+  "text": "Apps have played an important role in providing customers a 84 convenient way to register, de register, modify and view preferences. Apps can make it easier to allow management of additional dimensions of preferences and changing theses preferences frequently and registering them in a short time. The Authority decides that all access providers shall ensure that all devices registered on its network support permissions required for the functioning of apps developed in this regard either by the Authority or any other person or entity and approved by the Authority. 4.3.11 It is being observed that there was no process specified to deal with the preference registration status of the customer while porting the number. This is causing inconvenience to customers, because their preferences are either changed or completely reset. Similarly, no process is defined to deal with the situation when telephone number changes ownership and the preferences of the new owner need to be reflected in the records. In view of this, the Authority decides that during MNP process, the preference status should be retained and current Location Routing Number (LRN) may also be recorded on DL-Preferences. DL-Preferences must also keep other details, e.g., phone number in international format, lifetime history of preference registration, modification and de-registration with date(s) and timestamp(s), unique registration number issued at the time of registration of preference. Records of consent corresponding to number would be retained in DL-Consent for a certain period and in a certain way as specified in codes of practice. It would",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

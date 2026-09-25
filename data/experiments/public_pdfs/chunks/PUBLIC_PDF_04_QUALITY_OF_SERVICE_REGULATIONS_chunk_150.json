@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_150",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 150,
+  "text": "services across the country is primarily a social obligation rather than a business interest, with no new developments or planned investments due to its status as an outdated technology. The increasing rollout of 4G networks has resulted in many 2G cells handling low traffic volumes, causing a few calls drop to disproportionately reflect high drop rates. This misrepresentation is exacerbated by the isolated evaluation of 2G/3G performance compared to newer technologies like 4G. Consumers do not distinguish call drops by technology, and 5G voice calls are still routed through 4G without added concern. If Dropped Call Rate (DCR) benchmarks are prescribed separately for different technologies, TSPs will struggle to comply, especially for 2G, potentially leading to its withdrawal and causing significant public backlash. Therefore, DCR should remain technology-agnostic. The proposed regulatory changes, including more stringent thresholds and monthly evaluations, will force TSPs to deploy infrastructure in suboptimal locations, exacerbating compliance challenges due to factors beyond their control, such as fiber cuts, power outages, and local disturbances. These unachievable thresholds will likely result in non-compliance despite best efforts and investments, as global practices focus on overall network performance rather than isolated incidents. Consequently, we urge the Authority to use the proposed thresholds with raw data for a more realistic QoS assessment. (iii) One of the stakeholders submitted that evaluating call drops separately for various technologies is essential for ensuring comprehensive monitoring, effective regulation, and continuous improvement of service quality in the Indian Telecom Sector, especially during periods of technological transition and",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_083",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 83,
+  "text": "and charging complaints <=0.1% 11 Resolution of billing/ charging complaints within four weeks 100% 12 Application of adjustment to customer’s account within one week from the date of resolution of billing and charging complaints or rectification of faults or rectification of significant network outage, as applicable 100% 13 Accessibility of call centre/ customer care >=95% 14 Termination/ closure of service within seven working days of receipt of customer’s request 100% 15 Refund of deposits within 45 days of closure of service or non-provisioning of service 100% 4.5 The detailed table on Service Provider and LSA wise performance against each of the network and customer service related QoS parameters for access service (wireless) is available at Annexure-4.1. 83 Section B: Quality of Service of Access Service (Wireline) Service Providers Table 4.3: QoS Summary - Wireline Service Summary of Performance of Access Service (Wireline) against prescribed QoS parameters S. No. Parameter Benchmark Out of total 85 PMRs, the number of PMRs where Service Providers are not meeting the benchmarks Out of total 86* PMRs, the number of PMRs where Service Providers are not meeting the benchmarks QE March, 2025 QE June, 2025 Nos. %age Nos. %age I. Service Provisioning (i) Provision of a service within 7 working days of payment of demand note by the customer ≥ 98% 1 1.18% 1 1.16% II. Fault Repair (ii) Fault incidences (No. of faults per 100 subscribers) ≤ 5 2 2.35% 1 1.16% (iii) Fault repair by next working day ≥ 85% 2 2.35% 2",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

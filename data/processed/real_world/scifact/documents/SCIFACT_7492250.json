@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7492250",
+  "title": "Prox1 Is Required for Granule Cell Maturation and Intermediate Progenitor Maintenance During Brain Neurogenesis",
+  "content": "The dentate gyrus has an important role in learning and memory, and adult neurogenesis in the subgranular zone of the dentate gyrus may play a role in the acquisition of new memories. The homeobox gene Prox1 is expressed in the dentate gyrus during embryonic development and adult neurogenesis. Here we show that Prox1 is necessary for the maturation of granule cells in the dentate gyrus during development and for the maintenance of intermediate progenitors during adult neurogenesis. We also demonstrate that Prox1-expressing intermediate progenitors are required for adult neural stem cell self-maintenance in the subgranular zone; thus, we have identified a previously unknown non-cell autonomous regulatory feedback mechanism that controls adult neurogenesis in this region of the mammalian brain. Finally, we show that the ectopic expression of Prox1 induces premature differentiation of neural stem cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

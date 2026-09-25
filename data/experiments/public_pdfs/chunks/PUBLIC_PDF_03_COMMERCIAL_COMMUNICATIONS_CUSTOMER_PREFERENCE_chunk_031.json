@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_031",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 31,
+  "text": "Code(s) of Practice; OAP shall issue notice, within three business days, to give opportunity to such sender(s), under sub regulations (5)(c)(i), (5)(c)(ii)(A) to represent his case and shall investigate, within thirty business days from the date of receipt of complaint and shall conclude whether the communication so made was unsolicited commercial communication or not; and conclusion of the investigation was that sender was engaged in sending unsolicited commercial communications, OAP shall take action against such sender as under: - for first instance of violation, due warning shall be given; 17 Provided that the first instance of the violation shall include all the complaints against the sender within two business days after the date of receipt of the first complaint, against which the sender is to be warned under this sub-regulation. for the second instance of violation, Usage Cap shall continue for a period of six months; Provided that the second instance of the violation shall include all the complaints against the sender after the issuance of first warning within two business days after the date of receipt of the complaint against which second warning is being given to the sender under this sub- regulation. for third and subsequent instances of violations, all telecom resources of the sender shall be disconnected for a period up to two years and OAP shall put the sender under blacklist category and communicate to all other access providers to not to allocate new telecom resources to such sender for up to two years from the",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

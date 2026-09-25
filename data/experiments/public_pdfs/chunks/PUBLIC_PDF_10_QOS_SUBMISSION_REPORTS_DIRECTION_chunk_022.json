@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_022",
+  "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+  "chunk_index": 22,
+  "text": "Authority in Annexure-II, within 72 hours of restoration of the services. Part-I of Annexure-II should be same as reported earlier and details of action taken are to be filled in Part-II. iv. All other guidelines as mentioned for Access (wireless) as applicable for this report are to be followed. E. Specific guideline for submission of compliance report of Access (wireline): i. Details of multiple LSAs can be submitted in single file. ii. Following values are allowed to be filled against the specified parameters: S. No. Particular Values allowed 1 Name of the Service Provider Airtel, APSFL, BSNL, MTNL, QTL, RJIL, TTML, TTSL, VIL, VMIPL iii. Service providers, who are providing both access (wireline) and broadband (wireline) service, are required to report the performance of ‘Customer Service’ related parameters in access (wireline) compliance report only. However, the report should include the performance of ‘Customer Service’ related parameters for both the services i.e., access (wireline) and broadband (wireline). F. Specific guideline for submission of compliance report of Broadband (wireline): i. All service providers having Cat-A license/ authorisation are required to submit single compliance report on ‘All India’ basis. Whereas service providers having Cat-B or Cat-C license/ authorisation are required to submit the compliance report on LSA basis. ii. Details of ‘Category of License or Authorisation’ is to be filled in compliance report as Cat-A/ Cat-B/ Cat-C. iii. Details of multiple service areas can be submitted in single file. iv. Name of service provider should be filled uniformly for all compliance reports. However,",
+  "title": "10 qos submission reports direction",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/10_qos_submission_reports_direction.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_008",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 8,
+  "text": "to an individual subscriber from the point of presence (POP) of the service provider intending to provide broadband service; (h) “Broadband Service” means a data service provided using broadband data connection by Internet Service Provider under any license or authorization; (i) “Call Centre” means a department or a section or a facility established by the service provider for redressal of complaints and for addressing service requests of its consumers; (j) “Cell” means a radio network object that can be uniquely identified by a user equipment from a (cell) identification that is broadcasted over a geographical area from access (wireless) network; (k) “Cell Bouncing Busy Hour” or “CBBH” means the one-hour period in a day during which a cell in an access service wireless network experiences the maximum traffic and shall be decided as per the methodology specified in Schedule-I; (l) “Cell_Q(t)” or “Cell Quality of Service Performance Measure” means the tth percentile value in the set of performance against a QoS parameter corresponding to a Cell observed during different days of the assessment period; 100 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] Explanation: If a Cell was operating for thirty days during an assessment period and computed Drop Call Rate (DCR) values were available for all these thirty days then arranging these thirty DCR values in ascending order and finding 90th percentile DCR value for that Cell would point to 27th DCR value (counted from lowest to highest DCR value); (m) “Consumer” means a consumer of a service provider falling",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

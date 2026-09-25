@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_39285547",
+  "title": "Microarray analysis of pneumococcal gene expression during invasive disease.",
+  "content": "Streptococcus pneumoniae is a leading cause of invasive bacterial disease. This is the first study to examine the expression of S. pneumoniae genes in vivo by using whole-genome microarrays available from The Institute for Genomic Research. Total RNA was collected from pneumococci isolated from infected blood, infected cerebrospinal fluid, and bacteria attached to a pharyngeal epithelial cell line in vitro. Microarray analysis of pneumococcal genes expressed in these models identified body site-specific patterns of expression for virulence factors, transporters, transcription factors, translation-associated proteins, metabolism, and genes with unknown function. Contributions to virulence predicted for several unknown genes with enhanced expression in vivo were confirmed by insertion duplication mutagenesis and challenge of mice with the mutants. Finally, we cross-referenced our results with previous studies that used signature-tagged mutagenesis and differential fluorescence induction to identify genes that are potentially required by a broad range of pneumococcal strains for invasive disease.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

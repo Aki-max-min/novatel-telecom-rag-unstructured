@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_16963081",
+  "title": "A DNA test to sex most birds.",
+  "content": "Birds are difficult to sex. Nestlings rarely show sex-linked morphology and we estimate that adult females appear identical to males in over 50% of the world's bird species. This problem can hinder both evolutionary studies and human-assisted breeding of birds. DNA-based sex identification provides a solution. We describe a test based on two conserved CHD (chromo-helicase-DNA-binding) genes that are located on the avian sex chromosomes of all birds, with the possible exception of the ratites (ostriches, etc.; Struthioniformes). The CHD-W gene is located on the W chromosome; therefore it is unique to females. The other gene, CHD-Z, is found on the Z chromosome and therefore occurs in both sexes (female, ZW; male, ZZ). The test employs PCR with a single set of primers. It amplifies homologous sections of both genes and incorporates introns whose lengths usually differ. When examined on a gel there is a single CHD-Z band in males but females have a second, distinctive CHD-W band.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_029",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 29,
+  "text": "complaint as provided for in the Code(s) of Practice; in case of non-compliance with the regulations, the OAP shall, within two business days from the date of receipt of complaint, take actions against the defaulting entity and communicate to TAP to inform the complainant about the action taken against his complaint as provided for in Code(s) of Practice; the OAP shall take appropriate remedial action, as provided for in the Code of Practice(s), to control Unsolicted Commercial Communications so as to ensure compliance with these regulations; The OAP, in case, the complaint is related to a UTM, shall examine communication detail records (CDRs), within one business day from the date of receipt of complaint, to check the occurrence of complained communication between the complainant and the reported telephone number or header from which unsolicited commercial communication was received. In case of no occurrence of complained communications under sub-regulation (5)(a), OAP shall communicate to the TAP to inform the complainant about the closure of complaint in a manner prescribed in the Code(s) of Practice; In case of occurrence of complained communications under sub-regulation (5)(a), OAP shall further examine, within two business days from the date of complaint, whether there are similar complaints or reports against the same sender; and in case, it is found that number of complaints against the sender are from ten or more than ten recipients over a period of last seven days, the OAP shall put sender under Usage Cap and at the same time shall initiate",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

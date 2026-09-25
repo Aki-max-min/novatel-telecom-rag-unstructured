@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22995579",
+  "title": "Amitriptyline is effective in chronic but not in episodic tension-type headache: pathogenetic implications.",
+  "content": "The tricyclic antidepressant, amitriptyline, is an effective drug for the treatment of chronic tension-type headache and for other chronic pain syndromes, but it is also effective in the prophylaxis of an episodic type of headache such as migraine. However, its efficacy in episodic tension-type headache has not yet been clarified. We compared the efficacy of amitriptyline (25 mg/day) in 82 nondepressed patients with either chronic or episodic tension-type headache in an open-label study. Amitriptyline significantly reduced (P < 0.05) frequency and duration of headache as well as analgesic consumption in chronic, but not in episodic, tension-type headache. Further placebo-controlled trials, possibly with higher doses of amitriptyline, might confirm if the different pattern of response to amitriptyline can be explained in terms of different involvement of central nociception and of peripheral myofascial factors in the chronic and in the episodic forms of tension-type headache.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

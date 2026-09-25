@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_120",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 120,
+  "text": "issues / non-availability of customers, d) Last mile connectivity issues, e) Unplanned holidays declared by local authorities, f) Catastrophic weather (iii) Some stakeholders suggested that the benchmark should be reduced to 95%. As there can be some exceptional cases where the loop length is high particularly in rural areas. 141 (iv) One stakeholder suggested that this parameter should not apply to connectivity solutions given to enterprise customers under wireline. An explicit clarification to this extent, should be provided by TRAI. (b) Analysis and Conclusion (i) It has come to the notice of the Authority that sometime after collecting payment against demand note, service providers do not provision the service timely. Timely provision of service, after collecting the payment against the demand note, is the first and most important experience of quality of service by the subscriber. Therefore, service provider should raise the demand note only after checking technical feasibility and other dependencies that may affect timely provisioning of the service. (ii) This parameter is under monitoring by the service providers for wireline services in present regulations. However, the performance of Broadband (Wireline) service providers, as reported in the performance monitoring reports, is as follows: Table-2: Performance of Broadband (Wireline) service providers against QoS parameter ‘Percentage of connections provided within 15 days of registration of demand’ PMR for Quarter Ending No. of PMRs with < 95% connec tions provid ed within 15 days No. of PMRs with ≥ 95 and < 98% connectio ns provided within 15 days No. of PMRs",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

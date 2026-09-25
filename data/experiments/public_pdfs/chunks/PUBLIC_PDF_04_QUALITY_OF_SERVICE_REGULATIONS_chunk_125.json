@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_125",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 125,
+  "text": "the number of parameters to ease out compliance, the Authority has decided to keep only two parameters for fault repair i.e. (a) Fault repair by the next working day with ≥ 85% benchmark and (b) Fault repair within three working days with ≥ 99% benchmark for both the services. (iii) Here, it is clarified that for assessing the performance against these parameters number of working days taken to rectify a fault shall be counted. However, for computing the applicable rent rebate, delay will be counted in number of actual days and not working days. 5.2.4 Fault repair within three working days {Access (Wireline) and Broadband (Wireline)} (a) Input of Stakeholders (i) Some of the stakeholders suggested that the benchmarks against this parameter should be set at a level of 95% restoration within 7 working days. This adjustment acknowledges the practical challenges that may hinder achieving 100% compliance within specified time limits. Most of these challenges extend beyond the control of TSP. Some challenges are unavailability of customers, unplanned holidays declared by local authorities, catastrophic weather. (ii) It is also highlighted by stakeholders that in a competitive environment, it remains crucial for service providers to expedite service restoration for their consumers. However, stringent benchmarks that are technically impossible to achieve consistently, given the highlighted challenges, may result in increased compliance costs or potential non-compliance with the benchmarks. Setting the benchmark at 95% restoration within 7 working days strikes a balance between expeditious service recovery and the practical realities faced by the",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_40667577",
+  "title": "EMT, the cytoskeleton, and cancer cell invasion",
+  "content": "The metastatic process, i.e. the dissemination of cancer cells throughout the body to seed secondary tumors at distant sites, requires cancer cells to leave the primary tumor and to acquire migratory and invasive capabilities. In a process of epithelial-mesenchymal transition (EMT), besides changing their adhesive repertoire, cancer cells employ developmental processes to gain migratory and invasive properties that involve a dramatic reorganization of the actin cytoskeleton and the concomitant formation of membrane protrusions required for invasive growth. The molecular processes underlying such cellular changes are still only poorly understood, and the various migratory organelles, including lamellipodia, filopodia, invadopodia and podosomes, still require a better functional and molecular characterization. Notably, direct experimental evidence linking the formation of migratory membrane protrusions and the process of EMT and tumor metastasis is still lacking. In this review, we have summarized recent novel insights into the molecular processes and players underlying EMT on one side and the formation of invasive membrane protrusions on the other side.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

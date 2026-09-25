@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_70490_chunk_000",
+  "document_id": "SCIFACT_70490",
+  "chunk_index": 0,
+  "text": "Likelihood ratios are one of the best measures of diagnostic accuracy, although they are seldom used, because interpreting them requires a calculator to convert back and forth between “probability” and “odds” of disease. This article describes a simpler method of interpreting likelihood ratios, one that avoids calculators, nomograms, and conversions to “odds” of disease. Several examples illustrate how the clinician can use this method to refine diagnostic decisions at the bedside.",
+  "title": "Simplifying likelihood ratios",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

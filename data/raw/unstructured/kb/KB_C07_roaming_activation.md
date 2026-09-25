@@ -1,25 +1,65 @@
 # Activating and Managing International Roaming
 
-**Document ID:** KB_C07_roaming_activation  
-**Category:** C07 — Roaming  
-**Department:** Product  
-**Last Updated:** 2026-06-30  
-**Version:** 1.0  
+**Document ID:** KB_C07_roaming_activation
+**Category:** C07 — Roaming
+**Department:** Product
+**Customer Scope:** all
+**Last Updated:** 2026-07-09
+**Version:** 1.0
 **Source Authority:** Internal Knowledge Base
 
 ---
+## Summary
 
-## Purpose
+This article explains how roaming issues in this area are diagnosed and resolved, and what customers and front-line agents should check before escalating.
 
-Guidance on preparing a NovaTel connection for international travel.
+## Symptoms
 
-## Pre-Departure Checklist
+- The self-care app or portal shows an error, a stuck status, or no visible change after the action.
+- Customer reports the feature or service is not behaving as expected.
+- The customer has already attempted the standard steps without success.
 
-- Activate an IR pack matching destination and duration
-- Confirm device band compatibility for destination country
-- Enable data roaming in device settings on arrival
-- Save the international emergency helpline number
+## Preconditions
 
-## Managing Usage Abroad
+- Customer identity has been verified (registered number and, where applicable, OTP).
+- The account is active and not under a fraud, legal, or compliance hold.
 
-Track real-time roaming usage under Roaming > Usage Tracker to avoid unexpected charges after the pack is exhausted.
+## Cause
+
+This is typically caused by a data-sync delay between the customer-facing app and the backend system of record.
+
+## Resolution — Step by Step
+
+| Step | Action | Expected Result | If Failed |
+|---|---|---|---|
+| 1 | Confirm the reported issue | Issue resolved / status updated | Proceed to next step or escalate |
+| 2 | Check system status | Issue resolved / status updated | Proceed to next step or escalate |
+| 3 | Apply the standard fix | Issue resolved / status updated | Proceed to next step or escalate |
+| 4 | Confirm resolution with the customer | Issue resolved / status updated | Proceed to next step or escalate |
+
+1. **Confirm the reported issue.** Ask the customer for the exact screen/message and time it occurred.
+2. **Check system status.** Verify the relevant backend status (billing, provisioning, network, payment) for the account.
+3. **Apply the standard fix.** Retry the action, refresh the record, or trigger the relevant backend re-sync as documented for this scenario.
+4. **Confirm resolution with the customer.** Ask the customer to verify the fix on their end before closing.
+
+## Validation
+
+Confirm the account reflects the expected state (e.g. correct balance, plan, status, or setting) before closing the interaction.
+
+## Exceptions
+
+- Cases linked to suspected fraud are routed to the Fraud & Security Response team instead of standard resolution.
+- Enterprise/bulk accounts may require coordination with the assigned account manager rather than the standard consumer flow.
+
+## Escalation Criteria
+
+- If the standard steps above do not resolve the issue, escalate with reference to: FAQ_C07_001.
+- Escalations beyond first-line resolution are logged with a unique ticket reference and routed to the relevant specialist team, with an SLA acknowledgement sent to the customer within 24 hours.
+
+## Related Issues
+
+- Repeated occurrences for the same customer may indicate an upstream system issue and should be flagged to the relevant platform team.
+
+## Related Documents
+
+Related documents: FAQ_C07_001.

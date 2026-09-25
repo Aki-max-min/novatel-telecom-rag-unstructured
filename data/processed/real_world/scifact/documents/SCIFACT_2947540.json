@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2947540",
+  "title": "Lam6 Regulates the Extent of Contacts between Organelles",
+  "content": "Communication between organelles is crucial for eukaryotic cells to function as one coherent unit. An important means of communication is through membrane contact sites, where two organelles come into close proximity allowing the transport of lipids and small solutes between them. Contact sites are dynamic in size and can change in response to environmental or cellular stimuli; however, how this is regulated has been unclear. Here, we show that Saccharomyces cerevisiae Lam6 resides in several central contact sites: ERMES (ER/mitochondria encounter structure), vCLAMP (vacuole and mitochondria patch), and NVJ (nuclear vacuolar junction). We show that Lam6 is sufficient for expansion of contact sites under physiological conditions and necessary for coordination of contact site size. Given that Lam6 is part of a large protein family and is conserved in vertebrates, our work opens avenues for investigating the underlying principles of organelle communication.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

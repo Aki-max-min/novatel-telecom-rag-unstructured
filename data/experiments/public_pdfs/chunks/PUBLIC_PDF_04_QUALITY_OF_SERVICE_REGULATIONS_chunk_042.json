@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_042",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 42,
+  "text": "for display of service wise geospatial coverage maps on service provider’s website by an order or direction. 4.1.2. Cumulative downtime (cells not available for service) and Worst Affected cells due to downtime (i) Cumulative downtime (cells not available for service) shall measure the downtime of all the cells of all technologies (2G/ 3G/ 4G/ 5G) due to any reason including transmission links/ circuits down, power outage, hardware faults etc. during the assessment period. For measuring the performance against the benchmark for this parameter, the downtime of each cell lasting for more than one hour at a time shall be taken for computation. The downtime shall be counted from start of the occurrence of down alarm till the closure of down alarm. The total duration in hours of all such instances of downtime of all cells shall be calculated. Thereafter, the performance against this parameter for the assessment period shall be measured through the following formula: = 𝐒𝐮𝐦 𝐨𝐟 𝐝𝐨𝐰𝐧𝐭𝐢𝐦𝐞 𝐨𝐟 𝐚𝐥𝐥 𝐜𝐞𝐥𝐥𝐬 (𝐢𝐧 𝐡𝐨𝐮𝐫𝐬) {𝟐𝟒× 𝐍𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐝𝐚𝐲𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐚𝐬𝐬𝐞𝐬𝐬𝐦𝐞𝐧𝐭 𝐩𝐞𝐫𝐢𝐨𝐝× 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐂𝐞𝐥𝐥𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐨𝐟 𝐫𝐞𝐩𝐨𝐫𝐭𝐞𝐝 𝐬𝐞𝐫𝐯𝐢𝐜𝐞 𝐚𝐫𝐞𝐚 𝐚𝐭 𝐭𝐡𝐞 𝐞𝐧𝐝 𝐨𝐟 𝐭𝐡𝐞 𝐚𝐬𝐬𝐞𝐬𝐬𝐦𝐞𝐧𝐭 𝐩𝐞𝐫𝐢𝐨𝐝} × 𝟏𝟎𝟎 (ii) Worst Affected Cells due to downtime are those cells whose cumulative downtime during a month exceeds 24 hours. The downtime of each cell lasting for more than one hour at a time, as per (i) above, shall only be taken into consideration. The total number of such worst-affected cells in the month shall be determined. Thereafter, the",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

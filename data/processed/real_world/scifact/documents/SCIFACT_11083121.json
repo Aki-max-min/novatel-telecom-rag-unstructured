@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11083121",
+  "title": "Formins: intermediates in signal-transduction cascades that affect cytoskeletal reorganization.",
+  "content": "The control of cell growth and polarity depends on a dynamic actin cytoskeleton that has the ability to reorganize in response to developmental and environmental stimuli. In animals and fungi, formins are just one of the four major classes of poly-L-proline-containing (PLP) proteins that form part of the signal-transduction cascade that leads to rearrangement of the actin cytoskeleton. Analysis of the Arabidopsis genome sequence indicates that, unlike animals and fungi, formins are the only class of conserved profilin-binding PLP proteins in plants. Moreover, plant formins show significant structural differences compared with their animal and fungal counterparts, raising the possibility that plant formins are subject to novel mechanisms of control or perform unique roles in plants.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_077",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 77,
+  "text": "Access Services and Three TSPs of Public Sector (BSNL, Power Grid and Rail Tel) in ILD Services and Five TSPs of Public Sector (BSNL, MTNL, Rail Tel, Power Grid) in ISP Services. 5. For all the parameters metros indicate data for Delhi, Mumbai and Kolkata. Data for Chennai Service Area has been included as part of Tamil Nadu. 76 Chapter 4: Quality of Service (QoS) 77 Section A: Quality of Service of Performance of Access Service (Wireless) 4.1 Telecom Regulatory Authority of India (TRAI) has notified revised Quality of Service (QoS) Regulations namely “The Standards of Quality of Service of Access (Wireline and Wireless) and Broadband (Wireline and Wireless) Service Regulations, 2024 (06 of 2024)” on 2nd August 2024. The regulations are effective from 1st October 2024. These Regulations are applicable for both access and broadband services provided on wireline as well as wireless media. 4.2 In accordance to the TRAI’s Direction F. No. RG-17/(3)/2022-QoS dated 19.09.2024 and Amendment to the Direction dated 03.01.2025, performance monitoring report of access service (wireless) is required to be submitted within a period of fifteen (15) days from the end of respective month in the prescribed format from April 2025 onwards. Table 4.1: QoS Summary - Access Service (Wireless) Summary of performance of access service (wireless) against prescribed QoS parameters S. No. Parameters Benchmark Out of total 88 PMRs, the number of PMRs where Service Providers are not meeting the benchmarks Out of total 88 PMRs, the number of PMRs where Service Providers are",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

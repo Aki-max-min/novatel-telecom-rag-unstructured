@@ -1,0 +1,18 @@
+{
+  "chunk_id": "TRX_004_chunk_001",
+  "document_id": "TRX_004",
+  "chunk_index": 1,
+  "text": "- Relevant backend status checked before providing resolution timeline. - Case closed after customer confirmation; escalated only if unresolved beyond the stated SLA. ## Escalation This case required escalation to a specialist team after first-line troubleshooting did not resolve it within the call. ## Related Documents No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
+  "title": "Number Porting Enquiry",
+  "document_type": "Support Transcript",
+  "category": "C06",
+  "department": "Regulatory",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-18",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\transcripts\\TRX_004.md",
+  "file_type": "markdown"
+}

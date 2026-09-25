@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_34982259",
+  "title": "Of lineage and legacy: the development of mammalian hematopoietic stem cells",
+  "content": "The hematopoietic system is one of the first complex tissues to develop in the mammalian conceptus. Of particular interest in the field of developmental hematopoiesis is the origin of adult bone marrow hematopoietic stem cells. Tracing their origin is complicated because blood is a mobile tissue and because hematopoietic cells emerge from many embryonic sites. The origin of the adult mammalian blood system remains a topic of lively discussion and intense research. Interest is also focused on developmental signals that induce the adult hematopoietic stem cell program, as these may prove useful for generating and expanding these clinically important cell populations ex vivo. This review presents a historical overview of and the most recent data on the developmental origins of hematopoiesis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

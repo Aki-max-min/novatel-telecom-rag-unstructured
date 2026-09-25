@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_33986507",
+  "title": "Inducible gene expression: diverse regulatory mechanisms",
+  "content": "The rapid activation of gene expression in response to stimuli occurs largely through the regulation of RNA polymerase II-dependent transcription. In this Review, we discuss events that occur during the transcription cycle in eukaryotes that are important for the rapid and specific activation of gene expression in response to external stimuli. In addition to regulated recruitment of the transcription machinery to the promoter, it has now been shown that control steps can include chromatin remodelling and the release of paused polymerase. Recent work suggests that some components of signal transduction cascades also play an integral part in activating transcription at target genes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17464771",
+  "title": "A Role for the Vacuolating Cytotoxin, VacA, in Colonization and Helicobacter pylori–Induced Metaplasia in the Stomach",
+  "content": "Carriage of Helicobacter pylori strains producing more active (s1/i1) forms of VacA is strongly associated with gastric adenocarcinoma. To our knowledge, we are the first to determine effects of different polymorphic forms of VacA on inflammation and metaplasia in the mouse stomach. Bacteria producing the less active s2/i2 form of VacA colonized mice more efficiently than mutants null for VacA or producing more active forms of it, providing the first evidence of a positive role for the minimally active s2/i2 toxin. Strains producing more active toxin forms induced more severe and extensive metaplasia and inflammation in the mouse stomach than strains producing weakly active (s2/i2) toxin. We also examined the association in humans, controlling for cagPAI status. In human gastric biopsy specimens, the vacA i1 allele was strongly associated with precancerous intestinal metaplasia, with almost complete absence of intestinal metaplasia in subjects infected with i2-type strains, even in a vacA s1, cagA(+) background.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

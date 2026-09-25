@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_033",
+  "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+  "chunk_index": 33,
+  "text": "mobile number and he shall be asked to select the STV; which he wants to deactivate by sending through SMS the appropriate key for that STV; Step – 3: on receipt of the key through SMS as in Step-1 or step-2, an SMS shall be sent to the consumer informing him that his request to deactivate STV has been received and the selected STV shall be deactivated on the expiry of its validity period and he shall receive a confirmation SMS confirming the receipt of his request for deactivation of STV; (c) Through web: Step – 1: Each time a consumer logs into his account, a web landing page will appear, indicating therein the details of the STV such as name of STV, charges, validity period and a link or button for stopping the STV; Step – 2: after the consumer has clicked the appropriate link or button on the webpage for deactivation of the STV, he shall be directed to a new page informing him that the request to deactivate the renewal of requested STV has been received and the STV shall be deactivated on expiry of its validity period and that he shall receive an SMS or e-mail, as the case may be, confirming the receipt of his request for deactivation of STV; Step – 3: an SMS or e-mail shall be sent to the consumer on his registered mobile phone or e- mail, respectively, immediately after deactivation of renewal of the STV, informing him about the successful",
+  "title": "01 telecom consumers protection",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/01_telecom_consumers_protection.pdf",
+  "file_type": "pdf"
+}

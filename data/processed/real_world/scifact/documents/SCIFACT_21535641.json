@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21535641",
+  "title": "Regulation of innate immunity by NADPH oxidase.",
+  "content": "NADPH oxidase is a critical regulator of both antimicrobial host defense and inflammation. Activated in nature by microbes and microbial-derived products, the phagocyte NADPH oxidase is rapidly assembled, and generates reactive oxidant intermediates (ROIs) in response to infectious threat. Chronic granulomatous disease (CGD) is an inherited disorder of the NADPH oxidase characterized by recurrent and severe bacterial and fungal infections, and pathology related to excessive inflammation. Studies in CGD patients and CGD mouse models indicate that NADPH oxidase plays a key role in modulating inflammation and injury that is distinct from its antimicrobial function. The mechanisms by which NADPH oxidase mediates killing of pathogens and regulation of inflammation have broad relevance to our understanding of normal physiological immune responses and pathological states, such as acute lung injury and bacterial or fungal infections.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

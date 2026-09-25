@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19603353",
+  "title": "Balancing co-stimulation and inhibition with BTLA and HVEM",
+  "content": "The interaction between B- and T-lymphocyte attenuator (BTLA), an inhibitory receptor whose extracellular domain belongs to the immunoglobulin superfamily, and herpesvirus-entry mediator (HVEM), a co-stimulatory tumour-necrosis factor receptor, is unique in that it is the only receptor–ligand interaction that directly bridges these two families of receptors. This interaction has raised many questions about how receptors from two different families could interact and what downstream signalling events might occur as a result of receptor ligation. As we discuss, recent studies show that engagement of HVEM with its endogenous ligand (LIGHT) from the tumour-necrosis factor family induces a powerful immune response, whereas HVEM interactions with BTLA negatively regulate T-cell responses.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

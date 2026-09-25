@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6374918",
+  "title": "Chemosensitization of acute myeloid leukemia (AML) following mobilization by the CXCR4 antagonist AMD3100.",
+  "content": "The CXCR4-SDF-1 axis plays a central role in the trafficking and retention of normal and malignant stem cells in the bone marrow (BM) microenvironment. Here, we used a mouse model of acute promyelocytic leukemia (APL) and a small molecule competitive antagonist of CXCR4, AMD3100, to examine the interaction of mouse APL cells with the BM microenvironment. APL cells from a murine cathepsin G-PML-RARalpha knockin mouse were genetically modified with firefly luciferase (APL(luc)) to allow tracking by bioluminescence imaging. Coculture of APL(luc) cells with M2-10B4 stromal cells protected the leukemia cells from chemotherapy-induced apoptosis in vitro. Upon injection into syngeneic recipients, APL(luc) cells rapidly migrated to the BM followed by egress to the spleen then to the peripheral blood with death due to leukostasis by day 15. Administration of AMD3100 to leukemic mice induced a 1.6-fold increase in total leukocytes and a 9-fold increase of circulating APL blast counts, which peak at 3 hours and return to baseline by 12 hours. Treatment of leukemic mice with chemotherapy plus AMD3100 resulted in decreased tumor burden and improved overall survival compared with mice treated with chemotherapy alone. These studies provide a proof-of-principle for directing therapy to the critical tethers that promote AML-niche interactions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

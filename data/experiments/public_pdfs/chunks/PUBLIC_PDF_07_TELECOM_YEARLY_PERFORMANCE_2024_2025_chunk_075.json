@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_075",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 75,
+  "text": "Average revenue for data services has been derived on dividing of total yearly revenue of wireless data services by the average number of wireless data subscribers during the year. The following table and chart show the trend of Average Revenue Per Data User (data ARPU) per month for wireless data usage during the year 2021-22 to 2024-25. Table 3.2: Average Revenue for wireless data usage per data subscriber per month (in Rs.) Year Total Wireless Data ARPU 2021-22 147.94 2022-23 176.59 2023-24 211.36 2024-25 231.64 Chart 3.5: Trend of Average Wireless Data Revenue per data subscriber per month (Data ARPU in Rs.) 13. The following table and chart show the trend of Average Wireless Data Usage (in GB) per data subscriber per month for last four years: - Table 3.3: Average Wireless Data Usage (in GB) per data user per month Period 2G Data Usage 3G Data Usage 4G Data Usage 5G Data Usage Total Wireless Data Usage 2021-22 1.14 8.47 15.79 - 14.89 2022-23 0.63 7.69 17.98 - 17.02 2023-24 0.50 7.18 20.75 15.99 19.30 2024-25 0.72 5.85 22.57 21.90 21.53 90 14. Average wireless data usage per wireless data subscriber per month increased from 19.30 GB during the year 2023-24 to 21.53 GB during the year 2024-25. Chart 3.6: Trend of Average Wireless Data Usage (in GB) per active data user per month 15. The following table depicts the average revenue realization per data subscriber per month for per GB wireless data usage. Table 3.4: Average revenue realization",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

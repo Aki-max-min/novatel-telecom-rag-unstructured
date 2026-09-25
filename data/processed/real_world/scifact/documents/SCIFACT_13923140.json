@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13923140",
+  "title": "Interleukin-2 gene variation impairs regulatory T cell function and causes autoimmunity",
+  "content": "Autoimmune diseases are thought to result from imbalances in normal immune physiology and regulation. Here, we show that autoimmune disease susceptibility and resistance alleles on mouse chromosome 3 (Idd3) correlate with differential expression of the key immunoregulatory cytokine interleukin-2 (IL-2). In order to test directly that an approximately twofold reduction in IL-2 underpins the Idd3-linked destabilization of immune homeostasis, we show that engineered haplodeficiency of Il2 gene expression not only reduces T cell IL-2 production by twofold but also mimics the autoimmune dysregulatory effects of the naturally occurring susceptibility alleles of Il2. Reduced IL-2 production achieved by either genetic mechanism correlates with reduced function of CD4+ CD25+ regulatory T cells, which are critical for maintaining immune homeostasis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

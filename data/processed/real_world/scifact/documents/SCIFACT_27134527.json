@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27134527",
+  "title": "The growing landscape of lysine acetylation links metabolism and cell signalling",
+  "content": "Lysine acetylation is a conserved protein post-translational modification that links acetyl-coenzyme A metabolism and cellular signalling. Recent advances in the identification and quantification of lysine acetylation by mass spectrometry have increased our understanding of lysine acetylation, implicating it in many biological processes through the regulation of protein interactions, activity and localization. In addition, proteins are frequently modified by other types of acylations, such as formylation, butyrylation, propionylation, succinylation, malonylation, myristoylation, glutarylation and crotonylation. The intricate link between lysine acylation and cellular metabolism has been clarified by the occurrence of several such metabolite-sensitive acylations and their selective removal by sirtuin deacylases. These emerging findings point to new functions for different lysine acylations and deacylating enzymes and also highlight the mechanisms by which acetylation regulates various cellular processes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

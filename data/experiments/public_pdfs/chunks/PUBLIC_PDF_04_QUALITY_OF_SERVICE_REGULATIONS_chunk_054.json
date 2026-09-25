@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_054",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 54,
+  "text": "daily values of ULPDR and DLPDR, as collected during CBBH shall be arranged similar to DCR matrix, as provided in para 4.3.1 above, to calculate DLPDR_QSD (s, t) and DLPDR_QSD (s, t) which shall be < prescribed benchmark for both of these parameters. DCR Code Stands for Reason or purpose DNE Does Not Exist The cell was either not commissioned or de-commissioned in between the assessment period and was not part of the network to serve the users in the network. NOP Not Operational The cell was not operational because of planned shutdown or taken out of operation due to technical problem and thus not able to serve the users in the network. NAV Counter values Not Available If the requisite counter values for computation of DCR or DLPDR or ULPDR, as applicable, for a Cell on a particular day could not be captured due to technical glitch although the cell was operational. NDM Computation Not Determinable or irrelevant In case, computation of DCR or DLPDR or ULPDR, as applicable, it is observed that mathematically DCR or DLPDR or ULPDR values could not be computed being not in a determinate form or computed value is irrelevant for the purpose of assessment. 117 4.4. Broadband Service 4.4.1. Measurement setup: The performance against broadband related QoS parameters are to be computed by making test calls using the measurement setup as explained below: (i) Measurement setup to be used to conduct test calls for measuring latency, packet drop rate, ‘Percentile value of measured",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

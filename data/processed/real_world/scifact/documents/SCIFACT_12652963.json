@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12652963",
+  "title": "miRNA-dependent gene silencing involving Ago2-mediated cleavage of a circular antisense RNA.",
+  "content": "MicroRNAs (miRNAs) are ∼22 nt non-coding RNAs that typically bind to the 3' UTR of target mRNAs in the cytoplasm, resulting in mRNA destabilization and translational repression. Here, we report that miRNAs can also regulate gene expression by targeting non-coding antisense transcripts in human cells. Specifically, we show that miR-671 directs cleavage of a circular antisense transcript of the Cerebellar Degeneration-Related protein 1 (CDR1) locus in an Ago2-slicer-dependent manner. The resulting downregulation of circular antisense has a concomitant decrease in CDR1 mRNA levels, independently of heterochromatin formation. This study provides the first evidence for non-coding antisense transcripts as functional miRNA targets, and a novel regulatory mechanism involving a positive correlation between mRNA and antisense circular RNA levels.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

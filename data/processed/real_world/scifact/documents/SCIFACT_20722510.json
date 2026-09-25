@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20722510",
+  "title": "IL-6 as a keystone cytokine in health and disease",
+  "content": "Interleukin 6 (IL-6) has a broad effect on cells of the immune system and those not of the immune system and often displays hormone-like characteristics that affect homeostatic processes. IL-6 has context-dependent pro- and anti-inflammatory properties and is now regarded as a prominent target for clinical intervention. However, the signaling cassette that controls the activity of IL-6 is complicated, and distinct intervention strategies can inhibit this pathway. Clinical experience with antagonists of IL-6 has raised new questions about how and when to block this cytokine to improve disease outcome and patient wellbeing. Here we discuss the effect of IL-6 on innate and adaptive immunity and the possible advantages of various antagonists of IL-6 and consider how the immunobiology of IL-6 may inform clinical decisions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

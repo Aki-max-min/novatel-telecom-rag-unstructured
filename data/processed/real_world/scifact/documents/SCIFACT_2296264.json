@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2296264",
+  "title": "Modulation of cancer chemotherapy by green tea.",
+  "content": "Biochemical modulation has played an important role in the development of cancer chemotherapy. We have directed our attention to the intake of common beverages and investigated the effects of green tea and tea components on the antitumor activity of doxorubicin. We carried out the combined treatment of toxorubicin and green tea on Ehrlich ascites carcinoma tumor-bearing mice. The oral administration of green tea enhanced 2.5-fold the inhibitory effects of doxorubicin on tumor growth. The Doxorubicin concentration in the tumor was increased by the combination of green tea with doxorubicin. In contrast, the increase in doxorubicin concentration was not observed in normal tissues after green tea combination. Furthermore, the enhancement of antitumor activity of doxorubicin induced by green tea was observed in M5076 ovarian sarcoma, which has low sensitivity to doxorubicin. These results suggest that drinking green tea can encourage cancer chemotherapy and may improve the quality of life of clinical patients.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

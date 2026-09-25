@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8520041",
+  "title": "ACTA PSYCHIATRICA",
+  "content": "OBJECTIVE We explored the subjective effects associated with olanzapine, risperidone and older antipsychotics. METHOD We conducted a content analysis of an Internet database of comments about prescribed medications. RESULTS We analysed 223 comments on risperidone, 170 on olanzapine and 46 relating to three older antipsychotics. The predominant subjective effects produced by all drugs consisted of sedation, cognitive impairment and emotional flattening or indifference. Connections appeared between these effects and Parkinsonian-like symptoms with the older drugs, sexual impairment with risperidone and metabolic effects with olanzapine. The experience of akathisia was frequently linked to suicidal thoughts. Some respondents described how the drugs' subjective effects helped to reduce symptoms of mania, psychosis and anxiety. CONCLUSION The generalisability of Internet data is uncertain. However, the data suggest that adverse subjective effects play a central role in the experience of taking antipsychotic drugs and may be related to the drugs' desired benefits.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

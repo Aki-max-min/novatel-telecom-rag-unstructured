@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26899920",
+  "title": "Small molecules enable cardiac reprogramming of mouse fibroblasts with a single factor, Oct4.",
+  "content": "It was recently shown that mouse fibroblasts could be reprogrammed into cells of a cardiac fate by forced expression of multiple transcription factors and microRNAs. For ultimate application of such a reprogramming strategy for cell-based therapy or in vivo cardiac regeneration, reducing or eliminating the genetic manipulations by small molecules would be highly desirable. Here, we report the identification of a defined small-molecule cocktail that enables the highly efficient conversion of mouse fibroblasts into cardiac cells with only one transcription factor, Oct4, without any evidence of entrance into the pluripotent state. Small-molecule-induced cardiomyocytes spontaneously contract and exhibit a ventricular phenotype. Furthermore, these induced cardiomyocytes pass through a cardiac progenitor stage. This study lays the foundation for future pharmacological reprogramming approaches and provides a small-molecule condition for investigation of the mechanisms underlying the cardiac reprogramming process.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

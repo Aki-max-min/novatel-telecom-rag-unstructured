@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_056",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 56,
+  "text": "server should be used, since the test conditions for such a server may change over time. (b) The test server should be identified by an IP address and not by its Fully Qualified Domain Name (FQDN) to avoid issues with Domain Name Server (DNS) lookup including the DNS caching strategies of the used operating system in the measurement. (vi) Test File: As per ITU-T recommendation1 Y.1545.1, the test file should consist of incompressible data i.e. a data file that is already compressed, e.g. like a zip or jpg file. The test file should have at least twice the size (in Mbit) of the theoretically maximum data transmission rate per second (in Mbit/s) supported by respective technology (4G/5G). (vii) Representativeness or Number of test calls: (a) The choice of adequate test calls, i.e. geographical locations of origin is a crucial point for comparison and validation of the statistics to be calculated for the measured parameters. For each parameter, it is to be ensured that the test samples are collected over all type of areas for fairness in reflecting the QoS perceived by the subscribers in different areas and the statistics shall be preserved to substantiate the same. (b) The measurements for the QoS parameters should be evenly distributed over the month as far as possible and should be taken during Time Consistent Busy Hour (TCBH). To guarantee the spatial representation 1 https://www.itu.int/rec/T-REC-Y.1545.1/en Test Server at Internet Exchange point Wireless or Wireline Access and Core Network Wireless or fixed as applicable 118",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

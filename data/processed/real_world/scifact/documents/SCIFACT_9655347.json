@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9655347",
+  "title": "Long non-coding RNAs as novel players in β cell function and type 1 diabetes",
+  "content": "BACKGROUND Long non-coding RNAs (lncRNAs) are a sub-class within non-coding RNA repertoire that have emerged as crucial regulators of the gene expression in various pathophysiological conditions. lncRNAs display remarkable versatility and wield their functions through interactions with RNA, DNA, or proteins. Accumulating body of evidence based on multitude studies has highlighted the role of lncRNAs in many autoimmune and inflammatory diseases, including type 1 diabetes (T1D). This review highlights emerging roles of lncRNAs in immune and islet β cell function as well as some of the challenges and opportunities in understanding the pathogenesis of T1D and its complications. CONCLUSION We accentuate that the lncRNAs within T1D-loci regions in consort with regulatory variants and enhancer clusters orchestrate the chromatin remodeling in β cells and thereby act as cis/trans-regulatory determinants of islet cell transcriptional programs.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

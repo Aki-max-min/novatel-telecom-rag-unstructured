@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_003",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 3,
+  "text": "content of the communication exist(s), is/are lawful, or otherwise. Further, the purpose or intent of the communication may be inferred from: (A) The content of the communication in the message or voice call (B) The manner in which the content of message or voice call is presented (C) The content in the communication during call back to phone numbers presented or referred to in the content of message or voice call; or the content presented at the web links included in such communication. “Consensus” means the concurrence among the participants on a distributed ledger to record an irrevocable data value, which is cryptographically secured; 3 “Consent” means any voluntary permission given by the customer to sender to receive commercial communication related to specific purpose, product or service. Consent may be explicit or inferred as defined in these regulations; “Consent Acquirer or CA” means any sender with registered and valid header(s), who acquires consent through a prescribed process under the relevant regulations; “Consent Register” means a Distributed Ledger for Consent (DL-Consent) having all relevant details of consent acquired by sender, in a secure and safe manner, to send commercial communications and may be required for the purpose of pre and post checks for regulatory compliance based on the consent; “Consent Registrar or CR” is an authorized entity under relevant regulations responsible for maintaining the consent register, customer consent acquisition facility and customer consent verification facility; “Consent Template or CT” means a template of content which is presented to the customer while",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

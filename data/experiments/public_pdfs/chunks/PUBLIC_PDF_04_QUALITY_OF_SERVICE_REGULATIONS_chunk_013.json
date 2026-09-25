@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_013",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 13,
+  "text": "over New Radio” or “VoNR” means voice call established, maintained and released using Internet Protocol (IP) Multi-Media Sub-System (IMS) in IMT-2020 network; (2) Words and expressions used but not defined in these regulations, but defined in the Act or the rules and other regulations made thereunder or in the Telecommunication Act 2023 or the license or the authorization or relevant International Telecommunication Union (ITU) standards or 3rd Generation Partnership Project (3GPP) standards, shall have the same meaning respectively assigned to them in the Act or the rules and the regulations or the Telecommunication Act 2023 or the license or the authorization under relevant Act or relevant ITU or 3GPP standards, as the case may be, in that order. SECTION II ADOPTION OF QUALITY MANAGEMENT FRAMEWORK 3. Design, implementation and management of Networks.- (1) Every service provider shall prepare a quality management plan, within six months of issue of these regulations, to adopt Six Sigma quality management practices for QoS management, which shall include quality of service aspects related to network availability, accessibility, retainability and customer services. (2) The quality management plan shall provide for required redundancies including power, transmission links, equipment, geo-redundancies in the core network and access network as per relevant standards to achieve end-to-end QoS as per the benchmarks specified in these regulations. (3) The quality management plan shall cover all technical and non-technical aspects of QoS including designing, implementation and monitoring of networks and customer services to ensure network availability, accessibility, retainability and customer experience. (4) Every",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

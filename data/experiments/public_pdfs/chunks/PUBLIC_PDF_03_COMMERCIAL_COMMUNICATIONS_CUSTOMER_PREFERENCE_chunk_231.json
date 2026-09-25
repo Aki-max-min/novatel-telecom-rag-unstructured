@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_231",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 231,
+  "text": "communication. Content providers and principal entities can therefore be sure about regulatory compliances and safety of their data along the delivery chain. Authority generally takes a ‘technology neutral’ approach but feels that DLT has distinctive features, which provide capabilities in hands of TSPs to control and manage commercial communications in more efficient and effective manner and meet their obligations to ensure UCC regulatory compliance. 9.6.1 It is encouraged to have single DLT networks which is shared among all access providers. In case, all access providers do not reach to a consensus to form single network, it is desirable to keep numbers of DLT networks to minimum. In case of multiple DLT networks, APIs would be required for inter- operability among DLT networks. Access provider(s) establishing DLT networks would be required to share details of APIs to successfully inter operate. Regulatory Sanbdox may also be set up, if required, to test inter-operability. 107 Blockchain (or the broader, more generic term: Distributed Ledger Technology) is a much- hyped concept that evokes vociferous arguments, both from its supporters and detractors alike. The response to TRAI’s draft regulations to use this technology for governing commercial communication has seen arguments from both camps. We thank all responders for their comments, which have brought greater clarity to the conclusions. The detractors have expressed the opinion that TRAI has been taken in by the hype to embrace a concept that’s neither ready for adoption nor suitable for use in the manner proposed. Let’s examine the broad arguments",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

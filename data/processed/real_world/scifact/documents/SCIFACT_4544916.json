@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4544916",
+  "title": "The N-end rule pathway regulates pathogen responses in plants.",
+  "content": "To efficiently counteract pathogens, plants rely on a complex set of immune responses that are tightly regulated to allow the timely activation, appropriate duration and adequate amplitude of defense programs. The coordination of the plant immune response is known to require the activity of the ubiquitin/proteasome system, which controls the stability of proteins in eukaryotes. Here, we demonstrate that the N-end rule pathway, a subset of the ubiquitin/proteasome system, regulates the defense against a wide range of bacterial and fungal pathogens in the model plant Arabidopsis thaliana. We show that this pathway positively regulates the biosynthesis of plant-defense metabolites such as glucosinolates, as well as the biosynthesis and response to the phytohormone jasmonic acid, which plays a key role in plant immunity. Our results also suggest that the arginylation branch of the N-end rule pathway regulates the timing and amplitude of the defense program against the model pathogen Pseudomonas syringae AvrRpm1.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

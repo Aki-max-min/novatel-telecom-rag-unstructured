@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_076",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 76,
+  "text": "verification of identity and scope documents of Unsolicited Commercial Communications sender(s) and bind to phone number(s); (b) consider reason(s) and fact(s) which are important to be considered before assigning headers and do not mislead recipients; (c) consider headers which may be required to be reserved for central and state government entities and also for statutory bodies; (4) Develop mobile app for devices which may be required for senders during login to sessions for various activities like scrubbing, submission of messages to delivery, making voice calls etc.; (5) Introduce telemarketer with scrubbing function, separate from telemarketer with delivery function (6) Scrubbing envisaged in final form to be achieved in phased manner (i) Initially, using data from existing register for customers’ preferences; (ii) subsequently, using records of DL-Preferences; (iii) then using records of DL for Header Register; (iv) then introducing virtual identities and tokens among entities to access real identities; (v) then using records of DL for consent; (7) Introduce DL for Complaints; (8) Register existing consents on Consent Register; (a) Register existing consents with consent registrar in robust manner to make it non- repudiable; 57 (b) stop taking consent not in accordance to these regulations; (c) fix deadline for expiry of consent not registered with consent registrar; (9) Register new consents on consent register as prescribed in relevant regulations or schedule or directions (a) Develop Application Programme Interfaces (APIs) for Senders to recording consent with user agent or application client available on a mobile device or enterprise system; (b) Broadening of",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

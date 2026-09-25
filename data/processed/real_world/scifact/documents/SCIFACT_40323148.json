@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_40323148",
+  "title": "Infection and apoptosis as a combined inflammatory trigger.",
+  "content": "While inflammatory phagocytosis of microbial pathogens and non-inflammatory phagocytosis of apoptotic cells have each been studied extensively, the consequences of innate immune recognition of host cells undergoing apoptosis as a direct result of infection are unclear. In this situation, the innate immune system is confronted with mixed signals, those from apoptotic cells and those from the infecting pathogen. Nuclear receptor activation has been implicated downstream of apoptotic cell recognition while Toll-like receptors are the prototypical inflammatory receptors engaged during infection. When the two signals combine, a new set of events takes place beginning with transrepression of a subset of inflammatory-response genes and ending with the induction of a T helper-17 adaptive immune response. This response is best suited for clearing the infecting pathogen and repairing the damage that occurred to the host tissue during infection.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

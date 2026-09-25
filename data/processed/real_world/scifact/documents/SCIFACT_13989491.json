@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13989491",
+  "title": "Acids: Structures, Properties, and Functions (University Science Books, Sausalito, CA, 2000).",
+  "content": "Humans expressing a defective form of the transcription factor AIRE (autoimmune regulator) develop multiorgan autoimmune disease. We used aire- deficient mice to test the hypothesis that this transcription factor regulates autoimmunity by promoting the ectopic expression of peripheral tissue- restricted antigens in medullary epithelial cells of the thymus. This hypothesis proved correct. The mutant animals exhibited a defined profile of autoimmune diseases that depended on the absence of aire in stromal cells of the thymus. Aire-deficient thymic medullary epithelial cells showed a specific reduction in ectopic transcription of genes encoding peripheral antigens. These findings highlight the importance of thymically imposed \"central\" tolerance in controlling autoimmunity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

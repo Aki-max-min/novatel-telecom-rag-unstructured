@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_187",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 187,
+  "text": "to ‘Application of adjustment to customer’s account within one week from the date of resolution of billing and charging complaints or rectification of faults or rectification of significant network outage, as applicable’. (ii) Regarding applying credit to postpaid customers, it is clarified that adjustment should be done within one week. However same should be reflected in the next bill to be issued. 5.6.4 Accessibility of call centre/ customer care and Percentage of calls answered by the operators (voice to voice) within ninety seconds (a) Input of Stakeholders (i) Some of the stakeholders requested the withdrawal of the parameter ‘percentage of calls answered by human operators’ from the QoS parameters, as it does not directly impact service quality and lacks international standards. It is also referred that the rapid technological advancements, particularly AI- driven automation, have significantly improved customer service efficiency, scalability, and reliability, making traditional voice-based interactions less relevant. Compliance with this parameter is complex and costly, diverting resources from more innovative customer service improvements. Automated systems have revolutionized customer service by providing 24/7 availability and handling inquiries with high efficiency and accuracy. This parameter is neither monitored nor enforced by other regulators globally, making it an unnecessary compliance burden that could hinder investment and innovation in the telecom industry. If monitoring is still deemed necessary, they proposed reducing the benchmark to a threshold of > 90%. (ii) One of the stakeholders submitted that the rationale behind having both accessibility and percentage of calls answered parameters is unclear. It is",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

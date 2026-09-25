@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_182",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 182,
+  "text": "provision to register any demand for new wireline broadband connectivity in their non-coverage areas. Further, based on techno-commercial feasibility, the TSPs expand and provide their network services. Hence, maintaining a demand register in non- coverage areas is not required and should be removed from the Regulations. (ii) They further submitted that this requirement will only increase compliance burden without significantly benefiting the consumers as considering the high competition, TSPs are already actively expanding their wireline networks, contingent upon technical feasibility and commercial viability and accumulating such details will pose significant challenges for service providers, particularly in areas where network expansion is not planned in the immediate future. Further, the license does not mandate 100% roll-out, thus the requirements of mandating TSPs to register demand even in absence of technical feasibility is unnecessary and will not serve any purpose. (b) Analysis and Conclusion Considering the request of stakeholders, the Authority has decided to drop this parameter. 5.5.3 Successful packet data transmission download and upload attempts (a) Input of Stakeholders (i) Some of the stakeholders submitted that for meaningful data to be collated, the same would require home-to-home checking of the data transmission. This is practically not possible. For any such data transmission speed, there already exists TRAI MySpeed app which the customers can be analyse the 165 download and upload speed of their data. Hence, these parameters should be removed from the Regulations. (ii) Some of the stakeholder requested more clarity on the measurement methodology. (b) Analysis and Conclusion Considering the",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19958277",
+  "title": "RecQ helicases: caretakers of the genome",
+  "content": "RecQ helicases are highly conserved from bacteria to man. Germline mutations in three of the five known family members in humans give rise to debilitating disorders that are characterized by, amongst other things, a predisposition to the development of cancer. One of these disorders — Bloom's syndrome — is uniquely associated with a predisposition to cancers of all types. So how do RecQ helicases protect against cancer? They seem to maintain genomic stability by functioning at the interface between DNA replication and DNA repair.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

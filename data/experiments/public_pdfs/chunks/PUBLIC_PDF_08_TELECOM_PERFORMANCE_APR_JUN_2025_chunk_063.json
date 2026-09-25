@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_063",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 63,
+  "text": "Telephony 1.62 As per the reports received from 16 service providers, providing Internet Telephony services, the total outgoing minutes of usage for internet telephony decreased from 70.90 million minutes at the QE Mar-25 to 69.65 million 56 minutes at the QE Jun-25. List of Internet Telephony Service providers is available at Annexure-1.6. Chart 1.24: Trend in MOU for Internet Telephony Part-II: Broadband Service (Download Speed >=2Mbps) 1.63 The total number of broadband subscribers increased from 944.12 million at the end of Mar-25 to 979.71 million at the end of Jun-25. Out of which number of wired broadband subscribers is 44.69 million and wireless broadband subscribers are 935.02 million. 1.64 Top five broadband (wired+wireless) service providers in terms of subscribers are: - [Subscribers in Millions] S.N. Service Provider Broadband Subscribers % Change Market Share Mar-25 Jun-25 1 Reliance Jio Infocomm Ltd 476.58 497.06 4.30% 50.74% 2 Bharti Airtel Ltd. 289.31 304.32 5.19% 31.06% 3 Vodafone Idea Ltd 126.41 127.40 0.78% 13.00% 4 Bharat Sanchar Nigam Ltd. 34.57 33.68 -2.58% 3.44% 5 Atria Convergence Technologies Limited 2.30 2.33 1.52% 0.24% 87.01 84.21 87.53 70.90 69.65 25.00 40.00 55.00 70.00 85.00 100.00 115.00 Jun-24 Sep-24 Dec-24 Mar-25 Jun-25 Minutes in million Quarter Ending 57 1.65 In Fixed (Wired) broadband segment, top five broadband service providers in terms of subscribers are: - [Subscribers in Millions] S.N. Service Provider Broadband Subscribers % Change Market Share Mar-25 Jun-25 1 Reliance Jio Infocomm Ltd 11.48 13.93 21.41% 31.18% 2 Bharti Airtel Ltd. 8.55 9.41 9.96% 21.05% 3",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_067",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 67,
+  "text": "safe manner, using, whitelisted data uploaded by the Senders: Provided that the Sender has submitted an undertaking to the effect that the whitelisted URLs/ APKs/ OTT links are not malicious. Content Verification Function (CVF) to identify the content type and category of messages to be delivered or already delivered via an automated tool or utility software; Delivery Function for Messages with Telecom Resource Connectivity to Access Provider (DF) deliver messages to OAP, in a secure and safe manner, during specified time slots and types of days of delivery in accordance to the preferences of the customer(s); select OAP for particular customer(s) or messages and conveying to Scrubber for generating tokens for corresponding OAP to access information of list of messages which would be required to be delivered by it; Aggregation Function for Message to other Telemarketer for delivery function (AF) deliver messages to RTM having telecom resource connectivity with access provider(s), in a secure and safe manner; Voice Calling Function with Telecom Resource Connectivity (VCF) deliver voice calls to OAP, in a secure and safe manner, during specified time slots and types of days of delivery in accordance to the preferences of the customer(s); select OAP for particular customer(s) or voice calls and conveying selected OAPs to Scrubber for 35 generating tokens for corresponding OAP to access information of list of messages which would be required to be delivered by it; 5. Every Access Provider shall set up following functional entities or may delegate roles to perform following functions: -",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

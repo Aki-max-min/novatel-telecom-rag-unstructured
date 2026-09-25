@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_011",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 11,
+  "text": "an artificial or prerecorded voice to interactively deliver a voice message without the involvement of human being on calling side for participating in the dialogue; (bd) “Scrubber” means an entity registered with the access provider(s) and authorised by the relevant regulations to perform the function of scrubbing in accordance with the relevant 7 regulations; (be) “Scrubbing” means process of comparing target list of telephone number(s) provided by the Sender, to whom it wishes to send commercial communication with the list of telephone number(s) in DL-Preference and DL-Consent to check whether commercial communication(s) can be sent to the Recipient as per his registered preference(s) or as per consent; (bf) “Sender”, in relation to a commercial communication, means The person or entity who owns the telephone number or the header(s) that were used; A person or entity that publicly asserts or uses a Calling Line Identity (CLI) or the phone number(s) referred to in the communication, except where such assertion is fraudulent; The person who sent the message or made a voice call, caused the message to be sent or the voice call to be made or authorized the sending of the message or making of the voice call; The person or legal entity dealing with goods, or services, or land or property, or a business or investment opportunity that is offered or promoted; except where such entity maintains a distinct legal identity for the division or line of business dealing with offered goods, services or opportunity, in which case such division",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

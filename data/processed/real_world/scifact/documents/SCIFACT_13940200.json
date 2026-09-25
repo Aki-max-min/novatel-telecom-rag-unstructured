@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13940200",
+  "title": "Large-scale genetic fine mapping and genotype-phenotype associations implicate polymorphism in the IL2RA region in type 1 diabetes",
+  "content": "Genome-wide association studies are now identifying disease-associated chromosome regions. However, even after convincing replication, the localization of the causal variant(s) requires comprehensive resequencing, extensive genotyping and statistical analyses in large sample sets leading to targeted functional studies. Here, we have localized the type 1 diabetes (T1D) association in the interleukin 2 receptor alpha (IL2RA) gene region to two independent groups of SNPs, spanning overlapping regions of 14 and 40 kb, encompassing IL2RA intron 1 and the 5′ regions of IL2RA and RBM17 (odds ratio = 2.04, 95% confidence interval = 1.70–2.45; P = 1.92 × 10−28; control frequency = 0.635). Furthermore, we have associated IL2RA T1D susceptibility genotypes with lower circulating levels of the biomarker, soluble IL-2RA (P = 6.28 × 10−28), suggesting that an inherited lower immune responsiveness predisposes to T1D.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26150367",
+  "title": "Treatments for somnambulism in adults: assessing the evidence.",
+  "content": "Somnambulism, or sleepwalking, is a parasomnia of non-rapid eye movement (NREM) sleep where movement behaviours usually confined to wakefulness are displayed during sleep. Generally, if sleepwalking is causing distress or danger in spite of safety measures, medical or psychological treatment is indicated. Clinicians will need to assess the evidence for treatment options. MEDLINE, EMBASE, PsycINFO and the Ovid Evidence-Based Medicine Reviews (EBM) multifile databases were searched. No properly powered rigorous controlled trials were found for treatment of sleepwalking in adults. Seven reports described small trials with some kind of control arm, or retrospective case series which included 30 or more patients. With no high quality evidence to underpin recommendations for treatments of somnambulism, full discussion with patients is advised. Adequately powered, well-designed clinical trials are now needed, and multi-centre collaborations may be required to obtain the sample sizes required.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

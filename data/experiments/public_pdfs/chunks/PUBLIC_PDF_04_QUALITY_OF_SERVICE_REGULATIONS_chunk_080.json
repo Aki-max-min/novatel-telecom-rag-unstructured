@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_080",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 80,
+  "text": "‘Percentage of calls answered by operators (voice to voice) within ninety seconds’ i.e. the time taken for connecting to the operator shall be calculated from the time the customer has keyed the relevant number in the IVR option menu or direct operator access, as applicable, for speaking to the customer care executive/operator. (ii) The menu for speaking to the customer care executive/ operator shall be given preference in the menu options and this menu shall not be below the second layer, the first layer being the choice of language and the second layer the service menu. Further, there should not be unnecessary pause(s) before extending the option to the subscriber for speaking to the customer care executive/operator. (iii) The performance against this parameter for the assessment period shall be measured though the following formula: = 𝐍𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐜𝐚𝐥𝐥𝐬 𝐚𝐧𝐬𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐭𝐡𝐞 𝐨𝐩𝐞𝐫𝐚𝐭𝐨𝐫 𝐰𝐢𝐭𝐡𝐢𝐧 𝟗𝟎 𝐬𝐞𝐜𝐨𝐧𝐝𝐬 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐬𝐮𝐛𝐬𝐜𝐫𝐢𝐛𝐞𝐫𝐬 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐭𝐨 𝐜𝐨𝐧𝐧𝐞𝐜𝐭 𝐭𝐨 𝐭𝐡𝐞 𝐨𝐩𝐞𝐫𝐚𝐭𝐨𝐫 × 𝟏𝟎𝟎 7.1.6. Termination/ closure of service within seven working days of receipt of customer’s request (i) Time for termination/ closure of service shall not be more than 7 working days from the date of receipt of request for termination/ closure of any service. (ii) The performance against this parameter for the assessment period is to be measured through the following formula: = {𝟏−( 𝐍𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐭𝐞𝐫𝐦𝐢𝐧𝐚𝐭𝐢𝐨𝐧 𝐨𝐫 𝐜𝐥𝐨𝐬𝐮𝐫𝐞 𝐨𝐟 𝐬𝐞𝐫𝐯𝐢𝐜𝐞 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐬 𝐞𝐱𝐞𝐜𝐮𝐭𝐞𝐝 𝐚𝐟𝐭𝐞𝐫 𝟕 𝐰𝐨𝐫𝐤𝐢𝐧𝐠 𝐝𝐚𝐲𝐬 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐭𝐞𝐫𝐦𝐢𝐧𝐚𝐭𝐢𝐨𝐧 𝐨𝐫 𝐜𝐥𝐨𝐬𝐮𝐫𝐞 𝐨𝐟 𝐬𝐞𝐫𝐯𝐢𝐜𝐞 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐬 𝐫𝐞𝐜𝐞𝐢𝐯𝐞𝐝 )} × 𝟏𝟎𝟎 (iii) Termination/ closure of service",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

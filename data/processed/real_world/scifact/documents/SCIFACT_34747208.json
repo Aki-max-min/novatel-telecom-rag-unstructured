@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_34747208",
+  "title": "Lamin A-dependent nuclear defects in human aging.",
+  "content": "Mutations in the nuclear structural protein lamin A cause the premature aging syndrome Hutchinson-Gilford progeria (HGPS). Whether lamin A plays any role in normal aging is unknown. We show that the same molecular mechanism responsible for HGPS is active in healthy cells. Cell nuclei from old individuals acquire defects similar to those of HGPS patient cells, including changes in histone modifications and increased DNA damage. Age-related nuclear defects are caused by sporadic use, in healthy individuals, of the same cryptic splice site in lamin A whose constitutive activation causes HGPS. Inhibition of this splice site reverses the nuclear defects associated with aging. These observations implicate lamin A in physiological aging.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

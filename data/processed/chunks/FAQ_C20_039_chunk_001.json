@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C20_039_chunk_001",
+  "document_id": "FAQ_C20_039",
+  "chunk_index": 1,
+  "text": "first | | Duplicate charge, 5+ working days, not reversed | Auto-detection did not catch this instance | Both transaction references for the duplicate charges | Raise a ticket under Billing > Report Issue with both references | ### Escalation Raising a ticket under Billing > Report Issue is the documented step once the 3-5 working day auto-detection window has passed without a reversal. ### Example Scenario **Customer situation:** A customer notices two identical recharge charges on the same day and it's been a week with no refund. **What happens:** Since this is beyond the standard 3-5 working day auto-detection window, raising a ticket under Billing > Report Issue with both transaction references is the next step. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C20_overview. Topic: Refunds & Adjustments",
+  "title": "I was charged twice for the same recharge — how do I get a refund?",
+  "document_type": "FAQ",
+  "category": "C20",
+  "department": "Billing",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-15",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C20_overview"
+  ],
+  "tags": [
+    "refunds",
+    "c20"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C20_039.json",
+  "file_type": "json"
+}

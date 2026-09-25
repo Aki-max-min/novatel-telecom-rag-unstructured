@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26672703",
+  "title": "Repeat instability: mechanisms of dynamic mutations",
+  "content": "Disease-causing repeat instability is an important and unique form of mutation that is linked to more than 40 neurological, neurodegenerative and neuromuscular disorders. DNA repeat expansion mutations are dynamic and ongoing within tissues and across generations. The patterns of inherited and tissue-specific instability are determined by both gene-specific cis-elements and trans-acting DNA metabolic proteins. Repeat instability probably involves the formation of unusual DNA structures during DNA replication, repair and recombination. Experimental advances towards explaining the mechanisms of repeat instability have broadened our understanding of this mutational process. They have revealed surprising ways in which metabolic pathways can drive or protect from repeat instability.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

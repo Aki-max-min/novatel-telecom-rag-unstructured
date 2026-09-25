@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13030852",
+  "title": "Identification of bone and liver metastases from breast cancer by measurement of plasma alkaline phosphatase isoenzyme activity.",
+  "content": "Plasma alkaline phosphatase isoenzyme activities were determined in patients with breast cancer to diagnose and monitor bone and liver metastases. Bone alkaline phosphatase activity was increased in 21 of 50 patients (42%) with radiologically confirmed bone metastases, while total alkaline phosphatase activity was increased in only 10 of 50 (20%); liver alkaline phosphatase activity was raised in 12 of 25 patients (48%) with liver metastases. All patients with liver metastases had bone metastases. Bone alkaline phosphatase activity was significantly higher in patients with symptomatic bone disease. Isoenzyme determination provided additional information that would have changed patient management in five of 20 patients who were monitored serially. Measurement of alkaline phosphatase isoenzyme activity, though less sensitive than imaging procedures, can assist in screening for, and in early detection of, a high proportion of bone and liver metastases, and can provide useful objective evidence of their response to treatment.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

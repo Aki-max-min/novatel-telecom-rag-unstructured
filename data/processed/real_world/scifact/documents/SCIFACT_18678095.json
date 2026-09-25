@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18678095",
+  "title": "Vesicular Glycolysis Provides On-Board Energy for Fast Axonal Transport",
+  "content": "Fast axonal transport (FAT) requires consistent energy over long distances to fuel the molecular motors that transport vesicles. We demonstrate that glycolysis provides ATP for the FAT of vesicles. Although inhibiting ATP production from mitochondria did not affect vesicles motility, pharmacological or genetic inhibition of the glycolytic enzyme GAPDH reduced transport in cultured neurons and in Drosophila larvae. GAPDH localizes on vesicles via a huntingtin-dependent mechanism and is transported on fast-moving vesicles within axons. Purified motile vesicles showed GAPDH enzymatic activity and produced ATP. Finally, we show that vesicular GAPDH is necessary and sufficient to provide on-board energy for fast vesicular transport. Although detaching GAPDH from vesicles reduced transport, targeting GAPDH to vesicles was sufficient to promote FAT in GAPDH deficient neurons. This specifically localized glycolytic machinery may supply constant energy, independent of mitochondria, for the processive movement of vesicles over long distances in axons.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_075",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 75,
+  "text": "service providers are required to monitor the bandwidth utilization during Time Consistent Busy Hours (TCBH) for each network link(s)/route. (iv) Average utilization of bandwidth in a route means utilization of bandwidth capacity on all the links of the route. For example, if there are 3 links consisting of one link of 100 Mbps, two links of 1Gbps each, in a route from ISP gateway to International Gateway or IXP then the total bandwidth available in the route is 2.1 Gbps (0.1Gbps +1Gbps+1 Gbps) and 90% of loading means bandwidth utilization of 1.89 Gbps. 6.2.6. Jitter (i) Jitter provides a measure of variation in time in arrival of packets from a source to destination. High value of jitter adversely affects the user experience especially in real time interactive applications. (ii) ITU-T Rec. Y.1540 defines network parameters that may be used in specifying and assessing IP network performance. IP packet delay variation or IPDV or jitter is defined as the differences between the one-way delay of IP packet and reference IP packet transfer delay (e.g. average IPTD as a reference delay). (iii) The inter arrival jitter is the difference in the relative transit time for two packets. The relative transit time is the difference between a packet's Real-time Transport Protocol (RTP) timestamp and the receiver's clock at the time of arrival, measured in the same units. If Si is the RTP timestamp from packet i, and Ri is the time of arrival in RTP timestamps units for packet i, then for two",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

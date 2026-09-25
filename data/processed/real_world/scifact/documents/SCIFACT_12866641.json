@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12866641",
+  "title": "Enzymatic targeting of the stroma ablates physical barriers to treatment of pancreatic ductal adenocarcinoma.",
+  "content": "Pancreatic ductal adenocarcinomas (PDAs) are characterized by a robust fibroinflammatory response. We show here that this desmoplastic reaction generates inordinately high interstitial fluid pressures (IFPs), exceeding those previously measured or theorized for solid tumors, and induces vascular collapse, while presenting substantial barriers to perfusion, diffusion, and convection of small molecule therapeutics. We identify hyaluronan, or hyaluronic acid (HA), as the primary matrix determinant of these barriers and show that systemic administration of an enzymatic agent can ablate stromal HA from autochthonous murine PDA, normalize IFP, and re-expand the microvasculature. In combination with the standard chemotherapeutic, gemcitabine, the treatment permanently remodels the tumor microenvironment and consistently achieves objective tumor responses, resulting in a near doubling of overall survival.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

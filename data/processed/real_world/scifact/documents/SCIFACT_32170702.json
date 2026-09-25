@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_32170702",
+  "title": "Thrombopoietin/MPL signaling regulates hematopoietic stem cell quiescence and interaction with the osteoblastic niche.",
+  "content": "Maintenance of hematopoietic stem cells (HSCs) depends on interaction with their niche. Here we show that the long-term (LT)-HSCs expressing the thrombopoietin (THPO) receptor, MPL, are a quiescent population in adult bone marrow (BM) and are closely associated with THPO-producing osteoblastic cells. THPO/MPL signaling upregulated beta1-integrin and cyclin-dependent kinase inhibitors in HSCs. Furthermore, inhibition and stimulation of THPO/MPL pathway by treatments with anti-MPL neutralizing antibody, AMM2, and with THPO showed reciprocal regulation of quiescence of LT-HSC. AMM2 treatment reduced the number of quiescent LT-HSCs and allowed exogenous HSC engraftment without irradiation. By contrast, exogenous THPO transiently increased quiescent HSC population and subsequently induced HSC proliferation in vivo. Altogether, these observations suggest that THPO/MPL signaling plays a critical role of LT-HSC regulation in the osteoblastic niche.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

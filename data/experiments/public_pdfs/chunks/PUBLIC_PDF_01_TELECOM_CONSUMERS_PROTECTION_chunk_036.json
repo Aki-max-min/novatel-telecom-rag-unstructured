@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_036",
+  "document_id": "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+  "chunk_index": 36,
+  "text": "service shall be activated or deactivated within four hours and he shall receive a SMS confirming action taken on his request; Step – 8. An SMS shall be sent to the consumer, immediately after activation or deactivation of the service, as the case may be, informing him about the successful activation or deactivation of the service. (b) Through SMS: Step – 1. On receipt of a request on short code 1925 from the consumer to activate or deactivate data service, the consumer is informed through SMS to send “START” to 1925 for activation of 1 Ins. by the Eighth Amendment Regulations, 2015, reg. 3 (w.e.f. 01.09.2015) 21 data service and “STOP” to 1925 for deactivation of data service; Step – 2. In case of receipt of an incorrect response from the consumer, an SMS shall be sent to the consumer advising him to send through SMS “START” to 1925 for activation of data service and “STOP” to 1925 for deactivation of data service; Step – 3. On receipt of the request through SMS in step-1 or step-2, an SMS shall be delivered to the consumer informing him that the request to activate or deactivate the requested data service, as the case may be, has been received and the service shall be activated or deactivated within four hours and that he shall receive an SMS confirming action taken on his request; Step – 4. An SMS shall be sent to the consumer, immediately after activation or deactivation of the service, as",
+  "title": "01 telecom consumers protection",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/01_telecom_consumers_protection.pdf",
+  "file_type": "pdf"
+}

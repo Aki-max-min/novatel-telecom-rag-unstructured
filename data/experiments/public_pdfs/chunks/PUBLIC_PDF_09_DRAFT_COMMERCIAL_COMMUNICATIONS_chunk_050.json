@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_050",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 50,
+  "text": "receive commercial communications from the sender or consent acquirer; (c) establishCustomer Consent Varification Facility (CCVF) for the purpose of facilitating: (i) customers to verify, modify, renew or revoke their consent in respect of commercial communications, and (ii) Access Providers to verify the consent in case of complaint; (d) keep consent for each consent acquirer, in a manner that client data of entity is adequately protected; (e) keep record of revocation of consent by the customer, whenever exercised, in an immutable and non-repudiable manner; (f) synchronize records, in real time, among all consent ledgers available with participating nodes in Consent Acquisition Functionality in an immutable and non- repudiable manner; (g) maintain with minimum performance requirements as specified; (h) perform any other function and keep relevant details required for carrying out pre and post checks for regulatory compliance; (3) Content Template Registrar (CTR) to (a) carry out content template registration function; (b) keep records of registered templates in immutable and non repudiable manner; (c) maintain with minimum performance requirements as specified; (d) perform any other function and keep relevant details required for carrying out pre and post checks for regulatory compliance; (4) Content Format and Type Verifiers (CFTV) to (a) carry out content verification; (b) keep records with all relevant details for future references; (5) Telemarketers for Scrubbing function (TM-SF) to (a) carry out scrubbing; 36 (b) keep record of all numbers scrubbed for complaints resolution; (c) maintain with minimum performance requirements as specified; (d) perform any other function and keep relevant",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

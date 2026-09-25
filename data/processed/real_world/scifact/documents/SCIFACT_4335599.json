@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4335599",
+  "title": "Formation of germ-line chimaeras from embryo-derived teratocarcinoma cell lines",
+  "content": "The recent availability in culture of embryo-derived pluripotential cells which exhibit both a normal karyotype and a high differentiative ability1–3 has encouraged us to assess the potential of these cells to form functional germ cells following their incorporation into chimaeric mice. We report here the results of blastocyst injection studies using three independently isolated XY embryo-derived cell lines (EK.CP1, EK.CC1.1 and EKCC1.2) which produce a very high proportion (>50%) of live-born animals that are overtly chimaeric. Seven chimaeric male mice, derived from these three lines, have, so far, proved to be functional germ-line chimaeras.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

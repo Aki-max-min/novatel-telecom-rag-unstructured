@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_41782935",
+  "title": "Genetic diagnosis and prognosis of Alzheimer's disease: challenges and opportunities.",
+  "content": "Alzheimer's disease (AD), the most common form of dementia in western societies, is a pathologically and clinically heterogeneous disease with a strong genetic component. The recent advances in high-throughput genome technologies allowing for the rapid analysis of millions of polymorphisms in thousands of subjects has significantly advanced our understanding of the genomic underpinnings of AD susceptibility. During the last 5 years, genome-wide association and whole-exome- and whole-genome sequencing studies have mapped more than 20 disease-associated loci, providing insights into the molecular pathways involved in AD pathogenesis and hinting at potential novel therapeutic targets. This review article summarizes the challenges and opportunities of when using genomic information for the diagnosis and prognosis of AD.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

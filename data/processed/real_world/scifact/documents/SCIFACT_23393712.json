@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_23393712",
+  "title": "Cell-cell adhesion and signalling.",
+  "content": "Signalling pathways activated by Rho small GTPases have recently been identified that coordinate junction assembly, stability and function, as well as interactions of adhesive complexes with the underlying cortical cytoskeleton. Particularly exciting is the interplay between adherens junctions, activation of Rho proteins and the dynamics of microtubule, actin and intermediate filaments. This interplay has important implications for functional regulation of cell-cell adhesion, and points to a more integrated view of signalling processes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

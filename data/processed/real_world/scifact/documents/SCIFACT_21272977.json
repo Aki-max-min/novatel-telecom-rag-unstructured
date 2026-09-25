@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21272977",
+  "title": "Exocrine ontogenies: on the development of pancreatic acinar, ductal and centroacinar cells.",
+  "content": "This review summarizes our current understanding of exocrine pancreas development, including the formation of acinar, ductal and centroacinar cells. We discuss the transcription factors associated with various stages of exocrine differentiation, from multipotent progenitor cells to fully differentiated acinar and ductal cells. Within the branching epithelial tree of the embryonic pancreas, this involves the progressive restriction of multipotent pancreatic progenitor cells to either a central \"trunk\" domain giving rise to the islet and ductal lineages, or a peripheral \"tip\" domain giving rise to acinar cells. This review also discusses the soluble morphogens and other signaling pathways that influence these events. Finally, we examine centroacinar cells as an enigmatic pancreatic cell type whose lineage remains uncertain, and whose possible progenitor capacities continue to be explored.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13283919",
+  "title": "Defective mast cell effector functions in mice lacking the CRACM1 pore subunit of store-operated calcium release–activated calcium channels",
+  "content": "CRACM1 (also called Orai1) constitutes the pore subunit of store-operated calcium release–activated calcium channels. A point mutation in the gene encoding CRACM1 is associated with severe combined immunodeficiency disease in humans. Here we generated CRACM1-deficient mice in which β-galactosidase activity 'reported' CRACM1 expression. CRACM1-deficient mice were smaller in size. Mast cells derived from CRACM1-deficient mice showed grossly defective degranulation and cytokine secretion, and the allergic reactions elicited in vivo were inhibited in CRACM1-deficient mice. We detected robust CRACM1 expression in skeletal muscles and some regions of the brain, heart and kidney but not in the lymphoid regions of thymus and spleen. In contrast, we found CRACM2 expression to be much higher in mouse T cells. In agreement with those findings, the store-operated calcium influx and development and proliferation of CRACM1-deficient T cells was unaffected. Thus, CRACM1 is crucial in mouse mast cell effector function, but mouse T cell calcium release–activated calcium channels are functional in the absence of CRACM1.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

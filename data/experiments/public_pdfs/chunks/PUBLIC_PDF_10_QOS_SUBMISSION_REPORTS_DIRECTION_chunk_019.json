@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_019",
+  "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+  "chunk_index": 19,
+  "text": "is to be mentioned in the last row of the compliance report below the respective QoS parameter. C. Specific guideline for submission of compliance report of Access (wireless): i. All sheets of Annexure-I (i.e., Basic details, PMR, Supporting Info, Cell_Master, Downtime, CBBH, DCR_CS, DCR_PS, DL_PDR, UL_PDR, Call_established), completely filled, are required to be submitted at once for a particular LSA. ii. Following values are allowed to be filled against the specified parameters: S. No. Particular Values allowed 1 Name of the Service Provider Airtel, BSNL, MTNL, RJIL, VIL 2 Cell Global Identity (CGI) CGI should be unique and not be repeated. Each different CGI should be filled in separate row. 3 Pin Code Correct PIN should be filled. It should be six digits numeric value. 4 City/town/Village Name should be mentioned in same manner for different cells under column ‘City/ town/ Village’ 5 Site (Location) ID Physical ID of the site, if any, else name of location may be filled. It should be mentioned in same manner for different cells. 6 Lat and Long It should be accurate to 5 decimal places. 7 Base Station ID Base Station ID of the respective CGI should be filled. 8 Type of site Macro/ Micro/ IBS/ Small Cell/ Other 9 Technology 2G, 3G, 4G, 5G 10 Mode FDD/ TDD/ NA (NA stands for ‘Not Applicable’) 11 Radiating frequency band (MHz) It should be number without mentioning MHz like 900, 1800, 2100 etc. 12 Types of Media Connectivity Fiber/ Microwave/ Satellite/ Other 13 Whether",
+  "title": "10 qos submission reports direction",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/10_qos_submission_reports_direction.pdf",
+  "file_type": "pdf"
+}

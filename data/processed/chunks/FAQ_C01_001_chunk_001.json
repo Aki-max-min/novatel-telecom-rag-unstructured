@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C01_001_chunk_001",
+  "document_id": "FAQ_C01_001",
+  "chunk_index": 1,
+  "text": "step cannot be completed online, so in-store verification with photo ID is required instead. ### Escalation If OTP verification isn't possible because the old number is unreachable, the store visit is the designated fallback rather than a general support escalation. ### Example Scenario **Customer situation:** A customer has changed their contact number and wants NovaTel's records updated. **What happens:** Because they still have access to their currently registered number, they complete the change entirely in-app via OTP, without needing to visit a store. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C01_overview. Topic: Account Management",
+  "title": "How do I update the mobile number registered on my account?",
+  "document_type": "FAQ",
+  "category": "C01",
+  "department": "Customer Care",
+  "customer_scope": "prepaid",
+  "version": "1.0",
+  "last_updated": "2026-05-06",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C01_overview"
+  ],
+  "tags": [
+    "account",
+    "c01"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C01_001.json",
+  "file_type": "json"
+}

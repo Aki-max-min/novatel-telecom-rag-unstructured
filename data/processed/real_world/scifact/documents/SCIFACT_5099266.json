@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5099266",
+  "title": "Caspase-11 promotes the fusion of phagosomes harboring pathogenic bacteria with lysosomes by modulating actin polymerization.",
+  "content": "Inflammasomes are multiprotein complexes that include members of the NLR (nucleotide-binding domain leucine-rich repeat containing) family and caspase-1. Once bacterial molecules are sensed within the macrophage, the inflammasome is assembled, mediating the activation of caspase-1. Caspase-11 mediates caspase-1 activation in response to lipopolysaccharide and bacterial toxins, and yet its role during bacterial infection is unknown. Here, we demonstrated that caspase-11 was dispensable for caspase-1 activation in response to Legionella, Salmonella, Francisella, and Listeria. We also determined that active mouse caspase-11 was required for restriction of L. pneumophila infection. Similarly, human caspase-4 and caspase-5, homologs of mouse caspase-11, cooperated to restrict L. pneumophila infection in human macrophages. Caspase-11 promoted the fusion of the L. pneumophila vacuole with lysosomes by modulating actin polymerization through cofilin. However, caspase-11 was dispensable for the fusion of lysosomes with phagosomes containing nonpathogenic bacteria, uncovering a fundamental difference in the trafficking of phagosomes according to their cargo.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

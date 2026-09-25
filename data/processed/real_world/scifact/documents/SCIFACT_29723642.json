@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29723642",
+  "title": "A functional polymorphism in the prodynorphin gene promotor is associated with temporal lobe epilepsy.",
+  "content": "The prodynorphin gene (PDYN) encoding the anticonvulsant peptide dynorphin is a strong candidate for a seizure suppressor gene and thus a possible modulator of susceptibility to temporal lobe epilepsy. We performed a case control association study in 155 patients with nonlesional temporal lobe epilepsy and 202 controls and found that PDYN promotor low-expression L-alleles confer an increased risk for temporal lobe epilepsy in patients with a family history for seizures. Irrespective of the familial background, L-homozygotes display a higher risk for secondarily generalized seizures and status epilepticus.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

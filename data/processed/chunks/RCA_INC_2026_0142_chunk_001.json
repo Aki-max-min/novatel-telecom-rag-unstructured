@@ -1,0 +1,23 @@
+{
+  "chunk_id": "RCA_INC_2026_0142_chunk_001",
+  "document_id": "RCA_INC_2026_0142",
+  "chunk_index": 1,
+  "text": "for all clusters currently on single fibre path (target: 60 days). Establish a proactive excavation-notification liaison with municipal authorities for high-risk corridors (target: 90 days). Add this fibre route to the priority physical-protection (route diversity) programme. Preventive Actions Longer-term preventive measures are tracked alongside the corrective actions above and reviewed at the next governance cycle. Monitoring Changes Monitoring thresholds/alerts relevant to this failure mode are reviewed and updated where the investigation identified a detection gap. Ownership Actions 1 and 2 in progress; owner: Network Infrastructure team. Status Actions 1 and 2 in progress; owner: Network Infrastructure team. Related Documents Related documents: INC_INC_2026_0142.",
+  "title": "RCA: Mumbai West 4G Cluster Outage (INC-2026-0142)",
+  "document_type": "RCA",
+  "category": "C08",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "INC_INC_2026_0142"
+  ],
+  "tags": [
+    "c08",
+    "rca"
+  ],
+  "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0142.docx",
+  "file_type": "docx"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_225",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 225,
+  "text": "Privacy: Because many parties have a copy of the ledger, and many parties can verify every record, a shared ledger has a high degree of transparency. This can enable a participant with the right access privileges (e.g.: regulator or an independent body) to ascertain with confidence whether the contents of a database have been edited or modified in any fraudulent way. Records are added with a cryptographic signature that is unique to each participant. This allows the entity examining the ledger to determine whether the right participant added the right record according to the right rules. 8.5 DLT has potential to offer solution: Distributed ledger technology (DLT) seems to have the potential to support the needs of Telecom Service Providers, Telemarketers, Mobile Users for commercial communications with better control and management over UCC. 8.6 Automation, Flat architecture, Speed, sharing of data, shared cost: DLT has the potential to provide various benefits for processes of registration of entities like telemarketers, content providers and identities like SMS headers, Calling line identities for voice calls. These benefits are likely to emerge in commercial communication space as multiple participants need to share data and processes safely, particularly for registration of entities and consent taking process where firms are still reliant on paper- based records. DLT’s also have ability to remove certain unnecessary intermediaries which in turn will reduce the means for content providers to bypass regulatory compliances. The distributed nature of DLT based records, can increase the speed of making latest updated data available",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

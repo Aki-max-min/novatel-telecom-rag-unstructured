@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_092",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 92,
+  "text": "regulations were notified more than a decade ago. Since then, the technology landscape of telecom networks has completely changed and moved towards converged networks. At that time, 2G/3G were the dominant mobile technologies in the country. The share of different mobile technologies at pan-India level, based on the number of base stations reported by mobile service providers as of April 2024, is given in the Figure 2. 7 https://trai.gov.in/sites/default/files/CA_06102006.pdf 8 https://trai.gov.in/sites/default/files/CA_20032009.pdf 9 https://trai.gov.in/sites/default/files/CA_04122012.pdf 10 https://trai.gov.in/release-publication/consolidated-regulations/telecom 131 Figure 2: Base Station wise network of different mobile technologies It is evident from Figure-2 that the composition of technology-wise coverage has significantly changed since the time these regulations were notified. Now the packet-switched 4G/5G technology base stations constitute more than 80% of the total base stations in the country. 2.6 With increasing digitization across different sectors and ‘Digital India’ initiative of the Government, availability and quality of telecom services have become an essential requirement for social and economic activities. Non- availability of telecom services in any part of the country adversely impacts social, economic, and e-Governance activities which are dependent upon availability of telecom services. Therefore, the QoS standards need to evolve to factor these requirements. 2.7 With the widespread coverage of 4G network; rollout of 5G services; increasing penetration of wireline broadband services on fibers and with change in consumers usage pattern from mere voice calls and data browsing to online commercial and near or real-time usages for gaming etc., the Authority decided to carry out an extensive review of the existing",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

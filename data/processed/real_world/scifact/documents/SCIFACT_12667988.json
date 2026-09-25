@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12667988",
+  "title": "Biofeedback and relaxation in the treatment of migraine headaches: comparative effectiveness and physiological correlates.",
+  "content": "Twenty-seven migraine headache patients were divided into three equal groups which received thermal biofeedback, frontalis EMG biofeedback, or relaxation training. Training was given under \"massed\" practice conditions (nine sessions per week) and consisted of 18 training sessions and six test-generalisation sessions. While improvements in headaches were observed in all groups, the best improvements took place in the thermal biofeedback group, which had almost complete elimination of migraine attacks by the end of training, and maintained that performance as long as six months after training. Examination of the patterns of skin temperature and EMG changes in the three groups over the course of training also points to a relationship between skin temperature control and reduction in migraine headache symptomatology, and suggests that this relationship is worthy of further investigation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

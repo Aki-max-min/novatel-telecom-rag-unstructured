@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_168",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 168,
+  "text": "recommendation Y.1545.1, the QoS benchmark for latency in wireline broadband service has been fixed as ≤ 50 msec. 5.3.9 Packet drop rate {Access (Wireless) and Broadband (Wireline)} (a) Input of Stakeholders Some stakeholders submitted that the proposed benchmark has changed from 5% to 2% making it stringent by 60% without considering ongoing issues of Interference, atmospheric ducting, low coverage in rural pockets where inter-site distance is high nor geographical challenge is considered for J&K, NE, MP/CG, HP, UK. Hence, it is suggested that existing benchmarks should continue and not revised. (b) Analysis and Conclusion (i) In present wireless data regulations, the parameter is ‘drop rate’ for measuring session drop rate, and not the packet drop rate, with a benchmark of ≤5%. However, in the consultation paper proposed parameter is ‘packet drop rate’ with a benchmark of ≤2%. Hence the submission of stakeholders that benchmark has been reduced from 5% to 2% is not correct. The old parameter for session ‘drop rate’ has been removed from the regulation. (ii) However, considering the submission of stakeholders and characteristics of radio networks, the Authority has decided that initially the benchmark for Packet drop rate (in 4G and 5G networks) will be ≤ 3%. The Authority has further decided to provide a glide path to improve the performance against benchmark to ≤ 2% over a period as mentioned in the regulation. The performance against this parameter shall be measured as per the measurement methodology provided in the Schedule-I of the regulation. The present benchmark",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

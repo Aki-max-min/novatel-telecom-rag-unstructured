@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8453819",
+  "title": "Integrin activation by Fam38A uses a novel mechanism of R-Ras targeting to the endoplasmic reticulum.",
+  "content": "The integrin family of heterodimeric cell-surface receptors are fundamental in cell-cell and cell-matrix adhesion. Changes to either integrin-ligand affinity or integrin gene expression are central to a variety of disease processes, including inflammation, cardiovascular disease and cancer. In screening for novel activators of integrin-ligand affinity we identified the previously uncharacterised multi-transmembrane domain protein Fam38A, located at the endoplasmic reticulum (ER). siRNA knockdown of Fam38A in epithelial cells inactivates endogenous beta1 integrin, reducing cell adhesion. Fam38A mediates integrin activation by recruiting the small GTPase R-Ras to the ER, which activates the calcium-activated protease calpain by increasing Ca(2+) release from cytoplasmic stores. Fam38A-induced integrin activation is blocked by inhibition of either R-Ras or calpain activity, or by siRNA knockdown of talin, a well-described calpain substrate. This highlights a novel mechanism for integrin activation by Fam38A, utilising calpain and R-Ras signalling from the ER. These data represent the first description of a novel spatial regulator of R-Ras, of an alternative integrin activation-suppression pathway based on direct relocalisation of R-Ras to the ER, and of a mechanism linking R-Ras and calpain signalling from the ER with modulation of integrin-ligand affinity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

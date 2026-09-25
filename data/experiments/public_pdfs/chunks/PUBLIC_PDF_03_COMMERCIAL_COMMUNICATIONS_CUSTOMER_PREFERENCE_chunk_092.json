@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_092",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 92,
+  "text": "related to effectiveness and efficiency of the current regulatory framework have either been observed or came into notice are: i. The existing system takes about 24 hours to register preferences and requires up to seven days to enforce the revised preferences, ii. Usually time required to resolve UCC complaints and take action against defaulter is more than seven days. This long-time window is exploited by the unregistered telemarketers to send UCC, iii. Despite measures taken by the TSPs to control UCC from Unregistered Telemarketers (UTMs) and provisions in the regulations for the disconnection of telecom resources, UCC from Unregistered Telemarketers is still continuing, iv. Due to false complaints or fake identities against which connections are taken, the telecom resources of person who might not have indulged in sending UCC are sometimes disconnected. v. Intuitive and Intelligent Mobile App for registering preferences and making complaints is required for most Operating Systems and Platforms in the mobile device market, which would enable device users to make complaints against the sender of UCC in a convenient and user friendly manner, vi. The existing system takes a long time to make preferences made by the customer effective, vii. Cases where the request (consent) is taken by organizations or individuals to send transactional messages are unverifiable and accessible, as well as, customers don’t have the choice to revoke such consent, 56 viii. Transactional Message headers are abused to send promotional messages, ix. Cases of non-traceability of Senders of UCC, and intermediaries, x. Cases brought to",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

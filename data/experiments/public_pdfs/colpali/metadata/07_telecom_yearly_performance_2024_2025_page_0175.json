@@ -1,0 +1,15 @@
+{
+  "page_id": 670,
+  "pdf_path": "reports\\07_telecom_yearly_performance_2024_2025.pdf",
+  "pdf_name": "07_telecom_yearly_performance_2024_2025.pdf",
+  "document_id": "07_telecom_yearly_performance_2024_2025",
+  "page_number": 175,
+  "page_number_zero_based": 174,
+  "image_path": "page_images\\07_telecom_yearly_performance_2024_2025\\page_0175.jpg",
+  "embedding_path": "embeddings\\07_telecom_yearly_performance_2024_2025\\page_0175.pt",
+  "embedding_shape": [
+    1,
+    1030,
+    128
+  ]
+}

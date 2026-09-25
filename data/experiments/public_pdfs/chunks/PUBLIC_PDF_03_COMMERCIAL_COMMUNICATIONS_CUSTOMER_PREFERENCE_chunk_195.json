@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_195",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 195,
+  "text": "this, the Authority decides that Access Provider should establish UCC_Detect System with requisite functionalities to detect, identify and act against sender(s) of Commercial Communication who are not registered with them and to detect unauthorized senders of content, e.g. related to financial investment tips, advisories. Further implementation details about UCC_Detect_System need to be included in Code of Practice (CoP) for such system. 5.3.6 TAP and OAP to act in parallel for timely action to control UCC: Reduction in time for complaint registration and its resolution may be achieved by adopting technology-based solutions. This would require automation of processes and development and deployment of APIs. Once complaint is registered, there are multiple reasons for delays in resolution. One reasons may be that TAP, and OAP deal with the UCC complaints in a sequential manner. Sometime gains can be made by parallelizing some of the processes. It is recommended that TAP should immediately record the complaint and forward it to the OAP for resolution. In the meantime, TAP may check CDRs of the complainant and/or the person or entity complained against to verify the occurrence. The outcome of this check may be recorded on Complaint Handling System which is also accessible to OAP. In view of above, the Authority decides that TAP should record the complaint and notify, in real time, the details of the complaint to the concerned OAP. TAP should verify within one business day, whether the alleged communication actually occurred between the complainant and the reported telephone number or header",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

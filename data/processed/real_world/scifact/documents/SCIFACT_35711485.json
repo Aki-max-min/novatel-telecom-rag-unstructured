@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_35711485",
+  "title": "Banana contains a diverse array of endogenous badnaviruses.",
+  "content": "Banana streak disease is caused by several distinct badnavirus species, one of which is Banana streak Obino l'Ewai virus. Banana streak Obino l'Ewai virus has severely hindered international banana (Musa spp.) breeding programmes, as new hybrids are frequently infected with this virus, curtailing any further exploitation. This infection is thought to arise from viral DNA integrated in the nuclear genome of Musa balbisiana (B genome), one of the wild species contributing to many of the banana cultivars currently grown. In order to determine whether the DNA of other badnavirus species is integrated in the Musa genome, PCR-amplified DNA fragments from Musa acuminata, M. balbisiana and Musa schizocarpa, as well as cultivars 'Obino l'Ewai' and 'Klue Tiparot', were cloned. In total, 103 clones were sequenced and all had similarity to open reading frame III in the badnavirus genome, although there was remarkable variation, with 36 distinct sequences being recognized with less than 85 % nucleotide identity to each other. There was no commonality in the sequences amplified from M. acuminata and M. balbisiana, suggesting that integration occurred following the separation of these species. Analysis of rates of non-synonymous and synonymous substitution suggested that the integrated sequences evolved under a high degree of selective constraint as might be expected for a living badnavirus, and that each distinct sequence resulted from an independent integration event.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

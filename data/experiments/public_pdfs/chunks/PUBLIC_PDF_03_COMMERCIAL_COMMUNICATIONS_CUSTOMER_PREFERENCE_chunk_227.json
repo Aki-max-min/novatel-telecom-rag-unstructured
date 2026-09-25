@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_227",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 227,
+  "text": "challenges of UCC regulatory checks and compliance that were previously very expensive or challenging. For the reasons discussed above, DLT seems to have exciting potential to support the needs of TSPs, Telemarketers, users for commercial communications with better control and management over UCC. 9 Types of DLT Networks 9.1 Multiple types of DLT networks: In practice, there is a broad spectrum of distributed ledger models, with different degrees of centralization and different types of access control, to suit different business needs. These may be ‘unpermissioned’ ledgers that are open to everyone to contribute data to the ledger and cannot be owned; or ‘permissioned’ ledgers that may have one or many owners and only they can add records and verify the contents of the ledger. 9.2 Matrix of feature set for types of DLT networks: In case of permissioned private ledgers, only permissioned entities may read the contents of the ledger and write to the ledger. The permissioned private ledgers may have one or many owners. When a new record is added, the ledger’s integrity is checked by a limited consensus process. This is carried out by trusted actors. This process makes data entry and verification faster and more efficient when compared to the consensus process of permission less ledgers. In addition, use of digital signatures by nodes on the chain also creates highly-verifiable data sets. 9.3 Permissioned DLT Networks: Permissioned (usually private) DLT Networks are often split into consortium DLT Networks, or fully private DLT Networks. There are benefits and",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

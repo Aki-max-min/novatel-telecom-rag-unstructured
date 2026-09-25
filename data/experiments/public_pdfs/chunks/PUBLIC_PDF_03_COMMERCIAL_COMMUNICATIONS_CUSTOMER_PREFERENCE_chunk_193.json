@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_193",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 193,
+  "text": "is equipped with more information about suspected UCC senders. Technology based solutions can be designed to carry out all these checks and retrieve desired information in a short time. This system may also use Artificial Intelligence (AI) and Machine Learning (ML) techniques to constantly evolve to deal with new signatures, new patterns and new techniques used by UTM for sending UCC and while remaining undetected. Currently, criteria, rules, policies etc. for detecting UCC from UTMs are in public domain and spammers adapts their patterns to escape detection. Since taking action is permissible only after a complaint is received from at least one customer the criteria, rules and policies for detection should be treated as intelligence secrets and kept confidential. This system may also be helpful i. to detect suspected senders after analysing multiple factors: The determination of a UCC sender’s guilt cannot be made on the basis of one single complaint. When a customer makes a complaint against a sender of UCC, there should be a system to immediately check whether any other recipients have filed similar complaints about the same sender. For this purpose, supporting information may be provided by this system after analysing multiple factors other than complaints and signatures, such as profile of the customer may be helpful in avoiding false positives. Reputation-based analysis may take into account various factors like age of subscription, authentication at the time of subscription, address verification method etc. ii. to detect unauthorized senders of content: UCC_Detect System may also support pattern",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

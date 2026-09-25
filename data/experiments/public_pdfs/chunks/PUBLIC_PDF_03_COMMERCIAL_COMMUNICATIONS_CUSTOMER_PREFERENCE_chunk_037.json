@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_037",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 37,
+  "text": "to the Authority for restoring his telecom resources or removing the restrictions on usage and satisfies the Authority that it has taken reasonable steps to prevent recurrence of such contravention, the Authority may by order ask access provider(s) to remove such restrictions on usage or restore all telephone number(s) of the person and delete the name and address of such Sender(s) from the blacklist, as the case may be, on payment of an amount of five thousand rupees per resource to the Authority for restoration of all such telecom resources, subject to the condition that the total amount payable by the customer or sender shall not exceed rupees five lakhs. Provided that the Authority may impose no financial disincentive or impose a lower amount where it finds merit in the reasons furnished by the customer. MIGRATION OF EXISTING REGISTERED ENTITIES AND RECORDS 30. Access providers shall prepare migration plan for existing data, process and role being played at present by different entities to the new system of data, process and role of new entities prescribed in these regulations; 31. List of key activities (but not an exhaustive list) for preparation of migration plan, attached are as per schedule-VI; CHAPTER-VII MISCELLANEOUS 32. No business or legal entity not registered with the access provider for the purpose of sending commercial communications under these regulations shall make commercial communication or cause such message to be sent or voice call to be made or authorize the sending of such message or making of a",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

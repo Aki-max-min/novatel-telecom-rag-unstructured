@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13245542",
+  "title": "Temporal regulation of topoisomerase IV activity in E. coli.",
+  "content": "We isolated a mutant allele of dnaX, encoding the tau and gamma subunits of the DNA polymerase III holoenzyme, that causes extreme cell filamentation but does not affect either cell growth or DNA replication. This phenotype results from a defect in daughter chromosome decatenation during rapid growth. In these cells, ParC, one subunit of topoisomerase IV, no longer associated with the replication factory, as occurs in wild-type cells, and was instead distributed uniformly on the nucleoid; the distribution of ParE, the other subunit of topoisomerase IV, was unaffected. In addition, the majority of topoisomerase IV activity in synchronized cell populations was restricted to late in the cell cycle, when replication was essentially complete. These observations suggest that topoisomerase IV activity in vivo might be dependent on release of ParC from the replication factory.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

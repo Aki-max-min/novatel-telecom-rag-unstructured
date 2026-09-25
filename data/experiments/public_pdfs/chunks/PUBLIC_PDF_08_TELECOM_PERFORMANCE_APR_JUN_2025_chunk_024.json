@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_024",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 24,
+  "text": "179.66 - - 5 Jammu & Kashmir 90.42 64.18 148.44 6 Ladakh 181.19 158.85 227.53 7 Lakshdweep 109.70 - - 8 Puduchery 68.67 71.81 67.36 Total 86.09 59.43 133.56 11 Table 1.7: Service Provider wise Growth in Subscriber base Service Provider Subscriber base (millions) Rate of Growth Market Share in QE Mar-25 Market Share in QE Jun-25 Mar-25 Jun-25 Net Additions Reliance Jio 488.19 498.06 9.87 2.02% 40.66% 40.88% Bharti 401.14 403.11 1.97 0.49% 33.41% 33.09% Vodafone Idea Ltd 206.19 204.99 -1.20 -0.58% 17.17% 16.82% BSNL 98.74 98.01 -0.73 -0.74% 8.22% 8.04% MTNL 3.01 2.15 -0.85 -28.39% 0.25% 0.18% #Tata 2.38 10.95 8.57 359.55% 0.20% 0.90% Quadrant 0.35 0.34 0.00 -1.13% 0.03% 0.03% Reliance Com. 0.11 0.10 -0.01 -10.11% 0.01% 0.01% APSFL 0.63 0.60 -0.03 -5.31% 0.05% 0.05% STPL 0.05 0.05 0.00 0.66% 0.00% 0.004% Total 1,200.80 1,218.36 17.57 1.46% 100% 100% #NOTE: Earlier, Tata Teleservices (Access Service Provider), for reporting its wireline subscriber base, counted the number of voice channels given to Primary Rate Interface (PRI) customers and Session Initiation Protocol (SIP) customers. However, from the month of June 2025, Tata Teleservices, has started counting the numbering resources (i.e., the range of telephone numbers) given to PRI and SIP customers. 1.11 M/s Reliance Jio Infocomm Ltd is the market leader with 40.88% in the access segment in terms of number of subscribers with 498.06 million subscribers at the end of Jun-25 followed by M/s Bharti Airtel Ltd with 403.11 million subscribers. 1.12 In term of net addition, Reliance Jio",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

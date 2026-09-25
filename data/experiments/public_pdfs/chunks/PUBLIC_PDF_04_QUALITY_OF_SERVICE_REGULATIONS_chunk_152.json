@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_152",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 152,
+  "text": "cause of the problem, analysis of cell-wise DCR performance was undertaken on the data submitted by the TSPs in the performance reports. (iii) Accordingly, DCR matrix data of QE Dec’2022 was analyzed in detail. On analysis, it was observed that though all TSPs are meeting the benchmark of DCR related parameters in all the LSAs, however, technology wise performance against DCR provided an entirely different picture. In many LSAs, 2G and 3G networks of TSPs were not meeting the benchmark of DCR related parameters as summarized in Table 7. Table-7: Number of LSAs where service providers are not meeting the DCR benchmark (2%) TSP 2G 3G 4G Overall QSD QTD QSD QTD QSD QTD QSD QTD TSP-1 6 2 1 1 2 1 0 0 TSP-2 2 1 0 0 1 2 0 0 TSP-3 1 0 0 0 0 0 0 0 TSP-4 0 0 0 0 0 0 0 0 TSP-5 11 3 9 10 0 0 0 0 Total 20 6 10 11 3 3 0 0 (iv) This analysis along with other details was discussed with the technical teams of each TSP during the month of March’2023. Subsequently, the analysis was shared with each TSP through TRAI’s letter no- RP-4/4/2(3)/2023-QoS dated 20.3.2023. (v) This analysis also supports the understanding that performance of packet switched network (4G) is better than circuit switched networks (2G/ 3G) with respect to DCR related parameters. The bad performance of 2G/ 3G networks gets compensated through the good performance of 4G. (vi)",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

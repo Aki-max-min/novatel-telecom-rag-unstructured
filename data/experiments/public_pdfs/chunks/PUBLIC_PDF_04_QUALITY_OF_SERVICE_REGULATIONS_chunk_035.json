@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_035",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 35,
+  "text": "on the actual traffic experienced by the respective cell. Thus, the CBBH for a cell will remain the same for a quarter irrespective of the assessment period for the purpose of reporting the performance against QoS parameters. 1.2. Time Consistent Busy Hour (TCBH): TCBH for a quarter shall be decided on the basis of analysis of hourly traffic data of the concerned resource group for each day of preceding quarter. The hour during which the concerned resource group experience maximum average traffic during preceding quarter shall be TCBH of the concerned resource group. TCBH so determined shall be same for whole of the resource group. The TCBH for concerned resource group (like PoI, latency etc.) will remain the same for a quarter irrespective of the assessment period for the purpose of reporting the performance against QoS parameters. 2. Force majeure: For the purpose of measurement methodology provided in Schedule-I, the force majeure incidence shall include reason of war, or hostility, acts of the public enemy, civic commotion, sabotage, Act of State or direction from Statutory Authority, explosion, epidemic, quarantine restriction, strikes and lockouts (as are not limited to the establishments and facilities of the service provider), fire, floods, natural calamities or any act of GOD (hereinafter referred to as EVENT), provided duly documented proof of happenings of any such EVENT is maintained and produced by the service provider while claiming exemption against any QoS benchmark. 3. Measurement Methodology for QoS Parameters under Regulation 4.- Access Service (Wireline) 3.1. Service Provisioning",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

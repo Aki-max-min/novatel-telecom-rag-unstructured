@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21495419",
+  "title": "The impact of COPD on lung health worldwide: epidemiology and incidence.",
+  "content": "Information on the prevalence of COPD was obtained from vital statistics, health interview surveys, hospital charge records, national publications, and the World Health Organization (WHO). These data indicate that COPD is a common disease with implications for global health. In the United States, morbidity caused by COPD is 4%, making COPD the fourth leading cause of death, exceeded only by heart attacks, cancer, and stroke. Internationally, there is substantial variation in death rates possibly reflecting smoking behavior, type and processing of tobacco, pollution, climate, respiratory management, and genetic factors. The Global Obstructive Lung Disease Initiative, initiated by the National Heart, Lung, and Blood Institute and the WHO, aims to raise awareness of the increasing burden of COPD, decrease morbidity and mortality, promote further study of the condition, and implement programs to prevent COPD.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

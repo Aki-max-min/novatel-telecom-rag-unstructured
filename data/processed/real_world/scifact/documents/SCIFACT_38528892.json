@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_38528892",
+  "title": "The aurora B kinase promotes inner and outer kinetochore interactions in budding yeast.",
+  "content": "The kinetochore is the macromolecular protein complex that mediates chromosome segregation. The Dsn1 component is crucial for kinetochore assembly and is phosphorylated by the Aurora B kinase. We found that Aurora B phosphorylation of Dsn1 promotes the interaction between outer and inner kinetochore proteins in budding yeast.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

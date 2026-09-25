@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_41735503",
+  "title": "The International Classification of Headache Disorders.",
+  "content": "A set of related medical disorders that lack a proper classification system and diagnostic criteria is like a society without laws. The result is incoherence at best, chaos at worst. For this reason, the International Classification of Headache Disorders (ICHD) is arguably the single most important breakthrough in headache medicine over the last 50 years. The ICHD identifies and categorizes more than a hundred different kinds of headache in a logical, hierarchal system. Even more important, it has provided explicit diagnostic criteria for all of the headache disorders listed. The ICHD quickly became universally accepted, and criticism of the classification has been minor relative to that directed at other disease classification systems. Over the 20 years following publication of the first edition of the ICHD, headache research has rapidly accelerated despite sparse allocation of resources to that effort. In summary, the ICHD has attained widespread acceptance at the international level and has substantially facilitated both clinical research and clinical care in the field of headache medicine.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

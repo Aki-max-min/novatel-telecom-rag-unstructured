@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26231129",
+  "title": "A framework for understanding and targeting residual disease in oncogene-driven solid cancers",
+  "content": "Molecular targeted therapy has the potential to dramatically improve survival in patients with cancer. However, complete and durable responses to targeted therapy are rare in individuals with advanced-stage solid cancers. Even the most effective targeted therapies generally do not induce a complete tumor response, resulting in residual disease and tumor progression that limits patient survival. We discuss the emerging need to more fully understand the molecular basis of residual disease as a prelude to designing therapeutic strategies to minimize or eliminate residual disease so that we can move from temporary to chronic control of disease, or a cure, for patients with advanced-stage solid cancers. Ultimately, we propose a shift from the current reactive paradigm of analyzing and treating acquired drug resistance to a pre-emptive paradigm of defining the mechanisms that result in residual disease, to target and limit this disease reservoir.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

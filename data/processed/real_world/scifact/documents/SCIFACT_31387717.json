@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_31387717",
+  "title": "Crystal structure and association behaviour of the GluR2 amino-terminal domain.",
+  "content": "Fast excitatory neurotransmission is mediated largely by ionotropic glutamate receptors (iGluRs), tetrameric, ligand-gated ion channel proteins comprised of three subfamilies, AMPA, kainate and NMDA receptors, with each subfamily sharing a common, modular-domain architecture. For all receptor subfamilies, active channels are exclusively formed by assemblages of subunits within the same subfamily, a molecular process principally encoded by the amino-terminal domain (ATD). However, the molecular basis by which the ATD guides subfamily-specific receptor assembly is not known. Here we show that AMPA receptor GluR1- and GluR2-ATDs form tightly associated dimers and, by the analysis of crystal structures of the GluR2-ATD, propose mechanisms by which the ATD guides subfamily-specific receptor assembly.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_237",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 237,
+  "text": "of creating necessary regulatory framework to consider DLT networks and other innovative technology or processes while some regulators are specifically looking to embrace DLTs for their own purposes. 10.2 Regulators embracing DLT networks for their own purposes: The European Commission plans to set up a FinTech task force that will look at all emerging technologies including those linked to blockchain virtual currencies. In the UK, the Government Office for Sciences published a generally positive report and recommended embracing DLT for specific purposes, describing developments as potentially catalyzing ‘exceptional levels of innovation. 10.2.1 Over and above policy support for DLT development, certain regulators and governments are embracing DLT themselves. In Singapore, the MAS is fully embracing DLT in partnering with R3 and a consortium of financial institutions on a proof of concept (POC) project to conduct inter-bank payments using blockchain. The project will develop a pilot system in which blockchain infrastructure is used to issue and transfer funds among participants. 10.2.2 Regulators enabling opportunities to test and demonstrate DLT based solutions: Some financial regulators embracing the concept of a ‘regulatory sandbox’ that may allow beta testing of DLTs and § Interoperability of multiple DLT networks is not possible The great advantage of distributed ledger technologies is that consensus is automatically built, accepted and propagated through a network of nodes. It breaks the underlying technology if everyone has their own DLT network. Who can be trusted in this scenario? The truth is that a consortium of DLT networks can publish their records",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

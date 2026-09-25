@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_230",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 230,
+  "text": "forms and it is reasonable to assume that a number of DLT systems will need to interact and share data between one another and with non-DLT legacy systems. Therefore, at this stage, it may be difficult to specify any particular choice of DLT system. However, it would be appropriate to consider adopting DLT systems which offer open source-based implementation and have the capability to inter-operate with other similar open source based DLT systems and non-DLT legacy systems. Successful proofs of concept to meet the regulatory requirements of the UCC ecosystem and considerations such as interoperability with the incumbent systems and the ease and cost of adoption may be essential requirements to set up and participate in the new DLT system. 9.6 Summary about DLT’s potential: DLT offers a revolutionary solution to fundamentally improve the regulation and delivery of commercial communications. As mentioned above, DLT allows all players in the ecosystem to share customer information and transaction histories securely over a distributed data infrastructure, with the consent of the user and without compromising on the customer’s privacy or sensitive business information. The ecosystem’s participants can be certain of the digitized records being authentic and are informed in a timely manner of the progress of the scrubbing and delivery of the commercial communication. Content providers and principal entities can therefore be sure about regulatory compliances and safety of their data along the delivery chain. Authority generally takes a ‘technology neutral’ approach but feels that DLT has distinctive features, which provide capabilities in",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

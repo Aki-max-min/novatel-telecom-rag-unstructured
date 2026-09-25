@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9929089",
+  "title": "Subsequent chemotherapy reverses acquired tyrosine kinase inhibitor resistance and restores response to tyrosine kinase inhibitor in advanced non-small-cell lung cancer",
+  "content": "BACKGROUND Patients with advanced or metastatic non-small cell lung cancer (NSCLC) can develop acquired resistance to epidermal growth factor receptor tyrosine kinase inhibitors (TKIs) erlotinib and gefitinib. Here, we report the successful treatment with alternating chemotherapy and TKIs of two cases of advanced NSCLC who developed resistance to TKI. CASE PRESENTATION Two patients with advanced or metastatic NSCLC were treated with palliative chemotherapy followed by erlotinib/gefitinib. When TKI therapy failed, two cycles of chemotherapy were provided, which were followed by re-challenge with erlotinib or gefitinib. CONCLUSION NSCLC patients with acquired TKI resistance should be managed aggressively whenever possible. Subsequent chemotherapy and target treatment is one of the reasonable choices for those with an initial dramatic clinical response with erlotinib/gefitinib treatment. Further studies are warranted to substantiate the association of erlotinib /gefitinib treatment with the efficacy of NSCLC patients with acquired TKI failure.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

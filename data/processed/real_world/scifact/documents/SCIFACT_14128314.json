@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14128314",
+  "title": "Stem Cells and Early Lineage Development",
+  "content": "The recent derivation of pluripotent stem cell lines from a number of different sources, including reprogrammed adult somatic cells, raises the issue of the developmental equivalence of these different pluripotent states. At least two different states representing the epiblast progenitors in the blastocyst and the pluripotent progenitors of the later gastrulating embryo have been recognized. Understanding the initial developmental status of the different pluripotent lines is critical for defining starting conditions for differentiation toward therapeutically relevant cell types.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

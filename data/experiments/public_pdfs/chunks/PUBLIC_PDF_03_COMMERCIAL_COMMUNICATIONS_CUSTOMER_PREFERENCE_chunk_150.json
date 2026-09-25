@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_150",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 150,
+  "text": "from auto dialers or those with pre-recorded announcements. Steps may be required to address the issues arising from Robo calls and silent calls. Technical solutions to deal with such issue are required and customers may need options to opt out of these new modes. Such commercial communications may also originate from outside, requiring international co-operation and collaboration. 4.2 Comments of the stakeholders on the issues: - 4.2.1 Large time gap between registration request or change and execution for preference: On the issue of reducing timelines, most of the stakeholders suggested that such reduction is possible. Few stakeholders suggested that this could be done by establishing a central repository for directly registering customer preference through voice or SMS based solution along with a real-time update on the alteration of preference, with the TSPs being simultaneously connected to the central repository. Others have suggested reducing time by providing for instant connectivity between PCPR and NCPR 79 database through API integration at the operator level. Alternatively, instant connectivity can be established between the operator messaging gateway and the NCPR database, thereby excluding the need to maintain a PCPR database. i. Many stakeholders supported the idea of creating a cloud-based, centralized and automated platform, to support real-time updates regarding registration/ change/ deregistration of the subscriber preferences. ii. Moreover, many stakeholders supported that scrubbing as a service will actually reduce the time for enforcement. They recommended that the TSPs & Telemarketers should access the central registry through suitable APIs. One of the registered telemarketers commented",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

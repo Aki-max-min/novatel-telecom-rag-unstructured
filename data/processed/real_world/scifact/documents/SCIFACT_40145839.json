@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_40145839",
+  "title": "NC-100717: a versatile RGD peptide scaffold for angiogenesis imaging.",
+  "content": "Targeting the molecular pathways associated with angiogenesis offers great potential in detecting disease pathology using in vivo imaging technologies. Initiation of angiogenesis requires activation and migration of endothelial cells in order for neovascularization to proceed. Endothelial cells associate with the extracellular matrix through specific interactions with a variety of cell adhesion receptors known as integrins. Peptides containing the tripeptide sequence RGD are known to bind with high affinity to the alphavbeta3 and alphavbeta5 integrins associated with angiogenesis. We present herein the synthesis and in vitro binding affinity of the RGD-containing peptide NC-100717 and a range of molecular probes derived from this intermediate.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

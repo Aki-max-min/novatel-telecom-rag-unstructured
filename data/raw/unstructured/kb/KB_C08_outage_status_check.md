@@ -1,23 +1,65 @@
 # How to Check and Report a Network Outage
 
-**Document ID:** KB_C08_outage_status_check  
-**Category:** C08 — Network Coverage & Outages  
-**Department:** Network  
-**Last Updated:** 2026-08-01  
-**Version:** 1.0  
+**Document ID:** KB_C08_outage_status_check
+**Category:** C08 — Network Coverage & Outages
+**Department:** Network
+**Customer Scope:** all
+**Last Updated:** 2026-07-09
+**Version:** 1.0
 **Source Authority:** Internal Knowledge Base
 
 ---
+## Summary
 
-## Purpose
+This article explains how network coverage & outages issues in this area are diagnosed and resolved, and what customers and front-line agents should check before escalating.
 
-Explains how customers can verify outage status and how outages are triaged internally.
+## Symptoms
 
-## Customer-Facing Steps
+- The customer has already attempted the standard steps without success.
+- The self-care app or portal shows an error, a stuck status, or no visible change after the action.
+- The issue is intermittent and not consistently reproducible.
 
-1. Open Network > Service Status in the app for known outages in your area.
-2. If not listed, submit a report with your location to add it to the NOC's investigation queue.
+## Preconditions
 
-## Internal Triage (Summary)
+- Customer identity has been verified (registered number and, where applicable, OTP).
+- The account is active and not under a fraud, legal, or compliance hold.
 
-Reported issues are severity-classified (P1-P4) by NOC and tracked to resolution per SOP_C08_OUTAGE_MANAGEMENT; P1 (mass outage) targets restoration within 4 hours.
+## Cause
+
+In most cases this results from a timing delay between systems (e.g. billing, provisioning, or payment gateway) rather than a permanent failure.
+
+## Resolution — Step by Step
+
+| Step | Action | Expected Result | If Failed |
+|---|---|---|---|
+| 1 | Confirm the reported issue | Issue resolved / status updated | Proceed to next step or escalate |
+| 2 | Check system status | Issue resolved / status updated | Proceed to next step or escalate |
+| 3 | Apply the standard fix | Issue resolved / status updated | Proceed to next step or escalate |
+| 4 | Confirm resolution with the customer | Issue resolved / status updated | Proceed to next step or escalate |
+
+1. **Confirm the reported issue.** Ask the customer for the exact screen/message and time it occurred.
+2. **Check system status.** Verify the relevant backend status (billing, provisioning, network, payment) for the account.
+3. **Apply the standard fix.** Retry the action, refresh the record, or trigger the relevant backend re-sync as documented for this scenario.
+4. **Confirm resolution with the customer.** Ask the customer to verify the fix on their end before closing.
+
+## Validation
+
+Confirm the account reflects the expected state (e.g. correct balance, plan, status, or setting) before closing the interaction.
+
+## Exceptions
+
+- Cases linked to suspected fraud are routed to the Fraud & Security Response team instead of standard resolution.
+- Enterprise/bulk accounts may require coordination with the assigned account manager rather than the standard consumer flow.
+
+## Escalation Criteria
+
+- If the standard steps above do not resolve the issue, escalate with reference to: FAQ_C08_001.
+- Unresolved cases are automatically flagged for supervisor review after the stated SLA window, ensuring no request is left without a defined next action.
+
+## Related Issues
+
+- A similar symptom can appear for a related but distinct request type; confirm the exact request before applying this fix.
+
+## Related Documents
+
+Related documents: FAQ_C08_001.

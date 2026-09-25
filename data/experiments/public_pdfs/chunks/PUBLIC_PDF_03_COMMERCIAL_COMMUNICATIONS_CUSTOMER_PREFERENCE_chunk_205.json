@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_205",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 205,
+  "text": "provider, in case of complaints related RTMs should be based on the Count of UCC for RTMs for one calendar month in each License Service Area. It should be increased to Rs. one thousand per count if it is more than zero but not exceeding hundred. This should be increased to Rs. one lakh plus Rs. five thousand per count exceeding hundred when count is between one hundred and one thousand. This should be further increased to Rs. forty-six lakhs plus Rs. ten thousand per count exceeding one thousand when total count is more than one thousand. ii. Access providers are supposed to take action against UTMs suspected of sending UCC and also carry out due investigation and take appropriate action against the UTMs. Normally it is expected that access providers would be following processes and not to be held responsible for UCC from UTMs. Access provider would also be required to inform their subscribers to not send Commercial Communication or cause sending Commercial communication or authorize the sending of the Commercial Communication using the telecom resources failing which the telecom resources used or assigned to him may be put under Usage Cap or disconnected. iii. Access providers would have to establish UCC_Detect system to control UCC from UTMs. If access providers do not act against the detected UTMs in a timely manner, then they may be held accountable for not controlling UCC. If it comes to notice or is found during audit of the system that the access provider",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

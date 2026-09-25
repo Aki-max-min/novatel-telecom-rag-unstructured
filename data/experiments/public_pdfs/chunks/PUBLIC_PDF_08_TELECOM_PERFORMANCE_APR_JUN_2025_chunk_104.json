@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_104",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 104,
+  "text": "Protocol (SIP) customers. However, from the month of June 2025, Tata Teleservices, has started counting the numbering resources (i.e., the range of telephone numbers) given to PRI and SIP customers. Sl. No Service Area Mar-25 Jun-25 Mar-25 Jun-25 Mar-25 Jun-25 Mar-25 Jun-25 Mar-25 Jun-25 Mar-25 Jun-25 Mar-25 Jun-25 Mar-25 Jun-25 Mar-25 Jun-25 Mar-25 Jun-25 Mar-25 Jun-25 1 Andhra Pradesh 818838 859657 15739 14779 225405 1048507 668464 656358 82230 81870 1602029 1823782 629518 596084 4,042,223 5,081,037 1,038,814 2 Assam 57484 62853 0 0 105,929 102,139 2550 2190 209193 232741 375,156 399,923 24,767 3 Bihar 375859 385956 9 9 13215 63315 168,961 165,700 5337 5159 598865 731224 1,162,246 1,351,363 189,117 4 Delhi 2339228 2352954 13947 12341 232871 979042 965361 834517 0 0 76961 72627 1090047 1216543 4,718,415 5,468,024 749,609 5 Gujarat 312900 326083 2474 2279 200265 752038 473623 467336 104351 97015 796515 911253 1,890,128 2,556,004 665,876 6 Haryana 198273 209488 0 0 39148 192552 336160 356912 450 360 157469 227865 731,500 987,177 255,677 7 Himachal Pradesh 15269 16995 0 0 1319 4038 96674 97414 90 60 65577 74231 178,929 192,738 13,809 8 Jammu & Kashmir 132443 139095 0 0 55249 52573 30 30 226081 266398 413,803 458,096 44,293 9 Karnataka 1289853 1283002 14366 11669 494611 2561298 688040 674357 173357 175449 1020310 1147539 3,680,537 5,853,314 2,172,777 10 Kerala 120845 129511 2401 2269 16605 97375 1235087 1204076 6600 6687 361762 383029 1,743,300 1,822,947 79,647 11 Madhya Pradesh 602830 613760 5 5 42571 144004 311067 305423 84192 46492 927302 1042127 1,967,967 2,151,811 183,844 12 Maharashtra",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

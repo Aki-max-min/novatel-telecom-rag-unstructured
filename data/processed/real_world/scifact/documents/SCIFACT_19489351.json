@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19489351",
+  "title": "Adult Neurogenesis Is Sustained by Symmetric Self-Renewal and Differentiation.",
+  "content": "Somatic stem cells have been identified in multiple adult tissues. Whether self-renewal occurs symmetrically or asymmetrically is key to understanding long-term stem cell maintenance and generation of progeny for cell replacement. In the adult mouse brain, neural stem cells (NSCs) (B1 cells) are retained in the walls of the lateral ventricles (ventricular-subventricular zone [V-SVZ]). The mechanism of B1 cell retention into adulthood for lifelong neurogenesis is unknown. Using multiple clonal labeling techniques, we show that the vast majority of B1 cells divide symmetrically. Whereas 20%-30% symmetrically self-renew and can remain in the niche for several months before generating neurons, 70%-80% undergo consuming divisions generating progeny, resulting in the depletion of B1 cells over time. This cellular mechanism decouples self-renewal from the generation of progeny. Limited rounds of symmetric self-renewal and consuming symmetric differentiation divisions can explain the levels of neurogenesis observed throughout life.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

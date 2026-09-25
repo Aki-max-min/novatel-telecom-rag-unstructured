@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2734421",
+  "title": "The tumor necrosis factor family receptors RANK and CD40 cooperatively establish the thymic medullary microenvironment and self-tolerance.",
+  "content": "Medullary thymic epithelial cells (mTECs) establish T cell self-tolerance through the expression of autoimmune regulator (Aire) and peripheral tissue-specific self-antigens. However, signals underlying mTEC development remain largely unclear. Here, we demonstrate crucial regulation of mTEC development by receptor activator of NF-kappaB (RANK) and CD40 signals. Whereas only RANK signaling was essential for mTEC development during embryogenesis, in postnatal mice, cooperation between CD40 and RANK signals was required for mTEC development to successfully establish the medullary microenvironment. Ligation of RANK or CD40 on fetal thymic stroma in vitro induced mTEC development in a tumor necrosis factor-associated factor 6 (TRAF6)-, NF-kappaB inducing kinase (NIK)-, and IkappaB kinase beta (IKKbeta)-dependent manner. These results show that developmental-stage-dependent cooperation between RANK and CD40 promotes mTEC development, thereby establishing self-tolerance.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

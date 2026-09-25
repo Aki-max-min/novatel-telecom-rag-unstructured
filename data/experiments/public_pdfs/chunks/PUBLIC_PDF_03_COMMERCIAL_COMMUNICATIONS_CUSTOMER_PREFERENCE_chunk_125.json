@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_125",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 125,
+  "text": "communications may be referred to as the service messages or service call. Further specific details would be incorporated by the access providers while formulating codes of practice. Commercial communications related to promotions may also be divided on basis of category of content. Using content templates would help to consider content type and scope of consent while delivering and applying pre-checks for regulatory compliances. Artificial Intelligence (AI) and Machine Learning (ML) techniques would help to match the type and category of content being delivered with the interest area of the customer who has exercised option for preference or has given consent. It would also be helpful to design scope of consent in a manner that reflects the type of content under the scope. 70 Figure 11: Illustration for Matching interest area of the customer with category of content 3.3.16 In view of this, since consent and preferences are closely interlinked, CoP-Preferences should contain details of handling consent. This would include processes for consent recording and revocation, and scrubbing. As with the CoP-Entities, the responsibility of enforcing the codes should lie with the Access Provider, with the regulations only prescribing the regulatory outcomes and objectives. 3.3.17 Technology driven solutions to enforce provisions in the CoP: A large number of disparate entities are expected to participate in the system, and such entities are likely to operate from different parts of the country. Senders of commercial communications could be operating for short term or sporadically, or their target recipients may be confined to a",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

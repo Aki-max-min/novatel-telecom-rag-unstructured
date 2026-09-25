@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18488986",
+  "title": "The Immune Response to Melanoma Is Limited by Thymic Selection of Self-Antigens",
+  "content": "The expression of melanoma-associated antigens (MAA) being limited to normal melanocytes and melanomas, MAAs are ideal targets for immunotherapy and melanoma vaccines. As MAAs are derived from self, immune responses to these may be limited by thymic tolerance. The extent to which self-tolerance prevents efficient immune responses to MAAs remains unknown. The autoimmune regulator (AIRE) controls the expression of tissue-specific self-antigens in thymic epithelial cells (TECs). The level of antigens expressed in the TECs determines the fate of auto-reactive thymocytes. Deficiency in AIRE leads in both humans (APECED patients) and mice to enlarged autoreactive immune repertoires. Here we show increased IgG levels to melanoma cells in APECED patients correlating with autoimmune skin features. Similarly, the enlarged T cell repertoire in AIRE(-/-) mice enables them to mount anti-MAA and anti-melanoma responses as shown by increased anti-melanoma antibodies, and enhanced CD4(+) and MAA-specific CD8(+) T cell responses after melanoma challenge. We show that thymic expression of gp100 is under the control of AIRE, leading to increased gp100-specific CD8(+) T cell frequencies in AIRE(-/-) mice. TRP-2 (tyrosinase-related protein), on the other hand, is absent from TECs and consequently TRP-2 specific CD8(+) T cells were found in both AIRE(-/-) and AIRE(+/+) mice. This study emphasizes the importance of investigating thymic expression of self-antigens prior to their inclusion in vaccination and immunotherapy strategies.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

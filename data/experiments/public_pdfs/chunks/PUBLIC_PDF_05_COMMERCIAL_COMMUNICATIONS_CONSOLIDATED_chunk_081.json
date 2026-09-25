@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_081",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 81,
+  "text": "USSD: Dial USSD String All Day Type(s) (to be blocked) 30 BLOCK 30 *1909*30# Monday 31 BLOCK 31 *1909*31# Tuesday 32 BLOCK 32 *1909*32# Wednesday 33 BLOCK 33 *1909*33# 44 UCC Day Type(s) for receiving Communication (Choices for Preference(s)) IVRS: Call to 1909 and press at prompt to block SMS: Send SMS to 1909 following text USSD: Dial USSD String Thursday 34 BLOCK 34 *1909*34# Friday 35 BLOCK 35 *1909*35# Saturday 36 BLOCK 36 *1909*36# Sunday 37 BLOCK 37 *1909*37# Public Holiday and National Holiday 38 BLOCK 38 *1909*38# Note-1: Time Bands (i), (ii), (iii) and (ix) shall be default OFF for all customers irrespective of the status of registration of customer i.e. for all customers including those who have not registered any type of preference(s), anytime unless customer has registered its preference(s) and switched ON; Note-2: In case of communication with customer executive of Customer Care Center of access provider, preference to opt-in may be communicated; Note-3: Customer to be communicated with confirmation and final status along with options to unblock; Note-4: BLOCK 30 option shall block all categories of types of days while saving the status of customer for categories of time band and day types, however transactional type of commercial communications may not be blocked; Provided that the Authority may, from time to time, add or remove number of category(ies), or sub category(ies) for day type(s); Customer can opt-in for any or all of following day type(s): Day Type(s) for receiving Commercial Communication (Choices for Preference(s)) IVRS:",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

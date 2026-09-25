@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22551259",
+  "title": "DNA Methylation in Major Depressive Disorder.",
+  "content": "Epigenetic mechanisms regulate gene expression, influencing protein levels and ultimately shaping phenotypes during life. However, both stochastic epigenetic variations and environmental reprogramming of the epigenome might influence neurodevelopment and ageing, and this may contribute to the origins of mental ill-health. Studying the role of epigenetic mechanisms is challenging, as genotype-, tissue- and cell type-dependent epigenetic changes have to be taken into account, while the nature of mental disorders also poses significant challenges for linking them with biological profiles. In this chapter, we summarise the current evidence suggesting the role of DNA methylation as a key epigenetic mechanism in major depressive disorder.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

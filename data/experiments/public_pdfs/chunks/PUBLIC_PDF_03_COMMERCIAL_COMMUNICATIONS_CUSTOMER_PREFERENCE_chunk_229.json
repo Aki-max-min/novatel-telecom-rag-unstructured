@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_229",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 229,
+  "text": "Technology (DLT) with permissioned and private DLT networks for implementation of system, functions and processes as prescribed in Code(s) of Practice to ensure that all necessary regulatory pre- checks are carried out for sending Commercial Communication and to operate smart contracts among entities for effectively controlling the flow of Commercial Communication. 9.5 Suitable model of DLT Network for Spam control: 9.5.1 Consortium of TSPs may be responsible to take decisions for changes required in the process of operation of DLT network(s) while they may outsource architecture of solution, installation, operation and maintenance of DLT networks to a separate entity, referred to as the DLT system operator. For selecting DLT system operator and type of DLT suitable for Permissioned Private Consortium DLT network, policy should be open and non-exclusive. However, there may be reasonable eligibility criteria to have functional and performance capabilities to achieve objectives of UCC regulatory compliances and maintain business continuity and coexistence of systems with requisite interoperability requirements. 106 9.5.2 Distributed ledgers have the added advantage of moving a lot of the complexity of managing security into the background, making systems easier and cheaper to use. Figure 16:: Illustration of architecture for implementing UCC eco system based up on DLT 9.5.3 The adoption of DLT could take many forms and it is reasonable to assume that a number of DLT systems will need to interact and share data between one another and with non-DLT legacy systems. Therefore, at this stage, it may be difficult to specify any particular",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

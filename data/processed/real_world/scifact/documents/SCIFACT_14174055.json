@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14174055",
+  "title": "Electroporation enables the efficient mRNA delivery into the mouse zygotes and facilitates CRISPR/Cas9-based genome editing",
+  "content": "Recent use of the CRISPR/Cas9 system has dramatically reduced the time required to produce mutant mice, but the involvement of a time-consuming microinjection step still hampers its application for high-throughput genetic analysis. Here we developed a simple, highly efficient, and large-scale genome editing method, in which the RNAs for the CRISPR/Cas9 system are electroporated into zygotes rather than microinjected. We used this method to perform single-stranded oligodeoxynucleotide (ssODN)-mediated knock-in in mouse embryos. This method facilitates large-scale genetic analysis in the mouse.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

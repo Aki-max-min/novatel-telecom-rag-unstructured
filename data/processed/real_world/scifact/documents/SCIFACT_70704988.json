@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_70704988",
+  "title": "Advanced Human Nutrition",
+  "content": "Advanced Human Nutrition, Second Edition provides an in-depth overview of the human body and details why nutrients are important from a biochemical, physiological, and molecular perspective. Figures help illustrate the content and bring the meaning to life to enhance the reader's understanding. Complex pathways, for example, are presented in a student-friendly fashion, as are diagrams that illustrate metabolism and the molecular functions of nutrients. Multiple elements within the text, such as \"Here's Where You Have Been\" and \"Here's Where You Are Going,\" help drive home key points from the chapter and provide real-world examples to bring the content to life. Topics covered include: * cell aging, damage and repair systems * human nutrition, digestion, and absorption with relation to organs, exocrine and endocrine functions, histology, and absorptive activities * microflora and satiety/hunger mechanisms * macronutrients during exercise and the role of liquids and sports drinks * prevalent diseases in western cultures such as coronary heart disease, cancer, and osteoporosis An Instructor's Manual, PowerPoint Presentations, and a TestBank are available are free downloads.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

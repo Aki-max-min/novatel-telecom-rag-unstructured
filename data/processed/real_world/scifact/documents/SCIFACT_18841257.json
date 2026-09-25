@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18841257",
+  "title": "The Histone H3 Lysine-27 Demethylase Jmjd3 Links Inflammation to Inhibition of Polycomb-Mediated Gene Silencing",
+  "content": "Epigenetic chromatin marks restrict the ability of differentiated cells to change gene expression programs in response to environmental cues and to transdifferentiate. Polycomb group (PcG) proteins mediate gene silencing and repress transdifferentiation in a manner dependent on histone H3 lysine 27 trimethylation (H3K27me3). However, macrophages migrated into inflamed tissues can transdifferentiate, but it is unknown whether inflammation alters PcG-dependent silencing. Here we show that the JmjC-domain protein Jmjd3 is a H3K27me demethylase expressed in macrophages in response to bacterial products and inflammatory cytokines. Jmjd3 binds PcG target genes and regulates their H3K27me3 levels and transcriptional activity. The discovery of an inducible enzyme that erases a histone mark controlling differentiation and cell identity provides a link between inflammation and reprogramming of the epigenome, which could be the basis for macrophage plasticity and might explain the differentiation abnormalities in chronic inflammation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

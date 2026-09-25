@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_471921_chunk_000",
+  "document_id": "SCIFACT_471921",
+  "chunk_index": 0,
+  "text": "Air pollution is a heterogeneous, complex mixture of gases, liquids, and particulate matter. Epidemiological studies have demonstrated a consistent increased risk for cardiovascular events in relation to both short- and long-term exposure to present-day concentrations of ambient particulate matter. Several plausible mechanistic pathways have been described, including enhanced coagulation/thrombosis, a propensity for arrhythmias, acute arterial vasoconstriction, systemic inflammatory responses, and the chronic promotion of atherosclerosis. The purpose of this statement is to provide healthcare professionals and regulatory agencies with a comprehensive review of the literature on air pollution and cardiovascular disease. In addition, the implications of these findings in relation to public health and regulatory policies are addressed. Practical recommendations for healthcare providers and their patients are outlined. In the final section, suggestions for future research are made to address a number of remaining scientific questions.",
+  "title": "Air pollution and cardiovascular disease: a statement for healthcare professionals from the Expert Panel on Population and Prevention Science of the American Heart Association.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

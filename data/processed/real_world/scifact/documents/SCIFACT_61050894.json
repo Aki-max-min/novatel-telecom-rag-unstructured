@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_61050894",
+  "title": "ggplot2: Elegant Graphics for Data Analysis",
+  "content": "ggplot2: Elegant Graphics for Data Analysis is a new addition to the UseR! series by Springer, probably the fastest expanding source of resources for computational statistics at the current moment. The books in this series are all linked with R, either presenting a new package developed by the own authors of the book or describing how to applying statistical techniques with the different packages available in R. ggplot2 is an implementation in R of The Grammar of Graphics (Wilkinson 2005) a systematic approach to the specification of statistical graphics that was introduced in a book previously reviewed in the Journal of Statistical Software by Cox (2007). This implementation has been developed by Hadley Wickham, who is also the author of the book reviewed here.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

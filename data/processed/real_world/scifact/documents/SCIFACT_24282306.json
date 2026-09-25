@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24282306",
+  "title": "Macrophage Diversity Enhances Tumor Progression and Metastasis",
+  "content": "There is persuasive clinical and experimental evidence that macrophages promote cancer initiation and malignant progression. During tumor initiation, they create an inflammatory environment that is mutagenic and promotes growth. As tumors progress to malignancy, macrophages stimulate angiogenesis, enhance tumor cell migration and invasion, and suppress antitumor immunity. At metastatic sites, macrophages prepare the target tissue for arrival of tumor cells, and then a different subpopulation of macrophages promotes tumor cell extravasation, survival, and subsequent growth. Specialized subpopulations of macrophages may represent important new therapeutic targets.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

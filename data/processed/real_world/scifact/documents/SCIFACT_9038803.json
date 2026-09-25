@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9038803",
+  "title": "Centrosome aberrations: cause or consequence of cancer progression?",
+  "content": "Many human tumours show centrosome aberrations, indicating an underlying deregulation of centrosome structure, duplication or segregation. Centrosomes organize microtubule arrays throughout the cell cycle, thereby influencing both tissue architecture and the accuracy of chromosome segregation. But what are the origins of centrosomal abnormalities in tumours, and what impact do they have on the generation of invasive, genetically unbalanced cells during cancer progression?",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

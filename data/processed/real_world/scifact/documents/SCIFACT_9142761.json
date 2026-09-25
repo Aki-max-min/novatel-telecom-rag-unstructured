@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9142761",
+  "title": "The IC(50) of anti-Pfs25 antibody in membrane-feeding assay varies among species.",
+  "content": "Plasmodium falciparum surface protein 25 (Pfs25) is a candidate for transmission-blocking vaccines (TBVs). Anti-Pfs25 antibodies block the development of oocysts in membrane-feeding assays and we have shown the activity correlates with antibody titer. In this study, we purified Pfs25-specific IgGs to convert antibody titer to microg/mL and determined the amount of antibody required to inhibit 50% of oocyst development (IC(50)). The IC(50) were, 15.9, 4.2, 41.2, and 85.6microg/mL for mouse, rabbit, monkey and human, respectively, and the differences among species were significant. Anti-Pfs25 sera from rabbit, monkey and human showed different patterns of competition against 6 mouse monoclonal antibodies, and the avidity of antibodies among four species were also different. These data suggests that information obtained from animal studies which assess efficacy of TBV candidates may be difficult to translate to human immunization.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

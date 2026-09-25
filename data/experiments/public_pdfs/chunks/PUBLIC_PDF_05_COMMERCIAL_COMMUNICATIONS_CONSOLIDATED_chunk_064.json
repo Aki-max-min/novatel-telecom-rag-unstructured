@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_064",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 64,
+  "text": "content of the template being offered for registration as a transactional template and service message template; to identify fixed and variable portion(s) of the content in the offered transactional template and service message template with identification of type of content for each portion of variable part of the content, e.g. date format, numeric format, name of recipient, amount with currency; reference number, transaction identity; to estimate the total length of variable portion, viz. total length of fixed portion for a typical transactional message, service message for offered template; to de-register template or temporarily suspend use of template; to generate one-way hash for fixed portion of content of template and ways to extract fixed portion and variable portion(s) from actual message for carrying out pre and post checks of actual content of actual message offered for delivery or already delivered; to check content of the template being offered for registration as a promotional from perspective of content category; assigning unique template identity to registered template of content; designate a separate executive specially for the purpose of carrying out approval of Content Template registration, after carrying out additional checks and scrutiny of the justification given by the registered Sender and recording it on the basis of the following parameters:- (i) number of Content Templates already allotted to the sender; (j) number of Content Templates of the sender blacklisted by the Access Providers: Provided that the Authority may specify any other parameters for this purpose from time to time; temporarily deactivate unused Content",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

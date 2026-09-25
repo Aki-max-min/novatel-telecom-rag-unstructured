@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_144",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 144,
+  "text": "of numbers and same numbers are being used for routing and for displaying identity of calling line to the recipient, then these numbers are to be in line with the National Numbering Plan issued by DoT and guidelines or instructions issued from time to time in this regard. For example, at present 140 series is allocated for telemarketing calls and level 5 is allocated to TSPs for assigning short codes, and level 1 short codes are assigned by DoT. Further details of structure and format of header and levels which are to be considered for assigning to senders would be covered under code of practice. 77 3.3.35 Migration Plan for implementing revised regulatory framework: Access Provider (s) must prepare a migration plan for the phase-wise transition from the existing system to the new system for header registration, consent registration and other functionalities. While preparing the migration plan, Distributed Ledger (DL) may be introduced by Access Provider or Access Provider (s) for registration of entities (DL-Entities). They will also have to decide the deadline(s) for registering entities with DL- Entities. Provisions need to be made to migrate telemarketer registration module data of NTR to DL- Entities and provide an observer node to TRAI. In view of above the Authority decides that the Access providers should prepare migration plan for transitioning from the existing data, processes and roles being played by different entities to the new system of data, processes and roles of new entities. RTMs already registered with the TRAI would",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

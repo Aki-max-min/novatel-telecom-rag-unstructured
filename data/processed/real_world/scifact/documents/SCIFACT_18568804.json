@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18568804",
+  "title": "Achieving increased resolution and more pixels with Superresolution Optical Fluctuation Imaging (SOFI)",
+  "content": "Superresolution Optical Fluctuation Imaging (SOFI) as initially demonstrated allows for a resolution enhancement in imaging by a factor of square-root of two. Here, we demonstrate how to increase the resolution of SOFI images by re-weighting the Optical Transfer Function (OTF). Furthermore, we demonstrate how cross-cumulants can be exploited to obtain a fair approximation of the underlying Point-Spread Function. We show a two-fold increase of resolution (over the diffraction limit) of near-infrared quantum dot labeled tubulin-network of 3T3 fibroblasts.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

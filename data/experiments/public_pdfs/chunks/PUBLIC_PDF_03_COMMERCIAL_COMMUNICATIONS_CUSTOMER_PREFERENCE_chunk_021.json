@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_021",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 21,
+  "text": "regulations. 12 10. Every Access Provider shall ensure that no commercial communication takes place through its network(s) except by using header(s) assigned to the registered Sender(s) for the purpose of sending commercial communication; 11. Every Access Provider shall give due publicity through appropriate means to make the customers aware regarding: - The procedure(s) and facilities for registering preference(s); The procedure(s) and facilities for registration and revocation of Consent(s); The procedure(s) and facilities for making complaint(s), providing information or reporting Unsolicited Commercial Communication; Every Access provider shall inform its Subscribers while giving telecom resources that he shall not get involved in the activity of sending Commercial Communication or cause sending Commercial communication, or authorize the sending of the Commercial Communication using the telecom resources failing which the telecom resources used or assigned to him may be put under Usage Cap or his telecom resources may be disconnected; Provided that the Authority may, from time to time, issue such directions as it deems necessary, specifying the content, medium, frequency and manner of such publicity; CHAPTER-V OBLIGATIONS OF ACCESS PROVIDERS 12. Access Providers shall deploy, maintain and operate a system, by themselves or through delegation, to ensure that requisite functions are performed in a non-repudiable and immutable manner: - to record preference(s), consent(s), revocation of consent(s), complaint(s) etc. to carry out regulatory pre-checks and post-checks in respect of Commercial Communication being offered for delivery and also to keep records of actions performed; to register person(s), business entity(ies) or legal entity(ies) in making Commercial",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

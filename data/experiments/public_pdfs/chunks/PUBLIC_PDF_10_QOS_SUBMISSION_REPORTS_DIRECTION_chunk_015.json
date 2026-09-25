@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_015",
+  "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+  "chunk_index": 15,
+  "text": "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Billing and charging complaints Billing and charging complaints not found valid Application of adjustment to customer’s account within one week from the date of resolution of billing and charging complaints or rectification of faults or rectification of significant network outage, as applicable Total number of call attempts on call centre / customer care Number of calls connected to call centre / customer care Accessibility of call centre/ customer care Number of subscribers requested to connect to the operator Number of total billing and charging complaints reported Customer Service Number of billing or charging complaints NOT resolved within 4 weeks Resolution of billing/ charging complaints within four weeks Termination/ closure of service within seven working days of receipt of customer’s request Number of closure of service which require refund Number of service provisioing request for which deposit taken but service could not be provisioned Number of deposits not refunded within 45 days Refund of deposits within 45 days of closure of service or non- provisioning of service Number of calls answered by the operator within 90 seconds Percentage of calls answered by the operators (voice to voice) within 90 seconds Total number of requests received for Termination / Closure of service Number of requests for Termination / Closure of service completed after 7 working days Page",
+  "title": "10 qos submission reports direction",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/10_qos_submission_reports_direction.pdf",
+  "file_type": "pdf"
+}

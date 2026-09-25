@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_3960385",
+  "title": "Proteomic approach to characterize biochemistry of meat quality defects.",
+  "content": "Proteomics can be used to characterize quality defects including pale, soft, and exudative (PSE) meat (pork and poultry), woody broiler breast meat, reddish catfish fillets, meat toughness, and beef myoglobin oxidation. PSE broiler meat was characterized by 15 proteins that differed in abundance in comparison to normal broiler breast meat, and eight proteins were differentially expressed in woody breast meat in comparison to normal breast meat. Hemoglobin was the only protein that was differentially expressed between red and normal catfish fillets. However, inducing low oxygen and/or heat stress conditions to catfish fillets did not lead to the production of red fillets. Proteomic data provided information pertaining to the protein differences that exist in meat quality defects. However, these data need to be evaluated in conjunction with information pertaining to genetics, nutrition, environment of the live animal, muscle to meat conversion, meat quality analyses and sensory attributes to understand causality, protein biomarkers, and ultimately how to prevent quality defects.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

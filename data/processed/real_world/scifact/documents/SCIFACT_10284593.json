@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10284593",
+  "title": "Myeloperoxidase acts as a profibrotic mediator of atrial fibrillation",
+  "content": "Observational clinical and ex vivo studies have established a strong association between atrial fibrillation and inflammation. However, whether inflammation is the cause or the consequence of atrial fibrillation and which specific inflammatory mediators may increase the atria's susceptibility to fibrillation remain elusive. Here we provide experimental and clinical evidence for the mechanistic involvement of myeloperoxidase (MPO), a heme enzyme abundantly expressed by neutrophils, in the pathophysiology of atrial fibrillation. MPO-deficient mice pretreated with angiotensin II (AngII) to provoke leukocyte activation showed lower atrial tissue abundance of the MPO product 3-chlorotyrosine, reduced activity of matrix metalloproteinases and blunted atrial fibrosis as compared to wild-type mice. Upon right atrial electrophysiological stimulation, MPO-deficient mice were protected from atrial fibrillation, which was reversed when MPO was restored. Humans with atrial fibrillation had higher plasma concentrations of MPO and a larger MPO burden in right atrial tissue as compared to individuals devoid of atrial fibrillation. In the atria, MPO colocalized with markedly increased formation of 3-chlorotyrosine. Our data demonstrate that MPO is a crucial prerequisite for structural remodeling of the myocardium, leading to an increased vulnerability to atrial fibrillation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

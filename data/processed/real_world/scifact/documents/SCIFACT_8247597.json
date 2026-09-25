@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8247597",
+  "title": "Mitochondrial Dysfunction Leads to Nuclear Genome Instability via an Iron-Sulfur Cluster Defect",
+  "content": "Mutations and deletions in the mitochondrial genome (mtDNA), as well as instability of the nuclear genome, are involved in multiple human diseases. Here, we report that in Saccharomyces cerevisiae, loss of mtDNA leads to nuclear genome instability, through a process of cell-cycle arrest and selection we define as a cellular crisis. This crisis is not mediated by the absence of respiration, but instead correlates with a reduction in the mitochondrial membrane potential. Analysis of cells undergoing this crisis identified a defect in iron-sulfur cluster (ISC) biogenesis, which requires normal mitochondrial function. We found that downregulation of nonmitochondrial ISC protein biogenesis was sufficient to cause increased genomic instability in cells with intact mitochondrial function. These results suggest mitochondrial dysfunction stimulates nuclear genome instability by inhibiting the production of ISC-containing protein(s), which are required for maintenance of nuclear genome integrity. For a video summary of this article, see the PaperFlick file available with the online Supplemental Data.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

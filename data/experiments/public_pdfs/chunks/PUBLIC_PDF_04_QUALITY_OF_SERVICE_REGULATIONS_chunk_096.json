@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_096",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 96,
+  "text": "6 years and 6G is being discussed when 5G is not yet primary technology with all customers, thus it would be prudent to have parameter centric QoS and to not change QoS merely because a new generation of mobile service or technology is being implemented. Minor tweaks in nomenclature and parameters, as done for 4G, alone are sufficient to address such changes instead of a humongous review exercise. (iii) At the same time, one of the stakeholders submitted that the India’s current QoS regulations and parameters were based on the 2G & 3G era and the early stages of the 4G era. With rapid march of technology and the arrival of LTE-Advanced and now 5G, coupled with the burst of the video revolution which includes live streaming of events, the rapid rise of short videos and huge video downloads, the bundling of voice and video with data; with the lines separating the different applications and services blurring, the present QoS regulations are less relevant and need revision and upgradation to keep pace with the changing requirements ought to undergo changes. Also, the QoS requirements are closely intertwined with the changes in consumer preferences and experience and the QoS of Telcos must reflect these changes over time, translate into better Quality of Experience (QoE) for the consumers and overall consumer satisfaction. The time is ripe to review Quality-of-Service Standards for Access Services (Wireless and Wireline) and Broadband Services (Wireless and Wireline). (iv) One of the stakeholders submitted that regular review of",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

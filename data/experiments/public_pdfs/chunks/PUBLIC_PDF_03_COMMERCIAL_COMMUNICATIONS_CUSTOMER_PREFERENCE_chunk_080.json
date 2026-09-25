@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_080",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 80,
+  "text": "due to implementation issues, and with revised dates, all regulations came into force by 27th of November 2011. The key regulatory requirements in this framework were: i. Mandatory registration of telemarketers with TRAI after payment of a one-time fee of Rs. 10,000/- ii. Enabling consumers to block receiving of promotional messages by registering the number in the National Preference Register (NCPR) iii. Requiring telemarketers not to send messages to those customers who specifically choose not to receive such messages by registering in NCPR; and iv. Deduction from the security deposit of registered telemarketers who breach the provisions of the regulations by sending commercial messages to the customers registered in NCPR. 1.3.2 Aforesaid provisions were made in the regulations with the aim that if all telemarketers registered themselves with the Authority and the consumers electing not to receive promotional commercial messages register themselves in NCPR, the menace of UCCs would be controlled. Though some did register as telemarketers, many others chose to continue operating as telemarketers without registering themselves as such. They obtained multiple SIMs as \"normal subscribers\" and made calls or sent out messages (SMS) in bulk as UCCs to other telecom subscribers. To deal with the situations, and make regulations more effective, several amendments were made to the main regulations. 1.4 Amendments to Main Regulations of 2010 and Directions 1.4.1 To make regulations more effective and consider practical requirements of business and customers, these regulations have been amended time to time, some of important changes are: S.N. Amendment to",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

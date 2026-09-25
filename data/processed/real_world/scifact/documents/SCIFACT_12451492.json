@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12451492",
+  "title": "Plasma soluble corin and N-terminal pro-atrial natriuretic peptide levels in pregnancy induced hypertension.",
+  "content": "OBJECTIVE One of the theories involved in the pathogenesis of pregnancy induced hypertension involves salt and water retention. We aimed to measure the proenzyme convertase corin, responsible for pro-atrial natriuretic peptide (ANP) cleavage to active ANP, in plasma of hypertensive pregnant females. STUDY DESIGN Sixty pregnant females suffering from pregnancy induced hypertension in second and third trimesters of pregnancy were compared to twenty eight healthy pregnant females of the same gestational period. Concomitant urine and plasma samples were collected for the determination of some biochemical parameters. Plasma soluble corin and N-terminal (NT) pro-ANP (1-98) values were determined in both groups using enzyme immunoassays. RESULTS Plasma soluble corin mean value was significantly higher in the patient group compared to the control group. Upon dividing the patient group according to blood pressure, plasma NT pro-ANP showed significantly higher mean value in the group with blood pressure⩾140/90mmHg compared to the group with blood pressure<140/90mmHg and control group. CONCLUSIONS High plasma soluble corin and NT pro-ANP values in hypertensive pregnant females particularly those with blood pressure⩾140/90mmHg speculates an ANP receptor/ post receptor signaling defect, which would aggravate the pregnancy induced hypertensive state.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

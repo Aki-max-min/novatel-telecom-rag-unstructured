@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_002",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 2,
+  "text": "for the porting of corporate mobile phone number allotted to such body corporate, firm organization or body;] 2[(bb) ancillary service charge means the charge paid to the Mobile Number Portability Service provider at the rate specified by the Authority from time to time and includes the charges to be paid by-- (i) the Number Range Holder for facilitating return of the mobile number after disconnection due to any reason including non-payment; (ii) the Access Provider for downloading the Number Portability database; (iii) the Donor operator for execution of porting withdrawal request of its subscriber; (iv) the Recipient Operator for facilitation of reconnection of ported subscriber in its network; (v) the Donor Operator for facilitation of disconnection of the mobile number of the postpaid subscriber who has not cleared the dues of the Donor Operator after porting his number;] (c) \"Authority\" means the Telecom Regulatory Authority of India established under sub- section (1) of section 3 of the Act; 3[(ca) “corporate mobile number” means the mobile number allotted in the name of a body corporate, firm or any organization or body;] (d) “dipping\" means use of query response system of the Mobile Number Portability service provider for obtaining Location Routing Number for routing a message to the called number; (e) \"Donor Operator\" “means 4[an Access Provider], to whose network the mobile number belongs at the time the subscriber makes a request for porting; (f) \"Local Number Portability Database” means the database of all ported mobile numbers maintained by an Access Provider",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C13_selfcare_login_issues_chunk_002",
+  "document_id": "KB_C13_selfcare_login_issues",
+  "chunk_index": 2,
+  "text": "SLA window, ensuring no request is left without a defined next action. ## Related Issues - Repeated occurrences for the same customer may indicate an upstream system issue and should be flagged to the relevant platform team. ## Related Documents Related documents: FAQ_C13_001.",
+  "title": "Resolving My NovaTel App Login and OTP Issues",
+  "document_type": "KB Article",
+  "category": "C13",
+  "department": "Digital Channels",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-07",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C13_001"
+  ],
+  "tags": [
+    "c13",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C13_selfcare_login_issues.md",
+  "file_type": "markdown"
+}

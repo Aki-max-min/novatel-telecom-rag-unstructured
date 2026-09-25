@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_022",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 22,
+  "text": "the originating network: Provided that the originating network may release an unanswered call after ninety seconds in case the call release message is not received from the terminating network. SECTION V QUALITY OF SERVICE PARAMETERS FOR BROADBAND (WIRELINE) SERVICE 9. Quality of Service Parameters for which compliance reports are to be submitted to the Authority.─ (1) Every Service Provider having Internet Service Authorization and providing broadband (wireline) service shall meet the benchmarks, to be measured as per the measurement methodology provided in Schedule-I, for each of the following QoS parameters, namely:─ S. No. Name of the Parameter Benchmark Assessment period I. Service provisioning (i) Provision of a service within seven (7) working days of payment of demand note by the customer ≥ 98% Quarterly II. Broadband Service Performance (ii) Latency ≤ 50 msec Quarterly (iii) Packet Drop Rate ≤ 1% Quarterly (iv) Percentile value of measured test samples for which download and upload speed is ≥ offered typical download and upload speed in tariff offerings 90th percentile Quarterly (v) Maximum Bandwidth utilization of any Customer serving node to ISP Gateway Node [Intra- network] or Internet Exchange Point Link(s) ≤ 80% Quarterly (vi) Jitter ≤ 40ms Quarterly III. Fault Repair (vii) Fault incidences (No. of faults per 100 subscribers) ≤ 5 Quarterly (viii) Fault repair by next working day ≥ 85% Quarterly (ix) Fault repair within three working days ≥ 99% Quarterly Rent rebate/ validity extension in case fault is repaired after three (3) working days: For post-paid subscribers: Proportional rent",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

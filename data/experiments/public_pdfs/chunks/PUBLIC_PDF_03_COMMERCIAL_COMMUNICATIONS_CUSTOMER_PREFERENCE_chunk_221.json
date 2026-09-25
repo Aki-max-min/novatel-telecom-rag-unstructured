@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_221",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 221,
+  "text": "to their client database and there is a need of technology solution which allows UCC regulatory checks to be performed by various entities in such a manner that client database remains protected. 6.8 Using sensitive information in secure manner: Technical possibility to restrict Commercial Communication to Customer in certain scenario which needs customer’s information e.g. restriction while roaming may require location information available to external entities for applying requisite checks. Technology solution may need to be explored which enables such additional checks at TSP level while rest of the checks have been carried out earlier. 6.9 Objectives to be met by technological solution: New technology may play increasingly pivotal role in UCC regulatory space and augment capabilities of almost all entities of Commercial Communication ecosystem, offering consumers and markets easier access to, and better control and management to TSPs for commercial communication services. Technology solution may be required to support to meet three key objectives with regard to commercial communications: § Protect consumers – to secure an appropriate degree of protection for consumers § Protect interests of telecom service providers – to enable better control and management of TSPs over entities delivering commercial communications through them to avoid levying financial disincentives in case of non-compliances by ensuring regulatory compliances through technology driven solutions § Promote competition – to continue multiplicity of players to participate in the commercial communication ecosystem. 7 Distributed Ledger Technology (DLT) can provide requisite capabilities: 7.1 Authority deliberated on the issues of regulatory requirements and operating models,",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_043",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 43,
+  "text": "Content Template Verifier; Complaint Register; Preference Register; Telemarketer Scrubbing Function Register; Telemarketer Message Delivery Function Register; Telemarketer Voice Delivery Function Register; CoP-Entities shall include at least following: - implementation details for all functional entities; additional measures, as deemed fit by access provider(s), for functional entities required to ensure regulatory compliance; minimum standards of technical measures to effectively control the sending of unsolicited commercial electronic messages; technical mechanism to make available latest version of relevant and reliable data for an entity to carry out its desired function; such other matters as the Authority may deem fit, from time to time. 4. Every Access Provider shall carry out following functions: - Header Registration Function (HRF) assign header or Header root for SMS via Header Registration Functionality, on its own or through its agents, as per allocation and assignment principles and policies, to facilitate content provider or principal entity to get new headers; carry out pre-verifications of documents and credentials submitted by an individual, business entity or legal entity requesting for assigning of the header; bind with a mobile device and mobile number(s), in a secure and safe manner, which shall be used subsequently on regular intervals for logins to the sessions by the header assignee; carry out additional authentications in case of a request for headers to be issued to SEBI registered brokers or other entities specified by Authority by directions, orders or instructions issued from time to time; carry out additional authentications in case of a request for headers to be",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

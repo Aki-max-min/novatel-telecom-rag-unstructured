@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12100963",
+  "title": "Tissue exit: a novel control point in the accumulation of antigen-specific CD8 T cells in the influenza a virus-infected lung.",
+  "content": "Memory/effector T cells efficiently migrate into extralymphoid tissues and sites of infection, providing immunosurveillance and a first line of defense against invading pathogens. Even though it is a potential means to regulate the size, quality, and duration of a tissue infiltrate, T cell egress from infected tissues is poorly understood. Using a mouse model of influenza A virus infection, we found that CD8 effector T cells egressed from the infected lung in a CCR7-dependent manner. In contrast, following antigen recognition, effector CD8 T cell egress decreased and CCR7 function was reduced in vivo and in vitro, indicating that the exit of CD8 T cells from infected tissues is tightly regulated. Our data suggest that the regulation of T cell egress is a mechanism to retain antigen-specific effectors at the site of infection to promote viral clearance, while decreasing the numbers of bystander T cells and preventing overt inflammation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

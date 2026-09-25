@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_174",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 174,
+  "text": "of signature solutions and make it more adaptive to changes in the behaviour of and techniques used by the telemarketers to bypass the signature solution. AI may also be helpful to detect newer UCC messages created by tweaking content. 5.1.9 Honeypots to detect UCC and collect evidence: Honeypots may be used to detect and collect evidence for UCC, which may be difficult to capture otherwise. Approach for deploying such Honeypots may be required to be developed. 87 5.1.10 Crowdsourcing of information to detect UCC: Developing Intelligence through crowdsourcing by analysing UCC complaints at central locations may help in identifying source of spam and expediting actions against such defaulters. 5.1.11 Scrubbing as a Service: Scrubbing as a Service model, as discussed earlier in para 3 and para 4 would be useful to handle complexities of more categories and dimensions of preferences, to consider consents while scrubbing and reduce time to enforce changes in the preferences. From complaint handling perspective, past logs of scrubbing activities need to be available which are immutable and non- repudiable. These logs need to be available in a manner which reduces complaint handling time. Scrubbing as a Service may be chargeable and models for charging may be different based on requirements and/or volume of communication. 5.1.12 Mitigate or eliminate victimization: Aggressive actions aimed at suspected unregistered telemarketers may sometime lead to victimization of customers, on account of false or faulty complaints or due to misidentification. The complaint handling mechanism has to be able to prevent or mitigate",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

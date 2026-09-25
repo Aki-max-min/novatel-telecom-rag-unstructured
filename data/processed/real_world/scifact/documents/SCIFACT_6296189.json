@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6296189",
+  "title": "Loss, trauma, and human resilience: have we underestimated the human capacity to thrive after extremely aversive events?",
+  "content": "Many people are exposed to loss or potentially traumatic events at some point in their lives, and yet they continue to have positive emotional experiences and show only minor and transient disruptions in their ability to function. Unfortunately, because much of psychology's knowledge about how adults cope with loss or trauma has come from individuals who sought treatment or exhibited great distress, loss and trauma theorists have often viewed this type of resilience as either rare or pathological. The author challenges these assumptions by reviewing evidence that resilience represents a distinct trajectory from the process of recovery, that resilience in the face of loss or potential trauma is more common than is often believed, and that there are multiple and sometimes unexpected pathways to resilience.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

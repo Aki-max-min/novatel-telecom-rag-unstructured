@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_52893592",
+  "title": "Subversion of Systemic Glucose Metabolism as a Mechanism to Support the Growth of Leukemia Cells.",
+  "content": "From an organismal perspective, cancer cell populations can be considered analogous to parasites that compete with the host for essential systemic resources such as glucose. Here, we employed leukemia models and human leukemia samples to document a form of adaptive homeostasis, where malignant cells alter systemic physiology through impairment of both host insulin sensitivity and insulin secretion to provide tumors with increased glucose. Mechanistically, tumor cells induce high-level production of IGFBP1 from adipose tissue to mediate insulin sensitivity. Further, leukemia-induced gut dysbiosis, serotonin loss, and incretin inactivation combine to suppress insulin secretion. Importantly, attenuated disease progression and prolonged survival are achieved through disruption of the leukemia-induced adaptive homeostasis. Our studies provide a paradigm for systemic management of leukemic disease.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_130",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 130,
+  "text": "to block all or most communication. For facilitating TMSEs to make voice calls for justified reasons and legitimate purposes, e.g. alerting and verification by banks in case of high-value transactions, there is need to have separate series or registration of calling numbers which can be presented with name of calling line. Content of 72 commercial communications via transactional voice calls are also required to be registered as a template of transcript of voice content. For display of name of principal entity in authenticated manner, Calling Name Display, or enhanced CNAME (as per 3GPP specifications) etc. may be used. Figure 13: Illustration for Authentication of Telemarketers during daily operations and displaying authentic name of Sender 3.3.21 To authenticate the sender or entity of the UCC ecosystem, methods such as device certificates and QR Codes may be used. There may be a mechanism to generate content identity and hash codes using necessary parameters and content which can be applicable for a set of numbers with same content and for defined time interval. Reference templates may be pre-registered with the system and hash codes may be used for verifying that content is according to the template. This mechanism may be helpful for clearly identifying that there is no mixing of transactional and promotional content by the senders. Access Providers must analyse such mechanisms and accordingly include in the Code of Practice. 3.3.22 Laying out processes and assigning responsibilities in the CoPs may not suffice if those processes are not completely followed and defaulters",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

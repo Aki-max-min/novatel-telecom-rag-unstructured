@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_042",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 42,
+  "text": "period and in case the subscriber produces such evidence of having settled such dues, the Recipient Operator shall not take any further action in pursuance of the notice and shall inform the Donor Operator accordingly through Mobile Number Portability Service provider. 4[(4) In case, the subscriber fails to provide evidence of having settled the outstanding dues with the Donor Operator within the time so allowed in the notice under sub-regulation (3), the Recipient Operator shall immediately bar all outgoing services on the mobile number of such subscriber except accessibility to emergency services as specified in the licence agreement of the service provider; Provided that if the subscriber furnishes evidence to the Recipient Operator regarding payment made to the Donor Operator, within fifteen days from the date of barring of outgoing services, the services of the subscriber shall be restored with immediate effect; Provided further that, in case the subscriber fails to make payment referred to in the first proviso, the Recipient Operator shall disconnect the mobile number of the subscriber and inform the Mobile Number Portability Service Provider of the action taken by it with request for reversal of such number to the Number Range Holder after expiry of sixty days.] 5[Provided also that in case subscriber makes the payment, referred in the first proviso, and furnishes evidence of such payment to Recipient Operator within sixty days of its disconnection, the services of the subscriber shall be restored immediately and Recipient Operator shall inform the Mobile Number Portability Service provider",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

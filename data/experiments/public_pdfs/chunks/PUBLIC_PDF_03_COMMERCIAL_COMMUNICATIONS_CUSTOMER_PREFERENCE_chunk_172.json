@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_172",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 172,
+  "text": "reduced but extent of reduction may depend upon automation of the process and require changes in the functions and interfaces for the complaint handling system. 5.1.2 Changes in Complaint Registration facility to improve complaint registration: Consumer Complaint resource facility (CCRF) may need to be provided in a manner that improves the success rate in complaint resolution process. If pre-validation of data, e.g. by using Mobile App, web portal is done during registration of complaints, the success rate of the complaint resolution process could be improved. 5.1.3 Entertaining complaints from customers, who have not registered any preference: Complaints may be made by customers who have not registered with NCPR but who receive commercial communications in violation of the provisions of the regulations, e.g. communications beyond specified timings. Mechanisms may also be explored to avoid promotional commercial communication during roaming or in cases when calls are forwarded. 5.1.4 Make available intelligent Mobile App on all devices for UCC registering complaints: TRAI has developed a Mobile App which can be used to file complaints. Such mobile apps may be further developed and enhanced to make them more intelligent and intuitive for submitting UCC complaints. These mobile apps would be required to be available on different types of mobile devices and operating systems. It may be necessary to mandate device manufacturers, Operating System developers and platforms to allow the apps to have the requisite permissions for proper functioning. 5.1.5 Reviewing structure of financial Disincentives for Access Providers: Present provision of Fianancial Disincentives for Access",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

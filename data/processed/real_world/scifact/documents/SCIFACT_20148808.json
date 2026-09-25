@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20148808",
+  "title": "Microbiome-driven allergic lung inflammation is ameliorated by short-chain fatty acids",
+  "content": "The mammalian gastrointestinal tract harbors a microbial community with metabolic activity critical for host health, including metabolites that can modulate effector functions of immune cells. Mice treated with vancomycin have an altered microbiome and metabolite profile, exhibit exacerbated T helper type 2 cell (Th2) responses, and are more susceptible to allergic lung inflammation. Here we show that dietary supplementation with short-chain fatty acids (SCFAs) ameliorates this enhanced asthma susceptibility by modulating the activity of T cells and dendritic cells (DCs). Dysbiotic mice treated with SCFAs have fewer interleukin-4 (IL4)-producing CD4+ T cells and decreased levels of circulating immunoglobulin E (IgE). In addition, DCs exposed to SCFAs activate T cells less robustly, are less motile in response to CCL19 in vitro, and exhibit a dampened ability to transport inhaled allergens to lung draining nodes. Our data thus demonstrate that gut dysbiosis can exacerbate allergic lung inflammation through both T cell- and DC-dependent mechanisms that are inhibited by SCFAs.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

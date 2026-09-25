@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10010651",
+  "title": "Nutrition and physical activity guidelines for cancer survivors.",
+  "content": "Cancer survivors are often highly motivated to seek information about food choices, physical activity, and dietary supplements to improve their treatment outcomes, quality of life, and overall survival. To address these concerns, the American Cancer Society (ACS) convened a group of experts in nutrition, physical activity, and cancer survivorship to evaluate the scientific evidence and best clinical practices related to optimal nutrition and physical activity after the diagnosis of cancer. This report summarizes their findings and is intended to present health care providers with the best possible information with which to help cancer survivors and their families make informed choices related to nutrition and physical activity. The report discusses nutrition and physical activity guidelines during the continuum of cancer care, briefly highlighting important issues during cancer treatment and for patients with advanced cancer, but focusing largely on the needs of the population of individuals who are disease free or who have stable disease following their recovery from treatment. It also discusses select nutrition and physical activity issues such as body weight, food choices, food safety, and dietary supplements; issues related to selected cancer sites; and common questions about diet, physical activity, and cancer survivorship.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

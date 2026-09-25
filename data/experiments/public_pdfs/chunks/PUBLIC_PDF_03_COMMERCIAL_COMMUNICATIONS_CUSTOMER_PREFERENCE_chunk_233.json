@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_233",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 233,
+  "text": "Reading from it is quite fast and an in-memory database that reads from the DLT network to provide a scrubbing service (for instance) has no performance limitations. The PoW algorithm is required for bitcoin because there is a race among the bitcoin miners to record every new transaction. The one who has solved the set mathematical puzzle first offers his solution to the network as proof of work done and earns the right to collect any rewards associated with the transition. That makes PoW an energy intensive algorithm. A permissioned DLT network doesn’t require PoW, so it is neither as slow nor as energy intensive. § A permissioned DLT network isn’t the real deal One of the advantage of blockchain technology is that it eliminates the need for a central authority, which leads to two (polar opposite) arguments against its adoption in the present case. The first argument is that the TRAI could act as the Authoritative Source of information. It is heart-warming when a stakeholder writes that TRAI can be completely trusted. However, in a centralized system, such as the one running at the moment, the authoritative server becomes a single point of failure. Furthermore, it is established by regulation, has set protocols and is too inflexible to respond to the changing needs of the sector. TRAI seeks to promote co-regulation and flexibility in this regulation. Retaining responsibility for an operational component is incompatible with this approach. 108 The second argument is that permissioned DLT network are not fully",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

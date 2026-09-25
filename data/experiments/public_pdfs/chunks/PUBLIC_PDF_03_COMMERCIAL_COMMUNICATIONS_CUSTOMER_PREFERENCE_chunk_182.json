@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_182",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 182,
+  "text": "such callers. Further, if such calls are generated through RTM, a suitable penal clause in the agreement may be incorporated and such RTM should be blacklisted with immediate effect for a longer period beyond three years along with immediate forfeiture of Security Deposit. This shall act as a deterrent to RTMs from indulging in such activity. ii. Other stakeholders submitted that there is no mechanism available in the industry to proactively identify the nature of calls/ SMS. Since TSPs have no control over those customers who are making calls or sending UCC spam, therefore TSPs should not be unduly penalized for inappropriate action of customer. The strict financial disinvestment should be applied on the TSPs only when there is violation of the Regulation and not on the basis of such UCC calls being generated in their networks. Stakeholders also submitted that, in some cases, a Robo call may be a legitimate call from a doctor’s office reminding a patient of a crucial appointment. 5.2.7 Enhancements of signature solutions i. Some stakeholders recommended use of machine-learning and information sharing among 90 access providers to enhance the signature solutions. New patterns detected or learned by one Access Provider may be immediately adopted by other Access Providers. They also suggested to use e-signatures and hash-codes and recommended creating a centralised data sharing and coordination platform to facilitate this. ii. Other stakeholders did not support enhancing existing signature solutions. 5.2.8 Artificial Intelligence (AI) to improve performance of signature solutions: Most of the stakeholders agreed",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

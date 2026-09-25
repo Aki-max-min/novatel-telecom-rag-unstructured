@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_40078758",
+  "title": "Eating pathology, emotion regulation, and emotional overeating in obese adults with Binge Eating Disorder.",
+  "content": "OBJECTIVE The purpose of the current study was to examine the relationship among emotional regulation, emotional overeating, and general eating pathology in a treatment seeking sample of adults with Binge Eating Disorder (BED). METHOD The sample was composed of 326 adults (248 women, 78 men) who were obese and met DSM-IV-TR criteria for BED. Prior to treatment, participants completed the Difficulties in Emotion Regulation Scale (DERS), Emotional Overeating Questionnaire (EOQ), Beck Depression Inventory (BDI), and Eating Disorder Examination-Questionnaire (EDE-Q) as part of a larger assessment battery. RESULTS A series of hierarchical regression analyses indicated that difficulties with emotion regulation accounted for unique variance in both emotional overeating and general eating pathology above and beyond sex and negative affect. DISCUSSION Emotion regulation may play a significant role in the maintenance of emotional overeating and eating pathology in obese adults with BED.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

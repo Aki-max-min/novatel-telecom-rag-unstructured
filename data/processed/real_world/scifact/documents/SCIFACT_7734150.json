@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7734150",
+  "title": "Diaphragm Atrophy and Contractile Dysfunction in a Murine Model of Pulmonary Hypertension",
+  "content": "Pulmonary hypertension (PH) causes loss of body weight and inspiratory (diaphragm) muscle dysfunction. A model of PH induced by drug (monocrotaline, MCT) has been extensively used in mice to examine the etiology of PH. However, it is unclear if PH induced by MCT in mice reproduces the loss of body weight and diaphragm muscle dysfunction seen in patients. This is a pre-requisite for widespread use of mice to examine mechanisms of cachexia and diaphragm abnormalities in PH. Thus, we measured body and soleus muscle weight, food intake, and diaphragm contractile properties in mice after 6-8 weeks of saline (control) or MCT (600 mg/kg) injections. Body weight progressively decreased in PH mice, while food intake was similar in both groups. PH decreased (P<0.05) diaphragm maximal isometric specific force, maximal shortening velocity, and peak power. Protein carbonyls in whole-diaphragm lysates and the abundance of select myofibrillar proteins were unchanged by PH. Our findings show diaphragm isometric and isotonic contractile abnormalities in a murine model of PH induced by MCT. Overall, the murine model of PH elicited by MCT mimics loss of body weight and diaphragm muscle weakness reported in PH patients.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

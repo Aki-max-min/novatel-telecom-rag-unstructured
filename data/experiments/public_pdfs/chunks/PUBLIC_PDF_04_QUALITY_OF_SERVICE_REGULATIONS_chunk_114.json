@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_114",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 114,
+  "text": "more granular information in respect of a few important parameters, which are discussed in subsequent analysis. (v) Therefore, considering the request of the service providers the Authority has decided to continue QoS performance monitoring at LSA or service authorization area level. However, the granularity level of reporting shall be specified in the reporting data templates against specific parameters. The service providers are required to develop a mechanism for online sharing of such granular data to the Authority for further analysis at the Authority’s end. However, if need arise, the Authority may also seek QoS 139 performance reports for certain QoS parameter(s) for specific State(s) or Union Territory(ies) or district(s) for a specific purpose and period in accordance with the provision of regulation 13(2). 4.6 Roll out obligations and its impact on Quality of Service. (a) Input of Stakeholders Some of the stakeholders submitted that any coverage beyond the minimum roll-out obligations is done by the Network Service Providers based on their business case. However, in many cases, coverage is proliferated to achieve the Government’s objective of Digital Inclusion even with minimal revenue potential. Any excessive regulations, with stringent benchmarks and steep FDs may have an adverse impact on such rollouts. (b) Analysis and Conclusion The Authority agrees with the view that rollouts are critical for the proliferation of network coverage to include all segments of society for their digital empowerment. As such service providers are encouraged to spread their networks to include populations and geographies seamlessly. At the same time,",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

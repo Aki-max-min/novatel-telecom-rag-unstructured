@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26532518",
+  "title": "Public health, academic medicine, and the alcohol industry's corporate social responsibility activities.",
+  "content": "We explored the emerging relationships among the alcohol industry, academic medicine, and the public health community in the context of public health theory dealing with corporate social responsibility. We reviewed sponsorship of scientific research, efforts to influence public perceptions of research, dissemination of scientific information, and industry-funded policy initiatives. To the extent that the scientific evidence supports the reduction of alcohol consumption through regulatory and legal measures, the academic community has come into increasing conflict with the views of the alcohol industry. We concluded that the alcohol industry has intensified its scientific and policy-related activities under the general framework of corporate social responsibility initiatives, most of which can be described as instrumental to the industry's economic interests.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

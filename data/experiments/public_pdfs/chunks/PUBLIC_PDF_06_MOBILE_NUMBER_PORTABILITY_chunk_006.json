@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_006",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 6,
+  "text": "Telecommunication Mobile Number Portability Regulations, 2009; 1[(ra) “SIM swap or replacement” means a process of acquisition of a new SIM card in place of a lost or non-working SIM card by the existing subscriber;] (s) “subscriber” means any person or legal entity that avails the mobile telecommunication service from a licensed telecom Access Provider; (t) “unique porting code” means an alphanumeric code allocated, upon request, 2[by the Mobile Number Portability Service Provider of the Zone to which the mobile number belongs to] its subscriber for the purpose of facilitation of porting of his mobile number; (u) all other words and expressions used in these regulations but not defined, and defined in the Indian Telegraph Act, 1885 (13 of 1885) and the Telecom Regulatory Authority of India Act, 1997 (24 of 1997) and the rules and other regulations made thereunder, shall have the meanings respectively assigned to them in those Acts or the rules or such other regulations, as the case may be. 3. Limits on Portability.— (1) 3[* * * *] (2) Mobile Number Portability will be applicable only to cellular mobile telephone numbers which incorporate a Public Land Mobile Network (PLMN) Access Code. CHAPTER- II Mobile Number Portability 4. Obligation to provide Mobile Number Portability.— Every Access Provider shall facilitate in its entire network, Mobile Number Portability to all subscribers, both pre-paid and post-paid and shall, upon request, provide the same on a non-discriminatory basis. 4[5. Obligation to set up mechanism for allocation of unique porting code.— (1) Every",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

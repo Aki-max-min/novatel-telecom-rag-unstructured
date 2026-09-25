@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_068",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 68,
+  "text": "user experience based on network log, spatial network data analytics and correlation. The prediction of network performance and user experience through network logs and data analytics are sometime referred as ‘virtual drive test’ by the service providers. (iii) The main objective of the service provider conducting drive tests is to identify and address network issues on an ongoing basis to maintain the QoS. Therefore, the Authority is of the opinion that service providers are free to use either physical drive test tool or virtual drive test tool to achieve the same objective as achieved through physical drive test. However, the use of ‘virtual drive test tools’ is subject to their precise calibration and correlation by an independent third party while all other conditions and criteria shall be applicable for virtual drive tests. The certification by the independent third party, having proven expertise in the drive test domain, along with the results of calibration and correlation with physical drive tests shall be submitted to the Authority before the use of any ‘virtual drive test’ tool by the service provider. (iv) At least one drive test shall be conducted by the service provider in each LSA in each month. (v) The key criteria for planning the cell areas to be covered during drive tests shall include (a) call drop rate of more than benchmark for more than 5 days in previous month or (b) packet drop rate in downlink or uplink of more than benchmark for more than 5 days in previous",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

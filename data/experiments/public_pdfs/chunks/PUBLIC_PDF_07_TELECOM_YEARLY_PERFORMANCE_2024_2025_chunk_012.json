@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_012",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 12,
+  "text": "Chart 1.2: Trend of Tele-density in India Table1.1: Subscriber Base & Tele-density - Rural & Urban Year ending Subscriber Base (million) Tele-density (%) Rural Urban Total Rural Urban Overall Mar-22 519.82 647.11 1166.93 58.07 134.94 84.88 Mar-23 518.63 653.71 1172.34 57.71 133.81 84.51 Mar-24 533.90 665.38 1199.28 59.19 133.72 85.69 Mar-25 534.69 666.11 1200.80 59.06 131.45 85.04 4. Out of the total telephone subscription, the share of Rural telephone subscription increased from 44.52% at the end of Mar-24 to 44.53% at the end of Mar-25 and share of Urban telephone subscription in total telephone subscription, decreased from 55.48% at the end of Mar-24 to 55.47% at the end of Mar-25. The following chart depicts the rural- urban market share of telephone subscribers at the end of Mar-25. 15 Chart 1.3: Rural-Urban market share of telephone subscribers Table 1.2: Composition of Telephone Subscribers Network Type Share Urban Wireless 52.68% Rural Wireless 44.24% Urban Wireline 2.79% Rural Wireline 0.29% 5. Out of 1,200.80 million of total telephone subscriber, the number of Wireless (Mobile+5G FWA) telephone subscribers is 1,163.76 million and the number of Wireline Telephone subscribers is 37.04 million at the end of Mar-25. The following chart depicts the market share of Wireless and Wireline subscribers in India. Chart 1.4: Composition of Market Share Wireless & Wireline Subscribers 3.08% 96.92% Wireline Wireless 16 Table 1.3: Service Area wise Access (Wireless+Wireline) Subscriber base Service Area Subscribers (million) Mar-24 Mar-25 Yearly Net Additions Rate of Yearly Growth Andhra Pradesh 87.45 86.97 -0.48 -0.55% Assam",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

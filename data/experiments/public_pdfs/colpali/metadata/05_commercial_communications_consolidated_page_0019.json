@@ -1,0 +1,15 @@
+{
+  "page_id": 406,
+  "pdf_path": "regulations\\05_commercial_communications_consolidated.pdf",
+  "pdf_name": "05_commercial_communications_consolidated.pdf",
+  "document_id": "05_commercial_communications_consolidated",
+  "page_number": 19,
+  "page_number_zero_based": 18,
+  "image_path": "page_images\\05_commercial_communications_consolidated\\page_0019.jpg",
+  "embedding_path": "embeddings\\05_commercial_communications_consolidated\\page_0019.pt",
+  "embedding_shape": [
+    1,
+    1030,
+    128
+  ]
+}

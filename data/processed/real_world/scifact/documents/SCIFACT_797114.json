@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_797114",
+  "title": "A mitochondrially targeted compound delays aging in yeast through a mechanism linking mitochondrial membrane lipid metabolism to mitochondrial redox biology☆",
+  "content": "A recent study revealed a mechanism of delaying aging in yeast by a natural compound which specifically impacts mitochondrial redox processes. In this mechanism, exogenously added lithocholic bile acid enters yeast cells, accumulates mainly in the inner mitochondrial membrane, and elicits an age-related remodeling of phospholipid synthesis and movement within both mitochondrial membranes. Such remodeling of mitochondrial phospholipid dynamics progresses with the chronological age of a yeast cell and ultimately causes significant changes in mitochondrial membrane lipidome. These changes in the composition of membrane phospholipids alter mitochondrial abundance and morphology, thereby triggering changes in the age-related chronology of such longevity-defining redox processes as mitochondrial respiration, the maintenance of mitochondrial membrane potential, the preservation of cellular homeostasis of mitochondrially produced reactive oxygen species, and the coupling of electron transport to ATP synthesis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

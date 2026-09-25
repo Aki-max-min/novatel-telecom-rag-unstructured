@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_056",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 56,
+  "text": "or remove number of category(ies), or sub category(ies) for content; 2. Procedure for registration of preference or change of preference of Mode for Commercial 31 Communications: - Customer can opt-out of any or all of following category(ies) of mode(s) of communication: UCC Mode of Communication (Choices for Preference(s)) IVRS: Call to 1909 and press at prompt to block SMS: Send SMS to 1909 following text USSD: Dial USSD String All Categories of Mode (to be blocked) 10 BLOCK 10 *1909*10# Voice Call, 11 BLOCK 11 *1909*11# SMS, 12 BLOCK 12 *1909*12# Auto Dialer Call (With Pre-recorded Announcement), 13 BLOCK 13 *1909*13# Auto Dialer Call (With Connectivity to live agent), 14 BLOCK 14 *1909*14# Robo-Calls, 15 BLOCK 15 *1909*15# Note-1: In case of communication with customer executive of Customer Care Center of access provider, preference to opt-out may be communicated; Note-2: Customer to be communicated with confirmation and final status along with options to unblock; Note-3: BLOCK 10 option shall block all categories of modes except transactional type commercial communications while saving the status of customer for categories of time band and day types; Provided that the Authority may, from time to time, add or remove number of category(ies), or sub category(ies) for mode; Customer can opt-in for any or all of following category(ies) of mode(s) of communication: UCC Mode of Communication (Choices for Preference(s)) IVRS: Call to 1909 and press at prompt to block SMS: Send SMS to 1909 following text USSD: Dial USSD String All Categories of Mode (to",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

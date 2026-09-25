@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_167",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 167,
+  "text": "all LSAs, TSP Performance of Latency for 4G network TSP-1 TSP-2 TSP-3 TSP-4 (iii) From the above, latency performance analysis, it is observed that Latency for 4G network is below 60 msec in all LSAs for all TSPs (except one). However, since the latency is required to be measured as per ITU-T recommendation Y.1545.1 up to the Internet Exchange Point (IXP), the Authority has decided that initially the benchmark for Latency (in 4G and 5G network) will be ≤ 75 msec. The Authority has further decided to provide a glide path to improve the benchmark to ≤ 50 msec over a period as mentioned in the regulation. (iv) In respect of Broadband (Wireline) service, the present benchmark is <120 msec (International <350 msec for terrestrial and < 800msec for satellite). (v) As per the measurement setup provided in measurement methodology, the Latency is to be measured up to the IXP or boundary of the service provider’s network at national or service area level as per 160 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] applicable service authorization. Thus, latency contribution of the CDN or other service provider network or cloud service provider etc. is not included in the measurement. (vi) Factoring all these aspects and alignment of measurement methodology with ITU-T recommendation Y.1545.1, the QoS benchmark for latency in wireline broadband service has been fixed as ≤ 50 msec. 5.3.9 Packet drop rate {Access (Wireless) and Broadband (Wireline)} (a) Input of Stakeholders Some stakeholders submitted that the proposed benchmark has changed",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21874414",
+  "title": "Accurate coarse-grained modeling of red blood cells.",
+  "content": "We develop a systematic coarse-graining procedure for modeling red blood cells (RBCs) using arguments based on mean-field theory. The three-dimensional RBC membrane model takes into account the bending energy, in-plane shear energy, and constraints of fixed surface area and fixed enclosed volume. The coarse-graining procedure is general, it can be used for arbitrary level of coarse-graining and does not employ any fitting parameters. The sensitivity of the coarse-grained model is investigated and its behavior is validated against available experimental data and in dissipative particle dynamics (DPD) simulations of RBCs in capillary and shear flows.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

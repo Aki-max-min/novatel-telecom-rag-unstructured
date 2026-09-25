@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C03_recharge_failures_chunk_002",
+  "document_id": "KB_C03_recharge_failures",
+  "chunk_index": 2,
+  "text": "relevant specialist team, with an SLA acknowledgement sent to the customer within 24 hours. ## Related Issues - A similar symptom can appear for a related but distinct request type; confirm the exact request before applying this fix. ## Related Documents Related documents: FAQ_C03_001.",
+  "title": "Troubleshooting Failed Recharge Transactions",
+  "document_type": "KB Article",
+  "category": "C03",
+  "department": "Finance",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-24",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C03_001"
+  ],
+  "tags": [
+    "c03",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C03_recharge_failures.md",
+  "file_type": "markdown"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_160",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 160,
+  "text": "preference or changes to it. 4.3.2 Customer Preference Registration Facility (CPRF) should be available on multiple modes of communication as being provided under the current regulations. USSD may also be provided as an additional mode as it may provide interactive way for feature phone users to register or modify preferences. Web portal may be very helpful to provide interface to manage preferences and the customer may be authenticated via OTP. Web interface may also assist feature phone users and also provides options to take help of family member or friends to set preferences on the customer’s behalf. As penetration of mobile Internet is increasing at fast pace, mobile App may further be enhanced to provide internet-based interaction with the system in addition to the other method. 4.3.3 It is observed that if customer has attempted to register or manage preferences, but the request is not exactly in the same format prescribed in the regulations or information is inadequate then requests are being rejected and if customer is not aware at that point in time, exactly what changes are required in the submitted format then gets unsatisfied with the CPRF. The Authority is of the view that access provider should not simply reject the request but help or guide the customer to do it in right manner next time. For this purpose, one of the way may be to provide information to the customer to download and use mobile app which takes care of format related issue. In view of above,",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

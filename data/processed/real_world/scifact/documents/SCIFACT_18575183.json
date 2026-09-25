@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18575183",
+  "title": "Wnt5a functions in planar cell polarity regulation in mice.",
+  "content": "Planar cell polarity (PCP) refers to the polarization of cells within the plane of a cell sheet. A distinctive epithelial PCP in vertebrates is the uniform orientation of stereociliary bundles of the sensory hair cells in the mammalian cochlea. In addition to establishing epithelial PCP, planar polarization is also required for convergent extension (CE); a polarized cellular movement that occurs during neural tube closure and cochlear extension. Studies in Drosophila and vertebrates have revealed a conserved PCP pathway, including Frizzled (Fz) receptors. Here we use the cochlea as a model system to explore the involvement of known ligands of Fz, Wnt morphogens, in PCP regulation. We show that Wnt5a forms a reciprocal expression pattern with a Wnt antagonist, the secreted frizzled-related protein 3 (Sfrp3 or Frzb), along the axis of planar polarization in the cochlear epithelium. We further demonstrate that Wnt5a antagonizes Frzb in regulating cochlear extension and stereociliary bundle orientation in vitro, and that Wnt5a(-/-) animals have a shortened and widened cochlea. Finally, we show that Wnt5a is required for proper subcellular distribution of a PCP protein, Ltap/Vangl2, and that Wnt5a interacts genetically with Ltap/Vangl2 for uniform orientation of stereocilia, cochlear extension, and neural tube closure. Together, these findings demonstrate that Wnt5a functions in PCP regulation in mice.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

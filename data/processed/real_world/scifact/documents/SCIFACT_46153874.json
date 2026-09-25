@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_46153874",
+  "title": "Sedimentation velocity method in the analytical ultracentrifuge for the study of protein-protein interactions.",
+  "content": "Sedimentation analysis in the analytical ultracentrifuge can be employed to detect macromolecular interactions. Whenever two molecules interact the mass of the resulting complex is increased and this is reflected in the sedimentation behavior. In this chapter we discuss how this phenomenon can be utilized to determine quantitative parameters of an interaction. An example, interaction of single-stranded DNA binding protein with a subunit of DNA polymerase III holoenzyme is given together with a thorough treatment of the relating theory and a description of evaluation algorithms.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

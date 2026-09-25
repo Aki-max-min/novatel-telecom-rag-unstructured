@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_095",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 95,
+  "text": "a period of 24 Hours by an entity using Auto Dialer for Commercial Communications calls; 52 Ratio of Silent Calls to total attempted calls for a registered entity exceeding 1% over a period of 24 hour by an entity using Auto Dialer for Commercial Communications Calls; Entity(ies) found to be using telephone number harvesting software for sending Unsolicited Commercial Communications are barred to use their network; 4. each Access Provider shall, in order to ensure the security and integrity of UCC_Detect data, -- (i) ensure that the data generated through these systems and platforms shall only be used for the purposes provided under these regulations and the directions issued thereunder, and it shall not be possible to download or share the data generated through these systems and platforms or process it through any other platforms/ devices; (ii) ensure that strict access control shall be adhered wherein only authorized person/agencies, after obtaining prior approval from the Government, or TRAI, or any entity empowered by the Government or TRAI in this behalf, shall be permitted to access the system, and logs in respect of access shall be maintained; (iii) ensure that the activity logs and system trails shall be maintained online for a minimum period of two years or as prescribed by the Government, or specified by TRAI, from time to time; (iv) create a trusted execution environment for development of their platforms and systems with necessary requisite security features as may be notified by the Government, or TRAI, or entity empowered",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

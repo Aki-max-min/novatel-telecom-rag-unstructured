@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_28264919",
+  "title": "Site of action of a ribosomal RNA methylase responsible for resistance to erythromycin and other antibiotics.",
+  "content": "The enzyme which confers resistance to erythromycin in the producing organism Streptomyces erythraeus dimethylates a single adenine residue in Bacillus stearothermophilus 23 S rRNA. This corresponds to residue Ade 2058 in Escherichia coli 23 S RNA. The methylase responsible for resistance to macrolides, lincomycin, and streptogramin B-related antibiotics in Staphylococcus aureus also acts at this site.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

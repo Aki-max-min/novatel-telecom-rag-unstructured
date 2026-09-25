@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19482914",
+  "title": "Kindlin-3 is essential for integrin activation and platelet aggregation",
+  "content": "Integrin-mediated platelet adhesion and aggregation are essential for sealing injured blood vessels and preventing blood loss, and excessive platelet aggregation can initiate arterial thrombosis, causing heart attacks and stroke. To ensure that platelets aggregate only at injury sites, integrins on circulating platelets exist in a low-affinity state and shift to a high-affinity state (in a process known as integrin activation or priming) after contacting a wounded vessel. The shift is mediated through binding of the cytoskeletal protein Talin to the β subunit cytoplasmic tail. Here we show that platelets lacking the adhesion plaque protein Kindlin-3 cannot activate integrins despite normal Talin expression. As a direct consequence, Kindlin-3 deficiency results in severe bleeding and resistance to arterial thrombosis. Mechanistically, Kindlin-3 can directly bind to regions of β-integrin tails distinct from those of Talin and trigger integrin activation. We have therefore identified Kindlin-3 as a novel and essential element for platelet integrin activation in hemostasis and thrombosis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

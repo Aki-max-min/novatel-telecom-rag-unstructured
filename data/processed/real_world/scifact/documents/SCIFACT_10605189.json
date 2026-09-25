@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10605189",
+  "title": "Cerebral cortex assembly: generating and reprogramming projection neuron diversity",
+  "content": "The mammalian cerebral cortex is responsible for the highest levels of associative, cognitive and motor functions. In the central nervous system (CNS) the cortex stands as a prime example of extreme neuronal diversity, broadly classified into excitatory projection neurons (PNs) and inhibitory interneurons (INs). We review here recent progress made in understanding the strategies and mechanisms that shape PN diversity during embryogenesis, and discuss how PN classes may be maintained, postnatally, for the life of the organism. In addition, we consider the intriguing possibility that PNs may be amenable to directed reprogramming of their class-specific features to allow enhanced cortical plasticity in the adult.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2947124",
+  "title": "Persistent LCMV infection is controlled by blockade of type I interferon signaling.",
+  "content": "During persistent viral infections, chronic immune activation, negative immune regulator expression, an elevated interferon signature, and lymphoid tissue destruction correlate with disease progression. We demonstrated that blockade of type I interferon (IFN-I) signaling using an IFN-I receptor neutralizing antibody reduced immune system activation, decreased expression of negative immune regulatory molecules, and restored lymphoid architecture in mice persistently infected with lymphocytic choriomeningitis virus. IFN-I blockade before and after establishment of persistent virus infection resulted in enhanced virus clearance and was CD4 T cell-dependent. Hence, we demonstrate a direct causal link between IFN-I signaling, immune activation, negative immune regulator expression, lymphoid tissue disorganization, and virus persistence. Our results suggest that therapies targeting IFN-I may help control persistent virus infections.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

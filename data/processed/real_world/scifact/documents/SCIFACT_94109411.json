@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_94109411",
+  "title": "Improved Au/Zn/Au ohmic contacts for p-type InP",
+  "content": "In this work, an innovated Si3N4 as an out-diffusion barrier layer to Au/Zn/Au contact system for p-type InP has been proposed. Before the contacts were annealed, Si3N4 layer was deposited on the Au(200Å)/Zn(700Å)/Au(200Å), then the Si3N4 was removed by HF and a 2000A layer of pure gold was deposited to facilitate wire bonding. The specific contact resistance dropped to a minimum value of 6×10-7 Ω • cm2 (for an acceptor concentration of about 3×1018 cm-3) and the contact became perfectly Ohmic. Besides, Si3N4 layer is an excellent passivation layer and antireflection coating in InP/InGaAs/InP (p-i-n) photodiodes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

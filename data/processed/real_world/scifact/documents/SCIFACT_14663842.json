@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14663842",
+  "title": "IDH1 mutations alter citric acid cycle metabolism and increase dependence on oxidative mitochondrial metabolism.",
+  "content": "Oncogenic mutations in isocitrate dehydrogenase 1 and 2 (IDH1/2) occur in several types of cancer, but the metabolic consequences of these genetic changes are not fully understood. In this study, we performed (13)C metabolic flux analysis on a panel of isogenic cell lines containing heterozygous IDH1/2 mutations. We observed that under hypoxic conditions, IDH1-mutant cells exhibited increased oxidative tricarboxylic acid metabolism along with decreased reductive glutamine metabolism, but not IDH2-mutant cells. However, selective inhibition of mutant IDH1 enzyme function could not reverse the defect in reductive carboxylation activity. Furthermore, this metabolic reprogramming increased the sensitivity of IDH1-mutant cells to hypoxia or electron transport chain inhibition in vitro. Lastly, IDH1-mutant cells also grew poorly as subcutaneous xenografts within a hypoxic in vivo microenvironment. Together, our results suggest therapeutic opportunities to exploit the metabolic vulnerabilities specific to IDH1 mutation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

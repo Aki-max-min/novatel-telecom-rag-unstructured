@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21046889",
+  "title": "Alternate-day wheel access: effects on feeding, body weight, and running.",
+  "content": "For rats access to a running wheel results in a pronounced but temporary suppression of feeding. The reasons for the feeding suppression and its temporary nature are unclear. The effects of alternate-day wheel access were explored by comparing feeding and running in 25 male Sprague-Dawley rats given either no wheel access, continuous wheel access, or alternate-day wheel access. With alternate-day wheel access food intake was suppressed on wheel days and elevated on non-wheel days for the full 32 days of the experiment. Body weight decreased on wheel days and showed a large increase on non-wheel days. Acquisition of running over days was similar in both wheel groups and plateaued at the same level, but running was elevated, compared to continuous-access rats, for the first few hours when alternate-day rats were returned to the wheel. These results suggest that wheel-induced feeding suppression is not due to the novelty of the wheel and that this suppression can be extended by providing periods with no wheel access. The temporary nature of feeding suppression in chronic access conditions may be due to secondary longer term motivational changes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

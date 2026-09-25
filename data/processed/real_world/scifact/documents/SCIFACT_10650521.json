@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10650521",
+  "title": "A general role for splicing enhancers in exon definition.",
+  "content": "Exonic splicing enhancers (ESEs) facilitate exon definition by assisting in the recruitment of splicing factors to the adjacent intron. Here we demonstrate that suboptimal 5' and 3' splice sites are activated independently by ESEs when they are located on different exons. However, when they are situated within a single exon, the same weak 5' and 3' splice sites are activated simultaneously by a single ESE. These findings demonstrate that a single ESE promotes the recognition of both exon/intron junctions within the same step during exon definition. Our results suggest that ESEs recruit a multicomponent complex that minimally contains components of the splicing machinery required for 5' and 3' splice site selection.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

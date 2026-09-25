@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_222",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 222,
+  "text": "technology driven solutions § Promote competition – to continue multiplicity of players to participate in the commercial communication ecosystem. 7 Distributed Ledger Technology (DLT) can provide requisite capabilities: 7.1 Authority deliberated on the issues of regulatory requirements and operating models, that would be suitable to spearhead efforts to solve real business problems in dealing with UCC. Given the scale of the participating entities within the commercial communication market, the Authority is of view that DLT is the best match for meeting regulatory and operational objectives. Following section provides a thorough discussion on how DLT can potentially address a wide range of business, regulatory, legal, and technical issues related to Commercial Communications and help in controlling UCC. 7.2 DLT solutions are smart: Ledgers have been used to record many things and these were traditionally 103 mostly on paper. Gradually we have seen record-keeping system evolve, and these ledgers have moved from paper to bytes. State of the art systems are now moving towards digital distributed ledgers with properties and capabilities that go far beyond traditional paper-based ledgers. DLT solutions have the potential to transform ledgers to enable recording of an enormous number and range of transactions in a secure manner. They can also integrate business rules, smart contracts, digital signatures and an array of other tools with the basic functionality of a ledger which is to record transactions (or more generally changes of state). 7.3 DLT is Resistant to unauthorized changes: As a result of the methods by which information is",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_34198365",
+  "title": "Mechanism and Regulation of DNA-Protein Crosslink Repair by the DNA-Dependent Metalloprotease SPRTN",
+  "content": "Covalent DNA-protein crosslinks (DPCs) are toxic DNA lesions that interfere with essential chromatin transactions, such as replication and transcription. Little was known about DPC-specific repair mechanisms until the recent identification of a DPC-processing protease in yeast. The existence of a DPC protease in higher eukaryotes is inferred from data in Xenopus laevis egg extracts, but its identity remains elusive. Here we identify the metalloprotease SPRTN as the DPC protease acting in metazoans. Loss of SPRTN results in failure to repair DPCs and hypersensitivity to DPC-inducing agents. SPRTN accomplishes DPC processing through a unique DNA-induced protease activity, which is controlled by several sophisticated regulatory mechanisms. Cellular, biochemical, and structural studies define a DNA switch triggering its protease activity, a ubiquitin switch controlling SPRTN chromatin accessibility, and regulatory autocatalytic cleavage. Our data also provide a molecular explanation on how SPRTN deficiency causes the premature aging and cancer predisposition disorder Ruijs-Aalfs syndrome.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

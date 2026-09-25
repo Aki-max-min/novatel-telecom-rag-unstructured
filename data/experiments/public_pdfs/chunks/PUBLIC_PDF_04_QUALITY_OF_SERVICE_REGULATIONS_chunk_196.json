@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_196",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 196,
+  "text": "radio network, in original form is not envisaged against this provision. However, the ‘raw data’ or primary source data used to generate reports should be retained by the service providers and presented for the audit or the Authority, as and when required. (iv) To establish end-to-end linkage and traceability to the QoS performance data source, all QoS performance-related data, including raw, pre-processed and finally reported, should be stored and retained for at least one year after reporting the performance to the Authority except in case of any dispute as per provision in regulations. (v) The service providers shall facilitate and provide to the Authority or its authorized representative/ agency the required raw data against specified QoS parameters. 5.9 Consequences for failure to comply with the regulations (Regulation 16 to 18) (a) Input of Stakeholders (i) The provisions for Financial Disincentives should be removed and at most a symbolic FD of Rs. 5000 per TSP per month should be kept. (ii) QoS benchmarks need to be revised and the financial disincentives should be dispensed with for wireline QoS parameters due to market mechanism/ competition/ strain on the wireline networks as well as reduction of demand. (iii) One of the stakeholders did not agree with the idea of removal of financial disincentives from the telecom sector and submitted that financial disincentives, in the form of fines or penalties for regulatory non-compliance and anti-competitive behavior, are commonly employed in countries such as the United States, the European Union, the United Kingdom, Australia to",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

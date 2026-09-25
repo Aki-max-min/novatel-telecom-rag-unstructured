@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7560876",
+  "title": "The centrosome cycle: Centriole biogenesis, duplication and inherent asymmetries",
+  "content": "Centrosomes are microtubule-organizing centres of animal cells. They influence the morphology of the microtubule cytoskeleton, function as the base for the primary cilium and serve as a nexus for important signalling pathways. At the core of a typical centrosome are two cylindrical microtubule-based structures termed centrioles, which recruit a matrix of associated pericentriolar material. Cells begin the cell cycle with exactly one centrosome, and the duplication of centrioles is constrained such that it occurs only once per cell cycle and at a specific site in the cell. As a result of this duplication mechanism, the two centrioles differ in age and maturity, and thus have different functions; for example, the older of the two centrioles can initiate the formation of a ciliary axoneme. We discuss spatial aspects of the centrosome duplication cycle, the mechanism of centriole assembly and the possible consequences of the inherent asymmetry of centrioles and centrosomes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

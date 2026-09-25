@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_078",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 78,
+  "text": "service (wireless) against prescribed QoS parameters S. No. Parameters Benchmark Out of total 88 PMRs, the number of PMRs where Service Providers are not meeting the benchmarks Out of total 88 PMRs, the number of PMRs where Service Providers are not meeting the benchmarks May, 2025 June, 2025 Nos. %age Nos. %age I. Network Availability (i) Availability of service wise geospatial coverage map on service provider’s website for percentage of working cells ≥ 99% 0 0.0% 0 0.0% 78 (ii) Cumulative downtime (Cells not available for service) ≤ 2% 0 0.0% 0 0.0% (iii) Worst Affected Cells due to downtime ≤ 2% 2 2.3% 1 1.1% (iv) Percentage of significant network outage (services not available in a district for more than 4 hours) reported to the Authority within 24 hrs of start of the outage 100% 0 0.0% 0 0.0% II. Voice Connection Establishment (Accessibility) (v) Call Set-up Success Rate: Intra- Service provider (within service provider’s network) ≥ 98% 1 1.1% 1 1.1% (vi) Call Set-up Success Rate: Inter- Service provider (incoming from other service providers’ network) ≥ 95% 0 0.0% 1 1.1% (vii) Point of Interconnection (POI) Congestion (90th percentile value) ≤ 0.5% 0 0.0% 0 0.0% III. Voice Connection Maintenance (Retainability) (viii) DCR Spatial Distribution Measure for Circuit Switched (2G/3G) network [CS_QSD (88, 88)] ≤ 2% 0 0.0% 0 0.0% (ix) DCR Spatial Distribution Measure for Packet Switched (4G/5G and beyond) network [PS_QSD (92, 92)] ≤ 2% 2 2.3% 1 1.1% (x) Downlink Packet Drop Rate for Packet",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

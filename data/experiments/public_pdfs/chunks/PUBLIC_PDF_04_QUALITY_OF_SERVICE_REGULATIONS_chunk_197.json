@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_197",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 197,
+  "text": "from the telecom sector and submitted that financial disincentives, in the form of fines or penalties for regulatory non-compliance and anti-competitive behavior, are commonly employed in countries such as the United States, the European Union, the United Kingdom, Australia to ensure compliance and promote fair competition in the telecom sector. (b) Analysis and Conclusion (i) There are separate provisions of Financial Disincentive (FD) for different services in present regulations. While FD amount, in the case of Basic Telephone Services (Wireline), is applicable at a flat rate of rupees fifty thousand per parameter, the FD is at graded rates for Cellular Mobile Telephone (Wireless) services, starting with rupees one lakh per parameter to up to five lakh per parameter. (ii) The FD in the case of Broadband (Wireline) services is also graded. Rupees fifty thousand per parameter is applicable for the first contravention whereas in case of a second or subsequent such contravention applicable FD is rupees one lakh per parameter. Currently, no FD is applicable for Wireless Broadband services despite Wireless Broadband having more than 97 percent share in the overall broadband subscriber base. (iii) Since the assessment period for access service (wireless) has been revised to a monthly basis, the FD amount has been kept at rupees one lakh per parameter for the first contravention whereas it varied from rupees 1 lakh per parameter to 5 lakh per parameter in existing regulations with quarterly assessment period. Further, as the assessment period for wireline access and broadband services has not",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

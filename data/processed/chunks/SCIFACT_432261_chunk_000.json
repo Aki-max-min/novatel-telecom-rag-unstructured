@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_432261_chunk_000",
+  "document_id": "SCIFACT_432261",
+  "chunk_index": 0,
+  "text": "The generation of gene-edited animals using the CRISPRs/Cas9 system is based on microinjection into zygotes which is inefficient, time consuming and demands high technical skills. We report the optimization of an electroporation method for intact rat zygotes using sgRNAs and Cas9 protein in combination or not with ssODNs (~100 nt). This resulted in high frequency of knockouts, between 15 and 50% of analyzed animals. Importantly, using ssODNs as donor template resulted in precise knock-in mutations in 25-100% of analyzed animals, comparable to microinjection. Electroporation of long ssDNA or dsDNA donors successfully used in microinjection in the past did not allow generation of genome-edited animals despite dsDNA visualization within zygotes. Thus, simultaneous electroporation of a large number of intact rat zygotes is a rapid, simple, and efficient method for the generation of a variety of genome-edited rats.",
+  "title": "Generation of gene-edited rats by delivery of CRISPR/Cas9 protein and donor DNA into intact zygotes using electroporation",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

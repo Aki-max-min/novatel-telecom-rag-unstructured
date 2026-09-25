@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7837879",
+  "title": "Synchronization of Diffusively-Connected Nonlinear Systems: Results Based on Contractions with Respect to General Norms",
+  "content": "Contraction theory provides an elegant way to analyze the behavior of certain nonlinear dynamical systems. In this paper, we discuss the application of contraction to synchronization of diffusively interconnected components described by nonlinear differential equations. We provide estimates of convergence of the difference in states between components, in the cases of line, complete, and star graphs, and Cartesian products of such graphs. We base our approach on contraction theory, using matrix measures derived from norms that are not induced by inner products. Such norms are the most appropriate in many applications, but proofs cannot rely upon Lyapunov-like linear matrix inequalities, and different techniques, such as the use of the Perron-Frobenious Theorem in the cases of L1 or L∞ norms, must be introduced.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

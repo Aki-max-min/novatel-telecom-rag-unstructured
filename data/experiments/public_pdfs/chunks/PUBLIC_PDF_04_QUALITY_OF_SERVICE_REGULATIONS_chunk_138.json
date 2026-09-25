@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_138",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 138,
+  "text": "(v) In fact, cells of a base station form part of the access network and provide network connectivity to the end consumers. Therefore, the cell availability in the access network is the most essential requirement. Further, a cell is a uniquely identifiable element in the mobile network for measuring the availability of service. (vi) Considering that Base Station is a configurable parameter by the service provider as per their network monitoring and management practices, one option could be to prescribe common criteria for configuration of base stations in the network to bring uniformity across the service providers. However, this may impact the operation and management practices of individual service providers adversely and may also increase the compliance burden. Therefore, the Authority has not considered this option. (vii) As there is no standard definition for ‘Base Station’ and cell have a unique identification across different technologies, the Authority decided that performance of these two parameters shall be measured on a network element whose identity is well defined i.e., cell basis instead of ‘Base station’ basis. This will enable parity in comparison of network availability performance of different service providers on the common measurement criteria. 0.00% 0.50% 1.00% 1.50% 2.00% 2.50% TSP-1 TSP-2 TSP-3 TSP-4 Jun'23 Sept'23 Dec'23 Mar'24 148 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] (viii) The stakeholders have submitted that the reduction in network availability standards from 2% to 1% is deemed too stringent and doesn't account for factors beyond TSPs' control. However, the service providers have not provided",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

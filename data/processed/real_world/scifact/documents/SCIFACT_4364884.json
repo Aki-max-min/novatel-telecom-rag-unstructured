@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4364884",
+  "title": "A Mechanism Linking Extra Centrosomes to Chromosomal Instability",
+  "content": "Chromosomal instability (CIN) is a hallmark of many tumours and correlates with the presence of extra centrosomes. However, a direct mechanistic link between extra centrosomes and CIN has not been established. It has been proposed that extra centrosomes generate CIN by promoting multipolar anaphase, a highly abnormal division that produces three or more aneuploid daughter cells. Here we use long-term live-cell imaging to demonstrate that cells with multiple centrosomes rarely undergo multipolar cell divisions, and the progeny of these divisions are typically inviable. Thus, multipolar divisions cannot explain observed rates of CIN. In contrast, we observe that CIN cells with extra centrosomes routinely undergo bipolar cell divisions, but display a significantly increased frequency of lagging chromosomes during anaphase. To define the mechanism underlying this mitotic defect, we generated cells that differ only in their centrosome number. We demonstrate that extra centrosomes alone are sufficient to promote chromosome missegregation during bipolar cell division. These segregation errors are a consequence of cells passing through a transient 'multipolar spindle intermediate' in which merotelic kinetochore-microtubule attachment errors accumulate before centrosome clustering and anaphase. These findings provide a direct mechanistic link between extra centrosomes and CIN, two common characteristics of solid tumours. We propose that this mechanism may be a common underlying cause of CIN in human cancer.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

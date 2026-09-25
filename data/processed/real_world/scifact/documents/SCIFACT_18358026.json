@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18358026",
+  "title": "Oxidative damage targets complexes containing DNA methyltransferases, SIRT1, and polycomb members to promoter CpG Islands.",
+  "content": "Cancer cells simultaneously harbor global losses and gains in DNA methylation. We demonstrate that inducing cellular oxidative stress by hydrogen peroxide treatment recruits DNA methyltransferase 1 (DNMT1) to damaged chromatin. DNMT1 becomes part of a complex(es) containing DNMT3B and members of the polycomb repressive complex 4. Hydrogen peroxide treatment causes relocalization of these proteins from non-GC-rich to GC-rich areas. Key components are similarly enriched at gene promoters in an in vivo colitis model. Although high-expression genes enriched for members of the complex have histone mark and nascent transcription changes, CpG island-containing low-expression genes gain promoter DNA methylation. Thus, oxidative damage induces formation and relocalization of a silencing complex that may explain cancer-specific aberrant DNA methylation and transcriptional silencing.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_040",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 40,
+  "text": "against such Sender as under- (A) for the first instance of violation, outgoing services of all the telecom resources of the Sender including PRI/SIP trunks etc shall be barred by all the Access Providers for a period of fifteen days, irrespective of whether such resources other than the misused resource have been used for sending UCC or not; 22 (B) for the second and subsequent instances of violations- (I) all telecom resources of the Sender across all the access providers including PRI/SIP trunks etc. shall be disconnected by all the Access Providers for one year, irrespective of whether such resources other than the misused resource have been used for sending UCC or not; (II) OAP shall put the Sender under the blacklist category and no new telecom resources shall be provided by any Access Provider to such Sender during this period; (III) all the devices used for making UCC shall also be blocked across all the Access Providers for a period of one year: Provided that one telephone number may be allowed to be retained by such Sender during this period: Provided further that Sender can represent to OAP against action due to first or subsequent instance of violation; OAP shall decide the representation within a maximum period of seven business days and shall record its findings. Provided also that Sender may make a representation to the Authority against such decision of OAP, as provided under regulation 29; (ii) in case, number of complaints against the Sender are from less",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

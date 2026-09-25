@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24466904",
+  "title": "Successful establishment of long-term bone marrow cultures in 103 patients with myelodysplastic syndromes.",
+  "content": "We used bone marrow biopsies instead of mononuclear cells to maintain long-term cultures from 103 patients belonging to all five sub-categories of myelodysplastic syndromes (MDS), as well as 12 normal controls. By week 4, 30-50% confluency was reached and could be maintained for up to 12 weeks with 100% confluency. The four prominent cells were fibroblasts, macrophages, endothelial cells and adipocytes. Immunohistochemical and electron microscopic studies provided lineage confirmation. Normal hematopoiesis was well supported by MDS stroma. Neither the FAB nor cytogenetics was co-related with the potency of growth. MDS stroma appears to be both morphologically and functionally normal.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

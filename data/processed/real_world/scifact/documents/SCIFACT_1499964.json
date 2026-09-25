@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1499964",
+  "title": "30 Years of NF-κB: A Blossoming of Relevance to Human Pathobiology",
+  "content": "NF-κB was discovered 30 years ago as a rapidly inducible transcription factor. Since that time, it has been found to have a broad role in gene induction in diverse cellular responses, particularly throughout the immune system. Here, we summarize elaborate regulatory pathways involving this transcription factor and use recent discoveries in human genetic diseases to place specific proteins within their relevant medical and biological contexts.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

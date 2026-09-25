@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_39465575",
+  "title": "Direct reprogramming of fibroblasts into neural stem cells by defined factors.",
+  "content": "Recent studies have shown that defined sets of transcription factors can directly reprogram differentiated somatic cells to a different differentiated cell type without passing through a pluripotent state, but the restricted proliferative and lineage potential of the resulting cells limits the scope of their potential applications. Here we show that a combination of transcription factors (Brn4/Pou3f4, Sox2, Klf4, c-Myc, plus E47/Tcf3) induces mouse fibroblasts to directly acquire a neural stem cell identity-which we term as induced neural stem cells (iNSCs). Direct reprogramming of fibroblasts into iNSCs is a gradual process in which the donor transcriptional program is silenced over time. iNSCs exhibit cell morphology, gene expression, epigenetic features, differentiation potential, and self-renewing capacity, as well as in vitro and in vivo functionality similar to those of wild-type NSCs. We conclude that differentiated cells can be reprogrammed directly into specific somatic stem cell types by defined sets of specific transcription factors.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

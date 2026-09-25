@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_151",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 151,
+  "text": "subscriber preferences. ii. Moreover, many stakeholders supported that scrubbing as a service will actually reduce the time for enforcement. They recommended that the TSPs & Telemarketers should access the central registry through suitable APIs. One of the registered telemarketers commented that if the RTMs obtain scrubbing as a service from any third party, delays are expected and instead of reducing time, it will increase the time. To address concerns of privacy, one of the solution providers also suggested that the numbers to be scrubbed can be kept in the hashed form and even the screening can be done in such a way that absolutely no information about the numbers is revealed. iii. Few stakeholders from TSP side mentioned that with increase in granularity, they do not expect significant increase in complexity in operation or in scrubbing. While other stakeholders from TSPs and one from solution provider side submitted that they expect significant increase in complexity and Scrubbing as a Service model would easily handle the increased complexity. One solution provider endorsed the use of cloud computing technology to further reduce the strain on RTMs’ capacities and also endorsed prescribing a standard data format such as JSON for RTMs to upload data for scrubbing. iv. One Stakeholder is not in favour of having scrubbing as a service, however other supported the idea of scrubbing as separate service, but also mentioned that delays cannot be completely eliminated even then. v. some stakeholders suggested that, from the scaling standpoint, the solutions based on",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

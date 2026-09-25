@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_053",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 53,
+  "text": "day(s) of target recipient customer in Distributed Ledger for Preference (DL-Preference); output of scrubbed list is a positive match of verifications in either of 2(a) or 2(b) as consent given by the recipient to the sender(s) shall override choice of preference(s) made by the recipient customer and positive match of verifications in 2(c) or 2(d); 7. Every Access Provider shall formulate: - Message Sequence Charts for messages with parameter details and time sequence to provide details about the process between two entities and action taken by particular entity; Flow Charts to provide details about the process between two entities and action taken; 29 SCHEDULE-II Code of Practice for Process of registration, modification or deregistration of Preferences, recording consent and revocation of consent 1. Procedure for registration or change of preference of Categories of content for Commercial Communications: - Customer can opt-out for any or all of following Commercial Communications Content category(ies) of content: Commercial Communications Category to be blocked or opted out IVRS: Call to 1909 and press at prompt to block SMS: Send SMS to 1909 following text USSD: Dial USSD String All CC Categories (to be blocked) except transactional type of commercial communications 0 FULLY BLOCK *1909*0# All CC Categories (to be blocked) except transactional and service type of commercial communications 50 BLOCK PROMO *1909*50# Banking/Insurance/Financial products/ credit cards, 1 BLOCK 1 *1909*1# Real Estate, 2 BLOCK 2 *1909*2# Education, 3 BLOCK 3 *1909*3# Health, 4 BLOCK 4 *1909*4# Consumer goods and automobiles, 5 BLOCK 5 *1909*5# Communication/Broadcasting",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

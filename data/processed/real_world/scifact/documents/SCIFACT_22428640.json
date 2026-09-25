@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22428640",
+  "title": "Chromatin remodeling in embryonic stem cells: regulating the balance between pluripotency and differentiation.",
+  "content": "Embryonic stem cells have an unlimited potential for self-renewal yet are pluripotent, capable of differentiating into three different germ layers and ultimately into multiple cell lineages. Key pluripotency specific factors maintain an undifferentiated ES cell phenotype while lineage specific factors work in opposition to promote cell specialization. In addition to these important transcriptional regulators, epigenetic modifiers play a defining role in regulating the balance between pluripotency and differentiation by promoting changes in chromatin structure.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

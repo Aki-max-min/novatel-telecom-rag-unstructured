@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_16790253",
+  "title": "Notch signaling: cell fate control and signal integration in development.",
+  "content": "Notch signaling defines an evolutionarily ancient cell interaction mechanism, which plays a fundamental role in metazoan development. Signals exchanged between neighboring cells through the Notch receptor can amplify and consolidate molecular differences, which eventually dictate cell fates. Thus, Notch signals control how cells respond to intrinsic or extrinsic developmental cues that are necessary to unfold specific developmental programs. Notch activity affects the implementation of differentiation, proliferation, and apoptotic programs, providing a general developmental tool to influence organ formation and morphogenesis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

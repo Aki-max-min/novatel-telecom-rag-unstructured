@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29073751",
+  "title": "Redox-dependent downregulation of Rho by Rac",
+  "content": "Rac and Rho GTPases function as critical regulators of actin cytoskeleton remodelling during cell spreading and migration. Here we demonstrate that Rac-mediated reactive oxygen species (ROS) production results in the downregulation of Rho activity. The redox-dependent decrease in Rho activity is required for Rac-induced formation of membrane ruffles and integrin-mediated cell spreading. The pathway linking generation of ROS to downregulation of Rho involves inhibition of the low-molecular-weight protein tyrosine phosphatase (LMW-PTP) and then an increase in the tyrosine phosphorylation and activation of its target, p190Rho-GAP. Our findings define a novel mechanism for the coupling of changes in cellular redox state to the control of actin cytoskeleton rearrangements by Rho GTPases.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

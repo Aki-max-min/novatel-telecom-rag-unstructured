@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_15716328",
+  "title": "In vivo role of ER-associated peptidase activity in tailoring peptides for presentation by MHC class Ia and class Ib molecules",
+  "content": "Endoplasmic reticulum (ER)-associated aminopeptidase (ERAP)1 has been implicated in the final proteolytic processing of peptides presented by major histocompatibility complex (MHC) class I molecules. To evaluate the in vivo role of ERAP1, we have generated ERAP1-deficient mice. Cell surface expression of the class Ia molecules H-2Kb and H-2Db and of the class Ib molecule Qa-2 was significantly reduced in these animals. Although cells from mutant animals exhibited reduced capacity to present several self- and foreign antigens to Kb-, Db-, or Qa-1b–restricted CD8+ cytotoxic T cells, presentation of some antigens was unaffected or significantly enhanced. Consistent with these findings, mice generated defective CD8+ T cell responses against class I–presented antigens. These findings reveal an important in vivo role of ER-associated peptidase activity in tailoring peptides for presentation by MHC class Ia and class Ib molecules.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

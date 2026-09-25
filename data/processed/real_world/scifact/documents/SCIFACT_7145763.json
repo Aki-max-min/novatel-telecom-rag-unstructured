@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7145763",
+  "title": "Tit-for-Tat: Type VI Secretion System Counterattack during Bacterial Cell-Cell Interactions",
+  "content": "The bacterial type VI secretion system (T6SS) is a dynamic organelle that bacteria use to target prey cells for inhibition via translocation of effector proteins. Time-lapse fluorescence microscopy has documented striking dynamics of opposed T6SS organelles in adjacent sister cells of Pseudomonas aeruginosa. Such cell-cell interactions have been termed \"T6SS dueling\" and likely reflect a biological process that is driven by T6SS antibacterial attack. Here, we show that T6SS dueling behavior strongly influences the ability of P. aeruginosa to prey upon heterologous bacterial species. We show that, in the case of P. aeruginosa, T6SS-dependent killing of either Vibrio cholerae or Acinetobacter baylyi is greatly stimulated by T6SS activity occurring in those prey species. Our data suggest that, in P. aeruginosa, T6SS organelle assembly and lethal counterattack are regulated by a signal that corresponds to the point of attack of the T6SS apparatus elaborated by a second aggressive T6SS(+) bacterial cell. PAPERFLICK:",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

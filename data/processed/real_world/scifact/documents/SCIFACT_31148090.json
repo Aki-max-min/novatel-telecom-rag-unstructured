@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_31148090",
+  "title": "Two classes of endogenous small RNAs in Tetrahymena thermophila.",
+  "content": "Endogenous small RNAs function in RNA interference (RNAi) pathways to guide RNA cleavage, translational repression, or methylation of DNA or chromatin. In Tetrahymena thermophila, developmentally regulated DNA elimination is governed by an RNAi mechanism involving approximately 27-30-nucleotide (nt) RNAs. Here we characterize the sequence features of the approximately 27-30-nt RNAs and a approximately 23-24-nt RNA class representing a second RNAi pathway. The approximately 23-24-nt RNAs accumulate strain-specifically manner and map to the genome in clusters that are antisense to predicted genes. These findings reveal the existence of distinct endogenous RNAi pathways in the unicellular T. thermophila, a complexity previously demonstrated only in multicellular organisms.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

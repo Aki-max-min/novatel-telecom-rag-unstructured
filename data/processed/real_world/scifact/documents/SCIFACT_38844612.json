@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_38844612",
+  "title": "The basics of epithelial-mesenchymal transition.",
+  "content": "The origins of the mesenchymal cells participating in tissue repair and pathological processes, notably tissue fibrosis, tumor invasiveness, and metastasis, are poorly understood. However, emerging evidence suggests that epithelial-mesenchymal transitions (EMTs) represent one important source of these cells. As we discuss here, processes similar to the EMTs associated with embryo implantation, embryogenesis, and organ development are appropriated and subverted by chronically inflamed tissues and neoplasias. The identification of the signaling pathways that lead to activation of EMT programs during these disease processes is providing new insights into the plasticity of cellular phenotypes and possible therapeutic interventions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

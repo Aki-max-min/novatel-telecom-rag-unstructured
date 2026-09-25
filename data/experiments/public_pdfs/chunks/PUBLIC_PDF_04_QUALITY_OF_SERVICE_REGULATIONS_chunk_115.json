@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_115",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 115,
+  "text": "that rollouts are critical for the proliferation of network coverage to include all segments of society for their digital empowerment. As such service providers are encouraged to spread their networks to include populations and geographies seamlessly. At the same time, service providers are also required to ingrain the quality-of-service aspect while designing and implementing the networks, so that telecom networks have universal coverage and deliver meaningful connectivity to support services subscribed by the consumers. 4.7 Benchmarks proposed in draft regulation are unachievable (a) Input of Stakeholders Some of the stakeholders submitted that the parameters had been made so stringent that may render service providers non-compliant against various benchmarks. This may result into financial disincentives to the service providers. The service providers emphasized that the regulations should rather encourage service providers to improve QoS through investments in the networks. (b) Analysis and Conclusion The Authority has considered all the relevant aspects of QoS including but not limited to (i) global standards and corresponding QoS benchmarks (ii) network technologies mix in the mobile network of the country (iii) contribution of network complaints in overall subscriber complaints and (iv) present performance against the existing benchmarks. Service providers did not submit any supporting data or analysis to justify their comments/ submissions. Accordingly, the benchmarks have been finalized by the Authority after taking holistic perspective and analysis based on the performance data provided by the service providers. The analysis or justification for the revision of performance benchmarks has been provided against relevant QoS parameters in",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

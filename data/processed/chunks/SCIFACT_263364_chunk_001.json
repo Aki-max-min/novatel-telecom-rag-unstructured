@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_263364_chunk_001",
+  "document_id": "SCIFACT_263364",
+  "chunk_index": 1,
+  "text": "more pronounced when we compared them with healthy controls (OR = 4.27; 95% CI, 2.08-8.76; p = 0.0005). The rs8099917-G allele was also associated with advanced liver disease (OR = 2.34; 95% CI, 1.40-3.93; p = 0.0100). CONCLUSIONS In the Moroccan population, polymorphisms near the IL28B gene play a role both in spontaneous clearance and progression of HCV infection.",
+  "title": "Genetic Variation in the Interleukin-28B Gene Is Associated with Spontaneous Clearance and Progression of Hepatitis C Virus in Moroccan Patients",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

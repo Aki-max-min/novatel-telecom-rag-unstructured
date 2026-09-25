@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14831629",
+  "title": "Patent ductus arteriosus: lack of evidence for common treatments.",
+  "content": "Patent ductus arteriosus (PDA) is a common diagnosis among extremely premature infants, especially in those with lung disease. Treatments are often used to close the PDA. Despite nearly three decades of research, the question of whether the benefits of treatments to prevent ductal patency or promote closure outweigh the risks of these treatments remains unanswered. The authors rarely use treatments designed to close the PDA. This article reviews three considerations in support of this restrained approach: rates of spontaneous closure of the ductus arteriosus; adverse effect of persistent ductal patency; and benefits and risks of treatments for closure.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

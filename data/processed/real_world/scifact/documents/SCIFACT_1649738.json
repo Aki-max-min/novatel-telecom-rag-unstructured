@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1649738",
+  "title": "Variants at 6q21 implicate PRDM1 in the etiology of therapy-induced second malignancies after Hodgkin's lymphoma",
+  "content": "Survivors of pediatric Hodgkin's lymphoma are at risk for radiation therapy–induced second malignant neoplasms (SMNs). We identified two variants at chromosome 6q21 associated with SMNs in survivors of Hodgkin's lymphoma treated with radiation therapy as children but not as adults. The variants comprise a risk locus associated with decreased basal expression of PRDM1 (encoding PR domain containing 1, with ZNF domain) and impaired induction of the PRDM1 protein after radiation exposure. These data suggest a new gene-exposure interaction that may implicate PRDM1 in the etiology of radiation therapy-induced SMNs.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

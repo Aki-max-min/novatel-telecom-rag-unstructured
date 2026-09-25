@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_055",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 55,
+  "text": "against broadband related QoS parameters are to be computed by making test calls using the measurement setup as explained below: (i) Measurement setup to be used to conduct test calls for measuring latency, packet drop rate, ‘Percentile value of measured test samples for which download and upload speed is ≥ offered typical download and upload speed in tariff offerings’ and jitter is given in Figure 2. (ii) The basic measurement set-up consists of a Test-probe and a Test-Server with required software and hardware. (iii) Test server(s) shall be located at the internet exchange point(s) or Internet Exchange Points (IXPs) where the traffic of the LSA is exchanged with networks of other service providers as per ITU-T recommendation Y.1545.1. (iv) Test calls must be established between the Test-probe and Test-Server and measurements must be made for the respective QoS parameters. These parameters shall be measured in stationary mode. Figure 2: Measurement set-up for Broadband Services (v) Requirements for the Test-Server: (a) For all tests, a dedicated test server should be used as a well-defined reference. The test server may be located centrally for all the licensed service areas (LSA) or for multiple LSAs or in each LSA (not more than one test server in each LSA). Under no circumstances a commercial server should be used, since the test conditions for such a server may change over time. (b) The test server should be identified by an IP address and not by its Fully Qualified Domain Name (FQDN) to avoid issues with",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

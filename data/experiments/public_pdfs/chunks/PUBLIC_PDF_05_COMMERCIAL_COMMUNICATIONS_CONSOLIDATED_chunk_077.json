@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_077",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 77,
+  "text": "Note-1: In case of communication with customer executive of Customer Care Center of access provider, preference to opt-out may be communicated; Note-2: Customer to be communicated with confirmation and final status along with options to unblock; Note-3: BLOCK 10 option shall block all categories of modes except transactional type commercial communications while saving the status of customer for categories of time band and day types; Provided that the Authority may, from time to time, add or remove number of category(ies), or sub category(ies) for mode; Customer can opt-in for any or all of following category(ies) of mode(s) of communication: UCC Mode of Communication (Choices for Preference(s)) IVRS: Call to 1909 and press at prompt to block SMS: Send SMS to 1909 following text USSD: Dial USSD String All Categories of Mode (to be unblocked) 80 UNBLOCK 80 *1909*80# Voice Call, 81 UNBLOCK 81 *1909*81# SMS, 82 UNBLOCK 82 *1909*82# Auto Dialer Call (With Pre- recorded Announcement), 83 UNBLOCK 83 *1909*83# 42 Auto Dialer Call (With Connectivity to live agent), 84 UNBLOCK 84 *1909*84# Robo-Calls, 85 UNBLOCK 85 *1909*85# Note-1: In case of communication with customer executive of Customer Care Center of access provider, preference to opt-in may be communicated; Note-2: Customer to be communicated with confirmation and final status along with options to block; Note-3: UNBLOCK 80 option shall restore all categories of modes for categories of time band and day types as per the previous status of customer when he exercised block option last time or as per the",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

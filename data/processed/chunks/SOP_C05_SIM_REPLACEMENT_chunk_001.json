@@ -1,0 +1,20 @@
+{
+  "chunk_id": "SOP_C05_SIM_REPLACEMENT_chunk_001",
+  "document_id": "SOP_C05_SIM_REPLACEMENT",
+  "chunk_index": 1,
+  "text": "Response SOP. Exception Handling If fraud is suspected at any point, halt the process and route to SOP_C18_FRAUD_RESPONSE. Validation Confirm the account/system reflects the expected end state before the case is closed, and obtain customer confirmation where applicable. Escalation Unresolved cases are automatically flagged for supervisor review after the stated SLA window, ensuring no request is left without a defined next action. SLA / Timing First-line resolution target is same working day; escalations to specialist teams carry a 2-3 working day SLA. Audit Requirements Every action taken under this SOP must be logged against the account with agent ID, timestamp, and outcome for audit and quality-review purposes. Related Documents KB_C05_sim_swap_troubleshooting, FAQ_C05_002",
+  "title": "Issuing a Duplicate/Replacement SIM",
+  "document_type": "SOP",
+  "category": "C05",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c05"
+  ],
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C05_SIM_REPLACEMENT.docx",
+  "file_type": "docx"
+}

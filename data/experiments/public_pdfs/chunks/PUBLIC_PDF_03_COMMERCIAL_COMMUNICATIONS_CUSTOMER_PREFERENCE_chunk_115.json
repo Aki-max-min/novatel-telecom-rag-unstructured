@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_115",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 115,
+  "text": "voice calls, etc. Under the revised regulations more functions are required, such as consent acquisition, entity registration, etc. Unbundling of composite functions as independent functions and introducing new functions, which can also be independently performed, provide opportunities to new players to participate in the UCC eco system and offer existing players to shed any role they do not wish to perform. 3.3.5 Access Provider may be required to define functions referred to in the above paras in more detail. Interactions among these functions and information exchange processes are also to be prescribed in CoP-Entities, some of the key functions which will have to be defined and performed are: i. Header Registration Function (HRF) ii. Consent Registration Function (CRF) iii. Content Template Registration Function (CTRF) iv. Scrubbing function (SF) v. Content Verification Function (CVF) vi. Delivery Function for Messages with Telecom Resource Connectivity to Access Provider (DF) vii. Aggregation Function for Message to other Telemarketer for delivery function (AF) viii. Voice Calling Function with Telecom Resource Connectivity (VCF) Each function has to generate activity logs for the actions performed with such functionality irrespective of the other functions performed by the same or different physical entity. Users taking services of such functions may be provided options to carry out individual functions from same or different physical entities. Further specific details about the roles to be played under these functional entities may be included in codes of practice which are to be formulated by access providers. 3.3.6 Flexibility to customize the agreements and",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_409280_chunk_001",
+  "document_id": "SCIFACT_409280",
+  "chunk_index": 1,
+  "text": "CVD preventive recommendations. Gender disparities in recommendations for preventive therapy were explained largely by the lower perceived risk despite similar calculated risk for women versus men. Educational interventions for physicians are needed to improve the quality of CVD preventive care and lower morbidity and mortality from CVD for men and women.",
+  "title": "National study of physician awareness and adherence to cardiovascular disease prevention guidelines.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

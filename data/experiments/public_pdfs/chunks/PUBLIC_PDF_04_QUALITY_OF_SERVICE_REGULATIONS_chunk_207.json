@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_207",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 207,
+  "text": "the Core network. Therefore, to deliver the required QoS, it is essential that sufficient network resources are provisioned and made available to each service capability. (ii) However, the Authority has noted the commitment of the service providers that consumer voice and data services shall remain unaffected as they will continue to be provided using the dedicated network resources to deliver required QoS. 173 (iii) It is also noted that QoS monitoring and management through Six Sigma quality management framework will enable the service providers to monitor and optimize the network performance on an ongoing basis. 6.5 To achieve QoS and QoE end-to-end, it is essential that all network segments deliver the minimum level of QoS required by respective service, application or use case. In this context, please suggest QoS parameters and corresponding benchmarks for National Long Distance (NLD) and International Long Distance (ILD) segments of the network with supporting global benchmarks. (Q6) (a) Input of Stakeholders (i) The stakeholders submitted that the networks are designed to operate at optimum QoS levels on a regular basis. The carrier services, such as NLD and ILD services, function under agreed service level agreements (SLAs), and the competition in the carrier services market ensures that these SLAs are maintained. Furthermore, there is no global precedent for regulating or monitoring QoS for carrier services. It is further submitted that from a consumer service level, the network is created as a whole, and not in isolation at access, core and transport levels, i.e., these elements are",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

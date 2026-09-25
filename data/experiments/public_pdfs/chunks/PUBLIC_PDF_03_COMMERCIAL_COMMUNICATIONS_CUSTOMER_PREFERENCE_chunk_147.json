@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_147",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 147,
+  "text": "not well acquainted with the format of registration of preference. Mobile Apps provide a convenient way to the customer to register his or her preferences. It is required to ensure the availability of Mobile Apps for registering preferences and complaints for all types of devices, OS, and platforms. Penetration of app is required to be increased and it may be done by bundling a white-labelled TRAI Mobile App with other Apps or pre-installing an App with mobile devices. Other initiatives may also be taken for popularizing the app. For feature phone users, a similar type of convenience may be provided by using USSD features. 4.1.3 Retention of Registration Status during MNP process: Customers should be able to retain their preferences while porting their numbers. This may require changes in the process for Mobile Number Portability (MNP) and the facility to update the subscription network in the databases of UCC and retain 78 the status of the customer for preferences. 4.1.4 Preference Registration in Bulk or by somebody on behalf of him: Customers may easily register their preferences and change it as and when required if the facility to make registration in bulk for preferences is available and it can be done by somebody on behalf of an organization or family. Introduction of this facility may require changes or defining process and requirement of specific documents. 4.1.5 More Granularity in choices for Preferences: It has been reported that many times unregistered telemarketers reach out to customers who have opted out of",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

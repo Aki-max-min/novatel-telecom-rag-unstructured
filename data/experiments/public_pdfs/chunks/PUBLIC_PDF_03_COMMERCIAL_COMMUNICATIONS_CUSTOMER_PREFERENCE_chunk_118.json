@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_118",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 118,
+  "text": "of consent: Just as for preference, the scope of consent would also evolve. Consent may require registration of templates that define the consent and customers may revoke their consent, if it doesn’t serve their purpose. Consent is currently taken in various forms, e.g. punching telephone number in the computerized form at the time of making payment or while taking feedback about the goods or services. There is no robust mechanism to verify the ownership of number provided by the client at the time of giving consent. Verification of consent at a later stage poses two challenges: first to retrieve the information from TMSE database, and second, to verify the authenticity of the recorded consent. Robust mechanism for recording the consent is required to be developed and deployed in which the consent is explicit and recorded in a verifiable and robust manner. It may reasonably be inferred as consent when the transmitted information is related to a transaction, including a specific inquiry about the product or service. In such cases, it is not practically possible to take prior consent and it is not in the interest of the customer to block such communications. 3.3.9 Consent Acquisition and Consent Registrar: Consent acquisition requires authentication of the target recipient and may be implemented by using OTP. Further it must be recorded in an immutable and non 66 repudiable manner. In case of explicit consent, recorded consent must be available as a part of consent register. To facilitate this, a Customer Consent Recording System",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

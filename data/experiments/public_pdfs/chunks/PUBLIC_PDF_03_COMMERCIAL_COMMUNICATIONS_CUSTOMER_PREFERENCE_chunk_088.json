@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_088",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 88,
+  "text": "account of the client; - a registered company to its employees or agents or customers pertaining to goods or services provided by it. - a registered company or charitable trust or society or TSP, pertaining to its services or activities to the telecom subscriber in response to a verifiable request of such subscriber. Introduced provisions for the option to reply messages Regulation 17(4) proviso added: telemarketer for receiving a reply in response to the transactional message, to enter into an agreement with the Access Provider under Schedule-VII and Regulation 17(10) proviso added for such telemarketer to have the facility of receiving incoming SMS. 53 Regulation 19(8)(a) & in Regulation 20(2)(b): Schedule-VII added for Agreement between Access Provider and Transactional Message Sending Entity (TMSE) to have a facility for the reply message, when such Transactional message do not fall within the definition of promotional message. Introduced provisions for taking request from the customer for sending transactional messages TMSE shall (a) send information only after receipt of a verifiable request (b) information will be provided for a maximum period of six months unless renewed and also process to opt out from receiving such information; (c) obtain afresh request every six months for continuing (d) intimate procedure to opt out from receiving such information and in every advertisement wherein the details of its services and activities are published (f) maintain a record of the request (g) not send any objectionable, obscene, unauthorized content, message or communication 1.4.2 Key points of UCC Directions issued",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_065",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 65,
+  "text": "PMRTS is available at Annexure-1.8. 74 85. The following chart depicts the trend of number of PMRTS subscribers during last four years. Chart 1.28: Trend of number of PMRTS subscribers Very Small Aperture Terminal (VSAT) 86. The total number of Very Small Aperture Terminal (VSAT) subscribers decreased from 2,53,250 at the end of Mar-24 to 2,43,663 at the end of Mar-25. Net loss in VSAT subscribers during at the end Mar-25 has been 9,587 at the yearly rate of decline of 3.79%. 87. Hughes Communication Limited continues to be the market leader with subscriber base of 1,73,140 followed by Nelco Ltd with subscriber base of 63,341 at the end of Mar-25. 66392 67,820 65,880 67,023 10000 20000 30000 40000 50000 60000 70000 Mar-22 Mar-23 Mar-24 Mar-25 75 Table 1.46: VSAT Service Providers currently providing service & their subscriber base Sr. No Name of Service Providers Subscriber base at the Quarter ending Net Addition Growth Market Share Mar-25 Mar-24 Mar-25 1 Hughes Communications Ltd. 1,79,732 173,140 -6592 -3.67% 71.06% 2 Nelco Ltd. 65,484 63,341 -2143 -3.27% 26.00% 3 BSNL 5,333 4,387 -946 -17.74% 1.80% 4 Infotel Satcom 2,694 2,686 -8 -0.30% 1.10% 5 JIO-VSAT - 102 102 - 0.04% 6 Cloudcast Digital 7 7 0 0.00% 0.003% Total 2,53,250 2,43,663 -9587 -3.79% 100 88. During the year 2024-25 all service providers have shown decline in their subscribers. Chart 1.29: Trend of Number of VSAT Subscribers 279333 256170 253250 243,663 0 50000 100000 150000 200000 250000 300000 350000 Mar-22 Mar-23 Mar-24 Mar-25",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

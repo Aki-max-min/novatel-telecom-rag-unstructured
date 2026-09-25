@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_129",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 129,
+  "text": "the stakeholders, the Authority has decided to drop this parameter from the regulation. 5.2.8 Requests for Shift of Telephone Connection to be attended within three days (a) Input of Stakeholders (i) Some of the stakeholders submitted that this parameter should not be considered as part of QoS KPIs to be monitored & reported and that the Authority should continue to include this parameter as part of the perception of service parameters. (ii) One of the stakeholders stated that this should be left for the market forces to decide. (b) Analysis and Conclusion The shifting of the telephone connections was an important aspect in the era of waiting lists. Now the telephone connections are provided on demand wherever it is technically feasible. Subscribers are free to apply for shifting or seek refund of deposit as per their requirements. The Authority has already prescribed the benchmark for refund of security deposits, if any. In view of the present scenario and for simplification of the regulation, the Authority has decided to discontinue the monitoring of this parameter. 5.2.9 Grade of Service (a) Junctions between local exchanges (b) Outgoing junctions from Trunk Automatic Exchange (TAX) to local exchange(c) Incoming junctions from local exchange to TAX (d) Incoming or outgoing junctions between TAXs (a) Input of Stakeholders (i) Some of the stakeholders submitted that this parameter should not be considered as part of the QoS parameters to be monitored & reported. (ii) The stakeholders have further submitted that the telecommunication industry has seen notable progress",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

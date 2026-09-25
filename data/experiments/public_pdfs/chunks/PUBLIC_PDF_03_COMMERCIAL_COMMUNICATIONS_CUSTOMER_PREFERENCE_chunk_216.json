@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_216",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 216,
+  "text": "of these regulations, the Authority may order or direct access provider(s) to disconnect all telecom resources or put all telecom resources of such business or legal entity under Usage Cap of such telecom resources. 6 Need of Technology driven framework for UCC 6.1 Efficient and effective way: Authority has always encouraged adoption of technology driven and data driven approach for efficient and effective regulatory compliances. New technologies and innovative processes may have the potential to achieve speed where regulatory pre-checks are required to be carried out for enormous transactions. 6.2 Regulatory Checks in distributed environment: Technology driven solutions are required to control menace of Unsolicited Commercial Communication (UCC). In case of UCC, the technology needs to work in distributed fashion and ensures that necessary regulatory checks are performed. Technologies and 101 solutions based on it should create records for every action taken by the different entities to check regulatory compliance before and after delivery of commercial communications in an immutable and non-repudiable manner. Regulatory checks in case of commercial communications are based upon present status of preferences and consent of the customer. These preferences and scope of consent are evolving and may become more and more comprehensive and granular in the future to match interest area of the customer. This evolution will be on both, the customer’s side and as well as business entity’s side. The selected technology solutions should provide a framework which adapts itself to meet such requirements and provide capability to carry out regulatory pre-checks in an",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

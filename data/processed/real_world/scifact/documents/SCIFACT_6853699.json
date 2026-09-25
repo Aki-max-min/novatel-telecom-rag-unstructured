@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6853699",
+  "title": "Macrophages in the Pathogenesis of Atherosclerosis",
+  "content": "In atherosclerosis, the accumulation of apolipoprotein B-lipoproteins in the matrix beneath the endothelial cell layer of blood vessels leads to the recruitment of monocytes, the cells of the immune system that give rise to macrophages and dendritic cells. Macrophages derived from these recruited monocytes participate in a maladaptive, nonresolving inflammatory response that expands the subendothelial layer due to the accumulation of cells, lipid, and matrix. Some lesions subsequently form a necrotic core, triggering acute thrombotic vascular disease, including myocardial infarction, stroke, and sudden cardiac death. This Review discusses the central roles of macrophages in each of these stages of disease pathogenesis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

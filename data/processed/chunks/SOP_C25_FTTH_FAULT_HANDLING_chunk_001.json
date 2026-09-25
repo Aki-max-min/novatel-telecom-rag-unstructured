@@ -1,0 +1,20 @@
+{
+  "chunk_id": "SOP_C25_FTTH_FAULT_HANDLING_chunk_001",
+  "document_id": "SOP_C25_FTTH_FAULT_HANDLING",
+  "chunk_index": 1,
+  "text": "before proceeding. Validation Confirm the account/system reflects the expected end state before the case is closed, and obtain customer confirmation where applicable. Escalation Where first-line steps do not resolve the issue within the stated timeframe, the case is escalated to the next tier with full interaction history attached, and the customer is informed of the new reference and expected timeline. SLA / Timing Standard cases are resolved within 24-48 hours; escalated cases carry a 3-5 working day SLA. Audit Requirements Every action taken under this SOP must be logged against the account with agent ID, timestamp, and outcome for audit and quality-review purposes. Related Documents KB_C25_ftth_fault_diagnosis",
+  "title": "FTTH Broadband Fault Ticket Handling",
+  "document_type": "SOP",
+  "category": "C25",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c25"
+  ],
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C25_FTTH_FAULT_HANDLING.docx",
+  "file_type": "docx"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_126",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 126,
+  "text": "expected to participate in the system, and such entities are likely to operate from different parts of the country. Senders of commercial communications could be operating for short term or sporadically, or their target recipients may be confined to a geographical area. Regulatory pre-checks and handling data in safe and secure manner requires a large number of processes to be running in sync. Further, these functions may be carried out by different entities in the UCC eco system. If all participating entities are registered and assigned roles and responsibilities in accordance to CoP-Entities, then participants playing different roles would be identifiable and inter-relationship among them would follow protocols to exchange information as defined in the CoP-Entities. Evolution of preferences, scope of consent, operating or interest areas of senders, activity periods or seasons of senders may lead to increase in the varieties of the participants offering services and may also increase the numbers of entities between sender and access provider’s network. To bring on board new participants to the system, to control and manage all the participants into the system to follow CoPs, to reconcile records and actions, to act against defaulter and many other such functions requires the adoption of technology driven solutions, without which effective and efficient enforcement of regulations is not possible. 3.3.18 Technology driven solutions to enable safe and secure data handling as required in the CoPs: The technology solutions adopted need to address recording of, storing and processing of data, and the execution environments in a",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

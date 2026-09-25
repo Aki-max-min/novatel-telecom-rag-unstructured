@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_008",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 8,
+  "text": "(13 of 1885); (ah) “National Numbering Plan” (NNP) means the National Numbering Plan issued by DoT from time to time; (ai) “Node” means participants on a distributed ledger having particular rights to read or write data; (aj) “Non-repudiable” means (i) making available proof of various network-related actions (such as proof of obligation, intent, or commitment; proof of data origin, proof of ownership, proof of resource use) so that an individual or entity cannot deny having performed a particular action; (ii) ensuring the availability of evidence that can be presented to Authority and used to prove that some kind of event or action has taken place; (ak) “One Time Password or OTP” means an automatically generated random number 7 used to authenticate the action of user for a single transaction or session. (al) “Originating Access Provider”(OAP) means the Access Provider who has provided the telecom resources to a sender; (am) “Permissioned DLT networks” means those DLT networks where participants in the process are preselected and addition of new record on the ledger is checked by a limited consensus process using a digital signature; (an) “Preference of Category of Commercial Communication” means preference exercised by the customer to permit only selected category of commercial communications out of available choices prescribed by relevant regulations; (ao) “Preference of Mode for Commercial Communication” means preference exercised by the customer to permit commercial communications only through selected mode of communications out of choices for modes made available in the relevant regulations or code(s) of practice; (ap)",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

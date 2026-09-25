@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_103",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 103,
+  "text": "22,895,503 0 5,301,279 5,251,965 43,033,531 43,410,632 91,332,612 91,840,609 507997 Mumbai 10,711,200 10,725,076 10,174,045 10,144,336 56 58 208,915 132,334 13,269,574 13,029,519 34,363,790 34,031,323 -332467 North East 637,041 627,363 6,428,564 6,473,553 0 1,290,499 1,282,201 4,361,492 4,426,469 12,717,596 12,809,586 91990 Orissa 1,397,972 1,428,049 12,022,842 12,029,713 0 5,573,279 5,540,622 16,107,501 16,555,819 35,101,594 35,554,203 452609 Punjab 6,037,566 5,888,323 12,622,157 12,635,178 6 7 4,092,007 4,072,133 11,699,791 11,774,431 34,451,527 34,370,072 -81455 Rajasthan 9,173,311 8,984,641 23,508,579 23,518,759 81 51 5,634,425 5,617,556 26,679,720 27,157,984 64,996,116 65,278,991 282875 Tamil Nadu 14,731,787 14,524,173 30,311,255 30,723,526 0 7,783,902 7,763,268 24,907,733 25,034,682 77,734,677 78,045,649 310972 UP(E) 16,128,148 16,002,747 36,544,620 36,235,811 0 8,081,876 8,063,891 42,124,542 43,109,989 102,879,186 103,412,438 533252 UP(W) 14,371,653 14,239,513 18,930,125 18,863,602 0 4,984,322 4,975,788 24,753,713 25,278,296 63,039,813 63,357,199 317386 Kolkata 4,851,202 4,754,217 5,479,498 5,432,943 0 1,454,781 1,373,028 10,878,491 10,949,176 22,663,972 22,509,364 -154608 West Bengal 11,620,668 11,473,984 18,490,298 18,533,010 9 9 2,637,783 2,601,347 24,598,280 25,157,815 57,347,038 57,766,165 419127 Total 205,358,733 204,219,194 391,001,794 392,756,009 566 529 91,060,664 90,464,244 998,229 307,092 475,335,184 483,129,676 1,163,755,170 1,170,876,744 7121574 Service Area Vodafone Idea Bharti Airtel Reliance Com. Total BSNL MTNL Reliance Jio 108 Annexure 1.2: Wireline Subscriber Base #NOTE: Earlier, Tata Teleservices (Access Service Provider), for reporting its wireline subscriber base, counted the number of voice channels given to Primary Rate Interface PRI) customers and Session Initiation Protocol (SIP) customers. However, from the month of June 2025, Tata Teleservices, has started counting the numbering resources (i.e., the range of telephone numbers) given to PRI and SIP customers. Sl. No Service Area Mar-25 Jun-25 Mar-25 Jun-25 Mar-25 Jun-25",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

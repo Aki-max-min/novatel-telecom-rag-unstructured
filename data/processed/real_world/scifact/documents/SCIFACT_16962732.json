@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_16962732",
+  "title": "Multicolor “DiOlistic” Labeling of the Nervous System Using Lipophilic Dye Combinations",
+  "content": "We describe a technique for rapid labeling of a large number of cells in the nervous system with many different colors. By delivering lipophilic dye-coated particles to neuronal preparations with a \"gene gun,\" individual neurons and glia whose membranes are contacted by the particles are quickly labeled. Using particles that are each coated with different combinations of various lipophilic dyes, many cells within a complex neuronal network can be simultaneously labeled with a wide variety of colors. This approach is most effective in living material but also labels previously fixed material. In living material, labeled neurons continue to show normal synaptic responses and undergo dendritic remodeling. This technique is thus useful for studying structural plasticity of neuronal circuits in living preparations. In addition, the Golgi-like labeling of neurons with many different colors provides a novel way to study neuronal connectivity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

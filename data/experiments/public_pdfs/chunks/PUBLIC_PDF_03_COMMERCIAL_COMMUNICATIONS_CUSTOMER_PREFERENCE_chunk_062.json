@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_062",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 62,
+  "text": "of Customer Care Center of access provider, preference to opt-in may be communicated; Note-2: Customer to be communicated with confirmation and final status along with options to block; Note-3: UNBLOCK 60 shall restore all categories of types of day for the customer in which he was before he exercised option to block last time, if any, otherwise as per the default options; Provided that the Authority may, from time to time, add or remove number of category(ies), or sub category(ies) for day type(s); 35 5. Recording preferences on Distributed Ledger for Preferences (DL-Preferences) Access Provider shall automate its internal systems and develop appropriate APIs to interact with DL- Preferences; Access Provider shall record preferences on DL-Preferences within 15 minutes for requests received from all modes; These revised preferences shall be available, in real time, for considerations by entities for scrubbing process for new list of telephone numbers under process, however, earlier messages or voice calls which have already been scrubbed and have validity may be delivered; 6. Every Access Provider shall establish, maintain and operate Distributed Ledger(s) for Preference (DL- Preference) with requisite functions, process and interfaces: - to record choices of preference(s) exercised by the customer in the Distribute Ledger for Preferences (DL-Preferences) in an immutable and non repudiable manner; to record, at least, following details of the customer who has registered its preference(s): telephone number in the international numbering format as referred in the National Numbering Plan; Location Routing Number (LRN), as assigned by DoT to the access",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

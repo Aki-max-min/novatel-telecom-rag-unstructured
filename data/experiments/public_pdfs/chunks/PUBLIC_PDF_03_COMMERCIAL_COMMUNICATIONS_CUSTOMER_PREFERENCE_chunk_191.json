@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_191",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 191,
+  "text": "communications. Measures specified in Para 3 and Para 4 are already part of such UCC eco system to better match the interests of sender and recipients, to protect the interests of business entities, and to permit the options for reaching out customers when there are legitimate and justified reasons. 5.3.4 Entertaining complaints from customers not registered on DL-Preferences: The present system does not have provision of lodging complaint by the customer who have not registered any preference(s). However, there are certain instances of violation of provisions of regulation like UCC from UTM, UCC beyond permissible hours etc., where unregistered subscriber may also like to register complaints. Such complaints may be treated differently compared to normal complaints by a customer registered on DL- Preferences. These may be referred as “reports” instead of “complaints”. Complaints received after the specified time period from a customer registered on DL-Preferences or those with insufficient evidence may also be recorded as reports. Taking such complaints into account would help identify UTMs or RTMs who indulge in activities are not permitted under the regulations. When suspected UTM is sending UCC in bulk then only complaints which may be few in numbers may be relied upon. It would require defining meaning of bulk. Similar approach has been adopted in other jurisdictions such as in Singapore where in bulk is defined in the Spam Control Act (SCA) 2007, for details refer link https://sso.agc.gov.sg/Act/SCA2007. In view of this, the Authority also decides to define bulk based on number of messages",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

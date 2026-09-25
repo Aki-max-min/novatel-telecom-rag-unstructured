@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27580223",
+  "title": "Lessons learnt from malaria epidemics in the Islamic Republic of Iran.",
+  "content": "The Islamic Republic of Iran is in the pre-elimination phase of malaria control, but malaria epidemics are still a concern in the south of the country. This retrospective study presents the epidemiological characteristics and predisposing factors of 60 of the malaria epidemics reported in Sistan va Baluchestan province during 2005-09. A zero-truncated negative binomial model was used to investigate the relation between predictor variables and the total number of malaria cases. Malaria epidemics occurred mainly in the southern part of the province, mostly between July and October, peaking in August. Most malaria epidemics were small-scale (68.3% were < 100 cases) and short (51.7% lasted < 1 month). Plasmodium falciparum was present in 46.7% of the epidemics. An increase in the rainfall rate as well as population movements were the most significant predisposing factors. The results may help inform an epidemic investigation and reporting system as the country approaches the malaria elimination phase.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

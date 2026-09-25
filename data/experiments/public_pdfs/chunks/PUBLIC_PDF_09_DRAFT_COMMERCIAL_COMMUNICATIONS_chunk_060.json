@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_060",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 60,
+  "text": "otherwise will unblock with default options; Provided that the Authority may, from time to time, add or remove number of category(ies), or sub category(ies) for time band; (2) Customer can opt-in for all of following categories or any of selected category(ies) of content: UCC Time band for Communication (Choices for Preference(s)) IVRS: Call to 1909 and press at prompt to block SMS:Send SMS to 1909 followingtext USSD:Dial USSD String AllTime Bands (to be unblocked) 70 UNBLOCK 70 *1909*70# (i) 00:00 Hrs to 06:00 Hrs, 71 UNBLOCK71 *1909*71# (ii) 06:00 Hrs to 08:00 Hrs, 72 UNBLOCK72 *1909*72# (iii) 08:00 Hrs to 10:00 Hrs, 73 UNBLOCK73 *1909*73# (iv) 10:00 Hrs to 12:00 Hrs, 74 UNBLOCK 74 *1909*74# (v) 12:00 Hrs to 14:00 Hrs, 75 UNBLOCK75 *1909*75# (vi) 14:00 Hrs to 16:00 Hrs, 76 UNBLOCK76 *1909*76# (vii) 16:00 Hrs to 18:00 Hrs, 77 UNBLOCK 77 *1909*77# (viii) 18:00 Hrs to 21:00 Hrs, 78 UNBLOCK 78 *1909*78# (ix) 21:00 Hrs to 24:00 Hrs, 79 UNBLOCK 79 *1909*79# 44 Note-1: In case of communication with customer executive of Customer Care Center of access provider, preference to opt-out may be communicated; Note-2: Customer to be communicated with confirmation and final status along with options to block; Provided that the Authority may, from time to time, add or remove number of category(ies), or sub category(ies) for time band; 4. Procedure for registration or change of preference of Day Type(s) for Commercial Communications: - (1) Customer can opt-out of all of following time bands or any of selected",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

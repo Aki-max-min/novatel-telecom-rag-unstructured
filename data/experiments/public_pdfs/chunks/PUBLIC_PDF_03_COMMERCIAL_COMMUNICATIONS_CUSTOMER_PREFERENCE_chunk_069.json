@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_069",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 69,
+  "text": "the regulation(s), and act to curb such activities: - System which have intelligence at least following functionalities: - identifying sender(s) on basis of signature(s); deploying honeypot(s) and using information collected by it; evolving signature(s) by learning over time; interface to exchange information with similar system(s) established by other access provider(s) to evolve signature(s), detecting sender using Sender Information (SI); considering inputs available from DL-Complaints about complaints and reports and analyze them; considering inputs available, if any, from any other network element(s) of the access provider system(s); provide ways and means for resolving complaint(s) by sharing information related to telephone number(s) of sender(s) against which complaint is made; 2. Every Access Provider shall formulate codes of practice (CoP-UCC_Detect) for system, functions and process prescribed as following: - implementation details for detecting Unsolicited Commercial Communications related to suspicious unregistered telemarketing activity using Signature solution, deploying honeypots and other technical measures; minimum standards of technical measures to share intelligence information, rules, criteria to detect suspected sources of spam; approaches to detect and identify unregistered Unsolicited Commercial Communications sender(s), who are camouflaging themselves by fragmenting their activity across multiple phone numbers; approaches for deployment of honeypots to capture Unsolicited Commercial Communications voice call(s); approaches to detect and identify source(s) of dictionary attacks; timeline(s) for implementation of the functionality referred in code of practice and operationalizing it; such other matters as the Authority may deem fit, from time to time. 3. Report of entities found to be engaged in making or causing to make silent",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

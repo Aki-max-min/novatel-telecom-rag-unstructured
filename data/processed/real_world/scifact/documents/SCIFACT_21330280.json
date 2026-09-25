@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21330280",
+  "title": "The Spliceosome: Design Principles of a Dynamic RNP Machine",
+  "content": "Ribonucleoproteins (RNPs) mediate key cellular functions such as gene expression and its regulation. Whereas most RNP enzymes are stable in composition and harbor preformed active sites, the spliceosome, which removes noncoding introns from precursor messenger RNAs (pre-mRNAs), follows fundamentally different strategies. In order to provide both accuracy to the recognition of reactive splice sites in the pre-mRNA and flexibility to the choice of splice sites during alternative splicing, the spliceosome exhibits exceptional compositional and structural dynamics that are exploited during substrate-dependent complex assembly, catalytic activation, and active site remodeling.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

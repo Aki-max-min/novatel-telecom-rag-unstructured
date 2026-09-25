@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_37311371",
+  "title": "Central memory and effector memory T cell subsets: function, generation, and maintenance.",
+  "content": "The memory T cell pool functions as a dynamic repository of antigen-experienced T lymphocytes that accumulate over the lifetime of the individual. Recent studies indicate that memory T lymphocytes contain distinct populations of central memory (TCM) and effector memory (TEM) cells characterized by distinct homing capacity and effector function. This review addresses the heterogeneity of TCM and TEM, their differentiation stages, and the current models for their generation and maintenance in humans and mice.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

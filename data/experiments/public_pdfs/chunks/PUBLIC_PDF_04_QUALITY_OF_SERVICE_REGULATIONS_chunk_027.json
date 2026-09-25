@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_027",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 27,
+  "text": "(2), for at least one year after reporting the performance to the Authority and in case of disputes, all the records under dispute shall be maintained upto six months beyond the resolution of the dispute, or one year after reporting the performance to the Authority, whichever is later. 13. Reporting.─ (1)Every service provider shall create or upgrade their system within six months of notification of these regulations for collection of primary data, its storage, processing, performance report generation and their online submission to the Authority, in respect of each QoS parameters specified under regulation 4, regulation 6, regulation 7, regulation 9 and regulation 10 in such manner and format, at such intervals and within such time limit as may be specified by the Authority, from time to time, by an order or direction. (2) Every service provider shall establish a system for live monitoring of network availability and report to the Authority in such manner, format and frequency as may be specified by the Authority by an order or direction. (3) The benchmark of each QoS parameters specified in sub-regulation (1) shall be measured, reported, and complied at license or authorised Service Area level, as may be specified by the Authority, from time to time, by an order or direction: Provided that the Authority may, from time to time, by an order or direction, specify certain QoS parameters to be measured and reported to the Authority for specific States or Union Territories or districts for a specific purpose and period.",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4454788",
+  "title": "Pro-resolving lipid mediators are leads for resolution physiology",
+  "content": "Advances in our understanding of the mechanisms that bring about the resolution of acute inflammation have uncovered a new genus of pro-resolving lipid mediators that include the lipoxin, resolvin, protectin and maresin families, collectively called specialized pro-resolving mediators. Synthetic versions of these mediators have potent bioactions when administered in vivo. In animal experiments, the mediators evoke anti-inflammatory and novel pro-resolving mechanisms, and enhance microbial clearance. Although they have been identified in inflammation resolution, specialized pro-resolving mediators are conserved structures that also function in host defence, pain, organ protection and tissue remodelling. This Review covers the mechanisms of specialized pro-resolving mediators and omega-3 essential fatty acid pathways that could help us to understand their physiological functions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

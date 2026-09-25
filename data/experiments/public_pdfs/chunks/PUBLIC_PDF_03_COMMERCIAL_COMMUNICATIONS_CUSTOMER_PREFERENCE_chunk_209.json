@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_209",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 209,
+  "text": "Such Apps seek customers’ permission to access the SMS and call logs on the mobile device. This requirement has been viewed by some stakeholders to be a violation of customers’ privacy. iv. This is an incorrect perception because the DND App (or a functionally equivalent App) requires access to the logs only to present to the customer what is his or her own data, also accessible by the customer in other ways. Further, the customer initiates every action based on the information presented, while the App merely provides assistance in completing the action as per regulation. At no time does the App require access to these logs for other purposes, nor does it transmit the information to anyone other than the entity with whom the customer himself or herself wishes to share the information. v. An issue raised by some stakeholders is that TRAI doesn’t have the power to regulate devices. However, it is TRAI’s statutory duty to safeguard consumer interest as indicated in the TRAI Act: “... to protect the interests of service providers and consumers of the telecom sector, to promote and ensure orderly growth of the telecom sector, and for matters connected therewith or incidental thereto.” With the intelligence residing in the nodes and end devices, the network cannot operate totally independently of the user equipment. Such elements of the equipment that affect the performance of the network or the experience of some or all its users (which is “connected therewith or incidental thereto”) may be regulated",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

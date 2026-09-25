@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_463533_chunk_001",
+  "document_id": "SCIFACT_463533",
+  "chunk_index": 1,
+  "text": "a gradient effect. CONCLUSION The results of the present work add to the volume of knowledge regarding population health status in this area, apart from the known health status using mortality and morbidity data. Medical, policy, social and individual attention should be given to the management of chronic diseases and improvement of HRQoL. Longitudinal studies must be performed to monitor changes in HRQoL and to permit evaluation of the outcomes of chronic disease intervention programs.",
+  "title": "Health-Related Quality of Life as Measured with EQ-5D among Populations with and without Specific Chronic Conditions: A Population-Based Survey in Shaanxi Province, China",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_061",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 61,
+  "text": "or remove number of category(ies), or sub category(ies) for time band; 4. Procedure for registration or change of preference of Day Type(s) for Commercial Communications: - (1) Customer can opt-out of all of following time bands or any of selected day type(s): Day Type(s) for receiving Commercial Communication (Choices for Preference(s)) IVRS: Call to 1909 and press at prompt to block SMS:Send SMS to 1909 followingtext USSD:Dial USSD String AllDay Type(s) (to be blocked) 30 BLOCK 30 *1909*30# (i) Monday 31 BLOCK 31 *1909*31# (ii) Tuesday 32 BLOCK 32 *1909*32# (iii) Wednesday 33 BLOCK 33 *1909*33# (iv) Thursday 34 BLOCK 34 *1909*34# (v) Friday 35 BLOCK 35 *1909*35# (vi) Saturday 36 BLOCK 36 *1909*36# (vii) Sunday 37 BLOCK 37 *1909*37# (viii) Public Holiday and National Holiday 38 BLOCK 38 *1909*38# Note-1: Time Bands (i), (ii), (iii) and (ix) shall be default OFF for all customers irrespective of the status of registration of customer i.e. for all customers including those who have not registered any type of preference(s), anytime unless customer has registered its preference(s) and switched ON; Note-1: In case of communication with customer executive of Customer Care Center of access provider, preference to opt-in may be communicated; Note-2: Customer to be communicated with confirmation and final status along with options to unblock; 45 Provided that the Authority may, from time to time, add or remove number of category(ies), or sub category(ies) for time band; (2) Customer can opt-in for all of following categories or any of selected category(ies) of",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

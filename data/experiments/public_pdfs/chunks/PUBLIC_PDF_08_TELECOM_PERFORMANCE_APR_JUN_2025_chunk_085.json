@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_085",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 85,
+  "text": "of closure of service or non-provisioning of service 100% 4 4.71% 4 4.65% Note: M/s Bharti Airtel Ltd. has submitted PMR for NE LSA in QE June 2025 for the first time. 4.6 Analysis of Performance of Access Service (Wireline) (i) QoS parameters where performance improved in this quarter as compared to the previous quarter ❖ Fault incidences (No. of faults per 100 subscribers) ≤ 5 ❖ Fault repair within three working days ≥ 99% ❖ Billing and charging complaints ≤ 0.1% (ii) QoS parameters where performance degraded in this quarter as compared to the previous quarter 85 ❖ Resolution of billing/ charging complaints within four weeks 100% ❖ Termination/ closure of service within seven working days of receipt of customer’s request 100% Table 4.4: Parameter wise analysis of non-compliance of Service Providers Parameter Benchmark Service Provider Service Area Performance Provision of a service within 7 working days of payment of demand note by the customer ≥ 98% MTNL MUM 85.59 Fault incidences (No. of faults per 100 subscribers) ≤ 5 TTSL DL 9.19 Fault repair by next working day ≥ 85% MTNL MUM 50.10 TTML MUM 77.00 Fault repair within three working days ≥ 99% MTNL MUM 59.60 TTML MUM 94.80 Mean Time to Repair (MTTR) ≤ 10 hrs MTNL MUM 131.24 Billing and charging complaints ≤ 0.1% BSNL KT 1.61 MH 1.32 MP 0.42 TN 0.17 Resolution of billing/ charging complaints within four weeks 100% BSNL KT 99.94 MP 98.51 TN 99.29 Application of adjustment to customer’s account",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

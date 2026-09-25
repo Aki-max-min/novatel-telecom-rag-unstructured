@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_166",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 166,
+  "text": "reference point at the Point of Presence (POP) or Internet Service Provider (ISP) gateway node to the international gateway (IGSP/NIXI), we recommend maintaining the same benchmarks of less than 250ms for wireless networks and less than 120ms for wireline networks. (iv) One of the stakeholders submitted that Latency is dependent on various entities like CSP network, ISP service provider partner, CDN caching policies, end user application server performance etc. All these elements are not in control of CSPs. In view of these dynamics, we do not see thresholds being set by regulators worldwide. (v) One of the stakeholders requested to clarify the methodology for measurement of the performance against the parameter. (b) Analysis and Conclusion (i) Latency for Access (wireless) service was prescribed <250 msec in present regulations. These regulations were formulated when 4G services were yet to be launched and therefore considered the performance supported by 2G and 3G technologies. However, considering that more than 80% of base stations are of 4G/5G technology, Latency is to be measured only for 4G and 5G networks. (ii) Performance of Latency in 4G network in all LSAs, as reported by TSPs for QE March’2024 is depicted through Box plot in Figure 9. 159 Figure 9: Performance of Latency in 4G network in all LSAs, TSP Performance of Latency for 4G network TSP-1 TSP-2 TSP-3 TSP-4 (iii) From the above, latency performance analysis, it is observed that Latency for 4G network is below 60 msec in all LSAs for all TSPs (except one).",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

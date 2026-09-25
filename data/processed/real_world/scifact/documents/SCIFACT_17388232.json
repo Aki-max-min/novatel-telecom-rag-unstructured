@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17388232",
+  "title": "Mechanical regulation of cell function with geometrically modulated elastomeric substrates",
+  "content": "We report the establishment of a library of micromolded elastomeric micropost arrays to modulate substrate rigidity independently of effects on adhesive and other material surface properties. We demonstrated that micropost rigidity impacts cell morphology, focal adhesions, cytoskeletal contractility and stem cell differentiation. Furthermore, early changes in cytoskeletal contractility predicted later stem cell fate decisions in single cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

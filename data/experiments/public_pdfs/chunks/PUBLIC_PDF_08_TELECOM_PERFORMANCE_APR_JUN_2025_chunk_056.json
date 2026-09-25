@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_056",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 56,
+  "text": "20.42 36.97 20.62 37.35 8 Haryana 0.18 1.57 10.09 18.90 10.27 20.47 9 Himachal Pradesh 0.04 0.03 4.12 2.65 4.16 2.68 10 Jharkhand 0.15 0.10 11.38 8.87 11.53 8.97 11 Karnataka 1.16 2.42 20.70 38.13 21.87 40.55 12 Kerala 0.30 0.48 17.17 19.02 17.48 19.50 13 Madhya Pradesh 0.31 0.31 21.98 29.19 22.30 29.50 14 Maharashtra incl. Mumbai 0.46 1.19 33.95 76.51 34.41 77.70 15 Manipur 0.01 0.01 1.03 1.33 1.03 1.34 16 Meghalaya 0.01 0.01 1.40 0.74 1.41 0.75 17 Mizoram 0.00 0.00 0.55 0.72 0.55 0.72 18 Nagaland 0.00 0.01 1.00 0.67 1.01 0.68 19 Odisha 0.18 0.07 17.46 9.65 17.64 9.72 20 Punjab 0.15 0.28 9.79 17.54 9.94 17.83 21 Rajasthan 0.37 0.53 26.56 26.32 26.93 26.85 22 Sikkim 0.00 0.002 0.38 0.27 0.38 0.27 23 Tamil Nadu incl. Chennai 0.31 0.98 18.14 45.84 18.45 46.82 24 Telangana 0.24 0.27 13.00 23.36 13.24 23.64 25 Tripura 0.01 0.01 1.09 1.28 1.10 1.29 26 Uttar Pradesh (UPE+UPW) 1.54 1.99 66.61 66.15 68.15 68.14 27 Uttarakhand 0.10 0.07 4.84 5.14 4.94 5.21 28 West Bengal incl. Kolkata 0.39 0.35 26.53 38.74 26.91 39.09 Union Territories 1 Andaman & Nicobar Islands 0.03 0.03 0.20 0.20 0.23 0.22 2 Chandigarh 0.0004 0.01 0.04 1.35 0.04 1.36 3 Dadar & Nagar Haweli & Daman & Diu 0.003 0.00 0.30 0.54 0.31 0.55 4 Delhi 0.05 3.29 0.28 33.01 0.33 36.30 5 Jammu & Kashmir 0.08 0.04 4.87 5.45 4.95 5.49 6 Ladakh 0.001 0.002 0.33 0.11 0.33 0.12 7 Lakshdweep 0.02 0.00001",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

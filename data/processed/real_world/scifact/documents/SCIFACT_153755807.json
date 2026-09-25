@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_153755807",
+  "title": "The Changing Problem of Overcrowded Housing",
+  "content": "Abstract Overcrowding has increased in the U.S. after decades of decline—dramatically so in some locales and for some ethnic groups. The nature of the problem and its very definition for policy purposes are also changing. We examine the special characteristics of the overcrowded, where they are located, why the incidence of crowding has resurged, and why it is confined to specific locales. Ethnicity, age, immigration, and poverty play important roles, but housing market conditions appear much less important. We also show that the planning standard used to judge overcrowding is a relative one that has varied over time, and that the social norms vary among ethnic groups. The issue of overcrowding may exemplify the current perplexities about imposing uniform standards in an evolving multiethnic society. Worst-case housing needs would be better targeted in highly impacted locales by allowing more “place diversity” in the setting of standards.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

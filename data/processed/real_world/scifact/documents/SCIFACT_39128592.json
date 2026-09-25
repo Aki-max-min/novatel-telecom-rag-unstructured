@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_39128592",
+  "title": "The cytokine RANKL produced by positively selected thymocytes fosters medullary thymic epithelial cells that express autoimmune regulator.",
+  "content": "The thymic medulla provides a microenvironment where medullary thymic epithelial cells (mTECs) express autoimmune regulator and diverse tissue-restricted genes, contributing to launching self-tolerance. Positive selection is essential for thymic medulla formation via a previously unknown mechanism. Here we show that the cytokine RANK ligand (RANKL) was produced by positively selected thymocytes and regulated the cellularity of mTEC by interacting with RANK and osteoprotegerin. Forced expression of RANKL restored thymic medulla in mice lacking positive selection, whereas RANKL perturbation impaired medulla formation. These results indicate that RANKL produced by positively selected thymocytes is responsible for fostering thymic medulla formation, thereby establishing central tolerance.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

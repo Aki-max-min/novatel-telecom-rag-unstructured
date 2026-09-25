@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20888849",
+  "title": "Inhibition of Hedgehog signaling enhances delivery of chemotherapy in a mouse model of pancreatic cancer.",
+  "content": "Pancreatic ductal adenocarcinoma (PDA) is among the most lethal human cancers in part because it is insensitive to many chemotherapeutic drugs. Studying a mouse model of PDA that is refractory to the clinically used drug gemcitabine, we found that the tumors in this model were poorly perfused and poorly vascularized, properties that are shared with human PDA. We tested whether the delivery and efficacy of gemcitabine in the mice could be improved by coadministration of IPI-926, a drug that depletes tumor-associated stromal tissue by inhibition of the Hedgehog cellular signaling pathway. The combination therapy produced a transient increase in intratumoral vascular density and intratumoral concentration of gemcitabine, leading to transient stabilization of disease. Thus, inefficient drug delivery may be an important contributor to chemoresistance in pancreatic cancer.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

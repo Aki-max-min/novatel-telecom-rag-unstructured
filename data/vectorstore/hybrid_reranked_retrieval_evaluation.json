@@ -135,9 +135,9 @@
       "category": "C02",
       "question": "How can I check when my current prepaid plan will stop being valid?",
       "expected_document_ids": [
+        "FAQ_C02_003",
         "KB_C02_plan_expiry",
-        "Policy_C02_plan_lifecycle",
-        "FAQ_C02_003"
+        "Policy_C02_plan_lifecycle"
       ],
       "top5": [
         {
@@ -250,9 +250,9 @@
       "category": "C03",
       "question": "Money was deducted when I tried to recharge, but the recharge hasn't appeared on my account. What should I do?",
       "expected_document_ids": [
-        "KB_C03_recharge_failures",
+        "TRX_001",
         "FAQ_C03_005",
-        "TRX_001"
+        "KB_C03_recharge_failures"
       ],
       "top5": [
         {
@@ -405,7 +405,7 @@
             "c04"
           ],
           "text": "or travel | Premium/IVR services, GST, or fair-usage overage | Review the full itemised breakdown to identify which applies | ### Example Scenario **Customer situation:** A customer changed plans partway through the billing cycle and the bill came in higher than the new plan's rental. **What happens:** The itemised breakdown under Billing > View Bill Details shows the pro-rated charge for the plan change as a separate line, explaining the difference. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C04_overview. Topic: Billing & Invoices",
-          "faiss_score": 0.372507780790329,
+          "faiss_score": 0.3725077211856842,
           "crossencoder_score": -4.158232688903809,
           "title_score": 0.5333333333333333,
           "category_score": 1.0,
@@ -580,7 +580,7 @@
             "c12"
           ],
           "text": "or SIM isn't VoLTE-compatible | Whether the device is an imported/older model | Confirm device VoLTE support before assuming it's a settings issue | | VoLTE toggle present but calls still fall back to voice-only | Setting not actually enabled, or band incompatibility on an imported device | Whether VoLTE/4G Calling is switched on | Enable the setting; if already on, this may be a device band limitation | ### Example Scenario **Customer situation:** A customer has a 4G phone bought overseas and can't get VoLTE/HD Voice to work. **What happens:** Since some imported devices support 4G data without supporting VoLTE on Indian bands, this may be a device limitation rather than something fixable through account or SIM changes. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C12_overview. Topic: Device Compatibility",
-          "faiss_score": 0.37911349534988403,
+          "faiss_score": 0.37911343574523926,
           "crossencoder_score": -7.21607780456543,
           "title_score": 0.1111111111111111,
           "category_score": 0.0,
@@ -599,8 +599,8 @@
       "category": "C06",
       "question": "If I move my existing number to NovaTel, how long will the porting process take?",
       "expected_document_ids": [
-        "FAQ_C06_011",
-        "KB_C06_porting_process"
+        "KB_C06_porting_process",
+        "FAQ_C06_011"
       ],
       "top5": [
         {
@@ -711,8 +711,8 @@
       "category": "C07",
       "question": "I'm travelling outside India. How do I turn on international roaming before I leave?",
       "expected_document_ids": [
-        "KB_C07_roaming_activation",
-        "FAQ_C07_013"
+        "FAQ_C07_013",
+        "KB_C07_roaming_activation"
       ],
       "top5": [
         {
@@ -905,7 +905,7 @@
           "related_ids": [],
           "tags": [],
           "text": "to complete | Network connectivity issue during setup | Retry on stable Wi-Fi/data | ## Troubleshooting If the above does not resolve the issue, restart the device/app and retry; if it persists, contact support with the exact error shown. ## Restrictions Availability may vary by device model, region, or plan type. ## Security Considerations Do not share OTPs or account credentials with anyone, including anyone claiming to be from NovaTel support. ## Related Documents No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
-          "faiss_score": 0.6179996728897095,
+          "faiss_score": 0.6179995536804199,
           "crossencoder_score": -2.1130733489990234,
           "title_score": 0.05555555555555555,
           "category_score": 0.0,
@@ -921,7 +921,7 @@
           "related_ids": [],
           "tags": [],
           "text": "Setup fails to complete | Network connectivity issue during setup | Retry on stable Wi-Fi/data | ## Troubleshooting If the above does not resolve the issue, restart the device/app and retry; if it persists, contact support with the exact error shown. ## Restrictions Availability may vary by device model, region, or plan type. ## Security Considerations Do not share OTPs or account credentials with anyone, including anyone claiming to be from NovaTel support. ## Related Documents No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
-          "faiss_score": 0.5783697962760925,
+          "faiss_score": 0.5783697366714478,
           "crossencoder_score": -2.4805283546447754,
           "title_score": 0.0,
           "category_score": 0.0,
@@ -940,8 +940,8 @@
       "category": "C09",
       "question": "My mobile internet has become much slower than usual. Could a data usage limit be causing this?",
       "expected_document_ids": [
-        "FAQ_C09_017",
         "KB_C09_fup_data_speed",
+        "FAQ_C09_017",
         "FAQ_C09_018"
       ],
       "top5": [
@@ -1058,8 +1058,8 @@
       "category": "C10",
       "question": "I was subscribed to a service I don't remember requesting. How can I cancel it?",
       "expected_document_ids": [
-        "FAQ_C10_019",
-        "SOP_C10_VAS_DISPUTE"
+        "SOP_C10_VAS_DISPUTE",
+        "FAQ_C10_019"
       ],
       "top5": [
         {
@@ -1098,7 +1098,7 @@
             "c10"
           ],
           "text": "simply deactivating the service. ### Example Scenario **Customer situation:** A customer finds a content-pack subscription on their account they never signed up for and has already been charged. **What happens:** Deactivating it under My Subscriptions stops further charges, but recovering the amount already charged requires reporting it via Complaints as an unauthorised activation. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C10_overview. Topic: Value Added Services (VAS)",
-          "faiss_score": 0.5879523754119873,
+          "faiss_score": 0.5879522562026978,
           "crossencoder_score": -5.517383575439453,
           "title_score": 0.35714285714285715,
           "category_score": 1.0,
@@ -1294,8 +1294,8 @@
       "question": "How do I check whether my handset supports NovaTel 5G and VoLTE?",
       "expected_document_ids": [
         "FAQ_C12_023",
-        "FAQ_C12_024",
-        "MAN_DEVICE_VOLTE_001"
+        "MAN_DEVICE_VOLTE_001",
+        "FAQ_C12_024"
       ],
       "top5": [
         {
@@ -1530,8 +1530,8 @@
       "category": "C14",
       "question": "Are there any special recharge offers available specifically for my mobile number?",
       "expected_document_ids": [
-        "FAQ_C14_027",
-        "EML_009"
+        "EML_009",
+        "FAQ_C14_027"
       ],
       "top5": [
         {
@@ -1760,9 +1760,9 @@
       "category": "C16",
       "question": "I've already complained about this issue but nobody has resolved it. How can I escalate my complaint?",
       "expected_document_ids": [
+        "TRX_003",
         "FAQ_C16_031",
-        "KB_C16_complaint_escalation",
-        "TRX_003"
+        "KB_C16_complaint_escalation"
       ],
       "top5": [
         {
@@ -1868,9 +1868,9 @@
       "category": "C17",
       "question": "What documents do I need to provide if NovaTel asks me to complete KYC verification again?",
       "expected_document_ids": [
-        "FAQ_C17_034",
+        "FAQ_C17_033",
         "KB_C17_kyc_reverification",
-        "FAQ_C17_033"
+        "FAQ_C17_034"
       ],
       "top5": [
         {
@@ -1962,7 +1962,7 @@
             "c17"
           ],
           "text": "suspension per licence conditions — this makes prompt action the relevant response rather than a support escalation. ### Example Scenario **Customer situation:** A customer receives a KYC re-verification request with a deadline and checks whether Video KYC is available to them. **What happens:** If Video KYC is enabled in their circle, they can complete it in-app under Account > KYC Update; if not, an in-store visit with original ID is required before the notified window closes. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C17_overview. Topic: KYC & Identity Verification",
-          "faiss_score": 0.6265659928321838,
+          "faiss_score": 0.6265660524368286,
           "crossencoder_score": 4.171145439147949,
           "title_score": 0.4666666666666667,
           "category_score": 1.0,
@@ -2215,8 +2215,8 @@
       "question": "I was charged twice for the same recharge. How can I get the extra amount refunded?",
       "expected_document_ids": [
         "FAQ_C20_039",
-        "SOP_C20_REFUND_PROCESSING",
         "KB_C20_refund_processing",
+        "SOP_C20_REFUND_PROCESSING",
         "Policy_C20_refund_policy"
       ],
       "top5": [
@@ -2327,8 +2327,8 @@
       "category": "C21",
       "question": "I want to permanently close my postpaid connection. How do I do that?",
       "expected_document_ids": [
-        "FAQ_C21_041",
-        "KB_C21_account_closure"
+        "KB_C21_account_closure",
+        "FAQ_C21_041"
       ],
       "top5": [
         {
@@ -2561,10 +2561,10 @@
       "category": "C23",
       "question": "What does a NovaTel enterprise connectivity plan include for a business?",
       "expected_document_ids": [
-        "TARIFF_POSTPAID_2026H2",
         "FAQ_C23_045",
         "KB_C23_enterprise_onboarding",
-        "Policy_C23_enterprise_terms"
+        "Policy_C23_enterprise_terms",
+        "TARIFF_POSTPAID_2026H2"
       ],
       "top5": [
         {
@@ -2676,8 +2676,8 @@
       "category": "C24",
       "question": "We have thousands of IoT SIM cards. How can our organisation monitor their usage?",
       "expected_document_ids": [
-        "MAN_IOT_PORTAL_001",
-        "FAQ_C24_048"
+        "FAQ_C24_048",
+        "MAN_IOT_PORTAL_001"
       ],
       "top5": [
         {
@@ -2789,8 +2789,8 @@
       "question": "My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?",
       "expected_document_ids": [
         "KB_C25_ftth_fault_diagnosis",
-        "FAQ_C25_049",
-        "MAN_ROUTER_001"
+        "MAN_ROUTER_001",
+        "FAQ_C25_049"
       ],
       "top5": [
         {
@@ -2898,8 +2898,8 @@
       "category": "C26",
       "question": "I registered for DND but I'm still receiving promotional calls. How can I report this?",
       "expected_document_ids": [
-        "FAQ_C26_052",
-        "KB_C26_dnd_registration"
+        "KB_C26_dnd_registration",
+        "FAQ_C26_052"
       ],
       "top5": [
         {
@@ -3053,7 +3053,7 @@
           "crossencoder_score": 4.92588996887207,
           "title_score": 0.07692307692307693,
           "category_score": 0.0,
-          "hybrid_score": 0.7671319216623439
+          "hybrid_score": 0.7780263147727203
         },
         {
           "document_id": "FAQ_C27_053",
@@ -3074,7 +3074,7 @@
           "crossencoder_score": -0.19470050930976868,
           "title_score": 0.3076923076923077,
           "category_score": 1.0,
-          "hybrid_score": 0.5195115766535255
+          "hybrid_score": 0.6119143839284877
         },
         {
           "document_id": "MAN_APP_001",
@@ -3090,7 +3090,7 @@
           "crossencoder_score": -1.8318678140640259,
           "title_score": 0.23076923076923078,
           "category_score": 0.0,
-          "hybrid_score": 0.3517499214561461
+          "hybrid_score": 0.47021279178461967
         },
         {
           "document_id": "REL_2026_07",
@@ -3106,7 +3106,7 @@
           "crossencoder_score": -2.9832570552825928,
           "title_score": 0.23076923076923078,
           "category_score": 0.0,
-          "hybrid_score": 0.2770451298373613
+          "hybrid_score": 0.4138355566337393
         }
       ],
       "document_hit_top1": true,

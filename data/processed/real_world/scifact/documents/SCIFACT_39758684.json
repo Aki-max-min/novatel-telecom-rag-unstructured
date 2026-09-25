@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_39758684",
+  "title": "Deregulated DNA polymerase beta induces chromosome instability and tumorigenesis.",
+  "content": "To reach the biological alterations that characterize cancer, the genome of tumor cells must acquire increased mutability resulting from a malfunction of a network of genome stability systems, e.g., cell cycle arrest, DNA repair, and high accuracy of DNA synthesis during DNA replication. Numeric chromosomal imbalance, referred to as aneuploidy, is the most prevalent genetic changes recorded among many types of solid tumors. We report here that ectopic expression in cells of DNA polymerase beta, an error-prone enzyme frequently over-regulated in human tumors, induces aneuploidy, an abnormal localization of the centrosome-associated gamma-tubulin protein during mitosis, a deficient mitotic checkpoint, and promotes tumorigenesis in nude immunodeficient mice. Thus, we find that alteration of polymerase beta expression appears to induce major genetic changes associated with a malignant phenotype.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

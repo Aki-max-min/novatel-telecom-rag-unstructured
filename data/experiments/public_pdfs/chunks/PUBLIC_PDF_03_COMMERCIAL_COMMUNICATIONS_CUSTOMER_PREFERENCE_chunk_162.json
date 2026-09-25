@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_162",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 162,
+  "text": "any other agency on its behalf. DL-Preference ledger should perform following functions: i. recording preferences of customer(s) in non-repudiable and immutable manner; ii. maintaining relevant details about customer; iii. retaining preferences information during mobile number portability process, with changes in 83 Location Routing Number (LRN) of the new serving network, in case customer is being ported-in; iv. creating a new entry, during subscription opening process, for starting life cycle of a phone number with new subscription; v. recording subscription closing, for completing the life cycle of a phone number with current subscription; vi. synchronizing it with DL-Preferences of all other access providers, in real-time; vii. providing an observer node of DL-Preferences to TRAI, or any agency authorized by Authority, free of charge; viii. recording revocation request for consent on Distributed Ledger of Consent Register as prescribed; 4.3.6 For recording preferences on Distributed Ledger for Preferences (DL-Preferences), Access Provider shall automate its internal systems and develop appropriate APIs to interact with DL-Preferences; 4.3.7 More granularity of choices in the preferences for selecting a category of commercial communication may help the customer indicate his interest areas in more precise manner. Having granular control on the topic and content of UCC is likely to increase the chances of customers signing up for it (or rather not blocking it). This will benefit both customers and telemarketers. Customers benefit from having access to communication of their choice, and telemarketers will benefit by having better targeting. Initially, exercising choice in great detail and considering them while",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

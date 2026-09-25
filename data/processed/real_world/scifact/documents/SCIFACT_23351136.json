@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_23351136",
+  "title": "Detection of sweet and umami taste in the absence of taste receptor T1r3.",
+  "content": "The tastes of sugars (sweet) and glutamate (umami) are thought to be detected by T1r receptors expressed in taste cells. Molecular genetics and heterologous expression implicate T1r2 plus T1r3 as a sweet-responsive receptor,and T1r1 plus T1r3,as well as a truncated form of the type 4 metabotropic glutamate receptor (taste-mGluR4),as umami-responsive receptors. Here,we show that mice lacking T1r3 showed no preference for artificial sweeteners and had diminished but not abolished behavioral and nerve responses to sugars and umami compounds. These results indicate that T1r3-independent sweet- and umami-responsive receptors and/or pathways exist in taste cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

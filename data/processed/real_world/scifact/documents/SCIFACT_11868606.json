@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11868606",
+  "title": "Translocated LPS Might Cause Endotoxin Tolerance in Circulating Monocytes of Cystic Fibrosis Patients",
+  "content": "Cystic Fibrosis (CF) is an inherited pleiotropic disease that results from abnormalities in the gene codes of a chloride channel. The lungs of CF patients are chronically infected by several pathogens but bacteraemia have rarely been reported in this pathology. Besides that, circulating monocytes in CF patients exhibit a patent Endotoxin Tolerance (ET) state since they show a significant reduction of the inflammatory response to bacterial stimulus. Despite a previous description of this phenomenon, the direct cause of ET in CF patients remains unknown. In this study we have researched the possible role of microbial/endotoxin translocation from a localized infection to the bloodstream as a potential cause of ET induction in CF patients. Plasma analysis of fourteen CF patients revealed high levels of LPS compared to healthy volunteers and patients who suffer from Chronic Obstructive Pulmonary Disease. Experiments in vitro showed that endotoxin concentrations found in plasma of CF patients were enough to induce an ET phenotype in monocytes from healthy controls. In agreement with clinical data, we failed to detect bacterial DNA in CF plasma. Our results suggest that soluble endotoxin present in bloodstream of CF patients causes endotoxin tolerance in their circulating monocytes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

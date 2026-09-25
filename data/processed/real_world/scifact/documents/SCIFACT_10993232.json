@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10993232",
+  "title": "Cell death from antibiotics without the involvement of reactive oxygen species.",
+  "content": "Recent observations have suggested that classic antibiotics kill bacteria by stimulating the formation of reactive oxygen species (ROS). If true, this notion might guide new strategies to improve antibiotic efficacy. In this study, the model was directly tested. Contrary to the hypothesis, antibiotic treatment did not accelerate the formation of hydrogen peroxide in Escherichia coli and did not elevate intracellular free iron, an essential reactant for the production of lethal damage. Lethality persisted in the absence of oxygen, and DNA repair mutants were not hypersensitive, undermining the idea that toxicity arose from oxidative DNA lesions. We conclude that these antibiotic exposures did not produce ROS and that lethality more likely resulted from the direct inhibition of cell-wall assembly, protein synthesis, and DNA replication.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

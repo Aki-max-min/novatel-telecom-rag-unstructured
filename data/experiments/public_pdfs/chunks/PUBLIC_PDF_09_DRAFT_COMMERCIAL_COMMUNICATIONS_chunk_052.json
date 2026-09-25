@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_052",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 52,
+  "text": "maintain with minimum performance requirements as specified; (e) perform any other function and keep other relevant details which may be required for carrying out pre and post checks for regulatory compliance; (8) Telemarketer for voice calling function with Telecom Resource Connectivity for voice calls to AP (TM-VCF) to (a) to carry out voice calling function; (b) take necessary measures to protect Preference Register and Consent Register data during voice calling, e.g. using virtual identities to make voice calls on a secure Internet Protocol (IP) based Virtual Private Networks (VPN) with OAP and not disclosing real identities to any other entities than authorized to know it; (c) take initiatives to enable calling name display (CNAM) based on Intelligent Network or ISDN based protocols, enhanced calling name (eCNAM) functionality as defined in 37 3GPP technical specifications TS 24.196 for providing services to terminating user with the name associated with the originating user and optionally delivering metadata about that originating user; (d) maintain with minimum performance requirements as specified; (e) perform any other function and keep other relevant details which may be required for carrying out pre and post checks for regulatory compliance; 6. Every Access Provider shall ensure that (1) content of any commercial communication sent by the sender(s) shall be categorized and compared with the list of preference(s) of the recipient and/or purpose of consent given by the recipient to the sender for the purpose of scrubbing and for this purpose access provider shall ensure that (a) any commercial communication through",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

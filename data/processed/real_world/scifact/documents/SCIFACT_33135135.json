@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_33135135",
+  "title": "The impact of homelessness on children.",
+  "content": "This article reviews and critiques community-based research on the effects of homelessness on children. Homeless children confront serious threats to their ability to succeed and their future well-being. Of particular concern are health problems, hunger, poor nutrition, developmental delays, anxiety, depression, behavioral problems, and educational underachievement. Factors that may mediate the observed outcomes include inadequate shelter conditions, instability in residences and shelters, inadequate services, and barriers to accessing services that are available. Public policy initiatives are needed to meet the needs of homeless children.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

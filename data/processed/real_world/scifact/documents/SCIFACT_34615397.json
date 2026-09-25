@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_34615397",
+  "title": "Human tuberculous granulomas induce peripheral lymphoid follicle-like structures to orchestrate local host defence in the lung.",
+  "content": "The human tuberculous granuloma provides the morphological basis for local immune processes central to the outcome of tuberculosis. Because of the scarcity of information in human patients, the aim of the present study was to gain insights into the functional and structural properties of infiltrated tissue. To this end, the mycobacterial load in lesions and dissemination to different tissue locations were investigated, as well as distribution, biological functions, and interactions of host immune cells. Analysis of early granuloma formation in formerly healthy lung tissue revealed a spatio-temporal sequence of cellular infiltration to sites of mycobacterial infection. A general structure of the developing granuloma was identified, comprising an inner cell layer with few CD8(+) cells surrounding the necrotic centre and an outer area of lymphocyte infiltration harbouring mycobacteria-containing antigen-presenting cells as well as CD4(+), CD8(+), and B cells in active follicle-like centres resembling secondary lymphoid organs. It is concluded that the follicular structures in the peripheral rim of granulomas serve as a morphological substrate for the orchestration of the enduring host response in pulmonary tuberculosis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

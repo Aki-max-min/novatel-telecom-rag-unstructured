@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_145",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 145,
+  "text": "INDIA: EXTRAORDINARY [PART III—SEC.4] affected subscribers get the benefit and service providers also make their best effort to restore the services in time. (vi) The argument of the stakeholders that ‘keeping provision of rent rebate will discourage TSPs from extending services to areas with inconsistent infrastructure’ is not understandable. The purpose of extending the network is defeated if the network is not available for service. (vii) In pursuance to Direction dated 28.03.2023, only 12 significant network outages have been reported to the Authority by various service providers during 28.03.2023 to 31.05.2024. All of these except one outage was restored within a period of 12 hours, remaining one was also restored within a period of 20 hours. (viii) It is further clarified that TSPs are required to only report the incidence of SNO and are not required to give root cause analysis immediately while reporting such incidence. At that time their focus should be only on restoration of services. All analysis including a summary of the root cause is required to be submitted only after restoration of the outage. 5.3.4 Call Set-up Success Rate (a) Input of Stakeholders The stakeholders have submitted that TRAI, in its consultation paper at para 3.3.2(iv), has acknowledged upon analysis of the past few PMRs that all the service providers are having much better performance than the current benchmark (95%) and in most cases, the benchmark of 98% CSSR has been achieved by the TSPs. However, the consultation and draft regulation chooses to discourage and disincentivize",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

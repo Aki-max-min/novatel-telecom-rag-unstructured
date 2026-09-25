@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_3588621",
+  "title": "Extracellular vesicle isolation and characterization: toward clinical application.",
+  "content": "Two broad categories of extracellular vesicles (EVs), exosomes and shed microvesicles (sMVs), which differ in size distribution as well as protein and RNA profiles, have been described. EVs are known to play key roles in cell-cell communication, acting proximally as well as systemically. This Review discusses the nature of EV subtypes, strategies for isolating EVs from both cell-culture media and body fluids, and procedures for quantifying EVs. We also discuss proteins selectively enriched in exosomes and sMVs that have the potential for use as markers to discriminate between EV subtypes, as well as various applications of EVs in clinical diagnosis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

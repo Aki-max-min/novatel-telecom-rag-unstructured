@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1624106",
+  "title": "Generating diploid embryos from Xenopus tropicalis.",
+  "content": "A spectacular advantage of Xenopus tropicalis is the ease with which diploid embryos can be generated year round. By the simple administration of human chorionic gonadotropin, an investigator can generate many hundreds of synchronized embryos by in vitro fertilization or thousands of embryos from a mating pair. The ability to induce ovulations when desired facilitates many different experiments such as experimental embryology, molecular manipulation of gene products, and genetics.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

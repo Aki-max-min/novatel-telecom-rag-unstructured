@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29785642",
+  "title": "An autoimmune disease, APECED, caused by mutations in a novel gene featuring two PHD-type zinc-finger domains",
+  "content": "Autoimmune polyendocrinopathy-candidiasis-ectodermal dystrophy (APECED) is the only described systemic autoimmune disease with established monogenic background, and the first autoimmune disorder localized outside the major histocompatibility complex (MHC) region. The primary biochemical defect in APECED is unknown. We have isolated a novel gene, AIRE, encoding for a putative nuclear protein featuring two PHD-type zinc-finger motifs, suggesting its involvement in transcriptional regulation. Five mutations in AIRE are reported in individuals with this disorder. This is the first report of a single-gene defect causing a systemic human autoimmune disease, providing a tool for exploring the molecular basis of autoimmunity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

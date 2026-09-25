@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17223891",
+  "title": "The NOD-like receptor NLRP12 attenuates colon inflammation and tumorigenesis.",
+  "content": "NLRP12 is a member of the intracellular Nod-like receptor (NLR) family that has been suggested to downregulate the production of inflammatory cytokines, but its physiological role in regulating inflammation has not been characterized. We analyzed mice deficient in Nlrp12 to study its role in inflammatory diseases such as colitis and colorectal tumorigenesis. We show that Nlrp12-deficient mice are highly susceptible to colon inflammation and tumorigenesis, which is associated with increased production of inflammatory cytokines, chemokines, and tumorigenic factors. Enhanced colon inflammation and colorectal tumor development in Nlrp12-deficient mice are due to a failure to dampen NF-κB and ERK activation in macrophages. These results reveal a critical role for NLRP12 in maintaining intestinal homeostasis and providing protection against colorectal tumorigenesis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

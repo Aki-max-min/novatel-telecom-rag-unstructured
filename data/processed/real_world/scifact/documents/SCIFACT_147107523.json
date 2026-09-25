@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_147107523",
+  "title": "Wine and health: faraway concepts?",
+  "content": "Purpose – The purpose of this paper is to explore consumers’ perceptions and beliefs in the health benefits of wine and the relationship with wine consumption patterns. Design/methodology/approach – In store face-to-face survey results from 402 wine consumers were elaborated with two-step cluster analysis. ANOVA confirmed differences among groups. Groups were profiled by a χ2 significance analysis when adequate. A multivariate binary logistic regression estimated wine consumption influence on healthiness perceptions. Findings – Consumers converge into four groups: two health-oriented – optimistic and medical; two non-health-oriented – unintentional drinker and unconvinced. Groups are not significantly differentiated in socio-economic terms. Wine consumption behaviour influences health orientation, specifically for monthly and wine drinkers, vs weekly and other alcohol drinkers. Health-oriented consumers favourably welcome and are willing to pay more for health-enhancing wine. Consumers believe that wine c...",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

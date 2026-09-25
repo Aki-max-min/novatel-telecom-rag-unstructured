@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10670430",
+  "title": "Engulfment of apoptotic cells: signals for a good meal",
+  "content": "The clearance of apoptotic cells by phagocytes is an integral component of normal life, and defects in this process can have significant implications for self tolerance and autoimmunity. Recent studies have provided new insights into the engulfment process, including how phagocytes seek apoptotic cells, how they recognize and ingest these targets and how they maintain cellular homeostasis after the 'meal'. Several new factors that regulate engulfment have been identified, whereas the roles of some of the older players require revision. This Review focuses on these recent developments and attempts to highlight some of the important questions in this field.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_952111",
+  "title": "Cancer associated fibroblasts (CAFs) in tumor microenvironment.",
+  "content": "Cancer associated fibroblasts (CAFs) is one of the most crucial components of the tumor microenvironment which promotes the growth and invasion of cancer cells by various mechanisms. CAFs demonstrate a high degree of heterogeneity due to their various origins; however, many distinct morphological features and physiological functions of CAFs have been identified. It is becoming clear that the crosstalk between the cancer cells and the CAFs plays a key role in the progression of cancer, and understanding this mutual relationship would eventually enable us to treat cancer patients by targeting CAFs. In this review, we will discuss the latest findings on the role of CAFs in tumorigenesis and metastasis as well as potential therapeutic implication of CAFs.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26501027",
+  "title": "Vasculature-associated cells expressing nestin in developing bones encompass early cells in the osteoblast and endothelial lineage.",
+  "content": "Nestin-positive (Nes(+)) cells are important hematopoiesis-supporting constituents in adult bone marrow. However, how these cells originate during endochondral bone development is unknown. Studies using mice expressing GFP under the direction of nestin promoter/enhancer (Nes-GFP) revealed distinct endothelial and nonendothelial Nes(+) cells in the embryonic perichondrium; the latter were early cells of the osteoblast lineage immediately descended from their progenitors upon Indian hedgehog action and Runx2 expression. During vascular invasion and formation of ossification centers, these Nes(+) cells were closely associated with each other and increased in number progressively. Interestingly, cells targeted by tamoxifen-inducible cre recombinase driven by nestin enhancer (Nes-creER) in developing bone marrow were predominantly endothelial cells. Furthermore, Nes(+) cells in postnatal bones were heterogeneous populations, including a range of cells in the osteoblast and endothelial lineage. These findings reveal an emerging complexity of stromal populations, accommodating Nes(+) cells as vasculature-associated early cells in the osteoblast and endothelial lineage.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

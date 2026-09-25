@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_045",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 45,
+  "text": "and submit performance monitoring report to the Authority as and when required in a format as prescribed. Every Access Provider shall maintain records of complaints, from its customers and received from Terminating Access Provider(s), against unregistered sender(s) for sending unsolicited commercial communications on daily basis for each service area and submit performance monitoring report to the Authority as and when required in a format as prescribed. Every Access Provider shall submit to the Authority its compliance reports in respect of unsolicited commercial communications, complaints or reports from its customers in such manner and format, at such periodic intervals and within such time limits as may be specified by the Authority, from time to time, by an order or direction; The Authority may, from time to time, through audit conducted either by its officers or employees or through agency appointed by it, verify and assess the process followed by the Access Provider for registration and resolution of complaints, examination and investigation of the complaints and reporting to the Authority, implementation of UCC_Detect System and action taken thereof, different registration processes such as Sender registration, Telemarketer registration, Header registration, Content Template registration and other processes including preference registration process, scrubbing processes, Consent acquisition process and other processes followed by the Access Providers as per the relevant provisions of these regulations. The Access Providers shall provide real-time access to the Authority to various processes and databases related to the activities being performed under these regulations and the directions issued by the Authority from",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

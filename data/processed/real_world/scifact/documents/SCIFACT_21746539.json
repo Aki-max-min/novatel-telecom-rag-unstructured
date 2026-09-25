@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21746539",
+  "title": "T-cell-antigen recognition and the immunological synapse",
+  "content": "Much excitement of the past five years in the area of T-cell-antigen recognition has centred around the immunological synapse — a complex cellular structure that forms at the interface of a T cell and a cell that expresses the appropriate peptide–MHC complexes. Thanks to new imaging technologies, we are now beginning to understand the role of cell-surface molecules and some of their attendant signalling modules in the context of cell-to-cell communication. Progress has been so rapid that T-cell-antigen recognition might be the first system in which the molecular basis of cell–cell recognition is understood.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

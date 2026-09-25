@@ -1,0 +1,18 @@
+{
+  "chunk_id": "EML_001_chunk_001",
+  "document_id": "EML_001",
+  "chunk_index": 1,
+  "text": "stated window. ## Follow-up Requirements The customer is invited to reply to this email or contact care with the reference number if further clarification is needed. ## References No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
+  "title": "Response to Billing Dispute",
+  "document_type": "Sample Email",
+  "category": "C04",
+  "department": "Billing",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-15",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\emails\\EML_001.md",
+  "file_type": "markdown"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_30471052",
+  "title": "Neurogenin3: a master regulator of pancreatic islet differentiation and regeneration.",
+  "content": "The basic helix-loop-helix transcription factor neurogenin-3 (Ngn3, Neurog3) is critical for the development of the endocrine cells of the islets. Either disrupted or forced expression of Ngn3 early in mouse pancreas development abrogates the formation of islets. The successive waves of Ngn3 expression that occur during the primary and secondary transitions of endocrine cell development temporally determine the four distinct endocrine cell lineages, α, β, PP, and δ cells that express glucagon, insulin, pancreatic polypeptide, and somatostatin, respectively. During islet regeneration after injury of the adult mouse pancreas, such as by duct ligation or streptozotocin, Ngn3 is activated in duct-associated stem/progenitor cells that transform into alpha and/or beta cells (Xu et al, Collombat et al). The important role of Ngn3 as a master regulator of endocrine pancreas development directs attention to finding therapeutic approaches to enhance Ngn3 expression in diabetes as a means to increase beta cell mass and functions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

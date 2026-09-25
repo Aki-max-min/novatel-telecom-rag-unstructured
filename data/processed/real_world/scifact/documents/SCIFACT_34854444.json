@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_34854444",
+  "title": "Expression of Golli mRNA during development in primary immune lymphoid organs of the rat",
+  "content": "The gene-of-the-oligodendrocyte lineage (Golli)-MBP transcription unit contains three Golli-specific exons together with eight exons of the \"classical\" myelin basic protein (MBP) gene, yielding alternatively spliced proteins which share amino acid sequence with MBP. Unlike MBP, a late antigen expressed only in the nervous system, Golli gene products are expressed pre- and post-natally at many sites. In this study, we determined the sequence of Golli in rat by RT-PCR and 5' RACE and showed that Golli sequences are expressed in primary lymphoid organs as early as e16.5, which could explain the anergic rat T cell response we previously observed in Golli-induced meningitis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

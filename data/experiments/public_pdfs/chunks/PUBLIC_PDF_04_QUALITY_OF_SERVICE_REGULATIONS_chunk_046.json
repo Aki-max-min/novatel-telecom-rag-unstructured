@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_046",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 46,
+  "text": "outwards path of the terminating network; (d) An alert signal is received by caller in the form of ring back tone, busy tone, or an announcement. (iii) The CSSR shall be measured during time consistent busy hour of the monitored network. The call attempts for two different parameters of CSSR shall include as follows: • Call Set-up Success Rate: Intra-Service provider (Within service provider’s network)- (a) all call attempts originated and terminated in the LSA network of the service provider and (b) all incoming call attempts from other LSA networks of the service provider. • Call Set-up Success Rate: Inter- Service provider (Incoming from other service providers’ network)- all incoming call attempts from all LSA networks of all other service providers. (iv) The performance against both the parameters as mentioned in para (iii) above, for the assessment period, shall be measured through the following formula: = 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐞𝐬𝐭𝐚𝐛𝐥𝐢𝐬𝐡𝐞𝐝 𝐜𝐚𝐥𝐥𝐬 𝐝𝐮𝐫𝐢𝐧𝐠 𝐓𝐂𝐁𝐇 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐜𝐚𝐥𝐥 𝐚𝐭𝐭𝐞𝐦𝐩𝐭𝐬 𝐝𝐮𝐫𝐢𝐧𝐠 𝐓𝐂𝐁𝐇 × 𝟏𝟎𝟎 The relevant counter(s) from different technology networks shall be added for arriving at the values of numerator and denominator. However, the breakup of separate counters shall be maintained by the service 114 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] provider for the purpose of audit. Calls failed due to network issues in LSA network segment shall be treated as failed calls or not ‘Established Calls’. Calls that failed due to user behavior such as Busy, not reachable etc. will be counted as established calls for the purpose of",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

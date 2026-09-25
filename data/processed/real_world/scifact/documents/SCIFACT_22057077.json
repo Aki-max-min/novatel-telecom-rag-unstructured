@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22057077",
+  "title": "Methylphenidate-induced erections in a prepubertal child.",
+  "content": "Methylphenidate is a medication used routinely in the management of attention deficit hyperactivity disorder. We report a case of a prepubertal child who developed unwanted erections after commencing a response-adjusted dosing regimen of sustained release methylphenidate. Despite priapism being a rare adverse reaction associated with methylphenidate, physicians and parents need to be aware as it can have significant long-term complications.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

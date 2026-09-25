@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8670178",
+  "title": "The UNAIDS Estimation and Projection Package: a software package to estimate and project national HIV epidemics.",
+  "content": "This paper describes the Estimation and Projection Package (EPP) for estimating and projecting HIV prevalence levels in countries with generalised epidemics. The paper gives an overall summary of the software and interface. It describes the process of defining and modelling a national epidemic in terms of locally relevant sub-epidemics and the four epidemiological parameters used to fit a curve to produce the prevalence trends in the epidemic. It also provides an example of using the EPP in a country with a generalised epidemic. The paper discusses the strengths and weaknesses of the software and its envisaged future developments.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

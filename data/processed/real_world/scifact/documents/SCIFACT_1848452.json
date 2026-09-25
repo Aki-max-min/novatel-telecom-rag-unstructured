@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1848452",
+  "title": "Epigenetic Control of Stem Cell Potential during Homeostasis, Aging, and Disease.",
+  "content": "Stem cell decline is an important cellular driver of aging-associated pathophysiology in multiple tissues. Epigenetic regulation is central to establishing and maintaining stem cell function, and emerging evidence indicates that epigenetic dysregulation contributes to the altered potential of stem cells during aging. Unlike terminally differentiated cells, the impact of epigenetic dysregulation in stem cells is propagated beyond self; alterations can be heritably transmitted to differentiated progeny, in addition to being perpetuated and amplified within the stem cell pool through self-renewal divisions. This Review focuses on recent studies examining epigenetic regulation of tissue-specific stem cells in homeostasis, aging, and aging-related disease.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

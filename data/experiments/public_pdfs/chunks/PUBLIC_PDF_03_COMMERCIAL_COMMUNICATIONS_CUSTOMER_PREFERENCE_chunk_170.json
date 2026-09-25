@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_170",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 170,
+  "text": "(FTC) from United States of Americas (USA) have provisions to take actions to control nuisance from auto dialler calls. Use of Auto dialler by UTMs may come into notice via complaints and reports from the customers. Inputs from honeypots and usage patterns from the telephone number(s) may be analyzed to investigate the reported use of auto dialler. In case, it is found that auto dialler are being used by UTMs then appropriate actions may be taken against such activities. In case, auto dialler are to be used by Senders of commercial communications then they have to give prior intimations to the access providers. Senders using auto dialler have to follow certain performance requirements for auto dialler such as percentage of silent calls, percentage of abandoned calls etc. to be within specified limits. Access providers may cross verify performances by analyzing statistics of usage pattern of telecom resources being used for auto dialler. Further specific details would be included in the codes of practice (CoP) which are to be formulated by the access provider(s). For curbing menace of UCC from Robo Calls, available options for implementation may be required to be explored. Industry may also develop new solutions for ways and means to control UCC from Robo calls. The Authority may permit or set up regulatory sandbox for conducting tests on proposed solutions for Robo Calls. 4.3.17 Considering that in the proposed system, UCC preferences and the approaches to register them are expected to evolve over time, the Authority is of",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_034",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 34,
+  "text": "shall be final and binding. ATUL KUMAR CHAUDHARY, Secy. [ADVT.-III/4/Exty./359/2024-25] Note. The Explanatory Memorandum explains the analysis of comments and counter-comments received during consultation process for Consultation Paper on ‘Review of Quality-of-Service Standards for Access Services (Wireless and Wireline) and Broadband Services (Wireless and Wireline)’ dated 18th August,2023. 110 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] SCHEDULE-I Measurement Methodology The Schedule provides the methodology for measurement of the performance against QoS parameters specified in regulations 4, regulation 6, regulation 7, regulation 9 and regulation 10 of the Standards of Quality of Service of Access (Wireline and Wireless) and Broadband (Wireline and Wireless) Service Regulations, 2024. 1. Determination of Busy Hour Measurement of the performance against various QoS parameters is to be done during a busy hour. Further, two types of busy hours are mentioned for the measurement of performance against different QoS parameters. These busy hours are to be determined as follows: 1.1. Cell Bouncing Busy Hour (CBBH): CBBH for a quarter shall be decided on the basis of analysis of hourly traffic data of each cell for each day of preceding quarter. The hour during which the cell experience maximum average traffic during preceding quarter shall be CBBH of the respective cell. Different cells may have different CBBH based on the actual traffic experienced by the respective cell. Thus, the CBBH for a cell will remain the same for a quarter irrespective of the assessment period for the purpose of reporting the performance against QoS parameters. 1.2. Time Consistent",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

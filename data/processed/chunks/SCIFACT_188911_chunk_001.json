@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_188911_chunk_001",
+  "document_id": "SCIFACT_188911",
+  "chunk_index": 1,
+  "text": "cells develop in 1 wk from precursors within the large hind limb bones of a single animal, marrow progenitors can act as a major source of dendritic cells. This feature should prove useful for future molecular and clinical studies of this otherwise trace cell type.",
+  "title": "Generation of large numbers of dendritic cells from mouse bone marrow cultures supplemented with granulocyte/macrophage colony-stimulating factor",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

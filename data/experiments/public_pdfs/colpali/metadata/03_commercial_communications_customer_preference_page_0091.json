@@ -1,0 +1,15 @@
+{
+  "page_id": 191,
+  "pdf_path": "regulations\\03_commercial_communications_customer_preference.pdf",
+  "pdf_name": "03_commercial_communications_customer_preference.pdf",
+  "document_id": "03_commercial_communications_customer_preference",
+  "page_number": 91,
+  "page_number_zero_based": 90,
+  "image_path": "page_images\\03_commercial_communications_customer_preference\\page_0091.jpg",
+  "embedding_path": "embeddings\\03_commercial_communications_customer_preference\\page_0091.pt",
+  "embedding_shape": [
+    1,
+    1030,
+    128
+  ]
+}

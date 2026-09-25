@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7185591",
+  "title": "Sir2-Independent Life Span Extension by Calorie Restriction in Yeast",
+  "content": "Calorie restriction slows aging and increases life span in many organisms. In yeast, a mechanistic explanation has been proposed whereby calorie restriction slows aging by activating Sir2. Here we report the identification of a Sir2-independent pathway responsible for a majority of the longevity benefit associated with calorie restriction. Deletion of FOB1 and overexpression of SIR2 have been previously found to increase life span by reducing the levels of toxic rDNA circles in aged mother cells. We find that combining calorie restriction with either of these genetic interventions dramatically enhances longevity, resulting in the longest-lived yeast strain reported thus far. Further, calorie restriction results in a greater life span extension in cells lacking both Sir2 and Fob1 than in cells where Sir2 is present. These findings indicate that Sir2 and calorie restriction act in parallel pathways to promote longevity in yeast and, perhaps, higher eukaryotes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

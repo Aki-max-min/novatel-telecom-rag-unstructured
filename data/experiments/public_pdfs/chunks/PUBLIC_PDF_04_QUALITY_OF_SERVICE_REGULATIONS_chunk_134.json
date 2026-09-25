@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_134",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 134,
+  "text": "prescribed in the measurement methodology. (vii) Each service provider shall also make required secure Application Programmable Interfaces (APIs) available to TRAI to be used by the central platform of TRAI for the presentation of a unified geospatial service coverage map at the pan-India level, as and when required. (viii) The service providers are free to use network analytics, physical or virtual drive tests or crowdsourcing methods for the generation and updation of geospatial coverage maps. (ix) The coverage maps are meant to provide network coverage related information to the consumers. The coverage maps are representative maps in given conditions and are not directly linked to network performance which depends upon several factors including consumer’s location, number of consumers latched in the cell, load on the website/ application being accessed etc. The performance of the network shall be monitored as per other QoS parameters prescribed for wireless access service. (x) It is noted that the mobile network coverage also varies with cell loading. Therefore, the coverage maps shall be drawn considering the prescribed minimum signal strengths for different services (2G/3G/4G/5G) at the cell edges with minimum 50% cell loading. 5.3.2 Cumulative downtime (Cells not available for service) & Worst Affected Cells due to downtime (a) Input of Stakeholders (i) The stakeholders submitted that this parameter should not be captured at the cell level, rather the existing BTS level parameter should continue. Further, stakeholders have also stated, without any supporting global benchmark or analysis, that they do not agree with the monthly",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

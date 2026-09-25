@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_23698769",
+  "title": "Sustained active site rigidity during synthesis by human DNA polymerase μ",
+  "content": "DNA polymerase μ (Pol μ) is the only template-dependent human DNA polymerase capable of repairing double-strand DNA breaks (DSBs) with unpaired 3′ ends in nonhomologous end joining (NHEJ). To probe this function, we structurally characterized Pol μ's catalytic cycle for single-nucleotide incorporation. These structures indicate that, unlike other template-dependent DNA polymerases, Pol μ shows no large-scale conformational changes in protein subdomains, amino acid side chains or DNA upon dNTP binding or catalysis. Instead, the only major conformational change is seen earlier in the catalytic cycle, when the flexible loop 1 region repositions upon DNA binding. Pol μ variants with changes in loop 1 have altered catalytic properties and are partially defective in NHEJ. The results indicate that specific loop 1 residues contribute to Pol μ's unique ability to catalyze template-dependent NHEJ of DSBs with unpaired 3′ ends.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18038955",
+  "title": "Global Regulation of H2A.Z Localization by the INO80 Chromatin-Remodeling Enzyme Is Essential for Genome Integrity",
+  "content": "INO80 is an evolutionarily conserved, ATP-dependent chromatin-remodeling enzyme that plays roles in transcription, DNA repair, and replication. Here, we show that yeast INO80 facilitates these diverse processes at least in part by controlling genome-wide distribution of the histone variant H2A.Z. In the absence of INO80, H2A.Z nucleosomes are mislocalized, and H2A.Z levels at promoters show reduced responsiveness to transcriptional changes, suggesting that INO80 controls H2A.Z dynamics. Additionally, we demonstrate that INO80 has a histone-exchange activity in which the enzyme can replace nucleosomal H2A.Z/H2B with free H2A/H2B dimers. Genetic interactions between ino80 and htz1 support a model in which INO80 catalyzes the removal of unacetylated H2A.Z from chromatin as a mechanism to promote genome stability.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11172205",
+  "title": "Quantum dots spectrally distinguish multiple species within the tumor milieu in vivo",
+  "content": "A solid tumor is an organ composed of cancer and host cells embedded in an extracellular matrix and nourished by blood vessels. A prerequisite to understanding tumor pathophysiology is the ability to distinguish and monitor each component in dynamic studies. Standard fluorophores hamper simultaneous intravital imaging of these components. Here, we used multiphoton microscopy techniques and transgenic mice that expressed green fluorescent protein, and combined them with the use of quantum dot preparations. We show that these fluorescent semiconductor nanocrystals can be customized to concurrently image and differentiate tumor vessels from both the perivascular cells and the matrix. Moreover, we used them to measure the ability of particles of different sizes to access the tumor. Finally, we successfully monitored the recruitment of quantum dot–labeled bone marrow–derived precursor cells to the tumor vasculature. These examples show the versatility of quantum dots for studying tumor pathophysiology and creating avenues for treatment.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_165",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 165,
+  "text": "wise geospatial coverage map on service provider’ s website for percentage of working cells Cumulative downtime (Cells not available for service) Worst Affected Cells due to downtime Percentage of significant network outage (services not available in a district for more than 4 hours) reported to the Authority within 24 hrs of start of the outage Call Set-up Success Rate: Intra- Service provider (within service provider’ s network) Call Set-up Success Rate: Inter- Service provider (incoming from other service providers’ network) Point of Interconnection (POI) Congestion (90th percentile value) DCR Spatial Distribution Measure for Circuit Switched (2G/3G) network [CS_QSD (88, 88)] DCR Spatial Distribution Measure for Packet Switched (4G/5G and beyond) network Downlink Packet Drop Rate for Packet Switched Network (4G/5G and beyond) [DLPDR_QSD (88, 88)] Uplink Packet Drop Rate for Packet Switched Network (4G/5G and beyond) [ULPDR_QSD (88, 88)] Latency (in 4G and 5G network) Packet Drop Rate (in 4G and 5G network) ≥ 99% ≤ 2% ≤ 2% 100% ≥ 98% ≥ 95% ≤ 0.5% ≤ 2% ≤ 2% ≤ 2% ≤ 2% ≤ 75 msec ≤ 3% 1 AIRTEL AP 100.00 0.24 1.06 100.00 99.75 99.12 0.00 1.31 0.86 1.03 1.29 44.00 1.40 2 BSNL AP 99.00 0.67 1.41 100.00 98.40 98.13 0.00 1.50 1.83 0.27 0.66 28.27 1.00 3 RJIL AP 100.00 0.12 0.47 100.00 99.80 99.47 0.00 NA 0.30 0.00 1.65 11.00 0.00 4 VIL AP 100.00 0.14 0.67 100.00 99.82 98.92 0.00 1.80 0.84 0.39 1.32 44.50 0.00 5 AIRTEL AS 100.00 0.56 1.28 100.00",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

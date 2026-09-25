@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_155",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 155,
+  "text": "that granular preferences would be relatively easier to add for the customer on the app – other avenues like SMS or email mode of registering would be a challenge. High level of specificity in choices can help serve desired objective only when the end to end chain of flow – both SMS or voice calls from UTMs is completely removed. iii. Stakeholders also stated that the greater granularity will help both customers and telemarketers at the expense of little additional technical work on CPRF, PCPR, NCPR, CPDB, etc. Choices should be in a hierarchical structure of preferences rather than just a long list of options. Customers who prefer simplicity can still fall back on the current method of a single number. Customers who want the refined set of options can go down the tree to specify more precise conditions and preferences. This will also help telemarketers target their messages better to the audiences that are more likely to be receptive. Such targeted messaging will deliver maximum benefit for the resources they spend in telemarketing. One stakeholder suggested that more refined preference registration would give a competitive advantage to the service providers. 4.2.6 Widening Scope of UCC: All Stakeholders agreed with the fact that unwanted calls like silent, obnoxious, threatening one are one of the big problems today. Few stakeholders are of the view that TCCCPR regulations pertain only to commercial and transactional related communications. Presently, TSPs use analytical tools based on post-call CDR analysis to curb UCC menace. Using this",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

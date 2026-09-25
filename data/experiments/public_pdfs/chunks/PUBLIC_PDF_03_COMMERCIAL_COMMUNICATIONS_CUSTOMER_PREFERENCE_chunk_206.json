@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_206",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 206,
+  "text": "access providers do not act against the detected UTMs in a timely manner, then they may be held accountable for not controlling UCC. If it comes to notice or is found during audit of the system that the access provider has not taken action against UTMs as specified in the regulations or CoPs then access provider may be liable to pay by way of financial disincentives. The FD in case of UTM may be dependent on every such instance. In view of this the Authority decides that Financial Disincentive of one lakh per instance of access provider failing to impose timely restrictions on outgoing usage of unregistered sender(s) be imposed on the access provider. iv. In view of UCC eco system based on DLT is created by the access provider(s) and measures taken to control the outgoing usage of telecom resources of suspected sender of UCC whenever it comes into notice, current provisions of Financial Disincentives for access providers may need to be revised. Access providers are supposed to apply Usage Cap within timelines prescribed in the regulations. If it comes to notice of the Authority that access provider is not taking such measures in timely manner and same is established through special audits and no satisfactory justifications for any delay in applying such measures, then access providers may be liable to pay by way of financial disincentives. 5.3.13 As discussed earlier in Para 3.3, further specific details should be part of Codes of Practice for Complaint Handling (CoP-Complaints) and",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

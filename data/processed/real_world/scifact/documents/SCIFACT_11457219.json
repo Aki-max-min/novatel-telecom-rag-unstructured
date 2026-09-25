@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11457219",
+  "title": "Fumarase deficiency in dichorionic diamniotic twins.",
+  "content": "Fumarase deficiency is a rare autosomal recessive inborn error of metabolism of the Krebs Tricarboxylic Acid cycle. A heavy neurological disease burden is imparted by fumarase deficiency, commonly manifesting as microcephaly, dystonia, global developmental delay, seizures, and lethality in the infantile period. Heterozygous carriers also carry an increased risk of developing hereditary leiomyomatosis and renal cell carcinoma. We describe a non-consanguineous family in whom a dichorionic diamniotic twin pregnancy resulted in twin boys with fumarase deficiency proven at the biochemical, enzymatic, and molecular levels. Their clinical phenotype included hepatic involvement. A novel mutation in the fumarate hydratase gene was identified in this family.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_23122306",
+  "title": "Lung Carcinogenesis by Diesel Exhaust Particles and the Carcinogenic Mechanism Via Active Oxygens.",
+  "content": "In an experiment to clarify the involvement of oxygen radicals in lung carcinogenesis induced by diesel exhaust particles (DEP), we found that there is a strong relation between lung tumor response and formation of 8-hydroxydeoxyguanosine (8-OHdG) in lung DNA of mice administered DEP by repeated intratracheal instillation. Repeated intratracheal instillation of DEP also induced the activity of cytochrome P-450 reductase in the lungs as a representative enzyme of superoxide generation, and two types of nitric oxide (NO) synthase, cNOS and iNOS, in the lungs. On the other hand, activities of CuZn-superoxide dismutase (SOD) and Mn-SOD antioxidant enzymes were depressed by the instillation of DEP. These results suggest that generation of superoxide, hydroxyI radical, and nitric oxide are increased in epithelial cells in airways, and that the increased superoxide and nitric oxide react very easily to produce peroxynitrite (ONOO(-)). The peroxynitrite also produce hydroxyI radical. The hydroxyl radical may play an important role in carcinogenesis by DEP.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

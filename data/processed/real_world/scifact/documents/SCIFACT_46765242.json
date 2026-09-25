@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_46765242",
+  "title": "Interaction of cytosine arabinoside and lovastatin in human leukemia cells.",
+  "content": "Cytosine arabinoside (ara-C) is widely used for the treatment of leukemias and displays significant toxicities. Lovastatin, an HMG-CoA reductase inhibitor, is extensively used to treat hypercholesterolemia. To determine whether lovastatin could augment ara-C's activity we have examined their effects in the human erythroleukemia K562 cell line and the ara-C resistant ARAC8D cell line. A synergistic interaction between the two drugs was found. We have demonstrated that the interaction does not occur at the level of RAS but may involve lovastatin's effect of downregulating MAPK activity and preventing ara-C-induced MAPK activation. These studies represent the first description of a potentially beneficial interaction between lovastatin and ara-C that could be applied to the treatment of human leukemia.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

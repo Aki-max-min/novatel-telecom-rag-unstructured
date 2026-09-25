@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_864491",
+  "title": "Specific inhibition of cyclin-dependent kinase 4/6 by PD 0332991 and associated antitumor activity in human tumor xenografts.",
+  "content": "PD 0332991 is a highly specific inhibitor of cyclin-dependent kinase 4 (Cdk4) (IC50, 0.011 micromol/L) and Cdk6 (IC50, 0.016 micromol/L), having no activity against a panel of 36 additional protein kinases. It is a potent antiproliferative agent against retinoblastoma (Rb)-positive tumor cells in vitro, inducing an exclusive G1 arrest, with a concomitant reduction of phospho-Ser780/Ser795 on the Rb protein. Oral administration of PD 0332991 to mice bearing the Colo-205 human colon carcinoma produces marked tumor regression. Therapeutic doses of PD 0332991 cause elimination of phospho-Rb and the proliferative marker Ki-67 in tumor tissue and down-regulation of genes under the transcriptional control of E2F. The results indicate that inhibition of Cdk4/6 alone is sufficient to cause tumor regression and a net reduction in tumor burden in some tumors.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

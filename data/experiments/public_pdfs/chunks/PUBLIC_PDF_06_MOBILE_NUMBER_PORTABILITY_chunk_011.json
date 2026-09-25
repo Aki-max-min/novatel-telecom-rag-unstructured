@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_011",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 11,
+  "text": "3[6A. Process to be performed by Mobile Number Portability Service provider before allocating unique porting code.— (1) Upon receipt of the request for unique porting code, the concerned Mobile Number Portability Service provider shall check the following conditions from its database whether:- (a) the mobile number has been ported earlier and, if so, a period of ninety days has not elapsed from the date of its last porting; (b) porting request is already in process for the same mobile number; and (c) unique porting code has already been issued and not expired yet. (2) Where Mobile Number Portability Service provider finds that the clause (a) or (b) or (c) mentioned in sub-regulation (1) are applicable, the Mobile Number Portability Service provider shall not generate unique porting code and shall communicate the reason of non-generation of unique porting code to the subscriber through SMS. (3) Where Mobile Number Portability Service provider finds that the clause (a) and (b) and (c) mentioned in sub-regulation (1) are not applicable, it shall check immediately on real time basis from the database of Donor Operator whether:- (a) the number is a Corporate mobile number; (b) there are outstanding payments due from the post paid subscriber by way of pending bill, issued as per the normal billing cycle but before the date of request for unique porting code; (c) the porting request has been made before the expiry of a period of ninety days from the date of activation of a new connection; (d) a request",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

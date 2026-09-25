@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6061927",
+  "title": "Glucose Sensing in L Cells: A Primary Cell Study",
+  "content": "Glucagon-like peptide-1 (GLP-1) is an enteric hormone that stimulates insulin secretion and improves glycaemia in type 2 diabetes. Although GLP-1-based treatments are clinically available, alternative strategies to increase endogenous GLP-1 release from L cells are hampered by our limited physiological understanding of this cell type. By generating transgenic mice with L cell-specific expression of a fluorescent protein, we studied the characteristics of primary L cells by electrophysiology, fluorescence calcium imaging, and expression analysis and show that single L cells are electrically excitable and glucose responsive. Sensitivity to tolbutamide and low-millimolar concentrations of glucose and alpha-methylglucopyranoside, assessed in single L cells and by hormone secretion from primary cultures, suggested that GLP-1 release is regulated by the activity of sodium glucose cotransporter 1 and ATP-sensitive K(+) channels, consistent with their high expression levels in purified L cells by quantitative RT-PCR. These and other pathways identified using this approach will provide exciting opportunities for future physiological and therapeutic exploration.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20419913",
+  "title": "Reproductive clonality in protozoan pathogens--truth or artefact?",
+  "content": "The debate around the frequency and importance of genetic exchange in parasitic protozoa is now several decades old. Recently, fresh assertions have been made that predominant clonal evolution explains the population structures of several key protozoan pathogens. Here, we present an alternative perspective. On the assumption that much apparent clonality may be an artefact of inadequate sampling and study design, we review current research to define why sex might be so difficult to detect in protozoan parasite populations. In doing so, we contrast laboratory models of genetic exchange in parasitic protozoa with natural patterns of genetic diversity and consider the fitness advantage of sex at different evolutionary scales. We discuss approaches to improve the accuracy of efforts to characterize genetic exchange in the field. We also examine the implications of the first population genomic studies for the debate around sex and clonality in parasitic protozoa and discuss caveats for the future.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

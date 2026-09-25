@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_025",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 25,
+  "text": "the porting request from the Recipient Operator, the Mobile Number Portability Service provider shall verify whether:- (a) porting request is not in process for the same mobile number; (b) unique porting code received along with the porting request matches with the unique porting code generated from its database for the mobile number under porting; (c) unique porting code is valid on the date of receipt of porting request. (8) Where any of the conditions contained in clauses (a), (b) and (c) under sub- regulation (7), is not affirmative, the Mobile Number Portability Service provider shall reject 1 Subs. by the Ninth Amendment Regulations, 2024, reg. 5(a) (w.e.f. 01.07.2024), for the following: “conditions (a) to (g) contained in sub-regulation (3) of regulation 6A” 2 Subs. by the Ninth Amendment Regulations, 2024, reg. 5(b) (w.e.f. 01.07.2024), for the following: “in clauses (b) to (g) of sub-regulation (3) of regulation 6A” 3 Subs. by the Ninth Amendment Regulations, 2024, reg. 5(c) (w.e.f. 01.07.2024), for the following: “in clause (b) to (g) of sub-regulation (3) of regulation 6A” the current request for porting and communicate such rejection to the Recipient Operator and the concerned subscriber along with the reasons of such rejection. (9) Upon successful validation of the conditions contained in clauses (a), (b) and (c) under sub-regulation (7), the Mobile Number Portability Service provider shall:- (a) in all cases except corporate mobile numbers, schedule and forthwith forward such request to Donor Operator for porting on completion of two working days for intra- licensed",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

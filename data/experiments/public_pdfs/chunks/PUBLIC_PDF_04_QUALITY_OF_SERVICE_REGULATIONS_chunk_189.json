@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_189",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 189,
+  "text": "parameter, and lower the calls answered benchmark from ≥ 95% to ≥ 85%. 167 (b) Analysis and Conclusion (i) The accessibility of call centre numbers is significant from the perspective of complaint redressal mechanism and customer service. Though the service providers have launched alternate interfaces for customer service like mobile apps and web interfaces, the consumer continues to face problems in registering their complaints due to complicated workflows and complex navigation. This is also supported by the fact that the number of calls at call centres has not reduced, and service providers are not able to meet current benchmarks in many cases even after the rollout of alternate channels for customer support. (ii) Further, there are significant number of feature phone users in the mobile network who cannot use mobile apps for the registration of complaints. Therefore, the Authority is not in favour of relaxing benchmark for this parameter. However, the service providers are encouraged to simplify the navigation and workflows for registration of complaints through their website and mobile apps to reduce the number of calls to call centres. (iii) Regarding computation of the performance against the parameter ‘percentage of calls answered by operators (voice to voice)’, the time taken for connecting to the operator shall be calculated from the time the customer has keyed the relevant number in the IVR option menu, if provided, for speaking to the customer care executive/ operator. Further, the menu for speaking to the customer care executive/operator shall be given preference in the",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

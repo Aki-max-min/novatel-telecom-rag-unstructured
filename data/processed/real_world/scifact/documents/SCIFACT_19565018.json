@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19565018",
+  "title": "The PI3K inhibitor arsenal: choose your weapon!",
+  "content": "Owing to its widespread activation in inflammation and cancer, a growing appreciation of the therapeutic potential of inhibitors of the phosphoinositide 3-kinase (PI3K) pathway has stimulated intense interest in compounds with suitable pharmacological profiles. These are primarily directed toward PI3K itself. However, as class I PI3Ks are also essential for a range of normal physiological processes, broad spectrum PI3K inhibition could be poorly tolerated. In recent years, patents describing a new generation of PI3K inhibitors have started to appear, with a particular focus on the development of compounds with enhanced isoform selectivity for use as anti-cancer and anti-inflammatory therapies. However, challenges remain for the efforts to pharmacologically target this enzyme family in a successful manner.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

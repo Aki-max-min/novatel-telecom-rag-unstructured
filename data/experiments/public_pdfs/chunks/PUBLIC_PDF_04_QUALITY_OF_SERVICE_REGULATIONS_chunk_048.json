@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_048",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 48,
+  "text": "can be excluded for calculating the performance against the parameter. Details of force majeure shall be maintained by the service provider. (v) The following formula shall be used for calculation of congestion on each PoI in the LSA over the assessment period: 𝐏𝐨𝐈 𝐜𝐨𝐧𝐠𝐞𝐬𝐭𝐢𝐨𝐧 (𝐎/𝐆) = 𝐍𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐟𝐚𝐢𝐥𝐞𝐝 𝐜𝐚𝐥𝐥𝐬 𝐝𝐮𝐫𝐢𝐧𝐠 𝐓𝐂𝐁𝐇 𝐨𝐧 𝐚 𝐠𝐢𝐯𝐞𝐧 𝐏𝐨𝐈 𝐍𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐜𝐚𝐥𝐥 𝐚𝐭𝐭𝐞𝐦𝐩𝐭𝐬 𝐭𝐨 𝐭𝐡𝐞 𝐏𝐨𝐈 𝐝𝐮𝐫𝐢𝐧𝐠 𝐓𝐂𝐁𝐇 × 𝟏𝟎𝟎 (vi) Value of PoI congestion outgoing (O/G) so obtained at each PoI in the LSA, shall be arranged in ascending order. The 90th percentile value of PoI congestion (O/G) arranged in ascending order shall be the performance against this parameter. The decimal value, if any, to calculate 90th percentile shall be rounded off to nearest integer. 4.3. Voice Connection Maintenance (Retainability) 4.3.1. Dropped Call Rate (DCR) (i) Call drop represents the service provider network’s ability to maintain a call once it has been successfully established. This parameter shall include both incoming calls and outgoing calls which, once they have been established and have an assigned traffic channel/ bearer, are dropped, or interrupted before their normal completion by the user, the cause of the early termination being within the service provider’s network. (ii) The measurement of dropped call rate (DCR) of individual cells shall be taken during Cell Bouncing Busy Hour (CBBH) for each day of the assessment period through the following formula: = 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐢𝐧𝐭𝐞𝐫𝐫𝐮𝐩𝐭𝐞𝐝 (𝐝𝐫𝐨𝐩𝐩𝐞𝐝) 𝐜𝐚𝐥𝐥𝐬 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐜𝐚𝐥𝐥𝐬 𝐬𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 𝐞𝐬𝐭𝐚𝐛𝐥𝐢𝐬𝐡𝐞𝐝× 𝟏𝟎𝟎 DCR is a radio KPI and will",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

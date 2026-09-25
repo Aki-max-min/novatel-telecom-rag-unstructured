@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C25_049_chunk_001",
+  "document_id": "FAQ_C25_049",
+  "chunk_index": 1,
+  "text": "ONT | Physical connection at the ONT | Firmly reseat the fibre cable connector | | LOS light stays red after reseating cable | Fibre cut or upstream outage | Whether other customers nearby are also affected (informal signal of upstream outage) | Log a fault ticket — do not open the ONT casing | ### Escalation Logging a fault ticket is the documented next step once a firm cable connection doesn't clear the red LOS light, with an explicit instruction not to self-repair the ONT. ### Example Scenario **Customer situation:** A customer's home broadband ONT is showing a red LOS light and they're about to try opening the unit to check inside. **What happens:** The recommended step is only to confirm the fibre cable is firmly connected; if the light stays red, logging a fault ticket is the right next step rather than opening the ONT casing. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C25_overview. Topic: Broadband & FTTH Services",
+  "title": "Why is my FTTH broadband connection showing 'LOS' (Loss of Signal) on the ONT?",
+  "document_type": "FAQ",
+  "category": "C25",
+  "department": "Network",
+  "customer_scope": "prepaid",
+  "version": "1.0",
+  "last_updated": "2026-05-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C25_overview"
+  ],
+  "tags": [
+    "broadband",
+    "c25"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C25_049.json",
+  "file_type": "json"
+}

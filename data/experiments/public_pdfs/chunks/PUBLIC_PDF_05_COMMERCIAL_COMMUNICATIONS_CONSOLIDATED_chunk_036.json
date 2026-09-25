@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_036",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 36,
+  "text": "shall also verify if the date of receipt of complaint is within seven days of receiving Commercial Communication and in case the complaint is reported by the Customer after seven days, it shall communicate to the Customer about the closure of his complaint along with reasons in accordance with the Codes of Practice for Complaint Handling and change status of the complaint on DL-Complaint as a report instead of a complaint: Provided that the Authority may, if it so desires, by direction, specify the content and method of making such communication to the complainant; in case the complaint is related to Registered Telemarketer or registered Sender, OAP shall- notify the receipt of the complaint to the Sender immediately with such details which help the Sender to start the investigation immediately; examine communication detail records, within one business day from the date of receipt of compliant by OAP to check the occurrence of complained communication between the complainant and the reported telephone number or Header from which Unsolicited Commercial Communication was received; in case of non-occurrence of complained communications under sub-regulation (4)(b), shall communicate to TAP to inform the complainant about the closure of complaint along with reasons in a manner specified in the Codes of Practice: Provided that the Authority may, if it so desires, by direction, specify the content and method of making such communication to the complainant; in case of occurrence of SMS-related complained communications under sub-regulation (4)(b), OAP shall further examine, within one business day from the",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

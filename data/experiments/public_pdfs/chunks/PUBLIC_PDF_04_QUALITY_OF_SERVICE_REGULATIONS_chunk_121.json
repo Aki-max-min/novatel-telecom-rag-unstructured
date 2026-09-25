@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_121",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 121,
+  "text": "days of registration of demand’ PMR for Quarter Ending No. of PMRs with < 95% connec tions provid ed within 15 days No. of PMRs with ≥ 95 and < 98% connectio ns provided within 15 days No. of PMRs with ≥ 98 and <100% connectio ns provided within 15 days No. of PMRs with 100% connecti ons provide d within 15 days Total PMRs March, 2023 0 1 0 123 124 June, 2023 0 1 0 127 128 September, 2023 0 1 0 130 131 December, 2023 0 1 0 137 138 March, 2024 0 0 0 137 137 It is evident from above table that the service providers are already provisioning service within 15 working days which includes the assessment of technical feasibility. (iii) In the Consultation Paper, benchmark for this parameter is proposed at 100% after the payment of the demand note. (iv) However, considering the scenarios highlighted by the stakeholders, some of which are not under the control of the service providers, the Authority has revised the proposed benchmark to ≥98% for both access service (wireline) and broadband (wireline) services. In cases where the service providers do not issue demand note(s) before provisioning of service, the reference date for provisioning of service shall be reckoned with from the date of issue of work order for service provisioning. (v) Also, timelines for provisioning of service are revised from within 7 days to within 7 working days to provide sufficient time for installation of wireline connections. (vi) Provisioning",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

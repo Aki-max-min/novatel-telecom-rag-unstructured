@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5785219",
+  "title": "Modulation of glucose metabolism in macrophages by products of nitric oxide synthase.",
+  "content": "Nitric oxide (NO) is a product of L-arginine metabolism that suppresses cellular oxidative metabolism through the inhibition of tricarboxylic acid cycle and electron transport chain enzymes. The impact of NO synthase (NOS) activity on specific pathways of glucose metabolism in freshly harvested and overnight-cultured rat resident peritoneal macrophages, at rest and after stimulation with zymosan, was investigated using radiolabeled glucose. NOS activity was modulated through the L-arginine concentration in culture media and the use of its specific inhibitor, NG-monomethyl-L-arginine, and quantitated using radiolabeled L-arginine. Results demonstrated that NOS activity was associated with increased glucose disappearance, glycolysis, and hexose monophosphate shunt activity and, in line with the known inhibition of oxidative metabolism associated with the production of NO, with a decrease in the flux of glucose and butyrate carbon through the tricarboxylic acid cycle. In addition, the relative increase in glucose utilization that follows zymosan stimulation was enhanced by treatments that suppressed NOS activity. These results demonstrate that the characteristics of glucose metabolism by macrophages are, to a significant extent, determined by products of NOS.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

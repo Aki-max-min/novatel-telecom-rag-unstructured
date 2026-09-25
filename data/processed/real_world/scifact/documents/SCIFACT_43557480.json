@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_43557480",
+  "title": "Arterial hypertension and progression of chronic kidney disease in children during 10-year ambulatory observation.",
+  "content": "The aim of this study was the long-term retrospective analysis of chronic kidney disease (CKD) progression in children, especially with regard to the presence of hypertension (HTN). The average rate of progression of CKD was higher in patients with HTN than without HTN. Hypertension treatment requires multidrug schemes which need to be intensified with extended time of CKD duration.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

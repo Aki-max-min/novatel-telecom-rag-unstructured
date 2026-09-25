@@ -17,6 +17,23 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "COV_NORTH_2026_chunk_001",
+    "document_id": "COV_NORTH_2026",
+    "chunk_index": 1,
+    "title": "North Zone Coverage Summary (Delhi NCR, Punjab, UP West)",
+    "document_type": "Coverage Map Description",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-09",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\coverage_maps\\COV_NORTH_2026.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "COV_SOUTH_2026_chunk_000",
     "document_id": "COV_SOUTH_2026",
     "chunk_index": 0,
@@ -37,6 +54,23 @@
     "chunk_id": "EML_001_chunk_000",
     "document_id": "EML_001",
     "chunk_index": 0,
+    "title": "Response to Billing Dispute",
+    "document_type": "Sample Email",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\emails\\EML_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "EML_001_chunk_001",
+    "document_id": "EML_001",
+    "chunk_index": 1,
     "title": "Response to Billing Dispute",
     "document_type": "Sample Email",
     "category": "C04",
@@ -226,6 +260,28 @@
     "file_type": "json"
   },
   {
+    "chunk_id": "FAQ_C01_001_chunk_001",
+    "document_id": "FAQ_C01_001",
+    "chunk_index": 1,
+    "title": "How do I update the mobile number registered on my account?",
+    "document_type": "FAQ",
+    "category": "C01",
+    "department": "Customer Care",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-05-06",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C01_overview"
+    ],
+    "tags": [
+      "account",
+      "c01"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C01_001.json",
+    "file_type": "json"
+  },
+  {
     "chunk_id": "FAQ_C01_002_chunk_000",
     "document_id": "FAQ_C01_002",
     "chunk_index": 0,
@@ -314,6 +370,28 @@
     "file_type": "json"
   },
   {
+    "chunk_id": "FAQ_C03_005_chunk_001",
+    "document_id": "FAQ_C03_005",
+    "chunk_index": 1,
+    "title": "Why did my recharge fail even though the amount was debited?",
+    "document_type": "FAQ",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-07-28",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C03_overview"
+    ],
+    "tags": [
+      "recharge",
+      "c03"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C03_005.json",
+    "file_type": "json"
+  },
+  {
     "chunk_id": "FAQ_C03_006_chunk_000",
     "document_id": "FAQ_C03_006",
     "chunk_index": 0,
@@ -339,6 +417,28 @@
     "chunk_id": "FAQ_C04_007_chunk_000",
     "document_id": "FAQ_C04_007",
     "chunk_index": 0,
+    "title": "Why is my postpaid bill higher than my plan rental this month?",
+    "document_type": "FAQ",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-07-14",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C04_overview"
+    ],
+    "tags": [
+      "billing",
+      "c04"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C04_007.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C04_007_chunk_001",
+    "document_id": "FAQ_C04_007",
+    "chunk_index": 1,
     "title": "Why is my postpaid bill higher than my plan rental this month?",
     "document_type": "FAQ",
     "category": "C04",
@@ -402,9 +502,53 @@
     "file_type": "json"
   },
   {
+    "chunk_id": "FAQ_C05_009_chunk_001",
+    "document_id": "FAQ_C05_009",
+    "chunk_index": 1,
+    "title": "My SIM card shows 'No Service' after I inserted it in a new phone.",
+    "document_type": "FAQ",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-03",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C05_overview"
+    ],
+    "tags": [
+      "sim",
+      "c05"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C05_009.json",
+    "file_type": "json"
+  },
+  {
     "chunk_id": "FAQ_C05_010_chunk_000",
     "document_id": "FAQ_C05_010",
     "chunk_index": 0,
+    "title": "How do I get a duplicate SIM if mine is lost or damaged?",
+    "document_type": "FAQ",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-06-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C05_overview"
+    ],
+    "tags": [
+      "sim",
+      "c05"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C05_010.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C05_010_chunk_001",
+    "document_id": "FAQ_C05_010",
+    "chunk_index": 1,
     "title": "How do I get a duplicate SIM if mine is lost or damaged?",
     "document_type": "FAQ",
     "category": "C05",
@@ -490,6 +634,28 @@
     "file_type": "json"
   },
   {
+    "chunk_id": "FAQ_C07_013_chunk_001",
+    "document_id": "FAQ_C07_013",
+    "chunk_index": 1,
+    "title": "How do I activate international roaming before travelling?",
+    "document_type": "FAQ",
+    "category": "C07",
+    "department": "Product",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-07-27",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C07_overview"
+    ],
+    "tags": [
+      "roaming",
+      "c07"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C07_013.json",
+    "file_type": "json"
+  },
+  {
     "chunk_id": "FAQ_C07_014_chunk_000",
     "document_id": "FAQ_C07_014",
     "chunk_index": 0,
@@ -515,6 +681,28 @@
     "chunk_id": "FAQ_C08_015_chunk_000",
     "document_id": "FAQ_C08_015",
     "chunk_index": 0,
+    "title": "Why is there no network coverage in my area?",
+    "document_type": "FAQ",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-07",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C08_overview"
+    ],
+    "tags": [
+      "network",
+      "c08"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C08_015.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C08_015_chunk_001",
+    "document_id": "FAQ_C08_015",
+    "chunk_index": 1,
     "title": "Why is there no network coverage in my area?",
     "document_type": "FAQ",
     "category": "C08",
@@ -578,6 +766,28 @@
     "file_type": "json"
   },
   {
+    "chunk_id": "FAQ_C09_017_chunk_001",
+    "document_id": "FAQ_C09_017",
+    "chunk_index": 1,
+    "title": "Why is my 4G/5G data speed slower than expected?",
+    "document_type": "FAQ",
+    "category": "C09",
+    "department": "Network",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-05-30",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C09_overview"
+    ],
+    "tags": [
+      "data",
+      "c09"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C09_017.json",
+    "file_type": "json"
+  },
+  {
     "chunk_id": "FAQ_C09_018_chunk_000",
     "document_id": "FAQ_C09_018",
     "chunk_index": 0,
@@ -603,6 +813,28 @@
     "chunk_id": "FAQ_C10_019_chunk_000",
     "document_id": "FAQ_C10_019",
     "chunk_index": 0,
+    "title": "How do I unsubscribe from a Value Added Service (VAS) I didn't request?",
+    "document_type": "FAQ",
+    "category": "C10",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C10_overview"
+    ],
+    "tags": [
+      "value",
+      "c10"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C10_019.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C10_019_chunk_001",
+    "document_id": "FAQ_C10_019",
+    "chunk_index": 1,
     "title": "How do I unsubscribe from a Value Added Service (VAS) I didn't request?",
     "document_type": "FAQ",
     "category": "C10",
@@ -710,6 +942,28 @@
     "file_type": "json"
   },
   {
+    "chunk_id": "FAQ_C12_023_chunk_001",
+    "document_id": "FAQ_C12_023",
+    "chunk_index": 1,
+    "title": "Is my phone compatible with NovaTel's 5G network?",
+    "document_type": "FAQ",
+    "category": "C12",
+    "department": "Technical Support",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-19",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C12_overview"
+    ],
+    "tags": [
+      "device",
+      "c12"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C12_023.json",
+    "file_type": "json"
+  },
+  {
     "chunk_id": "FAQ_C12_024_chunk_000",
     "document_id": "FAQ_C12_024",
     "chunk_index": 0,
@@ -732,9 +986,53 @@
     "file_type": "json"
   },
   {
+    "chunk_id": "FAQ_C12_024_chunk_001",
+    "document_id": "FAQ_C12_024",
+    "chunk_index": 1,
+    "title": "Why doesn't VoLTE/HD Voice work on my phone?",
+    "document_type": "FAQ",
+    "category": "C12",
+    "department": "Technical Support",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-22",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C12_overview"
+    ],
+    "tags": [
+      "device",
+      "c12"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C12_024.json",
+    "file_type": "json"
+  },
+  {
     "chunk_id": "FAQ_C13_025_chunk_000",
     "document_id": "FAQ_C13_025",
     "chunk_index": 0,
+    "title": "I can't log in to the My NovaTel app — it says 'OTP not received'.",
+    "document_type": "FAQ",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C13_overview"
+    ],
+    "tags": [
+      "app",
+      "c13"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C13_025.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C13_025_chunk_001",
+    "document_id": "FAQ_C13_025",
+    "chunk_index": 1,
     "title": "I can't log in to the My NovaTel app — it says 'OTP not received'.",
     "document_type": "FAQ",
     "category": "C13",
@@ -886,6 +1184,28 @@
     "file_type": "json"
   },
   {
+    "chunk_id": "FAQ_C16_031_chunk_001",
+    "document_id": "FAQ_C16_031",
+    "chunk_index": 1,
+    "title": "How do I escalate a complaint that hasn't been resolved?",
+    "document_type": "FAQ",
+    "category": "C16",
+    "department": "Customer Care",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-06-28",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C16_overview"
+    ],
+    "tags": [
+      "complaints",
+      "c16"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C16_031.json",
+    "file_type": "json"
+  },
+  {
     "chunk_id": "FAQ_C16_032_chunk_000",
     "document_id": "FAQ_C16_032",
     "chunk_index": 0,
@@ -952,6 +1272,28 @@
     "file_type": "json"
   },
   {
+    "chunk_id": "FAQ_C17_034_chunk_001",
+    "document_id": "FAQ_C17_034",
+    "chunk_index": 1,
+    "title": "How do I complete re-verification if I'm asked to update my KYC?",
+    "document_type": "FAQ",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-12",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C17_overview"
+    ],
+    "tags": [
+      "kyc",
+      "c17"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C17_034.json",
+    "file_type": "json"
+  },
+  {
     "chunk_id": "FAQ_C18_035_chunk_000",
     "document_id": "FAQ_C18_035",
     "chunk_index": 0,
@@ -974,9 +1316,53 @@
     "file_type": "json"
   },
   {
+    "chunk_id": "FAQ_C18_035_chunk_001",
+    "document_id": "FAQ_C18_035",
+    "chunk_index": 1,
+    "title": "I think my SIM was swapped fraudulently — what should I do immediately?",
+    "document_type": "FAQ",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-17",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C18_overview"
+    ],
+    "tags": [
+      "security",
+      "c18"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C18_035.json",
+    "file_type": "json"
+  },
+  {
     "chunk_id": "FAQ_C18_036_chunk_000",
     "document_id": "FAQ_C18_036",
     "chunk_index": 0,
+    "title": "How do I report a suspicious call or SMS claiming to be from NovaTel?",
+    "document_type": "FAQ",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "enterprise",
+    "version": "1.0",
+    "last_updated": "2026-04-17",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C18_overview"
+    ],
+    "tags": [
+      "security",
+      "c18"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C18_036.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C18_036_chunk_001",
+    "document_id": "FAQ_C18_036",
+    "chunk_index": 1,
     "title": "How do I report a suspicious call or SMS claiming to be from NovaTel?",
     "document_type": "FAQ",
     "category": "C18",
@@ -1043,6 +1429,28 @@
     "chunk_id": "FAQ_C20_039_chunk_000",
     "document_id": "FAQ_C20_039",
     "chunk_index": 0,
+    "title": "I was charged twice for the same recharge — how do I get a refund?",
+    "document_type": "FAQ",
+    "category": "C20",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C20_overview"
+    ],
+    "tags": [
+      "refunds",
+      "c20"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C20_039.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C20_039_chunk_001",
+    "document_id": "FAQ_C20_039",
+    "chunk_index": 1,
     "title": "I was charged twice for the same recharge — how do I get a refund?",
     "document_type": "FAQ",
     "category": "C20",
@@ -1172,6 +1580,28 @@
     "file_type": "json"
   },
   {
+    "chunk_id": "FAQ_C22_044_chunk_001",
+    "document_id": "FAQ_C22_044",
+    "chunk_index": 1,
+    "title": "Why is my new SIM still showing 'No Service' after 24 hours?",
+    "document_type": "FAQ",
+    "category": "C22",
+    "department": "Customer Care",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-06-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C22_overview"
+    ],
+    "tags": [
+      "new",
+      "c22"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C22_044.json",
+    "file_type": "json"
+  },
+  {
     "chunk_id": "FAQ_C23_045_chunk_000",
     "document_id": "FAQ_C23_045",
     "chunk_index": 0,
@@ -1263,6 +1693,28 @@
     "chunk_id": "FAQ_C25_049_chunk_000",
     "document_id": "FAQ_C25_049",
     "chunk_index": 0,
+    "title": "Why is my FTTH broadband connection showing 'LOS' (Loss of Signal) on the ONT?",
+    "document_type": "FAQ",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "prepaid",
+    "version": "1.0",
+    "last_updated": "2026-05-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C25_overview"
+    ],
+    "tags": [
+      "broadband",
+      "c25"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C25_049.json",
+    "file_type": "json"
+  },
+  {
+    "chunk_id": "FAQ_C25_049_chunk_001",
+    "document_id": "FAQ_C25_049",
+    "chunk_index": 1,
     "title": "Why is my FTTH broadband connection showing 'LOS' (Loss of Signal) on the ONT?",
     "document_type": "FAQ",
     "category": "C25",
@@ -1458,6 +1910,28 @@
     "file_type": "json"
   },
   {
+    "chunk_id": "FAQ_C29_057_chunk_001",
+    "document_id": "FAQ_C29_057",
+    "chunk_index": 1,
+    "title": "My phone shows 'SIM not provisioned for voice' — how do I fix this?",
+    "document_type": "FAQ",
+    "category": "C29",
+    "department": "Technical Support",
+    "customer_scope": "postpaid",
+    "version": "1.0",
+    "last_updated": "2026-06-22",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "KB_C29_overview"
+    ],
+    "tags": [
+      "technical",
+      "c29"
+    ],
+    "file_path": "data\\raw\\unstructured\\faq\\FAQ_C29_057.json",
+    "file_type": "json"
+  },
+  {
     "chunk_id": "FAQ_C29_058_chunk_000",
     "document_id": "FAQ_C29_058",
     "chunk_index": 0,
@@ -1500,9 +1974,49 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "INC_C03_INC_2026_0203_chunk_001",
+    "document_id": "INC_C03_INC_2026_0203",
+    "chunk_index": 1,
+    "title": "UPI Recharge Gateway Timeout Spike",
+    "document_type": "Incident Report",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-10",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p2",
+      "pan-india"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C03_INC_2026_0203.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "INC_C04_INC_2026_0163_chunk_000",
     "document_id": "INC_C04_INC_2026_0163",
     "chunk_index": 0,
+    "title": "Duplicate Billing Cycle Run for Postpaid Segment",
+    "document_type": "Incident Report",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p1",
+      "pan-india"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C04_INC_2026_0163.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C04_INC_2026_0163_chunk_001",
+    "document_id": "INC_C04_INC_2026_0163",
+    "chunk_index": 1,
     "title": "Duplicate Billing Cycle Run for Postpaid Segment",
     "document_type": "Incident Report",
     "category": "C04",
@@ -1540,9 +2054,49 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "INC_C05_INC_2026_0171_chunk_001",
+    "document_id": "INC_C05_INC_2026_0171",
+    "chunk_index": 1,
+    "title": "SIM Provisioning Delay Post-System Upgrade",
+    "document_type": "Incident Report",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-31",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p2",
+      "delhi_ncr"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C05_INC_2026_0171.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "INC_C07_INC_2026_0190_chunk_000",
     "document_id": "INC_C07_INC_2026_0190",
     "chunk_index": 0,
+    "title": "Roaming Pack Activation Failures",
+    "document_type": "Incident Report",
+    "category": "C07",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p2",
+      "pan-india"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C07_INC_2026_0190.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C07_INC_2026_0190_chunk_001",
+    "document_id": "INC_C07_INC_2026_0190",
+    "chunk_index": 1,
     "title": "Roaming Pack Activation Failures",
     "document_type": "Incident Report",
     "category": "C07",
@@ -1580,9 +2134,49 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "INC_C08_INC_2026_0142_chunk_001",
+    "document_id": "INC_C08_INC_2026_0142",
+    "chunk_index": 1,
+    "title": "4G Cell Cluster Outage",
+    "document_type": "Incident Report",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-13",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p1",
+      "mumbai_west_circle"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C08_INC_2026_0142.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "INC_C08_INC_2026_0211_chunk_000",
     "document_id": "INC_C08_INC_2026_0211",
     "chunk_index": 0,
+    "title": "5G Site Cluster Down Due to Power Outage",
+    "document_type": "Incident Report",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p2",
+      "chennai_circle"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C08_INC_2026_0211.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C08_INC_2026_0211_chunk_001",
+    "document_id": "INC_C08_INC_2026_0211",
+    "chunk_index": 1,
     "title": "5G Site Cluster Down Due to Power Outage",
     "document_type": "Incident Report",
     "category": "C08",
@@ -1620,9 +2214,49 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "INC_C09_INC_2026_0158_chunk_001",
+    "document_id": "INC_C09_INC_2026_0158",
+    "chunk_index": 1,
+    "title": "Data Speed Degradation During IPL Match",
+    "document_type": "Incident Report",
+    "category": "C09",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-12",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p2",
+      "bengaluru_circle"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C09_INC_2026_0158.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "INC_C13_INC_2026_0184_chunk_000",
     "document_id": "INC_C13_INC_2026_0184",
     "chunk_index": 0,
+    "title": "My NovaTel App Login Outage",
+    "document_type": "Incident Report",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-10",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p1",
+      "pan-india"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C13_INC_2026_0184.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "INC_C13_INC_2026_0184_chunk_001",
+    "document_id": "INC_C13_INC_2026_0184",
+    "chunk_index": 1,
     "title": "My NovaTel App Login Outage",
     "document_type": "Incident Report",
     "category": "C13",
@@ -1660,6 +2294,26 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "INC_C18_INC_2026_0197_chunk_001",
+    "document_id": "INC_C18_INC_2026_0197",
+    "chunk_index": 1,
+    "title": "Phishing SMS Campaign Impersonating NovaTel",
+    "document_type": "Incident Report",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-10",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p1",
+      "pan-india"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C18_INC_2026_0197.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "INC_C25_INC_2026_0179_chunk_000",
     "document_id": "INC_C25_INC_2026_0179",
     "chunk_index": 0,
@@ -1680,9 +2334,73 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "INC_C25_INC_2026_0179_chunk_001",
+    "document_id": "INC_C25_INC_2026_0179",
+    "chunk_index": 1,
+    "title": "FTTH Regional Outage — Fibre Cut",
+    "document_type": "Incident Report",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-06",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "p1",
+      "pune_circle"
+    ],
+    "file_path": "data\\raw\\unstructured\\incidents\\INC_C25_INC_2026_0179.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "KB_C02_plan_expiry_chunk_000",
     "document_id": "KB_C02_plan_expiry",
     "chunk_index": 0,
+    "title": "Understanding Plan Validity and Expiry",
+    "document_type": "KB Article",
+    "category": "C02",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-13",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C02_001"
+    ],
+    "tags": [
+      "c02",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C02_plan_expiry.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C02_plan_expiry_chunk_001",
+    "document_id": "KB_C02_plan_expiry",
+    "chunk_index": 1,
+    "title": "Understanding Plan Validity and Expiry",
+    "document_type": "KB Article",
+    "category": "C02",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-13",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C02_001"
+    ],
+    "tags": [
+      "c02",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C02_plan_expiry.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C02_plan_expiry_chunk_002",
+    "document_id": "KB_C02_plan_expiry",
+    "chunk_index": 2,
     "title": "Understanding Plan Validity and Expiry",
     "document_type": "KB Article",
     "category": "C02",
@@ -1724,9 +2442,75 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "KB_C03_recharge_failures_chunk_001",
+    "document_id": "KB_C03_recharge_failures",
+    "chunk_index": 1,
+    "title": "Troubleshooting Failed Recharge Transactions",
+    "document_type": "KB Article",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-24",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C03_001"
+    ],
+    "tags": [
+      "c03",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C03_recharge_failures.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C03_recharge_failures_chunk_002",
+    "document_id": "KB_C03_recharge_failures",
+    "chunk_index": 2,
+    "title": "Troubleshooting Failed Recharge Transactions",
+    "document_type": "KB Article",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-24",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C03_001"
+    ],
+    "tags": [
+      "c03",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C03_recharge_failures.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "KB_C04_bill_disputes_chunk_000",
     "document_id": "KB_C04_bill_disputes",
     "chunk_index": 0,
+    "title": "Reading and Disputing Your Postpaid Bill",
+    "document_type": "KB Article",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-07",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C04_001"
+    ],
+    "tags": [
+      "c04",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C04_bill_disputes.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C04_bill_disputes_chunk_001",
+    "document_id": "KB_C04_bill_disputes",
+    "chunk_index": 1,
     "title": "Reading and Disputing Your Postpaid Bill",
     "document_type": "KB Article",
     "category": "C04",
@@ -1768,9 +2552,97 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "KB_C05_sim_swap_troubleshooting_chunk_001",
+    "document_id": "KB_C05_sim_swap_troubleshooting",
+    "chunk_index": 1,
+    "title": "Diagnosing 'No Service' After a SIM Swap",
+    "document_type": "KB Article",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-25",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C05_001"
+    ],
+    "tags": [
+      "c05",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C05_sim_swap_troubleshooting.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C05_sim_swap_troubleshooting_chunk_002",
+    "document_id": "KB_C05_sim_swap_troubleshooting",
+    "chunk_index": 2,
+    "title": "Diagnosing 'No Service' After a SIM Swap",
+    "document_type": "KB Article",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-25",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C05_001"
+    ],
+    "tags": [
+      "c05",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C05_sim_swap_troubleshooting.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "KB_C06_porting_process_chunk_000",
     "document_id": "KB_C06_porting_process",
     "chunk_index": 0,
+    "title": "End-to-End Guide to Number Porting (MNP)",
+    "document_type": "KB Article",
+    "category": "C06",
+    "department": "Regulatory",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C06_001"
+    ],
+    "tags": [
+      "c06",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C06_porting_process.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C06_porting_process_chunk_001",
+    "document_id": "KB_C06_porting_process",
+    "chunk_index": 1,
+    "title": "End-to-End Guide to Number Porting (MNP)",
+    "document_type": "KB Article",
+    "category": "C06",
+    "department": "Regulatory",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C06_001"
+    ],
+    "tags": [
+      "c06",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C06_porting_process.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C06_porting_process_chunk_002",
+    "document_id": "KB_C06_porting_process",
+    "chunk_index": 2,
     "title": "End-to-End Guide to Number Porting (MNP)",
     "document_type": "KB Article",
     "category": "C06",
@@ -1812,9 +2684,75 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "KB_C07_roaming_activation_chunk_001",
+    "document_id": "KB_C07_roaming_activation",
+    "chunk_index": 1,
+    "title": "Activating and Managing International Roaming",
+    "document_type": "KB Article",
+    "category": "C07",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-09",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C07_001"
+    ],
+    "tags": [
+      "c07",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C07_roaming_activation.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "KB_C08_outage_status_check_chunk_000",
     "document_id": "KB_C08_outage_status_check",
     "chunk_index": 0,
+    "title": "How to Check and Report a Network Outage",
+    "document_type": "KB Article",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-09",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C08_001"
+    ],
+    "tags": [
+      "c08",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C08_outage_status_check.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C08_outage_status_check_chunk_001",
+    "document_id": "KB_C08_outage_status_check",
+    "chunk_index": 1,
+    "title": "How to Check and Report a Network Outage",
+    "document_type": "KB Article",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-09",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C08_001"
+    ],
+    "tags": [
+      "c08",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C08_outage_status_check.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C08_outage_status_check_chunk_002",
+    "document_id": "KB_C08_outage_status_check",
+    "chunk_index": 2,
     "title": "How to Check and Report a Network Outage",
     "document_type": "KB Article",
     "category": "C08",
@@ -1856,9 +2794,97 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "KB_C09_fup_data_speed_chunk_001",
+    "document_id": "KB_C09_fup_data_speed",
+    "chunk_index": 1,
+    "title": "Understanding Fair Usage Policy (FUP) and Data Speed Drops",
+    "document_type": "KB Article",
+    "category": "C09",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-29",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C09_001"
+    ],
+    "tags": [
+      "c09",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C09_fup_data_speed.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C09_fup_data_speed_chunk_002",
+    "document_id": "KB_C09_fup_data_speed",
+    "chunk_index": 2,
+    "title": "Understanding Fair Usage Policy (FUP) and Data Speed Drops",
+    "document_type": "KB Article",
+    "category": "C09",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-29",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C09_001"
+    ],
+    "tags": [
+      "c09",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C09_fup_data_speed.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "KB_C13_selfcare_login_issues_chunk_000",
     "document_id": "KB_C13_selfcare_login_issues",
     "chunk_index": 0,
+    "title": "Resolving My NovaTel App Login and OTP Issues",
+    "document_type": "KB Article",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-07",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C13_001"
+    ],
+    "tags": [
+      "c13",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C13_selfcare_login_issues.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C13_selfcare_login_issues_chunk_001",
+    "document_id": "KB_C13_selfcare_login_issues",
+    "chunk_index": 1,
+    "title": "Resolving My NovaTel App Login and OTP Issues",
+    "document_type": "KB Article",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-07",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C13_001"
+    ],
+    "tags": [
+      "c13",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C13_selfcare_login_issues.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C13_selfcare_login_issues_chunk_002",
+    "document_id": "KB_C13_selfcare_login_issues",
+    "chunk_index": 2,
     "title": "Resolving My NovaTel App Login and OTP Issues",
     "document_type": "KB Article",
     "category": "C13",
@@ -1900,9 +2926,75 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "KB_C16_complaint_escalation_chunk_001",
+    "document_id": "KB_C16_complaint_escalation",
+    "chunk_index": 1,
+    "title": "Navigating the Complaint Escalation Ladder",
+    "document_type": "KB Article",
+    "category": "C16",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-26",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C16_001"
+    ],
+    "tags": [
+      "c16",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C16_complaint_escalation.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "KB_C17_kyc_reverification_chunk_000",
     "document_id": "KB_C17_kyc_reverification",
     "chunk_index": 0,
+    "title": "Completing KYC Re-Verification Requests",
+    "document_type": "KB Article",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-03",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C17_001"
+    ],
+    "tags": [
+      "c17",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C17_kyc_reverification.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C17_kyc_reverification_chunk_001",
+    "document_id": "KB_C17_kyc_reverification",
+    "chunk_index": 1,
+    "title": "Completing KYC Re-Verification Requests",
+    "document_type": "KB Article",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-03",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C17_001"
+    ],
+    "tags": [
+      "c17",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C17_kyc_reverification.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C17_kyc_reverification_chunk_002",
+    "document_id": "KB_C17_kyc_reverification",
+    "chunk_index": 2,
     "title": "Completing KYC Re-Verification Requests",
     "document_type": "KB Article",
     "category": "C17",
@@ -1944,9 +3036,53 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "KB_C18_fraud_response_chunk_001",
+    "document_id": "KB_C18_fraud_response",
+    "chunk_index": 1,
+    "title": "Responding to Suspected SIM Swap Fraud or Phishing",
+    "document_type": "KB Article",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-02",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C18_001"
+    ],
+    "tags": [
+      "c18",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C18_fraud_response.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "KB_C19_privacy_data_requests_chunk_000",
     "document_id": "KB_C19_privacy_data_requests",
     "chunk_index": 0,
+    "title": "Handling Customer Data Access and Deletion Requests",
+    "document_type": "KB Article",
+    "category": "C19",
+    "department": "Legal",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-23",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C19_001"
+    ],
+    "tags": [
+      "c19",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C19_privacy_data_requests.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C19_privacy_data_requests_chunk_001",
+    "document_id": "KB_C19_privacy_data_requests",
+    "chunk_index": 1,
     "title": "Handling Customer Data Access and Deletion Requests",
     "document_type": "KB Article",
     "category": "C19",
@@ -1988,9 +3124,75 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "KB_C20_refund_processing_chunk_001",
+    "document_id": "KB_C20_refund_processing",
+    "chunk_index": 1,
+    "title": "Processing Duplicate Charge and Billing Refunds",
+    "document_type": "KB Article",
+    "category": "C20",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-09",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C20_001"
+    ],
+    "tags": [
+      "c20",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C20_refund_processing.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "KB_C21_account_closure_chunk_000",
     "document_id": "KB_C21_account_closure",
     "chunk_index": 0,
+    "title": "Closing or Reactivating a Deactivated Connection",
+    "document_type": "KB Article",
+    "category": "C21",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C21_001"
+    ],
+    "tags": [
+      "c21",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C21_account_closure.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C21_account_closure_chunk_001",
+    "document_id": "KB_C21_account_closure",
+    "chunk_index": 1,
+    "title": "Closing or Reactivating a Deactivated Connection",
+    "document_type": "KB Article",
+    "category": "C21",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C21_001"
+    ],
+    "tags": [
+      "c21",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C21_account_closure.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C21_account_closure_chunk_002",
+    "document_id": "KB_C21_account_closure",
+    "chunk_index": 2,
     "title": "Closing or Reactivating a Deactivated Connection",
     "document_type": "KB Article",
     "category": "C21",
@@ -2032,9 +3234,75 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "KB_C22_new_activation_delay_chunk_001",
+    "document_id": "KB_C22_new_activation_delay",
+    "chunk_index": 1,
+    "title": "Diagnosing Delayed New SIM Activation",
+    "document_type": "KB Article",
+    "category": "C22",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-02",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C22_001"
+    ],
+    "tags": [
+      "c22",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C22_new_activation_delay.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C22_new_activation_delay_chunk_002",
+    "document_id": "KB_C22_new_activation_delay",
+    "chunk_index": 2,
+    "title": "Diagnosing Delayed New SIM Activation",
+    "document_type": "KB Article",
+    "category": "C22",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-02",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C22_001"
+    ],
+    "tags": [
+      "c22",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C22_new_activation_delay.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "KB_C23_enterprise_onboarding_chunk_000",
     "document_id": "KB_C23_enterprise_onboarding",
     "chunk_index": 0,
+    "title": "Enterprise Account Onboarding Overview",
+    "document_type": "KB Article",
+    "category": "C23",
+    "department": "Enterprise Sales",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C23_001"
+    ],
+    "tags": [
+      "c23",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C23_enterprise_onboarding.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C23_enterprise_onboarding_chunk_001",
+    "document_id": "KB_C23_enterprise_onboarding",
+    "chunk_index": 1,
     "title": "Enterprise Account Onboarding Overview",
     "document_type": "KB Article",
     "category": "C23",
@@ -2076,9 +3344,97 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "KB_C25_ftth_fault_diagnosis_chunk_001",
+    "document_id": "KB_C25_ftth_fault_diagnosis",
+    "chunk_index": 1,
+    "title": "Diagnosing Common FTTH Broadband Faults",
+    "document_type": "KB Article",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-12",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C25_001"
+    ],
+    "tags": [
+      "c25",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C25_ftth_fault_diagnosis.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C25_ftth_fault_diagnosis_chunk_002",
+    "document_id": "KB_C25_ftth_fault_diagnosis",
+    "chunk_index": 2,
+    "title": "Diagnosing Common FTTH Broadband Faults",
+    "document_type": "KB Article",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-12",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C25_001"
+    ],
+    "tags": [
+      "c25",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C25_ftth_fault_diagnosis.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "KB_C26_dnd_registration_chunk_000",
     "document_id": "KB_C26_dnd_registration",
     "chunk_index": 0,
+    "title": "Registering for DND and Reporting Spam",
+    "document_type": "KB Article",
+    "category": "C26",
+    "department": "Regulatory",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-04",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C26_001"
+    ],
+    "tags": [
+      "c26",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C26_dnd_registration.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C26_dnd_registration_chunk_001",
+    "document_id": "KB_C26_dnd_registration",
+    "chunk_index": 1,
+    "title": "Registering for DND and Reporting Spam",
+    "document_type": "KB Article",
+    "category": "C26",
+    "department": "Regulatory",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-04",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C26_001"
+    ],
+    "tags": [
+      "c26",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C26_dnd_registration.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C26_dnd_registration_chunk_002",
+    "document_id": "KB_C26_dnd_registration",
+    "chunk_index": 2,
     "title": "Registering for DND and Reporting Spam",
     "document_type": "KB Article",
     "category": "C26",
@@ -2120,9 +3476,75 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "KB_C28_qos_disclosures_chunk_001",
+    "document_id": "KB_C28_qos_disclosures",
+    "chunk_index": 1,
+    "title": "Understanding Published Quality of Service (QoS) Metrics",
+    "document_type": "KB Article",
+    "category": "C28",
+    "department": "Legal",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-14",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C28_001"
+    ],
+    "tags": [
+      "c28",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C28_qos_disclosures.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "KB_C29_network_reset_guide_chunk_000",
     "document_id": "KB_C29_network_reset_guide",
     "chunk_index": 0,
+    "title": "Resetting Device Network Settings for Persistent Connectivity Issues",
+    "document_type": "KB Article",
+    "category": "C29",
+    "department": "Technical Support",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C29_001"
+    ],
+    "tags": [
+      "c29",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C29_network_reset_guide.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C29_network_reset_guide_chunk_001",
+    "document_id": "KB_C29_network_reset_guide",
+    "chunk_index": 1,
+    "title": "Resetting Device Network Settings for Persistent Connectivity Issues",
+    "document_type": "KB Article",
+    "category": "C29",
+    "department": "Technical Support",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "FAQ_C29_001"
+    ],
+    "tags": [
+      "c29",
+      "how-to"
+    ],
+    "file_path": "data\\raw\\unstructured\\kb\\KB_C29_network_reset_guide.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "KB_C29_network_reset_guide_chunk_002",
+    "document_id": "KB_C29_network_reset_guide",
+    "chunk_index": 2,
     "title": "Resetting Device Network Settings for Persistent Connectivity Issues",
     "document_type": "KB Article",
     "category": "C29",
@@ -2159,9 +3581,43 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "MAN_APP_001_chunk_001",
+    "document_id": "MAN_APP_001",
+    "chunk_index": 1,
+    "title": "My NovaTel App — User Guide",
+    "document_type": "User Manual",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-27",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\manuals\\MAN_APP_001.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "MAN_DEVICE_VOLTE_001_chunk_000",
     "document_id": "MAN_DEVICE_VOLTE_001",
     "chunk_index": 0,
+    "title": "Enabling VoLTE / HD Voice on Your Device",
+    "document_type": "User Manual",
+    "category": "C12",
+    "department": "Technical Support",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-17",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\manuals\\MAN_DEVICE_VOLTE_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "MAN_DEVICE_VOLTE_001_chunk_001",
+    "document_id": "MAN_DEVICE_VOLTE_001",
+    "chunk_index": 1,
     "title": "Enabling VoLTE / HD Voice on Your Device",
     "document_type": "User Manual",
     "category": "C12",
@@ -2193,9 +3649,43 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "MAN_ESIM_001_chunk_001",
+    "document_id": "MAN_ESIM_001",
+    "chunk_index": 1,
+    "title": "Activating an eSIM on a Compatible Device",
+    "document_type": "User Manual",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-16",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\manuals\\MAN_ESIM_001.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "MAN_IOT_PORTAL_001_chunk_000",
     "document_id": "MAN_IOT_PORTAL_001",
     "chunk_index": 0,
+    "title": "Enterprise IoT Management Portal — Quick Start",
+    "document_type": "User Manual",
+    "category": "C24",
+    "department": "Enterprise Sales",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-20",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\manuals\\MAN_IOT_PORTAL_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "MAN_IOT_PORTAL_001_chunk_001",
+    "document_id": "MAN_IOT_PORTAL_001",
+    "chunk_index": 1,
     "title": "Enterprise IoT Management Portal — Quick Start",
     "document_type": "User Manual",
     "category": "C24",
@@ -2227,9 +3717,45 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "MAN_ROUTER_001_chunk_001",
+    "document_id": "MAN_ROUTER_001",
+    "chunk_index": 1,
+    "title": "Home FTTH Wi-Fi Router — Setup Guide",
+    "document_type": "User Manual",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-24",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\manuals\\MAN_ROUTER_001.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "Policy_C02_plan_lifecycle_chunk_000",
     "document_id": "Policy_C02_plan_lifecycle",
     "chunk_index": 0,
+    "title": "Prepaid & Postpaid Plan Lifecycle Policy",
+    "document_type": "Policy",
+    "category": "C02",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c02"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C02_plan_lifecycle.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "Policy_C02_plan_lifecycle_chunk_001",
+    "document_id": "Policy_C02_plan_lifecycle",
+    "chunk_index": 1,
     "title": "Prepaid & Postpaid Plan Lifecycle Policy",
     "document_type": "Policy",
     "category": "C02",
@@ -2265,9 +3791,47 @@
     "file_type": "docx"
   },
   {
+    "chunk_id": "Policy_C04_billing_disputes_chunk_001",
+    "document_id": "Policy_C04_billing_disputes",
+    "chunk_index": 1,
+    "title": "Billing Dispute Resolution Policy",
+    "document_type": "Policy",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c04"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C04_billing_disputes.docx",
+    "file_type": "docx"
+  },
+  {
     "chunk_id": "Policy_C17_kyc_policy_chunk_000",
     "document_id": "Policy_C17_kyc_policy",
     "chunk_index": 0,
+    "title": "Customer Identity Verification (KYC) Policy",
+    "document_type": "Policy",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c17"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C17_kyc_policy.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "Policy_C17_kyc_policy_chunk_001",
+    "document_id": "Policy_C17_kyc_policy",
+    "chunk_index": 1,
     "title": "Customer Identity Verification (KYC) Policy",
     "document_type": "Policy",
     "category": "C17",
@@ -2303,9 +3867,47 @@
     "file_type": "docx"
   },
   {
+    "chunk_id": "Policy_C18_security_policy_chunk_001",
+    "document_id": "Policy_C18_security_policy",
+    "chunk_index": 1,
+    "title": "Fraud Prevention and Account Security Policy",
+    "document_type": "Policy",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c18"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C18_security_policy.docx",
+    "file_type": "docx"
+  },
+  {
     "chunk_id": "Policy_C19_privacy_policy_chunk_000",
     "document_id": "Policy_C19_privacy_policy",
     "chunk_index": 0,
+    "title": "Customer Data Privacy Policy",
+    "document_type": "Policy",
+    "category": "C19",
+    "department": "Legal",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c19"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C19_privacy_policy.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "Policy_C19_privacy_policy_chunk_001",
+    "document_id": "Policy_C19_privacy_policy",
+    "chunk_index": 1,
     "title": "Customer Data Privacy Policy",
     "document_type": "Policy",
     "category": "C19",
@@ -2341,9 +3943,47 @@
     "file_type": "docx"
   },
   {
+    "chunk_id": "Policy_C20_refund_policy_chunk_001",
+    "document_id": "Policy_C20_refund_policy",
+    "chunk_index": 1,
+    "title": "Refunds and Billing Adjustments Policy",
+    "document_type": "Policy",
+    "category": "C20",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c20"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C20_refund_policy.docx",
+    "file_type": "docx"
+  },
+  {
     "chunk_id": "Policy_C23_enterprise_terms_chunk_000",
     "document_id": "Policy_C23_enterprise_terms",
     "chunk_index": 0,
+    "title": "Enterprise & Business Connectivity Commercial Policy",
+    "document_type": "Policy",
+    "category": "C23",
+    "department": "Enterprise Sales",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c23"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C23_enterprise_terms.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "Policy_C23_enterprise_terms_chunk_001",
+    "document_id": "Policy_C23_enterprise_terms",
+    "chunk_index": 1,
     "title": "Enterprise & Business Connectivity Commercial Policy",
     "document_type": "Policy",
     "category": "C23",
@@ -2379,9 +4019,50 @@
     "file_type": "docx"
   },
   {
+    "chunk_id": "Policy_C28_regulatory_compliance_chunk_001",
+    "document_id": "Policy_C28_regulatory_compliance",
+    "chunk_index": 1,
+    "title": "Regulatory Compliance and TRAI Disclosure Policy",
+    "document_type": "Policy",
+    "category": "C28",
+    "department": "Legal",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c28"
+    ],
+    "file_path": "data\\raw\\unstructured\\policies\\Policy_C28_regulatory_compliance.docx",
+    "file_type": "docx"
+  },
+  {
     "chunk_id": "RCA_INC_2026_0142_chunk_000",
     "document_id": "RCA_INC_2026_0142",
     "chunk_index": 0,
+    "title": "RCA: Mumbai West 4G Cluster Outage (INC-2026-0142)",
+    "document_type": "RCA",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "INC_INC_2026_0142"
+    ],
+    "tags": [
+      "c08",
+      "rca"
+    ],
+    "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0142.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "RCA_INC_2026_0142_chunk_001",
+    "document_id": "RCA_INC_2026_0142",
+    "chunk_index": 1,
     "title": "RCA: Mumbai West 4G Cluster Outage (INC-2026-0142)",
     "document_type": "RCA",
     "category": "C08",
@@ -2423,9 +4104,53 @@
     "file_type": "docx"
   },
   {
+    "chunk_id": "RCA_INC_2026_0163_chunk_001",
+    "document_id": "RCA_INC_2026_0163",
+    "chunk_index": 1,
+    "title": "RCA: Duplicate Postpaid Billing Cycle Run (INC-2026-0163)",
+    "document_type": "RCA",
+    "category": "C04",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "INC_INC_2026_0163"
+    ],
+    "tags": [
+      "c04",
+      "rca"
+    ],
+    "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0163.docx",
+    "file_type": "docx"
+  },
+  {
     "chunk_id": "RCA_INC_2026_0179_chunk_000",
     "document_id": "RCA_INC_2026_0179",
     "chunk_index": 0,
+    "title": "RCA: Pune FTTH Regional Outage (INC-2026-0179)",
+    "document_type": "RCA",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "INC_INC_2026_0179"
+    ],
+    "tags": [
+      "c25",
+      "rca"
+    ],
+    "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0179.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "RCA_INC_2026_0179_chunk_001",
+    "document_id": "RCA_INC_2026_0179",
+    "chunk_index": 1,
     "title": "RCA: Pune FTTH Regional Outage (INC-2026-0179)",
     "document_type": "RCA",
     "category": "C25",
@@ -2467,9 +4192,53 @@
     "file_type": "docx"
   },
   {
+    "chunk_id": "RCA_INC_2026_0184_chunk_001",
+    "document_id": "RCA_INC_2026_0184",
+    "chunk_index": 1,
+    "title": "RCA: My NovaTel App Login Outage (INC-2026-0184)",
+    "document_type": "RCA",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "INC_INC_2026_0184"
+    ],
+    "tags": [
+      "c13",
+      "rca"
+    ],
+    "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0184.docx",
+    "file_type": "docx"
+  },
+  {
     "chunk_id": "RCA_INC_2026_0197_chunk_000",
     "document_id": "RCA_INC_2026_0197",
     "chunk_index": 0,
+    "title": "RCA: Phishing SMS Campaign Impersonating NovaTel (INC-2026-0197)",
+    "document_type": "RCA",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [
+      "INC_INC_2026_0197"
+    ],
+    "tags": [
+      "c18",
+      "rca"
+    ],
+    "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0197.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "RCA_INC_2026_0197_chunk_001",
+    "document_id": "RCA_INC_2026_0197",
+    "chunk_index": 1,
     "title": "RCA: Phishing SMS Campaign Impersonating NovaTel (INC-2026-0197)",
     "document_type": "RCA",
     "category": "C18",
@@ -2540,9 +4309,2778 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "SCIFACT_102662_chunk_000",
+    "document_id": "SCIFACT_102662",
+    "chunk_index": 0,
+    "title": "A rapid method for extraction of cotton (Gossypium spp.) genomic DNA suitable for RFLP or PCR analysis",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_103007_chunk_000",
+    "document_id": "SCIFACT_103007",
+    "chunk_index": 0,
+    "title": "Cross sectional stature and weight reference curves for the UK, 1990.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_104130_chunk_000",
+    "document_id": "SCIFACT_104130",
+    "chunk_index": 0,
+    "title": "The suture provides a niche for mesenchymal stem cells of craniofacial bones",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_106301_chunk_000",
+    "document_id": "SCIFACT_106301",
+    "chunk_index": 0,
+    "title": "Cardiac neural crest cells contribute to the dormant multipotent stem cell in the mammalian heart",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_116792_chunk_000",
+    "document_id": "SCIFACT_116792",
+    "chunk_index": 0,
+    "title": "The mammalian target of rapamycin signaling pathway mediates epileptogenesis in a model of temporal lobe epilepsy.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_118568_chunk_000",
+    "document_id": "SCIFACT_118568",
+    "chunk_index": 0,
+    "title": "Acute administration of recombinant Angiopoietin-1 ameliorates multiple-organ dysfunction syndrome and improves survival in murine sepsis.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_118568_chunk_001",
+    "document_id": "SCIFACT_118568",
+    "chunk_index": 1,
+    "title": "Acute administration of recombinant Angiopoietin-1 ameliorates multiple-organ dysfunction syndrome and improves survival in murine sepsis.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_120626_chunk_000",
+    "document_id": "SCIFACT_120626",
+    "chunk_index": 0,
+    "title": "Mechanisms linking obesity to insulin resistance and type 2 diabetes",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_123859_chunk_000",
+    "document_id": "SCIFACT_123859",
+    "chunk_index": 0,
+    "title": "Tracking the fate of glomerular epithelial cells in vivo using serial multiphoton imaging in novel mouse models with fluorescent lineage tags",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_140874_chunk_000",
+    "document_id": "SCIFACT_140874",
+    "chunk_index": 0,
+    "title": "CTCF binding at the H19 imprinting control region mediates maternally inherited higher-order chromatin conformation to restrict enhancer access to Igf2.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_143251_chunk_000",
+    "document_id": "SCIFACT_143251",
+    "chunk_index": 0,
+    "title": "De novo assembly of a PML nuclear subcompartment occurs through multiple pathways and induces telomere elongation.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_152245_chunk_000",
+    "document_id": "SCIFACT_152245",
+    "chunk_index": 0,
+    "title": "Effects of an opal termination codon preceding the nsP4 gene sequence in the O'Nyong-Nyong virus genome on Anopheles gambiae infectivity.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_152245_chunk_001",
+    "document_id": "SCIFACT_152245",
+    "chunk_index": 1,
+    "title": "Effects of an opal termination codon preceding the nsP4 gene sequence in the O'Nyong-Nyong virus genome on Anopheles gambiae infectivity.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_153744_chunk_000",
+    "document_id": "SCIFACT_153744",
+    "chunk_index": 0,
+    "title": "Down-regulation of a host microRNA by a Herpesvirus saimiri noncoding RNA.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_159469_chunk_000",
+    "document_id": "SCIFACT_159469",
+    "chunk_index": 0,
+    "title": "HTRF: A Technology Tailored for Drug Discovery –A Review of Theoretical Aspects and Recent Applications",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_159469_chunk_001",
+    "document_id": "SCIFACT_159469",
+    "chunk_index": 1,
+    "title": "HTRF: A Technology Tailored for Drug Discovery –A Review of Theoretical Aspects and Recent Applications",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_164189_chunk_000",
+    "document_id": "SCIFACT_164189",
+    "chunk_index": 0,
+    "title": "Chk1 inhibits replication factory activation but allows dormant origin firing in existing factories",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_164985_chunk_000",
+    "document_id": "SCIFACT_164985",
+    "chunk_index": 0,
+    "title": "Fra-1 protooncogene regulates IL-6 expression in macrophages and promotes the generation of M2d macrophages",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_169264_chunk_000",
+    "document_id": "SCIFACT_169264",
+    "chunk_index": 0,
+    "title": "Analysis of SiO2 nanoparticles binding proteins in rat blood and brain homogenate",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_169264_chunk_001",
+    "document_id": "SCIFACT_169264",
+    "chunk_index": 1,
+    "title": "Analysis of SiO2 nanoparticles binding proteins in rat blood and brain homogenate",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_175735_chunk_000",
+    "document_id": "SCIFACT_175735",
+    "chunk_index": 0,
+    "title": "Inferring nucleosome positions with their histone mark annotation from ChIP data",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_18670_chunk_000",
+    "document_id": "SCIFACT_18670",
+    "chunk_index": 0,
+    "title": "The DNA Methylome of Human Peripheral Blood Mononuclear Cells",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_188911_chunk_000",
+    "document_id": "SCIFACT_188911",
+    "chunk_index": 0,
+    "title": "Generation of large numbers of dendritic cells from mouse bone marrow cultures supplemented with granulocyte/macrophage colony-stimulating factor",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_188911_chunk_001",
+    "document_id": "SCIFACT_188911",
+    "chunk_index": 1,
+    "title": "Generation of large numbers of dendritic cells from mouse bone marrow cultures supplemented with granulocyte/macrophage colony-stimulating factor",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_19238_chunk_000",
+    "document_id": "SCIFACT_19238",
+    "chunk_index": 0,
+    "title": "The human myelin basic protein gene is included within a 179-kilobase transcription unit: expression in the immune and central nervous systems.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_195352_chunk_000",
+    "document_id": "SCIFACT_195352",
+    "chunk_index": 0,
+    "title": "Insulin action and resistance in obesity and type 2 diabetes",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_202259_chunk_000",
+    "document_id": "SCIFACT_202259",
+    "chunk_index": 0,
+    "title": "Effect of lowering blood pressure on cardiovascular events and mortality in patients on dialysis: a systematic review and meta-analysis of randomised controlled trials",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_207972_chunk_000",
+    "document_id": "SCIFACT_207972",
+    "chunk_index": 0,
+    "title": "Interaction of an adenovirus E3 14.7-kilodalton protein with a novel tumor necrosis factor alpha-inducible cellular protein containing leucine zipper domains.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_207972_chunk_001",
+    "document_id": "SCIFACT_207972",
+    "chunk_index": 1,
+    "title": "Interaction of an adenovirus E3 14.7-kilodalton protein with a novel tumor necrosis factor alpha-inducible cellular protein containing leucine zipper domains.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_213017_chunk_000",
+    "document_id": "SCIFACT_213017",
+    "chunk_index": 0,
+    "title": "PML induces compaction, TRF2 depletion and DNA damage signaling at telomeres and promotes their alternative lengthening.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_219475_chunk_000",
+    "document_id": "SCIFACT_219475",
+    "chunk_index": 0,
+    "title": "Gr-1+CD11b+ myeloid cells tip the balance of immune protection to tumor promotion in the premetastatic lung.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_226488_chunk_000",
+    "document_id": "SCIFACT_226488",
+    "chunk_index": 0,
+    "title": "Activin/Nodal signalling in stem cells.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_236204_chunk_000",
+    "document_id": "SCIFACT_236204",
+    "chunk_index": 0,
+    "title": "Distinct RNA-dependent RNA polymerases are required for RNAi triggered by double-stranded RNA versus truncated transgenes in Paramecium tetraurelia",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_238409_chunk_000",
+    "document_id": "SCIFACT_238409",
+    "chunk_index": 0,
+    "title": "Mechanisms of Renal Cell Apoptosis Induced by Cyclosporine A: A Systematic Review of in vitro Studies",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_243694_chunk_000",
+    "document_id": "SCIFACT_243694",
+    "chunk_index": 0,
+    "title": "Blood stem cells emerge from aortic endothelium by a novel type of cell transition",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_253672_chunk_000",
+    "document_id": "SCIFACT_253672",
+    "chunk_index": 0,
+    "title": "Probable person to person transmission of novel avian influenza A (H7N9) virus in Eastern China, 2013: epidemiological investigation",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_253672_chunk_001",
+    "document_id": "SCIFACT_253672",
+    "chunk_index": 1,
+    "title": "Probable person to person transmission of novel avian influenza A (H7N9) virus in Eastern China, 2013: epidemiological investigation",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_263364_chunk_000",
+    "document_id": "SCIFACT_263364",
+    "chunk_index": 0,
+    "title": "Genetic Variation in the Interleukin-28B Gene Is Associated with Spontaneous Clearance and Progression of Hepatitis C Virus in Moroccan Patients",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_263364_chunk_001",
+    "document_id": "SCIFACT_263364",
+    "chunk_index": 1,
+    "title": "Genetic Variation in the Interleukin-28B Gene Is Associated with Spontaneous Clearance and Progression of Hepatitis C Virus in Moroccan Patients",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_266641_chunk_000",
+    "document_id": "SCIFACT_266641",
+    "chunk_index": 0,
+    "title": "CD127 expression inversely correlates with FoxP3 and suppressive function of human CD4+ T reg cells",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_275294_chunk_000",
+    "document_id": "SCIFACT_275294",
+    "chunk_index": 0,
+    "title": "Environmental factors that influence the cutaneous production of vitamin D",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_279052_chunk_000",
+    "document_id": "SCIFACT_279052",
+    "chunk_index": 0,
+    "title": "Genomic imprinting in development, growth, behavior and stem cells.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_285794_chunk_000",
+    "document_id": "SCIFACT_285794",
+    "chunk_index": 0,
+    "title": "Quantitative Detection of Hepatitis C Virus RNA by Light Cycler PCR and Comparison with Two Different PCR Assays",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_293661_chunk_000",
+    "document_id": "SCIFACT_293661",
+    "chunk_index": 0,
+    "title": "Targeting arginine metabolism pathway to treat arginine-dependent cancers.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_301838_chunk_000",
+    "document_id": "SCIFACT_301838",
+    "chunk_index": 0,
+    "title": "Rank Signaling Links the Development of Invariant γδ T Cell Progenitors and Aire+ Medullary Epithelium",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_301866_chunk_000",
+    "document_id": "SCIFACT_301866",
+    "chunk_index": 0,
+    "title": "Long-term immune deficiency after allogeneic stem cell transplantation: B-cell deficiency is associated with late infections.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_306006_chunk_000",
+    "document_id": "SCIFACT_306006",
+    "chunk_index": 0,
+    "title": "The stimulatory potency of T cell antigens is influenced by the formation of the immunological synapse.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_306311_chunk_000",
+    "document_id": "SCIFACT_306311",
+    "chunk_index": 0,
+    "title": "Control of glutamate clearance and synaptic efficacy by glial coverage of neurons.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_308862_chunk_000",
+    "document_id": "SCIFACT_308862",
+    "chunk_index": 0,
+    "title": "Duration of androgen suppression in the treatment of prostate cancer.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_308862_chunk_001",
+    "document_id": "SCIFACT_308862",
+    "chunk_index": 1,
+    "title": "Duration of androgen suppression in the treatment of prostate cancer.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_313394_chunk_000",
+    "document_id": "SCIFACT_313394",
+    "chunk_index": 0,
+    "title": "A Functional Neuroimaging Study of Sound Localization: Visual Cortex Activity Predicts Performance in Early-Blind Individuals",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_313403_chunk_000",
+    "document_id": "SCIFACT_313403",
+    "chunk_index": 0,
+    "title": "High-Infiltration of Tumor-Associated Macrophages Predicts Unfavorable Clinical Outcome for Node-Negative Breast Cancer",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_317204_chunk_000",
+    "document_id": "SCIFACT_317204",
+    "chunk_index": 0,
+    "title": "Murine Dishevelled 3 Functions in Redundant Pathways with Dishevelled 1 and 2 in Normal Cardiac Outflow Tract, Cochlea, and Neural Tube Development",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_317204_chunk_001",
+    "document_id": "SCIFACT_317204",
+    "chunk_index": 1,
+    "title": "Murine Dishevelled 3 Functions in Redundant Pathways with Dishevelled 1 and 2 in Normal Cardiac Outflow Tract, Cochlea, and Neural Tube Development",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_323030_chunk_000",
+    "document_id": "SCIFACT_323030",
+    "chunk_index": 0,
+    "title": "Dynamics of adherens junctions in epithelial establishment, maintenance, and remodeling",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_323335_chunk_000",
+    "document_id": "SCIFACT_323335",
+    "chunk_index": 0,
+    "title": "Long-term outcome of patients with asystole induced by head-up tilt test.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_323335_chunk_001",
+    "document_id": "SCIFACT_323335",
+    "chunk_index": 1,
+    "title": "Long-term outcome of patients with asystole induced by head-up tilt test.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_327319_chunk_000",
+    "document_id": "SCIFACT_327319",
+    "chunk_index": 0,
+    "title": "ZINC 15 – Ligand Discovery for Everyone",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_33370_chunk_000",
+    "document_id": "SCIFACT_33370",
+    "chunk_index": 0,
+    "title": "Targeting A20 Decreases Glioma Stem Cell Survival and Tumor Growth",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_33370_chunk_001",
+    "document_id": "SCIFACT_33370",
+    "chunk_index": 1,
+    "title": "Targeting A20 Decreases Glioma Stem Cell Survival and Tumor Growth",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_335029_chunk_000",
+    "document_id": "SCIFACT_335029",
+    "chunk_index": 0,
+    "title": "Condensin-mediated remodeling of the mitotic chromatin landscape in fission yeast",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_341324_chunk_000",
+    "document_id": "SCIFACT_341324",
+    "chunk_index": 0,
+    "title": "Efficacy of the 6-month thrice-weekly regimen in the treatment of new sputum smear-positive pulmonary tuberculosis under clinical trial conditions.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_341324_chunk_001",
+    "document_id": "SCIFACT_341324",
+    "chunk_index": 1,
+    "title": "Efficacy of the 6-month thrice-weekly regimen in the treatment of new sputum smear-positive pulmonary tuberculosis under clinical trial conditions.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_343052_chunk_000",
+    "document_id": "SCIFACT_343052",
+    "chunk_index": 0,
+    "title": "Curcumin attenuates inflammatory response in IL-1beta-induced human synovial fibroblasts and collagen-induced arthritis in mouse model.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_344240_chunk_000",
+    "document_id": "SCIFACT_344240",
+    "chunk_index": 0,
+    "title": "Loss of IGF-IEa or IGF-IEb impairs myogenic differentiation.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_350542_chunk_000",
+    "document_id": "SCIFACT_350542",
+    "chunk_index": 0,
+    "title": "Antimicrobial peptide pleurocidin synergizes with antibiotics through hydroxyl radical formation and membrane damage, and exerts antibiofilm activity.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_356218_chunk_000",
+    "document_id": "SCIFACT_356218",
+    "chunk_index": 0,
+    "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_356218_chunk_001",
+    "document_id": "SCIFACT_356218",
+    "chunk_index": 1,
+    "title": "Outcome of pregnancy in women with moderate or severe renal insufficiency.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_364522_chunk_000",
+    "document_id": "SCIFACT_364522",
+    "chunk_index": 0,
+    "title": "High-mobility group box-1 protein induces osteogenic phenotype changes in aortic valve interstitial cells.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_36474_chunk_000",
+    "document_id": "SCIFACT_36474",
+    "chunk_index": 0,
+    "title": "Efficient targeting of expressed and silent genes in human ESCs and iPSCs using zinc-finger nucleases",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_365896_chunk_000",
+    "document_id": "SCIFACT_365896",
+    "chunk_index": 0,
+    "title": "RiboSys, a high-resolution, quantitative approach to measure the in vivo kinetics of pre-mRNA splicing and 3'-end processing in Saccharomyces cerevisiae.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_368506_chunk_000",
+    "document_id": "SCIFACT_368506",
+    "chunk_index": 0,
+    "title": "Generation of mice with a conditional allele for the p75(NTR) neurotrophin receptor gene.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_371289_chunk_000",
+    "document_id": "SCIFACT_371289",
+    "chunk_index": 0,
+    "title": "A Triple-Stain Flow Cytometric Method to Assess Plasma- and Acrosome-Membrane Integrity of Cryopreserved Bovine Sperm Immediately after Thawing in Presence of Egg-Yolk Particles1",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_374902_chunk_000",
+    "document_id": "SCIFACT_374902",
+    "chunk_index": 0,
+    "title": "Universal voluntary HIV testing with immediate antiretroviral therapy as a strategy for elimination of HIV transmission: a mathematical model.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_374902_chunk_001",
+    "document_id": "SCIFACT_374902",
+    "chunk_index": 1,
+    "title": "Universal voluntary HIV testing with immediate antiretroviral therapy as a strategy for elimination of HIV transmission: a mathematical model.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_380526_chunk_000",
+    "document_id": "SCIFACT_380526",
+    "chunk_index": 0,
+    "title": "Common variants in DGKK are strongly associated with risk of hypospadias",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_381602_chunk_000",
+    "document_id": "SCIFACT_381602",
+    "chunk_index": 0,
+    "title": "Neutrophils Suppress Intraluminal NK Cell-Mediated Tumor Cell Clearance and Enhance Extravasation of Disseminated Carcinoma Cells.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_393001_chunk_000",
+    "document_id": "SCIFACT_393001",
+    "chunk_index": 0,
+    "title": "High Km soluble 5'-nucleotidase from human placenta. Properties and allosteric regulation by IMP and ATP.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_393001_chunk_001",
+    "document_id": "SCIFACT_393001",
+    "chunk_index": 1,
+    "title": "High Km soluble 5'-nucleotidase from human placenta. Properties and allosteric regulation by IMP and ATP.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_406733_chunk_000",
+    "document_id": "SCIFACT_406733",
+    "chunk_index": 0,
+    "title": "Histones are incorporated in trans during reassembly of the yeast PHO5 promoter.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_409280_chunk_000",
+    "document_id": "SCIFACT_409280",
+    "chunk_index": 0,
+    "title": "National study of physician awareness and adherence to cardiovascular disease prevention guidelines.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_409280_chunk_001",
+    "document_id": "SCIFACT_409280",
+    "chunk_index": 1,
+    "title": "National study of physician awareness and adherence to cardiovascular disease prevention guidelines.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_410286_chunk_000",
+    "document_id": "SCIFACT_410286",
+    "chunk_index": 0,
+    "title": "TECHNICAL ADVANCE Floral dip: a simplified method for Agrobacterium-mediated",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_418246_chunk_000",
+    "document_id": "SCIFACT_418246",
+    "chunk_index": 0,
+    "title": "Pathway connectivity and signaling coordination in the yeast stress-activated signaling network",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_427082_chunk_000",
+    "document_id": "SCIFACT_427082",
+    "chunk_index": 0,
+    "title": "Premigratory and migratory neural crest cells are multipotent in vivo.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_427865_chunk_000",
+    "document_id": "SCIFACT_427865",
+    "chunk_index": 0,
+    "title": "Implementing the ESHRE 'poor responder' criteria in research studies: methodological implications.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_432261_chunk_000",
+    "document_id": "SCIFACT_432261",
+    "chunk_index": 0,
+    "title": "Generation of gene-edited rats by delivery of CRISPR/Cas9 protein and donor DNA into intact zygotes using electroporation",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_435529_chunk_000",
+    "document_id": "SCIFACT_435529",
+    "chunk_index": 0,
+    "title": "Uridylation of miRNAs by HEN1 SUPPRESSOR1 in Arabidopsis",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_437924_chunk_000",
+    "document_id": "SCIFACT_437924",
+    "chunk_index": 0,
+    "title": "Pre-Exposure Prophylaxis to Prevent HIV Infection: Current Status, Future Opportunities and Challenges",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_437924_chunk_001",
+    "document_id": "SCIFACT_437924",
+    "chunk_index": 1,
+    "title": "Pre-Exposure Prophylaxis to Prevent HIV Infection: Current Status, Future Opportunities and Challenges",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_439670_chunk_000",
+    "document_id": "SCIFACT_439670",
+    "chunk_index": 0,
+    "title": "Prepregnancy BMI and the risk of gestational diabetes: a systematic review of the literature with meta-analysis.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_456304_chunk_000",
+    "document_id": "SCIFACT_456304",
+    "chunk_index": 0,
+    "title": "Multiple risk behaviour: increasing socio-economic gap over time?",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_456304_chunk_001",
+    "document_id": "SCIFACT_456304",
+    "chunk_index": 1,
+    "title": "Multiple risk behaviour: increasing socio-economic gap over time?",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_457630_chunk_000",
+    "document_id": "SCIFACT_457630",
+    "chunk_index": 0,
+    "title": "Variations and Trends in Health Burden of Visual Impairment Due to Cataract: A Global Analysis.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_457630_chunk_001",
+    "document_id": "SCIFACT_457630",
+    "chunk_index": 1,
+    "title": "Variations and Trends in Health Burden of Visual Impairment Due to Cataract: A Global Analysis.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_461550_chunk_000",
+    "document_id": "SCIFACT_461550",
+    "chunk_index": 0,
+    "title": "Multiplex genome engineering using CRISPR/Cas systems.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_463309_chunk_000",
+    "document_id": "SCIFACT_463309",
+    "chunk_index": 0,
+    "title": "Transformation of intact yeast cells treated with alkali cations.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_463533_chunk_000",
+    "document_id": "SCIFACT_463533",
+    "chunk_index": 0,
+    "title": "Health-Related Quality of Life as Measured with EQ-5D among Populations with and without Specific Chronic Conditions: A Population-Based Survey in Shaanxi Province, China",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_463533_chunk_001",
+    "document_id": "SCIFACT_463533",
+    "chunk_index": 1,
+    "title": "Health-Related Quality of Life as Measured with EQ-5D among Populations with and without Specific Chronic Conditions: A Population-Based Survey in Shaanxi Province, China",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_464511_chunk_000",
+    "document_id": "SCIFACT_464511",
+    "chunk_index": 0,
+    "title": "Memory and Modularity in Cell-Fate Decision Making",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_469066_chunk_000",
+    "document_id": "SCIFACT_469066",
+    "chunk_index": 0,
+    "title": "Lpd depletion reveals that SRF specifies radial versus tangential migration of pyramidal neurons",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_470625_chunk_000",
+    "document_id": "SCIFACT_470625",
+    "chunk_index": 0,
+    "title": "Identification of p18 INK4c as a tumor suppressor gene in glioblastoma multiforme.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_471735_chunk_000",
+    "document_id": "SCIFACT_471735",
+    "chunk_index": 0,
+    "title": "Two-stage control of an oxidative stress regulon: the Escherichia coli SoxR protein triggers redox-inducible expression of the soxS regulatory gene.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_471735_chunk_001",
+    "document_id": "SCIFACT_471735",
+    "chunk_index": 1,
+    "title": "Two-stage control of an oxidative stress regulon: the Escherichia coli SoxR protein triggers redox-inducible expression of the soxS regulatory gene.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_471921_chunk_000",
+    "document_id": "SCIFACT_471921",
+    "chunk_index": 0,
+    "title": "Air pollution and cardiovascular disease: a statement for healthcare professionals from the Expert Panel on Population and Prevention Science of the American Heart Association.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_474325_chunk_000",
+    "document_id": "SCIFACT_474325",
+    "chunk_index": 0,
+    "title": "Non-invasive ventilation in chronic obstructive pulmonary disease patients: helmet versus facial mask",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_485020_chunk_000",
+    "document_id": "SCIFACT_485020",
+    "chunk_index": 0,
+    "title": "Case Management and Client Access to Health and Social Services in Outpatient Substance Abuse Treatment",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_493346_chunk_000",
+    "document_id": "SCIFACT_493346",
+    "chunk_index": 0,
+    "title": "Evidence that the Ipl1-Sli15 (Aurora Kinase-INCENP) Complex Promotes Chromosome Bi-orientation by Altering Kinetochore-Spindle Pole Connections",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_496873_chunk_000",
+    "document_id": "SCIFACT_496873",
+    "chunk_index": 0,
+    "title": "CRITICAL REVIEW Cutaneous Vasculitis Update: Diagnostic Criteria,",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_4983_chunk_000",
+    "document_id": "SCIFACT_4983",
+    "chunk_index": 0,
+    "title": "Microstructural development of human newborn cerebral white matter assessed in vivo by diffusion tensor magnetic resonance imaging.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_4983_chunk_001",
+    "document_id": "SCIFACT_4983",
+    "chunk_index": 1,
+    "title": "Microstructural development of human newborn cerebral white matter assessed in vivo by diffusion tensor magnetic resonance imaging.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_502591_chunk_000",
+    "document_id": "SCIFACT_502591",
+    "chunk_index": 0,
+    "title": "E2F-dependent histone acetylation and recruitment of the Tip60 acetyltransferase complex to chromatin in late G1.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_54440_chunk_000",
+    "document_id": "SCIFACT_54440",
+    "chunk_index": 0,
+    "title": "Empirical Bayesian models for analysing molecular serotyping microarrays",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_54440_chunk_001",
+    "document_id": "SCIFACT_54440",
+    "chunk_index": 1,
+    "title": "Empirical Bayesian models for analysing molecular serotyping microarrays",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_5836_chunk_000",
+    "document_id": "SCIFACT_5836",
+    "chunk_index": 0,
+    "title": "Induction of myelodysplasia by myeloid-derived suppressor cells.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_70115_chunk_000",
+    "document_id": "SCIFACT_70115",
+    "chunk_index": 0,
+    "title": "Bayesian measures of model complexity and fit",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_70490_chunk_000",
+    "document_id": "SCIFACT_70490",
+    "chunk_index": 0,
+    "title": "Simplifying likelihood ratios",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_72159_chunk_000",
+    "document_id": "SCIFACT_72159",
+    "chunk_index": 0,
+    "title": "induction of early IFN-inducible genes in the absence of type",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_7912_chunk_000",
+    "document_id": "SCIFACT_7912",
+    "chunk_index": 0,
+    "title": "BC1 RNA, the transcript from a master gene for ID element amplification, is able to prime its own reverse transcription.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_79447_chunk_000",
+    "document_id": "SCIFACT_79447",
+    "chunk_index": 0,
+    "title": "Arteriolar function in visceral adipose tissue is impaired in human obesity.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_87758_chunk_000",
+    "document_id": "SCIFACT_87758",
+    "chunk_index": 0,
+    "title": "Common Carotid Intima Media Thickness and Ankle-Brachial Pressure Index Correlate with Local but Not Global Atheroma Burden: A Cross Sectional Study Using Whole Body Magnetic Resonance Angiography",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_87758_chunk_001",
+    "document_id": "SCIFACT_87758",
+    "chunk_index": 1,
+    "title": "Common Carotid Intima Media Thickness and Ankle-Brachial Pressure Index Correlate with Local but Not Global Atheroma Burden: A Cross Sectional Study Using Whole Body Magnetic Resonance Angiography",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_92308_chunk_000",
+    "document_id": "SCIFACT_92308",
+    "chunk_index": 0,
+    "title": "Loss of immune escape mutations during persistent HCV infection in pregnancy enhances replication of vertically transmitted viruses",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_92499_chunk_000",
+    "document_id": "SCIFACT_92499",
+    "chunk_index": 0,
+    "title": "The journey of developing hematopoietic stem cells.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
+    "chunk_id": "SCIFACT_97884_chunk_000",
+    "document_id": "SCIFACT_97884",
+    "chunk_index": 0,
+    "title": "The sacroiliac joint in the spondyloarthropathies.",
+    "document_type": "Scientific Literature",
+    "category": "SCIFACT",
+    "department": "Research Dataset",
+    "customer_scope": "public",
+    "version": "1.0",
+    "last_updated": "2026-08-31",
+    "source_authority": "BEIR SciFact",
+    "related_ids": [],
+    "tags": [
+      "scifact",
+      "scientific",
+      "research",
+      "real_world_data"
+    ],
+    "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+    "file_type": "jsonl"
+  },
+  {
     "chunk_id": "SOP_C03_RECHARGE_FAILURE_chunk_000",
     "document_id": "SOP_C03_RECHARGE_FAILURE",
     "chunk_index": 0,
+    "title": "Handling Failed / Stuck Recharge Transactions",
+    "document_type": "SOP",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c03"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C03_RECHARGE_FAILURE.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C03_RECHARGE_FAILURE_chunk_001",
+    "document_id": "SOP_C03_RECHARGE_FAILURE",
+    "chunk_index": 1,
     "title": "Handling Failed / Stuck Recharge Transactions",
     "document_type": "SOP",
     "category": "C03",
@@ -2578,9 +7116,47 @@
     "file_type": "docx"
   },
   {
+    "chunk_id": "SOP_C05_SIM_REPLACEMENT_chunk_001",
+    "document_id": "SOP_C05_SIM_REPLACEMENT",
+    "chunk_index": 1,
+    "title": "Issuing a Duplicate/Replacement SIM",
+    "document_type": "SOP",
+    "category": "C05",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c05"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C05_SIM_REPLACEMENT.docx",
+    "file_type": "docx"
+  },
+  {
     "chunk_id": "SOP_C08_OUTAGE_MANAGEMENT_chunk_000",
     "document_id": "SOP_C08_OUTAGE_MANAGEMENT",
     "chunk_index": 0,
+    "title": "Network Outage Detection, Triage and Communication",
+    "document_type": "SOP",
+    "category": "C08",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c08"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C08_OUTAGE_MANAGEMENT.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C08_OUTAGE_MANAGEMENT_chunk_001",
+    "document_id": "SOP_C08_OUTAGE_MANAGEMENT",
+    "chunk_index": 1,
     "title": "Network Outage Detection, Triage and Communication",
     "document_type": "SOP",
     "category": "C08",
@@ -2616,9 +7192,47 @@
     "file_type": "docx"
   },
   {
+    "chunk_id": "SOP_C10_VAS_DISPUTE_chunk_001",
+    "document_id": "SOP_C10_VAS_DISPUTE",
+    "chunk_index": 1,
+    "title": "Handling Unauthorised VAS Subscription Complaints",
+    "document_type": "SOP",
+    "category": "C10",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c10"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C10_VAS_DISPUTE.docx",
+    "file_type": "docx"
+  },
+  {
     "chunk_id": "SOP_C13_APP_ACCESS_ISSUES_chunk_000",
     "document_id": "SOP_C13_APP_ACCESS_ISSUES",
     "chunk_index": 0,
+    "title": "Resolving Persistent App Login / OTP Failures",
+    "document_type": "SOP",
+    "category": "C13",
+    "department": "Digital Channels",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c13"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C13_APP_ACCESS_ISSUES.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C13_APP_ACCESS_ISSUES_chunk_001",
+    "document_id": "SOP_C13_APP_ACCESS_ISSUES",
+    "chunk_index": 1,
     "title": "Resolving Persistent App Login / OTP Failures",
     "document_type": "SOP",
     "category": "C13",
@@ -2654,9 +7268,47 @@
     "file_type": "docx"
   },
   {
+    "chunk_id": "SOP_C16_COMPLAINT_ESCALATION_chunk_001",
+    "document_id": "SOP_C16_COMPLAINT_ESCALATION",
+    "chunk_index": 1,
+    "title": "Complaint Escalation and Nodal Officer Referral",
+    "document_type": "SOP",
+    "category": "C16",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c16"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C16_COMPLAINT_ESCALATION.docx",
+    "file_type": "docx"
+  },
+  {
     "chunk_id": "SOP_C17_KYC_VERIFICATION_chunk_000",
     "document_id": "SOP_C17_KYC_VERIFICATION",
     "chunk_index": 0,
+    "title": "New Connection and Re-Verification KYC Procedure",
+    "document_type": "SOP",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c17"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C17_KYC_VERIFICATION.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C17_KYC_VERIFICATION_chunk_001",
+    "document_id": "SOP_C17_KYC_VERIFICATION",
+    "chunk_index": 1,
     "title": "New Connection and Re-Verification KYC Procedure",
     "document_type": "SOP",
     "category": "C17",
@@ -2692,9 +7344,47 @@
     "file_type": "docx"
   },
   {
+    "chunk_id": "SOP_C18_FRAUD_RESPONSE_chunk_001",
+    "document_id": "SOP_C18_FRAUD_RESPONSE",
+    "chunk_index": 1,
+    "title": "SIM Swap Fraud and Phishing Incident Response",
+    "document_type": "SOP",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c18"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C18_FRAUD_RESPONSE.docx",
+    "file_type": "docx"
+  },
+  {
     "chunk_id": "SOP_C20_REFUND_PROCESSING_chunk_000",
     "document_id": "SOP_C20_REFUND_PROCESSING",
     "chunk_index": 0,
+    "title": "Duplicate Charge and Billing Refund Processing",
+    "document_type": "SOP",
+    "category": "C20",
+    "department": "Billing",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c20"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C20_REFUND_PROCESSING.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C20_REFUND_PROCESSING_chunk_001",
+    "document_id": "SOP_C20_REFUND_PROCESSING",
+    "chunk_index": 1,
     "title": "Duplicate Charge and Billing Refund Processing",
     "document_type": "SOP",
     "category": "C20",
@@ -2730,9 +7420,47 @@
     "file_type": "docx"
   },
   {
+    "chunk_id": "SOP_C21_ACCOUNT_CLOSURE_chunk_001",
+    "document_id": "SOP_C21_ACCOUNT_CLOSURE",
+    "chunk_index": 1,
+    "title": "Voluntary Account Closure and Reactivation",
+    "document_type": "SOP",
+    "category": "C21",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c21"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C21_ACCOUNT_CLOSURE.docx",
+    "file_type": "docx"
+  },
+  {
     "chunk_id": "SOP_C22_ACTIVATION_DELAY_chunk_000",
     "document_id": "SOP_C22_ACTIVATION_DELAY",
     "chunk_index": 0,
+    "title": "New Connection Activation Delay Resolution",
+    "document_type": "SOP",
+    "category": "C22",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c22"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C22_ACTIVATION_DELAY.docx",
+    "file_type": "docx"
+  },
+  {
+    "chunk_id": "SOP_C22_ACTIVATION_DELAY_chunk_001",
+    "document_id": "SOP_C22_ACTIVATION_DELAY",
+    "chunk_index": 1,
     "title": "New Connection Activation Delay Resolution",
     "document_type": "SOP",
     "category": "C22",
@@ -2768,9 +7496,45 @@
     "file_type": "docx"
   },
   {
+    "chunk_id": "SOP_C25_FTTH_FAULT_HANDLING_chunk_001",
+    "document_id": "SOP_C25_FTTH_FAULT_HANDLING",
+    "chunk_index": 1,
+    "title": "FTTH Broadband Fault Ticket Handling",
+    "document_type": "SOP",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [
+      "c25"
+    ],
+    "file_path": "data\\raw\\unstructured\\sops\\SOP_C25_FTTH_FAULT_HANDLING.docx",
+    "file_type": "docx"
+  },
+  {
     "chunk_id": "TARIFF_POSTPAID_2026H2_chunk_000",
     "document_id": "TARIFF_POSTPAID_2026H2",
     "chunk_index": 0,
+    "title": "Postpaid & Enterprise Tariff Catalogue — H2 2026",
+    "document_type": "Tariff Catalogue",
+    "category": "C23",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\tariff\\TARIFF_POSTPAID_2026H2.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TARIFF_POSTPAID_2026H2_chunk_001",
+    "document_id": "TARIFF_POSTPAID_2026H2",
+    "chunk_index": 1,
     "title": "Postpaid & Enterprise Tariff Catalogue — H2 2026",
     "document_type": "Tariff Catalogue",
     "category": "C23",
@@ -2802,9 +7566,43 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "TARIFF_PREPAID_2026H2_chunk_001",
+    "document_id": "TARIFF_PREPAID_2026H2",
+    "chunk_index": 1,
+    "title": "Prepaid Tariff Catalogue — H2 2026",
+    "document_type": "Tariff Catalogue",
+    "category": "C02",
+    "department": "Product",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-27",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\tariff\\TARIFF_PREPAID_2026H2.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "TRN_001_chunk_000",
     "document_id": "TRN_001",
     "chunk_index": 0,
+    "title": "New Hire Foundations: Handling Billing Queries",
+    "document_type": "Training Manual",
+    "category": "GENERAL",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-04-20",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\training\\TRN_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRN_001_chunk_001",
+    "document_id": "TRN_001",
+    "chunk_index": 1,
     "title": "New Hire Foundations: Handling Billing Queries",
     "document_type": "Training Manual",
     "category": "GENERAL",
@@ -2836,9 +7634,43 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "TRN_002_chunk_001",
+    "document_id": "TRN_002",
+    "chunk_index": 1,
+    "title": "Frontline Response to Network Outage Queries",
+    "document_type": "Training Manual",
+    "category": "GENERAL",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-30",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\training\\TRN_002.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "TRN_003_chunk_000",
     "document_id": "TRN_003",
     "chunk_index": 0,
+    "title": "Fraud and SIM-Swap Response Training",
+    "document_type": "Training Manual",
+    "category": "GENERAL",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-09",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\training\\TRN_003.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRN_003_chunk_001",
+    "document_id": "TRN_003",
+    "chunk_index": 1,
     "title": "Fraud and SIM-Swap Response Training",
     "document_type": "Training Manual",
     "category": "GENERAL",
@@ -2870,9 +7702,43 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "TRN_004_chunk_001",
+    "document_id": "TRN_004",
+    "chunk_index": 1,
+    "title": "KYC and Regulatory Basics for Frontline Staff",
+    "document_type": "Training Manual",
+    "category": "GENERAL",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\training\\TRN_004.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "TRX_001_chunk_000",
     "document_id": "TRX_001",
     "chunk_index": 0,
+    "title": "Recharge Failure — Amount Debited, Not Credited",
+    "document_type": "Support Transcript",
+    "category": "C03",
+    "department": "Finance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-08-02",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_001.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRX_001_chunk_001",
+    "document_id": "TRX_001",
+    "chunk_index": 1,
     "title": "Recharge Failure — Amount Debited, Not Credited",
     "document_type": "Support Transcript",
     "category": "C03",
@@ -2904,9 +7770,43 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "TRX_002_chunk_001",
+    "document_id": "TRX_002",
+    "chunk_index": 1,
+    "title": "Suspected SIM Swap Fraud — Emergency Block",
+    "document_type": "Support Transcript",
+    "category": "C18",
+    "department": "Security",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-05-17",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_002.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "TRX_003_chunk_000",
     "document_id": "TRX_003",
     "chunk_index": 0,
+    "title": "Escalating an Unresolved Billing Complaint",
+    "document_type": "Support Transcript",
+    "category": "C16",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-27",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_003.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRX_003_chunk_001",
+    "document_id": "TRX_003",
+    "chunk_index": 1,
     "title": "Escalating an Unresolved Billing Complaint",
     "document_type": "Support Transcript",
     "category": "C16",
@@ -2938,9 +7838,43 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "TRX_004_chunk_001",
+    "document_id": "TRX_004",
+    "chunk_index": 1,
+    "title": "Number Porting Enquiry",
+    "document_type": "Support Transcript",
+    "category": "C06",
+    "department": "Regulatory",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-18",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_004.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "TRX_005_chunk_000",
     "document_id": "TRX_005",
     "chunk_index": 0,
+    "title": "Slow 4G Data Speed Complaint",
+    "document_type": "Support Transcript",
+    "category": "C09",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-26",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_005.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRX_005_chunk_001",
+    "document_id": "TRX_005",
+    "chunk_index": 1,
     "title": "Slow 4G Data Speed Complaint",
     "document_type": "Support Transcript",
     "category": "C09",
@@ -2972,6 +7906,23 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "TRX_006_chunk_001",
+    "document_id": "TRX_006",
+    "chunk_index": 1,
+    "title": "FTTH Broadband Down — Red Light on ONT",
+    "document_type": "Support Transcript",
+    "category": "C25",
+    "department": "Network",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-08",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_006.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "TRX_007_chunk_000",
     "document_id": "TRX_007",
     "chunk_index": 0,
@@ -2989,9 +7940,43 @@
     "file_type": "markdown"
   },
   {
+    "chunk_id": "TRX_007_chunk_001",
+    "document_id": "TRX_007",
+    "chunk_index": 1,
+    "title": "KYC Re-verification Request",
+    "document_type": "Support Transcript",
+    "category": "C17",
+    "department": "Compliance",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-07-15",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_007.md",
+    "file_type": "markdown"
+  },
+  {
     "chunk_id": "TRX_008_chunk_000",
     "document_id": "TRX_008",
     "chunk_index": 0,
+    "title": "Postpaid Account Closure Request",
+    "document_type": "Support Transcript",
+    "category": "C21",
+    "department": "Customer Care",
+    "customer_scope": "all",
+    "version": "1.0",
+    "last_updated": "2026-06-12",
+    "source_authority": "Internal Knowledge Base",
+    "related_ids": [],
+    "tags": [],
+    "file_path": "data\\raw\\unstructured\\transcripts\\TRX_008.md",
+    "file_type": "markdown"
+  },
+  {
+    "chunk_id": "TRX_008_chunk_001",
+    "document_id": "TRX_008",
+    "chunk_index": 1,
     "title": "Postpaid Account Closure Request",
     "document_type": "Support Transcript",
     "category": "C21",

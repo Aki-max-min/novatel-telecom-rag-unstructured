@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_073",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 73,
+  "text": "Consent (DL-Consent); and verification of time band(s) by comparing the target telephone number(s), type of target time band for delivery with the list of telephone numbers and preference(s) of time band(s) of target recipient customer in Distributed Ledger for Preference (DL-Preference); and verification of type of day(s) by comparing the target telephone number(s), type of target day(s) for delivery with the list of telephone numbers and preference(s) of type of day(s) of target recipient customer in Distributed Ledger for Preference (DL-Preference); 38 output of scrubbed list is a positive match of verifications in either of 2(a) or 2(b) as consent given by the recipient to the sender(s) shall override choice of preference(s) made by the recipient customer and positive match of verifications in 2(c) or 2(d); 7. Every Access Provider shall formulate: - Message Sequence Charts for messages with parameter details and time sequence to provide details about the process between two entities and action taken by particular entity; Flow Charts to provide details about the process between two entities and action taken; 39 SCHEDULE-II Code of Practice for Process of registration, modification or deregistration of Preferences, recording consent and revocation of consent 1. Procedure for registration or change of preference of Categories of content for Commercial Communications: - Customer can opt-out of any or all of following Commercial Communications Content category(ies) of content: Commercial Communications Category to be blocked or opted out IVRS: Call to 1909 and press at prompt to block SMS: Send SMS to 1909 following text",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_096",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 96,
+  "text": "rules developed for assigning the headers. To manage all these functionalities, it will be necessary to establish dedicated, trusted entities (registrars), who can operate a network for sharing, managing and storing information in a secure manner. The registrars and the network need to be able to handle header registration, execution & management of contract agreements among entities, managing and recording consent taken by TMSEs, recording content templates and verifying the content of transactional messages. The networks and functions can be operated and managed either by an independent agency or by TRAI. In case of agencies other than TRAI, these functionalities may be operated on an exclusive basis or based up on specific functions to be performed. Each of the functions could be provided by service providers who may charge them. TMSEs would expect these functional entities to protect their client database. Further, it is necessary that consent given by customers be recorded in an immutable and non-repudiable manner. 3.1.4 Implementation phases of new system: Implementation of new systems may either be full-fledged or in a phased manner. Constitutional bodies, government organizations or other entities may also participate in the system based on their need and option. 3.1.5 Securing Preference Data: Unscrupulous telemarketers and other intermediaries may deliberately leak preference data to unregistered telemarketers or data may also leak out because of inadequate measures taken by RTMs or intermediaries to protect or secure data. Therefore, it is necessary to devise a mechanism to ensure that preference data or consent data used",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

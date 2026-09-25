@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14848619",
+  "title": "BH3-only Protein Noxa Is a Mediator of Hypoxic Cell Death Induced by Hypoxia-inducible Factor 1α",
+  "content": "Hypoxia is a common cause of cell death and is implicated in many disease processes including stroke and chronic degenerative disorders. In response to hypoxia, cells express a variety of genes, which allow adaptation to altered metabolic demands, decreased oxygen demands, and the removal of irreversibly damaged cells. Using polymerase chain reaction–based suppression subtractive hybridization to find genes that are differentially expressed in hypoxia, we identified the BH3-only Bcl-2 family protein Noxa. Noxa is a candidate molecule mediating p53-induced apoptosis. We show that Noxa promoter responds directly to hypoxia via hypoxia-inducible factor (HIF)-1α. Suppression of Noxa expression by antisense oligonucleotides rescued cells from hypoxia-induced cell death and decreased infarction volumes in an animal model of ischemia. Further, we show that reactive oxygen species and resultant cytochrome c release participate in Noxa-mediated hypoxic cell death. Altogether, our results show that Noxa is induced by HIF-1α and mediates hypoxic cell death.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

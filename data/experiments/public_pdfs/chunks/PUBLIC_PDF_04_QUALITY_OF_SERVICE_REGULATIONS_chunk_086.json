@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_086",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 86,
+  "text": "called DMAIC i.e. Define (D) quality issues, Measure (M) QoS performance, Analyze (A) QoS performance, Improve (I) QoS performance and Control (C) the reasons responsible for degraded QoS performance as shown in Figure-1. Figure 1: Six Sigma Quality Management Framework 6 https://www.indiabudget.gov.in/economicsurvey/doc/echapter.pdf Define Measure Analyze Improve Control 129 1.7 The size of telecom networks in the country is quite large and even one service area may have subscriber bases and network elements more than some medium or small size countries in the world. Therefore, adoption of a standard quality management framework is essential. In the absence of an integrated process for quality management best practices, there may be possibilities of the presence of design or implementation deficiencies in the networks. Such deficiencies may lead to poor or sub-standard performance of certain network elements, adversely impacting the quality of services. Therefore, the service providers should implement an integrated quality management framework for monitoring, analysis and continuous improvement in their QoS performance. 1.8 In aforesaid context, the Regulations have been finalized by the Authority to strike a fine balance between the (a) need for good quality telecom services for meeting consumers’ requirements as highlighted by the consumer advisory groups and (b) reasonable challenges highlighted by the service providers in the form of comments and counter comments in response to the Consultation Paper. 1.9 The Authority has rationalized the QoS requirements considering global standards and benchmarks, regulatory references and present level of QoS performance submitted in the form of compliance reports by the",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

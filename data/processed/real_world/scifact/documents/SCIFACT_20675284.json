@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20675284",
+  "title": "TGF-beta inhibition of endothelial cell proliferation: alteration of EGF binding and EGF-induced growth-regulatory (competence) gene expression.",
+  "content": "Transforming growth factor-beta (TGF-beta) inhibits the growth of endothelial cells derived from various sources, including human umbilical vein, bovine aorta, and rat heart. Long-term exposure of rat heart endothelial cells to TGF-beta also induces dramatic changes in morphology that are characteristic of senescent cells. These changes are accompanied by a decrease in the number of high-affinity receptors for epidermal growth factor (EGF), with almost no change in total receptor number. Additionally, the EGF-induced expression of specific competence genes (c-myc, JE, KC) is decreased, whereas the induction of c-fos gene expression by EGF is unaltered by TGF-beta treatment. These data suggest that growth inhibitors such as TGF-beta may act by altering the cell's response to growth-stimulatory factors.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

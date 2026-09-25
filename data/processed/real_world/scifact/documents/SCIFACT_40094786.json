@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_40094786",
+  "title": "The immunological synapse of CTL contains a secretory domain and membrane bridges.",
+  "content": "Cytotoxic T lymphocytes (CTL) rapidly destroy their targets. Here we show that although target cell death occurs within 5 min of CTL-target cell contact, an immunological synapse similar to that seen in CD4 cells rapidly forms in CTL, with a ring of adhesion proteins surrounding an inner signaling molecule domain. Lytic granule secretion occurs in a separate domain within the adhesion ring, maintaining signaling protein organization during exocytosis. Live and fixed cell studies show target cell plasma membrane markers are transferred to the CTL as the cells separate. Electron microscopy reveals continuities forming membrane bridges between the CTL and target cell membranes, suggesting a possible mechanism for this transfer.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

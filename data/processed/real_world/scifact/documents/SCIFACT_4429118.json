@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4429118",
+  "title": "Cancer-related inflammation",
+  "content": "The mediators and cellular effectors of inflammation are important constituents of the local environment of tumours. In some types of cancer, inflammatory conditions are present before a malignant change occurs. Conversely, in other types of cancer, an oncogenic change induces an inflammatory microenvironment that promotes the development of tumours. Regardless of its origin, 'smouldering' inflammation in the tumour microenvironment has many tumour-promoting effects. It aids in the proliferation and survival of malignant cells, promotes angiogenesis and metastasis, subverts adaptive immune responses, and alters responses to hormones and chemotherapeutic agents. The molecular pathways of this cancer-related inflammation are now being unravelled, resulting in the identification of new target molecules that could lead to improved diagnosis and treatment.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

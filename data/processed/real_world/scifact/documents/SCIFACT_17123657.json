@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17123657",
+  "title": "Dynamic Helix Interactions in Transmembrane Signaling",
+  "content": "Studying how protein transmembrane domains transmit signals across membranes is beset by unique challenges. Here, we discuss the circumstances that have led to success and reflect on what has been learned from these examples. Such efforts suggest that some of the most interesting properties of transmembrane helix interactions may be the least amenable to study by current techniques.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

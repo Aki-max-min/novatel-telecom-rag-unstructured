@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_102",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 102,
+  "text": "Register new consents on consent register as prescribed in relevant regulations or schedule or directions Develop Application Programme Interfaces (APIs) for Senders to recording consent with user agent or application client available on a mobile device or enterprise system; Broadening of installation and active base of consent acquisition application client; Make consent system ready to become part of scrubbing for all cases; Migration of existing registers with TRAI; Migrate NCPR data to DL-Preferences and have observer node for TRAI; Migrate Telemarketer registration module data of National Telemarketer Register (NTR) to DL- Entities and have observer node for TRAI; Migrate complaint module data to DL-Complaints and have observer node for TRAI; Introduce observer node of DL-Consents and observer nodes of rest of registers envisaged in the relevant regulations; Enhance signature solution capabilities and exchange intelligence information, rule, criteria and other relevant information among access providers to detect and identify suspicious Unregistered 57 Telemarketing Activities more effectively and efficiently; Deploy honeypots to detect and identify suspicious Unsolicited Commercial Communications Voice calls by capturing relevant information",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

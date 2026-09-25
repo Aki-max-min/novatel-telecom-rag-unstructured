@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_40349336",
+  "title": "Deletion of the developmentally essential gene ATR in adult mice leads to age-related phenotypes and stem cell loss.",
+  "content": "Developmental abnormalities, cancer, and premature aging each have been linked to defects in the DNA damage response (DDR). Mutations in the ATR checkpoint regulator cause developmental defects in mice (pregastrulation lethality) and humans (Seckel syndrome). Here we show that eliminating ATR in adult mice leads to defects in tissue homeostasis and the rapid appearance of age-related phenotypes, such as hair graying, alopecia, kyphosis, osteoporosis, thymic involution, fibrosis, and other abnormalities. Histological and genetic analyses indicate that ATR deletion causes acute cellular loss in tissues in which continuous cell proliferation is required for maintenance. Importantly, thymic involution, alopecia, and hair graying in ATR knockout mice were associated with dramatic reductions in tissue-specific stem and progenitor cells and exhaustion of tissue renewal and homeostatic capacity. In aggregate, these studies suggest that reduced regenerative capacity in adults via deletion of a developmentally essential DDR gene is sufficient to cause the premature appearance of age-related phenotypes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

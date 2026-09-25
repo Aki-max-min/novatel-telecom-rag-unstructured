@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_096",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 96,
+  "text": "the Government, or specified by TRAI, from time to time; (iv) create a trusted execution environment for development of their platforms and systems with necessary requisite security features as may be notified by the Government, or TRAI, or entity empowered by the Government or TRAI in that behalf, from time to time; (v) ensure compliance with the necessary certification process as provided by the Government, or TRAI, through a security auditor empanelled or appointed by the Government, or TRAI, or its designated agencies such as CERT-IN/ Ministry of Electronics & Information Technology; (vi) facilitate regular system audit by the Government or TRAI, or any entity empowered by the Government or TRAI, including agencies authorized by the Government or TRAI or the entities empowered by the Government in this behalf; (vii) put in place adequate and effective internal checks to ensure that unauthorized use of AI/ML systems does not take place and utmost care and precaution is taken in the use of these systems to ensure the safety and security of the Subscriber data as per the Indian Telegraph Act, 1885 or the Telecommunications Act or any other Act for the time being in force. 53 Schedule-V Action Items for preparing Code of Practice for Periodic Monthly Reporting (CoP-PMR) 1. Maintaining records of complaints on daily basis for each service area: - total number of complaints received on each day, from its customers as Terminating Access Provider, in each service area, against any registered sender; total number of complaints transferred on",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

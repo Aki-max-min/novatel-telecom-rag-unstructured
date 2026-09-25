@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_38043606",
+  "title": "Mycobacterium tuberculosis and the environment within the phagosome.",
+  "content": "Once across the barrier of the epithelium, macrophages constitute the primary defense against microbial invasion. For most microbes, the acidic, hydrolytically competent environment of the phagolysosome is sufficient to kill them. Despite our understanding of the trafficking events that regulate phagosome maturation, our appreciation of the lumenal environment within the phagosome is only now becoming elucidated through real-time functional assays. The assays quantify pH change, phagosome/lysosome fusion, proteolysis, lipolysis, and beta-galactosidase activity. This information is particularly important for understanding pathogens that successfully parasitize the endosomal/lysosomal continuum. Mycobacterium tuberculosis infects macrophages through arresting the normal maturation process of the phagosome, retaining its vacuole at pH 6.4 with many of the characteristics of an early endosome. Current studies are focusing on the transcriptional response of the bacterium to the changing environment in the macrophage phagosome. Manipulation of these environmental cues, such as preventing the pH drop to pH 6.4 with concanamycin A, abrogates the majority of the transcriptional response in the bacterium, showing that pH is the dominant signal that the bacterium senses and responds to. These approaches represent our ongoing attempts to unravel the discourse that takes place between the pathogen and its host cell.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

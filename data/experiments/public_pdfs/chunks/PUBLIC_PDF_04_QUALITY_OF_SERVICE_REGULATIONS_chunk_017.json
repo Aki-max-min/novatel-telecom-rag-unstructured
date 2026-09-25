@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_017",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 17,
+  "text": "for affected number of days shall be credited in next bill. • For the pre-paid subscribers registered in the district: The validity of subscribed tariff offering shall be increased by equal number of affected days. 100% Quarterly 01.10.2024 Monthly 01.04.2025 103 II. Voice Connection Establishment (Accessibility) (v) Call Set-up Success Rate: Intra- Service provider (within service provider’s network) ≥ 98% Quarterly 01.10.2024 Monthly 01.04.2025 (vi) Call Set-up Success Rate: Inter- Service provider (incoming from other service providers’ network) ≥ 95% Quarterly 01.10.2024 Monthly 01.04.2025 (vii) Point of Interconnection (POI) Congestion (90th percentile value) ≤ 0.5% Quarterly 01.10.2024 Monthly 01.04.2025 III. Voice Connection Maintenance (Retainability) (viii) DCR Spatial Distribution Measure for Circuit Switched (2G/3G) network [CS_QSD (88, 88)] ≤ 2% Quarterly 01.10.2024 Monthly 01.04.2025 DCR Spatial Distribution Measure for Circuit Switched (2G/3G) network [CS_QSD (89, 89)] ≤ 2% Monthly 01.04.2026 DCR Spatial Distribution Measure for Circuit Switched (2G/3G) network [CS_QSD (90, 90)] ≤ 2% Monthly 01.04.2027 (ix) DCR Spatial Distribution Measure for Packet Switched (4G/5G and beyond) network [PS_QSD (92, 92)] ≤ 2% Quarterly 01.10.2024 Monthly 01.04.2025 DCR Spatial Distribution Measure for Packet Switched (4G/5G and beyond) network [PS_QSD (93, 93)] ≤ 2% Monthly 01.10.2025 DCR Spatial Distribution Measure for Packet Switched (4G/5G and beyond) network [PS_QSD (94, 94)] ≤ 2% Monthly 01.04.2026 DCR Spatial Distribution Measure for Packet Switched (4G/5G and beyond) network [PS_QSD (95, 95)] ≤ 2% Monthly 01.04.2027 (x) Downlink Packet Drop Rate for Packet Switched Network (4G/5G and beyond) [DLPDR_QSD (88, 88)] ≤ 2% Quarterly 01.10.2024 Monthly",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

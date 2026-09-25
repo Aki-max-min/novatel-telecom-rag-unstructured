@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_080",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 80,
+  "text": "≥ 95% 0 0.0% 0 0.0% (xix) Percentage of calls answered by the operators (voice to voice) within 90 seconds ≥ 95% 6 6.8% 3 3.4% (xx) Termination/ closure of service within seven working 100% 0 0.0% 0 0.0% 80 days of receipt of customer’s request (xxi) Refund of deposits within 45 days of closure of service or non-provisioning of service 100% 0 0.0% 0 0.0% Note: a) M/s MTNL does not provide services on Packet Switched Network (4G/5G and beyond). Therefore, performance against parameters at sl. No. (ix) to (xiii) has not been reported by M/s MTNL. b) M/s BSNL does not provide services on Packet Switched Network (4G/5G and beyond) in RJ LSA. Therefore, performance against parameters at sl. No. (ix) to (xiii) has not been reported by M/s BSNL for RJ LSA. c) M/s RJIL does not provide services on Circuit Switched (2G/3G) network. Therefore, performance against parameters at sl. No. (viii) has not been reported by M/s RJIL. (ii) Service Provider and LSA wise offered typical download/upload speed and 80th percentile measured download/upload speed for different tariff offerings is available TRAI website under the link https://trai.gov.in/sites/default /files/2025-08/Wireless_20082025_0.pdf 4.3 Analysis of Performance of Access Service (Wireless) (i) QoS parameters where performance improved in June, 2025 as compared to the last month i.e. May, 2025: - ❖ Worst Affected Cells due to downtime ≤2% ❖ DCR Spatial Distribution Measure for Packet Switched (4G/5G and beyond) network [PS_QSD (92, 92)] ≤2% ❖ Uplink Packet Drop Rate for Packet Switched",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

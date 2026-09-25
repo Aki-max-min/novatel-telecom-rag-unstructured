@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13878643",
+  "title": "The sterol regulatory element binding proteins are essential for the metabolic programming of effector T cells and adaptive immunity",
+  "content": "Newly activated CD8(+) T cells reprogram their metabolism to meet the extraordinary biosynthetic demands of clonal expansion; however, the signals that mediate metabolic reprogramming remain poorly defined. Here we demonstrate an essential role for sterol regulatory element-binding proteins (SREBPs) in the acquisition of effector-cell metabolism. Without SREBP signaling, CD8(+) T cells were unable to blast, which resulted in attenuated clonal expansion during viral infection. Mechanistic studies indicated that SREBPs were essential for meeting the heightened lipid requirements of membrane synthesis during blastogenesis. SREBPs were dispensable for homeostatic proliferation, which indicated a context-specific requirement for SREBPs in effector responses. Our studies provide insights into the molecular signals that underlie the metabolic reprogramming of CD8(+) T cells during the transition from quiescence to activation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

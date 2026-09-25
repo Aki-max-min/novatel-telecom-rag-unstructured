@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_31019903",
+  "title": "Homelessness and health.",
+  "content": "Homelessness affects tens of thousands of canadians and has important health implications. Homeless people are at increased risk of dying prematurely and suffer from a wide range of health problems, including seizures, chronic obstructive pulmonary disease, musculoskeletal disorders, tuberculosis, and skin and foot problems. Homeless people also face significant barriers that impair their access to health care. More research is needed to identify better ways to deliver care to this population.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_15548965",
+  "title": "Structural Rearrangements of NR1/NR2A NMDA Receptors during Allosteric Inhibition",
+  "content": "Ionotropic glutamate receptor (iGluR) subunits contain a large N-terminal domain (NTD) that precedes the agonist-binding domain (ABD) and participates in subunit oligomerization. In NMDA receptors (NMDARs), the NTDs of NR2A and NR2B subunits also form binding sites for the endogenous inhibitor Zn(2+) ion. Although these allosteric sites have been characterized in detail, the molecular mechanisms by which the NTDs communicate with the rest of the receptor to promote its inhibition remain unknown. Here, we identify the ABD dimer interface as a major structural determinant that permits coupling between the NTDs and the channel gate. The strength of this interface also controls proton inhibition, another form of allosteric modulation of NMDARs. Conformational rearrangements at the ABD dimer interface thus appear to be a key mechanism conserved in all iGluR subfamilies, but have evolved to fulfill different functions: fast desensitization at AMPA and kainate receptors, allosteric inhibition at NMDARs.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

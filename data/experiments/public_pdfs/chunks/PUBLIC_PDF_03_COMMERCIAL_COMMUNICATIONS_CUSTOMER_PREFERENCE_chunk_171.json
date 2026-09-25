@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_171",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 171,
+  "text": "permit or set up regulatory sandbox for conducting tests on proposed solutions for Robo Calls. 4.3.17 Considering that in the proposed system, UCC preferences and the approaches to register them are expected to evolve over time, the Authority is of opinion that co-regulation would be the best way forward. Accordingly, access providers will be required to formulate Code of Practice for Preferences (CoP-Preferences) and submit to the Authority. This CoP will include processes for handling all aspects of managing preferences and consents including revocation of consents. Once CoP is formulated and finalized, access provider will be required to abide by its provisions. The Authority may intervene and issue directions or orders to modify the CoP, if it finds any deficiency in the CoP or it finds that CoP is failing to serve the purpose. The Authority may also formulate standard CoP, if required. 86 5 Inputs, analysis and conclusions on issues related to Complaint handling system 5.1 Issues related to Complaint handling system 5.1.1 Large time gap between registration and resolution of complaints: Current process for resolution of complaints are time consuming and the time gap between detection of violation and enforcement action is exploited by the spammers. Gap in time between UCC complaint and its resolution needs to be reduced but extent of reduction may depend upon automation of the process and require changes in the functions and interfaces for the complaint handling system. 5.1.2 Changes in Complaint Registration facility to improve complaint registration: Consumer Complaint resource facility (CCRF)",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7277084",
+  "title": "Extraction and Analysis of Multiple Periodic Motions in Video Sequences",
+  "content": "The analysis of periodic or repetitive motions is useful in many applications, such as the recognition and classification of human and animal activities. Existing methods for the analysis of periodic motions first extract motion trajectories using spatial information and then determine if they are periodic. These approaches are mostly based on feature matching or spatial correlation, which are often infeasible, unreliable, or computationally demanding. In this paper, we present a new approach, based on the time- frequency analysis of the video sequence as a whole. Multiple periodic trajectories are extracted and their periods are estimated simultaneously. The objects that are moving in a periodic manner are extracted using the spatial domain information. Experiments with synthetic and real sequences display the capabilities of this approach.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

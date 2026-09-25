@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29495185",
+  "title": "New developments in the epidemiology of cancer prognosis: traditional and molecular predictors of treatment response and survival.",
+  "content": "There have been numerous epidemiologic investigations to determine factors that may affect cancer risk. There is also a rich tradition of evaluating potential somatic changes in the cancer itself to predict recurrence and/or mortality after diagnosis. However, there has been relatively little",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

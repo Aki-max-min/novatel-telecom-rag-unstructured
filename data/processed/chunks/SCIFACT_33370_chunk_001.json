@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_33370_chunk_001",
+  "document_id": "SCIFACT_33370",
+  "chunk_index": 1,
+  "text": "maintenance through effects on the glioma stem cell subpopulation. Although inactivating mutations in A20 in lymphoma suggest A20 can act as a tumor suppressor, similar point mutations have not been identified through glioma genomic sequencing: in fact, our data suggest A20 may function as a tumor enhancer in glioma through promotion of GSC survival. A20 anticancer therapies should therefore be viewed with caution as effects will likely differ depending on the tumor type.",
+  "title": "Targeting A20 Decreases Glioma Stem Cell Survival and Tumor Growth",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

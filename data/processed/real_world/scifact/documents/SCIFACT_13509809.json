@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13509809",
+  "title": "Matrix-embedded osteocytes regulate mobilization of hematopoietic stem/progenitor cells.",
+  "content": "The bone marrow (BM) niche comprises multiple cell types that regulate hematopoietic stem/progenitor cell (HSPC) migration out of the niche and into the circulation. Here, we demonstrate that osteocytes, the major cellular component of mature bone, are regulators of HSPC egress. Granulocyte colony-stimulating factor (G-CSF), used clinically to mobilize HSPCs, induces changes in the morphology and gene expression of the osteocytic network that precedes changes in osteoblasts. This rapid response is likely under control of the sympathetic nervous system, since osteocytes express the β2-adrenergic receptor and surgical sympathectomy prevents it. Mice with targeted ablation of osteocytes or a disrupted osteocyte network have comparable numbers of HSPCs in the BM but fail to mobilize HSPCs in response to G-CSF. Taken together, these results indicate that the BM/bone niche interface is critically controlled from inside of the bone matrix and establish an important physiological role for skeletal tissues in hematopoietic function.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

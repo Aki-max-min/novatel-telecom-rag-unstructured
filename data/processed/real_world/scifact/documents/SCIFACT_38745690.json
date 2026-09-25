@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_38745690",
+  "title": "Serum Exosome MicroRNA as a Minimally-Invasive Early Biomarker of AML",
+  "content": "Relapse remains the major cause of mortality for patients with Acute Myeloid Leukemia (AML). Improved tracking of minimal residual disease (MRD) holds the promise of timely treatment adjustments to preempt relapse. Current surveillance techniques detect circulating blasts that coincide with advanced disease and poorly reflect MRD during early relapse. Here, we investigate exosomes as a minimally invasive platform for a microRNA (miRNA) biomarker. We identify a set of miRNA enriched in AML exosomes and track levels of circulating exosome miRNA that distinguish leukemic xenografts from both non-engrafted and human CD34+ controls. We develop biostatistical models that reveal circulating exosomal miRNA at low marrow tumor burden and before circulating blasts can be detected. Remarkably, both leukemic blasts and marrow stroma contribute to serum exosome miRNA. We propose development of serum exosome miRNA as a platform for a novel, sensitive compartment biomarker for prospective tracking and early detection of AML recurrence.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

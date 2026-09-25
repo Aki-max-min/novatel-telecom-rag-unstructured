@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_31962403",
+  "title": "The anaphase promoting complex/cyclosome: a machine designed to destroy",
+  "content": "The anaphase promoting complex/cyclosome (APC/C) is a ubiquitin ligase that has essential functions in and outside the eukaryotic cell cycle. It is the most complex molecular machine that is known to catalyse ubiquitylation reactions, and it contains more than a dozen subunits that assemble into a large 1.5-MDa complex. Recent discoveries have revealed an unexpected multitude of mechanisms that control APC/C activity, and have provided a first insight into how this unusual ubiquitin ligase recognizes its substrates.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

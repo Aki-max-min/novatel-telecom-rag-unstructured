@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_017",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 17,
+  "text": "a message through SMS to a specified short code of the Donor Operator from the subscriber’s mobile number which is sought to be ported. (4) Upon receipt of the message from the subscriber, the Donor operator shall forthwith send back a reply message of the porting request from a subscriber, ask him to send a message through SMS to a specified Short Code of the Donor Operator from the mobile number of the subscriber, which is sought to be ported. (2) Upon receipt of the unique porting code from the Mobile Number Portability Service provider, the subscriber shall incorporate the same in the porting request form. (3) The Recipient Operator shall, upon receipt of the porting request from the subscriber along with unique porting code allocated to the mobile number, verify the Customer Acquisition Form to ensure that it is accompanied by all the documents specified in regulation 7. (4) The Recipient Operator shall, record in the Customer Acquisition Form that he has seen the subscriber and verified his documents with their respective originals and found them to be in order. (5) The Recipient Operator shall, within a period of twenty four hours, forward the mobile number, the corresponding unique porting code and the date on which porting request is made by the subscriber, to the Mobile Number Portability Service provider of MNP zone to which the mobile number range holder of number under porting belongs and also send a SMS to the subscriber, as soon as the port request",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

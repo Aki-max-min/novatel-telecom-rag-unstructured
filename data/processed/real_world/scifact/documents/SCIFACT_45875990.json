@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_45875990",
+  "title": "Cyclin A2 is an RNA binding protein that controls Mre11 mRNA translation",
+  "content": "Cyclin A2 activates the cyclin-dependent kinases Cdk1 and Cdk2 and is expressed at elevated levels from S phase until early mitosis. We found that mutant mice that cannot elevate cyclin A2 are chromosomally unstable and tumor-prone. Underlying the chromosomal instability is a failure to up-regulate the meiotic recombination 11 (Mre11) nuclease in S phase, which leads to impaired resolution of stalled replication forks, insufficient repair of double-stranded DNA breaks, and improper segregation of sister chromosomes. Unexpectedly, cyclin A2 controlled Mre11 abundance through a C-terminal RNA binding domain that selectively and directly binds Mre11 transcripts to mediate polysome loading and translation. These data reveal cyclin A2 as a mechanistically diverse regulator of DNA replication combining multifaceted kinase-dependent functions with a kinase-independent, RNA binding–dependent role that ensures adequate repair of common replication errors.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

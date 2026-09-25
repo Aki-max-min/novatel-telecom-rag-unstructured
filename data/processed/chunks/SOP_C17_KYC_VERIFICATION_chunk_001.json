@@ -1,0 +1,20 @@
+{
+  "chunk_id": "SOP_C17_KYC_VERIFICATION_chunk_001",
+  "document_id": "SOP_C17_KYC_VERIFICATION",
+  "chunk_index": 1,
+  "text": "sign-off before proceeding. Validation Confirm the account/system reflects the expected end state before the case is closed, and obtain customer confirmation where applicable. Escalation Where first-line steps do not resolve the issue within the stated timeframe, the case is escalated to the next tier with full interaction history attached, and the customer is informed of the new reference and expected timeline. SLA / Timing First-line resolution target is same working day; escalations to specialist teams carry a 2-3 working day SLA. Audit Requirements Every action taken under this SOP must be logged against the account with agent ID, timestamp, and outcome for audit and quality-review purposes. Related Documents KB_C17_kyc_reverification, TRN_004",
+  "title": "New Connection and Re-Verification KYC Procedure",
+  "document_type": "SOP",
+  "category": "C17",
+  "department": "Compliance",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c17"
+  ],
+  "file_path": "data\\raw\\unstructured\\sops\\SOP_C17_KYC_VERIFICATION.docx",
+  "file_type": "docx"
+}

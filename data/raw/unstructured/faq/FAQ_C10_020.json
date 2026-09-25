@@ -1,7 +1,7 @@
 {
   "faq_id": "FAQ_C10_020",
   "question": "How do I set up a personalised caller tune?",
-  "answer": "Open VAS > Caller Tunes in the app, browse or search the catalogue, and select 'Set as Caller Tune'. Charges and validity are shown before confirmation; the tune activates within a few hours.",
+  "answer": "### Short Answer\n\nOpen VAS > Caller Tunes in the app, browse or search the catalogue, and select 'Set as Caller Tune'. Charges and validity are shown before confirmation; the tune activates within a few hours.\n\n### Detailed Explanation\n\nThe two-step confirmation (browse/select, then see charges and validity before confirming) is the notable detail here — pricing isn't hidden until after purchase, and the few-hour activation delay means it isn't instantaneous like some other self-care changes.\n\n### Key Details\n\n| Detail | Value |\n|---|---|\n| Where | VAS > Caller Tunes in the app |\n| Before confirming | Charges and validity are shown |\n| Activation time | Within a few hours |\n\n### Example Scenario\n\n**Customer situation:** A customer sets a new caller tune and wants to know why callers still hear the old one immediately after.\n\n**What happens:** Since activation takes up to a few hours rather than being instant, the change simply hasn't propagated yet.\n\n### Related Information\n\nRelated documents referenced in NovaTel's internal metadata for this topic: KB_C10_overview.",
   "category": "C10",
   "category_name": "Value Added Services (VAS)",
   "department": "Product",

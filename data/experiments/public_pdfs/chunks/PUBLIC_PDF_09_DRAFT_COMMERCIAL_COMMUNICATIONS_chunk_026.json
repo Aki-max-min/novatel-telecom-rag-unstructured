@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_026",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 26,
+  "text": "to submit report(s),against sender(s) of commercial communication in violation of provisions of these regulation(s)by any customer; (2) to provide following modes, as per choice of the customer and free of cost, to make complaint or to report violation of regulations: - (a) sending SMS to short code 1909; or (b) calling on 1909; or (c) Interactive Voice Response System (IVRS); or (d) Mobile app developed in this regard either by the Authority or by any other person or entity and approved by the Authority; or (e) Web portal with authentication through One Time Password (OTP); or (f) Any other means as may be notified by the Authority from time to time. Provided that every such complaint shall be made by a subscriber within three days of receipt of the unsolicited commercial communication; (3) to duly acknowledge the receipt within fifteen minutes of the complaint or report made by the customer with unique reference number; (4) to provide details to the subscriber about the mobile app provided for in regulation 23(2)(d) (5) to provide details about format and procedure to the customer, as given in the appropriate Code(s) of Practice, where a complaint is rejected by the access provider on the grounds of incomplete information or improper format; 24. Distributed Ledger(s) for Complaints: Every Access Provider shall establish Distributed Ledger(s) for Complaints (DL-Complaints) with requisite functions, processes and interfaces: - 20 (1) to record complaints and reports regarding violation of Regulations made by the customer in the Distributed Ledger for Complaints",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

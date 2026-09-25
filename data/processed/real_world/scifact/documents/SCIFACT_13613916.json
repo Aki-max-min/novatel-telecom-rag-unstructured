@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13613916",
+  "title": "Glucose repression in Saccharomyces cerevisiae",
+  "content": "Glucose is the primary source of energy for the budding yeast Saccharomyces cerevisiae. Although yeast cells can utilize a wide range of carbon sources, presence of glucose suppresses molecular activities involved in the use of alternate carbon sources as well as it represses respiration and gluconeogenesis. This dominant effect of glucose on yeast carbon metabolism is coordinated by several signaling and metabolic interactions that mainly regulate transcriptional activity but are also effective at post-transcriptional and post-translational levels. This review describes effects of glucose repression on yeast carbon metabolism with a focus on roles of the Snf3/Rgt2 glucose-sensing pathway and Snf1 signal transduction in establishment and relief of glucose repression.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

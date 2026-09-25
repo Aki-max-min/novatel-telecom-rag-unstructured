@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_81498132",
+  "title": "Chromosome numbers in certain Indian species ofUtricularia L. (Lentibulariaceae)",
+  "content": "Chromosome numbers from meiotic studies have been reported for the following species ofUtricularia: U. aurea Lour. (n=21);U. baouleënsis A. Chev. (n=10);U. caerulea L. (n=20);U. inflexa var.stellaris (Linn.f.) P. Taylor (n=21);U. minutissima Vahl (n=8);U. scandens Benj. (n=6, 7); andU. stricticaulis Stapf (n=7). There are two cyto-races inU. scandens.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

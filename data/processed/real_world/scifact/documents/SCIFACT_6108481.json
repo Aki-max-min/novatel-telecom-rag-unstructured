@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6108481",
+  "title": "Postnatal development of adipocyte cellularity in the normal rat.",
+  "content": "It has been shown by several investigators that adipocyte number is stable in mature human beings and several species of rodents. Although the number of new cells appearing in the adipose depot can be measured histometrically and by Coulter counting of osmium-fixed cells, such methods do not distinguish between \"lipid filling\" of preexistent adipocytes and synthesis of new adipocytes. The experiments reported here using in vivo injection of [(3)H]thymidine show that synthesis of new adipocytes in the Sprague-Dawley rat continues after birth and ceases before sexual maturity. Furthermore, during the second and third postnatal weeks, a \"bed\" of preadipocytes is synthesized. Preadipocytes may take as long as 30 days to appear as mature adipocytes.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

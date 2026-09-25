@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10555591",
+  "title": "The Actions of Synaptically Released Zinc at Hippocampal Mossy Fiber Synapses",
+  "content": "Zn2+ is present at high concentrations in the synaptic vesicles of hippocampal mossy fibers. We have used Zn2+ chelators and the mocha mutant mouse to address the physiological role of Zn2+ in this pathway. Zn2+ is not involved in the unique presynaptic plasticities observed at mossy fiber synapses but is coreleased with glutamate from these synapses, both spontaneously and with electrical stimulation, where it exerts a strong modulatory effect on the NMDA receptors. Zn2+ tonically occupies the high-affinity binding site of NMDA receptors at mossy fiber synapses, whereas the lower affinity voltage-dependent Zn2+ binding site is occupied during action potential driven-release. We conclude that Zn2+ is a modulatory neurotransmitter released from mossy fiber synapses and plays an important role in shaping the NMDA receptor response at these synapses.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

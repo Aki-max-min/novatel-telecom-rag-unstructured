@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_176",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 176,
+  "text": "packet prioritization. (ii) High value of jitter in the network may result in call muffling or even call drop in video or VoIP applications. This parameter is an essential benchmark for the measurement of QoS performance in fixed and packet core wireless networks and has also been suggested by DoT. (iii) As requested by stakeholder, measurement methodology has been clarified in Schedule-I. 5.4.5 Successful SMS delivery within service provider's network (a) Input of Stakeholders (i) Some of the stakeholders submitted that this parameter is not required in the growing technical agnostic industry. Further, there is no such parameter for OTTs providing similar service and hence this parameter should not be part of the Regulations. They also cited specific reasons for SMS delivery failures, including unreachable customers, dual SIM handset usage, non-operational numbers, full handset memory, and cross-operator uncertainties. Additionally, the complexity and variability of different SMS types (P2P, A2P, P2A, I2P) involving third parties make it practically impossible to measure and ensure delivery reports within 20 seconds. (ii) Some of the stakeholders submitted that reports can only be generated for SMSs delivered within the provider's own network because off-net SMSs do not reach the terminating TSP's SMSC, making it infeasible to generate such reports for them. Additionally, generating reports at the State/ Union 163 Territory level is not possible due to the limitations of the SMSC and core network equipment, which lack geographical data. If this parameter is to be included, it should be measured as the ratio of SMSs",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

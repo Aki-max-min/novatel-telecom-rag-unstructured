@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_163",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 163,
+  "text": "(or rather not blocking it). This will benefit both customers and telemarketers. Customers benefit from having access to communication of their choice, and telemarketers will benefit by having better targeting. Initially, exercising choice in great detail and considering them while sending commercial communications may seem complex, but using enabling technologies, such as intelligent, multi touch interfaces, web interfaces, assisted mode to set preferences, platform approach (API’s to set, change or revoke) can allow innovation in the market to find the best solutions. 4.3.8 Granularity in the preferences may be introduced either by creating more categories or introducing multiple levels in hierarchical form. Requirement of granularity is expected to constantly evolve and pre-deciding particular categories or sub-categories in comprehensive manner is not practical. In view of this, the Authority decides that regulations should enable TSPs to create more categories and more types of preferences e.g. modes, time bands, day types in evolving manner. The details of categories should be specified in the part of Code of Practice for Preferences (CoP-Preferences) which is to be formulated by the access provider(s). Expansion of categories or sub-categories should be in such a manner that customer whose preferences are already registered are not altered without their consent. 4.3.9 Introducing more dimensions to the preferences like time bands, types of day, medium of communication etc. would make available more options to the customers who may be interested in communication with certain preferences in terms of time or day or ways sender may reach out to him.",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

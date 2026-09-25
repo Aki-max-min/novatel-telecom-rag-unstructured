@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18041692",
+  "title": "Rho GTPase signalling in cell migration",
+  "content": "Cells migrate in multiple different ways depending on their environment, which includes the extracellular matrix composition, interactions with other cells, and chemical stimuli. For all types of cell migration, Rho GTPases play a central role, although the relative contribution of each Rho GTPase depends on the environment and cell type. Here, I review recent advances in our understanding of how Rho GTPases contribute to different types of migration, comparing lamellipodium-driven versus bleb-driven migration modes. I also describe how cells migrate across the endothelium. In addition to Rho, Rac and Cdc42, which are well known to regulate migration, I discuss the roles of other less-well characterized members of the Rho family.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

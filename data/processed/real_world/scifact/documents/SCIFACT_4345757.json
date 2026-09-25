@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4345757",
+  "title": "Obesity as a medical problem.",
+  "content": "Obesity is now so common within the world's population that it is beginning to replace undernutrition and infectious diseases as the most significant contributor to ill health. In particular, obesity is associated with diabetes mellitus, coronary heart disease, certain forms of cancer, and sleep-breathing disorders. Obesity is defined by a body-mass index (weight divided by square of the height) of 30 kg m(-2) or greater, but this does not take into account the morbidity and mortality associated with more modest degrees of overweight, nor the detrimental effect of intra-abdominal fat. The global epidemic of obesity results from a combination of genetic susceptibility, increased availability of high-energy foods and decreased requirement for physical activity in modern society. Obesity should no longer be regarded simply as a cosmetic problem affecting certain individuals, but an epidemic that threatens global well being.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

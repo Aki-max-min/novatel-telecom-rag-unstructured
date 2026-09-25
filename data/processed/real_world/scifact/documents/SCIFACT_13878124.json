@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13878124",
+  "title": "Regulation of radial glial survival by signals from the meninges.",
+  "content": "Radial glial cells (RGCs) in the developing cerebral cortex are progenitors for neurons and glia, and their processes serve as guideposts for migrating neurons. So far, it has remained unclear whether RGC processes also control the function of RGCs more directly. Here, we show that RGC numbers and cortical size are reduced in mice lacking beta1 integrins in RGCs. TUNEL stainings and time-lapse video recordings demonstrate that beta1-deficient RGCs processes detach from the meningeal basement membrane (BM) followed by apoptotic death of RGCs. Apoptosis is also induced by surgical removal of the meninges. Finally, mice lacking the BM components laminin alpha2 and alpha4 show defects in the attachment of RGC processes at the meninges, a reduction in cortical size, and enhanced apoptosis of RGC cells. Our findings demonstrate that attachment of RGC processes at the meninges is important for RGC survival and the control of cortical size.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

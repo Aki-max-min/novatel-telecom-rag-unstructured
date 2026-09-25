@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17917408",
+  "title": "Recent insights into the role of Notch signaling in tumorigenesis",
+  "content": "Members of the Notch family of transmembrane receptors play an important role in cell fate determination. Over the past decade, a role for Notch in the pathogenesis of hematologic and solid malignancies has become apparent. Numerous cellular functions and microenvironmental cues associated with tumorigenesis are modulated by Notch signaling, including proliferation, apoptosis, adhesion, epithelial-to-mesenchymal transition, and angiogenesis. It is becoming increasingly evident that Notch signaling can be both oncogenic and tumor suppressive. This review highlights recent findings regarding the molecular and functional aspects of Notch-mediated neoplastic transformation. In addition, cellular mechanisms that potentially explain the complex role of Notch in tumorigenesis are discussed.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

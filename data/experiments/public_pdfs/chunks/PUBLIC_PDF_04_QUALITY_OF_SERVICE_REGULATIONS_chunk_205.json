@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_205",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 205,
+  "text": "will anyway be governed by service-level agreements. Therefore, they have requested the Authority to keep these services out of QoS monitoring. (ii) One of the stakeholders submitted that local laws and Net Neutrality principles will also impact on how these services are offered and how the same are measured and suggested that it is too pre-mature to prescribe QoS parameters for these services. (iii) One of the stakeholders suggested to follow 3GPP standards with regards to the benchmarks for uRLLC and mMTC. (iv) One of the stakeholders submitted that there is no single answer to this question because different tools measure latency in various ways depending on what they aim to emulate or replicate. (b) Analysis and Conclusion The Authority has noted that the applications and use cases in uRLLC and mMTC domain are still evolving and the service providers are exploring different market domains and possible applications. Therefore, the Authority has decided to review the rollout status of use cases in these domains in future to evaluate their QoS requirements in relevant context. 6.4 Will there be any likely adverse impact on existing consumer voice (VoLTE/VoNR) and data services (eMBB) upon rollout of enterprise use cases of uRLLC or mMTC? If ‘No’ then please explain how and if the answer is ‘Yes’ please suggest measures to ensure minimum guaranteed QoS for voice and data service for consumers. (Q4 and Q5) (a) Input of Stakeholders (i) Many stakeholders submitted that under the modern 4G and 5G network architecture, the enterprise",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

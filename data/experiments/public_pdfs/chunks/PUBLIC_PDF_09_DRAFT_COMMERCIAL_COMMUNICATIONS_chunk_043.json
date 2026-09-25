@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_043",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 43,
+  "text": "via sending SMS or making voice calls to participants which shall include following: - (1) SMS Header, SMS Header Root, SMS Header Branch for Senders sending Promotional SMS, Transactional SMS and Service SMS from 11-character alphanumeric strings which are not allocated or assigned by DoT for other purpose(s) or in accordance to directions of the Authority/ DoT; (2) Calling Line Identity for Senders making Promotional Voice Calls, Transactional Voice Calls and Service Voice Calls from 140-level numbering series or any other numbering series directed by the Authority/DoT; 3. Every Access Provider shall formulate Code of Practice for Entities (CoP- Entities) involved from registered sender(s) to recipient(s) and (1) CoP-Entities shall include at least following entities: - (a) Header Registrar; (b) Consent Registrar; (c) Consent Template Registrar; (d) Content Template Registrar; (e) Content Template Verifier; (f) Telemarketer Functional Entity Registrar for various functions prescribed in the relevant regulation(s); 31 (g) timeline(s) for implementation of the functionality referred in code of practice and operationalizing it; (h) such other matters as the Authority may deem fit, from time to time; (2) CoP-Entities shall also include at least following Distributed Ledger Nodes for the purpose of: - (a) Header Register; (b) Consent Register; (c) Consent Template Register; (d) Content Template Register; (e) Content Template Verifier; (f) Complaint Register; (g) Preference Register; (h) Telemarketer Scrubbing Function Register; (i) Telemarketer Message Delivery Function Register; (j) Telemarketer Voice Delivery Function Register; (3) CoP-Entities shall include at least following: - (a) implementation details for all functional entities; (b)",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5511240",
+  "title": "Liver-resident macrophage necroptosis orchestrates type 1 microbicidal inflammation and type-2-mediated tissue repair during bacterial infection.",
+  "content": "Kupffer cells, the phagocytes of fetal origin that line the liver sinusoids, are key contributors of host defense against enteroinvasive bacteria. Here, we found that infection by Listeria monocytogenes induced the early necroptotic death of Kupffer cells, which was followed by monocyte recruitment and an anti-bacterial type 1 inflammatory response. Kupffer cell death also triggered a type 2 response that involved the hepatocyte-derived alarmin interleukin-33 (IL-33) and basophil-derived interleukin-4 (IL-4). This led to the alternative activation of the monocyte-derived macrophages recruited to the liver, which thereby replaced ablated Kupffer cells and restored liver homeostasis. Kupffer cell death is therefore a key signal orchestrating type 1 microbicidal inflammation and type-2-mediated liver repair upon infection. This indicates that beyond the classical dichotomy of type 1 and type 2 responses, these responses can develop sequentially in the context of a bacterial infection and act interdependently, orchestrating liver immune responses and return to homeostasis, respectively.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

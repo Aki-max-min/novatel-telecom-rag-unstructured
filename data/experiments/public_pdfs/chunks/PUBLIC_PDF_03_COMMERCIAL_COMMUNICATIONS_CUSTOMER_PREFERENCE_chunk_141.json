@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_141",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 141,
+  "text": "charges that encourages senders to prefer to route traffic directly to TAP and still keep options to take different route if required. In present regulations, promotional and transactional charges are fixed as Rs. 0.05 (five paisa only). The Authority is of view that to discourage traffic from OAPs who is not effectively controlling UCC than other OAPs, these charges may be adopted as ceiling instead of fixed charges. The possibility of saving UCC charges would encourage telemarketers to deliver traffic directly to concerned TAP. However, to discover concerned TAP for a target customer, Location Routing Number (LRN) of the customer may be required 76 to be fetched. LRN may also be required to be stored in DL-Preferences for complaint handling and for customers who are not registered with any preferences to route reports (information provided by customers not registered about UTMs/ RTMs). Therefore, DLT system are to be designed and established by access providers to query MNP database and if required, keep information in a secure manner. It has been considered that while nature of promotional and service messages is to seek or support the services being provided for commercial gains, the nature of transactional messages is very different and generally it is to inform the customer about vital transactions. Recipient may be required to be Informed in order to protect his interest from any likely misuse or confirm about the transactions or for the purpose of authenticating the transaction. Transactional messages may be required to be sent to comply",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

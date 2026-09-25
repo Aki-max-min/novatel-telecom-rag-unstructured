@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_132",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 132,
+  "text": "by any other entity, on its behalf. Considering varieties of functions to be carried out that are referred to in Para 3.3.4 of this explanatory memorandum, it is very likely that entities would be interested in performing only specific functions in the UCC eco system. The selected technology therefore has to support unbundling and delegation of functions specified in the CoP to different entities. Sharing of data and execution of process should be in such a manner that process is executed with the data, but it is not accessible in clear text form to any intermediate entity or other applications operating the system. Existence of number of registered entities playing different roles would create a maze of entities where there would be different routes or paths from the sender to access provider’s network depending upon choices exercised by the entity to pass on to other entity for 73 carrying out next function. Paths for same pair of sender and recipient may vary at different point in time and the system has to have the capability to trace the path, as and when required, and identify any defaulting entity. Delegation of functions should be possible without compromising safety and security requirements of the data handling. 3.3.24 Technology Driven Solutions to provide agility and intelligence to deal with non-compliance: As deliberated in the consultation paper, the time-gap in resolving complaints is exploited by spammers to continue their activities for longer time span and not acting against defaulting entities in timely manner makes",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_136",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 136,
+  "text": "These insights enable regulatory authorities to enforce requirements, monitor operator compliance, and promote the delivery of high-quality telecommunications services to consumers. (b) Analysis and Conclusion (i) Network availability is an essential requirement of QoS. Poor network availability not only impacts the QoS directly in the served coverage areas but also affects the performance of nearby cells due to overloading of neighboring cells and therefore may result in network coverage holes and call drops. 17 https://monreseaumobile.arcep.fr/ 147 (ii) More than 34 lakhs base stations of different technologies are installed at around 8.5 lakhs unique locations in the country. Urban areas have multiple nodes in different bands operating from one location of the tower. In rural and remote areas, the situation may not be the same. (iii) During the audit of the performance monitoring report (PMR) submitted by service providers, it came to notice that service providers are adopting different definitions for ‘Base Station’ while computing the performance against these two parameters. As per some of the service providers, all cells of different technologies and frequencies working at a single physical location constitute one ‘Base Station’. In such situations, even if a single cell is working, out of as high as 16 cells installed at one physical location, then the service provider considers such ‘Base Station’ as working. While some service providers are considering all cells of one technology (2G/ 3G/ 4G) as one ‘Base Stations’. In this way, performance submitted by different service providers against these parameters has wide variation. Figure",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

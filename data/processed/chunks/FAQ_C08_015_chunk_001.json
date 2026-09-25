@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C08_015_chunk_001",
+  "document_id": "FAQ_C08_015",
+  "chunk_index": 1,
+  "text": "area | Check both; if map shows covered but Service Status flags an outage, wait for restoration | | No coverage, area shown outside footprint | Location is outside current tower coverage | Coverage map boundary for the exact location | Report the location so it can be logged for network planning | ### Escalation Reporting the location to the Network team is the documented path when coverage is genuinely absent rather than temporarily degraded. ### Example Scenario **Customer situation:** A customer has no signal at home and checks the app's coverage map. **What happens:** If the map shows their area as covered, the likely cause is either obstruction or an active outage, best confirmed by checking Service Status; if the map shows the area outside the footprint, reporting the location is the relevant next step instead. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C08_overview. Topic: Network Coverage & Outages",
+  "title": "Why is there no network coverage in my area?",
+  "document_type": "FAQ",
+  "category": "C08",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-07",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C08_overview"
+  ],
+  "tags": [
+    "network",
+    "c08"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C08_015.json",
+  "file_type": "json"
+}

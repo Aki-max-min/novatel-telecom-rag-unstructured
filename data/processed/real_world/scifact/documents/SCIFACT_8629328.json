@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8629328",
+  "title": "Peripheral B cell subsets.",
+  "content": "Our understanding of the origins and the biological functions of different peripheral B cell subsets continues to evolve. Some understanding has been obtained regarding the synergy between BCR-derived signals and other receptors and signaling pathways that drive the development of follicular, marginal zone, and B-1 B cells, but this remains a complex and poorly understood issue. More recent information regarding the origins of B-1 and B-2 B cells, the ability of follicular B cells to mature both in the bone marrow and the spleen, the existence of a definable precursor for MZ B cells, and the ability of follicular B cells to occupy two distinct niches are all highlighted in this review.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

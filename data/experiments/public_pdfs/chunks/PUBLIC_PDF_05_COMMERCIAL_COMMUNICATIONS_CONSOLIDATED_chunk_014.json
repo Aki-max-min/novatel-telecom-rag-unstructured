@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_014",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 14,
+  "text": "to be made or authorized the sending of the message or making of the voice call; The person or legal entity dealing with goods, or services, or land or property, or a business or investment opportunity that is offered or promoted; except where such entity maintains a distinct legal identity for the division or line of business dealing with offered goods, services or opportunity, in which case such division or line of business; (bg) “Sender information or SI” means the source, destination and routing information attached to a message or voice call, including, where applicable, the originator’s name and originating phone number, reference telephone number, and any other information that appears in the content of commercial communication identifying, or purporting to identify, the sender of the message or making voice call; (bh) “Service message or Service Call” means a message sent or voice call made by a Sender to – (i) its Customer or Subscriber to provide information pertaining to any product or service, its warranty, product recall, software upgrade alerts, safety or security of the product used or purchased by the Customer, periodic balance alerts, information regarding delivery of goods or services, and such Messages are not promotional in nature and do not require Explicit Consent; or (ii) a Recipient to facilitate or complete a commercial transaction involving the ongoing purchase or the use by the Recipient of the product or services offered by the Sender after obtaining Explicit Consent from the Recipient and such Messages are not promotional",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

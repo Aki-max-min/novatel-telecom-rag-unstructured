@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_057",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 57,
+  "text": "56.06 57.63 - - 259.86 Gujarat 19.48 37.22 56.70 52.55 98.77 75.85 Haryana 9.68 11.08 20.76 55.17 82.59 67.05 Himachal Pradesh 4.00 2.67 6.67 59.16 341.95 88.45 Jammu & Kashmir 4.89 5.45 10.34 50.32 124.20 73.30 Karnataka 21.47 38.83 60.30 57.36 124.70 87.94 Kerala 18.27 17.85 36.12 248.13 62.01 99.94 Madhya Pradesh 29.69 37.32 67.00 34.88 108.13 56.01 Maharashtra* 32.16 47.23 79.40 50.92 121.95 86.05 Mumbai* 1.30 31.17 32.47 North East 5.44 4.97 10.41 52.96 86.03 64.85 Orissa 17.10 8.79 25.89 47.55 102.23 58.09 Punjab 9.64 19.01 28.65 53.92 130.94 88.43 Rajasthan 26.07 25.97 52.04 43.05 116.51 62.82 Tamil Nadu 18.37 46.26 64.63 51.58 106.47 81.75 66 Service Area Internet Subscribers (in million) No. of Internet subscribers per 100 population Rural Urban Total Rural Urban Total UP (East)* 46.46 32.38 78.84 36.59 94.02 50.90 UP (West)* 22.93 26.78 49.71 Kolkata* 1.37 18.19 19.56 41.64 100.94 64.04 West Bengal* 24.84 20.42 45.26 Total 407.69 561.42 969.10 45.03 110.79 68.63 * Population data/projections are available state-wise only. Notes: 1. No. of total internet subscribers per 100 population is derived from the subscriber data provided by the operators and the projection of population. 2. With effect from 1st January, 2020, the projection of population is based on the ‘Report of the Technical Group on Population Projections for India and States 2011 – 2036’. 3. The bifurcation of rural and urban subscriber data provided by the operators is based on different sources. E.g. one operator is deriving information from https://censusindia.gov.in/census.website/ while others are procuring",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

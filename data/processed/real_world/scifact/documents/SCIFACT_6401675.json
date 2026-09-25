@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6401675",
+  "title": "Transposable elements have rewired the core regulatory network of human embryonic stem cells",
+  "content": "Detection of new genomic control elements is critical in understanding transcriptional regulatory networks in their entirety. We studied the genome-wide binding locations of three key regulatory proteins (POU5F1, also known as OCT4; NANOG; and CTCF) in human and mouse embryonic stem cells. In contrast to CTCF, we found that the binding profiles of OCT4 and NANOG are markedly different, with only ∼5% of the regions being homologously occupied. We show that transposable elements contributed up to 25% of the bound sites in humans and mice and have wired new genes into the core regulatory network of embryonic stem cells. These data indicate that species-specific transposable elements have substantially altered the transcriptional circuitry of pluripotent stem cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

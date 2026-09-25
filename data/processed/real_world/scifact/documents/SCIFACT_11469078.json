@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11469078",
+  "title": "Ecologic versus individual-level sources of bias in ecologic estimates of contextual health effects.",
+  "content": "A number of authors have attempted to defend ecologic (aggregate) studies by claiming that the goal of those studies is estimation of ecologic (contextual or group-level) effects rather than individual-level effects. Critics of these attempts point out that ecologic effect estimates are inevitably used as estimates of individual effects, despite disclaimers. A more subtle problem is that ecologic variation in the distribution of individual effects can bias ecologic estimates of contextual effects. The conditions leading to this bias are plausible and perhaps even common in studies of ecosocial factors and health outcomes because social context is not randomized across typical analysis units (administrative regions). By definition, ecologic data contain only marginal observations on the joint distribution of individually defined confounders and outcomes, and so identify neither contextual nor individual-level effects. While ecologic studies can still be useful given appropriate caveats, their problems are better addressed by multilevel study designs, which obtain and use individual as well as group-level data. Nonetheless, such studies often share certain special problems with ecologic studies, including problems due to inappropriate aggregation and problems due to temporal changes in covariate distributions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

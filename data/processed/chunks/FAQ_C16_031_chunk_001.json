@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C16_031_chunk_001",
+  "document_id": "FAQ_C16_031",
+  "chunk_index": 1,
+  "text": "A customer's billing complaint has been open well past the stated resolution SLA. **What happens:** Using Help > Escalate Complaint routes it to a senior care team; if it remains unresolved even after that, the circle's Nodal Officer is the next level under TRAI's grievance-redressal hierarchy. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C16_overview. Topic: Complaints & Grievances",
+  "title": "How do I escalate a complaint that hasn't been resolved?",
+  "document_type": "FAQ",
+  "category": "C16",
+  "department": "Customer Care",
+  "customer_scope": "postpaid",
+  "version": "1.0",
+  "last_updated": "2026-06-28",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C16_overview"
+  ],
+  "tags": [
+    "complaints",
+    "c16"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C16_031.json",
+  "file_type": "json"
+}

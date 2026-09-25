@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_164",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 164,
+  "text": "that adopted for DCR parameters. (ix) Further, the percentile value for ULPDR and DLPDR parameters have been decided based on the analysis of PDR data provided by TSPs. Considering the submissions made by stakeholders, the Authority has decided that initially the performance of ULPDR and DLPDR will be measured against ULPDR_QSD (88, 88) and DLPDR_QSD (88, 88) instead of ULPDR_QSD (96, 96) and DLPDR_QSD (96, 96), as proposed in the consultation paper, respectively. The Authority has further decided to provide a glide 158 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] path to improve the performance to ULPDR_QSD (90, 90) and DLPDR_QSD (90, 90) over a period as mentioned in the regulation. 5.3.8 Latency {Access (Wireless) and Broadband (Wireline)} (a) Input of Stakeholders (i) Some of the stakeholders submitted that the benchmark of latency for wireless services should be reduced in a phase-wise manner over a period of the next few years i.e. reduce the threshold from the current value of 250 ms to 200 ms and then to 150 ms gradually and for wireline services it should be <120 ms. This parameter should be averaged on a quarterly basis and NOT monthly as proposed by TRAI. (ii) Some stakeholders submitted that while revising the benchmarks, the Authority has referred to international examples of individual telecom service providers achieving ultra-low latency. However, it is important to note that such stringent benchmarks have not been widely prescribed by regulators globally. Moreover, we believe that the attainment of such benchmarks should be primarily",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11475379",
+  "title": "Left–right asymmetry in the vertebrate embryo: from early information to higher-level integration",
+  "content": "Although vertebrates seem to be essentially bilaterally symmetrical on the exterior, there are numerous interior left–right asymmetries in the disposition and placement of internal organs. These asymmetries are established during embryogenesis by complex epigenetic and genetic cascades. Recent studies in a range of model organisms have made important progress in understanding how this laterality information is generated and conveyed to large regions of the embryo. Both commonalities and divergences are emerging in the mechanisms that different vertebrates use in left–right axis specification. Recent evidence also provides intriguing links between the establishment of left–right asymmetries and the symmetrical elongation of the anterior–posterior axis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

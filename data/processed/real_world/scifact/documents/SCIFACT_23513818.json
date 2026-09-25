@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_23513818",
+  "title": "Noxa controls Mule-dependent Mcl-1 ubiquitination through the regulation of the Mcl-1/USP9X interaction.",
+  "content": "The level of the Mcl-1 pro-survival protein is highly regulated, and the down-regulation of Mcl-1 expression favors the apoptotic process. Mcl-1 physically interacts with different BH3-only proteins; particularly, Noxa is involved in the modulation of Mcl-1 expression. In this study, we demonstrated that Noxa triggers the degradation of Mcl-1 at the mitochondria according to the exclusive location of Noxa at this compartment. The Noxa-induced degradation of Mcl-1 required the E3 ligase Mule, which is responsible for the polyubiquitination of Mcl-1. Because the USP9X deubiquitinase was recently demonstrated to be involved in Mcl-1 protein turnover by preventing its degradation through the removal of conjugated ubiquitin, we investigated whether Noxa affected the deubiquitination process. Interestingly, Noxa over-expression caused a decrease in the USP9X/Mcl-1 interaction associated with an increase in the Mcl-1 polyubiquitinated forms. Additionally, Noxa over-expression triggered an increase in the Mule/Mcl-1 interaction in parallel with the decrease in Mule/USP9X complex formation. Taken together, these modifications result in the degradation of Mcl-1 by the proteasome machinery. The implication of Noxa in the regulation of Mcl-1 proteasomal degradation adds complexity to this process, which is governed by multiple interactions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

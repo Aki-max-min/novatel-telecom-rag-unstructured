@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4701662",
+  "title": "A phospholipid transfer function of ER-mitochondria encounter structure revealed in vitro",
+  "content": "As phospholipids are synthesized mainly in the endoplasmic reticulum (ER) and mitochondrial inner membranes, how cells properly distribute specific phospholipids to diverse cellular membranes is a crucial problem for maintenance of organelle-specific phospholipid compositions. Although the ER-mitochondria encounter structure (ERMES) was proposed to facilitate phospholipid transfer between the ER and mitochondria, such a role of ERMES is still controversial and awaits experimental demonstration. Here we developed a novel in vitro assay system with isolated yeast membrane fractions to monitor phospholipid exchange between the ER and mitochondria. With this system, we found that phospholipid transport between the ER and mitochondria relies on membrane intactness, but not energy sources such as ATP, GTP or the membrane potential across the mitochondrial inner membrane. We further found that lack of the ERMES component impairs the phosphatidylserine transport from the ER to mitochondria, but not the phosphatidylethanolamine transport from mitochondria to the ER. This in vitro assay system thus offers a powerful tool to analyze the non-vesicular phospholipid transport between the ER and mitochondria.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

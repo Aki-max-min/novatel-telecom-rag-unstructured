@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1386103",
+  "title": "An essential role for interferon gamma in resistance to Mycobacterium tuberculosis infection",
+  "content": "Tuberculosis, a major health problem in developing countries, has reemerged in recent years in many industrialized countries. The increased susceptibility of immunocompromised individuals to tuberculosis, and many experimental studies indicate that T cell-mediated immunity plays an important role in resistance. The lymphokine interferon gamma (IFN-gamma) is thought to be a principal mediator of macrophage activation and resistance to intracellular pathogens. Mice have been developed which fail to produce IFN-gamma (gko), because of a targeted disruption of the gene for IFN-gamma. Upon infection with Mycobacterium tuberculosis, although they develop granulomas, gko mice fail to produce reactive nitrogen intermediates and are unable to restrict the growth of the bacilli. In contrast to control mice, gko mice exhibit heightened tissue necrosis and succumb to a rapid and fatal course of tuberculosis that could be delayed, but not prevented, by treatment with exogenous recombinant IFN-gamma.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

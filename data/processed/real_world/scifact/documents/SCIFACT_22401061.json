@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22401061",
+  "title": "Costs and financial feasibility of malaria elimination",
+  "content": "The marginal costs and benefits of converting malaria programmes from a control to an elimination goal are central to strategic decisions, but empirical evidence is scarce. We present a conceptual framework to assess the economics of elimination and analyse a central component of that framework-potential short-term to medium-term financial savings. After a review that showed a dearth of existing evidence, the net present value of elimination in five sites was calculated and compared with effective control. The probability that elimination would be cost-saving over 50 years ranged from 0% to 42%, with only one site achieving cost-savings in the base case. These findings show that financial savings should not be a primary rationale for elimination, but that elimination might still be a worthy investment if total benefits are sufficient to outweigh marginal costs. Robust research into these elimination benefits is urgently needed.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

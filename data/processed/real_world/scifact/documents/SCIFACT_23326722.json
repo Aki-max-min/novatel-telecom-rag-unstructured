@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_23326722",
+  "title": "Clinical and laboratory features of adult T-cell leukaemia lymphoma in Barbados.",
+  "content": "We describe the clinical and pathological features of 23 Afro-Caribbean patients with adult T-cell leukaemia/lymphoma admitted to the Queen Elizabeth Hospital, Barbados over a 5 year period. There were 9 males and 14 females, with a median age of 38 years (range 14-84). Twelve had acute leukaemia, 10 lymphoma (including 4 with solitary extra nodal lesions) and 1 smouldering subtype. Two patients had a past history of tropical spastic paraparesis/HTLV I associated myelopathy (TSP/HAM). The prognosis was poor, with only 3 complete responses to chemotherapy (CHOP) lasting from 9 to 36 months. We conclude that ATLL in Barbados is similar to the disease in the other Caribbean islands and Japan, except that in Barbados the age of onset is over a decade younger than in Japan.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

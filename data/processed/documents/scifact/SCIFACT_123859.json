@@ -1,0 +1,23 @@
+{
+  "document_id": "SCIFACT_123859",
+  "title": "Tracking the fate of glomerular epithelial cells in vivo using serial multiphoton imaging in novel mouse models with fluorescent lineage tags",
+  "document_type": "Scientific Literature",
+  "content": "Podocytes are critical in the maintenance of a healthy glomerular filter; however, they have been difficult to study in the intact kidney because of technical limitations. Here we report the development of serial multiphoton microscopy (MPM) of the same glomeruli over several days to visualize the motility of podocytes and parietal epithelial cells (PECs) in vivo. In podocin-GFP mice, podocytes formed sporadic multicellular clusters after unilateral ureteral ligation and migrated into the parietal Bowman's capsule. The tracking of single cells in podocin-confetti mice featuring cell-specific expression of CFP, GFP, YFP or RFP revealed the simultaneous migration of multiple podocytes. In phosphoenolpyruvate carboxykinase (PEPCK)-GFP mice, serial MPM found PEC-to-podocyte migration and nanotubule connections. Our data support a highly dynamic rather than a static nature of the glomerular environment and cellular composition. Future application of this new approach should advance our understanding of the mechanisms of glomerular injury and regeneration.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

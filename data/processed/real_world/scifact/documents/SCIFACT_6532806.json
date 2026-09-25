@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6532806",
+  "title": "An integrated database of genes responsive to the Myc oncogenic transcription factor: identification of direct genomic targets",
+  "content": "We report a database of genes responsive to the Myc oncogenic transcription factor. The database Myc Target Gene prioritizes candidate target genes according to experimental evidence and clusters responsive genes into functional groups. We coupled the prioritization of target genes with phylogenetic sequence comparisons to predict c-Myc target binding sites, which are in turn validated by chromatin immunoprecipitation assays. This database is essential for the understanding of the genetic regulatory networks underlying the genesis of cancers.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14460402",
+  "title": "p63 Regulates adult neural precursor and newly born neuron survival to control hippocampal-dependent Behavior.",
+  "content": "The molecular mechanisms that regulate adult neural precursor cell (NPC) survival, and thus maintain adult neurogenesis, are not well defined. Here, we investigate the role of p63, a p53 family member, in adult NPC function in mice. Conditional ablation of p63 in adult NPCs or p63 haploinsufficiency led to reduced numbers of NPCs and newborn neurons in the neurogenic zones of the hippocampus and lateral ventricles and in the olfactory bulb. These reductions were attributable to enhanced apoptosis of NPCs and newborn neurons and were rescued by inhibition of caspase activity, p53, or the p53 apoptotic effector PUMA (p53-upregulated modulator of apoptosis). Moreover, these cellular deficits were functionally important because they led to perturbations in hippocampus-dependent memory formation. These results indicate that p63 regulates the numbers of adult NPCs and adult-born neurons as well as neural stem cell-dependent cognitive functions, and that it does so, at least in part, by inhibiting p53-dependent cell death.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

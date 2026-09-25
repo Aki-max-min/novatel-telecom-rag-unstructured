@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21369472",
+  "title": "TRPC6 is a glomerular slit diaphragm-associated channel required for normal renal function",
+  "content": "Progressive kidney failure is a genetically and clinically heterogeneous group of disorders. Podocyte foot processes and the interposed glomerular slit diaphragm are essential components of the permeability barrier in the kidney. Mutations in genes encoding structural proteins of the podocyte lead to the development of proteinuria, resulting in progressive kidney failure and focal segmental glomerulosclerosis. Here, we show that the canonical transient receptor potential 6 (TRPC6) ion channel is expressed in podocytes and is a component of the glomerular slit diaphragm. We identified five families with autosomal dominant focal segmental glomerulosclerosis in which disease segregated with mutations in the gene TRPC6 on chromosome 11q. Two of the TRPC6 mutants had increased current amplitudes. These data show that TRPC6 channel activity at the slit diaphragm is essential for proper regulation of podocyte structure and function.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

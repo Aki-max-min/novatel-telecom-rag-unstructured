@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4343437",
+  "title": "Role of inscuteable in orienting asymmetric cell divisions in Drosophila",
+  "content": "Drosophila neuroblasts and epithelial cells in the procephalic neurogenic region divide perpendicular to the surface, and segregate the proteins Numb and Prospero into the basal daughter cell. We demonstrate here that orientation of the mitotic spindle and correct localization of Numb and Prospero in these cells require the inscuteable gene. Moreover, ectopic expression of inscuteable in other epithelial cells leads to spindle reorientation. The Inscuteable protein localizes to the apical cell cortex before mitosis, suggesting that Inscuteable functions in establishing polarity for asymmetric cell division.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_016",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 16,
+  "text": "intention of caller is to get call back from called party and then enter into commercial communication; (bk) “Smart contract” means a functionality of intelligent and programmable code which can execute pre-determined commands or business rules set to pre-check regulatory compliance without further human intervention and suitable for DLT system to create a digital agreement, with cryptographic certainty that the agreement has been honored in the ledgers, databases or accounts of all parties to the agreement; (bl) “Smartphone” means a device with large display, predominantly with touch screen technology, fast processor and memory in the GB range. A fully-featured Operating System or platform that provides voice and data communications capabilities, enables personalization of the device by the user and in addition supports installation and maintenance of mobile applications e.g., downloadable from an Application store. (bm) “SMS” means a message which is sent through short message service and includes a Multi- Media message which is sent through Multi-Media message service (MMS); (bn) “Subscriber” means a person or legal entity who subscribes to a telecom service provided by an Access Provider; (bo) “Telecom resources” means any telegraph used to send voice call or messages; (bp) “Telemarketer” means a person or legal entity engaged in the activity of transmission or delivery of commercial communication or scrubbing or aggregation. (bq) “Telephone number” means a number which may or may not have been assigned to the subscriber of a Public Switched Telecom Network (PSTN) or a wireless access network or a mobile network from a",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

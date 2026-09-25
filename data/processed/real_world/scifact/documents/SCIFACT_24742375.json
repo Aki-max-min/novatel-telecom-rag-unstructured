@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24742375",
+  "title": "Tunable signal processing through modular control of transcription factor translocation.",
+  "content": "Signaling pathways can induce different dynamics of transcription factor (TF) activation. We explored how TFs process signaling inputs to generate diverse dynamic responses. The budding yeast general stress-responsive TF Msn2 acted as a tunable signal processor that could track, filter, or integrate signals in an input-dependent manner. This tunable signal processing appears to originate from dual regulation of both nuclear import and export by phosphorylation, as mutants with one form of regulation sustained only one signal-processing function. Versatile signal processing by Msn2 is crucial for generating distinct dynamic responses to different natural stresses. Our findings reveal how complex signal-processing functions are integrated into a single molecule and provide a guide for the design of TFs with \"programmable\" signal-processing functions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

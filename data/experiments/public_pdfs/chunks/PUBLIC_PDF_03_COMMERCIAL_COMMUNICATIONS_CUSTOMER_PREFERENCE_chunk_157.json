@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_157",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 157,
+  "text": "the consumer with the capability to direct its complaints to a centralized authority and will also restrict the unwanted solicitors’ capability to manipulate the regulatory norms. 4.2.7 Concerns from new types of calls e.g. Silent calls, Robo Calls, Auto Dialer Calls: Some stakeholders were of the view that presently it is not technically possible. As TSPs currently use analytical tools based on post-call CDR, it is technically not feasible to record and identify missed calls such as silent calls and to proactively segregate A2P & P2P calls into Robo calls, VoIP calls, obnoxious, threatening calls, etc. i. However, other stakeholders have suggested following technical solution to fight back such UCC: (a) Telecom providers can also use the call duration – silent calls originate with a barely 1 second long missed call which is an extremely rare case from a customer to customer calling context; (b) Signature solutions (pattern detection) and Honeypots to be deployed by telecom providers, designed specifically for robot/silent calls – License cancellation upon non-compliance should be mandated; (c) In the US, there is a technical approach being considered which when deployed, with various other mitigation techniques like honeypots, Black-list/white-list etc., should provide a layer of authentication and verification that would put trust back into the network and enable rapid and efficient trace-back for investigation and enforcement purposes. ii. Stakeholders also informed that the Federal Trade Commission and local industry bodies explored various approaches to stem Robo calling and spoofing. They determined that major changes to the legacy",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

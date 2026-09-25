@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_36950726",
+  "title": "Loss of 5-hydroxymethylcytosine and ten-eleven translocation 2 protein expression in malignant melanoma.",
+  "content": "Several research groups have recently reported on markedly reduced levels of 5-hydroxymethylcytosine (5hmC) in human breast, liver, lung, pancreatic, colon, prostate, brain, and myeloid cancers. We studied benign compound nevi (BCN, n=17), dysplastic compound nevi (DCN, n=15), superficial spreading melanomas [SSM, stratified in <1 mm (n=19) and >4 mm (n=18) Breslow tumor thickness], and cutaneous metastatic disease (CMD, n=24). Immunohistochemistry included specific antibodies against 5hmC, 5-methylcytosine (5mC), and ten-eleven translocation 2 protein (TET2). Immunohistological scoring showed significantly (P<0.0001) higher median 5hmC levels in BCN and DCN than in thin SSM, thick SSM, and CMD. 5mC immunoreactivity did not differ significantly (P=0.15) between nevi and melanoma. The intensity of TET2 expression was predominantly weak but was found to be significantly (P<0.0001) more often in nevi than in thin SSM, thick SSM, and CMD. We have shown that 5hmC levels and TET2 expression are significantly reduced in advanced melanomas compared with nevi and thin melanomas. It is suggested that 5hmC and TET2 possibly play an important role in the epigenetic regulation of melanoma development and progression.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

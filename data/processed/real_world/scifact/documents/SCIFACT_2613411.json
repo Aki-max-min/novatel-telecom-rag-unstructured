@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2613411",
+  "title": "Cell cycle, CDKs and cancer: a changing paradigm",
+  "content": "Tumour-associated cell cycle defects are often mediated by alterations in cyclin-dependent kinase (CDK) activity. Misregulated CDKs induce unscheduled proliferation as well as genomic and chromosomal instability. According to current models, mammalian CDKs are essential for driving each cell cycle phase, so therapeutic strategies that block CDK activity are unlikely to selectively target tumour cells. However, recent genetic evidence has revealed that, whereas CDK1 is required for the cell cycle, interphase CDKs are only essential for proliferation of specialized cells. Emerging evidence suggests that tumour cells may also require specific interphase CDKs for proliferation. Thus, selective CDK inhibition may provide therapeutic benefit against certain human neoplasias.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

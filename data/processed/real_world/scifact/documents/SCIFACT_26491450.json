@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26491450",
+  "title": "A quantitative analysis of kinase inhibitor selectivity",
+  "content": "Kinase inhibitors are a new class of therapeutics with a propensity to inhibit multiple targets. The biological consequences of multi-kinase activity are poorly defined, and an important step toward understanding the relationship between selectivity, efficacy and safety is the exploration of how inhibitors interact with the human kinome. We present interaction maps for 38 kinase inhibitors across a panel of 317 kinases representing >50% of the predicted human protein kinome. The data constitute the most comprehensive study of kinase inhibitor selectivity to date and reveal a wide diversity of interaction patterns. To enable a global analysis of the results, we introduce the concept of a selectivity score as a general tool to quantify and differentiate the observed interaction patterns. We further investigate the impact of panel size and find that small assay panels do not provide a robust measure of selectivity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

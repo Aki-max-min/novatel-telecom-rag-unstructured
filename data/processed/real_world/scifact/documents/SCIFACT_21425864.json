@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21425864",
+  "title": "A conditionally lethal yeast mutant blocked at the first step in glycosyl phosphatidylinositol anchor synthesis.",
+  "content": "Glycosyl phosphatidylinositols (GPIs) anchor many proteins to the surface of eukaryotic cells and may also serve as sorting signals on proteins and participate in signal transduction. We have isolated a Saccharomyces cerevisiae GPI anchoring mutant, gpi1, using a colony screen for cells blocked in [3H]inositol incorporation into protein. The gpi1 mutant is defective in vitro in the synthesis of N-acetylglucosaminyl phosphatidylinositol, the first intermediate in GPI synthesis, and is also temperature-sensitive for growth. Completion of the first step in GPI assembly is therefore required for growth of the unicellular eukaryote S. cerevisiae. GPI synthesis could therefore be exploited as a target for antifungal or antiparasitic agents.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

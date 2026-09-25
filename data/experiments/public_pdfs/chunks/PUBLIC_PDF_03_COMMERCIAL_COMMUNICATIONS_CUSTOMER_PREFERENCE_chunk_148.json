@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_148",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 148,
+  "text": "Introduction of this facility may require changes or defining process and requirement of specific documents. 4.1.5 More Granularity in choices for Preferences: It has been reported that many times unregistered telemarketers reach out to customers who have opted out of commercial communications for a given category, but customers are interested in the sub-category of said commercial communication. This indicates that existing categories are too broadly defined, and customers are blocking communications because of it. This also implies that if customers are given more detailed choices of categories, they may be interested in receiving UCC for these specific sub-categories. This requires capturing customers interest into finer categories and also providing options such as acceptable time of day or media type (SMS and/or voice call). Such an implementation would impact processes for CPRF, PCPR, NCPR or CPDB. 4.1.6 Widening Scope of UCC: Earlier, some calls and messages were simply annoying, and the concept of Unsolicited commercial communication coined to curb such calls and protect the interest of subscribers, while nowadays, voice call and SMS are also being used by scammers trying to steal the identity or to mislead the target for making some investments. Recently, SEBI and RBI have approached TRAI for help in controlling misuse of UCC channels by unscrupulous elements to send unauthorized investment tips or misguide in some other ways. Tracing of such miscreants is an issue. Sometimes they acquire an SMS header which resembles well-known entities in the market to misguide the recipient into believing that the advice",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

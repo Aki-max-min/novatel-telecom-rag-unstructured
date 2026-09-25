@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_76776022",
+  "title": "Behçet's disease associated with a lymphoproliferative disorder, mixed cryoglobulinemia, and an immune complex mediated vasculitis.",
+  "content": "Abstract A woman, now 59 has been followed for 13 years with several manifestations of Behcet's disease. These were aphthous stomatitis, genital ulcers, uveitis causing blindness, recurrent erythema nodosum, and synovitis. In 1970 a poorly differentiated diffuse lymphocytic lymphoma appeared and was treated with radiotherapy. In 1976 she developed a mixed cryoglobulinemia and an immune complex mediated vasculitis manifested by purpura and neuropathy which improved on prednisone and chlorambucil therapy. The subsequent course of her lymphoproliferative disorder suggest that it was in fact benign.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

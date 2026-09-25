@@ -1,0 +1,15 @@
+{
+  "page_id": 100,
+  "pdf_path": "regulations\\02_consumer_complaint_redressal.pdf",
+  "pdf_name": "02_consumer_complaint_redressal.pdf",
+  "document_id": "02_consumer_complaint_redressal",
+  "page_number": 23,
+  "page_number_zero_based": 22,
+  "image_path": "page_images\\02_consumer_complaint_redressal\\page_0023.jpg",
+  "embedding_path": "embeddings\\02_consumer_complaint_redressal\\page_0023.pt",
+  "embedding_shape": [
+    1,
+    1030,
+    128
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_007",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 7,
+  "text": "records of header(s), its purpose of sending commercial communications and details of sender to whom it is assigned in a safe and secure manner; “Header Registrar” is an authorised entity under relevant regulations responsible for maintaining the header register, header registration facility and header verification facility; “Immutable” means data added to the distributed ledger after achieving consensus, which thereafter is unchangeable, secure and preserved for the life of the ledger; “Inferred Consent” means any permission that can be reasonably inferred from the customer’s conduct or the Relationship between the Recipient and the Sender; 5 “Message” shall have the meaning assigned to it in clause (3) of section 3 of the Indian Telegraph Act, 1885 (13 of 1885); “National Numbering Plan” (NNP) means the National Numbering Plan issued by DoT from time to time; “Node” means participants on a distributed ledger having particular rights to read or write data; “Non-repudiable” means (i) making available proof of various network-related actions (such as proof of obligation, intent, or commitment; proof of data origin, proof of ownership, proof of resource use) so that an individual or entity cannot deny having performed a particular action; (ii) ensuring the availability of evidence that can be presented to Authority and used to prove that some kind of event or action has taken place; “One Time Password or OTP” means an automatically generated random number used to authenticate the action of user for a single transaction or session. “Originating Access Provider” (OAP) means the Access Provider who has",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

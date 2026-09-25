@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22901758",
+  "title": "Hedgehog signaling regulates brain tumor-initiating cell proliferation and portends shorter survival for patients with PTEN-coexpressing glioblastomas.",
+  "content": "The identification of brain tumor stem-like cells (BTSCs) has implicated a role of biological self-renewal mechanisms in clinical brain tumor initiation and propagation. The molecular mechanisms underlying the tumor-forming capacity of BTSCs, however, remain unknown. Here, we have generated molecular signatures of glioblastoma multiforme (GBM) using gene expression profiles of BTSCs and have identified both Sonic Hedgehog (SHH) signaling-dependent and -independent BTSCs and their respective glioblastoma surgical specimens. BTSC proliferation could be abrogated in a pathway-dependent fashion in vitro and in an intracranial tumor model in athymic mice. Both SHH-dependent and -independent brain tumor growth required phosphoinositide 3-kinase-mammalian target of rapamycin signaling. In human GBMs, the levels of SHH and PTCH1 expression were significantly higher in PTEN-expressing tumors than in PTEN-deficient tumors. In addition, we show that hyperactive SHH-GLI signaling in PTEN-coexpressing human GBM is associated with reduced survival time. Thus, distinct proliferation signaling dependence may underpin glioblastoma propagation by BTSCs. Modeling these BTSC proliferation mechanisms may provide a rationale for individualized glioblastoma treatment.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

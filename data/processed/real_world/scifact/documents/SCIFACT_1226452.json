@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1226452",
+  "title": "hnRNP A1 associates with telomere ends and stimulates telomerase activity.",
+  "content": "Telomerase is a ribonucleoprotein enzyme complex that reverse-transcribes an integral RNA template to add short DNA repeats to the 3'-ends of telomeres. G-quadruplex structure in a DNA substrate can block its extension by telomerase. We have found that hnRNP A1--which was previously implicated in telomere length regulation--binds to both single-stranded and structured human telomeric repeats, and in the latter case, it disrupts their higher-order structure. Using an in vitro telomerase assay, we observed that depletion of hnRNP A/B proteins from 293 human embryonic kidney cell extracts dramatically reduced telomerase activity, which was fully recovered upon addition of purified recombinant hnRNP A1. This finding suggests that hnRNP A1 functions as an auxiliary, if not essential, factor of telomerase holoenzyme. We further show, using chromatin immunoprecipitation, that hnRNP A1 associates with human telomeres in vivo. We propose that hnRNP A1 stimulates telomere elongation through unwinding of a G-quadruplex or G-G hairpin structure formed at each translocation step.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

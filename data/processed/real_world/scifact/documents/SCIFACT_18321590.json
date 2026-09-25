@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18321590",
+  "title": "Resazurin microtiter assay plate: simple and inexpensive method for detection of drug resistance in Mycobacterium tuberculosis.",
+  "content": "A method for detecting multidrug-resistant Mycobacterium tuberculosis by using a reduction of resazurin is described. Eighty clinical isolates were evaluated against isoniazid and rifampin; results at 7 days were compared with those of the proportion method. Specificity and sensitivity were excellent. The method is simple, inexpensive, and rapid and might be used with other antituberculosis drugs.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

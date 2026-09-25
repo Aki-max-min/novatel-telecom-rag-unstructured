@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_37488367",
+  "title": "Attention-deficit hyperactivity disorder: a category or a continuum? Genetic analysis of a large-scale twin study.",
+  "content": "OBJECTIVE To investigate heritability and continuum versus categorical approaches to attention-deficit hyperactivity disorder (ADHD), using a large-scale twin sample. METHOD A cohort of 1,938 families with twins and siblings aged 4 to 12 years, recruited from the Australian National Health and Medical Research Council Twin Registry, was assessed for ADHD using a DSM-III-R-based maternal rating scale. Probandwise concordance rates and correlations in monozygotic and dizygotic twins and siblings were calculated, and heritability was examined using the De Fries and Fulker regression technique. RESULTS There was a narrow (additive) heritability of 0.75 to 0.91 which was robust across familial relationships (twin, sibling, and twin-sibling) and across definitions of ADHD as part of a continuum or as a disorder with various symptom cutoffs. There was no evidence for nonadditive genetic variation or for shared family environmental effects. CONCLUSIONS These findings suggest that ADHD is best viewed as the extreme of a behavior that varies genetically throughout the entire population rather than as a disorder with discrete determinants. This has implications for the classification of ADHD and for the identification of genes for this behavior, as well as implications for diagnosis and treatment.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

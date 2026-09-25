@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_40760684",
+  "title": "Structural overview of the nuclear receptor superfamily: insights into physiology and therapeutics.",
+  "content": "As ligand-regulated transcription factors, the nuclear hormone receptors are nearly ideal drug targets, with internal pockets that bind to hydrophobic, drug-like molecules and well-characterized ligand-induced conformational changes that recruit transcriptional coregulators to promoter elements. Yet, due to the multitude of genes under the control of a single receptor, the major challenge has been the identification of ligands with gene-selective actions, impacting disease outcomes through a narrow subset of target genes and not across their entire gene-regulatory repertoire. Here, we summarize the concepts and work to date underlying the development of steroidal and nonsteroidal receptor ligands, including the use of crystal structures, high-throughput screens, and rational design approaches for finding useful therapeutic molecules. Difficulties in finding selective receptor modulators require a more complete understanding of receptor interdomain communications, posttranslational modifications, and receptor-protein interactions that could be exploited for target gene selectivity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

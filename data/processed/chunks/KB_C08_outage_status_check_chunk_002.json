@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C08_outage_status_check_chunk_002",
+  "document_id": "KB_C08_outage_status_check",
+  "chunk_index": 2,
+  "text": "window, ensuring no request is left without a defined next action. ## Related Issues - A similar symptom can appear for a related but distinct request type; confirm the exact request before applying this fix. ## Related Documents Related documents: FAQ_C08_001.",
+  "title": "How to Check and Report a Network Outage",
+  "document_type": "KB Article",
+  "category": "C08",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-09",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C08_001"
+  ],
+  "tags": [
+    "c08",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C08_outage_status_check.md",
+  "file_type": "markdown"
+}

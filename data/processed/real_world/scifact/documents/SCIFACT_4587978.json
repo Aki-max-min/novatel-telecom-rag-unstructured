@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4587978",
+  "title": "Mutation of the Human Circadian Clock Gene CRY1 in Familial Delayed Sleep Phase Disorder",
+  "content": "Patterns of daily human activity are controlled by an intrinsic circadian clock that promotes ∼24 hr rhythms in many behavioral and physiological processes. This system is altered in delayed sleep phase disorder (DSPD), a common form of insomnia in which sleep episodes are shifted to later times misaligned with the societal norm. Here, we report a hereditary form of DSPD associated with a dominant coding variation in the core circadian clock gene CRY1, which creates a transcriptional inhibitor with enhanced affinity for circadian activator proteins Clock and Bmal1. This gain-of-function CRY1 variant causes reduced expression of key transcriptional targets and lengthens the period of circadian molecular rhythms, providing a mechanistic link to DSPD symptoms. The allele has a frequency of up to 0.6%, and reverse phenotyping of unrelated families corroborates late and/or fragmented sleep patterns in carriers, suggesting that it affects sleep behavior in a sizeable portion of the human population.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_109",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 109,
+  "text": "with well-known entities. v. Further suggestion received was that the proximity match could be resolved on the same principle as wherein first preference should be given to party having registered trademark for a particular brand name and in case neither party has a registered trademark then the party who has first put to use the said brand name would be given preference over the other party(ies). 3.2.8 Transactional Voice Calls for Senders and technology solutions to display identity to the recipients: i. Most of the service providers, except few, have supported the idea of permitting TMSEs to make voice calls. They also supported the allocation of separate number series for TMSEs. One service provider has commented that segregation already exists for promotional calls. ii. Few stakeholders have commented that it may provide ways to customers to identify calling TMSE. It may provide flexibility to TMSEs in operating it and give them better control on their authorized entities. iii. Some stakeholders had the opinion that in case of permitting transactional voice calls: § It should be allowed only for pure transactional purposes § Customers may be provided with an option to opt-out of such voice call § Measures may be required to be taken to ensure that there is no scope for misuse § It may lead to complaints regarding usage of transaction pipe for promotions 62 iv. One of the stakeholders suggested solutions to identify calling TMSE using Intelligent network (IN) or IP Multi-media subsystem (IMS) based solutions. v. Another",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

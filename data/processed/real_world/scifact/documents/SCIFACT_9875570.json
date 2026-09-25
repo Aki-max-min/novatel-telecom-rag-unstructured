@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_9875570",
+  "title": "DNA replication fidelity",
+  "content": "DNA replication fidelity is a key determinant of genome stability and is central to the evolution of species and to the origins of human diseases. Here we review our current understanding of replication fidelity, with emphasis on structural and biochemical studies of DNA polymerases that provide new insights into the importance of hydrogen bonding, base pair geometry, and substrate-induced conformational changes to fidelity. These studies also reveal polymerase interactions with the DNA minor groove at and upstream of the active site that influence nucleotide selectivity, the efficiency of exonucleolytic proofreading, and the rate of forming errors via strand misalignments. We highlight common features that are relevant to the fidelity of any DNA synthesis reaction, and consider why fidelity varies depending on the enzymes, the error, and the local sequence environment.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

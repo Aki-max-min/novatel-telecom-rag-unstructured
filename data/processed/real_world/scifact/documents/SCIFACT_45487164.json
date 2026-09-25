@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_45487164",
+  "title": "A sperm cytoskeletal protein that signals oocyte meiotic maturation and ovulation.",
+  "content": "Caenorhabditis elegans oocytes, like those of most animals, arrest during meiotic prophase. Sperm promote the resumption of meiosis (maturation) and contraction of smooth muscle-like gonadal sheath cells, which are required for ovulation. We show that the major sperm cytoskeletal protein (MSP) is a bipartite signal for oocyte maturation and sheath contraction. MSP also functions in sperm locomotion, playing a role analogous to actin. Thus, during evolution, MSP has acquired extracellular signaling and intracellular cytoskeletal functions for reproduction. Proteins with MSP-like domains are found in plants, fungi, and other animals, suggesting that related signaling functions may exist in other phyla.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

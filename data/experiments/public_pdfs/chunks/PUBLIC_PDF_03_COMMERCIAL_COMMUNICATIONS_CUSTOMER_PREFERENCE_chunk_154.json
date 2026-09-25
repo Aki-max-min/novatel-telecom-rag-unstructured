@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_154",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 154,
+  "text": "TRAI should release an API or a kind of a standardized way that could be prescribed that any application which actually seeks to take care of this UCC problem. Some stakeholders had confidence that once industry establishes a standard, the industry will surely come up with the creative solution to enforce compliance. 4.2.3 Retention of Registration Status during MNP process: Almost all stakeholders supported the idea of retaining the customer preferences in NCPR as it is i.e. neither de-registering nor re-registering the preferences. 4.2.4 Preference Registration in Bulk and by somebody on his behalf: One stakeholder commented to create Digital Customer Profile which can be controlled, accessed and managed by the user. 4.2.5 Granular choices for Preferences: Most of the stakeholders supported the introduction of more granularity after a cost-benefit analysis, while some stakeholders opposed it on the ground that it will complicate the process and increase the implementation period. i. Some stakeholders also argued that additional choices of preferences will impact on CPRF, PCPR, NCPR or CPDB systems and these systems will become more complex and may impact their performance and response time. This may also affect online scrubbing as a service due to overload on the NCPR system. Therefore, the existing system may continue. ii. One stakeholder suggested that granular preferences would be relatively easier to add for the customer on the app – other avenues like SMS or email mode of registering would be a challenge. High level of specificity in choices can help serve desired objective",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

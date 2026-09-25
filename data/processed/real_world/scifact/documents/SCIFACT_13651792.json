@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13651792",
+  "title": "Human IRGM Regulates Autophagy and Its Cell-Autonomous Immunity Functions Through Mitochondria",
+  "content": "IRGM, a human immunity-related GTPase, confers autophagic defence against intracellular pathogens by an unknown mechanism. Here, we report an unexpected mode of IRGM action. IRGM demonstrated differential affinity for the mitochondrial lipid cardiolipin, translocated to mitochondria, affected mitochondrial fission and induced autophagy. Mitochondrial fission was necessary for autophagic control of intracellular mycobacteria by IRGM. IRGM influenced mitochondrial membrane polarization and cell death. Overexpression of IRGMd, but not IRGMb splice isoforms, caused mitochondrial depolarization and autophagy-independent, but Bax/Bak-dependent, cell death. By acting on mitochondria, IRGM confers autophagic protection or cell death, explaining IRGM action both in defence against tuberculosis and in the damaging inflammation caused by Crohn's disease.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

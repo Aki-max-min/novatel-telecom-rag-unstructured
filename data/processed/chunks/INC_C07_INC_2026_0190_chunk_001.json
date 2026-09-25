@@ -1,0 +1,21 @@
+{
+  "chunk_id": "INC_C07_INC_2026_0190_chunk_001",
+  "document_id": "INC_C07_INC_2026_0190",
+  "chunk_index": 1,
+  "text": "pattern; this was confirmed or revised during investigation. ## Investigation The response team correlated alarm data, affected-site/customer patterns, and any recent change or third-party activity in the area to isolate the fault to a specific component or cause before applying a fix. ## Resolution Service was restored per the timeline above. A follow-up Root Cause Analysis is tracked separately where applicable (see related_ids). ## Recovery Validation Restoration was confirmed via monitoring returning to baseline and, where applicable, spot checks with affected customers before the incident was formally closed. ## Preventive Actions Preventive/corrective actions arising from this incident are tracked in the linked RCA document, where one was raised. ## Lessons Learned This incident highlighted a monitoring or process gap that has been fed into the relevant preventive-action programme. ## Related Documents No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
+  "title": "Roaming Pack Activation Failures",
+  "document_type": "Incident Report",
+  "category": "C07",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "p2",
+    "pan-india"
+  ],
+  "file_path": "data\\raw\\unstructured\\incidents\\INC_C07_INC_2026_0190.md",
+  "file_type": "markdown"
+}

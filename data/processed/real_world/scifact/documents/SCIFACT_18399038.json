@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_18399038",
+  "title": "Establishment of human iPSC-based models for the study and targeting of glioma initiating cells",
+  "content": "Glioma tumour-initiating cells (GTICs) can originate upon the transformation of neural progenitor cells (NPCs). Studies on GTICs have focused on primary tumours from which GTICs could be isolated and the use of human embryonic material. Recently, the somatic genomic landscape of human gliomas has been reported. RTK (receptor tyrosine kinase) and p53 signalling were found dysregulated in ∼90% and 86% of all primary tumours analysed, respectively. Here we report on the use of human-induced pluripotent stem cells (hiPSCs) for modelling gliomagenesis. Dysregulation of RTK and p53 signalling in hiPSC-derived NPCs (iNPCs) recapitulates GTIC properties in vitro. In vivo transplantation of transformed iNPCs leads to highly aggressive tumours containing undifferentiated stem cells and their differentiated derivatives. Metabolic modulation compromises GTIC viability. Last, screening of 101 anti-cancer compounds identifies three molecules specifically targeting transformed iNPCs and primary GTICs. Together, our results highlight the potential of hiPSCs for studying human tumourigenesis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

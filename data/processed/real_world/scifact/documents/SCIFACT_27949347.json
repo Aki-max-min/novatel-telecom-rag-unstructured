@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27949347",
+  "title": "Putting p53 in Context",
+  "content": "TP53 is the most frequently mutated gene in human cancer. Functionally, p53 is activated by a host of stress stimuli and, in turn, governs an exquisitely complex anti-proliferative transcriptional program that touches upon a bewildering array of biological responses. Despite the many unveiled facets of the p53 network, a clear appreciation of how and in what contexts p53 exerts its diverse effects remains unclear. How can we interpret p53's disparate activities and the consequences of its dysfunction to understand how cell type, mutation profile, and epigenetic cell state dictate outcomes, and how might we restore its tumor-suppressive activities in cancer?",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

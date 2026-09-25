@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_169",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 169,
+  "text": "because of its improper functioning or may be deliberately misused to make commercial communications in a disguised manner. In cases of complaints against UCC, normal procedure is to verify occurrence of communication by verifying call detail records, which may be misleading in cases of return calls to missed calls where call logs may suggest that the communication originated from the customer’s side. Auto dialer may also lead to abandoning of calls due to paucity of human resources available at particular moment to deal with answered calls. The Authority decides that no sender registered for making commercial communication should initiate calls with an Auto dialer that may result in silent or abandoned calls. Further, the sender must notify the originating access provider, if auto dialer is being used to make commercial communication and taken steps to maintain abandoned calls within the limits provided for in these regulations or Code(s) of Practice. Regarding Robo calls, it is required to collect more information about the character and incidences of such Calls and take action take at the appropriate time. 4.3.16 Issues and concerns from Auto Dialler calls have been noticed in other jurisdictions as well. For example, telecom regulator OFCOM and Information Commissioner’s Office (ICO) from United Kingdom (UK) and Federal Trade Commission (FTC) from United States of Americas (USA) have provisions to take actions to control nuisance from auto dialler calls. Use of Auto dialler by UTMs may come into notice via complaints and reports from the customers. Inputs from honeypots and",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

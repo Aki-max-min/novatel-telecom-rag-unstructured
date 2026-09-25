@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_112",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 112,
+  "text": "case of Madhya Pradesh (MP) LSA, if a TSP is found non-compliant for a specific parameter in states like MP as well as MP LSA, it is bound to attract double FD, both for the state as well as LSA. (c) Huge increase in Compliance Instances (i) 22 geographies (22 LSAs) for compliance becoming 58 geographies (22 LSAs + 36 State/UTs), (ii) Quarterly assessment to Monthly assessment (3 times) and (iii) new parameters for compliance/monitoring, will lead to huge multi-fold increase in number of compliance instances as well as reporting requirements. This would lead to huge increase in compliance instances and reporting instances being put on the TSPs, that too without any detailed study or surveys. (b) Analysis and Conclusion (i) Averaging over a large service area, especially consisting of more than one State or Union Territory, is another reason due to which QoS performance in some states or districts get averaged out with somewhat better performance in other States under present QoS framework. This averaging effect may result in continuous poor QoS in certain districts or in a smaller State despite the service providers meeting prescribed benchmarks at authorized service area level. To enable granular insight of QoS being delivered by the service providers, the draft regulation proposed monitoring of performance at LSA and State/UT level. Further, the draft regulation also proposed that the Authority may also monitor QoS performance at the district level. (ii) Most of the ICT-based schemes of the Central Government or Schemes launched by the",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

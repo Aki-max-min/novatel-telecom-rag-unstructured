@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_010",
+  "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+  "chunk_index": 10,
+  "text": "for the Quarter ending Year Postpaid Prepaid Postpaid Prepaid Benchmark - - - - ≥ 98% - ≤ 5 ≥ 85% - ≥ 99% ≤ 10 hrs ≤ 0.5% - - - ≤ 0.1% - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Details of exclusions, if any (Please mention date and time along with reason, the performance of which is excluded from overall performance) Service Provisioning Total number of connections for which demand note paid by the customer Total number of connections provisioned after 7 working days of payment of demand note Billing and charging complaints LSA Code Number of Subscribers at the end of reporting period Total no. of faults reported Fault Repair No. of faults repaired after three working days No. of subscribers, to whom rent rebate/ validity extension provided Provision of a service within 7 working days of payment of demand note by the customer Performance Monitoring Report for Access service (wireline) Billing and charging complaints not found valid Number of total billing and charging complaints reported",
+  "title": "10 qos submission reports direction",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/10_qos_submission_reports_direction.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21150010",
+  "title": "Treatment with cyclooxygenase-2 inhibitors enables repeated administration of vaccinia virus for control of ovarian cancer.",
+  "content": "Metastatic ovarian cancer is the leading cause of death among women with gynecologic malignancies in the United States. The lack of effective treatment for patients with advanced ovarian cancer warrants development of innovative therapies. Cancer therapy using oncolytic viruses represents a promising new approach for controlling tumors. Vaccinia virus has been shown to preferentially infect tumor cells but not normal tissue. However, oncolytic therapy using recombinant viruses faces the limitation of viral clearance due to generation of neutralizing antibodies. In the current study, we found that cyclooxygenase-2 (Cox-2) inhibitors circumvented this limitation, enabling repeated administration of vaccinia virus without losing infectivity. We quantified the antivaccinia antibody response using enzyme-linked immunosorbent assay (ELISA) and neutralization assays to show that treatment of Cox-2 inhibitors inhibited the generation of neutralizing antibodies. Furthermore, we showed that combination treatment of Cox-2 inhibitors with vaccinia virus was more effective that either treatment alone in treating MOSEC/luc tumor-bearing mice. Thus, the combination of Cox-2 inhibitors and vaccinia virus represents a potential innovative approach to controlling ovarian tumors.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

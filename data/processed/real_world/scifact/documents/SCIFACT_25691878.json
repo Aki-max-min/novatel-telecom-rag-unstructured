@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_25691878",
+  "title": "Political and economic aspects of the transition to universal health coverage.",
+  "content": "Countries have reached universal health coverage by different paths and with varying health systems. Nonetheless, the trajectory toward universal health coverage regularly has three common features. The first is a political process driven by a variety of social forces to create public programmes or regulations that expand access to care, improve equity, and pool financial risks. The second is a growth in incomes and a concomitant rise in health spending, which buys more health services for more people. The third is an increase in the share of health spending that is pooled rather than paid out-of-pocket by households. This pooled share is sometimes mobilised as taxes and channelled through governments that provide or subsidise care--in other cases it is mobilised in the form of contributions to mandatory insurance schemes. The predominance of pooled spending is a necessary condition (but not sufficient) for achieving universal health coverage. This paper describes common patterns in countries that have successfully provided universal access to health care and considers how economic growth, demographics, technology, politics, and health spending have intersected to bring about this major development in public health.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

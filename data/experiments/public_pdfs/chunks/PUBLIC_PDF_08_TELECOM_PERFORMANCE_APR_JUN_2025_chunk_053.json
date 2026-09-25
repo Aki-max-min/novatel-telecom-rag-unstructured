@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_053",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 53,
+  "text": "(DSL, FTTx, Ethernet/LAN, Cable Modem, ILL) Broadband 41.39 44.69 7.98% Narrowband 0.019 0.020 3.33% Total 41.41 44.71 7.98% Wireless Fixed Wireless Internet (FWA-5G, Wi-Fi, Wi-Max, Radio, Satellite) Broadband 4.89 8.21 67.75% Narrowband 0.002 0.003 23.57% Total 4.90* 8.21 67.73% Mobile Internet (Handset/Dongle based) Broadband 897.84 926.81 3.23% Narrowband 24.96 23.12 -7.37% Total 922.80 949.93 2.94% Total Internet Subscribers Broadband 944.12 979.71 3.77% Narrowband 24.98 23.14 -7.36% Total 969.10 1002.85 3.48% * For Mar-25, the report was prepared considering the last reported (Nov-2024) internet subscription data submitted by M/s RJIL and M/s Bharti Airtel Ltd., since the requisite internet subscription data was not submitted by the TSPs, in the prescribed report format. 1.49 The following charts present the composition of Internet Subscribers by mode of access and composition of Broadband & Narrowband subscription as on 30th June, 2025. Chart 1.15: Composition of Internet subscription 44 1.50 Out of total internet subscribers, 94.72% subscribers are using Mobile devices for access of internet service. Wired internet subscribers are only 4.46% in total internet subscribers at the end of Jun-25. Chart 1.16: Composition of Broadband & Narrowband subscription 1.51 Out of total internet subscribers, 97.69% subscribers are using broadband for access of internet. 1.52 Share of private internet service providers in total internet subscriber base is 96% and PSUs is 4% at QE Jun-25. The following charts present the composition of market share of PSUs and Private Internet service providers in Total Internet Subscription: - 45 Chart 1.17: Market share of PSUs and Private",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

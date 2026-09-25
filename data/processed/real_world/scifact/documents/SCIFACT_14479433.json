@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14479433",
+  "title": "Mutations in the nuclear bile acid receptor FXR cause progressive familial intrahepatic cholestasis",
+  "content": "Neonatal cholestasis is a potentially life-threatening condition requiring prompt diagnosis. Mutations in several different genes can cause progressive familial intrahepatic cholestasis, but known genes cannot account for all familial cases. Here we report four individuals from two unrelated families with neonatal cholestasis and mutations in NR1H4, which encodes the farnesoid X receptor (FXR), a bile acid-activated nuclear hormone receptor that regulates bile acid metabolism. Clinical features of severe, persistent NR1H4-related cholestasis include neonatal onset with rapid progression to end-stage liver disease, vitamin K-independent coagulopathy, low-to-normal serum gamma-glutamyl transferase activity, elevated serum alpha-fetoprotein and undetectable liver bile salt export pump (ABCB11) expression. Our findings demonstrate a pivotal function for FXR in bile acid homeostasis and liver protection.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

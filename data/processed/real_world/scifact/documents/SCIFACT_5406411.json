@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5406411",
+  "title": "Amphiregulin enhances regulatory T cell-suppressive function via the epidermal growth factor receptor.",
+  "content": "Epidermal growth factor receptor (EGFR) is known to be critically involved in tissue development and homeostasis as well as in the pathogenesis of cancer. Here we showed that Foxp3(+) regulatory T (Treg) cells express EGFR under inflammatory conditions. Stimulation with the EGF-like growth factor Amphiregulin (AREG) markedly enhanced Treg cell function in vitro, and in a colitis and tumor vaccination model we showed that AREG was critical for efficient Treg cell function in vivo. In addition, mast cell-derived AREG fully restored optimal Treg cell function. These findings reveal EGFR as a component in the regulation of local immune responses and establish a link between mast cells and Treg cells. Targeting of this immune regulatory mechanism may contribute to the therapeutic successes of EGFR-targeting treatments in cancer patients.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

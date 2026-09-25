@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_42950029",
+  "title": "Diagnosis of rotator cuff tears.",
+  "content": "Rotator cuff tears account for almost 50% of major shoulder injuries but are sometimes difficult to diagnose. To aid diagnosis, we did a prospective study, comparing results of 23 clinical tests from 400 patients with and without rotator cuff tears. Three simple tests were predictive for rotator cuff tear: supraspinatus weakness, weakness in external rotation, and impingement. When all three were positive, or if two tests were positive and the patient was aged 60 or older, the individual had a 98% chance of having a rotator cuff tear; combined absence of these features excluded this diagnosis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

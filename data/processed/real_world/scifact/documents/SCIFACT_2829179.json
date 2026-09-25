@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2829179",
+  "title": "Pre-eclampsia: connecting angiogenic and metabolic pathways.",
+  "content": "Pre-eclampsia is a hypertensive disease of pregnancy with a worldwide incidence of 5-8%. This review focuses on recent developments in pre-eclampsia research related to angiogenesis and metabolism. We first address the 'angiogenic imbalance' theory, which hypothesizes that pre-eclampsia results from an imbalance of factors that promote or antagonize angiogenesis, such as soluble fms-like tyrosine kinase (sFlt1), 2-methoxyestradiol (2-ME) and catechol-O-methyltransferase (COMT). Next, we analyze the association between pre-eclampsia and dysfunctional metabolism of both homocysteine and placental glycogen. We hope that illuminating some of the various connections existing between angiogenesis and metabolism in pre-eclampsia will facilitate the update or reconsideration of old models of pathogenesis.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

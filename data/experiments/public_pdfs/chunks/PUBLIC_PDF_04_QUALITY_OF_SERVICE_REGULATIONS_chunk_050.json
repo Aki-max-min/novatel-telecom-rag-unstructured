@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_050",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 50,
+  "text": "calculate the performance against both the DCR related parameters, first step is to organize the DCR data in matrix form separately for Circuit Switched (CS) and Packet Switched (PS) network, where each row represents the DCR values for individual cells over the days arranged in chronological order as columns i.e. the daily DCR values for the assessment period. The day wise DCR performance shall be arranged for all cells in the LSA. 115 (c) Now, DCR values for all days of the assessment period for each cell will be arranged in ascending order. Thus, the worst DCR values of a cell irrespective of date will slide to the rightmost part of the DCR matrix. ‘t’ percentile of the daily time-series of DCR values of each cell, may be considered as representative DCR for that cell during the period of assessment. This representative DCR value of each cell may be called Cell_Q(t). (d) The rows, previously sorted over time, are next sorted in ascending order of their representative Cell_Q(t) DCR values identified in the previous step. The ‘s’ percentile DCR value is extracted from the resulting vector of ordered, representative Cell_Q(t) DCR values of each cell. Unlike the previous step, we will obtain a single value, which we may refer to as QSD(s, t). (e) The QSD(s, t) so derived using the DCR matrix of cells of Circuit Switched (CS) network will be the performance against parameter ‘DCR Spatial Distribution Measure for Circuit Switched (2G/3G) network [CS_QSD (s, t)]’. Similarly QSD(s,",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

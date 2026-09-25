@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_43602749",
+  "title": "The NBS1–Treacle complex controls ribosomal RNA transcription in response to DNA damage",
+  "content": "Chromosome breakage elicits transient silencing of ribosomal RNA synthesis, but the mechanisms involved remained elusive. Here we discover an in trans signalling mechanism that triggers pan-nuclear silencing of rRNA transcription in response to DNA damage. This is associated with transient recruitment of the Nijmegen breakage syndrome protein 1 (NBS1), a central regulator of DNA damage responses, into the nucleoli. We further identify TCOF1 (also known as Treacle), a nucleolar factor implicated in ribosome biogenesis and mutated in Treacher Collins syndrome, as an interaction partner of NBS1, and demonstrate that NBS1 translocation and accumulation in the nucleoli is Treacle dependent. Finally, we provide evidence that Treacle-mediated NBS1 recruitment into the nucleoli regulates rRNA silencing in trans in the presence of distant chromosome breaks.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

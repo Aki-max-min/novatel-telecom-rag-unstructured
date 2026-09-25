@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1769799",
+  "title": "The ins and outs of DNA transfer in bacteria.",
+  "content": "Transformation and conjugation permit the passage of DNA through the bacterial membranes and represent dominant modes for the transfer of genetic information between bacterial cells or between bacterial and eukaryotic cells. As such, they are responsible for the spread of fitness-enhancing traits, including antibiotic resistance. Both processes usually involve the recognition of double-stranded DNA, followed by the transfer of single strands. Elaborate molecular machines are responsible for negotiating the passage of macromolecular DNA through the layers of the cell surface. All or nearly all the machine components involved in transformation and conjugation have been identified, and here we present models for their roles in DNA transport.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

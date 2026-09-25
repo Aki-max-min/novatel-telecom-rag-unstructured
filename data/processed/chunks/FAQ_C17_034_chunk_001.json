@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C17_034_chunk_001",
+  "document_id": "FAQ_C17_034",
+  "chunk_index": 1,
+  "text": "suspension per licence conditions — this makes prompt action the relevant response rather than a support escalation. ### Example Scenario **Customer situation:** A customer receives a KYC re-verification request with a deadline and checks whether Video KYC is available to them. **What happens:** If Video KYC is enabled in their circle, they can complete it in-app under Account > KYC Update; if not, an in-store visit with original ID is required before the notified window closes. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C17_overview. Topic: KYC & Identity Verification",
+  "title": "How do I complete re-verification if I'm asked to update my KYC?",
+  "document_type": "FAQ",
+  "category": "C17",
+  "department": "Compliance",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-07-12",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C17_overview"
+  ],
+  "tags": [
+    "kyc",
+    "c17"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C17_034.json",
+  "file_type": "json"
+}

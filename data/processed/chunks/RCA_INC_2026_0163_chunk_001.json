@@ -1,0 +1,23 @@
+{
+  "chunk_id": "RCA_INC_2026_0163_chunk_001",
+  "document_id": "RCA_INC_2026_0163",
+  "chunk_index": 1,
+  "text": "per the incident timeline; see linked incident report for full detail. Corrective Actions Add a pre-execution duplicate-trigger check to the billing batch framework (target: 30 days). Introduce a mandatory dry-run validation gate for all scheduler configuration changes affecting billing (target: 45 days). Add a pre-completion alert threshold so duplicate runs are caught before charges are finalised, not only after. Preventive Actions Longer-term preventive measures are tracked alongside the corrective actions above and reviewed at the next governance cycle. Monitoring Changes Monitoring thresholds/alerts relevant to this failure mode are reviewed and updated where the investigation identified a detection gap. Ownership Action 1 completed; Actions 2-3 in progress; owner: Billing Engineering team. Status Action 1 completed; Actions 2-3 in progress; owner: Billing Engineering team. Related Documents Related documents: INC_INC_2026_0163.",
+  "title": "RCA: Duplicate Postpaid Billing Cycle Run (INC-2026-0163)",
+  "document_type": "RCA",
+  "category": "C04",
+  "department": "Billing",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "INC_INC_2026_0163"
+  ],
+  "tags": [
+    "c04",
+    "rca"
+  ],
+  "file_path": "data\\raw\\unstructured\\rca\\RCA_INC_2026_0163.docx",
+  "file_type": "docx"
+}

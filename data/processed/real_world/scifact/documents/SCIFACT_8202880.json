@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8202880",
+  "title": "BIOINFORMATICS APPLICATIONS NOTE",
+  "content": "SUMMARY MADE4, microarray ade4, is a software package that facilitates multivariate analysis of microarray gene-expression data. MADE4 accepts a wide variety of gene-expression data formats. MADE4 takes advantage of the extensive multivariate statistical and graphical functions in the R package ade4, extending these for application to microarray data. In addition, MADE4 provides new graphical and visualization tools that aid in interpretation of multivariate analysis of microarray data.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

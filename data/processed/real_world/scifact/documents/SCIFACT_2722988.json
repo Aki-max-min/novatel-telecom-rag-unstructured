@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2722988",
+  "title": "The Mammalian Epigenome",
+  "content": "Chemical modifications to DNA and histone proteins form a complex regulatory network that modulates chromatin structure and genome function. The epigenome refers to the complete description of these potentially heritable changes across the genome. The composition of the epigenome within a given cell is a function of genetic determinants, lineage, and environment. With the sequencing of the human genome completed, investigators now seek a comprehensive view of the epigenetic changes that determine how genetic information is made manifest across an incredibly varied background of developmental stages, tissue types, and disease states. Here we review current research efforts, with an emphasis on large-scale studies, emerging technologies, and challenges ahead.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

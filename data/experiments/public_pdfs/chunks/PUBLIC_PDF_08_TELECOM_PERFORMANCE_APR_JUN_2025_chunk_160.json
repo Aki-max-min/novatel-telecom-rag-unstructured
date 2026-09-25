@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_160",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 160,
+  "text": "of unique Wi-Fi Users Aggregate Data Consumed (TB) during the Quarter (Apr-Jun, 25) 1 Andhra Pradesh 2214 5218 171518 472 2 Arunachal Pradesh 477 1006 890 6 3 Assam 774 1690 132817 395 4 Bihar 2179 5406 692424 1657 5 Chattisgarh 648 2424 80670 255 6 Goa 146 515 11595 29 7 Gujarat 10554 17384 176256 1575 8 Haryana 1099 1973 92002 190 9 Himachal Pradesh 868 1499 9172 22 10 Jharkhand 554 1467 200599 595 11 Karnataka 3377 13178 126649 349 12 Kerala 3635 7805 251397 492 13 Madhya Pradesh 3466 6797 284775 660 14 Maharashtra incl. Mumbai 5297 24386 944319 1744 15 Manipur 75 258 112 0 16 Meghalaya 171 467 2358 45 17 Mizoram 31 97 298 0 18 Nagaland 86 274 4360 11 19 Odisha 1135 2491 121454 439 20 Punjab 1671 3630 50013 140 21 Rajasthan 2585 7551 207509 459 22 Sikkim 47 334 1286 1 23 Tamil Nadu incl. Chennai 2216 9463 216813 500 24 Telangana 3841 12593 141483 204 25 Tripura 327 446 18276 54 26 Uttar Pradesh (UPE+UPW) 3319 7380 515275 1449 27 Uttarakhand 427 1315 32531 120 28 West Bengal incl. Kolkata 2091 9813 617335 1218 0 29 Andaman & Nicobar Islands 48 133 24 0 30 Chandigarh 88 759 2293 3 31 Dadar & Nagar Haweli & Daman & Diu 0 0 0 0 32 Delhi 595 9612 89912 168 33 Jammu & Kashmir 1121 2820 13873 27 34 Ladakh 1 1 9 0 35 Lakshdweep 0 0 0 0",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5752492",
+  "title": "Characterization of Programmed Death-1 Homologue-1 (PD-1H) Expression and Function in Normal and HIV Infected Individuals",
+  "content": "Chronic immune activation that persists despite anti-retroviral therapy (ART) is the strongest predictor of disease progression in HIV infection. Monocyte/macrophages in HIV-infected individuals are known to spontaneously secrete cytokines, although neither the mechanism nor the molecules involved are known. Here we show that overexpression of the newly described co-stimulatory molecule, PD1 homologue (PD-1H) in human monocyte/macrophages is sufficient to induce spontaneous secretion of multiple cytokines. The process requires signaling via PD-1H as cytokine secretion could be abrogated by deletion of the cytoplasmic domain. Such overexpression of PD-1H, associated with spontaneous cytokine expression is seen in monocytes from chronically HIV-infected individuals and this correlates with immune activation and CD4 depletion, but not viral load. Moreover, antigen presentation by PD-1H-overexpressing monocytes results in enhanced cytokine secretion by HIV-specific T cells. These results suggest that PD-1H might play a crucial role in modulating immune activation and immune response in HIV infection.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

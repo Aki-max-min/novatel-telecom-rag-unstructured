@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C22_new_activation_delay_chunk_002",
+  "document_id": "KB_C22_new_activation_delay",
+  "chunk_index": 2,
+  "text": "to the relevant specialist team, with an SLA acknowledgement sent to the customer within 24 hours. ## Related Issues - Repeated occurrences for the same customer may indicate an upstream system issue and should be flagged to the relevant platform team. ## Related Documents Related documents: FAQ_C22_001.",
+  "title": "Diagnosing Delayed New SIM Activation",
+  "document_type": "KB Article",
+  "category": "C22",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-02",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C22_001"
+  ],
+  "tags": [
+    "c22",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C22_new_activation_delay.md",
+  "file_type": "markdown"
+}

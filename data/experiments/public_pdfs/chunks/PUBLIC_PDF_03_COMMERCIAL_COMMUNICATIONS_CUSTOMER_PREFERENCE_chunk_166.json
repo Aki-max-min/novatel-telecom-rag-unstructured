@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_166",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 166,
+  "text": "timestamp(s), unique registration number issued at the time of registration of preference. Records of consent corresponding to number would be retained in DL-Consent for a certain period and in a certain way as specified in codes of practice. It would be helpful to attribute UCC complaints and reports against such number or UCC related complaints or reports made by such number. 4.3.12 Regarding issue of bulk registration, it was noted that preferences should be managed only with the permission of the customer and option of bulk registration by representative may not be required. However, if the customer wants to take help of others who are acquainted with the process or have access to better user interface or device capabilities e.g. mobile app, web portal, multi touch screen then assistance to manage preferences may be taken or other devices may be used while managing the preferences. In view of above, the Authority decides that option to manage preference using other’s telephone numbers or using web interfaces may be provided but request should be authenticated through OTP sent to the customer. 4.3.13 Communications from Political Parties related to political campaign and from entities sending communications to survey the market may not be directly falling under the definition of commercial communications. However, some customers may experience inconvenience or irritation or annoyance as in case of UCC. Regulatory framework for UCC which provides capabilities to record consent and set preferences, may be very useful to provide options to customers to set their preferences to",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

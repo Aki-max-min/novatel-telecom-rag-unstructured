@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_097",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 97,
+  "text": "records of complaints on daily basis for each service area: - total number of complaints received on each day, from its customers as Terminating Access Provider, in each service area, against any registered sender; total number of complaints transferred on each day, to Originating Access Provider(s) including itself, in each service area, against any registered sender; total number of complaints to be resolved as an Originating Access Provider, according to the date of receipt of complaints; total number of complaints rejected on account of insufficient details for further examination, according to the date of receipt of complaint; total number of complaints to be resolved as an Originating Access Provider, according to the date of occurrence of unsolicited commercial communication; total number of senders against whom complaints were reported under clause (c); total number of complaints out of reported complaints under clause (f), after completion of investigation, found to be valid complaint(s); total number of senders out of reported senders under clause (f), found to be non-compliant as per the provisions provided for in these regulations or Code(s) of Practice; total number of senders out of reported senders under clause (h), who were put under restricted limits of usage provided for in Code(s) of Practice, as an interim measure to control unsolicited commercial communications during the investigation phase; numbers of commercial communications sent by each sender, reported under clause(i); total number of entities other than sender(s), after completion of investigation, found to be not compliant to the provisions provided for in",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

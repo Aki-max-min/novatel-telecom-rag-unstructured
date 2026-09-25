@@ -1,7 +1,7 @@
 {
   "faq_id": "FAQ_C09_018",
   "question": "What does 'FUP applied' mean on my data usage?",
-  "answer": "Fair Usage Policy (FUP) applies once you exceed the high-speed data limit included in your plan; speeds are then typically reduced (e.g., to 64/128/512 kbps) for the remainder of the billing cycle rather than data being stopped entirely.",
+  "answer": "### Short Answer\n\nFair Usage Policy (FUP) applies once you exceed the high-speed data limit included in your plan; speeds are then typically reduced (e.g., to 64/128/512 kbps) for the remainder of the billing cycle rather than data being stopped entirely.\n\n### Detailed Explanation\n\nThe key distinction the answer draws is 'reduced' versus 'stopped' — once FUP applies, data keeps working but at a much lower speed for the rest of that billing cycle, which is a different situation from a plan expiring or running out entirely.\n\n### Key Details\n\n| Detail | Value |\n|---|---|\n| Trigger | Exceeding the plan's high-speed data limit |\n| Effect | Speed reduced (e.g. to 64/128/512 kbps), not stopped |\n| Duration | Remainder of the billing cycle |\n\n### Example Scenario\n\n**Customer situation:** A customer sees 'FUP applied' on their usage screen and assumes their data has run out.\n\n**What happens:** Since FUP only reduces speed rather than stopping data entirely, they can continue using data at the reduced rate until the next billing cycle resets the allowance.\n\n### Related Information\n\nRelated documents referenced in NovaTel's internal metadata for this topic: KB_C09_overview.",
   "category": "C09",
   "category_name": "Data Services & Speed",
   "department": "Network",

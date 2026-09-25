@@ -1,0 +1,23 @@
+{
+  "document_id": "SCIFACT_406733",
+  "title": "Histones are incorporated in trans during reassembly of the yeast PHO5 promoter.",
+  "document_type": "Scientific Literature",
+  "content": "In yeast, remodeling of PHO5 promoter chromatin upon activation is accompanied by transient hyperacetylation and subsequent eviction of histones from the promoter in trans. In the course of rerepression, nucleosomes have to be reassembled on the promoter. We have analyzed where the histones for reassembly of the inactive promoter chromatin come from. The use of a strain with two differently tagged and differently regulated versions of histone H3 allowed us to discriminate between histones originating from the chromatin fraction and histones arising from the soluble histone pool. In this way, we show that the incorporated histones originate from a source in trans. Promoter closure occurs very rapidly, and the histone chaperones Asf1 and Hir1 as well as the SWI/SNF nucleosome remodeling complex appear to be important for rapid reassembly of nucleosomes at the PHO5 promoter.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

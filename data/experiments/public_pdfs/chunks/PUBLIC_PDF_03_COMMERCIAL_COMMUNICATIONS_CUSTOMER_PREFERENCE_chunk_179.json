@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_179",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 179,
+  "text": "or SMS during roaming/call forwarding cases, Stakeholders suggested the followings: a. Few stakeholders suggested that customers may be provided with an option to opt-out to receive promotional commercial communication during roaming or call forwarding. TAPs may complete promotional and non-critical transactional communications only when customer is within his home service area. Filtering mechanisms may be enabled at intermediate nodes to detect promotional communications and modify headers to prevent additional forwarding in the system. b. Other stakeholders submitted that it would be difficult to implement it as there would be no difference in the calls to a customer who is in home service area with respect to the calls to a customer who is roaming. Calling Line Identity (CLI) would be same in both the cases as far as the call is coming from a registered telemarketer with a registered CLI which has been assigned for the purpose. 5.2.4 Developing and enhancing mobile App for all device OS i. Almost all stakeholders were in agreement for the need to develop and enhance the mobile App which would be helpful to submit complaints in an intelligent and intuitive manner. They were also in agreement to make it available for all device OS. However, they were of the view that 89 TRAI may issue necessary directions to device manufacturers for ensuring proper functioning of operating systems or platforms which are available to TRAI’s UCC mobile app. ii. While one stakeholder suggested that TRAI mobile app should be promoted by all service providers/manufacturers &",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

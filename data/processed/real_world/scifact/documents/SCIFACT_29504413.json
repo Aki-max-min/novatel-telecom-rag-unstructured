@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_29504413",
+  "title": "Behavioral effects of estrogen receptor gene disruption in male mice.",
+  "content": "Gonadal steroid hormones regulate sexually dimorphic development of brain functions and behaviors. Their nuclear receptors offer the opportunity to relate molecular events in neurons to simple instinctive mammalian behaviors. We have determined the role of estrogen receptor (ER) activation by endogenous estrogen in the development of male-typical behaviors by the use of transgenic estrogen-receptor-deficient (ERKO) mice. Surprisingly, in spite of the fact that they are infertile, ERKO mice showed normal motivation to mount females but they achieved less intromissions and virtually no ejaculations. Aggressive behaviors were dramatically reduced and male-typical offensive attacks were rarely displayed by ERKO males. Moreover, ER gene disruption demasculinized open-field behaviors. In the brain, despite the evident loss of functional ER protein, the androgen-dependent system appears to be normally present in ERKO mice. Together, these findings indicate that ER gene expression during development plays a major role in the organization of male-typical aggressive and emotional behaviors in addition to simple sexual behaviors.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

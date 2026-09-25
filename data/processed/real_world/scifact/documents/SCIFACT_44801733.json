@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_44801733",
+  "title": "The role of the transcription factor KLF2 in vascular development and disease.",
+  "content": "The zinc-finger transcription factor KLF2 transduces the physical forces exerted by blood flow into molecular signals responsible for a wide range of biological responses. Following its initial recognition as a flow-responsive endothelial transcription factor, KLF2 is now known to be expressed in a range of cell types and to participate in a number of processes during development and disease such as endothelial homeostasis, vasoregulation, vascular growth/remodeling, and inflammation. In this review, we summarize the current understanding about KLF2 with a focus on its effects on vascular biology.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

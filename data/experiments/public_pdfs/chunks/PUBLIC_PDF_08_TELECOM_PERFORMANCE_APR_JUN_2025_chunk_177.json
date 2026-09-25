@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_177",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 177,
+  "text": "0.39 89.96 100.00 6.75 0.00 1.61 99.94 100.00 96.17 99.50 100.00 57.78 41 RJIL KT NA 0.00 NA NA NA 0.00 0.00 NA 100.00 NA NA NA NA 42 TTSL KT NA 0.51 99.40 100.00 3.2 0.00 0.01 100.00 100.00 96.67 100.00 100.00 100.00 43 AIRTEL MH 98.90 0.11 86.31 99.51 2.86 0.00 0.00 NA 100.00 NA NA NA NA 44 BSNL MH 100.00 0.45 89.57 100.00 4.41 0.00 1.32 100.00 100.00 98.74 99.73 100.00 100.00 45 RJIL MH NA 0.00 NA NA NA 0.00 0.00 NA 100.00 NA NA NA NA 161 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 46 TTML MH NA 2.69 98.47 99.86 4.82 0.00 0.00 NA 100.00 97.99 98.29 100.00 100.00 47 AIRTEL MP 98.72 0.25 88.00 99.77 6.03 0.00 0.00 NA 100.00 NA NA NA NA 48 BSNL MP 100.00 0.09 96.32 99.62 3.75 0.00 0.42 98.51 100.00 98.67 99.61 100.00 100.00 49 RJIL MP NA 0.00 NA NA NA 0.00 0.00 NA 100.00 NA NA NA NA 50 TTSL MP NA 0.07 100.0 0 100.00 0.07 0.00 0.00 NA 100.00 NA NA 100.00 100.00 51 AIRTEL MU M 98.13 0.15 88.58 99.37 3.27 0.00 0.00 NA 100.00 NA NA NA NA 52 MTNL MU M 85.59 0.62 50.10 59.60 131.2 4 0.00 0.04 100.00 100.00 99.83 96.09 99.47 83.64 53 RJIL MU M NA 0.00 NA NA NA 0.00 0.00 NA 100.00 NA NA NA NA 54 TTML MU M 100.00 3.79 77.00 94.80",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

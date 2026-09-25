@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13953762",
+  "title": "PICH: a DNA translocase specially adapted for processing anaphase bridge DNA.",
+  "content": "The Plk1-interacting checkpoint helicase (PICH) protein localizes to ultrafine anaphase bridges (UFBs) in mitosis alongside a complex of DNA repair proteins, including the Bloom's syndrome protein (BLM). However, very little is known about the function of PICH or how it is recruited to UFBs. Using a combination of microfluidics, fluorescence microscopy, and optical tweezers, we have defined the properties of PICH in an in vitro model of an anaphase bridge. We show that PICH binds with a remarkably high affinity to duplex DNA, resulting in ATP-dependent protein translocation and extension of the DNA. Most strikingly, the affinity of PICH for binding DNA increases with tension-induced DNA stretching, which mimics the effect of the mitotic spindle on a UFB. PICH binding also appears to diminish force-induced DNA melting. We propose a model in which PICH recognizes and stabilizes DNA under tension during anaphase, thereby facilitating the resolution of entangled sister chromatids.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

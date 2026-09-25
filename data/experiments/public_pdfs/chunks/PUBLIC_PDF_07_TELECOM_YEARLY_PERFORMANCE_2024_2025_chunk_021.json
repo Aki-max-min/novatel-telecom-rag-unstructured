@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_021",
+  "document_id": "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+  "chunk_index": 21,
+  "text": "a yearly decline rate of 0.15%. At the end of Mar-25, 5G FWA subscribers (earlier being reported under Wireline services) have now been included under Wireless service. 25 11. The number of Rural Wireless subscribers increased from 531.02 million at the end of Mar-24 to 531.18 million at the end of Mar-25 with yearly rate of growth 0.03% 12. The number of Urban wireless subscribers decreased from 634.47 million at the end of Mar-24 to 632.57 million at the end of Mar-25 with yearly rate of decline 0.30%. 13. The following chart and table depict the trend of total, rural and urban wireless subscribers during last four years. Chart 1.5: Trend of Wireless Subscriber Base Table 1.11: Wireless Subscriber Base & Tele-density - Rural & Urban Year ending Subscriber Base (million) Tele-density (%) Rural Urban Total Rural Urban Overall Mar-22 517.86 624.23 1142.09 57.85 130.17 83.07 Mar-23 516.38 627.54 1143.93 57.46 128.45 82.46 Mar-24 531.02 634.47 1165.49 58.87 127.51 83.27 Mar-25 531.18 632.57 1163.76 58.67 124.83 82.42 26 14. Overall Wireless Teledensity decreased from 83.27% at the end of Mar- 24 to 82.42% at the end of Mar-25. Rural wireless Teledensity decreased from 58.87% to 58.67% and Urban wireless Teledensity also decreased from 127.51% to 124.83% at the end of Mar-25. 15. The share of rural wireless subscription increased from 45.56% at the end of Mar-24 to 45.64% at the end of Mar-25, however the share of urban wireless subscription decreased from 54.44% to 54.36% during the same period. 16.",
+  "title": "07 telecom yearly performance 2024 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/07_telecom_yearly_performance_2024_2025.pdf",
+  "file_type": "pdf"
+}

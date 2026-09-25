@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_25938251",
+  "title": "Prospective randomized open blinded end-point (PROBE) study. A novel design for intervention trials. Prospective Randomized Open Blinded End-Point.",
+  "content": "A novel design for intervention studies is presented, the so called PROBE study (Prospective Randomized Open, Blinded End-point). This design is compared to the classical double-blind design. Among the advantages of the PROBE design are lower cost and greater similarity to standard clinical practice, which should make the results more easily applicable in routine medical care. Since end-points are evaluated by a blinded end-point committee it is obvious that there should be no difference between the two types of trials in this regard.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

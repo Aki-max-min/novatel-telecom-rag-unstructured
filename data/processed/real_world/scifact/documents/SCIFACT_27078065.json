@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27078065",
+  "title": "Identification of genes associated with the astrocyte-specific gene Gfap during astrocyte differentiation.",
+  "content": "Chromosomes and genes are non-randomly arranged within the mammalian cell nucleus, and gene clustering is of great significance in transcriptional regulation. However, the relevance of gene clustering and their expression during the differentiation of neural precursor cells (NPCs) into astrocytes remains unclear. We performed a genome-wide enhanced circular chromosomal conformation capture (e4C) to screen for genes associated with the astrocyte-specific gene glial fibrillary acidic protein (Gfap) during astrocyte differentiation. We identified 18 genes that were specifically associated with Gfap and expressed in NPC-derived astrocytes. Our results provide additional evidence for the functional significance of gene clustering in transcriptional regulation during NPC differentiation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

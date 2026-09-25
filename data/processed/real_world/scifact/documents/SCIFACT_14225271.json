@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14225271",
+  "title": "Molecular features of cellular reprogramming and development",
+  "content": "Differentiating somatic cells are progressively restricted to specialized functions during ontogeny, but they can be experimentally directed to form other cell types, including those with complete embryonic potential. Early nuclear reprogramming methods, such as somatic cell nuclear transfer (SCNT) and cell fusion, posed significant technical hurdles to precise dissection of the regulatory programmes governing cell identity. However, the discovery of reprogramming by ectopic expression of a defined set of transcription factors, known as direct reprogramming, provided a tractable platform to uncover molecular characteristics of cellular specification and differentiation, cell type stability and pluripotency. We discuss the control and maintenance of cellular identity during developmental transitions as they have been studied using direct reprogramming, with an emphasis on transcriptional and epigenetic regulation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

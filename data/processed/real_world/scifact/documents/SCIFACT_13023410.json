@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13023410",
+  "title": "BCR/ABL oncogenic kinase promotes unfaithful repair of the reactive oxygen species-dependent DNA double-strand breaks.",
+  "content": "The oncogenic BCR/ABL tyrosine kinase induces constitutive DNA damage in Philadelphia chromosome (Ph)-positive leukemia cells. We find that BCR/ABL-induced reactive oxygen species (ROSs) cause chronic oxidative DNA damage resulting in double-strand breaks (DSBs) in S and G(2)/M cell cycle phases. These lesions are repaired by BCR/ABL-stimulated homologous recombination repair (HRR) and nonhomologous end-joining (NHEJ) mechanisms. A high mutation rate is detected in HRR products in BCR/ABL-positive cells, but not in the normal counterparts. In addition, large deletions are found in NHEJ products exclusively in BCR/ABL cells. We propose that the following series of events may contribute to genomic instability of Ph-positive leukemias: BCR/ABL --> ROSs --> oxidative DNA damage --> DSBs in proliferating cells --> unfaithful HRR and NHEJ repair.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

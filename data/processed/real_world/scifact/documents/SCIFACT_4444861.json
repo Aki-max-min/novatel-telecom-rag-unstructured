@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4444861",
+  "title": "Replication Fork Stability Confers Chemoresistance in BRCA-deficient Cells",
+  "content": "Cells deficient in the Brca1 and Brca2 genes have reduced capacity to repair DNA double-strand breaks by homologous recombination and consequently are hypersensitive to DNA-damaging agents, including cisplatin and poly(ADP-ribose) polymerase (PARP) inhibitors. Here we show that loss of the MLL3/4 complex protein, PTIP, protects Brca1/2-deficient cells from DNA damage and rescues the lethality of Brca2-deficient embryonic stem cells. However, PTIP deficiency does not restore homologous recombination activity at double-strand breaks. Instead, its absence inhibits the recruitment of the MRE11 nuclease to stalled replication forks, which in turn protects nascent DNA strands from extensive degradation. More generally, acquisition of PARP inhibitors and cisplatin resistance is associated with replication fork protection in Brca2-deficient tumour cells that do not develop Brca2 reversion mutations. Disruption of multiple proteins, including PARP1 and CHD4, leads to the same end point of replication fork protection, highlighting the complexities by which tumour cells evade chemotherapeutic interventions and acquire drug resistance.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

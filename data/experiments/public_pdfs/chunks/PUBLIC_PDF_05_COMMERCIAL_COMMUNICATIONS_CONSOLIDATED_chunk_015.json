@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_015",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 15,
+  "text": "Recipient to facilitate or complete a commercial transaction involving the ongoing purchase or the use by the Recipient of the product or services offered by the Sender after obtaining Explicit Consent from the Recipient and such Messages are not promotional in nature: Provided that such Explicit Consent shall be for seven days or as directed by the Authority from time to time: Provided further that a transactional Message or transactional Voice Call containing information pertaining to service shall be treated as a Service Message or Service Voice Call; (bi) “Signature” means pattern in communications from particular telephone number(s) or telecom resource(s) or person, entity which are not registered with the access provider(s) for commercial communication purposes and also includes pattern in communications from particular sender(s), who are registered with the access provider(s) but not authorised to send commercial communication of particular type or for specific purpose(s) which may require additional authorisations from relevant Government or statutory bodies to send such commercial communications; 10 (bj) “Silent Call” means any unsolicited call made by a person or an entity to a customer for a very short duration in which either called party has not yet been alerted by his or her device, or it is very unlikely to be answered, wherein the intention of caller is to get call back from called party and then enter into commercial communication; (bk) “Smart contract” means a functionality of intelligent and programmable code which can execute pre-determined commands or business rules set to pre-check regulatory",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

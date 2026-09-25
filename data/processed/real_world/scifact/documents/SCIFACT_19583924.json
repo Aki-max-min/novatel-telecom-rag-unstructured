@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19583924",
+  "title": "Angiopoietin-like proteins stimulate ex vivo expansion of hematopoietic stem cells",
+  "content": "Successful ex vivo expansion of hematopoietic stem cells (HSCs) would greatly benefit the treatment of disease and the understanding of crucial questions of stem cell biology. Here we show, using microarray studies, that the HSC-supportive mouse fetal liver CD3+ cells specifically express the proteins angiopoietin-like 2 (Angptl2) and angiopoietin-like 3 (Angptl3). We observed a 24- or 30-fold net expansion of long-term HSCs by reconstitution analysis when we cultured highly enriched HSCs for 10 days in the presence of Angptl2 or Angptl3 together with saturating levels of other growth factors. The coiled-coil domain of Angptl2 was capable of stimulating expansion of HSCs. Furthermore, angiopoietin-like 5, angiopoietin-like 7 and microfibril-associated glycoprotein 4 also supported expansion of HSCs in culture.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

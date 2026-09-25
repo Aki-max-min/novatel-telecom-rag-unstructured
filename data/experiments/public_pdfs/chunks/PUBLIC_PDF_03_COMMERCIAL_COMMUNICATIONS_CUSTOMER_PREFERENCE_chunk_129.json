@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_129",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 129,
+  "text": "identities may be reverse mapped to the real identities either at OAP or at TAP and for this purpose, scrubber may have to exchange information to the concerned OAP or TAP. Reverse mapping at TAP level may provide more security to data by not disclosing real identities to any of intermediaries but it may require special arrangements to route the traffic between OAP and TAP as virtual identities may have digits and characters which may not be routable with exiting routing arrangements. Generating virtual identities or tokens and reverse mapping may also require use of same algorithms at both ends. Figure 12: Illustration for probable approach to protect data while sending promotional SMS 3.3.20 Technology to create trust in the system about sender’s identity, content categorization and honouring opted preferences or delivering as per the scope of the consent: Technology solutions which ensures that identity of the sender can be trusted and make him traceable. If the customer is confident that scope of the consent and preferences he has given would be honoured by the UCC eco system, he or she would be more likely to give such consent. This would bring great element of trust and help the UCC ecosystem evolve more around value rather than be a means to block all or most communication. For facilitating TMSEs to make voice calls for justified reasons and legitimate purposes, e.g. alerting and verification by banks in case of high-value transactions, there is need to have separate series or registration of",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

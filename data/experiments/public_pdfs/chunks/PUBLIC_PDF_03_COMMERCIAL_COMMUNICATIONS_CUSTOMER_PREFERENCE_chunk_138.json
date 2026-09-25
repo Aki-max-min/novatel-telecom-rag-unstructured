@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_138",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 138,
+  "text": "phase, additional steps which may be required to be taken to address regulatory concerns (when the system goes live) may also be identified. Regulatory Sandbox can also be useful to finalize APIs and specific details of implementation. In view of this the Authority has 75 decided that it may set up or permit to set up a Regulatory Sandbox for testing implementation of regulatory checks using DLT networks and other technological solutions complementing DLT network(s) and to operationalize such regulatory sandbox, the Authority may, by order or direction, specify the requisite processes. 3.3.29 Cost of implementation of UCC ecosystem: As responsibility of compliance to the regulations would be of access providers and they need to establish systems, operate and manage the DLT based systems, the Authority decides that access providers be allowed to prescribe fee and collect charges from other participants of the UCC ecosystem. Charges may be for registration or to carry out activities provided for in these regulations or other participants may also be asked to deposit security with the access provider(s), who may provide for penalties in their contracts for failure to perform the function accepted by other entities. 3.3.30 Promotional and Service Communication Charges: Currently RTMs have connectivity with one or multiple TSP(s) referred to as OAP(s) (Originating Access Providers). The telecom network of recipient of commercial communications is referred to as Terminating Access Provider (TAP). Telemarketer may deliver traffic to one or more OAP and OAP may forward traffic to concerned TAP. Primary responsibility of",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

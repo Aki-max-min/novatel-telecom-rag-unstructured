@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_090",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 90,
+  "text": "used to check status of complaint; the web portal should display the options or hyperlinks for registration of UCC complaints and registration or modification of preferences and consents by customers such that it is easily visible at a prominent location without scrolling on the first view of Main or Home page; the web portal should have the option of uploading screenshot of call log and SMS content and registering complaint by extracting necessary details from it and it should be possible for the complainant to edit such extracted information before submission. Complaint registration through e-mail procedure for the customer to make complaints by sending an e-mail to the designated e-mail Id of the Access Provider; format for making complaints pertaining to receipt of Unsolicited Commercial Communication; details to be provided by the complainant e.g., Unsolicited Commercial Communications with date on which it was received, content of received message or brief of content of communication; procedure for providing complaint in prescribed format immediately to the complainant through return mail if the complainant has not submitted the complaint as per the prescribed format. 3. Every Access Provider shall formulate: - Message Sequence Charts for messages with parameter details and time sequence to provide details about the process between two entities and action taken by particular entity; Flow Charts to provide details about the process between two entities and action taken; 50 Schedule-IV Action Items for preparing Code of Practice for Unsolicited Commercial Communications Detection (CoP-UCC_Detect) 1. Every Access Provider shall establish, maintain",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

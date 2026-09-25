@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12489130",
+  "title": "Growth and invasion of human melanomas in human skin grafted to immunodeficient mice.",
+  "content": "An orthotopic model of human melanoma was developed in which malignant cells were injected into human skin grafted to nude and SCID mice. Melanoma cells proliferated and invaded the human skin grafts with characteristic patterns. Three of six melanomas grew as multiple nodules and infiltered the grafts without major architectural changes in the dermis, whereas the others invaded the dermis along collagen fibers with prominent endothelial vessels. By contrast, melanoma cells inoculated into mouse skin grew as diffusely expanding nodules that did not invade the murine dermis. In human skin grafts, human melanoma cells were angiogenic for human blood vessels, and murine vessels were only found at the periphery of grafts. Tumor cells invaded the human vessels, and four out of seven cell lines metastasized to lungs, suggesting that this model is useful to determine in vivo the interactions between normal and malignant human cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

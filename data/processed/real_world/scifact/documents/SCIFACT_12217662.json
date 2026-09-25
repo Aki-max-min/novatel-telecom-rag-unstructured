@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12217662",
+  "title": "Post-prenylation-processing enzymes as new targets in oncogenesis",
+  "content": "RAS and many other oncogenic proteins undergo a complex series of post-translational modifications that are initiated by the addition of an isoprenoid lipid through a process known as prenylation. Following prenylation, these proteins usually undergo endoproteolytic processing by the RCE1 protease and then carboxyl methylation by a unique methyltransferase known as isoprenylcysteine carboxyl methyltransferase (ICMT). Although inhibitors that have been designed to target the prenylation step are now in advanced-stage clinical trials, their utility and efficacy seem to be limited. Recent findings, however, indicate that the inhibition of these post-prenylation-processing steps — particularly that of ICMT-catalysed methylation — might provide a better approach to the control of cancer-cell proliferation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

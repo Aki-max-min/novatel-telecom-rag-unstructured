@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_35534019",
+  "title": "Statins in the treatment of polycythaemia vera and allied disorders: an antithrombotic and cytoreductive potential?",
+  "content": "Thrombohaemorrhagic complications are major clinical problems in the classical chronic Ph-negative myeloproliferative disorders (CMPDs), polycytaemia vera (PV), essential thrombocythaemia (ET) and idiopathic myelofibrosis (IMF), contributing significantly to morbidity and mortality. Pathophysiologically these disorders are characterized by clonal myeloproliferation, myeloaccumulation and a propensity to develop myelofibrosis and neoangiogenesis in both the bone marrow and spleen. Based upon in vitro and in vivo studies of the effects of statins (antithrombotic, antiproliferative, proapoptotic and antiangiogenic), this review focuses on the translation of these effects into potential clinical benefits of statin therapy in patients with CMPDs.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

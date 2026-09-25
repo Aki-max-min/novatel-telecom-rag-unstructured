@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_016",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 16,
+  "text": "suggestion or any clarification pertaining to this report, Advisor (F&EA), TRAI may be contacted on Tel. +91-20907773 and e-mail: advfea1@trai.gov.in. 1 ---------------------------------------------------------------------------------------------------------------- • In this report, Tele-density figures are derived from the subscriber data provided by the operators and projection of population from the ‘Report of the Technical Group on Population Projections for India and States 2011–2036’. Chapter 1: Subscription Data 2 Section A: Access Service - An Overview 1.1 The number of telephone subscribers in India increased from 1,200.80 million at the end of Mar-25 to 1,218.36 million at the end of Jun-25, registering a rate of growth 1.46% over the previous quarter. This reflects year-on-year (Y-O-Y) rate of growth 1.06% over the same quarter of last year. The overall Tele-density in India increased from 85.04% as on 31st March, 2025 to 86.09% as on 30th June, 2025 with quarterly rate of growth 1.24%. Chart 1.1: Trends in Telephone Subscribers and Tele-density in India Table1.1: Subscriber Base & Tele-density - Rural & Urban Quarter ending Subscriber Base (million) Tele-density (%) Rural Urban Rural Urban Jun-24 538.51 667.13 59.65 133.46 Sep-24 528.51 662.15 58.48 131.86 Dec-24 527.20 662.75 58.29 131.37 Mar-25 534.69 666.11 59.06 131.45 Jun-25 538.50 679.86 59.43 133.56 3 1.2 Telephone subscription in Urban areas increased from 666.11 million at the end of Mar-25 to 679.86 million at the end of Jun-25 and Urban Tele-density also increased from 131.45% to 133.56% at the end of the quarter. 1.3 Rural telephone subscription increased from 534.69 million at the end",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

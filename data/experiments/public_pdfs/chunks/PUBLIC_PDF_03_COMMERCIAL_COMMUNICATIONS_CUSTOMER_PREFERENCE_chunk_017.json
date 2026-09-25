@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_017",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 17,
+  "text": "of twenty outgoing voice calls per day and a maximum of twenty outgoing messages per day. CHAPTER-II COMMERCIAL COMMUNICATION THROUGH ACCESS PROVIDER NETWORK 3. Every Access Provider shall ensure that any commercial communication using its network only takes place using registered header(s) assigned to the sender(s) for the purpose of commercial communication; and No Subscriber, who is not registered with any access provider for the purpose of sending commercial communications under these regulations, shall make unsolicited commercial communication and in case, any Subscriber is sending Commercial Communication, telecom resources of the sender may be put under usage cap; and if the Subscriber continues to send Commercial Communication despite notice given to him under these regulations, all telecom resources of the sender may also be disconnected; 4. No Sender registered for making commercial communication shall initiate calls with an Auto dialer that may result in silent or abandoned calls. 10 Provided that the sender has notified the originating access provider in advance about the use of the auto dialer and taken steps to maintain abandoned calls within limits provided for in these regulations or Code(s) of Practice. 5. Every Access Provider shall develop or cause to develop an ecosystem with the following functions to regulate the delivery of the commercial communications as provided for in these regulations: - to provide facility to its Subscribers for registering preference(s) for Commercial Communication and maintain complete and accurate records of preference(s); to register entities for participating in the ecosystem and prescribe their roles and",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

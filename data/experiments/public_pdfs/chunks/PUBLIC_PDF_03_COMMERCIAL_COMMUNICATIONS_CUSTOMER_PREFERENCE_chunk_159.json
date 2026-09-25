@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_159",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 159,
+  "text": "issues which are related to Customer Preference Registration System (CPRS). Issues and responses to the questions raised in the consultation paper are also summarized. Key points from the current regulatory approach and approaches taken in other jurisdictions to deal with the issues were 82 also considered while analyzing inputs and concluding the issues. Analysis of inputs and conclusions of the Authority are as follows: 4.3.1 Reduction in time for registration and its enforcement: Currently time gap between registering preferences and its enforcement is seven days and it is due to spread-sheet-based implementation and updating databases via running scripts in episodic manner. This time gap can be reduced by adopting technology-based solutions. For this, automation of processes and use of APIs to update databases would be required. For reduction in time to enforce the registered preferences, Scrubbing as a Service would enable the function of scrubbing to be performed by any registered entity, providing flexibility to Telecom Service Providers (TSPs) and RTMs and easing them to maintain the requisite hardware. In view of above, the Authority decides that request of preference registration, de registration or modification should be done within 15 minutes and recommends that revised preferences be enforced within a time period of twenty-four hours from the time of registering preference or changes to it. 4.3.2 Customer Preference Registration Facility (CPRF) should be available on multiple modes of communication as being provided under the current regulations. USSD may also be provided as an additional mode as it may provide interactive",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

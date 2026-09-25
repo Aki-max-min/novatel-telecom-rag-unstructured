@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_018",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 18,
+  "text": "Monthly 01.04.2026 DCR Spatial Distribution Measure for Packet Switched (4G/5G and beyond) network [PS_QSD (95, 95)] ≤ 2% Monthly 01.04.2027 (x) Downlink Packet Drop Rate for Packet Switched Network (4G/5G and beyond) [DLPDR_QSD (88, 88)] ≤ 2% Quarterly 01.10.2024 Monthly 01.04.2025 Downlink Packet Drop Rate for Packet Switched Network (4G/5G and beyond) [DLPDR_QSD (89, 89)] ≤ 2% Monthly 01.04.2026 Downlink Packet Drop Rate for Packet Switched Network (4G/5G and beyond) [DLPDR_QSD (90, 90)] ≤ 2% Monthly 01.04.2027 (xi) Uplink Packet Drop Rate for Packet Switched Network (4G/5G and beyond) [ULPDR_QSD (88, 88)] ≤ 2% Quarterly 01.10.2024 Monthly 01.04.2025 Uplink Packet Drop Rate for Packet Switched Network (4G/5G and beyond) [ULPDR_QSD (89, 89)] ≤ 2% Monthly 01.04.2026 Uplink Packet Drop Rate for Packet Switched Network (4G/5G and beyond) [ULPDR_QSD (90, 90)] ≤ 2% Monthly 01.04.2027 IV. Broadband Service (xii) Latency (in 4G and 5G network) ≤ 75 msec Quarterly 01.10.2024 Monthly 01.04.2025 ≤ 50 msec Monthly 01.04.2026 (xiii) Packet Drop Rate (in 4G and 5G network) ≤ 3% Quarterly 01.10.2024 Monthly 01.04.2025 ≤ 2% Monthly 01.04.2026 (xiv) Percentile value of measured test samples for which download and upload speed is ≥ offered typical download and upload speed in tariff offerings 80th percentile Quarterly 01.10.2024 Monthly 01.04.2025 Note: The assessment period and corresponding benchmark for respective QoS parameters shall come into force with effect from specified ‘Effective date’ and the benchmarks for the QoS parameters specified against the previous assessment period shall stand withdrawn accordingly. 104 THE GAZETTE OF INDIA: EXTRAORDINARY [PART",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

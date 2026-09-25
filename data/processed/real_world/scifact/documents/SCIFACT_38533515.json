@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_38533515",
+  "title": "AMP-activated/SNF1 protein kinases: conserved guardians of cellular energy",
+  "content": "The SNF1/AMP-activated protein kinase (AMPK) family maintains the balance between ATP production and consumption in all eukaryotic cells. The kinases are heterotrimers that comprise a catalytic subunit and regulatory subunits that sense cellular energy levels. When energy status is compromised, the system activates catabolic pathways and switches off protein, carbohydrate and lipid biosynthesis, as well as cell growth and proliferation. Surprisingly, recent results indicate that the AMPK system is also important in functions that go beyond the regulation of energy homeostasis, such as the maintenance of cell polarity in epithelial cells.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

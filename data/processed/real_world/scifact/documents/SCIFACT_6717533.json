@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6717533",
+  "title": "Maximal activation of transcription by statl and stat3 requires both tyrosine and serine phosphorylation",
+  "content": "Stat1 and Stat3 are latent transcriptional factors activated initially through phosphorylation on single tyrosine residues induced by cytokine and growth factor occupation of cell surface receptors. Here we show that phosphorylation on a single serine (residue 727) in each protein is also required for maximal transcriptional activity. Both cytokines and growth factors are capable of inducing the serine phosphorylation of Stat1 and Stat3. These experiments show that gene activation by Stat1 and Stat3, which obligatorily require tyrosine phosphorylation to become active, also depends for maximal activation on one or more of the many serine kinases.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

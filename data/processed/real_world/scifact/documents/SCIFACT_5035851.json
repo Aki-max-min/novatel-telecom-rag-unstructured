@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5035851",
+  "title": "Cryptochromes Enabling Plants and Animals to Determine Circadian Time",
+  "content": "Cryptochromes are flavin-containing blue light photoreceptors related to photolyases-they are found in both plants and animals and have recently been described for bacteria. In plants, cryptochromes perform a variety of functions including the entrainment of circadian rhythms. They serve a similar role in Drosophila and mammals, where the cryptochromes also perform an additional function as an essential component of the circadian clock.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

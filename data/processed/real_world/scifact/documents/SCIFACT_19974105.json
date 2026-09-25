@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19974105",
+  "title": "Control over DNA replication in time and space.",
+  "content": "DNA replication is precisely regulated in time and space, thereby safeguarding genomic integrity. In eukaryotes, replication initiates from multiple sites along the genome, termed origins of replication, and propagates bidirectionally. Dynamic origin bound complexes dictate where and when replication should initiate. During late mitosis and G1 phase, putative origins are recognized and become \"licensed\" through the assembly of pre-replicative complexes (pre-RCs) that include the MCM2-7 helicases. Subsequently, at the G1/S phase transition, a fraction of pre-RCs are activated giving rise to the establishment of replication forks. Origin location is influenced by chromatin and nuclear organization and origin selection exhibits stochastic features. The regulatory mechanisms that govern these cell cycle events rely on the periodic fluctuation of cyclin dependent kinase (CDK) activity through the cell cycle.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

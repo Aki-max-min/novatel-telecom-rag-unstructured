@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_171",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 171,
+  "text": "Test (Layer4).\" 161 (v) One broadband service provider submitted that prescribing 100% of the minimum speed for broadband services is deemed unachievable due to factors beyond service providers' control, such as Wi-Fi router usage and faults in customer premises equipment, which may affect the actual speeds experienced by users. Additionally, network degradation caused by Force Majeure events and other external factors like faults at upstream service provider ends or fiber cuts by third parties should be considered exceptions to benchmark measurements. Moreover, the practicality of measuring speeds on a daily basis is questioned, especially considering different plans across service areas as per Telecom Tariff orders, making it highly impractical to monitor speeds consistently across all areas. (vi) One of the stakeholders submitted that many throughput tests allow for the dynamic allocation of TCP threads and file size. Mandating TCP thread counts and file size criteria could remove valid samples collected by 3rd party sources and prevent them from being used in calculating the averages. (b) Analysis and Conclusion In the consultation paper, the parameter was originally named \"Minimum download and upload speed against the minimum subscribed speed in offered data plans,\" with benchmarks set at >80% of the minimum speed for wireless and 100% for wireline broadband services. After considering stakeholders' submissions, the Authority has reviewed and revised the parameter's name and benchmark to \"Percentile value of measured test samples for which download and upload speed is ≥ offered typical download and upload speed in tariff offerings\" setting the benchmark",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_123",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 123,
+  "text": "incidence rate is ≤7 for Wireline. Presently, no similar parameter is prescribed for Broadband (Wireline) service. (ii) The fault incidence per 100 subscribers provides an objective measure of the quality of access network and installation practices followed by the service provider. Therefore, the service providers are encouraged to follow the ‘quality by design’ approach for design and implementation of their network considering QoS as their differentiating factor. This parameter is equally important for the broadband services. (iii) The present performance of the wireline service providers against this parameter is summarised below: Table-3: Performance of the Wireline service providers against Fault incidences parameter PMR for Quarter Ending PMRs with Fault Incidence ≤5 PMRs with Fault Incidence >5 and ≤ 7 PMRs with Fault Incidence >7 Total PMR March, 2023 97 9 0 106 une, 2023 97 10 0 107 eptember, 2023 99 10 0 109 December, 2023 103 6 0 109 March, 2024 102 7 0 109 (iv) It is noted by the Authority that the fault incidence of less than 5 per 100 subscribers is already being achieved by the service providers in more than 90% service areas. (v) The consumer dependency on broadband services has increased considerably during recent times especially in post Covid era. Further, the Government has also taken a series of measures to streamline the process of getting right of way (RoW) permissions which is essential for the maintenance of the wireline network. In view of the above, the Authority does not find any merit in",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

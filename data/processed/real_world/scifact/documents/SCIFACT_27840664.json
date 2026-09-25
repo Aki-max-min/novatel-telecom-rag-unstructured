@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_27840664",
+  "title": "Checkpoint responses to replication fork barriers.",
+  "content": "The fidelity of DNA replication is of paramount importance to the maintenance of genome integrity. When an active replication fork is perturbed, multiple cellular pathways are recruited to stabilize the replication apparatus and to help to bypass or correct the causative problem. However, if the problem is not corrected, the fork may collapse, exposing free DNA ends to potentially inappropriate processing. In prokaryotes, replication fork collapse promotes the activity of recombination proteins to restore a replication fork. Recent work has demonstrated that recombination is also intimately linked to replication in eukaryotic cells, and that recombination proteins are recruited to collapsed, but not stalled, replication forks. In this review we discuss the different types of potential replication fork barriers (RFB) and how these distinct RFBs can result in different DNA structures at the stalled replication fork. The DNA structure checkpoints which act within S phase respond to different RFBs in different ways and we thus discuss the processes that are controlled by the DNA replication checkpoints, paying particular attention to the function of the intra-S phase checkpoint that stabilises the stalled fork.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

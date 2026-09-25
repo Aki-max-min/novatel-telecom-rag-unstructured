@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13763195",
+  "title": "LincRNA-p21 suppresses target mRNA translation.",
+  "content": "Mammalian long intergenic noncoding RNAs (lincRNAs) are best known for modulating transcription. Here we report a posttranscriptional function for lincRNA-p21 as a modulator of translation. Association of the RNA-binding protein HuR with lincRNA-p21 favored the recruitment of let-7/Ago2 to lincRNA-p21, leading to lower lincRNA-p21 stability. Under reduced HuR levels, lincRNA-p21 accumulated in human cervical carcinoma HeLa cells, increasing its association with JUNB and CTNNB1 mRNAs and selectively lowering their translation. With elevated HuR, lincRNA-p21 levels declined, which in turn derepressed JunB and β-catenin translation and increased the levels of these proteins. We propose that HuR controls translation of a subset of target mRNAs by influencing lincRNA-p21 levels. Our findings uncover a role for lincRNA as a posttranscriptional inhibitor of translation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

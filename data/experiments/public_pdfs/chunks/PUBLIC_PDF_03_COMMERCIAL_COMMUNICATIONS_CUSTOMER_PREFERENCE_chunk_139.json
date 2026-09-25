@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_139",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 139,
+  "text": "OAP(s) (Originating Access Providers). The telecom network of recipient of commercial communications is referred to as Terminating Access Provider (TAP). Telemarketer may deliver traffic to one or more OAP and OAP may forward traffic to concerned TAP. Primary responsibility of compliance to regulations is of OAP as it is first entry point to the TSP’s network (before this point telemarketers may be using Internet or virtual private network). All regulatory compliances may be required to be checked before forwarding traffic to TAP. OAP enters into agreement with the RTMs while providing telecom resources to them. In such situations, OAP should be responsible to ensure regulatory compliance. But when UCC is received by a customer, complaint is made to his subscribed network. TAP is supposed to carry out preliminary examination of the UCC complaint and then forward it to the concerned OAP. While action may be against the defaulter OAP or against the defaulter telemarketer connected to OAP, it is customer of TAP who is affected because of UCC. In such situations, mechanism need to be designed which encourages telemarketers to connect to OAPs who are TAPs for the traffic delivered to them. This would encourage TAP to comply regulation to protect its customers. 3.3.31 In a multiple DLT network systems, there may be requirement to ensure protection of data which is recorded initially by an entity from a particular DLT system while same data might be used by another entity belonging to another DLT system. Appropriate measures are required while",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_092",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 92,
+  "text": "(a) Call Recipient diversity (diversity in B-numbers) exceeding the prescribed threshold in a day; Explanation: Diversity in B-numbers here refers to the distinct or unique call Recipients (called party numbers) associated with the outgoing calls of the Sender; (b) average call duration to call Recipients in a day is less than the prescribed duration; (c) ratio of incoming calls to outgoing calls in a day is less than the prescribed ratio; (d) any other signals or triggers parameters specified by the Authority from time to time; (ii) any Sender exceeding prescribed threshold number of outgoing SMS in a day, shall be observed for any of the following signals/triggers parameters as specified by the Authority from time to time:- (a) SMS Recipient diversity exceeding the prescribed threshold in a day; Explanation: SMS Recipient diversity refers to the number of distinct SMS Recipients associated with the outgoing SMS of the Sender; (b) ratio of incoming to outgoing SMS in a day is less than the prescribed ratio; (c) any other signals/triggers parameters specified by the Authority from time to time; 51 (iii) all mobile numbers (MSISDN) associated with a device on which 4 or more mobile numbers, or any such number as specified by the Authority from time to time, have been used within a month; deploying methods to detect the misuse of robotic calls, auto dialer calls or pre-recorded announcements, SIM Farm/SIM box type usage, etc.; use of advanced and reliable Artificial Intelligence (AI) and Machine Learning (ML) based technological solutions",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10482574",
+  "title": "Cell survival during complete nutrient deprivation depends on lipid droplet-fueled β-oxidation of fatty acids.",
+  "content": "Cells exposed to stress of different origins synthesize triacylglycerols and generate lipid droplets (LD), but the physiological relevance of this response is uncertain. Using complete nutrient deprivation of cells in culture as a simple model of stress, we have addressed whether LD biogenesis has a protective role in cells committed to die. Complete nutrient deprivation induced the biogenesis of LD in human LN18 glioblastoma and HeLa cells and also in CHO and rat primary astrocytes. In all cell types, death was associated with LD depletion and was accelerated by blocking LD biogenesis after pharmacological inhibition of Group IVA phospholipase A2 (cPLA2α) or down-regulation of ceramide kinase. Nutrient deprivation also induced β-oxidation of fatty acids that was sensitive to cPLA2α inhibition, and cell survival in these conditions became strictly dependent on fatty acid catabolism. These results show that, during nutrient deprivation, cell viability is sustained by β-oxidation of fatty acids that requires biogenesis and mobilization of LD.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

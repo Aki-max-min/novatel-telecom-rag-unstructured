@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_198",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 198,
+  "text": "restricting incoming calls, SMS and Internet. This cap would be in place until the investigation is concluded. With this change in approach, action may be taken quickly to address the UCC problem while sufficient time is available to comprehensively investigate complaints. Such control measures are to be applied within two business days of receiving the requisite number of complaints. 5.3.9 It is observed that UTMs usually have pre-paid customers but there may be instances of UCC from UTMs having post-paid customers. It is more likely to happen in cases of business entities or corporate connections. In case of post-paid customers, unlike pre-paid customers, usage is not checked by the system at the moment of initiating service request and it may be required to explore ways and means to implement Usage Cap for post-paid customers. For example, post-paid customers against whom Usage Cap is to be applied may be temporarily configured as Intelligent Network Subscriber to apply Usage Cap. Other options for post-paid customers to effectively implement Usage Cap would be prescribed while formulating codes of practice to be formulated by the access providers. 5.3.10 Preliminary Examination of Complaints by OAP: To deal with complaints related to RTM, both the TAP and OAP have to investigate and resolve the complaint in parallel. Action against the RTMs must be part of Code of Practice for Complaint handling. As discussed earlier in Para 3.3, UCC eco system is to be controlled and managed by the access provider and specific actions to be taken",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

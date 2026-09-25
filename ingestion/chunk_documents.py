@@ -68,7 +68,7 @@ def main():
     )
 
     files = sorted(
-        INPUT_DIR.glob("*.json")
+        INPUT_DIR.rglob("*.json")
     )
 
     print("=" * 70)

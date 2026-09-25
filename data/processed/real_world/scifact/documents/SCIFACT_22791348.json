@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22791348",
+  "title": "The dendritic cell lineage: ontogeny and function of dendritic cells and their subsets in the steady state and the inflamed setting.",
+  "content": "Dendritic cells (DCs) form a remarkable cellular network that shapes adaptive immune responses according to peripheral cues. After four decades of research, we now know that DCs arise from a hematopoietic lineage distinct from other leukocytes, establishing the DC system as a unique hematopoietic branch. Recent work has also established that tissue DCs consist of developmentally and functionally distinct subsets that differentially regulate T lymphocyte function. This review discusses major advances in our understanding of the regulation of DC lineage commitment, differentiation, diversification, and function in situ.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

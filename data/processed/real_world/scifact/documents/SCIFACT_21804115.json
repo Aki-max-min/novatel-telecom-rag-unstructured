@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21804115",
+  "title": "Bone morphogenetic protein signaling in nephron progenitor cells",
+  "content": "Bone morphogenetic protein (BMP) signaling plays an essential role in many aspects of kidney development, and is a major determinant of outcome in kidney injury. BMP treatment is also an essential component of protocols for differentiation of nephron progenitors from pluripotent stem cells. This review discusses the role of BMP signaling to nephron progenitor cells in each of these contexts.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

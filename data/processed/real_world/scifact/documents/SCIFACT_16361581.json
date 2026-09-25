@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_16361581",
+  "title": "Jagged1-induced Notch signaling drives proliferation of multiple myeloma cells.",
+  "content": "Notch receptors expressed on hematopoietic stem cells interact with their ligands on bone marrow stromal cells and thereby control cell fate decisions and survival. We recently demonstrated that Notch signaling is involved in proliferation and survival of B cell-derived tumor cells of classic Hodgkin disease and described a novel mechanism for the oncogenic capacity of Notch. In this study we investigated whether Notch signaling is involved in the tight interactions between neoplastic plasma cells and their bone marrow microenvironment, which are essential for tumor cell growth in multiple myeloma (MM). Here we demonstrate that Notch receptors and their ligand Jagged1 are highly expressed in cultured and primary MM cells, whereas nonneoplastic counterparts show low to undetectable levels of Notch. Functional data indicate that ligand-induced Notch signaling is a growth factor for MM cells and suggest that these interactions contribute to myelomagenesis in vivo.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

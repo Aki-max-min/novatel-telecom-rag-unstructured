@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_088",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 88,
+  "text": "88 II. Broadband Service Performance (ii) Latency ≤ 50 msec 0 0.0% 0 0.0% (iii) Packet Drop Rate ≤ 1% 0 0.0% 0 0.0% (iv) Percentile value of measured test samples for which download and upload speed is ≥ offered typical download and upload speed in tariff offerings 90th percentile 18 14.0% 11 8.4% (v) Maximum Bandwidth utilization of any Customer serving node to ISP Gateway Node [Intra-network] or Internet Exchange Point Link(s) ≤ 80% 0 0.0% 0 0.0% (vi) Jitter ≤ 40ms 0 0.0% 0 0.0% III. Fault Repair (vii) Fault incidences (No. of faults per 100 subscribers) ≤ 5 13 10.1% 5 3.8% (viii) Fault repair by next working day ≥ 85% 2 1.6% 6 4.6% (ix) Fault repair within three working days ≥ 99% 4 3.1% 5 3.8% IV. Customer Service (xv) Billing and charging complaints ≤ 0.1% 15 11.6% 5 3.8% (xvi) Resolution of billing/ charging complaints within four weeks 100% 2 1.6% 3 2.3% (xvii) Application of adjustment to customer’s account within one week from the date of resolution of billing and charging complaints or rectification of faults or rectification of significant network outage, as applicable 100% 10 7.8% 7 5.3% (xviii) Accessibility of call centre/ customer care ≥ 95% 0 0.0% 0 0.0% (xix) Percentage of calls answered by the operators (voice to voice) within 90 seconds ≥ 95% 1 0.8% 2 1.5% 89 (xx) Termination/ closure of service within seven working days of receipt of customer’s request 100% 3 2.3% 3 2.3% (xxi)",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

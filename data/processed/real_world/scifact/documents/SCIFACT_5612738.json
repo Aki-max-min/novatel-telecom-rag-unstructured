@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5612738",
+  "title": "MicroRNA-148a regulates LDL receptor and ABCA1 expression to control circulating lipoprotein levels",
+  "content": "The hepatic low-density lipoprotein receptor (LDLR) pathway is essential for clearing circulating LDL cholesterol (LDL-C). Whereas the transcriptional regulation of LDLR is well characterized, the post-transcriptional mechanisms that govern LDLR expression are just beginning to emerge. Here we develop a high-throughput genome-wide screening assay to systematically identify microRNAs (miRNAs) that regulate LDLR activity in human hepatic cells. From this screen we identified and characterized miR-148a as a negative regulator of LDLR expression and activity and defined a sterol regulatory element–binding protein 1 (SREBP1)-mediated pathway through which miR-148a regulates LDL-C uptake. In mice, inhibition of miR-148a increased hepatic LDLR expression and decreased plasma LDL-C. Moreover, we found that miR-148a regulates hepatic expression of ATP-binding cassette, subfamily A, member 1 (ABCA1) and circulating high-density lipoprotein cholesterol (HDL-C) levels in vivo. These studies uncover a role for miR-148a as a key regulator of hepatic LDL-C clearance through direct modulation of LDLR expression and demonstrate the therapeutic potential of inhibiting miR-148a to ameliorate an elevated LDL-C/HDL-C ratio, a prominent risk factor for cardiovascular disease.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

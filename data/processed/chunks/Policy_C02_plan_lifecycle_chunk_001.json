@@ -1,0 +1,20 @@
+{
+  "chunk_id": "Policy_C02_plan_lifecycle_chunk_001",
+  "document_id": "Policy_C02_plan_lifecycle",
+  "chunk_index": 1,
+  "text": "Exceptions to standard rules require documented supervisor or department-head approval before being applied. Responsibilities Compliance Requirements This policy is designed to align with applicable regulatory requirements (e.g. TRAI/DoT guidance) as general background context; it is not a substitute for legal advice. Audit Considerations All exceptions and manual overrides must be logged with justification for periodic audit review. Escalation Where first-line steps do not resolve the issue within the stated timeframe, the case is escalated to the next tier with full interaction history attached, and the customer is informed of the new reference and expected timeline. Effective Date / Version Version 1.0, effective 2026-08-08. Review Cycle This policy is reviewed annually or upon material regulatory change, whichever is earlier. Related Documents No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
+  "title": "Prepaid & Postpaid Plan Lifecycle Policy",
+  "document_type": "Policy",
+  "category": "C02",
+  "department": "Product",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-08-08",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [
+    "c02"
+  ],
+  "file_path": "data\\raw\\unstructured\\policies\\Policy_C02_plan_lifecycle.docx",
+  "file_type": "docx"
+}

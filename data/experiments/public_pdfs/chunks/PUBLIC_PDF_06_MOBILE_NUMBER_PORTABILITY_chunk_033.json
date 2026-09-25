@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_033",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 33,
+  "text": "4 Subs. by the Second Amendment Regulations, 2010, reg. 2 (w.e.f. 24.11.2010), for the following: “twenty four hours” 2 Ins. by the Sixth Amendment Regulations, 2015, reg. 5 (w.e.f. 03.05.2015) 3 Ins. by the Eighth Amendment Regulations, 2019, reg. 4(b) (w.e.f. 11.11.2019) 4 Subs. by the Fourth Amendment Regulations, 2012, reg. 2 (w.e.f. 18.11.2012), for the following: “one hour” (a) comply with such instructions; and (b) report compliance of such instructions to the Mobile Number Portability Service provider; (7) Upon receipt of the report of compliance under sub-regulation (6) from the Recipient Operator, the Mobile Number Portability Service provider shall allocate the corresponding Location Routing Number to the ported number in the Number Portability Database and broadcast the updated Location Routing Number along with the ported mobile number to all Access Providers and International Long Distance Operators who shall update their respective Local Number Portability Database. 1[(7a) The Mobile Number Portability Service provider shall, on receipt of request for download of Number Portability Database from Access Providers, other than new operators, permit such downloads from its system and Access Provider shall pay for the charges for such download to the Mobile Number Portability Service provider at the rate specified by the Authority from time to time.] 12. Grounds for rejection of porting request by Donor Operator.—A request for porting of a mobile number shall not be rejected by a Donor Operator on any ground other than the following grounds, namely:— (a) 2[* * * *] (b) 3[* * * *]",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

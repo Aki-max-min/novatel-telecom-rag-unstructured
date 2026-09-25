@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_047",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 47,
+  "text": "to network issues in LSA network segment shall be treated as failed calls or not ‘Established Calls’. Calls that failed due to user behavior such as Busy, not reachable etc. will be counted as established calls for the purpose of CSSR calculation. 4.2.2. Point of Interconnection (PoI) Congestion (90th percentile value) (i) This parameter signifies the ease by which a customer of one network would be able to communicate with the customer of another network. This parameter also reflects as how effective is the interconnection between two networks. Congestion at the PoIs is due to inadequate interconnection commensurate with the outgoing traffic at the Point of Interconnection between two telecom networks. (ii) The PoI interconnection between IP networks (4G/5G) shall be on IP interface, as far as possible, to avoid conversion and reconversion of IP data in TDM and vice versa which affects the call setup time, call quality and overall consumer experience. (iii) The Service Providers should ensure that the voice calls get the required end-to-end priority in IP based network interconnection for LTE and 5G network in both intra service provider and inter-service provider scenarios. (iv) The measurement of this parameter shall be made during Time Consistent Busy Hour. Performance affected due to duly documented force majeure conditions can be excluded for calculating the performance against the parameter. Details of force majeure shall be maintained by the service provider. (v) The following formula shall be used for calculation of congestion on each PoI in the LSA over the",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

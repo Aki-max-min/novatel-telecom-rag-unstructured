@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6565037",
+  "title": "Extrasynaptic Glutamate Spillover in the Hippocampus: Dependence on Temperature and the Role of Active Glutamate Uptake",
+  "content": "At excitatory synapses on CA1 pyramidal cells of the hippocampus, a larger quantal content is sensed by N-methyl-D-aspartic acid receptors (NMDARs) than by alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid receptors (AMPARs). A novel explanation for this discrepancy is that glutamate released from terminals presynaptic to one cell can diffuse to and activate NMDARs, but not AMPARs, on a neighboring cell. If this occurs in the living brain, it could invalidate the view that glutamatergic synapses function as private communication channels between neurons. Here, we show that the discrepancy in quantal content mediated by the two receptors is greatly decreased at physiological temperature, compared with conventional recording conditions. This effect of temperature is not due to changes in release probability or uncovering of latent AMPARs. It is, however, partially reversed by the glutamate uptake inhibitor dihydrokainate. The results suggest that glutamate transporters play a critical role in limiting the extrasynaptic diffusion of glutamate, thereby minimizing cross-talk between neighboring excitatory synapses.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

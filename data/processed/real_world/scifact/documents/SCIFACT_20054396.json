@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_20054396",
+  "title": "Polo-like kinase 1 regulates Nlp, a centrosome protein involved in microtubule nucleation.",
+  "content": "In animal cells, most microtubules are nucleated at centrosomes. At the onset of mitosis, centrosomes undergo a structural reorganization, termed maturation, which leads to increased microtubule nucleation activity. Centrosome maturation is regulated by several kinases, including Polo-like kinase 1 (Plk1). Here, we identify a centrosomal Plk1 substrate, termed Nlp (ninein-like protein), whose properties suggest an important role in microtubule organization. Nlp interacts with two components of the gamma-tubulin ring complex and stimulates microtubule nucleation. Plk1 phosphorylates Nlp and disrupts both its centrosome association and its gamma-tubulin interaction. Overexpression of an Nlp mutant lacking Plk1 phosphorylation sites severely disturbs mitotic spindle formation. We propose that Nlp plays an important role in microtubule organization during interphase, and that the activation of Plk1 at the onset of mitosis triggers the displacement of Nlp from the centrosome, allowing the establishment of a mitotic scaffold with enhanced microtubule nucleation activity.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

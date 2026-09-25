@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_46594244",
+  "title": "Activation of lysosomal function during dendritic cell maturation.",
+  "content": "In response to a variety of stimuli, dendritic cells (DCs) transform from immature cells specialized for antigen capture into mature cells specialized for T cell stimulation. During maturation, the DCs acquire an enhanced capacity to form and accumulate peptide-MHC (major histocompatibility complex) class II complexes. Here we show that a key mechanism responsible for this alteration was the generalized activation of lysosomal function. In immature DCs, internalized antigens were slowly degraded and inefficiently used for peptide loading. Maturation induced activation of the vacuolar proton pump that enhanced lysosomal acidification and antigen proteolysis, facilitating efficient formation of peptide-MHC class II complexes. Lysosomal function in DCs thus appears to be specialized for the developmentally regulated processing of internalized antigens.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

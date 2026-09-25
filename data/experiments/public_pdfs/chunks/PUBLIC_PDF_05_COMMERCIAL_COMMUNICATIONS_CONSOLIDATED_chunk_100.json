@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_100",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 100,
+  "text": "(DL) for registration of entities (DL-Entities); To register entities declared by access provider or access provider(s) together for various functions and registers like Header Register; Consent Register; Consent Template Register; Content Template Register; Content Template Verifier; Complaint Register; Preference Register; Telemarketer Scrubbing Function Register; Telemarketer Message Delivery Function Register; Telemarketer Voice Delivery Function Register; Deadline(s) for registering entities with DL-Entities Header Register; Consent Register; Consent Template Register; Content Template Register; Content Template Verifier; Complaint Register; Preference Register; At least one entity for Telemarketer Scrubbing Function; At least one entity for Telemarketer Message Delivery Function Register; At least one entity for Telemarketer Voice Delivery Function Register; Registration of existing assignee of Headers with Header Registrar; stop assigning headers without verification of identity and scope of senders; register existing assignee of headers after verification of identity and scope documents of Unsolicited Commercial Communications sender(s) and bind to phone number(s); assign or reassign current owner of header(s) considering at least following: - Whether headeris not assigned to any other sender(s); Whether header is matching with brand name of a company; Whether header is look alike with other popular header(s) and may mislead recipients; Any other reason or fact which is important to consider before assigning header; use temporary header(s), during migration phase, for all earlier assigned headers; 56 fixing deadline for working of temporary headers; Start assigning new headers assign headers after due diligence, verification of identity and scope documents of Unsolicited Commercial Communications sender(s) and bind to phone number(s); consider reason(s) and",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

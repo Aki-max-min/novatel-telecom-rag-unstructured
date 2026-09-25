@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_007",
+  "document_id": "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+  "chunk_index": 7,
+  "text": "(za) “Government Message or Government Voice Call” means any message sent or voice call made on the directions of – (a) the Central Government or the State Government or any body established under the Constitution; or (b) the Authority or by an agency expressly authorized for the purpose by the Authority: Provided that such messages are sent or voice calls are made through the DLT platform. Explanation: There shall not be any requirement of seeking Consent for receipt of these communications nor shall there be any option in the Preference Register to block such communications; “Header” means an alphanumeric string of maximum eleven characters or numbers assigned to an individual, business or legal entity under these regulations to send commercial communications; “Header Root” means the common sub string of block of headers, starting from the first character; 6 “Header Branch” means the sub string of a header other than header root; “Header Registration Facility or HRF” means the facility established by Header Registrar, under relevant regulations, for registration or de-registration of the header of any principal entity or content provider for sending commercial communications; “Header Register” means a Distributed Ledger for Header (DL-Header) which keeps records of header(s), its purpose of sending commercial communications and details of sender to whom it is assigned in a safe and secure manner; “Header Registrar” is an authorised entity under relevant regulations responsible for maintaining the header register, header registration facility and header verification facility; “Immutable” means data added to the distributed ledger after",
+  "title": "05 commercial communications consolidated",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/05_commercial_communications_consolidated.pdf",
+  "file_type": "pdf"
+}

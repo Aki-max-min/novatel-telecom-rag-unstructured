@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10012166",
+  "title": "The role of protein clearance mechanisms in organismal ageing and age-related diseases.",
+  "content": "The ability to maintain a functional proteome, or proteostasis, declines during the ageing process. Damaged and misfolded proteins accumulate with age, impairing cell function and tissue homeostasis. The accumulation of damaged proteins contributes to multiple age-related diseases such as Alzheimer's, Parkinson's or Huntington's disease. Damaged proteins are degraded by the ubiquitin-proteasome system or through autophagy-lysosome, key components of the proteostasis network. Modulation of either proteasome activity or autophagic-lysosomal potential extends lifespan and protects organisms from symptoms associated with proteostasis disorders, suggesting that protein clearance mechanisms are directly linked to ageing and age-associated diseases.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7157436",
+  "title": "Neuronal replacement from endogenous precursors in the adult brain after stroke",
+  "content": "In the adult brain, new neurons are continuously generated in the subventricular zone and dentate gyrus, but it is unknown whether these neurons can replace those lost following damage or disease. Here we show that stroke, caused by transient middle cerebral artery occlusion in adult rats, leads to a marked increase of cell proliferation in the subventricular zone. Stroke-generated new neurons, as well as neuroblasts probably already formed before the insult, migrate into the severely damaged area of the striatum, where they express markers of developing and mature, striatal medium-sized spiny neurons. Thus, stroke induces differentiation of new neurons into the phenotype of most of the neurons destroyed by the ischemic lesion. Here we show that the adult brain has the capacity for self-repair after insults causing extensive neuronal death. If the new neurons are functional and their formation can be stimulated, a novel therapeutic strategy might be developed for stroke in humans.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

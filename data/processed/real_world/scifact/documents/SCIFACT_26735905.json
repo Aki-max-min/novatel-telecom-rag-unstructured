@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26735905",
+  "title": "Metabolic reprogramming of stromal fibroblasts through p62-mTORC1 signaling promotes inflammation and tumorigenesis.",
+  "content": "The tumor microenvironment plays a critical role in cancer progression, but the precise mechanisms by which stromal cells influence the epithelium are poorly understood. Here we show that p62 levels were reduced in the stroma of several tumors and that its loss in the tumor microenvironment or stromal fibroblasts resulted in increased tumorigenesis of epithelial prostate cancer cells. The mechanism involves the regulation of cellular redox through an mTORC1/c-Myc pathway of stromal glucose and amino acid metabolism, resulting in increased stromal IL-6 production, which is required for tumor promotion in the epithelial compartment. Thus, p62 is an anti-inflammatory tumor suppressor that acts through the modulation of metabolism in the tumor stroma.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

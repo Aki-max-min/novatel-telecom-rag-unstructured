@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_069",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 69,
+  "text": "(b) Procedure for filling form and design it for the purpose of filing complaint with all relevant details required to investigate complaint and take appropriate action; (c) Procedure for authentication process to ensure that complaint is made by recipient; (d) Procedure to generate and communicate Reference number to the customer which may be used to check status of complaint; 3. Every Access Provider shall formulate: - (1) Message Sequence Charts for messages with parameter details and time sequence to provide details about the process between two entities and action taken by particular entity; (2) Flow Charts to provide details about the process between two entities and action taken; 51 Schedule-IV Action Items for preparing Code of Practice for Unsolicited Commercial Communications Detection (CoP-UCC_Detect) 1. Every Access Provider shall establish, maintain and operate following system, functions and processes to detect sender(s) who are sending Unsolicited Commercial Communications in bulk and not complying with the regulation(s), and act to curb such activities: - (1) System which have intelligence at least following functionalities: - (a) identifying sender(s) on basis of signature(s); (b) deploying honeypot(s) and using information collected by it; (c) evolving signature(s) by learning over time; (d) interface to exchange information with similar system(s) established by other access provider(s) to evolve signature(s), detecting sender using Sender Information (SI); (e) considering inputs available, if any, from any other network element(s) of the access provider system(s); (2) provide ways and means for resolving complaint(s) by sharing information related to telephone number(s) of sender(s) against",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

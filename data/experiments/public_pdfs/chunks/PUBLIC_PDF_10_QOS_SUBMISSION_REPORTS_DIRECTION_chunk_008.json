@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_008",
+  "document_id": "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+  "chunk_index": 8,
+  "text": "Number of cells for which geospatial coverage map is available on service provider’s website Number of Subscribers at the end of reporting period Supporting Info Annuxure-I --- Report ID (TSP-LSA- Period) Total number of call attempts on call centre / customer care Number of calls connected to call centre / customer care Number of subscribers requested to connect to the operator Number of calls answered by the operator within 90 seconds Total number of requests received for Termination / Closure of service Number of requests for Termination / Closure of service completed after 7 working days Number of closure of service which require refund Number of service provisioing request for which deposit taken but service could not be provisioned Number of deposits not refunded within 45 days Customer Service Performance of call centre / customer care Termination/ closure of service Cell_Master Annexure-I SI. No. Cell Global Identity (CGI) Service Provider LSA Code State/ UT District City/ Town/ Village Pin Code Site (Location) ID Lat Long Base Station ID Type of site (Macro/ Micro/ IBS/ Small Cell/ Other) Technology (2G/ 3G/ 4G/ 5G) Mode (FDD/ TDD/ NA) Radiating frequency band (MHz) Types of Media Connectivity (Fiber/ Microwave/ Satellite/ Other) Whether Cell is a part of network slicing? (Yes/ No) Date of Commissioning of Base Station Date of De- commissioning of Base Station, if any Downtime Annexure-I CGI Service Provider LSA Code 1-Oct-24 2-Oct-24 … … … 31-Dec-24 CBBH Annexure-I CGI Service Provider LSA Code 1-Oct-24 2-Oct-24 … … … 31-Dec-24 DCR_CS",
+  "title": "10 qos submission reports direction",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/10_qos_submission_reports_direction.pdf",
+  "file_type": "pdf"
+}

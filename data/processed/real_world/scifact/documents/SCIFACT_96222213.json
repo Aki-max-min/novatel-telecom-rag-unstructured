@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_96222213",
+  "title": "Combined sampler robot and high-performance liquid chromatography: a fully automated system for biological small-angle X-ray scattering experiments at the Synchrotron SOLEIL SWING beamline",
+  "content": "Small-angle X-ray scattering for macromolecules in solution is now widely used in structural biology to complement high-resolution structure determination obtained by X-ray crystallography or NMR. In the context of third-generation synchrotron sources, this increasing interest leads to developments in sample environments and automation. The presence of an online purification system is justified by the need for sample monodispersity. A combined system including an auto-sampler robot and online high-performance liquid chromatography (HPLC) has been developed and optimized at the SWING beamline of Synchrotron SOLEIL (Gif-sur-Yvette, France). In the sample changer mode, a few microlitres of sample can be injected between two air bubbles and circulated at a controlled speed of typically 40 µl min−1. A maximum of 14 samples per hour could be measured in this mode by remote controlling the sample injections. In the HPLC mode, an initially polydisperse sample can be separated into each of its components before immediate data acquisition. The sample cell is thermostated, and offers a visualization control and online UV–Vis absorption monitoring.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

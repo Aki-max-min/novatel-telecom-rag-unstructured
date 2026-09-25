@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_34034749",
+  "title": "The nucleosome family: dynamic and growing.",
+  "content": "Ever since the discovery of the nucleosome in 1974, scientists have stumbled upon discrete particles in which DNA is wrapped around histone complexes of different stoichiometries: octasomes, hexasomes, tetrasomes, \"split\" half-nucleosomes, and, recently, bona fide hemisomes. Do all these particles exist in vivo? Under what conditions? What is their physiological significance in the complex DNA transactions in the eukaryotic nucleus? What are their dynamics? This review summarizes research spanning more than three decades and provides a new meaning to the term \"nucleosome. \" The nucleosome can no longer be viewed as a single static entity: rather, it is a family of particles differing in their structural and dynamic properties, leading to different functionalities.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

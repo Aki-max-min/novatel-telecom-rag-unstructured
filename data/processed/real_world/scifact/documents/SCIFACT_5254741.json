@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5254741",
+  "title": "The shunt problem: control of functional shunting in normal and tumour vasculature",
+  "content": "Networks of blood vessels in normal and tumour tissues have heterogeneous structures, with widely varying blood flow pathway lengths. To achieve efficient blood flow distribution, mechanisms for the structural adaptation of vessel diameters must be able to inhibit the formation of functional shunts (whereby short pathways become enlarged and flow bypasses long pathways). Such adaptation requires information about tissue metabolic status to be communicated upstream to feeding vessels, through conducted responses. We propose that impaired vascular communication in tumour microvascular networks, leading to functional shunting, is a primary cause of dysfunctional microcirculation and local hypoxia in cancer. We suggest that anti-angiogenic treatment of tumours may restore vascular communication and thereby improve or normalize flow distribution in tumour vasculature.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_153",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 153,
+  "text": "technology and resources to ensure smooth functioning and integration of the app with the current infrastructure stack. This will create unnecessary cost and redundant infrastructure for executing a process that can be more easily performed by the Communication Service Providers, who already have significant penetration with consumers. Further, when all the service providers share a common service for handling UCC, they can also define a common App interface for registering preferences and complaints. This enables developing the App easy for anyone hosting these common services or even a third party. If the UCC services are hosted in the cloud, the cloud service provider can enable the downloading of the app from its portal. The App can also function as an advertising 80 platform for the telemarketers and other companies. This can make the app essentially free. ii. Some stakeholders suggested other initiatives for popularizing this app, like TRAI may advertise this mobile app along with the TSPs who can further educate the customers about the benefit of the app through SMS. TRAI may utilize Proximity marketing/ digital marketing techniques for promoting use and penetration of the Apps. iii. many stakeholders supported the idea of API based framework which actually makes communications among various stakeholders and parties easy. As a regulator, TRAI should release an API or a kind of a standardized way that could be prescribed that any application which actually seeks to take care of this UCC problem. Some stakeholders had confidence that once industry establishes a standard, the",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_11936877",
+  "title": "Environmental and economic costs of soil erosion and conservation benefits.",
+  "content": "Soil erosion is a major environmental threat to the sustainability and productive capacity of agriculture. During the last 40 years, nearly one-third of the world's arable land has been lost by erosion and continues to be lost at a rate of more than 10 million hectares per year. With the addition of a quarter of a million people each day, the world population's food demand is increasing at a time when per capita food productivity is beginning to decline.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

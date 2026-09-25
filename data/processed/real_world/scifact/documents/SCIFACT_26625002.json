@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26625002",
+  "title": "Metabolic shutdown in Escherichia coli cells lacking the outer membrane channel TolC.",
+  "content": "The outer membrane channel TolC is a key component of multidrug efflux and type I secretion transporters in Escherichia coli. Mutational inactivation of TolC renders cells highly susceptible to antibiotics and leads to defects in secretion of protein toxins. Despite impairment of various transport functions, no growth defects were reported in cells lacking TolC. Unexpectedly, we found that the loss of TolC notably impairs cell division and growth in minimal glucose medium. The TolC-dependent phenotype was further exacerbated by the loss of ygiB and ygiC genes expressed in the same operon as tolC and their homologues yjfM and yjfC located elsewhere on the chromosome. Our results show that this growth deficiency is caused by depletion of the critical metabolite NAD(+) and high NADH/NAD(+) ratios. The increased amounts of PspA and decreased rates of NADH oxidation in Delta tolC membranes indicated stress on the membrane and dissipation of a proton motive force. We conclude that inactivation of TolC triggers metabolic shutdown in E. coli cells grown in minimal glucose medium. The Delta tolC phenotype is partially rescued by YgiBC and YjfMC, which have parallel functions independent from TolC.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

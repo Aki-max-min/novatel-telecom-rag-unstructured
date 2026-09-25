@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22543403",
+  "title": "Epigenetic mechanisms in neurological disease",
+  "content": "The exploration of brain epigenomes, which consist of various types of DNA methylation and covalent histone modifications, is providing new and unprecedented insights into the mechanisms of neural development, neurological disease and aging. Traditionally, chromatin defects in the brain were considered static lesions of early development that occurred in the context of rare genetic syndromes, but it is now clear that mutations and maladaptations of the epigenetic machinery cover a much wider continuum that includes adult-onset neurodegenerative disease. Here, we describe how recent advances in neuroepigenetics have contributed to an improved mechanistic understanding of developmental and degenerative brain disorders, and we discuss how they could influence the development of future therapies for these conditions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_23203102",
+  "title": "Transmission of sporadic Creutzfeldt-Jakob disease by blood transfusion: risk factor or possible biases.",
+  "content": "BACKGROUND The occurrence of transfusion transmissions of variant Creutzfeldt-Jakob disease (CJD) cases has reawakened attention to the possible similar risk posed by other forms of CJD. STUDY DESIGN AND METHODS CJD with a definite or probable diagnosis (sporadic CJD, n = 741; genetic CJD, n = 175) and no-CJD patients with definite alternative diagnosis (n = 482) with available blood transfusion history were included in the study. The risk of exposure to blood transfusion occurring more than 10 years before disease onset and for some possible confounding factors was evaluated by calculating crude odds ratios (ORs). Variables with significant ORs in univariate analyses were included in multivariate logistic regression analyses. RESULTS In the univariate model, blood transfusion occurring more than 10 years before clinical onset is 4.1-fold more frequent in sporadic CJD than in other neurologic disorders. This significance is lost when the 10-year lag time was not considered. Multivariate analyses show that the risk of developing sporadic CJD after transfusion increases (OR, 5.05) after adjusting for possible confounding factors. Analysis conducted on patients with genetic CJD did not reveal any significant risk factor associated with transfusion. CONCLUSION This is the first case-control study showing a significant risk of transfusion occurring more than 10 years before clinical onset in sporadic CJD patients. It remains questionable whether the significance of these data is biologically plausible or the consequence of biases in the design of the study, but they counterbalance previous epidemiologic negative reports that might have overestimated the assessment of blood safety in sporadic CJD.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_34603465",
+  "title": "Metabolic, Epigenetic, and Transgenerational Effects of Gut Bacterial Choline Consumption.",
+  "content": "Choline is an essential nutrient and methyl donor required for epigenetic regulation. Here, we assessed the impact of gut microbial choline metabolism on bacterial fitness and host biology by engineering a microbial community that lacks a single choline-utilizing enzyme. Our results indicate that choline-utilizing bacteria compete with the host for this nutrient, significantly impacting plasma and hepatic levels of methyl-donor metabolites and recapitulating biochemical signatures of choline deficiency. Mice harboring high levels of choline-consuming bacteria showed increased susceptibility to metabolic disease in the context of a high-fat diet. Furthermore, bacterially induced reduction of methyl-donor availability influenced global DNA methylation patterns in both adult mice and their offspring and engendered behavioral alterations. Our results reveal an underappreciated effect of bacterial choline metabolism on host metabolism, epigenetics, and behavior. This work suggests that interpersonal differences in microbial metabolism should be considered when determining optimal nutrient intake requirements.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

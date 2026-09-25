@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10761515",
+  "title": "Breath-methane in patients with cancer of the large bowel.",
+  "content": "In 30 patients with cancer of the large bowel, 24 (80%) had detectable levels of methane in their breath, compared with 25 (39%) of 64 patients with non-malignant large-bowel disease and 83 (40%) of 208 subjects without large-bowel disease. These findings suggest that there may be a difference in anaerobic intestinal flora between patients with cancer of the large bowel and those without the disease. This difference may antedate the development of the tumour or, alternatively, result from the tumour.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

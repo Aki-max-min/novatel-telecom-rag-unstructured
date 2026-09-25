@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_049",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 49,
+  "text": "Provider shall set up following functional entities or may delegate roles to perform following functions: - (1) Header Registrar (HR) to (a) establish and maintain header register as distributed ledger to keep headers, in a secure and safe manner, and make accessible relevant information for identifying the assignee at the time of request to carry out various functions, e.g. scrubbing function from the registered telemarketers for scrubbing, delivery function from telemarketer; (b) carry out Header Registration Function; (c) keep record of headers throughout its lifecycle, i.e. free for assignment, assigned to an entity, withdrawn, surrendered, re-assigned etc.; (d) keep record of header(s), header root(s) reserved for specific purpose; (e) synchronize records, in real time, among all header ledgers available with participating nodes in Header Registration Functionality in an immutable and non- repudiable manner; (f) maintain with minimum performance requirements as specified; (g) perform any other function and keep relevant details required for carrying out pre and post checks for regulatory compliance; 35 (2) Consent Registrar (CR) to (a) establish and maintain consent register as distributed ledger to keep consent, in a secure and safe manner, and make accessible relevant data for scrubbing function to the registered telemarketers for scrubbing; (b) establish Customer Consent Acquisition Facility (CCAF),to record recipient’s consent to receive commercial communications from the sender or consent acquirer; (c) establishCustomer Consent Varification Facility (CCVF) for the purpose of facilitating: (i) customers to verify, modify, renew or revoke their consent in respect of commercial communications, and (ii) Access Providers to",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

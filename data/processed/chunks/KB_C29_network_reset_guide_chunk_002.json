@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C29_network_reset_guide_chunk_002",
+  "document_id": "KB_C29_network_reset_guide",
+  "chunk_index": 2,
+  "text": "stated timeframe, the case is escalated to the next tier with full interaction history attached, and the customer is informed of the new reference and expected timeline. ## Related Issues - Repeated occurrences for the same customer may indicate an upstream system issue and should be flagged to the relevant platform team. ## Related Documents Related documents: FAQ_C29_001.",
+  "title": "Resetting Device Network Settings for Persistent Connectivity Issues",
+  "document_type": "KB Article",
+  "category": "C29",
+  "department": "Technical Support",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-18",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C29_001"
+  ],
+  "tags": [
+    "c29",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C29_network_reset_guide.md",
+  "file_type": "markdown"
+}

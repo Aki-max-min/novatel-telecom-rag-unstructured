@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8185080",
+  "title": "Induction of pluripotent stem cells by defined factors is greatly improved by small-molecule compounds",
+  "content": "Reprogramming of mouse and human somatic cells can be achieved by ectopic expression of transcription factors, but with low efficiencies. We report that DNA methyltransferase and histone deacetylase (HDAC) inhibitors improve reprogramming efficiency. In particular, valproic acid (VPA), an HDAC inhibitor, improves reprogramming efficiency by more than 100-fold, using Oct4-GFP as a reporter. VPA also enables efficient induction of pluripotent stem cells without introduction of the oncogene c-Myc.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

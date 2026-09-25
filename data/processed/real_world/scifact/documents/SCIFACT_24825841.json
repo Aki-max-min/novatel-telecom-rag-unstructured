@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_24825841",
+  "title": "Generating an iPSC bank for HLA-matched tissue transplantation based on known donor and recipient HLA types.",
+  "content": "The likelihood for immunological rejection of Human Leukocyte Antigens (HLA)-mismatched induced pluripotent stem cells (iPSCs) limits their therapeutic potential. Here we show how a tissue bank from 150 selected homozygous HLA-typed volunteers could match 93% of the UK population with a minimal requirement for immunosuppression. Our model provides a practical approach for using existing HLA-typed samples to generate an iPSC stem cell bank that circumvents prospective typing of a large number of individuals.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

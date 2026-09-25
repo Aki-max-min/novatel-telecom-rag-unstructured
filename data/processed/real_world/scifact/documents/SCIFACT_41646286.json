@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_41646286",
+  "title": "Folate affects apoptosis in human trophoblastic cells.",
+  "content": "Effects of folate deficiency on the rate of apoptosis in human cytotrophoblastic cells has been investigated. Apoptosis was determined in cytotrophoblastic cells after culture in 1. control medium, 2. folate-free medium and 3. folate-free medium plus 10% fetal calf serum. Apoptosis rates in cells cultured in mediums 2 and 3 were significantly higher than those cultured in the control medium (P<0.02 and P<0.03, respectively). In conclusion, human cytotrophoblastic cells show a significantly increased rate of apoptosis in vitro after culture in a folate-free medium. Possible explanations for the association between folate deficiency and pregnancy complications are suggested.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

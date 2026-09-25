@@ -21,5 +21,12 @@ __pycache__/
 
 # Person B: regenerable knowledge-graph artefacts (~90MB, rebuilt by graph_builder / structured_graph_builder)
 knowledge_graph/output/
-__pycache__/
-*.pyc
+
+.venv_colpali/
+
+data/raw/real_world/telecom_mixed/
+data/raw/real_world/scifact/scifact.zip
+
+# Regenerable ColPali outputs (page images + tensors) - not source data
+data/experiments/public_pdfs/**/*.jpg
+data/experiments/public_pdfs/**/*.pt

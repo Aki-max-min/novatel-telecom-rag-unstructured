@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_39326723",
+  "title": "Functional genomics and proteomics approaches to study the ERBB network in cancer.",
+  "content": "Substantial progress in functional genomic and proteomic technologies has opened new perspectives in biomedical research. The sequence of the human genome has been mostly determined and opened new visions on its complexity and regulation. New technologies, like RNAi and protein arrays, allow gathering knowledge beyond single gene analysis. Increasingly, biological processes are studied with systems biological approaches, where qualitative and quantitative data of the components are utilized to model the respective processes, to predict effects of perturbations, and to then refine these models after experimental testing. Here, we describe the potential of applying functional genomics and proteomics, taking the ERBB family of growth-factor receptors as an example to study the signaling network and its impact on cancer.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

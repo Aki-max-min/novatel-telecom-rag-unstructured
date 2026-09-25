@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_043",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 43,
+  "text": "hours. The downtime of each cell lasting for more than one hour at a time, as per (i) above, shall only be taken into consideration. The total number of such worst-affected cells in the month shall be determined. Thereafter, the performance against this parameter for monthly assessment period shall be measured through the following formula: = 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐜𝐞𝐥𝐥𝐬 𝐡𝐚𝐯𝐢𝐧𝐠 𝐚𝐜𝐜𝐮𝐦𝐮𝐥𝐚𝐭𝐞𝐝 𝐝𝐨𝐰𝐧𝐭𝐢𝐦𝐞 𝐨𝐟 𝐦𝐨𝐫𝐞 𝐭𝐡𝐚𝐧 𝟐𝟒 𝐡𝐨𝐮𝐫𝐬 𝐓𝐨𝐭𝐚𝐥 𝐧𝐮𝐦𝐛𝐞𝐫 𝐨𝐟 𝐂𝐞𝐥𝐥𝐬 𝐢𝐧 𝐭𝐡𝐞 𝐧𝐞𝐭𝐰𝐨𝐫𝐤 𝐨𝐟 𝐫𝐞𝐩𝐨𝐫𝐭𝐞𝐝 𝐬𝐞𝐫𝐯𝐢𝐜𝐞 𝐚𝐫𝐞𝐚 𝐚𝐭 𝐭𝐡𝐞 𝐞𝐧𝐝 𝐨𝐟 𝐭𝐡𝐞 𝐚𝐬𝐬𝐞𝐬𝐬𝐦𝐞𝐧𝐭 𝐩𝐞𝐫𝐢𝐨𝐝 × 𝟏𝟎𝟎 113 Note: However, in the case of quarterly assessment in interim period, average of number of worst affected cells during three different months of the quarter will become numerator of the above formula. (iii) Performance affected due to duly documented force majeure conditions and planned downtime shall be excluded for calculating the performance against these two parameters. All such exclusions with details of force majeure shall be maintained by the service provider. The planned downtime shall only be excluded from the calculations if the possibly affected subscribers, due to planned downtime, have been informed through SMS/ email/ newspaper/ website at least 7 days in advance from start date of the planned downtime. However, non-service affecting planned downtime shall not be excluded from the calculation and no prior intimation to the subscriber is required in such cases. (iv) Further, the Authority, based on inputs from service providers and/or independent assessment, may consider allowing specific exclusions for prescribed duration in identified areas in case",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

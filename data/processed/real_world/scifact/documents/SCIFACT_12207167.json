@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12207167",
+  "title": "Adverse effects of excessive consumption of amino acids.",
+  "content": "PHENYLALANINE TOXICITY 158 Developing the 0. -M ethylphenylalanine Model. . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 160 Use of the a-Methyl phenylalanine Model in Brain Protein Synthesis . . . . . . . . . . . . . . . . . . . 161 TYROSINE TOXICITY 162 General Nutritional Observations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 162 Factors Affecting Tissue Concentrations of Tyrosine . ... .. .. .. ...... . . . . . . .. . . 163 Probable Cause of Tyrosine Toxicity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 164 A New Animal Model for Human Tyrosinemia II 165 TRYPTOPHAN TOXICITy 165 General Nutritional Observations . .. ....... . ....... . .... . . .. . . . .. . .. . .. ..... ......... 165 Factors Affecting Tryptophan Toxicity . . . .. . . . . . . . .... . ........ 166 Tryptophan and Ruminant Interstitial Pulmonary Emphysema and Edema ..... . . . . . . . 167 HISTIDINE TOXICITY 168 General Nutritional Observations ...... ........ . . . . ..... . ...... .. . 168 Metabolic Aspects. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 169 Alleviation of Histidine Toxicity . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ... . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 170 METHIONINE TOXICITY 171 General Nutritional Observations . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 171 Tissue Damage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . 172 Protective Effect of Glycine, Serine, or Retinol . . . .. ....... . ......... . ......... .. . .. . . ...... 172 Chemical Characteristics Related to the Toxicity of Methionine . . . . . . . . . . . . . . . . . . . . . . . . . 173 Damaging Effects of Methanethiol. . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . 173 Met�io,!ine To�i.city in Chickens 174 EthlOnme TOxIcIty . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . ... . 174",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

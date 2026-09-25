@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_180",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 180,
+  "text": "77 BSNL UPE 99.43 0.25 93.93 100.00 6.62 0.00 0.01 100.00 100.00 99.66 99.66 100.00 100.00 78 RJIL UPE NA 0.00 NA NA NA 0.00 0.00 NA 100.00 NA NA NA NA 79 TTSL UPE NA 0.50 100.0 0 100.00 0.7 0.00 0.00 NA 100.00 96.88 100.00 100.00 NA 80 AIRTEL UPW 99.49 0.24 85.78 99.69 1.86 0.00 0.00 NA 100.00 NA NA NA NA 81 BSNL UPW 100.00 0.24 97.72 100.00 6.42 0.00 0.04 100.00 100.00 98.45 99.28 100.00 100.00 82 RJIL UPW NA 0.00 NA NA NA 0.00 0.00 NA 100.00 NA NA NA NA 83 TTSL UPW NA 0.00 NA NA NA 0.00 0.00 NA 100.00 NA NA 100.00 NA 84 AIRTEL WB 98.78 0.08 90.45 100.00 0.93 0.00 0.00 NA 100.00 NA NA NA NA 85 BSNL WB 100.00 0.06 96.87 100.00 3.72 0.00 0.00 NA 100.00 99.12 99.68 100.00 100.00 86 RJIL WB NA 0.00 NA NA NA 0.00 0.00 NA 100.00 NA NA NA NA *Application of adjustment to customer’s account within one week from the date of resolution of billing and charging complaints or rectification of faults or rectification of significant network outage, as applicable 163 Annexure 4.3: Quality of Service Performance of Broadband (wireline) Service Providers 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 S No Service Provider Servi ce area code Service Provisioning Broadband Service Performance Fault Repair Customer Service Provision of a service within 7 working days of payment of",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

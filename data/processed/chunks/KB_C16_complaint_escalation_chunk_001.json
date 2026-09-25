@@ -1,0 +1,23 @@
+{
+  "chunk_id": "KB_C16_complaint_escalation_chunk_001",
+  "document_id": "KB_C16_complaint_escalation",
+  "chunk_index": 1,
+  "text": "| Apply the standard fix | Issue resolved / status updated | Proceed to next step or escalate | | 4 | Confirm resolution with the customer | Issue resolved / status updated | Proceed to next step or escalate | 1. **Confirm the reported issue.** Ask the customer for the exact screen/message and time it occurred. 2. **Check system status.** Verify the relevant backend status (billing, provisioning, network, payment) for the account. 3. **Apply the standard fix.** Retry the action, refresh the record, or trigger the relevant backend re-sync as documented for this scenario. 4. **Confirm resolution with the customer.** Ask the customer to verify the fix on their end before closing. ## Validation Confirm the account reflects the expected state (e.g. correct balance, plan, status, or setting) before closing the interaction. ## Exceptions - Cases linked to suspected fraud are routed to the Fraud & Security Response team instead of standard resolution. - Enterprise/bulk accounts may require coordination with the assigned account manager rather than the standard consumer flow. ## Escalation Criteria - If the standard steps above do not resolve the issue, escalate with reference to: FAQ_C16_001. - Unresolved cases are automatically flagged for supervisor review after the stated SLA window, ensuring no request is left without a defined next action. ## Related Issues - A similar symptom can appear for a related but distinct request type; confirm the exact request before applying this fix. ## Related Documents Related documents: FAQ_C16_001.",
+  "title": "Navigating the Complaint Escalation Ladder",
+  "document_type": "KB Article",
+  "category": "C16",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-04-26",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "FAQ_C16_001"
+  ],
+  "tags": [
+    "c16",
+    "how-to"
+  ],
+  "file_path": "data\\raw\\unstructured\\kb\\KB_C16_complaint_escalation.md",
+  "file_type": "markdown"
+}

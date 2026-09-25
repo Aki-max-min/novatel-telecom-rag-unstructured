@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_134",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 134,
+  "text": "may be synchronised with all Distributed Ledgers for same function of all other access providers. It can ensure that all necessary regulatory pre-checks are done for UCC and control is effective and efficient. Considering this, the Authority has decided that Access Providers should adopt Distributed Ledger Technology (DLT) as Regulatory Technology to develop core of entire UCC eco system, and design solutions around it for meeting the regulatory objectives and requirements of codes of practice. 3.3.26 Complementing Technology Solutions to DLT based core systems: Core of the UCC eco system alone cannot meet each and every requirement of the UCC eco system. Technology driven solutions which are on peripheries of DLT based core systems would also be required to achieve control and management on end to end basis. Applications on top of DLT based systems may perform functions that meet performance requirements or provide user interface simple enough for all types of end users. All complexities should be absorbed in underlying technologies and intuitive, intelligent, flexible and user- friendly interfaces are required to be provided to the end users. The complementing technology solutions to DLT based core system may include, e.g. APIs, applications, apps, off-DLT execution environments (for specific purposes and cases), Calling Name Display solutions, Artificial Intelligence (AI) & Machine Learning (ML), business reports etc. However, complementing technology solutions are required to meet safety and security requirements and to shore up any vulnerabilities in the system. 3.3.27 Establishing, operating and maintaining DLT networks: Access provider would be required to",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

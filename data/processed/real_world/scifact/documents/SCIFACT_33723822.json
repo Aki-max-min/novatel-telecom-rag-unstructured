@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_33723822",
+  "title": "What influences government adoption of vaccines in developing countries? A policy process analysis.",
+  "content": "This paper proposes a framework for examining the process by which government consideration and adoption of new vaccines takes place, with specific reference to developing country settings. The cases of early Hepatitis B vaccine adoption in Taiwan and Thailand are used to explore the relevance of explanatory factors identified in the literature as well as the need to go beyond a variable-centric focus by highlighting the role of policy context and process in determining the pace and extent of adoption. The cases suggest the feasibility and importance of modeling 'causal diversity'-the complex set of necessary and sufficient conditions leading to particular decisional outcomes-in a broad range of country contexts. A better understanding of the lenses through which government decision-makers filter information, and of the arenas in which critical decisions are shaped and taken, may assist both analysts (in predicting institutionalization of new vaccines) and advocates (in crafting targeted strategies to accelerate their diffusion).",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

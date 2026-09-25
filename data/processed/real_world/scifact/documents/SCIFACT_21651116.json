@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21651116",
+  "title": "Herpesvirus-encoded GPCRs: neglected players in inflammatory and proliferative diseases?",
+  "content": "Herpesviruses encode membrane-associated G protein-coupled receptors (GPCRs) in their viral genomes that are structurally similar to chemokine receptors. These GPCRs hijack GPCR-mediated cellular signalling networks of the host for survival, replication and pathogenesis. In particular the herpesvirus-encoded chemokine receptors ORF74, BILF1 and US28, which are present at inflammatory sites and tumour cells, provide important virus-specific targets for directed therapies. Given the high druggability of GPCRs in general, these viral GPCRs can be considered promising antiviral drug targets.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

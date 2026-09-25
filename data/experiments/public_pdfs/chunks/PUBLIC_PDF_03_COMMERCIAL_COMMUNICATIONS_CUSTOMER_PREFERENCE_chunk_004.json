@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_004",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 4,
+  "text": "or CR” is an authorized entity under relevant regulations responsible for maintaining the consent register, customer consent acquisition facility and customer consent verification facility; “Consent Template or CT” means a template of content which is presented to the customer while acquiring his consent and clearly mentions purpose of the consent and details of sender; “Consent Template Register” means a Distributed Ledger for registration of Consent Template (DL-TCS) which keeps record of unique consent template identity along with the content of consent template and details of sender who got it registered, in a secure and safe manner; “Content Template for Transaction” means a template of content registered by any sender with the access provider for sending transactional message, service message or transactional voice call, service call for the purpose of commercial communication and contains content which may be a combination of fixed part of content and variable part of content, where fixed part of content is that part of content which is common across all commercial communications sent to different recipients for same or similar subject; variable part of content is that part of content which may vary across commercial communications sent to different recipients for same or similar subject on account of information which is very specific to the particular transaction for a particular recipient or may vary on account of reference to date, time, place or unique reference number; “Content Template for Promotion” means a template of content registered by any sender with the access provider for sending promotional",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

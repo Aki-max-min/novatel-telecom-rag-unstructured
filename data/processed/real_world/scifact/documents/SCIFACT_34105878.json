@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_34105878",
+  "title": "Claspin, a Chk1-regulatory protein, monitors DNA replication on chromatin independently of RPA, ATR, and Rad17.",
+  "content": "Claspin is required for the ATR-dependent activation of Chk1 in Xenopus egg extracts containing incompletely replicated DNA. We show here that Claspin associates with chromatin in a regulated manner during S phase. Binding of Claspin to chromatin depends on the pre-replication complex (pre-RC) and Cdc45 but not on replication protein A (RPA). These dependencies suggest that binding of Claspin occurs around the time of initial DNA unwinding at replication origins. By contrast, both ATR and Rad17 require RPA for association with DNA. Claspin, ATR, and Rad17 all bind to chromatin independently. These findings suggest that Claspin plays a role in monitoring DNA replication during S phase. Claspin, ATR, and Rad17 may collaborate in checkpoint regulation by detecting different aspects of a DNA replication fork.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

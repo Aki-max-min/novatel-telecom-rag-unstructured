@@ -1,0 +1,18 @@
+{
+  "chunk_id": "MAN_ESIM_001_chunk_001",
+  "document_id": "MAN_ESIM_001",
+  "chunk_index": 1,
+  "text": "to complete | Network connectivity issue during setup | Retry on stable Wi-Fi/data | ## Troubleshooting If the above does not resolve the issue, restart the device/app and retry; if it persists, contact support with the exact error shown. ## Restrictions Availability may vary by device model, region, or plan type. ## Security Considerations Do not share OTPs or account credentials with anyone, including anyone claiming to be from NovaTel support. ## Related Documents No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
+  "title": "Activating an eSIM on a Compatible Device",
+  "document_type": "User Manual",
+  "category": "C05",
+  "department": "Customer Care",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-16",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\manuals\\MAN_ESIM_001.md",
+  "file_type": "markdown"
+}

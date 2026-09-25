@@ -1,0 +1,23 @@
+{
+  "chunk_id": "SCIFACT_152245_chunk_001",
+  "document_id": "SCIFACT_152245",
+  "chunk_index": 1,
+  "text": "over that of virus possessing a codon for the amino acid arginine at the corresponding position (39.8%). Although the frequency with which the opal virus disseminated from the mosquito midgut did not differ significantly from that of the arginine virus on days 8 and 10, dissemination did began earlier in mosquitoes infected with the opal virus. Although a clear fitness advantage is provided to ONNV by the presence of an opal codon between nsP3 and nsP4 in Anopheles gambiae, sequence analysis of ONNV RNA extracted from mosquito bodies and heads indicated codon usage at this position corresponded with that of the virus administered in the blood meal. These results suggest that while selection of ONNV variants is occurring, de novo mutation at the position between nsP3 and nsP4 does not readily occur in the mosquito. Taken together, these results suggest that the primary fitness advantage provided to ONNV by the presence of an opal codon between nsP3 and nsP4 is related to mosquito infectivity.",
+  "title": "Effects of an opal termination codon preceding the nsP4 gene sequence in the O'Nyong-Nyong virus genome on Anopheles gambiae infectivity.",
+  "document_type": "Scientific Literature",
+  "category": "SCIFACT",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "file_path": "data\\raw\\real_world\\scifact\\scifact\\corpus.jsonl",
+  "file_type": "jsonl"
+}

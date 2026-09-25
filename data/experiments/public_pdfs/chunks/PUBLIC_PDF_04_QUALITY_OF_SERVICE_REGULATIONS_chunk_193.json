@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_193",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 193,
+  "text": "Some of the stakeholders submitted that these parameters should not be mandated and should be removed from the proposed Draft Regulations. Establishing a benchmark is not feasible, as relying on survey-based perceptions may not yield clear data. This holds true for both scenarios, whether the customer is selected randomly or from the same geographical area, such as in the case of an area affected by ducting issues. Since QoS KPI reporting is being carried out, there should be no reliance on survey benchmarks. (ii) They have further submitted that Section 11(1)(v)(b) of the TRAI Act, 1997 gives the power to the Authority to carry out surveys from time to time and that the proposed parameter be removed from the draft regulation. The parameter and its benchmark can be studied through surveys only and do not provide a true and clear measurable value. Since this is subjective, hence setting benchmarks is not required. (b) Analysis and Conclusion (i) This provision was already available in existing regulations. The Authority is also of the opinion that customer satisfaction survey provides realistic feedback on the overall QoS performance of the service provider. Accordingly, the Authority has decided to continue with the provisions, however, as suggested by stakeholders, parameter and benchmark for customer satisfaction survey has been deleted from the regulations. The parameters, covering various performance aspects of this regulation, for customer satisfaction survey shall be prescribed by the Authority from time to time. (ii) The service providers shall be required to take corrective actions",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

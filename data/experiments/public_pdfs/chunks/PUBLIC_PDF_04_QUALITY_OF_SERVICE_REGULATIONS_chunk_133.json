@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_133",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 133,
+  "text": "mobile coverage even at the household and business area level. Service providers in the USA have published their network coverage maps on their websites16. 15 https://broadbandmap.fcc.gov/home 16 https://www.t-mobile.com/coverage/coverage-map 146 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] Similarly, the regulator in France17 has made the geospatial service coverage maps available to the consumers on a website on which key QoS performance parameters are also published periodically. (v) Concerning the remark of stakeholders that this parameter is already part of NIA, 2022 issued by DoT, it is noted that NIA, 2022 only prescribes network deployment maps in respect of 5G. Whereas, this parameter requires mobile network coverage maps of all technologies. Thus, NIA requirements may not be useful for all segments of the customers. However, service provider is free to upgrade their existing systems to meet this or both the requirements i.e., NIA and regulations. (vi) Accordingly, in line with global trends and to empower consumers, the Authority has decided to introduce this parameter in the regulation for compliance. However, considering the challenges mentioned by the service provider, the Authority has provided sufficient time for compliance of this parameter. Further, service providers will be required to update the maps maximum within three months to reflect the changes in mobile network coverage as prescribed in the measurement methodology. (vii) Each service provider shall also make required secure Application Programmable Interfaces (APIs) available to TRAI to be used by the central platform of TRAI for the presentation of a unified geospatial service coverage map",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

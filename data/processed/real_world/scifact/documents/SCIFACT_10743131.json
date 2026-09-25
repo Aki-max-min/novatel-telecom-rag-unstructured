@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_10743131",
+  "title": "Model-based Geostatistics",
+  "content": "Geostatistics is concerned with estimation and prediction problems for spatially continuous phenomena, using data obtained at a limited number of spatial locations. Model-based geostatistics refers to the application of general statistical principles of modelling and inference to geostatisatical problems. This volume is the first book-length treatment of model-based geostatistics.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

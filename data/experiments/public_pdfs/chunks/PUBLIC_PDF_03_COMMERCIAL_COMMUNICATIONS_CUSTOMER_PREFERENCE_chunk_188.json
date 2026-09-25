@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_188",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 188,
+  "text": "app or web portal, it is required to guide him or her about the procedure for making complaint. This may be done by providing information via SMS, referring to links to get more information or suggesting available alternative modes to make complaints. In view of this, the Authority decided that complaint may be acknowledged by the access provider within fifteen minutes by sending unique reference number to the complainant. Processes 92 of CCRF may be automated and improved to make them more interactive in handling the registration of a complaint. Further specific details to handle registration of complaints may be included in the Codes of practice. 5.3.2 Technology driven solutions to handle complaints: As discussed earlier in the para 3.3 and 4.3, Distributed Ledger Technologies (DLT) with complementing technology and platforms can record complaints in an immutable and non repudiable manner and can provide sharing of complaint related data, history of complainant, and history of person or entity against whom complaint is made easily accessible. Actions performed by participants in the UCC eco system while dealing with complaint resolution may also be made transparent and auditable. To deal effectively, DLT system could be designed to have the capability to swiftly and automatically throttle the usage of or suspend or remove the defaulting entity from the UCC eco system using smart contracts. As discussed earlier in Para 3.3, systems would be designed to make non-compliance from registered entities very difficult. By design the only instances of lapses would be in cases",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

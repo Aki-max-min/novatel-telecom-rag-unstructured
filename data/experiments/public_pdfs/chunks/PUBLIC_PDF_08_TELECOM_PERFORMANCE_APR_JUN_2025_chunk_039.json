@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_039",
+  "document_id": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+  "chunk_index": 39,
+  "text": "25.74 43.23 12 Kerala 41.46 18.05 23.41 13 Madhya Pradesh 59.56 27.67 31.88 14 Maharashtra 122.73 41.20 81.52 15 Manipur 2.42 0.99 1.43 16 Meghalaya 2.62 1.69 0.93 17 Mizoram 1.38 0.53 0.84 18 Nagaland 1.69 0.89 0.80 19 Odisha 35.32 23.04 12.28 20 Punjab 32.13 11.35 20.79 21 Rajasthan 64.83 35.18 29.66 22 Sikkim 0.76 0.47 0.29 23 Tamil Nadu 76.40 24.00 52.41 24 Telangana 40.27 16.21 24.06 25 Tripura 3.36 1.71 1.65 26 Uttar Pradesh 165.28 89.48 75.79 27 Uttarakhand 12.22 6.30 5.92 28 West Bengal 78.48 35.68 42.80 Union Territories 1 Andaman & Nicobar Islands 0.50 0.25 0.26 2 Chandigarh 1.69 0.03 1.66 3 Dadra and Nagar Haveli and Daman and Diu 0.92 0.33 0.59 4 Delhi 34.87 0.45 34.41 5 Jammu & Kashmir 11.89 5.99 5.90 6 Ladakh 0.55 0.32 0.22 7 Lakshdweep 0.07 0.02 0.05 8 Puduchery 1.12 0.35 0.77 Total 1,163.03 529.88 633.14 28 Table 1.24: State/UT wise Wireless (mobile) Tele-density Sl.No. State/UT Tele-density (%) Total Rural Urban 1 Andhra Pradesh 79.13 71.55 91.55 2 Arunachal Pradesh 78.98 71.29 100.68 3 Assam 72.46 56.83 155.46 4 Bihar 55.07 44.63 128.37 5 Chhattisgarh 70.64 47.24 131.20 6 Goa 147.59 176.30 139.60 7 Gujarat 89.23 68.53 110.02 8 Haryana 114.31 69.75 172.27 9 Himachal Pradesh 117.74 85.78 394.14 10 Jharkhand 61.67 47.50 100.81 11 Karnataka 100.42 68.82 138.23 12 Kerala 114.81 250.91 80.95 13 Madhya Pradesh 66.93 43.95 122.51 14 Maharashtra 95.39 63.00 128.88 15 Manipur 73.65 45.02 131.64 16 Meghalaya 76.55 62.30 130.97 17 Mizoram",
+  "title": "08 telecom performance apr jun 2025",
+  "document_type": "REPORT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "report"
+  ],
+  "file_path": "reports/08_telecom_performance_apr_jun_2025.pdf",
+  "file_type": "pdf"
+}

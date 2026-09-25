@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_84244109",
+  "title": "Innate immunity to a facultative intracellular bacterial pathogen.",
+  "content": "The murine response to Listeria monocytogenes has long been considered a paradigm of T-cell-mediated immunity. There is, however, substantial evidence that T-cell-deficient mice are capable of surviving a L. monocytogenes challenge. Recently, advances have been made in our understanding of the cell biology and pathogenesis of infection.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

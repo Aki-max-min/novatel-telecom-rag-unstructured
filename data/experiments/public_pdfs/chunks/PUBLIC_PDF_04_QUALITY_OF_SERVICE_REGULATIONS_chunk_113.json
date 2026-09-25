@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_113",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 113,
+  "text": "of performance at LSA and State/UT level. Further, the draft regulation also proposed that the Authority may also monitor QoS performance at the district level. (ii) Most of the ICT-based schemes of the Central Government or Schemes launched by the State/ UT Governments are state-centric. Such ICT schemes are being implemented at the State/ UT level, therefore there is a need to ensure consistency in the availability and accessibility of good quality of services across all States/ UTs. Additionally, many of the States are also taking proactive measures to facilitate service or infra providers to create IT infrastructure in their states. Monitoring of the services at the State/UT level empowers such States/UTs to arrive at logical and informed decisions. (iii) The Authority is of the opinion that the granular level reporting of key QoS performance parameters is essential to identify the areas with degraded QoS where service providers need improvement. (iv) The Authority has considered two options for increasing the granularity of monitoring and reporting (a) the service providers provide State/UT level performance reports or (b) service providers provide granular performance of important QoS parameters in service area level reports through which performance across geographies may be analyzed as suggested by the stakeholders. Accordingly, the Authority has decided to get more granular information in respect of a few important parameters, which are discussed in subsequent analysis. (v) Therefore, considering the request of the service providers the Authority has decided to continue QoS performance monitoring at LSA or service authorization area",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

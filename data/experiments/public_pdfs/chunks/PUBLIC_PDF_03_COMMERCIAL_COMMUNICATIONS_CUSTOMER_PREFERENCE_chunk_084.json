@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_084",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 84,
+  "text": "Dated 14th May 2012 Modified provisions related to blacklisting and disconnection of telecom resources: in 18(5) for disconnecting telecom resources provided to RTM for sending promotional messages only in case the RTM blacklisted for sending promotional messages but in case of transactional messages, both the telecom resources for transactional messages as well as promotional messages to be disconnected Blacklisted Telemarketer will not get any telecom resources during the period of blacklisting. 10 10th Amendment Dated 5th November 2012 Introduced signature solution to detect UTM: It was observed that UTM generally send bulk promotional SMS as SMS blast using special equipment and software applications. To identify bulk promotional SMS, in Regulation 2, the definition of signature was added as contents of commercial communications having same or similar characters or strings or variants thereof but does not include subscriber related information. Modified format of registering a complaint: In 19(4) dropped the requirement of mentioning the particulars of time of receiving UCC while registering a complaint. Introduced higher tariffs for SMS in bulk: In 20(2), To make it economically unviable to UTMs for sending commercial communication rate not lower than the rate specified in Schedule XIII of Telecommunication Tariff Order (TTO) 1999. Introduced restrictions on SMS/hour: restricting that no SMS having similar signature and more than 200 SMS/ hour delivered through its network except for RTM or TMSE; 51 Introduced 'Web-based UCC Complaint lodging system' and dedicated email address to lodge UCC related complaints. Added process to intimate for disconnecting resources: in Schedule-V",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

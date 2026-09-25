@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_36830715",
+  "title": "Microtubule stabilization reduces scarring and causes axon regeneration after spinal cord injury.",
+  "content": "Hypertrophic scarring and poor intrinsic axon growth capacity constitute major obstacles for spinal cord repair. These processes are tightly regulated by microtubule dynamics. Here, moderate microtubule stabilization decreased scar formation after spinal cord injury in rodents through various cellular mechanisms, including dampening of transforming growth factor-β signaling. It prevented accumulation of chondroitin sulfate proteoglycans and rendered the lesion site permissive for axon regeneration of growth-competent sensory neurons. Microtubule stabilization also promoted growth of central nervous system axons of the Raphe-spinal tract and led to functional improvement. Thus, microtubule stabilization reduces fibrotic scarring and enhances the capacity of axons to grow.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

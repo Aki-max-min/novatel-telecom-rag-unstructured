@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_4854076",
+  "title": "The expanding problem of adipose depot remodeling and postnatal adipocyte progenitor recruitment.",
+  "content": "The rising incidence of obesity and associated metabolic diseases has increased the urgency in understanding all aspects of adipose tissue biology. This includes the function of adipocytes, how adipose tissue expands in obesity, and how expanded adipose tissues in adults can impact physiology. Here, we highlight the growing appreciation for the importance of de novo adipocyte differentiation to adipose tissue expansion in adult humans and animals. We detail recent efforts to identify adipose precursor populations that contribute to the physiological postnatal recruitment of white, brown, and beige adipocytes in mice, and summarize new data that reveal the complexity of adipose tissue development in vivo.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_143",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 143,
+  "text": "to SEBI registered brokers or other entities specified by Authority by directions, orders or instructions issued from time to time; v. Carry out additional authentications in case of a request for headers to be issued to government entities, corporate(s) or well-known brands, including specific directions, orders or instructions, if any, issued from time to time by the Authority; vi. Carry out additional checks for look-alike headers which may mislead to a common recipient of commercial communication, it may also include proximity checks, similarity after substring swaps specifically in case of government entities, corporate(s), well-known brands while assigning headers irrespective of current assignments of such headers, and to follow specific directions, orders or instructions, if any, issued from time to time by the Authority; 3.3.34 Header may be of maximum eleven character or numbers. It may also be a combination of characters and numbers and may not necessarily have maximum length of eleven. Headers may be displayed to the recipient for identifying sender. In case Caller Display Name functionality using Intelligent Networks, ISDN or enhanced Calling Name Functionality (eCNAM) as specified in 3GPP is used, then proper logs and mapping between header and display name is to be maintained by the access provider. In cases of headers, which are purely composed of numbers and same numbers are being used for routing and for displaying identity of calling line to the recipient, then these numbers are to be in line with the National Numbering Plan issued by DoT and guidelines or instructions",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

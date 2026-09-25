@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_126",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 126,
+  "text": "given the highlighted challenges, may result in increased compliance costs or potential non-compliance with the benchmarks. Setting the benchmark at 95% restoration within 7 working days strikes a balance between expeditious service recovery and the practical realities faced by the service providers. (b) Analysis and Conclusion (i) The present regulation provides that 100% wireline faults should be rectified within 5 working days in urban areas and 7 working days in rural and hilly areas. To simplify the monitoring by the service providers and reporting thereof, the Authority has decided to have common benchmarks for urban and rural areas, while considering the challenges in rectification of faults in some areas. Accordingly, the benchmarks have been revised to ≥ 99% in place of 100% for access (wireline) services. (ii) The present regulation for broadband service provides for 99% fault repair within 3 days irrespective of urban or rural areas. The performance of the broadband service providers against this parameter, with benchmark of 99% fault restorations within 3 days, in last few quarters is given below: Table-5: The performance of the broadband service providers against Fault repair within three working days parameter PMRs of Quarter ending No. of service providers complying the benchmark (99% in 3 working days) No. of service providers not complying the benchmark (99% in 3 working days) Compliance (in percentage) March, 2023 123 1 99.19% June, 2023 127 1 99.22% September, 2023 130 1 99.24% December, 2023 135 3 97.83% March, 2024 136 1 99.27% (iii) Based on the",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

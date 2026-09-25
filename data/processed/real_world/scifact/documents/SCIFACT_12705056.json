@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_12705056",
+  "title": "Cytokines and anti-cytokine biologicals in autoimmunity: present and future.",
+  "content": "The increasing understanding of the role of cytokines in autoimmunity, and the observation that tumour necrosis factor alpha (TNFalpha) is central to the inflammatory and destructive process common to several human autoimmune diseases, has led to a new generation of therapeutics, the TNFalpha blocking agents. In this article, we review the current knowledge of the role of cytokines in autoimmunity as unravelled by studies both in the laboratory and the clinic. In addition, we discuss future prospects of the anti-TNFalpha therapy that may involve combination therapy with other anti-cytokine or anti-T cell biologicals, or the use of small chemicals targeting molecules involved in TNFalpha production such as NF-kappaB and p38 MAPK. The future developments of anti-TNFalpha and anti-cytokine therapy in general will be interesting.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

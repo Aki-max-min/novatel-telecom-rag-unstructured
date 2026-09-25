@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_46193388",
+  "title": "Turning blood into brain: cells bearing neuronal antigens generated in vivo from bone marrow.",
+  "content": "Bone marrow stem cells give rise to a variety of hematopoietic lineages and repopulate the blood throughout adult life. We show that, in a strain of mice incapable of developing cells of the myeloid and lymphoid lineages, transplanted adult bone marrow cells migrated into the brain and differentiated into cells that expressed neuron-specific antigens. These findings raise the possibility that bone marrow-derived cells may provide an alternative source of neurons in patients with neurodegenerative diseases or central nervous system injury.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

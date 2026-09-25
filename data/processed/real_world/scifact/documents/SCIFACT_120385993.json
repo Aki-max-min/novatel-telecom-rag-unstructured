@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_120385993",
+  "title": "On the Theory and Computation of Evolutionary Distances",
+  "content": "This paper gives a formal definition of the biological concept of evolutionary distance and an algorithm to compute it. For any set S of finite sequences of varying lengths this distance is a real-valued function on $S \\times S$, and it is shown to be a metric under conditions which are wide enough to include the biological application. The algorithm, introduced here, lends itself to computer programming and provides a method to compute evolutionary distance which is shorter than the other methods currently in use.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

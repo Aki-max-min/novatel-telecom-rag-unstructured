@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_22843616",
+  "title": "Myc represses primitive endoderm differentiation in pluripotent stem cells.",
+  "content": "The generation of induced pluripotent stem cells (iPSCs) provides a novel method to facilitate investigations into the mechanisms that control stem cell pluripotency and self-renewal. Myc has previously been shown to be critical for murine embryonic stem cell (mESC) maintenance, while also enhancing directed reprogramming of fibroblasts by effecting widespread changes in gene expression. Despite several studies identifying in vivo target genes, the precise mechanism by which Myc regulates pluripotency remains unknown. Here we report that codeletion of c- and N-MYC in iPSCs and ESCs results in their spontaneous differentiation to primitive endoderm. We show that Myc sustains pluripotency through repression of the primitive endoderm master regulator GATA6, while also contributing to cell cycle control by regulation of the mir-17-92 miRNA cluster. Our findings demonstrate the indispensable requirement for c- or N-myc in pluripotency beyond proliferative and metabolic control.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

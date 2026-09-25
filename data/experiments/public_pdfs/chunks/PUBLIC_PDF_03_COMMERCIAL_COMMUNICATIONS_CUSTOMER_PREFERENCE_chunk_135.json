@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_135",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 135,
+  "text": "Machine Learning (ML), business reports etc. However, complementing technology solutions are required to meet safety and security requirements and to shore up any vulnerabilities in the system. 3.3.27 Establishing, operating and maintaining DLT networks: Access provider would be required to establish, operate and maintain its own DLT networks or may implement it in collaboration with other access providers. In view of above, the Authority has decided that every Access Provider should develop or cause to develop an ecosystem with the following functions to regulate the delivery of the commercial communications: - i. to provide facility to its customers for registering preference(s) for Commercial Communication and maintain complete and accurate records of preference(s); ii. to register entities for participating in the ecosystem and prescribe their roles and 74 responsibilities for efficient and effective control of commercial communications; iii. to provide facility to record consent(s) of the customers acquired by the sender(s) for sending Commercial Communication and maintain complete and accurate records of consent(s); iv. to provide facility for revocation of consent by its customers and accordingly update records of consent for the customers; v. to register sender(s), carry out verifications of their identities and prescribe processes for sending commercial communications; vi. to prescribe process and specific functions of particular entity to carry out pre-delivery checks before sending commercial communications and ensuring regulatory compliance(s); vii. to provide facilities for its customers to register complaints against Sender(s) of Commercial Communication and maintain complete and accurate records of status of resolution of complaints; viii.",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

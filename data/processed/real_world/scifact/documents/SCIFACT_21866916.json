@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_21866916",
+  "title": "Role of PACAP and VIP in astroglial functions.",
+  "content": "Astrocytes represent at least 50% of the volume of the human brain. Besides their roles in various supportive functions, astrocytes are involved in the regulation of stem cell proliferation, synaptic plasticity and neuroprotection. Astrocytes also influence neuronal physiology by responding to neurotransmitters and neuropeptides and by releasing regulatory factors termed gliotransmitters. In particular, astrocytes express the PACAP-specific receptor PAC1-R and the PACAP/VIP mutual receptors VPAC1-R and VPAC2-R during development and/or in the adult. There is now clear evidence that PACAP and VIP modulate a number of astrocyte activities such as proliferation, plasticity, glycogen production, and biosynthesis of neurotrophic factors and gliotransmitters.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

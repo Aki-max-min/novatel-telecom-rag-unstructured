@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_2817000",
+  "title": "Histone Variant H2A.Z Marks the 5′ Ends of Both Active and Inactive Genes in Euchromatin",
+  "content": "In S. cerevisiae, histone variant H2A.Z is deposited in euchromatin at the flanks of silent heterochromatin to prevent its ectopic spread. We show that H2A.Z nucleosomes are found at promoter regions of nearly all genes in euchromatin. They generally occur as two positioned nucleosomes that flank a nucleosome-free region (NFR) that contains the transcription start site. Astonishingly, enrichment at 5' ends is observed not only at actively transcribed genes but also at inactive loci. Mutagenesis of a typical promoter revealed a 22 bp segment of DNA sufficient to program formation of a NFR flanked by two H2A.Z nucleosomes. This segment contains a binding site of the Myb-related protein Reb1 and an adjacent dT:dA tract. Efficient deposition of H2A.Z is further promoted by a specific pattern of histone H3 and H4 tail acetylation and the bromodomain protein Bdf1, a component of the Swr1 remodeling complex that deposits H2A.Z.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

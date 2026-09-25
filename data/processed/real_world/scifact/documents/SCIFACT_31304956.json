@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_31304956",
+  "title": "Cranial neural crest and the building of the vertebrate head",
+  "content": "Head development in vertebrates involves a complex series of molecular and morphogenetic events that generate a coordinated pattern of cartilages, bones and nerves, and result in species-specific craniofacial morphologies. A specialized cell type of neural origin, the neural crest, is central to this process, as it provides the main source of craniofacial mesenchyme. The degree of patterning information that is intrinsic to the neural crest has been recently debated, and new advances have underscored the influence of environmental signalling on the transcriptional readout that coordinates craniofacial morphogenesis in space and time.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

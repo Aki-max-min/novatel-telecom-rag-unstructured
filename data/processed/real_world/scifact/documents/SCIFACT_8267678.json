@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_8267678",
+  "title": "Regulation of chromatin by histone modifications",
+  "content": "Chromatin is not an inert structure, but rather an instructive DNA scaffold that can respond to external cues to regulate the many uses of DNA. A principle component of chromatin that plays a key role in this regulation is the modification of histones. There is an ever-growing list of these modifications and the complexity of their action is only just beginning to be understood. However, it is clear that histone modifications play fundamental roles in most biological processes that are involved in the manipulation and expression of DNA. Here, we describe the known histone modifications, define where they are found genomically and discuss some of their functional consequences, concentrating mostly on transcription where the majority of characterisation has taken place.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

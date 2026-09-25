@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_17208742",
+  "title": "Self-Organization of the Escherichia coli Chemotaxis Network Imaged with Super-Resolution Light Microscopy",
+  "content": "The Escherichia coli chemotaxis network is a model system for biological signal processing. In E. coli, transmembrane receptors responsible for signal transduction assemble into large clusters containing several thousand proteins. These sensory clusters have been observed at cell poles and future division sites. Despite extensive study, it remains unclear how chemotaxis clusters form, what controls cluster size and density, and how the cellular location of clusters is robustly maintained in growing and dividing cells. Here, we use photoactivated localization microscopy (PALM) to map the cellular locations of three proteins central to bacterial chemotaxis (the Tar receptor, CheY, and CheW) with a precision of 15 nm. We find that cluster sizes are approximately exponentially distributed, with no characteristic cluster size. One-third of Tar receptors are part of smaller lateral clusters and not of the large polar clusters. Analysis of the relative cellular locations of 1.1 million individual proteins (from 326 cells) suggests that clusters form via stochastic self-assembly. The super-resolution PALM maps of E. coli receptors support the notion that stochastic self-assembly can create and maintain approximately periodic structures in biological membranes, without direct cytoskeletal involvement or active transport.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

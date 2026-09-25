@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6712836",
+  "title": "MiD49 and MiD51, new components of the mitochondrial fission machinery.",
+  "content": "Mitochondria form intricate networks through fission and fusion events. Here, we identify mitochondrial dynamics proteins of 49 and 51 kDa (MiD49 and MiD51, respectively) anchored in the mitochondrial outer membrane. MiD49/51 form foci and rings around mitochondria similar to the fission mediator dynamin-related protein 1 (Drp1). MiD49/51 directly recruit Drp1 to the mitochondrial surface, whereas their knockdown reduces Drp1 association, leading to unopposed fusion. Overexpression of MiD49/51 seems to sequester Drp1 from functioning at mitochondria and cause fused tubules to associate with actin. Thus, MiD49/51 are new mediators of mitochondrial division affecting Drp1 action at mitochondria.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

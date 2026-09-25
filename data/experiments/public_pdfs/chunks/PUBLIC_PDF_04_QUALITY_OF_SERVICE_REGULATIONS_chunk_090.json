@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_090",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 90,
+  "text": "in QoS monitoring and online reporting system in a time bound manner to further ease out compliance burden. 2. Background 2.1 TRAI Act, 1997 mandates the Authority to ensure the services delivered through various telecommunications networks meet required quality standards prescribed, to protect the interest of the consumers of telecommunication services. Accordingly, TRAI laid down the following regulations, prescribing standards for Quality of Service (QoS) parameters of various telecom services: (i) Quality of Service of Broadband Service Regulations, 2006 (11 of 2006) 7 dated 6th October 2006, (ii) The Standards of Quality of Service of Basic Telephone Service (Wireline) and Cellular Mobile Telephone Service Regulations, 2009 (7 of 2009) 8 dated 20th March 2009, and (iii) The Standards of Quality of Service for Wireless Data Services Regulations, 2012 (26 of 2012) 9 dated 4th December 2012. These regulations have been amended from time to time. These Regulations and amendments issued by the Authority from time to time are available on TRAI website10. 2.2 The Quality of Service of Broadband Service Regulations dated 6th October 2006 was amended on 24th December 2012 to introduce Financial Disincentive (FD) against non-compliance of the QoS performance benchmarks by the service providers. On 25th June 2014, the regulations were further amended to modify the definition of ‘Broadband’ in accordance with Broadband Policy 2014. 2.3 The Standards of Quality of Service of Basic Telephone Service (Wireline) and Cellular Mobile Telephone Service Regulations 2009, were first amended on 7th May 2012 to inter-alia include QoS parameters for",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

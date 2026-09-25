@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_36398420",
+  "title": "Human and murine very small embryonic-like cells represent multipotent tissue progenitors, in vitro and in vivo.",
+  "content": "The purpose of this study was to determine the lineage progression of human and murine very small embryonic-like (HuVSEL or MuVSEL) cells in vitro and in vivo. In vitro, HuVSEL and MuVSEL cells differentiated into cells of all three embryonic germ layers. HuVSEL cells produced robust mineralized tissue of human origin compared with controls in calvarial defects. Immunohistochemistry demonstrated that the HuVSEL cells gave rise to neurons, adipocytes, chondrocytes, and osteoblasts within the calvarial defects. MuVSEL cells were also able to differentiate into similar lineages. First round serial transplants of MuVSEL cells into irradiated osseous sites demonstrated that ∼60% of the cells maintained their VSEL cell phenotype while other cells differentiated into multiple tissues at 3 months. Secondary transplants did not identify donor VSEL cells, suggesting limited self renewal but did demonstrate VSEL cell derivatives in situ for up to 1 year. At no point were teratomas identified. These studies show that VSEL cells produce multiple cellular structures in vivo and in vitro and lay the foundation for future cell-based regenerative therapies for osseous, neural, and connective tissue disorders.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

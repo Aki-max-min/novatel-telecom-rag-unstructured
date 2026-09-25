@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_3506723",
+  "title": "Formins at the Junction.",
+  "content": "The actin cytoskeleton and adhesion junctions are physically and functionally coupled at the cell-cell interface between epithelial cells. The actin regulatory complex Arp2/3 has an established role in the turnover of junctional actin; however, the role of formins, the largest group of actin regulators, is less clear. Formins dynamically shape the actin cytoskeleton and have various functions within cells. In this review we describe recent progress on how formins regulate actin dynamics at cell-cell contacts and highlight formin functions during polarized protein traffic necessary for epithelialization.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

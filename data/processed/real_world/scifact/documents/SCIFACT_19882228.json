@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19882228",
+  "title": "Hypoxia — a key regulatory factor in tumour growth",
+  "content": "Cells undergo a variety of biological responses when placed in hypoxic conditions, including activation of signalling pathways that regulate proliferation, angiogenesis and death. Cancer cells have adapted these pathways, allowing tumours to survive and even grow under hypoxic conditions, and tumour hypoxia is associated with poor prognosis and resistance to radiation therapy. Many elements of the hypoxia-response pathway are therefore good candidates for therapeutic targeting.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_027",
+  "document_id": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+  "chunk_index": 27,
+  "text": "under the clause (b) of sub- regulation (9) of the regulation by Donor Operator, inform the subscriber through SMS the reasons for rejection of such porting request and retain the records for a minimum period of twelve months; (e) for the porting request made under the clause (b) under sub-regulation (9) of regulation 9, within the time limits as specified in regulation 10, in case no response is received from Donor Operator on the porting request, schedule the porting within the next thirty six hours and inform the subscriber through SMS: Provided that while calculating two working days and four working days, respectively, for intra-licensed service area porting requests and inter-licensed service area porting requests, intervening Sundays and public holidays declared under the Negotiable Instrument Act., 1881 (No. 26 of 1881) shall be excluded: Provided further that for the cases where unique porting code has been generated with prefix ‘C’ but authorization letter is not forwarded by recipient operator along with the porting request and also in the cases wherein the unique porting code is not prefixed with ‘C’ but the authorization letter is forwarded by recipient operator, no action on such requests shall be taken by Mobile Number Portability Service provider and it shall inform the subscriber and recipient operator accordingly: Provided also that the Mobile Number Portability Service provider shall be liable to comply with the Quality of Service parameters, as specified by the Authority from time to time.] 1[10. Action by Donor Operator.— (1) The Donor Operator",
+  "title": "06 mobile number portability",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/06_mobile_number_portability.pdf",
+  "file_type": "pdf"
+}

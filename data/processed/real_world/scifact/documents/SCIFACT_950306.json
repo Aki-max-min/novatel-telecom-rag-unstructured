@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_950306",
+  "title": "Molecular Basis for Target RNA Recognition and Cleavage by Human RISC",
+  "content": "The RNA-Induced Silencing Complex (RISC) is a ribonucleoprotein particle composed of a single-stranded short interfering RNA (siRNA) and an endonucleolytically active Argonaute protein, capable of cleaving mRNAs complementary to the siRNA. The mechanism by which RISC cleaves a target RNA is well understood, however it remains enigmatic how RISC finds its target RNA. Here, we show, both in vitro and in vivo, that the accessibility of the target site correlates directly with the efficiency of cleavage, demonstrating that RISC is unable to unfold structured RNA. In the course of target recognition, RISC transiently contacts single-stranded RNA nonspecifically and promotes siRNA-target RNA annealing. Furthermore, the 5' part of the siRNA within RISC creates a thermodynamic threshold that determines the stable association of RISC and the target RNA. We therefore provide mechanistic insights by revealing features of RISC and target RNAs that are crucial to achieve efficiency and specificity in RNA interference.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

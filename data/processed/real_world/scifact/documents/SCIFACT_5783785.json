@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5783785",
+  "title": "DNA Methylation mediated down-regulating of MicroRNA-33b and its role in gastric cancer",
+  "content": "The discovery of microRNAs (miRNAs) provides a new and powerful tool for studying the mechanism, diagnosis and treatment of human cancers. Currently, down-regulation of tumor suppressive miRNAs by CpG island hypermethylation is emerging as a common hallmark of cancer. Here, we reported that the down-regulation of miR-33b was associated with pM stage of gastric cancer (GC) patients. Ectopic expression of miR-33b in HGC-27 and MGC-803 cells inhibited cell proliferation, migration and invasion, which might be due to miR-33b targeting oncogene c-Myc. Moreover, enhanced methylation level of the CpG island upstream of miR-33b in GC patients with down-regulated miR-33b was confirmed by methylation-specific PCR (MSP) amplification. Furthermore, re-introduction of miR-33b significantly suppressed tumorigenesis of GC cells in the nude mice. In conclusion, miR-33b acts as a tumor suppressor and hypermethylation of the CpG island upstream of miR-33b is responsible for its down-regulation in gastric cancer.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

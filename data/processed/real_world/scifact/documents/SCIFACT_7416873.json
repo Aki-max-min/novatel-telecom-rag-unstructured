@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_7416873",
+  "title": "Nuclear repositioning of the VSG promoter during developmental silencing in Trypanosoma brucei",
+  "content": "Interphase nuclear repositioning of chromosomes has been implicated in the epigenetic regulation of RNA polymerase (pol) II transcription. However, little is known about the nuclear position–dependent regulation of RNA pol I–transcribed loci. Trypanosoma brucei is an excellent model system to address this question because its two main surface protein genes, procyclin and variant surface glycoprotein (VSG), are transcribed by pol I and undergo distinct transcriptional activation or downregulation events during developmental differentiation. Although the monoallelically expressed VSG locus is exclusively localized to an extranucleolar body in the bloodstream form, in this study, we report that nonmutually exclusive procyclin genes are located at the nucleolar periphery. Interestingly, ribosomal DNA loci and pol I transcription activity are restricted to similar perinucleolar positions. Upon developmental transcriptional downregulation, however, the active VSG promoter selectively undergoes a rapid and dramatic repositioning to the nuclear envelope. Subsequently, the VSG promoter region was subjected to chromatin condensation. We propose a model whereby the VSG expression site pol I promoter is selectively targeted by temporal nuclear repositioning during developmental silencing.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_34378726",
+  "title": "Interferon gamma in autoimmunity: A complicated player on a complex stage.",
+  "content": "Early views of autoimmune disease cast IFNγ as a prototypic pro-inflammatory factor. It is now clear that IFNγ is capable of both pro- and anti-inflammatory activities with the functional outcome dependent on the physiological and pathological setting examined. Here, the major immune modulatory activities of IFNγ are reviewed and current evidence for the impact of IFNγ on pathology and regulation of several autoimmune diseases and disease models is summarized.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

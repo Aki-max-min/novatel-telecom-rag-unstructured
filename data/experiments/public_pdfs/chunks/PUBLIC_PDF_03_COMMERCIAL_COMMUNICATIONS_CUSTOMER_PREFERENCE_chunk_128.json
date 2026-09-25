@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_128",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 128,
+  "text": "registration status of the customers. This makes them easily detectable as they would be hitting blindly. 3.3.19 Commercial communications may be pre-checked or post checked, as the case may be, to ensure regulatory compliance. UCC eco system would be built to carry out these checks while protecting preference and consent data even when different entities independently perform certain functions. This would require access providers to develop trusted environment and enroll participating entities to carryout delegated functions in such environments. Availability of Cloud infrastructure and broadband connectivity may offer such possibilities in an easy and fast manner. Virtual identities may also help in carrying out regulatory checks by delegated entities, exchanging information while not exposing the real identities. For illustration, one of the approaches may probably be for sender to submit list of target telephone numbers to a scrubber in a safe and secure manner and for the scrubber to carry out the its function in a trusted environment and while assigning virtual identities to the telephone numbers after scrubbing. Tokens and virtual identities may either be for a complete list or it may be specific to each telephone number in the list. List may also segregate telephone numbers TAP-wise and provide Location Routing Number (LRN) for each telephone number. Virtual identities may be reverse mapped to the real identities either at OAP or at TAP and for this purpose, scrubber may have to exchange information to the concerned OAP or TAP. Reverse mapping at TAP level may provide more security",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

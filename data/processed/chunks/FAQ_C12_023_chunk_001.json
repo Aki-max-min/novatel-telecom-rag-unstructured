@@ -1,0 +1,23 @@
+{
+  "chunk_id": "FAQ_C12_023_chunk_001",
+  "document_id": "FAQ_C12_023",
+  "chunk_index": 1,
+  "text": "by region, checking the specific model against NovaTel's supported 5G NR bands via Device Support is necessary rather than assuming any 5G phone will work. ### Related Information Related documents referenced in NovaTel's internal metadata for this topic: KB_C12_overview. Topic: Device Compatibility",
+  "title": "Is my phone compatible with NovaTel's 5G network?",
+  "document_type": "FAQ",
+  "category": "C12",
+  "department": "Technical Support",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-05-19",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [
+    "KB_C12_overview"
+  ],
+  "tags": [
+    "device",
+    "c12"
+  ],
+  "file_path": "data\\raw\\unstructured\\faq\\FAQ_C12_023.json",
+  "file_type": "json"
+}

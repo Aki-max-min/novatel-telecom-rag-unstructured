@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_190",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 190,
+  "text": "the time the customer has keyed the relevant number in the IVR option menu, if provided, for speaking to the customer care executive/ operator. Further, the menu for speaking to the customer care executive/operator shall be given preference in the menu options. This menu shall not be below the second layer. It may be noted that the first layer is the choice of language, and the second layer should be the service menu. Further, there should not be unnecessary pause(s) before extending the option to the subscriber for speaking to the customer care executive/operator. (iv) Considering the increasing requirement and dependence on broadband services, the requirement of call centre performance benchmarks for both wireline access services and wireline broadband services have been aligned on the same level. The sub-parameter under broadband regulations, relating to response time to customers for assistance, have been removed and simplified to have only one benchmark. (v) About comment of the broadband service provider, it is clarified that the regulation does not mandate to implement Interactive Voice Response System (IVRS), and service providers are free to provide direct access to the customer service representative. However, IVR Systems are normally deployed to handle routine queries or to provide information which are routinely sought by the customers. An effective IVR System certainly optimizes the load on the agents. Further, if the service provider prefers direct landing at the agent, the service providers should provision sufficient incoming lines for customer care numbers to ensure that it remain accessible to",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

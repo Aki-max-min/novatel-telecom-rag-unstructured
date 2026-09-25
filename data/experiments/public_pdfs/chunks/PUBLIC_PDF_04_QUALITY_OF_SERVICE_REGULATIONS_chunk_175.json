@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_175",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 175,
+  "text": "adoption of uniform measurement criteria across service providers. (ii) Now this parameter will be monitored by service providers and reported to the Authority without any FD. 5.4.4 Jitter {Access (Wireless) and Broadband (Wireline)} (a) Input of Stakeholders (i) Some stakeholders submitted that the Jitter, a measure of variance in latency, is generally used for dipstick testing and troubleshooting and is not available in standard OSS reports. Therefore, they submitted that this parameter does not serve any purpose, especially since \"latency\" is already included in QoS parameters, and it should be removed from the proposed draft regulation. Additionally, crowdsourced analytics platforms provide indicative values for parameters like downlink/ uplink speed, latency, and jitter, along with various experience metrics. TRAI may consider adopting these platforms or incorporating these capabilities into its \"My Speed Test\" application. (ii) One of the stakeholders requested to clarify the methodology for measurement of the performance against the parameter. (b) Analysis and Conclusion (i) Jitter is the variation in inter-packet arrival delay between source and destination. This parameter is important for delay-sensitive or real-time applications like audio or video calls and high-quality video streaming. Higher jitter in the network adversely affects the end user experience. This is often caused by network congestion, poor hardware performance and non-implementation of packet prioritization. (ii) High value of jitter in the network may result in call muffling or even call drop in video or VoIP applications. This parameter is an essential benchmark for the measurement of QoS performance in fixed and packet",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

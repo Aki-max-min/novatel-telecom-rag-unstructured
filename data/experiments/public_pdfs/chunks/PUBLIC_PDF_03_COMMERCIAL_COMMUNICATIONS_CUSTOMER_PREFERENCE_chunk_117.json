@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_117",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 117,
+  "text": "may develop customized legal agreements that serve the needs of all parties in a specific instance. Figure 4: Provisions in existing regulations for deposits and deductions in cases of non compliances by tele-marketers 3.3.7 Code of Practice for Preferences (CoP-Preferences) similar to CoP-Entities: Like Code of Practice for entities (CoP-entities), access provider(s) would formulate Code of Practice for Preferences (CoP- Preferences) to deal with the details of categories and to enable setting up of preferences. Over time they may evolve to include more categories or sub-categories, bands of time, types of day, modes of communications, etc. However, expansion of categories or sub-categories would need to be in a manner that customers who have previously exercised their choice do not have to unnecessarily exercise that choice again. Expansion of set of choices for content types would require more refined categorization of the communication at the time of scrubbing, delivery, etc. The requirement of expanded choices would also require corresponding evolution of CPRF, DL-Preferences, scrubbing process, complaint handling, etc. As discussed in case of CoP-entities, the main regulations only contain regulatory objectives and enable the choices to evolve, while details of the choices and their enforcement remain part of code of practice. 3.3.8 CoP-Preferences to also include requirements of Consent and Revocation of consent: Just as for preference, the scope of consent would also evolve. Consent may require registration of templates that define the consent and customers may revoke their consent, if it doesn’t serve their purpose. Consent is currently taken in",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

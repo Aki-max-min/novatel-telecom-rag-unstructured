@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_1371440",
+  "title": "Aurora B phosphorylates spatially distinct targets to differentially regulate the kinetochore-microtubule interface.",
+  "content": "Accurate chromosome segregation requires carefully regulated interactions between kinetochores and microtubules, but how plasticity is achieved to correct diverse attachment defects remains unclear. Here we demonstrate that Aurora B kinase phosphorylates three spatially distinct targets within the conserved outer kinetochore KNL1/Mis12 complex/Ndc80 complex (KMN) network, the key player in kinetochore-microtubule attachments. The combinatorial phosphorylation of the KMN network generates graded levels of microtubule-binding activity, with full phosphorylation severely compromising microtubule binding. Altering the phosphorylation state of each protein causes corresponding chromosome segregation defects. Importantly, the spatial distribution of these targets along the kinetochore axis leads to their differential phosphorylation in response to changes in tension and attachment state. In total, rather than generating exclusively binary changes in microtubule binding, our results suggest a mechanism for the tension-dependent fine-tuning of kinetochore-microtubule interactions.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

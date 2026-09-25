@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_43311750",
+  "title": "Nephrin mutations cause childhood- and adult-onset focal segmental glomerulosclerosis.",
+  "content": "Mutations in the NPHS1 gene cause congenital nephrotic syndrome of the Finnish type presenting before the first 3 months of life. Recently, NPHS1 mutations have also been identified in childhood-onset steroid-resistant nephrotic syndrome and milder courses of disease, but their role in adults with focal segmental glomerulosclerosis remains unknown. Here we developed an in silico scoring matrix to evaluate the pathogenicity of amino-acid substitutions using the biophysical and biochemical difference between wild-type and mutant amino acid, the evolutionary conservation of the amino-acid residue in orthologs, and defined domains, with the addition of contextual information. Mutation analysis was performed in 97 patients from 89 unrelated families, of which 52 presented with steroid-resistant nephrotic syndrome after 18 years of age. Compound heterozygous or homozygous NPHS1 mutations were identified in five familial and seven sporadic cases, including one patient 27 years old at onset of the disease. Substitutions were classified as 'severe' or 'mild' using this in silico approach. Our results suggest an earlier onset of the disease in patients with two 'severe' mutations compared to patients with at least one 'mild' mutation. The finding of mutations in a patient with adult-onset focal segmental glomerulosclerosis indicates that NPHS1 analysis could be considered in patients with later onset of the disease.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

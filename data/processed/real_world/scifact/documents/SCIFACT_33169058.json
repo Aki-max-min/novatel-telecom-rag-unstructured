@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_33169058",
+  "title": "Strategies of microbial cheater control.",
+  "content": "The potential benefits of cooperation in microorganisms can be undermined by genetic conflict within social groups, which can take the form of 'cheating'. For cooperation to succeed as an evolutionary strategy, the negative effects of such conflict must somehow be either prevented or mitigated. To generate an interpretive framework for future research in microbial behavioural ecology, here we outline a wide range of hypothetical mechanisms by which cheaters might be constrained.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

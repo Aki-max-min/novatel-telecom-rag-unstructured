@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_13162391",
+  "title": "Funnel trap for the capture of phlebotomine sand flies (Diptera: Psychodidae) from tree holes.",
+  "content": "A funnel trap that fitted over holes leading into hollow trees was used to capture adult phlebotomine sand flies, Lutzomyia shannoni Dyar, on Ossabaw Island, Chatham County, Ga. These insects rested in hollow trees during the day and were collected by funnel traps as they egressed from the tree holes at night. The trap is lightweight, durable, inexpensive, waterproof, and selective. Using this trap, greater than 100 healthy L. shannoni ++were captured per night by a single investigator during July and August 1988 when adult flies were abundant on the island.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

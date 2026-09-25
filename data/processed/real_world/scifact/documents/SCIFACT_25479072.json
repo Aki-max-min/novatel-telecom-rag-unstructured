@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_25479072",
+  "title": "Efficient T cell activation requires an optimal dwell-time of interaction between the TCR and the pMHC complex",
+  "content": "Cytotoxic T cell (CTL) activation by antigen requires the specific detection of peptide–major histo-compatibility class I (pMHC) molecules on the target-cell surface by the T cell receptor (TCR). We examined the effect of mutations in the antigen-binding site of a Kb-restricted TCR on T cell activation, antigen binding and dissociation from antigen. These parameters were also examined for variants derived from a Kd-restricted peptide that was recognized by a CTL clone. Using these two independent systems, we show that T cell activation can be impaired by mutations that either decrease or increase the binding half-life of the TCR-pMHC interaction. Our data indicate that efficient T cell activation occurs within an optimal dwell-time range of TCR-pMHC interaction. This restricted dwell-time range is consistent with the exclusion of either extremely low or high affinity T cells from the expanded population during immune responses.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

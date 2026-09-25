@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_003",
+  "document_id": "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+  "chunk_index": 3,
+  "text": "communication. (j) “Consensus” means the concurrence among the participants on a distributed ledger to record an irrevocable data value, which is cryptographically secured; (k) “Consent” means any voluntary permission given by the customer to sender to receive commercial communication related to specific purpose, product or service; and which can be (i) explicit consent (A) where sender has acquired consent of the recipient through a robust verifiable consent acquisition process to receive messages or voice calls from the sender for the purpose which is clear and unambiguous; (B) where sender has acquired consent,via transfer, from other person or entitywho is consent acquirerand a conspicuous notice at the time the consent was communicated that the recipient’s phone numbers could be transferred to such sender for the purpose of initiating commercial communication via messages or voice calls; (C) where Authority has issued, if any, specific additional instruction(s) direction(s) or order(s) with respect to explicit consent; Explanation: (I) merely sharing his phone number(s) by the recipient to the sender or given by the recipient to sender for publishing for some purpose shall not be treated as consent given by recipient to receive the commercial communication message/ voice call; (II) where a recipient of a message or voice call revokes consent for the sender then it shall not be treated as consent; (ii) or; inferred consent (A) that can be reasonably inferred from the customer’s conduct or the business and the relationship between the individual and the sender; (B) where Authority has issued, if any,",
+  "title": "09 draft commercial communications",
+  "document_type": "CONSULTATION_DOCUMENT",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "consultation_document"
+  ],
+  "file_path": "consultation_documents/09_draft_commercial_communications.pdf",
+  "file_type": "pdf"
+}

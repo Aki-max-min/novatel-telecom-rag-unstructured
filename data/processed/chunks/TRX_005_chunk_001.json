@@ -1,0 +1,18 @@
+{
+  "chunk_id": "TRX_005_chunk_001",
+  "document_id": "TRX_005",
+  "chunk_index": 1,
+  "text": "backend status checked before providing resolution timeline. - Case closed after customer confirmation; escalated only if unresolved beyond the stated SLA. ## Escalation This case was resolved on the first contact. ## Related Documents No directly linked documents are recorded for this item; refer to the relevant department for further guidance.",
+  "title": "Slow 4G Data Speed Complaint",
+  "document_type": "Support Transcript",
+  "category": "C09",
+  "department": "Network",
+  "customer_scope": "all",
+  "version": "1.0",
+  "last_updated": "2026-06-26",
+  "source_authority": "Internal Knowledge Base",
+  "related_ids": [],
+  "tags": [],
+  "file_path": "data\\raw\\unstructured\\transcripts\\TRX_005.md",
+  "file_type": "markdown"
+}

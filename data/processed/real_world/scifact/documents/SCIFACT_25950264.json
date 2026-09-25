@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_25950264",
+  "title": "A three-dimensional cell biology model of human hepatocellular carcinoma in vitro",
+  "content": "We established an in vitro 3-D model of metastatic hepatocellular carcinoma (HCC) by culturing MHCC97H cells on molecular scaffolds within a rotating wall vessel bioreactor. Morphological and biochemical analyses revealed that the 3-D HCC model mirrored many clinical pathological features of HCC in vivo, including cancer cell morphology, tissue ultrastructure, protein production and secretion, glucose metabolism, tissue-specific gene expression, and apoptosis. Xenografts into livers of nude mice resulted in tumorigenesis and distant metastasis. This 3-D HCC spheroid is a promising model for HCC tumor biology, anticancer drug screening, and for the establishment of HCC animal models.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

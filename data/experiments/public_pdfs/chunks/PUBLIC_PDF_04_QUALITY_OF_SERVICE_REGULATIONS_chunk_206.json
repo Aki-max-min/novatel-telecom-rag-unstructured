@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_206",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 206,
+  "text": "answer is ‘Yes’ please suggest measures to ensure minimum guaranteed QoS for voice and data service for consumers. (Q4 and Q5) (a) Input of Stakeholders (i) Many stakeholders submitted that under the modern 4G and 5G network architecture, the enterprise services are provided using technologies like Network slicing that ensure no impact on the generally available best-effort internet. Consequently, consumer voice and data services remain unaffected, as they will continue to be provided using the dedicated network resources for the same. (ii) One of the stakeholders submitted that 3GPP standards specify the QoS mechanisms required in the network to support different service requirements. There are many inbuilt techniques in 5G technology which will play a pivotal role in ensuring that uRLLC and eMBB services can harmoniously coexist within the framework of 5G networks. (iii) One of the stakeholders submitted that some resources would get used for these enterprise use cases and hence resources available for normal use cases may reduce. Thus, better network planning and increase of resources would be required in the network. (b) Analysis and Conclusion (i) Different service capabilities supported by 5G network, like eMBB, uRLLC and mMTC, require sufficient resources in access and backhaul segment of the network in addition to the enabling service features in the Core network. Therefore, to deliver the required QoS, it is essential that sufficient network resources are provisioned and made available to each service capability. (ii) However, the Authority has noted the commitment of the service providers that consumer voice",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

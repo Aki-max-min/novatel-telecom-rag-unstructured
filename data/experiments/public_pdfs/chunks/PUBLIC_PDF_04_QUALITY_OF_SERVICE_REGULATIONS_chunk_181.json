@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_181",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 181,
+  "text": "node to ISP Gateway Node [Intra-network] or Internet Exchange Point Link(s) (a) Input of Stakeholders (i) Some of the stakeholders submitted that there are many links involved in service delivery and measurement of traffic on each of the links is not possible. Further, this is in the purview of network design and should not be part of the purview of QoS. (ii) The benchmark proposed by the authority is <80%. In this regard, we request the Authority to take note that if the average utilization of the route links is 90%, it (90%) should also be the limit on individual links (instead of 80%). This way, each link having less than 90% utilization ensures that overall utilization is < 90%. (b) Analysis and Conclusion This is an existing parameter in Broadband (Wireline) regulations and no change has been made in the benchmark. This parameter is important from the perspective of QoS and performance against this parameter shall be monitored by the Authority as per provision of the regulations. 5.5.2 Registration of demand for new wireline broadband connection irrespective of technical feasibility (a) Input of Stakeholders (i) Some of the stakeholders submitted that TSPs pitch their services only in areas where they have network coverage. Currently, none of the TSPs have provision to register any demand for new wireline broadband connectivity in their non-coverage areas. Further, based on techno-commercial feasibility, the TSPs expand and provide their network services. Hence, maintaining a demand register in non- coverage areas is not required and",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

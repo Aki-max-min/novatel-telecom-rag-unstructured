@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_041",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 41,
+  "text": "the month of June of the concerned year. The log of changes made in coverage map for respective assessed month shall be maintained for the purpose of audit. (iv) As cell coverage is dependent upon the cell loading or cell traffic, as against its dimensioned traffic handling capacity, the coverage maps should be presented considering 50% cell traffic against the dimensioned capacity. It is expected that suitable backhaul bandwidth is provisioned to support cell traffic. (v) The cell coverage of respective technology shall be presented on the coverage map in prescribed color scheme having minimum prescribed signal strength, in line with license or authorization conditions or relevant standards, at the cell edges with its 50% loading. (vi) The link for network coverage map shall be provided in the home or landing page of the service provider’s website at a prominent location for single click navigation. (vii) The maps shall be interactive as far as possible and shall provide options to at least see the coverage by (a) selecting technology (single, multiple or all) (b) entering latitude or longitude or both to see coverage in area of interest and (c) selecting or entering LSA/ State/ UT or district. (viii) The Authority may, from time to time, specify functional and technical requirements for display of service wise geospatial coverage maps on service provider’s website by an order or direction. 4.1.2. Cumulative downtime (cells not available for service) and Worst Affected cells due to downtime (i) Cumulative downtime (cells not available for service)",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

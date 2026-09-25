@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_14492339",
+  "title": "Blood monocytes consist of two principal subsets with distinct migratory properties",
+  "content": "Peripheral blood monocytes are a heterogeneous population of circulating leukocytes. Using a murine adoptive transfer system to probe monocyte homing and differentiation in vivo, we identified two functional subsets among murine blood monocytes: a short-lived CX(3)CR1(lo)CCR2(+)Gr1(+) subset that is actively recruited to inflamed tissues and a CX(3)CR1(hi)CCR2(-)Gr1(-) subset characterized by CX(3)CR1-dependent recruitment to noninflamed tissues. Both subsets have the potential to differentiate into dendritic cells in vivo. The level of CX(3)CR1 expression also defines the two major human monocyte subsets, the CD14(+)CD16(-) and CD14(lo)CD16(+) monocytes, which share phenotype and homing potential with the mouse subsets. These findings raise the potential for novel therapeutic strategies in inflammatory diseases.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

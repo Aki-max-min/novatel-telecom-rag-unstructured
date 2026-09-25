@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_173",
+  "document_id": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+  "chunk_index": 173,
+  "text": "each of the links is not possible. Further, this is in the purview of network design and should not be part of the purview of QoS. (b) Analysis and Conclusion (i) This is an existing parameter in Broadband (Wireline) regulations, and it requires to be complied. Similar parameter is not available in respect of wireless service in existing regulations. (ii) However, to ensure end to end quality of service in mobile networks for voice and broadband services, it is essential to monitor performance of each segment of the network. Even though the performance of radio and core network may meet performance benchmark, the performance degradation in links between radio network to core network may impair overall quality of service. Therefore, the Authority has decided that the service providers should monitor and report the performance of these links as per the measurement methodology under Schedule-I. 5.4.2 SDCCH Congestion/ RRC Congestion and Traffic Channel congestion (a) Input of Stakeholders (i) Few stakeholders submitted that these parameters should be averaged on a quarterly basis and not on a monthly basis as proposed by TRAI. Averaging on monthly basis will unnecessarily increase non- compliance which will not give a true picture. (ii) One Service Provider requested that the 4G/5G related parameters should be made applicable to them only after the full roll out of 4G services. 162 THE GAZETTE OF INDIA: EXTRAORDINARY [PART III—SEC.4] (b) Analysis and Conclusion Considering the submission of stakeholders, the Authority has reviewed these parameters. Now these parameters have been",
+  "title": "04 quality of service regulations",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/04_quality_of_service_regulations.pdf",
+  "file_type": "pdf"
+}

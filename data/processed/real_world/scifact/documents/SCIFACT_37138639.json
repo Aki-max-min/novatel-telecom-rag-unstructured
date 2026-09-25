@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_37138639",
+  "title": "The IKK complex, a central regulator of NF-kappaB activation.",
+  "content": "The IKK kinase complex is the core element of the NF-kappaB cascade. It is essentially made of two kinases (IKKalpha and IKKbeta) and a regulatory subunit, NEMO/IKKgamma. Additional components may exist, transiently or permanently, but their characterization is still unsure. In addition, it has been shown that two separate NF-kappaB pathways exist, depending on the activating signal and the cell type, the canonical (depending on IKKbeta and NEMO) and the noncanonical pathway (depending solely on IKKalpha). The main question, which is still only partially answered, is to understand how an NF-kappaB activating signal leads to the activation of the kinase subunits, allowing them to phosphorylate their targets and eventually induce nuclear translocation of the NF-kappaB dimers. I will review here the genetic, biochemical, and structural data accumulated during the last 10 yr regarding the function of the three IKK subunits.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

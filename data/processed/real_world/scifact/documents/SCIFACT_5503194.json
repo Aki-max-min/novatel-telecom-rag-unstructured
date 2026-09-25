@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_5503194",
+  "title": "alphaE-catenin controls cerebral cortical size by regulating the hedgehog signaling pathway.",
+  "content": "During development, cells monitor and adjust their rates of accumulation to produce organs of predetermined size. We show here that central nervous system-specific deletion of the essential adherens junction gene, alphaE-catenin, causes abnormal activation of the hedgehog pathway, resulting in shortening of the cell cycle, decreased apoptosis, and cortical hyperplasia. We propose that alphaE-catenin connects cell-density-dependent adherens junctions with the developmental hedgehog pathway and that this connection may provide a negative feedback loop controlling the size of developing cerebral cortex.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

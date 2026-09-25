@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_086",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 86,
+  "text": "to complain on behalf of others: Regulation 19(4), enabled to complain on behalf of others by adding details of the person on whose behalf complaint is being made to the brief description of such UCC. Included to issue notice to person causing to send UCC and provision for disconnection of his telecom resources: Regulation 19(11) added that if UCC has solicited commercial transaction on behalf of a person on the same mobile number or different telephone number then issue notice separately to such subscriber or person other than the subscriber making UCC. After 2nd notice, disconnect all telecom resources of that subscriber. Introduced to submit details of all bulk connections: Regulation 20(2)(p) introduced to submit details of all bulk connections provided during the previous calendar month. Introduced financial disincentives to access providers on account of UTM activities: Regulation 22(1A) introduced that for UCC from UTM, OAP liable to pay an amount, by way of financial disincentive, not exceeding Rs.5000 for every such complaint. 52 14 14thAmendment Dated 3rd December 2013 Introduced procedure for renewal of registration of telemarketers and requirements of security deposits Regulation 14(3) changed registration period from three years to five years Regulation 14(4) added: registered telemarketer may apply for renewal on the same terms and conditions, sixty days before to the expiry of its registration and paying specified fee. Introduced power to amend schedules specified in Schedules and make it effective within time limits Regulations 20(2)(a) and (b) proviso added regarding amending Schedule-V and accordingly modifying agreement(s)",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

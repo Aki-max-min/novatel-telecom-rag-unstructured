@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_31070360",
+  "title": "Serum metabolomics in animal models and human disease.",
+  "content": "PURPOSE OF REVIEW The aim of this study is to highlight some recent uses of serum metabolomics in human and animal studies. The main themes are the importance of understanding the underlying variation in human metabolism and the use of serum metabolomics in disease profiling. RECENT FINDINGS Several studies have attempted to use serum metabolomics to develop noninvasive biomarkers of disease and/or track the consequences of nutritional and genetic interventions. Many advances have been made with common changes being identified in ageing, the menopause and cancer but several problems of interpretation have emerged from these studies. These include the small sample sizes in most human studies and the differences between human and rodent metabolomes. However, a metabolic screen of over 1000 'healthy' humans (the Humsermet project) has highlighted many variables that may be used to refine the interpretation and design of previous and future human studies alike, in addition to data mining. SUMMARY Some common serum metabolome alterations have been identified but many inconsistencies remain. The construction of a human serum metabolome database should be informative in the design of future human and animal model studies.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

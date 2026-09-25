@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_184",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 184,
+  "text": "as it may be possible to get solicited communication on such numbers. Stakeholders also suggested that deployment of honeypots along with use of cryptographic signatures to collect evidence can help to identify similarity among samples collected from multiple sources. Such measures can also make use of additional software capabilities such as to detect plagiarism/ to detect similar image/music, that can help to identify similarity among samples. ii. Few stakeholders have suggested to identify the entity who should be responsible to deploy Honeypots, analyse and deal with inputs from such Honeypots. 5.2.10 Crowdsourcing information to detect UCC i. Most of the Stakeholders supported the view that complaint related data should be analysed at central locations such as TRAI’s NCPR Portal to develop intelligence, take proactive measures and to strengthen the system in a structured way. ii. Inputs may be shared with all stakeholders and actions against identified defaulters may also be expedited. 5.2.11 Scrubbing as a Service i. Comments of stakeholders on Scrubbing as a service model related to entity registration and preference or consent related requirements are already covered under para 3 and para 4. ii. Stakeholders suggested that charging for scrubbing as a service may be based on categories or volume. Minimum charges may be applicable for carrying out scrubbing or there may be one- time charge (akin to registration fees). 5.2.12 Mitigation or elimination of cases of victimization i. Most of the Stakeholders were in agreement for the need to have mechanism which avoids or eliminates victimization and",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

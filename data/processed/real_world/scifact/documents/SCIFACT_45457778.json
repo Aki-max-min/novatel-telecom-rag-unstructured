@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_45457778",
+  "title": "A European perspective on population studies of dementia.",
+  "content": "The change in the world's age demographics and the predicted rise in the incidence of age-related diseases, including dementia, is a source of major public health concern. Major research effort in both the United States and Europe has been targeted toward understanding the pathogenesis and epidemiology of dementia. This article presents a general overview of the history of dementia research in Europe and how it compares with that in the United States. The review highlights the common issues which both U.S. and European researchers have identified and attempted to tackle. To maximize information gained from studies across the world, better harmonization of methodology is needed, as informed from current research practice.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

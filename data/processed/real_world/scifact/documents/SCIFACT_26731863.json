@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_26731863",
+  "title": "Distinct and essential roles of transcription factors IRF-3 and IRF-7 in response to viruses for IFN-alpha/beta gene induction.",
+  "content": "Induction of the interferon (IFN)-alpha/beta gene transcription in virus-infected cells is an event central to innate immunity. Mice lacking the transcription factor IRF-3 are more vulnerable to virus infection. In embryonic fibroblasts, virus-induced IFN-alpha/beta gene expression levels are reduced and the spectrum of the IFN-alpha mRNA subspecies altered. Furthermore, cells additionally defective in IRF-7 expression totally fail to induce these genes in response to infections by any of the virus types tested. In these cells, a normal profile of IFN-alpha/beta mRNA induction can be achieved by coexpressing both IRF-3 and IRF-7. These results demonstrate the essential and distinct roles of thetwo factors, which together ensure the transcriptional efficiency and diversity of IFN-alpha/beta genes for the antiviral response.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

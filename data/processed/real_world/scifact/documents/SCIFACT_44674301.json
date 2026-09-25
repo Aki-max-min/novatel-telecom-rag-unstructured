@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_44674301",
+  "title": "Establishment of a cell line (NPC/HK1) from a differentiated squamous carcinoma of the nasopharynx.",
+  "content": "A long-term cell culture epithelioid cell line was established from a recurrent squamous carcinoma of the nasopharynx of a Chinese male 17 1/2 years after radiation therapy. The cell line, designated NPC/HK1, has been passed 72 times over a period 1 year. The cells have been shown by light and electron microscopies to be of the squamous epithelial type. When they were transplanted subcutaneously into the back of athymic nude BALB/c (nu/nu) mice, tumors developed at the sites of inoculation, which on histological examination were shown to be well-differentiated squamous carcinomas, similar in morphology to the recurrent human tumor from which they were derived. Karyotypic analysis of cells from the cell line demonstrates an aneuploid human type with a modal chromosome number of 74 with both numerical and structural aberrations. Viral particles or Epstein-Barr viral nuclear antigen (EBNA) has not been demonstrated in the cells from the primary culture or several of the subcultures tested. The presence of EBNA in touch smears prepared from the biopsy tissue was inconclusive. Infection of the subcultured cells with EBV from P3HR1 and B95-8 cells was unsuccessful.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

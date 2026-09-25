@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_6077214",
+  "title": "Genetic control of mosquitoes.",
+  "content": "Genetics can potentially provide new, species-specific, environmentally friendly methods for mosquito control. Genetic control strategies aim either to suppress target populations or to introduce a harm-reducing novel trait. Different approaches differ considerably in their properties, especially between self-limiting strategies, where the modification has limited persistence, and self-sustaining strategies, which are intended to persist indefinitely in the target population and may invade other populations. Several methods with different molecular biology are under development and the first field trials have been completed successfully.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

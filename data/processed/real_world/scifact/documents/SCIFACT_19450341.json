@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_19450341",
+  "title": "Imaging techniques for assaying lymphocyte activation in action",
+  "content": "Imaging techniques have greatly improved our understanding of lymphocyte activation. Technical advances in spatial and temporal resolution and new labelling tools have enabled researchers to directly observe the activation process. Consequently, research using imaging approaches to study lymphocyte activation has expanded, providing an unprecedented level of cellular and molecular detail in the field. As a result, certain models of lymphocyte activation have been verified, others have been revised and yet others have been replaced with new concepts. In this article, we review the current imaging techniques that are used to assess lymphocyte activation in different contexts, from whole animals to single molecules, and discuss the advantages and potential limitations of these methods.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

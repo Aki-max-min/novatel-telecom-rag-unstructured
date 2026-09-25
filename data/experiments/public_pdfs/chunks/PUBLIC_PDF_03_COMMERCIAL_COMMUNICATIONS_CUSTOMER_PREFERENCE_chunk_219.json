@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_219",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 219,
+  "text": "in changing environment. 6.5 More trusted relationship between Terminating Access Provider and Originating Access Provider: Technology solutions may help to build more trust between TAP and OAP for the entities which are registered to carryout regulatory compliances and actions performed by them. It may be noted that practically there is a web of entities between content providers or principal entities and TSPs. Even TSP to which subscriber belongs to (known as TAP) may not be having direct connectivity with the entity e.g. telemarketing traffic directly from the telemarketer and it might be coming via other TSPs known as Originating Access Providers (OAPs). Due to this situation, technologically regulatory compliance for UCC is distributed among various entities and technology solution may build more trust for the TAP for actions performed by the entity which is not connected directly with it. 6.6 Building more confidence in the UCC ecosystem for the Principal entities: Principal Entities (PE) are primarily interested in reaching out to the customers for the purpose of commercial communications, 102 telemarketers may be just be facilitating them with their arrangements with TSPs to deliver content and carrying out necessary regulatory checks. Practically, principal entities and content providers so far may not be directly part of regulatory regime for UCC as they are not registered and may not have entered into any of legal agreements specifically for purpose of UCC regulatory requirements. They ask their channel partners or Direct Sales Agents (DSAs) to become Telemarketers or have tie up with telemarketers",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

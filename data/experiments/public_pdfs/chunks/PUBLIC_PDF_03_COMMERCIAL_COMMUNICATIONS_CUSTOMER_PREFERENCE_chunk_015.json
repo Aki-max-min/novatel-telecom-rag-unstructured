@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_015",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 15,
+  "text": "used to send voice call or messages; (bp) “Telemarketer” means a person or legal entity engaged in the activity of transmission or delivery of commercial communication or scrubbing or aggregation. (bq) “Telephone number” means a number which may or may not have been assigned to the subscriber of a Public Switched Telecom Network (PSTN) or a wireless access network or a mobile network from a numbering series already assigned to a telecom service providers to which either an SMS or MMS can be sent, or Voice calls can be made. Explanation: For the purposes of these regulations, it is immaterial whether the telephone number is actually assigned to any customer or not or has ceased to exist; (br) “Telephone number harvesting software” means software that is specifically designed or marketed for use in — searching the Internet, directories, contact lists in devices for telephone numbers; and collecting, compiling, capturing or otherwise harvesting those telephone numbers; generating most likely valid telephone numbers using automated means; (bs) “Terminating Access Provider” (TAP) means the Access Provider of which Recipient of 9 commercial communication is a Subscriber; (bt) “Transactional message” means a message triggered by a transaction performed by the Subscriber, who is also the Sender’s customer, provided such a message is sent within thirty minutes of the transaction being performed and is directly related to it. Provided that the transaction may be a banking transaction, delivery of OTP, purchase of goods or services, etc. (bu) “Transactional Voice Call” means a voice call which",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_173",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 173,
+  "text": "may be necessary to mandate device manufacturers, Operating System developers and platforms to allow the apps to have the requisite permissions for proper functioning. 5.1.5 Reviewing structure of financial Disincentives for Access Providers: Present provision of Fianancial Disincentives for Access Providers may need to be reviewed and additional roles and responsibilities may be assigned to Access Providers. Additional measures may be prescribed for the access providers to mitigate UCC problem. 5.1.6 Levying stringent Financial disincentives in case of UCC calls using Auto diallers, Robos etc.: Customer should have the option of opting out of commercial communication delivered through new modes such as Robocalls and auto-dialler calls. There should be strict financial disincentives for telemarketers sending UCC in violation of regulations using Robocalls or auto-dialler calls. 5.1.7 Enhancements of Signature Solutions: Signature solutions may be enhanced to identify unregistered telemarketing activity. Technology based detection solutions which can proactively identify suspicious activity, need to be developed. Inputs to signature solution may come from various sources, e.g. by deploying honeypots or network elements. Enhancements of signature solutions may also include sharing of information among access providers for continuous evolution of signatures, rules and criteria. 5.1.8 Use of Artificial Intelligence (AI) to improve Signature Solutions: Artificial Intelligence (AI) may be useful to improve performance of signature solutions and make it more adaptive to changes in the behaviour of and techniques used by the telemarketers to bypass the signature solution. AI may also be helpful to detect newer UCC messages created by tweaking content. 5.1.9",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

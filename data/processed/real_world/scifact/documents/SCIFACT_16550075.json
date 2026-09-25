@@ -1,0 +1,22 @@
+{
+  "document_id": "SCIFACT_16550075",
+  "title": "BCL-6 represses genes that function in lymphocyte differentiation, inflammation, and cell cycle control.",
+  "content": "BCL-6, a transcriptional repressor frequently translocated in lymphomas, regulates germinal center B cell differentiation and inflammation. DNA microarray screening identified genes repressed by BCL-6, including many lymphocyte activation genes, suggesting that BCL-6 modulates B cell receptor signals. BCL-6 repression of two chemokine genes, MIP-1alpha and IP-10, may also attenuate inflammatory responses. Blimp-1, another BCL-6 target, is important for plasmacytic differentiation. Since BCL-6 expression is silenced in plasma cells, repression of blimp-1 by BCL-6 may control plasmacytic differentiation. Indeed, inhibition of BCL-6 function initiated changes indicative of plasmacytic differentiation, including decreased expression of c-Myc and increased expression of the cell cycle inhibitor p27kip1. These data suggest that malignant transformation by BCL-6 involves inhibition of differentiation and enhanced proliferation.",
+  "category": "SCIFACT",
+  "category_name": "Scientific Literature",
+  "department": "Research Dataset",
+  "customer_scope": "public",
+  "last_updated": "2026-08-31",
+  "version": "1.0",
+  "source_authority": "BEIR SciFact",
+  "related_ids": [],
+  "tags": [
+    "scifact",
+    "scientific",
+    "research",
+    "real_world_data"
+  ],
+  "source_dataset": "BEIR/SciFact",
+  "file_path": "data/raw/real_world/scifact/scifact/corpus.jsonl",
+  "file_type": "jsonl"
+}

@@ -1,0 +1,23 @@
+{
+  "chunk_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_051",
+  "document_id": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+  "chunk_index": 51,
+  "text": "(CNAM) based on Intelligent Network or ISDN based protocols, enhanced calling name (eCNAM) functionality as defined in 3GPP technical specifications TS 24.196 for providing services to terminating user with the name associated with the originating user and optionally delivering metadata about that originating user; maintain with minimum performance requirements as specified; perform any other function and keep other relevant details which may be required for carrying out pre and post checks for regulatory compliance; 6. Every Access Provider shall ensure that content of any commercial communication sent by the sender(s) shall be categorized and compared with the list of preference(s) of the recipient and/or purpose of consent given by the recipient to the sender for the purpose of scrubbing and for this purpose access provider shall ensure that any commercial communication through its network takes place only using registered content template(s) for transaction and/ or content template(s) for promotion; Unique Identity for registered template of content shall be assigned to the sender(s) at the time of registration of content template; Following Label shall be prefixed by the access provider to the text of commercial communication: Label <Transactional> in case of Transactional Message; Label <Service> in case of Service Message; Label <Promotional> in case of Promotional Message; Every Access Provider shall suffix relevant information required to revoke the consent to the text of promotional message; Content template shall be recorded on Distributed Ledger for Content Template (DL-CT) in an immutable and non repudiable manner; commercial communication is sent to the particular",
+  "title": "03 commercial communications customer preference",
+  "document_type": "REGULATION",
+  "category": "PUBLIC_TELECOM",
+  "department": "Real World Telecom Data",
+  "customer_scope": "public",
+  "version": "1.0",
+  "last_updated": "2026-08-31",
+  "source_authority": "TRAI",
+  "related_ids": [],
+  "tags": [
+    "real_world_data",
+    "telecom",
+    "public_pdf",
+    "regulation"
+  ],
+  "file_path": "regulations/03_commercial_communications_customer_preference.pdf",
+  "file_type": "pdf"
+}

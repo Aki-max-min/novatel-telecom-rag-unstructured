@@ -106,3 +106,62 @@ All of these already return results in the shared `{source, record_id, dataset, 
 ## 7. Open question for sync
 
 Should the **query-understanding + concept gate** (step 1) live in your `ingestion`/retrieval code or in a new shared `hybrid/` module we both contribute to? Recommend the latter, since it's the one piece that genuinely depends on both sides' knowledge (your query intent detection + my concept/entity resolution) — matches the "joint integration" row in the responsibilities table from the original Future Work Plan.
+
+
+---
+
+## 8. Phase 5 Findings (E13 prototype evaluated)
+
+*Added after the first end-to-end evaluation of the `hybrid/` prototype (`hybrid/evaluate_hybrid.py`, per-question output in `hybrid/evaluation_results.json`). Written to be read without the commit history.*
+
+**What was run.** The full pipeline — query gate (`hybrid/query_gate.py`) → weighted RRF fusion (k=60) + dedup (`hybrid/fusion.py`, `hybrid/dedup.py`) → controlled CrossEncoder rerank, pool capped at 20 (`hybrid/rerank.py`) — on your 29-question benchmark and the 9-question graph-dependent mini-benchmark, using the real 383-chunk index, the real document graph and the real `cross-encoder/ms-marco-MiniLM-L-6-v2`. Vector-only and blanket-graph (0.5, no gate, no rerank) were re-computed with the same harness and reproduce the earlier numbers exactly.
+
+**This was ONE untuned run.** Gate thresholds (0.5 / 0.15 / 0.0) are unchanged since Phase 2 and nothing was adjusted after seeing results. Further solo tuning was deliberately avoided: query understanding is joint-design territory (Section 7), and tuning on these 38 questions would also contaminate them as an evaluation set.
+
+### Results
+
+| Main benchmark (29 Q) | R@1 | R@3 | R@5 | MRR@5 |
+|---|---|---|---|---|
+| vector-only | 0.7586 | 0.9310 | 1.0000 | 0.8529 |
+| graph blanket (0.5) | 0.3793 | 0.8621 | 0.8966 | 0.6236 |
+| **E13 hybrid (gated + rerank)** | **0.9310** | **1.0000** | **1.0000** | **0.9598** |
+| *diagnostic: gate + fusion, no rerank* | 0.6207 | 0.8966 | 0.9310 | 0.7615 |
+
+| Graph-dependent mini-benchmark (9 Q) | R@1 | R@3 | R@5 | MRR@5 |
+|---|---|---|---|---|
+| vector-only | 0.2222 | 0.6667 | 0.8889 | 0.4574 |
+| graph blanket (0.5) | 0.5556 | 0.6667 | 1.0000 | 0.6944 |
+| **E13 hybrid (gated + rerank)** | **0.2222** | **0.6667** | **0.8889** | **0.4759** |
+| *diagnostic: gate + fusion, no rerank* | 0.4444 | 0.7778 | 1.0000 | 0.6426 |
+
+Gate weight distribution over all 38 questions: 0.5 → 11, 0.15 → 16, 0.0 → 11.
+
+### Finding 1 — Main benchmark: the gain is entirely the rerank, and adds nothing over your existing pipeline
+
+All of E13's improvement over vector-only on the main benchmark is attributable to the CrossEncoder. With the rerank removed, gate + fusion alone scores R@1 0.6207 — *worse* than vector-only's 0.7586. The reranked result (0.9310 / 1.0 / 1.0) matches the Recall numbers in your existing `data/vectorstore/reranked_retrieval_evaluation.json` (FAISS top-10 + CrossEncoder: top1 0.9310, top3 1.0, top5 1.0) exactly. **As currently built, E13 adds no new value on general questions**; it reproduces what your reranker already achieved. (Only the top-line recall numbers were compared, not per-question rankings.)
+
+### Finding 2 — Mini-benchmark: E13 ties vector-only and loses to blanket-graph
+
+On recall, E13 ties vector-only (0.2222 / 0.6667 / 0.8889) and is below blanket-graph on R@1 (0.2222 vs 0.5556) and R@5 (0.8889 vs 1.0). Two diagnosed causes:
+
+- **(a) The gate's proxy does not track graph-dependence.** `needs_personal_data` ("my/I" + an account fact) was chosen because the roadmap's Section 3 described graph value as relational/customer context. In practice, only 3 of the 9 mini-benchmark questions got weight 0.5; most of the questions where the graph helps are phrased impersonally ("What proof does a store need before handing over a duplicate SIM?") and got 0.15 or 0.0.
+- **(b) The CrossEncoder undoes the graph's contribution.** The diagnostic row shows gate + fusion alone (R@1 0.4444, R@3 0.7778, R@5 1.0) is clearly better than the reranked result on this set. A text-similarity reranker demotes graph-found candidates precisely *because* they were found through relationships rather than text similarity, and this benchmark was constructed so the correct answers use internal/off-vocabulary phrasing relative to the customer's question.
+
+### Evidence for the gate redesign: wrong or missed concept hints on real benchmark questions
+
+1. **DND / promo (false positive).** "I registered for DND but I'm still receiving promotional calls…" → *Offers & Promotions*. The bare `promo` keyword matches "promotional"; DND has no concept in the vocabulary (no DND table), so the correct result is no match. (Known limitation from Phase 2, now confirmed on a real question.)
+2. **5G / Device Compatibility.** "How do I check whether my handset supports NovaTel 5G and VoLTE?" → *Network Coverage* (via `5g`). The intended concept is *Device Compatibility*; "handset" is not a keyword.
+3. **Enterprise plan.** "What does a NovaTel enterprise connectivity plan include for a business?" → *Plan Catalogue* (via `plan`). *Enterprise & Business Services* is the better fit.
+4. **IoT SIM.** "We have thousands of IoT SIM cards. How can our organisation monitor their usage?" → *SIM Card Services* (via `sim`); the question is an enterprise/usage question.
+5. **Bare-"number" false-personal flag.** `number` is in the account-fact list, so "How much will I be charged if I call or send an SMS to a number in another country?" is flagged `needs_personal_data=True` although it is a tariff question (and got no concept hint at all). "Are there any special recharge offers available specifically for my mobile number?" is similarly flagged and hinted *Recharge* rather than *Offers & Promotions*.
+
+Other misses seen in the same run: "I was subscribed to a service I don't remember requesting" (no hint — `subscription` doesn't match "subscribed"), "…update the number on my account" (no hint), "agent blocked my SIM before finishing the identity checks" (SIM Card Services, KYC not detected). The full per-question gate output is in `hybrid/evaluation_results.json`.
+
+### Implementation fix needed (not a design question)
+
+`fuse_candidates` keys candidates by `record_id`. At chunk level, a document reached through different chunks in the vector and graph lists (e.g. `X_chunk_001` vs `X_chunk_000`) is scored as two separate entries, so its two RRF contributions are not summed. The evaluation harness works around this by reusing the vector list's chunk record_id for graph documents that are also in the vector list (making fusion effectively document-level). This needs a proper fix in `fusion.py` before chunk-level fusion is trusted.
+
+### Open questions for the joint sync (posed, not answered)
+
+1. **Gate signal.** Should the gate predict *graph-dependence* directly, with a signal other than personal-data detection — for example vocabulary overlap between the question and the corpus, as a proxy for "text search alone is likely to miss this"?
+2. **Rerank treatment of graph-sourced candidates.** Should `controlled_rerank` treat candidates that appear only in the graph list differently — for example blending `rerank_score` with `fusion_score` rather than fully overriding the fusion order, or skipping pure-text reranking for candidates with no vector-list presence?

@@ -1,6 +1,7 @@
 # =============================================================================
 # PROTOTYPE v1 - rule-based first draft for Person A's review. Query
-# understanding is joint-design territory per E13 roadmap Section 7.
+# understanding is joint-design territory per E13 roadmap Section 7
+# (docs/E13_Hybrid_Fusion_Roadmap.md, Section 7).
 # Replace/extend freely.
 # =============================================================================
 """
@@ -16,6 +17,16 @@ Rule-based only, in the spirit of structured/query_parser.py (keyword/pattern
 maps, no ML). The concept vocabulary is NOT redefined here: it is read from the
 ontology crosswalk via knowledge_graph.concept_bridge, and every keyword below
 must point at a concept that exists in that vocabulary (checked at import).
+
+KNOWN LIMITATIONS (v1 prototype findings, left unfixed on purpose for Person A's review):
+  * The bare "promo" keyword is matched as a word-start substring, so it matches
+    "promotional". On DND-related questions such as "Can the company keep sending
+    me promotional SMS after I've registered for DND?" this yields a wrong concept
+    hint (Offers & Promotions) instead of no match, because DND has no concept in
+    the shared vocabulary (concept_bridge.py omits it: no DND table exists). The
+    question then gets graph weight 0.15 instead of 0.0.
+  * This is a documented finding, not a bug to silently patch: it shows where
+    plain keyword rules are too crude and is input for the joint query-understanding design.
 """
 
 import os
@@ -146,14 +157,14 @@ def graph_weight(classification: dict) -> float:
     """Conditional graph-fusion weight from a classify_query() result."""
     if classification.get("concept_hint") is None:
         # No shared concept to bridge on: pure vector, the roadmap default
-        # (graph fusion regressed on the main benchmark - roadmap Section 3).
+        # (graph fusion regressed on the main benchmark - docs/E13_Hybrid_Fusion_Roadmap.md, Section 3).
         return 0.0
     if classification.get("needs_personal_data"):
         # Concept + personal data: graph-dependent questions were a real win;
         # 0.5 is the weight validated in graph_augmented_retrieval.py's evaluation.
         return 0.5
     # Concept but no personal data: document-graph expansion only, light touch
-    # (roadmap Section 3: graph helps a little on concept-bearing questions, but
+    # (docs/E13_Hybrid_Fusion_Roadmap.md, Section 3: graph helps a little on concept-bearing questions, but
     # hurts when over-weighted on the plain benchmark).
     return 0.15
 

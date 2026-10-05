@@ -34,9 +34,9 @@ from knowledge_graph.evaluate_graph_rag import (  # noqa: E402
     GRAPH_BENCHMARK_PATH, fmt, load_benchmark, score_run,
 )
 from knowledge_graph.graph_augmented_retrieval import (  # noqa: E402
-    GRAPH_CANDIDATES, GRAPH_SEEDS, VECTOR_DEPTH, VectorRetriever,
-    graph_enhanced_search, graph_expand, load_graph_index, DEFAULT_BRIDGES,
+    VectorRetriever, graph_enhanced_search, load_graph_index,
 )
+from retrievers import Corpus, build_candidates  # noqa: E402  (factored out in Phase 7b)
 from query_gate import explain_gate  # noqa: E402
 from fusion import fuse_and_select  # noqa: E402
 from rerank import controlled_rerank  # noqa: E402
@@ -44,64 +44,6 @@ from rerank import controlled_rerank  # noqa: E402
 MAX_POOL = 20
 TOP_K = 5
 RESULTS_PATH = Path(__file__).resolve().parent / "evaluation_results.json"
-
-
-class Corpus:
-    """Chunk text + chunk ids per document, from Person A's stored assets."""
-
-    def __init__(self, metadata):
-        self.chunks_by_doc = {}
-        self.title_by_doc = {}
-        for entry in metadata:
-            self.chunks_by_doc.setdefault(entry["document_id"], []).append(entry["chunk_id"])
-            self.title_by_doc[entry["document_id"]] = entry.get("title", "")
-
-    def first_chunk(self, document_id):
-        chunks = self.chunks_by_doc.get(document_id)
-        return sorted(chunks)[0] if chunks else None
-
-
-def to_candidate(document_id, chunk_id, score, method, category, content):
-    """Common Result Schema dict."""
-    return {"source": "unstructured", "record_id": chunk_id or document_id,
-            "dataset": "novatel_synthetic", "category": category, "score": score,
-            "retrieval_method": method, "content": content,
-            "metadata": {"document_id": document_id}}
-
-
-def build_candidates(question, retriever, graph_index, corpus):
-    """Real vector + real graph candidates for one question, as schema dicts.
-
-    Vector: retriever.search() (Person A's index, document-level, best chunk per doc).
-    Graph : graph_expand() over the top GRAPH_SEEDS vector documents - the exact
-            expansion validated in the KG evaluation.
-    A graph document that is also in the vector list reuses the vector list's chunk
-    record_id, so fusion sums its two RRF contributions (fusion keys on record_id).
-    Graph-only documents are represented by their first chunk.
-    """
-    hits = retriever.search(question, depth=VECTOR_DEPTH)
-    vector, vector_chunk = [], {}
-    for h in hits:
-        vector_chunk[h["document_id"]] = h
-        vector.append(to_candidate(h["document_id"], h["chunk_id"], h["score"], "vector",
-                                   h["category"], person_a.load_chunk_text(h["chunk_id"])))
-
-    expanded = graph_expand([h["document_id"] for h in hits[:GRAPH_SEEDS]], graph_index,
-                            bridges=DEFAULT_BRIDGES, limit=GRAPH_CANDIDATES)
-    graph, dropped = [], 0
-    for row in expanded:
-        doc = row["document_id"]
-        if doc in vector_chunk:
-            h = vector_chunk[doc]
-            chunk_id, category = h["chunk_id"], h["category"]
-        else:
-            chunk_id, category = corpus.first_chunk(doc), ""
-        if chunk_id is None:  # document in the graph but not in the index: nothing to rerank
-            dropped += 1
-            continue
-        graph.append(to_candidate(doc, chunk_id, row["graph_score"], "graph", category,
-                                  person_a.load_chunk_text(chunk_id)))
-    return vector, graph, dropped
 
 
 def doc_ids(candidates):
@@ -117,7 +59,7 @@ def evaluate(name, benchmark, retriever, graph_index, corpus):
         expected = set(item["expected_document_ids"])
 
         blanket = graph_enhanced_search(q, retriever, graph_index, vector_weight=1.0, graph_weight=0.5)
-        vector, graph, dropped = build_candidates(q, retriever, graph_index, corpus)
+        vector, graph, dropped = build_candidates(q, retriever, graph_index, corpus, person_a)
         dropped_total += dropped
 
         gate = explain_gate(q)

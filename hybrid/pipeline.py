@@ -18,3 +18,39 @@ def run_hybrid_retrieval(question: str, vector_candidates: list[dict],
     """Gate -> fuse -> dedupe (keeping up to max_pool) -> capped rerank -> top_k."""
     pool = fuse_and_select(vector_candidates, graph_candidates, question, top_k=max_pool)
     return controlled_rerank(question, pool, max_pool=max_pool, top_k=top_k, model=model)
+
+
+def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int = 20,
+                     top_k: int = 5, model=None) -> dict:
+    """Route -> structured facts and/or fused-reranked documents, as TWO separate channels.
+
+    Facts (structured_adapter, customer-scoped) and documents (vector + graph -> fuse -> dedup ->
+    controlled rerank) are never fused with each other. `blocked` lists why a channel did not run
+    (e.g. "needs_identity"). The existing run_hybrid_retrieval is unchanged.
+    """
+    from router import route_query
+    from structured_adapter import fetch_customer_facts
+
+    plan = route_query(question, customer_id)
+    blocked, facts, documents, trace = [], [], [], {"intents_run": [], "documents_ran": False}
+
+    if plan.outcome != "answer":
+        blocked.append(plan.outcome)
+
+    if plan.outcome == "answer" and plan.route in ("structured", "both"):
+        facts = fetch_customer_facts(customer_id, plan.structured_intents, as_of=as_of)
+        trace["intents_run"] = list(plan.structured_intents)
+
+    # Documents run for unstructured and both routes, including both + needs_identity;
+    # never for a refused (other-customer) request.
+    if plan.outcome != "refuse_other_customer" and plan.route in ("unstructured", "both"):
+        from retrievers import build_candidates
+        vector, graph, _ = build_candidates(question)
+        documents = run_hybrid_retrieval(question, vector, graph, max_pool=max_pool, top_k=top_k, model=model)
+        trace["documents_ran"] = True
+        trace["rerank_status"] = documents[0].get("rerank_status") if documents else None
+
+    trace.update({"graph_weight": plan.graph_weight, "concept_hint": plan.concept_hint,
+                  "fact_count": len(facts), "document_count": len(documents)})
+    return {"route_plan": plan.as_dict(), "facts": facts, "documents": documents,
+            "blocked": blocked, "trace": trace}

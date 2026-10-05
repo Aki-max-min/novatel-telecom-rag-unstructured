@@ -108,5 +108,44 @@ class TestFusion(unittest.TestCase):
         self.assertEqual([c["metadata"]["document_id"] for c in out], ["D1", "D2"])
 
 
+def make_chunk(record_id, score, method, document_id=None):
+    """Candidate whose document key is derived from record_id unless document_id is given."""
+    c = make(record_id, score, method)
+    c["metadata"] = {"document_id": document_id} if document_id else {}
+    return c
+
+
+class TestDocumentLevelKeying(unittest.TestCase):
+    """Fusion is document-level: best (earliest) rank per document per list."""
+
+    def test_chunk_and_bare_id_fuse_as_one_document(self):
+        k = RRF_K
+        vector = [make_chunk("X_chunk_000", 0.9, "vector"), make_chunk("Y_chunk_000", 0.8, "vector"),
+                  make_chunk("X_chunk_001", 0.7, "vector")]
+        graph = [make_chunk("Z", 4.0, "graph"), make_chunk("X", 3.0, "graph")]  # X is graph rank 2
+        out = fuse_candidates(vector, graph, 0.5)
+        xs = [c for c in out if c["fusion_doc_key"] == "X"]
+        self.assertEqual(len(xs), 1)
+        expected = 1 / (k + 1) + 0.5 / (k + 2)  # vector best rank 1 + graph rank 2; 2nd chunk adds nothing
+        print(f"\ntest (a): X fusion_score={xs[0]['fusion_score']!r} expected 1/61 + 0.5/62 = {expected!r}")
+        self.assertAlmostEqual(xs[0]["fusion_score"], expected, places=15)
+        self.assertEqual(xs[0]["fusion_sources"], ["vector", "graph"])
+        self.assertEqual(xs[0]["record_id"], "X_chunk_000")  # representative: best vector chunk
+        self.assertEqual(len([c for c in out if c["fusion_doc_key"] == "Y"]), 1)
+
+    def test_two_chunks_of_one_vector_document_appear_once(self):
+        vector = [make_chunk("D_chunk_000", 0.9, "vector"), make_chunk("D_chunk_001", 0.8, "vector")]
+        out = fuse_candidates(vector, [], 0.5)
+        self.assertEqual(len(out), 1)
+        self.assertAlmostEqual(out[0]["fusion_score"], 1 / (RRF_K + 1), places=15)
+
+    def test_weight_zero_still_excludes_graph_only_documents(self):
+        vector = [make_chunk("X_chunk_000", 0.9, "vector")]
+        graph = [make_chunk("W", 5.0, "graph"), make_chunk("X", 1.0, "graph")]
+        out = fuse_candidates(vector, graph, 0.0)
+        self.assertEqual([c["fusion_doc_key"] for c in out], ["X"])
+        self.assertEqual(out[0]["fusion_sources"], ["vector"])
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

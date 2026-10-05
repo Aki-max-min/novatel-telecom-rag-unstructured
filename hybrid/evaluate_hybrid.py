@@ -15,7 +15,7 @@ NOT tuned / held out: no threshold or rule was adjusted after seeing results;
 the gate weights (0.5 / 0.15 / 0.0) are the Phase 2 values, unchanged.
 
 Run from the repo root in an environment with faiss + sentence-transformers:
-    python hybrid/evaluate_hybrid.py
+    python hybrid/evaluate_hybrid.py [output.json]   # default: hybrid/evaluation_results.json
 """
 
 import json
@@ -190,8 +190,9 @@ def main():
 
     payload = {"note": "Not tuned or held out. Gate thresholds unchanged from Phase 2.",
                "max_pool": MAX_POOL, "top_k": TOP_K, "runs": runs}
-    RESULTS_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"per-question results written to {RESULTS_PATH.relative_to(REPO_ROOT)}")
+    results_path = Path(sys.argv[1]) if len(sys.argv) > 1 else RESULTS_PATH
+    results_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    print(f"per-question results written to {results_path}")
     print("=" * 50)
 
 

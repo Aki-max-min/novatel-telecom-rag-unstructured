@@ -33,6 +33,7 @@ from groundedness import numeric_tokens  # noqa: E402
 BENCH = Path(__file__).resolve().parent / "benchmark" / "route_benchmark.json"
 OUT = Path(__file__).resolve().parent / "benchmark" / "answer_eval_phase9c.json"
 POSTFIX_OUT = Path(__file__).resolve().parent / "benchmark" / "answer_eval_phase9c_postfix.json"
+SECOND_OUT = Path(__file__).resolve().parent / "benchmark" / "answer_eval_phase9d_second_run.json"
 SAMPLE_IDS = ["RB_S06", "RB_B01", "RB_B05", "RB_U02", "RB_X01", "RB_X02"]
 # values of customers 1042 / 1056 that must never appear in an identity-less or refusal answer
 ACCOUNT_VALUES = ["4254", "399.00", "4996", "949.00", "3042", "3056", "2026-10-03", "2025-09-22", "6740", "581.65",
@@ -55,8 +56,9 @@ def value_in_answer(item, answer):
 def main():
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
-    postfix = "--postfix" in sys.argv[1:]
-    out_path = POSTFIX_OUT if postfix else OUT
+    second = "--second" in sys.argv[1:]
+    postfix = "--postfix" in sys.argv[1:] or second
+    out_path = SECOND_OUT if second else POSTFIX_OUT if postfix else OUT
     if out_path.exists():
         raise SystemExit(f"{out_path.name} already exists: result files are never overwritten.")
     questions = json.loads(BENCH.read_text(encoding="utf-8"))["questions"]
@@ -118,6 +120,11 @@ def main():
             print(f"A: {r['answer']}")
             print(f"citations: {r['citations']}")
             print(f"notices: {r['notices']}   verifier_ok: {r['verifier_ok']}")
+    if second:
+        for label, path in (("Phase 9c first run", OUT), ("Phase 9c post-fix run", POSTFIX_OUT)):
+            earlier = {r["question_id"]: r["answer"] for r in json.loads(path.read_text(encoding="utf-8"))["rows"]}
+            changed = [r["question_id"] for r in rows if r["answer"] != earlier[r["question_id"]]]
+            print(f"answers whose text changed vs {label}: {len(changed)}/{n} {changed}")
     print(f"\nwritten to {out_path.relative_to(REPO_ROOT)}")
 
 

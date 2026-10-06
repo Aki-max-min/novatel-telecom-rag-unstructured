@@ -188,6 +188,28 @@ class TestDocumentsNoticesAndSilence(unittest.TestCase):
         self.assertTrue(out["verifier"]["ok"], out["verifier"]["problems"])
 
 
+class TestPostFixes(unittest.TestCase):
+    """Phase 9c post-hoc fixes found by reading the first-run sample answers."""
+
+    def test_no_customer_never_claims_that_nothing_was_found(self):
+        out = ask("When does my plan expire and what was my last recharge?", None, docs=[REFUND])
+        self.assertIn("needs_identity", out["notices"])
+        self.assertNotIn("I found no", out["answer"])
+        self.assertTrue(out["verifier"]["ok"], out["verifier"]["problems"])
+        # an identified customer with genuinely no rows still gets the explicit statement
+        self.assertIn("I found no tickets", ask("Do I have any open tickets?", 1015)["answer"])
+
+    def test_markdown_table_fragments_are_not_quoted(self):
+        table_doc = dict(REFUND, content=("Key Details | Detail | Value | |---|---| | Refund to source | 5-7 working days "
+                                          "after approval, subject to bank processing | Troubleshooting. "
+                                          "Refunds to source generally reflect within 5-7 working days after "
+                                          "approval depending on your bank."))
+        out = ask("How long do refunds to source take?", None, docs=[table_doc])
+        self.assertNotIn("|", out["answer"])
+        self.assertIn("generally reflect within 5-7 working days", out["answer"])
+        self.assertTrue(out["verifier"]["ok"], out["verifier"]["problems"])
+
+
 class FakeClient:
     def __init__(self, text):
         self.text, self.calls = text, []

@@ -32,6 +32,7 @@ from context import Context, assemble_context  # noqa: E402
 from groundedness import split_sentences, verify_answer  # noqa: E402
 from textmatch import find_term, has_term  # noqa: E402
 
+MAX_QUOTE_CHARS = 450
 ANSWER_SNIPPET_CHARS = 1200   # longer than assemble_context's default so there are sentences to quote
 
 # Silence rule: a consequence term the customer asks about that appears in none of the retrieved snippets.
@@ -127,12 +128,13 @@ class ExtractiveAnswerer:
                     out.append(f"As of {d['as_of']}, that expiry date has not passed yet (derived from the date) "
                                f"[{f['id']}].")
 
+        identified = "needs_identity" not in context.notices  # no customer: nothing was looked up, so no "none found"
         tickets = by_table.get("tickets", [])
         for f in tickets:
             v = f["fields"]
             out.append(f"Ticket {v['ticket_id']} ({v['category']}/{v['subcategory']}) has stored status "
                        f"{v['status']} and was created {v['created_at']} [{f['id']}].")
-        if "tickets" in context.intents and not tickets:
+        if identified and "tickets" in context.intents and not tickets:
             out.append("I found no tickets on your account.")
 
         for f in by_table.get("invoices", []):
@@ -144,11 +146,11 @@ class ExtractiveAnswerer:
                 out.append(f"The records disagree: the stored status is {v['payment_status']}, but successful "
                            f"payments totalling {v['success_payments_sum']} are on file for this invoice "
                            f"(derived comparison); a billing agent can confirm [{f['id']}].")
-        if "invoice" in context.intents and not by_table.get("invoices"):
+        if identified and "invoice" in context.intents and not by_table.get("invoices"):
             out.append("I found no invoices on your account.")
-        if "recharge" in context.intents and not recharges:
+        if identified and "recharge" in context.intents and not recharges:
             out.append("I found no recharges on your account.")
-        if "subscription" in context.intents and not by_table.get("subscriptions"):
+        if identified and "subscription" in context.intents and not by_table.get("subscriptions"):
             out.append("I found no subscription on your account.")
         return out
 
@@ -162,10 +164,13 @@ class ExtractiveAnswerer:
                 text = re.sub(r"^(?:Short Answer|Answer)\s*:?\s*", "", sent).strip()
                 if text.lower().startswith("question:") or len(text.split()) < 5:
                     continue
+                if "|" in text or "---" in text:   # markdown table fragments make unreadable quotes
+                    continue
                 order += 1
                 scored.append((-len(q_tokens & _tokens(text)), order, text.rstrip(".!?"), doc["id"]))
         scored.sort()
-        picked = [s for s in scored if -s[0] > 0][:2] or scored[:1]
+        short = [s for s in scored if len(s[2]) <= MAX_QUOTE_CHARS] or scored   # prefer quotes that stay readable
+        picked = [s for s in short if -s[0] > 0][:2] or short[:1]
 
         out = []
         if picked:

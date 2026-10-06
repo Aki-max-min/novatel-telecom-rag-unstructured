@@ -208,3 +208,19 @@ in fix 10 (`87d4529`), not new fixes.
 Correction to the Phase 8e report: it listed "19 new tests", counting some twice. `pytest --collect-only` gives 123 tests in total
 (Phase 8d: 108). The accurate change is 16 added (12 in `test_phase8e.py`, 2 in `test_phase8e_probes.py`, 2 replacements in `test_phase8d.py`)
 and 1 removed (the old bare-fact test) = net +15 = 123.
+
+---
+
+## Phase 9c post-hoc fixes to the answer layer (fix 11)
+
+Found by reading the sample answers of the first deterministic answer evaluation (`answer_eval_phase9c.json`, commit `df1f31f`: verifier 24/24,
+citation validity 24/24, fact inclusion 29/30, both safety items pass). Neither defect was visible in those metrics:
+
+- RB_X01 (no customer): the extractive answer included "I found no recharges on your account. I found no subscription on your account." - a false claim, because
+  nothing was looked up. Rule: absence sentences are produced only for an identified customer. Test: `TestPostFixes::test_no_customer_never_claims_that_nothing_was_found`.
+- Seven answers quoted markdown-table fragments ("| Detail | Value | |---|---|"). Rule: skip sentences containing table markup; avoid quotes over 450 characters when a shorter sentence exists.
+  Test: `TestPostFixes::test_markdown_table_fragments_are_not_quoted`.
+
+Re-run: `answer_eval_phase9c_postfix.json` - identical metrics (24/24, 24/24, 29/30; safety pass); eight answers changed text. The one fact-inclusion miss
+(RB_B06, `plan_charge` not stated: the invoice template reports total, due date and status only) was deliberately left as measured. Remaining quality limits are
+listed in `docs/E13_architecture_status.md` (inline document headers in snippets, mid-sentence snippet starts, loosely relevant quotes).

@@ -2,7 +2,8 @@
 E13 Phase 9c - deterministic evaluation of the answer layer on the FROZEN route benchmark.
 
 ExtractiveAnswerer only; no LLM and no LLM judge. Run ONCE from the repo root in the rag-api environment:
-    python hybrid/evaluate_answers.py
+    python hybrid/evaluate_answers.py            # first run -> answer_eval_phase9c.json (never overwritten)
+    python hybrid/evaluate_answers.py --postfix  # post-hoc re-run after the Phase 9c fixes -> answer_eval_phase9c_postfix.json
 
 Metrics (all deterministic):
   verifier pass rate     verify_answer ok on the answer (24/24 expected; any failure is a bug to report)
@@ -31,6 +32,7 @@ from groundedness import numeric_tokens  # noqa: E402
 
 BENCH = Path(__file__).resolve().parent / "benchmark" / "route_benchmark.json"
 OUT = Path(__file__).resolve().parent / "benchmark" / "answer_eval_phase9c.json"
+POSTFIX_OUT = Path(__file__).resolve().parent / "benchmark" / "answer_eval_phase9c_postfix.json"
 SAMPLE_IDS = ["RB_S06", "RB_B01", "RB_B05", "RB_U02", "RB_X01", "RB_X02"]
 # values of customers 1042 / 1056 that must never appear in an identity-less or refusal answer
 ACCOUNT_VALUES = ["4254", "399.00", "4996", "949.00", "3042", "3056", "2026-10-03", "2025-09-22", "6740", "581.65",
@@ -53,6 +55,10 @@ def value_in_answer(item, answer):
 def main():
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    postfix = "--postfix" in sys.argv[1:]
+    out_path = POSTFIX_OUT if postfix else OUT
+    if out_path.exists():
+        raise SystemExit(f"{out_path.name} already exists: result files are never overwritten.")
     questions = json.loads(BENCH.read_text(encoding="utf-8"))["questions"]
     rows, failures = [], []
     verifier_ok = cite_ok = incl_found = incl_total = 0
@@ -88,11 +94,11 @@ def main():
                      "fact_inclusion": f"{sum(found)}/{len(found)}"})
 
     n = len(questions)
-    summary = {"questions": n, "verifier_pass": f"{verifier_ok}/{n}", "citation_validity": f"{cite_ok}/{n}",
+    summary = {"post_hoc": postfix, "questions": n, "verifier_pass": f"{verifier_ok}/{n}", "citation_validity": f"{cite_ok}/{n}",
                "fact_inclusion": f"{incl_found}/{incl_total}",
                "fact_inclusion_rate": round(incl_found / incl_total, 4) if incl_total else None,
                "safety": safety, "verifier_failures": failures}
-    OUT.write_text(json.dumps({"summary": summary, "rows": rows}, indent=2, ensure_ascii=False) + "\n",
+    out_path.write_text(json.dumps({"summary": summary, "rows": rows}, indent=2, ensure_ascii=False) + "\n",
                    encoding="utf-8")
 
     print("===== E13 PHASE 9c - deterministic answer evaluation (frozen route benchmark, extractive) =====")
@@ -112,7 +118,7 @@ def main():
             print(f"A: {r['answer']}")
             print(f"citations: {r['citations']}")
             print(f"notices: {r['notices']}   verifier_ok: {r['verifier_ok']}")
-    print(f"\nwritten to {OUT.relative_to(REPO_ROOT)}")
+    print(f"\nwritten to {out_path.relative_to(REPO_ROOT)}")
 
 
 if __name__ == "__main__":

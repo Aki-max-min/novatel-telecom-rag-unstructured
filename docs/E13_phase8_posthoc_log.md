@@ -125,3 +125,56 @@ Documents on `needs_identity` safety items are now returned by design (5, flagge
 (main R@1/R@3/R@5/MRR@5 0.8276 / 1.0000 / 1.0000 / 0.9080; mini 0.5556 / 0.7778 / 0.8889 / 0.6574). Vector-only and blanket-graph are unchanged.
 Six questions' gate weights moved 0.5 -> 0.15 (four main, two mini) because they no longer have a status frame; only the
 no-rerank diagnostic arm reacted (main R@1 0.6207 -> 0.6552, MRR@5 0.7615 -> 0.7787).
+
+---
+
+## Fix 10 - clause-level route analysis (Phase 8e): ACCEPTED under the pre-declared rule
+
+Post-hoc like fixes 1-9: it was designed after seeing the amended-2 misses (RB_B02 and RB_B03). The acceptance and revert rule
+(`docs/E13_phase8e_acceptance_rule.md`, commit `218597e`) was committed before any code. The router change is commit `efbddee`;
+the results are `hybrid/benchmark/amended3_run_phase8e.json` (`"post_hoc": true`).
+
+**What changed.** `hybrid/clauses.py` splits a question into clauses (sentence boundaries `. ? ! ;`; spaced dashes and commas inside a
+sentence) and classifies each clause, first match wins: HYPOTHETICAL (if / suppose / assuming / in case / what if / what happens if + any
+subject, or when / whenever / after / before + I or we; every later clause in the same sentence inherits it) -> STATUS_QUERY -> POLICY ->
+ASSERTION (possessive + fact term) -> OTHER. Personal = any STATUS_QUERY or ASSERTION clause; policy component = any HYPOTHETICAL or POLICY
+clause. `query_gate.classify_query` and `router.py` use it; the public output fields are unchanged. The policy-cue list moved from
+`router.py` into `clauses.py`.
+
+**Probes before the benchmark run (one pass).** Seven new sentences with expected routes (`test_phase8e_probes.py`): 3/7 passed on the
+first pass. The four failures were all permission / ability questions ("Can I change my plan ...", "Am I allowed to transfer my
+balance ...", "Do I need to submit anything ...", "Is it possible to merge my plan with my wife's?"), read as assertions or status queries.
+The single permitted extension was applied: permission / ability cues (can/could/may I, am I / are we allowed, is it possible / allowed,
+do I need / have to + verb, must I, should I, will I be able to) are POLICY cues with precedence over STATUS_QUERY and ASSERTION (not over
+HYPOTHETICAL). After it: 7/7 routes correct. Caveat on probe 4: its route is right, but its outcome is `refuse_other_customer` - the
+Phase 8a third-party rule fires on "my wife's" plan. That is arguably a wrong refusal for a policy question; it was not changed.
+
+**Test replaced with approval.** `test_phase8d.py::test_bare_fact_without_a_status_frame_is_not_personal` ("I like my plan" must not be
+personal) encoded the Phase 8d rule that Phase 8e replaces. The user approved replacing it with (1) `test_fact_words_without_a_first_person_anchor_are_not_personal`
+("What is a plan?", "Do plans include 5G?") and (2) `test_possessive_plus_fact_is_an_assertion_and_therefore_personal` ("I like my plan" is an
+ASSERTION, hence personal). Reason recorded: a false "personal" call costs one read-only fetch for the already-authenticated customer
+(documents are never withheld since Phase 8d), whereas a false "impersonal" call silently drops the customer's own facts. No other existing
+test was edited.
+
+### Frozen benchmark - four runs
+
+| Metric | First run (untuned) | Amended-1 | Amended-2 | Amended-3 |
+|---|---|---|---|---|
+| Route accuracy | 21/24 | 23/24 | 22/24 | **24/24** |
+| Outcome accuracy | 24/24 | 23/24 | 24/24 | **24/24** |
+| Structured fact recall | 23/30 | 30/30 | 26/30 | **30/30** |
+| Leakage | 0 | 0 | 0 | **0** |
+| Document hit@3, unstructured | 8/8 | 7/8 | 8/8 | 8/8 |
+| Document hit@3, both | 4/6 | 5/6 | 5/6 | 5/6 |
+| Documents on safety items (needs_identity / refuse) | 0 / 0 | 0 / 0 | 5 / 0 | 5 / 0 |
+
+**Acceptance rule: PASS** - route 24/24 (>= 23/24), outcome 24/24, leakage 0, and no question that was correct under amended-2 became incorrect
+(compared per question on route, outcome, structured facts and document hits: 21/24 correct under amended-2, 23/24 under amended-3; newly correct RB_B02
+and RB_B03; the only question still wrong is RB_B01, document hit@3 only: FAQ_C17_034 is at rank 5). Action: accepted.
+
+Caveats. This is a post-hoc fit to a set that had already been seen, so 24/24 on routes is not a generalisation estimate; the blind set is the test.
+The possessive-anchor requirement also has costs on the main benchmark: nine main/mini gate weights moved vs Phase 5 (list in
+`clause_trace_phase8e.json`), e.g. "Money was deducted when I tried to recharge, but the recharge hasn't appeared on my account" and
+"I've already complained about this issue ..." are no longer personal (0.5 -> 0.15) because they have no "my". Main/mini effect vs Phase 8d
+(`evaluation_results_post_phase8e.json`): vector-only and blanket-graph unchanged; E13 hybrid main R@1/R@3/R@5 0.8276 / 1.0000 / 1.0000 unchanged, MRR@5
+0.9080 -> 0.9023; mini unchanged (0.5556 / 0.7778 / 0.8889 / 0.6574); the no-rerank diagnostic row on main R@3 0.8966 -> 0.8621.

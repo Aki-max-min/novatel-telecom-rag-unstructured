@@ -37,6 +37,7 @@ class Context:
     outcome: str = "answer"
     refusal_reason: object = None
     as_of: object = None
+    intents: list = field(default_factory=list)  # structured intents the router asked for (empty result != not asked)
 
     def item(self, item_id: str):
         for it in self.facts + self.documents:
@@ -120,4 +121,5 @@ def assemble_context(result: dict, max_docs: int = 5, snippet_chars: int = 400) 
         notices.append("no kyc_records row")
 
     return Context(facts=facts, documents=documents, notices=notices, route=plan.get("route", ""),
-                   outcome=outcome, refusal_reason=plan.get("refusal_reason") or trace.get("refusal_reason"))
+                   outcome=outcome, refusal_reason=plan.get("refusal_reason") or trace.get("refusal_reason"),
+                   intents=list(plan.get("structured_intents", []) or []))

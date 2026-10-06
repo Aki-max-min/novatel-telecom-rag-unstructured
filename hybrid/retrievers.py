@@ -51,12 +51,12 @@ def load_context():
     return _context
 
 
-def to_candidate(document_id, chunk_id, score, method, category, content):
+def to_candidate(document_id, chunk_id, score, method, category, content, title=""):
     """Common Result Schema dict."""
     return {"source": "unstructured", "record_id": chunk_id or document_id,
             "dataset": "novatel_synthetic", "category": category, "score": score,
             "retrieval_method": method, "content": content,
-            "metadata": {"document_id": document_id}}
+            "metadata": {"document_id": document_id, "title": title}}
 
 
 def build_candidates(question, retriever=None, graph_index=None, corpus=None, person_a=None):
@@ -81,7 +81,7 @@ def build_candidates(question, retriever=None, graph_index=None, corpus=None, pe
     for h in hits:
         vector_chunk[h["document_id"]] = h
         vector.append(to_candidate(h["document_id"], h["chunk_id"], h["score"], "vector",
-                                   h["category"], person_a.load_chunk_text(h["chunk_id"])))
+                                   h["category"], person_a.load_chunk_text(h["chunk_id"]), h.get("title", "")))
 
     expanded = graph_expand([h["document_id"] for h in hits[:GRAPH_SEEDS]], graph_index,
                             bridges=DEFAULT_BRIDGES, limit=GRAPH_CANDIDATES)
@@ -97,5 +97,5 @@ def build_candidates(question, retriever=None, graph_index=None, corpus=None, pe
             dropped += 1
             continue
         graph.append(to_candidate(doc, chunk_id, row["graph_score"], "graph", category,
-                                  person_a.load_chunk_text(chunk_id)))
+                                  person_a.load_chunk_text(chunk_id), corpus.title_by_doc.get(doc, "")))
     return vector, graph, dropped

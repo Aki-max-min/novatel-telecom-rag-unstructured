@@ -61,7 +61,7 @@ class TestControlledRerank(unittest.TestCase):
             c["original_score"] = 0.5
             cands.append(c)
         scorer = CountingScorer()
-        out = controlled_rerank("q", cands, max_pool=20, top_k=5, model=scorer)
+        out = controlled_rerank("q", cands, max_pool=20, top_k=5, model=scorer, mode="override")
         print(f"\nmax_pool test: candidates_in=30, candidates_actually_processed={scorer.pairs_seen}")
         self.assertEqual(scorer.pairs_seen, 20)
         # Only the fusion top-20 (cand_0..cand_19) may appear; scorer prefers high numbers -> cand_19 first.
@@ -71,7 +71,7 @@ class TestControlledRerank(unittest.TestCase):
     def test_fewer_than_pool_reranks_all(self):
         scorer = CountingScorer()
         cands = [make(f"c_{i}", 0.5) for i in range(3)]
-        out = controlled_rerank("q", cands, max_pool=20, top_k=5, model=scorer)
+        out = controlled_rerank("q", cands, max_pool=20, top_k=5, model=scorer, mode="override")
         self.assertEqual(scorer.pairs_seen, 3)
         self.assertEqual(len(out), 3)
 
@@ -119,7 +119,7 @@ class TestControlledRerank(unittest.TestCase):
         scorer = CountingScorer()
         # contents end in letters, so give the scorer numeric contents
         v = [make(f"d_{i}", 0.9 - i / 100) for i in range(3)]
-        out = run_hybrid_retrieval("What is the capital of India?", v, [], top_k=2, model=scorer)
+        out = run_hybrid_retrieval("What is the capital of India?", v, [], top_k=2, model=scorer, mode="override")
         self.assertEqual([c["record_id"] for c in out], ["d_2", "d_1"])
         self.assertEqual(scorer.pairs_seen, 3)
 

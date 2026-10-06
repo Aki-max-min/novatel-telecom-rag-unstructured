@@ -60,3 +60,33 @@ Otherwise keep V0 and report why. If V0 is the winner, V0 stays.
 - `hybrid/evaluate_rerank_variants.py` is run **once**; all four variants are printed on all three sets.
 - The rule is applied as written. It is not changed after the numbers are seen; if V0 wins, or the
   validation check vetoes the winner, that is the result.
+
+---
+
+## Outcome (appended after the run; the rule above was not changed)
+
+| Variant | main R@1 / R@3 / R@5 / MRR@5 | mini R@1 / R@3 / R@5 / MRR@5 | macro-MRR@5 | vetoed | validation hit@3 / hit@5 / MRR@5 (14) |
+|---|---|---|---|---|---|
+| V0 override | 0.9310 / 1.0000 / 1.0000 / 0.9598 | 0.2222 / 0.6667 / 0.8889 / 0.4759 | 0.7178 | no | 13 / 13 / 0.8810 |
+| V1 blend w=1.0 | 0.8276 / 1.0000 / 1.0000 / 0.9080 | 0.5556 / 0.7778 / 0.8889 / 0.6574 | **0.7827** | no | 13 / 14 / 0.8238 |
+| V2 blend w=0.5 | 0.7241 / 0.9655 / 1.0000 / 0.8517 | 0.5556 / 0.8889 / 0.8889 / 0.6667 | 0.7592 | no | 14 / 14 / 0.7738 |
+| V3 protect_graph | identical to V0 on every set | | 0.7178 | no | 13 / 13 / 0.8810 |
+
+**Winner by rule: V1. Validation check: pass** (V1 hit@3 = V0 hit@3 = 13/14, a drop of 0 items). **Adopted: V1** -
+`DEFAULT_RERANK_MODE` in `hybrid/rerank.py` is now `rrf_blend` with weight 1.0.
+
+Things the numbers do not say, stated plainly:
+
+- V1 is not a free win. On the main benchmark it loses Recall@1 (0.9310 -> 0.8276) and MRR@5 (0.9598 -> 0.9080); on
+  the validation set its MRR@5 is lower than V0's (0.8238 vs 0.8810) even though hit@5 is higher. The rule picks it
+  because the mini-benchmark gain (MRR@5 0.4759 -> 0.6574) outweighs the main-benchmark loss in the macro average,
+  and the mini set has only 9 questions.
+- V3 changed nothing: on all 52 questions the best graph-only candidate in the fusion top 5 was either absent or
+  already in the final top 5.
+- Both selection sets were already used for tuning (see above), so these selection numbers are optimistic;
+  the 14-question validation set is small (one question = 7 points of hit@).
+
+Implementation note: the first execution of the script marked V2 as vetoed. V2's main Recall@3 is 0.9655 vs 1.0000,
+a drop of exactly one question (1/29), which the rule does NOT veto ("more than 1/29"); the script had compared
+4-decimal rounded values without allowing for the rounding. The comparison was corrected (tolerance 1e-4) and the script re-run:
+every metric was identical to the first execution, only V2's veto flag changed, and the winner was V1 both times.

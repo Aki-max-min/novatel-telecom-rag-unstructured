@@ -14,14 +14,15 @@ from rerank import controlled_rerank  # noqa: E402
 
 def run_hybrid_retrieval(question: str, vector_candidates: list[dict],
                          graph_candidates: list[dict], max_pool: int = 20,
-                         top_k: int = 5, model=None) -> list[dict]:
+                         top_k: int = 5, model=None, mode: str = None, blend_weight: float = None) -> list[dict]:
     """Gate -> fuse -> dedupe (keeping up to max_pool) -> capped rerank -> top_k."""
     pool = fuse_and_select(vector_candidates, graph_candidates, question, top_k=max_pool)
-    return controlled_rerank(question, pool, max_pool=max_pool, top_k=top_k, model=model)
+    return controlled_rerank(question, pool, max_pool=max_pool, top_k=top_k, model=model,
+                             mode=mode, blend_weight=blend_weight)
 
 
 def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int = 20,
-                     top_k: int = 5, model=None) -> dict:
+                     top_k: int = 5, model=None, mode: str = None, blend_weight: float = None) -> dict:
     """Route -> structured facts and/or fused-reranked documents, as TWO separate channels.
 
     Facts (structured_adapter, customer-scoped) and documents (vector + graph -> fuse -> dedup ->
@@ -50,7 +51,8 @@ def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int 
     if plan.outcome != "refuse_other_customer" and plan.route in ("unstructured", "both"):
         from retrievers import build_candidates
         vector, graph, _ = build_candidates(question)
-        documents = run_hybrid_retrieval(question, vector, graph, max_pool=max_pool, top_k=top_k, model=model)
+        documents = run_hybrid_retrieval(question, vector, graph, max_pool=max_pool, top_k=top_k, model=model,
+                                         mode=mode, blend_weight=blend_weight)
         trace["documents_ran"] = True
         trace["rerank_status"] = documents[0].get("rerank_status") if documents else None
 

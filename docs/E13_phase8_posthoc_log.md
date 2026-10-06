@@ -178,3 +178,33 @@ The possessive-anchor requirement also has costs on the main benchmark: nine mai
 "I've already complained about this issue ..." are no longer personal (0.5 -> 0.15) because they have no "my". Main/mini effect vs Phase 8d
 (`evaluation_results_post_phase8e.json`): vector-only and blanket-graph unchanged; E13 hybrid main R@1/R@3/R@5 0.8276 / 1.0000 / 1.0000 unchanged, MRR@5
 0.9080 -> 0.9023; mini unchanged (0.5556 / 0.7778 / 0.8889 / 0.6574); the no-rerank diagnostic row on main R@3 0.8966 -> 0.8621.
+
+---
+
+## Known limitations of the accepted router
+
+Written after reading `hybrid/benchmark/clause_trace_phase8e.json` (nothing was changed). These are limits of the router as accepted
+in fix 10 (`87d4529`), not new fixes.
+
+1. **Past-tense narrative read as hypothetical; conditional inheritance swallows what follows. CONFIRMED by the trace.**
+   "Money was deducted when I tried to recharge, but the recharge hasn't appeared on my account. What should I do?" decomposes as
+   `HYPOTHETICAL | Money was deducted when I tried to recharge`, `HYPOTHETICAL | but the recharge hasn't appeared on my account`,
+   `POLICY | What should I do`. "When I tried" is a narrated past event, not a hypothetical, but the "when I" cue fires; the next clause
+   (a statement about the customer's own recharge, which would otherwise be an ASSERTION) inherits HYPOTHETICAL. Result: personal=False,
+   route unstructured, gate weight 0.5 -> 0.15, and the customer's own recharge facts are not fetched.
+2. **The third-party rule refuses a policy question.** "Is it possible to merge my plan with my wife's?" decomposes as a single
+   `POLICY` clause (route unstructured) but the Phase 8a third-party rule fires on "my wife's" plan and the outcome is
+   `refuse_other_customer` / `third_party_reference`. The question asks whether something is allowed; it does not ask for her data.
+3. **Personal context without a possessive anchor, or without a listed fact term, is not detected.** "I've already complained about this
+   issue but nobody has resolved it. How can I escalate my complaint?" -> `OTHER | I've already complained ...`, `POLICY | How can I escalate my complaint`
+   (no "my"; "complained" is not the term "complaint"). "My mobile internet has become much slower than usual. Could a data usage limit be
+   causing this?" -> both clauses `OTHER` (possessive present, but "mobile internet" is not in the fact-term list). Both stay unpersonalised
+   (route unstructured, weight 0.15). The check on the fourth trace, "How can I check when my current prepaid plan will stop being valid?",
+   is a single `POLICY` clause (how-to), not personal.
+4. **The headline is the first run.** 24/24 route accuracy on the frozen benchmark under amended-3 is a post-hoc fit to a set that had
+   already been seen; the untuned first run (route 21/24, structured fact recall 23/30) is the headline number, and the blind set is the
+   real generalisation test.
+
+Correction to the Phase 8e report: it listed "19 new tests", counting some twice. `pytest --collect-only` gives 123 tests in total
+(Phase 8d: 108). The accurate change is 16 added (12 in `test_phase8e.py`, 2 in `test_phase8e_probes.py`, 2 replacements in `test_phase8d.py`)
+and 1 removed (the old bare-fact test) = net +15 = 123.

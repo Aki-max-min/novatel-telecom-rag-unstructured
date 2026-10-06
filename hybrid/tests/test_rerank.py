@@ -112,7 +112,8 @@ class TestControlledRerank(unittest.TestCase):
             print(f"  {label}: {status}")
             for c in out:
                 print(f"    {c['record_id']}: fusion_score={c['fusion_score']!r} rerank_score={c['rerank_score']!r} sources={c['fusion_sources']}")
-            self.assertEqual(len(out), 4)
+            # Phase 8a: the DND question now gets graph weight 0.0, so graph-only doc_D is excluded
+            self.assertEqual(len(out), 3 if label == "DND" else 4)
 
     def test_pipeline_end_to_end_with_scorer(self):
         scorer = CountingScorer()

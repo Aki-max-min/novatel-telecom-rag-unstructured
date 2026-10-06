@@ -18,15 +18,15 @@ maps, no ML). The concept vocabulary is NOT redefined here: it is read from the
 ontology crosswalk via knowledge_graph.concept_bridge, and every keyword below
 must point at a concept that exists in that vocabulary (checked at import).
 
-KNOWN LIMITATIONS (v1 prototype findings, left unfixed on purpose for Person A's review):
-  * The bare "promo" keyword is matched as a word-start substring, so it matches
-    "promotional". On DND-related questions such as "Can the company keep sending
-    me promotional SMS after I've registered for DND?" this yields a wrong concept
-    hint (Offers & Promotions) instead of no match, because DND has no concept in
-    the shared vocabulary (concept_bridge.py omits it: no DND table exists). The
-    question then gets graph weight 0.15 instead of 0.0.
-  * This is a documented finding, not a bug to silently patch: it shows where
-    plain keyword rules are too crude and is input for the joint query-understanding design.
+POST-HOC FIXES (Phase 8a, made AFTER seeing the frozen-benchmark first run; see
+docs/E13_phase8_posthoc_log.md): every keyword list now goes through hybrid/textmatch.py
+(word-start boundary + inflection), which fixes plurals ("complaints", "tickets") that the old
+mixed word-start / whole-word matching missed; "promo" no longer matches "promotional";
+bare "number" no longer makes a question personal; unsolicited-communication questions
+(promotional/marketing/spam + sms/message/call/text) get no concept hint, because that topic
+(e.g. DND) has no concept in the shared vocabulary (concept_bridge.py: no DND table exists);
+handset+5G/VoLTE and enterprise+plan questions get Device Compatibility / Enterprise & Business
+Services hints when those concepts exist in the vocabulary.
 """
 
 import os
@@ -34,81 +34,131 @@ import re
 import sys
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
 from knowledge_graph.concept_bridge import (  # noqa: E402
     SERVICE_CONCEPT_MAPPING,
     concept_vocabulary,
     load_crosswalk,
 )
+from textmatch import find_term, has_term  # noqa: E402
 
 CONCEPT_VOCABULARY = concept_vocabulary(load_crosswalk())
 
-# Keyword -> canonical concept. Keywords are regex fragments matched at a word
-# start (so "promo" also catches "promotional"). Values must be vocabulary
-# concepts; anything else fails loudly below rather than forming a parallel list.
+# Keyword -> canonical concept (terms use hybrid/textmatch.py syntax: word-start boundary +
+# inflection). Values must be vocabulary concepts; anything else fails loudly below rather than
+# forming a parallel list.
 KEYWORD_CONCEPT_MAP = {
-    r"recharge": "Recharge",
-    r"top-?up": "Recharge",
-    r"plan": "Plan Catalogue",
-    r"validity": "Plan Catalogue",
-    r"expire": "Plan Catalogue",
-    r"subscription": "Subscription",
-    r"kyc": "KYC & Identity Verification",
-    r"aadhaar": "KYC & Identity Verification",
-    r"bill": "Billing & Invoices",
-    r"invoice": "Billing & Invoices",
-    r"payment": "Payments",
-    r"refund": "Payments",
-    r"port(?:ing|ability|ed)?\b": "Number Portability",
-    r"mnp": "Number Portability",
-    r"roaming": "Roaming",
-    r"sim\b": "SIM Card Services",
-    r"esim": "SIM Card Services",
-    r"complaint": "Complaints & Grievances",
-    r"ticket": "Complaints & Grievances",
-    r"grievance": "Complaints & Grievances",
-    r"outage": "Network Outages",
-    r"coverage": "Network Coverage",
-    r"5g": "Network Coverage",
-    r"broadband": "Broadband & FTTH Services",
-    r"fib(?:er|re)": "Broadband & FTTH Services",
-    r"ftth": "Broadband & FTTH Services",
-    r"offer": "Offers & Promotions",
-    r"promo": "Offers & Promotions",
-    r"fraud": "Security & Fraud",
-    r"scam": "Security & Fraud",
-    r"device": "Device Compatibility",
-    r"store\b": "Retail & Store Network",
-    r"outlet": "Retail & Store Network",
-    r"data usage": "Usage Records",
-    r"call (?:record|detail)": "Usage Records",
-    r"vas\b": "Value Added Services",
-    r"activation": "New Connection Activation",
+    "recharge": "Recharge",
+    "top-up": "Recharge",
+    "plan": "Plan Catalogue",
+    "validity": "Plan Catalogue",
+    "expire": "Plan Catalogue",
+    "expiry": "Plan Catalogue",
+    "subscription": "Subscription",
+    "kyc": "KYC & Identity Verification",
+    "aadhaar": "KYC & Identity Verification",
+    "bill": "Billing & Invoices",
+    "invoice": "Billing & Invoices",
+    "payment": "Payments",
+    "refund": "Payments",
+    "port": "Number Portability",
+    "porting": "Number Portability",
+    "portability": "Number Portability",
+    "mnp": "Number Portability",
+    "roaming": "Roaming",
+    "sim": "SIM Card Services",
+    "esim": "SIM Card Services",
+    "complaint": "Complaints & Grievances",
+    "ticket": "Complaints & Grievances",
+    "grievance": "Complaints & Grievances",
+    "outage": "Network Outages",
+    "coverage": "Network Coverage",
+    "5g": "Network Coverage",
+    "broadband": "Broadband & FTTH Services",
+    "fiber": "Broadband & FTTH Services",
+    "fibre": "Broadband & FTTH Services",
+    "ftth": "Broadband & FTTH Services",
+    "offer": "Offers & Promotions",
+    "promo": "Offers & Promotions",
+    "promotion": "Offers & Promotions",
+    "fraud": "Security & Fraud",
+    "scam": "Security & Fraud",
+    "device": "Device Compatibility",
+    "store": "Retail & Store Network",
+    "outlet": "Retail & Store Network",
+    "data usage": "Usage Records",
+    "call record": "Usage Records",
+    "call detail": "Usage Records",
+    "vas": "Value Added Services",
+    "activation": "New Connection Activation",
 }
 
 _unknown = set(KEYWORD_CONCEPT_MAP.values()) - set(CONCEPT_VOCABULARY)
 if _unknown:
     raise ValueError(f"query_gate keywords point at concepts not in the vocabulary: {_unknown}")
 
-# Also match the vocabulary's own names / document service names verbatim
-# (e.g. "number portability", "roaming activation").
+# Also match the vocabulary's own names / document service names (e.g. "number portability").
 _NAME_CONCEPTS = {name.lower(): name for name in CONCEPT_VOCABULARY}
 _NAME_CONCEPTS.update({svc.lower(): c for svc, c in SERVICE_CONCEPT_MAPPING.items()})
 
-# First-person references ("my", "I", "I've", "me")
-_FIRST_PERSON = re.compile(r"\b(?:my|mine|i|i've|i'm|i'd|me)\b", re.I)
+# (d) Combination rules that beat the single-keyword hint: both term groups must be present.
+# A target concept that is NOT in the shared vocabulary is never forced (the hint stays whatever
+# the keywords gave) and is listed in MISSING_CONCEPT_TARGETS.
+COMBO_RULES = [
+    {"any_of": ["handset", "phone", "device"], "and_any_of": ["5g", "volte"],
+     "concept": "Device Compatibility"},
+    {"any_of": ["enterprise", "business", "corporate"], "and_any_of": ["plan", "connectivity", "sim"],
+     "concept": "Enterprise & Business Services"},
+]
+MISSING_CONCEPT_TARGETS = sorted({r["concept"] for r in COMBO_RULES} - set(CONCEPT_VOCABULARY))
 
-# Account-level facts a customer could ask about. Personal data needs BOTH a
-# first-person reference and one of these; "I" alone (policy questions) is not enough.
-_PERSONAL_FACT = re.compile(
-    r"\b(?:recharge|top-?up|balance|ticket|complaint|kyc|invoice|bill|payment|"
-    r"plan|validity|expir\w*|subscription|status|order|data usage|usage|number)\b",
-    re.I,
-)
+# (a) Unsolicited communication (spam / telemarketing, e.g. the DND topic) has NO concept in the
+# vocabulary, so it must not borrow "Offers & Promotions": hint None, graph weight 0.0.
+UNSOLICITED_QUALIFIERS = ["promotional", "marketing", "spam", "unsolicited", "telemarketing"]
+COMMUNICATION_CHANNELS = ["sms", "message", "call", "text"]
+
+# First-person references: exact whole words, no inflection ("i" + "s" would be "is")
+FIRST_PERSON_TERMS = ["my", "mine", "i", "i've", "i'm", "i'd", "me"]
+POSSESSIVE_TERMS = ["my", "mine"]
+
+# Account-level facts a customer could ask about. Personal data needs BOTH a first-person
+# reference and one of these; "I" alone (policy questions) is not enough. (b) bare "number" is
+# not a fact; it only counts inside a possessive phrase ("my number", "my mobile number").
+PERSONAL_FACT_TERMS = [
+    "recharge", "top-up", "balance", "ticket", "complaint", "kyc", "invoice", "bill", "payment",
+    "plan", "validity", "expir*", "subscription", "status", "order", "data usage", "usage",
+]
+POSSESSIVE_NUMBER_TERMS = ["my number", "my mobile number", "my phone number", "my sim number"]
 
 # "How do I ...?" is a procedure question even though it says "I" (no "my").
 _HOWTO = re.compile(r"\bhow (?:do|can|should|to) (?:i|we)\b|\bhow to\b", re.I)
-_POSSESSIVE = re.compile(r"\b(?:my|mine)\b", re.I)
+
+
+def _concept_hint(lowered: str):
+    """(concept, trigger) for the question, or (None, explanation)."""
+    if has_term(lowered, UNSOLICITED_QUALIFIERS, inflect=False) and has_term(lowered, COMMUNICATION_CHANNELS):
+        return None, "unsolicited-communication question (no concept in the vocabulary)"
+
+    for rule in COMBO_RULES:
+        a = find_term(lowered, rule["any_of"])
+        b = find_term(lowered, rule["and_any_of"])
+        if a and b and rule["concept"] in CONCEPT_VOCABULARY:
+            return rule["concept"], f"{a.group(0)}+{b.group(0)}"
+
+    hits = []  # (position, -length, concept, trigger)
+    for term, concept in KEYWORD_CONCEPT_MAP.items():
+        m = find_term(lowered, [term])
+        if m:
+            hits.append((m.start(), -len(m.group(0)), concept, m.group(0)))
+    for name, concept in _NAME_CONCEPTS.items():
+        m = find_term(lowered, [name])
+        if m:
+            hits.append((m.start(), -len(m.group(0)), concept, m.group(0)))
+    if hits:
+        _, _, hint, trigger = min(hits)
+        return hint, trigger
+    return None, None
 
 
 def classify_query(question: str) -> dict:
@@ -119,24 +169,12 @@ def classify_query(question: str) -> dict:
                 "reasoning": "empty question: no signal"}
     lowered = text.lower()
 
-    # --- concept hint: earliest match in the text wins (ties -> longer match) ---
-    hits = []  # (position, -length, concept, trigger)
-    for pattern, concept in KEYWORD_CONCEPT_MAP.items():
-        m = re.search(r"\b" + pattern, lowered)
-        if m:
-            hits.append((m.start(), -len(m.group(0)), concept, m.group(0)))
-    for name, concept in _NAME_CONCEPTS.items():
-        pos = lowered.find(name)
-        if pos != -1:
-            hits.append((pos, -len(name), concept, name))
-    hint, trigger = None, None
-    if hits:
-        _, _, hint, trigger = min(hits)
+    hint, trigger = _concept_hint(lowered)
 
     # --- personal data ---
-    first_person = _FIRST_PERSON.search(text)
-    fact = _PERSONAL_FACT.search(text)
-    howto = _HOWTO.search(text) and not _POSSESSIVE.search(text)
+    first_person = find_term(text, FIRST_PERSON_TERMS, inflect=False)
+    fact = find_term(text, PERSONAL_FACT_TERMS) or find_term(text, POSSESSIVE_NUMBER_TERMS)
+    howto = _HOWTO.search(text) and not has_term(text, POSSESSIVE_TERMS, inflect=False)
     needs_personal = bool(first_person and fact and not howto)
 
     parts = []
@@ -148,7 +186,10 @@ def classify_query(question: str) -> dict:
         parts.append(f"first-person '{first_person.group(0)}' but no account fact -> policy-style, not personal data")
     else:
         parts.append("no first-person reference -> not personal data")
-    parts.append(f"concept '{hint}' via '{trigger}'" if hint else "no concept keyword matched")
+    if hint:
+        parts.append(f"concept '{hint}' via '{trigger}'")
+    else:
+        parts.append(trigger or "no concept keyword matched")
     return {"needs_personal_data": needs_personal, "concept_hint": hint,
             "reasoning": "; ".join(parts)}
 

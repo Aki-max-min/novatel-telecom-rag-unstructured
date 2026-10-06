@@ -80,8 +80,8 @@ class TestFusion(unittest.TestCase):
         cases = [
             ("recharge", "Has my last recharge of ₹299 gone through, and when does my plan expire?", 0.5,
              ["doc_A", "doc_C", "doc_B", "doc_D"]),
-            ("DND", "Can the company keep sending me promotional SMS after I've registered for DND?", 0.15,
-             ["doc_A", "doc_C", "doc_B", "doc_D"]),
+            ("DND", "Can the company keep sending me promotional SMS after I've registered for DND?", 0.0,  # Phase 8a: was 0.15 (promo/promotional false hint)
+             ["doc_A", "doc_B", "doc_C"]),
             ("KYC", "My KYC is showing pending — does that mean my number will get disconnected, and what do I do?", 0.5,
              ["doc_A", "doc_C", "doc_B", "doc_D"]),
         ]

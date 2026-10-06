@@ -36,6 +36,10 @@ def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int 
 
     if plan.outcome != "answer":
         blocked.append(plan.outcome)
+    if plan.unrecognised_personal_request:
+        # outcome stays "answer" (documents still run) but the answer layer must say it could not
+        # tell which account detail was meant
+        blocked.append("unrecognised_personal_request")
 
     if plan.outcome == "answer" and plan.route in ("structured", "both"):
         facts = fetch_customer_facts(customer_id, plan.structured_intents, as_of=as_of)
@@ -51,6 +55,8 @@ def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int 
         trace["rerank_status"] = documents[0].get("rerank_status") if documents else None
 
     trace.update({"graph_weight": plan.graph_weight, "concept_hint": plan.concept_hint,
+                  "unrecognised_personal_request": plan.unrecognised_personal_request,
+                  "refusal_reason": plan.refusal_reason,
                   "fact_count": len(facts), "document_count": len(documents)})
     return {"route_plan": plan.as_dict(), "facts": facts, "documents": documents,
             "blocked": blocked, "trace": trace}

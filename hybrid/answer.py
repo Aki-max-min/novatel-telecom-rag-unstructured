@@ -28,7 +28,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
-from consequences import CONSEQUENCE_TERMS  # noqa: E402
+from consequences import CONSEQUENCE_TERMS, SERVICE_LOSS_FAMILY  # noqa: E402
 from context import Context, assemble_context  # noqa: E402
 from groundedness import split_sentences, verify_answer  # noqa: E402
 from textmatch import find_term, has_term  # noqa: E402
@@ -148,11 +148,11 @@ class ExtractiveAnswerer:
         return out
 
     # -- documents -----------------------------------------------------------------------------
-    def _document_sentences(self, question: str, context: Context) -> list:
+    def _candidates(self, question: str, docs) -> list:
+        """(-overlap, order, text, doc_id) for every quotable sentence of the given documents."""
         q_tokens = _tokens(question)
-        scored = []  # (-overlap, order, text, doc_id)
-        order = 0
-        for doc in context.documents[:3]:
+        out, order = [], 0
+        for doc in docs:
             for sent in split_sentences(doc["snippet"]):
                 text = re.sub(r"^(?:Short Answer|Answer)\s*:?\s*", "", sent).strip()
                 if text.lower().startswith("question:") or len(text.split()) < 5:
@@ -160,15 +160,41 @@ class ExtractiveAnswerer:
                 if "|" in text or "---" in text:   # markdown table fragments make unreadable quotes
                     continue
                 order += 1
-                scored.append((-len(q_tokens & _tokens(text)), order, text.rstrip(".!?"), doc["id"]))
-        scored.sort()
+                out.append((-len(q_tokens & _tokens(text)), order, text.rstrip(".!?"), doc["id"]))
+        out.sort()
+        return out
+
+    def _family_quotes(self, question: str, candidates: list) -> list:
+        """Consequence families (suspend / disconnect / deactivate / terminate / bar / block): for each family
+        term the customer asked about, quote the best sentence that uses the SAME term; if none does, the best
+        sentence that uses a DIFFERENT family member (e.g. asked "disconnected", passage says "suspension")."""
+        quotes = []
+        for name in SERVICE_LOSS_FAMILY:
+            if not has_term(question, CONSEQUENCE_TERMS[name]):
+                continue
+            same = [c for c in candidates if has_term(c[2], CONSEQUENCE_TERMS[name])]
+            others = [c for c in candidates
+                      if any(has_term(c[2], CONSEQUENCE_TERMS[o]) for o in SERVICE_LOSS_FAMILY if o != name)]
+            pool = same or others
+            pool = [c for c in pool if len(c[2]) <= MAX_QUOTE_CHARS] or pool
+            if pool and pool[0] not in quotes:
+                quotes.append(pool[0])
+        return quotes
+
+    # -- documents -----------------------------------------------------------------------------
+    def _document_sentences(self, question: str, context: Context) -> list:
+        scored = self._candidates(question, context.documents[:3])
         short = [s for s in scored if len(s[2]) <= MAX_QUOTE_CHARS] or scored   # prefer quotes that stay readable
         picked = [s for s in short if -s[0] > 0][:2] or short[:1]
+        # family quotes go FIRST; at most three quotes in total
+        family = self._family_quotes(question, self._candidates(question, context.documents))
+        quotes = family + [s for s in picked if s not in family]
+        quotes = quotes[:3]
 
         out = []
-        if picked:
+        if quotes:
             out.append("Here is what the retrieved documents say:")
-            for _, _, text, doc_id in picked:
+            for _, _, text, doc_id in quotes:
                 out.append(f"\"{text}\" [{doc_id}].")
         # Silence rule: a consequence term the customer asks about that appears in NONE of the retrieved
         # passages - tested on the FULL text of every retrieved chunk, not on the short snippets.

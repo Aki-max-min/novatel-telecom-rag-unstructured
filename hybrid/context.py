@@ -18,7 +18,13 @@ retriever scores are deliberately not carried into the context).
 """
 
 import re
+import os
+import sys
 from dataclasses import dataclass, field
+
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+
+from snippets import chunk_index_of, clean_chunk_text  # noqa: E402
 
 # intent -> the table whose rows are counted for it
 _INTENT_TABLE = {"recharge": "recharge_transactions", "kyc": "kyc_records", "subscription": "subscriptions",
@@ -67,17 +73,19 @@ def flatten(obj) -> str:
     return "" if obj is None else str(obj)
 
 
-def clean_snippet(content: str, snippet_chars: int) -> str:
-    """Drop markdown/metadata header lines and cut at a word boundary. Text is otherwise verbatim."""
+def clean_snippet(content: str, snippet_chars: int, chunk_index: int = 0) -> str:
+    """Clean a retrieved chunk for quoting (hybrid/snippets.py) and cut it at a word boundary.
+
+    Short metadata/heading LINES (multi-line markdown documents) are dropped first; then the chunk-level cleaning removes inline
+    header fields, the FAQ "Question:" line, "Answer:" label, section headings, table rows and a leading mid-sentence fragment.
+    The text that remains is verbatim document text.
+    """
     lines = []
     for raw in (content or "").splitlines():
-        if _HEADER_LINE.match(raw):
+        if len(raw) < 160 and _HEADER_LINE.match(raw):
             continue
-        line = re.sub(r"[#*]+", " ", raw)
-        line = re.sub(r"\s+", " ", line).strip()
-        if line:
-            lines.append(line)
-    text = " ".join(lines)
+        lines.append(raw)
+    text = clean_chunk_text(" ".join(lines), chunk_index)
     if len(text) <= snippet_chars:
         return text
     cut = text[:snippet_chars]
@@ -105,7 +113,7 @@ def assemble_context(result: dict, max_docs: int = 5, snippet_chars: int = 400) 
     documents = []
     for i, d in enumerate((result.get("documents", []) or [])[:max_docs], start=1):
         md = d.get("metadata", {}) or {}
-        snippet = clean_snippet(d.get("content", ""), snippet_chars)
+        snippet = clean_snippet(d.get("content", ""), snippet_chars, chunk_index_of(d.get("record_id", "")))
         title = md.get("title", "") or ""
         documents.append({"id": f"D{i}", "document_id": md.get("document_id", d.get("record_id", "")),
                           "title": title, "snippet": snippet,

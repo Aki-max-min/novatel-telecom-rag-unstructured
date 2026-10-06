@@ -42,9 +42,10 @@ def stub_pipeline(docs):
     """A pipeline that uses the real router and adapter but returns the given documents (no retrieval models)."""
     def run(question, customer_id=None, as_of=None):
         plan = route_query(question, customer_id)
-        facts = []
+        facts, intents_run = [], []
         if plan.outcome == "answer" and plan.route in ("structured", "both"):
             facts = fetch_customer_facts(customer_id, plan.structured_intents, as_of=as_of)
+            intents_run = list(plan.structured_intents)
         documents = []
         if plan.outcome != "refuse_other_customer" and (plan.route in ("unstructured", "both")
                                                          or plan.outcome == "needs_identity"):
@@ -54,7 +55,8 @@ def stub_pipeline(docs):
             blocked.append("unrecognised_personal_request")
         return {"route_plan": plan.as_dict(), "facts": facts, "documents": documents, "blocked": blocked,
                 "documents_are_generic": plan.outcome == "needs_identity" and bool(documents),
-                "trace": {"refusal_reason": plan.refusal_reason}}
+                "trace": {"refusal_reason": plan.refusal_reason, "customer_identified": customer_id is not None,
+                          "intents_run": intents_run}}
     return run
 
 
@@ -146,8 +148,8 @@ class TestDocumentsNoticesAndSilence(unittest.TestCase):
     def test_silence_rule_instead_of_guessing(self):
         out = ask("Will my number get disconnected, and what is the penalty?", None, docs=[REFUND])
         a = out["answer"]
-        self.assertIn("The retrieved documents don't state anything about disconnect.", a)
-        self.assertIn("The retrieved documents don't state anything about penalty.", a)
+        self.assertIn("The retrieved passages don't state anything about disconnect.", a)
+        self.assertIn("The retrieved passages don't state anything about penalty.", a)
         # a term that IS in the snippet gets no silence sentence
         out2 = ask("How many days until the refund reaches me?", None, docs=[REFUND])
         self.assertNotIn("don't state anything about days", out2["answer"])

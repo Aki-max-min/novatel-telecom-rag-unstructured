@@ -60,6 +60,7 @@ def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int 
         trace["documents_ran"] = True
         trace["rerank_status"] = documents[0].get("rerank_status") if documents else None
 
+    trace["customer_identified"] = customer_id is not None
     trace.update({"graph_weight": plan.graph_weight, "concept_hint": plan.concept_hint,
                   "unrecognised_personal_request": plan.unrecognised_personal_request,
                   "refusal_reason": plan.refusal_reason,

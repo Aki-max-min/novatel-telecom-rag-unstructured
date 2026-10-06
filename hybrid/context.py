@@ -20,6 +20,10 @@ retriever scores are deliberately not carried into the context).
 import re
 from dataclasses import dataclass, field
 
+# intent -> the table whose rows are counted for it
+_INTENT_TABLE = {"recharge": "recharge_transactions", "kyc": "kyc_records", "subscription": "subscriptions",
+                 "tickets": "tickets", "invoice": "invoices"}
+
 # metadata keys on a fact that are bookkeeping, not stored record fields
 _FACT_BOOKKEEPING = {"customer_id", "concept", "derived", "status_vocabulary"}
 
@@ -38,6 +42,11 @@ class Context:
     refusal_reason: object = None
     as_of: object = None
     intents: list = field(default_factory=list)  # structured intents the router asked for (empty result != not asked)
+    # provenance (Phase 9d) - what was actually looked up, so absence claims can be verified
+    identified: bool = False                      # a customer_id was supplied for this session
+    intents_run: list = field(default_factory=list)
+    row_counts: dict = field(default_factory=dict)  # intent -> number of real rows returned (0 = looked up, none)
+    full_texts: list = field(default_factory=list)  # FULL text of every retrieved chunk (all of them, not just max_docs)
 
     def item(self, item_id: str):
         for it in self.facts + self.documents:
@@ -120,6 +129,18 @@ def assemble_context(result: dict, max_docs: int = 5, snippet_chars: int = 400) 
     if any(f["fields"].get("marker") == "no kyc_records row" for f in facts):
         notices.append("no kyc_records row")
 
+    intents_run = list(trace.get("intents_run", []) or [])
+    row_counts = {}
+    for intent in intents_run:
+        table = _INTENT_TABLE.get(intent)
+        row_counts[intent] = sum(1 for f in facts if f["table"] == table and f["fields"].get("marker") is None)
+    identified = trace.get("customer_identified")
+    if identified is None:
+        identified = outcome != "needs_identity"
+    full_texts = [d.get("content", "") or "" for d in (result.get("documents", []) or [])]
+
     return Context(facts=facts, documents=documents, notices=notices, route=plan.get("route", ""),
                    outcome=outcome, refusal_reason=plan.get("refusal_reason") or trace.get("refusal_reason"),
-                   intents=list(plan.get("structured_intents", []) or []))
+                   intents=list(plan.get("structured_intents", []) or []),
+                   identified=bool(identified), intents_run=intents_run, row_counts=row_counts,
+                   full_texts=full_texts)

@@ -7,10 +7,12 @@ sentence with a number not in the context; insert an unmasked 10-digit number) a
 30 mutants must be flagged, with the rule that is supposed to catch it.
 """
 
+import json
 import os
 import re
 import sys
 import unittest
+from pathlib import Path
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
@@ -36,7 +38,9 @@ def make_result(question, customer_id, intents=None, docs=None, as_of=None):
     return {"route_plan": plan.as_dict(), "facts": facts, "documents": docs or [], "blocked": blocked,
             "documents_are_generic": plan.outcome == "needs_identity" and bool(docs),
             "trace": {"refusal_reason": plan.refusal_reason,
-                      "unrecognised_personal_request": plan.unrecognised_personal_request}}
+                      "unrecognised_personal_request": plan.unrecognised_personal_request,
+                      "customer_identified": customer_id is not None,
+                      "intents_run": list(intents or [])}}
 
 
 def contexts():
@@ -242,6 +246,101 @@ class TestMutations(unittest.TestCase):
         self.assertGreaterEqual(len(GOOD), 6)
         self.assertEqual(misses, [])
         self.assertEqual(flagged, total)
+
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+
+
+def real_chunk(chunk_id):
+    """A real retrieved chunk as the pipeline would hand it over (full text, not a snippet)."""
+    data = json.loads((REPO_ROOT / "data" / "processed" / "chunks" / f"{chunk_id}.json").read_text(encoding="utf-8"))
+    doc_id = chunk_id.rsplit("_chunk_", 1)[0]
+    return {"source": "unstructured", "record_id": chunk_id, "dataset": "novatel_synthetic", "category": "",
+            "score": 1.0, "retrieval_method": "vector", "content": data["text"],
+            "metadata": {"document_id": doc_id, "title": data.get("title", "")}}
+
+
+class TestAbsenceClaims(unittest.TestCase):
+    """Check R6: absence sentences are allowed only when backed by provenance."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.kyc_doc = real_chunk("FAQ_C17_034_chunk_000")
+        cls.refund_ctx = assemble_context(make_result("How long do refunds take?", None, docs=[REFUND_DOC]))
+
+    # --- provenance recorded by the assembler ---
+    def test_context_records_provenance(self):
+        ctx = assemble_context(make_result("Do I have any open tickets?", 1015, ["tickets"]))
+        self.assertTrue(ctx.identified)
+        self.assertEqual(ctx.intents_run, ["tickets"])
+        self.assertEqual(ctx.row_counts, {"tickets": 0})
+        busy = assemble_context(make_result("Do I have any open tickets?", 1042, ["tickets"]))
+        self.assertEqual(busy.row_counts, {"tickets": 3})
+        anon = assemble_context(make_result("Do I have any open tickets?", None))
+        self.assertFalse(anon.identified)
+        self.assertEqual(anon.intents_run, [])
+
+    def test_full_chunk_text_is_kept_beyond_the_snippet_and_beyond_max_docs(self):
+        long_doc = dict(REFUND_DOC, content=REFUND_DOC["content"] + " " + "filler words " * 200 + "special clause about penalty.")
+        docs = [dict(long_doc, record_id=f"X{i}", metadata={"document_id": f"X{i}"}) for i in range(7)]
+        ctx = assemble_context(make_result("q", None, docs=docs), max_docs=2, snippet_chars=100)
+        self.assertEqual(len(ctx.documents), 2)
+        self.assertEqual(len(ctx.full_texts), 7)                       # every retrieved chunk, not just max_docs
+        self.assertTrue(all("special clause about penalty" in t for t in ctx.full_texts))
+        self.assertNotIn("penalty", ctx.documents[0]["snippet"])       # the snippet alone would have missed it
+
+    # --- mutations: every one must be flagged by R6 ---
+    def test_mutation_no_customer_claims_none_found(self):
+        base = "Personal account details can only be looked up once you are identified."
+        ctx = assemble_context(make_result("Did my last recharge go through?", None, docs=[REFUND_DOC]))
+        self.assertTrue(verify_answer(base, ctx)["ok"])
+        r = verify_answer(base + " I found no recharges on your account.", ctx)
+        self.assertIn("R6", codes(r))
+
+    def test_mutation_customer_with_recharges_claims_none_found(self):
+        ctx = assemble_context(make_result("Did my last recharge go through?", 1042, ["recharge"]))
+        good = "Your latest recharge was SUCCESS [F1]."
+        self.assertTrue(verify_answer(good, ctx)["ok"])
+        r = verify_answer(good + " I found no recharges on your account.", ctx)
+        self.assertIn("R6", codes(r))
+
+    def test_mutation_silence_claim_about_a_term_the_documents_do_state(self):
+        ctx = assemble_context(make_result("Will my number be suspended?", None, docs=[self.kyc_doc]))
+        self.assertIn("suspension", ctx.full_texts[0])
+        good = "Here is what the retrieved documents say about KYC re-verification."
+        self.assertTrue(verify_answer(good, ctx)["ok"])
+        r = verify_answer(good + " The retrieved documents don't state anything about suspension.", ctx)
+        self.assertIn("R6", codes(r))
+        r = verify_answer(good + " The retrieved passages don't state anything about suspend.", ctx)
+        self.assertIn("R6", codes(r))
+
+    # --- legitimate absence sentences must pass ---
+    def test_legitimate_fact_absence_customer_1015_has_no_tickets(self):
+        ctx = assemble_context(make_result("Do I have any open tickets?", 1015, ["tickets"]))
+        r = verify_answer("I found no tickets on your account.", ctx)
+        self.assertTrue(r["ok"], r["problems"])
+
+    def test_legitimate_silence_about_a_term_absent_from_all_retrieved_text(self):
+        r = verify_answer("The retrieved passages don't state anything about penalty.", self.refund_ctx)
+        self.assertTrue(r["ok"], r["problems"])
+        # absent from the FIRST document's snippet is not enough; presence anywhere in the full text of any
+        # retrieved chunk makes the silence claim false
+        tail_doc = dict(REFUND_DOC, content=REFUND_DOC["content"] + " " + "filler words " * 200 + "A penalty applies.",
+                        metadata={"document_id": "FAQ_TAIL", "title": "t"})
+        ctx = assemble_context(make_result("q", None, docs=[REFUND_DOC, tail_doc]), snippet_chars=100)
+        r = verify_answer("The retrieved passages don't state anything about penalty.", ctx)
+        self.assertIn("R6", codes(r))
+
+    def test_kyc_records_marker_sentence_is_backed_by_zero_rows(self):
+        ctx = contexts()["kyc"]
+        r = verify_answer("There is no kyc_records row on file for you [F2].", ctx)
+        self.assertTrue(r["ok"], r["problems"])
+
+    def test_could_not_find_is_only_for_an_empty_document_channel(self):
+        empty = assemble_context(make_result("What is the policy?", None, docs=[]))
+        self.assertTrue(verify_answer("I couldn't find anything relevant in the knowledge base.", empty)["ok"])
+        r = verify_answer("I couldn't find anything relevant in the knowledge base.", self.refund_ctx)
+        self.assertIn("R6", codes(r))
 
 
 if __name__ == "__main__":

@@ -9,6 +9,10 @@ No model is involved. Every problem string starts with the rule code that raised
   R3  every number or date in a sentence, after normalisation (currency symbol, thousands comma, trailing
       zeros of a decimal removed), must appear in the text of at least one item CITED BY THAT SENTENCE
   R4  no unmasked 10-digit sequence and no e-mail address anywhere in the answer
+  R6  absence claims ("found no ...", "none", "no kyc_records row", "don't state ...", "could not find") are allowed only
+      when backed by provenance: a fact absence needs an identified customer, the intent looked up and zero rows;
+      a silence claim about a term needs the term's stem absent from the FULL text of ALL retrieved chunks;
+      "could not find" needs an empty document channel. Quoted text is a document quote, not a claim.
   R5  needs_identity: no [F#] citation (the answer contains no account value);
       refuse_other_customer: no citation at all and no digit (it shares nothing and cites nothing)
 
@@ -16,8 +20,15 @@ Sentence-level checking is deliberately strict: a number that exists somewhere i
 sentence does not cite is still a problem.
 """
 
+import os
 import re
+import sys
 from decimal import Decimal, InvalidOperation
+
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
+
+from consequences import terms_for_word  # noqa: E402
+from textmatch import has_term  # noqa: E402
 
 _CITATION = re.compile(r"\[([FD]\d+)\]")
 _SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+|\n+")
@@ -27,6 +38,18 @@ _NUMBER = re.compile(r"\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+(?:\.\d+)?")
 _MSISDN = re.compile(r"(?<!\d)\d{10}(?!\d)|(?<!\d)\d{5}[ -]\d{5}(?!\d)")
 _EMAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+")
 _CURRENCY = re.compile(r"[₹$€£]|\bRs\.?(?=\s*\d)", re.I)
+
+# --- R6: absence claims -------------------------------------------------------------------------------
+_QUOTED = re.compile(r'"[^"]*"')   # text inside quotes is a verbatim document quote, not a claim of ours
+_DOC_ABSENCE = re.compile(r"\b(?:do|does)(?:n't| not) state\b", re.I)
+_NOT_FOUND = re.compile(r"\b(?:could not|couldn't|can't|cannot|can not) find\b", re.I)
+_FACT_ABSENCE = re.compile(
+    r"\bfound no\b|\bnone\b|\bno (?:recharges?|tickets?|complaints?|invoices?|bills?|subscriptions?|plans?|"
+    r"kyc_records row|kyc records?)\b", re.I)
+_SILENCE_TERM = re.compile(r"state(?: anything)?(?: about| regarding| on)? ([A-Za-z\-]+)", re.I)
+# noun in an absence sentence -> the structured intent that would have looked it up
+_NOUN_INTENT = [("recharge", "recharge"), ("ticket", "tickets"), ("complaint", "tickets"), ("invoice", "invoice"),
+                ("bill", "invoice"), ("subscription", "subscription"), ("plan", "subscription"), ("kyc", "kyc")]
 
 
 def _norm_number(raw: str) -> str:
@@ -58,6 +81,41 @@ def _status_tokens(context) -> set:
             if "status" in key and isinstance(value, str) and value.isalpha() and len(value) >= 3:
                 tokens.add(value)
     return tokens
+
+
+def _check_absence(sentence: str, context) -> list:
+    """R6 problems for one sentence: an absence claim must be backed by provenance."""
+    claim = _QUOTED.sub(" ", _CITATION.sub("", sentence))
+    problems = []
+
+    if _DOC_ABSENCE.search(claim):
+        m = _SILENCE_TERM.search(claim)
+        if not m:
+            problems.append(f"R6: silence claim without a checkable term: {sentence!r}")
+        else:
+            term = m.group(1)
+            terms = terms_for_word(term)
+            if any(has_term(text, terms) for text in context.full_texts):
+                problems.append(f"R6: the retrieved passages DO mention {term!r} (full chunk text): {sentence!r}")
+
+    if _NOT_FOUND.search(claim) and context.full_texts:
+        problems.append(f"R6: 'could not find' claimed although {len(context.full_texts)} passage(s) were retrieved: {sentence!r}")
+
+    if _FACT_ABSENCE.search(claim):
+        lowered = claim.lower()
+        intents = [intent for noun, intent in _NOUN_INTENT if noun in lowered]
+        intents = list(dict.fromkeys(intents))
+        if not context.identified:
+            problems.append(f"R6: absence claim about the account without an identified customer: {sentence!r}")
+        elif intents:
+            for intent in intents:
+                if intent not in context.intents_run:
+                    problems.append(f"R6: absence claim about {intent!r} but that intent was not looked up: {sentence!r}")
+                elif context.row_counts.get(intent, 0) != 0:
+                    problems.append(f"R6: absence claim about {intent!r} but {context.row_counts[intent]} row(s) were found: {sentence!r}")
+        elif not any(context.row_counts.get(i, 1) == 0 for i in context.intents_run):
+            problems.append(f"R6: generic absence claim but no looked-up intent returned zero rows: {sentence!r}")
+    return problems
 
 
 def split_sentences(text: str) -> list:
@@ -106,6 +164,8 @@ def verify_answer(answer_text: str, context) -> dict:
             item = context.item(cid)
             if item is not None:
                 support |= numeric_tokens(item["text"])
+        problems += _check_absence(sentence, context)                           # R6
+
         for token in sorted(numbers):                                           # R3
             if token not in support:
                 problems.append(f"R3: number/date {token.split(':', 1)[-1]!r} is not in any item cited by: {sentence!r}")

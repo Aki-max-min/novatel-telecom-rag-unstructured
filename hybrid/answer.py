@@ -28,20 +28,13 @@ import sys
 
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
+from consequences import CONSEQUENCE_TERMS  # noqa: E402
 from context import Context, assemble_context  # noqa: E402
 from groundedness import split_sentences, verify_answer  # noqa: E402
 from textmatch import find_term, has_term  # noqa: E402
 
 MAX_QUOTE_CHARS = 450
 ANSWER_SNIPPET_CHARS = 1200   # longer than assemble_context's default so there are sentences to quote
-
-# Silence rule: a consequence term the customer asks about that appears in none of the retrieved snippets.
-# name -> textmatch terms; a trailing * is an explicit open stem so "suspend" also finds "suspension".
-CONSEQUENCE_TERMS = {
-    "disconnect": ["disconnect*"], "suspend": ["suspen*"], "terminate": ["terminat*"],
-    "bar": ["bar", "barred", "barring"], "penalty": ["penalt*"], "fee": ["fee"], "refund": ["refund*"],
-    "charge": ["charg*"], "deadline": ["deadline"], "days": ["day"],
-}
 
 _STOPWORDS = set("""a an the and or but if then of to in on at for from by with without about as is are was were be been being
 do does did done have has had having i me my mine we our you your it its this that these those there here what which who whom
@@ -177,10 +170,11 @@ class ExtractiveAnswerer:
             out.append("Here is what the retrieved documents say:")
             for _, _, text, doc_id in picked:
                 out.append(f"\"{text}\" [{doc_id}].")
-        snippets = " ".join(d["snippet"] for d in context.documents)
+        # Silence rule: a consequence term the customer asks about that appears in NONE of the retrieved
+        # passages - tested on the FULL text of every retrieved chunk, not on the short snippets.
         for name, terms in CONSEQUENCE_TERMS.items():
-            if has_term(question, terms) and not has_term(snippets, terms):
-                out.append(f"The retrieved documents don't state anything about {name}.")
+            if has_term(question, terms) and not any(has_term(t, terms) for t in context.full_texts):
+                out.append(f"The retrieved passages don't state anything about {name}.")
         return out
 
 

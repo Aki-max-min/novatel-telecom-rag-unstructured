@@ -19,7 +19,9 @@ Metrics
   document hit@3/@5     any expected document id in the top-k of the full pipeline (real CrossEncoder)
   safety                needs_identity -> zero facts; refuse_other_customer -> zero facts/documents
 
-Run from the repo root in the rag-api environment:  python hybrid/evaluate_routes.py
+Run from the repo root in the rag-api environment:
+    python hybrid/evaluate_routes.py              # first run -> first_run_phase7.json (refuses to overwrite it)
+    python hybrid/evaluate_routes.py --amended    # Phase 8c post-hoc run -> amended_run_phase8.json
 """
 
 import json
@@ -38,6 +40,7 @@ from structured_adapter import open_readonly  # noqa: E402
 
 BENCH = Path(__file__).resolve().parent / "benchmark" / "route_benchmark.json"
 OUT = Path(__file__).resolve().parent / "benchmark" / "first_run_phase7.json"
+AMENDED_OUT = Path(__file__).resolve().parent / "benchmark" / "amended_run_phase8.json"
 ROUTES = ["structured", "unstructured", "both"]
 COUNT_INTENT = {"tickets": "tickets", "kyc_records": "kyc"}
 
@@ -89,6 +92,10 @@ def match_expected(item, facts, intents_run):
 
 
 def main():
+    amended = "--amended" in sys.argv[1:]
+    out_path = AMENDED_OUT if amended else OUT
+    if not amended and OUT.exists():
+        raise SystemExit(f"{OUT.name} already exists: the first run is frozen. Use --amended for a post-hoc run.")
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     questions = json.loads(BENCH.read_text(encoding="utf-8"))["questions"]
@@ -179,7 +186,11 @@ def main():
     n = len(questions)
     matrix = [[confusion[e][g] for g in ROUTES] for e in ROUTES]
     summary = {
-        "note": "FIRST RUN, UNTUNED. Router/adapter were designed without reading this benchmark's file.",
+        "post_hoc": amended,
+        "note": ("POST-HOC AMENDED RUN (Phase 8c): made after seeing the first-run results of this frozen "
+                 "benchmark (first_run_phase7.json, commit bde1a4e); gate/router fixes and the rerank choice "
+                 "were motivated by what that run showed. See docs/E13_phase8_posthoc_log.md.") if amended else
+                "FIRST RUN, UNTUNED. Router/adapter were designed without reading this benchmark's file.",
         "questions": n,
         "route_accuracy": f"{route_ok}/{n}", "route_confusion_matrix": {"order": ROUTES, "rows_expected": matrix},
         "outcome_accuracy": f"{outcome_ok}/{n}",
@@ -190,12 +201,14 @@ def main():
         "safety": safety,
         "miss_count": len(misses),
     }
-    OUT.write_text(json.dumps({"summary": summary, "misses": misses, "per_question": rows},
+    out_path.write_text(json.dumps({"post_hoc": amended, "summary": summary, "misses": misses,
+                                    "per_question": rows},
                               indent=2, ensure_ascii=False, default=str) + "\n", encoding="utf-8")
 
     if leaks:
         print(f"!!! LEAKAGE DETECTED: {len(leaks)} fact(s) not owned by the session customer: {leaks}")
-    print("===== E13 PHASE 7 — frozen benchmark, FIRST RUN (untuned) =====")
+    print("===== E13 PHASE 8c - frozen benchmark, AMENDED RUN (post-hoc) =====" if amended
+          else "===== E13 PHASE 7 — frozen benchmark, FIRST RUN (untuned) =====")
     print(f"route accuracy: {route_ok}/{n}   confusion (rows expected, cols got; order {ROUTES}):")
     for e, row in zip(ROUTES, matrix):
         print(f"   {e:<13} {row}")
@@ -210,7 +223,7 @@ def main():
         print(f"  [{m['question_id']}] {m['kind']}: expected={m['expected']} got={m['got']}")
         print(f"      q: {m['question']}")
         print(f"      reason: {m['reason']}")
-    print(f"written to {OUT.relative_to(REPO_ROOT)}")
+    print(f"written to {out_path.relative_to(REPO_ROOT)}")
 
 
 if __name__ == "__main__":

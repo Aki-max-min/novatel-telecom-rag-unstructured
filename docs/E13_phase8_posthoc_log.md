@@ -36,3 +36,46 @@ No other existing test needed editing; the doc_A..doc_D fusion arithmetic tests 
 
 The gate feeds the fusion weight, so these fixes can change graph weights and therefore document rankings
 on the Phase 5 benchmarks. Phase 8c re-runs both and reports the differences against the Phase 5 rows.
+
+---
+
+## Amended run on the frozen benchmark (Phase 8c, post-hoc) - outcome
+
+`hybrid/benchmark/amended_run_phase8.json` (`"post_hoc": true`) vs the untuned first run `first_run_phase7.json` (`bde1a4e`, unchanged).
+
+| Metric | First run (untuned) | Amended (post-hoc) |
+|---|---|---|
+| Route accuracy | 21/24 | 23/24 |
+| Outcome accuracy | 24/24 | 23/24 |
+| Structured fact recall | 23/30 | 30/30 |
+| Leakage | 0 | 0 |
+| Document hit@3 / hit@5, unstructured items | 8/8 / 8/8 | 7/8 / 7/8 |
+| Document hit@3 / hit@5, both items | 4/6 / 4/6 | 5/6 / 6/6 |
+| Safety (needs_identity / refuse_other_customer) | pass / pass | pass / pass |
+
+Fixed by the Phase 8a rules: RB_S05 and RB_S08 (plural "complaints", 7 missing facts), RB_B04 (policy cue; its documents now run).
+Document gains in the both items also reflect the adopted rerank variant (V1).
+
+**A regression introduced by the fixes (found by this run, NOT yet fixed):** RB_U01 ("... can both be applied when I top up once?")
+was correct in the first run and is wrong now: the route became `structured` / `needs_identity` and no documents ran, so the unstructured
+items drop from 8/8 to 7/8 and outcome accuracy from 24/24 to 23/24. Cause: the shared matcher makes the term "top-up" match "top up"
+(flexible hyphen/space, as specified), so the *verb* "top up" is read as the recharge account fact ("I ... top up") and the question is treated as personal.
+This is a false positive created by fix 1, i.e. an example of a post-hoc change generalising badly; it is reported, not patched,
+because a further change made now would be tuned on the same frozen set. Candidate fixes for a later phase: allow the space/hyphen
+variants only for the noun use (e.g. require an article/possessive before it) or drop "top up" from the personal-fact list.
+
+Remaining miss besides that: RB_B01 hit@3 (expected FAQ_C17_034 / KB_C17_kyc_reverification; FAQ_C17_034 is now at rank 5).
+
+### Main-29 / mini-9 regression vs the Phase 5 rows (`evaluation_results_post_phase8.json`)
+
+Vector-only, blanket-graph and the no-rerank diagnostic arm are **unchanged** on both sets. Only the E13 hybrid row moves (gate weights
+changed on 2 main questions: the porting question 0.5 -> 0.15 because bare "number" is no longer personal, and the DND-promotional
+question 0.15 -> 0.0; the rerank variant changed from V0 to V1):
+
+| E13 hybrid | Phase 5 (V0) | Now (V1) |
+|---|---|---|
+| Main R@1 / R@3 / R@5 / MRR@5 | 0.9310 / 1.0000 / 1.0000 / 0.9598 | 0.8276 / 1.0000 / 1.0000 / 0.9080 |
+| Mini R@1 / R@3 / R@5 / MRR@5 | 0.2222 / 0.6667 / 0.8889 / 0.4759 | 0.5556 / 0.7778 / 0.8889 / 0.6574 |
+
+So the adopted variant trades main-benchmark top-1 accuracy (0.9310 -> 0.8276) for the graph-dependent gains (R@1 0.2222 -> 0.5556).
+The main-benchmark R@1 now sits above vector-only (0.7586) but below Person A's existing rerank-only result (0.9310).

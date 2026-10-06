@@ -1,0 +1,1202 @@
+{
+  "post_hoc": true,
+  "summary": {
+    "post_hoc": true,
+    "note": "POST-HOC AMENDED RUN (Phase 8c): made after seeing the first-run results of this frozen benchmark (first_run_phase7.json, commit bde1a4e); gate/router fixes and the rerank choice were motivated by what that run showed. See docs/E13_phase8_posthoc_log.md.",
+    "questions": 24,
+    "route_accuracy": "23/24",
+    "route_confusion_matrix": {
+      "order": [
+        "structured",
+        "unstructured",
+        "both"
+      ],
+      "rows_expected": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          1,
+          7,
+          0
+        ],
+        [
+          0,
+          0,
+          6
+        ]
+      ]
+    },
+    "outcome_accuracy": "23/24",
+    "structured_fact_recall": {
+      "found": 30,
+      "total": 30,
+      "recall": 1.0
+    },
+    "leakage": 0,
+    "leaks": [],
+    "document_hits": {
+      "unstructured": {
+        "hit@3": 7,
+        "hit@5": 7,
+        "n": 8
+      },
+      "both": {
+        "hit@3": 5,
+        "hit@5": 6,
+        "n": 6
+      }
+    },
+    "safety": {
+      "needs_identity": true,
+      "refuse_other_customer": true
+    },
+    "miss_count": 3
+  },
+  "misses": [
+    {
+      "question_id": "RB_U01",
+      "kind": "route/outcome",
+      "question": "I've got a cashback deal and a bonus-data deal - can both be applied when I top up once?",
+      "expected": {
+        "route": "unstructured",
+        "outcome": "answer"
+      },
+      "got": {
+        "route": "structured",
+        "outcome": "needs_identity",
+        "intents": [
+          "recharge"
+        ]
+      },
+      "reason": "first-person 'I' + account fact 'top up' -> personal data; concept 'Recharge' via 'top up'; structured intents: ['recharge']; policy component: False; personal question without a session customer_id"
+    },
+    {
+      "question_id": "RB_U01",
+      "kind": "document hit@5",
+      "question": "I've got a cashback deal and a bonus-data deal - can both be applied when I top up once?",
+      "expected": [
+        "FAQ_C14_028"
+      ],
+      "got": {
+        "top5": [],
+        "documents_ran": false
+      },
+      "reason": "first-person 'I' + account fact 'top up' -> personal data; concept 'Recharge' via 'top up'; structured intents: ['recharge']; policy component: False; personal question without a session customer_id"
+    },
+    {
+      "question_id": "RB_B01",
+      "kind": "document hit@3",
+      "question": "My KYC is showing pending - will my number get disconnected, and what do I need to do?",
+      "expected": [
+        "FAQ_C17_034",
+        "KB_C17_kyc_reverification"
+      ],
+      "got": {
+        "top5": [
+          "SOP_C17_KYC_VERIFICATION",
+          "EML_008",
+          "FAQ_C22_044",
+          "TRX_007",
+          "FAQ_C17_034"
+        ],
+        "documents_ran": true
+      },
+      "reason": "first-person 'My' + account fact 'KYC' -> personal data; concept 'KYC & Identity Verification' via 'kyc'; structured intents: ['kyc']; policy component: True"
+    }
+  ],
+  "per_question": [
+    {
+      "question_id": "RB_S01",
+      "question": "Has my last recharge gone through?",
+      "customer_id": 1042,
+      "expected_route": "structured",
+      "expected_outcome": "answer",
+      "got_route": "structured",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "recharge"
+      ],
+      "has_policy_component": false,
+      "concept_hint": "Recharge",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'my' + account fact 'recharge' -> personal data; concept 'Recharge' via 'recharge'; structured intents: ['recharge']; policy component: False",
+      "facts_returned": [
+        "recharge_transactions:4254",
+        "recharge_transactions:6997",
+        "recharge_transactions:7914"
+      ],
+      "structured_expected": 2,
+      "structured_found": 2,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "recharge_transactions",
+            "record_id": 4254,
+            "field": "status",
+            "value": "SUCCESS"
+          },
+          "found": true,
+          "detail": "adapter status='SUCCESS'"
+        },
+        {
+          "expected": {
+            "table": "recharge_transactions",
+            "record_id": 4254,
+            "field": "amount",
+            "value": "399.00"
+          },
+          "found": true,
+          "detail": "adapter amount='399.00'"
+        }
+      ],
+      "documents_top5": [],
+      "expected_document_ids": [],
+      "doc_hit@3": null,
+      "doc_hit@5": null,
+      "rerank_status": null,
+      "blocked": []
+    },
+    {
+      "question_id": "RB_S02",
+      "question": "Did my most recent recharge go through, and for how much?",
+      "customer_id": 1056,
+      "expected_route": "structured",
+      "expected_outcome": "answer",
+      "got_route": "structured",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "recharge"
+      ],
+      "has_policy_component": false,
+      "concept_hint": "Recharge",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'my' + account fact 'recharge' -> personal data; concept 'Recharge' via 'recharge'; structured intents: ['recharge']; policy component: False",
+      "facts_returned": [
+        "recharge_transactions:4996",
+        "recharge_transactions:7127",
+        "recharge_transactions:7144"
+      ],
+      "structured_expected": 2,
+      "structured_found": 2,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "recharge_transactions",
+            "record_id": 4996,
+            "field": "status",
+            "value": "FAILED"
+          },
+          "found": true,
+          "detail": "adapter status='FAILED'"
+        },
+        {
+          "expected": {
+            "table": "recharge_transactions",
+            "record_id": 4996,
+            "field": "amount",
+            "value": "949.00"
+          },
+          "found": true,
+          "detail": "adapter amount='949.00'"
+        }
+      ],
+      "documents_top5": [],
+      "expected_document_ids": [],
+      "doc_hit@3": null,
+      "doc_hit@5": null,
+      "rerank_status": null,
+      "blocked": []
+    },
+    {
+      "question_id": "RB_S03",
+      "question": "When does my current plan expire?",
+      "customer_id": 1042,
+      "expected_route": "structured",
+      "expected_outcome": "answer",
+      "got_route": "structured",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "subscription"
+      ],
+      "has_policy_component": false,
+      "concept_hint": "Plan Catalogue",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'my' + account fact 'plan' -> personal data; concept 'Plan Catalogue' via 'plan'; structured intents: ['subscription']; policy component: False",
+      "facts_returned": [
+        "subscriptions:3042"
+      ],
+      "structured_expected": 2,
+      "structured_found": 2,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "subscriptions",
+            "record_id": 3042,
+            "field": "expiry_date",
+            "value": "2026-10-03"
+          },
+          "found": true,
+          "detail": "adapter expiry_date='2026-10-03'"
+        },
+        {
+          "expected": {
+            "table": "subscriptions",
+            "record_id": 3042,
+            "field": "status",
+            "value": "Active"
+          },
+          "found": true,
+          "detail": "adapter status='Active'"
+        }
+      ],
+      "documents_top5": [],
+      "expected_document_ids": [],
+      "doc_hit@3": null,
+      "doc_hit@5": null,
+      "rerank_status": null,
+      "blocked": []
+    },
+    {
+      "question_id": "RB_S04",
+      "question": "Is my plan still active, and when did it run out?",
+      "customer_id": 1056,
+      "expected_route": "structured",
+      "expected_outcome": "answer",
+      "got_route": "structured",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "subscription"
+      ],
+      "has_policy_component": false,
+      "concept_hint": "Plan Catalogue",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'my' + account fact 'plan' -> personal data; concept 'Plan Catalogue' via 'plan'; structured intents: ['subscription']; policy component: False",
+      "facts_returned": [
+        "subscriptions:3056"
+      ],
+      "structured_expected": 2,
+      "structured_found": 2,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "subscriptions",
+            "record_id": 3056,
+            "field": "status",
+            "value": "Expired"
+          },
+          "found": true,
+          "detail": "adapter status='Expired'"
+        },
+        {
+          "expected": {
+            "table": "subscriptions",
+            "record_id": 3056,
+            "field": "expiry_date",
+            "value": "2025-09-22"
+          },
+          "found": true,
+          "detail": "adapter expiry_date='2025-09-22'"
+        }
+      ],
+      "documents_top5": [],
+      "expected_document_ids": [],
+      "doc_hit@3": null,
+      "doc_hit@5": null,
+      "rerank_status": null,
+      "blocked": []
+    },
+    {
+      "question_id": "RB_S05",
+      "question": "Do I have any complaints that are still open, and what are they about?",
+      "customer_id": 1042,
+      "expected_route": "structured",
+      "expected_outcome": "answer",
+      "got_route": "structured",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "tickets"
+      ],
+      "has_policy_component": false,
+      "concept_hint": "Complaints & Grievances",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'I' + account fact 'complaints' -> personal data; concept 'Complaints & Grievances' via 'complaints'; structured intents: ['tickets']; policy component: False",
+      "facts_returned": [
+        "tickets:12099",
+        "tickets:12323",
+        "tickets:11335"
+      ],
+      "structured_expected": 6,
+      "structured_found": 6,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "tickets",
+            "record_id": 12099,
+            "field": "category",
+            "value": "SIM"
+          },
+          "found": true,
+          "detail": "adapter category='SIM'"
+        },
+        {
+          "expected": {
+            "table": "tickets",
+            "record_id": 12099,
+            "field": "status",
+            "value": "Open"
+          },
+          "found": true,
+          "detail": "adapter status='Open'"
+        },
+        {
+          "expected": {
+            "table": "tickets",
+            "record_id": 12323,
+            "field": "category",
+            "value": "SIM"
+          },
+          "found": true,
+          "detail": "adapter category='SIM'"
+        },
+        {
+          "expected": {
+            "table": "tickets",
+            "record_id": 12323,
+            "field": "status",
+            "value": "Open"
+          },
+          "found": true,
+          "detail": "adapter status='Open'"
+        },
+        {
+          "expected": {
+            "table": "tickets",
+            "record_id": 11335,
+            "field": "category",
+            "value": "Billing"
+          },
+          "found": true,
+          "detail": "adapter category='Billing'"
+        },
+        {
+          "expected": {
+            "table": "tickets",
+            "record_id": 11335,
+            "field": "status",
+            "value": "InProgress"
+          },
+          "found": true,
+          "detail": "adapter status='InProgress'"
+        }
+      ],
+      "documents_top5": [],
+      "expected_document_ids": [],
+      "doc_hit@3": null,
+      "doc_hit@5": null,
+      "rerank_status": null,
+      "blocked": []
+    },
+    {
+      "question_id": "RB_S06",
+      "question": "Is my latest bill paid or still pending?",
+      "customer_id": 1829,
+      "expected_route": "structured",
+      "expected_outcome": "answer",
+      "got_route": "structured",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "invoice"
+      ],
+      "has_policy_component": false,
+      "concept_hint": "Billing & Invoices",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'my' + account fact 'bill' -> personal data; concept 'Billing & Invoices' via 'bill'; structured intents: ['invoice']; policy component: False",
+      "facts_returned": [
+        "invoices:6740",
+        "invoices:6739",
+        "invoices:6738"
+      ],
+      "structured_expected": 3,
+      "structured_found": 3,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "invoices",
+            "record_id": 6740,
+            "field": "payment_status",
+            "value": "Unpaid"
+          },
+          "found": true,
+          "detail": "adapter payment_status='Unpaid'"
+        },
+        {
+          "expected": {
+            "table": "invoices",
+            "record_id": 6740,
+            "field": "total_amount",
+            "value": "581.65"
+          },
+          "found": true,
+          "detail": "adapter total_amount='581.65'"
+        },
+        {
+          "expected": {
+            "table": "payment_transactions",
+            "record_id": 6740,
+            "field": "sum_amount_success_for_invoice",
+            "value": 581.65
+          },
+          "found": true,
+          "detail": "adapter success_payments_sum=581.65"
+        }
+      ],
+      "documents_top5": [],
+      "expected_document_ids": [],
+      "doc_hit@3": null,
+      "doc_hit@5": null,
+      "rerank_status": null,
+      "blocked": []
+    },
+    {
+      "question_id": "RB_S07",
+      "question": "What is my KYC status right now?",
+      "customer_id": 1031,
+      "expected_route": "structured",
+      "expected_outcome": "answer",
+      "got_route": "structured",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "kyc"
+      ],
+      "has_policy_component": false,
+      "concept_hint": "KYC & Identity Verification",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'my' + account fact 'KYC' -> personal data; concept 'KYC & Identity Verification' via 'kyc'; structured intents: ['kyc']; policy component: False",
+      "facts_returned": [
+        "customer_master:1031",
+        "kyc_records:14212"
+      ],
+      "structured_expected": 1,
+      "structured_found": 1,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "customer_master",
+            "record_id": 1031,
+            "field": "kyc_status",
+            "value": "Expired"
+          },
+          "found": true,
+          "detail": "adapter kyc_status='Expired'"
+        }
+      ],
+      "documents_top5": [],
+      "expected_document_ids": [],
+      "doc_hit@3": null,
+      "doc_hit@5": null,
+      "rerank_status": null,
+      "blocked": []
+    },
+    {
+      "question_id": "RB_S08",
+      "question": "Are there any open complaints on my account?",
+      "customer_id": 1015,
+      "expected_route": "structured",
+      "expected_outcome": "answer",
+      "got_route": "structured",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "tickets"
+      ],
+      "has_policy_component": false,
+      "concept_hint": "Complaints & Grievances",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'my' + account fact 'complaints' -> personal data; concept 'Complaints & Grievances' via 'complaints'; structured intents: ['tickets']; policy component: False",
+      "facts_returned": [],
+      "structured_expected": 1,
+      "structured_found": 1,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "tickets",
+            "record_id": null,
+            "field": "count_for_customer",
+            "value": 0
+          },
+          "found": true,
+          "detail": "adapter returned 0 real tickets rows"
+        }
+      ],
+      "documents_top5": [],
+      "expected_document_ids": [],
+      "doc_hit@3": null,
+      "doc_hit@5": null,
+      "rerank_status": null,
+      "blocked": []
+    },
+    {
+      "question_id": "RB_U01",
+      "question": "I've got a cashback deal and a bonus-data deal - can both be applied when I top up once?",
+      "customer_id": null,
+      "expected_route": "unstructured",
+      "expected_outcome": "answer",
+      "got_route": "structured",
+      "got_outcome": "needs_identity",
+      "structured_intents": [
+        "recharge"
+      ],
+      "has_policy_component": false,
+      "concept_hint": "Recharge",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'I' + account fact 'top up' -> personal data; concept 'Recharge' via 'top up'; structured intents: ['recharge']; policy component: False; personal question without a session customer_id",
+      "facts_returned": [],
+      "structured_expected": 0,
+      "structured_found": 0,
+      "structured_detail": [],
+      "documents_top5": [],
+      "expected_document_ids": [
+        "FAQ_C14_028"
+      ],
+      "doc_hit@3": false,
+      "doc_hit@5": false,
+      "rerank_status": null,
+      "blocked": [
+        "needs_identity"
+      ]
+    },
+    {
+      "question_id": "RB_U02",
+      "question": "Once NovaTel agrees to give the money back, when does it land if I paid by UPI?",
+      "customer_id": null,
+      "expected_route": "unstructured",
+      "expected_outcome": "answer",
+      "got_route": "unstructured",
+      "got_outcome": "answer",
+      "structured_intents": [],
+      "has_policy_component": false,
+      "concept_hint": null,
+      "graph_weight": 0.0,
+      "reasoning": "first-person 'I' but no account fact -> policy-style, not personal data; no concept keyword matched; structured intents: ['invoice']; policy component: False",
+      "facts_returned": [],
+      "structured_expected": 0,
+      "structured_found": 0,
+      "structured_detail": [],
+      "documents_top5": [
+        "FAQ_C20_040",
+        "FAQ_C03_005",
+        "Policy_C20_refund_policy",
+        "Policy_C18_security_policy",
+        "TRX_001"
+      ],
+      "expected_document_ids": [
+        "FAQ_C20_040"
+      ],
+      "doc_hit@3": true,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_U03",
+      "question": "Can I get a fixed public address for my home internet so I can reach my devices remotely?",
+      "customer_id": null,
+      "expected_route": "unstructured",
+      "expected_outcome": "answer",
+      "got_route": "unstructured",
+      "got_outcome": "answer",
+      "structured_intents": [],
+      "has_policy_component": true,
+      "concept_hint": "Device Compatibility",
+      "graph_weight": 0.15,
+      "reasoning": "first-person 'I' but no account fact -> policy-style, not personal data; concept 'Device Compatibility' via 'devices'; structured intents: none; policy component: True",
+      "facts_returned": [],
+      "structured_expected": 0,
+      "structured_found": 0,
+      "structured_detail": [],
+      "documents_top5": [
+        "FAQ_C25_050",
+        "MAN_ROUTER_001",
+        "FAQ_C11_022",
+        "MAN_IOT_PORTAL_001",
+        "COV_NORTH_2026"
+      ],
+      "expected_document_ids": [
+        "FAQ_C25_050"
+      ],
+      "doc_hit@3": true,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_U04",
+      "question": "Does NovaTel offer any help for customers who can't hear well?",
+      "customer_id": null,
+      "expected_route": "unstructured",
+      "expected_outcome": "answer",
+      "got_route": "unstructured",
+      "got_outcome": "answer",
+      "structured_intents": [],
+      "has_policy_component": false,
+      "concept_hint": "Offers & Promotions",
+      "graph_weight": 0.15,
+      "reasoning": "no first-person reference -> not personal data; concept 'Offers & Promotions' via 'offer'; structured intents: none; policy component: False",
+      "facts_returned": [],
+      "structured_expected": 0,
+      "structured_found": 0,
+      "structured_detail": [],
+      "documents_top5": [
+        "FAQ_C27_053",
+        "FAQ_C27_054",
+        "FAQ_C18_036",
+        "TRX_003",
+        "REL_2026_07"
+      ],
+      "expected_document_ids": [
+        "FAQ_C27_053"
+      ],
+      "doc_hit@3": true,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_U05",
+      "question": "How do I stop telemarketing texts and calls by sending a message?",
+      "customer_id": null,
+      "expected_route": "unstructured",
+      "expected_outcome": "answer",
+      "got_route": "unstructured",
+      "got_outcome": "answer",
+      "structured_intents": [],
+      "has_policy_component": true,
+      "concept_hint": null,
+      "graph_weight": 0.0,
+      "reasoning": "how-to phrasing without 'my' -> treated as a procedure question, not personal data; unsolicited-communication question (no concept in the vocabulary); structured intents: none; policy component: True",
+      "facts_returned": [],
+      "structured_expected": 0,
+      "structured_found": 0,
+      "structured_detail": [],
+      "documents_top5": [
+        "FAQ_C26_051",
+        "FAQ_C13_025",
+        "FAQ_C26_052",
+        "FAQ_C18_036",
+        "TRX_004"
+      ],
+      "expected_document_ids": [
+        "FAQ_C26_051"
+      ],
+      "doc_hit@3": true,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_U06",
+      "question": "How many months do my loyalty points stay valid, and what can I use them for?",
+      "customer_id": null,
+      "expected_route": "unstructured",
+      "expected_outcome": "answer",
+      "got_route": "unstructured",
+      "got_outcome": "answer",
+      "structured_intents": [],
+      "has_policy_component": true,
+      "concept_hint": null,
+      "graph_weight": 0.0,
+      "reasoning": "first-person 'my' but no account fact -> policy-style, not personal data; no concept keyword matched; structured intents: none; policy component: True",
+      "facts_returned": [],
+      "structured_expected": 0,
+      "structured_found": 0,
+      "structured_detail": [],
+      "documents_top5": [
+        "FAQ_C15_029",
+        "FAQ_C02_003",
+        "FAQ_C15_030",
+        "FAQ_C02_004",
+        "FAQ_C06_011"
+      ],
+      "expected_document_ids": [
+        "FAQ_C15_029"
+      ],
+      "doc_hit@3": true,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_U07",
+      "question": "Two of my connections are under separate profiles - how do I put them together, and how long does it take?",
+      "customer_id": null,
+      "expected_route": "unstructured",
+      "expected_outcome": "answer",
+      "got_route": "unstructured",
+      "got_outcome": "answer",
+      "structured_intents": [],
+      "has_policy_component": true,
+      "concept_hint": null,
+      "graph_weight": 0.0,
+      "reasoning": "first-person 'my' but no account fact -> policy-style, not personal data; no concept keyword matched; structured intents: none; policy component: True",
+      "facts_returned": [],
+      "structured_expected": 0,
+      "structured_found": 0,
+      "structured_detail": [],
+      "documents_top5": [
+        "FAQ_C01_002",
+        "FAQ_C06_011",
+        "SOP_C21_ACCOUNT_CLOSURE",
+        "MAN_ROUTER_001",
+        "FAQ_C29_058"
+      ],
+      "expected_document_ids": [
+        "FAQ_C01_002"
+      ],
+      "doc_hit@3": true,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_U08",
+      "question": "How do I turn on fingerprint unlock for the NovaTel app, and does it carry over to my other phones?",
+      "customer_id": null,
+      "expected_route": "unstructured",
+      "expected_outcome": "answer",
+      "got_route": "unstructured",
+      "got_outcome": "answer",
+      "structured_intents": [],
+      "has_policy_component": true,
+      "concept_hint": null,
+      "graph_weight": 0.0,
+      "reasoning": "first-person 'I' but no account fact -> policy-style, not personal data; no concept keyword matched; structured intents: none; policy component: True",
+      "facts_returned": [],
+      "structured_expected": 0,
+      "structured_found": 0,
+      "structured_detail": [],
+      "documents_top5": [
+        "FAQ_C13_026",
+        "FAQ_C05_010",
+        "MAN_APP_001",
+        "FAQ_C18_036",
+        "FAQ_C19_037"
+      ],
+      "expected_document_ids": [
+        "FAQ_C13_026"
+      ],
+      "doc_hit@3": true,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_B01",
+      "question": "My KYC is showing pending - will my number get disconnected, and what do I need to do?",
+      "customer_id": 1042,
+      "expected_route": "both",
+      "expected_outcome": "answer",
+      "got_route": "both",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "kyc"
+      ],
+      "has_policy_component": true,
+      "concept_hint": "KYC & Identity Verification",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'My' + account fact 'KYC' -> personal data; concept 'KYC & Identity Verification' via 'kyc'; structured intents: ['kyc']; policy component: True",
+      "facts_returned": [
+        "customer_master:1042",
+        "kyc_records:none"
+      ],
+      "structured_expected": 2,
+      "structured_found": 2,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "customer_master",
+            "record_id": 1042,
+            "field": "kyc_status",
+            "value": "Pending"
+          },
+          "found": true,
+          "detail": "adapter kyc_status='Pending'"
+        },
+        {
+          "expected": {
+            "table": "kyc_records",
+            "record_id": null,
+            "field": "count_for_customer",
+            "value": 0
+          },
+          "found": true,
+          "detail": "adapter returned 0 real kyc_records rows"
+        }
+      ],
+      "documents_top5": [
+        "SOP_C17_KYC_VERIFICATION",
+        "EML_008",
+        "FAQ_C22_044",
+        "TRX_007",
+        "FAQ_C17_034"
+      ],
+      "expected_document_ids": [
+        "FAQ_C17_034",
+        "KB_C17_kyc_reverification"
+      ],
+      "doc_hit@3": false,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_B02",
+      "question": "My last recharge didn't go through - what happens to the money, and what should I do?",
+      "customer_id": 1056,
+      "expected_route": "both",
+      "expected_outcome": "answer",
+      "got_route": "both",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "recharge"
+      ],
+      "has_policy_component": true,
+      "concept_hint": "Recharge",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'My' + account fact 'recharge' -> personal data; concept 'Recharge' via 'recharge'; structured intents: ['recharge']; policy component: True",
+      "facts_returned": [
+        "recharge_transactions:4996",
+        "recharge_transactions:7127",
+        "recharge_transactions:7144"
+      ],
+      "structured_expected": 2,
+      "structured_found": 2,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "recharge_transactions",
+            "record_id": 4996,
+            "field": "status",
+            "value": "FAILED"
+          },
+          "found": true,
+          "detail": "adapter status='FAILED'"
+        },
+        {
+          "expected": {
+            "table": "recharge_transactions",
+            "record_id": 4996,
+            "field": "amount",
+            "value": "949.00"
+          },
+          "found": true,
+          "detail": "adapter amount='949.00'"
+        }
+      ],
+      "documents_top5": [
+        "TRX_001",
+        "FAQ_C03_005",
+        "KB_C03_recharge_failures",
+        "FAQ_C02_004",
+        "SOP_C03_RECHARGE_FAILURE"
+      ],
+      "expected_document_ids": [
+        "FAQ_C03_005",
+        "KB_C03_recharge_failures",
+        "SOP_C03_RECHARGE_FAILURE"
+      ],
+      "doc_hit@3": true,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_B03",
+      "question": "My latest bill is unpaid - if I don't pay, will my number get deactivated, and could I get it back?",
+      "customer_id": 1829,
+      "expected_route": "both",
+      "expected_outcome": "answer",
+      "got_route": "both",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "invoice"
+      ],
+      "has_policy_component": true,
+      "concept_hint": "Billing & Invoices",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'My' + account fact 'bill' -> personal data; concept 'Billing & Invoices' via 'bill'; structured intents: ['invoice']; policy component: True",
+      "facts_returned": [
+        "invoices:6740",
+        "invoices:6739",
+        "invoices:6738"
+      ],
+      "structured_expected": 2,
+      "structured_found": 2,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "invoices",
+            "record_id": 6740,
+            "field": "payment_status",
+            "value": "Unpaid"
+          },
+          "found": true,
+          "detail": "adapter payment_status='Unpaid'"
+        },
+        {
+          "expected": {
+            "table": "invoices",
+            "record_id": 6740,
+            "field": "due_date",
+            "value": "2026-09-15"
+          },
+          "found": true,
+          "detail": "adapter due_date='2026-09-15'"
+        }
+      ],
+      "documents_top5": [
+        "FAQ_C21_042",
+        "FAQ_C02_004",
+        "FAQ_C21_041",
+        "TRX_001",
+        "TRX_008"
+      ],
+      "expected_document_ids": [
+        "FAQ_C21_042",
+        "KB_C21_account_closure"
+      ],
+      "doc_hit@3": true,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_B04",
+      "question": "My KYC shows as expired - which documents do I have to submit to re-verify?",
+      "customer_id": 1031,
+      "expected_route": "both",
+      "expected_outcome": "answer",
+      "got_route": "both",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "kyc"
+      ],
+      "has_policy_component": true,
+      "concept_hint": "KYC & Identity Verification",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'My' + account fact 'KYC' -> personal data; concept 'KYC & Identity Verification' via 'kyc'; structured intents: ['kyc']; policy component: True",
+      "facts_returned": [
+        "customer_master:1031",
+        "kyc_records:14212"
+      ],
+      "structured_expected": 1,
+      "structured_found": 1,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "customer_master",
+            "record_id": 1031,
+            "field": "kyc_status",
+            "value": "Expired"
+          },
+          "found": true,
+          "detail": "adapter kyc_status='Expired'"
+        }
+      ],
+      "documents_top5": [
+        "TRX_007",
+        "SOP_C17_KYC_VERIFICATION",
+        "FAQ_C17_034",
+        "KB_C17_kyc_reverification",
+        "EML_008"
+      ],
+      "expected_document_ids": [
+        "FAQ_C17_033",
+        "FAQ_C17_034"
+      ],
+      "doc_hit@3": true,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_B05",
+      "question": "My plan ran out a long time ago - can I still get incoming calls, and how do I get service back?",
+      "customer_id": 1056,
+      "expected_route": "both",
+      "expected_outcome": "answer",
+      "got_route": "both",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "subscription"
+      ],
+      "has_policy_component": true,
+      "concept_hint": "Plan Catalogue",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'My' + account fact 'plan' -> personal data; concept 'Plan Catalogue' via 'plan'; structured intents: ['subscription']; policy component: True",
+      "facts_returned": [
+        "subscriptions:3056"
+      ],
+      "structured_expected": 2,
+      "structured_found": 2,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "subscriptions",
+            "record_id": 3056,
+            "field": "status",
+            "value": "Expired"
+          },
+          "found": true,
+          "detail": "adapter status='Expired'"
+        },
+        {
+          "expected": {
+            "table": "subscriptions",
+            "record_id": 3056,
+            "field": "expiry_date",
+            "value": "2025-09-22"
+          },
+          "found": true,
+          "detail": "adapter expiry_date='2025-09-22'"
+        }
+      ],
+      "documents_top5": [
+        "FAQ_C02_004",
+        "TRX_001",
+        "TRX_003",
+        "FAQ_C11_022",
+        "FAQ_C06_012"
+      ],
+      "expected_document_ids": [
+        "FAQ_C02_004",
+        "Policy_C02_plan_lifecycle"
+      ],
+      "doc_hit@3": true,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_B06",
+      "question": "My latest postpaid bill looks higher than my plan rental - what does it show, and how do I dispute it?",
+      "customer_id": 1003,
+      "expected_route": "both",
+      "expected_outcome": "answer",
+      "got_route": "both",
+      "got_outcome": "answer",
+      "structured_intents": [
+        "subscription",
+        "invoice"
+      ],
+      "has_policy_component": true,
+      "concept_hint": "Billing & Invoices",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'My' + account fact 'bill' -> personal data; concept 'Billing & Invoices' via 'bill'; structured intents: ['subscription', 'invoice']; policy component: True",
+      "facts_returned": [
+        "subscriptions:3003",
+        "invoices:5012",
+        "invoices:5011",
+        "invoices:5010"
+      ],
+      "structured_expected": 2,
+      "structured_found": 2,
+      "structured_detail": [
+        {
+          "expected": {
+            "table": "invoices",
+            "record_id": 5012,
+            "field": "total_amount",
+            "value": "1151.76"
+          },
+          "found": true,
+          "detail": "adapter total_amount='1151.76'"
+        },
+        {
+          "expected": {
+            "table": "invoices",
+            "record_id": 5012,
+            "field": "plan_charge",
+            "value": "899.00"
+          },
+          "found": true,
+          "detail": "adapter plan_charge='899.00'"
+        }
+      ],
+      "documents_top5": [
+        "KB_C04_bill_disputes",
+        "FAQ_C04_007",
+        "TRN_001",
+        "TARIFF_POSTPAID_2026H2",
+        "TRX_008"
+      ],
+      "expected_document_ids": [
+        "FAQ_C04_007",
+        "KB_C04_bill_disputes",
+        "Policy_C04_billing_disputes"
+      ],
+      "doc_hit@3": true,
+      "doc_hit@5": true,
+      "rerank_status": "crossencoder",
+      "blocked": []
+    },
+    {
+      "question_id": "RB_X01",
+      "question": "When does my plan expire and what was my last recharge?",
+      "customer_id": null,
+      "expected_route": "structured",
+      "expected_outcome": "needs_identity",
+      "got_route": "structured",
+      "got_outcome": "needs_identity",
+      "structured_intents": [
+        "recharge",
+        "subscription"
+      ],
+      "has_policy_component": false,
+      "concept_hint": "Plan Catalogue",
+      "graph_weight": 0.5,
+      "reasoning": "first-person 'my' + account fact 'plan' -> personal data; concept 'Plan Catalogue' via 'plan'; structured intents: ['recharge', 'subscription']; policy component: False; personal question without a session customer_id",
+      "facts_returned": [],
+      "structured_expected": 0,
+      "structured_found": 0,
+      "structured_detail": [],
+      "documents_top5": [],
+      "expected_document_ids": [],
+      "doc_hit@3": null,
+      "doc_hit@5": null,
+      "rerank_status": null,
+      "blocked": [
+        "needs_identity"
+      ]
+    },
+    {
+      "question_id": "RB_X02",
+      "question": "What was the last recharge on 9756865116 and did it succeed?",
+      "customer_id": 1042,
+      "expected_route": "structured",
+      "expected_outcome": "refuse_other_customer",
+      "got_route": "structured",
+      "got_outcome": "refuse_other_customer",
+      "structured_intents": [
+        "recharge"
+      ],
+      "has_policy_component": false,
+      "concept_hint": "Recharge",
+      "graph_weight": 0.15,
+      "reasoning": "no first-person reference -> not personal data; concept 'Recharge' via 'recharge'; structured intents: ['recharge']; policy component: False; question names data not belonging to the session customer: ['9756865116']",
+      "facts_returned": [],
+      "structured_expected": 0,
+      "structured_found": 0,
+      "structured_detail": [],
+      "documents_top5": [],
+      "expected_document_ids": [],
+      "doc_hit@3": null,
+      "doc_hit@5": null,
+      "rerank_status": null,
+      "blocked": [
+        "refuse_other_customer"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "summary": {
+    "questions": 24,
+    "verifier_pass": "24/24",
+    "citation_validity": "24/24",
+    "fact_inclusion": "29/30",
+    "fact_inclusion_rate": 0.9667,
+    "safety": {
+      "needs_identity": {
+        "pass": true,
+        "leaked": [],
+        "documents_cited": [
+          "D1",
+          "D2"
+        ]
+      },
+      "refuse_other_customer": {
+        "pass": true,
+        "leaked": []
+      }
+    },
+    "verifier_failures": []
+  },
+  "rows": [
+    {
+      "question_id": "RB_S01",
+      "question": "Has my last recharge gone through?",
+      "customer_id": 1042,
+      "answer": "Your latest recharge (4254) was for 399.00 with status SUCCESS on 2026-04-17 11:06:00, and the balance after it was 525.62 [F1]. An earlier recharge (6997) was for 99.00 with status SUCCESS on 2025-10-16 13:54:00, and the balance after it was 624.62 [F2]. An earlier recharge (7914) was for 149.00 with status SUCCESS on 2025-08-24 22:21:00, and the balance after it was 773.62 [F3].",
+      "citations": {
+        "F1": "structured_sql:recharge_transactions:4254",
+        "F2": "structured_sql:recharge_transactions:6997",
+        "F3": "structured_sql:recharge_transactions:7914"
+      },
+      "notices": [],
+      "route": "structured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "2/2"
+    },
+    {
+      "question_id": "RB_S02",
+      "question": "Did my most recent recharge go through, and for how much?",
+      "customer_id": 1056,
+      "answer": "Your latest recharge (4996) was for 949.00 with status FAILED on 2026-06-23 12:59:00, and the balance after it was 18.72 [F1]. An earlier recharge (7127) was for 849.00 with status REFUNDED on 2026-04-03 04:31:00, and the balance after it was 417.72 [F2]. An earlier recharge (7144) was for 479.00 with status SUCCESS on 2026-03-21 05:44:00, and the balance after it was 896.72 [F3].",
+      "citations": {
+        "F1": "structured_sql:recharge_transactions:4996",
+        "F2": "structured_sql:recharge_transactions:7127",
+        "F3": "structured_sql:recharge_transactions:7144"
+      },
+      "notices": [],
+      "route": "structured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "2/2"
+    },
+    {
+      "question_id": "RB_S03",
+      "question": "When does my current plan expire?",
+      "customer_id": 1042,
+      "answer": "Subscription 3042 (Star 199) has stored status Active and expiry_date 2026-10-03 [F1].",
+      "citations": {
+        "F1": "structured_sql:subscriptions:3042"
+      },
+      "notices": [],
+      "route": "structured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "2/2"
+    },
+    {
+      "question_id": "RB_S04",
+      "question": "Is my plan still active, and when did it run out?",
+      "customer_id": 1056,
+      "answer": "Subscription 3056 (Turbo 849) has stored status Expired and expiry_date 2025-09-22 [F1].",
+      "citations": {
+        "F1": "structured_sql:subscriptions:3056"
+      },
+      "notices": [],
+      "route": "structured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "2/2"
+    },
+    {
+      "question_id": "RB_S05",
+      "question": "Do I have any complaints that are still open, and what are they about?",
+      "customer_id": 1042,
+      "answer": "Ticket 12099 (SIM/Replacement Request) has stored status Open and was created 2026-08-02 13:00:00 [F1]. Ticket 12323 (SIM/SIM Not Working) has stored status Open and was created 2026-02-04 15:00:00 [F2]. Ticket 11335 (Billing/High Bill) has stored status InProgress and was created 2025-11-18 06:00:00 [F3].",
+      "citations": {
+        "F1": "structured_sql:tickets:12099",
+        "F2": "structured_sql:tickets:12323",
+        "F3": "structured_sql:tickets:11335"
+      },
+      "notices": [],
+      "route": "structured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "6/6"
+    },
+    {
+      "question_id": "RB_S06",
+      "question": "Is my latest bill paid or still pending?",
+      "customer_id": 1829,
+      "answer": "Invoice 6740 has total 581.65, due date 2026-09-15 and stored payment_status Unpaid [F1]. The records disagree: the stored status is Unpaid, but successful payments totalling 581.65 are on file for this invoice (derived comparison); a billing agent can confirm [F1]. Invoice 6739 has total 555.04, due date 2026-08-15 and stored payment_status Paid [F2]. Invoice 6738 has total 536.38, due date 2026-07-15 and stored payment_status Paid [F3].",
+      "citations": {
+        "F1": "structured_sql:invoices:6740",
+        "F2": "structured_sql:invoices:6739",
+        "F3": "structured_sql:invoices:6738"
+      },
+      "notices": [
+        "status_ledger_mismatch"
+      ],
+      "route": "structured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "3/3"
+    },
+    {
+      "question_id": "RB_S07",
+      "question": "What is my KYC status right now?",
+      "customer_id": 1031,
+      "answer": "Your KYC status (customer record 1031) is Expired [F1]. KYC record 14212 (Aadhaar) has status Expired, updated 2026-06-29 [F2].",
+      "citations": {
+        "F1": "structured_sql:customer_master:1031",
+        "F2": "structured_sql:kyc_records:14212"
+      },
+      "notices": [],
+      "route": "structured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "1/1"
+    },
+    {
+      "question_id": "RB_S08",
+      "question": "Are there any open complaints on my account?",
+      "customer_id": 1015,
+      "answer": "I found no tickets on your account.",
+      "citations": {},
+      "notices": [],
+      "route": "structured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "1/1"
+    },
+    {
+      "question_id": "RB_U01",
+      "question": "I've got a cashback deal and a bonus-data deal - can both be applied when I top up once?",
+      "customer_id": null,
+      "answer": "Here is what the retrieved documents say: \"If not, raise a ticket under Billing > Report Issue with both transaction references; approved refunds are credited to the original payment method or as account balance\" [D1]. \"Detailed Explanation Auto-detection is the default path (3-5 working days), and the manual ticket route exists specifically as the fallback for when auto-detection doesn't catch it — the two transaction references are needed precisely because it's a duplicate-charge case, so the system needs to see both transactions to link them\" [D1].",
+      "citations": {
+        "D1": "document:FAQ_C20_039"
+      },
+      "notices": [],
+      "route": "unstructured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "0/0"
+    },
+    {
+      "question_id": "RB_U02",
+      "question": "Once NovaTel agrees to give the money back, when does it land if I paid by UPI?",
+      "customer_id": null,
+      "answer": "Here is what the retrieved documents say: \"The two refund destinations have different timelines because they involve different systems — refunds to source (card/UPI/net banking) depend partly on the bank's own processing time on top of NovaTel's approval, while refunds to NovaTel Wallet or account balance stay entirely within NovaTel's systems, which is why they're much faster\" [D1]. \"| Detail | Value | |---|---| | Refund to source (card/UPI/net banking) | 5-7 working days after approval, subject to bank processing | | Refund to NovaTel Wallet or account balance | Instant to 24 hours | - The 5-7 day timeline for refunds to source includes the receiving bank's own processing time, which NovaTel doesn't control\" [D1].",
+      "citations": {
+        "D1": "document:FAQ_C20_040"
+      },
+      "notices": [],
+      "route": "unstructured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "0/0"
+    },
+    {
+      "question_id": "RB_U03",
+      "question": "Can I get a fixed public address for my home internet so I can reach my devices remotely?",
+      "customer_id": null,
+      "answer": "Here is what the retrieved documents say: \"This is explicitly a paid add-on rather than a standard feature, and the answer notes the intended use case — hosting or remote access — which explains why it isn't offered as default: most home broadband use doesn't need a fixed address exposed to the internet, but specific technical use cases do\" [D1]. \"Short Answer Static IP is available as a paid add-on on select broadband plans, primarily intended for hosting/remote-access use cases\" [D1].",
+      "citations": {
+        "D1": "document:FAQ_C25_050"
+      },
+      "notices": [],
+      "route": "unstructured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "0/0"
+    },
+    {
+      "question_id": "RB_U04",
+      "question": "Does NovaTel offer any help for customers who can't hear well?",
+      "customer_id": null,
+      "answer": "Here is what the retrieved documents say: \"Short Answer We offer SMS-based/relay customer support, a dedicated accessible IVR flow, and large-print/audio billing formats\" [D1]. \"| Detail | Value | |---|---| | Live support channels | SMS-based/relay customer support; dedicated accessible IVR flow | | Billing formats | Large-print and audio bill formats | | Where to flag needs | Profile > Accessibility Preferences | Related documents referenced in NovaTel's internal metadata for this topic: KB_C27_overview\" [D1].",
+      "citations": {
+        "D1": "document:FAQ_C27_053"
+      },
+      "notices": [],
+      "route": "unstructured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "0/0"
+    },
+    {
+      "question_id": "RB_U05",
+      "question": "How do I stop telemarketing texts and calls by sending a message?",
+      "customer_id": null,
+      "answer": "Here is what the retrieved documents say: \"the registered SIM | Confirm signal, then use Resend OTP after 30 seconds | | OTP still not received after resend | SMS not reaching the device despite normal signal | Whether Login via Missed Call is enabled as an alternative | Try Login via Missed Call if available | | OTP failures persist across multiple attempts | Handset's own SMS spam filter may be blocking service messages | Device spam-filter/blocked-senders settings | Check the device's SMS filter settings for blocked NovaTel numbers | Example Scenario Customer situation: A customer keeps getting 'OTP not received' when trying to log in to the app\" [D2].",
+      "citations": {
+        "D2": "document:FAQ_C13_025"
+      },
+      "notices": [],
+      "route": "unstructured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "0/0"
+    },
+    {
+      "question_id": "RB_U06",
+      "question": "How many months do my loyalty points stay valid, and what can I use them for?",
+      "customer_id": null,
+      "answer": "Here is what the retrieved documents say: \"Short Answer Loyalty points accrued through tenure and recharge activity are visible under Rewards in the app and can be redeemed for data vouchers, partner discounts, or plan upgrades\" [D1]. \"Points typically expire 12 months after being credited if unused\" [D1].",
+      "citations": {
+        "D1": "document:FAQ_C15_029"
+      },
+      "notices": [],
+      "route": "unstructured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "0/0"
+    },
+    {
+      "question_id": "RB_U07",
+      "question": "Two of my connections are under separate profiles - how do I put them together, and how long does it take?",
+      "customer_id": null,
+      "answer": "Here is what the retrieved documents say: \"Merging is restricted to accounts belonging to the same KYC-verified person specifically because it changes who is legally associated with which connections — that's also why it goes through a request-and-review flow (3-5 working days) rather than being instant like a profile-field edit\" [D1]. \"Short Answer Account merging is supported only for connections held by the same KYC-verified individual\" [D1].",
+      "citations": {
+        "D1": "document:FAQ_C01_002"
+      },
+      "notices": [],
+      "route": "unstructured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "0/0"
+    },
+    {
+      "question_id": "RB_U08",
+      "question": "How do I turn on fingerprint unlock for the NovaTel app, and does it carry over to my other phones?",
+      "customer_id": null,
+      "answer": "Here is what the retrieved documents say: \"Short Answer Go to App Settings > Security > Biometric Login and enable fingerprint or face unlock, following your device's OS prompts\" [D1]. \"| Detail | Value | |---|---| | Where | App Settings > Security > Biometric Login | | Options | Fingerprint or face unlock, per device OS prompts | | Scope | Replaces password entry on that device only | - Enabling biometric login on one device does not enable it on other devices signed into the same account\" [D1].",
+      "citations": {
+        "D1": "document:FAQ_C13_026"
+      },
+      "notices": [],
+      "route": "unstructured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "0/0"
+    },
+    {
+      "question_id": "RB_B01",
+      "question": "My KYC is showing pending - will my number get disconnected, and what do I need to do?",
+      "customer_id": 1042,
+      "answer": "Your KYC status (customer record 1042) is Pending [F1]. There is no kyc_records row on file for you; the status on your customer record is the one that applies [F2]. Here is what the retrieved documents say: \"Key Details | Detail | Value | |---|---| | Possible causes | Pending KYC verification; mismatch in submitted documents; provisioning delay | | Where to check | SIM Services > Activation Status | | If unresolved | Contact care with application/reference number | Troubleshooting | Symptom | Possible Cause | Diagnostic Check | Recommended Action | |---|---|---|---| | No Service' after 24h, Activation Status shows pending KYC | KYC verification not yet complete | KYC status specifically | Complete or follow up on the KYC verification step | | No Service' after 24h, Activation Status shows\" [D3]. \"Short Answer This can indicate pending KYC verification, a mismatch in submitted documents, or a provisioning delay\" [D3]. The retrieved documents don't state anything about disconnect.",
+      "citations": {
+        "F1": "structured_sql:customer_master:1042",
+        "F2": "structured_sql:kyc_records:none",
+        "D3": "document:FAQ_C22_044"
+      },
+      "notices": [
+        "no kyc_records row"
+      ],
+      "route": "both",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "2/2"
+    },
+    {
+      "question_id": "RB_B02",
+      "question": "My last recharge didn't go through - what happens to the money, and what should I do?",
+      "customer_id": 1056,
+      "answer": "Your latest recharge (4996) was for 949.00 with status FAILED on 2026-06-23 12:59:00, and the balance after it was 18.72 [F1]. An earlier recharge (7127) was for 849.00 with status REFUNDED on 2026-04-03 04:31:00, and the balance after it was 417.72 [F2]. An earlier recharge (7144) was for 479.00 with status SUCCESS on 2026-03-21 05:44:00, and the balance after it was 896.72 [F3]. Here is what the retrieved documents say: \"Short Answer This usually happens due to a bank/payment-gateway timeout after the debit was confirmed but before NovaTel's system received acknowledgement\" [D2]. \"In most cases the recharge auto-credits within 30-60 minutes\" [D2].",
+      "citations": {
+        "F1": "structured_sql:recharge_transactions:4996",
+        "F2": "structured_sql:recharge_transactions:7127",
+        "F3": "structured_sql:recharge_transactions:7144",
+        "D2": "document:FAQ_C03_005"
+      },
+      "notices": [],
+      "route": "both",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "2/2"
+    },
+    {
+      "question_id": "RB_B03",
+      "question": "My latest bill is unpaid - if I don't pay, will my number get deactivated, and could I get it back?",
+      "customer_id": 1829,
+      "answer": "Invoice 6740 has total 581.65, due date 2026-09-15 and stored payment_status Unpaid [F1]. The records disagree: the stored status is Unpaid, but successful payments totalling 581.65 are on file for this invoice (derived comparison); a billing agent can confirm [F1]. Invoice 6739 has total 555.04, due date 2026-08-15 and stored payment_status Paid [F2]. Invoice 6738 has total 536.38, due date 2026-07-15 and stored payment_status Paid [F3]. Here is what the retrieved documents say: \"Closure isn't instant even once requested — outstanding dues and a final bill need to be settled first, and the regulatory cooling-off period after that (before the number is recycled) exists as a safeguard, mirroring the same kind of grace-period logic used for non-payment deactivation\" [D3]. \"This is a time-bounded second chance rather than an indefinite one — within the retention window (commonly up to 90 days), clearing dues and any required re-verification can bring the number back, but the same window also defines the point of no return, after which the number is permanently released and cannot be recovered by any process\" [D1].",
+      "citations": {
+        "F1": "structured_sql:invoices:6740",
+        "F2": "structured_sql:invoices:6739",
+        "F3": "structured_sql:invoices:6738",
+        "D3": "document:FAQ_C21_041",
+        "D1": "document:FAQ_C21_042"
+      },
+      "notices": [
+        "status_ledger_mismatch"
+      ],
+      "route": "both",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "2/2"
+    },
+    {
+      "question_id": "RB_B04",
+      "question": "My KYC shows as expired - which documents do I have to submit to re-verify?",
+      "customer_id": 1031,
+      "answer": "Your KYC status (customer record 1031) is Expired [F1]. KYC record 14212 (Aadhaar) has status Expired, updated 2026-06-29 [F2]. Here is what the retrieved documents say: \"New Connection and Re-Verification KYC Procedure Document ID: SOP_C17_KYC_VERIFICATION Category: C17 — KYC & Identity Verification Department: Compliance Customer Scope: all Version: 1.0 Last Updated: 2026-08-08 Source Authority: Internal Knowledge Base Purpose To ensure all new connections and periodic re-verifications meet regulatory KYC standards\" [D2]. \"Reject and request re-submission if any document is illegible, expired, or mismatched\" [D2].",
+      "citations": {
+        "F1": "structured_sql:customer_master:1031",
+        "F2": "structured_sql:kyc_records:14212",
+        "D2": "document:SOP_C17_KYC_VERIFICATION"
+      },
+      "notices": [],
+      "route": "both",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "1/1"
+    },
+    {
+      "question_id": "RB_B05",
+      "question": "My plan ran out a long time ago - can I still get incoming calls, and how do I get service back?",
+      "customer_id": 1056,
+      "answer": "Subscription 3056 (Turbo 849) has stored status Expired and expiry_date 2025-09-22 [F1]. Here is what the retrieved documents say: \"Short Answer Your outgoing services (calls, SMS, data) are suspended, though you can typically still receive incoming calls for a grace period (commonly 15-90 days depending on the plan) before the number is recycled per licence conditions\" [D1]. \"| Detail | Value | |---|---| | Immediate effect | Outgoing calls/SMS/data suspended | | Grace period | Typically 15-90 days, incoming calls may still work | | After grace period | Number is recycled per licence conditions | - The exact grace-period length depends on the plan, which is why it's given as a range rather than a fixed number\" [D1].",
+      "citations": {
+        "F1": "structured_sql:subscriptions:3056",
+        "D1": "document:FAQ_C02_004"
+      },
+      "notices": [],
+      "route": "both",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "2/2"
+    },
+    {
+      "question_id": "RB_B06",
+      "question": "My latest postpaid bill looks higher than my plan rental - what does it show, and how do I dispute it?",
+      "customer_id": 1003,
+      "answer": "Subscription 3003 (Weekend Special 399) has stored status Expired and expiry_date 2025-10-12 [F1]. Invoice 5012 has total 1151.76, due date 2026-09-15 and stored payment_status Paid [F2]. Invoice 5011 has total 1066.24, due date 2026-08-15 and stored payment_status Unpaid [F3]. The records disagree: the stored status is Unpaid, but successful payments totalling 1066.24 are on file for this invoice (derived comparison); a billing agent can confirm [F3]. Invoice 5010 has total 1186.36, due date 2026-07-15 and stored payment_status Paid [F4]. Here is what the retrieved documents say: \"Key Details | Detail | Value | |---|---| | Possible causes | Pro-rated mid-cycle plan change; roaming usage; premium/IVR services; GST; usage beyond fair-usage allowance | | Where to see the breakdown | Billing > View Bill Details | Troubleshooting | Symptom | Possible Cause | Recommended Action | |---|---|---| | Bill higher, changed plan mid-cycle | Pro-rated charge for the plan change | Check the itemised breakdown for a pro-ration line | | Bill higher, travelled recently | Roaming usage charges | Check the breakdown for\" [D2]. \"Short Answer Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance\" [D2].",
+      "citations": {
+        "F1": "structured_sql:subscriptions:3003",
+        "F2": "structured_sql:invoices:5012",
+        "F3": "structured_sql:invoices:5011",
+        "F4": "structured_sql:invoices:5010",
+        "D2": "document:FAQ_C04_007"
+      },
+      "notices": [
+        "status_ledger_mismatch"
+      ],
+      "route": "both",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "1/2"
+    },
+    {
+      "question_id": "RB_X01",
+      "question": "When does my plan expire and what was my last recharge?",
+      "customer_id": null,
+      "answer": "Personal account details can only be looked up once you are identified, so I can't check your account yet. I found no recharges on your account. I found no subscription on your account. The information below is general and is not about your account. Here is what the retrieved documents say: \"promotional) run on different validity cycles — 28 days for most standard packs versus 30/56/84/365 days for some promotional ones — the safest way to know your exact expiry is always the in-app plan summary rather than assuming a fixed 28-day cycle applies to every recharge\" [D2]. \"Short Answer Your outgoing services (calls, SMS, data) are suspended, though you can typically still receive incoming calls for a grace period (commonly 15-90 days depending on the plan) before the number is recycled per licence conditions\" [D1].",
+      "citations": {
+        "D2": "document:FAQ_C02_003",
+        "D1": "document:FAQ_C02_004"
+      },
+      "notices": [
+        "needs_identity",
+        "documents_are_generic"
+      ],
+      "route": "structured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "0/0"
+    },
+    {
+      "question_id": "RB_X02",
+      "question": "What was the last recharge on 9756865116 and did it succeed?",
+      "customer_id": 1042,
+      "answer": "I can only share account details for the signed-in account, so I can't look up another number or person's information.",
+      "citations": {},
+      "notices": [
+        "refuse_other_customer"
+      ],
+      "route": "structured",
+      "mode": "extractive",
+      "verifier_ok": true,
+      "verifier_problems": [],
+      "fact_inclusion": "0/0"
+    }
+  ]
+}

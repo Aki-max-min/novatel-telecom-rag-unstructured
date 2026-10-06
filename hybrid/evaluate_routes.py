@@ -22,6 +22,8 @@ Metrics
 Run from the repo root in the rag-api environment:
     python hybrid/evaluate_routes.py              # first run -> first_run_phase7.json (refuses to overwrite it)
     python hybrid/evaluate_routes.py --amended    # Phase 8c post-hoc run -> amended_run_phase8.json
+    python hybrid/evaluate_routes.py --amended2   # Phase 8d post-hoc run -> amended2_run_phase8d.json
+Earlier result files are never overwritten.
 """
 
 import json
@@ -41,6 +43,7 @@ from structured_adapter import open_readonly  # noqa: E402
 BENCH = Path(__file__).resolve().parent / "benchmark" / "route_benchmark.json"
 OUT = Path(__file__).resolve().parent / "benchmark" / "first_run_phase7.json"
 AMENDED_OUT = Path(__file__).resolve().parent / "benchmark" / "amended_run_phase8.json"
+AMENDED2_OUT = Path(__file__).resolve().parent / "benchmark" / "amended2_run_phase8d.json"
 ROUTES = ["structured", "unstructured", "both"]
 COUNT_INTENT = {"tickets": "tickets", "kyc_records": "kyc"}
 
@@ -92,10 +95,11 @@ def match_expected(item, facts, intents_run):
 
 
 def main():
-    amended = "--amended" in sys.argv[1:]
-    out_path = AMENDED_OUT if amended else OUT
-    if not amended and OUT.exists():
-        raise SystemExit(f"{OUT.name} already exists: the first run is frozen. Use --amended for a post-hoc run.")
+    amended2 = "--amended2" in sys.argv[1:]
+    amended = "--amended" in sys.argv[1:] or amended2
+    out_path = AMENDED2_OUT if amended2 else AMENDED_OUT if amended else OUT
+    if out_path.exists():
+        raise SystemExit(f"{out_path.name} already exists: results files are never overwritten.")
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     questions = json.loads(BENCH.read_text(encoding="utf-8"))["questions"]
@@ -108,6 +112,7 @@ def main():
     fact_found = fact_total = 0
     docs = {"unstructured": [0, 0, 0], "both": [0, 0, 0]}  # hit3, hit5, n
     safety = {}
+    safety_docs = {}
 
     for item in questions:
         qid, cid = item["question_id"], item["customer_id"]
@@ -161,8 +166,11 @@ def main():
                                "reason": plan["reasoning"]})
 
         if item["expected_outcome"] != "answer":
+            # facts must always be empty; documents must be empty only for refuse_other_customer
+            # (needs_identity may return generic documents since Phase 8d)
             clean = not facts and (item["expected_outcome"] != "refuse_other_customer" or not documents)
             safety[item["expected_outcome"]] = bool(o_ok and clean)
+            safety_docs[item["expected_outcome"]] = len(documents)
             if not (o_ok and clean):
                 misses.append({"question_id": qid, "kind": "safety", "question": item["question"],
                                "expected": item["expected_outcome"], "got": plan["outcome"],
@@ -187,9 +195,10 @@ def main():
     matrix = [[confusion[e][g] for g in ROUTES] for e in ROUTES]
     summary = {
         "post_hoc": amended,
-        "note": ("POST-HOC AMENDED RUN (Phase 8c): made after seeing the first-run results of this frozen "
-                 "benchmark (first_run_phase7.json, commit bde1a4e); gate/router fixes and the rerank choice "
-                 "were motivated by what that run showed. See docs/E13_phase8_posthoc_log.md.") if amended else
+        "note": ("POST-HOC AMENDED RUN (" + ("Phase 8d, amended-2" if amended2 else "Phase 8c") + "): made after "
+                 "seeing earlier results of this frozen benchmark (first_run_phase7.json, commit bde1a4e"
+                 + ("; amended_run_phase8.json" if amended2 else "") + "); gate/router fixes and the rerank "
+                 "choice were motivated by what those runs showed. See docs/E13_phase8_posthoc_log.md.") if amended else
                 "FIRST RUN, UNTUNED. Router/adapter were designed without reading this benchmark's file.",
         "questions": n,
         "route_accuracy": f"{route_ok}/{n}", "route_confusion_matrix": {"order": ROUTES, "rows_expected": matrix},
@@ -199,6 +208,7 @@ def main():
         "leakage": len(leaks), "leaks": leaks,
         "document_hits": {k: {"hit@3": v[0], "hit@5": v[1], "n": v[2]} for k, v in docs.items()},
         "safety": safety,
+        "safety_documents_returned": safety_docs,
         "miss_count": len(misses),
     }
     out_path.write_text(json.dumps({"post_hoc": amended, "summary": summary, "misses": misses,
@@ -207,7 +217,8 @@ def main():
 
     if leaks:
         print(f"!!! LEAKAGE DETECTED: {len(leaks)} fact(s) not owned by the session customer: {leaks}")
-    print("===== E13 PHASE 8c - frozen benchmark, AMENDED RUN (post-hoc) =====" if amended
+    print(("===== E13 PHASE 8d - frozen benchmark, AMENDED-2 RUN (post-hoc) =====" if amended2
+           else "===== E13 PHASE 8c - frozen benchmark, AMENDED RUN (post-hoc) =====") if amended
           else "===== E13 PHASE 7 — frozen benchmark, FIRST RUN (untuned) =====")
     print(f"route accuracy: {route_ok}/{n}   confusion (rows expected, cols got; order {ROUTES}):")
     for e, row in zip(ROUTES, matrix):
@@ -216,6 +227,7 @@ def main():
     print(f"structured fact recall: {fact_found}/{fact_total} = {summary['structured_fact_recall']['recall']}    leakage: {len(leaks)}")
     u, b = docs["unstructured"], docs["both"]
     print(f"document hit@3 / hit@5 (unstructured items): {u[0]}/{u[2]} / {u[1]}/{u[2]}   (both items): {b[0]}/{b[2]} / {b[1]}/{b[2]}")
+    print(f"safety documents returned: {safety_docs}")
     print(f"safety: needs_identity {'pass' if safety.get('needs_identity') else 'FAIL'}   "
           f"refuse_other_customer {'pass' if safety.get('refuse_other_customer') else 'FAIL'}")
     print(f"misses ({len(misses)}):")

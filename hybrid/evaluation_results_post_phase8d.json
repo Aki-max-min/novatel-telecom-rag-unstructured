@@ -1,0 +1,1986 @@
+{
+  "note": "Not tuned or held out. Gate thresholds unchanged from Phase 2.",
+  "max_pool": 20,
+  "top_k": 5,
+  "runs": [
+    {
+      "name": "Main benchmark",
+      "questions": 29,
+      "scores": {
+        "vector_only": {
+          "recall@1": 0.7586,
+          "recall@3": 0.931,
+          "recall@5": 1.0,
+          "mrr@5": 0.8529,
+          "precision@3": 0.4713
+        },
+        "graph_blanket": {
+          "recall@1": 0.3793,
+          "recall@3": 0.8621,
+          "recall@5": 0.8966,
+          "mrr@5": 0.6236,
+          "precision@3": 0.4023
+        },
+        "e13_fusion_only": {
+          "recall@1": 0.6552,
+          "recall@3": 0.8966,
+          "recall@5": 0.931,
+          "mrr@5": 0.7787,
+          "precision@3": 0.4253
+        },
+        "e13_hybrid": {
+          "recall@1": 0.8276,
+          "recall@3": 1.0,
+          "recall@5": 1.0,
+          "mrr@5": 0.908,
+          "precision@3": 0.5287
+        }
+      },
+      "graph_docs_without_chunks_dropped": 0,
+      "per_question": [
+        {
+          "question_id": "Q01",
+          "question": "I don't have access to my old registered phone number anymore. How can I update the number on my account?",
+          "expected": [
+            "FAQ_C01_001"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": null,
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'I' but no account fact -> policy-style, not personal data; no concept keyword matched"
+          },
+          "graph_weight": 0.0,
+          "vector_top5": [
+            "FAQ_C01_001",
+            "SOP_C05_SIM_REPLACEMENT",
+            "FAQ_C29_057",
+            "TRX_004",
+            "TRX_002"
+          ],
+          "graph_blanket_top5": [
+            "FAQ_C01_001",
+            "SOP_C05_SIM_REPLACEMENT",
+            "FAQ_C29_057",
+            "TRX_004",
+            "TRX_002"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C01_001",
+            "SOP_C05_SIM_REPLACEMENT",
+            "FAQ_C29_057",
+            "TRX_004",
+            "TRX_002"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C01_001",
+            "TRX_002",
+            "SOP_C05_SIM_REPLACEMENT",
+            "TRX_004",
+            "FAQ_C29_057"
+          ],
+          "rerank_scores": [
+            6.806,
+            -5.084,
+            -8.248,
+            -5.728,
+            -6.276
+          ]
+        },
+        {
+          "question_id": "Q02",
+          "question": "How can I check when my current prepaid plan will stop being valid?",
+          "expected": [
+            "FAQ_C02_003",
+            "KB_C02_plan_expiry",
+            "Policy_C02_plan_lifecycle"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Plan Catalogue",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'I' + fact 'plan' but no status-query frame -> not personal data; concept 'Plan Catalogue' via 'plan'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "FAQ_C02_003",
+            "Policy_C02_plan_lifecycle",
+            "KB_C02_plan_expiry",
+            "TARIFF_POSTPAID_2026H2",
+            "TARIFF_PREPAID_2026H2"
+          ],
+          "graph_blanket_top5": [
+            "KB_C22_new_activation_delay",
+            "KB_C02_plan_expiry",
+            "FAQ_C02_004",
+            "KB_C08_outage_status_check",
+            "FAQ_C02_003"
+          ],
+          "e13_fusion_only_top5": [
+            "KB_C02_plan_expiry",
+            "KB_C22_new_activation_delay",
+            "FAQ_C02_004",
+            "KB_C08_outage_status_check",
+            "FAQ_C02_003"
+          ],
+          "e13_hybrid_top5": [
+            "KB_C02_plan_expiry",
+            "FAQ_C02_003",
+            "Policy_C02_plan_lifecycle",
+            "FAQ_C02_004",
+            "TARIFF_PREPAID_2026H2"
+          ],
+          "rerank_scores": [
+            -3.072,
+            3.585,
+            -2.634,
+            -4.256,
+            -3.469
+          ]
+        },
+        {
+          "question_id": "Q03",
+          "question": "Money was deducted when I tried to recharge, but the recharge hasn't appeared on my account. What should I do?",
+          "expected": [
+            "FAQ_C03_005",
+            "KB_C03_recharge_failures",
+            "TRX_001"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Recharge",
+            "hypothetical_frame": true,
+            "reasoning": "hypothetical/conditional frame 'when I' -> a scenario or policy question, not personal data; concept 'Recharge' via 'recharge'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "TRX_001",
+            "SOP_C03_RECHARGE_FAILURE",
+            "EML_002",
+            "KB_C03_recharge_failures",
+            "FAQ_C03_005"
+          ],
+          "graph_blanket_top5": [
+            "SOP_C03_RECHARGE_FAILURE",
+            "KB_C03_recharge_failures",
+            "SOP_C20_REFUND_PROCESSING",
+            "SOP_C10_VAS_DISPUTE",
+            "KB_C20_refund_processing"
+          ],
+          "e13_fusion_only_top5": [
+            "SOP_C03_RECHARGE_FAILURE",
+            "KB_C03_recharge_failures",
+            "SOP_C20_REFUND_PROCESSING",
+            "SOP_C10_VAS_DISPUTE",
+            "KB_C20_refund_processing"
+          ],
+          "e13_hybrid_top5": [
+            "SOP_C03_RECHARGE_FAILURE",
+            "KB_C03_recharge_failures",
+            "TRX_001",
+            "FAQ_C03_005",
+            "SOP_C20_REFUND_PROCESSING"
+          ],
+          "rerank_scores": [
+            -1.734,
+            -4.221,
+            -1.366,
+            -0.235,
+            -9.691
+          ]
+        },
+        {
+          "question_id": "Q04",
+          "question": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
+          "expected": [
+            "FAQ_C04_007",
+            "KB_C04_bill_disputes"
+          ],
+          "gate": {
+            "needs_personal_data": true,
+            "concept_hint": "Billing & Invoices",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'my' + account fact 'bill' + status-query frame 'is my' -> personal data; concept 'Billing & Invoices' via 'bill'"
+          },
+          "graph_weight": 0.5,
+          "vector_top5": [
+            "FAQ_C04_007",
+            "KB_C04_bill_disputes",
+            "TARIFF_POSTPAID_2026H2",
+            "TRX_008",
+            "INC_C04_INC_2026_0163"
+          ],
+          "graph_blanket_top5": [
+            "KB_C04_bill_disputes",
+            "TRN_001",
+            "FAQ_C04_007",
+            "TARIFF_POSTPAID_2026H2",
+            "TRX_008"
+          ],
+          "e13_fusion_only_top5": [
+            "KB_C04_bill_disputes",
+            "TRN_001",
+            "FAQ_C04_007",
+            "TARIFF_POSTPAID_2026H2",
+            "TRX_008"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C04_007",
+            "KB_C04_bill_disputes",
+            "TARIFF_POSTPAID_2026H2",
+            "FAQ_C03_006",
+            "TRN_001"
+          ],
+          "rerank_scores": [
+            5.633,
+            -7.951,
+            -5.434,
+            -6.545,
+            -9.984
+          ]
+        },
+        {
+          "question_id": "Q05",
+          "question": "I put my SIM into another phone and now it says there is no network. What can I do?",
+          "expected": [
+            "FAQ_C05_009",
+            "KB_C05_sim_swap_troubleshooting"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "SIM Card Services",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'I' but no account fact -> policy-style, not personal data; concept 'SIM Card Services' via 'sim'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "FAQ_C05_009",
+            "MAN_ESIM_001",
+            "FAQ_C29_057",
+            "MAN_DEVICE_VOLTE_001",
+            "SOP_C05_SIM_REPLACEMENT"
+          ],
+          "graph_blanket_top5": [
+            "SOP_C05_SIM_REPLACEMENT",
+            "FAQ_C05_009",
+            "MAN_ESIM_001",
+            "TRX_002",
+            "SOP_C22_ACTIVATION_DELAY"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C05_009",
+            "MAN_ESIM_001",
+            "SOP_C05_SIM_REPLACEMENT",
+            "TRX_002",
+            "SOP_C22_ACTIVATION_DELAY"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C05_009",
+            "TRX_002",
+            "FAQ_C29_057",
+            "MAN_ESIM_001",
+            "SOP_C05_SIM_REPLACEMENT"
+          ],
+          "rerank_scores": [
+            3.192,
+            -6.23,
+            -1.643,
+            -8.012,
+            -8.353
+          ]
+        },
+        {
+          "question_id": "Q06",
+          "question": "If I move my existing number to NovaTel, how long will the porting process take?",
+          "expected": [
+            "FAQ_C06_011",
+            "KB_C06_porting_process"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Number Portability",
+            "hypothetical_frame": true,
+            "reasoning": "first-person 'I' but no account fact -> policy-style, not personal data; concept 'Number Portability' via 'porting'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "TRX_004",
+            "FAQ_C06_012",
+            "EML_004",
+            "FAQ_C01_001",
+            "FAQ_C06_011"
+          ],
+          "graph_blanket_top5": [
+            "FAQ_C06_011",
+            "TRX_004",
+            "FAQ_C06_012",
+            "EML_004",
+            "FAQ_C01_001"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C06_011",
+            "TRX_004",
+            "FAQ_C06_012",
+            "EML_004",
+            "FAQ_C01_001"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C06_011",
+            "FAQ_C06_012",
+            "TRX_004",
+            "EML_004",
+            "FAQ_C01_001"
+          ],
+          "rerank_scores": [
+            6.253,
+            2.604,
+            1.206,
+            0.576,
+            -0.584
+          ]
+        },
+        {
+          "question_id": "Q07",
+          "question": "I'm travelling outside India. How do I turn on international roaming before I leave?",
+          "expected": [
+            "FAQ_C07_013",
+            "KB_C07_roaming_activation"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Roaming",
+            "hypothetical_frame": true,
+            "reasoning": "how-to phrasing without 'my' -> treated as a procedure question, not personal data; concept 'Roaming' via 'roaming'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "FAQ_C07_013",
+            "KB_C07_roaming_activation",
+            "FAQ_C07_014",
+            "TARIFF_POSTPAID_2026H2",
+            "FAQ_C12_024"
+          ],
+          "graph_blanket_top5": [
+            "FAQ_C07_014",
+            "KB_C07_roaming_activation",
+            "TARIFF_POSTPAID_2026H2",
+            "TARIFF_PREPAID_2026H2",
+            "FAQ_C07_013"
+          ],
+          "e13_fusion_only_top5": [
+            "KB_C07_roaming_activation",
+            "FAQ_C07_014",
+            "FAQ_C07_013",
+            "TARIFF_POSTPAID_2026H2",
+            "INC_C07_INC_2026_0190"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C07_013",
+            "KB_C07_roaming_activation",
+            "FAQ_C07_014",
+            "TARIFF_POSTPAID_2026H2",
+            "TARIFF_PREPAID_2026H2"
+          ],
+          "rerank_scores": [
+            6.235,
+            -4.999,
+            -3.153,
+            -7.198,
+            -9.932
+          ]
+        },
+        {
+          "question_id": "Q08",
+          "question": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+          "expected": [
+            "FAQ_C08_015",
+            "KB_C08_outage_status_check"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Network Outages",
+            "hypothetical_frame": false,
+            "reasoning": "how-to phrasing without 'my' -> treated as a procedure question, not personal data; concept 'Network Outages' via 'outage'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "MAN_ESIM_001",
+            "FAQ_C08_015",
+            "MAN_ROUTER_001",
+            "FAQ_C12_023",
+            "MAN_DEVICE_VOLTE_001"
+          ],
+          "graph_blanket_top5": [
+            "MAN_ESIM_001",
+            "FAQ_C08_015",
+            "MAN_ROUTER_001",
+            "FAQ_C12_023",
+            "MAN_DEVICE_VOLTE_001"
+          ],
+          "e13_fusion_only_top5": [
+            "MAN_ESIM_001",
+            "FAQ_C08_015",
+            "MAN_ROUTER_001",
+            "FAQ_C12_023",
+            "MAN_DEVICE_VOLTE_001"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C08_015",
+            "MAN_ESIM_001",
+            "FAQ_C11_022",
+            "MAN_ROUTER_001",
+            "MAN_DEVICE_VOLTE_001"
+          ],
+          "rerank_scores": [
+            3.703,
+            -2.113,
+            2.012,
+            -2.625,
+            -2.481
+          ]
+        },
+        {
+          "question_id": "Q09",
+          "question": "My mobile internet has become much slower than usual. Could a data usage limit be causing this?",
+          "expected": [
+            "FAQ_C09_017",
+            "FAQ_C09_018",
+            "KB_C09_fup_data_speed"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Usage Records",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'My' + fact 'data usage' but no status-query frame -> not personal data; concept 'Usage Records' via 'data usage'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "TRX_005",
+            "FAQ_C09_017",
+            "KB_C09_fup_data_speed",
+            "EML_006",
+            "INC_C09_INC_2026_0158"
+          ],
+          "graph_blanket_top5": [
+            "TRX_005",
+            "FAQ_C09_017",
+            "KB_C09_fup_data_speed",
+            "EML_006",
+            "INC_C09_INC_2026_0158"
+          ],
+          "e13_fusion_only_top5": [
+            "TRX_005",
+            "FAQ_C09_017",
+            "KB_C09_fup_data_speed",
+            "EML_006",
+            "INC_C09_INC_2026_0158"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C09_017",
+            "TRX_005",
+            "KB_C09_fup_data_speed",
+            "INC_C09_INC_2026_0158",
+            "EML_006"
+          ],
+          "rerank_scores": [
+            1.412,
+            -1.205,
+            -6.922,
+            -8.165,
+            -9.636
+          ]
+        },
+        {
+          "question_id": "Q10",
+          "question": "I was subscribed to a service I don't remember requesting. How can I cancel it?",
+          "expected": [
+            "FAQ_C10_019",
+            "SOP_C10_VAS_DISPUTE"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": null,
+            "hypothetical_frame": false,
+            "reasoning": "how-to phrasing without 'my' -> treated as a procedure question, not personal data; no concept keyword matched"
+          },
+          "graph_weight": 0.0,
+          "vector_top5": [
+            "FAQ_C10_019",
+            "KB_C25_ftth_fault_diagnosis",
+            "SOP_C10_VAS_DISPUTE",
+            "FAQ_C21_041",
+            "TRX_001"
+          ],
+          "graph_blanket_top5": [
+            "SOP_C10_VAS_DISPUTE",
+            "FAQ_C10_019",
+            "KB_C25_ftth_fault_diagnosis",
+            "FAQ_C21_041",
+            "TRX_001"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C10_019",
+            "KB_C25_ftth_fault_diagnosis",
+            "SOP_C10_VAS_DISPUTE",
+            "FAQ_C21_041",
+            "TRX_001"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C10_019",
+            "FAQ_C21_041",
+            "KB_C25_ftth_fault_diagnosis",
+            "SOP_C10_VAS_DISPUTE",
+            "TRX_001"
+          ],
+          "rerank_scores": [
+            -5.517,
+            -7.391,
+            -9.711,
+            -9.534,
+            -8.853
+          ]
+        },
+        {
+          "question_id": "Q11",
+          "question": "How much will I be charged if I call or send an SMS to a number in another country?",
+          "expected": [
+            "FAQ_C11_021"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": null,
+            "hypothetical_frame": true,
+            "reasoning": "first-person 'I' but no account fact -> policy-style, not personal data; no concept keyword matched"
+          },
+          "graph_weight": 0.0,
+          "vector_top5": [
+            "FAQ_C11_021",
+            "FAQ_C07_014",
+            "FAQ_C11_022",
+            "FAQ_C04_007",
+            "FAQ_C04_008"
+          ],
+          "graph_blanket_top5": [
+            "FAQ_C11_022",
+            "FAQ_C11_021",
+            "FAQ_C04_007",
+            "FAQ_C04_008",
+            "TARIFF_POSTPAID_2026H2"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C11_021",
+            "FAQ_C07_014",
+            "FAQ_C11_022",
+            "FAQ_C04_007",
+            "FAQ_C04_008"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C11_021",
+            "FAQ_C07_014",
+            "FAQ_C11_022",
+            "FAQ_C02_004",
+            "FAQ_C04_007"
+          ],
+          "rerank_scores": [
+            -1.728,
+            -6.501,
+            -6.509,
+            -8.879,
+            -11.252
+          ]
+        },
+        {
+          "question_id": "Q12",
+          "question": "How do I check whether my handset supports NovaTel 5G and VoLTE?",
+          "expected": [
+            "FAQ_C12_023",
+            "FAQ_C12_024",
+            "MAN_DEVICE_VOLTE_001"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Device Compatibility",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'I' but no account fact -> policy-style, not personal data; concept 'Device Compatibility' via 'handset+5g'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "FAQ_C12_023",
+            "MAN_DEVICE_VOLTE_001",
+            "FAQ_C12_024",
+            "FAQ_C09_017",
+            "FAQ_C24_047"
+          ],
+          "graph_blanket_top5": [
+            "FAQ_C12_023",
+            "FAQ_C12_024",
+            "MAN_DEVICE_VOLTE_001",
+            "FAQ_C09_017",
+            "FAQ_C24_047"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C12_023",
+            "FAQ_C12_024",
+            "MAN_DEVICE_VOLTE_001",
+            "FAQ_C09_017",
+            "FAQ_C24_047"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C12_023",
+            "MAN_DEVICE_VOLTE_001",
+            "FAQ_C12_024",
+            "FAQ_C09_017",
+            "MAN_APP_001"
+          ],
+          "rerank_scores": [
+            4.3,
+            4.467,
+            3.27,
+            -0.392,
+            -2.677
+          ]
+        },
+        {
+          "question_id": "Q13",
+          "question": "The OTP for signing into the My NovaTel app isn't arriving. How can I log in?",
+          "expected": [
+            "FAQ_C13_025",
+            "KB_C13_selfcare_login_issues"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": null,
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'My' but no account fact -> policy-style, not personal data; no concept keyword matched"
+          },
+          "graph_weight": 0.0,
+          "vector_top5": [
+            "MAN_APP_001",
+            "SOP_C13_APP_ACCESS_ISSUES",
+            "FAQ_C13_025",
+            "FAQ_C01_001",
+            "KB_C13_selfcare_login_issues"
+          ],
+          "graph_blanket_top5": [
+            "SOP_C13_APP_ACCESS_ISSUES",
+            "FAQ_C01_001",
+            "KB_C13_selfcare_login_issues",
+            "FAQ_C13_025",
+            "MAN_APP_001"
+          ],
+          "e13_fusion_only_top5": [
+            "MAN_APP_001",
+            "SOP_C13_APP_ACCESS_ISSUES",
+            "FAQ_C13_025",
+            "FAQ_C01_001",
+            "KB_C13_selfcare_login_issues"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C13_025",
+            "SOP_C13_APP_ACCESS_ISSUES",
+            "MAN_APP_001",
+            "FAQ_C01_001",
+            "KB_C13_selfcare_login_issues"
+          ],
+          "rerank_scores": [
+            6.836,
+            3.854,
+            -0.189,
+            4.942,
+            0.765
+          ]
+        },
+        {
+          "question_id": "Q14",
+          "question": "Are there any special recharge offers available specifically for my mobile number?",
+          "expected": [
+            "EML_009",
+            "FAQ_C14_027"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Recharge",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'my' + fact 'recharge' but no status-query frame -> not personal data; concept 'Recharge' via 'recharge'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "EML_009",
+            "FAQ_C05_010",
+            "TRX_001",
+            "FAQ_C01_001",
+            "FAQ_C04_007"
+          ],
+          "graph_blanket_top5": [
+            "SOP_C03_RECHARGE_FAILURE",
+            "EML_009",
+            "FAQ_C05_010",
+            "TRX_001",
+            "FAQ_C01_001"
+          ],
+          "e13_fusion_only_top5": [
+            "SOP_C03_RECHARGE_FAILURE",
+            "EML_009",
+            "FAQ_C05_010",
+            "TRX_001",
+            "FAQ_C01_001"
+          ],
+          "e13_hybrid_top5": [
+            "EML_009",
+            "SOP_C03_RECHARGE_FAILURE",
+            "TRX_001",
+            "FAQ_C03_006",
+            "FAQ_C02_004"
+          ],
+          "rerank_scores": [
+            -3.999,
+            -5.781,
+            -4.165,
+            -3.629,
+            -6.071
+          ]
+        },
+        {
+          "question_id": "Q15",
+          "question": "I had Gold loyalty status before, but now I'm Silver. Why did my loyalty tier change?",
+          "expected": [
+            "FAQ_C15_030"
+          ],
+          "gate": {
+            "needs_personal_data": true,
+            "concept_hint": null,
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'I' + account fact 'status' + status-query frame 'had Gold loyalty status before, but now I' -> personal data; no concept keyword matched"
+          },
+          "graph_weight": 0.0,
+          "vector_top5": [
+            "FAQ_C15_030",
+            "FAQ_C15_029",
+            "KB_C22_new_activation_delay",
+            "KB_C18_fraud_response",
+            "KB_C05_sim_swap_troubleshooting"
+          ],
+          "graph_blanket_top5": [
+            "FAQ_C15_029",
+            "KB_C02_plan_expiry",
+            "KB_C22_new_activation_delay",
+            "KB_C05_sim_swap_troubleshooting",
+            "KB_C16_complaint_escalation"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C15_030",
+            "FAQ_C15_029",
+            "KB_C22_new_activation_delay",
+            "KB_C18_fraud_response",
+            "KB_C05_sim_swap_troubleshooting"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C15_030",
+            "FAQ_C15_029",
+            "KB_C22_new_activation_delay",
+            "KB_C02_plan_expiry",
+            "KB_C18_fraud_response"
+          ],
+          "rerank_scores": [
+            4.515,
+            -8.491,
+            -11.267,
+            -11.176,
+            -11.294
+          ]
+        },
+        {
+          "question_id": "Q16",
+          "question": "I've already complained about this issue but nobody has resolved it. How can I escalate my complaint?",
+          "expected": [
+            "FAQ_C16_031",
+            "KB_C16_complaint_escalation",
+            "TRX_003"
+          ],
+          "gate": {
+            "needs_personal_data": true,
+            "concept_hint": "Complaints & Grievances",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'I' + account fact 'complaint' + status-query frame 'has resolved it. How can I' -> personal data; concept 'Complaints & Grievances' via 'complaint'"
+          },
+          "graph_weight": 0.5,
+          "vector_top5": [
+            "KB_C16_complaint_escalation",
+            "EML_010",
+            "KB_C22_new_activation_delay",
+            "KB_C03_recharge_failures",
+            "KB_C09_fup_data_speed"
+          ],
+          "graph_blanket_top5": [
+            "KB_C05_sim_swap_troubleshooting",
+            "KB_C22_new_activation_delay",
+            "KB_C03_recharge_failures",
+            "KB_C25_ftth_fault_diagnosis",
+            "KB_C09_fup_data_speed"
+          ],
+          "e13_fusion_only_top5": [
+            "KB_C05_sim_swap_troubleshooting",
+            "KB_C22_new_activation_delay",
+            "KB_C03_recharge_failures",
+            "KB_C25_ftth_fault_diagnosis",
+            "KB_C09_fup_data_speed"
+          ],
+          "e13_hybrid_top5": [
+            "KB_C16_complaint_escalation",
+            "TRX_003",
+            "FAQ_C16_031",
+            "EML_010",
+            "TRX_001"
+          ],
+          "rerank_scores": [
+            1.746,
+            2.17,
+            -0.068,
+            -1.023,
+            -2.712
+          ]
+        },
+        {
+          "question_id": "Q17",
+          "question": "What documents do I need to provide if NovaTel asks me to complete KYC verification again?",
+          "expected": [
+            "FAQ_C17_033",
+            "FAQ_C17_034",
+            "KB_C17_kyc_reverification"
+          ],
+          "gate": {
+            "needs_personal_data": true,
+            "concept_hint": "KYC & Identity Verification",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'I' + account fact 'KYC' + status-query frame 'do I' -> personal data; concept 'KYC & Identity Verification' via 'kyc verification'"
+          },
+          "graph_weight": 0.5,
+          "vector_top5": [
+            "SOP_C17_KYC_VERIFICATION",
+            "TRX_007",
+            "EML_008",
+            "Policy_C17_kyc_policy",
+            "FAQ_C17_034"
+          ],
+          "graph_blanket_top5": [
+            "TRX_007",
+            "FAQ_C17_034",
+            "SOP_C17_KYC_VERIFICATION",
+            "FAQ_C17_033",
+            "Policy_C17_kyc_policy"
+          ],
+          "e13_fusion_only_top5": [
+            "TRX_007",
+            "FAQ_C17_034",
+            "SOP_C17_KYC_VERIFICATION",
+            "FAQ_C17_033",
+            "Policy_C17_kyc_policy"
+          ],
+          "e13_hybrid_top5": [
+            "TRX_007",
+            "FAQ_C17_034",
+            "EML_008",
+            "FAQ_C17_033",
+            "Policy_C17_kyc_policy"
+          ],
+          "rerank_scores": [
+            5.708,
+            5.278,
+            5.766,
+            5.461,
+            3.423
+          ]
+        },
+        {
+          "question_id": "Q18",
+          "question": "I think someone has fraudulently replaced my SIM. What should I do immediately?",
+          "expected": [
+            "FAQ_C18_035",
+            "KB_C18_fraud_response",
+            "TRX_002"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "SIM Card Services",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'I' but no account fact -> policy-style, not personal data; concept 'SIM Card Services' via 'sim'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "SOP_C18_FRAUD_RESPONSE",
+            "FAQ_C18_035",
+            "TRX_002",
+            "SOP_C05_SIM_REPLACEMENT",
+            "KB_C18_fraud_response"
+          ],
+          "graph_blanket_top5": [
+            "SOP_C05_SIM_REPLACEMENT",
+            "KB_C22_new_activation_delay",
+            "SOP_C18_FRAUD_RESPONSE",
+            "FAQ_C18_035",
+            "TRX_002"
+          ],
+          "e13_fusion_only_top5": [
+            "SOP_C05_SIM_REPLACEMENT",
+            "KB_C22_new_activation_delay",
+            "SOP_C18_FRAUD_RESPONSE",
+            "FAQ_C18_035",
+            "TRX_002"
+          ],
+          "e13_hybrid_top5": [
+            "SOP_C05_SIM_REPLACEMENT",
+            "FAQ_C18_035",
+            "TRX_002",
+            "SOP_C18_FRAUD_RESPONSE",
+            "KB_C22_new_activation_delay"
+          ],
+          "rerank_scores": [
+            -0.178,
+            8.563,
+            3.366,
+            -1.825,
+            -6.106
+          ]
+        },
+        {
+          "question_id": "Q19",
+          "question": "What happens to my call and location information, and how does NovaTel use it?",
+          "expected": [
+            "FAQ_C19_037",
+            "KB_C19_privacy_data_requests",
+            "Policy_C19_privacy_policy"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": null,
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'my' but no account fact -> policy-style, not personal data; no concept keyword matched"
+          },
+          "graph_weight": 0.0,
+          "vector_top5": [
+            "FAQ_C11_022",
+            "FAQ_C19_037",
+            "FAQ_C18_036",
+            "FAQ_C05_010",
+            "FAQ_C10_020"
+          ],
+          "graph_blanket_top5": [
+            "FAQ_C11_022",
+            "FAQ_C19_037",
+            "FAQ_C18_036",
+            "FAQ_C05_010",
+            "FAQ_C10_020"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C11_022",
+            "FAQ_C19_037",
+            "FAQ_C18_036",
+            "FAQ_C05_010",
+            "FAQ_C10_020"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C19_037",
+            "FAQ_C11_022",
+            "FAQ_C18_036",
+            "FAQ_C05_010",
+            "FAQ_C07_013"
+          ],
+          "rerank_scores": [
+            7.627,
+            3.713,
+            3.118,
+            0.521,
+            1.038
+          ]
+        },
+        {
+          "question_id": "Q20",
+          "question": "I was charged twice for the same recharge. How can I get the extra amount refunded?",
+          "expected": [
+            "FAQ_C20_039",
+            "KB_C20_refund_processing",
+            "Policy_C20_refund_policy",
+            "SOP_C20_REFUND_PROCESSING"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Recharge",
+            "hypothetical_frame": false,
+            "reasoning": "how-to phrasing without 'my' -> treated as a procedure question, not personal data; concept 'Recharge' via 'recharge'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "FAQ_C20_039",
+            "SOP_C20_REFUND_PROCESSING",
+            "EML_002",
+            "KB_C20_refund_processing",
+            "TRX_001"
+          ],
+          "graph_blanket_top5": [
+            "SOP_C20_REFUND_PROCESSING",
+            "SOP_C03_RECHARGE_FAILURE",
+            "KB_C20_refund_processing",
+            "Policy_C20_refund_policy",
+            "TRX_001"
+          ],
+          "e13_fusion_only_top5": [
+            "SOP_C20_REFUND_PROCESSING",
+            "KB_C20_refund_processing",
+            "SOP_C03_RECHARGE_FAILURE",
+            "TRX_001",
+            "Policy_C20_refund_policy"
+          ],
+          "e13_hybrid_top5": [
+            "TRX_001",
+            "SOP_C20_REFUND_PROCESSING",
+            "SOP_C03_RECHARGE_FAILURE",
+            "FAQ_C20_039",
+            "KB_C20_refund_processing"
+          ],
+          "rerank_scores": [
+            -4.762,
+            -7.266,
+            -6.55,
+            6.377,
+            -8.103
+          ]
+        },
+        {
+          "question_id": "Q21",
+          "question": "I want to permanently close my postpaid connection. How do I do that?",
+          "expected": [
+            "FAQ_C21_041",
+            "KB_C21_account_closure"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": null,
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'I' but no account fact -> policy-style, not personal data; no concept keyword matched"
+          },
+          "graph_weight": 0.0,
+          "vector_top5": [
+            "FAQ_C21_041",
+            "TRX_008",
+            "EML_005",
+            "SOP_C21_ACCOUNT_CLOSURE",
+            "KB_C21_account_closure"
+          ],
+          "graph_blanket_top5": [
+            "KB_C21_account_closure",
+            "SOP_C21_ACCOUNT_CLOSURE",
+            "SOP_C22_ACTIVATION_DELAY",
+            "FAQ_C21_041",
+            "TRX_008"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C21_041",
+            "TRX_008",
+            "EML_005",
+            "SOP_C21_ACCOUNT_CLOSURE",
+            "KB_C21_account_closure"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C21_041",
+            "TRX_008",
+            "Policy_C02_plan_lifecycle",
+            "KB_C21_account_closure",
+            "FAQ_C19_038"
+          ],
+          "rerank_scores": [
+            8.107,
+            4.604,
+            -5.39,
+            -5.699,
+            -5.469
+          ]
+        },
+        {
+          "question_id": "Q22",
+          "question": "I bought a new SIM but it still isn't active after a full day. What should I do?",
+          "expected": [
+            "FAQ_C22_044",
+            "KB_C22_new_activation_delay",
+            "SOP_C22_ACTIVATION_DELAY"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "SIM Card Services",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'I' but no account fact -> policy-style, not personal data; concept 'SIM Card Services' via 'sim'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "FAQ_C22_044",
+            "FAQ_C05_009",
+            "KB_C05_sim_swap_troubleshooting",
+            "KB_C22_new_activation_delay",
+            "MAN_ESIM_001"
+          ],
+          "graph_blanket_top5": [
+            "KB_C22_new_activation_delay",
+            "SOP_C22_ACTIVATION_DELAY",
+            "SOP_C05_SIM_REPLACEMENT",
+            "FAQ_C22_044",
+            "FAQ_C05_009"
+          ],
+          "e13_fusion_only_top5": [
+            "KB_C22_new_activation_delay",
+            "SOP_C22_ACTIVATION_DELAY",
+            "SOP_C05_SIM_REPLACEMENT",
+            "FAQ_C22_044",
+            "FAQ_C05_009"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C22_044",
+            "KB_C22_new_activation_delay",
+            "SOP_C22_ACTIVATION_DELAY",
+            "FAQ_C05_009",
+            "SOP_C05_SIM_REPLACEMENT"
+          ],
+          "rerank_scores": [
+            0.758,
+            -5.251,
+            -4.802,
+            -1.976,
+            -6.336
+          ]
+        },
+        {
+          "question_id": "Q23",
+          "question": "What does a NovaTel enterprise connectivity plan include for a business?",
+          "expected": [
+            "FAQ_C23_045",
+            "KB_C23_enterprise_onboarding",
+            "Policy_C23_enterprise_terms",
+            "TARIFF_POSTPAID_2026H2"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Enterprise & Business Services",
+            "hypothetical_frame": false,
+            "reasoning": "no first-person reference -> not personal data; concept 'Enterprise & Business Services' via 'enterprise+connectivity'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "Policy_C23_enterprise_terms",
+            "Policy_C19_privacy_policy",
+            "FAQ_C23_045",
+            "Policy_C28_regulatory_compliance",
+            "FAQ_C24_047"
+          ],
+          "graph_blanket_top5": [
+            "Policy_C02_plan_lifecycle",
+            "Policy_C19_privacy_policy",
+            "Policy_C18_security_policy",
+            "Policy_C28_regulatory_compliance",
+            "Policy_C17_kyc_policy"
+          ],
+          "e13_fusion_only_top5": [
+            "Policy_C19_privacy_policy",
+            "Policy_C28_regulatory_compliance",
+            "Policy_C02_plan_lifecycle",
+            "Policy_C18_security_policy",
+            "Policy_C17_kyc_policy"
+          ],
+          "e13_hybrid_top5": [
+            "Policy_C19_privacy_policy",
+            "Policy_C02_plan_lifecycle",
+            "FAQ_C23_045",
+            "Policy_C28_regulatory_compliance",
+            "Policy_C23_enterprise_terms"
+          ],
+          "rerank_scores": [
+            -1.014,
+            -0.097,
+            7.783,
+            -1.817,
+            3.487
+          ]
+        },
+        {
+          "question_id": "Q24",
+          "question": "We have thousands of IoT SIM cards. How can our organisation monitor their usage?",
+          "expected": [
+            "FAQ_C24_048",
+            "MAN_IOT_PORTAL_001"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "SIM Card Services",
+            "hypothetical_frame": false,
+            "reasoning": "no first-person reference -> not personal data; concept 'SIM Card Services' via 'sim'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "FAQ_C24_048",
+            "MAN_IOT_PORTAL_001",
+            "FAQ_C24_047",
+            "FAQ_C09_017",
+            "FAQ_C05_010"
+          ],
+          "graph_blanket_top5": [
+            "FAQ_C24_048",
+            "FAQ_C24_047",
+            "MAN_IOT_PORTAL_001",
+            "FAQ_C09_017",
+            "FAQ_C05_010"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C24_048",
+            "FAQ_C24_047",
+            "MAN_IOT_PORTAL_001",
+            "FAQ_C09_017",
+            "FAQ_C05_010"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C24_048",
+            "FAQ_C24_047",
+            "MAN_IOT_PORTAL_001",
+            "FAQ_C05_010",
+            "FAQ_C09_017"
+          ],
+          "rerank_scores": [
+            6.099,
+            -6.698,
+            -7.251,
+            -11.006,
+            -11.225
+          ]
+        },
+        {
+          "question_id": "Q25",
+          "question": "My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?",
+          "expected": [
+            "FAQ_C25_049",
+            "KB_C25_ftth_fault_diagnosis",
+            "MAN_ROUTER_001"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Broadband & FTTH Services",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'My' but no account fact -> policy-style, not personal data; concept 'Broadband & FTTH Services' via 'fibre'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "FAQ_C25_049",
+            "TRX_006",
+            "EML_007",
+            "RCA_INC_2026_0179",
+            "INC_C25_INC_2026_0179"
+          ],
+          "graph_blanket_top5": [
+            "RCA_INC_2026_0179",
+            "FAQ_C25_049",
+            "TRX_006",
+            "EML_007",
+            "SOP_C25_FTTH_FAULT_HANDLING"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C25_049",
+            "TRX_006",
+            "EML_007",
+            "RCA_INC_2026_0179",
+            "INC_C25_INC_2026_0179"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C25_049",
+            "TRX_006",
+            "MAN_ROUTER_001",
+            "EML_007",
+            "SOP_C25_FTTH_FAULT_HANDLING"
+          ],
+          "rerank_scores": [
+            6.185,
+            -4.444,
+            0.109,
+            -9.673,
+            -5.865
+          ]
+        },
+        {
+          "question_id": "Q26",
+          "question": "I registered for DND but I'm still receiving promotional calls. How can I report this?",
+          "expected": [
+            "FAQ_C26_052",
+            "KB_C26_dnd_registration"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": null,
+            "hypothetical_frame": false,
+            "reasoning": "how-to phrasing without 'my' -> treated as a procedure question, not personal data; unsolicited-communication question (no concept in the vocabulary)"
+          },
+          "graph_weight": 0.0,
+          "vector_top5": [
+            "FAQ_C26_052",
+            "KB_C26_dnd_registration",
+            "FAQ_C18_036",
+            "SOP_C10_VAS_DISPUTE",
+            "TRX_002"
+          ],
+          "graph_blanket_top5": [
+            "FAQ_C26_051",
+            "KB_C26_dnd_registration",
+            "FAQ_C26_052",
+            "FAQ_C18_036",
+            "SOP_C10_VAS_DISPUTE"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C26_052",
+            "KB_C26_dnd_registration",
+            "FAQ_C18_036",
+            "SOP_C10_VAS_DISPUTE",
+            "TRX_002"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C26_052",
+            "KB_C26_dnd_registration",
+            "FAQ_C26_051",
+            "FAQ_C18_036",
+            "TRX_002"
+          ],
+          "rerank_scores": [
+            6.131,
+            -0.098,
+            4.148,
+            -8.078,
+            -7.993
+          ]
+        },
+        {
+          "question_id": "Q27",
+          "question": "Does the My NovaTel app work with screen readers for visually impaired users?",
+          "expected": [
+            "FAQ_C27_054"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": null,
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'My' but no account fact -> policy-style, not personal data; no concept keyword matched"
+          },
+          "graph_weight": 0.0,
+          "vector_top5": [
+            "FAQ_C27_054",
+            "FAQ_C27_053",
+            "FAQ_C04_008",
+            "MAN_APP_001",
+            "REL_2026_07"
+          ],
+          "graph_blanket_top5": [
+            "FAQ_C27_053",
+            "FAQ_C27_054",
+            "FAQ_C04_008",
+            "MAN_APP_001",
+            "REL_2026_07"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C27_054",
+            "FAQ_C27_053",
+            "FAQ_C04_008",
+            "MAN_APP_001",
+            "REL_2026_07"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C27_054",
+            "FAQ_C04_008",
+            "FAQ_C27_053",
+            "MAN_APP_001",
+            "REL_2026_07"
+          ],
+          "rerank_scores": [
+            5.61,
+            4.926,
+            -0.195,
+            -1.832,
+            -2.983
+          ]
+        },
+        {
+          "question_id": "Q28",
+          "question": "What is TRAI's role in regulating telecom operators like NovaTel?",
+          "expected": [
+            "FAQ_C28_055",
+            "Policy_C28_regulatory_compliance"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": null,
+            "hypothetical_frame": false,
+            "reasoning": "no first-person reference -> not personal data; no concept keyword matched"
+          },
+          "graph_weight": 0.0,
+          "vector_top5": [
+            "FAQ_C28_055",
+            "Policy_C28_regulatory_compliance",
+            "Policy_C18_security_policy",
+            "TRX_004",
+            "Policy_C19_privacy_policy"
+          ],
+          "graph_blanket_top5": [
+            "Policy_C28_regulatory_compliance",
+            "FAQ_C28_055",
+            "Policy_C18_security_policy",
+            "Policy_C19_privacy_policy",
+            "Policy_C23_enterprise_terms"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C28_055",
+            "Policy_C28_regulatory_compliance",
+            "Policy_C18_security_policy",
+            "TRX_004",
+            "Policy_C19_privacy_policy"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C28_055",
+            "Policy_C28_regulatory_compliance",
+            "Policy_C18_security_policy",
+            "Policy_C19_privacy_policy",
+            "TRX_004"
+          ],
+          "rerank_scores": [
+            8.941,
+            3.753,
+            -1.33,
+            -0.467,
+            -1.512
+          ]
+        },
+        {
+          "question_id": "Q29",
+          "question": "My phone says the SIM isn't provisioned for voice calls. How can I fix this?",
+          "expected": [
+            "FAQ_C29_057",
+            "KB_C29_network_reset_guide"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "SIM Card Services",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'My' but no account fact -> policy-style, not personal data; concept 'SIM Card Services' via 'sim'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "FAQ_C29_057",
+            "MAN_DEVICE_VOLTE_001",
+            "FAQ_C12_024",
+            "MAN_ESIM_001",
+            "FAQ_C22_044"
+          ],
+          "graph_blanket_top5": [
+            "FAQ_C29_057",
+            "MAN_DEVICE_VOLTE_001",
+            "FAQ_C12_024",
+            "MAN_ESIM_001",
+            "FAQ_C22_044"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C29_057",
+            "MAN_DEVICE_VOLTE_001",
+            "FAQ_C12_024",
+            "MAN_ESIM_001",
+            "FAQ_C22_044"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C29_057",
+            "FAQ_C12_024",
+            "MAN_DEVICE_VOLTE_001",
+            "FAQ_C22_044",
+            "KB_C05_sim_swap_troubleshooting"
+          ],
+          "rerank_scores": [
+            8.046,
+            1.205,
+            -4.316,
+            -2.425,
+            -5.894
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Graph-dependent mini-benchmark",
+      "questions": 9,
+      "scores": {
+        "vector_only": {
+          "recall@1": 0.2222,
+          "recall@3": 0.6667,
+          "recall@5": 0.8889,
+          "mrr@5": 0.4574,
+          "precision@3": 0.2222
+        },
+        "graph_blanket": {
+          "recall@1": 0.5556,
+          "recall@3": 0.6667,
+          "recall@5": 1.0,
+          "mrr@5": 0.6944,
+          "precision@3": 0.2222
+        },
+        "e13_fusion_only": {
+          "recall@1": 0.4444,
+          "recall@3": 0.7778,
+          "recall@5": 1.0,
+          "mrr@5": 0.6426,
+          "precision@3": 0.2593
+        },
+        "e13_hybrid": {
+          "recall@1": 0.5556,
+          "recall@3": 0.7778,
+          "recall@5": 0.8889,
+          "mrr@5": 0.6574,
+          "precision@3": 0.2963
+        }
+      },
+      "graph_docs_without_chunks_dropped": 0,
+      "per_question": [
+        {
+          "question_id": "GQ01",
+          "question": "If my home internet is down for most of a day because of a cable cut, will I get money back on my bill without asking for it?",
+          "expected": [
+            "Policy_C20_refund_policy",
+            "SOP_C25_FTTH_FAULT_HANDLING"
+          ],
+          "gate": {
+            "needs_personal_data": true,
+            "concept_hint": "Billing & Invoices",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'my' + account fact 'bill' + status-query frame 'will I' -> personal data; concept 'Billing & Invoices' via 'bill'"
+          },
+          "graph_weight": 0.5,
+          "vector_top5": [
+            "TRX_006",
+            "FAQ_C25_049",
+            "RCA_INC_2026_0142",
+            "EML_007",
+            "INC_C08_INC_2026_0211"
+          ],
+          "graph_blanket_top5": [
+            "FAQ_C25_050",
+            "SOP_C25_FTTH_FAULT_HANDLING",
+            "TRX_006",
+            "FAQ_C25_049",
+            "RCA_INC_2026_0142"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C25_050",
+            "SOP_C25_FTTH_FAULT_HANDLING",
+            "TRX_006",
+            "FAQ_C25_049",
+            "RCA_INC_2026_0142"
+          ],
+          "e13_hybrid_top5": [
+            "TRX_006",
+            "FAQ_C25_050",
+            "FAQ_C25_049",
+            "SOP_C25_FTTH_FAULT_HANDLING",
+            "EML_007"
+          ],
+          "rerank_scores": [
+            -7.134,
+            -10.187,
+            -8.048,
+            -10.327,
+            -10.414
+          ]
+        },
+        {
+          "question_id": "GQ02",
+          "question": "Why did one cable cut knock out broadband for a whole region, and what long-term fix was agreed?",
+          "expected": [
+            "RCA_INC_2026_0179"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Broadband & FTTH Services",
+            "hypothetical_frame": false,
+            "reasoning": "no first-person reference -> not personal data; concept 'Broadband & FTTH Services' via 'broadband'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "RCA_INC_2026_0179",
+            "TRX_006",
+            "FAQ_C25_049",
+            "RCA_INC_2026_0142",
+            "INC_C25_INC_2026_0179"
+          ],
+          "graph_blanket_top5": [
+            "RCA_INC_2026_0142",
+            "KB_C25_ftth_fault_diagnosis",
+            "FAQ_C25_049",
+            "RCA_INC_2026_0179",
+            "TRX_006"
+          ],
+          "e13_fusion_only_top5": [
+            "RCA_INC_2026_0179",
+            "FAQ_C25_049",
+            "RCA_INC_2026_0142",
+            "KB_C25_ftth_fault_diagnosis",
+            "TRX_006"
+          ],
+          "e13_hybrid_top5": [
+            "RCA_INC_2026_0179",
+            "FAQ_C25_049",
+            "INC_C25_INC_2026_0179",
+            "KB_C25_ftth_fault_diagnosis",
+            "TRX_006"
+          ],
+          "rerank_scores": [
+            -6.547,
+            -7.769,
+            -5.784,
+            -9.582,
+            -10.137
+          ]
+        },
+        {
+          "question_id": "GQ03",
+          "question": "How quickly is an engineer sent out for a business line compared with a home connection?",
+          "expected": [
+            "SOP_C25_FTTH_FAULT_HANDLING"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": null,
+            "hypothetical_frame": false,
+            "reasoning": "no first-person reference -> not personal data; no concept keyword matched"
+          },
+          "graph_weight": 0.0,
+          "vector_top5": [
+            "FAQ_C06_011",
+            "Policy_C23_enterprise_terms",
+            "SOP_C25_FTTH_FAULT_HANDLING",
+            "TRX_006",
+            "KB_C25_ftth_fault_diagnosis"
+          ],
+          "graph_blanket_top5": [
+            "SOP_C22_ACTIVATION_DELAY",
+            "FAQ_C06_011",
+            "Policy_C23_enterprise_terms",
+            "SOP_C25_FTTH_FAULT_HANDLING",
+            "TRX_006"
+          ],
+          "e13_fusion_only_top5": [
+            "FAQ_C06_011",
+            "Policy_C23_enterprise_terms",
+            "SOP_C25_FTTH_FAULT_HANDLING",
+            "TRX_006",
+            "KB_C25_ftth_fault_diagnosis"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C06_011",
+            "Policy_C23_enterprise_terms",
+            "SOP_C25_FTTH_FAULT_HANDLING",
+            "FAQ_C22_043",
+            "FAQ_C16_032"
+          ],
+          "rerank_scores": [
+            -10.345,
+            -11.139,
+            -11.155,
+            -10.595,
+            -10.71
+          ]
+        },
+        {
+          "question_id": "GQ04",
+          "question": "The agent blocked my SIM before finishing the identity checks. Is that the correct procedure?",
+          "expected": [
+            "SOP_C18_FRAUD_RESPONSE",
+            "TRN_003"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "SIM Card Services",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'my' but no account fact -> policy-style, not personal data; concept 'SIM Card Services' via 'sim'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "TRX_002",
+            "SOP_C22_ACTIVATION_DELAY",
+            "EML_003",
+            "SOP_C18_FRAUD_RESPONSE",
+            "KB_C22_new_activation_delay"
+          ],
+          "graph_blanket_top5": [
+            "SOP_C18_FRAUD_RESPONSE",
+            "SOP_C05_SIM_REPLACEMENT",
+            "KB_C22_new_activation_delay",
+            "EML_003",
+            "TRX_007"
+          ],
+          "e13_fusion_only_top5": [
+            "EML_003",
+            "SOP_C18_FRAUD_RESPONSE",
+            "KB_C22_new_activation_delay",
+            "TRX_007",
+            "SOP_C05_SIM_REPLACEMENT"
+          ],
+          "e13_hybrid_top5": [
+            "SOP_C18_FRAUD_RESPONSE",
+            "TRX_002",
+            "KB_C22_new_activation_delay",
+            "KB_C18_fraud_response",
+            "TRX_007"
+          ],
+          "rerank_scores": [
+            -1.252,
+            1.553,
+            -3.041,
+            -2.377,
+            -2.766
+          ]
+        },
+        {
+          "question_id": "GQ05",
+          "question": "Which internal teams get involved if fraud on my number caused actual financial loss?",
+          "expected": [
+            "SOP_C18_FRAUD_RESPONSE"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Security & Fraud",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'my' + fact 'my number' but no status-query frame -> not personal data; concept 'Security & Fraud' via 'fraud'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "RCA_INC_2026_0197",
+            "SOP_C18_FRAUD_RESPONSE",
+            "FAQ_C18_035",
+            "FAQ_C18_036",
+            "TRX_002"
+          ],
+          "graph_blanket_top5": [
+            "SOP_C18_FRAUD_RESPONSE",
+            "SOP_C03_RECHARGE_FAILURE",
+            "FAQ_C18_035",
+            "SOP_C20_REFUND_PROCESSING",
+            "RCA_INC_2026_0197"
+          ],
+          "e13_fusion_only_top5": [
+            "SOP_C18_FRAUD_RESPONSE",
+            "FAQ_C18_035",
+            "SOP_C20_REFUND_PROCESSING",
+            "SOP_C03_RECHARGE_FAILURE",
+            "RCA_INC_2026_0197"
+          ],
+          "e13_hybrid_top5": [
+            "SOP_C18_FRAUD_RESPONSE",
+            "FAQ_C18_035",
+            "TRX_002",
+            "SOP_C03_RECHARGE_FAILURE",
+            "SOP_C20_REFUND_PROCESSING"
+          ],
+          "rerank_scores": [
+            -6.023,
+            -6.327,
+            -7.849,
+            -9.111,
+            -9.709
+          ]
+        },
+        {
+          "question_id": "GQ06",
+          "question": "What proof does a store need before handing over a duplicate SIM?",
+          "expected": [
+            "SOP_C05_SIM_REPLACEMENT"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Retail & Store Network",
+            "hypothetical_frame": false,
+            "reasoning": "no first-person reference -> not personal data; concept 'Retail & Store Network' via 'store'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "FAQ_C05_010",
+            "SOP_C05_SIM_REPLACEMENT",
+            "FAQ_C05_009",
+            "SOP_C18_FRAUD_RESPONSE",
+            "FAQ_C18_035"
+          ],
+          "graph_blanket_top5": [
+            "SOP_C05_SIM_REPLACEMENT",
+            "SOP_C18_FRAUD_RESPONSE",
+            "KB_C05_sim_swap_troubleshooting",
+            "FAQ_C05_009",
+            "KB_C22_new_activation_delay"
+          ],
+          "e13_fusion_only_top5": [
+            "SOP_C05_SIM_REPLACEMENT",
+            "FAQ_C05_009",
+            "SOP_C18_FRAUD_RESPONSE",
+            "KB_C22_new_activation_delay",
+            "KB_C05_sim_swap_troubleshooting"
+          ],
+          "e13_hybrid_top5": [
+            "SOP_C05_SIM_REPLACEMENT",
+            "FAQ_C05_010",
+            "FAQ_C05_009",
+            "SOP_C18_FRAUD_RESPONSE",
+            "FAQ_C18_035"
+          ],
+          "rerank_scores": [
+            0.142,
+            3.261,
+            -5.415,
+            -6.179,
+            -3.312
+          ]
+        },
+        {
+          "question_id": "GQ07",
+          "question": "How does the company decide that a failed payment which took my money should be given back?",
+          "expected": [
+            "KB_C03_recharge_failures",
+            "SOP_C03_RECHARGE_FAILURE"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Payments",
+            "hypothetical_frame": false,
+            "reasoning": "first-person 'my' + fact 'payment' but no status-query frame -> not personal data; concept 'Payments' via 'payment'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "SOP_C20_REFUND_PROCESSING",
+            "Policy_C20_refund_policy",
+            "SOP_C03_RECHARGE_FAILURE",
+            "EML_002",
+            "FAQ_C03_005"
+          ],
+          "graph_blanket_top5": [
+            "SOP_C03_RECHARGE_FAILURE",
+            "KB_C20_refund_processing",
+            "Policy_C20_refund_policy",
+            "SOP_C20_REFUND_PROCESSING",
+            "EML_002"
+          ],
+          "e13_fusion_only_top5": [
+            "SOP_C03_RECHARGE_FAILURE",
+            "Policy_C20_refund_policy",
+            "KB_C20_refund_processing",
+            "SOP_C20_REFUND_PROCESSING",
+            "EML_002"
+          ],
+          "e13_hybrid_top5": [
+            "SOP_C03_RECHARGE_FAILURE",
+            "KB_C20_refund_processing",
+            "KB_C03_recharge_failures",
+            "Policy_C20_refund_policy",
+            "SOP_C20_REFUND_PROCESSING"
+          ],
+          "rerank_scores": [
+            -4.767,
+            -8.877,
+            -4.441,
+            -10.796,
+            -10.512
+          ]
+        },
+        {
+          "question_id": "GQ08",
+          "question": "What record does the billing team keep about why refunds were given?",
+          "expected": [
+            "SOP_C20_REFUND_PROCESSING"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": "Billing & Invoices",
+            "hypothetical_frame": false,
+            "reasoning": "no first-person reference -> not personal data; concept 'Billing & Invoices' via 'billing'"
+          },
+          "graph_weight": 0.15,
+          "vector_top5": [
+            "SOP_C20_REFUND_PROCESSING",
+            "Policy_C20_refund_policy",
+            "KB_C20_refund_processing",
+            "FAQ_C20_039",
+            "RCA_INC_2026_0163"
+          ],
+          "graph_blanket_top5": [
+            "Policy_C20_refund_policy",
+            "KB_C20_refund_processing",
+            "SOP_C10_VAS_DISPUTE",
+            "SOP_C20_REFUND_PROCESSING",
+            "FAQ_C20_039"
+          ],
+          "e13_fusion_only_top5": [
+            "Policy_C20_refund_policy",
+            "KB_C20_refund_processing",
+            "SOP_C10_VAS_DISPUTE",
+            "SOP_C20_REFUND_PROCESSING",
+            "FAQ_C20_039"
+          ],
+          "e13_hybrid_top5": [
+            "KB_C20_refund_processing",
+            "Policy_C20_refund_policy",
+            "SOP_C20_REFUND_PROCESSING",
+            "FAQ_C20_039",
+            "SOP_C03_RECHARGE_FAILURE"
+          ],
+          "rerank_scores": [
+            -2.2,
+            -3.75,
+            -2.97,
+            -6.517,
+            -5.198
+          ]
+        },
+        {
+          "question_id": "GQ09",
+          "question": "If I ask to stop marketing messages, what does NovaTel have to do by law?",
+          "expected": [
+            "KB_C26_dnd_registration",
+            "Policy_C28_regulatory_compliance"
+          ],
+          "gate": {
+            "needs_personal_data": false,
+            "concept_hint": null,
+            "hypothetical_frame": true,
+            "reasoning": "first-person 'I' but no account fact -> policy-style, not personal data; unsolicited-communication question (no concept in the vocabulary)"
+          },
+          "graph_weight": 0.0,
+          "vector_top5": [
+            "Policy_C18_security_policy",
+            "FAQ_C18_036",
+            "Policy_C19_privacy_policy",
+            "INC_C18_INC_2026_0197",
+            "Policy_C28_regulatory_compliance"
+          ],
+          "graph_blanket_top5": [
+            "Policy_C28_regulatory_compliance",
+            "Policy_C18_security_policy",
+            "FAQ_C18_036",
+            "Policy_C19_privacy_policy",
+            "INC_C18_INC_2026_0197"
+          ],
+          "e13_fusion_only_top5": [
+            "Policy_C18_security_policy",
+            "FAQ_C18_036",
+            "Policy_C19_privacy_policy",
+            "INC_C18_INC_2026_0197",
+            "Policy_C28_regulatory_compliance"
+          ],
+          "e13_hybrid_top5": [
+            "FAQ_C18_036",
+            "Policy_C18_security_policy",
+            "Policy_C19_privacy_policy",
+            "FAQ_C10_019",
+            "INC_C18_INC_2026_0197"
+          ],
+          "rerank_scores": [
+            -2.552,
+            -2.916,
+            -3.778,
+            -2.965,
+            -3.852
+          ]
+        }
+      ]
+    }
+  ]
+}

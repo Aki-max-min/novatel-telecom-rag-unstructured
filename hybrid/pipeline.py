@@ -46,9 +46,13 @@ def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int 
         facts = fetch_customer_facts(customer_id, plan.structured_intents, as_of=as_of)
         trace["intents_run"] = list(plan.structured_intents)
 
-    # Documents run for unstructured and both routes, including both + needs_identity;
-    # never for a refused (other-customer) request.
-    if plan.outcome != "refuse_other_customer" and plan.route in ("unstructured", "both"):
+    # Documents are never withheld because identity is missing (Phase 8d): they run for unstructured
+    # and both routes, AND for any needs_identity outcome whatever the route (then flagged generic -
+    # general policy/how-to material, not about this customer). Only a refused (other-customer)
+    # request returns neither facts nor documents.
+    documents_are_generic = plan.outcome == "needs_identity"
+    if plan.outcome != "refuse_other_customer" and (
+            plan.route in ("unstructured", "both") or plan.outcome == "needs_identity"):
         from retrievers import build_candidates
         vector, graph, _ = build_candidates(question)
         documents = run_hybrid_retrieval(question, vector, graph, max_pool=max_pool, top_k=top_k, model=model,
@@ -60,5 +64,7 @@ def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int 
                   "unrecognised_personal_request": plan.unrecognised_personal_request,
                   "refusal_reason": plan.refusal_reason,
                   "fact_count": len(facts), "document_count": len(documents)})
+    trace["documents_are_generic"] = bool(documents) and documents_are_generic
     return {"route_plan": plan.as_dict(), "facts": facts, "documents": documents,
+            "documents_are_generic": bool(documents) and documents_are_generic,
             "blocked": blocked, "trace": trace}

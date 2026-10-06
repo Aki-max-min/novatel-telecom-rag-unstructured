@@ -134,6 +134,32 @@ POSSESSIVE_NUMBER_TERMS = ["my number", "my mobile number", "my phone number", "
 # "How do I ...?" is a procedure question even though it says "I" (no "my").
 _HOWTO = re.compile(r"\bhow (?:do|can|should|to) (?:i|we)\b|\bhow to\b", re.I)
 
+# --- Phase 8d: conditional / hypothetical frames vs. explicit status-query frames -------------------
+# A question is PERSONAL only if it has (1) a first-person or possessive anchor, (2) a fact term and
+# (3) an explicit status-query frame - and it is NOT hypothetical.
+#
+# HYPOTHETICAL_FRAME_TERMS: the asker is describing a scenario or a rule, not asking about their own
+# account. These never make a question personal (and the router treats them as a policy component).
+HYPOTHETICAL_FRAME_TERMS = [
+    "if i", "when i", "whenever i", "after i", "before i",
+    "what happens if", "what if", "suppose", "in case i", "should i decide",
+]
+# STATUS_QUERY_AUX: auxiliaries that open a yes/no or wh status question about the asker's own record.
+_STATUS_AUX = r"(?:did|has|have|had|is|are|was|were|does|do|will)"
+_ANCHOR = r"(?:my|mine|i)"
+# "next to" is read as "within a few words": aux ... (<=6 words) ... my/I, so that
+# "Are there any open complaints on my account?" and "Does that mean my number ...?" count.
+_WINDOW = r"(?:\W+\w+){0,6}?\W+"
+STATUS_QUERY_FRAMES = [
+    # aux (+ up to 6 words) + my/I:  "Did my recharge ...", "Have I been charged ...", "Is my ticket ..."
+    re.compile(rf"\b{_STATUS_AUX}\b{_WINDOW}{_ANCHOR}\b", re.I),
+    # wh-frame, optionally with one noun in between, then aux ... my/I:
+    # "When does my plan ...", "How much do I owe ...", "How many tickets do I have ..."
+    re.compile(rf"\b(?:what|which|when|how much|how many)(?:\s+\w+)?\s+{_STATUS_AUX}\b{_WINDOW}{_ANCHOR}\b", re.I),
+    # explicit: "status of my ..."
+    re.compile(r"\bstatus of my\b", re.I),
+]
+
 
 def _concept_hint(lowered: str):
     """(concept, trigger) for the question, or (None, explanation)."""
@@ -165,7 +191,7 @@ def classify_query(question: str) -> dict:
     """Classify a question. Never raises; empty/None input yields the null result."""
     text = (question or "").strip()
     if not text:
-        return {"needs_personal_data": False, "concept_hint": None,
+        return {"needs_personal_data": False, "concept_hint": None, "hypothetical_frame": False,
                 "reasoning": "empty question: no signal"}
     lowered = text.lower()
 
@@ -175,11 +201,20 @@ def classify_query(question: str) -> dict:
     first_person = find_term(text, FIRST_PERSON_TERMS, inflect=False)
     fact = find_term(text, PERSONAL_FACT_TERMS) or find_term(text, POSSESSIVE_NUMBER_TERMS)
     howto = _HOWTO.search(text) and not has_term(text, POSSESSIVE_TERMS, inflect=False)
-    needs_personal = bool(first_person and fact and not howto)
+    hypothetical = find_term(text, HYPOTHETICAL_FRAME_TERMS, inflect=False)
+    status_frame = next((m for m in (rx.search(text) for rx in STATUS_QUERY_FRAMES) if m), None)
+    needs_personal = bool(first_person and fact and status_frame and not hypothetical and not howto)
 
     parts = []
     if needs_personal:
-        parts.append(f"first-person '{first_person.group(0)}' + account fact '{fact.group(0)}' -> personal data")
+        parts.append(f"first-person '{first_person.group(0)}' + account fact '{fact.group(0)}' + "
+                     f"status-query frame '{status_frame.group(0).strip()}' -> personal data")
+    elif hypothetical and first_person and fact:
+        parts.append(f"hypothetical/conditional frame '{hypothetical.group(0)}' -> a scenario or policy "
+                     f"question, not personal data")
+    elif first_person and fact and not status_frame and not howto:
+        parts.append(f"first-person '{first_person.group(0)}' + fact '{fact.group(0)}' but no status-query "
+                     f"frame -> not personal data")
     elif howto:
         parts.append("how-to phrasing without 'my' -> treated as a procedure question, not personal data")
     elif first_person:
@@ -191,7 +226,7 @@ def classify_query(question: str) -> dict:
     else:
         parts.append(trigger or "no concept keyword matched")
     return {"needs_personal_data": needs_personal, "concept_hint": hint,
-            "reasoning": "; ".join(parts)}
+            "hypothetical_frame": bool(hypothetical), "reasoning": "; ".join(parts)}
 
 
 def graph_weight(classification: dict) -> float:

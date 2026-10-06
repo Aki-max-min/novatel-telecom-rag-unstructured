@@ -79,3 +79,49 @@ question 0.15 -> 0.0; the rerank variant changed from V0 to V1):
 
 So the adopted variant trades main-benchmark top-1 accuracy (0.9310 -> 0.8276) for the graph-dependent gains (R@1 0.2222 -> 0.5556).
 The main-benchmark R@1 now sits above vector-only (0.7586) but below Person A's existing rerank-only result (0.9310).
+
+---
+
+## Phase 8d fixes (post-hoc) and the amended-2 run
+
+These were made after seeing both the first run and amended-1, so they are post-hoc too.
+
+| # | Observed failure | General rule | Test |
+|---|---|---|---|
+| 8 | Amended-1 regression RB_U01: the verb "top up" read as a personal recharge fact. The same defect class was visible on pre-Phase-8 gate output: "Can both offers be applied when I recharge once?", "What happens if I change my plan mid-cycle?", "If I pay my bill late, is there a penalty?" were all `needs_personal_data=True` although they are policy questions. | **Conditional frames:** hypothetical / conditional frames (if I, when I, whenever I, after I, before I, what happens if, what if, suppose, in case I, should I decide) never make a question personal and set `has_policy_component`. **Status-query frames:** a question is personal only with a first-person or possessive anchor + a fact term + an explicit status-query frame (aux did/has/have/had/is/are/was/were/does/do/will followed within 6 words by my/I; wh + aux ... my/I; "status of my"). Both lists are documented in `query_gate.py`. The hypothetical frame wins over a status frame. Router: a hypothetical-frame question is not personal and routes unstructured. **Interpretation note:** "next to my/I" was implemented as "within 6 words after the aux", which I chose knowing that frozen question RB_S08 ("Are there any open complaints on my account?") needed it; a stricter reading would have broken that question. | `test_phase8d.py`: 4 non-personal and 5 personal NEW sentences, plus a scan asserting none of them occurs in any JSON under `hybrid/benchmark/` or `ingestion/`. The 630-keyword property test and the full suite were re-run (108 passed). |
+| 9 | Safety-case design: a missing session identity must not also withhold general policy documents. | `needs_identity` still returns zero facts but runs the document retrieval whatever the route, flagged `documents_are_generic=True`. Only `refuse_other_customer` returns neither facts nor documents. | `test_phase8d.py::TestDocumentsSurviveMissingIdentity`. |
+
+### Frozen benchmark - three runs side by side
+
+| Metric | First run (untuned, `bde1a4e`) | Amended-1 (post-hoc, 8c) | Amended-2 (post-hoc, 8d) |
+|---|---|---|---|
+| Route accuracy | 21/24 | 23/24 | 22/24 |
+| Outcome accuracy | 24/24 | 23/24 | 24/24 |
+| Structured fact recall | 23/30 | 30/30 | 26/30 |
+| Leakage | 0 | 0 | 0 |
+| Document hit@3, unstructured items | 8/8 | 7/8 | 8/8 |
+| Document hit@3, both items | 4/6 | 5/6 | 5/6 |
+| Safety (needs_identity / refuse_other_customer) | pass / pass | pass / pass | pass / pass |
+| Documents returned on safety items (needs_identity / refuse) | 0 / 0 | 0 / 0 | 5 (generic) / 0 |
+
+Amended-2 repaired the amended-1 regression (RB_U01: unstructured items back to 8/8, outcome accuracy back to 24/24) but
+**introduced two new route misses, RB_B02 and RB_B03, which cost 4 structured facts (30/30 -> 26/30).** Both are predictable
+consequences of the rules as specified:
+
+- **RB_B03** ("My latest bill is unpaid - **if I** don't pay, will my number ..."): the conditional clause makes the whole question
+  hypothetical, although its first half states a personal fact. The rule "hypothetical frames never make a question personal"
+  has no way to tell a conditional that *contains* a personal status statement from a pure scenario question.
+- **RB_B02** ("My last recharge didn't go through - what happens to the money, and what should I do?"): no listed status frame
+  applies ("didn't" is not "did my"; "what should I do" has no listed aux). The question states a personal fact as a declarative
+  statement, which the status-query frame list does not recognise.
+
+The status-frame list is therefore too narrow for declarative personal statements ("My X didn't / hasn't / is ...") and the
+hypothetical rule too blunt for mixed questions. Neither was changed after this run. Remaining miss besides those: RB_B01 hit@3 (FAQ_C17_034 at rank 5).
+Documents on `needs_identity` safety items are now returned by design (5, flagged generic); the refusal item returns 0.
+
+### Main-29 / mini-9 vs the Phase 8 rows
+
+`evaluation_results_post_phase8d.json` vs `evaluation_results_post_phase8.json`: the E13 hybrid row is **unchanged** on both sets
+(main R@1/R@3/R@5/MRR@5 0.8276 / 1.0000 / 1.0000 / 0.9080; mini 0.5556 / 0.7778 / 0.8889 / 0.6574). Vector-only and blanket-graph are unchanged.
+Six questions' gate weights moved 0.5 -> 0.15 (four main, two mini) because they no longer have a status frame; only the
+no-rerank diagnostic arm reacted (main R@1 0.6207 -> 0.6552, MRR@5 0.7615 -> 0.7787).

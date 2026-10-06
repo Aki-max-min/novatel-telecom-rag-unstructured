@@ -134,7 +134,10 @@ def route_query(question: str, customer_id=None, session_msisdn=None) -> RoutePl
     classification = classify_query(question)
     weight = graph_weight(classification)
     intents = detect_intents(question)
-    policy = has_policy_component(question)
+    hypothetical = bool(classification.get("hypothetical_frame"))
+    # Phase 8d: a hypothetical / conditional frame ("what if I...", "when I...") is a rule or scenario
+    # question: it counts as a policy component and is never a request for the asker's own data.
+    policy = has_policy_component(question) or hypothetical
 
     own_msisdn = session_msisdn or lookup_msisdn(customer_id)
     mentioned = _MSISDN_RE.findall(question or "") + _CUSTOMER_ID_RE.findall(question or "")
@@ -144,7 +147,7 @@ def route_query(question: str, customer_id=None, session_msisdn=None) -> RoutePl
     howto = bool(_HOWTO_RE.search(question or ""))
     has_fact = bool(find_term(question, PERSONAL_FACT_TERMS) or find_term(question, POSSESSIVE_NUMBER_TERMS))
 
-    personal = bool(intents) and (classification["needs_personal_data"] or bool(mentioned))
+    personal = bool(intents) and not hypothetical and (classification["needs_personal_data"] or bool(mentioned))
     why = [classification["reasoning"], f"structured intents: {intents or 'none'}"]
 
     if third_party and howto:

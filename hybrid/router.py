@@ -41,6 +41,7 @@ sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 from query_gate import (  # noqa: E402
     PERSONAL_FACT_TERMS, POSSESSIVE_NUMBER_TERMS, POSSESSIVE_TERMS, classify_query, graph_weight,
 )
+from clauses import split_clauses, summarize  # noqa: E402
 from structured_adapter import lookup_msisdn  # noqa: E402
 from textmatch import find_term, has_term  # noqa: E402
 
@@ -56,27 +57,8 @@ INTENT_TERMS = {
     "invoice": ["bill", "billing", "invoice", "due", "payment", "paid", "unpaid", "overdue", "outstanding"],
 }
 
-# ---------------------------------------------------------------------------
-# Policy cues: the question also asks about a rule, consequence or procedure (regular grammar,
-# not keyword lists)
-# ---------------------------------------------------------------------------
-POLICY_CUES = [
-    r"\bwill (?:that|this|it|they|the|i|my|we)\b",              # consequence: "will that ...", "will I be ..."
-    r"\bdoes (?:that|this|it) mean\b",                          # consequence
-    r"\bwhat happens\b",
-    r"\bwhat (?:do|should|can|must) (?:i|we)\b",                # procedure: "what do I do"
-    r"\bwhat (?:documents?|steps?|proof|process|procedure|options?)\b",
-    # Phase 8a: "which documents do I have to submit", "what proof should I bring"
-    r"\b(?:which|what) \w+ (?:do|should|must) (?:i|we) (?:(?:have|need|got|want) to )?"
-    r"(?:submit|provide|bring|carry|need)\b",
-    r"\bhow (?:do|can|should|to|long|many|soon)\b",             # how-to / duration
-    r"\b(?:is|are) (?:it|this|that)? ?(?:allowed|permitted|possible|mandatory|required)\b",
-    r"\bcan (?:the company|novatel|they|you)\b",                # permission questions about the operator
-    r"\bcan i (?:still|get|claim|dispute|appeal)\b",
-    r"\b(?:policy|rules?|regulations?|eligib\w+|entitled)\b",
-    r"\bwhat (?:is|are) the (?:process|procedure|policy|rules?|timeline)\b",
-]
-_POLICY_RE = [re.compile(p, re.I) for p in POLICY_CUES]
+# Policy cues now live in hybrid/clauses.py (POLICY_CUES; Phase 8e clause-level analysis): a question has a
+# policy component when any clause is HYPOTHETICAL or POLICY.
 
 # A how-to question about someone else's account is a document question, not a data request.
 _HOWTO_RE = re.compile(r"\bhow (?:do|can|could|should|would) (?:i|we|you)\b|\bhow to\b", re.I)
@@ -115,7 +97,8 @@ def detect_intents(question: str) -> list:
 
 
 def has_policy_component(question: str) -> bool:
-    return any(rx.search(question or "") for rx in _POLICY_RE)
+    """Any clause is HYPOTHETICAL or POLICY (hybrid/clauses.py)."""
+    return summarize(split_clauses(question or "", PERSONAL_FACT_TERMS, POSSESSIVE_NUMBER_TERMS))["has_policy_component"]
 
 
 def _foreign_mentions(question, customer_id, own_msisdn):
@@ -147,7 +130,9 @@ def route_query(question: str, customer_id=None, session_msisdn=None) -> RoutePl
     howto = bool(_HOWTO_RE.search(question or ""))
     has_fact = bool(find_term(question, PERSONAL_FACT_TERMS) or find_term(question, POSSESSIVE_NUMBER_TERMS))
 
-    personal = bool(intents) and not hypothetical and (classification["needs_personal_data"] or bool(mentioned))
+    # personal comes from the clause-level analysis (status query or account assertion); a phone number /
+    # customer id in the text only counts when the question is not hypothetical
+    personal = bool(intents) and (classification["needs_personal_data"] or (bool(mentioned) and not hypothetical))
     why = [classification["reasoning"], f"structured intents: {intents or 'none'}"]
 
     if third_party and howto:

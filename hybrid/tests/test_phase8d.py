@@ -67,8 +67,22 @@ class TestFrames(unittest.TestCase):
                   "If I pay my bill late, is there a penalty?"):
             self.assertFalse(classify_query(q)["needs_personal_data"], q)
 
-    def test_bare_fact_without_a_status_frame_is_not_personal(self):
-        self.assertFalse(classify_query("I like my plan")["needs_personal_data"])
+    def test_fact_words_without_a_first_person_anchor_are_not_personal(self):
+        # Phase 8e replacement (1/2) for the Phase 8d bare-fact test; approved by the user.
+        for q in ("What is a plan?", "Do plans include 5G?"):
+            self.assertFalse(classify_query(q)["needs_personal_data"], q)
+
+    def test_possessive_plus_fact_is_an_assertion_and_therefore_personal(self):
+        """Phase 8e replacement (2/2); approved by the user.
+
+        "I like my plan" is an ASSERTION (possessive + fact term in a clause that is not hypothetical
+        and has no policy cue), so it is personal by Phase 8e design. The asymmetry behind that choice:
+        a false "personal" call costs one read-only fetch for the already-authenticated customer
+        (documents are never withheld since Phase 8d), whereas a false "impersonal" call silently drops
+        the customer's own facts. This replaces the Phase 8d rule (anchor + fact + status frame all
+        required) that asserted the opposite for this sentence.
+        """
+        self.assertTrue(classify_query("I like my plan")["needs_personal_data"])
 
     def test_frame_test_sentences_are_not_in_any_benchmark_file(self):
         sentences = [s.lower() for s in NON_PERSONAL + PERSONAL]

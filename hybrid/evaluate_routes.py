@@ -23,6 +23,7 @@ Run from the repo root in the rag-api environment:
     python hybrid/evaluate_routes.py              # first run -> first_run_phase7.json (refuses to overwrite it)
     python hybrid/evaluate_routes.py --amended    # Phase 8c post-hoc run -> amended_run_phase8.json
     python hybrid/evaluate_routes.py --amended2   # Phase 8d post-hoc run -> amended2_run_phase8d.json
+    python hybrid/evaluate_routes.py --amended3   # Phase 8e post-hoc run -> amended3_run_phase8e.json
 Earlier result files are never overwritten.
 """
 
@@ -44,6 +45,7 @@ BENCH = Path(__file__).resolve().parent / "benchmark" / "route_benchmark.json"
 OUT = Path(__file__).resolve().parent / "benchmark" / "first_run_phase7.json"
 AMENDED_OUT = Path(__file__).resolve().parent / "benchmark" / "amended_run_phase8.json"
 AMENDED2_OUT = Path(__file__).resolve().parent / "benchmark" / "amended2_run_phase8d.json"
+AMENDED3_OUT = Path(__file__).resolve().parent / "benchmark" / "amended3_run_phase8e.json"
 ROUTES = ["structured", "unstructured", "both"]
 COUNT_INTENT = {"tickets": "tickets", "kyc_records": "kyc"}
 
@@ -95,9 +97,10 @@ def match_expected(item, facts, intents_run):
 
 
 def main():
+    amended3 = "--amended3" in sys.argv[1:]
     amended2 = "--amended2" in sys.argv[1:]
-    amended = "--amended" in sys.argv[1:] or amended2
-    out_path = AMENDED2_OUT if amended2 else AMENDED_OUT if amended else OUT
+    amended = "--amended" in sys.argv[1:] or amended2 or amended3
+    out_path = (AMENDED3_OUT if amended3 else AMENDED2_OUT if amended2 else AMENDED_OUT if amended else OUT)
     if out_path.exists():
         raise SystemExit(f"{out_path.name} already exists: results files are never overwritten.")
     if hasattr(sys.stdout, "reconfigure"):
@@ -195,9 +198,9 @@ def main():
     matrix = [[confusion[e][g] for g in ROUTES] for e in ROUTES]
     summary = {
         "post_hoc": amended,
-        "note": ("POST-HOC AMENDED RUN (" + ("Phase 8d, amended-2" if amended2 else "Phase 8c") + "): made after "
+        "note": ("POST-HOC AMENDED RUN (" + ("Phase 8e, amended-3" if amended3 else "Phase 8d, amended-2" if amended2 else "Phase 8c") + "): made after "
                  "seeing earlier results of this frozen benchmark (first_run_phase7.json, commit bde1a4e"
-                 + ("; amended_run_phase8.json" if amended2 else "") + "); gate/router fixes and the rerank "
+                 + ("; amended_run_phase8.json, amended2_run_phase8d.json" if amended3 else "; amended_run_phase8.json" if amended2 else "") + "); gate/router fixes and the rerank "
                  "choice were motivated by what those runs showed. See docs/E13_phase8_posthoc_log.md.") if amended else
                 "FIRST RUN, UNTUNED. Router/adapter were designed without reading this benchmark's file.",
         "questions": n,
@@ -217,7 +220,8 @@ def main():
 
     if leaks:
         print(f"!!! LEAKAGE DETECTED: {len(leaks)} fact(s) not owned by the session customer: {leaks}")
-    print(("===== E13 PHASE 8d - frozen benchmark, AMENDED-2 RUN (post-hoc) =====" if amended2
+    print(("===== E13 PHASE 8e - frozen benchmark, AMENDED-3 RUN (post-hoc) =====" if amended3
+           else "===== E13 PHASE 8d - frozen benchmark, AMENDED-2 RUN (post-hoc) =====" if amended2
            else "===== E13 PHASE 8c - frozen benchmark, AMENDED RUN (post-hoc) =====") if amended
           else "===== E13 PHASE 7 — frozen benchmark, FIRST RUN (untuned) =====")
     print(f"route accuracy: {route_ok}/{n}   confusion (rows expected, cols got; order {ROUTES}):")

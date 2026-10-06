@@ -90,3 +90,36 @@ Implementation note: the first execution of the script marked V2 as vetoed. V2's
 a drop of exactly one question (1/29), which the rule does NOT veto ("more than 1/29"); the script had compared
 4-decimal rounded values without allowing for the rounding. The comparison was corrected (tolerance 1e-4) and the script re-run:
 every metric was identical to the first execution, only V2's veto flag changed, and the winner was V1 both times.
+
+---
+
+## Post-outcome addendum (written after seeing results)
+
+The rule text and the outcome section above are unchanged. This addendum was written after the numbers were known, and says so.
+
+**Pooled view over the 38 selection questions (29 main + 9 mini), recomputed from the stored rankings in
+`hybrid/evaluation_results_rerank_variants.json`:**
+
+| Variant | Top-1 hits | Pooled MRR@5 |
+|---|---|---|
+| V0 override | 29 / 38 | 0.8452 |
+| V1 blend w=1.0 | 29 / 38 | 0.8487 |
+| V2 blend w=0.5 | 26 / 38 | 0.8079 |
+| V3 protect_graph | 29 / 38 | 0.8452 |
+
+On the validation set V1's MRR@5 is 0.8238 against V0's 0.8810, with equal hit@3 (13/14) and higher hit@5 (14/14 vs 13/14).
+(V1's pooled MRR@5 is 0.8487 when recomputed; an earlier hand-quoted figure of 0.8486 differs by rounding only.)
+
+**What this shows.** Pooled over all 38 questions, V0 and V1 are indistinguishable on top-1 hits (29 each) and on MRR@5
+(0.8452 vs 0.8487, a difference of 0.0035). The macro-average in the rule gives the 9-question set the same weight as
+the 29-question set, so one question on the mini set moves the macro score about three times as much as one on the main set.
+That is a weakness of the rule as written. V1 was selected by that rule and its outcome is recorded as is; the rule is not
+being rewritten.
+
+**V3.** V3 was identical to V0 because it protects a graph-only candidate against eviction from the top 5, but the observed
+mechanism is demotion *within* the top 5 (the CrossEncoder reorders candidates that are already present), which V3 does not address.
+
+**Decision on the shipping default.** V1 remains the current default only because the rule selected it. The shipping default
+will be decided on a blind set, using only that set's unstructured and both items: **adopt V1 only if its pooled MRR@5 beats
+V0's by at least 0.02, otherwise V0.** The blind set has not been written yet; nothing in this paragraph has been tested.
+The default is controlled by the single constant `DEFAULT_RERANK_MODE` in `hybrid/rerank.py` ("rrf_blend" = V1, "override" = V0).

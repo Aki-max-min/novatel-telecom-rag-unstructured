@@ -4,7 +4,21 @@ A retrieval-focused RAG foundation for a synthetic enterprise telecom knowledge 
 
 This repository implements the unstructured-data ingestion, processing, embedding, vector indexing, semantic retrieval, and retrieval evaluation layer of a larger NovaTel Telecom RAG system.
 
-The structured/CSV data layer is maintained separately by the project partner.
+The structured/CSV data layer lives in structured/ and is integrated through the hybrid layer (see below).
+
+Hybrid layer (E13)
+
+The repository now contains the full hybrid pipeline on top of the unstructured retrieval baseline and the structured layer: query gate and clause-level router, customer-scoped read-only structured adapter, document-level RRF fusion, controlled CrossEncoder rerank, and a grounded answer layer with a deterministic verifier.
+
+Branch history: built on person-b/hybrid-e13 (phases 1-9d) and fast-forward merged into main.
+
+Run the demo (needs faiss + sentence-transformers, e.g. the rag-api environment):   python -m hybrid.demo
+Run the tests:   python -m pytest hybrid/tests
+
+Architecture and status per stage: docs/E13_architecture_status.md
+Design, findings and open questions: docs/E13_Hybrid_Fusion_Roadmap.md
+Post-hoc fix log and blind-run protocol: docs/E13_phase8_posthoc_log.md, docs/E13_blind_run_protocol.md
+
 
 Table of Contents
 
@@ -192,7 +206,7 @@ The larger NovaTel Telecom RAG system consists of two major information sources:
 
 This repository focuses specifically on the unstructured-data retrieval path.
 
-The structured/CSV component is maintained separately by the project partner.
+The structured/CSV component is in structured/ and is joined to this path by the hybrid layer in hybrid/.
 
 Objectives
 
@@ -2736,4 +2750,4 @@ Project Status
 
 Unstructured ingestion + semantic retrieval baseline: COMPLETE
 
-Next milestone: Hybrid retrieval + structured-data integration + end-to-end RAG
+Hybrid retrieval + structured-data integration + grounded answer layer: BUILT (see docs/E13_architecture_status.md). Next: blind-set evaluation and the LLM-answerer decision (joint with the project partner).

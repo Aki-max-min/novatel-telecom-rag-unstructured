@@ -1,0 +1,11 @@
+-r requirements.txt
+
+deepeval
+ollama
+pytest
+
+# NLI faithfulness checker (integration/eval/faithfulness_nli.py) -- CPU only,
+# GPU is reserved for Ollama generation. On a fresh machine with no existing
+# torch install, use the CPU wheel: pip install torch --index-url https://download.pytorch.org/whl/cpu
+transformers
+torch

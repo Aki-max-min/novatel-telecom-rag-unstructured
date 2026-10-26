@@ -31,3 +31,9 @@ data/raw/real_world/scifact/scifact.zip
 # Regenerable ColPali outputs (page images + tensors) - not source data
 data/experiments/public_pdfs/**/*.jpg
 data/experiments/public_pdfs/**/*.pt
+
+# Local LLM (Ollama) models/weights/cache - never commit model weights
+.ollama/
+*.gguf
+*.bin
+ollama-models/

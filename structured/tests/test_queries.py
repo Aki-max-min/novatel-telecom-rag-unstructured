@@ -91,5 +91,66 @@ class TestQueryParser(unittest.TestCase):
         self.assertIsNone(result["method"])
 
 
+class TestWordBoundaryRegression(unittest.TestCase):
+    """Person A's bug: bare substring tests (kw in q_lower) matched inside other words."""
+
+    def table(self, q):
+        return parse_query(q).get("table")
+
+    def test_port_inside_other_words_does_not_trigger_porting_requests(self):
+        for q in ("What is important here?", "Show the report", "Who gives support?", "A transport question"):
+            self.assertNotEqual(self.table(q), "porting_requests", q)
+            self.assertIsNone(self.table(q), q)
+
+    def test_sim_inside_other_words_does_not_trigger_sim_inventory(self):
+        for q in ("Show similar items", "Run a simulation", "A simple question"):
+            self.assertIsNone(self.table(q), q)
+
+    def test_postpaid_and_prepaid_are_not_status_paid(self):
+        self.assertIsNone(extract_status_value_for_table("Show postpaid invoices", "invoices"))
+        self.assertIsNone(extract_status_value_for_table("Show prepaid invoices", "invoices"))
+        self.assertEqual(extract_status_value_for_table("Show paid invoices", "invoices"), "Paid")
+
+    def test_inactive_is_inactive_not_active(self):
+        self.assertEqual(extract_status_value_for_table("Show inactive sim_inventory", "sim_inventory"), "Inactive")
+        self.assertEqual(extract_status_value_for_table("Show active sim_inventory", "sim_inventory"), "Active")
+
+    def test_incomplete_is_not_complete(self):
+        self.assertNotEqual(extract_status_value_for_table("Show incomplete kyc_records", "kyc_records"), "Complete")
+        self.assertEqual(extract_status_value_for_table("Show complete kyc_records", "kyc_records"), "Complete")
+
+    def test_unresolved_is_not_resolved(self):
+        self.assertNotEqual(extract_status_value_for_table("Show unresolved fraud cases", "fraud_cases"), "Resolved")
+        self.assertEqual(parse_query("Show unresolved fraud cases")["table"], "fraud_cases")
+        self.assertEqual(extract_status_value_for_table("Show resolved fraud cases", "fraud_cases"), "Resolved")
+
+    def test_explanation_website_bottom_match_nothing(self):
+        for q in ("Give me an explanation", "Visit the website", "See the bottom of the page"):
+            self.assertIsNone(self.table(q), q)
+
+    def test_two_tables_in_one_question_is_ambiguous_not_first_match(self):
+        result = parse_query("Show the plan and invoice for customer 1001")
+        self.assertIsNone(result["table"])
+        self.assertTrue(result["error"].startswith("ambiguous:"), result)
+        self.assertIn("invoices", result["error"])
+        self.assertIn("subscriptions", result["error"])
+        self.assertNotIn("results", result)
+
+    def test_underscore_table_names_still_resolve(self):
+        for name in ("recharge_transactions", "payment_transactions", "sim_inventory", "kyc_records",
+                     "porting_requests", "fraud_cases", "escalation_cases", "fiber_inventory"):
+            self.assertEqual(self.table(f"Show {name} with status Pending"), name, name)
+
+    def test_exact_table_name_wins_over_keywords(self):
+        self.assertEqual(self.table("Show esim_profiles with status Active"), "esim_profiles")
+        self.assertEqual(self.table("Show esim_profiles for the customer profile"), "esim_profiles")
+
+    def test_inflections_still_match(self):
+        self.assertEqual(self.table("Why was I billed twice?"), "invoices")
+        self.assertEqual(self.table("Show my billing"), "invoices")
+        self.assertEqual(self.table("List all invoices"), "invoices")
+        self.assertEqual(self.table("Which plans exist?"), "subscriptions")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

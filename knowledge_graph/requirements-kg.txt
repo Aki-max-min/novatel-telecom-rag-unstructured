@@ -1,0 +1,21 @@
+# Dependencies for the ontology / knowledge graph layer.
+# Person A's root requirements.txt is untouched; install this in addition to it.
+#
+# Required (Phase 1 + Phase 2 graph build, queries, evaluation)
+#   verified working with networkx 3.4.2
+networkx>=3.0
+
+# Optional - Neo4j mirror (knowledge_graph/graph_loader.py).
+# Without it the loader exits with startup instructions and evaluate_graph
+# reports the Neo4j counts as "not run". Verified with neo4j 6.3.0.
+neo4j>=5.0
+
+# Optional - visualization (knowledge_graph/visualize_graph.py).
+# Each renderer is skipped independently if its library is missing.
+# Verified with pyvis 0.3.2 and matplotlib 3.10.0.
+pyvis>=0.3.2
+matplotlib>=3.5
+
+# Deliberately NOT used in this layer: spaCy, any embedding model, any LLM.
+# Content extraction is a curated pattern dictionary so that every edge is
+# explainable and every run is reproducible.

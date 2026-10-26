@@ -1,0 +1,1343 @@
+{
+  "note": "Phase 8e clause decomposition; customer_id is None for main/mini (no session).",
+  "rows": [
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_S01",
+      "question": "Has my last recharge gone through?",
+      "customer_id": 1042,
+      "clauses": [
+        {
+          "text": "Has my last recharge gone through",
+          "kind": "STATUS_QUERY"
+        }
+      ],
+      "personal": true,
+      "route": "structured",
+      "outcome": "answer",
+      "structured_intents": [
+        "recharge"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_S02",
+      "question": "Did my most recent recharge go through, and for how much?",
+      "customer_id": 1056,
+      "clauses": [
+        {
+          "text": "Did my most recent recharge go through",
+          "kind": "STATUS_QUERY"
+        },
+        {
+          "text": "and for how much",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": true,
+      "route": "structured",
+      "outcome": "answer",
+      "structured_intents": [
+        "recharge"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_S03",
+      "question": "When does my current plan expire?",
+      "customer_id": 1042,
+      "clauses": [
+        {
+          "text": "When does my current plan expire",
+          "kind": "STATUS_QUERY"
+        }
+      ],
+      "personal": true,
+      "route": "structured",
+      "outcome": "answer",
+      "structured_intents": [
+        "subscription"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_S04",
+      "question": "Is my plan still active, and when did it run out?",
+      "customer_id": 1056,
+      "clauses": [
+        {
+          "text": "Is my plan still active",
+          "kind": "STATUS_QUERY"
+        },
+        {
+          "text": "and when did it run out",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": true,
+      "route": "structured",
+      "outcome": "answer",
+      "structured_intents": [
+        "subscription"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_S05",
+      "question": "Do I have any complaints that are still open, and what are they about?",
+      "customer_id": 1042,
+      "clauses": [
+        {
+          "text": "Do I have any complaints that are still open",
+          "kind": "STATUS_QUERY"
+        },
+        {
+          "text": "and what are they about",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": true,
+      "route": "structured",
+      "outcome": "answer",
+      "structured_intents": [
+        "tickets"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_S06",
+      "question": "Is my latest bill paid or still pending?",
+      "customer_id": 1829,
+      "clauses": [
+        {
+          "text": "Is my latest bill paid or still pending",
+          "kind": "STATUS_QUERY"
+        }
+      ],
+      "personal": true,
+      "route": "structured",
+      "outcome": "answer",
+      "structured_intents": [
+        "invoice"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_S07",
+      "question": "What is my KYC status right now?",
+      "customer_id": 1031,
+      "clauses": [
+        {
+          "text": "What is my KYC status right now",
+          "kind": "STATUS_QUERY"
+        }
+      ],
+      "personal": true,
+      "route": "structured",
+      "outcome": "answer",
+      "structured_intents": [
+        "kyc"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_S08",
+      "question": "Are there any open complaints on my account?",
+      "customer_id": 1015,
+      "clauses": [
+        {
+          "text": "Are there any open complaints on my account",
+          "kind": "STATUS_QUERY"
+        }
+      ],
+      "personal": true,
+      "route": "structured",
+      "outcome": "answer",
+      "structured_intents": [
+        "tickets"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_U01",
+      "question": "I've got a cashback deal and a bonus-data deal - can both be applied when I top up once?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "I've got a cashback deal and a bonus-data deal",
+          "kind": "OTHER"
+        },
+        {
+          "text": "can both be applied when I top up once",
+          "kind": "HYPOTHETICAL"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_U02",
+      "question": "Once NovaTel agrees to give the money back, when does it land if I paid by UPI?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "Once NovaTel agrees to give the money back",
+          "kind": "OTHER"
+        },
+        {
+          "text": "when does it land if I paid by UPI",
+          "kind": "HYPOTHETICAL"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_U03",
+      "question": "Can I get a fixed public address for my home internet so I can reach my devices remotely?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "Can I get a fixed public address for my home internet so I can reach my devices remotely",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_U04",
+      "question": "Does NovaTel offer any help for customers who can't hear well?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "Does NovaTel offer any help for customers who can't hear well",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_U05",
+      "question": "How do I stop telemarketing texts and calls by sending a message?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "How do I stop telemarketing texts and calls by sending a message",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_U06",
+      "question": "How many months do my loyalty points stay valid, and what can I use them for?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "How many months do my loyalty points stay valid",
+          "kind": "POLICY"
+        },
+        {
+          "text": "and what can I use them for",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_U07",
+      "question": "Two of my connections are under separate profiles - how do I put them together, and how long does it take?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "Two of my connections are under separate profiles",
+          "kind": "OTHER"
+        },
+        {
+          "text": "how do I put them together",
+          "kind": "POLICY"
+        },
+        {
+          "text": "and how long does it take",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_U08",
+      "question": "How do I turn on fingerprint unlock for the NovaTel app, and does it carry over to my other phones?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "How do I turn on fingerprint unlock for the NovaTel app",
+          "kind": "POLICY"
+        },
+        {
+          "text": "and does it carry over to my other phones",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_B01",
+      "question": "My KYC is showing pending - will my number get disconnected, and what do I need to do?",
+      "customer_id": 1042,
+      "clauses": [
+        {
+          "text": "My KYC is showing pending",
+          "kind": "ASSERTION"
+        },
+        {
+          "text": "will my number get disconnected",
+          "kind": "STATUS_QUERY"
+        },
+        {
+          "text": "and what do I need to do",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": true,
+      "route": "both",
+      "outcome": "answer",
+      "structured_intents": [
+        "kyc"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_B02",
+      "question": "My last recharge didn't go through - what happens to the money, and what should I do?",
+      "customer_id": 1056,
+      "clauses": [
+        {
+          "text": "My last recharge didn't go through",
+          "kind": "ASSERTION"
+        },
+        {
+          "text": "what happens to the money",
+          "kind": "POLICY"
+        },
+        {
+          "text": "and what should I do",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": true,
+      "route": "both",
+      "outcome": "answer",
+      "structured_intents": [
+        "recharge"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_B03",
+      "question": "My latest bill is unpaid - if I don't pay, will my number get deactivated, and could I get it back?",
+      "customer_id": 1829,
+      "clauses": [
+        {
+          "text": "My latest bill is unpaid",
+          "kind": "ASSERTION"
+        },
+        {
+          "text": "if I don't pay",
+          "kind": "HYPOTHETICAL"
+        },
+        {
+          "text": "will my number get deactivated",
+          "kind": "HYPOTHETICAL"
+        },
+        {
+          "text": "and could I get it back",
+          "kind": "HYPOTHETICAL"
+        }
+      ],
+      "personal": true,
+      "route": "both",
+      "outcome": "answer",
+      "structured_intents": [
+        "invoice"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_B04",
+      "question": "My KYC shows as expired - which documents do I have to submit to re-verify?",
+      "customer_id": 1031,
+      "clauses": [
+        {
+          "text": "My KYC shows as expired",
+          "kind": "ASSERTION"
+        },
+        {
+          "text": "which documents do I have to submit to re-verify",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": true,
+      "route": "both",
+      "outcome": "answer",
+      "structured_intents": [
+        "kyc"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_B05",
+      "question": "My plan ran out a long time ago - can I still get incoming calls, and how do I get service back?",
+      "customer_id": 1056,
+      "clauses": [
+        {
+          "text": "My plan ran out a long time ago",
+          "kind": "ASSERTION"
+        },
+        {
+          "text": "can I still get incoming calls",
+          "kind": "POLICY"
+        },
+        {
+          "text": "and how do I get service back",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": true,
+      "route": "both",
+      "outcome": "answer",
+      "structured_intents": [
+        "subscription"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_B06",
+      "question": "My latest postpaid bill looks higher than my plan rental - what does it show, and how do I dispute it?",
+      "customer_id": 1003,
+      "clauses": [
+        {
+          "text": "My latest postpaid bill looks higher than my plan rental",
+          "kind": "ASSERTION"
+        },
+        {
+          "text": "what does it show",
+          "kind": "OTHER"
+        },
+        {
+          "text": "and how do I dispute it",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": true,
+      "route": "both",
+      "outcome": "answer",
+      "structured_intents": [
+        "subscription",
+        "invoice"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_X01",
+      "question": "When does my plan expire and what was my last recharge?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "When does my plan expire and what was my last recharge",
+          "kind": "STATUS_QUERY"
+        }
+      ],
+      "personal": true,
+      "route": "structured",
+      "outcome": "needs_identity",
+      "structured_intents": [
+        "recharge",
+        "subscription"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "frozen_route_24",
+      "question_id": "RB_X02",
+      "question": "What was the last recharge on 9756865116 and did it succeed?",
+      "customer_id": 1042,
+      "clauses": [
+        {
+          "text": "What was the last recharge on 9756865116 and did it succeed",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "structured",
+      "outcome": "refuse_other_customer",
+      "structured_intents": [
+        "recharge"
+      ],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q01",
+      "question": "I don't have access to my old registered phone number anymore. How can I update the number on my account?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "I don't have access to my old registered phone number anymore",
+          "kind": "OTHER"
+        },
+        {
+          "text": "How can I update the number on my account",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q02",
+      "question": "How can I check when my current prepaid plan will stop being valid?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "How can I check when my current prepaid plan will stop being valid",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q03",
+      "question": "Money was deducted when I tried to recharge, but the recharge hasn't appeared on my account. What should I do?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "Money was deducted when I tried to recharge",
+          "kind": "HYPOTHETICAL"
+        },
+        {
+          "text": "but the recharge hasn't appeared on my account",
+          "kind": "HYPOTHETICAL"
+        },
+        {
+          "text": "What should I do",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q04",
+      "question": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "Why is my latest postpaid bill higher than the monthly rental I expected to pay",
+          "kind": "STATUS_QUERY"
+        }
+      ],
+      "personal": true,
+      "route": "structured",
+      "outcome": "needs_identity",
+      "structured_intents": [
+        "invoice"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q05",
+      "question": "I put my SIM into another phone and now it says there is no network. What can I do?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "I put my SIM into another phone and now it says there is no network",
+          "kind": "OTHER"
+        },
+        {
+          "text": "What can I do",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q06",
+      "question": "If I move my existing number to NovaTel, how long will the porting process take?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "If I move my existing number to NovaTel",
+          "kind": "HYPOTHETICAL"
+        },
+        {
+          "text": "how long will the porting process take",
+          "kind": "HYPOTHETICAL"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q07",
+      "question": "I'm travelling outside India. How do I turn on international roaming before I leave?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "I'm travelling outside India",
+          "kind": "OTHER"
+        },
+        {
+          "text": "How do I turn on international roaming before I leave",
+          "kind": "HYPOTHETICAL"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q08",
+      "question": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "There is no mobile signal where I am",
+          "kind": "OTHER"
+        },
+        {
+          "text": "How can I find out whether NovaTel is having a network outage",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q09",
+      "question": "My mobile internet has become much slower than usual. Could a data usage limit be causing this?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "My mobile internet has become much slower than usual",
+          "kind": "OTHER"
+        },
+        {
+          "text": "Could a data usage limit be causing this",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q10",
+      "question": "I was subscribed to a service I don't remember requesting. How can I cancel it?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "I was subscribed to a service I don't remember requesting",
+          "kind": "OTHER"
+        },
+        {
+          "text": "How can I cancel it",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q11",
+      "question": "How much will I be charged if I call or send an SMS to a number in another country?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "How much will I be charged if I call or send an SMS to a number in another country",
+          "kind": "HYPOTHETICAL"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q12",
+      "question": "How do I check whether my handset supports NovaTel 5G and VoLTE?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "How do I check whether my handset supports NovaTel 5G and VoLTE",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q13",
+      "question": "The OTP for signing into the My NovaTel app isn't arriving. How can I log in?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "The OTP for signing into the My NovaTel app isn't arriving",
+          "kind": "OTHER"
+        },
+        {
+          "text": "How can I log in",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q14",
+      "question": "Are there any special recharge offers available specifically for my mobile number?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "Are there any special recharge offers available specifically for my mobile number",
+          "kind": "ASSERTION"
+        }
+      ],
+      "personal": true,
+      "route": "structured",
+      "outcome": "needs_identity",
+      "structured_intents": [
+        "recharge"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q15",
+      "question": "I had Gold loyalty status before, but now I'm Silver. Why did my loyalty tier change?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "I had Gold loyalty status before",
+          "kind": "OTHER"
+        },
+        {
+          "text": "but now I'm Silver",
+          "kind": "OTHER"
+        },
+        {
+          "text": "Why did my loyalty tier change",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q16",
+      "question": "I've already complained about this issue but nobody has resolved it. How can I escalate my complaint?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "I've already complained about this issue but nobody has resolved it",
+          "kind": "OTHER"
+        },
+        {
+          "text": "How can I escalate my complaint",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q17",
+      "question": "What documents do I need to provide if NovaTel asks me to complete KYC verification again?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "What documents do I need to provide if NovaTel asks me to complete KYC verification again",
+          "kind": "HYPOTHETICAL"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q18",
+      "question": "I think someone has fraudulently replaced my SIM. What should I do immediately?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "I think someone has fraudulently replaced my SIM",
+          "kind": "OTHER"
+        },
+        {
+          "text": "What should I do immediately",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q19",
+      "question": "What happens to my call and location information, and how does NovaTel use it?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "What happens to my call and location information",
+          "kind": "POLICY"
+        },
+        {
+          "text": "and how does NovaTel use it",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q20",
+      "question": "I was charged twice for the same recharge. How can I get the extra amount refunded?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "I was charged twice for the same recharge",
+          "kind": "OTHER"
+        },
+        {
+          "text": "How can I get the extra amount refunded",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q21",
+      "question": "I want to permanently close my postpaid connection. How do I do that?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "I want to permanently close my postpaid connection",
+          "kind": "OTHER"
+        },
+        {
+          "text": "How do I do that",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q22",
+      "question": "I bought a new SIM but it still isn't active after a full day. What should I do?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "I bought a new SIM but it still isn't active after a full day",
+          "kind": "OTHER"
+        },
+        {
+          "text": "What should I do",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q23",
+      "question": "What does a NovaTel enterprise connectivity plan include for a business?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "What does a NovaTel enterprise connectivity plan include for a business",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q24",
+      "question": "We have thousands of IoT SIM cards. How can our organisation monitor their usage?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "We have thousands of IoT SIM cards",
+          "kind": "OTHER"
+        },
+        {
+          "text": "How can our organisation monitor their usage",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q25",
+      "question": "My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "My home fibre connection shows LOS on the ONT",
+          "kind": "OTHER"
+        },
+        {
+          "text": "What does that mean and how can I troubleshoot it",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q26",
+      "question": "I registered for DND but I'm still receiving promotional calls. How can I report this?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "I registered for DND but I'm still receiving promotional calls",
+          "kind": "OTHER"
+        },
+        {
+          "text": "How can I report this",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q27",
+      "question": "Does the My NovaTel app work with screen readers for visually impaired users?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "Does the My NovaTel app work with screen readers for visually impaired users",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q28",
+      "question": "What is TRAI's role in regulating telecom operators like NovaTel?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "What is TRAI's role in regulating telecom operators like NovaTel",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "main_29",
+      "question_id": "Q29",
+      "question": "My phone says the SIM isn't provisioned for voice calls. How can I fix this?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "My phone says the SIM isn't provisioned for voice calls",
+          "kind": "OTHER"
+        },
+        {
+          "text": "How can I fix this",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "mini_9",
+      "question_id": "GQ01",
+      "question": "If my home internet is down for most of a day because of a cable cut, will I get money back on my bill without asking for it?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "If my home internet is down for most of a day because of a cable cut",
+          "kind": "HYPOTHETICAL"
+        },
+        {
+          "text": "will I get money back on my bill without asking for it",
+          "kind": "HYPOTHETICAL"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "mini_9",
+      "question_id": "GQ02",
+      "question": "Why did one cable cut knock out broadband for a whole region, and what long-term fix was agreed?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "Why did one cable cut knock out broadband for a whole region",
+          "kind": "OTHER"
+        },
+        {
+          "text": "and what long-term fix was agreed",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "mini_9",
+      "question_id": "GQ03",
+      "question": "How quickly is an engineer sent out for a business line compared with a home connection?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "How quickly is an engineer sent out for a business line compared with a home connection",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    },
+    {
+      "set": "mini_9",
+      "question_id": "GQ04",
+      "question": "The agent blocked my SIM before finishing the identity checks. Is that the correct procedure?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "The agent blocked my SIM before finishing the identity checks",
+          "kind": "OTHER"
+        },
+        {
+          "text": "Is that the correct procedure",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "mini_9",
+      "question_id": "GQ05",
+      "question": "Which internal teams get involved if fraud on my number caused actual financial loss?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "Which internal teams get involved if fraud on my number caused actual financial loss",
+          "kind": "HYPOTHETICAL"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "mini_9",
+      "question_id": "GQ06",
+      "question": "What proof does a store need before handing over a duplicate SIM?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "What proof does a store need before handing over a duplicate SIM",
+          "kind": "POLICY"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "mini_9",
+      "question_id": "GQ07",
+      "question": "How does the company decide that a failed payment which took my money should be given back?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "How does the company decide that a failed payment which took my money should be given back",
+          "kind": "ASSERTION"
+        }
+      ],
+      "personal": true,
+      "route": "structured",
+      "outcome": "needs_identity",
+      "structured_intents": [
+        "invoice"
+      ],
+      "graph_weight": 0.5
+    },
+    {
+      "set": "mini_9",
+      "question_id": "GQ08",
+      "question": "What record does the billing team keep about why refunds were given?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "What record does the billing team keep about why refunds were given",
+          "kind": "OTHER"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.15
+    },
+    {
+      "set": "mini_9",
+      "question_id": "GQ09",
+      "question": "If I ask to stop marketing messages, what does NovaTel have to do by law?",
+      "customer_id": null,
+      "clauses": [
+        {
+          "text": "If I ask to stop marketing messages",
+          "kind": "HYPOTHETICAL"
+        },
+        {
+          "text": "what does NovaTel have to do by law",
+          "kind": "HYPOTHETICAL"
+        }
+      ],
+      "personal": false,
+      "route": "unstructured",
+      "outcome": "answer",
+      "structured_intents": [],
+      "graph_weight": 0.0
+    }
+  ],
+  "gate_weight_changes_vs_phase5": [
+    {
+      "set": "main_29",
+      "question": "How can I check when my current prepaid plan will stop being valid?",
+      "phase5_weight": 0.5,
+      "now": 0.15
+    },
+    {
+      "set": "main_29",
+      "question": "Money was deducted when I tried to recharge, but the recharge hasn't appeared on my account. What should I do?",
+      "phase5_weight": 0.5,
+      "now": 0.15
+    },
+    {
+      "set": "main_29",
+      "question": "If I move my existing number to NovaTel, how long will the porting process take?",
+      "phase5_weight": 0.5,
+      "now": 0.15
+    },
+    {
+      "set": "main_29",
+      "question": "My mobile internet has become much slower than usual. Could a data usage limit be causing this?",
+      "phase5_weight": 0.5,
+      "now": 0.15
+    },
+    {
+      "set": "main_29",
+      "question": "I've already complained about this issue but nobody has resolved it. How can I escalate my complaint?",
+      "phase5_weight": 0.5,
+      "now": 0.15
+    },
+    {
+      "set": "main_29",
+      "question": "What documents do I need to provide if NovaTel asks me to complete KYC verification again?",
+      "phase5_weight": 0.5,
+      "now": 0.15
+    },
+    {
+      "set": "main_29",
+      "question": "I registered for DND but I'm still receiving promotional calls. How can I report this?",
+      "phase5_weight": 0.15,
+      "now": 0.0
+    },
+    {
+      "set": "mini_9",
+      "question": "If my home internet is down for most of a day because of a cable cut, will I get money back on my bill without asking for it?",
+      "phase5_weight": 0.5,
+      "now": 0.15
+    },
+    {
+      "set": "mini_9",
+      "question": "Which internal teams get involved if fraud on my number caused actual financial loss?",
+      "phase5_weight": 0.5,
+      "now": 0.15
+    }
+  ]
+}

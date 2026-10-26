@@ -19,11 +19,10 @@ __pycache__/
 .cache/
 .cache/huggingface/
 
-.venv/
+# Person B: regenerable knowledge-graph artefacts (~90MB, rebuilt by graph_builder / structured_graph_builder)
+knowledge_graph/output/
+
 .venv_colpali/
-__pycache__/
-*.pyc
-.pytest_cache/
 
 data/raw/real_world/telecom_mixed/
 data/raw/real_world/scifact/scifact.zip

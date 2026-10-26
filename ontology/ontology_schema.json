@@ -1,0 +1,1338 @@
+{
+  "schema_name": "NovaTel Unstructured Knowledge Graph Ontology",
+  "schema_version": "4.0.0",
+  "phase": "Phase 5 - document KG + structured KG + the shared Concept layer that bridges them",
+  "owner": "Person B (Ontology & Knowledge Graph layer)",
+  "source_corpus": {
+    "path": "data/processed/documents/*.json",
+    "document_count": 148,
+    "produced_by": "Person A unstructured ingestion pipeline",
+    "access": "read-only"
+  },
+  "extraction_policy": {
+    "deterministic_only": true,
+    "nlp_used": false,
+    "llm_used": false,
+    "ml_used": false,
+    "rule": "Metadata nodes and edges are read verbatim from declared fields. Content concepts come from a curated dictionary of canonical concept names mapped to explicit case-insensitive trigger phrases, matched on non-alphanumeric boundaries. No inference, no text mining, no embeddings, no LLM, no spaCy. Re-running the extractors on the same corpus reproduces identical output.",
+    "content_method": "curated_pattern_dictionary"
+  },
+  "node_id_convention": "<NodeLabel>::<key_value>",
+  "node_labels": [
+    {
+      "label": "Document",
+      "source_field": "document_id",
+      "key": "document_id",
+      "description": "A canonical unstructured document produced by the ingestion pipeline, or an unresolved stub referenced by related_ids.",
+      "properties": [
+        "title",
+        "document_type",
+        "version",
+        "last_updated",
+        "file_type",
+        "source_authority",
+        "resolved"
+      ]
+    },
+    {
+      "label": "DocumentType",
+      "source_field": "document_type",
+      "key": "document_type",
+      "description": "The editorial form of a document (FAQ, SOP, RCA, Policy, ...).",
+      "properties": [
+        "name"
+      ]
+    },
+    {
+      "label": "Category",
+      "source_field": "category",
+      "key": "category",
+      "description": "A NovaTel business category code carried in document metadata.",
+      "properties": [
+        "name",
+        "name_source"
+      ]
+    },
+    {
+      "label": "Department",
+      "source_field": "department",
+      "key": "department",
+      "description": "The internal business unit that owns the document.",
+      "properties": [
+        "name"
+      ]
+    },
+    {
+      "label": "CustomerScope",
+      "source_field": "customer_scope",
+      "key": "customer_scope",
+      "description": "The customer segment a document applies to (all, prepaid, postpaid, enterprise).",
+      "properties": [
+        "name"
+      ]
+    },
+    {
+      "label": "Tag",
+      "source_field": "tags",
+      "key": "tag",
+      "description": "A free-form keyword attached to a document by the ingestion pipeline.",
+      "properties": [
+        "name"
+      ]
+    },
+    {
+      "label": "SourceAuthority",
+      "source_field": "source_authority",
+      "key": "source_authority",
+      "description": "The authority that published or vouches for the document.",
+      "properties": [
+        "name"
+      ]
+    },
+    {
+      "label": "Dataset",
+      "source_field": "document_id",
+      "key": "dataset",
+      "description": "Corpus of origin. Derived deterministically: 'SciFact' when document_id starts with 'SCIFACT_', otherwise 'NovaTel'.",
+      "properties": [
+        "name"
+      ]
+    },
+    {
+      "label": "Service",
+      "source_field": "content,title",
+      "key": "canonical service name",
+      "description": "A customer-facing telecom service or transaction named in the document text.",
+      "properties": [
+        "name",
+        "concept_type",
+        "extraction_method",
+        "trigger_count",
+        "document_frequency"
+      ]
+    },
+    {
+      "label": "Channel",
+      "source_field": "content,title",
+      "key": "canonical channel name",
+      "description": "A channel through which a service is delivered (app, portal, IVR, helpline, website).",
+      "properties": [
+        "name",
+        "concept_type",
+        "extraction_method",
+        "trigger_count",
+        "document_frequency"
+      ]
+    },
+    {
+      "label": "VerificationMethod",
+      "source_field": "content,title",
+      "key": "canonical method name",
+      "description": "A mechanism used to verify a customer's identity (OTP, Video KYC, biometric).",
+      "properties": [
+        "name",
+        "concept_type",
+        "extraction_method",
+        "trigger_count",
+        "document_frequency"
+      ]
+    },
+    {
+      "label": "Requirement",
+      "source_field": "content,title",
+      "key": "canonical requirement name",
+      "description": "A document or artefact the customer must produce (valid photo ID, address proof, passport).",
+      "properties": [
+        "name",
+        "concept_type",
+        "extraction_method",
+        "trigger_count",
+        "document_frequency"
+      ]
+    },
+    {
+      "label": "Location",
+      "source_field": "content,title",
+      "key": "canonical location name",
+      "description": "A physical place a customer is directed to (Experience Store, retail outlet).",
+      "properties": [
+        "name",
+        "concept_type",
+        "extraction_method",
+        "trigger_count",
+        "document_frequency"
+      ]
+    }
+  ],
+  "relationship_types": [
+    {
+      "type": "BELONGS_TO_CATEGORY",
+      "from": "Document",
+      "to": "Category",
+      "source_field": "category",
+      "cardinality": "1 per document"
+    },
+    {
+      "type": "IS_TYPE",
+      "from": "Document",
+      "to": "DocumentType",
+      "source_field": "document_type",
+      "cardinality": "1 per document"
+    },
+    {
+      "type": "OWNED_BY_DEPARTMENT",
+      "from": "Document",
+      "to": "Department",
+      "source_field": "department",
+      "cardinality": "1 per document"
+    },
+    {
+      "type": "APPLIES_TO_SCOPE",
+      "from": "Document",
+      "to": "CustomerScope",
+      "source_field": "customer_scope",
+      "cardinality": "1 per document"
+    },
+    {
+      "type": "HAS_TAG",
+      "from": "Document",
+      "to": "Tag",
+      "source_field": "tags",
+      "cardinality": "0..n per document, one edge per tag"
+    },
+    {
+      "type": "AUTHORED_BY",
+      "from": "Document",
+      "to": "SourceAuthority",
+      "source_field": "source_authority",
+      "cardinality": "1 per document"
+    },
+    {
+      "type": "PART_OF_DATASET",
+      "from": "Document",
+      "to": "Dataset",
+      "source_field": "document_id",
+      "cardinality": "1 per document"
+    },
+    {
+      "type": "RELATED_TO",
+      "from": "Document",
+      "to": "Document",
+      "source_field": "related_ids",
+      "cardinality": "0..n per document, target may be an unresolved stub"
+    },
+    {
+      "type": "MENTIONS_SERVICE",
+      "from": "Document",
+      "to": "Service",
+      "source_field": "content,title",
+      "cardinality": "0..n per document, one edge per distinct service"
+    },
+    {
+      "type": "MENTIONS_CHANNEL",
+      "from": "Document",
+      "to": "Channel",
+      "source_field": "content,title",
+      "cardinality": "0..n per document, one edge per distinct channel"
+    },
+    {
+      "type": "MENTIONS_VERIFICATION",
+      "from": "Document",
+      "to": "VerificationMethod",
+      "source_field": "content,title",
+      "cardinality": "0..n per document, one edge per distinct method"
+    },
+    {
+      "type": "MENTIONS_REQUIREMENT",
+      "from": "Document",
+      "to": "Requirement",
+      "source_field": "content,title",
+      "cardinality": "0..n per document, one edge per distinct requirement"
+    },
+    {
+      "type": "MENTIONS_LOCATION",
+      "from": "Document",
+      "to": "Location",
+      "source_field": "content,title",
+      "cardinality": "0..n per document, one edge per distinct location"
+    },
+    {
+      "type": "AVAILABLE_VIA",
+      "from": "Service",
+      "to": "Channel",
+      "source_field": "content_cooccurrence",
+      "cardinality": "0..n, aggregated across documents",
+      "confidence": "cooccurrence"
+    },
+    {
+      "type": "REQUIRES_VERIFICATION",
+      "from": "Service",
+      "to": "VerificationMethod",
+      "source_field": "content_cooccurrence",
+      "cardinality": "0..n, aggregated across documents",
+      "confidence": "cooccurrence"
+    },
+    {
+      "type": "REQUIRES_DOCUMENT",
+      "from": "Service",
+      "to": "Requirement",
+      "source_field": "content_cooccurrence",
+      "cardinality": "0..n, aggregated across documents",
+      "confidence": "cooccurrence"
+    }
+  ],
+  "dangling_reference_policy": {
+    "field": "related_ids",
+    "rule": "A related_id that does not match any of the 148 canonical document_ids is NOT dropped. A stub Document node is created with resolved=false and the RELATED_TO edge is still written.",
+    "stub_node_properties": {
+      "resolved": false,
+      "stub": true
+    },
+    "metric": "unresolved_rate = related_ids_unresolved / related_ids_total"
+  },
+  "category_catalog": {
+    "C01": {
+      "name": "Customer Profile & Account Management",
+      "name_source": "inferred"
+    },
+    "C02": {
+      "name": "Plans & Subscriptions",
+      "name_source": "document"
+    },
+    "C03": {
+      "name": "Recharge & Payments",
+      "name_source": "document"
+    },
+    "C04": {
+      "name": "Billing & Invoices",
+      "name_source": "document"
+    },
+    "C05": {
+      "name": "SIM Card Services",
+      "name_source": "document"
+    },
+    "C06": {
+      "name": "Number Portability",
+      "name_source": "document"
+    },
+    "C07": {
+      "name": "Roaming",
+      "name_source": "document"
+    },
+    "C08": {
+      "name": "Network Coverage & Outages",
+      "name_source": "document"
+    },
+    "C09": {
+      "name": "Data Services & Speed",
+      "name_source": "document"
+    },
+    "C10": {
+      "name": "Value Added Services",
+      "name_source": "document"
+    },
+    "C11": {
+      "name": "International Calling & ISD",
+      "name_source": "inferred"
+    },
+    "C12": {
+      "name": "Device Compatibility",
+      "name_source": "document"
+    },
+    "C13": {
+      "name": "App & Self-Care",
+      "name_source": "document"
+    },
+    "C14": {
+      "name": "Offers & Promotions",
+      "name_source": "document"
+    },
+    "C15": {
+      "name": "Loyalty & Rewards",
+      "name_source": "inferred"
+    },
+    "C16": {
+      "name": "Complaints & Grievances",
+      "name_source": "document"
+    },
+    "C17": {
+      "name": "KYC & Identity Verification",
+      "name_source": "document"
+    },
+    "C18": {
+      "name": "Security & Fraud",
+      "name_source": "document"
+    },
+    "C19": {
+      "name": "Privacy & Data Protection",
+      "name_source": "document"
+    },
+    "C20": {
+      "name": "Refunds & Adjustments",
+      "name_source": "document"
+    },
+    "C21": {
+      "name": "Termination & Deactivation",
+      "name_source": "document"
+    },
+    "C22": {
+      "name": "New Connection Activation",
+      "name_source": "document"
+    },
+    "C23": {
+      "name": "Enterprise & Business Services",
+      "name_source": "document"
+    },
+    "C24": {
+      "name": "IoT & M2M Services",
+      "name_source": "document"
+    },
+    "C25": {
+      "name": "Broadband & FTTH Services",
+      "name_source": "document"
+    },
+    "C26": {
+      "name": "DND & Spam Management",
+      "name_source": "document"
+    },
+    "C27": {
+      "name": "Accessibility Support",
+      "name_source": "inferred"
+    },
+    "C28": {
+      "name": "Regulatory & Compliance",
+      "name_source": "document"
+    },
+    "C29": {
+      "name": "Technical Support & Troubleshooting",
+      "name_source": "document"
+    },
+    "GENERAL": {
+      "name": "General / Cross-Category",
+      "name_source": "inferred"
+    }
+  },
+  "layers": {
+    "metadata": {
+      "description": "Phase 1. Nodes and edges read verbatim from document metadata fields.",
+      "node_labels": [
+        "Category",
+        "CustomerScope",
+        "Dataset",
+        "Department",
+        "Document",
+        "DocumentType",
+        "SourceAuthority",
+        "Tag"
+      ],
+      "relationship_types": [
+        "APPLIES_TO_SCOPE",
+        "AUTHORED_BY",
+        "BELONGS_TO_CATEGORY",
+        "HAS_TAG",
+        "IS_TYPE",
+        "OWNED_BY_DEPARTMENT",
+        "PART_OF_DATASET",
+        "RELATED_TO"
+      ]
+    },
+    "content": {
+      "description": "Phase 2. Telecom concepts extracted from document title and content with a curated pattern dictionary.",
+      "node_labels": [
+        "Service",
+        "Channel",
+        "VerificationMethod",
+        "Requirement",
+        "Location"
+      ],
+      "relationship_types": [
+        "MENTIONS_SERVICE",
+        "MENTIONS_CHANNEL",
+        "MENTIONS_VERIFICATION",
+        "MENTIONS_REQUIREMENT",
+        "MENTIONS_LOCATION",
+        "AVAILABLE_VIA",
+        "REQUIRES_VERIFICATION",
+        "REQUIRES_DOCUMENT"
+      ]
+    }
+  },
+  "content_layer_policy": {
+    "dictionary_location": "knowledge_graph/content_extractor.py (CONCEPT_DICTIONARY)",
+    "scanned_fields": [
+      "title",
+      "content"
+    ],
+    "matching": "Case-insensitive literal phrase bounded by (?<![A-Za-z0-9]) and (?![A-Za-z0-9]), so 'port' cannot fire inside 'portal' and 'pan' cannot fire inside 'Pan-India'.",
+    "evidence": "Every MENTIONS_* edge carries matched_terms, match_count, evidence_span and an evidence snippet, so any edge is traceable to the exact words that produced it.",
+    "verification_vs_requirement": "A phrase naming a verification act (OTP, Video KYC, biometric) is a VerificationMethod. A phrase naming a document the customer must produce (valid photo ID, address proof, passport) is a Requirement.",
+    "cooccurrence_edges": {
+      "types": [
+        "AVAILABLE_VIA",
+        "REQUIRES_VERIFICATION",
+        "REQUIRES_DOCUMENT"
+      ],
+      "rule": "Both concepts mentioned in the same document.",
+      "confidence": "cooccurrence",
+      "caveat": "Heuristic association, not an asserted fact. Each edge carries support (number of backing documents) and evidence_document_ids."
+    },
+    "concepts_declared_but_unevidenced": "A concept with no match in the corpus stays in the dictionary and is reported by the extractor, but does not become an orphan node.",
+    "ground_truth_document": {
+      "document_id": "FAQ_C01_001",
+      "expected": {
+        "Service": [
+          "Mobile Number Update"
+        ],
+        "Channel": [
+          "My NovaTel App",
+          "Self-Care Portal"
+        ],
+        "VerificationMethod": [
+          "OTP"
+        ],
+        "Location": [
+          "NovaTel Experience Store"
+        ],
+        "Requirement": [
+          "Valid Photo ID"
+        ]
+      }
+    }
+  },
+  "branches": {
+    "document": {
+      "description": "The 148 unstructured documents. Phases 1-3. Unchanged.",
+      "node_labels": [
+        "Category",
+        "Channel",
+        "CustomerScope",
+        "Dataset",
+        "Department",
+        "Document",
+        "DocumentType",
+        "Location",
+        "Requirement",
+        "Service",
+        "SourceAuthority",
+        "Tag",
+        "VerificationMethod"
+      ],
+      "source": "data/processed/documents/*.json"
+    },
+    "structured": {
+      "description": "The 28 SQL tables as an instance graph: one node per row, one edge per foreign key.",
+      "node_labels": [
+        "CDR",
+        "CorporateAccount",
+        "Coverage5G",
+        "Customer",
+        "DeviceConfig",
+        "DeviceRegistry",
+        "ESIMProfile",
+        "EscalationCase",
+        "FiberInventory",
+        "FraudCase",
+        "Invoice",
+        "KYCRecord",
+        "NetworkAlarm",
+        "NetworkSite",
+        "OTTSubscription",
+        "Offer",
+        "Order",
+        "PaymentTransaction",
+        "Plan",
+        "PortingRequest",
+        "RechargeTransaction",
+        "RetailOutlet",
+        "RoamingUsage",
+        "SIMInventory",
+        "Subscription",
+        "Technician",
+        "Ticket",
+        "VASSubscription"
+      ],
+      "source": "data/processed/structured/novatel_structured.db",
+      "schema_of_record": "structured/schema.py TABLE_SCHEMAS (imported, never hardcoded)",
+      "instance_nodes": 43928,
+      "fk_edges": 31027,
+      "fk_integrity_rate": 1.0,
+      "entity_types": 28,
+      "distinct_categories": 24,
+      "node_id_convention": "<EntityType>:<primary_key>  (single colon)",
+      "id_collision_note": "The document branch uses '<Label>::<key>' (double colon) and the structured branch '<EntityType>:<pk>' (single colon), so ids from the two graphs can never collide even in one database.",
+      "views": {
+        "instance": "43,928 row nodes + 31,027 FK edges (structured_kg.graphml)",
+        "schema": "28 EntityType nodes + 24 StructuredCategory nodes + 20 FK relationship edges + 28 IN_CATEGORY edges (structured_schema_kg.graphml)"
+      }
+    }
+  },
+  "structured_node_labels": [
+    {
+      "label": "CDR",
+      "branch": "structured",
+      "source_table": "cdr",
+      "key": "cdr_id",
+      "description": "A call detail record. The largest table: 16,017 rows, 36% of the graph.",
+      "category_tag": "C27",
+      "foreign_keys": {}
+    },
+    {
+      "label": "CorporateAccount",
+      "branch": "structured",
+      "source_table": "corporate_accounts",
+      "key": "corp_id",
+      "description": "An enterprise account. Note: not FK-linked to customer_master in this schema.",
+      "category_tag": "C21",
+      "foreign_keys": {}
+    },
+    {
+      "label": "Coverage5G",
+      "branch": "structured",
+      "source_table": "coverage_5g",
+      "key": "coverage_id",
+      "description": "5G coverage percentage by region. Standalone.",
+      "category_tag": "C28",
+      "foreign_keys": {}
+    },
+    {
+      "label": "Customer",
+      "branch": "structured",
+      "source_table": "customer_master",
+      "key": "customer_id",
+      "description": "A subscriber account. The hub of the structured graph: 14 tables point at it.",
+      "category_tag": "C01",
+      "foreign_keys": {}
+    },
+    {
+      "label": "DeviceConfig",
+      "branch": "structured",
+      "source_table": "device_config",
+      "key": "device_id",
+      "description": "A device model with brand, IMEI and 5G support.",
+      "category_tag": "C24",
+      "foreign_keys": {}
+    },
+    {
+      "label": "DeviceRegistry",
+      "branch": "structured",
+      "source_table": "device_registry",
+      "key": "registry_id",
+      "description": "The registration of a device model against a customer.",
+      "category_tag": "C24",
+      "foreign_keys": {
+        "customer_id": "customer_master",
+        "device_id": "device_config"
+      }
+    },
+    {
+      "label": "EscalationCase",
+      "branch": "structured",
+      "source_table": "escalation_cases",
+      "key": "escalation_id",
+      "description": "An escalation raised on a ticket, with level L1/L2/L3.",
+      "category_tag": "C29",
+      "foreign_keys": {
+        "ticket_id": "tickets"
+      }
+    },
+    {
+      "label": "ESIMProfile",
+      "branch": "structured",
+      "source_table": "esim_profiles",
+      "key": "profile_id",
+      "description": "An eSIM profile provisioned for a customer.",
+      "category_tag": "C07",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      }
+    },
+    {
+      "label": "FiberInventory",
+      "branch": "structured",
+      "source_table": "fiber_inventory",
+      "key": "fiber_id",
+      "description": "An FTTH/fibre connection installed for a customer.",
+      "category_tag": "C12",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      }
+    },
+    {
+      "label": "FraudCase",
+      "branch": "structured",
+      "source_table": "fraud_cases",
+      "key": "case_id",
+      "description": "A fraud case opened against a customer.",
+      "category_tag": "C16",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      }
+    },
+    {
+      "label": "Invoice",
+      "branch": "structured",
+      "source_table": "invoices",
+      "key": "invoice_id",
+      "description": "A postpaid bill for one billing cycle.",
+      "category_tag": "C04",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      }
+    },
+    {
+      "label": "KYCRecord",
+      "branch": "structured",
+      "source_table": "kyc_records",
+      "key": "kyc_id",
+      "description": "A KYC verification record for a customer.",
+      "category_tag": "C17",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      }
+    },
+    {
+      "label": "NetworkAlarm",
+      "branch": "structured",
+      "source_table": "network_alarms",
+      "key": "alarm_id",
+      "description": "An alarm raised at a network site, with severity and root cause.",
+      "category_tag": "C08",
+      "foreign_keys": {
+        "site_id": "network_sites"
+      }
+    },
+    {
+      "label": "NetworkSite",
+      "branch": "structured",
+      "source_table": "network_sites",
+      "key": "site_id",
+      "description": "A radio site (4G/5G) with location and status.",
+      "category_tag": "C08",
+      "foreign_keys": {}
+    },
+    {
+      "label": "Offer",
+      "branch": "structured",
+      "source_table": "offers",
+      "key": "offer_id",
+      "description": "A promotional offer. Standalone - no FK to any other table.",
+      "category_tag": "C15",
+      "foreign_keys": {}
+    },
+    {
+      "label": "Order",
+      "branch": "structured",
+      "source_table": "orders",
+      "key": "order_id",
+      "description": "A customer order (new connection, device, upgrade).",
+      "category_tag": "C25",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      }
+    },
+    {
+      "label": "OTTSubscription",
+      "branch": "structured",
+      "source_table": "ott_subscriptions",
+      "key": "ott_id",
+      "description": "An OTT service subscription for a customer.",
+      "category_tag": "C14",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      }
+    },
+    {
+      "label": "PaymentTransaction",
+      "branch": "structured",
+      "source_table": "payment_transactions",
+      "key": "transaction_id",
+      "description": "A payment attempt against an invoice (SUCCESS, FAILED or PENDING).",
+      "category_tag": "C05",
+      "foreign_keys": {
+        "invoice_id": "invoices",
+        "customer_id": "customer_master"
+      }
+    },
+    {
+      "label": "Plan",
+      "branch": "structured",
+      "source_table": "plan_master",
+      "key": "plan_id",
+      "description": "A tariff plan in the catalogue.",
+      "category_tag": "C02",
+      "foreign_keys": {}
+    },
+    {
+      "label": "PortingRequest",
+      "branch": "structured",
+      "source_table": "porting_requests",
+      "key": "port_id",
+      "description": "An MNP porting request between circles.",
+      "category_tag": "C18",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      }
+    },
+    {
+      "label": "RechargeTransaction",
+      "branch": "structured",
+      "source_table": "recharge_transactions",
+      "key": "recharge_id",
+      "description": "A prepaid recharge attempt against a plan.",
+      "category_tag": "C03",
+      "foreign_keys": {
+        "plan_id": "plan_master"
+      }
+    },
+    {
+      "label": "RetailOutlet",
+      "branch": "structured",
+      "source_table": "retail_outlets",
+      "key": "outlet_id",
+      "description": "A physical retail outlet. Standalone - no FK to any other table.",
+      "category_tag": "C23",
+      "foreign_keys": {}
+    },
+    {
+      "label": "RoamingUsage",
+      "branch": "structured",
+      "source_table": "roaming_usage",
+      "key": "roam_id",
+      "description": "A roaming usage record for a customer in one country.",
+      "category_tag": "C10",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      }
+    },
+    {
+      "label": "SIMInventory",
+      "branch": "structured",
+      "source_table": "sim_inventory",
+      "key": "sim_id",
+      "description": "A physical SIM in stock or issued.",
+      "category_tag": "C06",
+      "foreign_keys": {}
+    },
+    {
+      "label": "Subscription",
+      "branch": "structured",
+      "source_table": "subscriptions",
+      "key": "subscription_id",
+      "description": "A customer's active or expired subscription to a plan.",
+      "category_tag": "C02",
+      "foreign_keys": {
+        "customer_id": "customer_master",
+        "plan_id": "plan_master"
+      }
+    },
+    {
+      "label": "Technician",
+      "branch": "structured",
+      "source_table": "technicians",
+      "key": "tech_id",
+      "description": "A field technician. Standalone - no FK to any other table.",
+      "category_tag": "C23",
+      "foreign_keys": {}
+    },
+    {
+      "label": "Ticket",
+      "branch": "structured",
+      "source_table": "tickets",
+      "key": "ticket_id",
+      "description": "A customer support ticket.",
+      "category_tag": "C11",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      }
+    },
+    {
+      "label": "VASSubscription",
+      "branch": "structured",
+      "source_table": "vas_subscriptions",
+      "key": "vas_id",
+      "description": "A value-added service subscription for a customer.",
+      "category_tag": "C26",
+      "foreign_keys": {
+        "customer_id": "customer_master"
+      }
+    }
+  ],
+  "structured_relationship_types": [
+    {
+      "type": "OF_CUSTOMER",
+      "branch": "structured",
+      "from": "DeviceRegistry (device_registry.customer_id) | ESIMProfile (esim_profiles.customer_id) | FiberInventory (fiber_inventory.customer_id) | FraudCase (fraud_cases.customer_id) | Invoice (invoices.customer_id) | KYCRecord (kyc_records.customer_id) | OTTSubscription (ott_subscriptions.customer_id) | Order (orders.customer_id) | PaymentTransaction (payment_transactions.customer_id) | PortingRequest (porting_requests.customer_id) | RoamingUsage (roaming_usage.customer_id) | Subscription (subscriptions.customer_id) | Ticket (tickets.customer_id) | VASSubscription (vas_subscriptions.customer_id)",
+      "to": "Customer",
+      "source_field": "foreign key",
+      "meaning": "This row belongs to this customer. Aggregates the customer_id FK of all 14 referencing tables into one relationship, so 'everything about this customer' is a single hop instead of fourteen joins.",
+      "edges": 15956
+    },
+    {
+      "type": "FOR_PLAN",
+      "branch": "structured",
+      "from": "RechargeTransaction (recharge_transactions.plan_id)",
+      "to": "Plan",
+      "source_field": "foreign key",
+      "meaning": "This recharge was purchased against this tariff plan.",
+      "edges": 5259
+    },
+    {
+      "type": "PAYS_INVOICE",
+      "branch": "structured",
+      "from": "PaymentTransaction (payment_transactions.invoice_id)",
+      "to": "Invoice",
+      "source_field": "foreign key",
+      "meaning": "This payment attempt is against this invoice.",
+      "edges": 4162
+    },
+    {
+      "type": "AT_SITE",
+      "branch": "structured",
+      "from": "NetworkAlarm (network_alarms.site_id)",
+      "to": "NetworkSite",
+      "source_field": "foreign key",
+      "meaning": "This alarm was raised at this network site.",
+      "edges": 3049
+    },
+    {
+      "type": "ON_PLAN",
+      "branch": "structured",
+      "from": "Subscription (subscriptions.plan_id)",
+      "to": "Plan",
+      "source_field": "foreign key",
+      "meaning": "This subscription is on this tariff plan.",
+      "edges": 1809
+    },
+    {
+      "type": "OF_DEVICE_TYPE",
+      "branch": "structured",
+      "from": "DeviceRegistry (device_registry.device_id)",
+      "to": "DeviceConfig",
+      "source_field": "foreign key",
+      "meaning": "This device registration is for this device model.",
+      "edges": 507
+    },
+    {
+      "type": "ESCALATES_TICKET",
+      "branch": "structured",
+      "from": "EscalationCase (escalation_cases.ticket_id)",
+      "to": "Ticket",
+      "source_field": "foreign key",
+      "meaning": "This escalation case escalates this support ticket.",
+      "edges": 285
+    }
+  ],
+  "structured_document_crosswalk": {
+    "join_key": "shared_domain_concept",
+    "WARNING": "C01-C29 category codes are NOT consistent across the two branches and MUST NOT be used as a cross-branch join key. The same code means different things on each side. Join on shared_domain_concept instead.",
+    "code_conflict_examples": [
+      {
+        "code": "C05",
+        "structured": "payment_transactions (Payments)",
+        "document": "SIM Card Services"
+      },
+      {
+        "code": "C06",
+        "structured": "sim_inventory (SIM Card Services)",
+        "document": "Number Portability"
+      },
+      {
+        "code": "C11",
+        "structured": "tickets (Complaints & Tickets)",
+        "document": "International Calling & ISD"
+      },
+      {
+        "code": "C16",
+        "structured": "fraud_cases (Security & Fraud)",
+        "document": "Complaints & Grievances"
+      },
+      {
+        "code": "C29",
+        "structured": "escalation_cases (Complaints & Escalations)",
+        "document": "Technical Support & Troubleshooting"
+      }
+    ],
+    "codes_agree_count": 8,
+    "codes_conflict_count": 20,
+    "entities_where_codes_agree": [
+      "Customer",
+      "Invoice",
+      "KYCRecord",
+      "NetworkAlarm",
+      "NetworkSite",
+      "Plan",
+      "RechargeTransaction",
+      "Subscription"
+    ],
+    "entities_where_codes_conflict": [
+      "CDR",
+      "CorporateAccount",
+      "Coverage5G",
+      "DeviceConfig",
+      "DeviceRegistry",
+      "ESIMProfile",
+      "EscalationCase",
+      "FiberInventory",
+      "FraudCase",
+      "OTTSubscription",
+      "Offer",
+      "Order",
+      "PaymentTransaction",
+      "PortingRequest",
+      "RetailOutlet",
+      "RoamingUsage",
+      "SIMInventory",
+      "Technician",
+      "Ticket",
+      "VASSubscription"
+    ],
+    "rows": [
+      {
+        "structured_entity_type": "CDR",
+        "structured_table": "cdr",
+        "structured_category_code": "C27",
+        "shared_domain_concept": "Usage Records",
+        "document_category_code": "C09",
+        "document_category_name": "Data Services & Speed",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "CorporateAccount",
+        "structured_table": "corporate_accounts",
+        "structured_category_code": "C21",
+        "shared_domain_concept": "Enterprise & Business Services",
+        "document_category_code": "C23",
+        "document_category_name": "Enterprise & Business Services",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "Coverage5G",
+        "structured_table": "coverage_5g",
+        "structured_category_code": "C28",
+        "shared_domain_concept": "Network Coverage",
+        "document_category_code": "C08",
+        "document_category_name": "Network Coverage & Outages",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "Customer",
+        "structured_table": "customer_master",
+        "structured_category_code": "C01",
+        "shared_domain_concept": "Customer Account",
+        "document_category_code": "C01",
+        "document_category_name": "Customer Profile & Account Management",
+        "codes_agree": true
+      },
+      {
+        "structured_entity_type": "DeviceConfig",
+        "structured_table": "device_config",
+        "structured_category_code": "C24",
+        "shared_domain_concept": "Device Compatibility",
+        "document_category_code": "C12",
+        "document_category_name": "Device Compatibility",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "DeviceRegistry",
+        "structured_table": "device_registry",
+        "structured_category_code": "C24",
+        "shared_domain_concept": "Device Compatibility",
+        "document_category_code": "C12",
+        "document_category_name": "Device Compatibility",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "EscalationCase",
+        "structured_table": "escalation_cases",
+        "structured_category_code": "C29",
+        "shared_domain_concept": "Complaints & Grievances",
+        "document_category_code": "C16",
+        "document_category_name": "Complaints & Grievances",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "ESIMProfile",
+        "structured_table": "esim_profiles",
+        "structured_category_code": "C07",
+        "shared_domain_concept": "SIM Card Services",
+        "document_category_code": "C05",
+        "document_category_name": "SIM Card Services",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "FiberInventory",
+        "structured_table": "fiber_inventory",
+        "structured_category_code": "C12",
+        "shared_domain_concept": "Broadband & FTTH Services",
+        "document_category_code": "C25",
+        "document_category_name": "Broadband & FTTH Services",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "FraudCase",
+        "structured_table": "fraud_cases",
+        "structured_category_code": "C16",
+        "shared_domain_concept": "Security & Fraud",
+        "document_category_code": "C18",
+        "document_category_name": "Security & Fraud",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "Invoice",
+        "structured_table": "invoices",
+        "structured_category_code": "C04",
+        "shared_domain_concept": "Billing & Invoices",
+        "document_category_code": "C04",
+        "document_category_name": "Billing & Invoices",
+        "codes_agree": true
+      },
+      {
+        "structured_entity_type": "KYCRecord",
+        "structured_table": "kyc_records",
+        "structured_category_code": "C17",
+        "shared_domain_concept": "KYC & Identity Verification",
+        "document_category_code": "C17",
+        "document_category_name": "KYC & Identity Verification",
+        "codes_agree": true
+      },
+      {
+        "structured_entity_type": "NetworkAlarm",
+        "structured_table": "network_alarms",
+        "structured_category_code": "C08",
+        "shared_domain_concept": "Network Outages",
+        "document_category_code": "C08",
+        "document_category_name": "Network Coverage & Outages",
+        "codes_agree": true
+      },
+      {
+        "structured_entity_type": "NetworkSite",
+        "structured_table": "network_sites",
+        "structured_category_code": "C08",
+        "shared_domain_concept": "Network Coverage",
+        "document_category_code": "C08",
+        "document_category_name": "Network Coverage & Outages",
+        "codes_agree": true
+      },
+      {
+        "structured_entity_type": "Offer",
+        "structured_table": "offers",
+        "structured_category_code": "C15",
+        "shared_domain_concept": "Offers & Promotions",
+        "document_category_code": "C14",
+        "document_category_name": "Offers & Promotions",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "Order",
+        "structured_table": "orders",
+        "structured_category_code": "C25",
+        "shared_domain_concept": "New Connection Activation",
+        "document_category_code": "C22",
+        "document_category_name": "New Connection Activation",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "OTTSubscription",
+        "structured_table": "ott_subscriptions",
+        "structured_category_code": "C14",
+        "shared_domain_concept": "Value Added Services",
+        "document_category_code": "C10",
+        "document_category_name": "Value Added Services",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "PaymentTransaction",
+        "structured_table": "payment_transactions",
+        "structured_category_code": "C05",
+        "shared_domain_concept": "Payments",
+        "document_category_code": "C03",
+        "document_category_name": "Recharge & Payments",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "Plan",
+        "structured_table": "plan_master",
+        "structured_category_code": "C02",
+        "shared_domain_concept": "Plan Catalogue",
+        "document_category_code": "C02",
+        "document_category_name": "Plans & Subscriptions",
+        "codes_agree": true
+      },
+      {
+        "structured_entity_type": "PortingRequest",
+        "structured_table": "porting_requests",
+        "structured_category_code": "C18",
+        "shared_domain_concept": "Number Portability",
+        "document_category_code": "C06",
+        "document_category_name": "Number Portability",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "RechargeTransaction",
+        "structured_table": "recharge_transactions",
+        "structured_category_code": "C03",
+        "shared_domain_concept": "Recharge",
+        "document_category_code": "C03",
+        "document_category_name": "Recharge & Payments",
+        "codes_agree": true
+      },
+      {
+        "structured_entity_type": "RetailOutlet",
+        "structured_table": "retail_outlets",
+        "structured_category_code": "C23",
+        "shared_domain_concept": "Retail & Store Network",
+        "document_category_code": "",
+        "document_category_name": "(no document category - store visits appear inside C05/C17 documents)",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "RoamingUsage",
+        "structured_table": "roaming_usage",
+        "structured_category_code": "C10",
+        "shared_domain_concept": "Roaming",
+        "document_category_code": "C07",
+        "document_category_name": "Roaming",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "SIMInventory",
+        "structured_table": "sim_inventory",
+        "structured_category_code": "C06",
+        "shared_domain_concept": "SIM Card Services",
+        "document_category_code": "C05",
+        "document_category_name": "SIM Card Services",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "Subscription",
+        "structured_table": "subscriptions",
+        "structured_category_code": "C02",
+        "shared_domain_concept": "Subscription",
+        "document_category_code": "C02",
+        "document_category_name": "Plans & Subscriptions",
+        "codes_agree": true
+      },
+      {
+        "structured_entity_type": "Technician",
+        "structured_table": "technicians",
+        "structured_category_code": "C23",
+        "shared_domain_concept": "Field Operations",
+        "document_category_code": "C29",
+        "document_category_name": "Technical Support & Troubleshooting",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "Ticket",
+        "structured_table": "tickets",
+        "structured_category_code": "C11",
+        "shared_domain_concept": "Complaints & Grievances",
+        "document_category_code": "C16",
+        "document_category_name": "Complaints & Grievances",
+        "codes_agree": false
+      },
+      {
+        "structured_entity_type": "VASSubscription",
+        "structured_table": "vas_subscriptions",
+        "structured_category_code": "C26",
+        "shared_domain_concept": "Value Added Services",
+        "document_category_code": "C10",
+        "document_category_name": "Value Added Services",
+        "codes_agree": false
+      }
+    ]
+  },
+  "concept_layer": {
+    "purpose": "The single valid bridge between the document branch and the structured branch. Both sides map into one shared concept vocabulary and are joined there.",
+    "JOIN_RULE": "Join the two branches on the CONCEPT NAME, never on the C01-C29 category code. The codes conflict across branches (structured C11=tickets vs document C16=Complaints; structured C18=porting vs document C06=Number Portability; structured C05=payments vs document C05=SIM Card Services). A code join succeeds and is silently wrong.",
+    "vocabulary_source": "The distinct shared_domain_concept values of structured_document_crosswalk. No parallel names are invented: a concept is either already in that column or it does not exist.",
+    "concept_count": 23,
+    "concepts": [
+      "Billing & Invoices",
+      "Broadband & FTTH Services",
+      "Complaints & Grievances",
+      "Customer Account",
+      "Device Compatibility",
+      "Enterprise & Business Services",
+      "Field Operations",
+      "KYC & Identity Verification",
+      "Network Coverage",
+      "Network Outages",
+      "New Connection Activation",
+      "Number Portability",
+      "Offers & Promotions",
+      "Payments",
+      "Plan Catalogue",
+      "Recharge",
+      "Retail & Store Network",
+      "Roaming",
+      "SIM Card Services",
+      "Security & Fraud",
+      "Subscription",
+      "Usage Records",
+      "Value Added Services"
+    ],
+    "node_id_convention": "Concept::<concept name>",
+    "concepts_bridging_both_sides": 22,
+    "concepts_structured_side_only": [
+      "Retail & Store Network"
+    ],
+    "unmapped_document_services": [
+      "DND Activation",
+      "Loyalty Redemption",
+      "Refund"
+    ],
+    "unmapped_structured_entity_types": [],
+    "unmapped_rationale": {
+      "DND Activation": "No DND table exists on the structured side, so no concept realizes it. Mapping it would create a bridge that bridges nothing.",
+      "Refund": "Refunds live inside payment_transactions, which realizes Payments. There is no separate Refund concept to map to.",
+      "Loyalty Redemption": "Not in the seeded mapping and no Loyalty concept exists. Offers & Promotions is a different concept (the offers table), so mapping to it would be a guess."
+    },
+    "service_concept_mapping": {
+      "Bill Payment": "Payments",
+      "Broadband/FTTH Installation": "Broadband & FTTH Services",
+      "Complaint Registration": "Complaints & Grievances",
+      "KYC Verification": "KYC & Identity Verification",
+      "Mobile Number Update": "Customer Account",
+      "Number Portability": "Number Portability",
+      "Plan Change": "Plan Catalogue",
+      "Recharge": "Recharge",
+      "Roaming Activation": "Roaming",
+      "SIM Swap": "SIM Card Services",
+      "VAS Subscription": "Value Added Services",
+      "eSIM Activation": "SIM Card Services"
+    },
+    "service_concept_mapping_notes": {
+      "Plan Change": "Mapped to Plan Catalogue rather than Subscription: changing plan is an act against the catalogue, while the Subscription concept is realized by the subscriptions table.",
+      "VAS Subscription": "Kept because the concept exists, but the document branch has no Service with this name, so it produces no edge."
+    }
+  },
+  "concept_relationship_types": [
+    {
+      "type": "REALIZES_CONCEPT",
+      "from": "EntityType",
+      "to": "Concept",
+      "branch": "bridge",
+      "source_field": "structured_document_crosswalk.shared_domain_concept",
+      "meaning": "A structured table (as its EntityType) realizes this business concept.",
+      "edges": 28
+    },
+    {
+      "type": "EXPRESSES_CONCEPT",
+      "from": "Category | Service",
+      "to": "Concept",
+      "branch": "bridge",
+      "source_field": "structured_document_crosswalk.document_category_code (Category) and concept_layer.service_concept_mapping (Service)",
+      "meaning": "A document category or an extracted service expresses this business concept.",
+      "edges": 33
+    },
+    {
+      "type": "INSTANCE_OF",
+      "from": "any structured instance node",
+      "to": "EntityType",
+      "branch": "bridge",
+      "source_field": "entity_type property",
+      "meaning": "A database row is an instance of its EntityType. Without this edge the bridge reaches only the EntityType schema node and no Document -> Customer path exists.",
+      "edges": 43928
+    }
+  ]
+}

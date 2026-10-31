@@ -129,11 +129,13 @@ class TestWordBoundaryRegression(unittest.TestCase):
             self.assertIsNone(self.table(q), q)
 
     def test_two_tables_in_one_question_is_ambiguous_not_first_match(self):
-        result = parse_query("Show the plan and invoice for customer 1001")
+        # keyword-strength tuning made bare "plan" weak (1) vs "invoice" strong (2), so that pair is no longer a tie;
+        # two STRONG keywords of different tables still are (test input changed from "plan"+"invoice")
+        result = parse_query("Show the invoice and ticket for customer 1001")
         self.assertIsNone(result["table"])
         self.assertTrue(result["error"].startswith("ambiguous:"), result)
         self.assertIn("invoices", result["error"])
-        self.assertIn("subscriptions", result["error"])
+        self.assertIn("tickets", result["error"])
         self.assertNotIn("results", result)
 
     def test_underscore_table_names_still_resolve(self):

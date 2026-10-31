@@ -26,6 +26,10 @@ KEYWORD_TABLE_MAP = {
     "ticket": "tickets",
     "complaint": "tickets",
     "call": "cdr",
+    "call history": "cdr",
+    "call record": "cdr",
+    "call detail": "cdr",
+    "call log": "cdr",
     "cdr": "cdr",
     "roaming": "roaming_usage",
     "kyc": "kyc_records",
@@ -46,6 +50,12 @@ KEYWORD_TABLE_MAP = {
     "broadband": "fiber_inventory",
     "escalation": "escalation_cases",
 }
+
+# Keyword strength (Phase: parser tiers; POST-HOC against four questions Person A reported - see
+# docs/structured_parser_fix_for_personA.md). A distinct keyword hit adds its weight to its table's score.
+# Generic words that appear in many questions are weak; every other keyword is strong (2).
+WEAK_KEYWORDS = ("plan", "account", "profile", "paid", "site", "port", "order", "offer", "device", "store")
+KEYWORD_WEIGHT = {kw: (1 if kw in WEAK_KEYWORDS else 0.5 if kw == "call" else 2) for kw in KEYWORD_TABLE_MAP}
 
 # Words that suggest the question wants a COUNT/aggregate rather than a specific record
 AGGREGATE_KEYWORDS = ["how many", "count of", "total number", "number of"]
@@ -149,7 +159,7 @@ def extract_status_value_for_table(question, table_name):
 
 def score_tables(question):
     """{table: score}. An exact table name in the question scores EXACT_TABLE_SCORE; otherwise the score is
-    the number of DISTINCT keywords of that table found (not keyword length)."""
+    the sum of KEYWORD_WEIGHT over the DISTINCT keywords of that table found (not keyword length)."""
     q_lower = question.lower()
     scores = {}
     for table, pattern in _TABLE_NAME_PATTERNS.items():
@@ -160,7 +170,7 @@ def score_tables(question):
     for keyword, pattern in _KEYWORD_PATTERNS.items():
         if pattern.search(q_lower):
             table = KEYWORD_TABLE_MAP[keyword]
-            scores[table] = scores.get(table, 0) + 1
+            scores[table] = scores.get(table, 0) + KEYWORD_WEIGHT[keyword]
     return scores
 
 

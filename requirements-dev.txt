@@ -9,3 +9,9 @@ pytest
 # torch install, use the CPU wheel: pip install torch --index-url https://download.pytorch.org/whl/cpu
 transformers
 torch
+
+# --- router + QA + UI layer (query_router/, integration/qa/, app/) -- additive; nothing above was removed ---
+streamlit>=1.40               # app/streamlit_app.py (tested with 1.66.1)
+laya==0.4.15                  # primary router (Convai Innovations, Apache-2.0); weights from the HF Hub
+setfit==1.2.0                 # optional SetFit router (query_router/setfit_router.py)
+huggingface_hub               # snapshot_download in query_router/train_laya.py

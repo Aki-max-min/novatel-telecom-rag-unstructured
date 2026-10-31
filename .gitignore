@@ -36,3 +36,6 @@ data/experiments/public_pdfs/**/*.pt
 *.gguf
 *.bin
 ollama-models/
+
+# Fine-tuned router checkpoints / training scratch (never commit weights; recipe is query_router/train_*.py)
+models/

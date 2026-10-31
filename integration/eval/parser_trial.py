@@ -20,10 +20,13 @@ Duplicates (same question text) are run once.
 `compare` classifies each difference and lists every regression. Definitions (stated, not hidden):
   gold questions (structured benchmark): parse is CORRECT if table, filter column and filter value equal the gold ones.
      regression = correct before, wrong after.  improvement = wrong before, correct after.
-  document questions (E14a Q* / RW_*): the parser should find no database table. A structured result for a document question is a
-     FALSE POSITIVE (an inference: the E14a failure analysis calls these noise). regression = no table before, a table after;
-     improvement = a table before, none after.
-  any other question (route benchmark): only the change itself is reported (no gold table is defined for it here).
+  document questions (E14a Q* / RW_*): the parser should return no database rows. Structured ROWS for a document question are a
+     FALSE POSITIVE (an inference: the E14a failure analysis calls these noise). regression = no rows before, rows after;
+     improvement = rows before, none after.
+  route-benchmark questions (Person B's frozen benchmark, gold = the tables of expected_structured): "has gold evidence" means the
+     parser chose a gold table AND returned rows. regression = had gold evidence before, none after;
+     improvement = no gold evidence before, has it after; a change that neither gains nor loses gold evidence is reported as
+     "changed, gold evidence unchanged" (for example a wrong table replaced by no table).
 """
 
 from __future__ import annotations
@@ -55,7 +58,9 @@ def load_questions() -> list[dict]:
         if q["expected_outcome"] != "answer" or q["expected_route"] == "unstructured":
             continue
         text = q["question"] if not q.get("customer_id") else f"For customer {q['customer_id']}: {q['question']}"
-        qs.setdefault(text, {"id": q["question_id"], "kind": "route_benchmark", "question": text, "gold": None})
+        tables = sorted({f["table"] for f in q["expected_structured"] if f.get("table")})
+        qs.setdefault(text, {"id": q["question_id"], "kind": "route_benchmark", "question": text,
+                             "gold": {"tables": tables} if tables else None})
     return list(qs.values())
 
 
@@ -104,6 +109,7 @@ def compare(before_label: str, after_label: str) -> dict:
     b = json.loads((OUT_DIR / f"{before_label}.json").read_text(encoding="utf-8"))
     a = json.loads((OUT_DIR / f"{after_label}.json").read_text(encoding="utf-8"))
     after = {r["question"]: r for r in a["rows"]}
+    gold_by_question = {q["question"]: q.get("gold") for q in load_questions()}
     changes, regressions, improvements = [], [], []
     for rb in b["rows"]:
         ra = after[rb["question"]]
@@ -112,6 +118,7 @@ def compare(before_label: str, after_label: str) -> dict:
         if not diff:
             continue
         kind = rb["kind"]
+        gold = gold_by_question.get(rb["question"])
         verdict = "changed (no gold)"
         if kind == "structured_benchmark":
             okb, oka = _parse_ok(rb), _parse_ok(ra)
@@ -119,9 +126,14 @@ def compare(before_label: str, after_label: str) -> dict:
             if okb is None:
                 verdict = "changed (gold has no table)"
         elif kind == "e14a_document":
-            verdict = ("regression: structured table appears for a document question" if rb["table"] is None and ra["table"]
-                       else "improvement: false structured hit removed" if rb["table"] and ra["table"] is None
-                       else "changed, still a structured hit")
+            verdict = ("regression: structured rows appear for a document question" if rb["n_results"] == 0 and ra["n_results"] > 0
+                       else "improvement: false structured rows removed" if rb["n_results"] > 0 and ra["n_results"] == 0
+                       else "changed, rows still returned" if ra["n_results"] > 0 else "changed, still no rows")
+        elif kind == "route_benchmark" and gold and gold.get("tables"):
+            has_b = rb["table"] in gold["tables"] and rb["n_results"] > 0
+            has_a = ra["table"] in gold["tables"] and ra["n_results"] > 0
+            verdict = ("regression: gold evidence lost" if has_b and not has_a
+                       else "improvement: gold evidence gained" if has_a and not has_b else "changed, gold evidence unchanged")
         elif kind == "e14a_database":
             verdict = "changed (database question; see the gold check on the structured_benchmark row if present)"
         entry = {"id": rb["id"], "kind": kind, "question": rb["question"], "diff": diff, "verdict": verdict}
@@ -135,9 +147,9 @@ def compare(before_label: str, after_label: str) -> dict:
                "structured_benchmark_parse_correct": {"before": sum(bool(_parse_ok(r)) for r in gold_rows_b),
                                                       "after": sum(bool(_parse_ok(after[r["question"]])) for r in gold_rows_b),
                                                       "of": len(gold_rows_b)},
-               "document_questions_with_a_structured_hit": {
-                   "before": sum(1 for r in b["rows"] if r["kind"] == "e14a_document" and r["table"]),
-                   "after": sum(1 for r in a["rows"] if r["kind"] == "e14a_document" and r["table"]),
+               "document_questions_returning_structured_rows": {
+                   "before": sum(1 for r in b["rows"] if r["kind"] == "e14a_document" and r["n_results"] > 0),
+                   "after": sum(1 for r in a["rows"] if r["kind"] == "e14a_document" and r["n_results"] > 0),
                    "of": sum(1 for r in b["rows"] if r["kind"] == "e14a_document")},
                "changes": changes}
     out = OUT_DIR / f"compare_{before_label}__{after_label}.json"

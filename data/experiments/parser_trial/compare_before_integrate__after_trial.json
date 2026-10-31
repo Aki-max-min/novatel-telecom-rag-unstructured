@@ -1,0 +1,224 @@
+{
+  "before": {
+    "label": "before_integrate",
+    "git_branch": "integrate/kg-ontology-router-ui",
+    "git_commit": "a2faccf1c9fe8df1b736a81db16ab2e1bc5b9c0c",
+    "query_parser_blob_sha": "4ce2f6cc2ebd0c0db2386bb47c246e5a97d6235d"
+  },
+  "after": {
+    "label": "after_trial",
+    "git_branch": "trial/parser-wordboundary",
+    "git_commit": "394cd99b8f7af796102cbad8ec6badf4a6f20fa3",
+    "query_parser_blob_sha": "34378a176cc3b1e9aafeea1d6fd37b95830feb84"
+  },
+  "n_questions": 43,
+  "n_changed": 5,
+  "n_regressions": 2,
+  "n_improvements": 1,
+  "structured_benchmark_parse_correct": {
+    "before": 14,
+    "after": 14,
+    "of": 15
+  },
+  "document_questions_returning_structured_rows": {
+    "before": 3,
+    "after": 2,
+    "of": 14
+  },
+  "changes": [
+    {
+      "id": "Q04",
+      "kind": "e14a_document",
+      "question": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
+      "diff": {
+        "method": [
+          "exact_filter",
+          "exact_filter_unresolved"
+        ],
+        "filter_column": [
+          "payment_status",
+          null
+        ],
+        "filter_value": [
+          "Paid",
+          null
+        ],
+        "parser_error": [
+          null,
+          "No specific filter identified"
+        ],
+        "n_results": [
+          10,
+          0
+        ],
+        "record_ids": [
+          [
+            "5001",
+            "5002",
+            "5004",
+            "5007",
+            "5008"
+          ],
+          []
+        ]
+      },
+      "verdict": "improvement: false structured rows removed"
+    },
+    {
+      "id": "RB_S06",
+      "kind": "route_benchmark",
+      "question": "For customer 1829: Is my latest bill paid or still pending?",
+      "diff": {
+        "table": [
+          "invoices",
+          null
+        ],
+        "method": [
+          "exact_filter",
+          null
+        ],
+        "filter_column": [
+          "customer_id",
+          null
+        ],
+        "filter_value": [
+          1829,
+          null
+        ],
+        "parser_error": [
+          null,
+          "ambiguous: invoices,payment_transactions"
+        ],
+        "n_results": [
+          6,
+          0
+        ],
+        "record_ids": [
+          [
+            "6735",
+            "6736",
+            "6737",
+            "6738",
+            "6739"
+          ],
+          []
+        ]
+      },
+      "verdict": "regression: gold evidence lost"
+    },
+    {
+      "id": "RB_S08",
+      "kind": "route_benchmark",
+      "question": "For customer 1015: Are there any open complaints on my account?",
+      "diff": {
+        "table": [
+          "customer_master",
+          null
+        ],
+        "method": [
+          "exact_filter",
+          null
+        ],
+        "filter_column": [
+          "customer_id",
+          null
+        ],
+        "filter_value": [
+          1015,
+          null
+        ],
+        "parser_error": [
+          null,
+          "ambiguous: customer_master,tickets"
+        ],
+        "n_results": [
+          1,
+          0
+        ],
+        "record_ids": [
+          [
+            "1015"
+          ],
+          []
+        ]
+      },
+      "verdict": "changed, gold evidence unchanged"
+    },
+    {
+      "id": "RB_B05",
+      "kind": "route_benchmark",
+      "question": "For customer 1056: My plan ran out a long time ago - can I still get incoming calls, and how do I get service back?",
+      "diff": {
+        "table": [
+          "subscriptions",
+          null
+        ],
+        "method": [
+          "exact_filter",
+          null
+        ],
+        "filter_column": [
+          "customer_id",
+          null
+        ],
+        "filter_value": [
+          1056,
+          null
+        ],
+        "parser_error": [
+          null,
+          "ambiguous: cdr,subscriptions"
+        ],
+        "n_results": [
+          1,
+          0
+        ],
+        "record_ids": [
+          [
+            "3056"
+          ],
+          []
+        ]
+      },
+      "verdict": "regression: gold evidence lost"
+    },
+    {
+      "id": "RB_B06",
+      "kind": "route_benchmark",
+      "question": "For customer 1003: My latest postpaid bill looks higher than my plan rental - what does it show, and how do I dispute it?",
+      "diff": {
+        "table": [
+          "subscriptions",
+          null
+        ],
+        "method": [
+          "exact_filter",
+          null
+        ],
+        "filter_column": [
+          "customer_id",
+          null
+        ],
+        "filter_value": [
+          1003,
+          null
+        ],
+        "parser_error": [
+          null,
+          "ambiguous: invoices,subscriptions"
+        ],
+        "n_results": [
+          1,
+          0
+        ],
+        "record_ids": [
+          [
+            "3003"
+          ],
+          []
+        ]
+      },
+      "verdict": "changed, gold evidence unchanged"
+    }
+  ]
+}

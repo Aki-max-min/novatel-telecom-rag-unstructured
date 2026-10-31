@@ -1,0 +1,847 @@
+{
+  "label": "before_integrate",
+  "timestamp_utc": "2026-10-31T14:00:50.138228+00:00",
+  "git_commit": "a2faccf1c9fe8df1b736a81db16ab2e1bc5b9c0c",
+  "git_branch": "integrate/kg-ontology-router-ui",
+  "query_parser_blob_sha": "4ce2f6cc2ebd0c0db2386bb47c246e5a97d6235d",
+  "n_questions": 43,
+  "rows": [
+    {
+      "id": "S01",
+      "kind": "structured_benchmark",
+      "question": "What is customer 1001's account status?",
+      "gold": {
+        "table": "customer_master",
+        "filter_column": "customer_id",
+        "filter_value": 1001
+      },
+      "table": "customer_master",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1001,
+      "parser_error": null,
+      "n_results": 1,
+      "record_ids": [
+        "1001"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S02",
+      "kind": "structured_benchmark",
+      "question": "What plan is customer 1001 on?",
+      "gold": {
+        "table": "subscriptions",
+        "filter_column": "customer_id",
+        "filter_value": 1001
+      },
+      "table": "subscriptions",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1001,
+      "parser_error": null,
+      "n_results": 1,
+      "record_ids": [
+        "3001"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S03",
+      "kind": "structured_benchmark",
+      "question": "Show invoices for customer 1009",
+      "gold": {
+        "table": "invoices",
+        "filter_column": "customer_id",
+        "filter_value": 1009
+      },
+      "table": "invoices",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1009,
+      "parser_error": null,
+      "n_results": 6,
+      "record_ids": [
+        "5019",
+        "5020",
+        "5021",
+        "5022",
+        "5023"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S04",
+      "kind": "structured_benchmark",
+      "question": "How many recharge_transactions have status FAILED?",
+      "gold": {
+        "table": "recharge_transactions",
+        "filter_column": "status",
+        "filter_value": "FAILED"
+      },
+      "table": "recharge_transactions",
+      "method": "aggregate",
+      "filter_column": "status",
+      "filter_value": "FAILED",
+      "parser_error": null,
+      "n_results": 1,
+      "record_ids": [
+        "None"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S05",
+      "kind": "structured_benchmark",
+      "question": "List all overdue invoices",
+      "gold": {
+        "table": "invoices",
+        "filter_column": "payment_status",
+        "filter_value": "Overdue"
+      },
+      "table": "invoices",
+      "method": "exact_filter",
+      "filter_column": "payment_status",
+      "filter_value": "Overdue",
+      "parser_error": null,
+      "n_results": 10,
+      "record_ids": [
+        "5003",
+        "5019",
+        "5021",
+        "5037",
+        "5038"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S06",
+      "kind": "structured_benchmark",
+      "question": "Show all open tickets",
+      "gold": {
+        "table": "tickets",
+        "filter_column": "status",
+        "filter_value": "Open"
+      },
+      "table": "tickets",
+      "method": "exact_filter",
+      "filter_column": "status",
+      "filter_value": "Open",
+      "parser_error": null,
+      "n_results": 10,
+      "record_ids": [
+        "11002",
+        "11009",
+        "11013",
+        "11015",
+        "11021"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S07",
+      "kind": "structured_benchmark",
+      "question": "How many payment_transactions are SUCCESS?",
+      "gold": {
+        "table": "payment_transactions",
+        "filter_column": "status",
+        "filter_value": "SUCCESS"
+      },
+      "table": "payment_transactions",
+      "method": "aggregate",
+      "filter_column": "status",
+      "filter_value": "SUCCESS",
+      "parser_error": null,
+      "n_results": 1,
+      "record_ids": [
+        "None"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S08",
+      "kind": "structured_benchmark",
+      "question": "Show sim_inventory with status Blocked",
+      "gold": {
+        "table": "sim_inventory",
+        "filter_column": "status",
+        "filter_value": "Blocked"
+      },
+      "table": "sim_inventory",
+      "method": "exact_filter",
+      "filter_column": "status",
+      "filter_value": "Blocked",
+      "parser_error": null,
+      "n_results": 10,
+      "record_ids": [
+        "7020",
+        "7021",
+        "7032",
+        "7034",
+        "7045"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S09",
+      "kind": "structured_benchmark",
+      "question": "Show kyc_records with status Pending",
+      "gold": {
+        "table": "kyc_records",
+        "filter_column": "status",
+        "filter_value": "Pending"
+      },
+      "table": "kyc_records",
+      "method": "exact_filter",
+      "filter_column": "status",
+      "filter_value": "Pending",
+      "parser_error": null,
+      "n_results": 10,
+      "record_ids": [
+        "14001",
+        "14009",
+        "14026",
+        "14100",
+        "14114"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S10",
+      "kind": "structured_benchmark",
+      "question": "Show porting_requests with status Rejected",
+      "gold": {
+        "table": "porting_requests",
+        "filter_column": "status",
+        "filter_value": "Rejected"
+      },
+      "table": "porting_requests",
+      "method": "exact_filter",
+      "filter_column": "status",
+      "filter_value": "Rejected",
+      "parser_error": null,
+      "n_results": 10,
+      "record_ids": [
+        "15002",
+        "15003",
+        "15008",
+        "15012",
+        "15033"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S11",
+      "kind": "structured_benchmark",
+      "question": "Show orders with status Cancelled",
+      "gold": {
+        "table": "orders",
+        "filter_column": "status",
+        "filter_value": "Cancelled"
+      },
+      "table": "orders",
+      "method": "exact_filter",
+      "filter_column": "status",
+      "filter_value": "Cancelled",
+      "parser_error": null,
+      "n_results": 10,
+      "record_ids": [
+        "16006",
+        "16021",
+        "16023",
+        "16025",
+        "16034"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S12",
+      "kind": "structured_benchmark",
+      "question": "Show fraud_cases with status Investigating",
+      "gold": {
+        "table": "fraud_cases",
+        "filter_column": "status",
+        "filter_value": "Investigating"
+      },
+      "table": "fraud_cases",
+      "method": "exact_filter",
+      "filter_column": "status",
+      "filter_value": "Investigating",
+      "parser_error": null,
+      "n_results": 10,
+      "record_ids": [
+        "24001",
+        "24006",
+        "24015",
+        "24017",
+        "24018"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S13",
+      "kind": "structured_benchmark",
+      "question": "Show escalation_cases with status Open",
+      "gold": {
+        "table": "escalation_cases",
+        "filter_column": "status",
+        "filter_value": "Open"
+      },
+      "table": "escalation_cases",
+      "method": "exact_filter",
+      "filter_column": "status",
+      "filter_value": "Open",
+      "parser_error": null,
+      "n_results": 10,
+      "record_ids": [
+        "28004",
+        "28005",
+        "28006",
+        "28007",
+        "28009"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S14",
+      "kind": "structured_benchmark",
+      "question": "Show fiber_inventory with status Suspended",
+      "gold": {
+        "table": "fiber_inventory",
+        "filter_column": "status",
+        "filter_value": "Suspended"
+      },
+      "table": "fiber_inventory",
+      "method": "exact_filter",
+      "filter_column": "status",
+      "filter_value": "Suspended",
+      "parser_error": null,
+      "n_results": 10,
+      "record_ids": [
+        "27001",
+        "27003",
+        "27015",
+        "27017",
+        "27025"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "S15",
+      "kind": "structured_benchmark",
+      "question": "asdkjaslkdj random gibberish query",
+      "gold": {
+        "table": null,
+        "filter_column": null,
+        "filter_value": null
+      },
+      "table": null,
+      "method": null,
+      "filter_column": null,
+      "filter_value": null,
+      "parser_error": "Could not determine relevant table",
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "Q01",
+      "kind": "e14a_document",
+      "question": "I don't have access to my old registered phone number anymore. How can I update the number on my account?",
+      "gold": null,
+      "table": "customer_master",
+      "method": "exact_filter_unresolved",
+      "filter_column": null,
+      "filter_value": null,
+      "parser_error": "No specific filter identified",
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RW_001",
+      "kind": "e14a_document",
+      "question": "What rights do I have as a telecom customer?",
+      "gold": null,
+      "table": null,
+      "method": null,
+      "filter_column": null,
+      "filter_value": null,
+      "parser_error": "Could not determine relevant table",
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "Q04",
+      "kind": "e14a_document",
+      "question": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
+      "gold": null,
+      "table": "invoices",
+      "method": "exact_filter",
+      "filter_column": "payment_status",
+      "filter_value": "Paid",
+      "parser_error": null,
+      "n_results": 10,
+      "record_ids": [
+        "5001",
+        "5002",
+        "5004",
+        "5007",
+        "5008"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RW_004",
+      "kind": "e14a_document",
+      "question": "How can I complain to my telecom service provider?",
+      "gold": null,
+      "table": null,
+      "method": null,
+      "filter_column": null,
+      "filter_value": null,
+      "parser_error": "Could not determine relevant table",
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "Q08",
+      "kind": "e14a_document",
+      "question": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+      "gold": null,
+      "table": "network_alarms",
+      "method": "exact_filter_unresolved",
+      "filter_column": null,
+      "filter_value": null,
+      "parser_error": "No specific filter identified",
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RW_007",
+      "kind": "e14a_document",
+      "question": "How can I stop receiving unwanted promotional calls and messages?",
+      "gold": null,
+      "table": "cdr",
+      "method": "exact_filter_unresolved",
+      "filter_column": null,
+      "filter_value": null,
+      "parser_error": "No specific filter identified",
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "Q13",
+      "kind": "e14a_document",
+      "question": "The OTP for signing into the My NovaTel app isn't arriving. How can I log in?",
+      "gold": null,
+      "table": null,
+      "method": null,
+      "filter_column": null,
+      "filter_value": null,
+      "parser_error": "Could not determine relevant table",
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RW_010",
+      "kind": "e14a_document",
+      "question": "What level of service quality should I expect from my telecom provider?",
+      "gold": null,
+      "table": null,
+      "method": null,
+      "filter_column": null,
+      "filter_value": null,
+      "parser_error": "Could not determine relevant table",
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "Q17",
+      "kind": "e14a_document",
+      "question": "What documents do I need to provide if NovaTel asks me to complete KYC verification again?",
+      "gold": null,
+      "table": "kyc_records",
+      "method": "exact_filter",
+      "filter_column": "status",
+      "filter_value": "Complete",
+      "parser_error": null,
+      "n_results": 10,
+      "record_ids": [
+        "14003",
+        "14004",
+        "14005",
+        "14006",
+        "14007"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RW_017",
+      "kind": "e14a_document",
+      "question": "How do I port my mobile number to another telecom company?",
+      "gold": null,
+      "table": "porting_requests",
+      "method": "exact_filter_unresolved",
+      "filter_column": null,
+      "filter_value": null,
+      "parser_error": "No specific filter identified",
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "Q20",
+      "kind": "e14a_document",
+      "question": "I was charged twice for the same recharge. How can I get the extra amount refunded?",
+      "gold": null,
+      "table": "recharge_transactions",
+      "method": "exact_filter",
+      "filter_column": "status",
+      "filter_value": "REFUNDED",
+      "parser_error": null,
+      "n_results": 10,
+      "record_ids": [
+        "4045",
+        "4089",
+        "4120",
+        "4181",
+        "4187"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RW_023",
+      "kind": "e14a_document",
+      "question": "How did the telecom sector perform from April to June 2025?",
+      "gold": null,
+      "table": null,
+      "method": null,
+      "filter_column": null,
+      "filter_value": null,
+      "parser_error": "Could not determine relevant table",
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "Q25",
+      "kind": "e14a_document",
+      "question": "My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?",
+      "gold": null,
+      "table": null,
+      "method": null,
+      "filter_column": null,
+      "filter_value": null,
+      "parser_error": "Could not determine relevant table",
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "Q28",
+      "kind": "e14a_document",
+      "question": "What is TRAI's role in regulating telecom operators like NovaTel?",
+      "gold": null,
+      "table": null,
+      "method": null,
+      "filter_column": null,
+      "filter_value": null,
+      "parser_error": "Could not determine relevant table",
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RB_S01",
+      "kind": "route_benchmark",
+      "question": "For customer 1042: Has my last recharge gone through?",
+      "gold": null,
+      "table": "recharge_transactions",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1042,
+      "parser_error": null,
+      "n_results": 3,
+      "record_ids": [
+        "4254",
+        "6997",
+        "7914"
+      ],
+      "lookup_route": "msisdn_mapping",
+      "executed": true
+    },
+    {
+      "id": "RB_S02",
+      "kind": "route_benchmark",
+      "question": "For customer 1056: Did my most recent recharge go through, and for how much?",
+      "gold": null,
+      "table": "recharge_transactions",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1056,
+      "parser_error": null,
+      "n_results": 5,
+      "record_ids": [
+        "4996",
+        "6256",
+        "7127",
+        "7144",
+        "8967"
+      ],
+      "lookup_route": "msisdn_mapping",
+      "executed": true
+    },
+    {
+      "id": "RB_S03",
+      "kind": "route_benchmark",
+      "question": "For customer 1042: When does my current plan expire?",
+      "gold": null,
+      "table": "subscriptions",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1042,
+      "parser_error": null,
+      "n_results": 1,
+      "record_ids": [
+        "3042"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RB_S04",
+      "kind": "route_benchmark",
+      "question": "For customer 1056: Is my plan still active, and when did it run out?",
+      "gold": null,
+      "table": "subscriptions",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1056,
+      "parser_error": null,
+      "n_results": 1,
+      "record_ids": [
+        "3056"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RB_S05",
+      "kind": "route_benchmark",
+      "question": "For customer 1042: Do I have any complaints that are still open, and what are they about?",
+      "gold": null,
+      "table": "tickets",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1042,
+      "parser_error": null,
+      "n_results": 3,
+      "record_ids": [
+        "11335",
+        "12099",
+        "12323"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RB_S06",
+      "kind": "route_benchmark",
+      "question": "For customer 1829: Is my latest bill paid or still pending?",
+      "gold": null,
+      "table": "invoices",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1829,
+      "parser_error": null,
+      "n_results": 6,
+      "record_ids": [
+        "6735",
+        "6736",
+        "6737",
+        "6738",
+        "6739"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RB_S07",
+      "kind": "route_benchmark",
+      "question": "For customer 1031: What is my KYC status right now?",
+      "gold": null,
+      "table": "kyc_records",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1031,
+      "parser_error": null,
+      "n_results": 1,
+      "record_ids": [
+        "14212"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RB_S08",
+      "kind": "route_benchmark",
+      "question": "For customer 1015: Are there any open complaints on my account?",
+      "gold": null,
+      "table": "customer_master",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1015,
+      "parser_error": null,
+      "n_results": 1,
+      "record_ids": [
+        "1015"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RB_B01",
+      "kind": "route_benchmark",
+      "question": "For customer 1042: My KYC is showing pending - will my number get disconnected, and what do I need to do?",
+      "gold": null,
+      "table": "kyc_records",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1042,
+      "parser_error": null,
+      "n_results": 0,
+      "record_ids": [],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RB_B02",
+      "kind": "route_benchmark",
+      "question": "For customer 1056: My last recharge didn't go through - what happens to the money, and what should I do?",
+      "gold": null,
+      "table": "recharge_transactions",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1056,
+      "parser_error": null,
+      "n_results": 5,
+      "record_ids": [
+        "4996",
+        "6256",
+        "7127",
+        "7144",
+        "8967"
+      ],
+      "lookup_route": "msisdn_mapping",
+      "executed": true
+    },
+    {
+      "id": "RB_B03",
+      "kind": "route_benchmark",
+      "question": "For customer 1829: My latest bill is unpaid - if I don't pay, will my number get deactivated, and could I get it back?",
+      "gold": null,
+      "table": "invoices",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1829,
+      "parser_error": null,
+      "n_results": 6,
+      "record_ids": [
+        "6735",
+        "6736",
+        "6737",
+        "6738",
+        "6739"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RB_B04",
+      "kind": "route_benchmark",
+      "question": "For customer 1031: My KYC shows as expired - which documents do I have to submit to re-verify?",
+      "gold": null,
+      "table": "kyc_records",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1031,
+      "parser_error": null,
+      "n_results": 1,
+      "record_ids": [
+        "14212"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RB_B05",
+      "kind": "route_benchmark",
+      "question": "For customer 1056: My plan ran out a long time ago - can I still get incoming calls, and how do I get service back?",
+      "gold": null,
+      "table": "subscriptions",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1056,
+      "parser_error": null,
+      "n_results": 1,
+      "record_ids": [
+        "3056"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    },
+    {
+      "id": "RB_B06",
+      "kind": "route_benchmark",
+      "question": "For customer 1003: My latest postpaid bill looks higher than my plan rental - what does it show, and how do I dispute it?",
+      "gold": null,
+      "table": "subscriptions",
+      "method": "exact_filter",
+      "filter_column": "customer_id",
+      "filter_value": 1003,
+      "parser_error": null,
+      "n_results": 1,
+      "record_ids": [
+        "3003"
+      ],
+      "lookup_route": "direct",
+      "executed": true
+    }
+  ]
+}

@@ -152,5 +152,58 @@ class TestWordBoundaryRegression(unittest.TestCase):
         self.assertEqual(self.table("Which plans exist?"), "subscriptions")
 
 
+HELDOUT_PATH = os.path.join(os.path.dirname(__file__), "parser_heldout.json")
+
+
+def score_heldout():
+    """(correct, acceptable_abstain, wrong, details) over structured/tests/parser_heldout.json."""
+    import json
+    with open(HELDOUT_PATH, encoding="utf-8") as fh:
+        items = json.load(fh)
+    correct = abstain = 0
+    wrong = []
+    for question, gold, accept_abstain in items:
+        table = parse_query(question).get("table")
+        if table == gold:
+            correct += 1
+        elif table is None and accept_abstain:
+            abstain += 1
+        else:
+            wrong.append((question, gold, table))
+    return correct, abstain, wrong, len(items)
+
+
+class TestHeldOutTableDetection(unittest.TestCase):
+    """22 held-out questions, committed BEFORE the keyword-strength tuning and never edited afterwards.
+    wrong = a wrong table, or an abstain where accept_abstain=0. Pass criterion: wrong == 0."""
+
+    def test_no_wrong_tables_on_heldout_set(self):
+        correct, abstain, wrong, n = score_heldout()
+        print(f"held-out: correct={correct} acceptable_abstain={abstain} wrong={len(wrong)} of {n}")
+        for q, gold, got in wrong:
+            print(f"   WRONG  gold={gold} got={got} | {q}")
+        self.assertEqual(correct + abstain + len(wrong), n)
+        self.assertEqual(wrong, [])
+
+
+class TestPersonAReportedQuestions(unittest.TestCase):
+    """Reported by Person A: these tied 1-1 under the word-boundary parser and got no table.
+    The tuning that fixes them is POST-HOC against exactly these four."""
+
+    def test_rb_s06_invoice(self):
+        self.assertEqual(parse_query("Is my latest bill paid or still pending?")["table"], "invoices")
+
+    def test_rb_b05_subscriptions(self):
+        q = "My plan ran out a long time ago - can I still get incoming calls, and how do I get service back?"
+        self.assertEqual(parse_query(q)["table"], "subscriptions")
+
+    def test_rb_b06_invoice(self):
+        q = "My latest postpaid bill looks higher than my plan rental - what does it show, and how do I dispute it?"
+        self.assertEqual(parse_query(q)["table"], "invoices")
+
+    def test_rb_s08_tickets(self):
+        self.assertEqual(parse_query("Are there any open complaints on my account?")["table"], "tickets")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

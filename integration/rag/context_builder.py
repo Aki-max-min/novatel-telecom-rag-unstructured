@@ -38,11 +38,17 @@ def _is_usable(result: dict) -> bool:
     return len(content) >= MIN_CONTENT_CHARS
 
 
-def build_context(fused_results: list[dict], top_n: int = DEFAULT_TOP_N) -> dict:
+def build_context(fused_results: list[dict], top_n: int = DEFAULT_TOP_N,
+                  per_source_budget: dict | None = None) -> dict:
     """
     fused_results: RRF-ranked Common-Schema list (fuse.reciprocal_rank_fusion
         output), best first.
-    top_n: how many evidence blocks to keep.
+    top_n: how many evidence blocks to keep (one budget shared by both sources).
+    per_source_budget: optional {"structured": n_s, "unstructured": n_u}. When given it REPLACES the shared
+        top_n: each source keeps its own best n blocks in fused order. This is the E14b fix for the
+        context-budget truncation diagnosed in data/experiments/benchmark_base_vs_rag/failure_diagnostic.md
+        (RRF interleaving split the shared 6-block budget about 3/3, so multi-row SQL answers lost rows).
+        Default None keeps the original shared-budget behaviour exactly.
 
     Returns {"evidence": [...], "context_text": str} where each evidence
     entry is {"id", "source", "dataset", "record_id", "provenance_label",
@@ -59,7 +65,16 @@ def build_context(fused_results: list[dict], top_n: int = DEFAULT_TOP_N) -> dict
         seen.add(key)
         deduped.append(result)
 
-    selected = deduped[:top_n]
+    if per_source_budget is None:
+        selected = deduped[:top_n]
+    else:
+        taken: dict[str, int] = {}
+        selected = []
+        for result in deduped:
+            source = result["source"]
+            if taken.get(source, 0) < per_source_budget.get(source, 0):
+                selected.append(result)
+                taken[source] = taken.get(source, 0) + 1
 
     evidence = []
     lines = []

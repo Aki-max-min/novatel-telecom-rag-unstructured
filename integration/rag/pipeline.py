@@ -18,6 +18,7 @@ from integration.rag.context_builder import DEFAULT_TOP_N, build_context
 from integration.rag.fuse import reciprocal_rank_fusion
 from integration.rag.generate import generate_answer
 from integration.rag.llm_client import OllamaClient
+from integration.rag.rag_config import RagConfig
 from integration.unstructured_adapter import to_common_result
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -78,9 +79,16 @@ class UnstructuredSearcher:
     def _dataset_label(record: dict) -> str:
         return "novatel_synthetic" if record.get("source_corpus") == "synthetic" else "trai_public"
 
-    def search(self, query: str, faiss_top_k: int = FAISS_TOP_K, rerank_top_k: int = RERANK_TOP_K) -> list[dict]:
+    def search(self, query: str, faiss_top_k: int = FAISS_TOP_K, rerank_top_k: int = RERANK_TOP_K,
+               semantic=None) -> list[dict]:
+        """semantic: optional integration.rag.semantic_layer.SemanticLayer. None (default) = the original E14 path,
+        the same behaviour as before the layer existed."""
+        search_text = query
+        semantic_info = None
+        if semantic is not None:
+            search_text, semantic_info = semantic.normalise_query(query)
         query_vector = self.embedding_model.encode(
-            [query], convert_to_numpy=True, normalize_embeddings=True
+            [search_text], convert_to_numpy=True, normalize_embeddings=True
         ).astype("float32")
 
         scores, indices = self.index.search(query_vector, faiss_top_k)
@@ -112,6 +120,8 @@ class UnstructuredSearcher:
                 candidate["hybrid_score"] = float(ce_score)
 
         candidates.sort(key=lambda c: c.get("hybrid_score", c["faiss_score"]), reverse=True)
+        if semantic is not None:
+            candidates = self._semantic_merge(query, candidates, semantic, semantic_info)
         top = candidates[:rerank_top_k]
 
         return [
@@ -122,6 +132,67 @@ class UnstructuredSearcher:
             )
             for c in top
         ]
+
+    def _candidate_from_record(self, record: dict, faiss_score: float) -> dict:
+        return {
+            "document_id": record["document_id"], "chunk_id": record["chunk_id"], "title": record.get("title", ""),
+            "category": record.get("category", ""), "department": record.get("department", ""),
+            "customer_scope": record.get("customer_scope", ""), "related_ids": record.get("related_ids", []),
+            "tags": record.get("tags", []), "text": self._load_text(record), "faiss_score": faiss_score,
+            "_dataset": self._dataset_label(record),
+        }
+
+    def _semantic_merge(self, query: str, candidates: list[dict], semantic, info: dict | None) -> list[dict]:
+        """One-hop graph expansion (see integration/rag/semantic_layer.py). Seeds = top reranked documents; their graph neighbours are
+        added to the pool, scored by the CrossEncoder against the ORIGINAL question, and merged with the CE ranking by
+        weighted RRF (ranks only)."""
+        from integration.rag.fuse import RRF_K
+
+        if not hasattr(self, "_chunks_by_doc"):
+            self._chunks_by_doc: dict[str, list[int]] = {}
+            for i, rec in enumerate(self.metadata):
+                self._chunks_by_doc.setdefault(rec["document_id"], []).append(i)
+
+        seeds: list[str] = []
+        for c in candidates:
+            if c["document_id"] not in seeds:
+                seeds.append(c["document_id"])
+            if len(seeds) >= semantic.seed_documents:   # Person B's GRAPH_SEEDS
+                break
+        neighbours = semantic.neighbours(seeds, set(self._chunks_by_doc))
+        graph_weight = (info or {}).get("graph_weight", 0.0)
+        if graph_weight <= 0.0:
+            neighbours = []  # the query gate says the graph should not influence this question
+
+        in_pool = {c["chunk_id"] for c in candidates}
+        added = []
+        for doc in neighbours:
+            for pos in sorted(self._chunks_by_doc[doc])[:semantic.max_chunks_per_doc]:
+                rec = self.metadata[pos]
+                if rec["chunk_id"] not in in_pool:
+                    added.append(self._candidate_from_record(rec, 0.0))
+        if added:
+            scores = self.reranker.predict([(query, c["text"]) for c in added])
+            for c, sc in zip(added, scores):
+                c["crossencoder_score"] = float(sc)
+                c["hybrid_score"] = float(sc)
+                c["semantic_added"] = True
+        pool = candidates + added
+        pool.sort(key=lambda c: c["hybrid_score"], reverse=True)
+
+        order = {doc: i for i, doc in enumerate(neighbours)}
+        graph_list = sorted((c for c in pool if c["document_id"] in order),
+                            key=lambda c: (order[c["document_id"]], -c["hybrid_score"], c["chunk_id"]))
+        fused = {}
+        for rank, c in enumerate(pool, start=1):
+            fused[c["chunk_id"]] = 1.0 / (RRF_K + rank)
+        for rank, c in enumerate(graph_list, start=1):
+            fused[c["chunk_id"]] += graph_weight / (RRF_K + rank)
+        pool.sort(key=lambda c: (-fused[c["chunk_id"]], -c["hybrid_score"]))
+        for c in pool:
+            c["semantic"] = {"concept": (info or {}).get("concept"), "seeds": seeds, "neighbour_docs": neighbours, "graph_weight": graph_weight,
+                             "added_by_graph": bool(c.get("semantic_added"))}
+        return pool
 
     def close(self):
         pass
@@ -146,17 +217,25 @@ class RagPipeline:
     many queries -- construct it once per process, not once per query.
     """
 
-    def __init__(self, llm_client: OllamaClient | None = None, db_path: str | None = None):
+    def __init__(self, llm_client: OllamaClient | None = None, db_path: str | None = None,
+                 config: RagConfig | None = None):
+        """config: RagConfig (integration/rag/rag_config.py). The default RagConfig() reproduces the E14a behaviour:
+        shared 6-block context budget, no semantic layer."""
+        self.config = config or RagConfig()
         self.unstructured = UnstructuredSearcher()
         self.structured = StructuredSearchAdapter(db_path=db_path)
         self.llm_client = llm_client or OllamaClient()
+        self.semantic_layer = None
+        if self.config.semantic_layer:
+            from integration.rag.semantic_layer import SemanticLayer
+            self.semantic_layer = SemanticLayer(max_chunks_per_doc=self.config.semantic_max_chunks_per_doc)
 
     def run_query(self, question: str, top_n_context: int = DEFAULT_TOP_N) -> dict:
         structured_results = self.structured.search(question)
-        unstructured_results = self.unstructured.search(question)
+        unstructured_results = self.unstructured.search(question, semantic=self.semantic_layer)
 
         fused = reciprocal_rank_fusion(structured_results, unstructured_results)
-        context = build_context(fused, top_n=top_n_context)
+        context = build_context(fused, top_n=top_n_context, per_source_budget=self.config.per_source_budget)
         generation = generate_answer(question, context["context_text"], client=self.llm_client)
 
         return {
@@ -167,6 +246,7 @@ class RagPipeline:
             "evidence": context["evidence"],
             "context_text": context["context_text"],
             "answer": generation["answer"],
+            "rag_config": self.config.as_dict(),
         }
 
     def close(self):

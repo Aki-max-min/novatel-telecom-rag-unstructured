@@ -1,0 +1,664 @@
+{
+ "description": "Context text (the evidence part of the prompt) produced by the E14 pipeline at git HEAD, no LLM involved. Used by integration/tests/test_rag_defaults_identical.py to prove that default settings did not change the prompt.",
+ "git_head": "bf41951ab3a46a14789774d5375955793eb166db",
+ "top_n": 6,
+ "n_queries": 22,
+ "prompts": [
+  {
+   "query_id": "S01",
+   "question": "What is customer 1001's account status?",
+   "n_blocks": 6,
+   "evidence_ids": [
+    [
+     "structured",
+     "1001"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_007"
+    ],
+    [
+     "unstructured",
+     "KB_C19_privacy_data_requests_chunk_000"
+    ],
+    [
+     "unstructured",
+     "KB_C20_refund_processing_chunk_000"
+    ],
+    [
+     "unstructured",
+     "KB_C07_roaming_activation_chunk_000"
+    ],
+    [
+     "unstructured",
+     "KB_C06_porting_process_chunk_000"
+    ]
+   ],
+   "context_sha256": "2bdc3434fc258d9ef9f3b52d97043a5d2c6dd478bb7902689f6bec36b60b528a"
+  },
+  {
+   "query_id": "Q01",
+   "question": "I don't have access to my old registered phone number anymore. How can I update the number on my account?",
+   "n_blocks": 5,
+   "evidence_ids": [
+    [
+     "unstructured",
+     "FAQ_C01_001_chunk_000"
+    ],
+    [
+     "unstructured",
+     "FAQ_C01_001_chunk_001"
+    ],
+    [
+     "unstructured",
+     "TRX_002_chunk_000"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_063"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_165"
+    ]
+   ],
+   "context_sha256": "d8174023fb83d14c3d71e474d3e6cbfa742d68c04af5ca0fc93b0bb17dc67aa6"
+  },
+  {
+   "query_id": "RW_001",
+   "question": "What rights do I have as a telecom customer?",
+   "n_blocks": 5,
+   "evidence_ids": [
+    [
+     "unstructured",
+     "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_217"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS_chunk_040"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_039"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION_chunk_008"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_007"
+    ]
+   ],
+   "context_sha256": "6d3227cf6e332204c9b95c38708b35ec31afb5d8568cb41136b60b29389f8eec"
+  },
+  {
+   "query_id": "S03",
+   "question": "Show invoices for customer 1009",
+   "n_blocks": 6,
+   "evidence_ids": [
+    [
+     "structured",
+     "5019"
+    ],
+    [
+     "unstructured",
+     "EML_001_chunk_000"
+    ],
+    [
+     "structured",
+     "5020"
+    ],
+    [
+     "unstructured",
+     "KB_C04_bill_disputes_chunk_000"
+    ],
+    [
+     "structured",
+     "5021"
+    ],
+    [
+     "unstructured",
+     "FAQ_C04_007_chunk_001"
+    ]
+   ],
+   "context_sha256": "aedbc57279feb530cffe9d5ea0c3807c05aeb59256a45afc07a2e8efcec79904"
+  },
+  {
+   "query_id": "Q04",
+   "question": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
+   "n_blocks": 6,
+   "evidence_ids": [
+    [
+     "structured",
+     "5001"
+    ],
+    [
+     "unstructured",
+     "FAQ_C04_007_chunk_000"
+    ],
+    [
+     "structured",
+     "5002"
+    ],
+    [
+     "unstructured",
+     "FAQ_C04_007_chunk_001"
+    ],
+    [
+     "structured",
+     "5004"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_068"
+    ]
+   ],
+   "context_sha256": "36110bf16e664b3f66ef8e383a407710ae1324407687fad946887a0f0b334179"
+  },
+  {
+   "query_id": "RW_004",
+   "question": "How can I complain to my telecom service provider?",
+   "n_blocks": 5,
+   "evidence_ids": [
+    [
+     "unstructured",
+     "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL_chunk_005"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL_chunk_009"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL_chunk_023"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL_chunk_022"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_043"
+    ]
+   ],
+   "context_sha256": "4048bdb46354f2fc23f41cfb56c96e3e0b2efb5fcda40fb8185dc10856df3bf2"
+  },
+  {
+   "query_id": "S04",
+   "question": "How many recharge_transactions have status FAILED?",
+   "n_blocks": 6,
+   "evidence_ids": [
+    [
+     "structured",
+     null
+    ],
+    [
+     "unstructured",
+     "KB_C03_recharge_failures_chunk_000"
+    ],
+    [
+     "unstructured",
+     "SOP_C03_RECHARGE_FAILURE_chunk_000"
+    ],
+    [
+     "unstructured",
+     "TRX_001_chunk_000"
+    ],
+    [
+     "unstructured",
+     "INC_C03_INC_2026_0203_chunk_000"
+    ],
+    [
+     "unstructured",
+     "FAQ_C20_039_chunk_001"
+    ]
+   ],
+   "context_sha256": "0c86bf49aba1bcd2a7b327bb291c31cfb3f2691c341ec166ac07f338a83f028c"
+  },
+  {
+   "query_id": "Q08",
+   "question": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+   "n_blocks": 5,
+   "evidence_ids": [
+    [
+     "unstructured",
+     "FAQ_C08_015_chunk_001"
+    ],
+    [
+     "unstructured",
+     "FAQ_C11_022_chunk_000"
+    ],
+    [
+     "unstructured",
+     "FAQ_C12_023_chunk_000"
+    ],
+    [
+     "unstructured",
+     "MAN_ESIM_001_chunk_001"
+    ],
+    [
+     "unstructured",
+     "MAN_DEVICE_VOLTE_001_chunk_001"
+    ]
+   ],
+   "context_sha256": "e0c93ac3d21bb9cd60e5fb4a03b13f7bb59915319cd5cf28b201b146bee19ace"
+  },
+  {
+   "query_id": "RW_007",
+   "question": "How can I stop receiving unwanted promotional calls and messages?",
+   "n_blocks": 5,
+   "evidence_ids": [
+    [
+     "unstructured",
+     "FAQ_C26_051_chunk_000"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_011"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_149"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_084"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED_chunk_018"
+    ]
+   ],
+   "context_sha256": "6466dd7156547c1f0d47bd6dcd5044c1ef2289a5d140e8fa68f0b7e83fd62122"
+  },
+  {
+   "query_id": "S06",
+   "question": "Show all open tickets",
+   "n_blocks": 6,
+   "evidence_ids": [
+    [
+     "structured",
+     "11002"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_143"
+    ],
+    [
+     "structured",
+     "11009"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_197"
+    ],
+    [
+     "structured",
+     "11013"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_130"
+    ]
+   ],
+   "context_sha256": "57b1c5a8d62f90affd878002650d82391315145571bf6343b8f7e8181fd107d2"
+  },
+  {
+   "query_id": "Q13",
+   "question": "The OTP for signing into the My NovaTel app isn't arriving. How can I log in?",
+   "n_blocks": 5,
+   "evidence_ids": [
+    [
+     "unstructured",
+     "FAQ_C13_025_chunk_000"
+    ],
+    [
+     "unstructured",
+     "FAQ_C01_001_chunk_000"
+    ],
+    [
+     "unstructured",
+     "FAQ_C13_025_chunk_001"
+    ],
+    [
+     "unstructured",
+     "SOP_C13_APP_ACCESS_ISSUES_chunk_000"
+    ],
+    [
+     "unstructured",
+     "FAQ_C01_001_chunk_001"
+    ]
+   ],
+   "context_sha256": "6928c3c44fb5f43efb8d8cc32bea293a3403fd8f3cbf1d09a731656f0a521f3f"
+  },
+  {
+   "query_id": "RW_010",
+   "question": "What level of service quality should I expect from my telecom provider?",
+   "n_blocks": 5,
+   "evidence_ids": [
+    [
+     "unstructured",
+     "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_210"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_097"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_115"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_110"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_123"
+    ]
+   ],
+   "context_sha256": "3eda7a281c5a1422af22d5102b9cd26d1de3c2a062daf794bfe9d66f7edffdeb"
+  },
+  {
+   "query_id": "S07",
+   "question": "How many payment_transactions are SUCCESS?",
+   "n_blocks": 6,
+   "evidence_ids": [
+    [
+     "structured",
+     null
+    ],
+    [
+     "unstructured",
+     "SOP_C03_RECHARGE_FAILURE_chunk_000"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_081"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION_chunk_010"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_071"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_031"
+    ]
+   ],
+   "context_sha256": "283003a7be6a53f0804a16d015f501097327f26fb6178f3d84ba7bad8eed4d46"
+  },
+  {
+   "query_id": "Q17",
+   "question": "What documents do I need to provide if NovaTel asks me to complete KYC verification again?",
+   "n_blocks": 6,
+   "evidence_ids": [
+    [
+     "structured",
+     "14003"
+    ],
+    [
+     "unstructured",
+     "EML_008_chunk_000"
+    ],
+    [
+     "structured",
+     "14004"
+    ],
+    [
+     "unstructured",
+     "TRX_007_chunk_000"
+    ],
+    [
+     "structured",
+     "14005"
+    ],
+    [
+     "unstructured",
+     "FAQ_C17_033_chunk_000"
+    ]
+   ],
+   "context_sha256": "b89ede18ccd591804147acad9705c318cd973d7a4e2cd6c56bcb8408928ca2ea"
+  },
+  {
+   "query_id": "RW_017",
+   "question": "How do I port my mobile number to another telecom company?",
+   "n_blocks": 5,
+   "evidence_ids": [
+    [
+     "unstructured",
+     "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_044"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_018"
+    ],
+    [
+     "unstructured",
+     "TRX_004_chunk_000"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_009"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY_chunk_017"
+    ]
+   ],
+   "context_sha256": "bb3091c19a64383e6ab8c212ebba775e73d005fc6832ad2baff084eebc380f42"
+  },
+  {
+   "query_id": "S09",
+   "question": "Show kyc_records with status Pending",
+   "n_blocks": 6,
+   "evidence_ids": [
+    [
+     "structured",
+     "14001"
+    ],
+    [
+     "unstructured",
+     "FAQ_C22_044_chunk_000"
+    ],
+    [
+     "structured",
+     "14009"
+    ],
+    [
+     "unstructured",
+     "FAQ_C22_044_chunk_001"
+    ],
+    [
+     "structured",
+     "14026"
+    ],
+    [
+     "unstructured",
+     "TRX_007_chunk_000"
+    ]
+   ],
+   "context_sha256": "7a5ba1428d8ccbc6f38021694e9fcaf4f073bc7181f560eeee307a16e90fc56c"
+  },
+  {
+   "query_id": "Q20",
+   "question": "I was charged twice for the same recharge. How can I get the extra amount refunded?",
+   "n_blocks": 6,
+   "evidence_ids": [
+    [
+     "structured",
+     "4045"
+    ],
+    [
+     "unstructured",
+     "FAQ_C20_039_chunk_000"
+    ],
+    [
+     "structured",
+     "4089"
+    ],
+    [
+     "unstructured",
+     "FAQ_C20_039_chunk_001"
+    ],
+    [
+     "structured",
+     "4120"
+    ],
+    [
+     "unstructured",
+     "TRX_001_chunk_000"
+    ]
+   ],
+   "context_sha256": "0059a58bb33341e3a55f5b5056a4a35a260f18eefd4fe9394b81f411f259e668"
+  },
+  {
+   "query_id": "RW_023",
+   "question": "How did the telecom sector perform from April to June 2025?",
+   "n_blocks": 5,
+   "evidence_ids": [
+    [
+     "unstructured",
+     "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_000"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_000"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_026"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_074"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_015"
+    ]
+   ],
+   "context_sha256": "b08335bb2bdf4e9c0b145a33b0a5086d210ddf3c12e08ff10d04a42a02e55d40"
+  },
+  {
+   "query_id": "S12",
+   "question": "Show fraud_cases with status Investigating",
+   "n_blocks": 6,
+   "evidence_ids": [
+    [
+     "structured",
+     "24001"
+    ],
+    [
+     "unstructured",
+     "SOP_C08_OUTAGE_MANAGEMENT_chunk_001"
+    ],
+    [
+     "structured",
+     "24006"
+    ],
+    [
+     "unstructured",
+     "SOP_C05_SIM_REPLACEMENT_chunk_001"
+    ],
+    [
+     "structured",
+     "24015"
+    ],
+    [
+     "unstructured",
+     "RCA_INC_2026_0197_chunk_001"
+    ]
+   ],
+   "context_sha256": "6d1fdfd705596309b2660addbc26cd7025e3e117be7e663ab5c76285c797e27f"
+  },
+  {
+   "query_id": "Q25",
+   "question": "My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?",
+   "n_blocks": 5,
+   "evidence_ids": [
+    [
+     "unstructured",
+     "FAQ_C25_049_chunk_000"
+    ],
+    [
+     "unstructured",
+     "FAQ_C25_049_chunk_001"
+    ],
+    [
+     "unstructured",
+     "TRX_006_chunk_000"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_096"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_101"
+    ]
+   ],
+   "context_sha256": "81694f72a9af470b2df16c8abd694ae915379c690430e8584100312e5e906c35"
+  },
+  {
+   "query_id": "S15",
+   "question": "asdkjaslkdj random gibberish query",
+   "n_blocks": 5,
+   "evidence_ids": [
+    [
+     "unstructured",
+     "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_030"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025_chunk_103"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_059"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_091"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_057"
+    ]
+   ],
+   "context_sha256": "9ae65b6b839e1f2e77f13aab46ed8e5ec30a5fda4d1f91dcf52f5e0778af67f7"
+  },
+  {
+   "query_id": "Q28",
+   "question": "What is TRAI's role in regulating telecom operators like NovaTel?",
+   "n_blocks": 5,
+   "evidence_ids": [
+    [
+     "unstructured",
+     "FAQ_C28_055_chunk_000"
+    ],
+    [
+     "unstructured",
+     "Policy_C28_regulatory_compliance_chunk_000"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_211"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE_chunk_079"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS_chunk_090"
+    ]
+   ],
+   "context_sha256": "c4a662e6dfbf6daf79d10bba311cb143707dc25795bb34d7d8ea25ad1894817e"
+  }
+ ]
+}

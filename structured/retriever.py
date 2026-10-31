@@ -52,8 +52,68 @@ class StructuredRetriever:
         result = self._wrap_result(table_name, normalized, "exact_lookup", score=1.0)
         return {"results": [result], "latency_sec": latency}
 
+    # --- customer scoping ------------------------------------------------------------------
+    def _table_columns(self, table_name):
+        """Column names of an allow-listed table (PRAGMA, cached). Unknown tables -> None (never queried)."""
+        if get_schema(table_name) is None:   # allowlist = the tables registered in schema.py
+            return None
+        cache = self.__dict__.setdefault("_column_cache", {})
+        if table_name not in cache:
+            rows = self.loader.conn.execute("SELECT name FROM pragma_table_info(?)", (table_name,)).fetchall()
+            cache[table_name] = [r[0] for r in rows]
+        return cache[table_name]
+
+    def customer_scoped_filter(self, table_name, customer_id, top_k=10):
+        """All rows of `table_name` that belong to ONE customer, whatever the table's customer key is.
+
+        * table has customer_id            -> filter on customer_id (unchanged behaviour)
+        * else table has msisdn            -> look up the customer's OWN msisdn in customer_master (parameterised),
+                                             and if exactly one row, filter the table on msisdn
+                                             (result metadata route="msisdn_mapping"); unknown customer -> empty
+        * neither (offers, plan_master, network_sites, ...) -> empty result with a note and executed=False
+        Never raises "no such column", never returns unscoped rows, never falls back to an unfiltered query.
+        Callers must pass the customer id of the SIGNED-IN session, not an id parsed from question text.
+        """
+        start = time.time()
+        columns = self._table_columns(table_name)
+
+        def empty(note, executed):
+            return {"results": [], "latency_sec": time.time() - start, "executed": executed, "note": note}
+
+        if columns is None:
+            return empty(f"unknown table {table_name!r}; cannot scope to a customer", False)
+
+        if "customer_id" in columns:
+            res = self._plain_filter(table_name, "customer_id", customer_id, top_k)
+            res["executed"] = True
+            return res
+
+        if "msisdn" in columns:
+            rows = self.loader.conn.execute(
+                "SELECT msisdn FROM customer_master WHERE customer_id = ?", (str(customer_id),)).fetchall()
+            if len(rows) != 1 or not rows[0][0]:
+                return empty("unknown customer; nothing to scope to", True)
+            res = self._plain_filter(table_name, "msisdn", rows[0][0], top_k)
+            for r in res["results"]:
+                r["metadata"]["route"] = "msisdn_mapping"
+            res["executed"] = True
+            res["route"] = "msisdn_mapping"
+            return res
+
+        return empty("table has no customer key; cannot scope to a customer", False)
+
+    def _plain_filter(self, table_name, column, value, top_k):
+        start = time.time()
+        raw_rows = self.loader.filter_by(table_name, column, value)[:top_k]
+        results = [self._wrap_result(table_name, normalize_row(table_name, r), "exact_filter", score=1.0)
+                   for r in raw_rows]
+        return {"results": results, "latency_sec": time.time() - start}
+
     def exact_filter(self, table_name, column, value, top_k=10):
-        """Retrieval method: exact_filter -- find records matching a column value."""
+        """Retrieval method: exact_filter -- find records matching a column value.
+        A customer_id filter is always routed through customer_scoped_filter (see above)."""
+        if column == "customer_id":
+            return self.customer_scoped_filter(table_name, value, top_k=top_k)
         start = time.time()
         raw_rows = self.loader.filter_by(table_name, column, value)
         latency = time.time() - start

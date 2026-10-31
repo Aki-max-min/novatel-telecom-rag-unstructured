@@ -256,7 +256,12 @@ def _cached_rag_answers() -> dict[str, str]:
         return {}
 
 
-def stage_a_generate(limit: int | None = None) -> None:
+def _cache_for_run(use_cache: bool) -> dict[str, str]:
+    """The earlier subset run's RAG answers, or {} when the cache is disabled for this run."""
+    return _cached_rag_answers() if use_cache else {}
+
+
+def stage_a_generate(limit: int | None = None, use_cache: bool = True) -> None:
     """Loads the Ollama client + retrieval models ONCE, then for each query
     generates a BASE answer (no retrieval) and a RAG answer (full pipeline).
     Appends each result to answers.jsonl immediately."""
@@ -267,7 +272,7 @@ def stage_a_generate(limit: int | None = None) -> None:
     queries = queryset["queries"][:limit] if limit else queryset["queries"]
 
     already = _done_ids(ANSWERS_PATH)
-    cached_rag = _cached_rag_answers()
+    cached_rag = _cache_for_run(use_cache)   # use_cache=False (CLI: --no-cache): every RAG answer is generated fresh
 
     pipeline = RagPipeline()
     total = len(queries)
@@ -969,9 +974,15 @@ def stage_c_aggregate() -> dict:
 # CLI
 # ---------------------------------------------------------------------------
 
+def _parse_cli(argv: list[str]) -> tuple[str, int | None, bool]:
+    """(stage, limit, use_cache). --no-cache disables reuse of cached RAG answers; the default is unchanged (cache used)."""
+    stage = argv[1] if len(argv) > 1 else "help"
+    limit = next((int(a) for a in argv[2:] if a.isdigit()), None)
+    return stage, limit, "--no-cache" not in argv
+
+
 if __name__ == "__main__":
-    stage = sys.argv[1] if len(sys.argv) > 1 else "help"
-    limit = int(sys.argv[2]) if len(sys.argv) > 2 else None
+    stage, limit, use_cache = _parse_cli(sys.argv)
 
     if stage == "queryset":
         OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -980,11 +991,11 @@ if __name__ == "__main__":
             json.dump(qs, f, indent=2, ensure_ascii=False)
         print(f"queryset: {qs['n_queries']} queries {qs['composition']} -> {QUERYSET_PATH}")
     elif stage == "generate":
-        stage_a_generate(limit=limit)
+        stage_a_generate(limit=limit, use_cache=use_cache)
     elif stage == "score":
         stage_b_score(limit=limit)
     elif stage == "aggregate":
         payload = stage_c_aggregate()
         print(json.dumps({k: v for k, v in payload.items() if k != "run_config"}, indent=2, default=str))
     else:
-        print("usage: python -m integration.eval.base_vs_rag {queryset|generate|score|aggregate} [limit]")
+        print("usage: python -m integration.eval.base_vs_rag {queryset|generate|score|aggregate} [limit] [--no-cache]")

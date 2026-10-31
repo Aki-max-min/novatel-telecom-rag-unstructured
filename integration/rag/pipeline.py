@@ -14,6 +14,7 @@ from pathlib import Path
 import faiss
 from sentence_transformers import CrossEncoder, SentenceTransformer
 
+from integration.corpus_labels import corpus_label, count_scifact, dataset_label, is_scifact
 from integration.rag.context_builder import DEFAULT_TOP_N, build_context
 from integration.rag.fuse import reciprocal_rank_fusion
 from integration.rag.generate import generate_answer
@@ -46,9 +47,17 @@ RERANK_TOP_K = 5
 
 class UnstructuredSearcher:
     """
-    Single-query search over the existing combined (383 synthetic + 1162
-    public, 1545 total) FAISS index from E9. Reuses the same embedding and
-    CrossEncoder models as ingestion/hybrid_rerank_retrieval.py.
+    Single-query search over the existing combined FAISS index from E9: 1,545
+    chunks = 258 NovaTel synthetic + 125 SciFact (an external benchmark that was
+    built into the index, tagged "synthetic" there) + 1,162 public TRAI chunks.
+    Reuses the same embedding and CrossEncoder models as
+    ingestion/hybrid_rerank_retrieval.py.
+
+    exclude_scifact (default True): SciFact chunks are dropped at serving time (the
+    index file itself is untouched). The FAISS search is over-fetched by the number
+    of SciFact chunks so the candidate pool still holds `faiss_top_k` real
+    candidates; when no SciFact chunk is in the top results the output is identical
+    to the unfiltered search.
 
     Deliberate, disclosed simplification: hybrid_rerank_retrieval.py's
     title/category boost used the benchmark's ground-truth expected
@@ -57,10 +66,12 @@ class UnstructuredSearcher:
     silently re-added.
     """
 
-    def __init__(self):
+    def __init__(self, exclude_scifact: bool = True):
+        self.exclude_scifact = exclude_scifact
         self.index = faiss.read_index(str(COMBINED_INDEX_PATH))
         with open(COMBINED_METADATA_PATH, "r", encoding="utf-8") as f:
             self.metadata = json.load(f)
+        self.n_scifact_chunks = count_scifact(self.metadata)
         self.embedding_model = SentenceTransformer(EMBEDDING_MODEL_NAME, local_files_only=True)
         self.reranker = CrossEncoder(RERANKER_MODEL_NAME)
         self._text_cache: dict[str, str] = {}
@@ -77,7 +88,7 @@ class UnstructuredSearcher:
 
     @staticmethod
     def _dataset_label(record: dict) -> str:
-        return "novatel_synthetic" if record.get("source_corpus") == "synthetic" else "trai_public"
+        return dataset_label(record)
 
     def search(self, query: str, faiss_top_k: int = FAISS_TOP_K, rerank_top_k: int = RERANK_TOP_K,
                semantic=None) -> list[dict]:
@@ -91,13 +102,18 @@ class UnstructuredSearcher:
             [search_text], convert_to_numpy=True, normalize_embeddings=True
         ).astype("float32")
 
-        scores, indices = self.index.search(query_vector, faiss_top_k)
+        fetch_k = faiss_top_k + (self.n_scifact_chunks if self.exclude_scifact else 0)
+        scores, indices = self.index.search(query_vector, min(fetch_k, self.index.ntotal))
 
         candidates = []
         for faiss_score, idx in zip(scores[0], indices[0]):
             if idx < 0:
                 continue
             record = self.metadata[int(idx)]
+            if self.exclude_scifact and is_scifact(record):
+                continue
+            if len(candidates) >= faiss_top_k:
+                break
             candidates.append({
                 "document_id": record["document_id"],
                 "chunk_id": record["chunk_id"],
@@ -109,6 +125,7 @@ class UnstructuredSearcher:
                 "tags": record.get("tags", []),
                 "text": self._load_text(record),
                 "faiss_score": float(faiss_score),
+                "corpus_label": corpus_label(record),
                 "_dataset": self._dataset_label(record),
             })
 
@@ -139,7 +156,7 @@ class UnstructuredSearcher:
             "category": record.get("category", ""), "department": record.get("department", ""),
             "customer_scope": record.get("customer_scope", ""), "related_ids": record.get("related_ids", []),
             "tags": record.get("tags", []), "text": self._load_text(record), "faiss_score": faiss_score,
-            "_dataset": self._dataset_label(record),
+            "corpus_label": corpus_label(record), "_dataset": self._dataset_label(record),
         }
 
     def _semantic_merge(self, query: str, candidates: list[dict], semantic, info: dict | None) -> list[dict]:
@@ -169,6 +186,8 @@ class UnstructuredSearcher:
         for doc in neighbours:
             for pos in sorted(self._chunks_by_doc[doc])[:semantic.max_chunks_per_doc]:
                 rec = self.metadata[pos]
+                if self.exclude_scifact and is_scifact(rec):
+                    continue
                 if rec["chunk_id"] not in in_pool:
                     added.append(self._candidate_from_record(rec, 0.0))
         if added:
@@ -222,7 +241,7 @@ class RagPipeline:
         """config: RagConfig (integration/rag/rag_config.py). The default RagConfig() reproduces the E14a behaviour:
         shared 6-block context budget, no semantic layer."""
         self.config = config or RagConfig()
-        self.unstructured = UnstructuredSearcher()
+        self.unstructured = UnstructuredSearcher(exclude_scifact=self.config.exclude_scifact)
         self.structured = StructuredSearchAdapter(db_path=db_path)
         self.llm_client = llm_client or OllamaClient()
         self.semantic_layer = None

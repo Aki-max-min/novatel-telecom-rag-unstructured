@@ -255,6 +255,7 @@ def build_config(sidebar: dict) -> QAConfig:
         use_ontology=sidebar["use_ontology"], use_doc_graph=sidebar["use_doc_graph"], use_colpali=sidebar["use_colpali"],
         top_k_structured=sidebar["top_k_structured"], top_k_unstructured=sidebar["top_k_unstructured"],
         verifier=sidebar["verifier"], drop_unsupported=sidebar["drop_unsupported"], debug=sidebar["debug"],
+        exclude_scifact=sidebar["exclude_scifact"],
     )
     return cfg
 
@@ -284,6 +285,8 @@ def sidebar_controls() -> dict:
     tk_s = st.sidebar.slider("Top-k database rows", 1, 20, 10)
     tk_u = st.sidebar.slider("Top-k document chunks", 1, 10, 5)
     verifier = st.sidebar.selectbox("Citation verifier", ["nli", "lexical"], help="nli = entailment model (CPU, slower).")
+    exclude_sf = st.sidebar.checkbox("Exclude SciFact", True,
+                                     help="SciFact is an external benchmark that was built into the index; keep it out of answers.")
     drop = st.sidebar.checkbox("Hide unsupported sentences", False)
     debug = st.sidebar.checkbox("Debug panel", False)
 
@@ -298,7 +301,7 @@ def sidebar_controls() -> dict:
     return {"router": router, "forced_route": None if forced == "router decides" else forced,
             "use_ontology": use_ontology, "use_doc_graph": use_graph, "use_colpali": use_colpali,
             "top_k_structured": tk_s, "top_k_unstructured": tk_u, "verifier": verifier,
-            "drop_unsupported": drop, "debug": debug}
+            "drop_unsupported": drop, "debug": debug, "exclude_scifact": exclude_sf}
 
 
 def main() -> None:

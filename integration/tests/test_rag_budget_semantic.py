@@ -73,6 +73,7 @@ def _searcher():
                   {"document_id": "DOC_N", "chunk_id": "DOC_N_0"}, {"document_id": "DOC_N", "chunk_id": "DOC_N_1"},
                   {"document_id": "DOC_N", "chunk_id": "DOC_N_2"}]
     s.reranker = _FakeReranker()
+    s.exclude_scifact = True
     s._text_cache = {}
     s._load_text = lambda record: f"text of {record['chunk_id']}"
     s._dataset_label = staticmethod(lambda record: "novatel_synthetic")

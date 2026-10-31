@@ -1,0 +1,651 @@
+{
+  "label": "re-computed in this task (retrieval only, no LLM); not an E14a file",
+  "timestamp_utc": "2026-10-31T13:40:25.002439+00:00",
+  "settings": "all-MiniLM-L6-v2 -> FAISS top-10 -> ms-marco-MiniLM-L-6-v2 CrossEncoder rerank of the 10; docs deduplicated by best chunk",
+  "indexes": {
+    "old": "data/experiments/combined_retrieval/vectorstore",
+    "clean": "data/experiments/combined_retrieval_clean/vectorstore",
+    "old_chunks": 1545,
+    "clean_chunks": 1420
+  },
+  "metrics": {
+    "old": {
+      "all_14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571
+      },
+      "synthetic_8": {
+        "n": 8,
+        "R@1": 0.875,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.9167
+      },
+      "trai_6": {
+        "n": 6,
+        "R@1": 0.6667,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.7778
+      }
+    },
+    "old+filter": {
+      "all_14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571
+      },
+      "synthetic_8": {
+        "n": 8,
+        "R@1": 0.875,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.9167
+      },
+      "trai_6": {
+        "n": 6,
+        "R@1": 0.6667,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.7778
+      }
+    },
+    "clean": {
+      "all_14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571
+      },
+      "synthetic_8": {
+        "n": 8,
+        "R@1": 0.875,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.9167
+      },
+      "trai_6": {
+        "n": 6,
+        "R@1": 0.6667,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.7778
+      }
+    }
+  },
+  "questions_where_ranked_documents_differ_between_variants": [],
+  "scifact_chunks_in_old_faiss_top10": {},
+  "per_question": [
+    {
+      "query_id": "Q01",
+      "question": "I don't have access to my old registered phone number anymore. How can I update the number on my account?",
+      "gold": [
+        "FAQ_C01_001"
+      ],
+      "old": {
+        "docs": [
+          "FAQ_C01_001",
+          "TRX_002",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "TRX_004",
+          "FAQ_C29_057",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "SOP_C05_SIM_REPLACEMENT"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "FAQ_C01_001",
+          "TRX_002",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "TRX_004",
+          "FAQ_C29_057",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "SOP_C05_SIM_REPLACEMENT"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "FAQ_C01_001",
+          "TRX_002",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "TRX_004",
+          "FAQ_C29_057",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "SOP_C05_SIM_REPLACEMENT"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "RW_001",
+      "question": "What rights do I have as a telecom customer?",
+      "gold": [
+        "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+      ],
+      "old": {
+        "docs": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "Q04",
+      "question": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
+      "gold": [
+        "FAQ_C04_007",
+        "KB_C04_bill_disputes"
+      ],
+      "old": {
+        "docs": [
+          "FAQ_C04_007",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "TARIFF_POSTPAID_2026H2",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "KB_C04_bill_disputes"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "FAQ_C04_007",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "TARIFF_POSTPAID_2026H2",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "KB_C04_bill_disputes"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "FAQ_C04_007",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "TARIFF_POSTPAID_2026H2",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "KB_C04_bill_disputes"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "RW_004",
+      "question": "How can I complain to my telecom service provider?",
+      "gold": [
+        "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+      ],
+      "old": {
+        "docs": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "Q08",
+      "question": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+      "gold": [
+        "FAQ_C08_015",
+        "KB_C08_outage_status_check"
+      ],
+      "old": {
+        "docs": [
+          "FAQ_C08_015",
+          "FAQ_C11_022",
+          "FAQ_C12_023",
+          "MAN_ESIM_001",
+          "MAN_DEVICE_VOLTE_001",
+          "MAN_ROUTER_001",
+          "MAN_IOT_PORTAL_001",
+          "INC_C08_INC_2026_0142",
+          "INC_C08_INC_2026_0211"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "FAQ_C08_015",
+          "FAQ_C11_022",
+          "FAQ_C12_023",
+          "MAN_ESIM_001",
+          "MAN_DEVICE_VOLTE_001",
+          "MAN_ROUTER_001",
+          "MAN_IOT_PORTAL_001",
+          "INC_C08_INC_2026_0142",
+          "INC_C08_INC_2026_0211"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "FAQ_C08_015",
+          "FAQ_C11_022",
+          "FAQ_C12_023",
+          "MAN_ESIM_001",
+          "MAN_DEVICE_VOLTE_001",
+          "MAN_ROUTER_001",
+          "MAN_IOT_PORTAL_001",
+          "INC_C08_INC_2026_0142",
+          "INC_C08_INC_2026_0211"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "RW_007",
+      "question": "How can I stop receiving unwanted promotional calls and messages?",
+      "gold": [
+        "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+      ],
+      "old": {
+        "docs": [
+          "FAQ_C26_051",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "FAQ_C26_051",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "FAQ_C26_051",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "Q13",
+      "question": "The OTP for signing into the My NovaTel app isn't arriving. How can I log in?",
+      "gold": [
+        "FAQ_C13_025",
+        "KB_C13_selfcare_login_issues"
+      ],
+      "old": {
+        "docs": [
+          "FAQ_C13_025",
+          "FAQ_C01_001",
+          "SOP_C13_APP_ACCESS_ISSUES",
+          "KB_C13_selfcare_login_issues",
+          "MAN_APP_001",
+          "MAN_ESIM_001",
+          "MAN_IOT_PORTAL_001"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "FAQ_C13_025",
+          "FAQ_C01_001",
+          "SOP_C13_APP_ACCESS_ISSUES",
+          "KB_C13_selfcare_login_issues",
+          "MAN_APP_001",
+          "MAN_ESIM_001",
+          "MAN_IOT_PORTAL_001"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "FAQ_C13_025",
+          "FAQ_C01_001",
+          "SOP_C13_APP_ACCESS_ISSUES",
+          "KB_C13_selfcare_login_issues",
+          "MAN_APP_001",
+          "MAN_ESIM_001",
+          "MAN_IOT_PORTAL_001"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "RW_010",
+      "question": "What level of service quality should I expect from my telecom provider?",
+      "gold": [
+        "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+      ],
+      "old": {
+        "docs": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "Q17",
+      "question": "What documents do I need to provide if NovaTel asks me to complete KYC verification again?",
+      "gold": [
+        "FAQ_C17_033",
+        "FAQ_C17_034",
+        "KB_C17_kyc_reverification"
+      ],
+      "old": {
+        "docs": [
+          "EML_008",
+          "TRX_007",
+          "FAQ_C17_033",
+          "FAQ_C17_034",
+          "Policy_C17_kyc_policy",
+          "FAQ_C01_001",
+          "KB_C17_kyc_reverification",
+          "FAQ_C22_044",
+          "SOP_C17_KYC_VERIFICATION"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "EML_008",
+          "TRX_007",
+          "FAQ_C17_033",
+          "FAQ_C17_034",
+          "Policy_C17_kyc_policy",
+          "FAQ_C01_001",
+          "KB_C17_kyc_reverification",
+          "FAQ_C22_044",
+          "SOP_C17_KYC_VERIFICATION"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "EML_008",
+          "TRX_007",
+          "FAQ_C17_033",
+          "FAQ_C17_034",
+          "Policy_C17_kyc_policy",
+          "FAQ_C01_001",
+          "KB_C17_kyc_reverification",
+          "FAQ_C22_044",
+          "SOP_C17_KYC_VERIFICATION"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "RW_017",
+      "question": "How do I port my mobile number to another telecom company?",
+      "gold": [
+        "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+      ],
+      "old": {
+        "docs": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+          "TRX_004"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+          "TRX_004"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+          "TRX_004"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "Q20",
+      "question": "I was charged twice for the same recharge. How can I get the extra amount refunded?",
+      "gold": [
+        "FAQ_C20_039",
+        "KB_C20_refund_processing",
+        "Policy_C20_refund_policy",
+        "SOP_C20_REFUND_PROCESSING"
+      ],
+      "old": {
+        "docs": [
+          "FAQ_C20_039",
+          "TRX_001",
+          "SOP_C03_RECHARGE_FAILURE",
+          "SOP_C20_REFUND_PROCESSING",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "KB_C20_refund_processing",
+          "Policy_C20_refund_policy",
+          "KB_C03_recharge_failures",
+          "EML_002"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "FAQ_C20_039",
+          "TRX_001",
+          "SOP_C03_RECHARGE_FAILURE",
+          "SOP_C20_REFUND_PROCESSING",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "KB_C20_refund_processing",
+          "Policy_C20_refund_policy",
+          "KB_C03_recharge_failures",
+          "EML_002"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "FAQ_C20_039",
+          "TRX_001",
+          "SOP_C03_RECHARGE_FAILURE",
+          "SOP_C20_REFUND_PROCESSING",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "KB_C20_refund_processing",
+          "Policy_C20_refund_policy",
+          "KB_C03_recharge_failures",
+          "EML_002"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "RW_023",
+      "question": "How did the telecom sector perform from April to June 2025?",
+      "gold": [
+        "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+      ],
+      "old": {
+        "docs": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "Q25",
+      "question": "My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?",
+      "gold": [
+        "FAQ_C25_049",
+        "KB_C25_ftth_fault_diagnosis",
+        "MAN_ROUTER_001"
+      ],
+      "old": {
+        "docs": [
+          "FAQ_C25_049",
+          "TRX_006",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "FAQ_C25_049",
+          "TRX_006",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "FAQ_C25_049",
+          "TRX_006",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    },
+    {
+      "query_id": "Q28",
+      "question": "What is TRAI's role in regulating telecom operators like NovaTel?",
+      "gold": [
+        "FAQ_C28_055",
+        "Policy_C28_regulatory_compliance"
+      ],
+      "old": {
+        "docs": [
+          "FAQ_C28_055",
+          "Policy_C28_regulatory_compliance",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "old+filter": {
+        "docs": [
+          "FAQ_C28_055",
+          "Policy_C28_regulatory_compliance",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "n_scifact_in_top10": 0
+      },
+      "clean": {
+        "docs": [
+          "FAQ_C28_055",
+          "Policy_C28_regulatory_compliance",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "n_scifact_in_top10": 0
+      }
+    }
+  ]
+}

@@ -47,6 +47,7 @@ class QAConfig:
     fusion: str = "rrf"                        # rrf (default) | rrf_normalised
     rrf_k: int = 60
     retry_other_source_on_weak: bool = True    # safety net: single-route weak -> try the other source
+    exclude_scifact: bool = True               # drop SciFact chunks (external benchmark built into the index) at serving time
 
     # --- optional components (ablation switches; none are hard-wired) -----
     use_ontology: bool = False

@@ -30,9 +30,13 @@ EXTENDED_METADATA_KEYS = (
     "entity_id", "ontology_concepts", "relationships", "raw_scores", "provenance", "origin_subquery",
 )
 
-SYNTHETIC_DATASET = "novatel_synthetic"
-PUBLIC_DATASET = "trai_public"
-CORPUS_LABEL = {SYNTHETIC_DATASET: "NovaTel Synthetic", PUBLIC_DATASET: "TRAI public"}
+from integration.corpus_labels import (CORPUS_LABEL_OF_DATASET, DATASET_NOVATEL, DATASET_SCIFACT,  # noqa: E402
+                                       DATASET_TRAI)
+
+SYNTHETIC_DATASET = DATASET_NOVATEL      # "novatel_synthetic": NovaTel's own synthetic knowledge base (258 chunks)
+PUBLIC_DATASET = DATASET_TRAI            # "trai_public": TRAI public PDFs (1,162 chunks)
+SCIFACT_DATASET = DATASET_SCIFACT        # "scifact_external": BEIR SciFact, an external benchmark (125 chunks); excluded by default
+CORPUS_LABEL = CORPUS_LABEL_OF_DATASET   # {"novatel_synthetic": "NovaTel Synthetic", "trai_public": "TRAI", "scifact_external": "SciFact"}
 
 
 def jsonable(value):
@@ -112,6 +116,7 @@ def unstructured_evidence(*, document_id: str, chunk_id: str, dataset: str, cate
         "origin_subquery": origin,
         "ontology_concepts": ontology_concepts,
         "relationships": relationships,
+        "corpus_label": CORPUS_LABEL.get(dataset, dataset),
         "title": title,
         "document_type": document_type,
         "source_authority": source_authority,

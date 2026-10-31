@@ -11,8 +11,10 @@ StructuredBackend
     Exact structured retrieval is NEVER replaced by vector search.
 
 UnstructuredBackend
-    The combined 1,545-chunk FAISS index (383 NovaTel synthetic + 1,162 TRAI
-    public chunks, from E9), MiniLM query encoder, CrossEncoder rerank. Optional,
+    The combined 1,545-chunk FAISS index from E9 (258 NovaTel synthetic + 125 SciFact
+    + 1,162 TRAI public chunks; SciFact is an external benchmark that was built into
+    the index and is filtered out at serving time unless cfg.exclude_scifact is
+    False), MiniLM query encoder, CrossEncoder rerank. Optional,
     switchable components (all off by default so ablations stay clean):
       use_doc_graph : Person B's document knowledge graph. Seed documents ->
                       graph_expand() -> neighbour documents added to the candidate
@@ -39,6 +41,7 @@ import sys
 import time
 from pathlib import Path
 
+from integration.corpus_labels import count_scifact, dataset_label, is_scifact
 from integration.qa.config import QAConfig
 from integration.qa.evidence import (PUBLIC_DATASET, SYNTHETIC_DATASET, structured_evidence,
                                      unstructured_evidence)
@@ -126,6 +129,7 @@ class UnstructuredBackend:
         self.reranker = CrossEncoder(RERANKER_MODEL)
         self._text_cache: dict[str, str] = {}
 
+        self.n_scifact_chunks = count_scifact(self.metadata)
         self.pos_by_chunk = {m["chunk_id"]: i for i, m in enumerate(self.metadata)}
         self.chunks_by_doc: dict[str, list[int]] = {}
         for i, m in enumerate(self.metadata):
@@ -146,7 +150,7 @@ class UnstructuredBackend:
 
     @staticmethod
     def _dataset(record: dict) -> str:
-        return SYNTHETIC_DATASET if record.get("source_corpus") == "synthetic" else PUBLIC_DATASET
+        return dataset_label(record)
 
     # -- optional components ----------------------------------------------
     def _load_graph(self):
@@ -188,12 +192,16 @@ class UnstructuredBackend:
         start = time.perf_counter()
         qvec = self.encoder.encode([sub_query], convert_to_numpy=True, normalize_embeddings=True).astype("float32")
         depth = max(cfg.faiss_depth, ONTOLOGY_DEPTH if cfg.use_ontology else 0)
-        scores, indices = self.index.search(qvec, min(depth, self.index.ntotal))
+        fetch = depth + (self.n_scifact_chunks if cfg.exclude_scifact else 0)   # over-fetch so `depth` real chunks remain
+        scores, indices = self.index.search(qvec, min(fetch, self.index.ntotal))
 
-        faiss_rank = {}   # chunk position -> (rank, score)
-        for rank, (sc, pos) in enumerate(zip(scores[0], indices[0]), start=1):
-            if pos >= 0:
-                faiss_rank[int(pos)] = (rank, float(sc))
+        faiss_rank = {}   # chunk position -> (rank, score); ranks count only the chunks that are kept
+        for sc, pos in zip(scores[0], indices[0]):
+            if pos < 0 or (cfg.exclude_scifact and is_scifact(self.metadata[int(pos)])):
+                continue
+            if len(faiss_rank) >= depth:
+                break
+            faiss_rank[int(pos)] = (len(faiss_rank) + 1, float(sc))
         pool = [pos for pos, (r, _) in sorted(faiss_rank.items(), key=lambda kv: kv[1][0]) if r <= cfg.faiss_depth]
 
         extra_lists: dict[str, list[int]] = {}
@@ -224,6 +232,8 @@ class UnstructuredBackend:
                     if doc not in self.chunks_by_doc:
                         continue
                     pos = sorted(self.chunks_by_doc[doc])[0]
+                    if cfg.exclude_scifact and is_scifact(self.metadata[pos]):
+                        continue
                     graph_positions.append(pos)
                     relationships.setdefault(pos, []).extend(row["shared_concepts"])
                     if pos not in pool and len(pool) < cfg.faiss_depth + 10:

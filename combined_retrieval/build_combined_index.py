@@ -10,6 +10,17 @@ import numpy as np
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
+import sys
+
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+from integration.corpus_labels import corpus_label  # noqa: E402  (NovaTel Synthetic | TRAI | SciFact)
+
+# NOTE: the "synthetic" source_corpus below is the origin index (data/vectorstore), which holds 258 NovaTel chunks
+# AND 125 SciFact chunks (an external benchmark). `source_corpus` is kept as it was (existing code and index files rely on
+# it); the new `corpus_label` field says which corpus a chunk really belongs to. The index files are NOT rebuilt by the
+# label fix: serving code re-labels at load time (integration/corpus_labels.py).
+
 SYNTHETIC_INDEX = PROJECT_ROOT / "data" / "vectorstore" / "faiss.index"
 SYNTHETIC_METADATA = PROJECT_ROOT / "data" / "vectorstore" / "chunk_metadata.json"
 
@@ -160,6 +171,7 @@ def main():
         record = dict(record)
 
         record["source_corpus"] = "synthetic"
+        record["corpus_label"] = corpus_label(record)
 
         # Make sure combined metadata has domain_tags
         if "domain_tags" not in record:
@@ -172,6 +184,7 @@ def main():
         record = dict(record)
 
         record["source_corpus"] = "public"
+        record["corpus_label"] = corpus_label(record)
 
         if "domain_tags" not in record:
             record["domain_tags"] = record.get("tags", [])
@@ -250,14 +263,18 @@ def main():
         if x.get("source_corpus") == "public"
     )
 
+    novatel_count = sum(1 for x in combined_metadata if x.get("corpus_label") == "NovaTel Synthetic")
+    scifact_count = sum(1 for x in combined_metadata if x.get("corpus_label") == "SciFact")
+
     print("\nSource verification:")
-    print(f"  synthetic = {synthetic_count}")
+    print(f"  synthetic (source_corpus) = {synthetic_count}  = {novatel_count} NovaTel + {scifact_count} SciFact")
     print(f"  public    = {public_count}")
     print(f"  total     = {synthetic_count + public_count}")
 
     if (
         combined_index.ntotal == 1545
         and synthetic_count == 383
+        and novatel_count + scifact_count == synthetic_count
         and public_count == 1162
     ):
         print("\nSTATUS: PASS")

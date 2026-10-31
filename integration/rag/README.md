@@ -9,8 +9,9 @@ answer-quality metrics.
 This connects only:
 - `structured/retriever.py::StructuredRetriever` (SQL, 28 tables)
 - the existing combined FAISS index from E9
-  (`data/experiments/combined_retrieval/vectorstore/`, 383 synthetic +
-  1162 public TRAI-PDF chunks = 1545 total)
+  (`data/experiments/combined_retrieval/vectorstore/`, 1545 chunks = 258 NovaTel
+  synthetic + 125 SciFact [external benchmark, tagged "synthetic" in the index,
+  filtered out at serving time by default] + 1162 public TRAI-PDF chunks)
 
 It does **not** wire in the structured knowledge graph, shared ontology, or
 document graph that exist upstream (on `origin/main` /

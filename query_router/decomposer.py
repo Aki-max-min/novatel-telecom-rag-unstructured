@@ -80,6 +80,28 @@ Q: How many support tickets are open, and what is the standard escalation timeli
 """
 
 
+def coerce_query(value) -> tuple[str | None, str | None]:
+    """Make an LLM JSON field safe to hand to the rule-based parser, which only accepts a string.
+
+    Returns (query or None, note or None).
+      str                       -> stripped string (None if empty)
+      list / tuple of strings   -> the FIRST non-empty string (the note records that others were dropped)
+      anything else (None, dict, number, list without strings) -> None: rejected, never passed to the parser
+    """
+    if isinstance(value, str):
+        v = value.strip()
+        return (v or None), None
+    if isinstance(value, (list, tuple)):
+        strings = [x.strip() for x in value if isinstance(x, str) and x.strip()]
+        if not strings:
+            return None, f"LLM returned a list with no usable string: {str(value)[:80]!r}"
+        note = f"LLM returned a list for a sub-query; used the first of {len(strings)} entries" if len(strings) > 1 else             "LLM returned a one-element list for a sub-query; unwrapped it"
+        return strings[0], note
+    if value is None:
+        return None, None
+    return None, f"LLM returned a non-string sub-query ({type(value).__name__}); rejected"
+
+
 class HybridDecomposer:
     def __init__(self, model: str = "qwen2.5:7b-instruct"):
         self.model = model
@@ -92,8 +114,13 @@ class HybridDecomposer:
         from query_parser import parse_query
         return parse_query(sub_query)
 
-    def _executable(self, sub_query: str, expect_table: str | None = None) -> tuple[bool, dict]:
-        parsed = self._parse(sub_query)
+    def _executable(self, sub_query, expect_table=None) -> tuple[bool, dict]:
+        """Never raises on a malformed LLM value: a non-string sub-query is coerced (single/first list entry) or rejected."""
+        query, _note = coerce_query(sub_query)
+        if query is None:
+            return False, {"table": None, "method": None, "error": "sub-query is not a usable string"}
+        expect_table, _ = coerce_query(expect_table)
+        parsed = self._parse(query)
         ok = parsed.get("table") is not None and parsed.get("method") not in (None, "exact_filter_unresolved")
         if ok and expect_table and parsed["table"] != expect_table:
             return False, parsed
@@ -130,11 +157,14 @@ class HybridDecomposer:
         """Parser-friendly structured form of a query, or {"structured": None}. Tries the LLM first, then templates."""
         notes = []
         llm = self._call_llm(query, notes)
-        if llm and llm.get("structured"):
-            ok, parsed = self._executable(llm["structured"], llm.get("structured_table"))
+        llm_sq, coerce_note = coerce_query(llm.get("structured")) if llm else (None, None)
+        if coerce_note:
+            notes.append(coerce_note)
+        if llm_sq:
+            ok, parsed = self._executable(llm_sq, llm.get("structured_table"))
             if ok:
-                return {"structured": llm["structured"], "parsed": parsed, "method": "llm", "notes": notes}
-            notes.append(f"LLM structured sub-query not executable: {llm['structured']!r} -> parsed table={parsed.get('table')!r}")
+                return {"structured": llm_sq, "parsed": parsed, "method": "llm", "notes": notes}
+            notes.append(f"LLM structured sub-query not executable: {llm_sq!r} -> parsed table={parsed.get('table')!r}")
         for sq, table in self.template_candidates(query):
             ok, parsed = self._executable(sq, table)
             if ok:
@@ -163,12 +193,15 @@ class HybridDecomposer:
         llm = self._call_llm(query, notes)
 
         structured_sq, parsed, method = None, None, "none"
-        if llm and llm.get("structured"):
-            ok, parsed = self._executable(llm["structured"], llm.get("structured_table"))
+        llm_sq, coerce_note = coerce_query(llm.get("structured")) if llm else (None, None)
+        if coerce_note:
+            notes.append(coerce_note)
+        if llm_sq:
+            ok, parsed = self._executable(llm_sq, llm.get("structured_table"))
             if ok:
-                structured_sq, method = llm["structured"], "llm"
+                structured_sq, method = llm_sq, "llm"
             else:
-                notes.append(f"LLM structured sub-query not executable by the parser: {llm['structured']!r}")
+                notes.append(f"LLM structured sub-query not executable by the parser: {llm_sq!r}")
         if structured_sq is None:
             for sq, table in self.template_candidates(query):
                 ok, parsed = self._executable(sq, table)

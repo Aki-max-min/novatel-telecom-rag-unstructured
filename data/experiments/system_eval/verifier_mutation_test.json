@@ -1,0 +1,73 @@
+{
+  "experiment": "verifier-mutation-test",
+  "timestamp_utc": "2026-10-26T21:10:47.742183+00:00",
+  "seed": 7,
+  "n_sentences": 40,
+  "thresholds": {
+    "nli_supported_threshold": 0.5,
+    "nli_weak_threshold": 0.15,
+    "lexical_supported_threshold": 0.6,
+    "lexical_weak_threshold": 0.35
+  },
+  "limits": [
+    "faithful sentences are extractive copies (easy case)",
+    "mutations are synthetic, not model errors",
+    "negation detection relies on NLI contradiction; the lexical verifier cannot see it"
+  ],
+  "results": {
+    "lexical": {
+      "faithful": {
+        "n": 40,
+        "strict_flag_rate": 0.0,
+        "lenient_flag_rate": 0.0
+      },
+      "number_change": {
+        "n": 16,
+        "strict_flag_rate": 0.812,
+        "lenient_flag_rate": 0.812
+      },
+      "negation": {
+        "n": 18,
+        "strict_flag_rate": 0.0,
+        "lenient_flag_rate": 0.0
+      },
+      "wrong_source": {
+        "n": 40,
+        "strict_flag_rate": 0.925,
+        "lenient_flag_rate": 1.0
+      },
+      "fabricated_tail": {
+        "n": 40,
+        "strict_flag_rate": 0.25,
+        "lenient_flag_rate": 0.425
+      }
+    },
+    "nli": {
+      "faithful": {
+        "n": 40,
+        "strict_flag_rate": 0.0,
+        "lenient_flag_rate": 0.025
+      },
+      "number_change": {
+        "n": 16,
+        "strict_flag_rate": 0.812,
+        "lenient_flag_rate": 0.938
+      },
+      "negation": {
+        "n": 18,
+        "strict_flag_rate": 0.0,
+        "lenient_flag_rate": 0.944
+      },
+      "wrong_source": {
+        "n": 40,
+        "strict_flag_rate": 0.85,
+        "lenient_flag_rate": 0.95
+      },
+      "fabricated_tail": {
+        "n": 40,
+        "strict_flag_rate": 0.425,
+        "lenient_flag_rate": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "train": {
+    "n": 230,
+    "classes": {
+      "out_of_scope": 56,
+      "hybrid": 56,
+      "unstructured": 58,
+      "structured": 60
+    },
+    "synthetic_share": 0.826
+  },
+  "val": {
+    "n": 48,
+    "classes": {
+      "structured": 12,
+      "unstructured": 12,
+      "hybrid": 12,
+      "out_of_scope": 12
+    },
+    "synthetic_share": 0.0
+  },
+  "test": {
+    "n": 72,
+    "classes": {
+      "structured": 18,
+      "unstructured": 18,
+      "hybrid": 18,
+      "out_of_scope": 18
+    },
+    "synthetic_share": 0.0,
+    "ambiguous": 2
+  },
+  "database_claims_verified": 23
+}

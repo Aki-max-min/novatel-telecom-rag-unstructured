@@ -1,0 +1,435 @@
+{
+  "retrieval": {
+    "threshold": 0.052289,
+    "method": "highest abstain recall subject to false-abstention <= 0.1 on document-answerable controls; tie -> lower threshold",
+    "split": "abstention_val",
+    "n_rows": 58,
+    "n_answerable_docs": 30,
+    "n_abstain": 21,
+    "at_threshold": {
+      "false_abstention_rate": 0.0667,
+      "abstain_recall": 0.8571
+    },
+    "abstain_recall_by_category_gate_only": {
+      "creative": 1.0,
+      "near_domain_trap": 0.5,
+      "nonexistent_entity": 1.0,
+      "other_company": 1.0,
+      "prediction": 1.0,
+      "prompt_injection": 1.0,
+      "sports": 1.0,
+      "trivia": 1.0,
+      "weather": 1.0
+    },
+    "sigmoid_median": {
+      "answerable": 0.9658,
+      "abstain": 0.0018
+    },
+    "curve": [
+      {
+        "threshold": 0.0,
+        "false_abstention_rate": 0.0,
+        "abstain_recall": 0.0
+      },
+      {
+        "threshold": 1.4e-05,
+        "false_abstention_rate": 0.0,
+        "abstain_recall": 0.0
+      },
+      {
+        "threshold": 1.6e-05,
+        "false_abstention_rate": 0.0,
+        "abstain_recall": 0.0476
+      },
+      {
+        "threshold": 1.7e-05,
+        "false_abstention_rate": 0.0,
+        "abstain_recall": 0.0952
+      },
+      {
+        "threshold": 3e-05,
+        "false_abstention_rate": 0.0,
+        "abstain_recall": 0.1429
+      },
+      {
+        "threshold": 3.4e-05,
+        "false_abstention_rate": 0.0,
+        "abstain_recall": 0.1905
+      },
+      {
+        "threshold": 8.6e-05,
+        "false_abstention_rate": 0.0,
+        "abstain_recall": 0.2381
+      },
+      {
+        "threshold": 0.000205,
+        "false_abstention_rate": 0.0,
+        "abstain_recall": 0.2857
+      },
+      {
+        "threshold": 0.000208,
+        "false_abstention_rate": 0.0,
+        "abstain_recall": 0.3333
+      },
+      {
+        "threshold": 0.000228,
+        "false_abstention_rate": 0.0,
+        "abstain_recall": 0.381
+      },
+      {
+        "threshold": 0.000338,
+        "false_abstention_rate": 0.0,
+        "abstain_recall": 0.4286
+      },
+      {
+        "threshold": 0.000511,
+        "false_abstention_rate": 0.0,
+        "abstain_recall": 0.4762
+      },
+      {
+        "threshold": 0.001773,
+        "false_abstention_rate": 0.0333,
+        "abstain_recall": 0.4762
+      },
+      {
+        "threshold": 0.002705,
+        "false_abstention_rate": 0.0333,
+        "abstain_recall": 0.5238
+      },
+      {
+        "threshold": 0.003468,
+        "false_abstention_rate": 0.0333,
+        "abstain_recall": 0.5238
+      },
+      {
+        "threshold": 0.004731,
+        "false_abstention_rate": 0.0333,
+        "abstain_recall": 0.5714
+      },
+      {
+        "threshold": 0.005841,
+        "false_abstention_rate": 0.0333,
+        "abstain_recall": 0.619
+      },
+      {
+        "threshold": 0.006164,
+        "false_abstention_rate": 0.0333,
+        "abstain_recall": 0.6667
+      },
+      {
+        "threshold": 0.00902,
+        "false_abstention_rate": 0.0333,
+        "abstain_recall": 0.7143
+      },
+      {
+        "threshold": 0.016856,
+        "false_abstention_rate": 0.0333,
+        "abstain_recall": 0.7619
+      },
+      {
+        "threshold": 0.023262,
+        "false_abstention_rate": 0.0333,
+        "abstain_recall": 0.8095
+      },
+      {
+        "threshold": 0.029824,
+        "false_abstention_rate": 0.0333,
+        "abstain_recall": 0.8095
+      },
+      {
+        "threshold": 0.029826,
+        "false_abstention_rate": 0.0667,
+        "abstain_recall": 0.8095
+      },
+      {
+        "threshold": 0.052289,
+        "false_abstention_rate": 0.0667,
+        "abstain_recall": 0.8571
+      },
+      {
+        "threshold": 0.059812,
+        "false_abstention_rate": 0.1,
+        "abstain_recall": 0.8571
+      },
+      {
+        "threshold": 0.078061,
+        "false_abstention_rate": 0.1333,
+        "abstain_recall": 0.8571
+      },
+      {
+        "threshold": 0.114487,
+        "false_abstention_rate": 0.1333,
+        "abstain_recall": 0.9048
+      },
+      {
+        "threshold": 0.150816,
+        "false_abstention_rate": 0.1333,
+        "abstain_recall": 0.9048
+      },
+      {
+        "threshold": 0.169453,
+        "false_abstention_rate": 0.1667,
+        "abstain_recall": 0.9048
+      },
+      {
+        "threshold": 0.24259,
+        "false_abstention_rate": 0.1667,
+        "abstain_recall": 0.9048
+      },
+      {
+        "threshold": 0.252183,
+        "false_abstention_rate": 0.2,
+        "abstain_recall": 0.9048
+      },
+      {
+        "threshold": 0.272298,
+        "false_abstention_rate": 0.2333,
+        "abstain_recall": 0.9048
+      },
+      {
+        "threshold": 0.296486,
+        "false_abstention_rate": 0.2667,
+        "abstain_recall": 0.9048
+      },
+      {
+        "threshold": 0.44142,
+        "false_abstention_rate": 0.2667,
+        "abstain_recall": 0.9524
+      },
+      {
+        "threshold": 0.641679,
+        "false_abstention_rate": 0.3,
+        "abstain_recall": 0.9524
+      },
+      {
+        "threshold": 0.693208,
+        "false_abstention_rate": 0.3333,
+        "abstain_recall": 0.9524
+      },
+      {
+        "threshold": 0.771682,
+        "false_abstention_rate": 0.3667,
+        "abstain_recall": 0.9524
+      },
+      {
+        "threshold": 0.804104,
+        "false_abstention_rate": 0.3667,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.825237,
+        "false_abstention_rate": 0.4,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.836958,
+        "false_abstention_rate": 0.4333,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.935958,
+        "false_abstention_rate": 0.4667,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.960523,
+        "false_abstention_rate": 0.4667,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.965711,
+        "false_abstention_rate": 0.5,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.965848,
+        "false_abstention_rate": 0.5,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.975465,
+        "false_abstention_rate": 0.5333,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.979609,
+        "false_abstention_rate": 0.5667,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.981447,
+        "false_abstention_rate": 0.6,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.98917,
+        "false_abstention_rate": 0.6333,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.996353,
+        "false_abstention_rate": 0.6667,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.996879,
+        "false_abstention_rate": 0.7,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.997944,
+        "false_abstention_rate": 0.7333,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.998044,
+        "false_abstention_rate": 0.7667,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.998894,
+        "false_abstention_rate": 0.8,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.998927,
+        "false_abstention_rate": 0.8333,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.999513,
+        "false_abstention_rate": 0.8667,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.999583,
+        "false_abstention_rate": 0.9,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.99968,
+        "false_abstention_rate": 0.9333,
+        "abstain_recall": 1.0
+      },
+      {
+        "threshold": 0.999699,
+        "false_abstention_rate": 0.9667,
+        "abstain_recall": 1.0
+      }
+    ],
+    "timestamp_utc": "2026-10-26T21:07:19.242425+00:00",
+    "retrieval": "combined 1,545-chunk FAISS + all-MiniLM-L6-v2 + ms-marco-MiniLM-L-6-v2 CrossEncoder"
+  },
+  "router": {
+    "router": "laya_finetuned",
+    "status": "calibrated_on_val",
+    "n_val": 48,
+    "threshold": 0.5,
+    "val_accuracy_at_threshold": 0.8542,
+    "val_accuracy_no_threshold": 0.8542,
+    "curve": [
+      {
+        "threshold": 0.5,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.52,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.54,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.56,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.58,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.6,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.62,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.64,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.66,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.68,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.7,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.72,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.74,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.76,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.78,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.8,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.82,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.84,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.86,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.88,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.9,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.92,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.94,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.96,
+        "val_accuracy": 0.8542
+      },
+      {
+        "threshold": 0.98,
+        "val_accuracy": 0.8542
+      }
+    ],
+    "split": "router_val",
+    "timestamp_utc": "2026-10-27T05:19:54.627948+00:00"
+  }
+}

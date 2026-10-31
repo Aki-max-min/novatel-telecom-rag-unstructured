@@ -158,6 +158,16 @@ def render_hybrid(result: dict) -> None:
     st.markdown(f'<div class="box">{rows}</div>', unsafe_allow_html=True)
 
 
+def render_structured_status(result: dict) -> None:
+    status = result.get("structured_status") or {}
+    if status.get("executed") is False:
+        st.markdown('<div class="box half"><span class="pixel" style="color:#ffd600">DATABASE LOOKUP NOT RUN</span><br>'
+                    f'{esc(status.get("reason"))}</div>', unsafe_allow_html=True)
+    elif status.get("route") == "msisdn_mapping":
+        st.markdown('<div class="kv">&gt; looked up through the phone number of the customer (customer_master), because '
+                    'this table is keyed by msisdn</div>', unsafe_allow_html=True)
+
+
 def render_abstention(result: dict) -> None:
     ab = result.get("abstention") or {}
     st.markdown(
@@ -343,6 +353,7 @@ def main() -> None:
         st.warning(result["error"])
 
     render_route(result)
+    render_structured_status(result)
     render_hybrid(result)
     if result["abstained"]:
         render_abstention(result)

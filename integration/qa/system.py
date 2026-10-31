@@ -142,7 +142,7 @@ def answer_query(query: str, config: QAConfig | None = None) -> dict:
         "query": query, "answer_text": "", "sentences": [], "evidence": [], "route": {}, "router_name": None,
         "abstained": False, "abstention": {"layer": None, "reason": None}, "hybrid_diagnostics": None,
         "fallback": {"occurred": False}, "timings": timings, "config": cfg.as_dict(), "error": None,
-        "answer_raw": None, "components": [],
+        "answer_raw": None, "components": [], "structured_status": None,
     }
 
     # ---- 1. route --------------------------------------------------------
@@ -203,6 +203,19 @@ def answer_query(query: str, config: QAConfig | None = None) -> dict:
         return result
     timings["retrieval_ms"] = _ms(t)
 
+    # ---- 3b. structured half that could not be EXECUTED (e.g. a per-customer lookup on a table that has no customer or
+    # msisdn column). This is not "no evidence": the lookup never ran, and the answer must say so.
+    s_unexec = bool(s_diag) and s_diag.get("executed") is False
+    s_reason = (s_diag or {}).get("unexecutable_reason")
+    result["structured_status"] = None if s_diag is None else {
+        "executed": not s_unexec, "reason": s_reason, "route": s_diag.get("lookup_route"), "msisdn_lookup": s_diag.get("msisdn_lookup")}
+    if s_unexec and final_route == "structured":
+        result.update(answer_text=f"The database lookup for this question could not be executed: {s_reason}.",
+                      abstained=False)
+        result["route"]["final_route"] = final_route
+        timings["total_ms"] = _ms(t_start)
+        return result
+
     # ---- 4. layer-2 gate + one-shot fallback to the other source ----------
     gate = retrieval_gate(final_route, structured_ev, unstructured_ev, u_diag, cfg)
     if gate["abstain"] and cfg.retry_other_source_on_weak and final_route in ("structured", "unstructured"):
@@ -236,10 +249,13 @@ def answer_query(query: str, config: QAConfig | None = None) -> dict:
     result["retrieval"] = {"structured": s_diag, "unstructured": u_diag, "gate": gate}
 
     if gate["abstain"] or not (ctx_structured or ctx_unstructured):
-        result.update(abstained=True, answer_text=abstention_result_text(cfg),
-                      abstention={"layer": 2, "reason": gate["reason"] or "no usable evidence"})
+        reason = gate["reason"] or "no usable evidence"
+        if s_unexec:
+            reason += f" (the database part could not be executed: {s_reason})"
+        result.update(abstained=True, answer_text=abstention_result_text(cfg), abstention={"layer": 2, "reason": reason})
         if final_route == "hybrid" or decomposition:
-            result["hybrid_diagnostics"] = _hybrid_diag(decomposition, sub_queries, gate, [], None)
+            result["hybrid_diagnostics"] = _hybrid_diag(decomposition, sub_queries, gate, [], None,
+                                                        structured_unexecutable=s_reason if s_unexec else None)
         timings["total_ms"] = _ms(t_start)
         return result
 
@@ -265,6 +281,8 @@ def answer_query(query: str, config: QAConfig | None = None) -> dict:
     # ---- 7. parse + verify citations ----------------------------------------
     t = time.perf_counter()
     parsed = cit.parse_answer(raw, set(by_id))
+    if s_unexec and final_route == "hybrid":
+        parsed["unanswered"].append(f"the database part of the question could not be executed ({s_reason})")
     sentences = cit.verify_answer(parsed, by_id, cfg)
     timings["verification_ms"] = _ms(t)
 
@@ -313,14 +331,15 @@ def answer_query(query: str, config: QAConfig | None = None) -> dict:
 
     if final_route == "hybrid" or decomposition:
         cited_sources = [by_id[c]["source"] for s in sentences for c in s["citations"] if c in by_id]
-        result["hybrid_diagnostics"] = _hybrid_diag(decomposition, sub_queries, gate, cited_sources, parsed)
+        result["hybrid_diagnostics"] = _hybrid_diag(decomposition, sub_queries, gate, cited_sources, parsed,
+                                                    structured_unexecutable=s_reason if s_unexec else None)
 
     timings["total_ms"] = _ms(t_start)
     return result
 
 
 def _hybrid_diag(decomposition: dict | None, sub_queries: dict, gate: dict, cited_sources: list,
-                 parsed: dict | None) -> dict:
+                 parsed: dict | None, structured_unexecutable: str | None = None) -> dict:
     unanswered = (parsed or {}).get("unanswered") or []
     return {
         "structured_sub_query": sub_queries.get("structured"),
@@ -332,5 +351,7 @@ def _hybrid_diag(decomposition: dict | None, sub_queries: dict, gate: dict, cite
         "decomposer_notes": (decomposition or {}).get("notes"),
         "sources_cited_in_answer": sorted(set(cited_sources)),
         "unanswered_part": unanswered or None,
+        "structured_half_executed": structured_unexecutable is None,
+        "structured_unexecutable_reason": structured_unexecutable,
         "half_answered": bool(unanswered) or (gate["structured_usable"] != gate["unstructured_usable"]),
     }

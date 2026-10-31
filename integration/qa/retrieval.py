@@ -42,6 +42,7 @@ import time
 from pathlib import Path
 
 from integration.corpus_labels import count_scifact, dataset_label, is_scifact
+from integration.structured_guard import guarded_structured_search
 from integration.qa.config import QAConfig
 from integration.qa.evidence import (PUBLIC_DATASET, SYNTHETIC_DATASET, structured_evidence,
                                      unstructured_evidence)
@@ -89,13 +90,16 @@ class StructuredBackend:
         retriever = StructuredRetriever()
         profile_fallback = None
         try:
-            res = retriever.search(sub_query, top_k=cfg.top_k_structured)
+            guarded = guarded_structured_search(retriever, sub_query, cfg.top_k_structured)
+            res = {"results": guarded.results, "parsed_query": guarded.parsed, "note": guarded.status.get("note")}
+            lookup_status = guarded.status
             # Person B's parser sends every KYC phrasing to kyc_records, which holds only submitted-document rows;
             # the customer's KYC *status* lives in customer_master. If a customer-scoped lookup comes back empty,
             # retry ONCE with the profile lookup (thin adapter behaviour; structured/ is untouched) and say so.
             cust = CUSTOMER_ID_RE.search(sub_query)
             first_table = (res.get("parsed_query") or {}).get("table")
-            if not res.get("results") and cust and first_table not in (None, "customer_master"):
+            if (not res.get("results") and cust and first_table not in (None, "customer_master")
+                    and lookup_status["route"] == "direct"):
                 profile_query = f"What is the account status of customer {cust.group(1)}?"
                 retry = retriever.search(profile_query, top_k=cfg.top_k_structured)
                 if retry.get("results"):
@@ -109,6 +113,8 @@ class StructuredBackend:
         evidence = [structured_evidence(r, parsed=parsed, sub_query=sub_query, origin=origin, primary_key=pk)
                     for r in res.get("results", [])]
         diag = {"sub_query": sub_query, "parsed_query": parsed, "n_results": len(evidence),
+                "executed": lookup_status["executed"], "unexecutable_reason": lookup_status["reason"],
+                "lookup_route": lookup_status["route"], "msisdn_lookup": lookup_status["msisdn_lookup"],
                 "resolved": bool(table) and parsed.get("method") not in (None, "exact_filter_unresolved"),
                 "note": res.get("note"), "profile_fallback": profile_fallback, "latency_ms": round((time.perf_counter() - start) * 1000, 1)}
         return evidence, diag

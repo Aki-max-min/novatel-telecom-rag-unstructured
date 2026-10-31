@@ -20,6 +20,7 @@ from integration.rag.fuse import reciprocal_rank_fusion
 from integration.rag.generate import generate_answer
 from integration.rag.llm_client import OllamaClient
 from integration.rag.rag_config import RagConfig
+from integration.structured_guard import guarded_structured_search
 from integration.unstructured_adapter import to_common_result
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -218,13 +219,23 @@ class UnstructuredSearcher:
 
 
 class StructuredSearchAdapter:
-    """Pass-through -- StructuredRetriever already emits the Common Schema."""
+    """Pass-through -- StructuredRetriever already emits the Common Schema.
+
+    The only addition is integration/structured_guard.py: a customer-scoped lookup on a table with no `customer_id` column
+    (cdr, recharge_transactions, sim_inventory are keyed by msisdn) used to raise sqlite3.OperationalError and end the
+    question. Now such a lookup is run through the customer's msisdn (customer_master), or reported as not executable.
+    `last_status` holds the outcome of the latest call: {"executed", "route", "reason", ...}. For every query that worked
+    before, the results are exactly the retriever's own.
+    """
 
     def __init__(self, db_path: str | None = None):
         self.retriever = StructuredRetriever(db_path=db_path)
+        self.last_status: dict = {"executed": True, "route": "direct", "reason": None}
 
     def search(self, query: str, top_k: int = 5) -> list[dict]:
-        return self.retriever.search(query, top_k=top_k)["results"]
+        guarded = guarded_structured_search(self.retriever, query, top_k)
+        self.last_status = guarded.status
+        return guarded.results
 
     def close(self):
         self.retriever.close()
@@ -266,6 +277,7 @@ class RagPipeline:
             "context_text": context["context_text"],
             "answer": generation["answer"],
             "rag_config": self.config.as_dict(),
+            "structured_status": self.structured.last_status,
         }
 
     def close(self):

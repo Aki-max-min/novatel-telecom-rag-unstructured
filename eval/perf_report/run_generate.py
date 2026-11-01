@@ -43,7 +43,13 @@ def ensure_manifest() -> dict:
         m = json.loads(path.read_text(encoding="utf-8"))
         head = git_info()["commit"]
         if m["git"]["commit"] != head:
-            raise SystemExit(f"HEAD moved since the manifest was written ({m['git']['commit'][:8]} -> {head[:8]}); refusing to continue")
+            # HEAD may move only through commits that touch nothing but this measurement's own files (harness, results); any change to the
+            # pipeline, prompts, configs, indexes or data would make earlier and later records incomparable.
+            changed = __import__("subprocess").run(["git", "diff", "--name-only", m["git"]["commit"], head], capture_output=True, text=True, cwd=h.ROOT).stdout.split()
+            foreign = [f for f in changed if not (f.startswith("eval/perf_report/") or f.startswith("results/perf_report/"))]
+            if foreign:
+                raise SystemExit(f"HEAD moved since the manifest was written ({m['git']['commit'][:8]} -> {head[:8]}) and files outside the "
+                                 f"measurement changed: {foreign[:5]}; refusing to continue")
         return m
     g = git_info()
     if g["dirty"]:
@@ -90,8 +96,9 @@ def preflight(rig: h.Rig) -> dict:
 def generate(rig: h.Rig, runs: int) -> None:
     questions = h.load_questions()
     done = {(r["arm"], r["id"], r["run"]) for r in h.read_jsonl(h.RAW)}
-    plan = [(arm, q, run) for arm in h.ARMS for q in questions for run in range(1, runs + 1)]
-    plan += [(h.REPRO_ARM, q, run) for q in questions if q["is_core"] for run in range(1, runs + 1)]
+    # order: arm -> run -> question, so identical prompts are never back-to-back (Ollama's prompt cache would flatter latency)
+    plan = [(arm, q, run) for arm in h.ARMS for run in range(1, runs + 1) for q in questions]
+    plan += [(h.REPRO_ARM, q, run) for run in range(1, runs + 1) for q in questions if q["is_core"]]
     todo = [p for p in plan if (p[0], p[1]["id"], p[2]) not in done]
     log(f"plan: {len(plan)} generations, {len(plan) - len(todo)} already done, {len(todo)} to run")
     for i, (arm, q, run) in enumerate(todo, 1):

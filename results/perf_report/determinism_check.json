@@ -1,0 +1,99 @@
+{
+  "arm": "B2",
+  "n_questions": 10,
+  "n_identical_answers": 4,
+  "all_deterministic": false,
+  "rows": [
+    {
+      "id": "S01",
+      "identical_answer": true,
+      "identical_prompt_context": true,
+      "prompt_tokens": [
+        1505,
+        1505
+      ]
+    },
+    {
+      "id": "S03",
+      "identical_answer": true,
+      "identical_prompt_context": true,
+      "prompt_tokens": [
+        1890,
+        1890
+      ]
+    },
+    {
+      "id": "S15",
+      "identical_answer": false,
+      "identical_prompt_context": true,
+      "prompt_tokens": [
+        3934,
+        3934
+      ]
+    },
+    {
+      "id": "Q01",
+      "identical_answer": false,
+      "identical_prompt_context": true,
+      "prompt_tokens": [
+        1178,
+        1178
+      ]
+    },
+    {
+      "id": "Q04",
+      "identical_answer": true,
+      "identical_prompt_context": true,
+      "prompt_tokens": [
+        2372,
+        2372
+      ]
+    },
+    {
+      "id": "RW_001",
+      "identical_answer": false,
+      "identical_prompt_context": true,
+      "prompt_tokens": [
+        1395,
+        1395
+      ]
+    },
+    {
+      "id": "RW_004",
+      "identical_answer": false,
+      "identical_prompt_context": true,
+      "prompt_tokens": [
+        1453,
+        1453
+      ]
+    },
+    {
+      "id": "MH01",
+      "identical_answer": false,
+      "identical_prompt_context": true,
+      "prompt_tokens": [
+        1596,
+        1596
+      ]
+    },
+    {
+      "id": "MH_RB_B01",
+      "identical_answer": false,
+      "identical_prompt_context": true,
+      "prompt_tokens": [
+        1252,
+        1252
+      ]
+    },
+    {
+      "id": "MH12",
+      "identical_answer": true,
+      "identical_prompt_context": true,
+      "prompt_tokens": [
+        2148,
+        2148
+      ]
+    }
+  ],
+  "decision": "answers differ between identical runs: 3 runs per arm required"
+}

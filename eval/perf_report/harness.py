@@ -298,20 +298,35 @@ def reference_text(q: dict) -> str:
     return "\n".join(parts)
 
 
+FULL_ARMS = {"A", "B", "C"}      # every metric of the report template
+MIN_ARMS = {REPRO_ARM}           # correctness only (reproduction check)
+
+
+def judging_level(arm: str) -> str:
+    """full: correctness+relevance+halluc_ref+groundedness+halluc_ctx (A, B, C). lean: correctness+groundedness (ablation arms).
+    min: correctness only. The level only decides which judge calls are made; the calls themselves are identical."""
+    return "full" if arm in FULL_ARMS else "min" if arm in MIN_ARMS else "lean"
+
+
 def score_answer(q: dict, rec: dict, judge: CachedJudge) -> dict:
     """Correctness / relevance / groundedness / hallucination for one answer, using the E14a definitions (see module docstring of
     base_vs_rag) and, for cross/multi questions, per-fact scoring."""
     question, answer, arm = q["query"], rec["answer"], rec["arm"]
+    level = judging_level(arm)
     ref_text = reference_text(q)
-    out = {"arm": arm, "id": q["id"], "run": rec["run"], "category": q["category"], "is_core": q["is_core"]}
+    out = {"arm": arm, "id": q["id"], "run": rec["run"], "category": q["category"], "is_core": q["is_core"], "judging_level": level}
 
-    # relevance (and, for documents, correctness) come from the E14a correctness judge
-    cj = e14._parse_judge_json(judge.chat(e14.JUDGE_SYSTEM, e14.CORRECTNESS_TEMPLATE.format(
-        question=question, reference=ref_text if ref_text.strip() else "(no reference evidence text available)", answer=answer)))
+    kind = q["reference"]["kind"]
+    needs_correctness_judge = (level == "full" or kind == "document_ids"
+                               or (kind == "multihop" and any(f["kind"] == "doc_policy" for f in q["gold_facts"])))
+    cj = {}
+    if needs_correctness_judge:
+        # relevance (and, for documents, correctness) come from the E14a correctness judge
+        cj = e14._parse_judge_json(judge.chat(e14.JUDGE_SYSTEM, e14.CORRECTNESS_TEMPLATE.format(
+            question=question, reference=ref_text if ref_text.strip() else "(no reference evidence text available)", answer=answer)))
     out["relevance"], out["judge_correctness"] = cj.get("relevance"), cj.get("correctness")
     out["judge_parse_error"] = "_parse_error" in cj
 
-    kind = q["reference"]["kind"]
     facts_detail = []
     if kind == "sql_record":
         det = e14.score_structured_correctness(answer, q["gold_sql"], question)
@@ -339,10 +354,12 @@ def score_answer(q: dict, rec: dict, judge: CachedJudge) -> dict:
         out["facts"] = facts_detail
 
     # hallucination against the reference evidence (all arms; E14a base-condition basis) and against the context (RAG arms)
-    gref = e14._parse_judge_json(judge.chat(e14.JUDGE_SYSTEM, e14.GROUNDING_TEMPLATE.format(
-        question=question, context=ref_text if ref_text.strip() else "(none)", answer=answer)))
+    gref = {}
+    if level == "full":
+        gref = e14._parse_judge_json(judge.chat(e14.JUDGE_SYSTEM, e14.GROUNDING_TEMPLATE.format(
+            question=question, context=ref_text if ref_text.strip() else "(none)", answer=answer)))
     out["halluc_ref"] = gref.get("hallucination")
-    if arm == "A" or rec.get("abstained"):
+    if arm == "A" or rec.get("abstained") or level == "min":
         out["groundedness"], out["halluc_ctx"] = None, None
     else:
         gctx = e14._parse_judge_json(judge.chat(e14.JUDGE_SYSTEM, e14.GROUNDING_TEMPLATE.format(

@@ -82,20 +82,66 @@ def load_questions() -> list[dict]:
 # ---------------------------------------------------------------------------------------------------------------------------------
 # generation side
 # ---------------------------------------------------------------------------------------------------------------------------------
-class CountingClient(OllamaClient):
-    """Same call options as OllamaClient (temperature, seed); additionally keeps Ollama's token counters of the last call."""
+CALL_TIMEOUT_S = 300      # per Ollama call
+CALL_RETRIES = 2          # retries after the first attempt (3 attempts in total)
+RETRY_PAUSE_S = 5
+SUSPECT_GAP_S = 600       # a gap longer than 10 minutes between two consecutive completions flags the record (machine suspend / stall)
+SLOW_RECORD_S = 120       # a single record slower than this is also excluded from latency statistics
+
+
+class CallFailed(RuntimeError):
+    """An Ollama call failed after the timeout and all retries."""
+
+
+class TimeoutClient(OllamaClient):
+    """OllamaClient with the SAME call options (temperature, seed) plus a per-call timeout and bounded retries, and Ollama's token counters.
+    A request that times out is abandoned client-side (the server cancels it), so one hung call can no longer block a whole run."""
 
     def __init__(self, *a, **kw):
         super().__init__(*a, **kw)
         self.prompt_tokens = 0
         self.completion_tokens = 0
+        self.attempts_used = 0
+        self._http = ollama.Client(timeout=CALL_TIMEOUT_S)
 
     def chat(self, system: str, user: str) -> str:
-        r = ollama.chat(model=self.model, messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
-                        options={"temperature": self.temperature, "seed": self.seed})
-        self.prompt_tokens = r.get("prompt_eval_count") or 0
-        self.completion_tokens = r.get("eval_count") or 0
-        return r["message"]["content"]
+        last = None
+        for attempt in range(1, CALL_RETRIES + 2):
+            try:
+                r = self._http.chat(model=self.model, messages=[{"role": "system", "content": system}, {"role": "user", "content": user}],
+                                    options={"temperature": self.temperature, "seed": self.seed})
+                self.attempts_used = attempt
+                self.prompt_tokens = r.get("prompt_eval_count") or 0
+                self.completion_tokens = r.get("eval_count") or 0
+                return r["message"]["content"]
+            except Exception as exc:  # noqa: BLE001  -- timeouts, connection resets, 5xx
+                last = exc
+                time.sleep(RETRY_PAUSE_S)
+        raise CallFailed(f"{type(last).__name__}: {str(last)[:160]} (after {CALL_RETRIES + 1} attempts of {CALL_TIMEOUT_S}s)")
+
+
+class CountingClient(TimeoutClient):
+    """Generation client (kept under its old name)."""
+
+
+def flag_latency_records(records: list[dict]) -> dict:
+    """Records whose latency is EXCLUDED from latency statistics. Two conservative rules, applied in file order:
+      gap   this record completed more than SUSPECT_GAP_S (10 min) after the previous one (machine suspend or stall; the first record after a restart is
+            flagged too, because a restart also leaves a gap and cannot be told apart from a suspend by timestamps alone);
+      slow  the record's own latency exceeds SLOW_RECORD_S (120 s).
+    Returns {(arm, id, run): reason}. Completion times are the `timestamp_utc` values written at the end of each generation."""
+    from datetime import datetime
+    flagged, prev = {}, None
+    for r in records:
+        t = datetime.fromisoformat(r["timestamp_utc"]) if r.get("timestamp_utc") else None
+        key = (r["arm"], r["id"], r["run"])
+        if r.get("suspect_gap") or (t and prev and (t - prev).total_seconds() > SUSPECT_GAP_S):
+            flagged[key] = "gap: more than 10 minutes since the previous record completed"
+        elif r["latency_s"] > SLOW_RECORD_S:
+            flagged[key] = f"slow: latency {r['latency_s']:.0f} s > {SLOW_RECORD_S} s"
+        if t:
+            prev = t
+    return flagged
 
 
 class OntologyOnlyLayer(SemanticLayer):
@@ -249,7 +295,7 @@ class CachedJudge:
     (decoding is deterministic, verified in the report); `uncached=True` bypasses it for the integrity re-judge."""
 
     def __init__(self, model: str = DEFAULT_MODEL):
-        self.client = OllamaClient(model=model)
+        self.client = TimeoutClient(model=model)
         self.model = model
         self.cache = {r["key"]: r["raw"] for r in read_jsonl(JUDGE_CACHE)} if model == DEFAULT_MODEL else {}
         self.calls = self.hits = 0
@@ -429,3 +475,34 @@ def p95(values: list[float]) -> float | None:
         return None
     s = sorted(values)
     return round(s[min(len(s) - 1, int(round(0.95 * (len(s) - 1))))], 2)
+
+
+# ---------------------------------------------------------------------------------------------------------------------------------
+# scoring order and cost model
+# ---------------------------------------------------------------------------------------------------------------------------------
+ABLATION_ARMS = {"router", "ontology", "docgraph"}
+
+
+def priority_tier(arm: str, q: dict, run: int) -> int:
+    """Scoring order. 0 reproduction arm (cheap, headline check); 1 original 22 questions for A, B, B2, C (all runs); 2 the 20 new questions for A, B, B2, C
+    (all runs); 3 ablation arms on run 1; 4 ablation arms on runs 2-3. Used only to decide the ORDER (and, with --max-tier, how far to go)."""
+    if arm == REPRO_ARM:
+        return 0
+    if arm in ABLATION_ARMS:
+        return 3 if run == 1 else 4
+    return 1 if q["is_core"] else 2
+
+
+def planned_judge_calls(q: dict, rec: dict) -> int:
+    """How many LLM judge calls score_answer will make for this record (mirrors score_answer; used for the time estimate)."""
+    arm, level, kind = rec["arm"], judging_level(rec["arm"]), q["reference"]["kind"]
+    n = 0
+    if level == "full" or kind == "document_ids" or (kind == "multihop" and any(f["kind"] == "doc_policy" for f in q["gold_facts"])):
+        n += 1
+    if kind == "multihop":
+        n += sum(1 for f in q["gold_facts"] if f["kind"] == "doc" and not f["anchors"])
+    if level == "full":
+        n += 1
+    if not (arm == "A" or rec.get("abstained") or level == "min"):
+        n += 1
+    return n

@@ -25,16 +25,17 @@ def main() -> None:
     arms = h.ARMS + [h.REPRO_ARM]
     out = {"status": "PARTIAL: LLM-free metrics only; correctness / relevance / groundedness / hallucination / citation metrics are NOT computed",
            "n_records": len(raw), "records_per_arm": dict(Counter(k[0] for k in raw)),
-           "latency_outlier_rule": f"records with latency > {LATENCY_OUTLIER_S} s are excluded from latency statistics (machine suspend, inferred from log timestamp jumps)",
+           "latency_outlier_rule": f"records are excluded from latency statistics when more than {h.SUSPECT_GAP_S} s passed since the previous record completed, or the record itself took more than {h.SLOW_RECORD_S} s (machine suspend / restart)",
            "arms": {}}
     core = {q for q in qs if qs[q]["is_core"]}
+    flagged = h.flag_latency_records(list(raw.values()))
     for arm in arms:
         runs = rr.runs_of(raw, arm)
         if not runs:
             continue
         recs = [raw[k] for k in raw if k[0] == arm]
         lat_all = [r["latency_s"] for r in recs]
-        lat = [x for x in lat_all if x <= LATENCY_OUTLIER_S]
+        lat = [raw[k]["latency_s"] for k in raw if k[0] == arm and k not in flagged]
         a = {"runs": runs, "n": len(recs), "latency_median_s": round(statistics.median(lat), 2), "latency_p95_s": h.p95(lat),
              "latency_outliers_excluded": len(lat_all) - len(lat),
              "prompt_tokens_median": statistics.median([r["prompt_tokens"] for r in recs if r["prompt_tokens"]]) if any(r["prompt_tokens"] for r in recs) else None,

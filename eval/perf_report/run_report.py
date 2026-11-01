@@ -18,6 +18,7 @@ Definitions (all stated in metrics.json -> "definitions"):
 from __future__ import annotations
 
 import csv
+from collections import Counter
 import json
 import math
 import random
@@ -160,6 +161,35 @@ def retrieval_is_deterministic(arm, qs, raw, runs):
         if len(set(lists)) > 1:
             diffs.append(qid)
     return diffs
+
+
+def variability(arm, qs, raw, scored, runs):
+    """Run-to-run variability: share of questions whose correctness score (and whose answer text) is identical in every run."""
+    same_c = same_t = n_c = n_t = 0
+    for qid in qs:
+        sc = [scored[(arm, qid, r)]["correctness"] for r in runs if (arm, qid, r) in scored and scored[(arm, qid, r)]["correctness"] is not None]
+        if len(sc) == len(runs) and len(runs) > 1:
+            n_c += 1; same_c += len(set(sc)) == 1
+        tx = [raw[(arm, qid, r)]["answer"] for r in runs if (arm, qid, r) in raw]
+        if len(tx) == len(runs) and len(runs) > 1:
+            n_t += 1; same_t += len(set(tx)) == 1
+    return {"questions_compared_correctness": n_c, "identical_correctness": same_c, "identical_correctness_pct": round(100 * same_c / n_c, 1) if n_c else None,
+            "questions_compared_text": n_t, "identical_answer_text": same_t, "identical_answer_text_pct": round(100 * same_t / n_t, 1) if n_t else None}
+
+
+def coverage_note(M, arm) -> str:
+    """Suffix for any value of an arm that was not scored in every run on every question, e.g. ' (run 1 only)'."""
+    a = M["arms"].get(arm)
+    if not a:
+        return ""
+    sr, all_runs = a["scored_runs"], [1, 2, 3]
+    if not sr:
+        return ""
+    if sr != all_runs and a["n_scored"] > 0:
+        return f" (run {sr[0]} only)" if len(sr) == 1 else f" (runs {','.join(map(str, sr))} only)"
+    if a["n_scored"] < a["n_records"]:
+        return f" (partial: {a['n_scored']} of {a['n_records']} records scored)"
+    return ""
 
 
 def sql_requirements(q):
@@ -363,6 +393,7 @@ def main() -> None:
     qs, raw, scored = load()
     runs_by_arm = {a: runs_of(raw, a) for a in ARMS + [h.REPRO_ARM]}
     runs = runs_by_arm["B"]
+    flagged = h.flag_latency_records(list(raw.values()))      # gap > 10 min before the record, or the record itself > 120 s: latency excluded
     missing_scored = [k for k in raw if k not in scored]
     if missing_scored:
         print(f"WARNING: {len(missing_scored)} raw records are not scored yet; run run_score.py score first")
@@ -386,7 +417,12 @@ def main() -> None:
             a[field] = arm_metric(arm, "all", field, scored, qs, rr)
             a[field + ".core"] = arm_metric(arm, "core", field, scored, qs, rr)
         recs = [raw[k] for k in raw if k[0] == arm]
-        lat = [x["latency_s"] for x in recs]
+        lat = [raw[k]["latency_s"] for k in raw if k[0] == arm and k not in flagged]
+        a["latency_records_excluded"] = sum(1 for k in raw if k[0] == arm and k in flagged)
+        a["latency_exclusion_reasons"] = dict(Counter(flagged[k].split(":")[0] for k in raw if k[0] == arm and k in flagged))
+        a["scored_runs"] = sorted({k[2] for k in scored if k[0] == arm})
+        a["n_scored"] = sum(1 for k in scored if k[0] == arm)
+        a["variability"] = variability(arm, qs, raw, scored, rr)
         a["latency_median_s"] = round(statistics.median(lat), 2) if lat else None
         a["latency_p95_s"] = h.p95(lat)
         a["prompt_tokens_median"] = statistics.median([x["prompt_tokens"] for x in recs if x["prompt_tokens"]]) if any(x["prompt_tokens"] for x in recs) else None
@@ -434,12 +470,13 @@ def main() -> None:
     for name, arm, desc in abl:
         if arm is None:
             abl_rows.append({"component": name, "arm": "-", "description": desc, "correctness_all": "not run (not wired into retrieval)",
-                             "correctness_all_range": "", "correctness_core22": "", "groundedness": "not run (not wired into retrieval)"})
+                             "correctness_all_range": "", "correctness_core22": "", "groundedness": "not run (not wired into retrieval)", "scored_coverage": ""})
             continue
         a = M["arms"].get(arm)
         abl_rows.append({"component": name, "arm": arm, "description": desc,
                          "correctness_all": mean(a["correctness.all"]) if a else None, "correctness_all_range": rng(a["correctness.all"]) if a else None,
-                         "correctness_core22": mean(a["correctness.core"]) if a else None, "groundedness": mean(a["groundedness"]) if a else None})
+                         "correctness_core22": mean(a["correctness.core"]) if a else None, "groundedness": mean(a["groundedness"]) if a else None,
+                         "scored_coverage": (coverage_note(M, arm).strip(" ()") or "all runs, all questions") if a else ""})
     with open(RES / "ablation.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(abl_rows[0].keys()))
         w.writeheader(); w.writerows(abl_rows)
@@ -545,9 +582,11 @@ def build_values(M, manifest, counts_q, cmp_, integ, err_counts) -> dict:
     def val(arm, key):
         return mean(A[arm][key]) if arm in A and key in A[arm] else None
 
+    note = lambda arm: coverage_note(M, arm)
+
     def put_arm_metric(prefix, key, arms, delta=True):
         for arm in arms:
-            V[f"{prefix}.{arm}"] = fmt_pct(val(arm, key))
+            V[f"{prefix}.{arm}"] = fmt_pct(val(arm, key)) + (note(arm) if val(arm, key) is not None else "")
         if delta:
             b, c = val("B", key), val("C", key)
             V[f"{prefix}.dCB"] = fmt_delta(None if b is None or c is None else c - b)
@@ -563,19 +602,19 @@ def build_values(M, manifest, counts_q, cmp_, integ, err_counts) -> dict:
             V[f"{name}.{arm}"] = fmt_pct(vals[arm])
         V[f"{name}.dCB"] = fmt_delta(None if vals["B"] is None or vals["C"] is None else vals["C"] - vals["B"])
     for arm in "ABC":
-        V[f"core.correctness.{arm}"] = fmt_pct(val(arm, "correctness.core"))
+        V[f"core.correctness.{arm}"] = fmt_pct(val(arm, "correctness.core")) + (note(arm) if val(arm, "correctness.core") is not None else "")
     for c in CATS:
         V[f"cat_{c}.n"] = str(counts_q["per_category"].get(c, 0))
         for arm in "ABC":
-            V[f"cat_{c}.{arm}"] = fmt_pct(val(arm, f"correctness.{c}"))
+            V[f"cat_{c}.{arm}"] = fmt_pct(val(arm, f"correctness.{c}")) + (note(arm) if val(arm, f"correctness.{c}") is not None else "")
     for m, key in (("r1", "R@1"), ("r3", "R@3"), ("r5", "R@5"), ("mrr10", "MRR@10")):
         for arm in "BC":
             V[f"{m}.{arm}"] = fmt_ratio(A[arm]["retrieval_docq"][key]) if arm in A else "n/a"
     for arm in "BC":
         V[f"db_rowcov.{arm}"] = fmt_pct(val(arm, "db_rowcov"))
     for name, arm in (("B", "B"), ("budget", "B2"), ("router", "router"), ("ontology", "ontology"), ("docgraph", "docgraph"), ("C", "C")):
-        V[f"abl.{name}.correctness"] = fmt_pct(val(arm, "correctness.all"))
-        V[f"abl.{name}.groundedness"] = fmt_pct(val(arm, "groundedness"))
+        V[f"abl.{name}.correctness"] = fmt_pct(val(arm, "correctness.all")) + (note(arm) if val(arm, "correctness.all") is not None else "")
+        V[f"abl.{name}.groundedness"] = fmt_pct(val(arm, "groundedness")) + (note(arm) if val(arm, "groundedness") is not None else "")
     V["abl.kg.correctness"] = V["abl.kg.groundedness"] = "not run (not wired into retrieval)"
     rs = M["router_saved"]["rows"]
     rmap = {"rule": "rule", "embedding": "embedding", "nli": "zeroshot_nli", "ollama": "ollama_qwen3b", "laya_zs": "laya_zeroshot", "laya_ft": "laya_finetuned"}

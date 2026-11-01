@@ -93,6 +93,9 @@ def preflight(rig: h.Rig) -> dict:
     return out
 
 
+FAILURES = h.RES / "failures.jsonl"
+
+
 def generate(rig: h.Rig, runs: int) -> None:
     questions = h.load_questions()
     done = {(r["arm"], r["id"], r["run"]) for r in h.read_jsonl(h.RAW)}
@@ -101,12 +104,28 @@ def generate(rig: h.Rig, runs: int) -> None:
     plan += [(h.REPRO_ARM, q, run) for run in range(1, runs + 1) for q in questions if q["is_core"]]
     todo = [p for p in plan if (p[0], p[1]["id"], p[2]) not in done]
     log(f"plan: {len(plan)} generations, {len(plan) - len(todo)} already done, {len(todo)} to run")
+    started, last_completion, n_ok, n_fail = time.time(), None, 0, 0
     for i, (arm, q, run) in enumerate(todo, 1):
-        rec = rig.generate(arm, q, run)
+        try:
+            rec = rig.generate(arm, q, run)
+        except Exception as exc:  # noqa: BLE001  -- after the client's own timeout + retries: record the failure and carry on
+            n_fail += 1
+            h.append_jsonl(FAILURES, {"stage": "generate", "arm": arm, "id": q["id"], "run": run, "error": f"{type(exc).__name__}: {str(exc)[:300]}",
+                                      "timestamp_utc": datetime.now(timezone.utc).isoformat()})
+            log(f"FAILED {arm} {q['id']} run{run}: {type(exc).__name__}: {str(exc)[:120]} (recorded in failures.jsonl; continuing)")
+            continue
+        now = time.time()
+        rec["gap_since_previous_s"] = None if last_completion is None else round(now - last_completion, 1)
+        rec["suspect_gap"] = bool(last_completion is not None and now - last_completion > h.SUSPECT_GAP_S)
+        last_completion = now
         rec["timestamp_utc"] = datetime.now(timezone.utc).isoformat()
         h.append_jsonl(h.RAW, rec)
+        n_ok += 1
         if i % 10 == 0 or i == len(todo):
-            log(f"[{i}/{len(todo)}] {arm} {q['id']} run{run} {rec['latency_s']}s prompt_tokens={rec['prompt_tokens']}")
+            elapsed = now - started
+            eta = elapsed / i * (len(todo) - i)
+            log(f"HEARTBEAT [{i}/{len(todo)}] ok={n_ok} failed={n_fail} last={arm} {q['id']} run{run} {rec['latency_s']}s ETA {eta / 60:.0f} min")
+    log(f"generation loop done: ok={n_ok} failed={n_fail}")
 
 
 def main() -> None:

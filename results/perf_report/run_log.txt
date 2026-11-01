@@ -102,3 +102,118 @@
 2026-10-31T21:41:22Z [860/948] C Q25 run3 8.467s prompt_tokens=1487
 2026-10-31T21:42:37Z [870/948] C MH01 run3 0.188s prompt_tokens=0
 2026-10-31T21:43:31Z [880/948] C MH_RB_B06 run3 7.474s prompt_tokens=1517
+2026-11-01T14:27:08Z models loaded; warming up
+2026-11-01T14:27:11Z plan: 948 generations, 884 already done, 64 to run
+2026-11-01T14:27:49Z HEARTBEAT [10/64] ok=10 failed=0 last=B_scifact_off RW_010 run1 5.781s ETA 3 min
+2026-11-01T14:28:35Z HEARTBEAT [20/64] ok=20 failed=0 last=B_scifact_off Q28 run1 8.237s ETA 3 min
+2026-11-01T14:29:08Z HEARTBEAT [30/64] ok=30 failed=0 last=B_scifact_off S06 run2 6.293s ETA 2 min
+2026-11-01T14:29:43Z HEARTBEAT [40/64] ok=40 failed=0 last=B_scifact_off Q25 run2 3.248s ETA 2 min
+2026-11-01T14:30:13Z HEARTBEAT [50/64] ok=50 failed=0 last=B_scifact_off Q08 run3 1.807s ETA 1 min
+2026-11-01T14:30:52Z HEARTBEAT [60/64] ok=60 failed=0 last=B_scifact_off RW_023 run3 6.532s ETA 0 min
+2026-11-01T14:31:05Z HEARTBEAT [64/64] ok=64 failed=0 last=B_scifact_off Q28 run3 7.11s ETA 0 min
+2026-11-01T14:31:05Z generation loop done: ok=64 failed=0
+2026-11-01T14:31:05Z generate finished in 245s
+2026-11-01T14:31:16Z scoring 948 records up to tier 4 (0 already scored)
+2026-11-01T14:31:21Z HEARTBEAT [10/948] ok=10 failed=0 tier0 B_scifact_off S06 run1 correctness=1 (judge calls 6, cache hits 0) ETA 9 min
+2026-11-01T14:31:29Z HEARTBEAT [20/948] ok=20 failed=0 tier0 B_scifact_off Q25 run1 correctness=2 (judge calls 13, cache hits 0) ETA 10 min
+2026-11-01T14:31:31Z HEARTBEAT [30/948] ok=30 failed=0 tier0 B_scifact_off Q08 run2 correctness=1 (judge calls 15, cache hits 4) ETA 8 min
+2026-11-01T14:31:36Z HEARTBEAT [40/948] ok=40 failed=0 tier0 B_scifact_off RW_023 run2 correctness=2 (judge calls 22, cache hits 4) ETA 8 min
+2026-11-01T14:31:39Z HEARTBEAT [50/948] ok=50 failed=0 tier0 B_scifact_off RW_004 run3 correctness=2 (judge calls 25, cache hits 7) ETA 7 min
+2026-11-01T14:31:39Z HEARTBEAT [60/948] ok=60 failed=0 tier0 B_scifact_off S09 run3 correctness=1 (judge calls 25, cache hits 13) ETA 6 min
+2026-11-01T14:31:47Z HEARTBEAT [70/948] ok=70 failed=0 tier1 A S03 run1 correctness=0 (judge calls 33, cache hits 17) ETA 6 min
+2026-11-01T14:32:08Z HEARTBEAT [80/948] ok=80 failed=0 tier1 A Q17 run1 correctness=1 (judge calls 53, cache hits 17) ETA 9 min
+2026-11-01T14:32:25Z HEARTBEAT [90/948] ok=90 failed=0 tier1 A Q01 run2 correctness=1 (judge calls 69, cache hits 21) ETA 11 min
+2026-11-01T14:32:25Z HEARTBEAT [100/948] ok=100 failed=0 tier1 A RW_010 run2 correctness=0 (judge calls 69, cache hits 41) ETA 10 min
+2026-11-01T14:32:27Z HEARTBEAT [110/948] ok=110 failed=0 tier1 A Q28 run2 correctness=2 (judge calls 71, cache hits 59) ETA 9 min
+2026-11-01T14:32:27Z HEARTBEAT [120/948] ok=120 failed=0 tier1 A S06 run3 correctness=0 (judge calls 71, cache hits 79) ETA 8 min
+2026-11-01T14:32:27Z HEARTBEAT [130/948] ok=130 failed=0 tier1 A Q25 run3 correctness=1 (judge calls 71, cache hits 99) ETA 7 min
+2026-11-01T14:34:42Z HEARTBEAT [140/948] ok=140 failed=0 tier1 B Q08 run1 correctness=1 (judge calls 94, cache hits 104) ETA 20 min
+2026-11-01T14:38:18Z HEARTBEAT [150/948] ok=150 failed=0 tier1 B RW_023 run1 correctness=2 (judge calls 123, cache hits 105) ETA 37 min
+2026-11-01T14:40:31Z HEARTBEAT [160/948] ok=160 failed=0 tier1 B RW_004 run2 correctness=2 (judge calls 141, cache hits 117) ETA 46 min
+2026-11-01T14:42:57Z HEARTBEAT [170/948] ok=170 failed=0 tier1 B S09 run2 correctness=1 (judge calls 157, cache hits 131) ETA 54 min
+2026-11-01T14:45:50Z HEARTBEAT [180/948] ok=180 failed=0 tier1 B S03 run3 correctness=1 (judge calls 172, cache hits 146) ETA 62 min
+2026-11-01T14:47:50Z HEARTBEAT [190/948] ok=190 failed=0 tier1 B Q17 run3 correctness=2 (judge calls 172, cache hits 176) ETA 66 min
+2026-11-01T14:49:57Z HEARTBEAT [200/948] ok=200 failed=0 tier1 B2 Q01 run1 correctness=2 (judge calls 175, cache hits 200) ETA 70 min
+2026-11-01T14:50:20Z HEARTBEAT [210/948] ok=210 failed=0 tier1 B2 RW_010 run1 correctness=0 (judge calls 192, cache hits 200) ETA 67 min
+2026-11-01T14:50:43Z HEARTBEAT [220/948] ok=220 failed=0 tier1 B2 Q28 run1 correctness=2 (judge calls 208, cache hits 200) ETA 64 min
+2026-11-01T14:50:49Z HEARTBEAT [230/948] ok=230 failed=0 tier1 B2 S06 run2 correctness=2 (judge calls 216, cache hits 208) ETA 61 min
+2026-11-01T14:50:57Z HEARTBEAT [240/948] ok=240 failed=0 tier1 B2 Q25 run2 correctness=2 (judge calls 226, cache hits 215) ETA 58 min
+2026-11-01T14:50:58Z HEARTBEAT [250/948] ok=250 failed=0 tier1 B2 Q08 run3 correctness=1 (judge calls 228, cache hits 229) ETA 55 min
+2026-11-01T14:50:58Z HEARTBEAT [260/948] ok=260 failed=0 tier1 B2 RW_023 run3 correctness=2 (judge calls 228, cache hits 246) ETA 52 min
+2026-11-01T14:53:23Z HEARTBEAT [270/948] ok=270 failed=0 tier1 C RW_004 run1 correctness=2 (judge calls 246, cache hits 252) ETA 56 min
+2026-11-01T14:55:10Z HEARTBEAT [280/948] ok=280 failed=0 tier1 C S09 run1 correctness=1 (judge calls 276, cache hits 252) ETA 57 min
+2026-11-01T14:57:43Z HEARTBEAT [290/948] ok=290 failed=0 tier1 C S03 run2 correctness=2 (judge calls 294, cache hits 263) ETA 60 min
+2026-11-01T14:59:43Z HEARTBEAT [300/948] ok=300 failed=0 tier1 C Q17 run2 correctness=0 (judge calls 294, cache hits 293) ETA 61 min
+2026-11-01T15:01:18Z HEARTBEAT [310/948] ok=310 failed=0 tier1 C Q01 run3 correctness=2 (judge calls 300, cache hits 316) ETA 62 min
+2026-11-01T15:03:56Z HEARTBEAT [320/948] ok=320 failed=0 tier1 C RW_010 run3 correctness=1 (judge calls 300, cache hits 346) ETA 64 min
+2026-11-01T15:05:13Z HEARTBEAT [330/948] ok=330 failed=0 tier1 C Q28 run3 correctness=2 (judge calls 300, cache hits 375) ETA 64 min
+2026-11-01T15:05:40Z HEARTBEAT [340/948] ok=340 failed=0 tier2 A MH03 run1 correctness=0 (judge calls 323, cache hits 375) ETA 62 min
+2026-11-01T15:06:07Z HEARTBEAT [350/948] ok=350 failed=0 tier2 A MH13 run1 correctness=1 (judge calls 345, cache hits 375) ETA 60 min
+2026-11-01T15:06:09Z HEARTBEAT [360/948] ok=360 failed=0 tier2 A MH03 run2 correctness=0 (judge calls 348, cache hits 395) ETA 57 min
+2026-11-01T15:06:11Z HEARTBEAT [370/948] ok=370 failed=0 tier2 A MH13 run2 correctness=1 (judge calls 351, cache hits 414) ETA 55 min
+2026-11-01T15:06:11Z HEARTBEAT [380/948] ok=380 failed=0 tier2 A MH03 run3 correctness=0 (judge calls 351, cache hits 437) ETA 52 min
+2026-11-01T15:06:11Z HEARTBEAT [390/948] ok=390 failed=0 tier2 A MH13 run3 correctness=1 (judge calls 351, cache hits 459) ETA 50 min
+2026-11-01T15:08:03Z HEARTBEAT [400/948] ok=400 failed=0 tier2 B MH03 run1 correctness=1 (judge calls 384, cache hits 459) ETA 50 min
+2026-11-01T15:10:41Z HEARTBEAT [410/948] ok=410 failed=0 tier2 B MH13 run1 correctness=1 (judge calls 416, cache hits 459) ETA 52 min
+2026-11-01T15:11:54Z HEARTBEAT [420/948] ok=420 failed=0 tier2 B MH03 run2 correctness=1 (judge calls 416, cache hits 492) ETA 51 min
+2026-11-01T15:13:58Z HEARTBEAT [430/948] ok=430 failed=0 tier2 B MH13 run2 correctness=1 (judge calls 435, cache hits 505) ETA 51 min
+2026-11-01T15:15:10Z HEARTBEAT [440/948] ok=440 failed=0 tier2 B MH03 run3 correctness=1 (judge calls 435, cache hits 538) ETA 51 min
+2026-11-01T15:27:14Z HEARTBEAT [450/948] ok=450 failed=0 tier2 B MH13 run3 correctness=1 (judge calls 435, cache hits 570) ETA 62 min
+2026-11-01T15:27:47Z HEARTBEAT [460/948] ok=460 failed=0 tier2 B2 MH03 run1 correctness=2 (judge calls 448, cache hits 570) ETA 60 min
+2026-11-01T15:28:23Z HEARTBEAT [470/948] ok=470 failed=0 tier2 B2 MH13 run1 correctness=1 (judge calls 466, cache hits 570) ETA 58 min
+2026-11-01T15:28:25Z HEARTBEAT [480/948] ok=480 failed=0 tier2 B2 MH03 run2 correctness=2 (judge calls 468, cache hits 581) ETA 56 min
+2026-11-01T15:28:37Z HEARTBEAT [490/948] ok=490 failed=0 tier2 B2 MH13 run2 correctness=1 (judge calls 478, cache hits 589) ETA 54 min
+2026-11-01T15:28:37Z HEARTBEAT [500/948] ok=500 failed=0 tier2 B2 MH03 run3 correctness=2 (judge calls 478, cache hits 602) ETA 51 min
+2026-11-01T15:28:37Z HEARTBEAT [510/948] ok=510 failed=0 tier2 B2 MH13 run3 correctness=1 (judge calls 478, cache hits 620) ETA 49 min
+2026-11-01T15:30:17Z HEARTBEAT [520/948] ok=520 failed=0 tier2 C MH03 run1 correctness=0 (judge calls 510, cache hits 620) ETA 49 min
+2026-11-01T15:55:23Z HEARTBEAT [530/948] ok=530 failed=0 tier2 C MH13 run1 correctness=1 (judge calls 540, cache hits 620) ETA 66 min
+2026-11-01T15:56:38Z HEARTBEAT [540/948] ok=540 failed=0 tier2 C MH03 run2 correctness=0 (judge calls 544, cache hits 648) ETA 65 min
+2026-11-01T15:59:11Z HEARTBEAT [550/948] ok=550 failed=0 tier2 C MH13 run2 correctness=1 (judge calls 553, cache hits 669) ETA 64 min
+2026-11-01T16:01:19Z HEARTBEAT [560/948] ok=560 failed=0 tier2 C MH03 run3 correctness=0 (judge calls 556, cache hits 698) ETA 62 min
+2026-11-01T16:04:59Z HEARTBEAT [570/948] ok=570 failed=0 tier2 C MH13 run3 correctness=1 (judge calls 556, cache hits 728) ETA 62 min
+2026-11-01T16:05:05Z HEARTBEAT [580/948] ok=580 failed=0 tier3 router S06 run1 correctness=2 (judge calls 559, cache hits 741) ETA 60 min
+2026-11-01T16:05:14Z HEARTBEAT [590/948] ok=590 failed=0 tier3 router Q25 run1 correctness=2 (judge calls 564, cache hits 753) ETA 57 min
+2026-11-01T16:05:17Z HEARTBEAT [600/948] ok=600 failed=0 tier3 router MH01 run1 correctness=0 (judge calls 566, cache hits 761) ETA 55 min
+2026-11-01T16:05:17Z HEARTBEAT [610/948] ok=610 failed=0 tier3 router MH_RB_B06 run1 correctness=1 (judge calls 566, cache hits 779) ETA 52 min
+2026-11-01T16:05:24Z HEARTBEAT [620/948] ok=620 failed=0 tier3 ontology Q08 run1 correctness=1 (judge calls 570, cache hits 790) ETA 50 min
+2026-11-01T16:05:27Z HEARTBEAT [630/948] ok=630 failed=0 tier3 ontology RW_023 run1 correctness=2 (judge calls 571, cache hits 806) ETA 48 min
+2026-11-01T16:05:29Z HEARTBEAT [640/948] ok=640 failed=0 tier3 ontology S13 run1 correctness=2 (judge calls 572, cache hits 817) ETA 45 min
+2026-11-01T16:05:38Z HEARTBEAT [650/948] ok=650 failed=0 tier3 ontology MH_RB_B04 run1 correctness=2 (judge calls 576, cache hits 832) ETA 43 min
+2026-11-01T16:05:51Z HEARTBEAT [660/948] ok=660 failed=0 tier3 docgraph RW_004 run1 correctness=2 (judge calls 581, cache hits 843) ETA 41 min
+2026-11-01T16:06:01Z HEARTBEAT [670/948] ok=670 failed=0 tier3 docgraph S09 run1 correctness=2 (judge calls 587, cache hits 853) ETA 39 min
+2026-11-01T16:06:14Z HEARTBEAT [680/948] ok=680 failed=0 tier3 docgraph S10 run1 correctness=2 (judge calls 593, cache hits 861) ETA 37 min
+2026-11-01T16:06:35Z HEARTBEAT [690/948] ok=690 failed=0 tier3 docgraph MH_RB_B02 run1 correctness=2 (judge calls 607, cache hits 864) ETA 36 min
+2026-11-01T16:06:51Z HEARTBEAT [700/948] ok=700 failed=0 tier4 router S03 run2 correctness=2 (judge calls 617, cache hits 870) ETA 34 min
+2026-11-01T16:06:51Z HEARTBEAT [710/948] ok=710 failed=0 tier4 router Q17 run2 correctness=2 (judge calls 617, cache hits 887) ETA 32 min
+2026-11-01T16:06:54Z HEARTBEAT [720/948] ok=720 failed=0 tier4 router S05 run2 correctness=2 (judge calls 619, cache hits 899) ETA 30 min
+2026-11-01T16:06:54Z HEARTBEAT [730/948] ok=730 failed=0 tier4 router MH05 run2 correctness=0 (judge calls 619, cache hits 911) ETA 29 min
+2026-11-01T16:06:54Z HEARTBEAT [740/948] ok=740 failed=0 tier4 router Q01 run3 correctness=2 (judge calls 619, cache hits 928) ETA 27 min
+2026-11-01T16:06:54Z HEARTBEAT [750/948] ok=750 failed=0 tier4 router RW_010 run3 correctness=0 (judge calls 619, cache hits 945) ETA 25 min
+2026-11-01T16:06:54Z HEARTBEAT [760/948] ok=760 failed=0 tier4 router Q28 run3 correctness=2 (judge calls 619, cache hits 960) ETA 24 min
+2026-11-01T16:06:54Z HEARTBEAT [770/948] ok=770 failed=0 tier4 router MH03 run3 correctness=2 (judge calls 619, cache hits 972) ETA 22 min
+2026-11-01T16:06:54Z HEARTBEAT [780/948] ok=780 failed=0 tier4 router MH13 run3 correctness=1 (judge calls 619, cache hits 988) ETA 21 min
+2026-11-01T16:06:57Z HEARTBEAT [790/948] ok=790 failed=0 tier4 ontology S06 run2 correctness=2 (judge calls 621, cache hits 1002) ETA 19 min
+2026-11-01T16:06:57Z HEARTBEAT [800/948] ok=800 failed=0 tier4 ontology Q25 run2 correctness=2 (judge calls 621, cache hits 1019) ETA 18 min
+2026-11-01T16:06:57Z HEARTBEAT [810/948] ok=810 failed=0 tier4 ontology MH01 run2 correctness=0 (judge calls 621, cache hits 1031) ETA 16 min
+2026-11-01T16:06:57Z HEARTBEAT [820/948] ok=820 failed=0 tier4 ontology MH_RB_B06 run2 correctness=1 (judge calls 621, cache hits 1051) ETA 15 min
+2026-11-01T16:06:59Z HEARTBEAT [830/948] ok=830 failed=0 tier4 ontology Q08 run3 correctness=1 (judge calls 622, cache hits 1065) ETA 14 min
+2026-11-01T16:06:59Z HEARTBEAT [840/948] ok=840 failed=0 tier4 ontology RW_023 run3 correctness=2 (judge calls 622, cache hits 1082) ETA 12 min
+2026-11-01T16:06:59Z HEARTBEAT [850/948] ok=850 failed=0 tier4 ontology S13 run3 correctness=2 (judge calls 622, cache hits 1094) ETA 11 min
+2026-11-01T16:06:59Z HEARTBEAT [860/948] ok=860 failed=0 tier4 ontology MH_RB_B04 run3 correctness=2 (judge calls 622, cache hits 1113) ETA 10 min
+2026-11-01T16:07:02Z HEARTBEAT [870/948] ok=870 failed=0 tier4 docgraph RW_004 run2 correctness=2 (judge calls 624, cache hits 1127) ETA 9 min
+2026-11-01T16:07:10Z HEARTBEAT [880/948] ok=880 failed=0 tier4 docgraph S09 run2 correctness=2 (judge calls 630, cache hits 1137) ETA 7 min
+2026-11-01T16:07:17Z HEARTBEAT [890/948] ok=890 failed=0 tier4 docgraph S10 run2 correctness=2 (judge calls 635, cache hits 1146) ETA 6 min
+2026-11-01T16:07:25Z HEARTBEAT [900/948] ok=900 failed=0 tier4 docgraph MH_RB_B02 run2 correctness=1 (judge calls 641, cache hits 1157) ETA 5 min
+2026-11-01T16:07:37Z HEARTBEAT [910/948] ok=910 failed=0 tier4 docgraph S03 run3 correctness=2 (judge calls 650, cache hits 1164) ETA 4 min
+2026-11-01T16:07:51Z HEARTBEAT [920/948] ok=920 failed=0 tier4 docgraph Q17 run3 correctness=0 (judge calls 659, cache hits 1172) ETA 3 min
+2026-11-01T16:08:06Z HEARTBEAT [930/948] ok=930 failed=0 tier4 docgraph S05 run3 correctness=2 (judge calls 667, cache hits 1179) ETA 2 min
+2026-11-01T16:08:15Z HEARTBEAT [940/948] ok=940 failed=0 tier4 docgraph MH05 run3 correctness=0 (judge calls 674, cache hits 1187) ETA 1 min
+2026-11-01T16:08:29Z HEARTBEAT [948/948] ok=948 failed=0 tier4 docgraph MH13 run3 correctness=1 (judge calls 684, cache hits 1191) ETA 0 min
+2026-11-01T16:12:23Z integrity: re-judging 65 of 324 document/cross/multi answers (seed 20261031)
+2026-11-01T16:13:44Z HEARTBEAT integrity [10/65] failed=0
+2026-11-01T16:14:58Z HEARTBEAT integrity [20/65] failed=0
+2026-11-01T16:16:01Z HEARTBEAT integrity [30/65] failed=0
+2026-11-01T16:16:56Z HEARTBEAT integrity [40/65] failed=0
+2026-11-01T16:17:58Z HEARTBEAT integrity [50/65] failed=0
+2026-11-01T16:19:00Z HEARTBEAT integrity [60/65] failed=0
+2026-11-01T16:19:32Z integrity: same-model exact agreement 63/65, second-model 42/65; sample exported

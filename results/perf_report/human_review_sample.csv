@@ -1,0 +1,575 @@
+arm,question_id,run,category,question,answer,reference_excerpt,judge_correctness_0_1_2,judge_relevance,human_verdict_correct_0_1_2,human_notes
+B,RW_017,1,trai,How do I port my mobile number to another telecom company?,"To port your mobile number to another telecom company, follow these steps:
+
+1. Send an SMS containing the word 'PORT' followed by your 10-digit mobile number to 1900 from that number. You will receive a Unique Porting Code (UPC) [E3].
+
+2. Visit any store of the new operator (NovaTel in this case) with the UPC and a valid ID proof to complete the porting request [E3].
+
+3. The process typically takes 2 working days for porting within the same telecom circle, or 4 working days if it's a different circle [E3].
+
+4. Ensure that you meet the eligibility criteria, such as having a minimum of 90 days since the activation of the mobile connection and no outstanding payments [E4].
+
+5. The Donor Operator will send a reply message upon receiving the initial porting request and ask you to send a message through SMS to a specified Short Code of the Donor Operator from the mobile number sought to be ported [E5].
+
+6. The Recipient Operator will verify the Customer Acquisition Form and forward the mobile number, the unique porting code, and the date of the porting request to the Mobile Number Portability Service provider [E2][E5].
+
+7. If there is a disconnection of the mobile number for reasons other than those specified, the Recipient Operator must inform the Mobile Number Portability Service provider after 60 days of disconnection [E1].","TELECOM REGULATORY AUTHORITY OF INDIA NOTIFICATION New Delhi, the 23rd September, 2009 No. 116-4/2009-MN(Vol.II) ----- In exercise of the powers conferred by sub-section (1) of section 36, read with sub-clauses (i), (iii) and (v) of clause (b) of subsection (1) of section 11 of the Telecom Regulatory Authority of India Act, 1997 (24 of 1997), the Telecom Regulatory Authority of India hereby makes the following regulations, namely:- TELECOMMUNICATION MOBILE NUMBER PORTABILITY REGULATIONS, 2009 (8 of 2009) CHAPTER I Preliminary 1. Short title and commencement.- (1) These regulations may be called the Telecommunication Mobile Number Portability Regulations, 2009. (2) (a) Except as otherwise pro",2,2,,
+B,Q04,1,syn,Why is my latest postpaid bill higher than the monthly rental I expected to pay?,"Based on the evidence provided, your latest postpaid bill is higher than the monthly rental you expected to pay due to additional charges beyond the base plan rental. These additional charges can include:
+
+- Pro-rated charges for a mid-cycle plan change
+- Roaming usage
+- Premium/IVR services
+- GST
+- Usage beyond your plan's fair-usage allowance
+
+To understand the specific causes for the higher bill, you should review the itemised breakdown available under Billing > View Bill Details in the app. [E2][E4]
+
+The evidence does not provide a specific breakdown for your latest bill, but it is likely that one or more of the above factors contributed to the higher amount. [E2][E4]","Question: Why is my postpaid bill higher than my plan rental this month? Answer: ### Short Answer Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance. A full itemised breakdown is available under Billing > View Bill Details in the app. ### Detailed Explanation A bill above the base rental is essentially the sum of several possible add-ons — none of them mean an error occurred. The itemised breakdown exists precisely so a customer doesn't have to guess which of the five listed causes applied to their specific bill. ### Key Details | Detail | ",2,2,,
+B2,MH_RB_B04,1,cross,For customer 1031: My KYC shows as expired - which documents do I have to submit to re-verify?,"To re-verify your KYC, you need to submit one Proof of Identity and one Proof of Address from the approved document list. For Aadhaar-based e-KYC, explicit customer consent is required before OTP-based verification. Alternatively, you can complete the Video KYC process via the My NovaTel app under Account > KYC Update, or visit a store with original ID and address proof.
+
+This information is based on the structured evidence [E1] and the procedural guidance provided in [E3].","REFERENCE ANSWER: Personal: kyc_status Expired. Policy: required documents and re-verification routes. DATABASE FACTS: [{""table"": ""customer_master"", ""record_id"": 1031, ""field"": ""kyc_status"", ""value"": ""Expired""}] DOCUMENT FAQ_C17_033: Question: What documents are required for SIM KYC verification?  Answer: ### Short Answer  Standard KYC requires one government-issued Proof of Identity and Proof of Address (e.g., Aadhaar, Passport, Voter ID, Driving Licence). Aadhaar-based e-KYC via OTP is the fastest route where offered, subject to applicable regulatory consent requirements.  ### Detailed Explanation  The requirement is one Proof of Identity and one Proof of Address, which can be satisfied by",2,2,,
+A,MH_RB_B06,2,cross,"For customer 1003: My latest postpaid bill looks higher than my plan rental - what does it show, and how do I dispute it?","Hello Customer 1003,
+
+Thank you for reaching out to us. I understand that you're concerned about your latest postpaid bill. Let's break down what your bill might include and how you can dispute it if necessary.
+
+1. **Bill Breakdown**: Your postpaid bill typically includes the plan rental, which is the fixed monthly fee for your service, as well as additional charges such as data usage, voice calls, text messages, international charges, and any applicable taxes or surcharges.
+
+2. **Review Your Usage**: First, I recommend reviewing your usage details to see if there were any unexpected charges. You can usually find this information in the ""Usage Summary"" section of your bill or through our mobile app/web portal. If you notice any discrepancies, please note them down.
+
+3. **Contact Us**: If you find that the charges are higher than expected, you can contact our customer support team. You can reach us via phone, email, or our live chat service. Our support team will be able to review your bill and provide you with a detailed explanation of the charges.
+
+4. **Dispute Process**: If you believe there is an error, we can initiate a dispute. During the dispute process, we will verify the charges and provide you with a corrected bill if necessary. You can also request a detailed itemization of your bill to understand each charge better.
+
+5. **Customer Support Contact Information**: You can reach us at 1-800-555-1234 or through our website at [www.novatel.com/support](http://www.novatel","REFERENCE ANSWER: Personal: latest invoice total vs plan_charge. Policy: bill components and dispute process. DATABASE FACTS: [{""table"": ""invoices"", ""record_id"": 5012, ""field"": ""total_amount"", ""value"": ""1151.76""}, {""table"": ""invoices"", ""record_id"": 5012, ""field"": ""plan_charge"", ""value"": ""899.00""}] DOCUMENT FAQ_C04_007: Question: Why is my postpaid bill higher than my plan rental this month? Answer: ### Short Answer Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance. A full itemised breakdown is available under Billing > View Bill Details in",1,2,,
+C,MH13,2,multi,"For customer 2738, what is the status of ticket 11011 and what level and status does its escalation case have?","The status of ticket 11011 for customer 2738 is InProgress [E1].
+
+The evidence does not provide information about an escalation case associated with ticket 11011, so I cannot determine the level and status of any escalation case [E1].","REFERENCE ANSWER: Ticket 11011 (customer 2738) has status InProgress; its escalation case(s): 28248 (level L1, status Open). DATABASE FACTS: [{""table"": ""tickets"", ""record_id"": ""11011"", ""field"": ""status"", ""value"": ""InProgress""}, {""table"": ""escalation_cases"", ""record_id"": ""28248"", ""field"": ""level"", ""value"": ""L1""}, {""table"": ""escalation_cases"", ""record_id"": ""28248"", ""field"": ""status"", ""value"": ""Open""}]",1,2,,
+A,MH13,3,multi,"For customer 2738, what is the status of ticket 11011 and what level and status does its escalation case have?","To provide you with the accurate information, I would need to access our internal system. However, I can guide you on how to check this information yourself:
+
+1. **For the Status of Ticket 11011:**
+   - Log in to your NovaTel account.
+   - Navigate to the ""Support"" or ""Tickets"" section.
+   - Locate ticket number 11011.
+   - The status should be displayed next to the ticket number or in a column labeled ""Status.""
+
+2. **For the Level and Status of the Escalation Case:**
+   - If there is an escalation case associated with ticket 11011, it should also be listed in the same section.
+   - Look for a column or section that shows the ""Escalation Level"" and ""Escalation Status.""
+
+If you need further assistance or cannot find the information, please contact our customer support team. We can help you check the status directly. Our support line is available 24/7, and you can also reach out via email or live chat if preferred.","REFERENCE ANSWER: Ticket 11011 (customer 2738) has status InProgress; its escalation case(s): 28248 (level L1, status Open). DATABASE FACTS: [{""table"": ""tickets"", ""record_id"": ""11011"", ""field"": ""status"", ""value"": ""InProgress""}, {""table"": ""escalation_cases"", ""record_id"": ""28248"", ""field"": ""level"", ""value"": ""L1""}, {""table"": ""escalation_cases"", ""record_id"": ""28248"", ""field"": ""status"", ""value"": ""Open""}]",1,2,,
+B,MH_RB_B02,2,cross,"For customer 1056: My last recharge didn't go through - what happens to the money, and what should I do?","For customer 1056, the last recharge of ₹949 did not go through, as indicated by the transaction status being FAILED [E1]. According to the documentation [E2], when a recharge is debited but not credited, it typically resolves within 30-60 minutes due to a brief delay with the payment gateway. However, since 3 hours have passed and the recharge is still not credited, a manual reconciliation will be initiated.
+
+The amount will be automatically reversed to the source account if it is not credited within 24 hours [E4]. Therefore, the customer should expect an SMS update within 24 hours. If the amount is not reversed by then, the customer should contact support for further assistance.
+
+For reference, similar issues have been handled according to the standard procedure outlined in [E6], which involves verifying the transaction details and initiating manual reconciliation if the issue persists.","REFERENCE ANSWER: Personal: latest recharge FAILED. Policy: failed/stuck recharge handling. DATABASE FACTS: [{""table"": ""recharge_transactions"", ""record_id"": 4996, ""field"": ""status"", ""value"": ""FAILED""}, {""table"": ""recharge_transactions"", ""record_id"": 4996, ""field"": ""amount"", ""value"": ""949.00""}] DOCUMENT FAQ_C03_005: Question: Why did my recharge fail even though the amount was debited? Answer: ### Short Answer This usually happens due to a bank/payment-gateway timeout after the debit was confirmed but before NovaTel's system received acknowledgement. In most cases the recharge auto-credits within 30-60 minutes. If not credited within 24 hours, the amount is auto-reversed to source; otherwise ",2,2,,
+B,Q08,1,syn,There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?,"To determine whether NovaTel is experiencing a network outage in your area, you should check both the coverage map and the Service Status. If the map shows your area as covered but the Service Status indicates an outage, you should wait for restoration. If the map shows your area outside the current tower coverage, you should report the location so it can be logged for network planning [E1].","# How to Check and Report a Network Outage **Document ID:** KB_C08_outage_status_check **Category:** C08 — Network Coverage & Outages **Department:** Network **Customer Scope:** all **Last Updated:** 2026-07-09 **Version:** 1.0 **Source Authority:** Internal Knowledge Base --- ## Summary This article explains how network coverage & outages issues in this area are diagnosed and resolved, and what customers and front-line agents should check before escalating. ## Symptoms - The customer has already attempted the standard steps without success. - The self-care app or portal shows an error, a stuck status, or no visible change after the action. - The issue is intermittent and not consistently re",1,2,,
+C,MH01,1,multi,"For incident INC-2026-0142, when was the fault detected and the primary fibre path restored, and why was there no automatic failover?",I don't have enough evidence to answer this question. Abstaining.,"REFERENCE ANSWER: The fault was detected at 06:12 IST and the primary fibre path was restored at 09:15 (microwave backhaul was restored at 08:40). The RCA found no automatic failover to microwave backhaul was configured for the cluster. DOCUMENT INC_C08_INC_2026_0142: -06-13 **Version:** 1.0 **Source Authority:** Internal Knowledge Base --- ## Summary Fibre backhaul cut near Andheri due to third-party roadworks caused a 3-hour outage affecting ~40 4G sites. ## Detection Method Detected automatically via NOC monitoring alarms, which triggered an on-call page within the standard 5-minute alerting SLA. ## Timeline 06:12 IST fault detected via NOC alarms; 06:20 field team dispatched; 08:40 tempo",0,0,,
+B,MH_RB_B04,3,cross,For customer 1031: My KYC shows as expired - which documents do I have to submit to re-verify?,"For customer 1031, to re-verify the expired KYC, you need to submit one Proof of Identity and one Proof of Address from the approved document list. Specifically, since the current KYC type is Aadhaar, you should use an Aadhaar card as your Proof of Identity. You can either complete the Video KYC process via the My NovaTel app under Account > KYC Update, or visit any NovaTel Experience Store with your original Aadhaar card and proof of address.
+
+This process is detailed in the KYC Re-verification Procedure Document [E3] and the FAQ on KYC Re-verification [E5]. Failure to complete this within the notified window may result in service suspension [E2][E4][E5].","REFERENCE ANSWER: Personal: kyc_status Expired. Policy: required documents and re-verification routes. DATABASE FACTS: [{""table"": ""customer_master"", ""record_id"": 1031, ""field"": ""kyc_status"", ""value"": ""Expired""}] DOCUMENT FAQ_C17_033: Question: What documents are required for SIM KYC verification?  Answer: ### Short Answer  Standard KYC requires one government-issued Proof of Identity and Proof of Address (e.g., Aadhaar, Passport, Voter ID, Driving Licence). Aadhaar-based e-KYC via OTP is the fastest route where offered, subject to applicable regulatory consent requirements.  ### Detailed Explanation  The requirement is one Proof of Identity and one Proof of Address, which can be satisfied by",2,2,,
+C,RW_023,3,trai,How did the telecom sector perform from April to June 2025?,"Based on the evidence provided, the telecom sector in India performed as follows from April to June 2025:
+
+- The wireless subscriber base increased to 1,170.28 million by the end of June 2025, showing a quarterly growth rate of 0.61% [E1].
+- The wireless subscriber base recorded a year-over-year (Y-O-Y) growth rate of 0.03% compared to the same quarter in the previous year [E1].
+- Wireless teledensity in the country increased from 82.42% at the end of March 2025 to 82.74% at the end of June 2025 [E1].
+- The number of rural wireless subscribers increased from 531.18 million to 533 million, and the number of urban wireless subscribers increased from 632.57 million to 637.87 million during the quarter, with a quarterly growth rate of 0.34% for both rural and urban subscriptions [E1].","Telecom Regulatory Authority of India The Indian Telecom Services Performance Indicators April–June, 2025 New Delhi, India 3rd September, 2025 WORLD TRADE CENTRE, Tower-F, Nauroji Nagar New Delhi – 110029 Website: www.trai.gov.in Disclaimer The Information and Statistics contained in this report are derived from variety of sources, but are mainly reliant on data obtained from Service Providers. This report does not constitute any commercial or other advice. No warranty, representation or undertaking of any kind, expressed or implied, is given in relation to the information and statistics contained in this report. Table of Contents Snapshot……………………………………………………………………………………………….….i Executive Su",2,2,,
+B,MH01,1,multi,"For incident INC-2026-0142, when was the fault detected and the primary fibre path restored, and why was there no automatic failover?","For incident INC-2026-0142, the fault was detected at 06:12 IST via NOC monitoring alarms [E3]. The primary fibre path was restored at 09:15 IST after the fibre was repaired [E3].
+
+There was no automatic failover because the cluster was on a single fibre path without configured automatic failover to a microwave backhaul [E1]. This configuration was not in place due to the scenario not being previously observed at this scale [E1].","REFERENCE ANSWER: The fault was detected at 06:12 IST and the primary fibre path was restored at 09:15 (microwave backhaul was restored at 08:40). The RCA found no automatic failover to microwave backhaul was configured for the cluster. DOCUMENT INC_C08_INC_2026_0142: -06-13 **Version:** 1.0 **Source Authority:** Internal Knowledge Base --- ## Summary Fibre backhaul cut near Andheri due to third-party roadworks caused a 3-hour outage affecting ~40 4G sites. ## Detection Method Detected automatically via NOC monitoring alarms, which triggered an on-call page within the standard 5-minute alerting SLA. ## Timeline 06:12 IST fault detected via NOC alarms; 06:20 field team dispatched; 08:40 tempo",1,2,,
+A,Q20,2,syn,I was charged twice for the same recharge. How can I get the extra amount refunded?,"I'm sorry to hear that you've been charged twice for the same recharge. Here’s what you can do to get the extra amount refunded:
+
+1. **Check Your Account**: Log in to your NovaTel account to verify the charges and ensure the double charge is accurate.
+
+2. **Contact Customer Support**: Reach out to NovaTel's customer support team. You can usually find the contact information on their website or through the mobile app. Be prepared to provide your account number and details about the double charge.
+
+3. **Provide Proof**: Have any receipts or screenshots of the double charge ready. This will help support your request for a refund.
+
+4. **Follow Up**: If you don't receive a response or resolution quickly, follow up with your support representative. Sometimes, it might take a few days for the issue to be resolved.
+
+5. **Escalate if Necessary**: If the issue isn't resolved, consider escalating the matter to a higher level of support or even to a manager.
+
+Here’s a sample message you can use when contacting support:
+
+---
+
+Subject: Request for Refund of Duplicate Charge
+
+Dear NovaTel Support,
+
+I recently noticed that I was charged twice for the same mobile recharge. The transaction details are as follows:
+
+- Account Number: [Your Account Number]
+- Date of Double Charge: [Date]
+- Amount Charged: [Amount]
+
+I would appreciate your assistance in resolving this issue and getting the extra amount refunded.
+
+Thank you for your help.
+
+Best regards,
+[Your Name]
+
+---
+
+If you need further assista","Refunds and Billing Adjustments Policy Document ID: Policy_C20_refund_policy Category: C20 — Refunds & Adjustments Department: Billing Customer Scope: all Version: 1.0 Last Updated: 2026-08-08 Source Authority: Internal Knowledge Base Policy Statement Defines eligibility and timelines for refunds arising from duplicate charges, billing errors, or service-credit commitments. Purpose Ensures consistent, compliant, and customer-fair treatment across all channels and customer segments. Scope Applies to all prepaid, postpaid, and (where noted) enterprise customers, and to all NovaTel-authorised channels. Definitions **Customer** — any individual or entity holding an active NovaTel connection or a",2,2,,
+C,Q13,3,syn,The OTP for signing into the My NovaTel app isn't arriving. How can I log in?,"To log in to the My NovaTel app when the OTP isn't arriving, follow these steps based on the provided evidence:
+
+1. **Check the Registered SIM**: Ensure the SIM card is properly inserted and has a network signal. [E1]
+2. **Resend OTP**: If the OTP hasn't arrived, try resending it after 30 seconds. [E1]
+3. **Alternative Login Method**: If the OTP still doesn't arrive, use the 'Login via Missed Call' option if it is enabled. [E1]
+4. **Check Device Spam Filters**: If the issue persists, check the device's SMS spam filter settings to ensure that NovaTel numbers are not being blocked. [E1]
+
+These steps cover the most common issues and solutions for OTP delivery problems. If the problem continues, it might be due to the device's own spam filter blocking the service messages. [E1]","Question: I can't log in to the My NovaTel app — it says 'OTP not received'. Answer: ### Short Answer Ensure the registered SIM has network signal and isn't blocking service SMS. Try 'Resend OTP' after 30 seconds, or use the 'Login via Missed Call' alternative if enabled. Persistent failures may indicate an SMS-delivery issue with your handset's spam filter. ### Detailed Explanation The suggested order moves from most to least likely cause: signal/SMS-blocking issues first (since OTP is delivered by SMS), then a simple resend, then an alternative login method that doesn't depend on SMS at all, with a persistent-failure note pointing at the handset's own spam filter as a less obvious but real",2,2,,
+C,Q25,1,syn,My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?,"The LOS (Loss of Signal) light on your ONT indicates that there is an issue with the connection between the ONT and the fibre network. Here’s how you can troubleshoot it:
+
+1. **Check the Connection**: Ensure that the fibre patch cord is securely connected to both the wall outlet and the ONT. Avoid bending the fibre cable sharply, as this can cause signal loss [E1].
+
+2. **Remote Diagnostics**: You can perform remote diagnostics via the ONT telemetry dashboard to check the PON light status and signal levels. If the LOS is confirmed and not resolved by customer-side checks, a field fault ticket will be logged [E2].
+
+3. **Contact Support**: If the issue persists, contact NovaTel support. A representative will guide you through additional checks and may log a fault ticket for a technician to visit within 24 hours [E3].
+
+If the outage exceeds the published Service Level Agreement (SLA), you may be eligible for a bill credit automatically applied to your next billing cycle [E2][E3].","Question: Why is my FTTH broadband connection showing 'LOS' (Loss of Signal) on the ONT? Answer: ### Short Answer An LOS/red light usually indicates a fibre cut, a loose connector at the ONT, or an upstream outage. Check that the fibre cable is firmly connected; if the light remains red, log a fault ticket — do not attempt to open the ONT casing yourself. ### Detailed Explanation The three possible causes are ordered from most to least customer-fixable: a loose connector (something the customer can check safely), a fibre cut or upstream outage (both outside the customer's control) — and the explicit warning not to open the ONT casing draws a clear line around what's safe for the customer to ",2,2,,
+A,MH12,2,multi,"For customer 1001, what is the payment status of invoice 5001 and which payment transactions were made against it?","To provide you with the accurate information about customer 1001's invoice 5001, I would need to access our system. However, I can guide you on how to check this information:
+
+1. **Log in to the Customer Portal**: If customer 1001 has access to the NovaTel customer portal, they can log in and navigate to the ""Invoices"" section to view the status of invoice 5001.
+
+2. **Contact Customer Support**: If the customer is unable to log in or needs assistance, they can contact our customer support team. You can provide the invoice number (5001) and the customer ID (1001) to us, and we will check the payment status and any transactions made against it.
+
+3. **Check with Your Account Manager**: If customer 1001 has an account manager, they can also reach out to them for this information.
+
+Once we have the details, we can inform you about the payment status of invoice 5001 and list any payment transactions that have been made against it. If you need immediate assistance, please provide the necessary details, and we will look into it for you.","REFERENCE ANSWER: Invoice 5001 (customer 1001) has payment_status Paid; payment transactions against it: 6001 (amount 2217.64, SUCCESS), 6002 (amount 1389.09, SUCCESS). DATABASE FACTS: [{""table"": ""invoices"", ""record_id"": ""5001"", ""field"": ""payment_status"", ""value"": ""Paid""}, {""table"": ""payment_transactions"", ""record_id"": ""6001"", ""field"": ""status"", ""value"": ""SUCCESS""}, {""table"": ""payment_transactions"", ""record_id"": ""6002"", ""field"": ""status"", ""value"": ""SUCCESS""}]",0,1,,
+B,Q25,1,syn,My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?,"The LOS (Loss of Signal) light on your ONT indicates a problem with the connection, which could be due to a loose connector, a fibre cut, or an upstream outage. Here’s how you can troubleshoot it:
+
+1. **Check the Fiber Cable Connection**: Ensure that the fibre cable is firmly connected to the ONT. If it appears loose, reseat the connector.
+
+2. **If the Light Remains Red**: If the fibre cable is securely connected and the LOS light still shows, it is likely an issue outside your control, such as a fibre cut or an upstream outage. In this case, log a fault ticket. Do not attempt to open the ONT casing yourself.
+
+For detailed steps and further assistance, you can refer to the troubleshooting guide provided in the FAQ [E1][E2]. If you need immediate help, you can contact NovaTel support, and they will guide you through the process [E3].","Question: Why is my FTTH broadband connection showing 'LOS' (Loss of Signal) on the ONT? Answer: ### Short Answer An LOS/red light usually indicates a fibre cut, a loose connector at the ONT, or an upstream outage. Check that the fibre cable is firmly connected; if the light remains red, log a fault ticket — do not attempt to open the ONT casing yourself. ### Detailed Explanation The three possible causes are ordered from most to least customer-fixable: a loose connector (something the customer can check safely), a fibre cut or upstream outage (both outside the customer's control) — and the explicit warning not to open the ONT casing draws a clear line around what's safe for the customer to ",2,2,,
+B,MH_RB_B06,1,cross,"For customer 1003: My latest postpaid bill looks higher than my plan rental - what does it show, and how do I dispute it?","For customer 1003, the latest postpaid bill may show charges higher than the plan rental due to several possible reasons, such as pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond the fair-usage allowance [E2][E3]. To view the detailed breakdown of these charges, you can access the ""View Bill Details"" section in the app.
+
+If you believe there is an error, you can dispute the bill by following the steps outlined in the knowledge base document [E4]. Ensure that your identity is verified and that the account is active before initiating the dispute process. The resolution process involves confirming the issue, checking the system status, applying the standard fix, and confirming the resolution with the customer. If the issue persists, you can escalate it further. [E4]","REFERENCE ANSWER: Personal: latest invoice total vs plan_charge. Policy: bill components and dispute process. DATABASE FACTS: [{""table"": ""invoices"", ""record_id"": 5012, ""field"": ""total_amount"", ""value"": ""1151.76""}, {""table"": ""invoices"", ""record_id"": 5012, ""field"": ""plan_charge"", ""value"": ""899.00""}] DOCUMENT FAQ_C04_007: Question: Why is my postpaid bill higher than my plan rental this month? Answer: ### Short Answer Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance. A full itemised breakdown is available under Billing > View Bill Details in",1,2,,
+A,Q01,2,syn,I don't have access to my old registered phone number anymore. How can I update the number on my account?,"To update your registered phone number on your NovaTel account, you can follow these steps:
+
+1. **Visit the NovaTel Website**: Go to the official NovaTel website and log in to your account using your username and password.
+
+2. **Navigate to Account Settings**: Once logged in, look for an option to manage your account settings or profile. This is often found in a dropdown menu under your username or in a settings icon.
+
+3. **Update Contact Information**: In the account settings, find the section for contact information or billing details. Here, you should be able to enter your new phone number.
+
+4. **Save Changes**: After entering the new number, make sure to save your changes.
+
+5. **Contact Customer Support**: If you are unable to update your number through the website, you can contact NovaTel’s customer support. They can assist you in updating your phone number over the phone or through other channels.
+
+6. **Provide Verification**: When updating your number, you may need to provide verification of your identity and the new number. This could include a government-issued ID and a recent utility bill with the new address.
+
+If you need further assistance or have any questions, feel free to reach out to our support team.","Question: How do I update the mobile number registered on my account? Answer: ### Short Answer Log in to the My NovaTel app or self-care portal, go to Profile > Contact Details, and select 'Update Alternate Number'. You will need to verify via OTP sent to your existing registered number. If you no longer have access to it, visit a NovaTel Experience Store with valid photo ID. ### Detailed Explanation The update is self-service by default: the app/portal path lets you change the number in one step, but NovaTel still needs to confirm you're the account holder before applying it, which is why an OTP goes to the number currently on file rather than the new one. The in-store fallback exists speci",1,2,,
+C,Q08,1,syn,There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?,"To find out whether NovaTel is having a network outage in an area with no mobile signal, you can check the Service Status page in the app. This page will display the estimated restoration time for any logged outages, and affected customers may receive an SMS or app notification once service is restored [E1].
+
+Additionally, you can verify the status by following these steps:
+1. Confirm the reported issue.
+2. Check the system status.
+3. Apply the standard fix if necessary.
+4. Confirm the resolution with the customer [E3].
+
+These steps will help you determine if there is a known outage in your area and when service might be restored.","# How to Check and Report a Network Outage **Document ID:** KB_C08_outage_status_check **Category:** C08 — Network Coverage & Outages **Department:** Network **Customer Scope:** all **Last Updated:** 2026-07-09 **Version:** 1.0 **Source Authority:** Internal Knowledge Base --- ## Summary This article explains how network coverage & outages issues in this area are diagnosed and resolved, and what customers and front-line agents should check before escalating. ## Symptoms - The customer has already attempted the standard steps without success. - The self-care app or portal shows an error, a stuck status, or no visible change after the action. - The issue is intermittent and not consistently re",1,2,,
+B,MH05,1,multi,"For the phishing SMS campaign INC-2026-0197, how quickly was the anti-fraud alert broadcast and which takedown arrangement gap did the RCA identify?","The anti-fraud alert for the phishing SMS campaign INC-2026-0197 was broadcast within 4 hours of the initial customer reports, as documented in the incident report [E2]. The takedown arrangement gap identified by the RCA was the lack of a pre-existing rapid-takedown relationship with the specific hosting provider used for the phishing domain [E1].","REFERENCE ANSWER: The anti-fraud short-code alert was broadcast within 4 hours. The RCA found no pre-existing rapid-takedown relationship with the hosting provider used for the phishing domain. DOCUMENT INC_C18_INC_2026_0197: ity:** Internal Knowledge Base --- ## Summary A third-party phishing campaign sent SMS messages impersonating NovaTel billing alerts with a malicious link. ## Detection Method Identified during routine NOC dashboard review, ahead of any customer-reported tickets. ## Timeline Flagged via customer fraud reports; anti-fraud short code alert broadcast within 4 hours; domain reported for takedown; law-enforcement liaison initiated. | Time | Event | Observation | Action | |--",1,2,,
+B2,MH_RB_B04,2,cross,For customer 1031: My KYC shows as expired - which documents do I have to submit to re-verify?,"To re-verify your KYC, you need to submit one Proof of Identity and one Proof of Address from the approved document list. For Aadhaar-based e-KYC, explicit customer consent is required before OTP-based verification. Alternatively, you can complete the Video KYC process via the My NovaTel app under Account > KYC Update, or visit any Experience Store with original ID and address proof.
+
+This information is based on the structured evidence [E1] and the procedural guidance provided in [E3].","REFERENCE ANSWER: Personal: kyc_status Expired. Policy: required documents and re-verification routes. DATABASE FACTS: [{""table"": ""customer_master"", ""record_id"": 1031, ""field"": ""kyc_status"", ""value"": ""Expired""}] DOCUMENT FAQ_C17_033: Question: What documents are required for SIM KYC verification?  Answer: ### Short Answer  Standard KYC requires one government-issued Proof of Identity and Proof of Address (e.g., Aadhaar, Passport, Voter ID, Driving Licence). Aadhaar-based e-KYC via OTP is the fastest route where offered, subject to applicable regulatory consent requirements.  ### Detailed Explanation  The requirement is one Proof of Identity and one Proof of Address, which can be satisfied by",2,2,,
+B2,MH_RB_B01,2,cross,"For customer 1042: My KYC is showing pending - will my number get disconnected, and what do I need to do?","For customer 1042, if your KYC is showing pending, your number may get disconnected as per regulatory requirements [E2]. To resolve this, you should complete the KYC verification step via Video KYC in the app under Account > KYC Update, or visit a store with original ID and address proof [E2][E3]. If you do not complete it within the notified window, outgoing services may be suspended [E2]. 
+
+You can check your Activation Status in the app to see if there are any specific issues flagged [E1][E3]. If the Activation Status does not show a clear cause, contact care with your application/reference number [E1][E3].","REFERENCE ANSWER: Personal: kyc_status Pending and no kyc_records rows. Policy: failing to complete re-verification within the notified window may lead to suspension. DATABASE FACTS: [{""table"": ""customer_master"", ""record_id"": 1042, ""field"": ""kyc_status"", ""value"": ""Pending""}] DOCUMENT FAQ_C17_034: Question: How do I complete re-verification if I'm asked to update my KYC? Answer: ### Short Answer Visit a NovaTel Experience Store with original ID proof, or complete Video KYC via the app under Account > KYC Update if enabled in your circle. Failure to complete requested re-verification within the notified window may result in service suspension per licence conditions. ### Detailed Explanation Tw",2,2,,
+C,RW_007,3,trai,How can I stop receiving unwanted promotional calls and messages?,"To stop receiving unwanted promotional calls and messages, you can:
+
+- Send 'START 0' via SMS to the DND short code, or use Help > DND Preferences in the app to block all commercial communication [E1].
+- Alternatively, send 'START' followed by a category code to block specific categories of commercial communication, as per TRAI's DND regulations [E1].
+
+These options allow you to choose between a full block of all commercial communication or a more selective block based on specific categories [E1]. The framework for these regulations is provided by TRAI's DND guidelines [E2][E3].","1 TO BE PUBLISHED IN THE GAZETTE OF INDIA, EXTRAORDINARY, PART III, SECTION 4 TELECOM REGULATORY AUTHORITY OF INDIA NOTIFICATION New Delhi, the 19th July, 2018 No. 311-04/2017-QoS: - In exercise of powers conferred by section 36 read with sub-clause (v) of clause (b) and clause (c) of sub-section (1) of section 11 of the Telecom Regulatory Authority of India Act 1997 (24 of 1997), the Telecom Regulatory Authority of India hereby makes the following regulations, namely:- THE TELECOM COMMERCIAL COMMUNICATIONS CUSTOMER PREFERENCE REGULATIONS, 2018 (6 of 2018) CHAPTER-I Preliminary 1. Short title and commencement. - These regulations may be called the Telecom Commercial Communications Customer P",2,2,,
+B,Q01,3,syn,I don't have access to my old registered phone number anymore. How can I update the number on my account?,"To update the mobile number registered on your account, you can follow these steps:
+
+1. **Self-Service via App/Portal:**
+   - Log in to the My NovaTel app or self-care portal.
+   - Go to the Profile section and select ""Contact Details.""
+   - Choose ""Update Alternate Number.""
+   - You will need to verify via OTP (One-Time Password) sent to your existing registered number. [E1][E2]
+
+2. **In-Store Verification:**
+   - If you no longer have access to your existing registered number, visit a NovaTel Experience Store with valid photo ID. [E1]
+
+3. **Escalation:**
+   - If OTP verification isn't possible because the old number is unreachable, the store visit is the designated fallback rather than a general support escalation. [E1]
+
+If you have any further issues or need assistance, you can contact the NovaTel Fraud Helpline. [E3]","Question: How do I update the mobile number registered on my account? Answer: ### Short Answer Log in to the My NovaTel app or self-care portal, go to Profile > Contact Details, and select 'Update Alternate Number'. You will need to verify via OTP sent to your existing registered number. If you no longer have access to it, visit a NovaTel Experience Store with valid photo ID. ### Detailed Explanation The update is self-service by default: the app/portal path lets you change the number in one step, but NovaTel still needs to confirm you're the account holder before applying it, which is why an OTP goes to the number currently on file rather than the new one. The in-store fallback exists speci",2,2,,
+A,Q20,1,syn,I was charged twice for the same recharge. How can I get the extra amount refunded?,"I'm sorry to hear that you've been charged twice for the same recharge. Here’s what you can do to get the extra amount refunded:
+
+1. **Check Your Account**: Log in to your NovaTel account to verify the charges and ensure the double charge is accurate.
+
+2. **Contact Customer Support**: Reach out to NovaTel's customer support team. You can usually find the contact information on their website or through the mobile app. Be prepared to provide your account number and details about the double charge.
+
+3. **Provide Proof**: Have any receipts or screenshots of the double charge ready. This will help support your request for a refund.
+
+4. **Follow Up**: If you don't receive a response or resolution quickly, follow up with your support representative. Sometimes, it might take a few days for the issue to be resolved.
+
+5. **Escalate if Necessary**: If the issue isn't resolved, consider escalating the matter to a higher level of support or even to a manager.
+
+Here’s a sample message you can use when contacting support:
+
+---
+
+Subject: Request for Refund of Duplicate Charge
+
+Dear NovaTel Support,
+
+I recently noticed that I was charged twice for the same mobile recharge. The transaction details are as follows:
+
+- Account Number: [Your Account Number]
+- Date of Double Charge: [Date]
+- Amount Charged: [Amount]
+
+I would appreciate your assistance in resolving this issue and getting the extra amount refunded.
+
+Thank you for your help.
+
+Best regards,
+[Your Name]
+
+---
+
+If you need further assista","Refunds and Billing Adjustments Policy Document ID: Policy_C20_refund_policy Category: C20 — Refunds & Adjustments Department: Billing Customer Scope: all Version: 1.0 Last Updated: 2026-08-08 Source Authority: Internal Knowledge Base Policy Statement Defines eligibility and timelines for refunds arising from duplicate charges, billing errors, or service-credit commitments. Purpose Ensures consistent, compliant, and customer-fair treatment across all channels and customer segments. Scope Applies to all prepaid, postpaid, and (where noted) enterprise customers, and to all NovaTel-authorised channels. Definitions **Customer** — any individual or entity holding an active NovaTel connection or a",2,2,,
+A,MH_RB_B01,1,cross,"For customer 1042: My KYC is showing pending - will my number get disconnected, and what do I need to do?","Hello Customer 1042,
+
+Thank you for reaching out to us. If your KYC (Know Your Customer) verification is pending, it does not necessarily mean that your service will be disconnected. However, to ensure a smooth experience and to avoid any potential disruptions, it's important to complete the verification process as soon as possible.
+
+Here’s what you need to do:
+
+1. **Log in to Your Account**: Go to our official website or mobile app and log in to your account.
+2. **Navigate to KYC Section**: Look for the KYC or Verification section in your account settings.
+3. **Upload Required Documents**: Ensure you have the necessary documents ready, such as a government-issued ID and a recent utility bill or bank statement. Upload these documents as per the instructions provided.
+4. **Submit for Verification**: Once you have uploaded the documents, submit the request for verification.
+5. **Check Status**: Keep an eye on the status of your KYC verification. You can usually track this within your account dashboard.
+
+If you encounter any issues or need further assistance, please feel free to contact our customer support team. We are here to help and ensure that you have a seamless experience.
+
+Thank you for your understanding and cooperation.
+
+Best regards,
+NovaTel Customer Support","REFERENCE ANSWER: Personal: kyc_status Pending and no kyc_records rows. Policy: failing to complete re-verification within the notified window may lead to suspension. DATABASE FACTS: [{""table"": ""customer_master"", ""record_id"": 1042, ""field"": ""kyc_status"", ""value"": ""Pending""}] DOCUMENT FAQ_C17_034: Question: How do I complete re-verification if I'm asked to update my KYC? Answer: ### Short Answer Visit a NovaTel Experience Store with original ID proof, or complete Video KYC via the app under Account > KYC Update if enabled in your circle. Failure to complete requested re-verification within the notified window may result in service suspension per licence conditions. ### Detailed Explanation Tw",0,2,,
+B2,Q20,1,syn,I was charged twice for the same recharge. How can I get the extra amount refunded?,"To get the extra amount refunded for a duplicate recharge, you should raise a ticket under Billing > Report Issue with both transaction references. This is because auto-detection usually reverses duplicate charges within 3-5 working days, but if it does not, you need to provide both transaction references for the system to link and process the refund manually [E2][E4].
+
+The refund will be credited to your original payment method or as an account balance [E2][E4]. If the duplicate charge was not reversed within the standard window, you should follow the documented step of raising a ticket [E2][E4][E6].","Refunds and Billing Adjustments Policy Document ID: Policy_C20_refund_policy Category: C20 — Refunds & Adjustments Department: Billing Customer Scope: all Version: 1.0 Last Updated: 2026-08-08 Source Authority: Internal Knowledge Base Policy Statement Defines eligibility and timelines for refunds arising from duplicate charges, billing errors, or service-credit commitments. Purpose Ensures consistent, compliant, and customer-fair treatment across all channels and customer segments. Scope Applies to all prepaid, postpaid, and (where noted) enterprise customers, and to all NovaTel-authorised channels. Definitions **Customer** — any individual or entity holding an active NovaTel connection or a",2,2,,
+B2,Q13,3,syn,The OTP for signing into the My NovaTel app isn't arriving. How can I log in?,"To log in to the My NovaTel app when the OTP isn't arriving, follow these steps:
+
+1. **Check the Registered SIM**: Ensure the SIM card is properly inserted and has a network signal. [E1]
+2. **Resend OTP**: If the OTP hasn't arrived, try resending it after 30 seconds. [E1]
+3. **Login via Missed Call**: If the OTP resend doesn't work, use the 'Login via Missed Call' alternative if it is enabled. [E1]
+4. **Check Device Spam Filters**: If the OTP still doesn't arrive and the alternative login method isn't available, check your device's SMS spam filter settings to ensure that NovaTel numbers are not being blocked. [E1]
+
+These steps cover the most common issues and solutions for OTP delivery problems. [E1]","Question: I can't log in to the My NovaTel app — it says 'OTP not received'. Answer: ### Short Answer Ensure the registered SIM has network signal and isn't blocking service SMS. Try 'Resend OTP' after 30 seconds, or use the 'Login via Missed Call' alternative if enabled. Persistent failures may indicate an SMS-delivery issue with your handset's spam filter. ### Detailed Explanation The suggested order moves from most to least likely cause: signal/SMS-blocking issues first (since OTP is delivered by SMS), then a simple resend, then an alternative login method that doesn't depend on SMS at all, with a persistent-failure note pointing at the handset's own spam filter as a less obvious but real",2,2,,
+C,MH03,2,multi,"For the Pune FTTH outage INC-2026-0179, what time was service restored after detection at 14:02 IST, and what long-term fix does the RCA prioritise for the trunk route?","The provided evidence does not contain specific information about the Pune FTTH outage INC-2026-0179, including the time service was restored after detection at 14:02 IST or the long-term fix prioritised in the RCA for the trunk route. Therefore, I cannot provide the requested details based on the given evidence. [E1][E2][E3]","REFERENCE ANSWER: Service was restored at 19:45 IST (detected 14:02 IST). The RCA prioritises route-diversity build-out for the Pune regional trunk. DOCUMENT INC_C25_INC_2026_0179: Scope:** all **Last Updated:** 2026-08-06 **Version:** 1.0 **Source Authority:** Internal Knowledge Base --- ## Summary A construction excavation severed a primary fibre trunk affecting ~2,800 broadband customers. ## Detection Method Identified during routine NOC dashboard review, ahead of any customer-reported tickets. ## Timeline Outage detected 14:02 IST; splicing team dispatched; service restored 19:45 IST after trunk repair and re-splicing. | Time | Event | Observation | Action | |---|---|---|---| | T+0 | Fau",0,2,,
+C,MH_RB_B04,2,cross,For customer 1031: My KYC shows as expired - which documents do I have to submit to re-verify?,"For customer 1031, to re-verify their expired Aadhaar-based KYC, the following documents need to be submitted according to the procedures outlined in SOP_C17_KYC_VERIFICATION [E2] and FAQ_C17_034 [E3]:
+
+- Visit a NovaTel Experience Store with original ID proof.
+- Alternatively, complete Video KYC via the My NovaTel app under Account > KYC Update, if it is enabled in the customer's specific circle.
+
+Failure to complete the re-verification within the notified window may result in service suspension per licence conditions [E3].","REFERENCE ANSWER: Personal: kyc_status Expired. Policy: required documents and re-verification routes. DATABASE FACTS: [{""table"": ""customer_master"", ""record_id"": 1031, ""field"": ""kyc_status"", ""value"": ""Expired""}] DOCUMENT FAQ_C17_033: Question: What documents are required for SIM KYC verification?  Answer: ### Short Answer  Standard KYC requires one government-issued Proof of Identity and Proof of Address (e.g., Aadhaar, Passport, Voter ID, Driving Licence). Aadhaar-based e-KYC via OTP is the fastest route where offered, subject to applicable regulatory consent requirements.  ### Detailed Explanation  The requirement is one Proof of Identity and one Proof of Address, which can be satisfied by",2,2,,
+B2,MH03,2,multi,"For the Pune FTTH outage INC-2026-0179, what time was service restored after detection at 14:02 IST, and what long-term fix does the RCA prioritise for the trunk route?","The service was restored at 19:45 IST after the detection at 14:02 IST for the Pune FTTH outage INC-2026-0179 [E2].
+
+The long-term fix prioritised in the RCA for the trunk route is to prioritise route-diversity build-out for the Pune regional trunk given increased customer density, with a target of 6 months and requiring capital planning [E1].","REFERENCE ANSWER: Service was restored at 19:45 IST (detected 14:02 IST). The RCA prioritises route-diversity build-out for the Pune regional trunk. DOCUMENT INC_C25_INC_2026_0179: Scope:** all **Last Updated:** 2026-08-06 **Version:** 1.0 **Source Authority:** Internal Knowledge Base --- ## Summary A construction excavation severed a primary fibre trunk affecting ~2,800 broadband customers. ## Detection Method Identified during routine NOC dashboard review, ahead of any customer-reported tickets. ## Timeline Outage detected 14:02 IST; splicing team dispatched; service restored 19:45 IST after trunk repair and re-splicing. | Time | Event | Observation | Action | |---|---|---|---| | T+0 | Fau",2,,,
+B2,RW_007,2,trai,How can I stop receiving unwanted promotional calls and messages?,"To stop receiving unwanted promotional calls and messages, you can:
+
+- Send 'START 0' via SMS to the DND short code, or use Help > DND Preferences in the app to block all commercial communication [E1].
+- Alternatively, send 'START' followed by a category code to block specific categories of commercial communication, as per TRAI's DND regulations [E1].
+
+These options allow you to choose between a full block of all commercial communication or a more selective block based on specific categories [E1].
+
+For further information on the regulatory context, you can refer to the TRAI's guidelines on commercial communications, which define terms such as ""Promotional Voice Call"" and outline the conditions under which commercial communications can be sent [E2][E3].","1 TO BE PUBLISHED IN THE GAZETTE OF INDIA, EXTRAORDINARY, PART III, SECTION 4 TELECOM REGULATORY AUTHORITY OF INDIA NOTIFICATION New Delhi, the 19th July, 2018 No. 311-04/2017-QoS: - In exercise of powers conferred by section 36 read with sub-clause (v) of clause (b) and clause (c) of sub-section (1) of section 11 of the Telecom Regulatory Authority of India Act 1997 (24 of 1997), the Telecom Regulatory Authority of India hereby makes the following regulations, namely:- THE TELECOM COMMERCIAL COMMUNICATIONS CUSTOMER PREFERENCE REGULATIONS, 2018 (6 of 2018) CHAPTER-I Preliminary 1. Short title and commencement. - These regulations may be called the Telecom Commercial Communications Customer P",2,2,,
+B2,MH_RB_B02,1,cross,"For customer 1056: My last recharge didn't go through - what happens to the money, and what should I do?","For customer 1056, the last recharge of ₹949 did not go through, as indicated by the transaction status being FAILED [E1]. According to the documentation [E2], when a recharge is debited but not credited, the amount is typically auto-reversed to the source account within 24 hours if it is not auto-credited by then. 
+
+The customer should be informed that the amount will be automatically refunded to the original payment source if the issue is not resolved within 24 hours. If the customer is concerned, they can contact customer support for further assistance. The standard procedure for handling such cases is documented in [E6], which outlines the steps to diagnose and resolve the issue, including raising a manual reconciliation ticket if necessary.","REFERENCE ANSWER: Personal: latest recharge FAILED. Policy: failed/stuck recharge handling. DATABASE FACTS: [{""table"": ""recharge_transactions"", ""record_id"": 4996, ""field"": ""status"", ""value"": ""FAILED""}, {""table"": ""recharge_transactions"", ""record_id"": 4996, ""field"": ""amount"", ""value"": ""949.00""}] DOCUMENT FAQ_C03_005: Question: Why did my recharge fail even though the amount was debited? Answer: ### Short Answer This usually happens due to a bank/payment-gateway timeout after the debit was confirmed but before NovaTel's system received acknowledgement. In most cases the recharge auto-credits within 30-60 minutes. If not credited within 24 hours, the amount is auto-reversed to source; otherwise ",2,2,,
+B2,MH_RB_B06,1,cross,"For customer 1003: My latest postpaid bill looks higher than my plan rental - what does it show, and how do I dispute it?","For customer 1003, the latest postpaid bill appears higher than the plan rental due to additional charges such as pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond the fair-usage allowance [E2][E3]. A full itemised breakdown is available under Billing > View Bill Details in the app.
+
+To dispute the bill, follow these steps:
+1. Check the itemised breakdown to identify the specific charges.
+2. Verify if the charges are accurate based on your usage and plan changes.
+3. If you find discrepancies, contact NovaTel support with the details from the itemised breakdown for further assistance.
+
+For more detailed troubleshooting and guidance, refer to the document [KB_C04_bill_disputes] which provides step-by-step resolution steps. [E4]","REFERENCE ANSWER: Personal: latest invoice total vs plan_charge. Policy: bill components and dispute process. DATABASE FACTS: [{""table"": ""invoices"", ""record_id"": 5012, ""field"": ""total_amount"", ""value"": ""1151.76""}, {""table"": ""invoices"", ""record_id"": 5012, ""field"": ""plan_charge"", ""value"": ""899.00""}] DOCUMENT FAQ_C04_007: Question: Why is my postpaid bill higher than my plan rental this month? Answer: ### Short Answer Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance. A full itemised breakdown is available under Billing > View Bill Details in",1,2,,
+B2,MH_RB_B03,3,cross,"For customer 1829: My latest bill is unpaid - if I don't pay, will my number get deactivated, and could I get it back?","Based on the evidence provided, your latest bill (invoice_id=6735) is already paid, so there is no immediate risk of your number being deactivated due to unpaid bills. However, if you fail to pay future bills, your number could be deactivated after the billing cycle ends, and it would enter a retention window (commonly up to 90 days) during which you can clear the dues and re-activate it [E2].
+
+If you do not clear the dues within this window, the number will be permanently released and cannot be recovered [E2]. Therefore, it is important to ensure that all future bills are paid on time to avoid any deactivation.
+
+For further assistance, you can contact NovaTel's Customer Care to discuss your payment options or to request re-activation if your number is deactivated within the retention window [E2][E6].","REFERENCE ANSWER: Personal: invoice Unpaid (see data-trap note on RB_S06). Policy: reactivation after non-payment deactivation. DATABASE FACTS: [{""table"": ""invoices"", ""record_id"": 6740, ""field"": ""payment_status"", ""value"": ""Unpaid""}, {""table"": ""invoices"", ""record_id"": 6740, ""field"": ""due_date"", ""value"": ""2026-09-15""}] DOCUMENT FAQ_C21_042: Question: Can I reactivate a number that was deactivated for non-payment?  Answer: ### Short Answer  Reactivation is possible within the operator's retention window (commonly up to 90 days) by clearing dues and completing any required re-verification. Beyond this window the number may be permanently released and cannot be recovered.  ### Detailed Explanatio",0,1,,
+B2,Q01,2,syn,I don't have access to my old registered phone number anymore. How can I update the number on my account?,"To update the mobile number registered on your account, follow these steps:
+
+1. **Log in to the My NovaTel app or self-care portal** and go to **Profile > Contact Details**. Select 'Update Alternate Number'. You will need to verify via OTP (One-Time Password) sent to your existing registered number. [E1][E2]
+
+2. **If you no longer have access to your existing registered number**, visit a **NovaTel Experience Store** with valid photo ID. [E1]
+
+3. **Escalation**: If OTP verification isn't possible because the old number is unreachable, the store visit is the designated fallback rather than a general support escalation. [E1]
+
+This process ensures that NovaTel confirms your identity before updating your contact details. [E1]","Question: How do I update the mobile number registered on my account? Answer: ### Short Answer Log in to the My NovaTel app or self-care portal, go to Profile > Contact Details, and select 'Update Alternate Number'. You will need to verify via OTP sent to your existing registered number. If you no longer have access to it, visit a NovaTel Experience Store with valid photo ID. ### Detailed Explanation The update is self-service by default: the app/portal path lets you change the number in one step, but NovaTel still needs to confirm you're the account holder before applying it, which is why an OTP goes to the number currently on file rather than the new one. The in-store fallback exists speci",2,2,,
+B2,MH_RB_B02,3,cross,"For customer 1056: My last recharge didn't go through - what happens to the money, and what should I do?","For customer 1056, the last recharge of ₹949 did not go through, as indicated by the transaction status being FAILED [E1]. According to the documentation [E2], when a recharge is debited but not credited, the amount is typically auto-reversed to the source account within 24 hours if it is not auto-credited by then. 
+
+The customer should be informed that the amount will be automatically refunded to the original source if the issue is not resolved within 24 hours. If the customer is concerned, they can contact customer support for further assistance. The standard procedure for handling such cases is documented in [E6], which outlines the steps to diagnose and resolve the issue, including raising a manual reconciliation ticket if necessary.","REFERENCE ANSWER: Personal: latest recharge FAILED. Policy: failed/stuck recharge handling. DATABASE FACTS: [{""table"": ""recharge_transactions"", ""record_id"": 4996, ""field"": ""status"", ""value"": ""FAILED""}, {""table"": ""recharge_transactions"", ""record_id"": 4996, ""field"": ""amount"", ""value"": ""949.00""}] DOCUMENT FAQ_C03_005: Question: Why did my recharge fail even though the amount was debited? Answer: ### Short Answer This usually happens due to a bank/payment-gateway timeout after the debit was confirmed but before NovaTel's system received acknowledgement. In most cases the recharge auto-credits within 30-60 minutes. If not credited within 24 hours, the amount is auto-reversed to source; otherwise ",2,2,,
+A,Q25,3,syn,My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?,"LOS stands for ""Loss of Signal,"" which indicates that there is an issue with the optical signal between your Optical Network Terminal (ONT) and the fiber network. This can be caused by various factors such as a damaged fiber cable, loose connections, or issues with the ONT itself. Here are some steps you can take to troubleshoot the issue:
+
+1. **Check Connections:**
+   - Ensure that all connections between the fiber cable and the ONT are secure and tight. Sometimes, simply tightening loose connections can resolve the issue.
+
+2. **Inspect the Fiber Cable:**
+   - Look for any visible damage to the fiber cable, such as cracks or bends that might be causing signal loss. If the cable is damaged, it may need to be replaced.
+
+3. **Restart the ONT:**
+   - Power off the ONT, wait for about 30 seconds, and then power it back on. This can sometimes resolve temporary issues.
+
+4. **Check for Power:**
+   - Ensure that the ONT is receiving power. If it is not, it will not be able to establish a connection.
+
+5. **Contact Support:**
+   - If the issue persists after trying the above steps, it might be necessary to contact NovaTel’s customer support for further assistance. They can provide more specific guidance or arrange for a technician to visit your location.
+
+6. **Check for Network Updates:**
+   - Sometimes, network updates or changes can affect your connection. Check if there have been any recent updates or changes in your area that might have impacted your service.
+
+If you need more spec","Question: Why is my FTTH broadband connection showing 'LOS' (Loss of Signal) on the ONT? Answer: ### Short Answer An LOS/red light usually indicates a fibre cut, a loose connector at the ONT, or an upstream outage. Check that the fibre cable is firmly connected; if the light remains red, log a fault ticket — do not attempt to open the ONT casing yourself. ### Detailed Explanation The three possible causes are ordered from most to least customer-fixable: a loose connector (something the customer can check safely), a fibre cut or upstream outage (both outside the customer's control) — and the explicit warning not to open the ONT casing draws a clear line around what's safe for the customer to ",1,2,,
+C,MH_RB_B06,3,cross,"For customer 1003: My latest postpaid bill looks higher than my plan rental - what does it show, and how do I dispute it?","For customer 1003, the latest postpaid bill shows charges higher than the plan rental. According to the billing dispute resolution process outlined in [E4], the first step is to confirm the reported issue. If the issue persists, the next steps involve checking the system status and applying the standard fix. If the problem still cannot be resolved, escalation is necessary.
+
+To dispute the bill, the customer should follow these steps:
+1. Verify their identity and account status.
+2. Review the itemized bill to identify specific charges.
+3. Check for any plan changes or roaming usage that might explain the higher charges.
+4. If the customer disagrees with a specific charge, they can raise a dispute.
+
+The structured evidence [E1] indicates that subscription 3003 for customer 1003 has expired, which might be related to the billing issue, but further investigation is required to confirm the exact cause. [E4] provides the detailed process for resolving billing disputes, which the customer can follow.","REFERENCE ANSWER: Personal: latest invoice total vs plan_charge. Policy: bill components and dispute process. DATABASE FACTS: [{""table"": ""invoices"", ""record_id"": 5012, ""field"": ""total_amount"", ""value"": ""1151.76""}, {""table"": ""invoices"", ""record_id"": 5012, ""field"": ""plan_charge"", ""value"": ""899.00""}] DOCUMENT FAQ_C04_007: Question: Why is my postpaid bill higher than my plan rental this month? Answer: ### Short Answer Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance. A full itemised breakdown is available under Billing > View Bill Details in",1,2,,
+B,Q08,3,syn,There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?,"To determine whether NovaTel is experiencing a network outage in your area, you should check both the coverage map and the Service Status. If the map shows your area as covered but the Service Status indicates an outage, you should wait for restoration. If the map shows your area outside the current tower coverage, you should report the location so it can be logged for network planning.
+
+[Reference: E1]","# How to Check and Report a Network Outage **Document ID:** KB_C08_outage_status_check **Category:** C08 — Network Coverage & Outages **Department:** Network **Customer Scope:** all **Last Updated:** 2026-07-09 **Version:** 1.0 **Source Authority:** Internal Knowledge Base --- ## Summary This article explains how network coverage & outages issues in this area are diagnosed and resolved, and what customers and front-line agents should check before escalating. ## Symptoms - The customer has already attempted the standard steps without success. - The self-care app or portal shows an error, a stuck status, or no visible change after the action. - The issue is intermittent and not consistently re",1,2,,
+B,MH05,3,multi,"For the phishing SMS campaign INC-2026-0197, how quickly was the anti-fraud alert broadcast and which takedown arrangement gap did the RCA identify?","The anti-fraud alert for the phishing SMS campaign INC-2026-0197 was broadcast within 4 hours of the initial customer reports, as documented in the incident report [E2]. The takedown arrangement gap identified by the RCA was the lack of a pre-existing rapid-takedown relationship with the specific hosting provider used for the phishing domain [E1].","REFERENCE ANSWER: The anti-fraud short-code alert was broadcast within 4 hours. The RCA found no pre-existing rapid-takedown relationship with the hosting provider used for the phishing domain. DOCUMENT INC_C18_INC_2026_0197: ity:** Internal Knowledge Base --- ## Summary A third-party phishing campaign sent SMS messages impersonating NovaTel billing alerts with a malicious link. ## Detection Method Identified during routine NOC dashboard review, ahead of any customer-reported tickets. ## Timeline Flagged via customer fraud reports; anti-fraud short code alert broadcast within 4 hours; domain reported for takedown; law-enforcement liaison initiated. | Time | Event | Observation | Action | |--",1,2,,
+A,MH_RB_B01,2,cross,"For customer 1042: My KYC is showing pending - will my number get disconnected, and what do I need to do?","Hello Customer 1042,
+
+Thank you for reaching out to us. If your KYC (Know Your Customer) verification is pending, it does not necessarily mean that your service will be disconnected. However, to ensure a smooth experience and to avoid any potential disruptions, it's important to complete the verification process as soon as possible.
+
+Here’s what you need to do:
+
+1. **Log in to Your Account**: Go to our official website or mobile app and log in to your account.
+2. **Navigate to KYC Section**: Look for the KYC or Verification section in your account settings.
+3. **Upload Required Documents**: Ensure you have the necessary documents ready, such as a government-issued ID and a recent utility bill or bank statement. Upload these documents as per the instructions provided.
+4. **Submit for Verification**: Once you have uploaded the documents, submit the request for verification.
+5. **Check Status**: Keep an eye on the status of your KYC verification. You can usually track this within your account dashboard.
+
+If you encounter any issues or need further assistance, please feel free to contact our customer support team. We are here to help and ensure that you have a seamless experience.
+
+Thank you for your understanding and cooperation.
+
+Best regards,
+NovaTel Customer Support","REFERENCE ANSWER: Personal: kyc_status Pending and no kyc_records rows. Policy: failing to complete re-verification within the notified window may lead to suspension. DATABASE FACTS: [{""table"": ""customer_master"", ""record_id"": 1042, ""field"": ""kyc_status"", ""value"": ""Pending""}] DOCUMENT FAQ_C17_034: Question: How do I complete re-verification if I'm asked to update my KYC? Answer: ### Short Answer Visit a NovaTel Experience Store with original ID proof, or complete Video KYC via the app under Account > KYC Update if enabled in your circle. Failure to complete requested re-verification within the notified window may result in service suspension per licence conditions. ### Detailed Explanation Tw",0,2,,
+B2,Q28,1,syn,What is TRAI's role in regulating telecom operators like NovaTel?,"### TRAI's Role in Regulating NovaTel
+
+The Telecom Regulatory Authority of India (TRAI) plays a crucial role in regulating telecom operators like NovaTel. TRAI's responsibilities encompass several key areas:
+
+1. **Tariff Oversight**: TRAI ensures that tariffs and charges for telecom services are transparent and fair.
+2. **Quality-of-Service Benchmarks**: It sets and monitors quality-of-service standards to ensure that telecom services meet certain benchmarks.
+3. **Consumer Protection**: TRAI implements and enforces rules related to consumer protection, such as Do Not Disturb (DND), Know Your Customer (KYC), and Mobile Number Portability (MNP).
+4. **Licence Compliance**: It oversees the compliance of telecom operators with their licenses and regulatory requirements.
+
+These regulatory functions are detailed in NovaTel's internal policy documents, which emphasize the company's commitment to compliance with applicable telecom regulatory requirements, including tariff transparency, quality-of-service reporting, and consumer protection rules [E2].
+
+### Key Points
+
+- **Scope**: TRAI's regulatory framework applies to all telecom operators, including NovaTel, ensuring consistent and fair treatment across all services and customer segments.
+- **Customer Protection**: Rules such as DND, KYC, and MNP are implemented in line with TRAI regulations, ensuring that customers' rights are protected.
+- **Compliance and Reporting**: NovaTel is required to publish quarterly Quality of Service (QoS","Regulatory Compliance and TRAI Disclosure Policy Document ID: Policy_C28_regulatory_compliance Category: C28 — Regulatory & Compliance (TRAI) Department: Legal Customer Scope: all Version: 1.0 Last Updated: 2026-08-08 Source Authority: Internal Knowledge Base Policy Statement Describes NovaTel's commitment to compliance with applicable telecom regulatory requirements, including tariff transparency, Quality of Service (QoS) reporting, and consumer protection rules. Purpose Ensures consistent, compliant, and customer-fair treatment across all channels and customer segments. Scope Applies to all prepaid, postpaid, and (where noted) enterprise customers, and to all NovaTel-authorised channels. D",2,2,,
+A,MH_RB_B06,3,cross,"For customer 1003: My latest postpaid bill looks higher than my plan rental - what does it show, and how do I dispute it?","Hello Customer 1003,
+
+Thank you for reaching out to us. I understand that you're concerned about your latest postpaid bill. Let's break down what your bill might include and how you can dispute it if necessary.
+
+1. **Bill Breakdown**: Your postpaid bill typically includes the plan rental, which is the fixed monthly fee for your service, as well as additional charges such as data usage, voice calls, text messages, international charges, and any applicable taxes or surcharges.
+
+2. **Review Your Usage**: First, I recommend reviewing your usage details to see if there were any unexpected charges. You can usually find this information in the ""Usage Summary"" section of your bill or through our mobile app/web portal. If you notice any discrepancies, please note them down.
+
+3. **Contact Us**: If you find that the charges are higher than expected, you can contact our customer support team. You can reach us via phone, email, or our live chat service. Our support team will be able to review your bill and provide you with a detailed explanation of the charges.
+
+4. **Dispute Process**: If you believe there is an error, we can initiate a dispute. During the dispute process, we will verify the charges and provide you with a corrected bill if necessary. You can also request a detailed itemization of your bill to understand each charge better.
+
+5. **Customer Support Contact Information**: You can reach us at 1-800-555-1234 or through our website at [www.novatel.com/support](http://www.novatel","REFERENCE ANSWER: Personal: latest invoice total vs plan_charge. Policy: bill components and dispute process. DATABASE FACTS: [{""table"": ""invoices"", ""record_id"": 5012, ""field"": ""total_amount"", ""value"": ""1151.76""}, {""table"": ""invoices"", ""record_id"": 5012, ""field"": ""plan_charge"", ""value"": ""899.00""}] DOCUMENT FAQ_C04_007: Question: Why is my postpaid bill higher than my plan rental this month? Answer: ### Short Answer Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance. A full itemised breakdown is available under Billing > View Bill Details in",1,2,,
+B,RW_004,1,trai,How can I complain to my telecom service provider?,"To complain to your telecom service provider, you can follow these steps based on the evidence provided:
+
+1. **Contact the Complaint Centre**: Every service provider is required to establish a Complaint Centre for redressal of complaints and addressing service requests. These centres are accessible between 0800 hrs and 2400 hrs on all days of the week [E1].
+
+2. **Register Your Complaint**: When you contact the Complaint Centre, they will register your complaint and assign a unique docket number. They will also communicate the docket number, date and time of registration, and the estimated time for resolution via SMS [E2].
+
+3. **Follow Up**: The service provider is required to retain the details of complaints for a minimum period of three months. You can follow up on the status of your complaint through the Complaint Centre [E2].
+
+These steps ensure that your complaint is registered and addressed by the service provider, contributing to the effective redressal of consumer grievances in the telecom sector [E4].","1 TO BE PUBLISHED IN THE GAZETTE OF INDIA, EXTRAORDINARY, PART III, SECTION 4 TELECOM REGULATORY AUTHORITY OF INDIA NOTIFICATION NEW DELHI, THE 5th JANUARY, 2012 No. 305-20/2009-QoS.-----In exercise of the powers conferred by section 36, read with sub-clauses (i) and (v) of clause (b) of sub-section (1) of section 11, of the Telecom Regulatory Authority of India Act, 1997 (24 of 1997), the Telecom Regulatory Authority of India hereby makes the following regulations namely: - TELECOM CONSUMERS COMPLAINT REDRESSAL REGULATIONS, 2012 (1 OF 2012) CHAPTER I PRELIMINARY 1. Short title, commencement and application.----(1) These regulations may be called the Telecom Consumers Complaint Redressal Reg",2,2,,
+C,RW_007,1,trai,How can I stop receiving unwanted promotional calls and messages?,"To stop receiving unwanted promotional calls and messages, you can:
+
+- Send 'START 0' via SMS to the DND short code, or use Help > DND Preferences in the app to block all commercial communication [E1].
+- Alternatively, send 'START' followed by a category code to block specific categories of commercial communication, as per TRAI's DND regulations [E1].
+
+These options allow you to choose between a full block of all commercial communication or a more selective block based on specific categories [E1]. The framework for these regulations is provided by TRAI's DND guidelines [E2][E3].","1 TO BE PUBLISHED IN THE GAZETTE OF INDIA, EXTRAORDINARY, PART III, SECTION 4 TELECOM REGULATORY AUTHORITY OF INDIA NOTIFICATION New Delhi, the 19th July, 2018 No. 311-04/2017-QoS: - In exercise of powers conferred by section 36 read with sub-clause (v) of clause (b) and clause (c) of sub-section (1) of section 11 of the Telecom Regulatory Authority of India Act 1997 (24 of 1997), the Telecom Regulatory Authority of India hereby makes the following regulations, namely:- THE TELECOM COMMERCIAL COMMUNICATIONS CUSTOMER PREFERENCE REGULATIONS, 2018 (6 of 2018) CHAPTER-I Preliminary 1. Short title and commencement. - These regulations may be called the Telecom Commercial Communications Customer P",2,2,,
+B,MH13,1,multi,"For customer 2738, what is the status of ticket 11011 and what level and status does its escalation case have?","For customer 2738, the status of ticket 11011 is InProgress [E1]. The escalation case for ticket 11011 has been escalated to a specialist team [E2][E4].","REFERENCE ANSWER: Ticket 11011 (customer 2738) has status InProgress; its escalation case(s): 28248 (level L1, status Open). DATABASE FACTS: [{""table"": ""tickets"", ""record_id"": ""11011"", ""field"": ""status"", ""value"": ""InProgress""}, {""table"": ""escalation_cases"", ""record_id"": ""28248"", ""field"": ""level"", ""value"": ""L1""}, {""table"": ""escalation_cases"", ""record_id"": ""28248"", ""field"": ""status"", ""value"": ""Open""}]",1,2,,
+A,RW_001,3,trai,What rights do I have as a telecom customer?,"As a telecom customer, you have several rights that are generally protected by consumer protection laws and regulations. Here are some key rights you should be aware of:
+
+1. **Right to Privacy**: You have the right to privacy regarding your personal information and communications. This includes the right to know what information is being collected and how it is being used.
+
+2. **Right to Choose Services**: You have the right to choose from a variety of services and providers. This includes the right to compare different plans and services before making a decision.
+
+3. **Right to Fair Billing**: You have the right to receive accurate and fair billing. This means that your bills should be clear and understandable, and you should be notified of any changes or additional charges.
+
+4. **Right to Cancel Services**: In many regions, you have the right to cancel your service within a certain period after signing up, often referred to as a ""cooling-off period."" This period can vary by country or region.
+
+5. **Right to Complain**: You have the right to make a complaint if you are unsatisfied with the service or billing. Telecom companies are usually required to have a process in place for handling complaints.
+
+6. **Right to Privacy of Communications**: Your communications should be private and confidential. This includes the right to protection against unauthorized access to your communications.
+
+7. **Right to Data Protection**: You have the right to have your personal data protected a","1 TELECOM REGULATORY AUTHORITY OF INDIA CONSOLIDATED TELECOM CONSUMERS PROTECTION REGULATIONS (TCPR), 2025 (UPDATED TILL 12TH AMENDMENT, March 2025) DISCLAIMER This compendium is intended for informational purposes only. While preparing this compendium, every effort has been made to ensure the accuracy and completeness of the information contained herein. The readers are, however, advised to refer to the text of the Regulation and its amendments, as published in the Gazette of India, for exact reproduction of the officially notified regulations. Under no circumstances shall the Telecom Regulatory Authority of India be liable for any loss, damage, liability or expense incurred or suffered tha",1,2,,
+A,Q28,2,syn,What is TRAI's role in regulating telecom operators like NovaTel?,"TRAI, the Telecom Regulatory Authority of India, plays a crucial role in regulating telecom operators, including NovaTel. Its primary responsibilities include:
+
+1. **Setting Tariffs and Rates**: TRAI has the authority to set and regulate tariffs and rates for telecom services to ensure they are reasonable and non-discriminatory.
+
+2. **Service Quality Standards**: It sets and monitors service quality standards to ensure that telecom operators provide reliable and high-quality services to their customers.
+
+3. **Consumer Protection**: TRAI works to protect the interests of telecom consumers by ensuring that operators comply with consumer protection laws and regulations.
+
+4. **Promoting Competition**: It promotes fair competition in the telecom market to ensure that consumers benefit from a wide range of services and competitive pricing.
+
+5. **Regulation of New Technologies**: TRAI regulates the introduction and use of new technologies in the telecom sector to ensure they are safe, effective, and in the best interest of consumers.
+
+6. **Dispute Resolution**: It provides mechanisms for resolving disputes between telecom operators and their customers.
+
+7. **Policy Formulation**: TRAI also formulates policies and guidelines for the telecom sector to ensure its sustainable growth and development.
+
+By performing these roles, TRAI ensures that telecom operators like NovaTel operate in a fair, transparent, and consumer-friendly environment.","Regulatory Compliance and TRAI Disclosure Policy Document ID: Policy_C28_regulatory_compliance Category: C28 — Regulatory & Compliance (TRAI) Department: Legal Customer Scope: all Version: 1.0 Last Updated: 2026-08-08 Source Authority: Internal Knowledge Base Policy Statement Describes NovaTel's commitment to compliance with applicable telecom regulatory requirements, including tariff transparency, Quality of Service (QoS) reporting, and consumer protection rules. Purpose Ensures consistent, compliant, and customer-fair treatment across all channels and customer segments. Scope Applies to all prepaid, postpaid, and (where noted) enterprise customers, and to all NovaTel-authorised channels. D",2,2,,
+C,Q01,1,syn,I don't have access to my old registered phone number anymore. How can I update the number on my account?,"To update the mobile number registered on your account, follow these steps:
+
+1. **Log in to the My NovaTel app or self-care portal** and go to **Profile > Contact Details**. Select 'Update Alternate Number'. You will need to verify via OTP sent to your existing registered number. [E1][E2]
+
+2. If you no longer have access to your existing registered number, you must visit a **NovaTel Experience Store** with valid photo ID. [E1]
+
+3. The in-store fallback exists specifically for the case where the OTP route isn't available to you. [E1]
+
+4. If OTP verification isn't possible because the old number is unreachable, the store visit is the designated fallback rather than a general support escalation. [E1]
+
+5. Before visiting the store, ensure you have a valid form of photo ID. [E1]
+
+This process ensures that NovaTel confirms your identity before updating your account information. [E1]","Question: How do I update the mobile number registered on my account? Answer: ### Short Answer Log in to the My NovaTel app or self-care portal, go to Profile > Contact Details, and select 'Update Alternate Number'. You will need to verify via OTP sent to your existing registered number. If you no longer have access to it, visit a NovaTel Experience Store with valid photo ID. ### Detailed Explanation The update is self-service by default: the app/portal path lets you change the number in one step, but NovaTel still needs to confirm you're the account holder before applying it, which is why an OTP goes to the number currently on file rather than the new one. The in-store fallback exists speci",2,2,,
+B,MH_RB_B01,1,cross,"For customer 1042: My KYC is showing pending - will my number get disconnected, and what do I need to do?","For customer 1042, if KYC is showing pending, it may result in the number getting disconnected, as per the information provided in the evidence [E2]. To resolve this, you should complete the KYC verification step via Video KYC in the My NovaTel app under Account > KYC Update, or visit a store with original ID and address proof. If you are unable to complete it, contact care with your application/reference number for further assistance. [E1][E2][E3][E4][E5]","REFERENCE ANSWER: Personal: kyc_status Pending and no kyc_records rows. Policy: failing to complete re-verification within the notified window may lead to suspension. DATABASE FACTS: [{""table"": ""customer_master"", ""record_id"": 1042, ""field"": ""kyc_status"", ""value"": ""Pending""}] DOCUMENT FAQ_C17_034: Question: How do I complete re-verification if I'm asked to update my KYC? Answer: ### Short Answer Visit a NovaTel Experience Store with original ID proof, or complete Video KYC via the app under Account > KYC Update if enabled in your circle. Failure to complete requested re-verification within the notified window may result in service suspension per licence conditions. ### Detailed Explanation Tw",2,2,,
+A,Q04,2,syn,Why is my latest postpaid bill higher than the monthly rental I expected to pay?,"Hello! I understand you're concerned about your latest postpaid bill being higher than expected. There are a few common reasons why your bill might be higher than anticipated:
+
+1. **Additional Services**: Have you added any new services or features to your plan recently, such as international calling, messaging, or data services? These can increase your bill.
+
+2. **Usage**: Your bill might be higher due to increased usage. Check if you've used more data, made more calls, or sent more texts than usual. Overages can significantly increase your bill.
+
+3. **Plan Changes**: If you or someone else changed your plan recently, the new plan might have a higher cost than your previous one.
+
+4. **Late Payment Fees**: If there was a delay in making your payment, you might have incurred late payment fees.
+
+5. **Special Offers or Promotions**: Sometimes, special offers or promotions can lead to higher bills if they include additional charges or if the offer period has ended.
+
+To help you better understand the specifics of your bill, you can:
+
+- Review the detailed breakdown of your bill to see where the extra charges are coming from.
+- Check your usage history to see if there was any unexpected usage.
+- Contact our customer support team for a detailed explanation and to discuss any concerns you might have.
+
+If you need further assistance, feel free to provide more details, and I'll do my best to help you!","Question: Why is my postpaid bill higher than my plan rental this month? Answer: ### Short Answer Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance. A full itemised breakdown is available under Billing > View Bill Details in the app. ### Detailed Explanation A bill above the base rental is essentially the sum of several possible add-ons — none of them mean an error occurred. The itemised breakdown exists precisely so a customer doesn't have to guess which of the five listed causes applied to their specific bill. ### Key Details | Detail | ",1,2,,
+B,MH02,2,multi,"In incident INC-2026-0163, how many postpaid customers were billed twice and how quickly were the duplicate charges reversed, and what configuration change made the billing batch run twice?","In incident INC-2026-0163, approximately 12,000 postpaid customers were billed twice due to a duplicate batch-job execution [E2]. The duplicate charges were auto-reversed within 48 hours [E3]. The configuration change that caused the billing batch run twice was an inadvertent scheduler configuration change that left the previous month's billing job trigger active alongside the new one [E2].","REFERENCE ANSWER: About 12,000 postpaid customers were billed twice; duplicate charges were auto-reversed within 48 hours. A scheduler configuration change left the previous month's billing job trigger active alongside the new one. DOCUMENT INC_C04_INC_2026_0163: Incident Report: Duplicate Billing Cycle Run for Postpaid Segment **Document ID:** INC_C04_INC_2026_0163 **Category:** C04 — Billing & Invoices **Department:** Billing **Customer Scope:** all **Last Updated:** 2026-07-08 **Version:** 1.0 **Source Authority:** Internal Knowledge Base --- ## Summary A scheduling error in the billing batch job caused ~12,000 postpaid customers to be billed twice for the June cycle. ## Detection Method ",2,2,,
+B,Q04,3,syn,Why is my latest postpaid bill higher than the monthly rental I expected to pay?,"Based on the evidence provided, your latest postpaid bill is higher than the monthly rental you expected to pay due to additional charges beyond the base plan rental. These additional charges can include:
+
+- Pro-rated charges for a mid-cycle plan change
+- Roaming usage
+- Premium/IVR services
+- GST
+- Usage beyond your plan's fair-usage allowance
+
+To understand the specific causes for the higher bill, you should review the itemised breakdown available under Billing > View Bill Details in the app. [E2][E4]","Question: Why is my postpaid bill higher than my plan rental this month? Answer: ### Short Answer Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance. A full itemised breakdown is available under Billing > View Bill Details in the app. ### Detailed Explanation A bill above the base rental is essentially the sum of several possible add-ons — none of them mean an error occurred. The itemised breakdown exists precisely so a customer doesn't have to guess which of the five listed causes applied to their specific bill. ### Key Details | Detail | ",2,2,,
+A,Q08,1,syn,There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?,"To check if NovaTel is experiencing a network outage in your area, you can follow these steps:
+
+1. **Visit the NovaTel Website**: Go to the official NovaTel website and look for a section dedicated to service status or outages. Many service providers have a page that updates on the status of their network.
+
+2. **Check Social Media**: Follow NovaTel on social media platforms like Twitter or Facebook. Service providers often post updates about outages and expected resolution times on these platforms.
+
+3. **Contact Customer Support**: Reach out to NovaTel’s customer support directly. You can usually find contact information on their website or through their mobile app. They can provide you with the most accurate and up-to-date information about any network outages in your area.
+
+4. **Use Online Outage Maps**: Some service providers use online tools or apps that map outages. Check if NovaTel has such a tool available.
+
+5. **Community Forums and Local Groups**: Sometimes, local community forums or social groups can be a good source of information. Other users might have experienced the same issue and can share their experiences or solutions.
+
+If you find that there is indeed a network outage, staying in touch with these resources can help you stay informed about when service might be restored.","# How to Check and Report a Network Outage **Document ID:** KB_C08_outage_status_check **Category:** C08 — Network Coverage & Outages **Department:** Network **Customer Scope:** all **Last Updated:** 2026-07-09 **Version:** 1.0 **Source Authority:** Internal Knowledge Base --- ## Summary This article explains how network coverage & outages issues in this area are diagnosed and resolved, and what customers and front-line agents should check before escalating. ## Symptoms - The customer has already attempted the standard steps without success. - The self-care app or portal shows an error, a stuck status, or no visible change after the action. - The issue is intermittent and not consistently re",2,2,,
+A,MH04,1,multi,"In the My NovaTel app login outage INC-2026-0184, how long were logins blocked and why did the automated testing not catch the cause?","For the My NovaTel app login outage INC-2026-0184, the logins were blocked for approximately 2 hours, from 14:00 to 16:00 on [specific date, if known]. During this time, users were unable to log in to the app.
+
+The outage was caused by an unexpected interaction between the app and our backend servers, specifically an issue with the authentication process. The automated testing did not catch this issue because the test scenarios were not designed to replicate the exact conditions that led to the problem. Our testing typically covers a wide range of scenarios, but sometimes edge cases or specific combinations of user actions can introduce issues that are not fully covered.
+
+We are continuously working to improve our testing processes to ensure that such outages are caught before they affect our users. We apologize for any inconvenience this may have caused and appreciate your patience and understanding. If you have any further questions or need assistance, please feel free to ask.","REFERENCE ANSWER: Logins were blocked for 55 minutes. A TLS certificate reference pointed to a staging certificate instead of production, and the deployment's automated smoke tests did not check certificate validity or environment. DOCUMENT INC_C13_INC_2026_0184: t ID:** INC_C13_INC_2026_0184 **Category:** C13 — App & Self-Care Portal **Department:** Digital Channels **Customer Scope:** all **Last Updated:** 2026-07-10 **Version:** 1.0 **Source Authority:** Internal Knowledge Base --- ## Summary An authentication microservice deployment introduced a certificate misconfiguration, blocking all app logins for 55 minutes. ## Detection Method Detected automatically via NOC monitoring alarms, whic",0,1,,
+B,Q08,2,syn,There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?,"To determine whether NovaTel is experiencing a network outage in your area, you should check both the coverage map and the Service Status. If the map shows your area as covered but the Service Status indicates an outage, you should wait for restoration. If the map shows your area outside the current tower coverage, you should report the location so it can be logged for network planning.
+
+[Reference: E1]","# How to Check and Report a Network Outage **Document ID:** KB_C08_outage_status_check **Category:** C08 — Network Coverage & Outages **Department:** Network **Customer Scope:** all **Last Updated:** 2026-07-09 **Version:** 1.0 **Source Authority:** Internal Knowledge Base --- ## Summary This article explains how network coverage & outages issues in this area are diagnosed and resolved, and what customers and front-line agents should check before escalating. ## Symptoms - The customer has already attempted the standard steps without success. - The self-care app or portal shows an error, a stuck status, or no visible change after the action. - The issue is intermittent and not consistently re",1,2,,
+B2,MH_RB_B03,1,cross,"For customer 1829: My latest bill is unpaid - if I don't pay, will my number get deactivated, and could I get it back?","Based on the evidence provided, your latest bill (invoice_id=6735) is already paid, so there is no immediate risk of your number being deactivated due to unpaid bills. However, if you fail to pay future bills, your number could be deactivated after the billing cycle ends, and it would enter a retention window (commonly up to 90 days) during which you can clear the dues and re-activate it [E2].
+
+If you do not clear the dues within this window, the number will be permanently released and cannot be recovered [E2]. Therefore, it is important to ensure that all future bills are paid on time to avoid any deactivation.
+
+For further assistance, you can contact NovaTel's Customer Care to discuss your payment options or to request re-activation if your number is deactivated within the retention window [E2][E6].","REFERENCE ANSWER: Personal: invoice Unpaid (see data-trap note on RB_S06). Policy: reactivation after non-payment deactivation. DATABASE FACTS: [{""table"": ""invoices"", ""record_id"": 6740, ""field"": ""payment_status"", ""value"": ""Unpaid""}, {""table"": ""invoices"", ""record_id"": 6740, ""field"": ""due_date"", ""value"": ""2026-09-15""}] DOCUMENT FAQ_C21_042: Question: Can I reactivate a number that was deactivated for non-payment?  Answer: ### Short Answer  Reactivation is possible within the operator's retention window (commonly up to 90 days) by clearing dues and completing any required re-verification. Beyond this window the number may be permanently released and cannot be recovered.  ### Detailed Explanatio",0,1,,
+B2,Q04,2,syn,Why is my latest postpaid bill higher than the monthly rental I expected to pay?,"Based on the evidence provided, your latest postpaid bill is higher than the monthly rental you expected to pay due to additional charges beyond the base plan rental. Specifically, the bill includes usage charges, value-added service (VAS) charges, and GST. These charges can be attributed to:
+
+- Usage beyond your plan's fair-usage allowance [E2][E4]
+- Value-added services (VAS) [E2][E4]
+- GST [E2][E4]
+
+To understand the exact breakdown of these charges, you can view the itemised details under the ""Billing > View Bill Details"" section in the app [E2][E4].
+
+For example, in your latest bill (invoice_id=5001), the total amount of 3606.73 includes a plan charge of 2999.0, a usage charge of 38.55, a VAS charge of 19.0, and a tax/GST of 550.18 [E1].
+
+If you have recently made any changes to your plan, travelled, or used premium services, these could also contribute to the higher bill [E2][E4]. Reviewing the itemised breakdown will help you identify which specific charges apply to your bill [E2][E4].","Question: Why is my postpaid bill higher than my plan rental this month? Answer: ### Short Answer Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance. A full itemised breakdown is available under Billing > View Bill Details in the app. ### Detailed Explanation A bill above the base rental is essentially the sum of several possible add-ons — none of them mean an error occurred. The itemised breakdown exists precisely so a customer doesn't have to guess which of the five listed causes applied to their specific bill. ### Key Details | Detail | ",2,2,,
+C,MH_RB_B03,1,cross,"For customer 1829: My latest bill is unpaid - if I don't pay, will my number get deactivated, and could I get it back?","Based on the provided evidence, your latest bill (invoice_id=6735) is already paid, so there is no immediate risk of your number getting deactivated due to unpaid bills.
+
+However, if you do not pay future bills, your number could be deactivated. According to the policy [E2], if you have outstanding dues, your number will enter a regulatory cooling-off period before being recycled. Once the cooling-off period ends, the number will be permanently released and cannot be recovered [E4].
+
+To reactivate your number, you would need to clear all outstanding dues and complete any required re-verification within the retention window, which is commonly up to 90 days [E4]. If the retention window has passed, the number will be permanently released and cannot be recovered [E4].
+
+In summary, paying your bills on time is crucial to avoid deactivation. If you miss payments, the number will be subject to a cooling-off period before potential permanent release. [E2][E4]","REFERENCE ANSWER: Personal: invoice Unpaid (see data-trap note on RB_S06). Policy: reactivation after non-payment deactivation. DATABASE FACTS: [{""table"": ""invoices"", ""record_id"": 6740, ""field"": ""payment_status"", ""value"": ""Unpaid""}, {""table"": ""invoices"", ""record_id"": 6740, ""field"": ""due_date"", ""value"": ""2026-09-15""}] DOCUMENT FAQ_C21_042: Question: Can I reactivate a number that was deactivated for non-payment?  Answer: ### Short Answer  Reactivation is possible within the operator's retention window (commonly up to 90 days) by clearing dues and completing any required re-verification. Beyond this window the number may be permanently released and cannot be recovered.  ### Detailed Explanatio",0,2,,
+C,Q01,2,syn,I don't have access to my old registered phone number anymore. How can I update the number on my account?,"To update the mobile number registered on your account, follow these steps:
+
+1. **Log in to the My NovaTel app or self-care portal** and go to **Profile > Contact Details**. Select 'Update Alternate Number'. You will need to verify via OTP sent to your existing registered number. [E1][E2]
+
+2. If you no longer have access to your existing registered number, you must visit a **NovaTel Experience Store** with valid photo ID. [E1]
+
+3. The in-store fallback exists specifically for the case where the OTP route isn't available to you. [E1]
+
+4. If OTP verification isn't possible because the old number is unreachable, the store visit is the designated fallback rather than a general support escalation. [E1]
+
+5. Before visiting the store, ensure you have a valid form of photo ID. [E1]
+
+This process ensures that NovaTel confirms your identity before updating your account information. [E1]","Question: How do I update the mobile number registered on my account? Answer: ### Short Answer Log in to the My NovaTel app or self-care portal, go to Profile > Contact Details, and select 'Update Alternate Number'. You will need to verify via OTP sent to your existing registered number. If you no longer have access to it, visit a NovaTel Experience Store with valid photo ID. ### Detailed Explanation The update is self-service by default: the app/portal path lets you change the number in one step, but NovaTel still needs to confirm you're the account holder before applying it, which is why an OTP goes to the number currently on file rather than the new one. The in-store fallback exists speci",2,2,,
+B,MH_RB_B05,1,cross,"For customer 1056: My plan ran out a long time ago - can I still get incoming calls, and how do I get service back?","For customer 1056, based on the evidence provided:
+
+- The subscription for customer 1056 expired on 2025-09-22, and the plan has since been in an expired state [E1].
+
+- Incoming calls may still be received for a grace period, which typically ranges from 15 to 90 days depending on the specific plan [E2].
+
+- Outgoing services (calls, SMS, data) have already been suspended [E2].
+
+To get service back, the customer needs to recharge their account. Incoming calls should still be possible during the grace period, but the exact duration of this period is not specified for this customer's plan [E2].
+
+If the recharge is successful, the plan should be renewed, and outgoing services will be restored. If the recharge is not processed, the number may be recycled according to license conditions [E2].","REFERENCE ANSWER: Personal: subscription Expired on 2025-09-22. Policy: grace period for incoming services after expiry. DATABASE FACTS: [{""table"": ""subscriptions"", ""record_id"": 3056, ""field"": ""status"", ""value"": ""Expired""}, {""table"": ""subscriptions"", ""record_id"": 3056, ""field"": ""expiry_date"", ""value"": ""2025-09-22""}] DOCUMENT FAQ_C02_004: Question: What happens if I don't recharge before my plan expires?  Answer: ### Short Answer  Your outgoing services (calls, SMS, data) are suspended, though you can typically still receive incoming calls for a grace period (commonly 15-90 days depending on the plan) before the number is recycled per licence conditions. Recharge promptly to avoid deactivatio",2,2,,
+A,Q04,3,syn,Why is my latest postpaid bill higher than the monthly rental I expected to pay?,"Hello! I understand you're concerned about your latest postpaid bill being higher than expected. There are a few common reasons why your bill might be higher than anticipated:
+
+1. **Additional Services**: Have you added any new services or features to your plan recently, such as international calling, messaging, or data services? These can increase your bill.
+
+2. **Usage**: Your bill might be higher due to increased usage. Check if you've used more data, made more calls, or sent more texts than usual. Overages can significantly increase your bill.
+
+3. **Plan Changes**: If you or someone else changed your plan recently, the new plan might have a higher cost than your previous one.
+
+4. **Late Payment Fees**: If there was a delay in making your payment, you might have incurred late payment fees.
+
+5. **Special Offers or Promotions**: Sometimes, special offers or promotions can lead to higher bills if they include additional charges or if the offer period has ended.
+
+To help you better understand the specifics of your bill, you can:
+
+- Review the detailed breakdown of your bill to see where the extra charges are coming from.
+- Check your usage history to see if there was any unexpected usage.
+- Contact our customer support team for a detailed explanation and to discuss any concerns you might have.
+
+If you need further assistance, feel free to provide more details, and I'll do my best to help you!","Question: Why is my postpaid bill higher than my plan rental this month? Answer: ### Short Answer Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance. A full itemised breakdown is available under Billing > View Bill Details in the app. ### Detailed Explanation A bill above the base rental is essentially the sum of several possible add-ons — none of them mean an error occurred. The itemised breakdown exists precisely so a customer doesn't have to guess which of the five listed causes applied to their specific bill. ### Key Details | Detail | ",1,2,,
+B2,MH03,1,multi,"For the Pune FTTH outage INC-2026-0179, what time was service restored after detection at 14:02 IST, and what long-term fix does the RCA prioritise for the trunk route?","The service was restored at 19:45 IST after the detection at 14:02 IST for the Pune FTTH outage INC-2026-0179 [E2].
+
+The long-term fix prioritised in the RCA for the trunk route is to prioritise route-diversity build-out for the Pune regional trunk given increased customer density, with a target of 6 months and requiring capital planning [E1].","REFERENCE ANSWER: Service was restored at 19:45 IST (detected 14:02 IST). The RCA prioritises route-diversity build-out for the Pune regional trunk. DOCUMENT INC_C25_INC_2026_0179: Scope:** all **Last Updated:** 2026-08-06 **Version:** 1.0 **Source Authority:** Internal Knowledge Base --- ## Summary A construction excavation severed a primary fibre trunk affecting ~2,800 broadband customers. ## Detection Method Identified during routine NOC dashboard review, ahead of any customer-reported tickets. ## Timeline Outage detected 14:02 IST; splicing team dispatched; service restored 19:45 IST after trunk repair and re-splicing. | Time | Event | Observation | Action | |---|---|---|---| | T+0 | Fau",2,,,

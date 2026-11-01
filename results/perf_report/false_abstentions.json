@@ -1,0 +1,143 @@
+{
+  "source": "data/experiments/system_eval/abstention_test_20261031T142243Z_final_test.json",
+  "note": "diagnosis only; nothing was changed",
+  "rows": [
+    {
+      "id": "ABS_TEST_026",
+      "question": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+      "category": "answerable_unstructured_synthetic",
+      "expected": "answer",
+      "gold_documents": [
+        "FAQ_C08_015",
+        "KB_C08_outage_status_check"
+      ],
+      "layer_that_abstained": "generator",
+      "layer_number": 3,
+      "saved_reason": "the generator reported insufficient evidence",
+      "router": {
+        "name": "laya_finetuned",
+        "label": "unstructured",
+        "confidence": 0.992,
+        "final_route": "unstructured"
+      },
+      "retrieval_top5_documents": [
+        "FAQ_C08_015",
+        "FAQ_C11_022",
+        "FAQ_C12_023",
+        "MAN_ESIM_001",
+        "MAN_DEVICE_VOLTE_001"
+      ],
+      "gold_rank_in_top5": 1,
+      "top_crossencoder_sigmoid": 0.975939,
+      "calibrated_threshold": 0.052289,
+      "likely_cause": "generator rule: the retrieval gate passed (sigmoid 0.9759 >= 0.0523) but the generator answered INSUFFICIENT_EVIDENCE; a gold document is in the top 5 at rank 1, so the evidence was present and the strict 'answer only from evidence' rule judged it insufficient (inferred)"
+    },
+    {
+      "id": "ABS_TEST_029",
+      "question": "Are there any special recharge offers available specifically for my mobile number?",
+      "category": "answerable_unstructured_synthetic",
+      "expected": "answer",
+      "gold_documents": [
+        "FAQ_C14_027",
+        "EML_009"
+      ],
+      "layer_that_abstained": "retrieval gate",
+      "layer_number": 2,
+      "saved_reason": "top document relevance 0.001674 is below the calibrated threshold 0.052289",
+      "router": {
+        "name": "laya_finetuned",
+        "label": "unstructured",
+        "confidence": 0.9919,
+        "final_route": "unstructured"
+      },
+      "retrieval_top5_documents": [
+        "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+      ],
+      "gold_rank_in_top5": null,
+      "top_crossencoder_sigmoid": 0.001674,
+      "calibrated_threshold": 0.052289,
+      "likely_cause": "retrieval gate: the top CrossEncoder score (sigmoid 0.0017) is below the calibrated threshold 0.0523; and no gold document is in the top 5, so this is a retrieval miss that the gate correctly turned into a refusal (inferred)"
+    },
+    {
+      "id": "ABS_TEST_037",
+      "question": "What rights do I have as a telecom customer?",
+      "category": "answerable_unstructured_trai",
+      "expected": "answer",
+      "gold_documents": [
+        "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+      ],
+      "layer_that_abstained": "retrieval gate",
+      "layer_number": 2,
+      "saved_reason": "top document relevance 0.023288 is below the calibrated threshold 0.052289",
+      "router": {
+        "name": "laya_finetuned",
+        "label": "unstructured",
+        "confidence": 0.9932,
+        "final_route": "unstructured"
+      },
+      "retrieval_top5_documents": [
+        "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+        "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+        "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+        "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+      ],
+      "gold_rank_in_top5": 3,
+      "top_crossencoder_sigmoid": 0.023288,
+      "calibrated_threshold": 0.052289,
+      "likely_cause": "retrieval gate: the top CrossEncoder score (sigmoid 0.0233) is below the calibrated threshold 0.0523; the gold document PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION IS retrieved (rank 3), so the gate refused answerable evidence: the ms-marco CrossEncoder gives low scores to this broad / regulatory-style question (inferred)"
+    },
+    {
+      "id": "ABS_TEST_039",
+      "question": "What should I do if my telecom company does not resolve my complaint?",
+      "category": "answerable_unstructured_trai",
+      "expected": "answer",
+      "gold_documents": [
+        "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+      ],
+      "layer_that_abstained": "generator",
+      "layer_number": 3,
+      "saved_reason": "the generator reported insufficient evidence",
+      "router": {
+        "name": "laya_finetuned",
+        "label": "unstructured",
+        "confidence": 0.9929,
+        "final_route": "unstructured"
+      },
+      "retrieval_top5_documents": [
+        "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+        "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+        "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+      ],
+      "gold_rank_in_top5": 2,
+      "top_crossencoder_sigmoid": 0.72701,
+      "calibrated_threshold": 0.052289,
+      "likely_cause": "generator rule: the retrieval gate passed (sigmoid 0.7270 >= 0.0523) but the generator answered INSUFFICIENT_EVIDENCE; a gold document is in the top 5 at rank 2, so the evidence was present and the strict 'answer only from evidence' rule judged it insufficient (inferred)"
+    },
+    {
+      "id": "ABS_TEST_046",
+      "question": "Where can I find information about how the telecom sector is performing?",
+      "category": "answerable_unstructured_trai",
+      "expected": "answer",
+      "gold_documents": [
+        "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+      ],
+      "layer_that_abstained": "generator",
+      "layer_number": 3,
+      "saved_reason": "the generator reported insufficient evidence",
+      "router": {
+        "name": "laya_finetuned",
+        "label": "hybrid",
+        "confidence": 0.9931,
+        "final_route": "hybrid"
+      },
+      "retrieval_top5_documents": [
+        "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+        "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+      ],
+      "gold_rank_in_top5": 2,
+      "top_crossencoder_sigmoid": 0.370017,
+      "calibrated_threshold": 0.052289,
+      "likely_cause": "generator rule: the retrieval gate passed (sigmoid 0.3700 >= 0.0523) but the generator answered INSUFFICIENT_EVIDENCE; a gold document is in the top 5 at rank 2, so the evidence was present and the strict 'answer only from evidence' rule judged it insufficient (inferred)"
+    }
+  ]
+}

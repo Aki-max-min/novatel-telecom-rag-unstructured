@@ -1,0 +1,1567 @@
+{
+  "note": "read-only diagnosis from saved records; retrieval is identical across runs for these arms, so run 1 is used for 6a",
+  "6a_graph_expansion_core14": {
+    "summary": {
+      "n_questions": 14,
+      "gold_rank_1": {
+        "B2": 11,
+        "docgraph": 8,
+        "C": 8
+      },
+      "added_chunks_total": 36,
+      "added_chunks_relevant": 4,
+      "added_via_RELATED_TO": 0,
+      "questions_that_lost_rank_1": 3,
+      "why_rank_1_lost": {
+        "rank-1 document in docgraph was a chunk added by the expansion": 3
+      },
+      "questions_with_added_chunks": 6
+    },
+    "rows": [
+      {
+        "question_id": "Q01",
+        "query": "I don't have access to my old registered phone number anymore. How can I update the number on my account?",
+        "gold_documents": [
+          "FAQ_C01_001"
+        ],
+        "gold_rank_B2": 1,
+        "gold_rank_docgraph": 1,
+        "gold_rank_C": 1,
+        "B2_top3": [
+          "FAQ_C01_001",
+          "TRX_002",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "docgraph_top3": [
+          "FAQ_C01_001",
+          "TRX_002",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "seeds": [
+          "FAQ_C01_001",
+          "TRX_002",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "TRX_004",
+          "FAQ_C29_057"
+        ],
+        "concept": null,
+        "graph_weight": 0.0,
+        "n_added_chunks": 0,
+        "added_chunks": [],
+        "lost_rank_1": false,
+        "docgraph_rank1_doc": "FAQ_C01_001",
+        "docgraph_rank1_was_added_by_expansion": false,
+        "B2_rank1_doc": "FAQ_C01_001"
+      },
+      {
+        "question_id": "RW_001",
+        "query": "What rights do I have as a telecom customer?",
+        "gold_documents": [
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+        ],
+        "gold_rank_B2": 3,
+        "gold_rank_docgraph": 3,
+        "gold_rank_C": 3,
+        "B2_top3": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+        ],
+        "docgraph_top3": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+        ],
+        "seeds": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+        ],
+        "concept": null,
+        "graph_weight": 0.0,
+        "n_added_chunks": 0,
+        "added_chunks": [],
+        "lost_rank_1": false,
+        "docgraph_rank1_doc": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+        "docgraph_rank1_was_added_by_expansion": false,
+        "B2_rank1_doc": "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+      },
+      {
+        "question_id": "Q04",
+        "query": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
+        "gold_documents": [
+          "FAQ_C04_007",
+          "KB_C04_bill_disputes"
+        ],
+        "gold_rank_B2": 1,
+        "gold_rank_docgraph": 1,
+        "gold_rank_C": 1,
+        "B2_top3": [
+          "FAQ_C04_007",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "TARIFF_POSTPAID_2026H2"
+        ],
+        "docgraph_top3": [
+          "KB_C04_bill_disputes",
+          "TRN_001",
+          "RCA_INC_2026_0163"
+        ],
+        "seeds": [
+          "FAQ_C04_007",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "TARIFF_POSTPAID_2026H2",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "concept": "Billing & Invoices",
+        "graph_weight": 0.5,
+        "n_added_chunks": 8,
+        "added_chunks": [
+          {
+            "chunk": "TRN_001_chunk_000",
+            "document_id": "TRN_001",
+            "source_category": {
+              "category": "GENERAL",
+              "document_type": "Training Manual",
+              "corpus": "NovaTel Synthetic",
+              "title": "New Hire Foundations: Handling Billing Queries"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Plan Change",
+              "Service:Refund",
+              "Service:Roaming Activation"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "RCA_INC_2026_0163_chunk_000",
+            "document_id": "RCA_INC_2026_0163",
+            "source_category": {
+              "category": "C04",
+              "document_type": "RCA",
+              "corpus": "NovaTel Synthetic",
+              "title": "RCA: Duplicate Postpaid Billing Cycle Run (INC-2026-0163)"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Refund",
+              "Tag:c04"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "TARIFF_PREPAID_2026H2_chunk_000",
+            "document_id": "TARIFF_PREPAID_2026H2",
+            "source_category": {
+              "category": "C02",
+              "document_type": "Tariff Catalogue",
+              "corpus": "NovaTel Synthetic",
+              "title": "Prepaid Tariff Catalogue — H2 2026"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Channel:Self-Care Portal",
+              "Service:Refund",
+              "Service:Roaming Activation"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "FAQ_C04_008_chunk_000",
+            "document_id": "FAQ_C04_008",
+            "source_category": {
+              "category": "C04",
+              "document_type": "FAQ",
+              "corpus": "NovaTel Synthetic",
+              "title": "Can I get my bill in a different language or in large print?"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Tag:billing",
+              "Tag:c04"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "KB_C04_bill_disputes_chunk_001",
+            "document_id": "KB_C04_bill_disputes",
+            "source_category": {
+              "category": "C04",
+              "document_type": "KB Article",
+              "corpus": "NovaTel Synthetic",
+              "title": "Reading and Disputing Your Postpaid Bill"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Channel:Self-Care Portal",
+              "Service:Plan Change",
+              "Tag:c04"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": true
+          },
+          {
+            "chunk": "FAQ_C07_014_chunk_000",
+            "document_id": "FAQ_C07_014",
+            "source_category": {
+              "category": "C07",
+              "document_type": "FAQ",
+              "corpus": "NovaTel Synthetic",
+              "title": "What happens if I don't activate a roaming pack and use my phone abroad?"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Roaming Activation"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "Policy_C02_plan_lifecycle_chunk_000",
+            "document_id": "Policy_C02_plan_lifecycle",
+            "source_category": {
+              "category": "C02",
+              "document_type": "Policy",
+              "corpus": "NovaTel Synthetic",
+              "title": "Prepaid & Postpaid Plan Lifecycle Policy"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Plan Change"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "KB_C13_selfcare_login_issues_chunk_001",
+            "document_id": "KB_C13_selfcare_login_issues",
+            "source_category": {
+              "category": "C13",
+              "document_type": "KB Article",
+              "corpus": "NovaTel Synthetic",
+              "title": "Resolving My NovaTel App Login and OTP Issues"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Channel:Self-Care Portal",
+              "Service:Plan Change"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          }
+        ],
+        "lost_rank_1": false,
+        "docgraph_rank1_doc": "KB_C04_bill_disputes",
+        "docgraph_rank1_was_added_by_expansion": true,
+        "B2_rank1_doc": "FAQ_C04_007"
+      },
+      {
+        "question_id": "RW_004",
+        "query": "How can I complain to my telecom service provider?",
+        "gold_documents": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+        ],
+        "gold_rank_B2": 1,
+        "gold_rank_docgraph": 1,
+        "gold_rank_C": 1,
+        "B2_top3": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "docgraph_top3": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "seeds": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "concept": null,
+        "graph_weight": 0.0,
+        "n_added_chunks": 0,
+        "added_chunks": [],
+        "lost_rank_1": false,
+        "docgraph_rank1_doc": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+        "docgraph_rank1_was_added_by_expansion": false,
+        "B2_rank1_doc": "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+      },
+      {
+        "question_id": "Q08",
+        "query": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+        "gold_documents": [
+          "KB_C08_outage_status_check",
+          "FAQ_C08_015"
+        ],
+        "gold_rank_B2": 1,
+        "gold_rank_docgraph": 3,
+        "gold_rank_C": 3,
+        "B2_top3": [
+          "FAQ_C08_015",
+          "FAQ_C11_022",
+          "FAQ_C12_023"
+        ],
+        "docgraph_top3": [
+          "FAQ_C08_016",
+          "SOP_C08_OUTAGE_MANAGEMENT",
+          "KB_C08_outage_status_check"
+        ],
+        "seeds": [
+          "FAQ_C08_015",
+          "FAQ_C11_022",
+          "FAQ_C12_023",
+          "MAN_ESIM_001",
+          "MAN_DEVICE_VOLTE_001"
+        ],
+        "concept": "Network Outages",
+        "graph_weight": 0.15,
+        "n_added_chunks": 6,
+        "added_chunks": [
+          {
+            "chunk": "FAQ_C08_016_chunk_000",
+            "document_id": "FAQ_C08_016",
+            "source_category": {
+              "category": "C08",
+              "document_type": "FAQ",
+              "corpus": "NovaTel Synthetic",
+              "title": "How is a reported network outage resolved and communicated?"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Tag:c08",
+              "Tag:network"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "SOP_C08_OUTAGE_MANAGEMENT_chunk_000",
+            "document_id": "SOP_C08_OUTAGE_MANAGEMENT",
+            "source_category": {
+              "category": "C08",
+              "document_type": "SOP",
+              "corpus": "NovaTel Synthetic",
+              "title": "Network Outage Detection, Triage and Communication"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Tag:c08"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "KB_C08_outage_status_check_chunk_000",
+            "document_id": "KB_C08_outage_status_check",
+            "source_category": {
+              "category": "C08",
+              "document_type": "KB Article",
+              "corpus": "NovaTel Synthetic",
+              "title": "How to Check and Report a Network Outage"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Tag:c08"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": true
+          },
+          {
+            "chunk": "FAQ_C12_024_chunk_001",
+            "document_id": "FAQ_C12_024",
+            "source_category": {
+              "category": "C12",
+              "document_type": "FAQ",
+              "corpus": "NovaTel Synthetic",
+              "title": "Why doesn't VoLTE/HD Voice work on my phone?"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Tag:c12",
+              "Tag:device"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "FAQ_C05_009_chunk_001",
+            "document_id": "FAQ_C05_009",
+            "source_category": {
+              "category": "C05",
+              "document_type": "FAQ",
+              "corpus": "NovaTel Synthetic",
+              "title": "My SIM card shows 'No Service' after I inserted it in a new phone."
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:eSIM Activation"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "RCA_INC_2026_0142_chunk_000",
+            "document_id": "RCA_INC_2026_0142",
+            "source_category": {
+              "category": "C08",
+              "document_type": "RCA",
+              "corpus": "NovaTel Synthetic",
+              "title": "RCA: Mumbai West 4G Cluster Outage (INC-2026-0142)"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Tag:c08"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          }
+        ],
+        "lost_rank_1": true,
+        "docgraph_rank1_doc": "FAQ_C08_016",
+        "docgraph_rank1_was_added_by_expansion": true,
+        "B2_rank1_doc": "FAQ_C08_015"
+      },
+      {
+        "question_id": "RW_007",
+        "query": "How can I stop receiving unwanted promotional calls and messages?",
+        "gold_documents": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "gold_rank_B2": 3,
+        "gold_rank_docgraph": 3,
+        "gold_rank_C": 3,
+        "B2_top3": [
+          "FAQ_C26_051",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "docgraph_top3": [
+          "FAQ_C26_051",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "seeds": [
+          "FAQ_C26_051",
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "concept": null,
+        "graph_weight": 0.0,
+        "n_added_chunks": 0,
+        "added_chunks": [],
+        "lost_rank_1": false,
+        "docgraph_rank1_doc": "FAQ_C26_051",
+        "docgraph_rank1_was_added_by_expansion": false,
+        "B2_rank1_doc": "FAQ_C26_051"
+      },
+      {
+        "question_id": "Q13",
+        "query": "The OTP for signing into the My NovaTel app isn't arriving. How can I log in?",
+        "gold_documents": [
+          "FAQ_C13_025",
+          "KB_C13_selfcare_login_issues"
+        ],
+        "gold_rank_B2": 1,
+        "gold_rank_docgraph": 1,
+        "gold_rank_C": 1,
+        "B2_top3": [
+          "FAQ_C13_025",
+          "FAQ_C01_001",
+          "SOP_C13_APP_ACCESS_ISSUES"
+        ],
+        "docgraph_top3": [
+          "FAQ_C13_025",
+          "FAQ_C01_001",
+          "SOP_C13_APP_ACCESS_ISSUES"
+        ],
+        "seeds": [
+          "FAQ_C13_025",
+          "FAQ_C01_001",
+          "SOP_C13_APP_ACCESS_ISSUES",
+          "KB_C13_selfcare_login_issues",
+          "MAN_APP_001"
+        ],
+        "concept": null,
+        "graph_weight": 0.0,
+        "n_added_chunks": 0,
+        "added_chunks": [],
+        "lost_rank_1": false,
+        "docgraph_rank1_doc": "FAQ_C13_025",
+        "docgraph_rank1_was_added_by_expansion": false,
+        "B2_rank1_doc": "FAQ_C13_025"
+      },
+      {
+        "question_id": "RW_010",
+        "query": "What level of service quality should I expect from my telecom provider?",
+        "gold_documents": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "gold_rank_B2": 1,
+        "gold_rank_docgraph": 1,
+        "gold_rank_C": 1,
+        "B2_top3": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "docgraph_top3": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "seeds": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "concept": null,
+        "graph_weight": 0.0,
+        "n_added_chunks": 0,
+        "added_chunks": [],
+        "lost_rank_1": false,
+        "docgraph_rank1_doc": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+        "docgraph_rank1_was_added_by_expansion": false,
+        "B2_rank1_doc": "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+      },
+      {
+        "question_id": "Q17",
+        "query": "What documents do I need to provide if NovaTel asks me to complete KYC verification again?",
+        "gold_documents": [
+          "FAQ_C17_033",
+          "KB_C17_kyc_reverification",
+          "FAQ_C17_034"
+        ],
+        "gold_rank_B2": 3,
+        "gold_rank_docgraph": 3,
+        "gold_rank_C": 3,
+        "B2_top3": [
+          "EML_008",
+          "TRX_007",
+          "FAQ_C17_033"
+        ],
+        "docgraph_top3": [
+          "TRX_007",
+          "EML_008",
+          "FAQ_C17_034"
+        ],
+        "seeds": [
+          "EML_008",
+          "TRX_007",
+          "FAQ_C17_033",
+          "FAQ_C17_034",
+          "Policy_C17_kyc_policy"
+        ],
+        "concept": "KYC & Identity Verification",
+        "graph_weight": 0.15,
+        "n_added_chunks": 2,
+        "added_chunks": [
+          {
+            "chunk": "FAQ_C05_010_chunk_000",
+            "document_id": "FAQ_C05_010",
+            "source_category": {
+              "category": "C05",
+              "document_type": "FAQ",
+              "corpus": "NovaTel Synthetic",
+              "title": "How do I get a duplicate SIM if mine is lost or damaged?"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Channel:My NovaTel App",
+              "Service:KYC Verification",
+              "VerificationMethod:Video KYC"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "FAQ_C05_010_chunk_001",
+            "document_id": "FAQ_C05_010",
+            "source_category": {
+              "category": "C05",
+              "document_type": "FAQ",
+              "corpus": "NovaTel Synthetic",
+              "title": "How do I get a duplicate SIM if mine is lost or damaged?"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Channel:My NovaTel App",
+              "Service:KYC Verification",
+              "VerificationMethod:Video KYC"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          }
+        ],
+        "lost_rank_1": false,
+        "docgraph_rank1_doc": "TRX_007",
+        "docgraph_rank1_was_added_by_expansion": false,
+        "B2_rank1_doc": "EML_008"
+      },
+      {
+        "question_id": "RW_017",
+        "query": "How do I port my mobile number to another telecom company?",
+        "gold_documents": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+        ],
+        "gold_rank_B2": 1,
+        "gold_rank_docgraph": null,
+        "gold_rank_C": null,
+        "B2_top3": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+          "TRX_004"
+        ],
+        "docgraph_top3": [
+          "TRX_001",
+          "SOP_C13_APP_ACCESS_ISSUES",
+          "SOP_C17_KYC_VERIFICATION"
+        ],
+        "seeds": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY",
+          "TRX_004"
+        ],
+        "concept": "Number Portability",
+        "graph_weight": 0.5,
+        "n_added_chunks": 10,
+        "added_chunks": [
+          {
+            "chunk": "TRX_001_chunk_000",
+            "document_id": "TRX_001",
+            "source_category": {
+              "category": "C03",
+              "document_type": "Support Transcript",
+              "corpus": "NovaTel Synthetic",
+              "title": "Recharge Failure — Amount Debited, Not Credited"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Channel:Helpline/Call Center",
+              "Service:Complaint Registration",
+              "VerificationMethod:OTP"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "SOP_C13_APP_ACCESS_ISSUES_chunk_000",
+            "document_id": "SOP_C13_APP_ACCESS_ISSUES",
+            "source_category": {
+              "category": "C13",
+              "document_type": "SOP",
+              "corpus": "NovaTel Synthetic",
+              "title": "Resolving Persistent App Login / OTP Failures"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Complaint Registration",
+              "VerificationMethod:OTP",
+              "VerificationMethod:Photo ID"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "SOP_C17_KYC_VERIFICATION_chunk_000",
+            "document_id": "SOP_C17_KYC_VERIFICATION",
+            "source_category": {
+              "category": "C17",
+              "document_type": "SOP",
+              "corpus": "NovaTel Synthetic",
+              "title": "New Connection and Re-Verification KYC Procedure"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Complaint Registration",
+              "VerificationMethod:OTP",
+              "VerificationMethod:Photo ID"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "KB_C06_porting_process_chunk_000",
+            "document_id": "KB_C06_porting_process",
+            "source_category": {
+              "category": "C06",
+              "document_type": "KB Article",
+              "corpus": "NovaTel Synthetic",
+              "title": "End-to-End Guide to Number Porting (MNP)"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Number Portability",
+              "VerificationMethod:OTP"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "FAQ_C18_035_chunk_000",
+            "document_id": "FAQ_C18_035",
+            "source_category": {
+              "category": "C18",
+              "document_type": "FAQ",
+              "corpus": "NovaTel Synthetic",
+              "title": "I think my SIM was swapped fraudulently — what should I do immediately?"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Channel:Helpline/Call Center",
+              "Service:Complaint Registration"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "TRX_003_chunk_000",
+            "document_id": "TRX_003",
+            "source_category": {
+              "category": "C16",
+              "document_type": "Support Transcript",
+              "corpus": "NovaTel Synthetic",
+              "title": "Escalating an Unresolved Billing Complaint"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Channel:Helpline/Call Center",
+              "Service:Complaint Registration",
+              "VerificationMethod:OTP"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "TRX_005_chunk_000",
+            "document_id": "TRX_005",
+            "source_category": {
+              "category": "C09",
+              "document_type": "Support Transcript",
+              "corpus": "NovaTel Synthetic",
+              "title": "Slow 4G Data Speed Complaint"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Channel:Helpline/Call Center",
+              "Service:Complaint Registration",
+              "VerificationMethod:OTP"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "MAN_APP_001_chunk_000",
+            "document_id": "MAN_APP_001",
+            "source_category": {
+              "category": "C13",
+              "document_type": "User Manual",
+              "corpus": "NovaTel Synthetic",
+              "title": "My NovaTel App — User Guide"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Complaint Registration",
+              "VerificationMethod:OTP"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "EML_003_chunk_000",
+            "document_id": "EML_003",
+            "source_category": {
+              "category": "C18",
+              "document_type": "Sample Email",
+              "corpus": "NovaTel Synthetic",
+              "title": "Fraud Alert Confirmation"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Channel:Helpline/Call Center",
+              "VerificationMethod:OTP"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "TRX_007_chunk_000",
+            "document_id": "TRX_007",
+            "source_category": {
+              "category": "C17",
+              "document_type": "Support Transcript",
+              "corpus": "NovaTel Synthetic",
+              "title": "KYC Re-verification Request"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Channel:Helpline/Call Center",
+              "VerificationMethod:OTP",
+              "VerificationMethod:Photo ID"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          }
+        ],
+        "lost_rank_1": true,
+        "docgraph_rank1_doc": "TRX_001",
+        "docgraph_rank1_was_added_by_expansion": true,
+        "B2_rank1_doc": "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+      },
+      {
+        "question_id": "Q20",
+        "query": "I was charged twice for the same recharge. How can I get the extra amount refunded?",
+        "gold_documents": [
+          "Policy_C20_refund_policy",
+          "KB_C20_refund_processing",
+          "SOP_C20_REFUND_PROCESSING",
+          "FAQ_C20_039"
+        ],
+        "gold_rank_B2": 1,
+        "gold_rank_docgraph": 3,
+        "gold_rank_C": 3,
+        "B2_top3": [
+          "FAQ_C20_039",
+          "TRX_001",
+          "SOP_C03_RECHARGE_FAILURE"
+        ],
+        "docgraph_top3": [
+          "SOP_C03_RECHARGE_FAILURE",
+          "FAQ_C03_005",
+          "SOP_C20_REFUND_PROCESSING"
+        ],
+        "seeds": [
+          "FAQ_C20_039",
+          "TRX_001",
+          "SOP_C03_RECHARGE_FAILURE",
+          "SOP_C20_REFUND_PROCESSING",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "concept": "Recharge",
+        "graph_weight": 0.15,
+        "n_added_chunks": 3,
+        "added_chunks": [
+          {
+            "chunk": "FAQ_C03_005_chunk_000",
+            "document_id": "FAQ_C03_005",
+            "source_category": {
+              "category": "C03",
+              "document_type": "FAQ",
+              "corpus": "NovaTel Synthetic",
+              "title": "Why did my recharge fail even though the amount was debited?"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Recharge",
+              "Service:Refund",
+              "Tag:c03"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "SOP_C03_RECHARGE_FAILURE_chunk_001",
+            "document_id": "SOP_C03_RECHARGE_FAILURE",
+            "source_category": {
+              "category": "C03",
+              "document_type": "SOP",
+              "corpus": "NovaTel Synthetic",
+              "title": "Handling Failed / Stuck Recharge Transactions"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Complaint Registration",
+              "Service:Mobile Number Update",
+              "Service:Recharge",
+              "Service:Refund",
+              "VerificationMethod:OTP"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "FAQ_C03_005_chunk_001",
+            "document_id": "FAQ_C03_005",
+            "source_category": {
+              "category": "C03",
+              "document_type": "FAQ",
+              "corpus": "NovaTel Synthetic",
+              "title": "Why did my recharge fail even though the amount was debited?"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Recharge",
+              "Service:Refund",
+              "Tag:c03"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          }
+        ],
+        "lost_rank_1": true,
+        "docgraph_rank1_doc": "SOP_C03_RECHARGE_FAILURE",
+        "docgraph_rank1_was_added_by_expansion": true,
+        "B2_rank1_doc": "FAQ_C20_039"
+      },
+      {
+        "question_id": "RW_023",
+        "query": "How did the telecom sector perform from April to June 2025?",
+        "gold_documents": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "gold_rank_B2": 1,
+        "gold_rank_docgraph": 1,
+        "gold_rank_C": 1,
+        "B2_top3": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "docgraph_top3": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "seeds": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "concept": null,
+        "graph_weight": 0.0,
+        "n_added_chunks": 0,
+        "added_chunks": [],
+        "lost_rank_1": false,
+        "docgraph_rank1_doc": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+        "docgraph_rank1_was_added_by_expansion": false,
+        "B2_rank1_doc": "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+      },
+      {
+        "question_id": "Q25",
+        "query": "My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?",
+        "gold_documents": [
+          "FAQ_C25_049",
+          "KB_C25_ftth_fault_diagnosis",
+          "MAN_ROUTER_001"
+        ],
+        "gold_rank_B2": 1,
+        "gold_rank_docgraph": 1,
+        "gold_rank_C": 1,
+        "B2_top3": [
+          "FAQ_C25_049",
+          "TRX_006",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "docgraph_top3": [
+          "MAN_ROUTER_001",
+          "SOP_C25_FTTH_FAULT_HANDLING",
+          "TRX_006"
+        ],
+        "seeds": [
+          "FAQ_C25_049",
+          "TRX_006",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025",
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ],
+        "concept": "Broadband & FTTH Services",
+        "graph_weight": 0.15,
+        "n_added_chunks": 7,
+        "added_chunks": [
+          {
+            "chunk": "MAN_ROUTER_001_chunk_000",
+            "document_id": "MAN_ROUTER_001",
+            "source_category": {
+              "category": "C25",
+              "document_type": "User Manual",
+              "corpus": "NovaTel Synthetic",
+              "title": "Home FTTH Wi-Fi Router — Setup Guide"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Broadband/FTTH Installation"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": true
+          },
+          {
+            "chunk": "SOP_C25_FTTH_FAULT_HANDLING_chunk_000",
+            "document_id": "SOP_C25_FTTH_FAULT_HANDLING",
+            "source_category": {
+              "category": "C25",
+              "document_type": "SOP",
+              "corpus": "NovaTel Synthetic",
+              "title": "FTTH Broadband Fault Ticket Handling"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Broadband/FTTH Installation",
+              "Tag:c25",
+              "VerificationMethod:OTP"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "FAQ_C25_050_chunk_000",
+            "document_id": "FAQ_C25_050",
+            "source_category": {
+              "category": "C25",
+              "document_type": "FAQ",
+              "corpus": "NovaTel Synthetic",
+              "title": "Can I get a static IP address on my home broadband plan?"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Broadband/FTTH Installation",
+              "Tag:broadband",
+              "Tag:c25"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "MAN_ROUTER_001_chunk_001",
+            "document_id": "MAN_ROUTER_001",
+            "source_category": {
+              "category": "C25",
+              "document_type": "User Manual",
+              "corpus": "NovaTel Synthetic",
+              "title": "Home FTTH Wi-Fi Router — Setup Guide"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Broadband/FTTH Installation"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": true
+          },
+          {
+            "chunk": "INC_C25_INC_2026_0179_chunk_000",
+            "document_id": "INC_C25_INC_2026_0179",
+            "source_category": {
+              "category": "C25",
+              "document_type": "Incident Report",
+              "corpus": "NovaTel Synthetic",
+              "title": "FTTH Regional Outage — Fibre Cut"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Broadband/FTTH Installation"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "FAQ_C13_025_chunk_000",
+            "document_id": "FAQ_C13_025",
+            "source_category": {
+              "category": "C13",
+              "document_type": "FAQ",
+              "corpus": "NovaTel Synthetic",
+              "title": "I can't log in to the My NovaTel app — it says 'OTP not received'."
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "VerificationMethod:OTP"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          },
+          {
+            "chunk": "EML_007_chunk_000",
+            "document_id": "EML_007",
+            "source_category": {
+              "category": "C25",
+              "document_type": "Sample Email",
+              "corpus": "NovaTel Synthetic",
+              "title": "FTTH Fault Ticket Update"
+            },
+            "via": "bridge concept",
+            "bridge_concepts": [
+              "Service:Broadband/FTTH Installation"
+            ],
+            "related_to_from_seeds": [],
+            "relevant": false
+          }
+        ],
+        "lost_rank_1": false,
+        "docgraph_rank1_doc": "MAN_ROUTER_001",
+        "docgraph_rank1_was_added_by_expansion": true,
+        "B2_rank1_doc": "FAQ_C25_049"
+      },
+      {
+        "question_id": "Q28",
+        "query": "What is TRAI's role in regulating telecom operators like NovaTel?",
+        "gold_documents": [
+          "Policy_C28_regulatory_compliance",
+          "FAQ_C28_055"
+        ],
+        "gold_rank_B2": 1,
+        "gold_rank_docgraph": 1,
+        "gold_rank_C": 1,
+        "B2_top3": [
+          "FAQ_C28_055",
+          "Policy_C28_regulatory_compliance",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "docgraph_top3": [
+          "FAQ_C28_055",
+          "Policy_C28_regulatory_compliance",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ],
+        "seeds": [
+          "FAQ_C28_055",
+          "Policy_C28_regulatory_compliance",
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS",
+          "PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION"
+        ],
+        "concept": null,
+        "graph_weight": 0.0,
+        "n_added_chunks": 0,
+        "added_chunks": [],
+        "lost_rank_1": false,
+        "docgraph_rank1_doc": "FAQ_C28_055",
+        "docgraph_rank1_was_added_by_expansion": false,
+        "B2_rank1_doc": "FAQ_C28_055"
+      }
+    ]
+  },
+  "6b_router_losses": [
+    {
+      "arm": "router",
+      "question_id": "S15",
+      "run": 1,
+      "category": "db",
+      "query": "asdkjaslkdj random gibberish query",
+      "router": "laya_finetuned",
+      "router_label": "out_of_scope",
+      "confidence": 0.9927,
+      "final_route": "out_of_scope",
+      "excluded_source": "both (abstained: out_of_scope)",
+      "gold_documents": [],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "router",
+      "question_id": "MH01",
+      "run": 1,
+      "category": "multi",
+      "query": "For incident INC-2026-0142, when was the fault detected and the primary fibre path restored, and why was there no automatic failover?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.5141,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C08_INC_2026_0142",
+        "RCA_INC_2026_0142"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "router",
+      "question_id": "MH04",
+      "run": 1,
+      "category": "multi",
+      "query": "In the My NovaTel app login outage INC-2026-0184, how long were logins blocked and why did the automated testing not catch the cause?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.9928,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C13_INC_2026_0184",
+        "RCA_INC_2026_0184"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "router",
+      "question_id": "MH05",
+      "run": 1,
+      "category": "multi",
+      "query": "For the phishing SMS campaign INC-2026-0197, how quickly was the anti-fraud alert broadcast and which takedown arrangement gap did the RCA identify?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.9926,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C18_INC_2026_0197",
+        "RCA_INC_2026_0197"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "router",
+      "question_id": "S15",
+      "run": 2,
+      "category": "db",
+      "query": "asdkjaslkdj random gibberish query",
+      "router": "laya_finetuned",
+      "router_label": "out_of_scope",
+      "confidence": 0.9927,
+      "final_route": "out_of_scope",
+      "excluded_source": "both (abstained: out_of_scope)",
+      "gold_documents": [],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "router",
+      "question_id": "MH01",
+      "run": 2,
+      "category": "multi",
+      "query": "For incident INC-2026-0142, when was the fault detected and the primary fibre path restored, and why was there no automatic failover?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.5141,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C08_INC_2026_0142",
+        "RCA_INC_2026_0142"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "router",
+      "question_id": "MH04",
+      "run": 2,
+      "category": "multi",
+      "query": "In the My NovaTel app login outage INC-2026-0184, how long were logins blocked and why did the automated testing not catch the cause?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.9928,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C13_INC_2026_0184",
+        "RCA_INC_2026_0184"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "router",
+      "question_id": "MH05",
+      "run": 2,
+      "category": "multi",
+      "query": "For the phishing SMS campaign INC-2026-0197, how quickly was the anti-fraud alert broadcast and which takedown arrangement gap did the RCA identify?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.9926,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C18_INC_2026_0197",
+        "RCA_INC_2026_0197"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "router",
+      "question_id": "S15",
+      "run": 3,
+      "category": "db",
+      "query": "asdkjaslkdj random gibberish query",
+      "router": "laya_finetuned",
+      "router_label": "out_of_scope",
+      "confidence": 0.9927,
+      "final_route": "out_of_scope",
+      "excluded_source": "both (abstained: out_of_scope)",
+      "gold_documents": [],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "router",
+      "question_id": "MH01",
+      "run": 3,
+      "category": "multi",
+      "query": "For incident INC-2026-0142, when was the fault detected and the primary fibre path restored, and why was there no automatic failover?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.5141,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C08_INC_2026_0142",
+        "RCA_INC_2026_0142"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "router",
+      "question_id": "MH04",
+      "run": 3,
+      "category": "multi",
+      "query": "In the My NovaTel app login outage INC-2026-0184, how long were logins blocked and why did the automated testing not catch the cause?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.9928,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C13_INC_2026_0184",
+        "RCA_INC_2026_0184"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "router",
+      "question_id": "MH05",
+      "run": 3,
+      "category": "multi",
+      "query": "For the phishing SMS campaign INC-2026-0197, how quickly was the anti-fraud alert broadcast and which takedown arrangement gap did the RCA identify?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.9926,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C18_INC_2026_0197",
+        "RCA_INC_2026_0197"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "C",
+      "question_id": "S15",
+      "run": 1,
+      "category": "db",
+      "query": "asdkjaslkdj random gibberish query",
+      "router": "laya_finetuned",
+      "router_label": "out_of_scope",
+      "confidence": 0.9927,
+      "final_route": "out_of_scope",
+      "excluded_source": "both (abstained: out_of_scope)",
+      "gold_documents": [],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "C",
+      "question_id": "MH01",
+      "run": 1,
+      "category": "multi",
+      "query": "For incident INC-2026-0142, when was the fault detected and the primary fibre path restored, and why was there no automatic failover?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.5141,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C08_INC_2026_0142",
+        "RCA_INC_2026_0142"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "C",
+      "question_id": "MH04",
+      "run": 1,
+      "category": "multi",
+      "query": "In the My NovaTel app login outage INC-2026-0184, how long were logins blocked and why did the automated testing not catch the cause?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.9928,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C13_INC_2026_0184",
+        "RCA_INC_2026_0184"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "C",
+      "question_id": "MH05",
+      "run": 1,
+      "category": "multi",
+      "query": "For the phishing SMS campaign INC-2026-0197, how quickly was the anti-fraud alert broadcast and which takedown arrangement gap did the RCA identify?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.9926,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C18_INC_2026_0197",
+        "RCA_INC_2026_0197"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "C",
+      "question_id": "S15",
+      "run": 2,
+      "category": "db",
+      "query": "asdkjaslkdj random gibberish query",
+      "router": "laya_finetuned",
+      "router_label": "out_of_scope",
+      "confidence": 0.9927,
+      "final_route": "out_of_scope",
+      "excluded_source": "both (abstained: out_of_scope)",
+      "gold_documents": [],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "C",
+      "question_id": "MH01",
+      "run": 2,
+      "category": "multi",
+      "query": "For incident INC-2026-0142, when was the fault detected and the primary fibre path restored, and why was there no automatic failover?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.5141,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C08_INC_2026_0142",
+        "RCA_INC_2026_0142"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "C",
+      "question_id": "MH04",
+      "run": 2,
+      "category": "multi",
+      "query": "In the My NovaTel app login outage INC-2026-0184, how long were logins blocked and why did the automated testing not catch the cause?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.9928,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C13_INC_2026_0184",
+        "RCA_INC_2026_0184"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "C",
+      "question_id": "MH05",
+      "run": 2,
+      "category": "multi",
+      "query": "For the phishing SMS campaign INC-2026-0197, how quickly was the anti-fraud alert broadcast and which takedown arrangement gap did the RCA identify?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.9926,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C18_INC_2026_0197",
+        "RCA_INC_2026_0197"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "C",
+      "question_id": "S15",
+      "run": 3,
+      "category": "db",
+      "query": "asdkjaslkdj random gibberish query",
+      "router": "laya_finetuned",
+      "router_label": "out_of_scope",
+      "confidence": 0.9927,
+      "final_route": "out_of_scope",
+      "excluded_source": "both (abstained: out_of_scope)",
+      "gold_documents": [],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "C",
+      "question_id": "MH01",
+      "run": 3,
+      "category": "multi",
+      "query": "For incident INC-2026-0142, when was the fault detected and the primary fibre path restored, and why was there no automatic failover?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.5141,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C08_INC_2026_0142",
+        "RCA_INC_2026_0142"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "C",
+      "question_id": "MH04",
+      "run": 3,
+      "category": "multi",
+      "query": "In the My NovaTel app login outage INC-2026-0184, how long were logins blocked and why did the automated testing not catch the cause?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.9928,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C13_INC_2026_0184",
+        "RCA_INC_2026_0184"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    },
+    {
+      "arm": "C",
+      "question_id": "MH05",
+      "run": 3,
+      "category": "multi",
+      "query": "For the phishing SMS campaign INC-2026-0197, how quickly was the anti-fraud alert broadcast and which takedown arrangement gap did the RCA identify?",
+      "router": "laya_finetuned",
+      "router_label": "structured",
+      "confidence": 0.9926,
+      "final_route": "structured",
+      "excluded_source": "unstructured",
+      "gold_documents": [
+        "INC_C18_INC_2026_0197",
+        "RCA_INC_2026_0197"
+      ],
+      "gold_sql_rows": [],
+      "abstained": true
+    }
+  ],
+  "6b_summary": {
+    "records": 24,
+    "by_arm": {
+      "router": 12,
+      "C": 12
+    },
+    "by_excluded": {
+      "both (abstained: out_of_scope)": 6,
+      "unstructured": 18
+    },
+    "distinct_questions": [
+      "MH01",
+      "MH04",
+      "MH05",
+      "S15"
+    ]
+  }
+}

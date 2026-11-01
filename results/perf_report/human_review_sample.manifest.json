@@ -1,0 +1,226 @@
+{
+  "timestamp_utc": "2026-10-31T14:49:26.378134+00:00",
+  "model": {
+    "name": "qwen2.5:7b-instruct",
+    "quantization": "Q4_K_M"
+  },
+  "decoding": {
+    "model_default": "qwen2.5:7b-instruct",
+    "temperature": 0.0,
+    "seed": 42,
+    "top_p": "not set in code (Ollama server default applies; the value is not recorded)",
+    "max_tokens": "not set in code (Ollama default num_predict applies; not recorded)",
+    "source": "defaults of integration/rag/llm_client.OllamaClient, passed as options={temperature, seed}"
+  },
+  "prompt_template_sha256": {
+    "rag_generate.SYSTEM_PROMPT": "f05bfb639b4160641682d8fabd832a6442b6c95e7b5b327ac4c7e7b6aa0233a2",
+    "rag_generate.USER_TEMPLATE": "cd2886c53f3241b5ea10147bdd755519161ef19526b6c03fad4c87161b4194f7",
+    "qa_generation.SYSTEM_TEMPLATE": "77a59705c5ff5dc6ec68ffc985491b76f8da0485ed4783a78085d0c9a11f63ae",
+    "qa_generation.USER_TEMPLATE": "36bb6b96a55fd5823329229bdc4eeda06f9202e3475d3d1909d96603107fd0f2",
+    "e14a_eval.BASE_SYSTEM_PROMPT": "4ff5aa71812445c5bb1b537a1643b2a0b294e90770721e576167e94104d111bf",
+    "e14a_eval.JUDGE_SYSTEM": "5c7a449135713a3ff01e7d920529961477966d672ae5daab55d448fc004fedcf",
+    "e14a_eval.CORRECTNESS_TEMPLATE": "43c68026735b2b6a4f43b697f78368f7177848381e514d002627f096d433e334",
+    "e14a_eval.GROUNDING_TEMPLATE": "93e9244f152dc42e12c10915bae700d12b2cd575c80a18d7f6c45012768b6dd3",
+    "decomposer.SYSTEM": "3c6d3eb6861afac4786074cd5f51f46e76344056129866556455b7b35b39bc0b"
+  },
+  "context_budget": {
+    "shared_top_n": 6,
+    "per_source_budget": {
+      "db_blocks": 5,
+      "doc_blocks": 3
+    },
+    "qa_top_n_context": 10
+  },
+  "retrieval_flags": {
+    "rag_config": {
+      "budget_db_blocks": 5,
+      "budget_doc_blocks": 3,
+      "semantic_layer": false,
+      "semantic_max_chunks_per_doc": 2,
+      "exclude_scifact": true
+    },
+    "qa_config": {
+      "router": "auto",
+      "router_chain": [
+        "laya_finetuned",
+        "embedding",
+        "rule"
+      ],
+      "router_conf_threshold": 0.5,
+      "forced_route": null,
+      "top_k_structured": 10,
+      "top_k_unstructured": 5,
+      "faiss_depth": 10,
+      "top_n_context": 10,
+      "fusion": "rrf",
+      "rrf_k": 60,
+      "retry_other_source_on_weak": true,
+      "exclude_scifact": true,
+      "use_ontology": false,
+      "use_doc_graph": false,
+      "use_structured_kg": false,
+      "use_colpali": false,
+      "ontology_weight": 0.15,
+      "graph_weight": null,
+      "retrieval_conf_threshold": 0.052289,
+      "abstention_message": "I don't have information about that in the NovaTel knowledge base.",
+      "generator_model": "qwen2.5:7b-instruct",
+      "decomposer_model": "qwen2.5:7b-instruct",
+      "max_answer_sentences": 8,
+      "verifier": "nli",
+      "nli_supported_threshold": 0.5,
+      "nli_weak_threshold": 0.15,
+      "lexical_supported_threshold": 0.6,
+      "lexical_weak_threshold": 0.35,
+      "drop_unsupported": false,
+      "debug": false,
+      "calibration_file": "C:\\Users\\ast20\\Downloads\\NovaTel_Telecom_RAG_Knowledge_Base\\data\\eval\\system_calibration.json"
+    }
+  },
+  "indexes": [
+    {
+      "path": "data/experiments/combined_retrieval/vectorstore",
+      "faiss.index_sha256": "3cebc55221ff9164b0dc96d6e4fe620c9cdefba8f82d63cecfdfba6ab689d275",
+      "chunk_metadata_sha256": "4a4347ec662a45e197562147c1efb0f36decfc0ca671d86bad33c744babc56f0",
+      "chunks": 1545,
+      "composition": {
+        "NovaTel Synthetic": 258,
+        "SciFact": 125,
+        "TRAI": 1162
+      }
+    },
+    {
+      "path": "data/experiments/combined_retrieval_clean/vectorstore",
+      "faiss.index_sha256": "bb24a29403103e65677e88f40b82e89ed20e23dabf776a87dfffae64c32ff592",
+      "chunk_metadata_sha256": "dbe3866059440dad4584d9267205ff3f4f24f09a9ebfb54d2e89ce4636337c74",
+      "chunks": 1420,
+      "composition": {
+        "NovaTel Synthetic": 258,
+        "TRAI": 1162
+      }
+    }
+  ],
+  "git": {
+    "commit": "2fdffad77dd86f9e350bc69d0d58a64bae6250b1",
+    "branch": "integrate/kg-ontology-router-ui",
+    "dirty": false
+  },
+  "packages": {
+    "torch": "2.14.0+cu130",
+    "transformers": "5.16.1",
+    "sentence-transformers": "5.6.0",
+    "faiss-cpu": "1.15.0",
+    "numpy": "2.5.2",
+    "ollama": "0.6.3"
+  },
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "cpu_count": 16,
+    "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU, 8151 MiB, 592.82"
+  },
+  "extra": {
+    "experiment": "final performance measurement",
+    "arms": {
+      "A": {
+        "retrieval": false
+      },
+      "B": {
+        "retrieval": true,
+        "rag_config": {
+          "budget_db_blocks": null,
+          "budget_doc_blocks": null,
+          "semantic_layer": false,
+          "semantic_max_chunks_per_doc": 2,
+          "exclude_scifact": true
+        },
+        "layer": null,
+        "router": false
+      },
+      "B2": {
+        "retrieval": true,
+        "rag_config": {
+          "budget_db_blocks": 5,
+          "budget_doc_blocks": 3,
+          "semantic_layer": false,
+          "semantic_max_chunks_per_doc": 2,
+          "exclude_scifact": true
+        },
+        "layer": null,
+        "router": false
+      },
+      "router": {
+        "retrieval": true,
+        "rag_config": {
+          "budget_db_blocks": 5,
+          "budget_doc_blocks": 3,
+          "semantic_layer": false,
+          "semantic_max_chunks_per_doc": 2,
+          "exclude_scifact": true
+        },
+        "layer": null,
+        "router": true
+      },
+      "ontology": {
+        "retrieval": true,
+        "rag_config": {
+          "budget_db_blocks": 5,
+          "budget_doc_blocks": 3,
+          "semantic_layer": false,
+          "semantic_max_chunks_per_doc": 2,
+          "exclude_scifact": true
+        },
+        "layer": "ontology_only",
+        "router": false
+      },
+      "docgraph": {
+        "retrieval": true,
+        "rag_config": {
+          "budget_db_blocks": 5,
+          "budget_doc_blocks": 3,
+          "semantic_layer": false,
+          "semantic_max_chunks_per_doc": 2,
+          "exclude_scifact": true
+        },
+        "layer": "docgraph_only",
+        "router": false
+      },
+      "C": {
+        "retrieval": true,
+        "rag_config": {
+          "budget_db_blocks": 5,
+          "budget_doc_blocks": 3,
+          "semantic_layer": false,
+          "semantic_max_chunks_per_doc": 2,
+          "exclude_scifact": true
+        },
+        "layer": "full",
+        "router": true,
+        "citation_check": true
+      },
+      "B_scifact_off": {
+        "retrieval": true,
+        "rag_config": {
+          "budget_db_blocks": null,
+          "budget_doc_blocks": null,
+          "semantic_layer": false,
+          "semantic_max_chunks_per_doc": 2,
+          "exclude_scifact": false
+        },
+        "layer": null,
+        "router": false
+      }
+    },
+    "retrieval_index_used": "data/experiments/combined_retrieval/vectorstore (E14 pipeline index; SciFact chunks filtered at serving time in every arm except B_scifact_off)",
+    "answer_cache": "none: this harness generates every answer fresh (cached=false on every record)",
+    "parser": "structured/query_parser.py as on this branch (original substring parser; parser-wordboundary NOT merged), blob 4ce2f6cc2e",
+    "decoding_note": "temperature 0 and seed 42 (OllamaClient defaults)",
+    "judge": "same local model as the generator, temperature 0, E14a prompts (integration/eval/base_vs_rag.py)",
+    "context_budget": {
+      "B": "shared 6 blocks",
+      "B2_and_others": "5 database + 3 document blocks (from the E14a failure analysis on the same 22 questions; never tuned)"
+    },
+    "router_thresholds": "router_conf_threshold 0.5 from data/eval/system_calibration.json (validation-calibrated)"
+  }
+}

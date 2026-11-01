@@ -1,0 +1,8 @@
+component,arm,description,correctness_all,correctness_all_range,correctness_core22,groundedness,scored_coverage
+B,B,E14a configuration (shared 6-block budget),71.4,"[71.4, 71.4]",84.1,94.0,"all runs, all questions"
+budget,B2,B + per-source budget 5 db + 3 doc,82.9,"[82.1, 84.5]",89.4,93.6,"all runs, all questions"
+router,router,B2 + router,76.2,"[76.2, 76.2]",84.1,93.4,"all runs, all questions"
+ontology,ontology,B2 + ontology term normalisation only,79.8,"[79.8, 79.8]",88.6,91.7,"all runs, all questions"
+docgraph,docgraph,B2 + document-graph expansion only,67.9,"[66.7, 69.0]",81.0,82.5,"all runs, all questions"
+kg,-,B2 + structured KG,not run (not wired into retrieval),,,not run (not wired into retrieval),
+C,C,B2 + semantic layer + router + citation check,67.5,"[66.7, 67.9]",79.5,88.2,"all runs, all questions"

@@ -1,0 +1,118 @@
+arm,run,id,category,correctness,cause,detail
+B,1,RW_001,trai,1,ranking,"gold present but not first; cited distractor ['PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE', 'PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS']"
+B,1,S03,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,1,Q08,syn,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B,1,S06,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,1,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B,1,S09,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,1,S12,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,1,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B,1,S05,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,1,S08,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,1,S10,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,1,S11,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,1,S13,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,1,S14,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,1,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B,1,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B,1,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B,1,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B,1,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+B,1,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+B,1,MH12,multi,1,retrieval,docs_retrieved=True sql_retrieved=False
+B,1,MH13,multi,1,retrieval,docs_retrieved=True sql_retrieved=False
+B,2,RW_001,trai,1,ranking,"gold present but not first; cited distractor ['PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE', 'PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS']"
+B,2,S03,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,2,Q08,syn,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B,2,S06,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,2,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B,2,S09,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,2,S12,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,2,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B,2,S05,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,2,S08,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,2,S10,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,2,S11,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,2,S13,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,2,S14,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,2,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B,2,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B,2,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B,2,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B,2,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+B,2,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+B,2,MH12,multi,1,retrieval,docs_retrieved=True sql_retrieved=False
+B,2,MH13,multi,1,retrieval,docs_retrieved=True sql_retrieved=False
+B,3,RW_001,trai,1,ranking,"gold present but not first; cited distractor ['PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE', 'PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS']"
+B,3,S03,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,3,Q08,syn,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B,3,S06,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,3,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B,3,S09,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,3,S12,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,3,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B,3,S05,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,3,S08,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,3,S10,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,3,S11,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,3,S13,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,3,S14,db,1,context,docs_in_prompt=True sql_rows_in_prompt=False
+B,3,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B,3,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B,3,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B,3,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B,3,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+B,3,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+B,3,MH12,multi,1,retrieval,docs_retrieved=True sql_retrieved=False
+B,3,MH13,multi,1,retrieval,docs_retrieved=True sql_retrieved=False
+C,1,Q08,syn,1,ranking,gold present but not first; cited distractor ['FAQ_C08_016']
+C,1,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C,1,Q17,syn,0,ranking,"gold present but not first; cited distractor ['TRX_007', 'EML_008']"
+C,1,RW_017,trai,0,graph,gold document retrieved by B2 but displaced here (semantic layer)
+C,1,S09,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C,1,S15,db,0,router,route=out_of_scope; needed: 
+C,1,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C,1,MH01,multi,0,router,route=structured; needed: docs
+C,1,MH02,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C,1,MH03,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C,1,MH04,multi,0,router,route=structured; needed: docs
+C,1,MH05,multi,0,router,route=structured; needed: docs
+C,1,MH_RB_B02,cross,1,competing,"gold first, but cited ['TRX_001']"
+C,1,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C,1,MH_RB_B06,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C,1,MH12,multi,1,retrieval,docs_retrieved=True sql_retrieved=False
+C,1,MH13,multi,1,retrieval,docs_retrieved=True sql_retrieved=False
+C,2,Q08,syn,1,ranking,gold present but not first; cited distractor ['FAQ_C08_016']
+C,2,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C,2,Q17,syn,0,ranking,"gold present but not first; cited distractor ['TRX_007', 'EML_008']"
+C,2,RW_017,trai,0,graph,gold document retrieved by B2 but displaced here (semantic layer)
+C,2,S09,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C,2,S15,db,0,router,route=out_of_scope; needed: 
+C,2,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C,2,MH01,multi,0,router,route=structured; needed: docs
+C,2,MH02,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C,2,MH03,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C,2,MH04,multi,0,router,route=structured; needed: docs
+C,2,MH05,multi,0,router,route=structured; needed: docs
+C,2,MH_RB_B02,cross,1,competing,"gold first, but cited ['TRX_001']"
+C,2,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C,2,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+C,2,MH12,multi,1,retrieval,docs_retrieved=True sql_retrieved=False
+C,2,MH13,multi,1,retrieval,docs_retrieved=True sql_retrieved=False
+C,3,Q08,syn,1,ranking,gold present but not first; cited distractor ['FAQ_C08_016']
+C,3,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C,3,Q17,syn,0,ranking,"gold present but not first; cited distractor ['TRX_007', 'EML_008']"
+C,3,RW_017,trai,0,graph,gold document retrieved by B2 but displaced here (semantic layer)
+C,3,S09,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C,3,S15,db,0,router,route=out_of_scope; needed: 
+C,3,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C,3,MH01,multi,0,router,route=structured; needed: docs
+C,3,MH02,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C,3,MH03,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C,3,MH04,multi,0,router,route=structured; needed: docs
+C,3,MH05,multi,0,router,route=structured; needed: docs
+C,3,MH_RB_B02,cross,1,competing,"gold first, but cited ['TRX_001']"
+C,3,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C,3,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+C,3,MH12,multi,1,retrieval,docs_retrieved=True sql_retrieved=False
+C,3,MH13,multi,1,retrieval,docs_retrieved=True sql_retrieved=False

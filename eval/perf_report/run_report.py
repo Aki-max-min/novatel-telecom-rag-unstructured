@@ -440,7 +440,9 @@ def main() -> None:
         M["arms"][arm] = a
 
     # ---- paired statistics -----------------------------------------------------------------------------------------------------
-    pairs = {"CB": ("C", "B"), "CA": ("C", "A"), "CB2": ("C", "B2")}
+    pairs = {"CB": ("C", "B"), "CA": ("C", "A"), "CB2": ("C", "B2"),
+             # descriptive component comparisons (not part of the 159 template values): which questions each component flips relative to B2 / B
+             "B2B": ("B2", "B"), "routerB2": ("router", "B2"), "ontologyB2": ("ontology", "B2"), "docgraphB2": ("docgraph", "B2")}
     M["paired"] = {k: paired(a, b, qs, scored, runs) for k, (a, b) in pairs.items() if runs_by_arm.get(a) and runs_by_arm.get(b)}
 
     # ---- repro / scifact ------------------------------------------------------------------------------------------------------------
@@ -504,6 +506,23 @@ def main() -> None:
                               f"- C documents in prompt: {prompt_doc_ids(raw[kc])}; added by the layer: {((raw[kc].get('semantic') or {}).get('added_chunks') or [])[:4]}", ""]
         if not p["loss_ids"]:
             reg_lines += ["No question is right in B2 and wrong in C.", ""]
+    for key, base in (("CB", "B"), ("CA", "A")):
+        if key not in M["paired"]:
+            continue
+        p = M["paired"][key]
+        reg_lines += ["", f"# Regressions: right in {base}, wrong in C", "",
+                      f"Summary C vs {base}: wins {p['wins']}, losses {p['losses']}, ties {p['ties']}, McNemar exact p = {p['p_mcnemar_exact']}; paired bootstrap 95% CI {p['ci95_pts']} pts "
+                      f"(mean {p['mean_diff_pts']:+.1f} pts). Questions where C lost: {p['loss_ids'] or 'none'}.", ""]
+        for qid in p["loss_ids"]:
+            reg_lines += [f"## {qid} ({qs[qid]['category']}) - {qs[qid]['query']}", ""]
+            for r in runs:
+                kc, kb = ("C", qid, r), (base, qid, r)
+                if kc not in raw or kb not in raw:
+                    continue
+                cause = next((e["cause"] + ": " + e["detail"] for e in err_rows if e["arm"] == "C" and e["id"] == qid and e["run"] == r), "(C correct in this run)")
+                reg_lines += [f"- Run {r}: {base} correctness {scored[kb]['correctness']}, C correctness {scored[kc]['correctness']}, C route `{(raw[kc].get('route') or {}).get('final')}`, "
+                              f"suspected cause: {cause}"]
+            reg_lines += [""]
     (RES / "regressions.md").write_text("\n".join(reg_lines), encoding="utf-8")
 
     # ---- saved router / abstention / scifact / graph -------------------------------------------------------------------------------------

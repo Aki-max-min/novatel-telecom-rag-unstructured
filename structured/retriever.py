@@ -4,10 +4,32 @@ Outputs results in the Common Result Schema so they can be combined
 with the unstructured (FAISS) branch's results.
 """
 
+import re
 import time
 from data_loader import DataLoader
 from normalizer import normalize_row
-from schema import get_schema, list_tables
+from schema import TABLE_SCHEMAS, get_schema, list_tables
+
+# Foreign-key follow: parent table -> [(child table, child column)], derived from schema.py foreign_keys.
+# Edges whose parent is customer_master or plan_master are excluded: those are the customer/plan lookups that the
+# customer-scoped filters already cover, not "this record and its dependants" joins.
+_NOT_A_PARENT = ("customer_master", "plan_master")
+FK_CHILDREN = {}
+for _child, _schema in TABLE_SCHEMAS.items():
+    for _col, _parent in _schema.get("foreign_keys", {}).items():
+        if _parent not in _NOT_A_PARENT:
+            FK_CHILDREN.setdefault(_parent, []).append((_child, _col))
+
+# "invoice 5001" / "ticket 11011": parent entity word -> parent table (only tables that appear as FK parents)
+_PARENT_WORDS = {"invoice": "invoices", "ticket": "tickets", "site": "network_sites", "device": "device_config"}
+_PARENT_ID = re.compile(r"\b(invoice|ticket|site|device)s?\s*#?\s*(?:id\s*)?[:=]?\s*(\d+)\b", re.IGNORECASE)
+# words that name a child entity in the question (checked against tables other than the parent)
+_CHILD_HINTS = {
+    "payment_transactions": r"\bpayments?\b", "escalation_cases": r"\bescalat\w*", "network_alarms": r"\balarms?\b",
+    "device_registry": r"\bregist\w*", "tickets": r"\b(?:tickets?|complaints?)\b", "invoices": r"\b(?:invoices?|bills?)\b",
+    "subscriptions": r"\b(?:subscriptions?|plans?)\b", "recharge_transactions": r"\brecharges?\b",
+    "kyc_records": r"\bkyc\b", "orders": r"\borders?\b", "fraud_cases": r"\bfraud\b",
+}
 
 
 class StructuredRetriever:
@@ -102,6 +124,75 @@ class StructuredRetriever:
 
         return empty("table has no customer key; cannot scope to a customer", False)
 
+    def fk_follow(self, question, customer_id=None, top_k=20):
+        """Parent record + its child rows through an allow-listed foreign key, or None if this is not such a question.
+
+        Recognises "<invoice|ticket|site|device> <id>" together with a child entity word ("payment transactions",
+        "escalation case", ...). The (parent, child, column) triple must be in FK_CHILDREN (taken from schema.py);
+        table and column names are validated against the schema, values are parameterised, no free-form SQL.
+        Customer scoping still applies: the parent's customer must equal `customer_id` (or the id written in the
+        question when none is passed). Callers should pass the signed-in session's id. Every failure returns an
+        empty result with a note - never the other customer's rows.
+        Child rows carry metadata relation="fk:<parent table>.<column>".
+        """
+        match = _PARENT_ID.search(question or "")
+        if not match:
+            return None
+        parent = _PARENT_WORDS[match.group(1).lower()]
+        parent_id = match.group(2)
+        hinted = [t for t, rx in _CHILD_HINTS.items() if t != parent and re.search(rx, question, re.IGNORECASE)]
+        if not hinted:
+            return None  # a plain "invoice 5001" lookup, not a join question
+
+        start = time.time()
+
+        def empty(note, executed, parsed=None):
+            return {"results": [], "latency_sec": time.time() - start, "executed": executed, "note": note,
+                    "parsed_query": parsed or {"method": "fk_follow", "table": parent, "record_id": parent_id}}
+
+        edges = [(child, col) for child, col in FK_CHILDREN.get(parent, []) if child in hinted]
+        if not edges:
+            return empty(f"no foreign key from {parent} to {', '.join(hinted)}; cannot follow that relation", False)
+
+        columns = self._table_columns(parent)
+        if columns is None or "customer_id" not in columns:
+            return empty(f"table {parent} has no customer key; cannot scope the join to a customer", False)
+        if customer_id is None:
+            from query_parser import extract_customer_id
+            customer_id = extract_customer_id(question)
+        if customer_id is None:
+            return empty("a customer id is required to follow a record's foreign key", False)
+
+        pk = get_schema(parent)["primary_key"]
+        row = self.loader.conn.execute(
+            f"SELECT * FROM {parent} WHERE {pk} = ?", (parent_id,)).fetchone()
+        if row is None:
+            return empty(f"{parent} record {parent_id} not found", True)
+        parent_row = dict(row)
+        if str(parent_row.get("customer_id")) != str(customer_id):
+            return empty(f"{parent} record {parent_id} does not belong to the given customer", True)
+
+        results = [self._wrap_result(parent, normalize_row(parent, parent_row), "fk_follow", score=1.0)]
+        relation = None
+        for child, col in edges:
+            relation = f"fk:{parent}.{col}"
+            child_columns = self._table_columns(child) or []
+            sql = f"SELECT * FROM {child} WHERE {col} = ?"
+            params = [parent_id]
+            if "customer_id" in child_columns:   # extra safety: a child row must also carry the same customer
+                sql += " AND customer_id = ?"
+                params.append(str(customer_id))
+            for child_row in self.loader.conn.execute(sql, params).fetchall()[:top_k]:
+                result = self._wrap_result(child, normalize_row(child, dict(child_row)), "fk_follow", score=1.0)
+                result["metadata"]["relation"] = relation
+                results.append(result)
+        note = None if len(results) > 1 else f"{parent} record {parent_id} has no child rows in {', '.join(c for c, _ in edges)}"
+        out = {"results": results, "latency_sec": time.time() - start, "executed": True, "relation": relation,
+               "parsed_query": {"method": "fk_follow", "table": parent, "record_id": parent_id, "children": [c for c, _ in edges]}}
+        if note:
+            out["note"] = note
+        return out
+
     def _plain_filter(self, table_name, column, value, top_k):
         start = time.time()
         raw_rows = self.loader.filter_by(table_name, column, value)[:top_k]
@@ -154,6 +245,10 @@ class StructuredRetriever:
         and returns Common Result Schema results.
         """
         from query_parser import parse_query
+
+        fk = self.fk_follow(question, top_k=top_k)
+        if fk is not None:
+            return fk
 
         parsed = parse_query(question)
 

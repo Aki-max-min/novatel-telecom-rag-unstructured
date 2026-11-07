@@ -6,6 +6,13 @@ This repository implements the unstructured-data ingestion, processing, embeddin
 
 The structured/CSV data layer lives in structured/ and is integrated through the hybrid layer (see below).
 
+Setup after cloning
+
+1. pip install -r requirements.txt   (neo4j is optional and stays in knowledge_graph/requirements-kg.txt)
+2. python -m knowledge_graph.graph_builder   (writes knowledge_graph/output/graph.json; that folder is generated, not tracked in git)
+3. python -m hybrid.setup_check   (prints OK or MISSING for the structured DB, graph.json, the FAISS index and the model files, with the command that fixes each; it never builds anything)
+4. python -m hybrid.demo
+
 Hybrid layer (E13)
 
 The repository now contains the full hybrid pipeline on top of the unstructured retrieval baseline and the structured layer: query gate and clause-level router, customer-scoped read-only structured adapter, document-level RRF fusion, controlled CrossEncoder rerank, and a grounded answer layer with a deterministic verifier.

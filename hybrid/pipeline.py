@@ -20,10 +20,11 @@ GRAPH_ENABLED = False
 GRAPH_DISABLED_TRACE = "graph disabled by config"
 
 # Resolved RELATED_TO links as their OWN fusion list, independent of the gate graph weight
-# (docs/E13_link_decoupling_rule.md). OFF until the pre-declared verdict says otherwise; LINK_WEIGHT is the fusion
-# weight of the link list when it is on.
+# (docs/E13_link_decoupling_rule.md). Verdict (docs/E13_link_decoupling_results.md): adoption FAIL - no dev-set change and no
+# gain on the incident mechanism check (3/5 vs 3/5) - so links stay OFF by default. LINK_WEIGHT is the fusion weight of the
+# link list when switched on (links_enabled=True); 0.15 is the cell the tie-break selected (all three cells tied).
 LINKS_ENABLED = False
-LINK_WEIGHT = 0.30
+LINK_WEIGHT = 0.15
 
 
 def run_hybrid_retrieval(question: str, vector_candidates: list[dict],

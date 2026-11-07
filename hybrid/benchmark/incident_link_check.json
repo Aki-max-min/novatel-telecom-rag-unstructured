@@ -1,0 +1,16 @@
+{
+  "name": "Incident/RCA link MECHANISM check",
+  "label": "mechanism-only: five pairs exist in the corpus, so this is NOT evidence of generalisation",
+  "questions": [
+    {"question_id": "IL1", "question": "Why did mobile data drop out across a whole part of Mumbai that one time, and what was done so it would not happen again?",
+     "pair": ["INC_C08_INC_2026_0142", "RCA_INC_2026_0142"]},
+    {"question_id": "IL2", "question": "Why were some postpaid customers charged twice within one billing cycle, and how was that stopped from recurring?",
+     "pair": ["INC_C04_INC_2026_0163", "RCA_INC_2026_0163"]},
+    {"question_id": "IL3", "question": "What caused the home internet blackout in Pune after a cable was cut, and how was service brought back?",
+     "pair": ["INC_C25_INC_2026_0179", "RCA_INC_2026_0179"]},
+    {"question_id": "IL4", "question": "What was behind the period when nobody could sign in to the self-care app, and what was changed afterwards?",
+     "pair": ["INC_C13_INC_2026_0184", "RCA_INC_2026_0184"]},
+    {"question_id": "IL5", "question": "Customers got fake texts pretending to be from the operator - what happened and how was it handled?",
+     "pair": ["INC_C18_INC_2026_0197", "RCA_INC_2026_0197"]}
+  ]
+}

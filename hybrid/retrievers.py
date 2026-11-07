@@ -59,18 +59,21 @@ def to_candidate(document_id, chunk_id, score, method, category, content, title=
             "metadata": {"document_id": document_id, "title": title}}
 
 
-def build_candidates(question, retriever=None, graph_index=None, corpus=None, person_a=None):
+def build_candidates(question, retriever=None, graph_index=None, corpus=None, person_a=None, *,
+                     use_related_links=True, graph_kwargs=None, graph_enabled=True):
     """Real vector + real graph candidates for one question, as schema dicts.
 
     Vector: retriever.search() (Person A's index, document-level, best chunk per doc).
-    Graph : graph_expand() over the top GRAPH_SEEDS vector documents - the exact
-            expansion validated in the KG evaluation.
+    Graph : (1) linked neighbours of the seed documents FIRST (resolved RELATED_TO links: author-declared, high
+            precision; ``use_related_links``), then (2) graph_expand() concept candidates over the top GRAPH_SEEDS
+            vector documents. ``graph_kwargs`` are passed to graph_expand (hub_fraction, specificity, max_documents,
+            allowed_labels); None = the legacy profile. ``graph_enabled=False`` returns an empty graph list.
     A graph document that is also in the vector list reuses the vector list's chunk
-    record_id; graph-only documents are represented by their first chunk.
+    record_id; graph-only documents are represented by their first chunk. A document appears once in the graph list.
     Returns (vector, graph, dropped) where dropped counts graph documents with no indexed chunk.
     """
     from knowledge_graph.graph_augmented_retrieval import (
-        DEFAULT_BRIDGES, GRAPH_CANDIDATES, GRAPH_SEEDS, VECTOR_DEPTH, graph_expand)
+        DEFAULT_BRIDGES, GRAPH_CANDIDATES, GRAPH_SEEDS, VECTOR_DEPTH, graph_expand, related_neighbours)
     if retriever is None:
         ctx = load_context()
         retriever, graph_index = ctx["retriever"], ctx["graph_index"]
@@ -82,11 +85,21 @@ def build_candidates(question, retriever=None, graph_index=None, corpus=None, pe
         vector_chunk[h["document_id"]] = h
         vector.append(to_candidate(h["document_id"], h["chunk_id"], h["score"], "vector",
                                    h["category"], person_a.load_chunk_text(h["chunk_id"]), h.get("title", "")))
+    if not graph_enabled:
+        return vector, [], 0
 
-    expanded = graph_expand([h["document_id"] for h in hits[:GRAPH_SEEDS]], graph_index,
-                            bridges=DEFAULT_BRIDGES, limit=GRAPH_CANDIDATES)
+    seeds = [h["document_id"] for h in hits[:GRAPH_SEEDS]]
+    rows = []
+    if use_related_links:
+        rows += [{"document_id": r["document_id"], "graph_score": 1000.0 - r["seed_rank"]}
+                 for r in related_neighbours(seeds, graph_index, limit=GRAPH_CANDIDATES)]
+    linked = {r["document_id"] for r in rows}
+    rows += [r for r in graph_expand(seeds, graph_index, bridges=DEFAULT_BRIDGES, limit=GRAPH_CANDIDATES,
+                                     **(graph_kwargs or {}))
+             if r["document_id"] not in linked]
+
     graph, dropped = [], 0
-    for row in expanded:
+    for row in rows:
         doc = row["document_id"]
         if doc in vector_chunk:
             h = vector_chunk[doc]

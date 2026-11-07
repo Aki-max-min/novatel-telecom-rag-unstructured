@@ -132,3 +132,36 @@ class TestHardening(unittest.TestCase):
     def test_seeds_are_never_returned_as_their_own_candidates_unless_shared_with_another_seed(self):
         out = graph_expand(["FAQ_C17_034"], self.index, limit=500)
         self.assertNotIn("FAQ_C17_034", [r["document_id"] for r in out])
+
+
+class TestRelatedNeighbours(unittest.TestCase):
+    """Resolved RELATED_TO links as an undirected, high-precision sibling step (Part 3)."""
+
+    @classmethod
+    def setUpClass(cls):
+        from knowledge_graph.graph_augmented_retrieval import related_neighbours
+        cls.related_neighbours = staticmethod(related_neighbours)
+        cls.index = load_graph_index()
+
+    def test_47_undirected_links_are_loaded_between_resolved_documents(self):
+        links = {frozenset((a, b)) for a, bs in self.index.related.items() for b in bs}
+        self.assertEqual(len(links), 47)
+        for a, b in (tuple(l) for l in links):
+            self.assertIn(a, self.index.known_documents)
+            self.assertIn(b, self.index.known_documents)
+
+    def test_incident_and_rca_find_each_other_in_both_directions(self):
+        pairs = {"RCA_INC_2026_0142": "INC_C08_INC_2026_0142", "RCA_INC_2026_0163": "INC_C04_INC_2026_0163",
+                 "RCA_INC_2026_0179": "INC_C25_INC_2026_0179", "RCA_INC_2026_0184": "INC_C13_INC_2026_0184",
+                 "RCA_INC_2026_0197": "INC_C18_INC_2026_0197"}
+        for rca, inc in pairs.items():
+            self.assertIn(inc, [r["document_id"] for r in self.related_neighbours([rca], self.index)])
+            self.assertIn(rca, [r["document_id"] for r in self.related_neighbours([inc], self.index)])
+
+    def test_seeds_are_excluded_ordering_is_by_seed_rank_and_unknown_seeds_are_empty(self):
+        out = self.related_neighbours(["INC_C08_INC_2026_0142", "FAQ_C17_034"], self.index)
+        self.assertEqual([r["seed_rank"] for r in out], sorted(r["seed_rank"] for r in out))
+        self.assertNotIn("INC_C08_INC_2026_0142", [r["document_id"] for r in out])
+        self.assertEqual(self.related_neighbours(["NO_SUCH"], self.index), [])
+        self.assertEqual(self.related_neighbours([], self.index), [])
+        self.assertEqual(self.related_neighbours(["INC_C08_INC_2026_0142", "RCA_INC_2026_0142"], self.index), [])

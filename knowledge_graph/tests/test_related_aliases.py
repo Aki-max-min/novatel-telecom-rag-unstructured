@@ -93,7 +93,9 @@ class TestAliasFiles(unittest.TestCase):
             bra.write_files(Path(b) / "aliases.json", Path(b) / "audit.csv")
             self.assertEqual((Path(a) / "aliases.json").read_bytes(), (Path(b) / "aliases.json").read_bytes())
             self.assertEqual((Path(a) / "audit.csv").read_bytes(), (Path(b) / "audit.csv").read_bytes())
-            self.assertEqual((Path(a) / "aliases.json").read_bytes(), bra.ALIASES_PATH.read_bytes())
+            # the committed file may carry CRLF after a Windows checkout (git autocrlf); content must match
+            self.assertEqual((Path(a) / "aliases.json").read_bytes(),
+                             bra.ALIASES_PATH.read_bytes().replace(b"\r\n", b"\n"))
 
 
 class TestGraphWithAliases(unittest.TestCase):

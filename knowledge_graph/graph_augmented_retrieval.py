@@ -75,6 +75,8 @@ class GraphIndex:
     document_concepts: Dict[str, Dict[str, set]] = field(default_factory=dict)
     concept_documents: Dict[str, Dict[str, set]] = field(default_factory=dict)
     known_documents: set = field(default_factory=set)
+    #: undirected RELATED_TO links between RESOLVED documents (47 after the alias repair)
+    related: Dict[str, set] = field(default_factory=dict)
 
     def concepts_of(self, document_id: str, labels: Sequence[str]) -> set:
         found = set()
@@ -126,7 +128,40 @@ def load_graph_index(path: Path = GRAPH_JSON_PATH) -> GraphIndex:
         index.document_concepts.setdefault(document_id, {}).setdefault(label, set()).add(concept)
         index.concept_documents.setdefault(label, {}).setdefault(concept, set()).add(document_id)
 
+    # RELATED_TO links: only pairs whose two ends are resolved canonical documents, treated as undirected.
+    for edge in payload["edges"]:
+        if edge["type"] != "RELATED_TO":
+            continue
+        source, target = keys_by_node[edge["source"]], keys_by_node[edge["target"]]
+        if source in index.known_documents and target in index.known_documents and source != target:
+            index.related.setdefault(source, set()).add(target)
+            index.related.setdefault(target, set()).add(source)
+
     return index
+
+
+def related_neighbours(
+    seed_documents: Sequence[str],
+    graph_index: GraphIndex,
+    limit: int = GRAPH_CANDIDATES,
+) -> List[Dict[str, Any]]:
+    """Documents linked to a seed by a resolved RELATED_TO edge (high precision: an author-declared link).
+
+    Ordered by the best (lowest) seed rank that links to them, then document id; seeds themselves are excluded.
+    """
+    seeds = set(seed_documents)
+    best_rank: Dict[str, int] = {}
+    linked_from: Dict[str, List[str]] = {}
+    for rank, seed in enumerate(seed_documents):
+        for neighbour in sorted(graph_index.related.get(seed, ())):
+            if neighbour in seeds:
+                continue
+            best_rank.setdefault(neighbour, rank)
+            linked_from.setdefault(neighbour, []).append(seed)
+    rows = [{"document_id": doc, "seed_rank": best_rank[doc], "linked_from": linked_from[doc], "via": "RELATED_TO"}
+            for doc in best_rank]
+    rows.sort(key=lambda r: (r["seed_rank"], r["document_id"]))
+    return rows[:limit]
 
 
 def graph_expand(

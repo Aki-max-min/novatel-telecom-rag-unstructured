@@ -26,7 +26,7 @@ def final_docs(question, use_links):
     ctx = load_context()
     vector, graph, _ = build_candidates(question, ctx["retriever"], ctx["graph_index"], ctx["corpus"],
                                         ctx["person_a"], use_related_links=use_links)
-    out = run_hybrid_retrieval(question, vector, graph, top_k=5)
+    out = run_hybrid_retrieval(question, vector, graph, top_k=5)  # explicit candidate lists: graph participates
     return [c["metadata"]["document_id"] for c in out], [c["metadata"]["document_id"] for c in vector[:5]]
 
 

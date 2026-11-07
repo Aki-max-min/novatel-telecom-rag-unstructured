@@ -1,0 +1,96 @@
+{
+ "note": "ids chosen by SQL; expected rows are recomputed from the database by test_fk_follow.py",
+ "cases": [
+  {
+   "name": "invoice_with_payments",
+   "question": "For customer 1001, what is the payment status of invoice 5001 and which payment transactions were made against it?",
+   "customer_id": 1001,
+   "parent_table": "invoices",
+   "parent_id": "5001",
+   "child_table": "payment_transactions",
+   "expect": "rows"
+  },
+  {
+   "name": "ticket_with_escalation",
+   "question": "For customer 2738, what is the status of ticket 11011 and what level and status does its escalation case have?",
+   "customer_id": 2738,
+   "parent_table": "tickets",
+   "parent_id": "11011",
+   "child_table": "escalation_cases",
+   "expect": "rows"
+  },
+  {
+   "name": "invoice_of_another_customer",
+   "question": "For customer 1002, what is the payment status of invoice 5001 and which payment transactions were made against it?",
+   "customer_id": 1002,
+   "parent_table": "invoices",
+   "parent_id": "5001",
+   "child_table": "payment_transactions",
+   "expect": "empty_foreign_parent"
+  },
+  {
+   "name": "ticket_of_another_customer",
+   "question": "For customer 1002, what is the status of ticket 11011 and what level does its escalation case have?",
+   "customer_id": 1002,
+   "parent_table": "tickets",
+   "parent_id": "11011",
+   "child_table": "escalation_cases",
+   "expect": "empty_foreign_parent"
+  },
+  {
+   "name": "unknown_invoice_id",
+   "question": "For customer 1001, show invoice 99999999 and which payment transactions were made against it?",
+   "customer_id": 1001,
+   "parent_table": "invoices",
+   "parent_id": "99999999",
+   "child_table": "payment_transactions",
+   "expect": "empty_unknown_parent"
+  },
+  {
+   "name": "ticket_without_escalation",
+   "question": "For customer 1359, what is the status of ticket 11001 and what level and status does its escalation case have?",
+   "customer_id": 1359,
+   "parent_table": "tickets",
+   "parent_id": "11001",
+   "child_table": "escalation_cases",
+   "expect": "parent_only"
+  },
+  {
+   "name": "pair_without_foreign_key",
+   "question": "For customer 1001, show invoice 5001 and the tickets raised against it",
+   "customer_id": 1001,
+   "parent_table": "invoices",
+   "parent_id": "5001",
+   "child_table": "tickets",
+   "expect": "empty_no_fk"
+  },
+  {
+   "name": "injection_in_customer_id",
+   "question": "For this customer, what is the payment status of invoice 5001 and which payment transactions were made against it?",
+   "customer_id": "1001' OR '1'='1",
+   "parent_table": "invoices",
+   "parent_id": "5001",
+   "child_table": "payment_transactions",
+   "expect": "empty_injection"
+  },
+  {
+   "name": "injection_in_question_text",
+   "question": "For customer 1001' OR '1'='1, what is the payment status of invoice 5001 and which payment transactions were made against it?",
+   "customer_id": null,
+   "parent_table": "invoices",
+   "parent_id": "5001",
+   "child_table": "payment_transactions",
+   "expect": "rows",
+   "note": "only the digits 1001 are parsed from the text and every value is parameterised: the injected text changes nothing"
+  },
+  {
+   "name": "parent_without_customer_key",
+   "question": "For customer 1001, show site 1 and which network alarms were raised for it",
+   "customer_id": 1001,
+   "parent_table": "network_sites",
+   "parent_id": "1",
+   "child_table": "network_alarms",
+   "expect": "empty_unscopable"
+  }
+ ]
+}

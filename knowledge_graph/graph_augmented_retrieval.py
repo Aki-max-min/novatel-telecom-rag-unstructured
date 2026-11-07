@@ -33,6 +33,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import sys
 from collections import defaultdict
 from dataclasses import dataclass, field
@@ -84,6 +85,15 @@ class GraphIndex:
     def documents_of(self, label: str, concept: str) -> set:
         return self.concept_documents.get(label, {}).get(concept, set())
 
+    def document_frequency(self, label: str, concept: str) -> int:
+        """Number of documents that mention this concept (hub concepts have a high value)."""
+        return len(self.concept_documents.get(label, {}).get(concept, ()))
+
+    @property
+    def document_count(self) -> int:
+        """Number of documents in the graph that have at least one concept edge (N for hub/IDF maths)."""
+        return len(self.document_concepts)
+
 
 def load_graph_index(path: Path = GRAPH_JSON_PATH) -> GraphIndex:
     """Build the adjacency the expansion needs from the built graph JSON."""
@@ -124,6 +134,11 @@ def graph_expand(
     graph_index: GraphIndex,
     bridges: Sequence[str] = DEFAULT_BRIDGES,
     limit: int = GRAPH_CANDIDATES,
+    *,
+    hub_fraction: Optional[float] = None,
+    specificity: bool = False,
+    max_documents: Optional[int] = None,
+    allowed_labels: Optional[Sequence[str]] = None,
 ) -> List[Dict[str, Any]]:
     """Documents sharing a bridge concept with one of the seed documents.
 
@@ -131,7 +146,24 @@ def graph_expand(
     each shared concept contributes ``1 / (1 + seed_rank)``, so a concept shared
     with the top vector hit counts for more than one shared with the fifth. The
     score orders the graph list; only its *rank* reaches the fusion step.
+
+    The keyword-only parameters are the E13 hardening options; with all of them at
+    their defaults the behaviour is EXACTLY the legacy one (golden-tested):
+
+    * ``hub_fraction``  - drop concepts whose document frequency is greater than
+      ``hub_fraction * document_count`` (hubs such as OTP or Complaint Registration).
+    * ``specificity``   - weight each shared concept by ``log(N / df)`` instead of 1,
+      so a rare shared concept outranks a common one.
+    * ``max_documents`` - cap on the number of candidates returned (applied together with ``limit``).
+    * ``allowed_labels``- restrict the bridge labels to this subset of ``bridges``.
+
+    Ordering is deterministic: score desc, shared_count desc, document id asc.
     """
+    if allowed_labels is not None:
+        bridges = [label for label in bridges if label in set(allowed_labels)]
+    n_documents = graph_index.document_count
+    hub_threshold = None if hub_fraction is None else hub_fraction * n_documents
+
     scores: Dict[str, float] = defaultdict(float)
     shared: Dict[str, set] = defaultdict(set)
     seeds = set(seed_documents)
@@ -140,10 +172,14 @@ def graph_expand(
         seed_weight = 1.0 / (1 + seed_rank)
         for label in bridges:
             for concept in graph_index.concepts_of(seed, [label]):
+                df = graph_index.document_frequency(label, concept)
+                if hub_threshold is not None and df > hub_threshold:
+                    continue
+                concept_weight = math.log(n_documents / df) if (specificity and df) else 1.0
                 for neighbour in graph_index.documents_of(label, concept):
                     if neighbour == seed:
                         continue
-                    scores[neighbour] += seed_weight
+                    scores[neighbour] += seed_weight * concept_weight
                     shared[neighbour].add(f"{label}:{concept}")
 
     candidates = [
@@ -159,7 +195,8 @@ def graph_expand(
     candidates.sort(
         key=lambda row: (-row["graph_score"], -row["shared_count"], row["document_id"])
     )
-    return candidates[:limit]
+    cap = limit if max_documents is None else min(limit, max_documents)
+    return candidates[:cap]
 
 
 # ---------------------------------------------------------------------------

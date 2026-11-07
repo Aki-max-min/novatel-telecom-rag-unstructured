@@ -163,6 +163,8 @@ class TestPersonAReaderCompatibility(unittest.TestCase):
 
     def test_rebuilt_graph_json_yields_47_resolvable_pairs(self):
         from knowledge_graph.graph_builder import GRAPH_JSON_PATH
+        if not GRAPH_JSON_PATH.exists():   # output/ is generated, not tracked: build it with graph_builder first
+            self.skipTest("knowledge_graph/output/graph.json missing - run: python -m knowledge_graph.graph_builder")
         payload = json.loads(GRAPH_JSON_PATH.read_text(encoding="utf-8"))
         known = {n["key"] for n in payload["nodes"]
                  if n["label"] == "Document" and n["properties"].get("resolved", True)}

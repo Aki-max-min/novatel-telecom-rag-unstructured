@@ -68,6 +68,20 @@ def load_category_catalog(schema_path: Path = ONTOLOGY_SCHEMA) -> Dict[str, Dict
         return json.load(handle)["category_catalog"]
 
 
+#: RELATED_TO alias file written by knowledge_graph.build_related_aliases. When it exists, dangling related_ids
+#: found in it are resolved to the real document (no stub node); when it does not, behaviour is the legacy one.
+RELATED_ALIASES_PATH = Path(__file__).resolve().parent / "related_id_aliases.json"
+
+
+def load_related_aliases(path: Path = RELATED_ALIASES_PATH) -> Dict[str, str]:
+    """{dangling related id: real document id}; {} if the alias file does not exist."""
+    path = Path(path)
+    if not path.exists():
+        return {}
+    with path.open(encoding="utf-8") as handle:
+        return dict(json.load(handle).get("aliases", {}))
+
+
 def dataset_for(document_id: str) -> str:
     """Deterministic corpus of origin from the document id prefix."""
     return "SciFact" if document_id.startswith(SCIFACT_PREFIX) else "NovaTel"
@@ -141,6 +155,7 @@ def extract_entities(
 
     collector = NodeCollector()
     canonical_ids = {document["document_id"] for document in documents}
+    aliases = load_related_aliases()
 
     for document in documents:
         document_id = document["document_id"]
@@ -175,7 +190,7 @@ def extract_entities(
     unresolved_ids = set()
     for document in documents:
         for related_id in document.get("related_ids") or []:
-            if related_id and related_id not in canonical_ids:
+            if related_id and related_id not in canonical_ids and aliases.get(related_id) not in canonical_ids:
                 unresolved_ids.add(related_id)
                 collector.add("Document", related_id, stub_document_properties(related_id))
 

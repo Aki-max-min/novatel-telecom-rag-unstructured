@@ -1,0 +1,31 @@
+{
+  "description": "RELATED_TO target aliases: dangling related_ids resolved by deterministic rules (inc_prefix, kb_overview_unique). FAQ_Cnn_001 is never aliased. Source documents are untouched.",
+  "aliases": {
+    "INC_INC_2026_0142": "INC_C08_INC_2026_0142",
+    "INC_INC_2026_0163": "INC_C04_INC_2026_0163",
+    "INC_INC_2026_0179": "INC_C25_INC_2026_0179",
+    "INC_INC_2026_0184": "INC_C13_INC_2026_0184",
+    "INC_INC_2026_0197": "INC_C18_INC_2026_0197",
+    "KB_C02_overview": "KB_C02_plan_expiry",
+    "KB_C03_overview": "KB_C03_recharge_failures",
+    "KB_C04_overview": "KB_C04_bill_disputes",
+    "KB_C05_overview": "KB_C05_sim_swap_troubleshooting",
+    "KB_C06_overview": "KB_C06_porting_process",
+    "KB_C07_overview": "KB_C07_roaming_activation",
+    "KB_C08_overview": "KB_C08_outage_status_check",
+    "KB_C09_overview": "KB_C09_fup_data_speed",
+    "KB_C13_overview": "KB_C13_selfcare_login_issues",
+    "KB_C16_overview": "KB_C16_complaint_escalation",
+    "KB_C17_overview": "KB_C17_kyc_reverification",
+    "KB_C18_overview": "KB_C18_fraud_response",
+    "KB_C19_overview": "KB_C19_privacy_data_requests",
+    "KB_C20_overview": "KB_C20_refund_processing",
+    "KB_C21_overview": "KB_C21_account_closure",
+    "KB_C22_overview": "KB_C22_new_activation_delay",
+    "KB_C23_overview": "KB_C23_enterprise_onboarding",
+    "KB_C25_overview": "KB_C25_ftth_fault_diagnosis",
+    "KB_C26_overview": "KB_C26_dnd_registration",
+    "KB_C28_overview": "KB_C28_qos_disclosures",
+    "KB_C29_overview": "KB_C29_network_reset_guide"
+  }
+}

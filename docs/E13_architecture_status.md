@@ -39,6 +39,8 @@ allow-listed foreign keys (invoice -> payment_transactions, ticket -> escalation
 "graph disabled by config"). The pre-declared 22-configuration evaluation on dev sets (`docs/E13_kg_hardening_rule.md`, `docs/E13_kg_hardening_results.md`)
 failed its adoption rule: best pooled wins - losses +1, needed >= +2. The hub defect is real at the candidate level (72% of legacy candidates share only hub
 concepts) but no downstream gain was demonstrated. The incident-link mechanism check showed no change (3/5 vs 3/5). Handoff: `docs/kg_hardening_for_personA.md`.
+
+**Link decoupling (pre-declared, `docs/E13_link_decoupling_rule.md`): FAIL, links OFF by default.** Resolved RELATED_TO neighbours can now form their own fusion list (top-3 vector seeds, cap 2, `link_candidates`/`link_weight` in `hybrid/fusion.py`, `LINKS_ENABLED = False` and `links_enabled=` in `hybrid/pipeline.py`), independent of the gate graph weight - the trace had shown weight 0.0 for four of five incident questions. Result (`docs/E13_link_decoupling_results.md`): 0 wins / 0 losses in every cell on the dev sets and 3/5 vs 3/5 incident pairs, so no adoption. IL4 stays missed because its RCA is vector rank 4 and the rule seeds only the top 3; **IL1 is a reranker miss** (CrossEncoder rank 9 of 9), recorded as such and not changed.
 Setup after cloning: `python -m knowledge_graph.graph_builder`, `python -m hybrid.setup_check`.
 
 ## Evidence

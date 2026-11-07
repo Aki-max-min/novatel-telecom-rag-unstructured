@@ -50,10 +50,21 @@ byte-identical (tested). Your documents are untouched.
 
 **Your semantic layer picks these up automatically.** `integration/rag/semantic_layer.py::_read_related_edges` (branch `integrate/kg-ontology-router-ui`)
 reads `RELATED_TO` edges from `output/graph.json`; a compatibility test replicates that reader against the rebuilt graph and gets 47 resolvable pairs
-(vs 0 before), so `use_related_links=True` now has something to add. One difference: your `neighbours()` appends linked documents AFTER the concept
-list; `hybrid/retrievers.py` puts them FIRST. Mechanism check (5 incident/RCA questions, `hybrid/benchmark/incident_link_check.json`): both documents of the
-pair in the final top 5 with links ON 3/5, OFF 3/5 - **no change**, and the trace (`docs/E13_incident_link_trace.md`) shows why: the gate gives graph weight 0.0 to four of the five questions (IL1, IL3, IL4, IL5; only IL2 has a concept hint), and weight 0.0 excludes the whole graph list - links included - from fusion. IL4: the linked partner INC_C13_INC_2026_0184 was graph rank 3 but never entered fusion for that reason. IL1: the partner was already vector rank 2 and fusion rank 2, but the rerank (rerank-only rank 9 of 9) pushed it to blend rank 6, just outside the top 5; the graph played no part. So the check barely exercised the link mechanism; links only matter for questions with a gate weight above 0. This is a mechanism
-check on five pairs, not evidence of generalisation.
+(vs 0 before), so `use_related_links=True` now has something to add. One difference: your `neighbours()` appends linked documents AFTER the concept list; in `hybrid/` the links are now their own fusion list
+(below), independent of the concept list.
+
+**Link decoupling - pre-declared experiment, verdict FAIL (negative result).** The incident trace (`docs/E13_incident_link_trace.md`) showed that the gate
+gives graph weight 0.0 to four of the five incident questions, which excluded the whole graph list - links included - from fusion. So resolved links became
+their own ranked list in `hybrid/fusion.py` (`link_candidates=`, `link_weight=`), independent of the gate: seeds = top 3 vector documents, at most 2 linked
+documents, `w_link` in {0.15, 0.30, 0.50}. Rule and results: `docs/E13_link_decoupling_rule.md` (committed before any code), `docs/E13_link_decoupling_results.md`.
+On the dev sets (main 29, mini 9, validation 14) every cell had 0 wins and 0 losses; on the 5-question incident mechanism check links-on put 3/5 pairs in the
+final top 5, the same as links-off, so the adoption rule (needs at least one more pair) failed. **`LINKS_ENABLED = False` in `hybrid/pipeline.py`** (opt in with
+`run_hybrid_query(..., links_enabled=True)`; `LINK_WEIGHT = 0.15`, the tie-break cell, since all three tied). The three cells tie because the link list changed no top-3
+outcome even where links were added (17 of 29, 5 of 9, 10 of 14 questions).
+Why IL4 still fails: its RCA document is vector rank 4 and the pre-declared seed rule is the top 3, so the RCA's link to its INC partner is never followed
+(the top-3 seeds linked to `FAQ_C13_025` instead). Whether 4-5 seeds would help needs its own pre-declared experiment.
+**IL1 is a reranker miss, not a link problem:** the partner was vector rank 2 / fusion rank 2 and the CrossEncoder ranked it 9 of 9 in the pool (blend rank 6);
+the reranker was not changed. Five incident pairs is a mechanism check, not generalisation evidence.
 
 `knowledge_graph/output/` is generated and not tracked in git: after cloning run `python -m knowledge_graph.graph_builder`, then
 `python -m hybrid.setup_check` (OK/MISSING for each asset with the fix command). `load_graph_index` raises `FileNotFoundError` naming that command.

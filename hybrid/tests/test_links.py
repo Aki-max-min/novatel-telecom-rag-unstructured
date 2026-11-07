@@ -6,6 +6,7 @@ No models are loaded: vector candidates are synthetic, chunk text/ids come from 
 
 import os
 import sys
+import types
 import unittest
 from pathlib import Path
 from unittest import mock
@@ -25,6 +26,7 @@ from knowledge_graph.graph_augmented_retrieval import load_graph_index  # noqa: 
 from query_gate import classify_query, graph_weight  # noqa: E402
 from retrievers import LINK_SEEDS, MAX_LINKED_DOCUMENTS, link_candidates_for  # noqa: E402
 
+F1, F2, F3, F4 = "COV_NORTH_2026", "COV_SOUTH_2026", "EML_001", "EML_002"   # documents with no resolved links
 NO_CONCEPT_QUESTION = "zzz plain words qqq"   # gate: no concept hint -> graph weight 0.0
 
 
@@ -58,6 +60,11 @@ class TestLinkCandidates(unittest.TestCase):
     def ids(self, cands):
         return [c["metadata"]["document_id"] for c in cands]
 
+    def test_filler_documents_really_have_no_links(self):
+        for doc in (F1, F2, F3, F4):
+            self.assertIn(doc, self.index.known_documents)
+            self.assertNotIn(doc, self.index.related)
+
     def test_constants(self):
         self.assertEqual((LINK_SEEDS, MAX_LINKED_DOCUMENTS), (3, 2))
 
@@ -65,7 +72,7 @@ class TestLinkCandidates(unittest.TestCase):
         self.assertEqual(graph_weight(classify_query(NO_CONCEPT_QUESTION)), 0.0)
 
     def test_linked_neighbour_of_a_top3_seed_enters_fusion_even_at_gate_weight_zero(self):
-        vector = vector_list("RCA_INC_2026_0184", "FAQ_C13_026", "MAN_APP_001", "FAQ_C13_025")
+        vector = vector_list("RCA_INC_2026_0184", F1, F2, F3)
         links = self.links(vector)
         self.assertEqual(self.ids(links), ["INC_C13_INC_2026_0184"])
         self.assertTrue(all(c["retrieval_method"] == "link" for c in links))
@@ -78,14 +85,14 @@ class TestLinkCandidates(unittest.TestCase):
         self.assertAlmostEqual(row["fusion_score"], 0.3 / (60 + 1), places=12)
 
     def test_neighbour_of_a_rank4_or_lower_seed_does_not_enter(self):
-        vector = vector_list("FAQ_C13_026", "MAN_APP_001", "FAQ_C13_025", "RCA_INC_2026_0184", "FAQ_C01_001")
+        vector = vector_list(F1, F2, F3, "RCA_INC_2026_0184", F4)
         links = self.links(vector)
         self.assertEqual(links, [])
         fused = fuse_and_select(vector, [], NO_CONCEPT_QUESTION, top_k=20, link_candidates=links, link_weight=0.5)
         self.assertNotIn("INC_C13_INC_2026_0184", self.ids(fused))
 
     def test_a_linked_document_already_in_the_vector_list_is_not_added_again(self):
-        vector = vector_list("RCA_INC_2026_0184", "INC_C13_INC_2026_0184", "MAN_APP_001")
+        vector = vector_list("RCA_INC_2026_0184", "INC_C13_INC_2026_0184", F1)
         self.assertEqual(self.links(vector), [])
 
     def test_cap_of_two_linked_documents_holds(self):
@@ -93,7 +100,7 @@ class TestLinkCandidates(unittest.TestCase):
         seeds = by_degree[:3]
         available = {n for s in seeds for n in self.index.related[s]} - set(seeds)
         self.assertGreater(len(available), 2, "the test needs more than 2 available neighbours")
-        links = self.links(vector_list(*seeds, "FAQ_C01_001"))
+        links = self.links(vector_list(*seeds, F4))
         self.assertEqual(len(links), 2)
 
     def test_link_list_is_ordered_by_seed_rank_then_id(self):
@@ -105,7 +112,7 @@ class TestLinkCandidates(unittest.TestCase):
             self.assertEqual(ids[0], first[0])
 
     def test_concept_list_is_untouched_by_links(self):
-        vector = vector_list("RCA_INC_2026_0184", "FAQ_C13_026", "MAN_APP_001", "FAQ_C13_025")
+        vector = vector_list("RCA_INC_2026_0184", F1, F2, F3)
         graph = [make("KB_C13_selfcare_login_issues", 9.0, "graph"), make("SOP_C13_APP_ACCESS_ISSUES", 8.0, "graph")]
         links = self.links(vector)
         for weight in (0.0, 0.5):
@@ -148,7 +155,8 @@ class TestPipelineSwitch(unittest.TestCase):
         with mock.patch.object(retrievers, "build_candidates", lambda q, **k: ([doc], [], 0)), \
                 mock.patch.object(retrievers, "link_candidates_for", fake_links), \
                 mock.patch.object(retrievers, "load_context",
-                                  lambda: {"graph_index": None, "corpus": None, "person_a": None}), \
+                                  lambda: {"graph_index": None, "corpus": None,
+                                           "person_a": types.SimpleNamespace(load_chunk_text=stub_text)}), \
                 mock.patch.object(pipeline, "run_hybrid_retrieval", lambda *a, **k: [dict(doc, rerank_status="stub")]):
             off = pipeline.run_hybrid_query("How do refunds work?", None)
             self.assertNotIn("called", seen)

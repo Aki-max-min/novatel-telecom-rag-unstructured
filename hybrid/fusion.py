@@ -25,7 +25,8 @@ VECTOR_WEIGHT = 1.0
 
 
 def fuse_candidates(vector_candidates: list[dict], graph_candidates: list[dict],
-                    graph_weight: float, k: int = RRF_K) -> list[dict]:
+                    graph_weight: float, k: int = RRF_K, *, link_candidates: list[dict] = None,
+                    link_weight: float = 0.0) -> list[dict]:
     """Document-level weighted RRF over two rank-ordered lists (index 0 = rank 1).
 
     Candidates are keyed by document (dedup.document_key: metadata document_id,
@@ -42,10 +43,17 @@ def fuse_candidates(vector_candidates: list[dict], graph_candidates: list[dict],
     dicts are copies with "fusion_score", "fusion_sources" and "fusion_doc_key" added.
     The representative candidate for a document is its highest-original-score
     vector chunk if it has one, else its best-ranked graph candidate.
+
+    Link list (E13 link decoupling): ``link_candidates`` are resolved RELATED_TO neighbours of the top vector documents
+    (hybrid/retrievers.link_candidates_for). They form their OWN ranked list with weight ``link_weight`` and enter
+    fusion whatever the gate graph weight is (so also when graph_weight == 0.0). With link_candidates None/empty or
+    link_weight <= 0 the output is exactly what it was before this option existed.
     """
     lists = [("vector", vector_candidates, VECTOR_WEIGHT)]
     if graph_weight > 0.0:
         lists.append(("graph", graph_candidates, graph_weight))
+    if link_candidates and link_weight > 0.0:
+        lists.append(("links", link_candidates, link_weight))
 
     docs: dict[str, dict] = {}  # insertion order == first appearance
     for name, candidates, weight in lists:
@@ -79,7 +87,8 @@ def fuse_candidates(vector_candidates: list[dict], graph_candidates: list[dict],
 
 
 def fuse_and_select(vector_candidates: list[dict], graph_candidates: list[dict],
-                    question: str, top_k: int = 5) -> list[dict]:
+                    question: str, top_k: int = 5, *, link_candidates: list[dict] = None,
+                    link_weight: float = 0.0) -> list[dict]:
     """Query gate -> weighted RRF -> dedupe by document -> top_k.
 
     select_context ranks by "score", which for the raw candidates is on
@@ -87,6 +96,7 @@ def fuse_and_select(vector_candidates: list[dict], graph_candidates: list[dict],
     score = fusion_score; the retriever's original value is kept as "original_score".
     """
     weight = graph_weight(classify_query(question))
-    fused = fuse_candidates(vector_candidates, graph_candidates, weight)
+    fused = fuse_candidates(vector_candidates, graph_candidates, weight,
+                            link_candidates=link_candidates, link_weight=link_weight)
     rescored = [{**c, "original_score": c["score"], "score": c["fusion_score"]} for c in fused]
     return select_context(rescored, top_k=top_k)

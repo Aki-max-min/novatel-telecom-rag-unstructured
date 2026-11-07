@@ -112,3 +112,34 @@ def build_candidates(question, retriever=None, graph_index=None, corpus=None, pe
         graph.append(to_candidate(doc, chunk_id, row["graph_score"], "graph", category,
                                   person_a.load_chunk_text(chunk_id), corpus.title_by_doc.get(doc, "")))
     return vector, graph, dropped
+
+
+# --- link list (E13 link decoupling) ------------------------------------------------------------------
+LINK_SEEDS = 3             # resolved RELATED_TO neighbours of the top 3 vector documents only
+MAX_LINKED_DOCUMENTS = 2   # at most 2 linked documents are added
+
+
+def link_candidates_for(vector, graph_index, corpus, chunk_text_fn, seeds=LINK_SEEDS, cap=MAX_LINKED_DOCUMENTS):
+    """The link list: linked neighbours of the top `seeds` vector documents, as Common Result Schema dicts.
+
+    Independent of the gate graph weight and of the concept list. Documents already in the vector list are skipped
+    (they already compete there); a linked document with no indexed chunk is dropped. Ordered by seed rank, then id;
+    at most `cap` documents. retrieval_method is "link".
+    """
+    from knowledge_graph.graph_augmented_retrieval import related_neighbours
+    vector_docs = [c["metadata"]["document_id"] for c in vector]
+    in_vector = set(vector_docs)
+    out = []
+    for row in related_neighbours(vector_docs[:seeds], graph_index, limit=10 ** 6):
+        doc = row["document_id"]
+        if doc in in_vector:
+            continue
+        chunk_id = corpus.first_chunk(doc)
+        if chunk_id is None:
+            continue
+        titles = getattr(corpus, "title_by_doc", {})
+        out.append(to_candidate(doc, chunk_id, 1000.0 - row["seed_rank"], "link", "", chunk_text_fn(chunk_id),
+                                titles.get(doc, "")))
+        if len(out) >= cap:
+            break
+    return out

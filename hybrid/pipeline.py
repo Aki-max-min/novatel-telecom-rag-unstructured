@@ -19,19 +19,29 @@ from rerank import controlled_rerank  # noqa: E402
 GRAPH_ENABLED = False
 GRAPH_DISABLED_TRACE = "graph disabled by config"
 
+# Resolved RELATED_TO links as their OWN fusion list, independent of the gate graph weight
+# (docs/E13_link_decoupling_rule.md). OFF until the pre-declared verdict says otherwise; LINK_WEIGHT is the fusion
+# weight of the link list when it is on.
+LINKS_ENABLED = False
+LINK_WEIGHT = 0.30
+
 
 def run_hybrid_retrieval(question: str, vector_candidates: list[dict],
                          graph_candidates: list[dict], max_pool: int = 20,
-                         top_k: int = 5, model=None, mode: str = None, blend_weight: float = None) -> list[dict]:
-    """Gate -> fuse -> dedupe (keeping up to max_pool) -> capped rerank -> top_k."""
-    pool = fuse_and_select(vector_candidates, graph_candidates, question, top_k=max_pool)
+                         top_k: int = 5, model=None, mode: str = None, blend_weight: float = None,
+                         link_candidates: list = None, link_weight: float = None) -> list[dict]:
+    """Gate -> fuse -> dedupe (keeping up to max_pool) -> capped rerank -> top_k.
+    `link_candidates` (optional) is the separate link list; link_weight defaults to LINK_WEIGHT."""
+    pool = fuse_and_select(vector_candidates, graph_candidates, question, top_k=max_pool,
+                           link_candidates=link_candidates,
+                           link_weight=(LINK_WEIGHT if link_weight is None else link_weight))
     return controlled_rerank(question, pool, max_pool=max_pool, top_k=top_k, model=model,
                              mode=mode, blend_weight=blend_weight)
 
 
 def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int = 20,
                      top_k: int = 5, model=None, mode: str = None, blend_weight: float = None,
-                     graph_enabled: bool = None) -> dict:
+                     graph_enabled: bool = None, links_enabled: bool = None) -> dict:
     """Route -> structured facts and/or fused-reranked documents, as TWO separate channels.
 
     Facts (structured_adapter, customer-scoped) and documents (vector + graph -> fuse -> dedup ->
@@ -62,12 +72,21 @@ def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int 
     documents_are_generic = plan.outcome == "needs_identity"
     if plan.outcome != "refuse_other_customer" and (
             plan.route in ("unstructured", "both") or plan.outcome == "needs_identity"):
-        from retrievers import build_candidates
+        import retrievers
+        build_candidates = retrievers.build_candidates
         use_graph = GRAPH_ENABLED if graph_enabled is None else graph_enabled
         vector, graph, _ = build_candidates(question, graph_enabled=use_graph)
         trace["graph"] = "graph enabled" if use_graph else GRAPH_DISABLED_TRACE
+        use_links = LINKS_ENABLED if links_enabled is None else links_enabled
+        links = []
+        if use_links:
+            ctx = retrievers.load_context()
+            links = retrievers.link_candidates_for(vector, ctx["graph_index"], ctx["corpus"],
+                                                   ctx["person_a"].load_chunk_text)
+        trace["links"] = "links enabled" if use_links else "links disabled by config"
+        trace["linked_documents"] = [c["metadata"]["document_id"] for c in links]
         documents = run_hybrid_retrieval(question, vector, graph, max_pool=max_pool, top_k=top_k, model=model,
-                                         mode=mode, blend_weight=blend_weight)
+                                         mode=mode, blend_weight=blend_weight, link_candidates=links)
         trace["documents_ran"] = True
         trace["rerank_status"] = documents[0].get("rerank_status") if documents else None
 

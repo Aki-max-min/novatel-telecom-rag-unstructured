@@ -17,6 +17,18 @@ sys.path.insert(0, str(REPO_ROOT))
 from knowledge_graph.graph_augmented_retrieval import (  # noqa: E402
     DEFAULT_BRIDGES, GraphIndex, graph_expand, load_graph_index)
 
+SKIP_MESSAGE = ("graph.json missing: run python -m knowledge_graph.build_related_aliases "
+                "&& python -m knowledge_graph.graph_builder")
+
+
+def load_index_or_skip():
+    """knowledge_graph/output/ is generated and not tracked in git: skip (not error) when graph.json is absent."""
+    from knowledge_graph.graph_builder import GRAPH_JSON_PATH
+    if not GRAPH_JSON_PATH.exists():
+        raise unittest.SkipTest(SKIP_MESSAGE)
+    return load_graph_index()
+
+
 GOLDEN = REPO_ROOT / "knowledge_graph" / "tests_data" / "graph_expand_golden.json"
 
 
@@ -24,7 +36,7 @@ class TestLegacyGolden(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.index = load_graph_index()
+        cls.index = load_index_or_skip()
         cls.golden = json.loads(GOLDEN.read_text(encoding="utf-8"))["cases"]
 
     def test_golden_has_the_required_coverage(self):
@@ -51,7 +63,7 @@ class TestHardening(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.index = load_graph_index()
+        cls.index = load_index_or_skip()
         cls.n = cls.index.document_count
 
     def concept_df(self, key):
@@ -141,7 +153,7 @@ class TestRelatedNeighbours(unittest.TestCase):
     def setUpClass(cls):
         from knowledge_graph.graph_augmented_retrieval import related_neighbours
         cls.related_neighbours = staticmethod(related_neighbours)
-        cls.index = load_graph_index()
+        cls.index = load_index_or_skip()
 
     def test_47_undirected_links_are_loaded_between_resolved_documents(self):
         links = {frozenset((a, b)) for a, bs in self.index.related.items() for b in bs}

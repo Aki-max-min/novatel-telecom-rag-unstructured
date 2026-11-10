@@ -340,8 +340,8 @@ def comparison_table(M, err_counts, G) -> str:
         lines += [f"### Rule: {rule}", "", "| comparison | wins | losses | ties | McNemar p | 95% CI (pts) | mean diff (pts) | note |", "|---|---|---|---|---|---|---|---|"]
         for a, b in COMPARISONS:
             p = M["paired"].get(f"{a}_vs_{b}", {}).get(rule)
-            if not p:
-                lines.append(f"| {a} vs {b} | n/a | n/a | n/a | n/a | n/a | n/a | an arm is missing |")
+            if not p or p["ci95_pts"] is None:
+                lines.append(f"| {a} vs {b} | n/a | n/a | n/a | n/a | n/a | n/a | {'an arm is missing' if not p else 'no scored pairs yet'} |")
                 continue
             lines.append(f"| {a} vs {b} | {p['wins']} | {p['losses']} | {p['ties']} | {p['p_mcnemar_exact']:.4f} | [{p['ci95_pts'][0]:+.1f}, {p['ci95_pts'][1]:+.1f}] | {p['mean_diff_pts']:+.1f} | "
                          f"{'fewer than 10 discordant pairs (low power)' if p['fewer_than_10_discordant'] else ''} wins {p['win_ids']} losses {p['loss_ids']} |")

@@ -1,0 +1,2488 @@
+{
+ "note": "Recorded from the unmodified graph_expand BEFORE the hardening change; V0 must reproduce it exactly.",
+ "cases": [
+  {
+   "seeds": [
+    "FAQ_C17_034"
+   ],
+   "limit": 20,
+   "bridges": [
+    "Service",
+    "Channel",
+    "VerificationMethod",
+    "Tag"
+   ],
+   "output": [
+    {
+     "document_id": "EML_008",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:KYC Verification",
+      "VerificationMethod:Photo ID",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C17_033",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17",
+      "Tag:kyc",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C17_KYC_VERIFICATION",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17",
+      "VerificationMethod:Photo ID",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C05_010",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:KYC Verification",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C17_kyc_reverification",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "Policy_C17_kyc_policy",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "TRN_004",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "VerificationMethod:Photo ID",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "TRX_007",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "VerificationMethod:Photo ID",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C01_002",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:KYC Verification"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C04_bill_disputes",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:KYC Verification"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C13_selfcare_login_issues",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:KYC Verification"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C22_new_activation_delay",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:KYC Verification"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C05_SIM_REPLACEMENT",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C13_APP_ACCESS_ISSUES",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "COV_NORTH_2026",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    },
+    {
+     "document_id": "COV_SOUTH_2026",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    },
+    {
+     "document_id": "EML_002",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    },
+    {
+     "document_id": "EML_009",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C01_001",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C02_003",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    }
+   ]
+  },
+  {
+   "seeds": [
+    "KB_C17_kyc_reverification"
+   ],
+   "limit": 20,
+   "bridges": [
+    "Service",
+    "Channel",
+    "VerificationMethod",
+    "Tag"
+   ],
+   "output": [
+    {
+     "document_id": "FAQ_C17_033",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17",
+      "VerificationMethod:OTP",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C17_KYC_VERIFICATION",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17",
+      "VerificationMethod:OTP",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C17_034",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C02_plan_expiry",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C04_bill_disputes",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C06_porting_process",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C13_selfcare_login_issues",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C19_privacy_data_requests",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C22_new_activation_delay",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "Policy_C17_kyc_policy",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "TRX_007",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "VerificationMethod:OTP",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "EML_008",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C03_recharge_failures",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C05_sim_swap_troubleshooting",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C07_roaming_activation",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C08_outage_status_check",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C09_fup_data_speed",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C16_complaint_escalation",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C18_fraud_response",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C20_refund_processing",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    }
+   ]
+  },
+  {
+   "seeds": [
+    "SOP_C13_APP_ACCESS_ISSUES"
+   ],
+   "limit": 20,
+   "bridges": [
+    "Service",
+    "Channel",
+    "VerificationMethod",
+    "Tag"
+   ],
+   "output": [
+    {
+     "document_id": "MAN_APP_001",
+     "graph_score": 5.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C01_001",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C13_025",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Tag:c13",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C13_selfcare_login_issues",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Tag:c13",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C16_complaint_escalation",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0184",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "Tag:c13"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C03_RECHARGE_FAILURE",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C17_KYC_VERIFICATION",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C13_026",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Tag:c13"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C03_recharge_failures",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C04_bill_disputes",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C05_sim_swap_troubleshooting",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C07_roaming_activation",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C08_outage_status_check",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C09_fup_data_speed",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C20_refund_processing",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C22_new_activation_delay",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C25_ftth_fault_diagnosis",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C26_dnd_registration",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C29_network_reset_guide",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    }
+   ]
+  },
+  {
+   "seeds": [
+    "MAN_APP_001"
+   ],
+   "limit": 20,
+   "bridges": [
+    "Service",
+    "Channel",
+    "VerificationMethod",
+    "Tag"
+   ],
+   "output": [
+    {
+     "document_id": "SOP_C03_RECHARGE_FAILURE",
+     "graph_score": 6.0,
+     "shared_concepts": [
+      "Channel:Self-Care Portal",
+      "Service:Bill Payment",
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "Service:Recharge",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 6,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C13_APP_ACCESS_ISSUES",
+     "graph_score": 5.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C01_001",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C03_recharge_failures",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Recharge",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C07_roaming_activation",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Roaming Activation",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C16_complaint_escalation",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "TRX_001",
+     "graph_score": 4.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "Service:Recharge",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C13_025",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C04_bill_disputes",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C05_sim_swap_troubleshooting",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C08_outage_status_check",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C09_fup_data_speed",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C13_selfcare_login_issues",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C20_refund_processing",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C22_new_activation_delay",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C25_ftth_fault_diagnosis",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C26_dnd_registration",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C29_network_reset_guide",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0184",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C05_SIM_REPLACEMENT",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    }
+   ]
+  },
+  {
+   "seeds": [
+    "RCA_INC_2026_0142"
+   ],
+   "limit": 20,
+   "bridges": [
+    "Service",
+    "Channel",
+    "VerificationMethod",
+    "Tag"
+   ],
+   "output": [
+    {
+     "document_id": "RCA_INC_2026_0163",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund",
+      "Tag:rca"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0179",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund",
+      "Tag:rca"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0184",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund",
+      "Tag:rca"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0197",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund",
+      "Tag:rca"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C10_019",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "INC_C07_INC_2026_0190",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "Policy_C20_refund_policy",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C03_RECHARGE_FAILURE",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C08_OUTAGE_MANAGEMENT",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Tag:c08"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C10_VAS_DISPUTE",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C20_REFUND_PROCESSING",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "TRN_001",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "EML_001",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Service:Refund"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    },
+    {
+     "document_id": "EML_006",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Service:Complaint Registration"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    },
+    {
+     "document_id": "EML_010",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Service:Complaint Registration"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C03_005",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Service:Refund"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C08_015",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Tag:c08"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C08_016",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Tag:c08"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C16_031",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Service:Complaint Registration"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C16_032",
+     "graph_score": 1.0,
+     "shared_concepts": [
+      "Service:Complaint Registration"
+     ],
+     "shared_count": 1,
+     "is_seed": false
+    }
+   ]
+  },
+  {
+   "seeds": [
+    "Policy_C20_refund_policy"
+   ],
+   "limit": 20,
+   "bridges": [
+    "Service",
+    "Channel",
+    "VerificationMethod",
+    "Tag"
+   ],
+   "output": [
+    {
+     "document_id": "FAQ_C20_040",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:Bill Payment",
+      "Service:Refund",
+      "Tag:c20"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C03_RECHARGE_FAILURE",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:Bill Payment",
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C20_REFUND_PROCESSING",
+     "graph_score": 3.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund",
+      "Tag:c20"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C10_019",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C20_039",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Refund",
+      "Tag:c20"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "INC_C07_INC_2026_0190",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C20_refund_processing",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Refund",
+      "Tag:c20"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "MAN_APP_001",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Bill Payment",
+      "Service:Complaint Registration"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "Policy_C02_plan_lifecycle",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "Policy_C04_billing_disputes",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "Policy_C17_kyc_policy",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "Policy_C18_security_policy",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "Policy_C19_privacy_policy",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "Policy_C23_enterprise_terms",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "Policy_C28_regulatory_compliance",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0142",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0163",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0179",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0184",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0197",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    }
+   ]
+  },
+  {
+   "seeds": [
+    "FAQ_C17_034",
+    "KB_C17_kyc_reverification",
+    "SOP_C17_KYC_VERIFICATION",
+    "TRX_007",
+    "EML_008"
+   ],
+   "limit": 20,
+   "bridges": [
+    "Service",
+    "Channel",
+    "VerificationMethod",
+    "Tag"
+   ],
+   "output": [
+    {
+     "document_id": "FAQ_C17_033",
+     "graph_score": 8.816667,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17",
+      "Tag:kyc",
+      "VerificationMethod:Aadhaar",
+      "VerificationMethod:OTP",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 6,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C17_KYC_VERIFICATION",
+     "graph_score": 7.6,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17",
+      "VerificationMethod:OTP",
+      "VerificationMethod:Photo ID",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 5,
+     "is_seed": true
+    },
+    {
+     "document_id": "TRN_004",
+     "graph_score": 7.016667,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "VerificationMethod:Biometric",
+      "VerificationMethod:Photo ID",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "EML_008",
+     "graph_score": 6.75,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:KYC Verification",
+      "VerificationMethod:Photo ID",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 4,
+     "is_seed": true
+    },
+    {
+     "document_id": "Policy_C17_kyc_policy",
+     "graph_score": 6.733333,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "Tag:c17",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "TRX_007",
+     "graph_score": 6.433333,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "VerificationMethod:OTP",
+      "VerificationMethod:Photo ID",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 4,
+     "is_seed": true
+    },
+    {
+     "document_id": "SOP_C05_SIM_REPLACEMENT",
+     "graph_score": 6.15,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "Service:Mobile Number Update",
+      "VerificationMethod:Biometric",
+      "VerificationMethod:OTP",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 6,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C17_kyc_reverification",
+     "graph_score": 5.483333,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17",
+      "VerificationMethod:OTP",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 4,
+     "is_seed": true
+    },
+    {
+     "document_id": "FAQ_C05_010",
+     "graph_score": 5.266667,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:KYC Verification",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C13_APP_ACCESS_ISSUES",
+     "graph_score": 5.233333,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C04_bill_disputes",
+     "graph_score": 5.066667,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C13_selfcare_login_issues",
+     "graph_score": 5.066667,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C22_new_activation_delay",
+     "graph_score": 5.066667,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C17_034",
+     "graph_score": 4.383333,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Service:KYC Verification",
+      "Tag:c17",
+      "VerificationMethod:Photo ID",
+      "VerificationMethod:Video KYC"
+     ],
+     "shared_count": 5,
+     "is_seed": true
+    },
+    {
+     "document_id": "SOP_C18_FRAUD_RESPONSE",
+     "graph_score": 4.033333,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C22_ACTIVATION_DELAY",
+     "graph_score": 4.033333,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "TRX_004",
+     "graph_score": 3.95,
+     "shared_concepts": [
+      "Channel:Helpline/Call Center",
+      "Service:Complaint Registration",
+      "VerificationMethod:OTP",
+      "VerificationMethod:Photo ID"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C02_plan_expiry",
+     "graph_score": 3.866667,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C06_porting_process",
+     "graph_score": 3.866667,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C19_privacy_data_requests",
+     "graph_score": 3.866667,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    }
+   ]
+  },
+  {
+   "seeds": [
+    "MAN_APP_001",
+    "SOP_C13_APP_ACCESS_ISSUES",
+    "FAQ_C13_025",
+    "KB_C13_selfcare_login_issues",
+    "RCA_INC_2026_0184"
+   ],
+   "limit": 20,
+   "bridges": [
+    "Service",
+    "Channel",
+    "VerificationMethod",
+    "Tag"
+   ],
+   "output": [
+    {
+     "document_id": "SOP_C03_RECHARGE_FAILURE",
+     "graph_score": 9.766667,
+     "shared_concepts": [
+      "Channel:Self-Care Portal",
+      "Service:Bill Payment",
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "Service:Recharge",
+      "Service:Refund",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 7,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C16_complaint_escalation",
+     "graph_score": 8.6,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C01_001",
+     "graph_score": 8.15,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C13_APP_ACCESS_ISSUES",
+     "graph_score": 8.133333,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "Tag:c13",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 6,
+     "is_seed": true
+    },
+    {
+     "document_id": "KB_C03_recharge_failures",
+     "graph_score": 7.9,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Recharge",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C07_roaming_activation",
+     "graph_score": 7.9,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Roaming Activation",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C04_bill_disputes",
+     "graph_score": 7.65,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:KYC Verification",
+      "Service:Plan Change",
+      "Service:SIM Swap",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 7,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C22_new_activation_delay",
+     "graph_score": 7.65,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:KYC Verification",
+      "Service:Plan Change",
+      "Service:SIM Swap",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 7,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C05_sim_swap_troubleshooting",
+     "graph_score": 7.15,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:SIM Swap",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C20_refund_processing",
+     "graph_score": 7.1,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Refund",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C13_selfcare_login_issues",
+     "graph_score": 6.933333,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Tag:c13",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": true
+    },
+    {
+     "document_id": "KB_C08_outage_status_check",
+     "graph_score": 6.9,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C09_fup_data_speed",
+     "graph_score": 6.9,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C25_ftth_fault_diagnosis",
+     "graph_score": 6.9,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C26_dnd_registration",
+     "graph_score": 6.9,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C29_network_reset_guide",
+     "graph_score": 6.9,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0184",
+     "graph_score": 6.75,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "Tag:c13"
+     ],
+     "shared_count": 4,
+     "is_seed": true
+    },
+    {
+     "document_id": "FAQ_C13_025",
+     "graph_score": 6.6,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Tag:c13",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": true
+    },
+    {
+     "document_id": "TRX_001",
+     "graph_score": 6.283333,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "Service:Recharge",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C13_026",
+     "graph_score": 6.183333,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Tag:app",
+      "Tag:c13"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    }
+   ]
+  },
+  {
+   "seeds": [
+    "FAQ_C26_052",
+    "KB_C26_dnd_registration",
+    "FAQ_C26_051",
+    "Policy_C28_regulatory_compliance",
+    "FAQ_C28_055"
+   ],
+   "limit": 20,
+   "bridges": [
+    "Service",
+    "Channel",
+    "VerificationMethod",
+    "Tag"
+   ],
+   "output": [
+    {
+     "document_id": "FAQ_C26_051",
+     "graph_score": 4.45,
+     "shared_concepts": [
+      "Service:DND Activation",
+      "Tag:c26",
+      "Tag:dnd"
+     ],
+     "shared_count": 3,
+     "is_seed": true
+    },
+    {
+     "document_id": "Policy_C28_regulatory_compliance",
+     "graph_score": 3.633333,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:DND Activation",
+      "Service:KYC Verification",
+      "Service:Number Portability",
+      "Tag:c28"
+     ],
+     "shared_count": 5,
+     "is_seed": true
+    },
+    {
+     "document_id": "KB_C16_complaint_escalation",
+     "graph_score": 3.25,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C26_dnd_registration",
+     "graph_score": 3.116667,
+     "shared_concepts": [
+      "Service:DND Activation",
+      "Tag:c26"
+     ],
+     "shared_count": 2,
+     "is_seed": true
+    },
+    {
+     "document_id": "FAQ_C28_055",
+     "graph_score": 2.833333,
+     "shared_concepts": [
+      "Service:DND Activation",
+      "Service:KYC Verification",
+      "Service:Number Portability",
+      "Tag:c28"
+     ],
+     "shared_count": 4,
+     "is_seed": true
+    },
+    {
+     "document_id": "MAN_APP_001",
+     "graph_score": 2.75,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C13_APP_ACCESS_ISSUES",
+     "graph_score": 2.75,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C26_052",
+     "graph_score": 2.7,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:DND Activation",
+      "Tag:c26",
+      "Tag:dnd"
+     ],
+     "shared_count": 4,
+     "is_seed": true
+    },
+    {
+     "document_id": "KB_C04_bill_disputes",
+     "graph_score": 2.45,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C13_selfcare_login_issues",
+     "graph_score": 2.45,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C22_new_activation_delay",
+     "graph_score": 2.45,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:KYC Verification",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0184",
+     "graph_score": 2.25,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C03_RECHARGE_FAILURE",
+     "graph_score": 2.25,
+     "shared_concepts": [
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C05_SIM_REPLACEMENT",
+     "graph_score": 2.2,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C17_KYC_VERIFICATION",
+     "graph_score": 2.2,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C18_FRAUD_RESPONSE",
+     "graph_score": 2.2,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C22_ACTIVATION_DELAY",
+     "graph_score": 2.2,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "TRX_004",
+     "graph_score": 2.2,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Number Portability",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C28_056",
+     "graph_score": 2.15,
+     "shared_concepts": [
+      "Channel:Website",
+      "Service:Complaint Registration",
+      "Tag:c28",
+      "Tag:regulatory"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C03_recharge_failures",
+     "graph_score": 2.0,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    }
+   ]
+  },
+  {
+   "seeds": [
+    "FAQ_C20_040",
+    "Policy_C20_refund_policy",
+    "KB_C20_refund_processing",
+    "SOP_C20_REFUND_PROCESSING",
+    "FAQ_C20_039"
+   ],
+   "limit": 20,
+   "bridges": [
+    "Service",
+    "Channel",
+    "VerificationMethod",
+    "Tag"
+   ],
+   "output": [
+    {
+     "document_id": "SOP_C03_RECHARGE_FAILURE",
+     "graph_score": 5.9,
+     "shared_concepts": [
+      "Channel:Self-Care Portal",
+      "Service:Bill Payment",
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "Service:Recharge",
+      "Service:Refund",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 7,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C20_039",
+     "graph_score": 5.166667,
+     "shared_concepts": [
+      "Service:Refund",
+      "Tag:c20",
+      "Tag:refunds"
+     ],
+     "shared_count": 3,
+     "is_seed": true
+    },
+    {
+     "document_id": "SOP_C20_REFUND_PROCESSING",
+     "graph_score": 4.9,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund",
+      "Tag:c20",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": true
+    },
+    {
+     "document_id": "Policy_C20_refund_policy",
+     "graph_score": 4.816667,
+     "shared_concepts": [
+      "Service:Bill Payment",
+      "Service:Complaint Registration",
+      "Service:Refund",
+      "Tag:c20"
+     ],
+     "shared_count": 4,
+     "is_seed": true
+    },
+    {
+     "document_id": "KB_C20_refund_processing",
+     "graph_score": 4.15,
+     "shared_concepts": [
+      "Service:Refund",
+      "Tag:c20",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 3,
+     "is_seed": true
+    },
+    {
+     "document_id": "MAN_APP_001",
+     "graph_score": 3.95,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Bill Payment",
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "Service:Recharge",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 7,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C10_VAS_DISPUTE",
+     "graph_score": 3.866667,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "Service:Refund",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0184",
+     "graph_score": 3.7,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 4,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C20_040",
+     "graph_score": 3.266667,
+     "shared_concepts": [
+      "Service:Bill Payment",
+      "Service:Refund",
+      "Tag:c20",
+      "Tag:refunds"
+     ],
+     "shared_count": 4,
+     "is_seed": true
+    },
+    {
+     "document_id": "FAQ_C10_019",
+     "graph_score": 3.033333,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "INC_C07_INC_2026_0190",
+     "graph_score": 3.033333,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0142",
+     "graph_score": 3.033333,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0163",
+     "graph_score": 3.033333,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0179",
+     "graph_score": 3.033333,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "RCA_INC_2026_0197",
+     "graph_score": 3.033333,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "TRN_001",
+     "graph_score": 3.033333,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "TARIFF_POSTPAID_2026H2",
+     "graph_score": 2.616667,
+     "shared_concepts": [
+      "Channel:Self-Care Portal",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "TARIFF_PREPAID_2026H2",
+     "graph_score": 2.616667,
+     "shared_concepts": [
+      "Channel:Self-Care Portal",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "FAQ_C03_005",
+     "graph_score": 2.483333,
+     "shared_concepts": [
+      "Service:Recharge",
+      "Service:Refund"
+     ],
+     "shared_count": 2,
+     "is_seed": false
+    },
+    {
+     "document_id": "KB_C16_complaint_escalation",
+     "graph_score": 2.333333,
+     "shared_concepts": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:Complaint Registration",
+      "Tag:how-to",
+      "VerificationMethod:OTP"
+     ],
+     "shared_count": 5,
+     "is_seed": false
+    }
+   ]
+  },
+  {
+   "seeds": [
+    "FAQ_C17_034",
+    "KB_C17_kyc_reverification",
+    "SOP_C17_KYC_VERIFICATION",
+    "TRX_007",
+    "EML_008"
+   ],
+   "limit": 7,
+   "bridges": [
+    "Service",
+    "Tag"
+   ],
+   "output": [
+    {
+     "document_id": "FAQ_C17_033",
+     "graph_score": 5.116667,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17",
+      "Tag:kyc"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "Policy_C17_kyc_policy",
+     "graph_score": 4.45,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "Tag:c17"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C17_KYC_VERIFICATION",
+     "graph_score": 3.45,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17"
+     ],
+     "shared_count": 2,
+     "is_seed": true
+    },
+    {
+     "document_id": "KB_C17_kyc_reverification",
+     "graph_score": 3.116667,
+     "shared_concepts": [
+      "Service:KYC Verification",
+      "Tag:c17"
+     ],
+     "shared_count": 2,
+     "is_seed": true
+    },
+    {
+     "document_id": "SOP_C05_SIM_REPLACEMENT",
+     "graph_score": 2.95,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "Service:Mobile Number Update"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C18_FRAUD_RESPONSE",
+     "graph_score": 2.95,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "Service:Mobile Number Update"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    },
+    {
+     "document_id": "SOP_C22_ACTIVATION_DELAY",
+     "graph_score": 2.95,
+     "shared_concepts": [
+      "Service:Complaint Registration",
+      "Service:KYC Verification",
+      "Service:Mobile Number Update"
+     ],
+     "shared_count": 3,
+     "is_seed": false
+    }
+   ]
+  }
+ ]
+}

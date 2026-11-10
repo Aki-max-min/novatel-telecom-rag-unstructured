@@ -33,6 +33,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import sys
 from collections import defaultdict
 from dataclasses import dataclass, field
@@ -74,6 +75,8 @@ class GraphIndex:
     document_concepts: Dict[str, Dict[str, set]] = field(default_factory=dict)
     concept_documents: Dict[str, Dict[str, set]] = field(default_factory=dict)
     known_documents: set = field(default_factory=set)
+    #: undirected RELATED_TO links between RESOLVED documents (47 after the alias repair)
+    related: Dict[str, set] = field(default_factory=dict)
 
     def concepts_of(self, document_id: str, labels: Sequence[str]) -> set:
         found = set()
@@ -83,6 +86,15 @@ class GraphIndex:
 
     def documents_of(self, label: str, concept: str) -> set:
         return self.concept_documents.get(label, {}).get(concept, set())
+
+    def document_frequency(self, label: str, concept: str) -> int:
+        """Number of documents that mention this concept (hub concepts have a high value)."""
+        return len(self.concept_documents.get(label, {}).get(concept, ()))
+
+    @property
+    def document_count(self) -> int:
+        """Number of documents in the graph that have at least one concept edge (N for hub/IDF maths)."""
+        return len(self.document_concepts)
 
 
 def load_graph_index(path: Path = GRAPH_JSON_PATH) -> GraphIndex:
@@ -116,7 +128,40 @@ def load_graph_index(path: Path = GRAPH_JSON_PATH) -> GraphIndex:
         index.document_concepts.setdefault(document_id, {}).setdefault(label, set()).add(concept)
         index.concept_documents.setdefault(label, {}).setdefault(concept, set()).add(document_id)
 
+    # RELATED_TO links: only pairs whose two ends are resolved canonical documents, treated as undirected.
+    for edge in payload["edges"]:
+        if edge["type"] != "RELATED_TO":
+            continue
+        source, target = keys_by_node[edge["source"]], keys_by_node[edge["target"]]
+        if source in index.known_documents and target in index.known_documents and source != target:
+            index.related.setdefault(source, set()).add(target)
+            index.related.setdefault(target, set()).add(source)
+
     return index
+
+
+def related_neighbours(
+    seed_documents: Sequence[str],
+    graph_index: GraphIndex,
+    limit: int = GRAPH_CANDIDATES,
+) -> List[Dict[str, Any]]:
+    """Documents linked to a seed by a resolved RELATED_TO edge (high precision: an author-declared link).
+
+    Ordered by the best (lowest) seed rank that links to them, then document id; seeds themselves are excluded.
+    """
+    seeds = set(seed_documents)
+    best_rank: Dict[str, int] = {}
+    linked_from: Dict[str, List[str]] = {}
+    for rank, seed in enumerate(seed_documents):
+        for neighbour in sorted(graph_index.related.get(seed, ())):
+            if neighbour in seeds:
+                continue
+            best_rank.setdefault(neighbour, rank)
+            linked_from.setdefault(neighbour, []).append(seed)
+    rows = [{"document_id": doc, "seed_rank": best_rank[doc], "linked_from": linked_from[doc], "via": "RELATED_TO"}
+            for doc in best_rank]
+    rows.sort(key=lambda r: (r["seed_rank"], r["document_id"]))
+    return rows[:limit]
 
 
 def graph_expand(
@@ -124,6 +169,11 @@ def graph_expand(
     graph_index: GraphIndex,
     bridges: Sequence[str] = DEFAULT_BRIDGES,
     limit: int = GRAPH_CANDIDATES,
+    *,
+    hub_fraction: Optional[float] = None,
+    specificity: bool = False,
+    max_documents: Optional[int] = None,
+    allowed_labels: Optional[Sequence[str]] = None,
 ) -> List[Dict[str, Any]]:
     """Documents sharing a bridge concept with one of the seed documents.
 
@@ -131,7 +181,24 @@ def graph_expand(
     each shared concept contributes ``1 / (1 + seed_rank)``, so a concept shared
     with the top vector hit counts for more than one shared with the fifth. The
     score orders the graph list; only its *rank* reaches the fusion step.
+
+    The keyword-only parameters are the E13 hardening options; with all of them at
+    their defaults the behaviour is EXACTLY the legacy one (golden-tested):
+
+    * ``hub_fraction``  - drop concepts whose document frequency is greater than
+      ``hub_fraction * document_count`` (hubs such as OTP or Complaint Registration).
+    * ``specificity``   - weight each shared concept by ``log(N / df)`` instead of 1,
+      so a rare shared concept outranks a common one.
+    * ``max_documents`` - cap on the number of candidates returned (applied together with ``limit``).
+    * ``allowed_labels``- restrict the bridge labels to this subset of ``bridges``.
+
+    Ordering is deterministic: score desc, shared_count desc, document id asc.
     """
+    if allowed_labels is not None:
+        bridges = [label for label in bridges if label in set(allowed_labels)]
+    n_documents = graph_index.document_count
+    hub_threshold = None if hub_fraction is None else hub_fraction * n_documents
+
     scores: Dict[str, float] = defaultdict(float)
     shared: Dict[str, set] = defaultdict(set)
     seeds = set(seed_documents)
@@ -140,10 +207,14 @@ def graph_expand(
         seed_weight = 1.0 / (1 + seed_rank)
         for label in bridges:
             for concept in graph_index.concepts_of(seed, [label]):
+                df = graph_index.document_frequency(label, concept)
+                if hub_threshold is not None and df > hub_threshold:
+                    continue
+                concept_weight = math.log(n_documents / df) if (specificity and df) else 1.0
                 for neighbour in graph_index.documents_of(label, concept):
                     if neighbour == seed:
                         continue
-                    scores[neighbour] += seed_weight
+                    scores[neighbour] += seed_weight * concept_weight
                     shared[neighbour].add(f"{label}:{concept}")
 
     candidates = [
@@ -159,7 +230,8 @@ def graph_expand(
     candidates.sort(
         key=lambda row: (-row["graph_score"], -row["shared_count"], row["document_id"])
     )
-    return candidates[:limit]
+    cap = limit if max_documents is None else min(limit, max_documents)
+    return candidates[:cap]
 
 
 # ---------------------------------------------------------------------------

@@ -21,6 +21,7 @@ from knowledge_graph.entity_extractor import (
     OUTPUT_DIR,
     dataset_for,
     load_documents,
+    load_related_aliases,
     node_id,
 )
 
@@ -60,6 +61,7 @@ def extract_relationships(
     """
     documents = list(documents) if documents is not None else load_documents()
     canonical_ids = {document["document_id"] for document in documents}
+    aliases = load_related_aliases()
 
     edges: List[Dict[str, Any]] = []
     related_total = 0
@@ -90,17 +92,22 @@ def extract_relationships(
             if not related_id:
                 continue
             related_total += 1
-            resolved = related_id in canonical_ids
+            via_alias = related_id not in canonical_ids and aliases.get(related_id) in canonical_ids
+            target_id = aliases[related_id] if via_alias else related_id
+            resolved = target_id in canonical_ids
             if not resolved:
                 related_unresolved += 1
                 unresolved_targets.add(related_id)
+            properties: Dict[str, Any] = {"resolved": resolved}
+            if via_alias:
+                properties["via_alias"] = True
             edges.append(
                 _edge(
                     source,
-                    node_id("Document", related_id),
+                    node_id("Document", target_id),
                     "RELATED_TO",
                     "related_ids",
-                    resolved=resolved,
+                    **properties,
                 )
             )
 

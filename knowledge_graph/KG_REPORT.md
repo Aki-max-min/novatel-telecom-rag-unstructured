@@ -385,6 +385,14 @@ metadata layer is exactly zero.** Every apparent cross-reference in the corpus i
 Any traversal that looks like it follows document links is in fact going through a
 Tag/Service/Category hub.
 
+**Addendum 2026-11-07 (E13 KG hardening, `person-b/kg-hardening`) - the text above is left as written.**
+An alias file (`knowledge_graph/related_id_aliases.json`, audit in `related_id_alias_audit.csv`, built by
+`python -m knowledge_graph.build_related_aliases`) now resolves dangling targets by two deterministic rules, without editing any source
+document: `INC_INC_<id>` -> the unique `INC_Cnn_INC_<id>` (5 incident/RCA pairs) and `KB_Cnn_overview` -> the unique `KB_Cnn_*` where
+exactly one exists (42). `FAQ_Cnn_001` is never aliased (two FAQs per category). Result after rebuilding the graph: **47 of 84** `RELATED_TO`
+edges resolve (`resolved=true`, `via_alias=true`), **37 stay unresolved** (21 FAQ + 16 KB in categories with no KB document) and keep their
+stub nodes exactly as before. Document-to-document connectivity from the metadata layer is therefore no longer zero: 47 links.
+
 ### 5.2 The C05 code conflict across branches
 
 The two branches use the same code format for different vocabularies:

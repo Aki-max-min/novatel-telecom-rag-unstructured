@@ -69,13 +69,16 @@ def ollama_health(model: str = h.DEFAULT_MODEL) -> dict:
     return out
 
 
-def health_stage() -> dict:
-    out = ollama_health()
-    k.RES.mkdir(parents=True, exist_ok=True)
-    (k.RES / "health.json").write_text(json.dumps(out, indent=2), encoding="utf-8")
+def health_stage(write: bool = True, out: dict | None = None) -> dict:
+    """Probe Ollama; with write=False nothing is written (so the manifest's clean-tree check can run first), the files are written on a
+    second call with the same `out`."""
+    out = out or ollama_health()
     if not out.get("ok"):
         raise SystemExit(f"Ollama health check failed: {out.get('error')}")
-    log(f"health: model {out['model']} digest {out['digest'][:12]} probe {out['probe_latency_s']}s loaded={out['loaded_after_probe']}")
+    if write:
+        k.RES.mkdir(parents=True, exist_ok=True)
+        (k.RES / "health.json").write_text(json.dumps(out, indent=2), encoding="utf-8")
+        log(f"health: model {out['model']} digest {out['digest'][:12]} probe {out['probe_latency_s']}s loaded={out['loaded_after_probe']}")
     return out
 
 
@@ -257,11 +260,14 @@ def main() -> None:
     ap.add_argument("stage", choices=["health", "smoke", "generate"])
     ap.add_argument("--runs", type=int, default=k.RUNS)
     args = ap.parse_args()
-    health = health_stage()
+    if args.stage == "generate":
+        health = health_stage(write=False)      # probe only: the manifest must be written on a clean tree, before any output file
+        ensure_manifest(health)
+        health_stage(write=True, out=health)
+    else:
+        health = health_stage()
     if args.stage == "health":
         return
-    if args.stage == "generate":
-        ensure_manifest(health)
     t0 = time.time()
     rig = k.Rig()
     log("models loaded; warming up")

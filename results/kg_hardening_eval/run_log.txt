@@ -14,3 +14,4 @@
 2026-11-10T15:02:56Z smoke C_V1_links MH02   route=hybrid gw=0.15 added=5 links_added=3 top3=['RCA_INC_2026_0163', 'INC_C04_INC_2026_0163', 'Policy_C04_billing_disputes'] 2.921s
 2026-11-10T15:03:06Z smoke verdict: {'arm_labels_match_configuration': True, 'V1_options_change_retrieval': True, 'link_hop_adds_documents': True, 'proceed': True}; retrieval diff summary: {'questions': 42, 'gate_weight_positive': 23, 'V1_docs_differ_from_V0': 23, 'V1_added_differ_from_V0': 23, 'V1_links_docs_differ_from_V1': 14, 'V1_links_added_differ_from_V1': 14, 'added_chunks_total': {'C_V0': 151, 'C_V1': 94, 'C_V1_links': 110}, 'related_neighbours_added_total': 50}
 2026-11-10T15:03:06Z smoke finished in 56s
+2026-11-10T15:03:36Z health: model qwen2.5:7b-instruct digest 845dbda0ea48 probe 0.47s loaded=['qwen2.5:7b-instruct']

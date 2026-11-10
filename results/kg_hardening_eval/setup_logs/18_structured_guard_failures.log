@@ -1,0 +1,12 @@
+E   AssertionError: assert 'direct' == 'msisdn_mapping'
+      
+      - msisdn_mapping
+      + direct
+C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\integration\tests\test_structured_guard.py:87: AssertionError: assert 'direct' == 'msisdn_mapping'
+=========================== short test summary info ===========================
+FAILED integration/tests/test_structured_guard.py::test_msisdn_keyed_table_is_answered_through_the_customers_msisdn
+FAILED integration/tests/test_structured_guard.py::test_table_with_no_customer_or_msisdn_column_is_reported_not_executable[Show network sites for customer 1056-network_sites]
+FAILED integration/tests/test_structured_guard.py::test_table_with_no_customer_or_msisdn_column_is_reported_not_executable[Show offers for customer 1056-offers]
+FAILED integration/tests/test_structured_guard.py::test_unknown_customer_on_an_msisdn_table_is_reported_with_the_reason
+FAILED integration/tests/test_structured_guard.py::test_e14_adapter_uses_the_guard_and_exposes_the_status
+5 failed, 7 passed in 6.19s

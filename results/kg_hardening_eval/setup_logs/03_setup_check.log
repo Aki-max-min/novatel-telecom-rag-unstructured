@@ -1,0 +1,7 @@
+===== HYBRID SETUP CHECK =====
+OK       structured DB  C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\data\processed\structured\novatel_structured.db
+OK       graph.json     C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\knowledge_graph\output\graph.json
+OK       FAISS index    C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\data\vectorstore\faiss.index + chunk_metadata.json
+OK       model files    C:\Users\ast20\.cache\huggingface\hub (both cached)
+all assets present
+exit=0

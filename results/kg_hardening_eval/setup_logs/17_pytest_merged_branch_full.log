@@ -1,0 +1,7 @@
+FAILED integration/tests/test_rag_defaults_identical.py::test_default_prompts_identical_to_head
+FAILED integration/tests/test_structured_guard.py::test_msisdn_keyed_table_is_answered_through_the_customers_msisdn
+FAILED integration/tests/test_structured_guard.py::test_table_with_no_customer_or_msisdn_column_is_reported_not_executable[Show network sites for customer 1056-network_sites]
+FAILED integration/tests/test_structured_guard.py::test_table_with_no_customer_or_msisdn_column_is_reported_not_executable[Show offers for customer 1056-offers]
+FAILED integration/tests/test_structured_guard.py::test_unknown_customer_on_an_msisdn_table_is_reported_with_the_reason
+FAILED integration/tests/test_structured_guard.py::test_e14_adapter_uses_the_guard_and_exposes_the_status
+6 failed, 390 passed, 1 skipped, 98 subtests passed in 68.90s (0:01:08)

@@ -1,0 +1,190 @@
+arm,run,id,category,correctness,cause,detail
+B2,1,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+B2,1,Q08,syn,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,1,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,1,Q20,syn,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,1,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,1,S08,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,1,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,1,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,1,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,1,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,1,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+B2,1,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+B2,2,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+B2,2,Q08,syn,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,2,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,2,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,2,S08,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,2,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,2,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,2,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,2,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,2,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+B2,2,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+B2,3,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+B2,3,Q08,syn,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,3,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,3,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,3,S08,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,3,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,3,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,3,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,3,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,3,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+B2,3,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+C_V0,1,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V0,1,Q08,syn,1,ranking,"gold present but not first; cited distractor ['FAQ_C08_016', 'SOP_C08_OUTAGE_MANAGEMENT']"
+C_V0,1,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V0,1,Q17,syn,0,ranking,"gold present but not first; cited distractor ['TRX_007', 'EML_008']"
+C_V0,1,RW_017,trai,0,graph,gold document retrieved by B2 but displaced here (semantic layer)
+C_V0,1,S09,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V0,1,S15,db,0,router,route=out_of_scope; needed: 
+C_V0,1,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V0,1,MH01,multi,0,router,route=structured; needed: docs
+C_V0,1,MH02,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V0,1,MH03,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V0,1,MH04,multi,0,router,route=structured; needed: docs
+C_V0,1,MH05,multi,0,router,route=structured; needed: docs
+C_V0,1,MH_RB_B02,cross,1,competing,"gold first, but cited ['TRX_001']"
+C_V0,1,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V0,1,MH_RB_B04,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V0,1,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+C_V0,2,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V0,2,Q08,syn,1,ranking,"gold present but not first; cited distractor ['FAQ_C08_016', 'SOP_C08_OUTAGE_MANAGEMENT']"
+C_V0,2,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V0,2,Q17,syn,0,ranking,"gold present but not first; cited distractor ['TRX_007', 'EML_008']"
+C_V0,2,RW_017,trai,0,graph,gold document retrieved by B2 but displaced here (semantic layer)
+C_V0,2,S09,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V0,2,S15,db,0,router,route=out_of_scope; needed: 
+C_V0,2,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V0,2,MH01,multi,0,router,route=structured; needed: docs
+C_V0,2,MH02,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V0,2,MH03,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V0,2,MH04,multi,0,router,route=structured; needed: docs
+C_V0,2,MH05,multi,0,router,route=structured; needed: docs
+C_V0,2,MH_RB_B02,cross,1,competing,"gold first, but cited ['TRX_001']"
+C_V0,2,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V0,2,MH_RB_B04,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V0,2,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+C_V0,3,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V0,3,Q08,syn,1,ranking,"gold present but not first; cited distractor ['FAQ_C08_016', 'SOP_C08_OUTAGE_MANAGEMENT']"
+C_V0,3,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V0,3,Q17,syn,0,ranking,"gold present but not first; cited distractor ['TRX_007', 'EML_008']"
+C_V0,3,RW_017,trai,0,graph,gold document retrieved by B2 but displaced here (semantic layer)
+C_V0,3,S09,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V0,3,S15,db,0,router,route=out_of_scope; needed: 
+C_V0,3,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V0,3,MH01,multi,0,router,route=structured; needed: docs
+C_V0,3,MH02,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V0,3,MH03,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V0,3,MH04,multi,0,router,route=structured; needed: docs
+C_V0,3,MH05,multi,0,router,route=structured; needed: docs
+C_V0,3,MH_RB_B02,cross,1,competing,"gold first, but cited ['TRX_001']"
+C_V0,3,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V0,3,MH_RB_B04,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V0,3,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1,1,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,1,Q04,syn,1,competing,"gold first, but cited ['FAQ_C27_053']"
+C_V1,1,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1,1,Q17,syn,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1,1,RW_017,trai,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,1,S09,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1,1,Q25,syn,1,graph,answer cites chunk(s) added by the semantic layer: ['KB_C25_ftth_fault_diagnosis_chunk_000']
+C_V1,1,S15,db,0,router,route=out_of_scope; needed: 
+C_V1,1,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1,1,MH01,multi,0,router,route=structured; needed: docs
+C_V1,1,MH02,multi,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,1,MH03,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,1,MH04,multi,0,router,route=structured; needed: docs
+C_V1,1,MH05,multi,0,router,route=structured; needed: docs
+C_V1,1,MH_RB_B01,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1,1,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1,1,MH_RB_B05,cross,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,1,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1,2,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,2,Q04,syn,1,competing,"gold first, but cited ['FAQ_C27_053']"
+C_V1,2,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1,2,Q17,syn,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1,2,RW_017,trai,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,2,S09,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1,2,Q25,syn,1,graph,answer cites chunk(s) added by the semantic layer: ['KB_C25_ftth_fault_diagnosis_chunk_000']
+C_V1,2,S15,db,0,router,route=out_of_scope; needed: 
+C_V1,2,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1,2,MH01,multi,0,router,route=structured; needed: docs
+C_V1,2,MH02,multi,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,2,MH03,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,2,MH04,multi,0,router,route=structured; needed: docs
+C_V1,2,MH05,multi,0,router,route=structured; needed: docs
+C_V1,2,MH_RB_B01,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1,2,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1,2,MH_RB_B04,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1,2,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1,3,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,3,Q04,syn,1,competing,"gold first, but cited ['FAQ_C27_053']"
+C_V1,3,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1,3,Q17,syn,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1,3,RW_017,trai,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,3,S09,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1,3,Q25,syn,1,graph,answer cites chunk(s) added by the semantic layer: ['KB_C25_ftth_fault_diagnosis_chunk_000']
+C_V1,3,S15,db,0,router,route=out_of_scope; needed: 
+C_V1,3,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1,3,MH01,multi,0,router,route=structured; needed: docs
+C_V1,3,MH02,multi,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,3,MH03,multi,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1,3,MH04,multi,0,router,route=structured; needed: docs
+C_V1,3,MH05,multi,0,router,route=structured; needed: docs
+C_V1,3,MH_RB_B01,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1,3,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1,3,MH_RB_B04,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1,3,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1_links,1,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1_links,1,Q04,syn,1,competing,"gold first, but cited ['FAQ_C27_053']"
+C_V1_links,1,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,1,Q17,syn,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,1,RW_017,trai,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1_links,1,S09,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,1,Q25,syn,1,graph,answer cites chunk(s) added by the semantic layer: ['KB_C25_ftth_fault_diagnosis_chunk_000']
+C_V1_links,1,S15,db,0,router,route=out_of_scope; needed: 
+C_V1_links,1,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,1,MH01,multi,0,router,route=structured; needed: docs
+C_V1_links,1,MH04,multi,0,router,route=structured; needed: docs
+C_V1_links,1,MH05,multi,0,router,route=structured; needed: docs
+C_V1_links,1,MH_RB_B02,cross,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,1,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1_links,1,MH_RB_B04,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1_links,1,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1_links,2,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1_links,2,Q04,syn,1,competing,"gold first, but cited ['FAQ_C27_053']"
+C_V1_links,2,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,2,Q17,syn,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,2,RW_017,trai,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1_links,2,S09,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,2,Q25,syn,1,graph,answer cites chunk(s) added by the semantic layer: ['KB_C25_ftth_fault_diagnosis_chunk_000']
+C_V1_links,2,S15,db,0,router,route=out_of_scope; needed: 
+C_V1_links,2,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,2,MH01,multi,0,router,route=structured; needed: docs
+C_V1_links,2,MH04,multi,0,router,route=structured; needed: docs
+C_V1_links,2,MH05,multi,0,router,route=structured; needed: docs
+C_V1_links,2,MH_RB_B01,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1_links,2,MH_RB_B02,cross,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,2,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1_links,2,MH_RB_B04,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1_links,2,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1_links,3,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1_links,3,Q04,syn,1,competing,"gold first, but cited ['FAQ_C27_053']"
+C_V1_links,3,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,3,Q17,syn,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,3,RW_017,trai,0,context,docs_in_prompt=False sql_rows_in_prompt=True
+C_V1_links,3,S09,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,3,Q25,syn,1,graph,answer cites chunk(s) added by the semantic layer: ['KB_C25_ftth_fault_diagnosis_chunk_000']
+C_V1_links,3,S15,db,0,router,route=out_of_scope; needed: 
+C_V1_links,3,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,3,MH01,multi,0,router,route=structured; needed: docs
+C_V1_links,3,MH04,multi,0,router,route=structured; needed: docs
+C_V1_links,3,MH05,multi,0,router,route=structured; needed: docs
+C_V1_links,3,MH_RB_B01,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1_links,3,MH_RB_B02,cross,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+C_V1_links,3,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1_links,3,MH_RB_B04,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+C_V1_links,3,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False

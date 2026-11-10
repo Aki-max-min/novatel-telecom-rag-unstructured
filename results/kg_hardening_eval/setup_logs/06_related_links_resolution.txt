@@ -1,0 +1,41 @@
+rows 84
+status counts Counter({'resolved': 47, 'unresolved': 37})
+rule counts Counter({'kb_overview_unique': 42, 'faq_ambiguous_never_aliased': 21, 'kb_overview_not_unique': 16, 'inc_prefix': 5})
+UNRESOLVED (37):
+   FAQ_C01_001 -> KB_C01_overview | kb_overview_not_unique
+   FAQ_C01_002 -> KB_C01_overview | kb_overview_not_unique
+   FAQ_C10_019 -> KB_C10_overview | kb_overview_not_unique
+   FAQ_C10_020 -> KB_C10_overview | kb_overview_not_unique
+   FAQ_C11_021 -> KB_C11_overview | kb_overview_not_unique
+   FAQ_C11_022 -> KB_C11_overview | kb_overview_not_unique
+   FAQ_C12_023 -> KB_C12_overview | kb_overview_not_unique
+   FAQ_C12_024 -> KB_C12_overview | kb_overview_not_unique
+   FAQ_C14_027 -> KB_C14_overview | kb_overview_not_unique
+   FAQ_C14_028 -> KB_C14_overview | kb_overview_not_unique
+   FAQ_C15_029 -> KB_C15_overview | kb_overview_not_unique
+   FAQ_C15_030 -> KB_C15_overview | kb_overview_not_unique
+   FAQ_C24_047 -> KB_C24_overview | kb_overview_not_unique
+   FAQ_C24_048 -> KB_C24_overview | kb_overview_not_unique
+   FAQ_C27_053 -> KB_C27_overview | kb_overview_not_unique
+   FAQ_C27_054 -> KB_C27_overview | kb_overview_not_unique
+   KB_C02_plan_expiry -> FAQ_C02_001 | faq_ambiguous_never_aliased
+   KB_C03_recharge_failures -> FAQ_C03_001 | faq_ambiguous_never_aliased
+   KB_C04_bill_disputes -> FAQ_C04_001 | faq_ambiguous_never_aliased
+   KB_C05_sim_swap_troubleshooting -> FAQ_C05_001 | faq_ambiguous_never_aliased
+   KB_C06_porting_process -> FAQ_C06_001 | faq_ambiguous_never_aliased
+   KB_C07_roaming_activation -> FAQ_C07_001 | faq_ambiguous_never_aliased
+   KB_C08_outage_status_check -> FAQ_C08_001 | faq_ambiguous_never_aliased
+   KB_C09_fup_data_speed -> FAQ_C09_001 | faq_ambiguous_never_aliased
+   KB_C13_selfcare_login_issues -> FAQ_C13_001 | faq_ambiguous_never_aliased
+   KB_C16_complaint_escalation -> FAQ_C16_001 | faq_ambiguous_never_aliased
+   KB_C17_kyc_reverification -> FAQ_C17_001 | faq_ambiguous_never_aliased
+   KB_C18_fraud_response -> FAQ_C18_001 | faq_ambiguous_never_aliased
+   KB_C19_privacy_data_requests -> FAQ_C19_001 | faq_ambiguous_never_aliased
+   KB_C20_refund_processing -> FAQ_C20_001 | faq_ambiguous_never_aliased
+   KB_C21_account_closure -> FAQ_C21_001 | faq_ambiguous_never_aliased
+   KB_C22_new_activation_delay -> FAQ_C22_001 | faq_ambiguous_never_aliased
+   KB_C23_enterprise_onboarding -> FAQ_C23_001 | faq_ambiguous_never_aliased
+   KB_C25_ftth_fault_diagnosis -> FAQ_C25_001 | faq_ambiguous_never_aliased
+   KB_C26_dnd_registration -> FAQ_C26_001 | faq_ambiguous_never_aliased
+   KB_C28_qos_disclosures -> FAQ_C28_001 | faq_ambiguous_never_aliased
+   KB_C29_network_reset_guide -> FAQ_C29_001 | faq_ambiguous_never_aliased

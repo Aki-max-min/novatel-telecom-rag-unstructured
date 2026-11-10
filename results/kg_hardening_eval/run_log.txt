@@ -1,0 +1,16 @@
+2026-11-10T15:02:10Z health: model qwen2.5:7b-instruct digest 845dbda0ea48 probe 5.29s loaded=['qwen2.5:7b-instruct']
+2026-11-10T15:02:18Z models loaded; warming up
+2026-11-10T15:02:21Z smoke B2         S01    route=None gw=None added=0 links_added=None top3=['PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION', 'KB_C19_privacy_data_requests', 'KB_C20_refund_processing'] 1.129s
+2026-11-10T15:02:27Z smoke B2         Q04    route=None gw=None added=0 links_added=None top3=['FAQ_C04_007', 'PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025', 'TARIFF_POSTPAID_2026H2'] 5.983s
+2026-11-10T15:02:30Z smoke B2         MH02   route=None gw=None added=0 links_added=None top3=['RCA_INC_2026_0163', 'INC_C04_INC_2026_0163', 'FAQ_C20_039'] 2.384s
+2026-11-10T15:02:30Z smoke C_V0       S01    route=structured gw=None added=0 links_added=0 top3=[] 0.464s
+2026-11-10T15:02:35Z smoke C_V0       Q04    route=hybrid gw=0.5 added=9 links_added=0 top3=['KB_C04_bill_disputes', 'TRN_001', 'RCA_INC_2026_0163'] 4.836s
+2026-11-10T15:02:38Z smoke C_V0       MH02   route=hybrid gw=0.15 added=7 links_added=0 top3=['RCA_INC_2026_0179', 'RCA_INC_2026_0184', 'RCA_INC_2026_0142'] 2.832s
+2026-11-10T15:02:39Z smoke C_V1       S01    route=structured gw=None added=0 links_added=0 top3=[] 1.453s
+2026-11-10T15:02:44Z smoke C_V1       Q04    route=hybrid gw=0.5 added=3 links_added=0 top3=['KB_C04_bill_disputes', 'FAQ_C04_008', 'FAQ_C27_053'] 4.114s
+2026-11-10T15:02:48Z smoke C_V1       MH02   route=hybrid gw=0.15 added=5 links_added=0 top3=['Policy_C04_billing_disputes', 'RCA_INC_2026_0163', 'FAQ_C04_007'] 4.074s
+2026-11-10T15:02:49Z smoke C_V1_links S01    route=structured gw=None added=0 links_added=0 top3=[] 1.456s
+2026-11-10T15:02:53Z smoke C_V1_links Q04    route=hybrid gw=0.5 added=3 links_added=0 top3=['KB_C04_bill_disputes', 'FAQ_C04_008', 'FAQ_C27_053'] 4.109s
+2026-11-10T15:02:56Z smoke C_V1_links MH02   route=hybrid gw=0.15 added=5 links_added=3 top3=['RCA_INC_2026_0163', 'INC_C04_INC_2026_0163', 'Policy_C04_billing_disputes'] 2.921s
+2026-11-10T15:03:06Z smoke verdict: {'arm_labels_match_configuration': True, 'V1_options_change_retrieval': True, 'link_hop_adds_documents': True, 'proceed': True}; retrieval diff summary: {'questions': 42, 'gate_weight_positive': 23, 'V1_docs_differ_from_V0': 23, 'V1_added_differ_from_V0': 23, 'V1_links_docs_differ_from_V1': 14, 'V1_links_added_differ_from_V1': 14, 'added_chunks_total': {'C_V0': 151, 'C_V1': 94, 'C_V1_links': 110}, 'related_neighbours_added_total': 50}
+2026-11-10T15:03:06Z smoke finished in 56s

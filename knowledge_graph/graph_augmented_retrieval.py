@@ -243,7 +243,7 @@ def graph_expand(
       so a rare shared concept outranks a common one.
     * ``max_documents`` - cap on the number of candidates returned (applied together with ``limit``).
     * ``allowed_labels``- restrict the bridge labels to this subset of ``bridges``.
-    * ``exclude_category_tags`` - drop Tag concepts matching ``^c\d\d$``: 104 of 148 documents carry a tag equal to their own
+    * ``exclude_category_tags`` - drop Tag concepts that are category codes (c01..c29): 104 of 148 documents carry a tag equal to their own
       category code, so the Tag bridge otherwise re-introduces the category expansion this module excludes by design.
 
     Ordering is deterministic: score desc, shared_count desc, document id asc.

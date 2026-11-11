@@ -66,7 +66,7 @@ class TestMentionEdgesInTheGraph(unittest.TestCase):
         for seeds in (["FAQ_C17_034"], ["KB_C17_kyc_reverification", "SOP_C17_KYC_VERIFICATION"], ["FAQ_C12_023", "MAN_DEVICE_VOLTE_001"]):
             self.assertEqual(graph_expand(seeds, a), graph_expand(seeds, b))
             self.assertEqual(related_neighbours(seeds, a), related_neighbours(seeds, b))
-        self.assertEqual(sum(1 for e in payload["edges"] if e["type"] == "RELATED_TO"), 84)
+        self.assertEqual(sum(1 for e in payload["edges"] if e["type"] == "RELATED_TO"), 84 + 21)   # 21 FAQ-placeholder links, KG fixes 2 step 3
 
     def test_stats_are_recorded(self):
         with mock.patch.object(ce, "CONCEPT_NAME_FAMILIES", FAMILIES):

@@ -57,27 +57,27 @@ FAQ_C28_055,KB_C28_overview,KB_C28_qos_disclosures,kb_overview_unique,resolved,
 FAQ_C28_056,KB_C28_overview,KB_C28_qos_disclosures,kb_overview_unique,resolved,
 FAQ_C29_057,KB_C29_overview,KB_C29_network_reset_guide,kb_overview_unique,resolved,
 FAQ_C29_058,KB_C29_overview,KB_C29_network_reset_guide,kb_overview_unique,resolved,
-KB_C02_plan_expiry,FAQ_C02_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C03_recharge_failures,FAQ_C03_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C04_bill_disputes,FAQ_C04_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C05_sim_swap_troubleshooting,FAQ_C05_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C06_porting_process,FAQ_C06_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C07_roaming_activation,FAQ_C07_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C08_outage_status_check,FAQ_C08_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C09_fup_data_speed,FAQ_C09_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C13_selfcare_login_issues,FAQ_C13_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C16_complaint_escalation,FAQ_C16_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C17_kyc_reverification,FAQ_C17_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C18_fraud_response,FAQ_C18_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C19_privacy_data_requests,FAQ_C19_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C20_refund_processing,FAQ_C20_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C21_account_closure,FAQ_C21_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C22_new_activation_delay,FAQ_C22_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C23_enterprise_onboarding,FAQ_C23_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C25_ftth_fault_diagnosis,FAQ_C25_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C26_dnd_registration,FAQ_C26_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C28_qos_disclosures,FAQ_C28_001,,faq_ambiguous_never_aliased,unresolved,
-KB_C29_network_reset_guide,FAQ_C29_001,,faq_ambiguous_never_aliased,unresolved,
+KB_C02_plan_expiry,FAQ_C02_001,FAQ_C02_003;FAQ_C02_004,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C03_recharge_failures,FAQ_C03_001,FAQ_C03_005;FAQ_C03_006,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C04_bill_disputes,FAQ_C04_001,FAQ_C04_007;FAQ_C04_008,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C05_sim_swap_troubleshooting,FAQ_C05_001,FAQ_C05_009;FAQ_C05_010,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C06_porting_process,FAQ_C06_001,FAQ_C06_011;FAQ_C06_012,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C07_roaming_activation,FAQ_C07_001,FAQ_C07_013;FAQ_C07_014,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C08_outage_status_check,FAQ_C08_001,FAQ_C08_015;FAQ_C08_016,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C09_fup_data_speed,FAQ_C09_001,FAQ_C09_017;FAQ_C09_018,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C13_selfcare_login_issues,FAQ_C13_001,FAQ_C13_025;FAQ_C13_026,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C16_complaint_escalation,FAQ_C16_001,FAQ_C16_031;FAQ_C16_032,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C17_kyc_reverification,FAQ_C17_001,FAQ_C17_033;FAQ_C17_034,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C18_fraud_response,FAQ_C18_001,FAQ_C18_035;FAQ_C18_036,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C19_privacy_data_requests,FAQ_C19_001,FAQ_C19_037;FAQ_C19_038,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C20_refund_processing,FAQ_C20_001,FAQ_C20_039;FAQ_C20_040,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C21_account_closure,FAQ_C21_001,FAQ_C21_041;FAQ_C21_042,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C22_new_activation_delay,FAQ_C22_001,FAQ_C22_043;FAQ_C22_044,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C23_enterprise_onboarding,FAQ_C23_001,FAQ_C23_045;FAQ_C23_046,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C25_ftth_fault_diagnosis,FAQ_C25_001,FAQ_C25_049;FAQ_C25_050,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C26_dnd_registration,FAQ_C26_001,FAQ_C26_051;FAQ_C26_052,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C28_qos_disclosures,FAQ_C28_001,FAQ_C28_055;FAQ_C28_056,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
+KB_C29_network_reset_guide,FAQ_C29_001,FAQ_C29_057;FAQ_C29_058,faq_placeholder_all_in_category,resolved,ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category
 RCA_INC_2026_0142,INC_INC_2026_0142,INC_C08_INC_2026_0142,inc_prefix,resolved,
 RCA_INC_2026_0163,INC_INC_2026_0163,INC_C04_INC_2026_0163,inc_prefix,resolved,
 RCA_INC_2026_0179,INC_INC_2026_0179,INC_C25_INC_2026_0179,inc_prefix,resolved,

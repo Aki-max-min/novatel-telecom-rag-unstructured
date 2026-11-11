@@ -39,7 +39,7 @@ AUDIT_PATH = PACKAGE_DIR / "related_id_alias_audit.csv"
 AUDIT_FIELDS = ["source_doc", "original_target", "resolved_target", "rule", "status", "note"]
 
 #: KG fixes 2, step 3: resolve FAQ_Cnn_001 placeholders to all FAQs of the category (an ASSUMPTION, see module docstring).
-RESOLVE_FAQ_PLACEHOLDER = False
+RESOLVE_FAQ_PLACEHOLDER = True
 FAQ_PLACEHOLDER_RULE = "faq_placeholder_all_in_category"
 FAQ_PLACEHOLDER_NOTE = "ASSUMPTION: 001 is a placeholder for the category's own FAQs; resolved to every FAQ document of that category"
 _FAQ_PLACEHOLDER = re.compile(r"^FAQ_(C\d\d)_001$")

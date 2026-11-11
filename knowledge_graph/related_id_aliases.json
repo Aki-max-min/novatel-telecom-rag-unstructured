@@ -1,5 +1,5 @@
 {
-  "description": "RELATED_TO target aliases: dangling related_ids resolved by deterministic rules (inc_prefix, kb_overview_unique). FAQ_Cnn_001 is never aliased. Source documents are untouched.",
+  "description": "RELATED_TO target aliases: dangling related_ids resolved by deterministic rules (inc_prefix, kb_overview_unique) and, in multi_aliases, FAQ_Cnn_001 -> every FAQ of category Cnn (rule faq_placeholder_all_in_category, an ASSUMPTION). Source documents are untouched.",
   "aliases": {
     "INC_INC_2026_0142": "INC_C08_INC_2026_0142",
     "INC_INC_2026_0163": "INC_C04_INC_2026_0163",
@@ -27,5 +27,91 @@
     "KB_C26_overview": "KB_C26_dnd_registration",
     "KB_C28_overview": "KB_C28_qos_disclosures",
     "KB_C29_overview": "KB_C29_network_reset_guide"
+  },
+  "multi_aliases": {
+    "FAQ_C02_001": [
+      "FAQ_C02_003",
+      "FAQ_C02_004"
+    ],
+    "FAQ_C03_001": [
+      "FAQ_C03_005",
+      "FAQ_C03_006"
+    ],
+    "FAQ_C04_001": [
+      "FAQ_C04_007",
+      "FAQ_C04_008"
+    ],
+    "FAQ_C05_001": [
+      "FAQ_C05_009",
+      "FAQ_C05_010"
+    ],
+    "FAQ_C06_001": [
+      "FAQ_C06_011",
+      "FAQ_C06_012"
+    ],
+    "FAQ_C07_001": [
+      "FAQ_C07_013",
+      "FAQ_C07_014"
+    ],
+    "FAQ_C08_001": [
+      "FAQ_C08_015",
+      "FAQ_C08_016"
+    ],
+    "FAQ_C09_001": [
+      "FAQ_C09_017",
+      "FAQ_C09_018"
+    ],
+    "FAQ_C13_001": [
+      "FAQ_C13_025",
+      "FAQ_C13_026"
+    ],
+    "FAQ_C16_001": [
+      "FAQ_C16_031",
+      "FAQ_C16_032"
+    ],
+    "FAQ_C17_001": [
+      "FAQ_C17_033",
+      "FAQ_C17_034"
+    ],
+    "FAQ_C18_001": [
+      "FAQ_C18_035",
+      "FAQ_C18_036"
+    ],
+    "FAQ_C19_001": [
+      "FAQ_C19_037",
+      "FAQ_C19_038"
+    ],
+    "FAQ_C20_001": [
+      "FAQ_C20_039",
+      "FAQ_C20_040"
+    ],
+    "FAQ_C21_001": [
+      "FAQ_C21_041",
+      "FAQ_C21_042"
+    ],
+    "FAQ_C22_001": [
+      "FAQ_C22_043",
+      "FAQ_C22_044"
+    ],
+    "FAQ_C23_001": [
+      "FAQ_C23_045",
+      "FAQ_C23_046"
+    ],
+    "FAQ_C25_001": [
+      "FAQ_C25_049",
+      "FAQ_C25_050"
+    ],
+    "FAQ_C26_001": [
+      "FAQ_C26_051",
+      "FAQ_C26_052"
+    ],
+    "FAQ_C28_001": [
+      "FAQ_C28_055",
+      "FAQ_C28_056"
+    ],
+    "FAQ_C29_001": [
+      "FAQ_C29_057",
+      "FAQ_C29_058"
+    ]
   }
 }

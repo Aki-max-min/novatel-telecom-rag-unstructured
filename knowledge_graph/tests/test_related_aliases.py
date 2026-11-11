@@ -6,7 +6,8 @@ Rules (deterministic only):
   1. INC_INC_<id>      -> the unique document matching ^INC_C\\d\\d_INC_<id>$
   2. KB_Cnn_overview   -> the unique document KB_Cnn_* if exactly one exists
   FAQ_Cnn_001 is NEVER aliased (two FAQs per category: ambiguous); anything else stays unresolved.
-Expected: 47 of 84 related ids resolved (5 INC + 42 KB), 37 unresolved (21 FAQ + 16 KB).
+Expected: 47 of 84 related ids resolved (5 INC + 42 KB), 37 unresolved (21 FAQ + 16 KB) with the FAQ-placeholder rule OFF.
+KG fixes 2 step 3 turned that rule ON (docs/E13_kg_fixes2.md): 68 resolved (5 INC + 42 KB + 21 FAQ placeholders), 16 unresolved (KB overview).
 """
 
 import csv
@@ -44,10 +45,11 @@ class TestAliasRules(unittest.TestCase):
         self.assertEqual(len(self.audit), 84)
         resolved = [r for r in self.audit if r["status"] == "resolved"]
         unresolved = [r for r in self.audit if r["status"] == "unresolved"]
-        self.assertEqual((len(resolved), len(unresolved)), (47, 37))
+        self.assertEqual((len(resolved), len(unresolved)), (68, 16))               # was (47, 37) before the FAQ-placeholder rule
         self.assertEqual(sum(r["rule"] == "inc_prefix" for r in resolved), 5)
         self.assertEqual(sum(r["rule"] == "kb_overview_unique" for r in resolved), 42)
-        self.assertEqual(sum(r["original_target"].startswith("FAQ_") for r in unresolved), 21)
+        self.assertEqual(sum(r["rule"] == "faq_placeholder_all_in_category" for r in resolved), 21)
+        self.assertEqual(sum(r["original_target"].startswith("FAQ_") for r in unresolved), 0)   # was 21
         self.assertEqual(sum(r["original_target"].startswith("KB_") for r in unresolved), 16)
 
     def test_incident_pairs_map_to_the_real_ids(self):
@@ -117,19 +119,20 @@ class TestGraphWithAliases(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             payload, relationships = self.build(d)
         stats = relationships["stats"]
+        # KG fixes 2 step 3: (84, 47, 37) -> (84, 68, 16); each of the 21 placeholder links is now two edges (84 -> 105 RELATED_TO edges)
         self.assertEqual((stats["related_ids_total"], stats["related_ids_resolved"], stats["related_ids_unresolved"]),
-                         (84, 47, 37))
+                         (84, 68, 16))
         related = [e for e in payload["edges"] if e["type"] == "RELATED_TO"]
-        self.assertEqual(len(related), 84)
+        self.assertEqual(len(related), 105)
         via = [e for e in related if e["properties"].get("via_alias")]
-        self.assertEqual(len(via), 47)
+        self.assertEqual(len(via), 47 + 42)
         self.assertTrue(all(e["properties"]["resolved"] is True for e in via))
         unresolved = [e for e in related if not e["properties"]["resolved"]]
-        self.assertEqual(len(unresolved), 37)
+        self.assertEqual(len(unresolved), 16)
         self.assertTrue(all("via_alias" not in e["properties"] for e in unresolved))
         stubs = {n["key"] for n in payload["nodes"] if n["label"] == "Document" and n["properties"].get("stub")}
         self.assertFalse(stubs & set(INCIDENT_PAIRS))
-        self.assertTrue(all(k.startswith(("FAQ_", "KB_")) for k in stubs))
+        self.assertTrue(all(k.startswith("KB_") for k in stubs))                    # was ("FAQ_", "KB_"): the FAQ placeholders resolve now
         key_of = {n["id"]: n["key"] for n in payload["nodes"]}
         self.assertEqual(stubs, {key_of[e["target"]] for e in unresolved})
 
@@ -172,8 +175,8 @@ class TestPersonAReaderCompatibility(unittest.TestCase):
         known = {n["key"] for n in payload["nodes"]
                  if n["label"] == "Document" and n["properties"].get("resolved", True)}
         pairs = self.read_related_edges(GRAPH_JSON_PATH)
-        self.assertEqual(len(pairs), 84)
-        self.assertEqual(len([1 for s, t in pairs if s in known and t in known]), 47)
+        self.assertEqual(len(pairs), 105)                                           # was 84 (21 placeholder links -> 2 edges each)
+        self.assertEqual(len([1 for s, t in pairs if s in known and t in known]), 89)   # was 47 directed; the undirected pairs stay 47
 
 
 if __name__ == "__main__":

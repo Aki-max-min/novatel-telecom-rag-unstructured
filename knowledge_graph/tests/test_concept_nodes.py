@@ -96,8 +96,9 @@ class TestGraphBuildWithConcepts(unittest.TestCase):
         # KG fixes 2 step 2 added 7 MENTIONS_CONCEPT edges (Device Compatibility 2 + Network Coverage 5); the step-3 total of 1669 is unchanged
         mentions = sum(1 for e in payload["edges"] if e["type"] == "MENTIONS_CONCEPT")
         self.assertEqual(mentions, 7)
-        self.assertEqual((len(payload["nodes"]), len(payload["edges"]) - mentions), (337 + 23, 1636 + 33))
-        self.assertEqual(sum(1 for e in payload["edges"] if e["type"] == "RELATED_TO"), 84)   # untouched
+        # KG fixes 2 step 3: the 21 FAQ placeholders stop being stub nodes (29 stubs -> 8, so 337 -> 316 base nodes) and add 21 RELATED_TO edges
+        self.assertEqual(sum(1 for e in payload["edges"] if e["type"] == "RELATED_TO"), 84 + 21)
+        self.assertEqual((len(payload["nodes"]), len(payload["edges"]) - mentions), (337 - 21 + 23, 1636 + 21 + 33))
 
     def test_two_builds_are_byte_identical(self):
         with tempfile.TemporaryDirectory() as a, tempfile.TemporaryDirectory() as b:
@@ -114,8 +115,8 @@ class TestGraphBuildWithConcepts(unittest.TestCase):
             key_of = {n["id"]: n["key"] for n in payload["nodes"]}
             pairs = [(key_of[e["source"]], key_of[e["target"]]) for e in payload["edges"] if e["type"] == "RELATED_TO"]
             known = {n["key"] for n in payload["nodes"] if n["label"] == "Document" and n["properties"].get("resolved", True)}
-            self.assertEqual(len(pairs), 84)
-            self.assertEqual(len([1 for s, t in pairs if s in known and t in known]), 47)
+            self.assertEqual(len(pairs), 84 + 21)                                    # KG fixes 2 step 3 (was 84)
+            self.assertEqual(len([1 for s, t in pairs if s in known and t in known]), 47 + 42)   # directed; undirected pairs stay 47
             index = load_graph_index(path)
         for number, inc in (("0142", "C08"), ("0163", "C04"), ("0179", "C25"), ("0184", "C13"), ("0197", "C18")):
             rca, incident = f"RCA_INC_2026_{number}", f"INC_{inc}_INC_2026_{number}"

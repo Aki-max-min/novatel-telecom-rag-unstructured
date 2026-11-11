@@ -1,20 +1,20 @@
 {
   "model": "qwen2.5:7b-instruct",
-  "timestamp_utc": "2026-11-11T10:59:39.737573+00:00",
+  "timestamp_utc": "2026-11-11T11:03:58.199825+00:00",
   "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
   "quantization": "Q4_K_M",
-  "probe_latency_s": 8.89,
+  "probe_latency_s": 1.13,
   "probe_reply": "Yes.",
   "loaded_after_probe": [
     "qwen2.5:7b-instruct"
   ],
   "ok": true,
   "power": {
-    "timestamp_utc": "2026-11-11T10:59:48.819759+00:00",
+    "timestamp_utc": "2026-11-11T11:03:59.446549+00:00",
     "battery_status_code": 1,
     "battery_status": "discharging (on battery)",
-    "battery_charge_pct": 64,
-    "battery_estimated_runtime_min": 55,
+    "battery_charge_pct": 60,
+    "battery_estimated_runtime_min": 59,
     "sleep_after_s": {
       "AC": 0,
       "DC": 0

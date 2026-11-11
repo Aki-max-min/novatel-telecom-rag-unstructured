@@ -10,3 +10,35 @@
 2026-11-11T11:01:27Z retrieval diff summary (42 questions): {'questions': 42, 'gate_weight_positive': 23, 'plain_search_equals_stored_B2_run1_chunks': 42, 'GF_docs_differ_from_plain': 21, 'GFL_docs_differ_from_plain': 21, 'GF_added_chunks': 77, 'GFL_added_chunks': 77, 'GF_query_differs_from_question': 0, 'GFL_query_differs_from_question': 0, 'GFL_docs_differ_from_GF': 1, 'GFL_added_differ_from_GF': 1, 'related_neighbours_added_total': 41}
 2026-11-11T11:01:27Z smoke finished in 98s
 2026-11-11T11:02:28Z runtime estimate: generation 26 min for 252 answers (GF ~15 min, GFL ~12 min); scoring ~47 min; total ~76 min
+2026-11-11T11:04:02Z manifest written (git afbbe8df, dirty=False); reused arms verified: code identical, graph identical
+2026-11-11T11:04:03Z health: model qwen2.5:7b-instruct digest 845dbda0ea48 probe 1.13s loaded=['qwen2.5:7b-instruct']; power: discharging (on battery) charge=60% sleep_after={'AC': 0, 'DC': 0}
+2026-11-11T11:04:16Z models loaded; warming up
+2026-11-11T11:04:21Z plan: 252 generations, 0 already done, 252 to run
+2026-11-11T11:05:43Z HEARTBEAT [10/252] ok=10 failed=0 last=GF S06 run1 19.77s ETA 33 min
+2026-11-11T11:07:02Z HEARTBEAT [20/252] ok=20 failed=0 last=GF Q25 run1 9.226s ETA 31 min
+2026-11-11T11:08:53Z HEARTBEAT [30/252] ok=30 failed=0 last=GF MH01 run1 8.063s ETA 34 min
+2026-11-11T11:10:01Z HEARTBEAT [40/252] ok=40 failed=0 last=GF MH_RB_B06 run1 9.698s ETA 30 min
+2026-11-11T11:11:08Z HEARTBEAT [50/252] ok=50 failed=0 last=GF Q08 run2 5.195s ETA 27 min
+2026-11-11T11:12:25Z HEARTBEAT [60/252] ok=60 failed=0 last=GF RW_023 run2 8.619s ETA 26 min
+2026-11-11T11:13:52Z HEARTBEAT [70/252] ok=70 failed=0 last=GF S13 run2 10.087s ETA 25 min
+2026-11-11T11:14:53Z HEARTBEAT [80/252] ok=80 failed=0 last=GF MH_RB_B04 run2 7.837s ETA 23 min
+2026-11-11T11:16:09Z HEARTBEAT [90/252] ok=90 failed=0 last=GF RW_004 run3 8.445s ETA 21 min
+2026-11-11T11:17:17Z HEARTBEAT [100/252] ok=100 failed=0 last=GF S09 run3 9.874s ETA 20 min
+2026-11-11T11:18:36Z HEARTBEAT [110/252] ok=110 failed=0 last=GF S10 run3 9.753s ETA 18 min
+2026-11-11T11:19:36Z HEARTBEAT [120/252] ok=120 failed=0 last=GF MH_RB_B02 run3 4.489s ETA 17 min
+2026-11-11T11:20:21Z HEARTBEAT [130/252] ok=130 failed=0 last=GFL S03 run1 7.636s ETA 15 min
+2026-11-11T11:21:09Z HEARTBEAT [140/252] ok=140 failed=0 last=GFL Q17 run1 4.887s ETA 13 min
+2026-11-11T11:21:58Z HEARTBEAT [150/252] ok=150 failed=0 last=GFL S05 run1 4.984s ETA 12 min
+2026-11-11T11:22:47Z HEARTBEAT [160/252] ok=160 failed=0 last=GFL MH05 run1 2.752s ETA 11 min
+2026-11-11T11:23:28Z HEARTBEAT [170/252] ok=170 failed=0 last=GFL Q01 run2 5.117s ETA 9 min
+2026-11-11T11:24:24Z HEARTBEAT [180/252] ok=180 failed=0 last=GFL RW_010 run2 5.259s ETA 8 min
+2026-11-11T11:25:13Z HEARTBEAT [190/252] ok=190 failed=0 last=GFL Q28 run2 9.676s ETA 7 min
+2026-11-11T11:26:02Z HEARTBEAT [200/252] ok=200 failed=0 last=GFL MH03 run2 2.846s ETA 6 min
+2026-11-11T11:26:42Z HEARTBEAT [210/252] ok=210 failed=0 last=GFL MH13 run2 2.244s ETA 4 min
+2026-11-11T11:27:38Z HEARTBEAT [220/252] ok=220 failed=0 last=GFL S06 run3 11.875s ETA 3 min
+2026-11-11T11:28:25Z HEARTBEAT [230/252] ok=230 failed=0 last=GFL Q25 run3 5.693s ETA 2 min
+2026-11-11T11:29:23Z HEARTBEAT [240/252] ok=240 failed=0 last=GFL MH01 run3 3.809s ETA 1 min
+2026-11-11T11:30:05Z HEARTBEAT [250/252] ok=250 failed=0 last=GFL MH_RB_B06 run3 6.407s ETA 0 min
+2026-11-11T11:30:11Z HEARTBEAT [252/252] ok=252 failed=0 last=GFL MH13 run3 2.434s ETA 0 min
+2026-11-11T11:30:11Z generation loop done: ok=252 failed=0
+2026-11-11T11:30:11Z generate finished in 1568s

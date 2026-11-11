@@ -177,3 +177,56 @@ class TestRelatedNeighbours(unittest.TestCase):
         self.assertEqual(self.related_neighbours(["NO_SUCH"], self.index), [])
         self.assertEqual(self.related_neighbours([], self.index), [])
         self.assertEqual(self.related_neighbours(["INC_C08_INC_2026_0142", "RCA_INC_2026_0142"], self.index), [])
+
+
+class TestExcludeCategoryTags(unittest.TestCase):
+    """KG fixes step 4: tags that are category codes (^c\d\d$) re-introduce category expansion through the Tag bridge
+    (104/148 documents carry a cNN tag equal to their own category). The option removes them from the bridge; default unchanged."""
+
+    @staticmethod
+    def synthetic():
+        ix = GraphIndex()
+        docs = {"S": {"Tag": {"c05", "how-to"}, "Service": {"X"}},       # seed
+                "ONLY_CAT": {"Tag": {"c05"}},                             # shares only the category-code tag
+                "BOTH": {"Tag": {"c05"}, "Service": {"X"}},               # shares the tag and a real concept
+                "HOWTO": {"Tag": {"how-to"}},                             # a normal tag must stay a bridge
+                "C05LIKE": {"Tag": {"c5"}, "Service": set()}}             # "c5" is not ^c\d\d$
+        for doc, labels in docs.items():
+            ix.document_concepts[doc] = {l: set(v) for l, v in labels.items() if v}
+            for label, concepts in labels.items():
+                for concept in concepts:
+                    ix.concept_documents.setdefault(label, {}).setdefault(concept, set()).add(doc)
+        return ix
+
+    def test_default_keeps_the_category_tag_bridge(self):
+        out = {r["document_id"]: r for r in graph_expand(["S"], self.synthetic(), limit=20)}
+        self.assertIn("ONLY_CAT", out)
+        self.assertIn("Tag:c05", out["BOTH"]["shared_concepts"])
+
+    def test_exclusion_removes_documents_that_shared_only_a_category_tag(self):
+        out = {r["document_id"]: r for r in graph_expand(["S"], self.synthetic(), limit=20, exclude_category_tags=True)}
+        self.assertNotIn("ONLY_CAT", out)
+        self.assertIn("BOTH", out)
+        self.assertEqual(out["BOTH"]["shared_concepts"], ["Service:X"])
+        self.assertIn("HOWTO", out)                                       # other tags still bridge
+        self.assertEqual(out["HOWTO"]["shared_concepts"], ["Tag:how-to"])
+
+    def test_pattern_is_exactly_c_digit_digit(self):
+        ix = self.synthetic()
+        ix.document_concepts["S"]["Tag"].add("c5")
+        ix.concept_documents["Tag"].setdefault("c5", set()).add("S")
+        out = {r["document_id"]: r for r in graph_expand(["S"], ix, limit=20, exclude_category_tags=True)}
+        self.assertIn("C05LIKE", out)                                    # "c5" is kept
+
+    def test_real_graph_default_unchanged_and_exclusion_leaves_no_category_tag(self):
+        index = load_index_or_skip()
+        for seeds in (["FAQ_C17_034"], ["MAN_APP_001", "SOP_C13_APP_ACCESS_ISSUES", "FAQ_C13_025"]):
+            default = graph_expand(seeds, index, limit=500)
+            self.assertEqual(default, graph_expand(seeds, index, limit=500, exclude_category_tags=False))
+            cut = graph_expand(seeds, index, limit=500, exclude_category_tags=True)
+            import re
+            for row in cut:
+                for concept in row["shared_concepts"]:
+                    self.assertFalse(concept.startswith("Tag:") and re.match(r"^c\d\d$", concept.split(":", 1)[1]), concept)
+            self.assertTrue(any("Tag:c" in c for r in default for c in r["shared_concepts"]))   # the test can fail
+            self.assertLessEqual(len(cut), len(default))

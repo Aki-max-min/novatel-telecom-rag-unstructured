@@ -11,20 +11,18 @@ sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 from fusion import fuse_and_select  # noqa: E402
 from rerank import controlled_rerank  # noqa: E402
 
-# Graph candidates (concept expansion + resolved RELATED_TO links) in the END-TO-END entry point run_hybrid_query.
-# OFF by default: the pre-declared KG-hardening evaluation (docs/E13_kg_hardening_rule.md,
-# docs/E13_kg_hardening_results.md) did not pass its adoption rule (best pooled net +1, needed >= +2), so the graph list is
-# excluded from fusion. Set True (or pass graph_enabled=True) to turn it back on; run_hybrid_retrieval, which takes explicit
+# Graph candidates (concept expansion) and resolved RELATED_TO links in the END-TO-END entry point run_hybrid_query.
+# ON by default since the graph-fusion fix: fusion is now append-only (the graph is a candidate SOURCE, never a ranker;
+# relevance is decided by the CrossEncoder rerank only). Pre-declared dev-set measurement (docs/E13_graph_fusion_fix.md):
+# no question lost at R@1 or R@3 versus graph off, +1 question at R@5 on mini 9 -> adopted per the rule. The earlier
+# hardening and link-decoupling FAIL verdicts were measured with the old bonus merge and are superseded.
+# Turn off with graph_enabled=False / links_enabled=False (or these constants); run_hybrid_retrieval, which takes explicit
 # candidate lists, is unchanged.
-GRAPH_ENABLED = False
+GRAPH_ENABLED = True
 GRAPH_DISABLED_TRACE = "graph disabled by config"
 
-# Resolved RELATED_TO links as their OWN fusion list, independent of the gate graph weight
-# (docs/E13_link_decoupling_rule.md). Verdict (docs/E13_link_decoupling_results.md): adoption FAIL - no dev-set change and no
-# gain on the incident mechanism check (3/5 vs 3/5) - so links stay OFF by default. LINK_WEIGHT is the fusion weight of the
-# link list when switched on (links_enabled=True); 0.15 is the cell the tie-break selected (all three cells tied).
-LINKS_ENABLED = False
-LINK_WEIGHT = 0.15
+LINKS_ENABLED = True
+LINK_WEIGHT = 0.15   # on/off switch only since the fix (> 0 includes the link list); the value no longer ranks anything
 
 
 def run_hybrid_retrieval(question: str, vector_candidates: list[dict],

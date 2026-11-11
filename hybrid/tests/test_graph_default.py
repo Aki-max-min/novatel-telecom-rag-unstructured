@@ -1,8 +1,9 @@
-"""The KG-hardening verdict (adoption FAIL) is wired as a config constant: the graph list is excluded from fusion in
-run_hybrid_query unless switched on, and the trace says so. No models are loaded (retrieval is stubbed)."""
+"""The graph is a config constant of run_hybrid_query (ON since the graph-fusion fix, docs/E13_graph_fusion_fix.md): it can be
+switched off, and the trace says which. No models are loaded (retrieval and the link step are stubbed)."""
 
 import os
 import sys
+import types
 import unittest
 from unittest import mock
 
@@ -25,25 +26,31 @@ class TestGraphDefault(unittest.TestCase):
             return [DOC], ([] if not kw.get("graph_enabled", True) else [dict(DOC, retrieval_method="graph")]), 0
 
         with mock.patch.object(retrievers, "build_candidates", fake_build), \
+                mock.patch.object(retrievers, "link_candidates_for", lambda *a, **k: []), \
+                mock.patch.object(retrievers, "load_context",
+                                  lambda: {"graph_index": None, "corpus": None,
+                                           "person_a": types.SimpleNamespace(load_chunk_text=lambda c: "")}), \
                 mock.patch.object(pipeline, "run_hybrid_retrieval", lambda *a, **k: [dict(DOC, rerank_status="stub")]):
             out = pipeline.run_hybrid_query("How do refunds work?", None, **kwargs)
         return out, calls
 
-    def test_default_is_off_and_recorded_in_the_trace(self):
-        self.assertIs(pipeline.GRAPH_ENABLED, False)
+    # UPDATED for the graph-fusion fix: the default flipped to ON (append-only fusion; docs/E13_graph_fusion_fix.md)
+    def test_default_is_on_and_recorded_in_the_trace(self):
+        self.assertIs(pipeline.GRAPH_ENABLED, True)
         out, calls = self.run_query()
-        self.assertIs(calls["graph_enabled"], False)
-        self.assertEqual(out["trace"]["graph"], "graph disabled by config")
-
-    def test_explicit_opt_in_turns_the_graph_back_on(self):
-        out, calls = self.run_query(graph_enabled=True)
         self.assertIs(calls["graph_enabled"], True)
         self.assertEqual(out["trace"]["graph"], "graph enabled")
 
+    def test_explicit_opt_out_turns_the_graph_off_and_says_so(self):
+        out, calls = self.run_query(graph_enabled=False)
+        self.assertIs(calls["graph_enabled"], False)
+        self.assertEqual(out["trace"]["graph"], "graph disabled by config")
+
     def test_constant_is_read_at_call_time(self):
-        with mock.patch.object(pipeline, "GRAPH_ENABLED", True):
-            _, calls = self.run_query()
-        self.assertIs(calls["graph_enabled"], True)
+        with mock.patch.object(pipeline, "GRAPH_ENABLED", False):
+            out, calls = self.run_query()
+        self.assertIs(calls["graph_enabled"], False)
+        self.assertEqual(out["trace"]["graph"], "graph disabled by config")
 
     def test_run_hybrid_retrieval_with_explicit_candidates_is_unchanged(self):
         vector = [dict(DOC, record_id="A_chunk_000", metadata={"document_id": "A"})]

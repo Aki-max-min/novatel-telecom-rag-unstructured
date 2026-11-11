@@ -151,10 +151,11 @@ class TestLinkCandidates(unittest.TestCase):
 
 class TestPipelineSwitch(unittest.TestCase):
 
-    def test_default_off_and_parameter_wins(self):
+    # UPDATED for the graph-fusion fix: links default to ON; links_enabled=False opts out
+    def test_default_on_and_parameter_wins(self):
         import pipeline
         import retrievers
-        self.assertIs(pipeline.LINKS_ENABLED, False)
+        self.assertIs(pipeline.LINKS_ENABLED, True)
         seen = {}
 
         def fake_links(vector, *args, **kwargs):
@@ -168,7 +169,10 @@ class TestPipelineSwitch(unittest.TestCase):
                                   lambda: {"graph_index": None, "corpus": None,
                                            "person_a": types.SimpleNamespace(load_chunk_text=stub_text)}), \
                 mock.patch.object(pipeline, "run_hybrid_retrieval", lambda *a, **k: [dict(doc, rerank_status="stub")]):
-            off = pipeline.run_hybrid_query("How do refunds work?", None)
+            default = pipeline.run_hybrid_query("How do refunds work?", None)
+            self.assertTrue(seen.pop("called", False))
+            self.assertEqual(default["trace"]["links"], "links enabled")
+            off = pipeline.run_hybrid_query("How do refunds work?", None, links_enabled=False)
             self.assertNotIn("called", seen)
             self.assertEqual(off["trace"]["links"], "links disabled by config")
             on = pipeline.run_hybrid_query("How do refunds work?", None, links_enabled=True)

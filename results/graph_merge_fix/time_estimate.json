@@ -1,0 +1,26 @@
+{
+  "generated_utc": "2026-11-11T11:02:28.206180+00:00",
+  "generation_per_arm": {
+    "GF": {
+      "analog": "v3:docgraph",
+      "latency_median_s": 6.01,
+      "n": 126,
+      "estimate_s": 871.0
+    },
+    "GFL": {
+      "analog": "kg:C_V1_links",
+      "latency_median_s": 4.89,
+      "n": 126,
+      "estimate_s": 709.0
+    }
+  },
+  "generation_total_s": 1580.0,
+  "n_generations": 252,
+  "scoring": {
+    "basis": "KG-hardening scoring stage: 504 records in 5602 s (11.1 s/record, judge cache seeded; A/B/R/O/G0 prompts may hit the v3 cache more often)",
+    "rate_s_per_record": 11.1,
+    "estimate_s": 2801.0
+  },
+  "model_load_and_warmup_s": 180,
+  "total_estimate_min": 76.0
+}

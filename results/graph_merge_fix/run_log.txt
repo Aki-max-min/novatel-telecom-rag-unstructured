@@ -1,0 +1,12 @@
+2026-11-11T10:59:49Z health: model qwen2.5:7b-instruct digest 845dbda0ea48 probe 8.89s loaded=['qwen2.5:7b-instruct']; power: discharging (on battery) charge=64% sleep_after={'AC': 0, 'DC': 0}
+2026-11-11T11:00:05Z models loaded; warming up
+2026-11-11T11:00:23Z smoke GF   S01   route=None gw=0.0 added=0 links=0 blocks=4 top3=['PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION', 'KB_C19_privacy_data_requests', 'KB_C20_refund_processing'] 1.673s
+2026-11-11T11:00:33Z smoke GF   Q04   route=None gw=0.5 added=1 links=0 blocks=3 top3=['FAQ_C04_007', 'PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025', 'TARIFF_POSTPAID_2026H2'] 9.49s
+2026-11-11T11:00:37Z smoke GF   MH02  route=None gw=0.15 added=5 links=0 blocks=4 top3=['RCA_INC_2026_0163', 'INC_C04_INC_2026_0163', 'FAQ_C20_039'] 4.32s
+2026-11-11T11:00:39Z smoke GFL  S01   route=None gw=0.0 added=0 links=8 blocks=4 top3=['PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION', 'KB_C19_privacy_data_requests', 'KB_C20_refund_processing'] 1.577s
+2026-11-11T11:00:48Z smoke GFL  Q04   route=None gw=0.5 added=1 links=0 blocks=3 top3=['FAQ_C04_007', 'PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025', 'TARIFF_POSTPAID_2026H2'] 9.42s
+2026-11-11T11:00:52Z smoke GFL  MH02  route=None gw=0.15 added=5 links=4 blocks=4 top3=['RCA_INC_2026_0163', 'INC_C04_INC_2026_0163', 'FAQ_C20_039'] 4.423s
+2026-11-11T11:01:27Z smoke verdict: {'arm_labels_match_configuration': True, 'non_router_arms_have_no_route': True, 'GF_adds_chunks_somewhere': True, 'GF_query_not_rewritten': True, 'GFL_adds_chunks_somewhere': True, 'GFL_query_not_rewritten': True, 'GF_differs_from_plain_on_42_questions': True, 'GFL_link_hop_adds_documents': True, 'plain_search_equals_stored_B2_run1_on_all_42': True, 'proceed': True}
+2026-11-11T11:01:27Z retrieval diff summary (42 questions): {'questions': 42, 'gate_weight_positive': 23, 'plain_search_equals_stored_B2_run1_chunks': 42, 'GF_docs_differ_from_plain': 21, 'GFL_docs_differ_from_plain': 21, 'GF_added_chunks': 77, 'GFL_added_chunks': 77, 'GF_query_differs_from_question': 0, 'GFL_query_differs_from_question': 0, 'GFL_docs_differ_from_GF': 1, 'GFL_added_differ_from_GF': 1, 'related_neighbours_added_total': 41}
+2026-11-11T11:01:27Z smoke finished in 98s
+2026-11-11T11:02:28Z runtime estimate: generation 26 min for 252 answers (GF ~15 min, GFL ~12 min); scoring ~47 min; total ~76 min

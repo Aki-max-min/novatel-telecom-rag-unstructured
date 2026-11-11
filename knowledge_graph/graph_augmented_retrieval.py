@@ -34,6 +34,7 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import re
 import sys
 from collections import defaultdict
 from dataclasses import dataclass, field
@@ -63,6 +64,7 @@ VECTOR_DEPTH = 10
 GRAPH_SEEDS = 5
 GRAPH_CANDIDATES = 20
 RRF_K = 60
+_CATEGORY_TAG = re.compile(r"^c\d\d$")   # tags that are category codes (c01..c29)
 
 
 # ---------------------------------------------------------------------------
@@ -223,6 +225,7 @@ def graph_expand(
     specificity: bool = False,
     max_documents: Optional[int] = None,
     allowed_labels: Optional[Sequence[str]] = None,
+    exclude_category_tags: bool = False,
 ) -> List[Dict[str, Any]]:
     """Documents sharing a bridge concept with one of the seed documents.
 
@@ -240,6 +243,8 @@ def graph_expand(
       so a rare shared concept outranks a common one.
     * ``max_documents`` - cap on the number of candidates returned (applied together with ``limit``).
     * ``allowed_labels``- restrict the bridge labels to this subset of ``bridges``.
+    * ``exclude_category_tags`` - drop Tag concepts matching ``^c\d\d$``: 104 of 148 documents carry a tag equal to their own
+      category code, so the Tag bridge otherwise re-introduces the category expansion this module excludes by design.
 
     Ordering is deterministic: score desc, shared_count desc, document id asc.
     """
@@ -258,6 +263,8 @@ def graph_expand(
             for concept in graph_index.concepts_of(seed, [label]):
                 df = graph_index.document_frequency(label, concept)
                 if hub_threshold is not None and df > hub_threshold:
+                    continue
+                if exclude_category_tags and label == "Tag" and _CATEGORY_TAG.match(concept):
                     continue
                 concept_weight = math.log(n_documents / df) if (specificity and df) else 1.0
                 for neighbour in graph_index.documents_of(label, concept):

@@ -99,3 +99,13 @@ the number stops meaning anything.
 
 The router is yours and was not changed: its confidence threshold of 0.5 never fires, and incident-type questions must not go database-only. This branch
 does not change `hybrid/query_gate.py` outputs or any frozen benchmark file (`hybrid/benchmark/first_run_phase7.json` is byte-identical to origin).
+
+---
+
+## Addendum 2026-11-11 (KG fixes, branch `person-b/kg-fixes`)
+
+- `graph.json` now has 360 nodes / 1669 edges (23 `Concept` nodes, 33 `EXPRESSES_CONCEPT` edges). Your `_read_related_edges` is unaffected: it reads only `RELATED_TO` edges (84, unchanged) and the node key map; this was tested, including the five incident pairs in both directions. (The earlier node count of 363 was an error: the pre-concept graph is 337 nodes.)
+- A missing `graph.json` no longer raises in `run_hybrid_query`; it returns documents with the trace note `graph unavailable: <reason>`. Run `python -m knowledge_graph.graph_builder` to build it.
+- Linked documents enter only through the link list (`use_related_links=False`).
+- `pipeline.GRAPH_KWARGS` switches the graph profile (`{}` = legacy, the default; the hardened profile did not beat it on the dev sets). The blend stays `rrf_blend`; CrossEncoder-only order lost 3 questions at R@1 on the dev sets.
+- All verdicts are on the dev sets; your 42 questions remain the unbiased test and must still not be used for tuning.

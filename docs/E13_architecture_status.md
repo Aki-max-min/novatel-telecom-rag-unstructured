@@ -64,3 +64,10 @@ The one fact-inclusion miss (RB_B06: the answer does not state `plan_charge`) wa
 - Redesign of the gate's signal for graph-dependence (roadmap Section 8 open question 1) and graph-vs-rerank treatment (open question 2).
 - The blind set: unwritten. It is the real generalisation test for the router and for the V1-vs-V0 rerank default.
 - The `docs/` and `hybrid/` additions live only on this branch; nothing outside `hybrid/` and `docs/` was modified.
+
+---
+
+## Addendum 2026-11-11 (KG fixes)
+
+- **Stage 4 numbers no longer reproduce.** The stage-4 figures were produced before the single link mechanism: today `run_hybrid_query` uses `use_related_links=False`, so re-running the old evaluation gives the numbers in `docs/E13_kg_fixes.md` (pooled dev R@1 0.8269, R@3 0.9423, R@5 0.9615, MRR@5 0.8756; the link change itself did not move the top 5 of any of the 52 dev questions).
+- **Stage 5 (graceful degradation and concept metadata).** A missing `graph.json`, model/FAISS assets or structured database no longer raises: the pipeline returns what remains, with trace notes. The graph carries 23 concept nodes with table names; the context and trace expose `concept`. The blend (`rrf_blend`) and the legacy graph profile were re-tested and kept. Gate tiers 0.5/0.15, `LINK_WEIGHT` and `VECTOR_WEIGHT` are switches, not weights. See `docs/E13_kg_fixes.md`.

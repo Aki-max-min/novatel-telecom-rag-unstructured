@@ -590,3 +590,10 @@ python -m knowledge_graph.evaluate_graph_rag --both       # both benchmarks + sw
 
 Full run order, environment notes and the Neo4j steps are in
 `knowledge_graph/README.md`.
+
+---
+
+## Addendum 2026-11-11 (KG fixes, branch `person-b/kg-fixes`)
+
+- **Node count correction.** This report states 363 nodes; the graph builds to **337 nodes / 1636 edges** (the 363 figure was wrong). With the concept layer added in the KG fixes (23 `Concept` nodes, 33 `EXPRESSES_CONCEPT` edges, table names only) the build is **360 nodes / 1669 edges**. `RELATED_TO` edges are unchanged at 84. The reproduction command in Section 7 therefore prints 360 / 1669 today.
+- Concept nodes join the structured side by concept name with a `tables` property; retrieval ignores them. Details and measurements: `docs/E13_kg_fixes.md`.

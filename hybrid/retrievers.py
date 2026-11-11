@@ -89,7 +89,7 @@ def to_candidate(document_id, chunk_id, score, method, category, content, title=
 
 
 def build_candidates(question, retriever=None, graph_index=None, corpus=None, person_a=None, *,
-                     use_related_links=True, graph_kwargs=None, graph_enabled=True, status=None):
+                     use_related_links=True, graph_kwargs=None, graph_enabled=True, status=None, search_query=None):
     """Real vector + real graph candidates for one question, as schema dicts.
 
     Vector: retriever.search() (Person A's index, document-level, best chunk per doc).
@@ -104,6 +104,8 @@ def build_candidates(question, retriever=None, graph_index=None, corpus=None, pe
     When ``retriever`` is None the vector context is loaded here and the graph index is loaded lazily - only if the graph is
     enabled; a missing or corrupt graph.json yields an empty graph list and ``status["graph_error"]`` (a dict passed in by
     the caller) instead of an exception.
+
+    ``search_query`` (KG fixes 2, step 4) replaces the question ONLY in the FAISS search; None = the question itself.
     """
     from knowledge_graph.graph_augmented_retrieval import (
         DEFAULT_BRIDGES, GRAPH_CANDIDATES, GRAPH_SEEDS, VECTOR_DEPTH, graph_expand, related_neighbours)
@@ -117,7 +119,7 @@ def build_candidates(question, retriever=None, graph_index=None, corpus=None, pe
                     status["graph_error"] = reason
                 graph_enabled = False
 
-    hits = retriever.search(question, depth=VECTOR_DEPTH)
+    hits = retriever.search(question if search_query is None else search_query, depth=VECTOR_DEPTH)
     vector, vector_chunk = [], {}
     for h in hits:
         vector_chunk[h["document_id"]] = h

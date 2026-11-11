@@ -30,6 +30,8 @@ LINKS_ENABLED = True
 USE_RELATED_LINKS = False
 # Graph profile switch (KG fixes step 6): {} = legacy graph_expand; {"hub_fraction": 0.05, "specificity": True, "max_documents": 3} = hardened.
 GRAPH_KWARGS: dict = {}
+# Query enrichment for the FAISS search only (KG fixes 2 step 4, hybrid/enrich.py). Off unless the pre-declared dev-set rule accepted it.
+ENRICH_ENABLED = False
 LINK_WEIGHT = 0.15  # on/off switch only since the fix (> 0 includes the link list); the value no longer ranks anything
 
 
@@ -96,9 +98,15 @@ def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int 
         # gives empty graph/link lists and a trace note, never an exception
         graph_index, graph_reason = (retrievers.get_graph_index_safe() if (use_graph or use_links) else (None, None))
         graph_ok = graph_index is not None
+        extra = {}
+        if ENRICH_ENABLED:
+            import enrich
+            search_text, enrichment = enrich.enrich_query(question)
+            trace["enrichment"] = enrichment
+            extra["search_query"] = search_text          # the FAISS query only; every other stage keeps the original question
         try:
             vector, graph, _ = build_candidates(question, graph_index=graph_index, graph_enabled=(use_graph and graph_ok),
-                                                use_related_links=USE_RELATED_LINKS, graph_kwargs=GRAPH_KWARGS or None)
+                                                use_related_links=USE_RELATED_LINKS, graph_kwargs=GRAPH_KWARGS or None, **extra)
         except (OSError, RuntimeError, ImportError, ValueError, KeyError) as exc:
             # models / FAISS index / chunk files missing or unreadable: the unstructured side returns nothing
             vector, graph = None, []

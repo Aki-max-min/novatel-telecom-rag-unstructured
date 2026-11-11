@@ -92,11 +92,13 @@ def build_graph(
     entities: Dict[str, Any] | None = None,
     relationships: Dict[str, Any] | None = None,
     content: Dict[str, Any] | None = None,
+    concepts: Dict[str, Any] | None = None,
 ) -> nx.MultiDiGraph:
     """Assemble the graph.
 
     Nodes are added before edges, so no edge can silently create an implicit
     node. Pass ``content=None`` to build the Phase 1 metadata graph only.
+    ``concepts`` (knowledge_graph.concept_nodes) adds the Concept nodes and EXPRESSES_CONCEPT edges - metadata only.
     """
     if entities is None or relationships is None:
         documents = load_documents()
@@ -113,6 +115,9 @@ def build_graph(
     if content:
         all_nodes += content["nodes"]
         all_edges += content["edges"]
+    if concepts:
+        all_nodes += concepts["nodes"]
+        all_edges += concepts["edges"]
 
     for node in all_nodes:
         attributes = {"label": node["label"], "key": node["key"]}
@@ -162,6 +167,7 @@ def save_graph(
     relationships: Dict[str, Any],
     content: Dict[str, Any] | None = None,
     output_dir: Path = OUTPUT_DIR,
+    concepts: Dict[str, Any] | None = None,
 ) -> Dict[str, Path]:
     """Write graphml plus a nodes/edges JSON, and the per-extractor dumps.
 
@@ -176,6 +182,9 @@ def save_graph(
 
     nodes = list(entities["nodes"]) + (list(content["nodes"]) if content else [])
     edges = list(relationships["edges"]) + (list(content["edges"]) if content else [])
+    if concepts:
+        nodes += list(concepts["nodes"])
+        edges += list(concepts["edges"])
 
     graph_json_path = output_dir / f"graph{suffix}.json"
     payload = {
@@ -184,6 +193,7 @@ def save_graph(
             "entity_extraction": entities["stats"],
             "relationship_extraction": relationships["stats"],
             "content_extraction": content["stats"] if content else None,
+            "concept_metadata": concepts["stats"] if concepts else None,
             "graph": {
                 "total_nodes": graph.number_of_nodes(),
                 "total_edges": graph.number_of_edges(),
@@ -206,6 +216,23 @@ def save_graph(
     return written
 
 
+def build_full(documents=None, metadata_only: bool = False) -> Dict[str, Any]:
+    """Extract everything and assemble the graph. Returns the pieces ``save_graph`` needs plus the graph itself.
+
+    The full build (not metadata-only) also carries the Concept metadata layer (knowledge_graph.concept_nodes).
+    """
+    from knowledge_graph.concept_nodes import build_concept_metadata  # local import: concept_bridge imports this module
+
+    documents = list(documents) if documents is not None else load_documents()
+    entities = extract_entities(documents)
+    relationships = extract_relationships(documents)
+    content = None if metadata_only else extract_content(documents)
+    concepts = None if metadata_only else build_concept_metadata(entities["nodes"] + content["nodes"])
+    graph = build_graph(entities, relationships, content, concepts)
+    return {"documents": documents, "entities": entities, "relationships": relationships, "content": content,
+            "concepts": concepts, "graph": graph}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Build the NovaTel knowledge graph.")
     parser.add_argument(
@@ -215,13 +242,10 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    documents = load_documents()
-    entities = extract_entities(documents)
-    relationships = extract_relationships(documents)
-    content = None if args.metadata_only else extract_content(documents)
-
-    graph = build_graph(entities, relationships, content)
-    written = save_graph(graph, entities, relationships, content)
+    built = build_full(metadata_only=args.metadata_only)
+    documents, entities, relationships = built["documents"], built["entities"], built["relationships"]
+    content, concepts, graph = built["content"], built["concepts"], built["graph"]
+    written = save_graph(graph, entities, relationships, content, concepts=concepts)
 
     mode = "METADATA ONLY (PHASE 1)" if args.metadata_only else "METADATA + CONTENT"
     print(f"===== NOVATEL KG - BUILD [{mode}] =====")

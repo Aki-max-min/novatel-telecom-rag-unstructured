@@ -77,6 +77,10 @@ class GraphIndex:
     known_documents: set = field(default_factory=set)
     #: undirected RELATED_TO links between RESOLVED documents (47 after the alias repair)
     related: Dict[str, set] = field(default_factory=dict)
+    #: concept metadata (KG fixes step 3; metadata only, ignored by graph_expand): concept name -> ...
+    concept_categories: Dict[str, set] = field(default_factory=dict)   # concept -> document Category codes
+    concept_services: Dict[str, set] = field(default_factory=dict)     # concept -> document Services
+    concept_tables: Dict[str, list] = field(default_factory=dict)      # concept -> structured table NAMES
 
     def concepts_of(self, document_id: str, labels: Sequence[str]) -> set:
         found = set()
@@ -90,6 +94,37 @@ class GraphIndex:
     def document_frequency(self, label: str, concept: str) -> int:
         """Number of documents that mention this concept (hub concepts have a high value)."""
         return len(self.concept_documents.get(label, {}).get(concept, ()))
+
+    # --- concept metadata accessors (join on the concept NAME, never on a C-code) -------------------------
+    def concepts(self) -> List[str]:
+        """All concept names present in the graph (empty for a graph built before the concept layer)."""
+        return sorted(self.concept_tables)
+
+    def categories_of_concept(self, concept: str) -> List[str]:
+        return sorted(self.concept_categories.get(concept, ()))
+
+    def documents_of_concept(self, concept: str) -> List[str]:
+        """Documents of the concept's categories, sorted and unique (concepts that share a category return the same group)."""
+        by_category = self.concept_documents.get("Category", {})
+        docs: set = set()
+        for category in self.concept_categories.get(concept, ()):
+            docs |= by_category.get(category, set())
+        return sorted(docs)
+
+    def tables_of_concept(self, concept: str) -> List[str]:
+        """Names of the structured tables that realise the concept (names only, no rows)."""
+        return sorted(self.concept_tables.get(concept, ()))
+
+    def concepts_of_category(self, category: str) -> List[str]:
+        return sorted(c for c, cats in self.concept_categories.items() if category in cats)
+
+    def concept_groups(self) -> Dict[str, List[str]]:
+        """category -> concepts that express it (several concepts can share one category: each document group is listed once)."""
+        groups: Dict[str, List[str]] = {}
+        for concept, cats in self.concept_categories.items():
+            for category in cats:
+                groups.setdefault(category, []).append(concept)
+        return {c: sorted(v) for c, v in sorted(groups.items())}
 
     @property
     def document_count(self) -> int:
@@ -136,6 +171,20 @@ def load_graph_index(path: Path = GRAPH_JSON_PATH) -> GraphIndex:
         if source in index.known_documents and target in index.known_documents and source != target:
             index.related.setdefault(source, set()).add(target)
             index.related.setdefault(target, set()).add(source)
+
+    # Concept metadata layer (absent in graphs built before KG fixes step 3)
+    for node in payload["nodes"]:
+        if node["label"] == "Concept":
+            index.concept_tables[node["key"]] = list(node.get("properties", {}).get("tables", []))
+    for edge in payload["edges"]:
+        if edge["type"] != "EXPRESSES_CONCEPT":
+            continue
+        concept = keys_by_node[edge["target"]]
+        source_label = labels_by_node.get(edge["source"])
+        if source_label == "Category":
+            index.concept_categories.setdefault(concept, set()).add(keys_by_node[edge["source"]])
+        elif source_label == "Service":
+            index.concept_services.setdefault(concept, set()).add(keys_by_node[edge["source"]])
 
     return index
 

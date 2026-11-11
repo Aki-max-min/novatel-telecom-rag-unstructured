@@ -47,6 +47,7 @@ class Context:
     outcome: str = "answer"
     refusal_reason: object = None
     as_of: object = None
+    concepts: list = field(default_factory=list)  # concept names of the structured facts (metadata; KG fixes step 3)
     intents: list = field(default_factory=list)  # structured intents the router asked for (empty result != not asked)
     # provenance (Phase 9d) - what was actually looked up, so absence claims can be verified
     identified: bool = False                      # a customer_id was supplied for this session
@@ -108,7 +109,8 @@ def assemble_context(result: dict, max_docs: int = 5, snippet_chars: int = 400) 
         text = " ".join(filter(None, [f.get("content", ""), f["record_id"], flatten(fields),
                                       ("derived: " + flatten(derived)) if derived else ""]))
         facts.append({"id": f"F{i}", "record_id": f["record_id"], "table": table, "pk": pk,
-                      "line": f.get("content", ""), "fields": fields, "derived": derived, "text": text})
+                      "line": f.get("content", ""), "fields": fields, "derived": derived, "text": text,
+                      "concept": md.get("concept")})   # exposed (no longer dropped); NOT part of fields/text: answers are unchanged
 
     documents = []
     for i, d in enumerate((result.get("documents", []) or [])[:max_docs], start=1):
@@ -155,4 +157,5 @@ def assemble_context(result: dict, max_docs: int = 5, snippet_chars: int = 400) 
                    outcome=outcome, refusal_reason=plan.get("refusal_reason") or trace.get("refusal_reason"),
                    intents=list(plan.get("structured_intents", []) or []),
                    identified=bool(identified), intents_run=intents_run, row_counts=row_counts,
-                   full_texts=full_texts)
+                   full_texts=full_texts,
+                   concepts=sorted({f["concept"] for f in facts if f["concept"]}))

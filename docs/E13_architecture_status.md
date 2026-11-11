@@ -71,3 +71,11 @@ The one fact-inclusion miss (RB_B06: the answer does not state `plan_charge`) wa
 
 - **Stage 4 numbers no longer reproduce.** The stage-4 figures were produced before the single link mechanism: today `run_hybrid_query` uses `use_related_links=False`, so re-running the old evaluation gives the numbers in `docs/E13_kg_fixes.md` (pooled dev R@1 0.8269, R@3 0.9423, R@5 0.9615, MRR@5 0.8756; the link change itself did not move the top 5 of any of the 52 dev questions).
 - **Stage 5 (graceful degradation and concept metadata).** A missing `graph.json`, model/FAISS assets or structured database no longer raises: the pipeline returns what remains, with trace notes. The graph carries 23 concept nodes with table names; the context and trace expose `concept`. The blend (`rrf_blend`) and the legacy graph profile were re-tested and kept. Gate tiers 0.5/0.15, `LINK_WEIGHT` and `VECTOR_WEIGHT` are switches, not weights. See `docs/E13_kg_fixes.md`.
+
+---
+
+## Addendum 2026-11-11 (KG fixes 2, branch `person-b/kg-fixes2`)
+
+- Stage 4 (candidates): the graph gains 7 `MENTIONS_CONCEPT` edges (Document -> Concept, body only) and 21 more resolved `RELATED_TO` edges (21 `KB_Cnn_*` -> `FAQ_Cnn_001` placeholder links resolved to the category's two FAQs, an ASSUMPTION; the undirected resolvable pairs stay 47). Neither is read by `graph_expand` as a bridge, and the 52 dev questions show 0 changed top-5 lists.
+- Query enrichment (`hybrid/enrich.py`, FAISS query only) exists behind `ENRICH_ENABLED=False`: on the dev sets it lost 6 questions at R@1 and 1 at R@3 against 1 gain at R@1 and 1 at R@5, so it stays off.
+- Extraction quality is still not validated: the human gold sheet (`docs/extraction_gold_sheet.csv`) is prepared and empty. 19 of 148 documents still have no content concept (vocabulary gap). Rules, results and the handoff for Person A: `docs/E13_kg_fixes2.md`; requests to her: `docs/requests_for_PersonA.md`.

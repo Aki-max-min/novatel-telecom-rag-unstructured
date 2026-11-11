@@ -117,7 +117,7 @@ def build_graph(
         all_edges += content["edges"]
     if concepts:
         all_nodes += concepts["nodes"]
-        all_edges += concepts["edges"]
+        all_edges += concepts["edges"] + concepts.get("mention_edges", [])
 
     for node in all_nodes:
         attributes = {"label": node["label"], "key": node["key"]}
@@ -184,7 +184,7 @@ def save_graph(
     edges = list(relationships["edges"]) + (list(content["edges"]) if content else [])
     if concepts:
         nodes += list(concepts["nodes"])
-        edges += list(concepts["edges"])
+        edges += list(concepts["edges"]) + list(concepts.get("mention_edges", []))
 
     graph_json_path = output_dir / f"graph{suffix}.json"
     payload = {
@@ -228,6 +228,8 @@ def build_full(documents=None, metadata_only: bool = False) -> Dict[str, Any]:
     relationships = extract_relationships(documents)
     content = None if metadata_only else extract_content(documents)
     concepts = None if metadata_only else build_concept_metadata(entities["nodes"] + content["nodes"])
+    if concepts is not None:
+        concepts["mention_edges"] = list(content.get("concept_mention_edges", []))   # MENTIONS_CONCEPT (content_extractor, body only)
     graph = build_graph(entities, relationships, content, concepts)
     return {"documents": documents, "entities": entities, "relationships": relationships, "content": content,
             "concepts": concepts, "graph": graph}

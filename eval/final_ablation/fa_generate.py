@@ -131,6 +131,7 @@ def verify_reused_arms() -> dict:
     kg_commit = km["git"]["commit"]
     head = git_info()["commit"]
     changed = _git("diff", "--name-only", kg_commit, head, "--", *fa.KG_CODE_DIRS).split()
+    not_allowed = [f for f in changed if f not in fa.ALLOWED_CODE_CHANGES]
     graph = fa.ROOT / "knowledge_graph" / "output" / "graph.json"
     graph_sha = sha256_file(graph) if graph.exists() else "missing"
     kg_graph_sha = km.get("extra", {}).get("graph", {}).get("sha256")
@@ -138,10 +139,11 @@ def verify_reused_arms() -> dict:
     fa.load_reused(check_counts=True)
     out = {"source": str(fa.KG_RES.relative_to(fa.ROOT)).replace("\\", "/"), "arms": fa.ARMS_REUSED, "records_per_arm": 126,
            "kg_manifest_commit": kg_commit, "head_commit": head, "code_dirs_compared": fa.KG_CODE_DIRS, "files_changed_in_code_dirs": changed,
+           "allowed_code_changes": sorted(fa.ALLOWED_CODE_CHANGES), "files_changed_not_allowed": not_allowed,
            "graph_sha256_now": graph_sha, "graph_sha256_kg_run": kg_graph_sha, "graph_identical": graph_sha == kg_graph_sha,
            "kg_index_sha256": kg_index, "kg_parser_note": km.get("extra", {}).get("parser"), "kg_ollama_digest": km.get("extra", {}).get("ollama_model_digest")}
-    if changed:
-        raise SystemExit(f"reused arms were generated at {kg_commit[:8]} but HEAD {head[:8]} differs in retrieval/generation code: {changed[:8]}; refusing")
+    if not_allowed:
+        raise SystemExit(f"reused arms were generated at {kg_commit[:8]} but HEAD {head[:8]} differs in retrieval/generation code: {not_allowed[:8]}; refusing")
     if not out["graph_identical"]:
         raise SystemExit(f"graph.json differs from the one the reused arms used ({graph_sha[:12]} vs {kg_graph_sha}); refusing")
     return out
@@ -170,7 +172,11 @@ def ensure_manifest(health: dict | None) -> dict:
     index_dirs = [fa.ROOT / "data" / "experiments" / "combined_retrieval" / "vectorstore"]
     km = json.loads(fa.KG_MANIFEST.read_text(encoding="utf-8"))
     extra = {
-        "experiment": "final component ablation on one code state: A / B / R / O / G0 / G1 / G1L generated here; B2 / C_V0 / C_V1 / C_V1_links reused from results/kg_hardening_eval/",
+        "experiment": {"final_ablation": "final component ablation on one code state: A / B / R / O / G0 / G1 / G1L generated here; B2 / C_V0 / C_V1 / C_V1_links reused from results/kg_hardening_eval/",
+                       "graph_merge_fix": "graph merge fix measurement: GF (v3 docgraph definition, legacy graph_expand, router OFF) and GFL (+ use_related_links) on the FIXED "
+                                          "_semantic_merge (CrossEncoder order only); B2 reused from results/kg_hardening_eval/ (B2 has no layer and never calls _semantic_merge; "
+                                          "verified by the smoke stage's plain-search comparison on all 42 questions)"}[fa.EXPERIMENT],
+        "experiment_id": fa.EXPERIMENT,
         "branch": g["branch"],
         "merged_commit_person_b": kg_merged(km), "v3_reference": {"commit": fa.V3_COMMIT, "results": "results/perf_report/ (never modified)"},
         "interpreter": sys.executable,
@@ -198,8 +204,10 @@ def ensure_manifest(health: dict | None) -> dict:
                   + str(km.get("extra", {}).get("parser")) + ")",
         "ollama_model_digest": (health or {}).get("digest"), "ollama_quantization": (health or {}).get("quantization"),
         "power_at_start": (health or {}).get("power"),
-        "smoke_test": "results/final_ablation/smoke_test.json (3 questions x 7 generated arms, run 1; not part of raw_answers.jsonl)",
-        "time_estimate": "results/final_ablation/time_estimate.json",
+        "smoke_test": f"results/{fa.RES.name}/smoke_test.json (3 questions x {len(fa.ARMS_NEW)} generated arms, run 1; not part of raw_answers.jsonl)",
+        "time_estimate": f"results/{fa.RES.name}/time_estimate.json",
+        "semantic_merge": "integration/rag/pipeline.py::_semantic_merge as of HEAD: " + ("FIXED 2026-11-11 (CrossEncoder order only)" if fa.EXPERIMENT == "graph_merge_fix"
+                                                                                           else "see git history of the file for the state at this commit"),
     }
     m = build_manifest(rag_config=RagConfig.b2(), qa_config=QAConfig(), index_dirs=index_dirs, extra=extra)
     fa.RES.mkdir(parents=True, exist_ok=True)
@@ -229,9 +237,12 @@ def retrieval_diff(rig: fa.Rig, qs: dict) -> dict:
     Rig.generate makes, no routing), so that we know BEFORE the long run whether every layer changes what it is supposed to change."""
     rig.pipeline.unstructured.exclude_scifact = True
     arms = ["plain"] + fa.LAYER_ARMS
-    per_q, summary = [], {"questions": 0, "gate_weight_positive": 0, "O_query_differs_from_question": 0, "O_docs_differ_from_plain": 0,
-                          "G0_docs_differ_from_plain": 0, "G1_docs_differ_from_G0": 0, "G1_added_differ_from_G0": 0,
-                          "G1L_docs_differ_from_G1": 0, "G1L_added_differ_from_G1": 0, "added_chunks_total": {a: 0 for a in fa.LAYER_ARMS},
+    pairs = [(a, b) for a, b in (("G1", "G0"), ("G1L", "G1"), ("GFL", "GF")) if a in fa.LAYER_ARMS and b in fa.LAYER_ARMS]
+    b2 = {k[1]: r for k, r in fa.load_reused(check_counts=False, arms=["B2"])[0].items() if k[2] == 1}     # stored B2 run 1 (reused arm)
+    per_q, summary = [], {"questions": 0, "gate_weight_positive": 0, "plain_search_equals_stored_B2_run1_chunks": 0,
+                          **{f"{a}_docs_differ_from_plain": 0 for a in fa.LAYER_ARMS}, **{f"{a}_added_chunks": 0 for a in fa.LAYER_ARMS},
+                          **{f"{a}_query_differs_from_question": 0 for a in fa.LAYER_ARMS},
+                          **{f"{a}_docs_differ_from_{b}": 0 for a, b in pairs}, **{f"{a}_added_differ_from_{b}": 0 for a, b in pairs},
                           "related_neighbours_added_total": 0}
     for qid, q in qs.items():
         row = {"id": qid, "category": q["category"]}
@@ -242,21 +253,23 @@ def retrieval_diff(rig: fa.Rig, qs: dict) -> dict:
             added = [r["record_id"] for r in top10 if (r.get("metadata") or {}).get("semantic_added")]
             first = next((r for r in top10 if (r.get("metadata") or {}).get("semantic")), None)
             info = ((first or {}).get("metadata", {}).get("semantic", {}) or {})
-            row[arm] = {"doc_top10": _docs(top10), "added_chunks": added, "neighbour_docs": info.get("neighbour_docs") or [], "graph_weight": info.get("graph_weight"),
-                        "concept": info.get("concept"), "related_neighbours_added": (layer.stats["related_neighbours_added"] - before) if layer else 0,
+            row[arm] = {"doc_top10": _docs(top10), "chunk_top10": [r["record_id"] for r in top10], "added_chunks": added, "neighbour_docs": info.get("neighbour_docs") or [],
+                        "graph_weight": info.get("graph_weight"), "concept": info.get("concept"),
+                        "related_neighbours_added": (layer.stats["related_neighbours_added"] - before) if layer else 0,
                         "normalised_query": layer.normalise_query(q["query"])[0] if layer is not None else q["query"]}
             if layer is not None:
-                summary["added_chunks_total"][arm] += len(added)
+                summary[f"{arm}_added_chunks"] += len(added)
+                summary[f"{arm}_docs_differ_from_plain"] += row[arm]["doc_top10"] != row["plain"]["doc_top10"]
+                summary[f"{arm}_query_differs_from_question"] += row[arm]["normalised_query"] != q["query"]
+                summary["related_neighbours_added_total"] += row[arm]["related_neighbours_added"] if fa.LAYER_SPECS[arm][2] else 0
         summary["questions"] += 1
-        summary["gate_weight_positive"] += (row["G0"]["graph_weight"] or 0.0) > 0
-        summary["O_query_differs_from_question"] += row["O"]["normalised_query"] != q["query"]
-        summary["O_docs_differ_from_plain"] += row["O"]["doc_top10"] != row["plain"]["doc_top10"]
-        summary["G0_docs_differ_from_plain"] += row["G0"]["doc_top10"] != row["plain"]["doc_top10"]
-        summary["G1_docs_differ_from_G0"] += row["G1"]["doc_top10"] != row["G0"]["doc_top10"]
-        summary["G1_added_differ_from_G0"] += row["G1"]["added_chunks"] != row["G0"]["added_chunks"]
-        summary["G1L_docs_differ_from_G1"] += row["G1L"]["doc_top10"] != row["G1"]["doc_top10"]
-        summary["G1L_added_differ_from_G1"] += row["G1L"]["added_chunks"] != row["G1"]["added_chunks"]
-        summary["related_neighbours_added_total"] += row["G1L"]["related_neighbours_added"]
+        gw_arm = fa.GRAPH_ARMS[0] if fa.GRAPH_ARMS else None
+        summary["gate_weight_positive"] += bool(gw_arm) and (row[gw_arm]["graph_weight"] or 0.0) > 0
+        row["plain_equals_stored_B2_run1"] = qid in b2 and row["plain"]["chunk_top10"] == b2[qid]["doc_top10_chunks"]
+        summary["plain_search_equals_stored_B2_run1_chunks"] += row["plain_equals_stored_B2_run1"]
+        for a, b in pairs:
+            summary[f"{a}_docs_differ_from_{b}"] += row[a]["doc_top10"] != row[b]["doc_top10"]
+            summary[f"{a}_added_differ_from_{b}"] += row[a]["added_chunks"] != row[b]["added_chunks"]
         per_q.append(row)
     return {"summary": summary, "per_question": per_q}
 
@@ -279,21 +292,35 @@ def smoke(rig: fa.Rig) -> dict:
                 f"blocks={rows[-1]['n_prompt_blocks']} top3={rec['doc_top10'][:3]} {rec['latency_s']}s")
     label_ok = all(r["arm_label_in_record"] == r["arm"] and r["arm_config"]["layer"] == (r["arm"] if r["arm"] in fa.LAYER_ARMS else None) for r in rows)
     by = {(r["arm"], r["id"]): r for r in rows}
-    checks = {
-        "A_has_no_retrieval": all(not by[("A", i)]["doc_top10"] and by[("A", i)]["n_prompt_blocks"] == 0 for i in SMOKE_IDS),
-        "B_has_no_route_and_no_layer": all(by[("B", i)]["route"] is None and by[("B", i)]["graph_weight"] is None for i in SMOKE_IDS),
-        "R_has_a_route": all(by[("R", i)]["route"] is not None for i in SMOKE_IDS),
-        "non_router_arms_have_no_route": all(by[(a, i)]["route"] is None for a in ("A", "B", "O", "G0", "G1", "G1L") for i in SMOKE_IDS),
-        "O_adds_no_graph_chunks": all(by[("O", i)]["n_added_chunks"] == 0 for i in SMOKE_IDS),
-        "O_rewrites_a_query": any(by[("O", i)]["normalised_query"] not in (None, qs[i]["query"]) for i in SMOKE_IDS),
-        "G0_adds_chunks_somewhere": any(by[("G0", i)]["n_added_chunks"] > 0 for i in SMOKE_IDS),
-    }
+    has = set(fa.ARMS_NEW)
+    checks = {}
+    if "A" in has:
+        checks["A_has_no_retrieval"] = all(not by[("A", i)]["doc_top10"] and by[("A", i)]["n_prompt_blocks"] == 0 for i in SMOKE_IDS)
+    if "B" in has:
+        checks["B_has_no_route_and_no_layer"] = all(by[("B", i)]["route"] is None and by[("B", i)]["graph_weight"] is None for i in SMOKE_IDS)
+    if "R" in has:
+        checks["R_has_a_route"] = all(by[("R", i)]["route"] is not None for i in SMOKE_IDS)
+    checks["non_router_arms_have_no_route"] = all(by[(a, i)]["route"] is None for a in fa.ARMS_NEW if a != "R" for i in SMOKE_IDS)
+    if "O" in has:
+        checks["O_adds_no_graph_chunks"] = all(by[("O", i)]["n_added_chunks"] == 0 for i in SMOKE_IDS)
+        checks["O_rewrites_a_query"] = any(by[("O", i)]["normalised_query"] not in (None, qs[i]["query"]) for i in SMOKE_IDS)
+    for a in fa.GRAPH_ARMS:
+        checks[f"{a}_adds_chunks_somewhere"] = any(by[(a, i)]["n_added_chunks"] > 0 for i in SMOKE_IDS)
+        checks[f"{a}_query_not_rewritten"] = all(by[(a, i)]["normalised_query"] in (None, qs[i]["query"]) for i in SMOKE_IDS)
     diff = retrieval_diff(rig, qs)
     sm = diff["summary"]
-    g1_applied = sm["G1_added_differ_from_G0"] > 0 or sm["G1_docs_differ_from_G0"] > 0
-    verdict = {"arm_labels_match_configuration": label_ok, **checks, "G1_differs_from_G0_on_42_questions": g1_applied,
-               "G1L_link_hop_adds_documents": sm["related_neighbours_added_total"] > 0, "O_changes_the_query_on_42_questions": sm["O_query_differs_from_question"] > 0,
-               "proceed": label_ok and all(checks.values()) and g1_applied}
+    verdict = {"arm_labels_match_configuration": label_ok, **checks}
+    if fa.EXPERIMENT == "final_ablation":
+        verdict["G1_differs_from_G0_on_42_questions"] = sm["G1_added_differ_from_G0"] > 0 or sm["G1_docs_differ_from_G0"] > 0
+        verdict["G1L_link_hop_adds_documents"] = sm["related_neighbours_added_total"] > 0
+        verdict["O_changes_the_query_on_42_questions"] = sm["O_query_differs_from_question"] > 0
+        gate = verdict["G1_differs_from_G0_on_42_questions"]
+    else:   # graph_merge_fix: GF must change retrieval vs the plain search somewhere, GFL must add link documents, and the plain search must equal the stored B2
+        verdict["GF_differs_from_plain_on_42_questions"] = sm["GF_docs_differ_from_plain"] > 0
+        verdict["GFL_link_hop_adds_documents"] = sm["related_neighbours_added_total"] > 0
+        verdict["plain_search_equals_stored_B2_run1_on_all_42"] = sm["plain_search_equals_stored_B2_run1_chunks"] == sm["questions"]
+        gate = verdict["GF_differs_from_plain_on_42_questions"] and verdict["plain_search_equals_stored_B2_run1_on_all_42"]
+    verdict["proceed"] = label_ok and all(checks.values()) and gate
     out = {"timestamp_utc": datetime.now(timezone.utc).isoformat(), "smoke_ids": SMOKE_IDS, "rows": rows, "retrieval_diff": diff, "verdict": verdict}
     (fa.RES / "smoke_test.json").write_text(json.dumps(out, indent=2, ensure_ascii=False, default=str), encoding="utf-8")
     log(f"smoke verdict: {verdict}")
@@ -309,9 +336,10 @@ def smoke(rig: fa.Rig) -> dict:
 def estimate() -> dict:
     v3 = json.loads((fa.V3_RES / "metrics.json").read_text(encoding="utf-8"))["arms"]
     kgm = json.loads((fa.KG_RES / "metrics.json").read_text(encoding="utf-8"))["arms"]
-    analog = {"A": ("v3", "A"), "B": ("v3", "B"), "R": ("v3", "router"), "O": ("v3", "ontology"), "G0": ("v3", "docgraph"), "G1": ("kg", "C_V1"), "G1L": ("kg", "C_V1_links")}
+    analog = {"A": ("v3", "A"), "B": ("v3", "B"), "R": ("v3", "router"), "O": ("v3", "ontology"), "G0": ("v3", "docgraph"), "G1": ("kg", "C_V1"), "G1L": ("kg", "C_V1_links"),
+              "GF": ("v3", "docgraph"), "GFL": ("kg", "C_V1_links")}
     gen = {}
-    for arm, (src, name) in analog.items():
+    for arm, (src, name) in ((a, analog[a]) for a in fa.ARMS_NEW):
         a = (v3 if src == "v3" else kgm)[name]
         med = a["latency_median_s"]
         gen[arm] = {"analog": f"{src}:{name}", "latency_median_s": med, "n": 42 * fa.RUNS, "estimate_s": round(med * 42 * fa.RUNS * 1.15, 0)}   # +15% for p95 tail

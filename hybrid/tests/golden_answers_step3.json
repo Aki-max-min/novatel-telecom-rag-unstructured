@@ -1,0 +1,88 @@
+{
+ "note": "extractive answers for facts-only anchor questions, recorded BEFORE concept metadata was exposed (KG fixes step 3); the answer text must not change",
+ "answers": [
+  {
+   "question": "Did my last recharge go through?",
+   "customer": 1042,
+   "as_of": null,
+   "answer": "Your latest recharge (4254) was for 399.00 with status SUCCESS on 2026-04-17 11:06:00, and the balance after it was 525.62 [F1]. An earlier recharge (6997) was for 99.00 with status SUCCESS on 2025-10-16 13:54:00, and the balance after it was 624.62 [F2]. An earlier recharge (7914) was for 149.00 with status SUCCESS on 2025-08-24 22:21:00, and the balance after it was 773.62 [F3].",
+   "notices": [],
+   "citations": {
+    "F1": "structured_sql:recharge_transactions:4254",
+    "F2": "structured_sql:recharge_transactions:6997",
+    "F3": "structured_sql:recharge_transactions:7914"
+   }
+  },
+  {
+   "question": "Is my KYC complete?",
+   "customer": 1042,
+   "as_of": null,
+   "answer": "Your KYC status (customer record 1042) is Pending [F1]. There is no kyc_records row on file for you; the status on your customer record is the one that applies [F2].",
+   "notices": [
+    "no kyc_records row"
+   ],
+   "citations": {
+    "F1": "structured_sql:customer_master:1042",
+    "F2": "structured_sql:kyc_records:none"
+   }
+  },
+  {
+   "question": "When does my plan expire?",
+   "customer": 1042,
+   "as_of": "2026-10-06",
+   "answer": "Subscription 3042 (Star 199) has stored status Active and expiry_date 2026-10-03 [F1]. As of 2026-10-06, that expiry date has passed (derived from the date; the stored status shown above is unchanged) [F1].",
+   "notices": [
+    "expiry_passed"
+   ],
+   "citations": {
+    "F1": "structured_sql:subscriptions:3042"
+   }
+  },
+  {
+   "question": "Did my last recharge go through?",
+   "customer": 1056,
+   "as_of": null,
+   "answer": "Your latest recharge (4996) was for 949.00 with status FAILED on 2026-06-23 12:59:00, and the balance after it was 18.72 [F1]. An earlier recharge (7127) was for 849.00 with status REFUNDED on 2026-04-03 04:31:00, and the balance after it was 417.72 [F2]. An earlier recharge (7144) was for 479.00 with status SUCCESS on 2026-03-21 05:44:00, and the balance after it was 896.72 [F3].",
+   "notices": [],
+   "citations": {
+    "F1": "structured_sql:recharge_transactions:4996",
+    "F2": "structured_sql:recharge_transactions:7127",
+    "F3": "structured_sql:recharge_transactions:7144"
+   }
+  },
+  {
+   "question": "Is my latest bill paid?",
+   "customer": 1829,
+   "as_of": null,
+   "answer": "Invoice 6740 has total 581.65, due date 2026-09-15 and stored payment_status Unpaid [F1]. The records disagree: the stored status is Unpaid, but successful payments totalling 581.65 are on file for this invoice (derived comparison); a billing agent can confirm [F1]. Invoice 6739 has total 555.04, due date 2026-08-15 and stored payment_status Paid [F2]. Invoice 6738 has total 536.38, due date 2026-07-15 and stored payment_status Paid [F3].",
+   "notices": [
+    "status_ledger_mismatch"
+   ],
+   "citations": {
+    "F1": "structured_sql:invoices:6740",
+    "F2": "structured_sql:invoices:6739",
+    "F3": "structured_sql:invoices:6738"
+   }
+  },
+  {
+   "question": "Do I have any open tickets?",
+   "customer": 1015,
+   "as_of": null,
+   "answer": "I found no tickets on your account.",
+   "notices": [],
+   "citations": {}
+  },
+  {
+   "question": "Do I have any open tickets?",
+   "customer": 1042,
+   "as_of": null,
+   "answer": "Ticket 12099 (SIM/Replacement Request) has stored status Open and was created 2026-08-02 13:00:00 [F1]. Ticket 12323 (SIM/SIM Not Working) has stored status Open and was created 2026-02-04 15:00:00 [F2]. Ticket 11335 (Billing/High Bill) has stored status InProgress and was created 2025-11-18 06:00:00 [F3].",
+   "notices": [],
+   "citations": {
+    "F1": "structured_sql:tickets:12099",
+    "F2": "structured_sql:tickets:12323",
+    "F3": "structured_sql:tickets:11335"
+   }
+  }
+ ]
+}

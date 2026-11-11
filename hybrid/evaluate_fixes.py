@@ -22,6 +22,7 @@ sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 os.chdir(REPO_ROOT)
 
+import enrich  # noqa: E402
 import pipeline  # noqa: E402
 import rerank  # noqa: E402
 from knowledge_graph.evaluate_hardening import CachedRetriever, CachedScorer, SETS, load_sets, metrics  # noqa: E402
@@ -87,7 +88,8 @@ class Runner:
         c = dict(self.ctx, graph_index=self.graph_index_for(cfg))
         vector, graph, _ = build_candidates(question, c["retriever"], c["graph_index"], c["corpus"], c["person_a"],
                                             use_related_links=cfg["use_related_links"], graph_kwargs=cfg["graph_kwargs"] or None,
-                                            graph_enabled=True)
+                                            graph_enabled=True,
+                                            search_query=(enrich.enrich_query(question)[0] if cfg.get("enrich") else None))
         links = link_candidates_for(vector, c["graph_index"], c["corpus"], c["person_a"].load_chunk_text)
         fused = fuse_and_select(vector, graph, question, top_k=POOL, link_candidates=links, link_weight=pipeline.LINK_WEIGHT)
         return vector, fused

@@ -1,0 +1,620 @@
+{
+  "code": {
+    "rule_file": "eval/perf_report/run_report.py (function classify, CAUSES, error_analysis)",
+    "v3_table_commit": "dc481b6 (Measurement 3/3; results/perf_report/error_table.csv and metrics.json written by this code)",
+    "kg_table_commit": "6956902 (eval/kg_hardening_eval/run_report.py imports eval/perf_report/run_report.classify unchanged)",
+    "last_change_of_rule_file": "dc481b6 2026-11-01 Measurement (3/3): scoring, integrity, diagnostics and report complete (948 records scored, values.json 159 keys)",
+    "diff_dc481b6_HEAD_rule_file": "(empty: identical)",
+    "kg_call": "rr.classify('C' if arm in C_ARMS else 'B2', q, raw[key], scored[key], ref=B2 same run, scored B2)",
+    "v3_call": "classify(arm, q, raw[key], scored[key], ref=B2 same run if arm == 'C' else None, scored B2); B's router/graph remapped to model"
+  },
+  "v3_C_table_vs_current_rule": {
+    "table": {
+      "retrieval": 12,
+      "context": 6,
+      "competing": 3,
+      "ranking": 6,
+      "model": 9,
+      "router": 12,
+      "graph": 3,
+      "scoring": 0,
+      "total": 51
+    },
+    "re_labelled_now": {
+      "retrieval": 12,
+      "context": 6,
+      "competing": 3,
+      "ranking": 6,
+      "model": 9,
+      "router": 12,
+      "graph": 3,
+      "scoring": 0,
+      "total": 51
+    },
+    "n_label_mismatches": 0,
+    "mismatches": []
+  },
+  "v3_B_table_vs_current_rule": {
+    "table": {
+      "retrieval": 12,
+      "context": 30,
+      "competing": 0,
+      "ranking": 3,
+      "model": 9,
+      "router": 0,
+      "graph": 0,
+      "scoring": 12,
+      "total": 66
+    },
+    "re_labelled_now": {
+      "retrieval": 12,
+      "context": 30,
+      "competing": 0,
+      "ranking": 3,
+      "model": 9,
+      "router": 0,
+      "graph": 0,
+      "scoring": 12,
+      "total": 66
+    },
+    "n_label_mismatches": 0
+  },
+  "kg_C_V0_table_vs_current_rule": {
+    "table": {
+      "retrieval": 9,
+      "context": 9,
+      "competing": 3,
+      "ranking": 6,
+      "model": 9,
+      "router": 12,
+      "graph": 3,
+      "scoring": 0,
+      "total": 51
+    },
+    "re_labelled_now": {
+      "retrieval": 9,
+      "context": 9,
+      "competing": 3,
+      "ranking": 6,
+      "model": 9,
+      "router": 12,
+      "graph": 3,
+      "scoring": 0,
+      "total": 51
+    },
+    "n_label_mismatches": 0,
+    "mismatches": []
+  },
+  "v3_C_vs_C_V0_same_rule": {
+    "v3_C": {
+      "retrieval": 12,
+      "context": 6,
+      "competing": 3,
+      "ranking": 6,
+      "model": 9,
+      "router": 12,
+      "graph": 3,
+      "scoring": 0,
+      "total": 51
+    },
+    "C_V0": {
+      "retrieval": 9,
+      "context": 9,
+      "competing": 3,
+      "ranking": 6,
+      "model": 9,
+      "router": 12,
+      "graph": 3,
+      "scoring": 0,
+      "total": 51
+    },
+    "n_answers_with_different_label": 12,
+    "per_answer": [
+      {
+        "id": "RW_001",
+        "run": 1,
+        "category": "trai",
+        "v3_C": null,
+        "C_V0": [
+          "context",
+          "docs_in_prompt=False sql_rows_in_prompt=True",
+          1
+        ],
+        "records": {
+          "route_same": true,
+          "doc_top10_same": true,
+          "structured_ids_same": true,
+          "structured_status_same": true,
+          "prompt_docs_same": true,
+          "prompt_sql_rows_same": true,
+          "answer_same": false,
+          "added_chunks_same": true
+        },
+        "v3_structured_ids": [],
+        "C_V0_structured_ids": [],
+        "v3_prompt_sql_rows": [],
+        "C_V0_prompt_sql_rows": []
+      },
+      {
+        "id": "MH_RB_B04",
+        "run": 1,
+        "category": "cross",
+        "v3_C": null,
+        "C_V0": [
+          "retrieval",
+          "docs_retrieved=True sql_retrieved=False",
+          0
+        ],
+        "records": {
+          "route_same": true,
+          "doc_top10_same": true,
+          "structured_ids_same": true,
+          "structured_status_same": true,
+          "prompt_docs_same": true,
+          "prompt_sql_rows_same": true,
+          "answer_same": false,
+          "added_chunks_same": true
+        },
+        "v3_structured_ids": [
+          "14212"
+        ],
+        "C_V0_structured_ids": [
+          "14212"
+        ],
+        "v3_prompt_sql_rows": [
+          "14212"
+        ],
+        "C_V0_prompt_sql_rows": [
+          "14212"
+        ]
+      },
+      {
+        "id": "MH12",
+        "run": 1,
+        "category": "multi",
+        "v3_C": [
+          "retrieval",
+          "docs_retrieved=True sql_retrieved=False",
+          1
+        ],
+        "C_V0": null,
+        "records": {
+          "route_same": true,
+          "doc_top10_same": true,
+          "structured_ids_same": false,
+          "structured_status_same": true,
+          "prompt_docs_same": true,
+          "prompt_sql_rows_same": false,
+          "answer_same": false,
+          "added_chunks_same": true
+        },
+        "v3_structured_ids": [
+          "5001",
+          "5002",
+          "5003",
+          "5004",
+          "5005"
+        ],
+        "C_V0_structured_ids": [
+          "5001",
+          "6001",
+          "6002"
+        ],
+        "v3_prompt_sql_rows": [
+          "5001",
+          "5002",
+          "5003",
+          "5004",
+          "5005"
+        ],
+        "C_V0_prompt_sql_rows": [
+          "5001",
+          "6001",
+          "6002"
+        ]
+      },
+      {
+        "id": "MH13",
+        "run": 1,
+        "category": "multi",
+        "v3_C": [
+          "retrieval",
+          "docs_retrieved=True sql_retrieved=False",
+          1
+        ],
+        "C_V0": null,
+        "records": {
+          "route_same": true,
+          "doc_top10_same": true,
+          "structured_ids_same": false,
+          "structured_status_same": true,
+          "prompt_docs_same": true,
+          "prompt_sql_rows_same": false,
+          "answer_same": false,
+          "added_chunks_same": true
+        },
+        "v3_structured_ids": [
+          "11011"
+        ],
+        "C_V0_structured_ids": [
+          "11011",
+          "28248"
+        ],
+        "v3_prompt_sql_rows": [
+          "11011"
+        ],
+        "C_V0_prompt_sql_rows": [
+          "11011",
+          "28248"
+        ]
+      },
+      {
+        "id": "RW_001",
+        "run": 2,
+        "category": "trai",
+        "v3_C": null,
+        "C_V0": [
+          "context",
+          "docs_in_prompt=False sql_rows_in_prompt=True",
+          1
+        ],
+        "records": {
+          "route_same": true,
+          "doc_top10_same": true,
+          "structured_ids_same": true,
+          "structured_status_same": true,
+          "prompt_docs_same": true,
+          "prompt_sql_rows_same": true,
+          "answer_same": false,
+          "added_chunks_same": true
+        },
+        "v3_structured_ids": [],
+        "C_V0_structured_ids": [],
+        "v3_prompt_sql_rows": [],
+        "C_V0_prompt_sql_rows": []
+      },
+      {
+        "id": "MH_RB_B04",
+        "run": 2,
+        "category": "cross",
+        "v3_C": null,
+        "C_V0": [
+          "retrieval",
+          "docs_retrieved=True sql_retrieved=False",
+          0
+        ],
+        "records": {
+          "route_same": true,
+          "doc_top10_same": true,
+          "structured_ids_same": true,
+          "structured_status_same": true,
+          "prompt_docs_same": true,
+          "prompt_sql_rows_same": true,
+          "answer_same": false,
+          "added_chunks_same": true
+        },
+        "v3_structured_ids": [
+          "14212"
+        ],
+        "C_V0_structured_ids": [
+          "14212"
+        ],
+        "v3_prompt_sql_rows": [
+          "14212"
+        ],
+        "C_V0_prompt_sql_rows": [
+          "14212"
+        ]
+      },
+      {
+        "id": "MH12",
+        "run": 2,
+        "category": "multi",
+        "v3_C": [
+          "retrieval",
+          "docs_retrieved=True sql_retrieved=False",
+          1
+        ],
+        "C_V0": null,
+        "records": {
+          "route_same": true,
+          "doc_top10_same": true,
+          "structured_ids_same": false,
+          "structured_status_same": true,
+          "prompt_docs_same": true,
+          "prompt_sql_rows_same": false,
+          "answer_same": false,
+          "added_chunks_same": true
+        },
+        "v3_structured_ids": [
+          "5001",
+          "5002",
+          "5003",
+          "5004",
+          "5005"
+        ],
+        "C_V0_structured_ids": [
+          "5001",
+          "6001",
+          "6002"
+        ],
+        "v3_prompt_sql_rows": [
+          "5001",
+          "5002",
+          "5003",
+          "5004",
+          "5005"
+        ],
+        "C_V0_prompt_sql_rows": [
+          "5001",
+          "6001",
+          "6002"
+        ]
+      },
+      {
+        "id": "MH13",
+        "run": 2,
+        "category": "multi",
+        "v3_C": [
+          "retrieval",
+          "docs_retrieved=True sql_retrieved=False",
+          1
+        ],
+        "C_V0": null,
+        "records": {
+          "route_same": true,
+          "doc_top10_same": true,
+          "structured_ids_same": false,
+          "structured_status_same": true,
+          "prompt_docs_same": true,
+          "prompt_sql_rows_same": false,
+          "answer_same": false,
+          "added_chunks_same": true
+        },
+        "v3_structured_ids": [
+          "11011"
+        ],
+        "C_V0_structured_ids": [
+          "11011",
+          "28248"
+        ],
+        "v3_prompt_sql_rows": [
+          "11011"
+        ],
+        "C_V0_prompt_sql_rows": [
+          "11011",
+          "28248"
+        ]
+      },
+      {
+        "id": "RW_001",
+        "run": 3,
+        "category": "trai",
+        "v3_C": null,
+        "C_V0": [
+          "context",
+          "docs_in_prompt=False sql_rows_in_prompt=True",
+          1
+        ],
+        "records": {
+          "route_same": true,
+          "doc_top10_same": true,
+          "structured_ids_same": true,
+          "structured_status_same": true,
+          "prompt_docs_same": true,
+          "prompt_sql_rows_same": true,
+          "answer_same": false,
+          "added_chunks_same": true
+        },
+        "v3_structured_ids": [],
+        "C_V0_structured_ids": [],
+        "v3_prompt_sql_rows": [],
+        "C_V0_prompt_sql_rows": []
+      },
+      {
+        "id": "MH_RB_B04",
+        "run": 3,
+        "category": "cross",
+        "v3_C": null,
+        "C_V0": [
+          "retrieval",
+          "docs_retrieved=True sql_retrieved=False",
+          0
+        ],
+        "records": {
+          "route_same": true,
+          "doc_top10_same": true,
+          "structured_ids_same": true,
+          "structured_status_same": true,
+          "prompt_docs_same": true,
+          "prompt_sql_rows_same": true,
+          "answer_same": false,
+          "added_chunks_same": true
+        },
+        "v3_structured_ids": [
+          "14212"
+        ],
+        "C_V0_structured_ids": [
+          "14212"
+        ],
+        "v3_prompt_sql_rows": [
+          "14212"
+        ],
+        "C_V0_prompt_sql_rows": [
+          "14212"
+        ]
+      },
+      {
+        "id": "MH12",
+        "run": 3,
+        "category": "multi",
+        "v3_C": [
+          "retrieval",
+          "docs_retrieved=True sql_retrieved=False",
+          1
+        ],
+        "C_V0": null,
+        "records": {
+          "route_same": true,
+          "doc_top10_same": true,
+          "structured_ids_same": false,
+          "structured_status_same": true,
+          "prompt_docs_same": true,
+          "prompt_sql_rows_same": false,
+          "answer_same": false,
+          "added_chunks_same": true
+        },
+        "v3_structured_ids": [
+          "5001",
+          "5002",
+          "5003",
+          "5004",
+          "5005"
+        ],
+        "C_V0_structured_ids": [
+          "5001",
+          "6001",
+          "6002"
+        ],
+        "v3_prompt_sql_rows": [
+          "5001",
+          "5002",
+          "5003",
+          "5004",
+          "5005"
+        ],
+        "C_V0_prompt_sql_rows": [
+          "5001",
+          "6001",
+          "6002"
+        ]
+      },
+      {
+        "id": "MH13",
+        "run": 3,
+        "category": "multi",
+        "v3_C": [
+          "retrieval",
+          "docs_retrieved=True sql_retrieved=False",
+          1
+        ],
+        "C_V0": null,
+        "records": {
+          "route_same": true,
+          "doc_top10_same": true,
+          "structured_ids_same": false,
+          "structured_status_same": true,
+          "prompt_docs_same": true,
+          "prompt_sql_rows_same": false,
+          "answer_same": false,
+          "added_chunks_same": true
+        },
+        "v3_structured_ids": [
+          "11011"
+        ],
+        "C_V0_structured_ids": [
+          "11011",
+          "28248"
+        ],
+        "v3_prompt_sql_rows": [
+          "11011"
+        ],
+        "C_V0_prompt_sql_rows": [
+          "11011",
+          "28248"
+        ]
+      }
+    ],
+    "raw_fields_differing_over_126_pairs": {
+      "route_same": 0,
+      "doc_top10_same": 0,
+      "structured_ids_same": 12,
+      "structured_status_same": 6,
+      "prompt_docs_same": 0,
+      "prompt_sql_rows_same": 12,
+      "answer_same": 77,
+      "added_chunks_same": 0
+    },
+    "correctness_differs": [
+      [
+        "RW_001",
+        1,
+        2,
+        1
+      ],
+      [
+        "MH_RB_B04",
+        1,
+        2,
+        0
+      ],
+      [
+        "MH_RB_B06",
+        1,
+        0,
+        1
+      ],
+      [
+        "MH12",
+        1,
+        1,
+        2
+      ],
+      [
+        "MH13",
+        1,
+        1,
+        2
+      ],
+      [
+        "RW_001",
+        2,
+        2,
+        1
+      ],
+      [
+        "MH_RB_B04",
+        2,
+        2,
+        0
+      ],
+      [
+        "MH12",
+        2,
+        1,
+        2
+      ],
+      [
+        "MH13",
+        2,
+        1,
+        2
+      ],
+      [
+        "RW_001",
+        3,
+        2,
+        1
+      ],
+      [
+        "MH_RB_B04",
+        3,
+        2,
+        0
+      ],
+      [
+        "MH12",
+        3,
+        1,
+        2
+      ],
+      [
+        "MH13",
+        3,
+        1,
+        2
+      ]
+    ]
+  },
+  "current_rule_on_every_arm": {}
+}

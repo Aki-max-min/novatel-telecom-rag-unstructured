@@ -58,7 +58,7 @@ Call connectivity depends on the recipient's local network availability, not on 
 
 ### Detailed Explanation
 
-This clarifies where responsibility for call connectivity sits: once the call leaves NovaTel's network, whether it connects depends on the recipient's local network, which NovaTel's plan has no control over — so a failed cal",,,,
+This clarifies where responsibility for call connectivity sits: once the call leaves NovaTel's network, whether it connects depends on the recipient's local network, which NovaTel's plan has no control over — so a failed cal",Concept:Network Coverage,Concept:Network Coverage=network coverage,,
 FAQ_C12_024,FAQ,C12,"Question: Why doesn't VoLTE/HD Voice work on my phone?
 
 Answer: ### Short Answer

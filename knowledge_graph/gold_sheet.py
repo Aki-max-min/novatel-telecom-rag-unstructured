@@ -23,7 +23,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional
 
-from knowledge_graph.content_extractor import _compile, extract_document_concepts
+from knowledge_graph.content_extractor import _compile, extract_concept_mentions, extract_document_concepts
 from knowledge_graph.entity_extractor import load_documents
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -66,7 +66,7 @@ def build_rows(documents: Iterable[Dict[str, Any]], seed: int = SEED) -> List[Di
     rows = []
     for document_id in select_documents(documents, seed):
         document = by_id[document_id]
-        records = extract_document_concepts(document)
+        records = extract_document_concepts(document) + extract_concept_mentions(document)   # 5 content labels + Concept (body mentions)
         predicted = [f"{r['concept_type']}:{r['concept']}" for r in records]
         evidence = [f"{r['concept_type']}:{r['concept']}={r['evidence_span']}" for r in records]
         rows.append({
@@ -96,7 +96,7 @@ def evidence_check(documents: Iterable[Dict[str, Any]], records: Optional[List[D
     documents = list(documents)
     by_id = {d["document_id"]: d for d in documents}
     if records is None:
-        records = [r for d in documents for r in extract_document_concepts(d)]
+        records = [r for d in documents for r in extract_document_concepts(d) + extract_concept_mentions(d)]
     failures = []
     for r in records:
         text = _full_text(by_id[r["document_id"]])

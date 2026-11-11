@@ -1,0 +1,15 @@
+      At index 0 diff: 'D5' != 'D1'
+      Use -v to get more diff
+C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\integration\tests\test_semantic_merge_order.py:98: AssertionError: ['D5', 'D1', 'D2', 'D3', 'D4']
+E   AssertionError: assert 3 < 0
+     +  where 3 = <built-in method index of list object at 0x000001F41716C700>('D3')
+     +    where <built-in method index of list object at 0x000001F41716C700> = ['N0', 'D1', 'D2', 'D3', 'D4', 'D5'].index
+     +  and   0 = <built-in method index of list object at 0x000001F41716C700>('N0')
+     +    where <built-in method index of list object at 0x000001F41716C700> = ['N0', 'D1', 'D2', 'D3', 'D4', 'D5'].index
+C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\integration\tests\test_semantic_merge_order.py:123: AssertionError: assert 3 < 0
+=========================== short test summary info ===========================
+FAILED integration/tests/test_semantic_merge_order.py::test_1_original_candidates_keep_their_relative_order_with_the_layer_on
+FAILED integration/tests/test_semantic_merge_order.py::test_2_an_added_chunk_ranks_above_an_existing_chunk_only_if_its_crossencoder_score_is_higher
+FAILED integration/tests/test_semantic_merge_order.py::test_4_regression_old_arithmetic_a_graph_member_at_crossencoder_rank_5_must_not_pass_rank_1
+FAILED integration/tests/test_semantic_merge_order.py::test_ties_are_broken_by_chunk_id_and_the_order_is_stable
+4 failed, 3 passed in 30.76s

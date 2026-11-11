@@ -161,11 +161,17 @@ class UnstructuredSearcher:
         }
 
     def _semantic_merge(self, query: str, candidates: list[dict], semantic, info: dict | None) -> list[dict]:
-        """One-hop graph expansion (see integration/rag/semantic_layer.py). Seeds = top reranked documents; their graph neighbours are
-        added to the pool, scored by the CrossEncoder against the ORIGINAL question, and merged with the CE ranking by
-        weighted RRF (ranks only)."""
-        from integration.rag.fuse import RRF_K
+        """One-hop graph expansion (see integration/rag/semantic_layer.py). Seeds = top reranked documents; their graph neighbours JOIN the
+        candidate pool and are scored by the CrossEncoder against the ORIGINAL question. The final order is the CrossEncoder score alone
+        (hybrid_score, descending; ties broken by chunk_id), so an added chunk ranks above an existing one only if the CrossEncoder scores it
+        higher, and the relative order of the original candidates never changes. graph_weight is only an on/off switch here: > 0 means
+        the graph may add candidates (the query gate's decision); the value is kept in the "semantic" trace.
 
+        Until 2026-11-11 this method re-ranked the pool by weighted RRF: 1/(RRF_K + rank) for every chunk plus graph_weight/(RRF_K + graph_rank)
+        for chunks of a graph-list document. With RRF_K = 60 the base scores are nearly flat, so any graph-list chunk passed the CrossEncoder's
+        best chunk from rank 11 (weight 0.15) or rank 61 (weight 0.5) whatever its own score (Person B's analysis of the v3 docgraph arm; see
+        integration/tests/test_semantic_merge_order.py). Every graph result measured before that date (v3, v4, the KG-hardening and link
+        evaluations) was produced with that merge."""
         if not hasattr(self, "_chunks_by_doc"):
             self._chunks_by_doc: dict[str, list[int]] = {}
             for i, rec in enumerate(self.metadata):
@@ -198,17 +204,7 @@ class UnstructuredSearcher:
                 c["hybrid_score"] = float(sc)
                 c["semantic_added"] = True
         pool = candidates + added
-        pool.sort(key=lambda c: c["hybrid_score"], reverse=True)
-
-        order = {doc: i for i, doc in enumerate(neighbours)}
-        graph_list = sorted((c for c in pool if c["document_id"] in order),
-                            key=lambda c: (order[c["document_id"]], -c["hybrid_score"], c["chunk_id"]))
-        fused = {}
-        for rank, c in enumerate(pool, start=1):
-            fused[c["chunk_id"]] = 1.0 / (RRF_K + rank)
-        for rank, c in enumerate(graph_list, start=1):
-            fused[c["chunk_id"]] += graph_weight / (RRF_K + rank)
-        pool.sort(key=lambda c: (-fused[c["chunk_id"]], -c["hybrid_score"]))
+        pool.sort(key=lambda c: (-c["hybrid_score"], c["chunk_id"]))     # CrossEncoder score alone; stable, tie-break by chunk id
         for c in pool:
             c["semantic"] = {"concept": (info or {}).get("concept"), "seeds": seeds, "neighbour_docs": neighbours, "graph_weight": graph_weight,
                              "added_by_graph": bool(c.get("semantic_added"))}

@@ -369,7 +369,14 @@ def graph_enhanced_search(
     graph_weight: float = 1.0,
     rrf_k: int = RRF_K,
 ) -> RetrievalResult:
-    """Vector retrieval fused with graph expansion via RRF."""
+    """Vector retrieval fused with graph expansion via RRF.
+
+    NOTE (E13 graph-fusion fix): the weighted-RRF merge used here is the SUPERSEDED design - it adds
+    weight/(k+rank) for graph membership on top of nearly flat base scores, so graph membership can outrank
+    relevance (see docs/E13_graph_fusion_fix.md). It is kept unchanged because it reproduces the Phase 3
+    evaluation numbers; the live pipeline (hybrid/fusion.py::fuse_candidates) is append-only instead: the
+    graph is a candidate source, never a ranker.
+    """
     bridges: Tuple[str, ...] = DEFAULT_BRIDGES
     if include_category:
         bridges = bridges + (CATEGORY_LABEL,)

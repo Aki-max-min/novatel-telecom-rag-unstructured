@@ -37,18 +37,47 @@ class Corpus:
         return sorted(chunks)[0] if chunks else None
 
 
-def load_context():
-    """Load (once) the retriever, graph index and corpus. Returns a dict."""
+_graph_index_cache = None   # only a SUCCESSFUL load is cached; a failure is retried (cheap) and reported each time
+
+
+def load_vector_context():
+    """Load (once) the vector retriever, Person A's chunk loader and the corpus - NO graph. May raise (missing models,
+    FAISS index, chunk files); run_hybrid_query catches that and reports "vector retrieval unavailable: <reason>"."""
     global _context
     if _context is None:
         os.chdir(REPO_ROOT)  # ingestion's paths are repo-relative
         import ingestion.evaluate_retrieval as person_a
-        from knowledge_graph.graph_augmented_retrieval import VectorRetriever, load_graph_index
+        from knowledge_graph.graph_augmented_retrieval import VectorRetriever
         with open(person_a.METADATA_PATH, encoding="utf-8") as fh:
             corpus = Corpus(json.load(fh))
-        _context = {"person_a": person_a, "retriever": VectorRetriever(),
-                    "graph_index": load_graph_index(), "corpus": corpus}
+        _context = {"person_a": person_a, "retriever": VectorRetriever(), "corpus": corpus}
     return _context
+
+
+def get_graph_index():
+    """The graph index; raises FileNotFoundError (naming `python -m knowledge_graph.graph_builder`) if graph.json is
+    missing, or a parse error if it is corrupt. Cached after a successful load."""
+    global _graph_index_cache
+    if _graph_index_cache is None:
+        from knowledge_graph.graph_augmented_retrieval import load_graph_index
+        _graph_index_cache = load_graph_index()
+    return _graph_index_cache
+
+
+def get_graph_index_safe():
+    """(index, None) or (None, reason). Never raises: a missing or corrupt graph.json becomes a reason string, which keeps the
+    clear error text (and so the fix command)."""
+    try:
+        return get_graph_index(), None
+    except Exception as exc:  # asset load: FileNotFoundError, JSONDecodeError, KeyError, ...
+        return None, f"{type(exc).__name__}: {exc}"
+
+
+def load_context():
+    """Vector context + graph index (raises if either is missing). Kept for scripts and evaluations that need both."""
+    ctx = dict(load_vector_context())
+    ctx["graph_index"] = get_graph_index()
+    return ctx
 
 
 def to_candidate(document_id, chunk_id, score, method, category, content, title=""):
@@ -60,7 +89,7 @@ def to_candidate(document_id, chunk_id, score, method, category, content, title=
 
 
 def build_candidates(question, retriever=None, graph_index=None, corpus=None, person_a=None, *,
-                     use_related_links=True, graph_kwargs=None, graph_enabled=True):
+                     use_related_links=True, graph_kwargs=None, graph_enabled=True, status=None):
     """Real vector + real graph candidates for one question, as schema dicts.
 
     Vector: retriever.search() (Person A's index, document-level, best chunk per doc).
@@ -71,13 +100,22 @@ def build_candidates(question, retriever=None, graph_index=None, corpus=None, pe
     A graph document that is also in the vector list reuses the vector list's chunk
     record_id; graph-only documents are represented by their first chunk. A document appears once in the graph list.
     Returns (vector, graph, dropped) where dropped counts graph documents with no indexed chunk.
+
+    When ``retriever`` is None the vector context is loaded here and the graph index is loaded lazily - only if the graph is
+    enabled; a missing or corrupt graph.json yields an empty graph list and ``status["graph_error"]`` (a dict passed in by
+    the caller) instead of an exception.
     """
     from knowledge_graph.graph_augmented_retrieval import (
         DEFAULT_BRIDGES, GRAPH_CANDIDATES, GRAPH_SEEDS, VECTOR_DEPTH, graph_expand, related_neighbours)
     if retriever is None:
-        ctx = load_context()
-        retriever, graph_index = ctx["retriever"], ctx["graph_index"]
-        corpus, person_a = ctx["corpus"], ctx["person_a"]
+        ctx = load_vector_context()
+        retriever, corpus, person_a = ctx["retriever"], ctx["corpus"], ctx["person_a"]
+        if graph_enabled and graph_index is None:
+            graph_index, reason = get_graph_index_safe()
+            if graph_index is None:
+                if status is not None:
+                    status["graph_error"] = reason
+                graph_enabled = False
 
     hits = retriever.search(question, depth=VECTOR_DEPTH)
     vector, vector_chunk = [], {}

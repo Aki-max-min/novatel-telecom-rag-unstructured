@@ -255,9 +255,16 @@ def lookup_msisdn(customer_id, db_path=DB_PATH):
     for ownership checks; the number is never taken from question text."""
     if customer_id is None:
         return None
-    conn = open_readonly(db_path)
+    try:
+        conn = open_readonly(db_path)
+    except (sqlite3.Error, OSError):
+        # structured DB missing/unreadable: ownership cannot be verified, so the router treats the session number as
+        # unknown (any number in the question is then handled conservatively) instead of raising
+        return None
     try:
         row = conn.execute(SQL_CUSTOMER, (str(customer_id),)).fetchone()
         return row["msisdn"] if row else None
+    except sqlite3.Error:
+        return None
     finally:
         conn.close()

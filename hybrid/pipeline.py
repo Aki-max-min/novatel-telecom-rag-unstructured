@@ -8,6 +8,8 @@ import sys
 
 sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
+import sqlite3  # noqa: E402
+
 from fusion import fuse_and_select  # noqa: E402
 from rerank import controlled_rerank  # noqa: E402
 
@@ -61,8 +63,17 @@ def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int 
         blocked.append("unrecognised_personal_request")
 
     if plan.outcome == "answer" and plan.route in ("structured", "both"):
-        facts = fetch_customer_facts(customer_id, plan.structured_intents, as_of=as_of)
-        trace["intents_run"] = list(plan.structured_intents)
+        try:
+            facts = fetch_customer_facts(customer_id, plan.structured_intents, as_of=as_of)
+        except (sqlite3.Error, OSError) as exc:
+            # structured DB missing/unreadable: executed=False with a note; documents still run
+            facts = []
+            trace["structured_executed"] = False
+            trace["structured_note"] = f"structured data unavailable: {type(exc).__name__}: {exc}"
+            blocked.append("structured_unavailable")
+        else:
+            trace["structured_executed"] = True
+            trace["intents_run"] = list(plan.structured_intents)
 
     # Documents are never withheld because identity is missing (Phase 8d): they run for unstructured
     # and both routes, AND for any needs_identity outcome whatever the route (then flagged generic -
@@ -74,20 +85,41 @@ def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int 
         import retrievers
         build_candidates = retrievers.build_candidates
         use_graph = GRAPH_ENABLED if graph_enabled is None else graph_enabled
-        vector, graph, _ = build_candidates(question, graph_enabled=use_graph)
-        trace["graph"] = "graph enabled" if use_graph else GRAPH_DISABLED_TRACE
         use_links = LINKS_ENABLED if links_enabled is None else links_enabled
-        links = []
-        if use_links:
-            ctx = retrievers.load_context()
-            links = retrievers.link_candidates_for(vector, ctx["graph_index"], ctx["corpus"],
-                                                   ctx["person_a"].load_chunk_text)
-        trace["links"] = "links enabled" if use_links else "links disabled by config"
-        trace["linked_documents"] = [c["metadata"]["document_id"] for c in links]
-        documents = run_hybrid_retrieval(question, vector, graph, max_pool=max_pool, top_k=top_k, model=model,
-                                         mode=mode, blend_weight=blend_weight, link_candidates=links)
-        trace["documents_ran"] = True
-        trace["rerank_status"] = documents[0].get("rerank_status") if documents else None
+        # the graph index is loaded lazily and ONLY when the graph or the links are on; a missing or corrupt graph.json
+        # gives empty graph/link lists and a trace note, never an exception
+        graph_index, graph_reason = (retrievers.get_graph_index_safe() if (use_graph or use_links) else (None, None))
+        graph_ok = graph_index is not None
+        try:
+            vector, graph, _ = build_candidates(question, graph_index=graph_index, graph_enabled=(use_graph and graph_ok))
+        except (OSError, RuntimeError, ImportError, ValueError, KeyError) as exc:
+            # models / FAISS index / chunk files missing or unreadable: the unstructured side returns nothing
+            vector, graph = None, []
+            trace["vector"] = f"vector retrieval unavailable: {type(exc).__name__}: {exc}"
+            blocked.append("document_retrieval_unavailable")
+        if vector is not None:
+            trace["vector"] = "vector retrieval ok"
+            if not use_graph:
+                trace["graph"] = GRAPH_DISABLED_TRACE
+            elif not graph_ok:
+                trace["graph"] = f"graph unavailable: {graph_reason}"
+            else:
+                trace["graph"] = "graph enabled"
+            links = []
+            if use_links and graph_ok:
+                vctx = retrievers.load_vector_context()
+                links = retrievers.link_candidates_for(vector, graph_index, vctx["corpus"], vctx["person_a"].load_chunk_text)
+            if not use_links:
+                trace["links"] = "links disabled by config"
+            elif not graph_ok:
+                trace["links"] = "links unavailable: graph unavailable"
+            else:
+                trace["links"] = "links enabled"
+            trace["linked_documents"] = [c["metadata"]["document_id"] for c in links]
+            documents = run_hybrid_retrieval(question, vector, graph, max_pool=max_pool, top_k=top_k, model=model,
+                                             mode=mode, blend_weight=blend_weight, link_candidates=links)
+            trace["documents_ran"] = True
+            trace["rerank_status"] = documents[0].get("rerank_status") if documents else None
 
     trace["customer_identified"] = customer_id is not None
     trace.update({"graph_weight": plan.graph_weight, "concept_hint": plan.concept_hint,

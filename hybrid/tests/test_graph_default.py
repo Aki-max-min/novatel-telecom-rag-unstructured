@@ -27,8 +27,9 @@ class TestGraphDefault(unittest.TestCase):
 
         with mock.patch.object(retrievers, "build_candidates", fake_build), \
                 mock.patch.object(retrievers, "link_candidates_for", lambda *a, **k: []), \
-                mock.patch.object(retrievers, "load_context",
-                                  lambda: {"graph_index": None, "corpus": None,
+                mock.patch.object(retrievers, "get_graph_index_safe", lambda: (object(), None)), \
+                mock.patch.object(retrievers, "load_vector_context",
+                                  lambda: {"corpus": None,
                                            "person_a": types.SimpleNamespace(load_chunk_text=lambda c: "")}), \
                 mock.patch.object(pipeline, "run_hybrid_retrieval", lambda *a, **k: [dict(DOC, rerank_status="stub")]):
             out = pipeline.run_hybrid_query("How do refunds work?", None, **kwargs)

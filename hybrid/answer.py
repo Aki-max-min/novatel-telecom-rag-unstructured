@@ -48,6 +48,8 @@ _MSG_NEEDS_IDENTITY = ("Personal account details can only be looked up once you 
 _MSG_GENERIC_DOCS = "The information below is general and is not about your account."
 _MSG_UNRECOGNISED = "I couldn't tell which account detail you meant, so I haven't looked anything up on your account."
 _MSG_NOTHING = "I couldn't find anything relevant in the knowledge base."
+_MSG_DOCS_DOWN = "I can't answer from the documents because document retrieval is unavailable right now."
+_MSG_STRUCT_DOWN = ("I can't look up your account details because the account database is unavailable right now.")
 
 
 def _tokens(text: str) -> set:
@@ -72,9 +74,13 @@ class ExtractiveAnswerer:
         if "unrecognised_personal_request" in context.notices:
             sentences.append(_MSG_UNRECOGNISED)
 
+        if "structured_unavailable" in context.notices:
+            sentences.append(_MSG_STRUCT_DOWN)
         sentences += self._fact_sentences(context)
 
-        if context.documents:
+        if "document_retrieval_unavailable" in context.notices:
+            sentences.append(_MSG_DOCS_DOWN)
+        elif context.documents:
             if "documents_are_generic" in context.notices:
                 sentences.append(_MSG_GENERIC_DOCS)
             sentences += self._document_sentences(question, context)
@@ -121,7 +127,7 @@ class ExtractiveAnswerer:
                     out.append(f"As of {d['as_of']}, that expiry date has not passed yet (derived from the date) "
                                f"[{f['id']}].")
 
-        identified = "needs_identity" not in context.notices  # no customer: nothing was looked up, so no "none found"
+        identified = "needs_identity" not in context.notices and "structured_unavailable" not in context.notices  # no customer: nothing was looked up, so no "none found"
         tickets = by_table.get("tickets", [])
         for f in tickets:
             v = f["fields"]

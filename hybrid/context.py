@@ -125,6 +125,10 @@ def assemble_context(result: dict, max_docs: int = 5, snippet_chars: int = 400) 
         notices.append("needs_identity")
     if outcome == "refuse_other_customer" or "refuse_other_customer" in blocked:
         notices.append("refuse_other_customer")
+    if "document_retrieval_unavailable" in blocked or str(trace.get("vector", "")).startswith("vector retrieval unavailable"):
+        notices.append("document_retrieval_unavailable")
+    if "structured_unavailable" in blocked or trace.get("structured_executed") is False:
+        notices.append("structured_unavailable")
     if plan.get("unrecognised_personal_request") or trace.get("unrecognised_personal_request") \
             or "unrecognised_personal_request" in blocked:
         notices.append("unrecognised_personal_request")

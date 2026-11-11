@@ -1,0 +1,51 @@
+.FF.FFF.F.....                                                           [100%]Running teardown with pytest sessionfinish...
+
+================================== FAILURES ===================================
+___________________ test_default_prompts_identical_to_head ____________________
+integration\tests\test_rag_defaults_identical.py:45: in test_default_prompts_identical_to_head
+    assert not mismatches, f"prompt evidence changed for: {mismatches}"
+E   AssertionError: prompt evidence changed for: ['Q04']
+E   assert not ['Q04']
+---------------------------- Captured stderr call -----------------------------
+\rLoading weights:   0%|          | 0/103 [00:00<?, ?it/s]\rLoading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 103/103 [00:00<00:00, 1764.49it/s]\nWarning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n\rLoading weights:   0%|          | 0/105 [00:00<?, ?it/s]\rLoading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 105/105 [00:00<00:00, 1932.20it/s]
+------------------------------ Captured log call ------------------------------
+WARNING  huggingface_hub.utils._http:_http.py:993 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+______ test_msisdn_keyed_table_is_answered_through_the_customers_msisdn _______
+integration\tests\test_structured_guard.py:47: in test_msisdn_keyed_table_is_answered_through_the_customers_msisdn
+    assert g.status["executed"] and g.status["route"] == "msisdn_mapping" and expected > 0
+E   AssertionError: assert (True and 'direct' == 'msisdn_mapping'
+E     
+E     - msisdn_mapping
+E     + direct)
+_ test_table_with_no_customer_or_msisdn_column_is_reported_not_executable[Show network sites for customer 1056-network_sites] _
+integration\tests\test_structured_guard.py:63: in test_table_with_no_customer_or_msisdn_column_is_reported_not_executable
+    assert g.results == [] and g.status["executed"] is False and g.status["route"] == "not_executable"
+E   assert ([] == []
+E     
+E     Use -v to get more diff and True is False)
+_ test_table_with_no_customer_or_msisdn_column_is_reported_not_executable[Show offers for customer 1056-offers] _
+integration\tests\test_structured_guard.py:63: in test_table_with_no_customer_or_msisdn_column_is_reported_not_executable
+    assert g.results == [] and g.status["executed"] is False and g.status["route"] == "not_executable"
+E   assert ([] == []
+E     
+E     Use -v to get more diff and True is False)
+____ test_unknown_customer_on_an_msisdn_table_is_reported_with_the_reason _____
+integration\tests\test_structured_guard.py:70: in test_unknown_customer_on_an_msisdn_table_is_reported_with_the_reason
+    assert g.status["executed"] is False and "customer_master has no row" in g.status["reason"]
+E   assert (True is False)
+___________ test_e14_adapter_uses_the_guard_and_exposes_the_status ____________
+integration\tests\test_structured_guard.py:87: in test_e14_adapter_uses_the_guard_and_exposes_the_status
+    assert a.last_status["route"] == "msisdn_mapping"
+E   AssertionError: assert 'direct' == 'msisdn_mapping'
+E     
+E     - msisdn_mapping
+E     + direct
+=========================== short test summary info ===========================
+FAILED integration/tests/test_rag_defaults_identical.py::test_default_prompts_identical_to_head
+FAILED integration/tests/test_structured_guard.py::test_msisdn_keyed_table_is_answered_through_the_customers_msisdn
+FAILED integration/tests/test_structured_guard.py::test_table_with_no_customer_or_msisdn_column_is_reported_not_executable[Show network sites for customer 1056-network_sites]
+FAILED integration/tests/test_structured_guard.py::test_table_with_no_customer_or_msisdn_column_is_reported_not_executable[Show offers for customer 1056-offers]
+FAILED integration/tests/test_structured_guard.py::test_unknown_customer_on_an_msisdn_table_is_reported_with_the_reason
+FAILED integration/tests/test_structured_guard.py::test_e14_adapter_uses_the_guard_and_exposes_the_status
+6 failed, 8 passed in 123.09s (0:02:03)
+exit 1

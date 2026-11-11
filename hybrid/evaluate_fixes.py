@@ -56,6 +56,14 @@ def arms_for(step):
         return ("A: legacy graph_expand", dict(cur, graph_kwargs={}),
                 "B: hardened (hub_fraction=0.05, specificity, max_documents=3)",
                 dict(cur, graph_kwargs={"hub_fraction": 0.05, "specificity": True, "max_documents": 3}))
+    if step in ("fx2_step2", "fx2_step3"):
+        # KG fixes 2: two graph.json files; paths come from FX_GRAPH_A / FX_GRAPH_B (built beforehand, see docs/E13_kg_fixes2.md)
+        label = {"fx2_step2": ("A: graph before the concept-name mentions", "B: graph with the concept-name mentions"),
+                 "fx2_step3": ("A: graph with the current RELATED_TO aliases", "B: graph with the 21 KB->FAQ placeholder links resolved")}[step]
+        return (label[0], dict(cur, graph_path=os.environ["FX_GRAPH_A"]), label[1], dict(cur, graph_path=os.environ["FX_GRAPH_B"]))
+    if step == "fx2_step4":
+        return ("A: FAISS query = original question", dict(cur, enrich=False),
+                "B: FAISS query = enriched question (CrossEncoder and others keep the original)", dict(cur, enrich=True))
     raise SystemExit(f"unknown step {step}")
 
 
@@ -65,8 +73,18 @@ class Runner:
         self.ctx = dict(self.ctx, retriever=CachedRetriever(self.ctx["retriever"]))
         self.scorer = CachedScorer(_load_model())
 
+    def graph_index_for(self, cfg):
+        path = cfg.get("graph_path")
+        if not path:
+            return self.ctx["graph_index"]
+        cache = self.__dict__.setdefault("_gi", {})
+        if path not in cache:
+            from knowledge_graph.graph_augmented_retrieval import load_graph_index
+            cache[path] = load_graph_index(Path(path))
+        return cache[path]
+
     def pool_for(self, question, cfg):
-        c = self.ctx
+        c = dict(self.ctx, graph_index=self.graph_index_for(cfg))
         vector, graph, _ = build_candidates(question, c["retriever"], c["graph_index"], c["corpus"], c["person_a"],
                                             use_related_links=cfg["use_related_links"], graph_kwargs=cfg["graph_kwargs"] or None,
                                             graph_enabled=True)
@@ -133,6 +151,9 @@ def main():
         mb = result["metrics"]["B"][s] if s != "pooled" else pooled["B"]
         print(f"{s:<13} A R@1 {ma['R@1']:.4f} R@3 {ma['R@3']:.4f} R@5 {ma['R@5']:.4f} MRR@5 {ma['MRR@5']:.4f} | "
               f"B R@1 {mb['R@1']:.4f} R@3 {mb['R@3']:.4f} R@5 {mb['R@5']:.4f} MRR@5 {mb['MRR@5']:.4f}")
+    changed = sum(1 for sname in SETS for ta, tb in zip(tops["A"][sname], tops["B"][sname]) if ta[:5] != tb[:5])
+    print(f"questions whose top 5 differs between A and B: {changed} of {sum(len(tops['A'][sname]) for sname in SETS)}")
+    result["top5_changed"] = changed
     print(f"losses (A hits, B does not): R@1 {losses[1]}  R@3 {losses[3]}  R@5 {losses[5]}   | gains: R@1 {gains[1]}  R@3 {gains[3]}  R@5 {gains[5]}")
     for ch in result["changes"]:
         print(f"  {ch['kind']} @{ch['k']} [{ch['set']}] {ch['q'][:90]}\n      expected={ch['expected']}\n      A top5={ch['A']}\n      B top5={ch['B']}")

@@ -56,3 +56,38 @@ today. Report per set and pooled: R@1, R@3, R@5, MRR@5; per-question wins and lo
 R@3 versus graph off. Otherwise both stay `False` and the losing questions are reported with their trace.**
 The constants are committed separately from the measurement. The 5 incident pairs remain a mechanism check, not
 generalisation evidence; the earlier hardening and link-decoupling verdicts were measured with the buggy merge.
+
+## Results (single run, appended after the rule above; the rule was not changed)
+
+| set | arm | R@1 | R@3 | R@5 | MRR@5 |
+|---|---|---|---|---|---|
+| main 29 | off | 0.9310 | 1.0000 | 1.0000 | 0.9540 |
+| main 29 | on | 0.9310 | 1.0000 | 1.0000 | 0.9540 |
+| mini 9 | off | 0.4444 | 0.7778 | 0.7778 | 0.5926 |
+| mini 9 | on | 0.4444 | 0.7778 | **0.8889** | **0.6148** |
+| validation 14 | off | 0.8571 | 0.9286 | 0.9286 | 0.8810 |
+| validation 14 | on | 0.8571 | 0.9286 | 0.9286 | 0.8810 |
+| pooled 52 | off | 0.8269 | 0.9423 | 0.9423 | 0.8718 |
+| pooled 52 | on | 0.8269 | 0.9423 | **0.9615** | **0.8756** |
+
+Per-question wins/losses: **0 wins and 0 losses at R@1 and at R@3 on every set** (pooled 0/0 and 0/0).
+Incident pairs in the final top 5: off 3/5, on 3/5 (per question - IL1: no/no, IL2: yes/yes, IL3: yes/yes,
+IL4: no/no, IL5: yes/yes). Raw output: `knowledge_graph/output_hardening/fusion_fix_results.json` (gitignored);
+reproduce with `python hybrid/evaluate_fusion_fix.py`.
+
+**Verdict by the pre-declared rule: ADOPT** - no dev question is lost at R@1 or R@3, so `GRAPH_ENABLED = True` and
+`LINKS_ENABLED = True` (separate commit).
+
+### What is and is not shown
+
+- **Shown:** the append-only merge removes the harm. Turning the graph on no longer costs anything on 52 dev
+  questions (the buggy merge cost up to 15 points on Person A's 42), and it adds exactly one question at R@5
+  (mini 9: 0.7778 -> 0.8889; pooled MRR +0.0038). Appended candidates can only help, since the vector order is
+  untouched and the CrossEncoder decides what rises.
+- **Not shown:** any R@1/R@3 gain (0 wins there too - on these dev sets the appended candidates that the
+  CrossEncoder promoted mattered only once, at rank 4-5), generalisation to Person A's 42 questions (her single
+  unbiased run remains the test), and the two incident misses: IL1 is the known reranker miss (CrossEncoder ranks
+  the partner 9 of 9) and IL4's RCA partner sits at vector rank 4 while links seed from the top 3.
+- The earlier hardening verdict (FAIL at pooled net +1) and link-decoupling verdict (FAIL, 0 wins / 0 losses) were
+  measured **with the buggy merge**; their conclusions about the graph's value are superseded by this measurement,
+  though their candidate-level findings (hub audit, alias resolution) stand.

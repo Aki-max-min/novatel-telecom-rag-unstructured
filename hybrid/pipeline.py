@@ -28,7 +28,9 @@ LINKS_ENABLED = True
 # linked documents enter only through the separate link list (top-3 seeds, cap 2). Measured on the 52 dev questions with no change
 # at R@1/R@3/R@5 (docs/E13_kg_fixes.md), so the duplicate path is removed.
 USE_RELATED_LINKS = False
-LINK_WEIGHT = 0.15   # on/off switch only since the fix (> 0 includes the link list); the value no longer ranks anything
+# Graph profile switch (KG fixes step 6): {} = legacy graph_expand; {"hub_fraction": 0.05, "specificity": True, "max_documents": 3} = hardened.
+GRAPH_KWARGS: dict = {}
+LINK_WEIGHT = 0.15  # on/off switch only since the fix (> 0 includes the link list); the value no longer ranks anything
 
 
 def run_hybrid_retrieval(question: str, vector_candidates: list[dict],
@@ -96,7 +98,7 @@ def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int 
         graph_ok = graph_index is not None
         try:
             vector, graph, _ = build_candidates(question, graph_index=graph_index, graph_enabled=(use_graph and graph_ok),
-                                                use_related_links=USE_RELATED_LINKS)
+                                                use_related_links=USE_RELATED_LINKS, graph_kwargs=GRAPH_KWARGS or None)
         except (OSError, RuntimeError, ImportError, ValueError, KeyError) as exc:
             # models / FAISS index / chunk files missing or unreadable: the unstructured side returns nothing
             vector, graph = None, []

@@ -93,7 +93,10 @@ class TestGraphBuildWithConcepts(unittest.TestCase):
         labels = [n["label"] for n in payload["nodes"]]
         self.assertEqual(labels.count("Concept"), 23)
         self.assertEqual(sum(1 for e in payload["edges"] if e["type"] == "EXPRESSES_CONCEPT"), 33)
-        self.assertEqual((len(payload["nodes"]), len(payload["edges"])), (337 + 23, 1636 + 33))
+        # KG fixes 2 step 2 added 7 MENTIONS_CONCEPT edges (Device Compatibility 2 + Network Coverage 5); the step-3 total of 1669 is unchanged
+        mentions = sum(1 for e in payload["edges"] if e["type"] == "MENTIONS_CONCEPT")
+        self.assertEqual(mentions, 7)
+        self.assertEqual((len(payload["nodes"]), len(payload["edges"]) - mentions), (337 + 23, 1636 + 33))
         self.assertEqual(sum(1 for e in payload["edges"] if e["type"] == "RELATED_TO"), 84)   # untouched
 
     def test_two_builds_are_byte_identical(self):

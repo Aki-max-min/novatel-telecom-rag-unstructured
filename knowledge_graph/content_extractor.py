@@ -477,7 +477,7 @@ def extract_document_concepts(document: Dict[str, Any]) -> List[Dict[str, Any]]:
 # A hit becomes a MENTIONS_CONCEPT edge Document -> existing Concept node. The bridges of graph_expand (Service, Channel,
 # VerificationMethod, Tag) do not read this edge type, so it cannot change retrieval. The tuple is filled one family per commit after the
 # per-family acceptance check (docs/E13_kg_fixes2.md); empty means the extractor behaves exactly as before.
-CONCEPT_NAME_FAMILIES: Tuple[str, ...] = ()
+CONCEPT_NAME_FAMILIES: Tuple[str, ...] = ("Device Compatibility",)
 
 _HEADER_KEYS = ("Document ID", "Category", "Department", "Customer Scope", "Last Updated", "Version", "Source Authority")
 _HEADER_LINE = re.compile(r"^\*\*(?:" + "|".join(re.escape(k) for k in _HEADER_KEYS) + r"):\*\*.*$", re.MULTILINE)

@@ -82,7 +82,10 @@ class TestLinkCandidates(unittest.TestCase):
         self.assertIn("INC_C13_INC_2026_0184", self.ids(with_links))
         row = next(c for c in with_links if c["metadata"]["document_id"] == "INC_C13_INC_2026_0184")
         self.assertEqual(row["fusion_sources"], ["links"])
-        self.assertAlmostEqual(row["fusion_score"], 0.3 / (60 + 1), places=12)
+        # UPDATED for the graph-fusion fix: links no longer carry a weighted score (old: 0.3/(60+1));
+        # the linked document is appended after the 4 vector documents, so fusion_score = 1/(60+5)
+        self.assertAlmostEqual(row["fusion_score"], 1 / (60 + 5), places=12)
+        self.assertEqual(self.ids(with_links)[-1], "INC_C13_INC_2026_0184")
 
     def test_neighbour_of_a_rank4_or_lower_seed_does_not_enter(self):
         vector = vector_list(F1, F2, F3, "RCA_INC_2026_0184", F4)
@@ -115,14 +118,19 @@ class TestLinkCandidates(unittest.TestCase):
         vector = vector_list("RCA_INC_2026_0184", F1, F2, F3)
         graph = [make("KB_C13_selfcare_login_issues", 9.0, "graph"), make("SOP_C13_APP_ACCESS_ISSUES", 8.0, "graph")]
         links = self.links(vector)
+        # UPDATED for the graph-fusion fix: fusion_score is positional (1/(k+position)), and the link block is
+        # inserted between the vector and graph blocks, so graph-only documents shift position when links are added.
+        # The surviving intent: the pre-existing documents keep their relative order and their sources exactly.
         for weight in (0.0, 0.5):
-            base = {c["fusion_doc_key"]: c for c in fuse_candidates(vector, graph, weight)}
-            plus = {c["fusion_doc_key"]: c for c in
-                    fuse_candidates(vector, graph, weight, link_candidates=links, link_weight=0.3)}
-            for key, row in base.items():   # every document that existed before keeps its exact score and sources
-                self.assertEqual(plus[key]["fusion_score"], row["fusion_score"], key)
-                self.assertEqual(plus[key]["fusion_sources"], row["fusion_sources"], key)
-            self.assertEqual(set(plus) - set(base), {"INC_C13_INC_2026_0184"})
+            base = fuse_candidates(vector, graph, weight)
+            plus = fuse_candidates(vector, graph, weight, link_candidates=links, link_weight=0.3)
+            base_keys = [c["fusion_doc_key"] for c in base]
+            plus_keys = [c["fusion_doc_key"] for c in plus]
+            self.assertEqual([k for k in plus_keys if k in set(base_keys)], base_keys)
+            sources = {c["fusion_doc_key"]: c["fusion_sources"] for c in plus}
+            for c in base:
+                self.assertEqual(sources[c["fusion_doc_key"]], c["fusion_sources"], c["fusion_doc_key"])
+            self.assertEqual(set(plus_keys) - set(base_keys), {"INC_C13_INC_2026_0184"})
 
     def test_links_off_output_is_identical_to_the_current_behaviour(self):
         vector = vector_list("A", "B", "C", "D")
@@ -136,7 +144,9 @@ class TestLinkCandidates(unittest.TestCase):
                          fuse_and_select(vector, graph, "recharge plan", top_k=20, link_candidates=None))
         # the hand-checked worked example from the original fusion tests, unchanged
         scores = {c["fusion_doc_key"]: c["fusion_score"] for c in fuse_candidates(vector[:3], graph, 0.5)}
-        self.assertAlmostEqual(scores["A"], 1 / 61 + 0.5 / 63, places=15)
+        # UPDATED for the graph-fusion fix: A no longer collects a graph bonus (old: 1/61 + 0.5/63); it keeps
+        # vector position 1, so fusion_score = 1/61
+        self.assertAlmostEqual(scores["A"], 1 / 61, places=15)
 
 
 class TestPipelineSwitch(unittest.TestCase):

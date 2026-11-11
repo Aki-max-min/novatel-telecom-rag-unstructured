@@ -45,27 +45,18 @@ class TestFusion(unittest.TestCase):
         self.assertTrue(all(c["fusion_sources"] == ["vector"] for c in out))
 
     def test_weight_half_breakdown(self):
+        # UPDATED for the graph-fusion fix (append-only): the old hand arithmetic (doc score = 1/(k+rank) +
+        # weight/(k+graph_rank)) let graph membership move doc_C above doc_B; the graph is now a candidate source,
+        # never a ranker, so the vector order A, B, C is kept and the graph-only doc_D is appended.
         k, w = RRF_K, 0.5
-        expected = {
-            "doc_A": (1 / (k + 1), w / (k + 3)),
-            "doc_B": (1 / (k + 2), 0.0),
-            "doc_C": (1 / (k + 3), w / (k + 1)),
-            "doc_D": (0.0, w / (k + 2)),
-        }
-        print(f"\nTest 2 (weight=0.5, k={k}):")
-        print(f"  doc_A: vector_contribution=1/({k}+1)={expected['doc_A'][0]!r}, graph_contribution=0.5/({k}+3)={expected['doc_A'][1]!r}, total={sum(expected['doc_A'])!r}")
-        print(f"  doc_B: vector_contribution=1/({k}+2)={expected['doc_B'][0]!r}, graph_contribution=0 (not in graph list), total={sum(expected['doc_B'])!r}")
-        print(f"  doc_C: vector_contribution=1/({k}+3)={expected['doc_C'][0]!r}, graph_contribution=0.5/({k}+1)={expected['doc_C'][1]!r}, total={sum(expected['doc_C'])!r}")
-        print(f"  doc_D: vector_contribution=0 (not in vector list), graph_contribution=0.5/({k}+2)={expected['doc_D'][1]!r}, total={sum(expected['doc_D'])!r}")
-
         out = fuse_candidates(vector_list(), graph_list(), w)
-        print("  final order:")
+        print(f"\nTest 2 (weight=0.5 as an on/off switch, k={k}):")
         for c in out:
             print(f"    {c['record_id']}: fusion_score={c['fusion_score']!r} sources={c['fusion_sources']}")
-
-        self.assertEqual([c["record_id"] for c in out], ["doc_A", "doc_C", "doc_B", "doc_D"])
-        for c in out:
-            self.assertAlmostEqual(c["fusion_score"], sum(expected[c["record_id"]]), places=15)
+        self.assertEqual([c["record_id"] for c in out], ["doc_A", "doc_B", "doc_C", "doc_D"])
+        # hand-checkable positional scores: 1/(k+position)
+        for position, c in enumerate(out, start=1):
+            self.assertAlmostEqual(c["fusion_score"], 1 / (k + position), places=15)
         by_id = {c["record_id"]: c for c in out}
         self.assertEqual(by_id["doc_A"]["fusion_sources"], ["vector", "graph"])
         self.assertEqual(by_id["doc_D"]["fusion_sources"], ["graph"])
@@ -77,13 +68,15 @@ class TestFusion(unittest.TestCase):
         self.assertEqual((v, g), (v0, g0))
 
     def test_fuse_and_select_three_questions(self):
+        # UPDATED for the graph-fusion fix: the old expected orders [doc_A, doc_C, doc_B, doc_D] came from the bonus
+        # arithmetic (graph rank 1 lifted doc_C over doc_B). Append-only keeps the vector order and appends doc_D.
         cases = [
             ("recharge", "Has my last recharge of ₹299 gone through, and when does my plan expire?", 0.5,
-             ["doc_A", "doc_C", "doc_B", "doc_D"]),
+             ["doc_A", "doc_B", "doc_C", "doc_D"]),
             ("DND", "Can the company keep sending me promotional SMS after I've registered for DND?", 0.0,  # Phase 8a: was 0.15 (promo/promotional false hint)
              ["doc_A", "doc_B", "doc_C"]),
             ("KYC", "My KYC is showing pending — does that mean my number will get disconnected, and what do I do?", 0.5,
-             ["doc_A", "doc_C", "doc_B", "doc_D"]),
+             ["doc_A", "doc_B", "doc_C", "doc_D"]),
         ]
         from query_gate import explain_gate
         print("\nfuse_and_select (top_k=5):")
@@ -126,8 +119,9 @@ class TestDocumentLevelKeying(unittest.TestCase):
         out = fuse_candidates(vector, graph, 0.5)
         xs = [c for c in out if c["fusion_doc_key"] == "X"]
         self.assertEqual(len(xs), 1)
-        expected = 1 / (k + 1) + 0.5 / (k + 2)  # vector best rank 1 + graph rank 2; 2nd chunk adds nothing
-        print(f"\ntest (a): X fusion_score={xs[0]['fusion_score']!r} expected 1/61 + 0.5/62 = {expected!r}")
+        # UPDATED for the graph-fusion fix: graph membership no longer adds 0.5/(k+2); X keeps vector position 1
+        expected = 1 / (k + 1)
+        print(f"\ntest (a): X fusion_score={xs[0]['fusion_score']!r} expected 1/61 = {expected!r}")
         self.assertAlmostEqual(xs[0]["fusion_score"], expected, places=15)
         self.assertEqual(xs[0]["fusion_sources"], ["vector", "graph"])
         self.assertEqual(xs[0]["record_id"], "X_chunk_000")  # representative: best vector chunk

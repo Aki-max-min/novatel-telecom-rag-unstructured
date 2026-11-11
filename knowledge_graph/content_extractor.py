@@ -469,6 +469,57 @@ def extract_document_concepts(document: Dict[str, Any]) -> List[Dict[str, Any]]:
     return [found[key] for key in sorted(found)]
 
 
+# ---------------------------------------------------------------------------
+# Concept-name mentions in the document BODY (KG fixes 2, step 2)
+# ---------------------------------------------------------------------------
+# Rule family = the exact name of one of the 23 shared concepts (concept_bridge vocabulary) used as a trigger phrase on the body of a
+# document. The body excludes the template echoes of the category name: the metadata header lines and the trailing "Topic:" footer.
+# A hit becomes a MENTIONS_CONCEPT edge Document -> existing Concept node. The bridges of graph_expand (Service, Channel,
+# VerificationMethod, Tag) do not read this edge type, so it cannot change retrieval. The tuple is filled one family per commit after the
+# per-family acceptance check (docs/E13_kg_fixes2.md); empty means the extractor behaves exactly as before.
+CONCEPT_NAME_FAMILIES: Tuple[str, ...] = ()
+
+_HEADER_KEYS = ("Document ID", "Category", "Department", "Customer Scope", "Last Updated", "Version", "Source Authority")
+_HEADER_LINE = re.compile(r"^\*\*(?:" + "|".join(re.escape(k) for k in _HEADER_KEYS) + r"):\*\*.*$", re.MULTILINE)
+_TOPIC_FOOTER = re.compile(r"\n+Topic:[^\n]*\s*$")
+
+
+def body_text(document: Dict[str, Any]) -> str:
+    """Title + content without the metadata header lines and the trailing ``Topic:`` footer (both echo the category name)."""
+    content = _TOPIC_FOOTER.sub("\n", _HEADER_LINE.sub("", document.get("content") or ""))
+    return (document.get("title") or "") + "\n" + content
+
+
+def _vocabulary_names() -> frozenset:
+    from knowledge_graph.concept_bridge import concept_vocabulary, load_crosswalk  # lazy: concept_bridge imports graph_builder
+
+    return frozenset(concept_vocabulary(load_crosswalk()))
+
+
+def extract_concept_mentions(document: Dict[str, Any], families: Iterable[str] | None = None) -> List[Dict[str, Any]]:
+    """One record per active concept-name family found in the body of ``document`` (first match carries the evidence)."""
+    families = tuple(CONCEPT_NAME_FAMILIES if families is None else families)
+    if not families:
+        return []
+    unknown = set(families) - _vocabulary_names()
+    if unknown:
+        raise ValueError(f"not shared-vocabulary concepts: {sorted(unknown)}")
+    text = body_text(document)
+    records = []
+    for name in sorted(families):
+        matches = list(_compile(name).finditer(text))
+        if not matches:
+            continue
+        first = matches[0]
+        records.append({
+            "concept": name, "concept_type": "Concept", "document_id": document["document_id"],
+            "matched_terms": [name.lower()], "fields": ["body"], "match_count": len(matches),
+            "evidence": _snippet(text, first.start(), first.end()), "evidence_field": "body",
+            "evidence_span": first.group(0), "evidence_offset": first.start(),
+        })
+    return records
+
+
 def _concept_node(concept_type: str, name: str) -> Dict[str, Any]:
     return {
         "id": node_id(concept_type, name),
@@ -486,6 +537,7 @@ def _concept_node(concept_type: str, name: str) -> Dict[str, Any]:
 
 def extract_content(
     documents: Iterable[Dict[str, Any]] | None = None,
+    families: Iterable[str] | None = None,
 ) -> Dict[str, Any]:
     """Run both passes over the corpus.
 
@@ -595,9 +647,35 @@ def extract_content(
 
     documents_with_content_edge = sum(1 for value in per_document.values() if value)
 
+    # --- concept-name mentions (MENTIONS_CONCEPT, body only) -----------------
+    concept_mentions: List[Dict[str, Any]] = []
+    for document in documents:
+        concept_mentions.extend(extract_concept_mentions(document, families))
+    concept_mention_edges = [
+        {
+            "source": node_id("Document", record["document_id"]),
+            "target": node_id("Concept", record["concept"]),
+            "type": "MENTIONS_CONCEPT",
+            "source_field": "body",
+            "properties": {
+                "confidence": "pattern_match",
+                "rule": "concept_name_in_body",
+                "matched_terms": ", ".join(record["matched_terms"]),
+                "match_count": record["match_count"],
+                "evidence": record["evidence"],
+                "evidence_span": record["evidence_span"],
+                "evidence_field": record["evidence_field"],
+            },
+        }
+        for record in concept_mentions
+    ]
+    covered = {key for key, value in per_document.items() if value} | {r["document_id"] for r in concept_mentions}
+
     stats = {
         "documents_read": len(documents),
         "documents_with_at_least_one_content_edge": documents_with_content_edge,
+        "documents_with_any_content_concept": len(covered),
+        "concept_mention_edges": len(concept_mention_edges),
         "concepts_declared": len(declared),
         "concepts_with_evidence": len(nodes),
         "concepts_without_evidence": without_evidence,
@@ -613,6 +691,8 @@ def extract_content(
         "edges": edges,
         "mentions": mentions,
         "per_document": per_document,
+        "concept_mentions": concept_mentions,
+        "concept_mention_edges": concept_mention_edges,
         "stats": stats,
     }
 
@@ -632,6 +712,7 @@ def save_content(result: Dict[str, Any], output_dir: Path = OUTPUT_DIR) -> Path:
         "nodes": result["nodes"],
         "edges": result["edges"],
         "mentions": result["mentions"],
+        "concept_mention_edges": result.get("concept_mention_edges", []),
     }
     with path.open("w", encoding="utf-8") as handle:
         json.dump(payload, handle, indent=2, ensure_ascii=False)

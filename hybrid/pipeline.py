@@ -24,6 +24,10 @@ GRAPH_ENABLED = True
 GRAPH_DISABLED_TRACE = "graph disabled by config"
 
 LINKS_ENABLED = True
+# ONE link mechanism (KG fixes step 2): the neighbours of the top-5 seeds are no longer ALSO placed first in the graph list;
+# linked documents enter only through the separate link list (top-3 seeds, cap 2). Measured on the 52 dev questions with no change
+# at R@1/R@3/R@5 (docs/E13_kg_fixes.md), so the duplicate path is removed.
+USE_RELATED_LINKS = False
 LINK_WEIGHT = 0.15   # on/off switch only since the fix (> 0 includes the link list); the value no longer ranks anything
 
 
@@ -91,7 +95,8 @@ def run_hybrid_query(question: str, customer_id=None, as_of=None, max_pool: int 
         graph_index, graph_reason = (retrievers.get_graph_index_safe() if (use_graph or use_links) else (None, None))
         graph_ok = graph_index is not None
         try:
-            vector, graph, _ = build_candidates(question, graph_index=graph_index, graph_enabled=(use_graph and graph_ok))
+            vector, graph, _ = build_candidates(question, graph_index=graph_index, graph_enabled=(use_graph and graph_ok),
+                                                use_related_links=USE_RELATED_LINKS)
         except (OSError, RuntimeError, ImportError, ValueError, KeyError) as exc:
             # models / FAISS index / chunk files missing or unreadable: the unstructured side returns nothing
             vector, graph = None, []

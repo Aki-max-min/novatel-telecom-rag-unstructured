@@ -180,7 +180,7 @@ class TestRelatedNeighbours(unittest.TestCase):
 
 
 class TestExcludeCategoryTags(unittest.TestCase):
-    """KG fixes step 4: tags that are category codes (^c\d\d$) re-introduce category expansion through the Tag bridge
+    """KG fixes step 4: tags that are category codes (c01..c29) re-introduce category expansion through the Tag bridge
     (104/148 documents carry a cNN tag equal to their own category). The option removes them from the bridge; default unchanged."""
 
     @staticmethod

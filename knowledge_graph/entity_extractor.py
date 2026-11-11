@@ -73,13 +73,28 @@ def load_category_catalog(schema_path: Path = ONTOLOGY_SCHEMA) -> Dict[str, Dict
 RELATED_ALIASES_PATH = Path(__file__).resolve().parent / "related_id_aliases.json"
 
 
-def load_related_aliases(path: Path = RELATED_ALIASES_PATH) -> Dict[str, str]:
+def load_related_aliases(path: Path | None = None) -> Dict[str, str]:
     """{dangling related id: real document id}; {} if the alias file does not exist."""
-    path = Path(path)
+    path = Path(RELATED_ALIASES_PATH if path is None else path)
     if not path.exists():
         return {}
     with path.open(encoding="utf-8") as handle:
         return dict(json.load(handle).get("aliases", {}))
+
+
+def load_related_multi_aliases(path: Path | None = None) -> Dict[str, List[str]]:
+    """{dangling related id: [real document ids]} for placeholder ids that stand for several documents (KG fixes 2, step 3);
+    {} if the alias file does not exist or has none."""
+    path = Path(RELATED_ALIASES_PATH if path is None else path)
+    if not path.exists():
+        return {}
+    with path.open(encoding="utf-8") as handle:
+        return {k: list(v) for k, v in json.load(handle).get("multi_aliases", {}).items()}
+
+
+def _multi_resolves(related_id: str, multi_aliases: Dict[str, List[str]], canonical_ids) -> bool:
+    targets = multi_aliases.get(related_id) or []
+    return bool(targets) and all(t in canonical_ids for t in targets)
 
 
 def dataset_for(document_id: str) -> str:
@@ -156,6 +171,7 @@ def extract_entities(
     collector = NodeCollector()
     canonical_ids = {document["document_id"] for document in documents}
     aliases = load_related_aliases()
+    multi_aliases = load_related_multi_aliases()
 
     for document in documents:
         document_id = document["document_id"]
@@ -190,7 +206,8 @@ def extract_entities(
     unresolved_ids = set()
     for document in documents:
         for related_id in document.get("related_ids") or []:
-            if related_id and related_id not in canonical_ids and aliases.get(related_id) not in canonical_ids:
+            if (related_id and related_id not in canonical_ids and aliases.get(related_id) not in canonical_ids
+                    and not _multi_resolves(related_id, multi_aliases, canonical_ids)):
                 unresolved_ids.add(related_id)
                 collector.add("Document", related_id, stub_document_properties(related_id))
 

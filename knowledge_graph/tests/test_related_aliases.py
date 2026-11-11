@@ -84,7 +84,8 @@ class TestAliasFiles(unittest.TestCase):
         with bra.AUDIT_PATH.open(encoding="utf-8", newline="") as fh:
             reader = csv.DictReader(fh)
             rows = list(reader)
-            self.assertEqual(reader.fieldnames, ["source_doc", "original_target", "resolved_target", "rule", "status"])
+            # KG fixes 2 step 3: a sixth column `note` carries the ASSUMPTION flag of the FAQ-placeholder rule (empty for every other row)
+            self.assertEqual(reader.fieldnames, ["source_doc", "original_target", "resolved_target", "rule", "status", "note"])
         self.assertEqual(len(rows), 84)
 
     def test_two_fresh_alias_builds_are_byte_identical(self):

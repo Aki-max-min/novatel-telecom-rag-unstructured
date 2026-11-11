@@ -84,8 +84,7 @@ reproduce with `python hybrid/evaluate_fusion_fix.py`.
   questions (the buggy merge cost up to 15 points on Person A's 42), and it adds exactly one question at R@5
   (mini 9: 0.7778 -> 0.8889; pooled MRR +0.0038). Appended candidates can only help, since the vector order is
   untouched and the CrossEncoder decides what rises.
-- **Not shown:** any R@1/R@3 gain (0 wins there too - on these dev sets the appended candidates that the
-  CrossEncoder promoted mattered only once, at rank 4-5), generalisation to Person A's 42 questions (her single
+- **Not shown:** any R@1/R@3 gain (0 wins there too; the one extra hit at R@5 was not traced to a rank), generalisation to Person A's 42 questions (her single
   unbiased run remains the test), and the two incident misses: IL1 is the known reranker miss (CrossEncoder ranks
   the partner 9 of 9) and IL4's RCA partner sits at vector rank 4 while links seed from the top 3.
 - The earlier hardening verdict (FAIL at pooled net +1) and link-decoupling verdict (FAIL, 0 wins / 0 losses) were

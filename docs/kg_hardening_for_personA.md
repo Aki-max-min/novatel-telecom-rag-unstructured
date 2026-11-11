@@ -3,6 +3,8 @@
 Branch: `person-b/kg-hardening` (from `person-b/parser-tiers-msisdn`). Not merged to main, no tag. Only Person B's files changed
 (`knowledge_graph/`, `hybrid/`, `structured/`, `docs/`, README, `.gitignore`); Person A's source documents were not edited.
 
+> **CORRECTION (graph-fusion fix, `docs/E13_graph_fusion_fix.md`).** The FAIL verdicts below (hardening and link decoupling) were measured with the old merge, where graph membership added a score bonus that outranked relevance. Fusion is now append-only (graph/links are a candidate source; the CrossEncoder ranks) and `GRAPH_ENABLED` / `LINKS_ENABLED` are **True** after a pre-declared dev-set measurement (0 losses at R@1/R@3 versus graph off, +1 question at R@5 on mini 9). Treat the sections below as the history of the hardening work; their candidate-level findings (hub audit, alias file, FK follow) stand, their "graph OFF" conclusions do not. The same dev-set caveat applies: the 42 questions are still the unbiased test and must not be used for tuning.
+
 ## Verdict first
 
 The pre-declared evaluation (`docs/E13_kg_hardening_rule.md`, committed before any code) compared 22 `graph_expand` configurations on **dev sets only**

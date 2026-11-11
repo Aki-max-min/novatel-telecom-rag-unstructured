@@ -1,0 +1,33 @@
+2026-11-11T11:30:59Z scoring 252 records (0 already scored)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\.venv_colpali\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|##########| 202/202 [00:00<00:00, 4489.29it/s]
+2026-11-11T11:34:11Z HEARTBEAT [10/252] ok=10 failed=0 GF S06 run1 correctness=2 (judge calls 3, cache hits 27, of which seeded caches 27) ETA 78 min
+2026-11-11T11:38:22Z HEARTBEAT [20/252] ok=20 failed=0 GF Q25 run1 correctness=2 (judge calls 6, cache hits 54, of which seeded caches 54) ETA 86 min
+2026-11-11T11:46:54Z HEARTBEAT [30/252] ok=30 failed=0 GF MH01 run1 correctness=1 (judge calls 7, cache hits 84, of which seeded caches 84) ETA 118 min
+2026-11-11T11:56:10Z HEARTBEAT [40/252] ok=40 failed=0 GF MH_RB_B06 run1 correctness=1 (judge calls 14, cache hits 111, of which seeded caches 111) ETA 133 min
+2026-11-11T12:03:49Z HEARTBEAT [50/252] ok=50 failed=0 GF Q08 run2 correctness=1 (judge calls 16, cache hits 139, of which seeded caches 136) ETA 133 min
+2026-11-11T12:12:56Z HEARTBEAT [60/252] ok=60 failed=0 GF RW_023 run2 correctness=2 (judge calls 16, cache hits 169, of which seeded caches 166) ETA 134 min
+2026-11-11T12:17:03Z HEARTBEAT [70/252] ok=70 failed=0 GF S13 run2 correctness=2 (judge calls 19, cache hits 196, of which seeded caches 192) ETA 120 min
+2026-11-11T12:19:23Z HEARTBEAT [80/252] ok=80 failed=0 GF MH_RB_B04 run2 correctness=2 (judge calls 19, cache hits 231, of which seeded caches 223) ETA 104 min
+2026-11-11T12:25:42Z HEARTBEAT [90/252] ok=90 failed=0 GF RW_004 run3 correctness=2 (judge calls 22, cache hits 258, of which seeded caches 248) ETA 98 min
+2026-11-11T12:32:32Z HEARTBEAT [100/252] ok=100 failed=0 GF S09 run3 correctness=2 (judge calls 22, cache hits 288, of which seeded caches 275) ETA 94 min
+2026-11-11T12:34:10Z HEARTBEAT [110/252] ok=110 failed=0 GF S10 run3 correctness=2 (judge calls 22, cache hits 318, of which seeded caches 301) ETA 82 min
+2026-11-11T12:35:47Z HEARTBEAT [120/252] ok=120 failed=0 GF MH_RB_B02 run3 correctness=2 (judge calls 22, cache hits 353, of which seeded caches 332) ETA 71 min
+2026-11-11T12:37:47Z HEARTBEAT [130/252] ok=130 failed=0 GFL S03 run1 correctness=2 (judge calls 22, cache hits 383, of which seeded caches 357) ETA 63 min
+2026-11-11T12:39:37Z HEARTBEAT [140/252] ok=140 failed=0 GFL Q17 run1 correctness=2 (judge calls 22, cache hits 413, of which seeded caches 384) ETA 55 min
+2026-11-11T12:41:48Z HEARTBEAT [150/252] ok=150 failed=0 GFL S05 run1 correctness=2 (judge calls 23, cache hits 442, of which seeded caches 410) ETA 48 min
+2026-11-11T12:43:08Z HEARTBEAT [160/252] ok=160 failed=0 GFL MH05 run1 correctness=1 (judge calls 23, cache hits 477, of which seeded caches 441) ETA 41 min
+2026-11-11T12:45:01Z HEARTBEAT [170/252] ok=170 failed=0 GFL Q01 run2 correctness=2 (judge calls 23, cache hits 507, of which seeded caches 466) ETA 36 min
+2026-11-11T12:47:26Z HEARTBEAT [180/252] ok=180 failed=0 GFL RW_010 run2 correctness=1 (judge calls 23, cache hits 537, of which seeded caches 493) ETA 31 min
+2026-11-11T12:49:21Z HEARTBEAT [190/252] ok=190 failed=0 GFL Q28 run2 correctness=2 (judge calls 23, cache hits 567, of which seeded caches 520) ETA 26 min
+2026-11-11T12:50:38Z HEARTBEAT [200/252] ok=200 failed=0 GFL MH03 run2 correctness=1 (judge calls 23, cache hits 600, of which seeded caches 548) ETA 21 min
+2026-11-11T12:52:34Z HEARTBEAT [210/252] ok=210 failed=0 GFL MH13 run2 correctness=2 (judge calls 23, cache hits 632, of which seeded caches 575) ETA 16 min
+2026-11-11T12:54:40Z HEARTBEAT [220/252] ok=220 failed=0 GFL S06 run3 correctness=2 (judge calls 23, cache hits 662, of which seeded caches 602) ETA 12 min
+2026-11-11T12:57:06Z HEARTBEAT [230/252] ok=230 failed=0 GFL Q25 run3 correctness=2 (judge calls 23, cache hits 692, of which seeded caches 629) ETA 8 min
+2026-11-11T12:58:05Z HEARTBEAT [240/252] ok=240 failed=0 GFL MH01 run3 correctness=1 (judge calls 23, cache hits 723, of which seeded caches 659) ETA 4 min
+2026-11-11T13:00:10Z HEARTBEAT [250/252] ok=250 failed=0 GFL MH_RB_B06 run3 correctness=1 (judge calls 23, cache hits 757, of which seeded caches 686) ETA 1 min
+2026-11-11T13:00:19Z HEARTBEAT [252/252] ok=252 failed=0 GFL MH13 run3 correctness=2 (judge calls 23, cache hits 763, of which seeded caches 690) ETA 0 min
+2026-11-11T13:00:19Z scoring done: ok=252 failed=0; judge calls 23, cache hits 763 (seeded caches 690)
+exit 0

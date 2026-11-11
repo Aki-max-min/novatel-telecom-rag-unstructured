@@ -1,0 +1,23 @@
+{"key": "f840e7e15bf3995ea97e7c388d6223ff04dd1829", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it provides a method to check for outages, but does not mention verifying the issue with the standard steps.\"}"}
+{"key": "5e954d9197a1beb24b3e3e9ce03796917150ace2", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention Service Status in the app or the map showing tower coverage.\"}"}
+{"key": "c3df4aea5cd5d66f474a3b26e833a4ecbab67500", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "9975b62dbf91712b9566aad5a9a4e1a5f4ba229b", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the troubleshooting steps.\"}"}
+{"key": "9d6d7d3fbbf54644664a1871086487a49f8a5acd", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "3c2519b373aa2634d90fa4c0265bce3e21a4f155", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "61bbf1a377e5912d0a94cf6047afd0b6df9fb1aa", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "c4953c8f6737efb6cb42398ec28a0f552daf9249", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence.\"}"}
+{"key": "f48f90f8bb30fb759c1a985550b6a92002cba7c6", "raw": "{\"present\": 1, \"reason\": \"The fact is explicitly stated in the answer.\"}"}
+{"key": "f591a67800f4d1322761214ab2e39dbb2e048b0c", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "6fa349d17cb53f378c7cadcf21297bbf04207321", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "35c48f7a4b07c225e51097dcd5bf69befe9aabf0", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence and fully addresses the question.\"}"}
+{"key": "8d65c5a12746f38d377b7bb8fd3a02ce5b421866", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "b668384dbc4b742f9167cb37977779cf2f949fc3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "aa69f954643f30f93c62fb758baa04939a43002a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "09d52684799e75d321757220356569a93d9fac26", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "0115d7d118ca4b801a38b3fae052b2cb1be588ef", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the troubleshooting steps.\"}"}
+{"key": "86b652c5c4882bce8aacfaedac8bf2d4d5d6c4eb", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "9f9824113821c3a68546a978037ee334672f17e1", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "267a49dfa36da5c75ff51fdd6d87931e1d0f2287", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence and fully addresses the question.\"}"}
+{"key": "c9760c87252d8e30056ac96777fffdee9a293be6", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "7b7cc0ca9405c8510ca94d15b8559ce9ed33dd3d", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "e7f913883961c16bcc085228e1f6d2dded3bbeb1", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}

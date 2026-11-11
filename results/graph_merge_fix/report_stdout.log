@@ -1,0 +1,118 @@
+# graph_merge_fix: comparison table (all arms, every metric)
+
+All 42 questions, 3 runs per arm; percentages are the mean over runs (min-max range in brackets when the runs differ). Reused arms (B2, C_*) come from results/kg_hardening_eval/ and were produced on identical retrieval/generation code (see run_manifest.json -> reused_arms_verification). 'n/a' = the metric cannot exist for that arm (A has no retrieval).
+
+## Correctness
+
+| metric | B2 | GF | GFL |
+|---|---|---|---|
+| correctness, partial credit (all 42) | 84.1% (83.3-84.5) | 83.3% | 83.3% |
+| correctness, strict (fully correct in a majority of runs) | 73.8% | 71.4% | 71.4% |
+| correctness, lenient (score >= 1 in a majority of runs) | 95.2% | 95.2% | 95.2% |
+| correctness, original 22 (E14a core), partial credit | 92.4% (90.9-93.2) | 92.4% (90.9-93.2) | 93.2% |
+| correctness, db (15) | 90.0% | 90.0% | 90.0% |
+| correctness, syn (8) | 91.7% (87.5-93.8) | 91.7% (87.5-93.8) | 93.8% |
+| correctness, trai (6) | 83.3% | 83.3% | 83.3% |
+| correctness, cross (6) | 75.0% | 69.5% (66.7-75.0) | 66.7% |
+| correctness, multi (7) | 71.4% | 71.4% | 71.4% |
+
+## Judge metrics
+
+| metric | B2 | GF | GFL |
+|---|---|---|---|
+| relevance | 96.8% (96.4-97.6) | 96.8% (96.4-97.6) | 96.4% |
+| groundedness | 95.6% (94.0-96.4) | 95.6% (94.0-96.4) | 96.4% |
+| hallucination vs reference evidence | 36.5% (35.7-38.1) | 36.5% (35.7-38.1) | 35.7% |
+| hallucination vs retrieved context | 4.0% (2.4-7.1) | 4.0% (2.4-7.1) | 2.4% |
+| citation coverage | 57.9% | 60.1% | 59.3% |
+| citation correctness | 73.6% | 73.1% | 74.1% |
+| unsupported-claim rate | 47.3% | 45.0% | 45.6% |
+
+## Retrieval (25 document questions, run 1) and database-row coverage
+
+| metric | B2 | GF | GFL |
+|---|---|---|---|
+| R@1 | 0.760 | 0.760 | 0.760 |
+| R@3 | 0.920 | 0.960 | 0.960 |
+| R@5 | 0.960 | 1.000 | 1.000 |
+| R@10 | 1.000 | 1.000 | 1.000 |
+| MRR@10 | 0.837 | 0.843 | 0.843 |
+| retrieval identical across runs | True | True | True |
+| database-row coverage | 93.8% | 93.8% | 93.8% |
+
+## Latency, prompt size, abstentions, routing, variability
+
+| metric | B2 | GF | GFL |
+|---|---|---|---|
+| latency median | 3.6 s | 7.0 s | 4.6 s |
+| latency p95 | 7.3 s | 15.5 s | 8.3 s |
+| latency records excluded (gap/slow) | 0 | 0 | 0 |
+| prompt tokens median | 1,526 | 1,533 | 1,533 |
+| abstentions (records) | 0 | 0 | 0 |
+| routes (final) | no router | no router | no router |
+| router errors | 0 | 0 | 0 |
+| questions with identical correctness in all runs | 41/42 | 40/42 | 42/42 |
+| questions with identical answer text in all runs | 23/42 | 23/42 | 42/42 |
+| correctness per run (partial) | [83.3, 84.5, 84.5] | [83.3, 83.3, 83.3] | [83.3, 83.3, 83.3] |
+
+## Error causes (answers with correctness < 2; v3 rule; reference B2 of the same run for router / layer arms; A not classified)
+
+| cause | B2 | GF | GFL |
+|---|---|---|---|
+| retrieval | 6 | 6 | 6 |
+| context | 3 | 3 | 3 |
+| competing | 0 | 3 | 3 |
+| ranking | 0 | 0 | 0 |
+| model | 13 | 12 | 12 |
+| router | 0 | 0 | 0 |
+| graph | 0 | 0 | 0 |
+| scoring | 12 | 12 | 12 |
+| total | 34 | 36 | 36 |
+
+## What the graph added (run 1; reference B2; see graph_diagnostics.md)
+
+| item | GF | GFL |
+|---|---|---|
+| questions with chunks added | 21 | 21 |
+| chunks added (total) | 77 | 77 |
+| documents added (total) | 71 | 71 |
+| added chunks that reached the prompt | 12 | 13 |
+| added via RELATED_TO link | 0 | 1 |
+| added via bridge concept, hub-only | 33 | 32 |
+| added via bridge concept, has a specific concept | 44 | 44 |
+| added chunks that are gold | 7 of 77 | 7 of 77 |
+| gold at rank 1 (B2 / this arm), 25 doc questions | 19 / 19 | 19 / 19 |
+| gold rank vs B2 (better / same / worse / lost) | 1 / 24 / 0 / 0 | 1 / 24 / 0 / 0 |
+| gold rank worse or lost on | none | none |
+| questions where graph chunks displaced the gold from the top 10 | 0 [] | 0 [] |
+| RELATED_TO documents appended by the layer (run 1) | 0 | 41 |
+
+# graph_merge_fix: paired comparisons
+
+Question level, 42 pairs; wins = first arm better on that question; exact two-sided McNemar on the discordant pairs; paired bootstrap 95% CI (10,000 question resamples, seed 20261031) in points of the per-question value. strict: fully correct in a majority of runs; partial: per-question mean score / 2; lenient: score >= 1 in a majority of runs. Fewer than 10 discordant pairs = low power: the p value cannot reach 0.05 for small w/l splits.
+
+## Rule: strict
+
+| comparison | wins | losses | ties | McNemar p | 95% CI (pts) | mean diff (pts) | discordant < 10 | wins on | losses on |
+|---|---|---|---|---|---|---|---|---|---|
+| GF vs B2 | 0 | 1 | 41 | 1.0000 | [-4.8, +0.0] | -1.6 | yes | [] | ['MH_RB_B05'] |
+| GFL vs B2 | 0 | 1 | 41 | 1.0000 | [-7.1, +2.4] | -1.6 | yes | [] | ['MH_RB_B05'] |
+| GFL vs GF | 0 | 0 | 42 | 1.0000 | [-2.4, +2.4] | +0.0 | yes | [] | [] |
+
+## Rule: partial
+
+| comparison | wins | losses | ties | McNemar p | 95% CI (pts) | mean diff (pts) | discordant < 10 | wins on | losses on |
+|---|---|---|---|---|---|---|---|---|---|
+| GF vs B2 | 0 | 1 | 41 | 1.0000 | [-2.4, +0.0] | -0.8 | yes | [] | ['MH_RB_B05'] |
+| GFL vs B2 | 1 | 1 | 40 | 1.0000 | [-3.6, +1.2] | -0.8 | yes | ['Q20'] | ['MH_RB_B05'] |
+| GFL vs GF | 1 | 1 | 40 | 1.0000 | [-1.2, +1.2] | +0.0 | yes | ['Q20'] | ['MH_RB_B05'] |
+
+## Rule: lenient
+
+| comparison | wins | losses | ties | McNemar p | 95% CI (pts) | mean diff (pts) | discordant < 10 | wins on | losses on |
+|---|---|---|---|---|---|---|---|---|---|
+| GF vs B2 | 0 | 0 | 42 | 1.0000 | [+0.0, +0.0] | +0.0 | yes | [] | [] |
+| GFL vs B2 | 0 | 0 | 42 | 1.0000 | [+0.0, +0.0] | +0.0 | yes | [] | [] |
+| GFL vs GF | 0 | 0 | 42 | 1.0000 | [+0.0, +0.0] | +0.0 | yes | [] | [] |
+
+written: metrics.json, values.json, comparison_table.md, paired_comparisons.md, graph_diagnostics.md/.json, error_table.csv, per_question_scores.csv

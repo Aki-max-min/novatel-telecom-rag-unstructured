@@ -1,0 +1,27 @@
+2026-11-11T10:39:15Z runtime estimate: generation 82 min for 882 answers (A ~11 min, B ~14 min, R ~10 min, O ~9 min, G0 ~15 min, G1 ~12 min, G1L ~12 min); scoring ~163 min; total ~248 min
+2026-11-11T10:40:39Z health: model qwen2.5:7b-instruct digest 845dbda0ea48 probe 40.82s loaded=['qwen2.5:7b-instruct']; power: discharging (on battery) charge=75% sleep_after={'AC': 0, 'DC': 0}
+2026-11-11T10:40:54Z models loaded; warming up
+2026-11-11T10:41:10Z smoke A    S01   route=None gw=None added=0 links=None blocks=0 top3=[] 2.405s
+2026-11-11T10:41:18Z smoke A    Q04   route=None gw=None added=0 links=None blocks=0 top3=[] 7.702s
+2026-11-11T10:41:25Z smoke A    MH02  route=None gw=None added=0 links=None blocks=0 top3=[] 7.144s
+2026-11-11T10:41:27Z smoke B    S01   route=None gw=None added=0 links=None blocks=6 top3=['PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION', 'KB_C19_privacy_data_requests', 'KB_C20_refund_processing'] 2.145s
+2026-11-11T10:41:38Z smoke B    Q04   route=None gw=None added=0 links=None blocks=5 top3=['FAQ_C04_007', 'PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025', 'TARIFF_POSTPAID_2026H2'] 10.713s
+2026-11-11T10:41:43Z smoke B    MH02  route=None gw=None added=0 links=None blocks=6 top3=['RCA_INC_2026_0163', 'INC_C04_INC_2026_0163', 'FAQ_C20_039'] 5.036s
+2026-11-11T10:41:44Z smoke R    S01   route=structured gw=None added=0 links=None blocks=1 top3=[] 1.067s
+2026-11-11T10:41:53Z smoke R    Q04   route=hybrid gw=None added=0 links=None blocks=3 top3=['FAQ_C04_007', 'PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025', 'TARIFF_POSTPAID_2026H2'] 9.241s
+2026-11-11T10:41:56Z smoke R    MH02  route=hybrid gw=None added=0 links=None blocks=4 top3=['RCA_INC_2026_0163', 'INC_C04_INC_2026_0163', 'FAQ_C20_039'] 3.075s
+2026-11-11T10:41:57Z smoke O    S01   route=None gw=0.0 added=0 links=0 blocks=4 top3=['PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION', 'KB_C19_privacy_data_requests', 'KB_C20_refund_processing'] 0.983s
+2026-11-11T10:42:04Z smoke O    Q04   route=None gw=0.5 added=0 links=0 blocks=3 top3=['FAQ_C04_007', 'TARIFF_POSTPAID_2026H2', 'PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025'] 6.356s
+2026-11-11T10:42:06Z smoke O    MH02  route=None gw=0.15 added=0 links=0 blocks=4 top3=['RCA_INC_2026_0163', 'INC_C04_INC_2026_0163', 'FAQ_C20_039'] 2.754s
+2026-11-11T10:42:07Z smoke G0   S01   route=None gw=0.0 added=0 links=0 blocks=4 top3=['PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION', 'KB_C19_privacy_data_requests', 'KB_C20_refund_processing'] 0.667s
+2026-11-11T10:42:15Z smoke G0   Q04   route=None gw=0.5 added=8 links=0 blocks=3 top3=['KB_C04_bill_disputes', 'TRN_001', 'RCA_INC_2026_0163'] 7.872s
+2026-11-11T10:42:19Z smoke G0   MH02  route=None gw=0.15 added=7 links=0 blocks=4 top3=['RCA_INC_2026_0179', 'RCA_INC_2026_0184', 'RCA_INC_2026_0142'] 4.072s
+2026-11-11T10:42:21Z smoke G1   S01   route=None gw=0.0 added=0 links=0 blocks=4 top3=['PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION', 'KB_C19_privacy_data_requests', 'KB_C20_refund_processing'] 1.608s
+2026-11-11T10:42:29Z smoke G1   Q04   route=None gw=0.5 added=3 links=0 blocks=3 top3=['KB_C04_bill_disputes', 'FAQ_C04_008', 'FAQ_C27_053'] 7.979s
+2026-11-11T10:42:34Z smoke G1   MH02  route=None gw=0.15 added=5 links=0 blocks=4 top3=['Policy_C04_billing_disputes', 'RCA_INC_2026_0163', 'FAQ_C04_007'] 5.305s
+2026-11-11T10:42:35Z smoke G1L  S01   route=None gw=0.0 added=0 links=6 blocks=4 top3=['PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION', 'KB_C19_privacy_data_requests', 'KB_C20_refund_processing'] 1.567s
+2026-11-11T10:42:40Z smoke G1L  Q04   route=None gw=0.5 added=3 links=0 blocks=3 top3=['KB_C04_bill_disputes', 'FAQ_C04_008', 'FAQ_C27_053'] 4.496s
+2026-11-11T10:42:44Z smoke G1L  MH02  route=None gw=0.15 added=5 links=3 blocks=4 top3=['RCA_INC_2026_0163', 'INC_C04_INC_2026_0163', 'Policy_C04_billing_disputes'] 3.716s
+2026-11-11T10:43:25Z smoke verdict: {'arm_labels_match_configuration': True, 'A_has_no_retrieval': True, 'B_has_no_route_and_no_layer': True, 'R_has_a_route': True, 'non_router_arms_have_no_route': True, 'O_adds_no_graph_chunks': True, 'O_rewrites_a_query': True, 'G0_adds_chunks_somewhere': True, 'G1_differs_from_G0_on_42_questions': True, 'G1L_link_hop_adds_documents': True, 'O_changes_the_query_on_42_questions': True, 'proceed': True}
+2026-11-11T10:43:25Z retrieval diff summary (42 questions): {'questions': 42, 'gate_weight_positive': 23, 'O_query_differs_from_question': 23, 'O_docs_differ_from_plain': 18, 'G0_docs_differ_from_plain': 22, 'G1_docs_differ_from_G0': 22, 'G1_added_differ_from_G0': 22, 'G1L_docs_differ_from_G1': 14, 'G1L_added_differ_from_G1': 12, 'added_chunks_total': {'O': 0, 'G0': 141, 'G1': 94, 'G1L': 106}, 'related_neighbours_added_total': 51}
+2026-11-11T10:43:25Z smoke finished in 166s

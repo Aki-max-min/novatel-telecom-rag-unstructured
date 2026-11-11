@@ -1,0 +1,56 @@
+{
+  "generated_utc": "2026-11-11T10:39:15.088343+00:00",
+  "generation_per_arm": {
+    "A": {
+      "analog": "v3:A",
+      "latency_median_s": 4.53,
+      "n": 126,
+      "estimate_s": 656.0
+    },
+    "B": {
+      "analog": "v3:B",
+      "latency_median_s": 5.83,
+      "n": 126,
+      "estimate_s": 845.0
+    },
+    "R": {
+      "analog": "v3:router",
+      "latency_median_s": 4.0,
+      "n": 126,
+      "estimate_s": 580.0
+    },
+    "O": {
+      "analog": "v3:ontology",
+      "latency_median_s": 3.64,
+      "n": 126,
+      "estimate_s": 527.0
+    },
+    "G0": {
+      "analog": "v3:docgraph",
+      "latency_median_s": 6.01,
+      "n": 126,
+      "estimate_s": 871.0
+    },
+    "G1": {
+      "analog": "kg:C_V1",
+      "latency_median_s": 5.05,
+      "n": 126,
+      "estimate_s": 732.0
+    },
+    "G1L": {
+      "analog": "kg:C_V1_links",
+      "latency_median_s": 4.89,
+      "n": 126,
+      "estimate_s": 709.0
+    }
+  },
+  "generation_total_s": 4920.0,
+  "n_generations": 882,
+  "scoring": {
+    "basis": "KG-hardening scoring stage: 504 records in 5602 s (11.1 s/record, judge cache seeded; A/B/R/O/G0 prompts may hit the v3 cache more often)",
+    "rate_s_per_record": 11.1,
+    "estimate_s": 9804.0
+  },
+  "model_load_and_warmup_s": 180,
+  "total_estimate_min": 248.0
+}

@@ -79,3 +79,11 @@ The one fact-inclusion miss (RB_B06: the answer does not state `plan_charge`) wa
 - Stage 4 (candidates): the graph gains 7 `MENTIONS_CONCEPT` edges (Document -> Concept, body only) and 21 more resolved `RELATED_TO` edges (21 `KB_Cnn_*` -> `FAQ_Cnn_001` placeholder links resolved to the category's two FAQs, an ASSUMPTION; the undirected resolvable pairs stay 47). Neither is read by `graph_expand` as a bridge, and the 52 dev questions show 0 changed top-5 lists.
 - Query enrichment (`hybrid/enrich.py`, FAISS query only) exists behind `ENRICH_ENABLED=False`: on the dev sets it lost 6 questions at R@1 and 1 at R@3 against 1 gain at R@1 and 1 at R@5, so it stays off.
 - Extraction quality is still not validated: the human gold sheet (`docs/extraction_gold_sheet.csv`) is prepared and empty. 19 of 148 documents still have no content concept (vocabulary gap). Rules, results and the handoff for Person A: `docs/E13_kg_fixes2.md`; requests to her: `docs/requests_for_PersonA.md`.
+
+---
+
+## Addendum 2026-11-14 (KG fixes 3, branch `person-b/kg-fixes3`)
+
+- Stage 4 (candidates): the Gap 5 vocabulary overlay (`knowledge_graph/vocabulary_extension.json`, proposed and pending ontology-owner approval; the shared `ontology/` is untouched) adds 6 `Concept` nodes with `source="vocabulary_extension"` and raises `MENTIONS_CONCEPT` edges from 7 to 49. Documents with a content concept: 129 -> 144; 4 remain uncovered (FAQ_C11_021, FAQ_C11_022, FAQ_C23_045, INC_C04_INC_2026_0163). `graph.json` is 345 nodes / 1739 edges.
+- The edge type is not a bridge of `graph_expand`: on the 52 dev questions 0 top-5 lists changed, 0 losses, incident pairs 3/5 vs 3/5.
+- Extraction quality is still not validated (gold sheet unfilled); `Account Closure & Deactivation` visibly matches other senses of "deactivate". Rule, per-concept table and handoff: `docs/E13_kg_fixes3.md`.

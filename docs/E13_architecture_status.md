@@ -87,3 +87,10 @@ The one fact-inclusion miss (RB_B06: the answer does not state `plan_charge`) wa
 - Stage 4 (candidates): the Gap 5 vocabulary overlay (`knowledge_graph/vocabulary_extension.json`, proposed and pending ontology-owner approval; the shared `ontology/` is untouched) adds 6 `Concept` nodes with `source="vocabulary_extension"` and raises `MENTIONS_CONCEPT` edges from 7 to 49. Documents with a content concept: 129 -> 144; 4 remain uncovered (FAQ_C11_021, FAQ_C11_022, FAQ_C23_045, INC_C04_INC_2026_0163). `graph.json` is 345 nodes / 1739 edges.
 - The edge type is not a bridge of `graph_expand`: on the 52 dev questions 0 top-5 lists changed, 0 losses, incident pairs 3/5 vs 3/5.
 - Extraction quality is still not validated (gold sheet unfilled); `Account Closure & Deactivation` visibly matches other senses of "deactivate". Rule, per-concept table and handoff: `docs/E13_kg_fixes3.md`.
+
+---
+
+## Addendum 2026-11-14 (KG fixes 4, branch `person-b/kg-fixes4`)
+
+- Precision pass on the vocabulary overlay: the bare `deactivate`/`deactivated` (Account Closure & Deactivation) are replaced by three specific phrases, `Airplane Mode` is removed, and 7 wrong-sense matches out of 80 are gone (0 of 71 after; 1 unsure left unchanged). Connectivity Troubleshooting now links one document and is dropped by the rule, so `graph.json` has 5 overlay Concept nodes, 40 `MENTIONS_CONCEPT` edges, 344 nodes / 1730 edges.
+- Documents with a content concept: 129 before the overlay, 144 after KG fixes 3, 143 now (FAQ_C29_058 uncovered); 5 uncovered in all. Dev sets: top 5 identical for all 52 questions. Judgements are one reader's; extraction quality is still unvalidated (gold sheet unfilled). Details: `docs/E13_kg_fixes4.md`, table `docs/E13_kg_fixes4_judgements.csv`.

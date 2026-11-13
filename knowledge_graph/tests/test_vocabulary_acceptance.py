@@ -185,15 +185,17 @@ class TestRealCorpus(unittest.TestCase):
         cls.result = ev.evaluate(cls.docs, cls.raw, groups, covered, five)
         cls.baseline = len(covered)
 
-    def test_coverage_rises_from_129_to_144_and_four_documents_stay_uncovered(self):
+    def test_coverage_rises_from_129_to_143_and_five_documents_stay_uncovered(self):
+        # KG fixes 3 reached 144; the KG fixes 4 precision pass drops Connectivity Troubleshooting by rule (b), which uncovers FAQ_C29_058
         self.assertEqual(self.baseline, 129)
-        self.assertEqual(self.result["coverage_after"], 144)
-        self.assertEqual(self.result["uncovered"], ["FAQ_C11_021", "FAQ_C11_022", "FAQ_C23_045", "INC_C04_INC_2026_0163"])
+        self.assertEqual(self.result["coverage_after"], 143)
+        self.assertEqual(self.result["uncovered"], ["FAQ_C11_021", "FAQ_C11_022", "FAQ_C23_045", "FAQ_C29_058", "INC_C04_INC_2026_0163"])
 
     def test_recorded_decisions_equal_a_fresh_evaluation(self):
         self.assertEqual(self.raw["dropped"], self.result["dropped"])
         self.assertEqual(self.raw["dropped_phrases"], self.result["dropped_phrases"])
-        self.assertEqual(sorted(self.result["dropped"]), ["Billing & Invoices", "Enterprise & Business Services", "International Calling & ISD"])
+        self.assertEqual(sorted(self.result["dropped"]), ["Billing & Invoices", "Connectivity Troubleshooting", "Enterprise & Business Services",
+                                                          "International Calling & ISD"])
 
     def test_no_kept_concept_breaks_the_limits(self):
         for r in self.result["rows"]:

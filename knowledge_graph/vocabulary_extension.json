@@ -114,7 +114,10 @@
         "deactivate",
         "deactivated",
         "cooling-off",
-        "Reactivation"
+        "Reactivation",
+        "permanently deactivate",
+        "deactivated for non-payment",
+        "Deactivated Connection"
       ]
     },
     {
@@ -159,7 +162,36 @@
   "dropped": {
     "Billing & Invoices": "(a) growth 5 over its existing group (more than 2)",
     "Enterprise & Business Services": "(a) growth 3 over its existing group (more than 2)",
-    "International Calling & ISD": "(b) a NEW concept must link at least 2 documents (links 1)"
+    "International Calling & ISD": "(b) a NEW concept must link at least 2 documents (links 1)",
+    "Connectivity Troubleshooting": "(b) a NEW concept must link at least 2 documents (links 1)"
   },
-  "dropped_phrases": {}
+  "dropped_phrases": {},
+  "narrowed_phrases": {
+    "Account Closure & Deactivation": {
+      "deactivate": {
+        "reason": "Wrong sense (KG fixes 4 judgement): the bare phrase also matches deactivating a VAS (FAQ_C10_019 'deactivate any you did not authorise', SOP_C10_VAS_DISPUTE 'Deactivate the VAS immediately', TRN_001 'deactivate the service') and the old SIM in a replacement (SOP_C05_SIM_REPLACEMENT 'deactivate old SIM'); none of these is closing an account. Replaced by 'permanently deactivate' (FAQ_C21_041).",
+        "documents": [
+          "FAQ_C10_019",
+          "SOP_C05_SIM_REPLACEMENT",
+          "SOP_C10_VAS_DISPUTE",
+          "TRN_001"
+        ]
+      },
+      "deactivated": {
+        "reason": "Wrong sense (KG fixes 4 judgement): the bare phrase also matches a service deactivated after a refund (EML_001 'We have also deactivated the service') and the physical SIM replaced by an eSIM (MAN_ESIM_001 'The physical SIM is deactivated automatically'). Replaced by 'deactivated for non-payment' (FAQ_C21_042, SOP_C21_ACCOUNT_CLOSURE) and 'Deactivated Connection' (KB_C21_account_closure).",
+        "documents": [
+          "EML_001",
+          "MAN_ESIM_001"
+        ]
+      }
+    },
+    "Connectivity Troubleshooting": {
+      "Airplane Mode": {
+        "reason": "Removed as requested: it matches the app-login SOP SOP_C13_APP_ACCESS_ISSUES ('confirm the device is not on Airplane Mode' as an OTP precondition), which is not connectivity troubleshooting. Its other match, FAQ_C29_057 ('toggle Airplane Mode', a correct-sense match), is lost with it: no narrower phrase separates the two, and a per-document exclusion was not applied because the request was to remove the phrase.",
+        "documents": [
+          "SOP_C13_APP_ACCESS_ISSUES"
+        ]
+      }
+    }
+  }
 }

@@ -31,6 +31,7 @@ class Overlay:
     triggers: Dict[str, List[str]] = field(default_factory=dict)     # active concept -> active phrases, proposal order
     new_concepts: List[str] = field(default_factory=list)            # active NEW concepts, proposal order
     excluded: Set[Tuple[str, str]] = field(default_factory=set)      # (document_id, concept)
+    narrowed: Dict[str, List[str]] = field(default_factory=dict)     # concept -> phrases narrowed for a documented wrong sense (KG fixes 4)
     generic_words: List[str] = field(default_factory=list)
 
 
@@ -53,6 +54,7 @@ def overlay_from_raw(raw: Dict[str, Any]) -> Overlay:
     generic = [w.lower() for w in raw.get("generic_template_words", [])]
     dropped = dict(raw.get("dropped", {}))
     dropped_phrases = dict(raw.get("dropped_phrases", {}))
+    narrowed_phrases = dict(raw.get("narrowed_phrases", {}))
 
     seen = set()
     triggers: Dict[str, List[str]] = {}
@@ -75,9 +77,14 @@ def overlay_from_raw(raw: Dict[str, Any]) -> Overlay:
                 raise ValueError(f"empty phrase for {name}")
             if phrase.lower() in generic:
                 raise ValueError(f"generic template word refused as a trigger phrase: {phrase!r} ({name})")
+        for phrase, info in narrowed_phrases.get(name, {}).items():
+            if phrase not in phrases:
+                raise ValueError(f"narrowed phrase {phrase!r} is not a trigger phrase of {name}")
+            if not (info or {}).get("reason"):
+                raise ValueError(f"narrowed phrase {phrase!r} ({name}) needs a documented reason")
         if name in dropped:
             continue
-        gone = set(dropped_phrases.get(name, {}))
+        gone = set(dropped_phrases.get(name, {})) | set(narrowed_phrases.get(name, {}))
         active = [p for p in phrases if p not in gone]
         if active:
             triggers[name] = active
@@ -90,5 +97,8 @@ def overlay_from_raw(raw: Dict[str, Any]) -> Overlay:
         if e["concept"] not in known:
             raise ValueError(f"exclusion names an unknown concept: {e['concept']}")
         excluded.add((e["document_id"], e["concept"]))
+    for name in narrowed_phrases:
+        if name not in seen:
+            raise ValueError(f"narrowed_phrases names an unknown overlay concept: {name}")
     return Overlay(raw=raw, status=raw.get("status", ""), triggers=triggers, new_concepts=new_concepts,
-                   excluded=excluded, generic_words=generic)
+                   excluded=excluded, generic_words=generic, narrowed={k: list(v) for k, v in narrowed_phrases.items()})

@@ -58,8 +58,8 @@ class TestJudgements(unittest.TestCase):
         listed = {(r["concept"], r["phrase"], r["doc_id"]) for r in self.rows if r["after"] == "yes"}
         self.assertEqual(listed, active_matches())
 
-    def test_before_state_is_the_89_matches_of_the_ten_kept_concepts(self):
-        self.assertEqual(sum(r["before"] == "yes" for r in self.rows), 89)
+    def test_before_state_is_the_80_matches_of_the_ten_kept_concepts(self):
+        self.assertEqual(sum(r["before"] == "yes" for r in self.rows), 80)
         self.assertEqual(len({r["concept"] for r in self.rows if r["before"] == "yes"}), 10)
 
     def test_wrong_sense_matches_before_and_after(self):
@@ -76,7 +76,7 @@ class TestJudgements(unittest.TestCase):
     def test_every_change_has_an_action(self):
         for r in self.rows:
             if r["before"] == "yes" and r["after"] == "no":
-                self.assertIn(r["action"], ("phrase narrowed", "phrase removed", "pair excluded"), r)
+                self.assertIn(r["action"], ("phrase narrowed", "phrase removed", "pair excluded", "concept dropped by rule (b)"), r)
             if r["before"] == "no" and r["after"] == "yes":
                 self.assertEqual(r["action"], "replacement phrase", r)
 

@@ -36,9 +36,9 @@ class TestConceptMetadata(unittest.TestCase):
         cls.concepts = cls.built["concepts"]
 
     def test_counts_23_concepts_and_33_expresses_edges(self):
-        # KG fixes 3: 23 shared concepts + 6 accepted NEW concepts of the vocabulary overlay (source="vocabulary_extension"); edges unchanged
+        # KG fixes 3: 23 shared concepts + 5 accepted NEW concepts (6 after KG fixes 3; Connectivity Troubleshooting dropped by rule in KG fixes 4) of the vocabulary overlay (source="vocabulary_extension"); edges unchanged
         shared = [n for n in self.concepts["nodes"] if n["properties"].get("source") != "vocabulary_extension"]
-        self.assertEqual((len(shared), len(self.concepts["nodes"])), (23, 23 + 6))
+        self.assertEqual((len(shared), len(self.concepts["nodes"])), (23, 23 + 5))
         self.assertEqual(len(self.concepts["edges"]), 33)
         self.assertEqual({e["type"] for e in self.concepts["edges"]}, {"EXPRESSES_CONCEPT"})
         via = [e["properties"]["via"] for e in self.concepts["edges"]]
@@ -93,14 +93,14 @@ class TestGraphBuildWithConcepts(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d:
             payload = self.build_to(d)
         labels = [n["label"] for n in payload["nodes"]]
-        self.assertEqual(labels.count("Concept"), 23 + 6)                               # + 6 overlay concepts (KG fixes 3)
+        self.assertEqual(labels.count("Concept"), 23 + 5)                               # + 6 overlay concepts (KG fixes 3)
         self.assertEqual(sum(1 for e in payload["edges"] if e["type"] == "EXPRESSES_CONCEPT"), 33)
         # KG fixes 2 step 2 added 7 MENTIONS_CONCEPT edges (Device Compatibility 2 + Network Coverage 5); the step-3 total of 1669 is unchanged
         mentions = sum(1 for e in payload["edges"] if e["type"] == "MENTIONS_CONCEPT")
-        self.assertEqual(mentions, 49)                                                  # was 7; 49 after the accepted overlay (KG fixes 3)
+        self.assertEqual(mentions, 40)                                                  # was 7; 49 after the KG fixes 3 overlay; 40 after the KG fixes 4 precision pass
         # KG fixes 2 step 3: the 21 FAQ placeholders stop being stub nodes (29 stubs -> 8, so 337 -> 316 base nodes) and add 21 RELATED_TO edges
         self.assertEqual(sum(1 for e in payload["edges"] if e["type"] == "RELATED_TO"), 84 + 21)
-        self.assertEqual((len(payload["nodes"]), len(payload["edges"]) - mentions), (337 - 21 + 23 + 6, 1636 + 21 + 33))
+        self.assertEqual((len(payload["nodes"]), len(payload["edges"]) - mentions), (337 - 21 + 23 + 5, 1636 + 21 + 33))
 
     def test_two_builds_are_byte_identical(self):
         with tempfile.TemporaryDirectory() as a, tempfile.TemporaryDirectory() as b:
@@ -155,7 +155,7 @@ class TestGraphIndexConceptAccessors(unittest.TestCase):
         cls.tmp.cleanup()
 
     def test_concepts_list(self):
-        self.assertEqual(len(self.index.concepts()), 23 + 6)                            # + 6 overlay concepts (KG fixes 3)
+        self.assertEqual(len(self.index.concepts()), 23 + 5)                            # + 6 overlay concepts (KG fixes 3)
         self.assertIn("Billing & Invoices", self.index.concepts())
 
     def test_concept_to_categories_documents_and_tables(self):

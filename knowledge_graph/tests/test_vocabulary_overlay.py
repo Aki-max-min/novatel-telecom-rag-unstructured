@@ -60,7 +60,11 @@ class TestOverlayFile(unittest.TestCase):
 
     def test_content_is_the_proposal(self):
         got = {c["concept"]: (c["status"], c["trigger_phrases"]) for c in self.overlay.raw["concepts"]}
-        self.assertEqual(got, PROPOSAL)
+        # KG fixes 4 appended three specific phrases to Account Closure & Deactivation (replacing the bare deactivate/deactivated, which are kept in the file as narrowed)
+        expected = dict(PROPOSAL)
+        status, phrases = expected["Account Closure & Deactivation"]
+        expected["Account Closure & Deactivation"] = (status, phrases + ["permanently deactivate", "deactivated for non-payment", "Deactivated Connection"])
+        self.assertEqual(got, expected)
         self.assertEqual([c["concept"] for c in self.overlay.raw["concepts"]], list(PROPOSAL))     # proposal order
         self.assertEqual(sum(s == "EXTEND existing" for s, _ in PROPOSAL.values()), 6)
         self.assertEqual(sum(s == "NEW" for s, _ in PROPOSAL.values()), 7)

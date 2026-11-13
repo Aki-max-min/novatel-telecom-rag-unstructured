@@ -10,7 +10,7 @@ no LLM, no embeddings. Dev sets only (main 29, mini 9, validation 14 = 52 questi
 ## What is built
 
 - `knowledge_graph/vocabulary_extension.json` - the proposal plus `"status": "proposed, pending ontology-owner approval"`, an explicit `exclusions` list and, after step 4, the
-  recorded `dropped` concepts and `dropped_phrases` (rules are never deleted: a dropped rule stays in the file with its reason). 8 `EXTEND existing` concepts' phrases are added to
+  recorded `dropped` concepts and `dropped_phrases` (rules are never deleted: a dropped rule stays in the file with its reason). 6 `EXTEND existing` concepts' phrases (7 are `NEW`) are added to
   that concept's mention triggers through the overlay (existing extraction rules are not edited); the `NEW` concepts exist only in the overlay and become `Concept` nodes in
   `graph.json` with property `source="vocabulary_extension"` (the shared crosswalk vocabulary stays at 23 concepts).
 - Matching: boundary-safe, case-insensitive (the extractor's own matcher), on the document BODY only: title + content without the metadata header lines, the `Topic:` footer and the

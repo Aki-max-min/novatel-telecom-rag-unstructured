@@ -1,0 +1,161 @@
+{
+  "status": "proposed, pending ontology-owner approval",
+  "proposal_status": "PROPOSAL - pending approval by the ontology owners (Person B and Person A); not applied to the shared ontology",
+  "match_rule": "boundary-safe, case-insensitive, on the document BODY only (metadata header, Related Information / References footers removed); never on generic template words such as 'outage', 'troubleshooting', 'bill'",
+  "generic_template_words": [
+    "outage",
+    "outages",
+    "troubleshooting",
+    "bill",
+    "bills",
+    "support",
+    "issue",
+    "issues",
+    "problem",
+    "error",
+    "request",
+    "account",
+    "plan",
+    "policy",
+    "service",
+    "data"
+  ],
+  "concepts": [
+    {
+      "concept": "Device Compatibility",
+      "status": "EXTEND existing",
+      "trigger_phrases": [
+        "VoLTE",
+        "HD Voice",
+        "IMEI"
+      ]
+    },
+    {
+      "concept": "Billing & Invoices",
+      "status": "EXTEND existing",
+      "trigger_phrases": [
+        "billed twice",
+        "duplicate charges",
+        "billing batch job",
+        "final bill"
+      ]
+    },
+    {
+      "concept": "Network Outages",
+      "status": "EXTEND existing",
+      "trigger_phrases": [
+        "cell cluster",
+        "backhaul"
+      ]
+    },
+    {
+      "concept": "Security & Fraud",
+      "status": "EXTEND existing",
+      "trigger_phrases": [
+        "phishing",
+        "anti-fraud"
+      ]
+    },
+    {
+      "concept": "SIM Card Services",
+      "status": "EXTEND existing",
+      "trigger_phrases": [
+        "not provisioned",
+        "re-provisioned"
+      ]
+    },
+    {
+      "concept": "Enterprise & Business Services",
+      "status": "EXTEND existing",
+      "trigger_phrases": [
+        "Enterprise Business Connectivity",
+        "MPLS",
+        "leased-line",
+        "Enterprise IoT"
+      ]
+    },
+    {
+      "concept": "IoT & M2M Services",
+      "status": "NEW",
+      "trigger_phrases": [
+        "IoT",
+        "M2M",
+        "NB-IoT",
+        "LTE-M"
+      ]
+    },
+    {
+      "concept": "Privacy & Data Protection",
+      "status": "NEW",
+      "trigger_phrases": [
+        "Privacy Policy",
+        "Privacy Settings",
+        "personal data",
+        "data-deletion"
+      ]
+    },
+    {
+      "concept": "International Calling & ISD",
+      "status": "NEW",
+      "trigger_phrases": [
+        "ISD",
+        "International Long Distance",
+        "international calls"
+      ]
+    },
+    {
+      "concept": "Account Closure & Deactivation",
+      "status": "NEW",
+      "trigger_phrases": [
+        "Account Closure",
+        "close my postpaid connection",
+        "Close Connection",
+        "closure request",
+        "deactivate",
+        "deactivated",
+        "cooling-off",
+        "Reactivation"
+      ]
+    },
+    {
+      "concept": "Fair Usage Policy (FUP)",
+      "status": "NEW",
+      "trigger_phrases": [
+        "FUP",
+        "Fair Usage Policy",
+        "high-speed data limit"
+      ]
+    },
+    {
+      "concept": "Connectivity Troubleshooting",
+      "status": "NEW",
+      "trigger_phrases": [
+        "Reset Network Settings",
+        "Airplane Mode"
+      ]
+    },
+    {
+      "concept": "Accessibility & Communication Preferences",
+      "status": "NEW",
+      "trigger_phrases": [
+        "Communication Preferences",
+        "Accessibility Services",
+        "large-print"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "document_id": "FAQ_C11_022",
+      "concept": "Network Coverage",
+      "reason": "Doubtful sense found in KG fixes 2: 'out of network coverage in my recipient's country' is a question about international calls, not about NovaTel network coverage."
+    },
+    {
+      "document_id": "FAQ_C09_017",
+      "concept": "Device Compatibility",
+      "reason": "Doubtful sense found in KG fixes 2: device compatibility is only one of several causes of slow data in this FAQ; the document is about data speed."
+    }
+  ],
+  "dropped": {},
+  "dropped_phrases": {}
+}

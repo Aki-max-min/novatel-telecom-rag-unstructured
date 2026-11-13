@@ -1,0 +1,56 @@
+concept,status,trigger_phrase,doc_id,evidence_snippet
+Device Compatibility,EXTEND existing,VoLTE,FAQ_C12_024,Why doesn't VoLTE/HD Voice work on my phone? Question: Wh
+Device Compatibility,EXTEND existing,VoLTE,MAN_DEVICE_VOLTE_001,Enabling VoLTE / HD Voice on Your Device # Enabling Vo
+Device Compatibility,EXTEND existing,HD Voice,FAQ_C12_024,Why doesn't VoLTE/HD Voice work on my phone? Question: Why doesn't
+Device Compatibility,EXTEND existing,HD Voice,MAN_DEVICE_VOLTE_001,Enabling VoLTE / HD Voice on Your Device # Enabling VoLTE / HD Vo
+Device Compatibility,EXTEND existing,IMEI,MAN_DEVICE_VOLTE_001,"pport via Help > Device Support > Check IMEI, and see FAQ_C12_002.  ## Prerequisites"
+Billing & Invoices,EXTEND existing,billed twice,INC_C04_INC_2026_0163,"caused ~12,000 postpaid customers to be billed twice for the June cycle.  ## Detection Metho"
+Billing & Invoices,EXTEND existing,duplicate charges,INC_C04_INC_2026_0163,ks; batch job halted within 40 minutes; duplicate charges auto-reversed within 48 hours; affected
+Billing & Invoices,EXTEND existing,billing batch job,INC_C04_INC_2026_0163,"- ## Summary  A scheduling error in the billing batch job caused ~12,000 postpaid customers to be"
+Billing & Invoices,EXTEND existing,final bill,EML_005,postpaid connection ending XXXX21. Your final bill will be generated within 5-7 working da
+Billing & Invoices,EXTEND existing,final bill,FAQ_C21_041,ll outstanding dues are cleared and any final bill is settled; the number enters a regulat
+Network Outages,EXTEND existing,cell cluster,INC_C08_INC_2026_0142,4G Cell Cluster Outage # Incident Report: 4G Cell Clust
+Network Outages,EXTEND existing,backhaul,INC_C08_INC_2026_0142,l Cluster Outage  --- ## Summary  Fibre backhaul cut near Andheri due to third-party roa
+Security & Fraud,EXTEND existing,phishing,INC_C18_INC_2026_0197,Phishing SMS Campaign Impersonating NovaTel # In
+Security & Fraud,EXTEND existing,anti-fraud,INC_C18_INC_2026_0197,ne  Flagged via customer fraud reports; anti-fraud short code alert broadcast within 4 hou
+SIM Card Services,EXTEND existing,not provisioned,FAQ_C29_057,My phone shows 'SIM not provisioned for voice' — how do I fix this? Questio
+SIM Card Services,EXTEND existing,re-provisioned,FAQ_C29_057, with your number so the account can be re-provisioned on the network.  ### Detailed Explanati
+Enterprise & Business Services,EXTEND existing,Enterprise Business Connectivity,FAQ_C23_045,What is included in an Enterprise Business Connectivity plan? Question: What is included in an
+Enterprise & Business Services,EXTEND existing,MPLS,FAQ_C23_045,LA-backed connectivity for leased lines/MPLS where applicable. See Policy_C23_enterp
+Enterprise & Business Services,EXTEND existing,leased-line,FAQ_C23_045,"nt, centralised billing, and SLA-backed leased-line/MPLS connectivity where applicable — wi"
+Enterprise & Business Services,EXTEND existing,Enterprise IoT,FAQ_C24_047," SIM management, and dedicated APNs for enterprise IoT deployments (fleet tracking, smart mete"
+Enterprise & Business Services,EXTEND existing,Enterprise IoT,FAQ_C24_048,oT SIMs?  Answer: ### Short Answer  The Enterprise IoT Management Portal provides a dashboard
+Enterprise & Business Services,EXTEND existing,Enterprise IoT,MAN_IOT_PORTAL_001,Enterprise IoT Management Portal — Quick Start # Enter
+IoT & M2M Services,NEW,IoT,FAQ_C24_047,ectivity options does NovaTel offer for IoT/M2M devices? Question: What connectivity op
+IoT & M2M Services,NEW,IoT,FAQ_C24_048,do we monitor usage across thousands of IoT SIMs? Question: How do we monitor usage
+IoT & M2M Services,NEW,IoT,MAN_IOT_PORTAL_001,Enterprise IoT Management Portal — Quick Start # Enter
+IoT & M2M Services,NEW,M2M,FAQ_C24_047,vity options does NovaTel offer for IoT/M2M devices? Question: What connectivity op
+IoT & M2M Services,NEW,M2M,MAN_IOT_PORTAL_001,rprise administrators managing bulk IoT/M2M SIM fleets.  ## Key Functions  - Bulk a
+IoT & M2M Services,NEW,NB-IoT,FAQ_C24_047,"nswer: ### Short Answer  NovaTel offers NB-IoT, LTE-M, and standard cellular M2M SIM p"
+IoT & M2M Services,NEW,LTE-M,FAQ_C24_047,"## Short Answer  NovaTel offers NB-IoT, LTE-M, and standard cellular M2M SIM profiles"
+Privacy & Data Protection,NEW,Privacy Policy,FAQ_C19_037,Short Answer  Data is processed per our Privacy Policy (see Policy_C19_privacy_policy) strictl
+Privacy & Data Protection,NEW,Privacy Settings,FAQ_C19_037,ew and manage consent preferences under Privacy Settings in the app.  ### Detailed Explanation
+Privacy & Data Protection,NEW,Privacy Settings,FAQ_C19_038,wer  Submit a data-deletion request via Privacy Settings > My Data > Request Deletion. Certain r
+Privacy & Data Protection,NEW,personal data,FAQ_C19_038,How do I request deletion of my personal data after closing my account? Question: How
+Privacy & Data Protection,NEW,data-deletion,FAQ_C19_038,nt?  Answer: ### Short Answer  Submit a data-deletion request via Privacy Settings > My Data > Request Deletion. Certain r
+International Calling & ISD,NEW,ISD,FAQ_C11_021,  Standard International Long Distance (ISD) rates apply per destination country un
+International Calling & ISD,NEW,International Long Distance,FAQ_C11_021,an?  Answer: ### Short Answer  Standard International Long Distance (ISD) rates apply per destination count
+International Calling & ISD,NEW,international calls,FAQ_C11_021,What are the rates for international calls and SMS from my plan? Question: What ar
+Account Closure & Deactivation,NEW,Account Closure,EML_005,Account Closure Confirmation # Sample Email: Account Cl
+Account Closure & Deactivation,NEW,Account Closure,FAQ_C19_038,"etention period (e.g., CDRs) even after account closure, per licence and law-enforcement requir"
+Account Closure & Deactivation,NEW,close my postpaid connection,FAQ_C21_041,How do I permanently deactivate/close my postpaid connection? Question: How do I permanently deactiv
+Account Closure & Deactivation,NEW,Close Connection,FAQ_C21_041,"e request via Help > Account Services > Close Connection, or visit a store. Ensure all outstandi"
+Account Closure & Deactivation,NEW,closure request,EML_005,-- **Subject:** Confirmation of Account Closure Request  **From:** NovaTel Customer Care Suppor
+Account Closure & Deactivation,NEW,closure request,FAQ_C21_041,on?  Answer: ### Short Answer  Submit a closure request via Help > Account Services > Close Con
+Account Closure & Deactivation,NEW,deactivate,FAQ_C21_041,How do I permanently deactivate/close my postpaid connection? Question:
+Account Closure & Deactivation,NEW,deactivated,FAQ_C21_042,Can I reactivate a number that was deactivated for non-payment? Question: Can I reacti
+Account Closure & Deactivation,NEW,cooling-off,FAQ_C21_041,settled; the number enters a regulatory cooling-off period before being recycled.  ### Deta
+Account Closure & Deactivation,NEW,Reactivation,FAQ_C21_042,non-payment?  Answer: ### Short Answer  Reactivation is possible within the operator's reten
+Fair Usage Policy (FUP),NEW,FUP,FAQ_C09_018,What does 'FUP applied' mean on my data usage? Questio
+Fair Usage Policy (FUP),NEW,Fair Usage Policy,FAQ_C09_018, data usage?  Answer: ### Short Answer  Fair Usage Policy (FUP) applies once you exceed the high-
+Fair Usage Policy (FUP),NEW,high-speed data limit,FAQ_C09_018,olicy (FUP) applies once you exceed the high-speed data limit included in your plan; speeds are then
+Connectivity Troubleshooting,NEW,Reset Network Settings,FAQ_C29_058, to Settings > General/System > Reset > Reset Network Settings. This clears saved Wi-Fi/APN/Bluetooth
+Connectivity Troubleshooting,NEW,Airplane Mode,FAQ_C29_057,"evice fault. Restart the device, toggle Airplane Mode, and if unresolved, contact care with y"
+Accessibility & Communication Preferences,NEW,Communication Preferences,FAQ_C04_008,"di/regional) can be set under Profile > Communication Preferences. For visually-impaired customers, NovaTel"
+Accessibility & Communication Preferences,NEW,Accessibility Services,FAQ_C04_008,"-print and audio bill formats — see the Accessibility Services section of the app."
+Accessibility & Communication Preferences,NEW,large-print,FAQ_C04_008,"ally-impaired customers, NovaTel offers large-print and audio bill formats — see the Access"

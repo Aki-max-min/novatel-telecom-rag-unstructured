@@ -40,7 +40,7 @@ def write(d, payload):
 
 
 def minimal(**over):
-    base = {"status": "proposed, pending ontology-owner approval", "generic_template_words": ["outage", "bill"],
+    base = {"status": "proposed, pending ontology-owner approval", "generic_template_words": ["outage", "bill", "troubleshooting"],
             "concepts": [{"concept": "Device Compatibility", "status": "EXTEND existing", "trigger_phrases": ["VoLTE"]},
                          {"concept": "Brand New Thing", "status": "NEW", "trigger_phrases": ["gizmo"]}],
             "exclusions": [], "dropped": {}, "dropped_phrases": {}}
@@ -72,10 +72,13 @@ class TestOverlayFile(unittest.TestCase):
             self.assertEqual(name in shared, status == "EXTEND existing", name)
 
     def test_the_shared_ontology_was_not_touched(self):
-        text = (REPO_ROOT / "ontology" / "ontology_schema.json").read_text(encoding="utf-8")
+        # some NEW names equal DOCUMENT CATEGORY names in the catalogue (that is fine); none may be a shared-concept name in the crosswalk
+        onto = json.loads((REPO_ROOT / "ontology" / "ontology_schema.json").read_text(encoding="utf-8"))
+        shared = {r["shared_domain_concept"] for r in onto["structured_document_crosswalk"]["rows"]}
+        self.assertEqual(len(shared), 23)
         for name, (status, _) in PROPOSAL.items():
             if status == "NEW":
-                self.assertNotIn(name, text)
+                self.assertNotIn(name, shared)
 
     def test_the_two_doubtful_edges_are_in_the_documented_exclusion_list(self):
         pairs = {(e["document_id"], e["concept"]) for e in self.overlay.raw["exclusions"]}

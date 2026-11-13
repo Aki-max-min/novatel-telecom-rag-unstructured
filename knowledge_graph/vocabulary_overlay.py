@@ -44,7 +44,11 @@ def load_overlay(path: Optional[Path] = None) -> Overlay:
     path = Path(OVERLAY_PATH if path is None else path)
     if not path.exists():
         return Overlay()
-    raw = json.loads(path.read_text(encoding="utf-8"))
+    return overlay_from_raw(json.loads(path.read_text(encoding="utf-8")))
+
+
+def overlay_from_raw(raw: Dict[str, Any]) -> Overlay:
+    """Validate and normalise an overlay payload (same checks for the file and for the acceptance run)."""
     shared = _shared_vocabulary()
     generic = [w.lower() for w in raw.get("generic_template_words", [])]
     dropped = dict(raw.get("dropped", {}))

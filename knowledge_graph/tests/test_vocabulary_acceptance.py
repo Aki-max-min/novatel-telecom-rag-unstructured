@@ -140,7 +140,7 @@ class TestAcceptance(unittest.TestCase):
         res = self.run_eval(docs, [DEV], baseline={"D05"})
         self.assertNotIn("D01", res["uncovered"])
         self.assertIn("D02", res["uncovered"])
-        self.assertEqual(res["coverage_after"], 1)
+        self.assertEqual(res["coverage_after"], 2)                                    # the baseline document D05 plus D01
 
     def test_unexpected_matches_are_reported_with_a_snippet(self):
         docs = corpus_with(D01="VoLTE fails", D02="VoLTE elsewhere")

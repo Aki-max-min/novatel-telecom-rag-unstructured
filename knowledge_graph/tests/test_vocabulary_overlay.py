@@ -147,5 +147,41 @@ class TestLoader(unittest.TestCase):
         self.assertEqual(len(ov.raw["concepts"]), 2)                     # nothing deleted
 
 
+class TestNarrowedPhrases(unittest.TestCase):
+    """KG fixes 4: a phrase narrowed for a documented wrong sense stays in the file (`narrowed_phrases`) but is no longer a trigger."""
+
+    CONCEPT = {"concept": "Device Compatibility", "status": "EXTEND existing", "trigger_phrases": ["VoLTE", "IMEI", "VoLTE profile"]}
+
+    def load(self, payload):
+        with tempfile.TemporaryDirectory() as d:
+            return vo.load_overlay(write(d, payload))
+
+    def test_narrowed_phrase_is_inactive_but_kept_in_the_file(self):
+        ov = self.load(minimal(concepts=[self.CONCEPT], narrowed_phrases={"Device Compatibility": {"IMEI": {"reason": "wrong sense", "documents": ["D1"]}}}))
+        self.assertEqual(ov.triggers, {"Device Compatibility": ["VoLTE", "VoLTE profile"]})
+        self.assertIn("IMEI", ov.raw["concepts"][0]["trigger_phrases"])
+        self.assertEqual(ov.narrowed, {"Device Compatibility": ["IMEI"]})
+
+    def test_a_narrowed_phrase_must_exist_in_the_concept_and_carry_a_reason(self):
+        with self.assertRaises(ValueError):
+            self.load(minimal(concepts=[self.CONCEPT], narrowed_phrases={"Device Compatibility": {"Nope": {"reason": "r", "documents": []}}}))
+        with self.assertRaises(ValueError):
+            self.load(minimal(concepts=[self.CONCEPT], narrowed_phrases={"Device Compatibility": {"IMEI": {"documents": []}}}))
+
+    def test_the_real_overlay_records_the_requested_narrowing(self):
+        ov = vo.load_overlay()
+        self.assertEqual(sorted(ov.narrowed["Account Closure & Deactivation"]), ["deactivate", "deactivated"])
+        self.assertEqual(ov.narrowed["Connectivity Troubleshooting"], ["Airplane Mode"])
+        active = ov.triggers["Account Closure & Deactivation"]
+        for phrase in ("permanently deactivate", "deactivated for non-payment", "Deactivated Connection"):
+            self.assertIn(phrase, active)
+        for phrase in ("deactivate", "deactivated"):
+            self.assertNotIn(phrase, active)
+        for entries in ov.raw["narrowed_phrases"].values():
+            for info in entries.values():
+                self.assertTrue(info["reason"])
+                self.assertTrue(info["documents"])
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

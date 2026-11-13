@@ -152,6 +152,19 @@ class TestAcceptance(unittest.TestCase):
         self.assertEqual(res2["missing"], [("Device Compatibility", "VoLTE", "D09")])
 
 
+class TestNarrowedPhrasesSurviveTheAcceptanceRun(unittest.TestCase):
+
+    def test_narrowed_phrases_are_not_matched_and_apply_keeps_them(self):
+        base = raw([{"concept": "Device Compatibility", "status": "EXTEND existing", "trigger_phrases": ["VoLTE", "IMEI"]}])
+        base["narrowed_phrases"] = {"Device Compatibility": {"IMEI": {"reason": "wrong sense", "documents": ["D02"]}}}
+        docs = corpus_with(D01="VoLTE here", D02="check IMEI")
+        res = ev.evaluate(docs, base, {}, set())
+        self.assertEqual(next(r for r in res["rows"] if r["concept"] == "Device Compatibility")["matched"], ["D01"])
+        applied = ev.apply_decisions(base, res)
+        self.assertEqual(applied["narrowed_phrases"], base["narrowed_phrases"])
+        self.assertNotIn("IMEI", applied["dropped_phrases"].get("Device Compatibility", {}))
+
+
 class TestRealCorpus(unittest.TestCase):
     """The accepted outcome of the real run (docs/E13_kg_fixes3.md) and the consistency of the decisions recorded in the overlay file."""
 

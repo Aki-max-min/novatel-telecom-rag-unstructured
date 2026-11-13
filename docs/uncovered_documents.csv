@@ -1,0 +1,719 @@
+doc_id,doc_type,category,title,content
+EML_005,EML,C21,Account Closure Confirmation,"# Sample Email: Account Closure Confirmation
+
+**Channel:** Email
+
+---
+**Subject:** Confirmation of Account Closure Request
+
+**From:** NovaTel Customer Care Support <support@novatel.example>
+
+**To:** Customer <registered-email-on-file>
+
+## Context
+
+This correspondence follows an earlier customer contact (call or app request) regarding the matter below, and reflects the outcome of the internal review.
+
+## Previous Actions
+
+- Customer request logged and assigned a reference number.
+- Case reviewed by the relevant internal team against the applicable policy/SOP.
+
+## Email Body
+
+**Subject: Confirmation of Account Closure Request**
+
+Dear Customer,
+
+This confirms we have received and processed your request to close postpaid connection ending XXXX21. Your final bill will be generated within 5-7 working days reflecting any pro-rated charges up to the closure date.
+
+We're sorry to see you go and hope to serve you again in the future.
+
+Regards,
+NovaTel Customer Care
+
+## Resolution / Recommendation
+
+The outcome above reflects the applicable policy and is considered final unless the customer provides new information within the stated window.
+
+## Follow-up Requirements
+
+The customer is invited to reply to this email or contact care with the reference number if further clarification is needed.
+
+## References
+
+No directly linked documents are recorded for this item; refer to the relevant department for further guidance."
+FAQ_C04_008,FAQ,C04,Can I get my bill in a different language or in large print?,"Question: Can I get my bill in a different language or in large print?
+
+Answer: ### Short Answer
+
+Yes. Bill language preference (English/Hindi/regional) can be set under Profile > Communication Preferences. For visually-impaired customers, NovaTel offers large-print and audio bill formats — see the Accessibility Services section of the app.
+
+### Detailed Explanation
+
+This covers two distinct needs: a language preference (English/Hindi/regional) for anyone, set the same way as any other communication preference, and accessibility formats (large-print, audio) specifically for visually-impaired customers, which live in a separate Accessibility Services area rather than the general preferences screen.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Language preference | Profile > Communication Preferences |
+| Accessibility formats | Large-print and audio bill formats, via Accessibility Services in the app |
+
+### Conditions
+
+- Language preference is available to any customer; large-print/audio formats are specifically intended for visually-impaired customers.
+
+### Example Scenario
+
+**Customer situation:** A visually-impaired customer needs their monthly bill in an audio format rather than the standard app view.
+
+**What happens:** This is available through the Accessibility Services section of the app rather than the standard Communication Preferences screen used for language changes.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C04_overview."
+FAQ_C09_018,FAQ,C09,What does 'FUP applied' mean on my data usage?,"Question: What does 'FUP applied' mean on my data usage?
+
+Answer: ### Short Answer
+
+Fair Usage Policy (FUP) applies once you exceed the high-speed data limit included in your plan; speeds are then typically reduced (e.g., to 64/128/512 kbps) for the remainder of the billing cycle rather than data being stopped entirely.
+
+### Detailed Explanation
+
+The key distinction the answer draws is 'reduced' versus 'stopped' — once FUP applies, data keeps working but at a much lower speed for the rest of that billing cycle, which is a different situation from a plan expiring or running out entirely.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Trigger | Exceeding the plan's high-speed data limit |
+| Effect | Speed reduced (e.g. to 64/128/512 kbps), not stopped |
+| Duration | Remainder of the billing cycle |
+
+### Example Scenario
+
+**Customer situation:** A customer sees 'FUP applied' on their usage screen and assumes their data has run out.
+
+**What happens:** Since FUP only reduces speed rather than stopping data entirely, they can continue using data at the reduced rate until the next billing cycle resets the allowance.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C09_overview."
+FAQ_C11_021,FAQ,C11,What are the rates for international calls and SMS from my plan?,"Question: What are the rates for international calls and SMS from my plan?
+
+Answer: ### Short Answer
+
+Standard International Long Distance (ISD) rates apply per destination country unless you have an ISD pack. Check Rates > International under the app for current per-minute and per-SMS rates, or activate a country-specific ISD pack for discounted rates.
+
+### Detailed Explanation
+
+Two rate tiers exist here — standard ISD rates that apply by default per destination country, and discounted pack rates that only apply if an ISD pack has been activated for that country — so the actual per-minute/per-SMS cost a customer pays depends entirely on whether they've taken that extra activation step.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Default | Standard ISD rates, per destination country |
+| Where to check current rates | Rates > International in the app |
+| Discounted option | Country-specific ISD pack |
+
+### Conditions
+
+- Standard rates apply unless a matching ISD pack is active for that specific destination country.
+
+### Example Scenario
+
+**Customer situation:** A customer calls a particular country frequently and wants a lower per-minute rate than they're currently paying.
+
+**What happens:** Since standard ISD rates apply by default, checking whether a country-specific ISD pack is available for that destination would give them the discounted rate instead.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C11_overview."
+FAQ_C12_024,FAQ,C12,Why doesn't VoLTE/HD Voice work on my phone?,"Question: Why doesn't VoLTE/HD Voice work on my phone?
+
+Answer: ### Short Answer
+
+VoLTE requires a VoLTE-enabled handset, a compatible SIM, and the VoLTE/4G Calling setting enabled in device settings. Some imported or older devices may not support VoLTE on Indian bands even if they support 4G data.
+
+### Detailed Explanation
+
+Three separate conditions need to align for VoLTE to work — the handset itself must be VoLTE-capable, the SIM must be compatible, and the setting must be turned on in the device — and the answer flags that some imported or older phones can do 4G data fine but still lack VoLTE support specifically on the bands used in India, which is a device limitation rather than an account or SIM issue.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Requirements | VoLTE-enabled handset; compatible SIM; VoLTE/4G Calling setting enabled in device settings |
+| Known limitation | Some imported/older devices support 4G data but not VoLTE on Indian bands |
+
+### Conditions
+
+- A device supporting 4G data does not guarantee VoLTE support — the two are independent capabilities.
+
+### Troubleshooting
+
+| Symptom | Possible Cause | Diagnostic Check | Recommended Action |
+|---|---|---|---|
+| VoLTE toggle not visible in device settings | Handset isn't VoLTE-capable, or SIM isn't VoLTE-compatible | Whether the device is an imported/older model | Confirm device VoLTE support before assuming it's a settings issue |
+| VoLTE toggle present but calls still fall back to voice-only | Setting not actually enabled, or band incompatibility on an imported device | Whether VoLTE/4G Calling is switched on | Enable the setting; if already on, this may be a device band limitation |
+
+### Example Scenario
+
+**Customer situation:** A customer has a 4G phone bought overseas and can't get VoLTE/HD Voice to work.
+
+**What happens:** Since some imported devices support 4G data without supporting VoLTE on Indian bands, this may be a device limitation rather than something fixable through account or SIM changes.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C12_overview."
+FAQ_C19_037,FAQ,C19,How does NovaTel use my call and location data?,"Question: How does NovaTel use my call and location data?
+
+Answer: ### Short Answer
+
+Data is processed per our Privacy Policy (see Policy_C19_privacy_policy) strictly for service delivery, billing, legal/regulatory compliance, network optimisation, and — where you have consented — personalised offers. You can review and manage consent preferences under Privacy Settings in the app.
+
+### Detailed Explanation
+
+The listed purposes fall into two categories: things NovaTel does regardless of consent (service delivery, billing, legal/regulatory compliance, network optimisation) and things that specifically require it (personalised offers) — the Privacy Settings screen is where that consent-dependent category can actually be controlled by the customer.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Governing document | Privacy Policy (Policy_C19_privacy_policy) |
+| Always processed for | Service delivery, billing, legal/regulatory compliance, network optimisation |
+| Consent-dependent | Personalised offers |
+| Where to manage consent | Privacy Settings in the app |
+
+### Conditions
+
+- Personalised-offer use of data requires consent, unlike the other listed purposes which apply regardless.
+
+### Example Scenario
+
+**Customer situation:** A customer wants to stop receiving personalised offers based on their usage but keep their service running normally.
+
+**What happens:** Since personalised offers are the consent-dependent use case, adjusting Privacy Settings can turn that off specifically without affecting the always-on purposes like billing or network optimisation.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C19_overview."
+FAQ_C19_038,FAQ,C19,How do I request deletion of my personal data after closing my account?,"Question: How do I request deletion of my personal data after closing my account?
+
+Answer: ### Short Answer
+
+Submit a data-deletion request via Privacy Settings > My Data > Request Deletion. Certain records must be retained for the regulatory minimum retention period (e.g., CDRs) even after account closure, per licence and law-enforcement requirements.
+
+### Detailed Explanation
+
+The important nuance is that 'deletion' isn't absolute even after closing the account — certain records like CDRs (call detail records) have a regulatory minimum retention period that overrides a deletion request, which reflects a legal requirement rather than a NovaTel policy choice.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Where to request | Privacy Settings > My Data > Request Deletion |
+| Exception | Records with a regulatory minimum retention period, e.g. CDRs, are retained even after deletion request |
+| Reason for exception | Licence and law-enforcement requirements |
+
+### Conditions
+
+- Data subject to a regulatory minimum retention period (such as CDRs) is retained regardless of a deletion request, until that retention period lapses.
+
+### Example Scenario
+
+**Customer situation:** A customer closes their account and requests full deletion of their personal data.
+
+**What happens:** Most data is deleted as requested, but records like CDRs that fall under a regulatory minimum retention period are kept until that period lapses, independent of the deletion request.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C19_overview."
+FAQ_C21_041,FAQ,C21,How do I permanently deactivate/close my postpaid connection?,"Question: How do I permanently deactivate/close my postpaid connection?
+
+Answer: ### Short Answer
+
+Submit a closure request via Help > Account Services > Close Connection, or visit a store. Ensure all outstanding dues are cleared and any final bill is settled; the number enters a regulatory cooling-off period before being recycled.
+
+### Detailed Explanation
+
+Closure isn't instant even once requested — outstanding dues and a final bill need to be settled first, and the regulatory cooling-off period after that (before the number is recycled) exists as a safeguard, mirroring the same kind of grace-period logic used for non-payment deactivation.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Where to request | Help > Account Services > Close Connection, or visit a store |
+| Before closure completes | All outstanding dues cleared, final bill settled |
+| After closure | Number enters a regulatory cooling-off period before recycling |
+
+### Conditions
+
+- Closure cannot complete while dues are outstanding or the final bill is unsettled.
+
+### Example Scenario
+
+**Customer situation:** A customer wants to close their postpaid connection but still has an outstanding balance.
+
+**What happens:** Since outstanding dues must be cleared and the final bill settled before closure completes, paying that balance first is a precondition to the closure request going through.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C21_overview."
+FAQ_C21_042,FAQ,C21,Can I reactivate a number that was deactivated for non-payment?,"Question: Can I reactivate a number that was deactivated for non-payment?
+
+Answer: ### Short Answer
+
+Reactivation is possible within the operator's retention window (commonly up to 90 days) by clearing dues and completing any required re-verification. Beyond this window the number may be permanently released and cannot be recovered.
+
+### Detailed Explanation
+
+This is a time-bounded second chance rather than an indefinite one — within the retention window (commonly up to 90 days), clearing dues and any required re-verification can bring the number back, but the same window also defines the point of no return, after which the number is permanently released and cannot be recovered by any process.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Retention window | Commonly up to 90 days |
+| To reactivate | Clear dues, complete any required re-verification |
+| Beyond the window | Number permanently released, cannot be recovered |
+
+### Conditions
+
+- Reactivation is only possible within the retention window; once that window passes, no reactivation option exists.
+
+### Example Scenario
+
+**Customer situation:** A customer's number was deactivated for non-payment 60 days ago and they now want it back.
+
+**What happens:** Since this is within the commonly-up-to-90-day retention window, clearing the outstanding dues and completing any required re-verification can still reactivate the same number.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C21_overview."
+FAQ_C23_045,FAQ,C23,What is included in an Enterprise Business Connectivity plan?,"Question: What is included in an Enterprise Business Connectivity plan?
+
+Answer: ### Short Answer
+
+Enterprise plans typically bundle pooled voice/data across a fleet of numbers, dedicated account management, centralised billing, and SLA-backed connectivity for leased lines/MPLS where applicable. See Policy_C23_enterprise_terms for the current commercial framework.
+
+### Detailed Explanation
+
+This is presented as a bundle of distinct components — pooled voice/data, dedicated account management, centralised billing, and SLA-backed leased-line/MPLS connectivity where applicable — with the specific commercial terms deferred to the linked policy document rather than stated here, since those terms are the negotiated part of an enterprise agreement.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Included | Pooled voice/data across a fleet of numbers; dedicated account management; centralised billing; SLA-backed leased-line/MPLS connectivity where applicable |
+| Commercial terms | See Policy_C23_enterprise_terms |
+
+### Conditions
+
+- SLA-backed leased-line/MPLS connectivity applies only where relevant to the specific enterprise deployment.
+
+### Example Scenario
+
+**Customer situation:** A business is evaluating whether an Enterprise Business Connectivity plan fits a fleet of company numbers.
+
+**What happens:** The pooled voice/data and centralised billing described would apply to the whole fleet, with dedicated account management as the ongoing point of contact, though the specific commercial terms sit in the separate enterprise-terms policy.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C23_overview."
+FAQ_C24_047,FAQ,C24,What connectivity options does NovaTel offer for IoT/M2M devices?,"Question: What connectivity options does NovaTel offer for IoT/M2M devices?
+
+Answer: ### Short Answer
+
+NovaTel offers NB-IoT, LTE-M, and standard cellular M2M SIM profiles with volume-based data pooling, remote SIM management, and dedicated APNs for enterprise IoT deployments (fleet tracking, smart metering, POS terminals, etc.).
+
+### Detailed Explanation
+
+The three connectivity types (NB-IoT, LTE-M, standard cellular M2M) suit different device profiles, and the listed features — volume-based data pooling, remote SIM management, dedicated APNs — are what make this different from a regular consumer SIM: management is designed around large fleets of devices rather than a single connection.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Connectivity types | NB-IoT, LTE-M, standard cellular M2M SIM profiles |
+| Management features | Volume-based data pooling; remote SIM management; dedicated APNs |
+| Example use cases | Fleet tracking, smart metering, POS terminals |
+
+### Example Scenario
+
+**Customer situation:** A business is deploying smart water meters that need long battery life and only send small amounts of data periodically.
+
+**What happens:** NB-IoT is specifically suited to this kind of low-power, low-data-volume device profile, compared to standard cellular M2M SIMs used for higher-throughput devices.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C24_overview."
+FAQ_C24_048,FAQ,C24,How do we monitor usage across thousands of IoT SIMs?,"Question: How do we monitor usage across thousands of IoT SIMs?
+
+Answer: ### Short Answer
+
+The Enterprise IoT Management Portal provides a dashboard for bulk usage monitoring, alerting on anomalous consumption, and remote SIM state changes (activate/suspend/terminate) via API or UI.
+
+### Detailed Explanation
+
+Monitoring at this scale is described as dashboard-driven rather than per-device manual checking — bulk usage monitoring, anomaly alerting, and remote state changes (activate/suspend/terminate) via API or UI are the specific capabilities that make managing thousands of SIMs practical.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Tool | Enterprise IoT Management Portal |
+| Capabilities | Bulk usage monitoring; alerting on anomalous consumption; remote SIM state changes (activate/suspend/terminate) |
+| Access | Via API or UI |
+
+### Example Scenario
+
+**Customer situation:** A business notices unusual data spikes across a subset of their IoT fleet and wants to suspend the affected SIMs quickly.
+
+**What happens:** The Enterprise IoT Management Portal's anomaly alerting would have flagged the spike, and the remote SIM state-change capability (via API or UI) allows suspending the affected SIMs without needing individual manual action.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C24_overview."
+FAQ_C29_057,FAQ,C29,My phone shows 'SIM not provisioned for voice' — how do I fix this?,"Question: My phone shows 'SIM not provisioned for voice' — how do I fix this?
+
+Answer: ### Short Answer
+
+This typically indicates a network-side provisioning issue rather than a device fault. Restart the device, toggle Airplane Mode, and if unresolved, contact care with your number so the account can be re-provisioned on the network.
+
+### Detailed Explanation
+
+The key framing is that this is a network-side provisioning issue, not a device fault — which is why the fix sequence starts with quick device-side resets (restart, Airplane Mode toggle) that can sometimes nudge re-registration, before moving to contacting care to have the account re-provisioned directly on the network.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Nature of issue | Network-side provisioning issue, not a device fault |
+| Quick checks | Restart device, toggle Airplane Mode |
+| If unresolved | Contact care with your number for account re-provisioning |
+
+### Troubleshooting
+
+| Symptom | Possible Cause | Diagnostic Check | Recommended Action |
+|---|---|---|---|
+| 'SIM not provisioned for voice' appears | Network-side provisioning issue | Whether restart/Airplane Mode toggle clears it | Try restart and Airplane Mode toggle first |
+| Message persists after restart/Airplane Mode toggle | Provisioning needs to be reset from the network side | Account provisioning status | Contact care with your number so the account can be re-provisioned |
+
+### Escalation
+
+Contacting care with your number for re-provisioning is the documented step once the device-side resets don't clear the message.
+
+### Example Scenario
+
+**Customer situation:** A customer sees 'SIM not provisioned for voice' and has already restarted their phone without success.
+
+**What happens:** Since this is described as a network-side issue rather than a device fault, contacting care with the number for re-provisioning is the next step after the quick device-side checks.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C29_overview."
+FAQ_C29_058,FAQ,C29,How do I reset my device's network settings to fix persistent connectivity issues?,"Question: How do I reset my device's network settings to fix persistent connectivity issues?
+
+Answer: ### Short Answer
+
+On most Android/iOS devices, go to Settings > General/System > Reset > Reset Network Settings. This clears saved Wi-Fi/APN/Bluetooth configurations, so ensure you know your Wi-Fi passwords before proceeding. This is a common first troubleshooting step for both data and calling issues.
+
+### Detailed Explanation
+
+This is framed as a common first troubleshooting step precisely because it's broad — it clears saved Wi-Fi, APN, and Bluetooth configurations all at once, which is why the answer specifically warns to have Wi-Fi passwords ready beforehand, since those will need re-entering afterward.
+
+### Key Details
+
+| Detail | Value |
+|---|---|
+| Where | Settings > General/System > Reset > Reset Network Settings (Android/iOS) |
+| What it clears | Saved Wi-Fi, APN, and Bluetooth configurations |
+| Before proceeding | Make sure you know your Wi-Fi passwords |
+| When it's used | Common first troubleshooting step for both data and calling issues |
+
+### Example Scenario
+
+**Customer situation:** A customer has been having intermittent data and calling issues and other basic checks haven't helped.
+
+**What happens:** Since this is a common first troubleshooting step for both types of issue, resetting network settings is a reasonable next step, provided they've noted their Wi-Fi passwords beforehand since those will need re-entering.
+
+### Related Information
+
+Related documents referenced in NovaTel's internal metadata for this topic: KB_C29_overview."
+INC_C04_INC_2026_0163,INC,C04,Duplicate Billing Cycle Run for Postpaid Segment,"# Incident Report: Duplicate Billing Cycle Run for Postpaid Segment
+
+---
+## Summary
+
+A scheduling error in the billing batch job caused ~12,000 postpaid customers to be billed twice for the June cycle.
+
+## Detection Method
+
+Identified during routine NOC dashboard review, ahead of any customer-reported tickets.
+
+## Timeline
+
+Detected via automated reconciliation checks; batch job halted within 40 minutes; duplicate charges auto-reversed within 48 hours; affected customers notified via SMS.
+
+| Time | Event | Observation | Action |
+|---|---|---|---|
+| T+0 | Fault detected | Alarm/ticket volume triggers investigation | On-call engineer paged |
+| T+10m | Initial triage | Affected scope estimated | Field/remote team engaged as needed |
+| T+Xh | Interim mitigation | Partial service restored where possible | Status page updated |
+| T+Yh | Full restoration | Service confirmed normal | Incident closed, RCA initiated if required |
+
+## Customer Impact
+
+Estimated customers affected and service categories impacted are recorded in the internal incident-management system (ref: INC-2026-0163). Customer-facing status was published under Network > Service Status for the outage duration.
+
+## Initial Hypothesis
+
+The initial working theory pointed to the most probable cause based on alarm signatures and affected-scope pattern; this was confirmed or revised during investigation.
+
+## Investigation
+
+The response team correlated alarm data, affected-site/customer patterns, and any recent change or third-party activity in the area to isolate the fault to a specific component or cause before applying a fix.
+
+## Resolution
+
+Service was restored per the timeline above. A follow-up Root Cause Analysis is tracked separately where applicable (see related_ids).
+
+## Recovery Validation
+
+Restoration was confirmed via monitoring returning to baseline and, where applicable, spot checks with affected customers before the incident was formally closed.
+
+## Preventive Actions
+
+Preventive/corrective actions arising from this incident are tracked in the linked RCA document, where one was raised.
+
+## Lessons Learned
+
+Clearer coordination with third parties or upstream partners in this region would help prevent a recurrence of this fault type.
+
+## Related Documents
+
+No directly linked documents are recorded for this item; refer to the relevant department for further guidance."
+INC_C08_INC_2026_0142,INC,C08,4G Cell Cluster Outage,"# Incident Report: 4G Cell Cluster Outage
+
+---
+## Summary
+
+Fibre backhaul cut near Andheri due to third-party roadworks caused a 3-hour outage affecting ~40 4G sites.
+
+## Detection Method
+
+Detected automatically via NOC monitoring alarms, which triggered an on-call page within the standard 5-minute alerting SLA.
+
+## Timeline
+
+06:12 IST fault detected via NOC alarms; 06:20 field team dispatched; 08:40 temporary microwave backhaul restored; 09:15 fibre repaired and primary path restored.
+
+| Time | Event | Observation | Action |
+|---|---|---|---|
+| T+0 | Fault detected | Alarm/ticket volume triggers investigation | On-call engineer paged |
+| T+10m | Initial triage | Affected scope estimated | Field/remote team engaged as needed |
+| T+Xh | Interim mitigation | Partial service restored where possible | Status page updated |
+| T+Yh | Full restoration | Service confirmed normal | Incident closed, RCA initiated if required |
+
+## Customer Impact
+
+Estimated customers affected and service categories impacted are recorded in the internal incident-management system (ref: INC-2026-0142). Customer-facing status was published under Network > Service Status for the outage duration.
+
+## Initial Hypothesis
+
+The initial working theory pointed to the most probable cause based on alarm signatures and affected-scope pattern; this was confirmed or revised during investigation.
+
+## Investigation
+
+The response team correlated alarm data, affected-site/customer patterns, and any recent change or third-party activity in the area to isolate the fault to a specific component or cause before applying a fix.
+
+## Resolution
+
+Service was restored per the timeline above. A follow-up Root Cause Analysis is tracked separately where applicable (see related_ids).
+
+## Recovery Validation
+
+Restoration was confirmed via monitoring returning to baseline and, where applicable, spot checks with affected customers before the incident was formally closed.
+
+## Preventive Actions
+
+Preventive/corrective actions arising from this incident are tracked in the linked RCA document, where one was raised.
+
+## Lessons Learned
+
+Clearer coordination with third parties or upstream partners in this region would help prevent a recurrence of this fault type.
+
+## Related Documents
+
+No directly linked documents are recorded for this item; refer to the relevant department for further guidance."
+INC_C18_INC_2026_0197,INC,C18,Phishing SMS Campaign Impersonating NovaTel,"# Incident Report: Phishing SMS Campaign Impersonating NovaTel
+
+---
+## Summary
+
+A third-party phishing campaign sent SMS messages impersonating NovaTel billing alerts with a malicious link.
+
+## Detection Method
+
+Identified during routine NOC dashboard review, ahead of any customer-reported tickets.
+
+## Timeline
+
+Flagged via customer fraud reports; anti-fraud short code alert broadcast within 4 hours; domain reported for takedown; law-enforcement liaison initiated.
+
+| Time | Event | Observation | Action |
+|---|---|---|---|
+| T+0 | Fault detected | Alarm/ticket volume triggers investigation | On-call engineer paged |
+| T+10m | Initial triage | Affected scope estimated | Field/remote team engaged as needed |
+| T+Xh | Interim mitigation | Partial service restored where possible | Status page updated |
+| T+Yh | Full restoration | Service confirmed normal | Incident closed, RCA initiated if required |
+
+## Customer Impact
+
+Estimated customers affected and service categories impacted are recorded in the internal incident-management system (ref: INC-2026-0197). Customer-facing status was published under Network > Service Status for the outage duration.
+
+## Initial Hypothesis
+
+The initial working theory pointed to the most probable cause based on alarm signatures and affected-scope pattern; this was confirmed or revised during investigation.
+
+## Investigation
+
+The response team correlated alarm data, affected-site/customer patterns, and any recent change or third-party activity in the area to isolate the fault to a specific component or cause before applying a fix.
+
+## Resolution
+
+Service was restored per the timeline above. A follow-up Root Cause Analysis is tracked separately where applicable (see related_ids).
+
+## Recovery Validation
+
+Restoration was confirmed via monitoring returning to baseline and, where applicable, spot checks with affected customers before the incident was formally closed.
+
+## Preventive Actions
+
+Preventive/corrective actions arising from this incident are tracked in the linked RCA document, where one was raised.
+
+## Lessons Learned
+
+This incident highlighted a monitoring or process gap that has been fed into the relevant preventive-action programme.
+
+## Related Documents
+
+No directly linked documents are recorded for this item; refer to the relevant department for further guidance."
+MAN_DEVICE_VOLTE_001,MAN,C12,Enabling VoLTE / HD Voice on Your Device,"# Enabling VoLTE / HD Voice on Your Device
+
+---
+## Feature Overview
+
+# Enabling VoLTE / HD Voice on Your Device
+
+---
+
+## Requirements
+
+A VoLTE-capable device and a 4G/5G NovaTel SIM.
+
+## Steps (Android, general)
+
+Settings > Network & Internet > SIM > VoLTE Calling > toggle ON. (Menu names vary by manufacturer.)
+
+## Steps (iOS, general)
+
+Settings > Cellular > Cellular Data Options > Enable LTE > Voice & Data.
+
+## Still Not Working?
+
+Confirm device model support via Help > Device Support > Check IMEI, and see FAQ_C12_002.
+
+## Prerequisites
+
+- A supported device/app version.
+- An active NovaTel connection registered to your account.
+
+## Step-by-Step Instructions
+
+1. Open the relevant section in the app or device settings.
+2. Follow the on-screen prompts to complete setup or configuration.
+3. Confirm the feature is active by checking the relevant status indicator.
+
+## Common Errors
+
+| Error | Likely Cause | Fix |
+|---|---|---|
+| Feature not appearing | App/device not updated | Update to the latest supported version |
+| Setup fails to complete | Network connectivity issue during setup | Retry on stable Wi-Fi/data |
+
+## Troubleshooting
+
+If the above does not resolve the issue, restart the device/app and retry; if it persists, contact support with the exact error shown.
+
+## Restrictions
+
+Availability may vary by device model, region, or plan type.
+
+## Security Considerations
+
+Do not share OTPs or account credentials with anyone, including anyone claiming to be from NovaTel support.
+
+## Related Documents
+
+No directly linked documents are recorded for this item; refer to the relevant department for further guidance."
+MAN_IOT_PORTAL_001,MAN,C24,Enterprise IoT Management Portal — Quick Start,"# Enterprise IoT Management Portal — Quick Start
+
+---
+## Feature Overview
+
+# Enterprise IoT Management Portal — Quick Start
+
+---
+
+## Purpose
+
+Guide for enterprise administrators managing bulk IoT/M2M SIM fleets.
+
+## Key Functions
+
+- Bulk activate/suspend/terminate SIMs
+- Usage-anomaly alert configuration
+- API key management for programmatic access
+- Data-pool allocation across SIM groups
+
+## Getting Access
+
+Provisioned by your NovaTel Enterprise Account Manager upon contract signature; login credentials are issued to the registered admin email.
+
+## Prerequisites
+
+- A supported device/app version.
+- An active NovaTel connection registered to your account.
+
+## Step-by-Step Instructions
+
+1. Open the relevant section in the app or device settings.
+2. Follow the on-screen prompts to complete setup or configuration.
+3. Confirm the feature is active by checking the relevant status indicator.
+
+## Common Errors
+
+| Error | Likely Cause | Fix |
+|---|---|---|
+| Feature not appearing | App/device not updated | Update to the latest supported version |
+| Setup fails to complete | Network connectivity issue during setup | Retry on stable Wi-Fi/data |
+
+## Troubleshooting
+
+If the above does not resolve the issue, restart the device/app and retry; if it persists, contact support with the exact error shown.
+
+## Restrictions
+
+Availability may vary by device model, region, or plan type.
+
+## Security Considerations
+
+Do not share OTPs or account credentials with anyone, including anyone claiming to be from NovaTel support.
+
+## Related Documents
+
+No directly linked documents are recorded for this item; refer to the relevant department for further guidance."

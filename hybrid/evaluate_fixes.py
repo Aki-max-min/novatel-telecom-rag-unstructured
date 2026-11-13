@@ -57,6 +57,9 @@ def arms_for(step):
         return ("A: legacy graph_expand", dict(cur, graph_kwargs={}),
                 "B: hardened (hub_fraction=0.05, specificity, max_documents=3)",
                 dict(cur, graph_kwargs={"hub_fraction": 0.05, "specificity": True, "max_documents": 3}))
+    if step == "fx3_overlay":
+        return ("A: graph before the vocabulary overlay (KG fixes 2 state)", dict(cur, graph_path=os.environ["FX_GRAPH_A"]),
+                "B: graph with the accepted vocabulary overlay", dict(cur, graph_path=os.environ["FX_GRAPH_B"]))
     if step in ("fx2_step2", "fx2_step3"):
         # KG fixes 2: two graph.json files; paths come from FX_GRAPH_A / FX_GRAPH_B (built beforehand, see docs/E13_kg_fixes2.md)
         label = {"fx2_step2": ("A: graph before the concept-name mentions", "B: graph with the concept-name mentions"),

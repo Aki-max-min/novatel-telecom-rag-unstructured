@@ -530,6 +530,8 @@ def extract_concept_mentions(document: Dict[str, Any], families: Iterable[str] |
     text = body_text(document)
     records = []
     for name in sorted(triggers):
+        if (document["document_id"], name) in overlay.excluded:   # documented exclusion list (overlay): drops the pair, whichever rule found it
+            continue
         hits = []                                              # (offset, matched text, phrase, source)
         for phrase, source in triggers[name]:
             for m in _compile(phrase).finditer(text):

@@ -22,7 +22,8 @@ FAMILIES = ("Device Compatibility", "Network Coverage")
 
 
 def build_to(out, families):
-    with mock.patch.object(ce, "CONCEPT_NAME_FAMILIES", families):
+    # KG fixes 3: the vocabulary overlay is switched off here so these tests keep isolating the name-family mechanism of KG fixes 2
+    with mock.patch.object(ce, "CONCEPT_NAME_FAMILIES", families), mock.patch.object(ce, "OVERLAY_ENABLED", False):
         b = build_full()
     save_graph(b["graph"], b["entities"], b["relationships"], b["content"], output_dir=Path(out), concepts=b["concepts"])
     return b, json.loads((Path(out) / "graph.json").read_text(encoding="utf-8"))

@@ -152,5 +152,46 @@ class TestAcceptance(unittest.TestCase):
         self.assertEqual(res2["missing"], [("Device Compatibility", "VoLTE", "D09")])
 
 
+class TestRealCorpus(unittest.TestCase):
+    """The accepted outcome of the real run (docs/E13_kg_fixes3.md) and the consistency of the decisions recorded in the overlay file."""
+
+    @classmethod
+    def setUpClass(cls):
+        import json
+        from unittest import mock
+        from knowledge_graph import content_extractor as ce
+        from knowledge_graph.entity_extractor import extract_entities, load_documents
+        from knowledge_graph.evaluate_concept_families import concept_groups
+        cls.docs = load_documents()
+        with mock.patch.object(ce, "OVERLAY_ENABLED", False):
+            before = ce.extract_content(cls.docs)
+        covered = {k for k, v in before["per_document"].items() if v} | {m["document_id"] for m in before["concept_mentions"]}
+        five = {k for k, v in before["per_document"].items() if v}
+        groups = concept_groups(cls.docs, before["per_document"], extract_entities(cls.docs)["nodes"] + before["nodes"])
+        cls.raw = json.loads(vo.OVERLAY_PATH.read_text(encoding="utf-8"))
+        cls.result = ev.evaluate(cls.docs, cls.raw, groups, covered, five)
+        cls.baseline = len(covered)
+
+    def test_coverage_rises_from_129_to_144_and_four_documents_stay_uncovered(self):
+        self.assertEqual(self.baseline, 129)
+        self.assertEqual(self.result["coverage_after"], 144)
+        self.assertEqual(self.result["uncovered"], ["FAQ_C11_021", "FAQ_C11_022", "FAQ_C23_045", "INC_C04_INC_2026_0163"])
+
+    def test_recorded_decisions_equal_a_fresh_evaluation(self):
+        self.assertEqual(self.raw["dropped"], self.result["dropped"])
+        self.assertEqual(self.raw["dropped_phrases"], self.result["dropped_phrases"])
+        self.assertEqual(sorted(self.result["dropped"]), ["Billing & Invoices", "Enterprise & Business Services", "International Calling & ISD"])
+
+    def test_no_kept_concept_breaks_the_limits(self):
+        for r in self.result["rows"]:
+            if r["decision"] == "KEEP":
+                self.assertLessEqual(r["docs"], 14, r["concept"])
+                self.assertEqual(r["evidence"], f"{r['docs']}/{r['docs']}")
+                if r["status"] == "EXTEND existing":
+                    self.assertLessEqual(r["growth"], 2, r["concept"])
+                else:
+                    self.assertGreaterEqual(r["docs"], 2, r["concept"])
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

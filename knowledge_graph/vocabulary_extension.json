@@ -156,6 +156,10 @@
       "reason": "Doubtful sense found in KG fixes 2: device compatibility is only one of several causes of slow data in this FAQ; the document is about data speed."
     }
   ],
-  "dropped": {},
+  "dropped": {
+    "Billing & Invoices": "(a) growth 5 over its existing group (more than 2)",
+    "Enterprise & Business Services": "(a) growth 3 over its existing group (more than 2)",
+    "International Calling & ISD": "(b) a NEW concept must link at least 2 documents (links 1)"
+  },
   "dropped_phrases": {}
 }

@@ -132,9 +132,10 @@ class TestConceptNodes(unittest.TestCase):
 
     def nodes_for(self, ov):
         from knowledge_graph.entity_extractor import extract_entities
-        ents = extract_entities(load_documents())
+        docs = load_documents()
+        nodes = extract_entities(docs)["nodes"] + ce.extract_content(docs)["nodes"]          # entity + content nodes, as build_full passes them
         with mock.patch.object(ce, "active_overlay", lambda: ov):
-            return build_concept_metadata(ents["nodes"])
+            return build_concept_metadata(nodes)
 
     def test_new_concepts_become_nodes_with_source_and_the_shared_23_are_unchanged(self):
         meta = self.nodes_for(overlay([EXT, NEW]))

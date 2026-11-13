@@ -484,9 +484,24 @@ _HEADER_LINE = re.compile(r"^\*\*(?:" + "|".join(re.escape(k) for k in _HEADER_K
 _TOPIC_FOOTER = re.compile(r"\n+Topic:[^\n]*\s*$")
 
 
+# KG fixes 3: the Related Information / Related Documents / References sections only list document ids and boilerplate; they are not body text either.
+_RELATED_SECTION = re.compile(
+    r"^#{2,3}[ \t]*(?:Related Information|Related Documents|References)[ \t]*$.*?(?=^#{1,3}[ \t]|\Z)", re.MULTILINE | re.DOTALL)
+
+#: Vocabulary overlay (knowledge_graph/vocabulary_extension.json, KG fixes 3): extra mention triggers for existing concepts and NEW concepts that
+#: exist only in the overlay. False switches it off (the extractor then behaves as after KG fixes 2).
+OVERLAY_ENABLED = True
+
+
+def active_overlay():
+    from knowledge_graph.vocabulary_overlay import Overlay, load_overlay  # lazy: keeps the extractor importable on its own
+
+    return load_overlay() if OVERLAY_ENABLED else Overlay()
+
+
 def body_text(document: Dict[str, Any]) -> str:
-    """Title + content without the metadata header lines and the trailing ``Topic:`` footer (both echo the category name)."""
-    content = _TOPIC_FOOTER.sub("\n", _HEADER_LINE.sub("", document.get("content") or ""))
+    """Title + content without the metadata header lines, the trailing ``Topic:`` footer and the Related/References sections (all echo metadata)."""
+    content = _TOPIC_FOOTER.sub("\n", _RELATED_SECTION.sub("", _HEADER_LINE.sub("", document.get("content") or "")))
     return (document.get("title") or "") + "\n" + content
 
 
@@ -496,26 +511,38 @@ def _vocabulary_names() -> frozenset:
     return frozenset(concept_vocabulary(load_crosswalk()))
 
 
-def extract_concept_mentions(document: Dict[str, Any], families: Iterable[str] | None = None) -> List[Dict[str, Any]]:
-    """One record per active concept-name family found in the body of ``document`` (first match carries the evidence)."""
+def extract_concept_mentions(document: Dict[str, Any], families: Iterable[str] | None = None, overlay=None) -> List[Dict[str, Any]]:
+    """One record per concept found in the body of ``document``: by its own name (the ``families``) and by the overlay's trigger phrases.
+    The first match (by position) carries the evidence; hits from both sources for one concept merge into one record."""
     families = tuple(CONCEPT_NAME_FAMILIES if families is None else families)
-    if not families:
-        return []
+    overlay = active_overlay() if overlay is None else overlay
     unknown = set(families) - _vocabulary_names()
     if unknown:
         raise ValueError(f"not shared-vocabulary concepts: {sorted(unknown)}")
+    triggers: Dict[str, List[Tuple[str, str]]] = {}          # concept -> [(phrase, source)]
+    for name in families:
+        triggers.setdefault(name, []).append((name, "concept_name"))
+    for name, phrases in overlay.triggers.items():
+        for phrase in phrases:
+            triggers.setdefault(name, []).append((phrase, "vocabulary_extension"))
+    if not triggers:
+        return []
     text = body_text(document)
     records = []
-    for name in sorted(families):
-        matches = list(_compile(name).finditer(text))
-        if not matches:
+    for name in sorted(triggers):
+        hits = []                                              # (offset, matched text, phrase, source)
+        for phrase, source in triggers[name]:
+            for m in _compile(phrase).finditer(text):
+                hits.append((m.start(), m.group(0), phrase, source))
+        if not hits:
             continue
-        first = matches[0]
+        hits.sort(key=lambda h: (h[0], h[2]))
+        offset, span, _, _ = hits[0]
         records.append({
             "concept": name, "concept_type": "Concept", "document_id": document["document_id"],
-            "matched_terms": [name.lower()], "fields": ["body"], "match_count": len(matches),
-            "evidence": _snippet(text, first.start(), first.end()), "evidence_field": "body",
-            "evidence_span": first.group(0), "evidence_offset": first.start(),
+            "matched_terms": sorted({h[2].lower() for h in hits}), "fields": ["body"], "match_count": len(hits),
+            "evidence": _snippet(text, offset, offset + len(span)), "evidence_field": "body",
+            "evidence_span": span, "evidence_offset": offset, "source": "+".join(sorted({h[3] for h in hits})),
         })
     return records
 
@@ -659,7 +686,8 @@ def extract_content(
             "source_field": "body",
             "properties": {
                 "confidence": "pattern_match",
-                "rule": "concept_name_in_body",
+                "rule": {"concept_name": "concept_name_in_body", "vocabulary_extension": "vocabulary_overlay",
+                         "concept_name+vocabulary_extension": "concept_name_in_body+vocabulary_overlay"}[record["source"]],
                 "matched_terms": ", ".join(record["matched_terms"]),
                 "match_count": record["match_count"],
                 "evidence": record["evidence"],

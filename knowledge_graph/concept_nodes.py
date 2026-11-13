@@ -19,6 +19,7 @@ from __future__ import annotations
 from typing import Any, Dict, Iterable, List
 
 from knowledge_graph.concept_bridge import SERVICE_CONCEPT_MAPPING, concept_id, concept_vocabulary, load_crosswalk
+from knowledge_graph.vocabulary_overlay import OVERLAY_PATH, SOURCE as OVERLAY_SOURCE
 
 
 def build_concept_metadata(nodes: Iterable[Dict[str, Any]]) -> Dict[str, Any]:
@@ -50,6 +51,16 @@ def build_concept_metadata(nodes: Iterable[Dict[str, Any]]) -> Dict[str, Any]:
                 "document_services": ", ".join(services),
                 "bridges_both_sides": bool(tables) and bool(categories or services),
             },
+        })
+
+    from knowledge_graph import content_extractor  # lazy: avoids an import cycle through concept_bridge
+
+    for name in content_extractor.active_overlay().new_concepts:      # NEW concepts of the vocabulary overlay (KG fixes 3); not in the shared ontology
+        concept_nodes.append({
+            "id": concept_id(name), "label": "Concept", "key": name,
+            "properties": {"name": name, "vocabulary_source": f"knowledge_graph/{OVERLAY_PATH.name} (proposed, pending ontology-owner approval)",
+                           "source": OVERLAY_SOURCE, "tables": [], "document_categories": "", "document_services": "",
+                           "bridges_both_sides": False},
         })
 
     edges: List[Dict[str, Any]] = []

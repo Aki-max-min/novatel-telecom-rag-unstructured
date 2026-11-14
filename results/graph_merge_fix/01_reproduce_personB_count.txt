@@ -1,0 +1,23 @@
+Reproduction of Person B's evidence count on results/perf_report/raw_answers.jsonl (v3, arm docgraph, run 1); HEAD 230338e
+document questions: 25 | with graph_weight>0: 17 ['Q04', 'Q08', 'Q17', 'RW_017', 'Q20', 'Q25', 'MH01', 'MH02', 'MH03', 'MH04', 'MH05', 'MH_RB_B01', 'MH_RB_B02', 'MH_RB_B03', 'MH_RB_B04', 'MH_RB_B05', 'MH_RB_B06']
+documents ranked above the gold (all 10 when the gold left the top 10): 44 | of which in semantic.neighbour_docs: 44
+gold at rank 1 on the 25 document questions: B2 19 docgraph 10
+(id, B2 gold rank, docgraph gold rank, docs above gold, of which neighbours, gold itself in graph list)
+('Q04', 1, 1, 0, 0, True)
+('Q08', 1, 3, 2, 2, True)
+('Q17', 3, 3, 2, 2, True)
+('RW_017', 1, None, 10, 10, False)
+('Q20', 1, 3, 2, 2, True)
+('Q25', 1, 1, 0, 0, True)
+('MH01', 1, 2, 1, 1, True)
+('MH02', 1, 5, 4, 4, False)
+('MH03', 1, 2, 1, 1, True)
+('MH04', 1, 6, 5, 5, False)
+('MH05', 1, 7, 6, 6, False)
+('MH_RB_B01', 6, 1, 0, 0, True)
+('MH_RB_B02', 2, 1, 0, 0, True)
+('MH_RB_B03', 1, 2, 1, 1, True)
+('MH_RB_B04', 4, 2, 1, 1, True)
+('MH_RB_B05', 1, None, 8, 8, False)
+('MH_RB_B06', 1, 2, 1, 1, True)
+gold NOT in the graph list: [('RW_017', 1, None), ('MH02', 1, 5), ('MH04', 1, 6), ('MH05', 1, 7), ('MH_RB_B05', 1, None)]

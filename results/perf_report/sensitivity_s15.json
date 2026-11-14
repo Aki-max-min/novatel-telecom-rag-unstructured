@@ -1,0 +1,142 @@
+{
+  "abstention_message": "I don't have information about that in the NovaTel knowledge base.",
+  "records_rescored_to_2": [
+    [
+      "C",
+      "S15",
+      1
+    ],
+    [
+      "C",
+      "S15",
+      2
+    ],
+    [
+      "C",
+      "S15",
+      3
+    ],
+    [
+      "router",
+      "S15",
+      1
+    ],
+    [
+      "router",
+      "S15",
+      2
+    ],
+    [
+      "router",
+      "S15",
+      3
+    ]
+  ],
+  "headline_unchanged": true,
+  "correctness_all": {
+    "A": {
+      "headline": 31.0,
+      "with_S15_abstention_counted": 31.0,
+      "core22_with_S15": 43.2
+    },
+    "B": {
+      "headline": 71.4,
+      "with_S15_abstention_counted": 71.4,
+      "core22_with_S15": 84.1
+    },
+    "B2": {
+      "headline": 82.9,
+      "with_S15_abstention_counted": 82.9,
+      "core22_with_S15": 89.4
+    },
+    "router": {
+      "headline": 76.2,
+      "with_S15_abstention_counted": 78.6,
+      "core22_with_S15": 88.6
+    },
+    "ontology": {
+      "headline": 79.8,
+      "with_S15_abstention_counted": 79.8,
+      "core22_with_S15": 88.6
+    },
+    "docgraph": {
+      "headline": 67.9,
+      "with_S15_abstention_counted": 67.9,
+      "core22_with_S15": 81.0
+    },
+    "C": {
+      "headline": 67.5,
+      "with_S15_abstention_counted": 69.8,
+      "core22_with_S15": 84.1
+    }
+  },
+  "paired": {
+    "CB": {
+      "wins": 10,
+      "losses": 4,
+      "ties": 28,
+      "p_mcnemar_exact": 0.1796,
+      "ci95_pts": [
+        -2.4,
+        31.0
+      ],
+      "mean_diff_pts": 14.3,
+      "loss_ids": [
+        "Q17",
+        "RW_017",
+        "MH02",
+        "MH_RB_B02"
+      ]
+    },
+    "CA": {
+      "wins": 22,
+      "losses": 2,
+      "ties": 18,
+      "p_mcnemar_exact": 0.0,
+      "ci95_pts": [
+        31.0,
+        64.3
+      ],
+      "mean_diff_pts": 47.6,
+      "loss_ids": [
+        "Q08",
+        "RW_017"
+      ]
+    },
+    "CB2": {
+      "wins": 3,
+      "losses": 7,
+      "ties": 32,
+      "p_mcnemar_exact": 0.3438,
+      "ci95_pts": [
+        -25.4,
+        2.4
+      ],
+      "mean_diff_pts": -11.1,
+      "loss_ids": [
+        "Q17",
+        "RW_017",
+        "S09",
+        "MH02",
+        "MH03",
+        "MH04",
+        "MH_RB_B02"
+      ]
+    },
+    "routerB2": {
+      "wins": 2,
+      "losses": 2,
+      "ties": 38,
+      "p_mcnemar_exact": 1.0,
+      "ci95_pts": [
+        -10.3,
+        7.1
+      ],
+      "mean_diff_pts": -1.6,
+      "loss_ids": [
+        "S09",
+        "MH04"
+      ]
+    }
+  }
+}

@@ -1,0 +1,684 @@
+{"key": "2e3ee521eaade3685620c1ec5d310f1f07e675df", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "09d3ef47ef827317a8b22086c98671dbbccee241", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"The answer is partially correct and directly answers the question.\"}"}
+{"key": "7321e506d09776666dd399b20c61d6e61a9923db", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "92729403faba0e40d5ae5b9e3f8d41e53975fd8c", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "32523a446dd508557848c14cf5f47ac8423f2d13", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it mentions checking the Service Status and reporting the location, but does not mention verifying the issue through standard steps.\"}"}
+{"key": "df168eee8f9c1038736db941a8b18c4a972ff733", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answers are accurate and relevant to the question.\"}"}
+{"key": "1f83e20d4b7d3626d5fd0822f7e45ec423e86a5e", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "95d82c66a3264c05c4df4e614d980ecda40ea1da", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence on QoS benchmarks and expectations.\"}"}
+{"key": "fe68c59851e699ca808873f9b958a9b8c4a8ba29", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "e3d22aebc0aaaaa161f84fc2279a414a54ab2615", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Steps are generally correct but lack specific details from the reference.\"}"}
+{"key": "527081fdabea0fbc3a8b58a31f702e5bbe63b0ab", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer aligns with the reference and directly addresses the question.\"}"}
+{"key": "6dcbe65f7f4289a73649250497380fedf7b9233f", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference and directly answers the question.\"}"}
+{"key": "a7e12eb6260ad2f0858d028f871581675cc469b5", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the troubleshooting steps.\"}"}
+{"key": "1d084d8dca84435543c57b7e89276145964a6b03", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately summarizes TRAI's regulatory roles and aligns with the reference evidence.\"}"}
+{"key": "3cc4232d2cea0eebeb7b3abab13c676ef764f87c", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "7a713a4ee1e258dbdb265dedbefd8761d2aa46e6", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answers are accurate and aligned with the reference.\"}"}
+{"key": "38d266ea07850148cb0c43eb570aa21d9b0c31bc", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer fully covers the reference evidence and directly answers the question.\"}"}
+{"key": "b823757f3010596f31222d739c4bd94f46c6d3e6", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question with relevant metrics.\"}"}
+{"key": "0495aab4baed03b88b850ed9b682497daa6db562", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "bb3c9fb441307db96a69ffcdf101f408bc188716", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes the steps to port a mobile number and is relevant to the question.\"}"}
+{"key": "d9a517223d40042650f937f6bbcdf9aae6522703", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer aligns with the reference and directly addresses the question.\"}"}
+{"key": "63b37289ba14b84d31ff948bf3c7665b52c26097", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the data provided in the reference evidence.\"}"}
+{"key": "a1ef4e6d8367a46070864a95919fcf0b368d23a7", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "600dcb39835ae1098d3c7dd27c209272c3d7cfbc", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes TRAI's roles and provides relevant supporting evidence.\"}"}
+{"key": "e35740571e1f0d05e9aecd23f1735fd99dac6fb2", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "d43f72b6ce01279778c2bc20df76a84d0faa3a42", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Does not provide the correct account status.\"}"}
+{"key": "77dda8503eaa33b032b4144e4c82787915ee2bd1", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context only provides account status for customer 1001, not the process to check it.\"}"}
+{"key": "0eaf70ded876c753ebab037310e29007eb137fb7", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it misses the in-store verification step for when OTP is unavailable, but relevant as it covers the online process and customer support.\"}"}
+{"key": "e24ade7f9c263c4ea97555fa7f1f008f3b1b7d15", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer includes steps not mentioned in the context, such as visiting the website and using account settings, which are not part of the provided information.\"}"}
+{"key": "fc239e7ce65edc69bcfd67ba353db5d6fdc72731", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Most rights are correct but some are not explicitly mentioned in the reference.\"}"}
+{"key": "e8bc5cbd5cdffdc5813d50a1cbb3b116d6ba7e67", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide specific rights for telecom customers, only the existence of regulations.\"}"}
+{"key": "42b89a2c160cff5af8eacb2244b34c2980d2c1c2", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Lacks specific details and contradicts reference evidence.\"}"}
+{"key": "eae80ddba404e5040cdf6ad03dc05e495999eb86", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any information about customer invoices or a system to access them.\"}"}
+{"key": "06b9b0332e7b3c6cfcadc2138c762555cc262b60", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"The answer covers the main points but omits some specific details from the reference.\"}"}
+{"key": "54938ab58f9b34c2af590e4d675d8c7f7b2ed01e", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about additional services, usage, plan changes, and late payment fees are not supported by the context.\"}"}
+{"key": "6d15db3956fff5891b0577beff1fcdd30011b327", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"The answer provides a general guideline but does not specifically reference the TRAI regulations as per the reference.\"}"}
+{"key": "d8702677389bb9c733f4937c6f6000e60d89368a", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention the Canadian CRTC or social media as complaint mechanisms.\"}"}
+{"key": "4e13640055daa10b2afbc76b53dc3ea9151b78cb", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Answer does not provide the specific count from the reference.\"}"}
+{"key": "7727881b1d23be22751e279b57e00fbbaf8b0dd2", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context only provides an aggregate count and does not support the claims about accessing a database or specific steps.\"}"}
+{"key": "95802b7099494513f8f079ee872bb487301c89d7", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer provides methods to check for outages and aligns with the reference.\"}"}
+{"key": "76e7b653c02c2a84b8693eb6c21b42277f2781ff", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide information on how to check for network outages beyond internal steps and does not support the claims about visiting the website, checking social media, or using online outage maps.\"}"}
+{"key": "063c78865e723ed3cc26c15387d018c7ac2ce87a", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question.\"}"}
+{"key": "f10fac1135076cbeb6b011653574634ba254d6f3", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any information about the National Do Not Call Registry or the Federal Trade Commission.\"}"}
+{"key": "291e28002c145234f7ece9a6e45dbf9018d2bceb", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Does not provide the requested information about open tickets.\"}"}
+{"key": "5e804351b438cbc204fed88c94f3651c1e7a3f97", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The answer introduces new information not present in the context.\"}"}
+{"key": "1b765a2b3d0b901bac2720457e4dfa357e9ba745", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"The answer provides relevant steps but omits some details from the reference.\"}"}
+{"key": "f12a8bc65a7dfee843fcf432e44b552a3a20d55b", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claim about checking device and internet connection is not in the context.\"}"}
+{"key": "fcabff46becacddd38157668723363008cbdd225", "raw": "{\"correctness\": 0, \"relevance\": 2, \"reason\": \"The answer does not align with the specific service quality metrics provided in the reference.\"}"}
+{"key": "4bd62e2287926e4a15a796efdb70bb69d6f7ccae", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "447d68859ac42a13dd71f3292706df22713d74bc", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Answer does not provide the correct number of successful payment transactions.\"}"}
+{"key": "66b1fa51d41485db960aace0aaac24405d877f4c", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The answer introduces new information not present in the context.\"}"}
+{"key": "745dd8dcd1000ca6c78535b6b5fb4584eb713462", "raw": "{\"correctness\": 1, \"relevance\": 1, \"reason\": \"Partially correct and relevant, but missing specific documents and fastest route.\"}"}
+{"key": "3d872fc8f6478881cbf1e0c8380026d93652e5f5", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer includes claims about proof of phone number and bank account information, which are not supported by the context.\"}"}
+{"key": "273f5a12394ffb2dd0509895026f57e8453b3d5f", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes the process of number porting and is relevant to the question.\"}"}
+{"key": "803d21c7ad5d91de586a22acced6be86a18945fa", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any information about the process of porting a mobile number.\"}"}
+{"key": "5ca16085b2129dfebd644a73ad0bca4aa64d5b02", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct query provided, but the reference evidence indicates specific row anchors.\"}"}
+{"key": "a9484a0da9e7b039a6b4d115a4f3ffee4cadc9d6", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context only provides information about the number of rows with status 'Pending' and does not support the detailed steps or queries mentioned in the answer.\"}"}
+{"key": "73e00dc5ef09643671f7206dafa0567784600ccb", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer aligns with the reference policy and directly addresses the question.\"}"}
+{"key": "0e85fddd6e9dbb91761f638e34f431b647038b0d", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context.\"}"}
+{"key": "dbc8200d3992dbb09aec98ce0738e1628944aff2", "raw": "{\"correctness\": 1, \"relevance\": 1, \"reason\": \"Provides general insights but lacks specific data for the given period.\"}"}
+{"key": "88b5c456ebde9280804cddf5292544c90a0088fc", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any data or insights for the second quarter of 2025.\"}"}
+{"key": "574a0438d0561b6753a9803456a71946c57899f3", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer correctly provides an SQL query to select fraud cases with 'Investigating' status and is directly relevant to the question.\"}"}
+{"key": "ed6d25a531bdeb45c10e26409be5edcae9bcbcd7", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any SQL query or database information.\"}"}
+{"key": "7a5744cedfa08e3aa92545d94eb4889632a53cf1", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question.\"}"}
+{"key": "2507352295057f51ca32b2761d2faa77deb3caff", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention checking for network updates or restarting the ONT, and it explicitly warns against opening the ONT casing.\"}"}
+{"key": "7463f235ce79d95568489b7ea8bdc2d19997f8b3", "raw": "{\"correctness\": 0, \"relevance\": 0, \"reason\": \"The answer is not based on the reference evidence and the question is gibberish.\"}"}
+{"key": "5cb083b64983d8b7ebfab95cd538999f7ddf96e3", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The answer introduces new information not present in the context.\"}"}
+{"key": "9c37ef51fcf017556c98f78c0d0a6adc80289c0f", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly answers the question.\"}"}
+{"key": "d5f201232fd37f7529dd37d047d8f6e8425ba1fb", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide specific details about TRAI's roles such as setting tariffs, service quality standards, or consumer protection mechanisms.\"}"}
+{"key": "1d5d626a6b1ec441c48a24ae32d5f7ee7bfb0c54", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer correctly provides a SQL query to fetch fraud cases with 'Investigating' status, matching the reference.\"}"}
+{"key": "ef11f84504e6e40fc944aa87691b59f4b75846d0", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any SQL query or database information.\"}"}
+{"key": "e17cf794675468c661aaaec8e577c3bbfe55049b", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence.\"}"}
+{"key": "54accc6985872781c549dbb10ac444c7df693bbb", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The context directly states that customer 1001's account status is Active.\"}"}
+{"key": "5706f7190a7bea545124ac31c3b917f5c5b1e13a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The account status is directly stated as 'Active' in [E1].\"}"}
+{"key": "c5dc27a4edf811eee286f55e6994c8a3b95eb50d", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "8d77dafb53ee3da94227fff041629036b38c73b3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "23d4a9fbed248c1dd3ea29e9047f70890bc46e5d", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "32e024fe17c1889ca050b3404bb45fc4cc22f7d0", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question.\"}"}
+{"key": "128ee0e168078fdab658c6e8739deeb87ca1c47a", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claim 4 and 5 are not supported by the context.\"}"}
+{"key": "aee36f454922b864505b40d96e7c0341927d180d", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "4487020a75cbe0ae01f4e3ea68c6a4e4dc8464fe", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "89a9ef14418414bc4f02987858b1ddcd477eab34", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any invoice details.\"}"}
+{"key": "d16b83c776d73b8ba67c76eb6e19f48318dc3e1d", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "6208af2a4a793c68ce1448a7b3e7ae406323c768", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "1d430c283dfc2e3ce9370601868fc37c920c2ad5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "9d09636517f0f2b2c236bd5b178897f80642c169", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "a46b9b047a09ba392cc3bd3d952dc21da495d8e2", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"While the context supports the existence of complaint redressal regulations, it does not specify the exact operational details such as the complaint centre hours or SMS updates.\"}"}
+{"key": "182ad24d53644a37e32e827318834623034c43f0", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "14918c3aa92c20836ffaf85594cb2ad26d0c92c5", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence.\"}"}
+{"key": "64759d7ffe4d7e801ea7ac724d745e9ce5a2c33c", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The count of 440 is directly supported by the context.\"}"}
+{"key": "90ee82d0f04fd77d2fc69f1ee0360ab613e9280f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The count of recharge_transactions with status=FAILED is directly stated in E1.\"}"}
+{"key": "70ff246d23d59af2a727518a691e3ec3c234877b", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Answers the question and aligns with the reference.\"}"}
+{"key": "7559a32b968735ae5fbcdea39af133ac8548808e", "raw": "{\"groundedness\": 1, \"hallucination\": 0, \"reason\": \"The context mentions checking the Service Status, which aligns with the answer.\"}"}
+{"key": "ace9e2f9f2743b0beac5401bfc5218fd03a13171", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "d018824a5432a7ecc39f58190cad845fde5964ab", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not mention DND short code or app preferences.\"}"}
+{"key": "5c8d293d28406816922212dbecb21a7283fa7d48", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "9c5e32c72be0677b46b371eaa5d6bd26947fa937", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "6dafa6f698f87505e1629e5e3f1229edb4b70de7", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Additional details like Customer ID and Description are not supported by the context.\"}"}
+{"key": "a89138485f9e1a95ff7a60efca5000b502d2cbd4", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "a0e4b1eb67c9a22e1ed26a0431f8f5a471108f14", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer fully covers the reference evidence and directly answers the question.\"}"}
+{"key": "27e79b2f785a61b492ec6a069ef3322d6ca80f82", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "391fbe6c63360dc55cb4cfaf05d6a66bd62c2d00", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "44c39140082dc00f1ba085ee012c70ee7fdc0b47", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it aligns with the reference but does not directly quote the specific benchmarks.\"}"}
+{"key": "650a7ebf8a1ce7276565eaa02239f5b937e82aec", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide specific claims about QoS benchmarks or performance indicators.\"}"}
+{"key": "331d03b7731081ae05a4a1d1674906f78d6dacd2", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "0f3b6c233fe73d90303861ab2a2bc4a3d8fe34fe", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "d58be7389d64d78bb7fa9f6dfd9e0950c1816d93", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context only provides an aggregate count without specifying the status.\"}"}
+{"key": "a4e8d627717810b548b72a10499c91f84b042be6", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The context directly states the count of payment_transactions with status=SUCCESS.\"}"}
+{"key": "464bee691be206248ea77becba2ac97b38c4e3ff", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "e61cc43f8b2d5d6e33f34e6be7d2a6ac639b7a03", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "cd672a11e60468f5746a7f13b5d85fbaf70e6886", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention SIM KYC verification or the specific documents required for re-verification.\"}"}
+{"key": "d522e1b52e7f40c5987a2570adebf4e88f2c8f2a", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes the steps to port a mobile number and is relevant to the question.\"}"}
+{"key": "2e568578dc7daca14a155fb25f8661db1848d14d", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide any information on how to port a mobile number.\"}"}
+{"key": "44ea8b4fe5099fd8e53f71e1591d626f7a1f6f86", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "502be48153ffcc7f35f5e4b3a1a3d7999dfb9513", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "8fcf08c73f617b84b0f0f643b1671c3f62962fa0", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context only shows 5 rows with status 'Pending', but the answer provides 3 records.\"}"}
+{"key": "82061921da6edf311f0489e749a237c890e8d1bf", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "eea1dc919256e3512c1bd5b4a3c8396c0b8ddfbb", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "abd6ff8ea9c6a5d47e58fecd0202fa689574caf5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "1eb0d061dfa5e601b79a67f5c222bc7d7ee42622", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "5e99a6ea331e426c925576970e49f9fe4791e6c6", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference data and directly answers the question.\"}"}
+{"key": "e03beb1c7ff6b20994b54c043745bb983297cb69", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide specific data on quarterly growth rates or the exact subscriber numbers.\"}"}
+{"key": "899a50a82bed19652c10ecabd62e3f89dd5c7beb", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "89da1bc910d3056fe9ba689adf45c2d5e8cf53b8", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correct count but missing case_id=24017\"}"}
+{"key": "584d12d11a512d4ba60f38add5bbbffd760d042e", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The number of cases and their statuses are supported, but the details are not.\"}"}
+{"key": "726a9357f278532ce5823f318ce72f8fadc7b588", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "8b2a51dfd595a5ac3787e597029b3a790b77d902", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "405310da1bdc5880b4dbbe953a9e51889ce86eaa", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "954875e75c44abaa6ac41d0a763a2c30b9662069", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "11b3a035dee931462ce48a947c9799c8bafb4005", "raw": "{\"correctness\": 0, \"relevance\": 0, \"reason\": \"Question is invalid and irrelevant.\"}"}
+{"key": "9ab1291a8fdbf6f45dd462c368ac628ec0e0635b", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"The answer does not make claims about the context.\"}"}
+{"key": "a97a8cea27d4b9309dc8fab75ea67c1f290c3d5e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The data provided is fully supported by the context.\"}"}
+{"key": "7d5a75d31b968c80ab430491f16b913e78202b2f", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately summarizes TRAI's regulatory roles and aligns with the reference evidence.\"}"}
+{"key": "8029f6aaeb382e636b7a8790585d9d3cce5aab34", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "93ebade691f23cdc170676521c78f176c76b13c5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "21c47e9a0d5d943f4977a56280e958d438ce8f02", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "5641ede53c6ae427f021af2c45e88e25a4171b92", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"No invoice information is provided in the context.\"}"}
+{"key": "69cc85a8e722eee4a9b911216ae9228ec88f46b2", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "7c3867f77920c40efdb6170fe21242676f8a18c1", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "f12c9f3a99913772d7242eb14af3ad90ec5976ff", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "eeccb7c572bb8319e8f42c3df9ab67d7de018620", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "0b819baf4dff0e8687e5c601792ed1884a1af946", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence.\"}"}
+{"key": "6cfe5a61f86023871c247b9ab6e249d548fb0d49", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context only provides an aggregate count without specifying the status.\"}"}
+{"key": "f99a7b094008fb6ed8d34b263c0ada9fd36c8a1a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The count of recharge_transactions with status=FAILED is directly stated in E1.\"}"}
+{"key": "80e8ad6cb91c0c883766e1f2c12780185889c3e5", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it mentions checking Service Status and reporting the location, but does not mention verifying the issue through standard steps.\"}"}
+{"key": "9899b9e7fd2ba2698720465589f53d9f07aa0659", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention a 'Service Status' or a 'coverage map'.\"}"}
+{"key": "3974e3baf199f2b3a7529643d3dc53791c968492", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by E1.\"}"}
+{"key": "bb1a3840f5838ac7c7408c346bca988b1f606b56", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "67b1db1b0c1902ff504f93f2885f6732db3a752f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "d765cfac7456eeabb5f8c9336d0e38a6fc42527f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "1024f43375b45277225c7be7d36082c5d5de25df", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it aligns with the reference but does not specify exact benchmarks.\"}"}
+{"key": "ce71bf794e5bab2230901d8056285e01da50e6c0", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide specific claims about QoS benchmarks or performance indicators.\"}"}
+{"key": "be21af6825cd51eb7d90ffe9a343e98dcd142ca0", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "3daf95e84d5aa464cee4a6677347680556ae7818", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "d4e4ef1a980fa287e8229ce19c4ba982741bef9f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "e3b2b9f9006be1998087329262cba6deb9dc5707", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any procedural steps for porting a mobile number.\"}"}
+{"key": "e0135f5ad405ae8a14cf34e29d4e2693c0dec32c", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "6b28fef7681940e211ca1e833e7d2643b4e3c727", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer aligns with the reference evidence and directly addresses the question.\"}"}
+{"key": "f3a40bf4ed90498fc9fa1c1f62c3569c3c923bd3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context.\"}"}
+{"key": "14743b6e9e5b11298d974937a66a21dc59766443", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "c6eea36beff9af6fab6428cbb995fc2dd6a1c0f4", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference data and directly addresses the question.\"}"}
+{"key": "45ed1c24267fc4181c280e07f11eb30d6f4b15f6", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "e92d02e7d3aac25f394c7c6cb182fc544ef1e3b7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "b47422cc1b2af1e7787470f152d9f355963aeec3", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correct count but missing one case.\"}"}
+{"key": "8576d341e90190010f5763ecaad52dc39f8cdced", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Case details are not supported by the context.\"}"}
+{"key": "11bce90a6a27f5c70c3b59197ed859f2359d9c84", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "9a36b2626b82cbad52085915c8cbd108d846c262", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "c265462dcbd9aa097cc2147a54169f8b9702eb61", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "d2d2a0026274e8afe0ecdbe629ccb7ec5a5c5a47", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "06ab7d51d18d443598944c05fda72a8fc34442cc", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately summarizes TRAI's roles as per the reference.\"}"}
+{"key": "599ec80954244082f71a6ef5304c2334cc9098e3", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"While the context supports the claims about QoS and consumer protection, it does not mention tariff oversight or license compliance.\"}"}
+{"key": "245b4e3c225a9f09fe636288ad2723d6e70ec4e7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "560cf54d3ca23c0fd3018a4a3811243968b403cd", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The account status is directly stated as Active in E1.\"}"}
+{"key": "b63459506c88a17ef5bad8462e9f4b8893a61dc0", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "4927141e83784e9d3809593f65862f5f67cf54bc", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "e31557ebcf9cf550ac87ef4309b4a5f551ae5b7d", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question.\"}"}
+{"key": "26025fe7666970f068934590b77a565aead7bf23", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "20af6a4b18c1b8b1b38a377ef40b67d916d395b8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "65d68d04c7041381272d2990959b9fef30f9427d", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "c5a6d1f972da8370cd02632f57fe19ff515ccbfe", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "5bff99a288fd6a29b6315240f37c98a4b4e4d517", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference and directly addresses the question.\"}"}
+{"key": "0805e19e393c4416c0256950247d375ece0b6a88", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "423065fb08627b45d6e87611b1dc46dfdf19d082", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The count of recharge_transactions with status=FAILED is directly stated in [E1].\"}"}
+{"key": "9c0be2e31836938b68591764e5c9e48158cdcb90", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it mentions checking the Service Status and reporting the location, but does not mention verifying the issue with standard steps.\"}"}
+{"key": "954323b52a1f74016de1f2db4fc701542c0e3663", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "dd9a338fb4dc4460cbcc3931806a4dfa9362d80c", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference and directly addresses the question.\"}"}
+{"key": "9b629caf7a4101764d09f757acc79c2a92e5ca15", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "327f3a4ffd2359747c33dca7eb8d8b47a871dde9", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "3616a64e7616c22b4281e9b94d97f963d645d43f", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer fully aligns with the reference and directly addresses the question.\"}"}
+{"key": "b909c956b9ec5bbfc42629cb727c1bf82ab7e7ca", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "fe1f1d3e5e69235b21a37a9958444109dfb93b52", "raw": "{\"correctness\": 0, \"relevance\": 2, \"reason\": \"The answer contradicts the reference evidence and is not fully correct.\"}"}
+{"key": "4ee72cc42636dd94039705c575c53b43d3d7052e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "0c1243d568bf848e7ec00b60f6b0bfd08d20ef74", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The context directly states the count of payment_transactions where status=SUCCESS.\"}"}
+{"key": "ec8d723342a60d0d71d60629afed8d97638bb34a", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "92c690f504817ef86c77e3e13e3510804c3ee434", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "1ca901679f58a3000878564d51e9a9bf76b6f33b", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes the steps to port a number and is relevant to the question.\"}"}
+{"key": "ff3fe73304ec20fd9e981965cd7149818acf3910", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "5ae04fb5d87e46a0d139947cb1b9098ece720de3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "d4fe0492eaf76cda7660761d935121a44bdf1fee", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer aligns with the reference and directly addresses the question.\"}"}
+{"key": "d8f001ac3d7292fdcafa618ca483adf6278fda99", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "a6fd9a8bb7d858fc4e6d13112dbe800ade94c48d", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence.\"}"}
+{"key": "30256af1a34c3162a8849b7b415904991a36f215", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "6eaa4b33bc1a6543fc8c38d4e931feb7ba80e872", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "f8ae534c6d8d5472b8baf1428b2a7095e210c43e", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the troubleshooting steps.\"}"}
+{"key": "2fba4dbb68f3d0fbba4a34d145fe3fe15de18740", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "f59c72b5f4edf916717d009749f68218f84f185d", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"The context does not relate to the random query.\"}"}
+{"key": "1acfac28d6dd21f309c2029c6f7a20b028cbc801", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes TRAI's roles and aligns with the reference evidence.\"}"}
+{"key": "40df23595662b421e173054ee88b9150053d3765", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "b7a721890b5fe4856469ad7ad6ddd0a356e39056", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "cff6d45b78982301f6b45169d8a81f3ec99b2715", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "544bed0485d5d5b612878b65940bec8a4a9e447b", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and relevant, but missing the right to privacy and data protection.\"}"}
+{"key": "5f3530503d64044f8763f6b88ac182356c4c2952", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "cb5b570f20671c28169b9dcd857fbe1182762475", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "fa922f68a833e13ec5509dbcc55bac01c4b00679", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "839b86f96065a4e81c2f8c0cf0ad941f5fdc7a0f", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference and directly addresses the question.\"}"}
+{"key": "822e31f0c936fb2535b3126cede91fbbf50cb910", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "9d98df9e1de7345947beb85798e3c04f616f4af8", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "df1e84008d7980431687a442e1e5a7a67da228c1", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "987333e21c7bd45a6187c5cb5b944a63b00fce87", "raw": "{\"correctness\": 0, \"relevance\": 2, \"reason\": \"The answer contradicts the reference evidence and does not provide specific quality benchmarks.\"}"}
+{"key": "28990a47c91f019ff4be8f59882ca1ee8a43871a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "7638b52f692452cb387729dcb57cd2ca7d4e3cc2", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes the steps to port a number and is relevant to the question.\"}"}
+{"key": "a542a6c3e4e934893d993e4eb35b86b1200e682e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "026f65af09902d0d917d5642a8c7d96bf3682a09", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it aligns with the reference but lacks the timeframe and process details.\"}"}
+{"key": "c916cc89fb28a1e9d54cf858294a2c5346516513", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context.\"}"}
+{"key": "fb704da35dad1e26eca9f64f9c881997e25710da", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately addresses the causes and troubleshooting steps as per the reference.\"}"}
+{"key": "6dcac6a64f8dd3ad7c8d7c71c75d7d07f7694de3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "3025ebd192d2640f488095c12c26b3852f5fa4ba", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately summarizes TRAI's regulatory roles and aligns with the reference evidence.\"}"}
+{"key": "254a14355db332ac564b5cab95d4bef41fc6274f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "bea2daa5b65ca1bac1fee89b47f356467008b55b", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence.\"}"}
+{"key": "f90be0a35fc1b3f8599ea6f68a0a1b0e7e79e2bc", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The context directly states that the account status for anchor 1001 is 'Active'.\"}"}
+{"key": "1f5ce83bd41c345cb396043ab16da64d084168fd", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The account status 'Active' is directly stated in the context.\"}"}
+{"key": "b3b0a9be69c40a6d0e6eecfcea5fbb8d4f2a69d0", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "9dda34458f408f724045d0d810e2edb81dc91b02", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "fd65766bc5fda53442f3e10807d65297fe6e1105", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "cf57e2d7aa89f3ad9c03397aef96e53d530ba466", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Completely accurate and directly answers the question.\"}"}
+{"key": "03c8fbd5fdf2639e6a9137cfbf3ec4194a9f91a3", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claim 2 about 'Right to Functional Apps' is not supported by the context.\"}"}
+{"key": "77ed1d7fd0cd7d1ae32361d275e23d3648d8bc2b", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "b8804b332c44099b4f59ff3351256d8bcaf22996", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "a42fca17c776518d16dd26626b3c600396c311b9", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any information about invoices or customer 1009.\"}"}
+{"key": "1b4db85e8eacfe6182b9e364c6b61339dbc11b53", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "82f4aea30f585ae783e9e6ec29795dc7440a4a10", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "764e84b08974644981381e7d827d74a4c24688eb", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about specific charges (usage, tax/GST) are not mentioned in the context.\"}"}
+{"key": "90dc345dd151adc711dafc2177c5034e16f6d3c5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "89aef18c8cde046440dab4379d7a4947b9dae5d7", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "d09a4e7eccf90e631f523135c33f12bf42cc4871", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not specify the operational hours of the Complaint Centre.\"}"}
+{"key": "a3c8f85a83ac11255b23d932eb0f5b02046b2686", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "62491957a10506410b7235e27c15e1466adc7b54", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "68961ad64b930e7e0a9097c9270f323b83cbbf56", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The context directly states the count as 440.\"}"}
+{"key": "004cc18d1932aa51e5ff20b4e26fcdd4729556f2", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The claim is fully supported by the context.\"}"}
+{"key": "62aa950769407f858036d1ca96ce3334c6214228", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it mentions checking the Service Status page, but the steps provided are not fully aligned with the reference.\"}"}
+{"key": "64c06d725ff86e59bc620c4532869bd381cb5d86", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention the Service Status page or E1, and the steps provided are not directly related to checking for network outages.\"}"}
+{"key": "1e128acb365b7460a00aca8c7cc0d8e7250b273d", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer includes a claim about checking the Service Status page, which is supported, but also includes steps that are not detailed in the context.\"}"}
+{"key": "97bc8e720e4d85d1d3f0fec76c618d6835bb868a", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answers are accurate and relevant to the question.\"}"}
+{"key": "bab0e285f5fb9a504e8c963ad86185083751dcfc", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not mention any DND short code or Help > DND Preferences in the app.\"}"}
+{"key": "145a1ea20e4c45b6c1255c963ca6a9ef4d2a88bf", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "7b743da51b3fe5bda482740766e21e587337a7db", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "61f05421b000796c27283fafdfa464ce996c5b96", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "f7c16f95b6afc47850bf64f9260dde96eb8767b8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "57c6d25d76de989304777aa6520639ce208d1f1b", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer fully covers the reference evidence and directly answers the question.\"}"}
+{"key": "6b48cf24b0e02384fd5554f06c6ab2cab1cdbb11", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "dcec593aa54b93be0ca5ebe3666e4b2649339d3b", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "b219f9745e9aabad8c0fd4b5ee51d49a0763ca5c", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question.\"}"}
+{"key": "aa72beb1818e24bdde5c4220459c09682b963189", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context provides specific numerical benchmarks for service quality, which are not aligned with the claims about 'Quality by Design' and 'continuous improvement' in the answer.\"}"}
+{"key": "1e80900867b31e2794b8378a6fd9f8627b6741b8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "2b8d146ca197e37a5265b55c1e01b090755e027e", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Matches the reference evidence exactly\"}"}
+{"key": "d0603bed1f92f3cc24222b56aa588411070ac165", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The context directly supports the claim.\"}"}
+{"key": "205129e998cb17675d05b8828f0a876f861ecc88", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The claim is fully supported by the context.\"}"}
+{"key": "cc6747906b1bebed62ba371759b7ab072dd023d4", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Missing standard KYC documents and fastest route details.\"}"}
+{"key": "35d9698abb94220dc39eb6efdccb3d68cff7b6d9", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention visiting a store or using the My NovaTel app for KYC re-verification.\"}"}
+{"key": "ab69e6f75f11359be30cef3f5e9f8f2c35ad49b8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "3dea6853ecf1ea0a4faf1ae39318933dfd607084", "raw": "{\"correctness\": 0, \"relevance\": 0, \"reason\": \"The answer is not relevant to the question and contradicts the reference.\"}"}
+{"key": "d623e2f2fabdc438909b0acd45f87f207333d9b1", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not discuss the process of porting a mobile number.\"}"}
+{"key": "6d688488b4591321fc249a167e652d2937deb3a3", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"The context does not contain information about porting a mobile number.\"}"}
+{"key": "6b6f7baa2b1d08e86e42b06c1d856cdd3844d737", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "6806933c9c79a0273cb549091cf1ec2a4c3e7ded", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Some claims are partially supported, but kyc_id=14100 has a different kyc_type than the context.\"}"}
+{"key": "be78a0fce83d26d91b7d4529776dc7dd42c6c854", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "ff52b326e2c4eb30ca53a18520fcdcd7a60f7bf1", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "ac9f6f6c5b3132c73a27b8fe2ab6c90e053b1ebc", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "59cf9cdcc00186fd03748e8e9e9c3617c36c69a3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "9230e1e939c11bfd3d22d70914b8301bff6a58e6", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "8bf08a5bc83e9ddad8e16e5646535477ca373080", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "a3ea20b7fcea3fd37915f6db7494af33ccfdf7b3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "3dd9b05d4ed25d38b0f8d23b2e415938e4a0ee16", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "90250e42e11ad46efa1ebf0196d5af6eac32b5a8", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes the troubleshooting steps and aligns with the reference evidence.\"}"}
+{"key": "cb383180eea16c6e9253a985f9c5002c58c09f88", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claim E1 about avoiding sharp bends is not mentioned in the context.\"}"}
+{"key": "d8f3a931d08f95145cbf1e14088aa3f2975af22f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "6d7606b80978c499d6f03a8c04f7c9ddd66904b4", "raw": "{\"correctness\": 1, \"relevance\": 0, \"reason\": \"The question is gibberish and unrelated, making the answer off-topic.\"}"}
+{"key": "0c11c028fd1d0d2a6cdac4ff2d692051a48c5bba", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"The context does not provide any information.\"}"}
+{"key": "2f0c60cf60185dc7c0df8a5da4d39fa0754e4eb8", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Completely accurate and directly answers the question.\"}"}
+{"key": "2142fd2e48934e82dbe7cabc16cd2125a2b9f2e6", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about tariff oversight, quality-of-service benchmarks, and consumer protection rules are not directly supported by the context.\"}"}
+{"key": "d87b2cc3f4749888fa4bac26293f5e2ec7c79bb6", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "f7ac2e31b163d6375d33d790b82adc2ec98165d3", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer correctly lists invoices for customer 1009 and matches the reference evidence.\"}"}
+{"key": "c103d9c69b3b48021482c6d8ceb7d7fe2930ae82", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "87cffec5850042861d62d9b21430dff6489dd45e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "a288ec088015746b1459ead25b6c2b1f56b5adf2", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "c98973c33ee1d6b7a48a2d1758c89cc7e02c1245", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claim about Voter ID is not supported by the context.\"}"}
+{"key": "1917caac661a93b236645c9bf79ba591d4e34e81", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "799d41319ce86bd3c4ff671c73942d2e616befcd", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "ebed648f604f5e9d07081c3b68a84b60254a44b0", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "ef4e57515ce476b4122d436d67aad08a716bf0cc", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "07730ed6f20271a8040f310b9ffe4414e2a1c3ba", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Does not provide the correct plan information for customer 1001.\"}"}
+{"key": "78cc7c2811d5894e1403cb4f9ccc9df516d9c736", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any information about customer 1001 or their plan.\"}"}
+{"key": "f2815deffe1116e846014227b1d6358854099220", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Lacks the specific list of overdue invoices.\"}"}
+{"key": "3be6c73b3c07d49648cd8178db0b86be3b8cf2b1", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context only provides information about the number of rows and their status as 'Overdue', but does not support the need for additional details such as time frame or specific account.\"}"}
+{"key": "87bb4d9a0d8bd1b0d5e19f32c34b5722bf65f434", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct command provided, fully correct per reference.\"}"}
+{"key": "b3b801f695cae8c0a6a02df7c35d97bc69ceb6d1", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any command or example of how to show the SIM inventory with a specific status.\"}"}
+{"key": "c4c5530e95e2388040ee955d02393d6688f28d61", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer correctly provides a SQL query to fetch Rejected porting requests and is directly relevant to the question.\"}"}
+{"key": "52185f8f3c009ca577a3f249aecacaee98b2e2bf", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any SQL query or instructions on how to write one.\"}"}
+{"key": "ce63fddd372b34ff5a068b6c4ff74959ee3c0b84", "raw": "{\"correctness\": 0, \"relevance\": 2, \"reason\": \"The answer contradicts the reference evidence and is not fully correct.\"}"}
+{"key": "72657204a7c534ae99a601ffaa666e6fbbd30f01", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context only provides information about the number of rows with the status 'Cancelled' and does not support the steps provided in the answer.\"}"}
+{"key": "29f2b2c0061cc812633d9f40438ced58613137b2", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Query is correct but lacks specific anchors and status.\"}"}
+{"key": "f16747307b5c7d61c08e543777c05e6a53cfacb8", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The answer provides a SQL query which is not supported by the context.\"}"}
+{"key": "ded640577dbc8d3cbc6e1daedc34766d5c325031", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it provides a general approach but does not match the exact command from the reference.\"}"}
+{"key": "0510506d87bed6fa7aa235766ea87ba426e7b788", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context only provides information about the number of rows with the status 'Suspended' and does not support the detailed steps provided in the answer.\"}"}
+{"key": "4438c12c011061e3306ab7b77057ef91e9c7d1eb", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Incorrect times and additional details not supported by reference.\"}"}
+{"key": "c01f76a91e9f0caf2facae415bd3282362c9b3ab", "raw": "{\"present\": 0, \"reason\": \"The fact does not match the answer.\"}"}
+{"key": "65d0349b9dfd5f03f7a1b68b0547bd7c5a9652f6", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The detected and restored times do not match the context.\"}"}
+{"key": "1e3c6bcffb1d93ec3fbde0b0fcfef858d5117fe8", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct but lacks specific numbers and exact details.\"}"}
+{"key": "3058201673b0700dd677ebaa0514cdc8efebe5ff", "raw": "{\"present\": 0, \"reason\": \"The answer does not explicitly state the fact.\"}"}
+{"key": "d8908c1998540623f75743c1208580d98fbd7711", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about the number of customers, reversal time, and configuration change are partially supported, but the answer introduces new information not in the context.\"}"}
+{"key": "f83ac95d83e4e0bc6b00fe05dd69fe5be16692a4", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Incorrect time for service restoration.\"}"}
+{"key": "4806e38ffe35f6d73d4c539d5f8a6064c4aa8479", "raw": "{\"present\": 0, \"reason\": \"The fact does not explicitly state the long-term fix prioritised.\"}"}
+{"key": "93f42d18d208645cdb667c755d7ad1afc015850a", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"Incorrect restoration time and additional long-term fixes not mentioned in context.\"}"}
+{"key": "a14fbfe8c90cbd853db27701bd52a6d9c19ab791", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Incorrect duration and no mention of TLS certificate issue.\"}"}
+{"key": "0c7606cf1ad1188fcf0755bf5537f85c829e4cec", "raw": "{\"present\": 0, \"reason\": \"The fact does not explicitly state the duration of the login block or the specific reason for the automated testing failure.\"}"}
+{"key": "c398f1c779cb3db5678e6340658020ca7ee2f716", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The claim about the duration of the outage is incorrect, and the context does not support the specific cause related to test scenarios.\"}"}
+{"key": "450ef6a303a8d83f62e98982d8db0fd1b6b89116", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question.\"}"}
+{"key": "87a225a950f65907b8b4830c51940280ade7bdad", "raw": "{\"present\": 0, \"reason\": \"The answer does not explicitly state the fact.\"}"}
+{"key": "19bb49c2dca689af558e3b9af00145ef7672f0bf", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about broadcast time and takedown gap are partially supported, but the answer includes additional information not in the context.\"}"}
+{"key": "802c8cac2e45453bfe2e729c21873d6159682ebc", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it does not mention the potential for service suspension, but relevant as it addresses the pending KYC status and what to do.\"}"}
+{"key": "dd493a13dbec87cdcccb6d1ad34a1f5f6a59d3ef", "raw": "{\"groundedness\": 1, \"hallucination\": 0, \"reason\": \"The answer does not make claims unsupported by the context.\"}"}
+{"key": "f3855a801d2850d2d8a2194ff3d1a47ae8609a6f", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's concern.\"}"}
+{"key": "df8b983168402c453b1c40b606d261f0a6940c2e", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer mentions a 24 to 48 hour refund period, which is not supported by the context.\"}"}
+{"key": "a3e74f04be7975c7c4199631a78e82128b32ebb8", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer is fully correct and directly addresses the question.\"}"}
+{"key": "2da8df79a8279789550801ef22e78d58eef54e51", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "c11b4df2e47196e0f46404cfeab8fb1377fa31b8", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer correctly identifies the required documents and is relevant to the question.\"}"}
+{"key": "2b67007e8b36a4dc30f34c8ec1e4a979a43dbed6", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"While the answer is partially supported, it introduces the concept of 'government-issued ID' and 'proof of address' which are not explicitly mentioned in the context.\"}"}
+{"key": "2d93fb2c020f7021b3b5783e539fe24a3ed779bd", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "8e57f650e7e875de0b76522c20d1af67eae83ea8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "2fbb2601cb48864d5cdd7f7327329a9d05ca9829", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately addresses the bill components and dispute process as per the reference evidence.\"}"}
+{"key": "98b49d50ac17690b2d6f14b3ab2572d0a9fa3dcb", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about bill components and dispute process are partially supported, but the specific breakdown of charges is not.\"}"}
+{"key": "51529c46cc15d377be98049def48a5745fbc7262", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Provides a method but does not give the correct payment status and transactions.\"}"}
+{"key": "e24be927395187e3a771e6cc97a3a88a04e75860", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims about invoice 5001 and payment transactions are supported by the context.\"}"}
+{"key": "ae8b5da74a17c675fa4c9d4425d02a61618a1930", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answers match the reference evidence.\"}"}
+{"key": "8811bef8e2364ef11d47fa6bee00126f4a7dce4d", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer provides guidance that is not present in the context.\"}"}
+{"key": "d700202f560a54a0c91f4fbb339b376bd9729bea", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Incorrect service restoration time and missing long-term fix details.\"}"}
+{"key": "ce2f3d8d53a7be9e5c0d607a8ded53c852bbd190", "raw": "{\"present\": 0, \"reason\": \"The fact does not explicitly state the long-term fix prioritised.\"}"}
+{"key": "06326f4f930ec91a0cd346dce52e3ca76561179d", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"Incorrect restoration time and additional long-term fixes not mentioned in context.\"}"}
+{"key": "e82cb276de1510002b4bface7af975c65e3600eb", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Incorrect duration and no explanation for automated testing failure.\"}"}
+{"key": "e8ac31b1423f111bff4868ecfe331298e706d6d9", "raw": "{\"present\": 0, \"reason\": \"The fact does not explicitly state the duration of the login block or the exact reason for the automated testing not catching the issue.\"}"}
+{"key": "6bf1fe82e7a0e2c1ec447a8f16929f8f09d71666", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The login duration is incorrect and additional details about automated testing are not supported by the context.\"}"}
+{"key": "f62c272560f5a0de10b8b521427b1b879f393264", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Contradicts reference evidence.\"}"}
+{"key": "9c712de234836bc288566a925e2e3f09a89fac5a", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"No information about customer 1001 or plan_id 2007 is present in the context.\"}"}
+{"key": "ad33c1861a6a1027598137a7ed16e4fe01d32a25", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention 'Value Combo 199' or any plan with 1GB of data per day. The plan_id 2007 is not mapped to any plan in the provided context.\"}"}
+{"key": "cca9b064aab8f546ec578ef593ef38ad3056fce9", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "6c90e101aaf178ce2a88bcafdb6dee8003aa5dfb", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Due dates are not provided in the context.\"}"}
+{"key": "448fb88c69286466d08d3060321187d0b5278f22", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "a87e39707fa4d111c6c9b3e45f5fe56117955225", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "5865970d5aec25ddd12aa74ba1a564484bde932f", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"No sim_inventory details are provided in the context.\"}"}
+{"key": "e1ad0b9811aa35833759942f177a3e69c306b2ac", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "385214d297da4be1073dcd2afa31ba17d11aa78f", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "18eaf3b56425b74e62c8fb98a4734fa4e3e1e079", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context only shows the status anchors and does not provide any specific porting_request details.\"}"}
+{"key": "71bcc7af5eb8b9bf8a1c6033dd65537cd6573ce7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the structured evidence.\"}"}
+{"key": "fcb2d929964f9bfbfefc47e24c55598a514ca81c", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "a092156f016a6193958d97aeaa7aa05ea2ec902f", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"No order IDs in the context match those in the answer.\"}"}
+{"key": "beb85a54e818e831087c4fb58f9fb27206ac2f1f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "748164b95684cc6aff9f1b9a445eff4fb4c2e21c", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "d283c3a967f070e282ef78d6fd852892699a4fda", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Context only shows 5 rows with status 'Open', but the answer provides 3 detailed claims.\"}"}
+{"key": "897af1e92170850821484003c8397b1f44c5a01c", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "8efb93d078be260970b5abacbdad7d671d5b0f4e", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "366b09a3f077c96e522485e80a17eb750446954b", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"No fiber_inventory details are provided in the context.\"}"}
+{"key": "b72ef08b89ef5b84781a3cce262bb5744d50318b", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "b3d324d097915622a4002854f63145e566b795fa", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "2f9babeba7b4c8a38b3fb6b6a8dec45fff5f1dae", "raw": "{\"present\": 0, \"reason\": \"The fact does not match the provided answer.\"}"}
+{"key": "87197c0111f8c2ddd61383fa743befcbda9798d6", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "b97719151acb0050765918e454e630ab55960dc8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "82776bb7f5f3ebb8e87b2fc9436dc5ca31c23645", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence.\"}"}
+{"key": "cd9da284bbdc9fbec5b09035a6e83c4c12a7c98e", "raw": "{\"present\": 1, \"reason\": \"The fact is explicitly stated in the answer.\"}"}
+{"key": "854041d4c7627b1cbf18f75751e4839926d62e53", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "c24d874980956c895643b0db43f4580c2d9df61a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "cc8bf0abbd0568f207a826039c6d51126de38d27", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer accurately reflects the reference evidence.\"}"}
+{"key": "153aba8abb3e3b049590461f7db3f12a30a9a0b2", "raw": "{\"present\": 0, \"reason\": \"The fact does not explicitly state the long-term fix for the trunk route.\"}"}
+{"key": "0dfa5458087547f9feb5d71eaa54481d97e6cf62", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "b746a65299468a0f41a19cb3e22f081c5ab1101e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "808caf98cf1ee12245edfd76e163c36a19401745", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "18b32e26a3c53fa667edca4944baac141450600a", "raw": "{\"present\": 0, \"reason\": \"The fact does not explicitly state the duration of the login blockage.\"}"}
+{"key": "5d7e025c5cd63c18f64a13e342298ff7e79d2b67", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "55fa0d664332223a3728ebb0fabf6874e65130cf", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both the duration of the outage and the reason for the automated testing failure are directly supported by the context.\"}"}
+{"key": "c41e21351bae630767bea258682010f0e1217764", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence.\"}"}
+{"key": "4276af70e78b7ff67385c5b71ebf2eec468946ba", "raw": "{\"present\": 0, \"reason\": \"The answer does not explicitly state the fact about the takedown arrangement gap.\"}"}
+{"key": "8c1a5d57e4176c9ed2bc544eb62538e65894df79", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "7ea5a82abd768e88f64a48bb714fedaa26876a4a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "d6c5ac20a7ecb697b384dcba23aba074ec5eb58a", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer aligns with reference evidence and directly addresses the question.\"}"}
+{"key": "f09b126d131481b77b971fc200e40b60108393b4", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The claim about disconnection is not supported by the context.\"}"}
+{"key": "5ba411f642e1f20031abf4fc6ba8d869dd086ac2", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not explicitly state that pending KYC will result in disconnection.\"}"}
+{"key": "2afedc8e691f8674942109ef15872cd1e88ad810", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer aligns with the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "68c20000f42e8a29198d4470e4506270f6b888bc", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "f66d5771385391aea4cd55d955846b345e3fe90a", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention the customer's ID as 1056, and the transaction amount of ₹949 is not supported by the provided context.\"}"}
+{"key": "3f3cbfecee3ea5f264e037b2829a22b9a12269be", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it addresses the possibility of deactivation and reactivation, but does not mention the specific invoice status.\"}"}
+{"key": "0930e8f4fb67bbc767d92ec9afeb3d5e0dce45c6", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about the bill status are not in the context, and the context does not mention the payment status being marked as paid.\"}"}
+{"key": "cdeb3466fa48fae63b78518d75712064d197c347", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "23ac19d3a6fad0919630c83088ddab9761dbe732", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence and directly addresses the question.\"}"}
+{"key": "c1afc3a9b95168c439f10d4b169805d62453d231", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about specific documents and the process are partially supported, but the mention of Aadhaar as the only Proof of Identity is not.\"}"}
+{"key": "c9ac7cf8be67fb51228f63a8d797d48f44a47af8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "9104c3694a5bc0e749af1352053f5e5653d08fa4", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer aligns with reference evidence and fully addresses the question.\"}"}
+{"key": "a7fa3aae6bdd08fd4dd3791a93412515d224def5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "ae47b1c5199b6940af5893a46d1f331e7029cb9b", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "71bfc6f9a9744faf30fed329100f835d13a97bff", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer accurately addresses the reasons for the bill discrepancy and provides the correct steps for disputing the bill.\"}"}
+{"key": "169da36dcdada8e97fe92a451821a330d24ee371", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "864840a57828a6c5ebaaaab7fbd2945a8b2eae26", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "a7dbb236067c358b1b27f08c5c7646f19adeed56", "raw": "{\"correctness\": 1, \"relevance\": 1, \"reason\": \"Partially correct as it matches the payment status but misses the payment transactions.\"}"}
+{"key": "df7a3c2ffe476ca959e9f05113bbc95cb52349db", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about payment status are supported, but the claim about lack of payment transactions is not.\"}"}
+{"key": "4a41d17cd5a03cd002612a11f123712f0064177c", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both the payment status and the lack of transaction details are directly supported by the context.\"}"}
+{"key": "7b5f738b3e8611963b530570e344dcb64ac9f62c", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct status, but level and status of escalation case are not accurate.\"}"}
+{"key": "088f2c400d02db639ebd714d6f48d94bce524214", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "d79740486ff51790794657419fbee3905488c7d7", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The escalation status is not explicitly stated in the context.\"}"}
+{"key": "0f7a9bb56f11faeb91e8eeb8cf9120e93e80b31f", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "d56c2b60e4c10a7f0c76642c0838c220295d51c4", "raw": "{\"present\": 0, \"reason\": \"The answer provides additional details not present in the fact.\"}"}
+{"key": "6ec2b6938ef8478246f79fa39fb7ad2fa4f1f9f3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "93f836042eb525f2a6f2cf5f335ffd7b40b64a75", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "5ba06c26cf76f03ab0cac6a240506455d317b468", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer is fully correct and directly answers the question.\"}"}
+{"key": "75054f23ad5f19e20ebec01ac50383a37bc1fd15", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "5278a848926d4dd0caca39358a2dc5e914090270", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention that the number may get disconnected due to pending KYC, only that outgoing services may be suspended.\"}"}
+{"key": "64353fcbc520da024ca9d957368546c66e1b4c71", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer aligns with the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "f0ace8684df36900565c5609648f3fed233ba053", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "a3dae1f514338c8389c9e9c34b789e61df73391f", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention customer 1056, and the transaction amount of ₹949 is not supported by the provided transactions.\"}"}
+{"key": "e2d4f34e370fdf1a169ae2052b14fce06318483b", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correctly addresses the potential deactivation and reactivation process within the given timeframe.\"}"}
+{"key": "1a1adb4edf1d64e9fc1a520a67d79b0c27a7c63e", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about the bill status are not in the context, and the retention window details are supported.\"}"}
+{"key": "3b62628b3484c18e5e21412083465adea43a8870", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention the specific scenario of an unpaid bill, and the structured invoices do not indicate any unpaid bills for the customer.\"}"}
+{"key": "adad15155752847908cbe826016446dc8ea60f34", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence and fully addresses the question.\"}"}
+{"key": "6f0392551c88649e90464c151acd88524964b0fd", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "beb4bb2ddfadb1172129ad205fdf2c2c1dd914ec", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "58dee049e3544dc48131ed0a8f8329539dcfeb05", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer accurately addresses the reasons for the bill discrepancy and provides the correct steps for disputing the bill.\"}"}
+{"key": "8d75f85407a6ce60ddd8ecae165c27c0b26ee7a4", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "7251f24c1aca4a16091d767df9b78c02470f36f9", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "47ad4eaae70ff7df4fa4d81de3371bfe955e2827", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention the 'Value Combo 199' plan; it only provides a plan ID (2007) which is not mapped to a specific plan name.\"}"}
+{"key": "4eb80758044e95bfad4a101242f7e8a585bcd5d6", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "7c48555569b87dfbb78be6c7dac057ff965571b6", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "dc1cd244a19a9ea7a925a3e9ef805b2e51bbe309", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "8f13cc009fb2a63f60d1c70b1f174fa16a94c2da", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "30a8b50651cadf99975ba54bf1816d552057d9e7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "10cb3afe3ae0cc3a8da7f978097b0606c780d27c", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "105176a980c379cf86b1548f24110cee37219bc3", "raw": "{\"present\": 1, \"reason\": \"The fact is explicitly stated in the answer.\"}"}
+{"key": "7298b76dc6495c08839952db61e17aca20f1aa1b", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "c50fe1761856a225a2de801b981f98a246c1a4af", "raw": "{\"present\": 1, \"reason\": \"The answer paraphrases the fact.\"}"}
+{"key": "cb7fa7e2667a0e45ff5c3eef5f9f8c35cf65c274", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "70e27c31aa4b2e10eb32b5a7111abee751fa28e1", "raw": "{\"present\": 1, \"reason\": \"The fact is explicitly stated in the answer.\"}"}
+{"key": "12b35fd11974c4e0dd3bce8989cc2e01f1f9fc50", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "ca5f30d23cfa42574c0f1b74fd1f7a54d904520d", "raw": "{\"present\": 1, \"reason\": \"The fact is paraphrased in the answer.\"}"}
+{"key": "c6b102c69b35f5b4b3c6f35c0d58923f58194f70", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "9963ee457548ee80cc77b0a9a0e7208d093e9272", "raw": "{\"present\": 0, \"reason\": \"The answer does not explicitly state the fact about the lack of a pre-existing rapid-takedown relationship.\"}"}
+{"key": "bfb9a01babcab0af37c8ad8381b1f8a789616d88", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "0825f3ef6c03dc8d62401e268296dde1bb438920", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer is fully correct and directly addresses the question.\"}"}
+{"key": "d7df9ec1f76f1b2f3788a3246d3f79b530e1bcf6", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The claim about potential disconnection due to pending KYC is not supported by the context.\"}"}
+{"key": "f6733ce9fd95b40d464030e5f5f7486226e30979", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer aligns with the reference and directly addresses the customer's concern.\"}"}
+{"key": "70e8e6cca7e35ff43975374604f8bfbc14a3b10e", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention customer 1056, and the transaction status is FAILED, not SUCCESS as stated in the answer.\"}"}
+{"key": "bc57ac5ad18c8649a6a0f9f8f92a491405ad0056", "raw": "{\"correctness\": 1, \"relevance\": 1, \"reason\": \"Partially correct and relevant, but lacks the detailed explanation and retention window information.\"}"}
+{"key": "7248bbd09d0d923af68e7fd977730530770a56f1", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context.\"}"}
+{"key": "ea270a21bc1f5bc8d2dc0a7b7003ede55db498f2", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "5a12eb703c23ed07ec297649034e9a407af268a7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "61640a316680ea68628845210fc0582c7d39e47e", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence and fully addresses the question.\"}"}
+{"key": "9916fee9e098309c8cb6962e10c1f254a5a20432", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "dfac475e23f8772350c9d077767c4cef3ec8e56a", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer accurately addresses the question and aligns with the reference evidence.\"}"}
+{"key": "29f3128a96619d448b860e29f2cebf0688233493", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "ceb31959ea9b4c0647ba894af27ca0dafb545df3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims about invoice 5001 and the payment statuses of other invoices are directly supported by the context.\"}"}
+{"key": "84cd46b5fc7608f3e63b393505d34afbda5cd95c", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The status of the escalation case is not explicitly stated in the context.\"}"}
+{"key": "de1ae6202e29566b3a3bba1aa4fdd07cd53e98d7", "raw": "{\"present\": 0, \"reason\": \"The answer does not explicitly state the fact.\"}"}
+{"key": "0e53621f1d38eea52b9cea535b033d741b77a76a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both the detection time and restoration time are directly stated in the context, and the lack of automatic failover is also supported.\"}"}
+{"key": "9c400c187472454208ace3bb0d8709b8f6b2d590", "raw": "{\"present\": 1, \"reason\": \"The fact is paraphrased but accurately stated.\"}"}
+{"key": "5b274dad9657ec2bacc9ed7598562ba4aabb0d7e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "82f7824d4e18c97b95d03597b3bbe51ba6f47227", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's concern.\"}"}
+{"key": "2a3b763dc25e78a14c48a75494d2bd9608f3a21c", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention customer 1056, and the transaction status is FAILED, not SUCCESS as stated in the answer.\"}"}
+{"key": "df1c298d237741fff8876cfb4401f1c089fa4822", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "4ab6fa5d8b1d5811f2cf86a8c34e2f32a4bc5e4b", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "ad41c17437922b090f9a6bd93ef161c4fae29520", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence and fully addresses the question.\"}"}
+{"key": "aa8654478f2b1f8afae7dc69bbbdc4a4838d31dd", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "3b981c9fdd8365535221219515a0002382d1e575", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims about invoice 5001 are supported by the context.\"}"}
+{"key": "ec25dbda1bdef64ced7be7e08ed316775c505916", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both the ticket status and the escalation level are supported by the context.\"}"}
+{"key": "f9209db43d143bed86f138b31c11eb2ab036a71a", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Incorrect plan and date provided.\"}"}
+{"key": "ed3e33c4dd25826dfce35cc0b69684ad81af9213", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"No information about customer 1001 or plan_id 2007 is present in the context.\"}"}
+{"key": "753d34acd0bec15e7b9807db2ba874a547a83d31", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are supported by the context.\"}"}
+{"key": "75b3df75b10442ddd5b1a3253b3ebdeaba9531e5", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "e33201efb43e980b3f711e39347b6c193e424a23", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Due dates are not provided in the context.\"}"}
+{"key": "90aa6af89e7be3d8a1260114103f23b1421eff53", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "c645cca3103bb2eef0f4ab843a4140bf35aca553", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "033d255f87eca415565834f53ff5c1de09cb516f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "b737cbb5d8df7272ec4d699996dbbd55e68d05e3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "516ae80bd31fe1f3b402779aae4719364d28ab91", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "ceb7f8a28b5a35b3adec37cf2a8e776115329df7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "6183e4c19ab4181a1ef8b4781c0b9f2129c26478", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are fully supported by the context.\"}"}
+{"key": "d895e1ca03e6f041eb4f0a8b30599b6663007bf2", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct, but includes an incorrect order type.\"}"}
+{"key": "d21e82775dbd99d272e2b78d6b3b5486cbfaa8c6", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"Order types and dates are not provided in the context.\"}"}
+{"key": "1aff4a1728d1ab7b75c1afc8b4efd0cb2100a1ad", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "0803f0576178d180e685729ec4fc71c6f11c24b8", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "c9c7450e88e3f87800b3fa5b8c48d4e2da07ab5a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "0f39c8f1bc1faffc7551e695351c31c419429d50", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "f9a84a0c603c69e64e13c965cc401fba36423751", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "50c1898659f4f3836dccafbdb8619665c702bb63", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "4c94fb2c057ee09f0a97c974615fb3b0474bf2db", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "2e86eb2167f84297fafe194da9f65647f6bf3760", "raw": "{\"correctness\": 0, \"relevance\": 0, \"reason\": \"Answer is incorrect and irrelevant.\"}"}
+{"key": "ce8c0e261d46bf12bd3c496de98f50a854f3ed16", "raw": "{\"present\": 0, \"reason\": \"The fact does not state when the fault was detected or the restoration time.\"}"}
+{"key": "46323a85d8d84f8db20760a962089fbdd6b9e391", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"The answer does not make any unsupported claims.\"}"}
+{"key": "0bc5dc0be744467905d8ac17e6a5844fb9df6ca8", "raw": "{\"correctness\": 0, \"relevance\": 0, \"reason\": \"Answer is incorrect and irrelevant.\"}"}
+{"key": "097c1b17f2e8f7d6fdf4849572ab47876c45d50b", "raw": "{\"present\": 0, \"reason\": \"No relevant information\"}"}
+{"key": "323f22a4505cf88273ddc50f94561f3cff5ff7f0", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide information about the number of postpaid customers, the reversal time, or the specific configuration change.\"}"}
+{"key": "2d9543974542af60e51baf77866019f4b1699772", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"No claims are supported by the context.\"}"}
+{"key": "cbda06d7e31b191b322054b466bb66f5898cf8d9", "raw": "{\"correctness\": 2, \"relevance\": 1, \"reason\": \"Partially correct on the long-term fix but lacks specific service restoration time.\"}"}
+{"key": "5d18a4e5bfa680fdd2e1e3217151fe71edb47d9d", "raw": "{\"present\": 0, \"reason\": \"The fact does not match the given information.\"}"}
+{"key": "4ca6151ac6f3f8707dff590767f32659b8758418", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both the restoration time and long-term fix are directly supported by the context.\"}"}
+{"key": "693e9b099960465667525003b6af1960f32b9b0e", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not contain information about the specific outage INC-2026-0179.\"}"}
+{"key": "1930d03cc9110026553e6fb1fa2f3201d8ba6fb3", "raw": "{\"correctness\": 0, \"relevance\": 0, \"reason\": \"Answer is incorrect and irrelevant.\"}"}
+{"key": "380bac2bbb11a8ddd07901a500aa4a7632499371", "raw": "{\"present\": 0, \"reason\": \"The fact does not explicitly state the duration of the login blockage.\"}"}
+{"key": "b4b76653acb4867b6ea3ce51e4b89ec0a37c225b", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"No claims are supported by the context.\"}"}
+{"key": "b84793cb80d59962cf2c6435154682dd3918fb6d", "raw": "{\"correctness\": 0, \"relevance\": 0, \"reason\": \"Answer is not based on the provided evidence.\"}"}
+{"key": "fe2743ef1eb7d6e4048c43feed39747f478390a7", "raw": "{\"present\": 0, \"reason\": \"The fact does not address the broadcast time of the anti-fraud alert or the takedown arrangement gap identified.\"}"}
+{"key": "ce33f50d07d4d45b3b113f1a901a596267d78b1f", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"No claims are supported by the context.\"}"}
+{"key": "cb4d06c6b767f081ccfa4773a1c80b146cede202", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer is fully correct and directly answers the question.\"}"}
+{"key": "0980d17cc9d324c9af137c14b878a3ad61fa3327", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "36e9b14f3ba483c65f7dd44a96c2c808e13f3d6a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "c133e3836ea3bfda0367faaf5d780ca1cf222bab", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's concern.\"}"}
+{"key": "60878c366bcb5929427d4d73f6dda91679a11ed7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "db8e20dee667217a23e74860b55683157c4dd247", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "f03e61dc0ad1ba44aa7ebb9f48d90f92f61c03ab", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correctly addresses the question and aligns with the reference evidence.\"}"}
+{"key": "66dd2ef9eb35036e4fcb27154ddd173f48edde53", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about invoice_id=6735 and policy [E2] are not supported by the context.\"}"}
+{"key": "d077bd508c243b6a8415e291c9852e3ef643d622", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "79a1eec14c7da610c6fd8504948f23012cc7107d", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "932c566e313285d109ce4bdafc3d484de8651039", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about specific documents for re-verification are not supported by the context.\"}"}
+{"key": "4c09049d959d8be45b7eb5aebecab4990069618b", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer states that Video KYC is an alternative, but the context does not mention this as an option for Aadhaar-based e-KYC.\"}"}
+{"key": "e0d387e233a31bcfccdf4925b188ef13763a0024", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "0f125b70810ebcf77224ea18c2f2bfc9dae71bdb", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "f7562430200db18fb45114352578445a73a3ae63", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "bab30f763a54a92c63335eb8dba1f9b6d16b1ca5", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correctly identifies the steps for disputing the bill and aligns with the reference evidence.\"}"}
+{"key": "326d12cf683777470884a52b3452f131ea8db7d0", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "ddeb4a58a663c91f200bf1b4e09a4e607c9b0774", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "e671448c9ec7a5d52e551ffbe2fe11b809f0eab2", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correctly states the payment status but misses the payment transactions.\"}"}
+{"key": "4cfbd29bdf43d93a001369c0d36a40049ac81409", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer states the invoice is Paid but does not mention any payment transactions, contradicting the context.\"}"}
+{"key": "a39d924406cecc65c86f5f406b00d2f964fad0b8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims about invoice 5001 are supported by the context.\"}"}
+{"key": "64ffa1150dd8ae0ca126e078287ce4dd09229fc2", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "8bd2d36932c440db12f1a178fe384ffaa1d61b7f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "cb4c7c074e605240f4e9c8f58acfa1d3722f09c4", "raw": "{\"groundedness\": 1, \"hallucination\": 0, \"reason\": \"The first claim is supported, but the second is not addressed.\"}"}
+{"key": "d135b068c9c07f84417d6e75dc048a802dacdee8", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answers match the reference evidence.\"}"}
+{"key": "a7c822dde89580dd02adb4cd051b80e0b56f88a3", "raw": "{\"present\": 0, \"reason\": \"No relevant details provided\"}"}
+{"key": "d0977e0fbcda60dfb7bd18b08294288f73c15d6f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "c4f256e83201513f3aae29342c0e6418bdde27c1", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not contain information about the Pune FTTH outage INC-2026-0179.\"}"}
+{"key": "336da1e79ccdde0f9a1c71821c843161aec68ae0", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer is fully correct and directly answers the question.\"}"}
+{"key": "a55700cbbf7efd3e247078ec33ed6c9ff8860de9", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "bcba9cd4900af184345e806f78702ea5760404ec", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "13bfbef8217c7e9e81a4590deff76f4158ce4660", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer aligns with reference evidence and fully addresses the question.\"}"}
+{"key": "e63768f791aa46af19d8d029a2d2a7813ae93e7b", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "55eee882de7654fd9cf166a2a450fce9a48f99c9", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "e397904920733d08b23f175713712c07b0c0d491", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes the billing dispute process and the steps to follow, aligning with the reference evidence.\"}"}
+{"key": "cb1bd119bfcb6a5087d22690f1b33488ad356dec", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "ec920d831a7fa407369b93f2d9530ab8813055dc", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "768ed73d770e6fae13d2875c8095b0905692b87e", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct, but includes an order with a different order type.\"}"}
+{"key": "1686e57f5563c031e1a046c092991549e8868ccb", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"Order types and dates are not provided in the context.\"}"}
+{"key": "4f4fcf1d91ebc8c7dc8e1f74df44486e3de6af33", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "0954a5d08a0d4e00350c70bd1f8d087c07087c3c", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "cae55fd746579c4a964b4a135e9d46bcd358f2e5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "5b2d35971bef055031cc5d220f0c711edb256184", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "37ff3a0ad3901e3ed4d24cf66a067b5e77d27034", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "a57f6986f723c6bed4fabf38d090e9c8d78128f4", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not specify the documents required for re-verification.\"}"}
+{"key": "849ac2e0664f334e0c133581bc7dabb72704fef3", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer aligns with the reference and directly addresses the question.\"}"}
+{"key": "3242a4fd7ad8a45e38d6f01ba5f98737fdb33b27", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "2a53a830827a82e300cd44f91ead469f16fff9cb", "raw": "{\"groundedness\": 1, \"hallucination\": 0, \"reason\": \"All claims are supported by the context, but not all have the status Investigating.\"}"}
+{"key": "e5e90ae00552d9f5be880a9e02803fd4d30af8b2", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "55ca7d3ed8f350ba0a75b402c9886a997d75e4cd", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "b369dbf7763bf10fec0d8d5ded7ba6412c0208b9", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are supported by the context.\"}"}
+{"key": "03aa71596078ef9178a56ae727b9e4207c561cb4", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "abcd64679068a48e974af774488a388a34f20ccf", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "baa59f2367c2471226e5d0330f2c99337372c618", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "e3d1348c77f4d7ea6769fb210524c9556123afed", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "34364cca66f6c6485fc7043a9ea241d27229483a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "d310ab08a32e17a60c593c6b1b20aefa4145339a", "raw": "{\"present\": 0, \"reason\": \"The answer does not explicitly state that there was no automatic failover; it only implies it.\"}"}
+{"key": "bdb3653aa32fe5ccede650891ce8e2d738041706", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The detection time and restoration time are from incident INC-2026-0179, not INC-2026-0142. The lack of automatic failover is supported.\"}"}
+{"key": "eb0896e27376722fb45f29fe9f42e1a5166f18d2", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "416005f29ae6c5219303031ec563285b61a36ce8", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention customer 1056, and the claims about the money and actions are partially supported by the context but not fully.\"}"}
+{"key": "39e44dba82d747c91aa1f995397d1d49ceac8cc2", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both the payment status and the lack of payment transactions are directly stated in the context.\"}"}
+{"key": "baa3446ff90cab51b6f4dfdc7f6003cf8d00d35e", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer claims the status of ticket 11011 is InProgress, which is supported, but the escalation status is not supported by the context.\"}"}
+{"key": "c78fb9372fa2db602eab04c0170f7cf44c399aad", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "5f3212baee365d1de5dab167f22e194382edaef2", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately identifies the causes of the higher bill as usage and VAS charges, aligning with the reference.\"}"}
+{"key": "288d95aa0002d6143060642fef520ab0b6b3ae9a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "5d9bd087a167e3f90da0ba691c86c6febdd1664b", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it mentions checking the Service Status page, but does not fully align with the reference evidence.\"}"}
+{"key": "e66cf9c21b56c1cb924464d69bc9e7d3bf53532b", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "34e6cd2da429287816a7e2689ea7edd61ba7032a", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Partially correct but contradicts the reference evidence.\"}"}
+{"key": "3a8aed4edee21b76b6124b7f0013942944f5648b", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "518c89d4e38bd579e451eb01e7fd17e0c057a440", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Lacks specific instructions on porting a mobile number.\"}"}
+{"key": "d095d995c7323a70b8429b4f30aac0c9a38cbd19", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"No claims about porting a mobile number are present in the context.\"}"}
+{"key": "52e70c994abc4ba59535f359f5c2ac39d286fd6e", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes the process and aligns with the reference evidence.\"}"}
+{"key": "5bfceb9edb78dee77e2895efde835fa48afe68f1", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context.\"}"}
+{"key": "dc62314aaecf796b87ed0cfca94b2d3d7ba574db", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes the LOS issue and provides relevant troubleshooting steps.\"}"}
+{"key": "8a7d7f52970c3bec55370210de6355c52c714720", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "85f5a01356bcc22e03814108780b54951b274bb8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "b3348a90acb7860215509e788c4803d21d0c31b6", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All invoice IDs and due dates in the answer match the structured invoices in the context.\"}"}
+{"key": "e058fab0c18507d4fe95e685fd01a5b8c6cb34be", "raw": "{\"present\": 1, \"reason\": \"The fact is explicitly stated in the answer.\"}"}
+{"key": "120f9e1f43244e55fba2dc243bfae7a500054c03", "raw": "{\"groundedness\": 1, \"hallucination\": 0, \"reason\": \"Claims are partially supported by the context.\"}"}
+{"key": "cf97817874031737dec83dd98ebdea65fb9036cb", "raw": "{\"present\": 0, \"reason\": \"No relevant information for the fact.\"}"}
+{"key": "e838ccdd9d66759d5df6f5861e8e3258f3e96523", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"No relevant information found in the context for the specified incident.\"}"}
+{"key": "4c1fc3bd95ef3d65afeb9ddeccb59de169278393", "raw": "{\"present\": 0, \"reason\": \"The fact does not explicitly state the service restoration time or the long-term fix for the trunk route.\"}"}
+{"key": "2a34e99dcdb0669182295cb3ae4825ff4ecee105", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide specific service restoration time or the long-term fix for the trunk route.\"}"}
+{"key": "35e3a7e3d4f18c1091f99df6a8b0341bccbc6103", "raw": "{\"present\": 0, \"reason\": \"No duration or specific reasons provided.\"}"}
+{"key": "9f974e8641f0900b5cf881164043ba544135a20a", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"The context does not provide information about the duration of the login block or why automated testing did not catch the cause.\"}"}
+{"key": "a227b6e8d8c8312ecb6bffb5b35755f3679456f2", "raw": "{\"present\": 0, \"reason\": \"No relevant information\"}"}
+{"key": "d491b886ae6e951638df187c10e38ee76504993e", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"No claims are supported by the context.\"}"}
+{"key": "ce5d6fc2d8634796e32ba9070f4e0522319b434e", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer is fully correct and directly answers the question.\"}"}
+{"key": "2371bb70bf5ab34ec43c4f09a87bb55a3385c315", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "41320056e99533374e69585f7294fdf6b4ed85af", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's concern.\"}"}
+{"key": "741e2d73850da473e4745c0a395f7d4e48beef72", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "356458e3c6dfe75b96f3f5068e9d1064e5586342", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correctly addresses the question and aligns with the reference evidence.\"}"}
+{"key": "2974b08c771651717db205c356178278944bc12d", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "bb060aa6de89782db0f73dfb0aeb7af0b840c16a", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "9bedd26ffa6aa1f132e74beca6ecbe06e956bfaf", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "72a08b4ef073b3d4b7d4ab1592a847d21e4af46b", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correctly identifies the subscription status and the need to renew, but lacks specific details from the reference.\"}"}
+{"key": "401420cf108c30b7160686e917ed33ec6390fee3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "cca806ee66a1ce674a6683fb8294934d83ee02cf", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately addresses the bill discrepancy and provides a clear dispute process.\"}"}
+{"key": "9a51c47688915f33d2cc09983114616a050bc48f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "5f749394c85fa5c31b8c20250b8369f710baa87d", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both the payment status and the invoice ID are directly supported by the context.\"}"}
+{"key": "6d96981b1e76c4580dbddfe82bd08ea017cdd634", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are supported by the context.\"}"}
+{"key": "12ae7d40b870676631a076ec9e11b92a493dce87", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer aligns with the reference and directly addresses the question.\"}"}
+{"key": "8a722532d06af9062ccedc7b726865cc0ce5e655", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "478eded0e8fab6ab1f922cc3aa8fa8afe76231a7", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "2881f7ad4536e837f663f00286b82b9d1b49416e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "eafa3c03aff16cd68c65262d384a475dd92c2243", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The status of ticket 11011 is supported, but the escalation case details are not.\"}"}
+{"key": "52c82496bf3c9c6f108a72301354de5ca1fd35f8", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately identifies the causes of the higher bill and aligns with the reference evidence.\"}"}
+{"key": "ff4ee4b5a1e142d7bf5bdc3e00036ffeb9ac1095", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context.\"}"}
+{"key": "9f42ba7d791dd762350e9a01d85817931533bd7b", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it mentions checking the Service Status page, but it does not fully align with the reference evidence.\"}"}
+{"key": "28415b0cf7821618ac5f14e477590816fbdee983", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "f2fcff4bcc4da3c77a1aa3b41174634b8d6a732a", "raw": "{\"correctness\": 0, \"relevance\": 2, \"reason\": \"Documents mentioned are not fully aligned with the reference.\"}"}
+{"key": "2c445152231a95c8b4cf228190a22bdba72a8173", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims about the required documents and the process are supported by the context.\"}"}
+{"key": "585b7db5da1d19122a06ae92dc7c0ddfad65320c", "raw": "{\"correctness\": 0, \"relevance\": 0, \"reason\": \"The answer is not provided and the reference does not contain relevant information.\"}"}
+{"key": "5e6a9b2d2798fa5da64cc9fc24b042b5fb4426e3", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"The context does not contain information about porting a mobile number.\"}"}
+{"key": "100985b8e258e6e6752d60f01c5b4935aec3e271", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately follows the reference policy and directly addresses the question.\"}"}
+{"key": "128dbc3c4c7f7b5ce4932fde9171b633ddbe1036", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context, including the document reference and the steps involved in the refund process.\"}"}
+{"key": "8fac15490ba58749ce6383af874773de4fb6834e", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and relevant, but lacks the detailed explanation and troubleshooting steps provided in the reference.\"}"}
+{"key": "4e720bcfaad2b50c4fbbb307f931e677e44d37e9", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "c2df2a7db21d676840a407145efd7b5338edbac8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "658c47477f81649799f947f9ce8ccc1179437528", "raw": "{\"present\": 0, \"reason\": \"The fact does not explicitly state the service restoration time or the long-term fix for the specific outage.\"}"}
+{"key": "54603b632e9d0aa1b887617b8b7266bec6549fdb", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The answer includes claims not supported by the context.\"}"}
+{"key": "299bf9093182d5ecef6e0b427f5227f603ac744d", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer is fully correct and directly addresses the question.\"}"}
+{"key": "3d5daddea564f4728456c3b85aba489bc3dfd852", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "195677b982457756ce140921836361a83d8f226e", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's concern.\"}"}
+{"key": "849aa7640ab7f52509d22be6240a91672a784b20", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "d5b80e98e65ca4c6a43dc8d1ed250106a3617b0a", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it addresses the payment status and reactivation, but the specific retention window is not mentioned.\"}"}
+{"key": "f8dbda45b6c9b89fb0358f9a0a159315a2e6fb8c", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "9c884446ef8bbb1211fdb520b0f85a0b4db21116", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "e8f671e5f1d55424ed50bdcbd8464597b278018c", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "883b8fc0ace166bb5d0a22898d98461072e3183a", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it aligns with the reference but misses the grace period detail.\"}"}
+{"key": "e8e366c07d48c23c9f1e2945abb751b022e7b5f7", "raw": "{\"groundedness\": 1, \"hallucination\": 0, \"reason\": \"The context supports the subscription expiration but not the exact impact on incoming calls.\"}"}
+{"key": "1c3f3f508015149db53743a737ff4683501d859f", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "dd0d2b090fe5441375bbbeb944f595f0f5dc4b51", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "430879b9fe4ed9fbee2fe1c91c5eab0ea453fa0f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both the payment status and the lack of payment transactions are directly stated in the context.\"}"}
+{"key": "8b4c18bf4b4c6040dc2b46698763356ca19269c2", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "b642c00ec9306ae43f7cfa0802be7769abd9d885", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "c3de71112da05a4891e5e59ae85bc138245e7ef0", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "8c9983ae1e955a9789475aa3ea4a61a009a1c820", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "098503bc425ff9b9a124719a323a1ba3e9e92742", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The count of recharge_transactions where status=FAILED is directly stated in [E1].\"}"}
+{"key": "fe0354d781cb5104b6537edf3c3e8a1d53a93bae", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer fully matches the reference and directly addresses the question.\"}"}
+{"key": "b9ebb2cb26b1c9e48ce088c27dfbf7392fa3cfde", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "60bca16fa1dd0080b65e0fc3b0df8da64dc91982", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Partially correct but incomplete and contradicts the reference.\"}"}
+{"key": "7d14e036a0057d8c621c95064295a8067bb4537a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context.\"}"}
+{"key": "7dae232c3fbb5b49d73dc50c8970bb179e28fa88", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "b6f5979c46f807e85f1adfda4988493f414f9bcb", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context, particularly document [E6].\"}"}
+{"key": "eaf364293fb7aa590377dec54a4cbdb8d2e795d4", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and relevant, but lacks the detailed explanation and specific troubleshooting steps provided in the reference.\"}"}
+{"key": "794ddcd121504d039c3a796eba57c3b9c3f54bf5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "bdc637bfe621b5ae3e3a29025c1b401bfc7ba2a8", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"The context does not contain any information related to the random query.\"}"}
+{"key": "40410ae5f49e8eff91da78c31842e7590ded59bb", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes TRAI's regulatory roles and aligns with the reference evidence.\"}"}
+{"key": "3eda7bfaaec61bf5dcc37a1fcb7f844527188483", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "e97b99a6f63fae642fe6525428d62d55dd5b32d4", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "98a4d38d997b2861a3d854cbc7ed63820e25ed0b", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "9945a2f622139f6fb134e3b504e91ff11410f878", "raw": "{\"present\": 0, \"reason\": \"No specific details provided\"}"}
+{"key": "96b3c76004c4eb2bee91a8421a8990093d405090", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"Claims about specific timestamps and lack of automatic failover are not supported by the context.\"}"}
+{"key": "d4a573ad49220f21d7dab60bb2284f10abf1c9b5", "raw": "{\"present\": 0, \"reason\": \"The fact does not explicitly state the service restoration time or the long-term fix for the specific outage.\"}"}
+{"key": "ffebdd7e8c93f16c13f7d6f6b93eef6cba39ce41", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide specific service restoration time or the long-term fix for the trunk route.\"}"}
+{"key": "7fdb7e6ef231b6475175af4d80a8fb8b37f8b1bd", "raw": "{\"present\": 0, \"reason\": \"No relevant information\"}"}
+{"key": "eef415c21aaf4fef8d65779c806516989851211f", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"No claims about INC-2026-0197 are present in the context.\"}"}
+{"key": "8b590841f94e72e2701434ee0251e30898650de4", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's concern.\"}"}
+{"key": "db1c6674b983526ac20d1b9c4eca53a1349e63bb", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "d62b5405e7be54ee7766e463d3b359c2de6252ba", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correctly identifies the risk of future deactivation and the possibility of reactivation within the retention window.\"}"}
+{"key": "cf3bd415779e22eac60c124c1d4edb83b46fd5c7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "a197aeec39ff497fd2ecfda9d505157a8fff52de", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "f9dbc9a166226e8dc9f5ad186535e0ef0c0ee066", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer suggests visiting a store with original ID proof, which is not mentioned in the context.\"}"}
+{"key": "e46f72929d93829c46a6ff3bec82485b180614e3", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it aligns with the reference but lacks the grace period detail.\"}"}
+{"key": "eb6dd1d318a28c017f8db99b9efa1d7ff8f27bc8", "raw": "{\"groundedness\": 1, \"hallucination\": 0, \"reason\": \"The context supports the claims about the subscription status and the process to reactivate service.\"}"}
+{"key": "3b8ac38dc69cbf27ea243832bd9c313d5af903a7", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "902f5b2db4b6df5dc064f9fcd32c51c46f669b2f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}

@@ -1,0 +1,75 @@
+{
+  "generated_utc": "2026-11-01T14:26:41.389448+00:00",
+  "measured": {
+    "generation_s": [
+      8.9,
+      3.0,
+      3.3,
+      5.1,
+      2.3
+    ],
+    "generation_mean_s": 4.5,
+    "judge_call_s": [
+      1.1,
+      1.0,
+      1.6,
+      1.0,
+      1.1,
+      1.8,
+      0.9,
+      1.0,
+      1.7,
+      1.1
+    ],
+    "judge_call_mean_s": 1.2,
+    "citation_verification_s": [
+      4.7,
+      18.2,
+      30.1
+    ],
+    "citation_mean_s": 17.7
+  },
+  "counts": {
+    "missing_repro_generations": 64,
+    "judge_calls_by_tier": {
+      "0": {
+        "records": 66,
+        "judge_calls": 42,
+        "hours": 0.01
+      },
+      "1": {
+        "records": 264,
+        "judge_calls": 633,
+        "hours": 0.22
+      },
+      "2": {
+        "records": 240,
+        "judge_calls": 609,
+        "hours": 0.21
+      },
+      "3": {
+        "records": 126,
+        "judge_calls": 197,
+        "hours": 0.07
+      },
+      "4": {
+        "records": 252,
+        "judge_calls": 394,
+        "hours": 0.13
+      }
+    },
+    "judge_calls_total": 1875,
+    "citation_verifications": 252,
+    "integrity_records": 65,
+    "integrity_judge_calls_each_model_approx": 169
+  },
+  "estimate_hours": {
+    "generate_missing_repro": 0.08,
+    "judge_all": 0.64,
+    "citation_all": 1.24,
+    "integrity": 0.11,
+    "total": 2.07
+  },
+  "decision_threshold_hours": 4,
+  "scope_decision": "full run (estimate <= 4 h)"
+}

@@ -1,0 +1,15 @@
+E           assert not ['Q04']
+
+integration\tests\test_rag_defaults_identical.py:45: AssertionError
+---------------------------- Captured stderr call -----------------------------
+\rLoading weights:   0%|          | 0/103 [00:00<?, ?it/s]\rLoading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 103/103 [00:00<00:00, 10028.40it/s]\n\rLoading weights:   0%|          | 0/105 [00:00<?, ?it/s]\rLoading weights: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 105/105 [00:00<00:00, 9546.56it/s]
+Test 
+hybrid/tests/test_phase9d2.py::TestKycAcceptanceRealData::test_customer_1042_ky
+c_pending_question_through_the_full_pipeline was skipped. Reason: 
+('C:\\Users\\ast20\\Downloads\\NovaTel_Telecom_RAG_Knowledge_Base\\hybrid\\test
+s\\test_phase9d2.py', 145, 'Skipped: FAQ_C17_034 was not among the documents 
+cited for this question - reported, not forced')
+=========================== short test summary info ===========================
+FAILED integration/tests/test_rag_defaults_identical.py::test_default_prompts_identical_to_head
+!!!!!!!!!!!!!!!!!!!!!!!!!! stopping after 1 failures !!!!!!!!!!!!!!!!!!!!!!!!!!
+1 failed, 279 passed, 1 skipped in 111.46s (0:01:51)

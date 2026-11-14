@@ -1,0 +1,1793 @@
+{
+  "definitions": "\nReport stage: turns raw_answers.jsonl + scored_answers.jsonl (+ saved router/abstention/index-comparison files) into every output of the measurement.\n\n    python eval/perf_report/run_report.py\n\nWrites (results/perf_report/): metrics.json, error_table.csv, ablation.csv, regressions.md, values.json (+ a .manifest.json next to each; they are copies\nof run_manifest.json taken before the first output existed, i.e. recorded on a clean tree).\n\nDefinitions (all stated in metrics.json -> \"definitions\"):\n  * 3 runs per arm (temperature 0 / seed 42 is NOT deterministic on this machine, see determinism_check.json). Percentages are the MEAN over runs of the per-run\n    percentage; ranges are min-max over runs.\n  * correctness % = mean(score)/2 over scorable answers (E14a definition, score 0/1/2). \"right\" = score 2.\n  * paired statistics use per-question \"right\" = fully correct in the majority (>= 2 of 3) of runs; McNemar exact two-sided; the bootstrap resamples QUESTIONS\n    (10,000, seed 20261031) and uses the per-question share of runs that were fully correct, so its CI is in percentage points of the fully-correct rate.\n  * error counts are ANSWERS (3 runs x 42 questions per arm) with correctness < 2.\n",
+  "runs_per_arm": {
+    "A": 3,
+    "B": 3,
+    "B2": 3,
+    "router": 3,
+    "ontology": 3,
+    "docgraph": 3,
+    "C": 3,
+    "B_scifact_off": 3
+  },
+  "determinism_check": {
+    "n_questions": 10,
+    "n_identical_answers": 4,
+    "all_deterministic": false,
+    "decision": "answers differ between identical runs: 3 runs per arm required"
+  },
+  "counts": {
+    "n_total": 42,
+    "n_db": 15,
+    "n_syn": 8,
+    "n_trai": 6,
+    "n_cross": 6,
+    "n_multi": 7,
+    "n_core": 22,
+    "n_new": 20,
+    "n_docq": 25,
+    "per_category": {
+      "db": 15,
+      "syn": 8,
+      "trai": 6,
+      "multi": 7,
+      "cross": 6
+    },
+    "review_approved_file": "absent (no id is marked reviewed beyond E14a's own gold)"
+  },
+  "arms": {
+    "A": {
+      "n_records": 126,
+      "correctness.all": [
+        31.0,
+        31.0,
+        31.0
+      ],
+      "correctness.core": [
+        43.2,
+        43.2,
+        43.2
+      ],
+      "correctness.db": [
+        6.7,
+        6.7,
+        6.7
+      ],
+      "correctness.syn": [
+        68.8,
+        68.8,
+        68.8
+      ],
+      "correctness.trai": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "correctness.cross": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "correctness.multi": [
+        7.1,
+        7.1,
+        7.1
+      ],
+      "relevance": [
+        82.1,
+        82.1,
+        82.1
+      ],
+      "relevance.core": [
+        79.5,
+        79.5,
+        79.5
+      ],
+      "groundedness": [
+        null,
+        null,
+        null
+      ],
+      "groundedness.core": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ref": [
+        85.7,
+        85.7,
+        85.7
+      ],
+      "halluc_ref.core": [
+        90.9,
+        90.9,
+        90.9
+      ],
+      "halluc_ctx": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ctx.core": [
+        null,
+        null,
+        null
+      ],
+      "latency_records_excluded": 0,
+      "latency_exclusion_reasons": {},
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "n_scored": 126,
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 42,
+        "identical_correctness_pct": 100.0,
+        "questions_compared_text": 42,
+        "identical_answer_text": 39,
+        "identical_answer_text_pct": 92.9
+      },
+      "latency_median_s": 4.53,
+      "latency_p95_s": 7.5,
+      "prompt_tokens_median": 51.0,
+      "n_cached_records": 0,
+      "n_abstained": 0,
+      "n_parse_errors_in_judge": 0
+    },
+    "B": {
+      "n_records": 126,
+      "correctness.all": [
+        71.4,
+        71.4,
+        71.4
+      ],
+      "correctness.core": [
+        84.1,
+        84.1,
+        84.1
+      ],
+      "correctness.db": [
+        60.0,
+        60.0,
+        60.0
+      ],
+      "correctness.syn": [
+        93.8,
+        93.8,
+        93.8
+      ],
+      "correctness.trai": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.cross": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.multi": [
+        57.1,
+        57.1,
+        57.1
+      ],
+      "relevance": [
+        95.2,
+        95.2,
+        95.2
+      ],
+      "relevance.core": [
+        95.5,
+        95.5,
+        95.5
+      ],
+      "groundedness": [
+        94.0,
+        94.0,
+        94.0
+      ],
+      "groundedness.core": [
+        97.7,
+        100.0,
+        100.0
+      ],
+      "halluc_ref": [
+        52.4,
+        54.8,
+        54.8
+      ],
+      "halluc_ref.core": [
+        50.0,
+        59.1,
+        59.1
+      ],
+      "halluc_ctx": [
+        11.9,
+        11.9,
+        11.9
+      ],
+      "halluc_ctx.core": [
+        4.5,
+        0.0,
+        0.0
+      ],
+      "latency_records_excluded": 5,
+      "latency_exclusion_reasons": {
+        "slow": 2,
+        "gap": 3
+      },
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "n_scored": 126,
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 42,
+        "identical_correctness_pct": 100.0,
+        "questions_compared_text": 42,
+        "identical_answer_text": 23,
+        "identical_answer_text_pct": 54.8
+      },
+      "latency_median_s": 5.83,
+      "latency_p95_s": 12.66,
+      "prompt_tokens_median": 2088.5,
+      "n_cached_records": 0,
+      "n_abstained": 0,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.76,
+        "R@3": 0.92,
+        "R@5": 0.96,
+        "R@10": 1.0,
+        "MRR@10": 0.8367,
+        "hits": {
+          "1": 19,
+          "3": 23,
+          "5": 24,
+          "10": 25
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571,
+        "hits": {
+          "1": 11,
+          "3": 14,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        58.5,
+        58.5,
+        58.5
+      ],
+      "citation": {
+        "per_run": {
+          "cov": [
+            61.4,
+            58.9,
+            58.9
+          ],
+          "correct": [
+            70.1,
+            68.0,
+            68.0
+          ],
+          "unsup": [
+            44.4,
+            46.9,
+            46.9
+          ]
+        },
+        "totals": {
+          "checked": 120,
+          "skipped": 6,
+          "sentences": 621,
+          "cited": 371,
+          "supported_cited": 255,
+          "weak": 80,
+          "unsupported": 286
+        }
+      }
+    },
+    "B2": {
+      "n_records": 126,
+      "correctness.all": [
+        84.5,
+        82.1,
+        82.1
+      ],
+      "correctness.core": [
+        90.9,
+        88.6,
+        88.6
+      ],
+      "correctness.db": [
+        90.0,
+        90.0,
+        90.0
+      ],
+      "correctness.syn": [
+        93.8,
+        87.5,
+        87.5
+      ],
+      "correctness.trai": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.cross": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.multi": [
+        78.6,
+        71.4,
+        71.4
+      ],
+      "relevance": [
+        97.5,
+        97.5,
+        97.5
+      ],
+      "relevance.core": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "groundedness": [
+        92.9,
+        94.0,
+        94.0
+      ],
+      "groundedness.core": [
+        95.5,
+        95.5,
+        95.5
+      ],
+      "halluc_ref": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ref.core": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ctx": [
+        9.5,
+        7.1,
+        7.1
+      ],
+      "halluc_ctx.core": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "latency_records_excluded": 0,
+      "latency_exclusion_reasons": {},
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "n_scored": 126,
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 40,
+        "identical_correctness_pct": 95.2,
+        "questions_compared_text": 42,
+        "identical_answer_text": 25,
+        "identical_answer_text_pct": 59.5
+      },
+      "latency_median_s": 4.07,
+      "latency_p95_s": 10.46,
+      "prompt_tokens_median": 1515.5,
+      "n_cached_records": 0,
+      "n_abstained": 0,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.76,
+        "R@3": 0.92,
+        "R@5": 0.96,
+        "R@10": 1.0,
+        "MRR@10": 0.8367,
+        "hits": {
+          "1": 19,
+          "3": 23,
+          "5": 24,
+          "10": 25
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571,
+        "hits": {
+          "1": 11,
+          "3": 14,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        89.2,
+        89.2,
+        89.2
+      ]
+    },
+    "router": {
+      "n_records": 126,
+      "correctness.all": [
+        76.2,
+        76.2,
+        76.2
+      ],
+      "correctness.core": [
+        84.1,
+        84.1,
+        84.1
+      ],
+      "correctness.db": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.syn": [
+        93.8,
+        93.8,
+        93.8
+      ],
+      "correctness.trai": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.cross": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.multi": [
+        42.9,
+        42.9,
+        42.9
+      ],
+      "relevance": [
+        97.5,
+        97.5,
+        97.5
+      ],
+      "relevance.core": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "groundedness": [
+        93.4,
+        93.4,
+        93.4
+      ],
+      "groundedness.core": [
+        95.2,
+        95.2,
+        95.2
+      ],
+      "halluc_ref": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ref.core": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ctx": [
+        7.9,
+        7.9,
+        7.9
+      ],
+      "halluc_ctx.core": [
+        4.8,
+        4.8,
+        4.8
+      ],
+      "latency_records_excluded": 1,
+      "latency_exclusion_reasons": {
+        "gap": 1
+      },
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "n_scored": 126,
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 42,
+        "identical_correctness_pct": 100.0,
+        "questions_compared_text": 42,
+        "identical_answer_text": 39,
+        "identical_answer_text_pct": 92.9
+      },
+      "latency_median_s": 4.0,
+      "latency_p95_s": 9.39,
+      "prompt_tokens_median": 1233.0,
+      "n_cached_records": 0,
+      "n_abstained": 12,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.64,
+        "R@3": 0.8,
+        "R@5": 0.84,
+        "R@10": 0.88,
+        "MRR@10": 0.7167,
+        "hits": {
+          "1": 16,
+          "3": 20,
+          "5": 21,
+          "10": 22
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571,
+        "hits": {
+          "1": 11,
+          "3": 14,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        89.2,
+        89.2,
+        89.2
+      ]
+    },
+    "ontology": {
+      "n_records": 126,
+      "correctness.all": [
+        79.8,
+        79.8,
+        79.8
+      ],
+      "correctness.core": [
+        88.6,
+        88.6,
+        88.6
+      ],
+      "correctness.db": [
+        90.0,
+        90.0,
+        90.0
+      ],
+      "correctness.syn": [
+        87.5,
+        87.5,
+        87.5
+      ],
+      "correctness.trai": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.cross": [
+        66.7,
+        66.7,
+        66.7
+      ],
+      "correctness.multi": [
+        64.3,
+        64.3,
+        64.3
+      ],
+      "relevance": [
+        97.5,
+        97.5,
+        97.5
+      ],
+      "relevance.core": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "groundedness": [
+        91.7,
+        91.7,
+        91.7
+      ],
+      "groundedness.core": [
+        95.5,
+        95.5,
+        95.5
+      ],
+      "halluc_ref": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ref.core": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ctx": [
+        11.9,
+        11.9,
+        11.9
+      ],
+      "halluc_ctx.core": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "latency_records_excluded": 0,
+      "latency_exclusion_reasons": {},
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "n_scored": 126,
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 42,
+        "identical_correctness_pct": 100.0,
+        "questions_compared_text": 42,
+        "identical_answer_text": 39,
+        "identical_answer_text_pct": 92.9
+      },
+      "latency_median_s": 3.64,
+      "latency_p95_s": 10.84,
+      "prompt_tokens_median": 1515.5,
+      "n_cached_records": 0,
+      "n_abstained": 0,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.76,
+        "R@3": 0.96,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8367,
+        "hits": {
+          "1": 19,
+          "3": 24,
+          "5": 25,
+          "10": 25
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571,
+        "hits": {
+          "1": 11,
+          "3": 14,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        89.2,
+        89.2,
+        89.2
+      ]
+    },
+    "docgraph": {
+      "n_records": 126,
+      "correctness.all": [
+        69.0,
+        66.7,
+        67.9
+      ],
+      "correctness.core": [
+        81.8,
+        79.5,
+        81.8
+      ],
+      "correctness.db": [
+        90.0,
+        90.0,
+        90.0
+      ],
+      "correctness.syn": [
+        81.2,
+        75.0,
+        75.0
+      ],
+      "correctness.trai": [
+        58.3,
+        58.3,
+        66.7
+      ],
+      "correctness.cross": [
+        66.7,
+        58.3,
+        66.7
+      ],
+      "correctness.multi": [
+        21.4,
+        21.4,
+        14.3
+      ],
+      "relevance": [
+        95.0,
+        95.0,
+        92.5
+      ],
+      "relevance.core": [
+        92.9,
+        92.9,
+        89.3
+      ],
+      "groundedness": [
+        84.5,
+        83.3,
+        79.8
+      ],
+      "groundedness.core": [
+        90.9,
+        90.9,
+        88.6
+      ],
+      "halluc_ref": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ref.core": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ctx": [
+        2.4,
+        2.4,
+        9.5
+      ],
+      "halluc_ctx.core": [
+        0.0,
+        0.0,
+        4.5
+      ],
+      "latency_records_excluded": 3,
+      "latency_exclusion_reasons": {
+        "gap": 3
+      },
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "n_scored": 126,
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 38,
+        "identical_correctness_pct": 90.5,
+        "questions_compared_text": 42,
+        "identical_answer_text": 14,
+        "identical_answer_text_pct": 33.3
+      },
+      "latency_median_s": 6.01,
+      "latency_p95_s": 10.59,
+      "prompt_tokens_median": 1525.5,
+      "n_cached_records": 0,
+      "n_abstained": 0,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.4,
+        "R@3": 0.8,
+        "R@5": 0.84,
+        "R@10": 0.92,
+        "MRR@10": 0.587,
+        "hits": {
+          "1": 10,
+          "3": 20,
+          "5": 21,
+          "10": 23
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.5714,
+        "R@3": 0.9286,
+        "R@5": 0.9286,
+        "R@10": 0.9286,
+        "MRR@10": 0.6905,
+        "hits": {
+          "1": 8,
+          "3": 13,
+          "5": 13,
+          "10": 13
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        89.2,
+        89.2,
+        89.2
+      ]
+    },
+    "C": {
+      "n_records": 126,
+      "correctness.all": [
+        66.7,
+        67.9,
+        67.9
+      ],
+      "correctness.core": [
+        79.5,
+        79.5,
+        79.5
+      ],
+      "correctness.db": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.syn": [
+        81.2,
+        81.2,
+        81.2
+      ],
+      "correctness.trai": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.cross": [
+        58.3,
+        66.7,
+        66.7
+      ],
+      "correctness.multi": [
+        14.3,
+        14.3,
+        14.3
+      ],
+      "relevance": [
+        82.1,
+        83.3,
+        83.3
+      ],
+      "relevance.core": [
+        88.6,
+        88.6,
+        88.6
+      ],
+      "groundedness": [
+        88.2,
+        88.2,
+        88.2
+      ],
+      "groundedness.core": [
+        92.9,
+        92.9,
+        92.9
+      ],
+      "halluc_ref": [
+        45.2,
+        42.9,
+        42.9
+      ],
+      "halluc_ref.core": [
+        54.5,
+        50.0,
+        50.0
+      ],
+      "halluc_ctx": [
+        7.9,
+        7.9,
+        7.9
+      ],
+      "halluc_ctx.core": [
+        4.8,
+        4.8,
+        4.8
+      ],
+      "latency_records_excluded": 0,
+      "latency_exclusion_reasons": {},
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "n_scored": 126,
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 41,
+        "identical_correctness_pct": 97.6,
+        "questions_compared_text": 42,
+        "identical_answer_text": 34,
+        "identical_answer_text_pct": 81.0
+      },
+      "latency_median_s": 6.6,
+      "latency_p95_s": 14.18,
+      "prompt_tokens_median": 1349.0,
+      "n_cached_records": 0,
+      "n_abstained": 12,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.36,
+        "R@3": 0.72,
+        "R@5": 0.8,
+        "R@10": 0.84,
+        "MRR@10": 0.516,
+        "hits": {
+          "1": 9,
+          "3": 18,
+          "5": 20,
+          "10": 21
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.5714,
+        "R@3": 0.9286,
+        "R@5": 0.9286,
+        "R@10": 0.9286,
+        "MRR@10": 0.6905,
+        "hits": {
+          "1": 8,
+          "3": 13,
+          "5": 13,
+          "10": 13
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        89.2,
+        89.2,
+        89.2
+      ],
+      "citation": {
+        "per_run": {
+          "cov": [
+            59.2,
+            46.7,
+            46.7
+          ],
+          "correct": [
+            74.8,
+            77.7,
+            77.7
+          ],
+          "unsup": [
+            46.8,
+            58.3,
+            58.3
+          ]
+        },
+        "totals": {
+          "checked": 104,
+          "skipped": 22,
+          "sentences": 719,
+          "cited": 361,
+          "supported_cited": 277,
+          "weak": 46,
+          "unsupported": 396
+        }
+      }
+    },
+    "B_scifact_off": {
+      "n_records": 66,
+      "correctness.all": [
+        84.1,
+        84.1,
+        84.1
+      ],
+      "correctness.core": [
+        84.1,
+        84.1,
+        84.1
+      ],
+      "correctness.db": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.syn": [
+        93.8,
+        93.8,
+        93.8
+      ],
+      "correctness.trai": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.cross": [
+        null,
+        null,
+        null
+      ],
+      "correctness.multi": [
+        null,
+        null,
+        null
+      ],
+      "relevance": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "relevance.core": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "groundedness": [
+        null,
+        null,
+        null
+      ],
+      "groundedness.core": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ref": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ref.core": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ctx": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ctx.core": [
+        null,
+        null,
+        null
+      ],
+      "latency_records_excluded": 1,
+      "latency_exclusion_reasons": {
+        "gap": 1
+      },
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "n_scored": 66,
+      "variability": {
+        "questions_compared_correctness": 22,
+        "identical_correctness": 20,
+        "identical_correctness_pct": 90.9,
+        "questions_compared_text": 22,
+        "identical_answer_text": 10,
+        "identical_answer_text_pct": 45.5
+      },
+      "latency_median_s": 3.25,
+      "latency_p95_s": 7.44,
+      "prompt_tokens_median": 2097.5,
+      "n_cached_records": 0,
+      "n_abstained": 0,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571,
+        "hits": {
+          "1": 11,
+          "3": 14,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571,
+        "hits": {
+          "1": 11,
+          "3": 14,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        65.2,
+        65.2,
+        65.2
+      ]
+    }
+  },
+  "paired": {
+    "CB": {
+      "wins": 10,
+      "losses": 5,
+      "ties": 27,
+      "n_pairs": 42,
+      "discordant": 15,
+      "p_mcnemar_exact": 0.3018,
+      "small_discordant_note": false,
+      "ci95_pts": [
+        -4.8,
+        28.6
+      ],
+      "mean_diff_pts": 11.9,
+      "win_ids": [
+        "RW_001",
+        "S03",
+        "S06",
+        "S12",
+        "S05",
+        "S08",
+        "S10",
+        "S11",
+        "S13",
+        "S14"
+      ],
+      "loss_ids": [
+        "Q17",
+        "RW_017",
+        "S15",
+        "MH02",
+        "MH_RB_B02"
+      ]
+    },
+    "CA": {
+      "wins": 22,
+      "losses": 3,
+      "ties": 17,
+      "n_pairs": 42,
+      "discordant": 25,
+      "p_mcnemar_exact": 0.0002,
+      "small_discordant_note": false,
+      "ci95_pts": [
+        26.2,
+        64.3
+      ],
+      "mean_diff_pts": 45.2,
+      "win_ids": [
+        "S01",
+        "Q01",
+        "RW_001",
+        "S03",
+        "Q04",
+        "RW_004",
+        "S04",
+        "RW_007",
+        "S06",
+        "Q13",
+        "S07",
+        "RW_023",
+        "S12",
+        "Q25",
+        "S05",
+        "S08",
+        "S10",
+        "S11",
+        "S13",
+        "S14",
+        "MH_RB_B01",
+        "MH_RB_B05"
+      ],
+      "loss_ids": [
+        "Q08",
+        "RW_017",
+        "S15"
+      ]
+    },
+    "CB2": {
+      "wins": 3,
+      "losses": 8,
+      "ties": 31,
+      "n_pairs": 42,
+      "discordant": 11,
+      "p_mcnemar_exact": 0.2266,
+      "small_discordant_note": false,
+      "ci95_pts": [
+        -28.6,
+        0.8
+      ],
+      "mean_diff_pts": -13.5,
+      "win_ids": [
+        "RW_001",
+        "Q20",
+        "S08"
+      ],
+      "loss_ids": [
+        "Q17",
+        "RW_017",
+        "S09",
+        "S15",
+        "MH02",
+        "MH03",
+        "MH04",
+        "MH_RB_B02"
+      ]
+    },
+    "B2B": {
+      "wins": 11,
+      "losses": 1,
+      "ties": 30,
+      "n_pairs": 42,
+      "discordant": 12,
+      "p_mcnemar_exact": 0.0063,
+      "small_discordant_note": false,
+      "ci95_pts": [
+        11.9,
+        39.7
+      ],
+      "mean_diff_pts": 25.4,
+      "win_ids": [
+        "S03",
+        "S06",
+        "S09",
+        "S12",
+        "S05",
+        "S10",
+        "S11",
+        "S13",
+        "S14",
+        "MH03",
+        "MH04"
+      ],
+      "loss_ids": [
+        "Q20"
+      ]
+    },
+    "routerB2": {
+      "wins": 2,
+      "losses": 3,
+      "ties": 37,
+      "n_pairs": 42,
+      "discordant": 5,
+      "p_mcnemar_exact": 1.0,
+      "small_discordant_note": true,
+      "ci95_pts": [
+        -14.3,
+        5.6
+      ],
+      "mean_diff_pts": -4.0,
+      "win_ids": [
+        "Q20",
+        "S08"
+      ],
+      "loss_ids": [
+        "S09",
+        "S15",
+        "MH04"
+      ]
+    },
+    "ontologyB2": {
+      "wins": 0,
+      "losses": 1,
+      "ties": 41,
+      "n_pairs": 42,
+      "discordant": 1,
+      "p_mcnemar_exact": 1.0,
+      "small_discordant_note": true,
+      "ci95_pts": [
+        -9.5,
+        0.0
+      ],
+      "mean_diff_pts": -4.0,
+      "win_ids": [],
+      "loss_ids": [
+        "MH_RB_B02"
+      ]
+    },
+    "docgraphB2": {
+      "wins": 1,
+      "losses": 7,
+      "ties": 34,
+      "n_pairs": 42,
+      "discordant": 8,
+      "p_mcnemar_exact": 0.0703,
+      "small_discordant_note": true,
+      "ci95_pts": [
+        -27.0,
+        -4.0
+      ],
+      "mean_diff_pts": -15.1,
+      "win_ids": [
+        "Q20"
+      ],
+      "loss_ids": [
+        "Q17",
+        "RW_017",
+        "Q25",
+        "MH02",
+        "MH03",
+        "MH04",
+        "MH_RB_B05"
+      ]
+    }
+  },
+  "repro_E14a": {
+    "B_scifact_off_core22_per_run": [
+      84.1,
+      84.1,
+      84.1
+    ],
+    "B_scifact_off_core22_mean": 84.1,
+    "B_scifact_on_core22_per_run": [
+      84.1,
+      84.1,
+      84.1
+    ],
+    "B_scifact_on_core22_mean": 84.1,
+    "documented_E14a_rag": 79.5,
+    "diff_off_minus_on_pts": 0.0,
+    "retrieval_off_core14": {
+      "n": 14,
+      "R@1": 0.7857,
+      "R@3": 1.0,
+      "R@5": 1.0,
+      "R@10": 1.0,
+      "MRR@10": 0.8571,
+      "hits": {
+        "1": 11,
+        "3": 14,
+        "5": 14,
+        "10": 14
+      }
+    },
+    "retrieval_on_core14": {
+      "n": 14,
+      "R@1": 0.7857,
+      "R@3": 1.0,
+      "R@5": 1.0,
+      "R@10": 1.0,
+      "MRR@10": 0.8571,
+      "hits": {
+        "1": 11,
+        "3": 14,
+        "5": 14,
+        "10": 14
+      }
+    }
+  },
+  "error_analysis": {
+    "counts": {
+      "B": {
+        "retrieval": 12,
+        "context": 30,
+        "competing": 0,
+        "ranking": 3,
+        "model": 9,
+        "router": 0,
+        "graph": 0,
+        "scoring": 12
+      },
+      "C": {
+        "retrieval": 12,
+        "context": 6,
+        "competing": 3,
+        "ranking": 6,
+        "model": 9,
+        "router": 12,
+        "graph": 3,
+        "scoring": 0
+      }
+    },
+    "totals": {
+      "B": 66,
+      "C": 51
+    }
+  },
+  "ablation": [
+    {
+      "component": "B",
+      "arm": "B",
+      "description": "E14a configuration (shared 6-block budget)",
+      "correctness_all": 71.4,
+      "correctness_all_range": [
+        71.4,
+        71.4
+      ],
+      "correctness_core22": 84.1,
+      "groundedness": 94.0,
+      "scored_coverage": "all runs, all questions"
+    },
+    {
+      "component": "budget",
+      "arm": "B2",
+      "description": "B + per-source budget 5 db + 3 doc",
+      "correctness_all": 82.9,
+      "correctness_all_range": [
+        82.1,
+        84.5
+      ],
+      "correctness_core22": 89.4,
+      "groundedness": 93.6,
+      "scored_coverage": "all runs, all questions"
+    },
+    {
+      "component": "router",
+      "arm": "router",
+      "description": "B2 + router",
+      "correctness_all": 76.2,
+      "correctness_all_range": [
+        76.2,
+        76.2
+      ],
+      "correctness_core22": 84.1,
+      "groundedness": 93.4,
+      "scored_coverage": "all runs, all questions"
+    },
+    {
+      "component": "ontology",
+      "arm": "ontology",
+      "description": "B2 + ontology term normalisation only",
+      "correctness_all": 79.8,
+      "correctness_all_range": [
+        79.8,
+        79.8
+      ],
+      "correctness_core22": 88.6,
+      "groundedness": 91.7,
+      "scored_coverage": "all runs, all questions"
+    },
+    {
+      "component": "docgraph",
+      "arm": "docgraph",
+      "description": "B2 + document-graph expansion only",
+      "correctness_all": 67.9,
+      "correctness_all_range": [
+        66.7,
+        69.0
+      ],
+      "correctness_core22": 81.0,
+      "groundedness": 82.5,
+      "scored_coverage": "all runs, all questions"
+    },
+    {
+      "component": "kg",
+      "arm": "-",
+      "description": "B2 + structured KG",
+      "correctness_all": "not run (not wired into retrieval)",
+      "correctness_all_range": "",
+      "correctness_core22": "",
+      "groundedness": "not run (not wired into retrieval)",
+      "scored_coverage": ""
+    },
+    {
+      "component": "C",
+      "arm": "C",
+      "description": "B2 + semantic layer + router + citation check",
+      "correctness_all": 67.5,
+      "correctness_all_range": [
+        66.7,
+        67.9
+      ],
+      "correctness_core22": 79.5,
+      "groundedness": 88.2,
+      "scored_coverage": "all runs, all questions"
+    }
+  ],
+  "router_saved": {
+    "file": "data/experiments/router_eval/router_eval_test_20261031T140655Z_final_test.json",
+    "n": 72,
+    "rows": {
+      "rule": {
+        "acc": 0.7778,
+        "macro_f1": 0.7781,
+        "hybrid_recall": 0.7778,
+        "oos_recall": 0.7222,
+        "latency_ms": {
+          "median": 0.06,
+          "p95": 0.09
+        }
+      },
+      "embedding": {
+        "acc": 0.6944,
+        "macro_f1": 0.6837,
+        "hybrid_recall": 0.9444,
+        "oos_recall": 0.4444,
+        "latency_ms": {
+          "median": 13.01,
+          "p95": 18.46
+        }
+      },
+      "zeroshot_nli": {
+        "acc": 0.2778,
+        "macro_f1": 0.1549,
+        "hybrid_recall": 1.0,
+        "oos_recall": 0.0556,
+        "latency_ms": {
+          "median": 4502.22,
+          "p95": 8870.67
+        }
+      },
+      "ollama_qwen3b": {
+        "acc": 0.8194,
+        "macro_f1": 0.8255,
+        "hybrid_recall": 0.9444,
+        "oos_recall": 0.6667,
+        "latency_ms": {
+          "median": 923.07,
+          "p95": 1245.39
+        }
+      },
+      "ollama_llama3b": {
+        "acc": 0.4861,
+        "macro_f1": 0.4184,
+        "hybrid_recall": 0.7778,
+        "oos_recall": 0.1111,
+        "latency_ms": {
+          "median": 813.38,
+          "p95": 1355.08
+        }
+      },
+      "laya_zeroshot": {
+        "acc": 0.3472,
+        "macro_f1": 0.3088,
+        "hybrid_recall": 0.5556,
+        "oos_recall": 0.6111,
+        "latency_ms": {
+          "median": 68.05,
+          "p95": 85.65
+        }
+      },
+      "laya_finetuned": {
+        "acc": 0.7778,
+        "macro_f1": 0.7752,
+        "hybrid_recall": 0.8889,
+        "oos_recall": 0.5556,
+        "latency_ms": {
+          "median": 766.25,
+          "p95": 906.17
+        }
+      },
+      "setfit": "not evaluated (no trained SetFit checkpoint at C:\\Users\\ast20\\Downloads\\NovaTel_Telecom_RAG_Knowledge_Base\\models\\setfit_router (run: python -m query_router.setfit_router --train))"
+    }
+  },
+  "abstention_saved": {
+    "file": "data/experiments/system_eval/abstention_test_20261031T142243Z_final_test.json",
+    "n_should_abstain": 22,
+    "precision": 0.8148,
+    "recall": 1.0,
+    "false_abstention_rate": 0.1389,
+    "false_abstentions": [
+      {
+        "id": "ABS_TEST_026",
+        "query": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+        "route": "unstructured",
+        "layer": 3,
+        "reason": "the generator reported insufficient evidence"
+      },
+      {
+        "id": "ABS_TEST_029",
+        "query": "Are there any special recharge offers available specifically for my mobile number?",
+        "route": "unstructured",
+        "layer": 2,
+        "reason": "top document relevance 0.001674 is below the calibrated threshold 0.052289"
+      },
+      {
+        "id": "ABS_TEST_037",
+        "query": "What rights do I have as a telecom customer?",
+        "route": "unstructured",
+        "layer": 2,
+        "reason": "top document relevance 0.023288 is below the calibrated threshold 0.052289"
+      },
+      {
+        "id": "ABS_TEST_039",
+        "query": "What should I do if my telecom company does not resolve my complaint?",
+        "route": "unstructured",
+        "layer": 3,
+        "reason": "the generator reported insufficient evidence"
+      },
+      {
+        "id": "ABS_TEST_046",
+        "query": "Where can I find information about how the telecom sector is performing?",
+        "route": "hybrid",
+        "layer": 3,
+        "reason": "the generator reported insufficient evidence"
+      }
+    ]
+  },
+  "related_to": {
+    "edges": 84,
+    "resolving": 0
+  },
+  "judge_integrity": {
+    "n_sample": 65,
+    "n_pool": 324,
+    "seed": 20261031,
+    "same_model_uncached_rejudge": {
+      "model": "qwen2.5:7b-instruct",
+      "exact_agreement": "63/65",
+      "agreement_fully_correct_vs_not": "63/65"
+    },
+    "second_model_rejudge": {
+      "model": "qwen2.5:3b-instruct",
+      "exact_agreement": "42/65",
+      "agreement_fully_correct_vs_not": "48/65"
+    },
+    "reading": "same-model agreement measures the judge's own repeatability at temperature 0 (decoding is not fully deterministic on this machine); second-model agreement is a rough independence check, not a validity measure -- only a human review of the exported sample is."
+  },
+  "false_abstention_diagnosis": {
+    "source": "data/experiments/system_eval/abstention_test_20261031T142243Z_final_test.json",
+    "note": "diagnosis only; nothing was changed",
+    "rows": [
+      {
+        "id": "ABS_TEST_026",
+        "question": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+        "category": "answerable_unstructured_synthetic",
+        "expected": "answer",
+        "gold_documents": [
+          "FAQ_C08_015",
+          "KB_C08_outage_status_check"
+        ],
+        "layer_that_abstained": "generator",
+        "layer_number": 3,
+        "saved_reason": "the generator reported insufficient evidence",
+        "router": {
+          "name": "laya_finetuned",
+          "label": "unstructured",
+          "confidence": 0.992,
+          "final_route": "unstructured"
+        },
+        "retrieval_top5_documents": [
+          "FAQ_C08_015",
+          "FAQ_C11_022",
+          "FAQ_C12_023",
+          "MAN_ESIM_001",
+          "MAN_DEVICE_VOLTE_001"
+        ],
+        "gold_rank_in_top5": 1,
+        "top_crossencoder_sigmoid": 0.975939,
+        "calibrated_threshold": 0.052289,
+        "likely_cause": "generator rule: the retrieval gate passed (sigmoid 0.9759 >= 0.0523) but the generator answered INSUFFICIENT_EVIDENCE; a gold document is in the top 5 at rank 1, so the evidence was present and the strict 'answer only from evidence' rule judged it insufficient (inferred)"
+      },
+      {
+        "id": "ABS_TEST_029",
+        "question": "Are there any special recharge offers available specifically for my mobile number?",
+        "category": "answerable_unstructured_synthetic",
+        "expected": "answer",
+        "gold_documents": [
+          "FAQ_C14_027",
+          "EML_009"
+        ],
+        "layer_that_abstained": "retrieval gate",
+        "layer_number": 2,
+        "saved_reason": "top document relevance 0.001674 is below the calibrated threshold 0.052289",
+        "router": {
+          "name": "laya_finetuned",
+          "label": "unstructured",
+          "confidence": 0.9919,
+          "final_route": "unstructured"
+        },
+        "retrieval_top5_documents": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+        ],
+        "gold_rank_in_top5": null,
+        "top_crossencoder_sigmoid": 0.001674,
+        "calibrated_threshold": 0.052289,
+        "likely_cause": "retrieval gate: the top CrossEncoder score (sigmoid 0.0017) is below the calibrated threshold 0.0523; and no gold document is in the top 5, so this is a retrieval miss that the gate correctly turned into a refusal (inferred)"
+      },
+      {
+        "id": "ABS_TEST_037",
+        "question": "What rights do I have as a telecom customer?",
+        "category": "answerable_unstructured_trai",
+        "expected": "answer",
+        "gold_documents": [
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+        ],
+        "layer_that_abstained": "retrieval gate",
+        "layer_number": 2,
+        "saved_reason": "top document relevance 0.023288 is below the calibrated threshold 0.052289",
+        "router": {
+          "name": "laya_finetuned",
+          "label": "unstructured",
+          "confidence": 0.9932,
+          "final_route": "unstructured"
+        },
+        "retrieval_top5_documents": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS",
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION",
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ],
+        "gold_rank_in_top5": 3,
+        "top_crossencoder_sigmoid": 0.023288,
+        "calibrated_threshold": 0.052289,
+        "likely_cause": "retrieval gate: the top CrossEncoder score (sigmoid 0.0233) is below the calibrated threshold 0.0523; the gold document PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION IS retrieved (rank 3), so the gate refused answerable evidence: the ms-marco CrossEncoder gives low scores to this broad / regulatory-style question (inferred)"
+      },
+      {
+        "id": "ABS_TEST_039",
+        "question": "What should I do if my telecom company does not resolve my complaint?",
+        "category": "answerable_unstructured_trai",
+        "expected": "answer",
+        "gold_documents": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+        ],
+        "layer_that_abstained": "generator",
+        "layer_number": 3,
+        "saved_reason": "the generator reported insufficient evidence",
+        "router": {
+          "name": "laya_finetuned",
+          "label": "unstructured",
+          "confidence": 0.9929,
+          "final_route": "unstructured"
+        },
+        "retrieval_top5_documents": [
+          "PUBLIC_PDF_05_COMMERCIAL_COMMUNICATIONS_CONSOLIDATED",
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL",
+          "PUBLIC_PDF_09_DRAFT_COMMERCIAL_COMMUNICATIONS"
+        ],
+        "gold_rank_in_top5": 2,
+        "top_crossencoder_sigmoid": 0.72701,
+        "calibrated_threshold": 0.052289,
+        "likely_cause": "generator rule: the retrieval gate passed (sigmoid 0.7270 >= 0.0523) but the generator answered INSUFFICIENT_EVIDENCE; a gold document is in the top 5 at rank 2, so the evidence was present and the strict 'answer only from evidence' rule judged it insufficient (inferred)"
+      },
+      {
+        "id": "ABS_TEST_046",
+        "question": "Where can I find information about how the telecom sector is performing?",
+        "category": "answerable_unstructured_trai",
+        "expected": "answer",
+        "gold_documents": [
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "layer_that_abstained": "generator",
+        "layer_number": 3,
+        "saved_reason": "the generator reported insufficient evidence",
+        "router": {
+          "name": "laya_finetuned",
+          "label": "hybrid",
+          "confidence": 0.9931,
+          "final_route": "hybrid"
+        },
+        "retrieval_top5_documents": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025",
+          "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025"
+        ],
+        "gold_rank_in_top5": 2,
+        "top_crossencoder_sigmoid": 0.370017,
+        "calibrated_threshold": 0.052289,
+        "likely_cause": "generator rule: the retrieval gate passed (sigmoid 0.3700 >= 0.0523) but the generator answered INSUFFICIENT_EVIDENCE; a gold document is in the top 5 at rank 2, so the evidence was present and the strict 'answer only from evidence' rule judged it insufficient (inferred)"
+      }
+    ]
+  }
+}

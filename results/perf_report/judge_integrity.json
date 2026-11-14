@@ -1,0 +1,611 @@
+{
+  "n_sample": 65,
+  "n_judged": 65,
+  "n_failed": 0,
+  "n_pool": 324,
+  "seed": 20261031,
+  "arms": [
+    "A",
+    "B",
+    "B2",
+    "C"
+  ],
+  "same_model_uncached_rejudge": {
+    "model": "qwen2.5:7b-instruct",
+    "exact_agreement": "63/65",
+    "agreement_fully_correct_vs_not": "63/65"
+  },
+  "second_model_rejudge": {
+    "model": "qwen2.5:3b-instruct",
+    "exact_agreement": "42/65",
+    "agreement_fully_correct_vs_not": "48/65"
+  },
+  "reading": "same-model agreement measures the judge's own repeatability at temperature 0 (decoding is not fully deterministic on this machine); second-model agreement is a rough independence check, not a validity measure -- only a human review of the exported sample is.",
+  "rows": [
+    {
+      "arm": "B",
+      "id": "RW_017",
+      "run": 1,
+      "category": "trai",
+      "original": 2,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B",
+      "id": "Q04",
+      "run": 1,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B2",
+      "id": "MH_RB_B04",
+      "run": 1,
+      "category": "cross",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "A",
+      "id": "MH_RB_B06",
+      "run": 2,
+      "category": "cross",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 0
+    },
+    {
+      "arm": "C",
+      "id": "MH13",
+      "run": 2,
+      "category": "multi",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "A",
+      "id": "MH13",
+      "run": 3,
+      "category": "multi",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B",
+      "id": "MH_RB_B02",
+      "run": 2,
+      "category": "cross",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B",
+      "id": "Q08",
+      "run": 1,
+      "category": "syn",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 0
+    },
+    {
+      "arm": "C",
+      "id": "MH01",
+      "run": 1,
+      "category": "multi",
+      "original": 0,
+      "rejudge_same_model": 0,
+      "rejudge_second_model": 0
+    },
+    {
+      "arm": "B",
+      "id": "MH_RB_B04",
+      "run": 3,
+      "category": "cross",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "C",
+      "id": "RW_023",
+      "run": 3,
+      "category": "trai",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B",
+      "id": "MH01",
+      "run": 1,
+      "category": "multi",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "A",
+      "id": "Q20",
+      "run": 2,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "C",
+      "id": "Q13",
+      "run": 3,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "C",
+      "id": "Q25",
+      "run": 1,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "A",
+      "id": "MH12",
+      "run": 2,
+      "category": "multi",
+      "original": 0,
+      "rejudge_same_model": 0,
+      "rejudge_second_model": 0
+    },
+    {
+      "arm": "B",
+      "id": "Q25",
+      "run": 1,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B",
+      "id": "MH_RB_B06",
+      "run": 1,
+      "category": "cross",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "A",
+      "id": "Q01",
+      "run": 2,
+      "category": "syn",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "C",
+      "id": "Q08",
+      "run": 1,
+      "category": "syn",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 0
+    },
+    {
+      "arm": "B",
+      "id": "MH05",
+      "run": 1,
+      "category": "multi",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B2",
+      "id": "MH_RB_B04",
+      "run": 2,
+      "category": "cross",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B2",
+      "id": "MH_RB_B01",
+      "run": 2,
+      "category": "cross",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "C",
+      "id": "RW_007",
+      "run": 3,
+      "category": "trai",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B",
+      "id": "Q01",
+      "run": 3,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "A",
+      "id": "Q20",
+      "run": 1,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "A",
+      "id": "MH_RB_B01",
+      "run": 1,
+      "category": "cross",
+      "original": 0,
+      "rejudge_same_model": 0,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B2",
+      "id": "Q20",
+      "run": 1,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B2",
+      "id": "Q13",
+      "run": 3,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "C",
+      "id": "MH03",
+      "run": 2,
+      "category": "multi",
+      "original": 0,
+      "rejudge_same_model": 0,
+      "rejudge_second_model": 0
+    },
+    {
+      "arm": "C",
+      "id": "MH_RB_B04",
+      "run": 2,
+      "category": "cross",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B2",
+      "id": "MH03",
+      "run": 2,
+      "category": "multi",
+      "original": 2,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B2",
+      "id": "RW_007",
+      "run": 2,
+      "category": "trai",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B2",
+      "id": "MH_RB_B02",
+      "run": 1,
+      "category": "cross",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B2",
+      "id": "MH_RB_B06",
+      "run": 1,
+      "category": "cross",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B2",
+      "id": "MH_RB_B03",
+      "run": 3,
+      "category": "cross",
+      "original": 0,
+      "rejudge_same_model": 0,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B2",
+      "id": "Q01",
+      "run": 2,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B2",
+      "id": "MH_RB_B02",
+      "run": 3,
+      "category": "cross",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "A",
+      "id": "Q25",
+      "run": 3,
+      "category": "syn",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "C",
+      "id": "MH_RB_B06",
+      "run": 3,
+      "category": "cross",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B",
+      "id": "Q08",
+      "run": 3,
+      "category": "syn",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B",
+      "id": "MH05",
+      "run": 3,
+      "category": "multi",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "A",
+      "id": "MH_RB_B01",
+      "run": 2,
+      "category": "cross",
+      "original": 0,
+      "rejudge_same_model": 0,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B2",
+      "id": "Q28",
+      "run": 1,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "A",
+      "id": "MH_RB_B06",
+      "run": 3,
+      "category": "cross",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B",
+      "id": "RW_004",
+      "run": 1,
+      "category": "trai",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "C",
+      "id": "RW_007",
+      "run": 1,
+      "category": "trai",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B",
+      "id": "MH13",
+      "run": 1,
+      "category": "multi",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "A",
+      "id": "RW_001",
+      "run": 3,
+      "category": "trai",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "A",
+      "id": "Q28",
+      "run": 2,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "C",
+      "id": "Q01",
+      "run": 1,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B",
+      "id": "MH_RB_B01",
+      "run": 1,
+      "category": "cross",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "A",
+      "id": "Q04",
+      "run": 2,
+      "category": "syn",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B",
+      "id": "MH02",
+      "run": 2,
+      "category": "multi",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B",
+      "id": "Q04",
+      "run": 3,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "A",
+      "id": "Q08",
+      "run": 1,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "A",
+      "id": "MH04",
+      "run": 1,
+      "category": "multi",
+      "original": 0,
+      "rejudge_same_model": 0,
+      "rejudge_second_model": 0
+    },
+    {
+      "arm": "B",
+      "id": "Q08",
+      "run": 2,
+      "category": "syn",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B2",
+      "id": "MH_RB_B03",
+      "run": 1,
+      "category": "cross",
+      "original": 0,
+      "rejudge_same_model": 0,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "B2",
+      "id": "Q04",
+      "run": 2,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "C",
+      "id": "MH_RB_B03",
+      "run": 1,
+      "category": "cross",
+      "original": 0,
+      "rejudge_same_model": 0,
+      "rejudge_second_model": 1
+    },
+    {
+      "arm": "C",
+      "id": "Q01",
+      "run": 2,
+      "category": "syn",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B",
+      "id": "MH_RB_B05",
+      "run": 1,
+      "category": "cross",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "A",
+      "id": "Q04",
+      "run": 3,
+      "category": "syn",
+      "original": 1,
+      "rejudge_same_model": 1,
+      "rejudge_second_model": 2
+    },
+    {
+      "arm": "B2",
+      "id": "MH03",
+      "run": 1,
+      "category": "multi",
+      "original": 2,
+      "rejudge_same_model": 2,
+      "rejudge_second_model": 1
+    }
+  ]
+}

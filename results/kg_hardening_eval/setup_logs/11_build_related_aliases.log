@@ -1,0 +1,8 @@
+===== RELATED_TO ALIASES =====
+related_ids     : 84
+resolved        : 47
+unresolved      : 37
+distinct_aliases: 26
+written: C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\knowledge_graph\related_id_aliases.json
+written: C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\knowledge_graph\related_id_alias_audit.csv
+exit=0

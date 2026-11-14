@@ -1,0 +1,72 @@
+2026-11-11T10:59:49Z health: model qwen2.5:7b-instruct digest 845dbda0ea48 probe 8.89s loaded=['qwen2.5:7b-instruct']; power: discharging (on battery) charge=64% sleep_after={'AC': 0, 'DC': 0}
+2026-11-11T11:00:05Z models loaded; warming up
+2026-11-11T11:00:23Z smoke GF   S01   route=None gw=0.0 added=0 links=0 blocks=4 top3=['PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION', 'KB_C19_privacy_data_requests', 'KB_C20_refund_processing'] 1.673s
+2026-11-11T11:00:33Z smoke GF   Q04   route=None gw=0.5 added=1 links=0 blocks=3 top3=['FAQ_C04_007', 'PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025', 'TARIFF_POSTPAID_2026H2'] 9.49s
+2026-11-11T11:00:37Z smoke GF   MH02  route=None gw=0.15 added=5 links=0 blocks=4 top3=['RCA_INC_2026_0163', 'INC_C04_INC_2026_0163', 'FAQ_C20_039'] 4.32s
+2026-11-11T11:00:39Z smoke GFL  S01   route=None gw=0.0 added=0 links=8 blocks=4 top3=['PUBLIC_PDF_10_QOS_SUBMISSION_REPORTS_DIRECTION', 'KB_C19_privacy_data_requests', 'KB_C20_refund_processing'] 1.577s
+2026-11-11T11:00:48Z smoke GFL  Q04   route=None gw=0.5 added=1 links=0 blocks=3 top3=['FAQ_C04_007', 'PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025', 'TARIFF_POSTPAID_2026H2'] 9.42s
+2026-11-11T11:00:52Z smoke GFL  MH02  route=None gw=0.15 added=5 links=4 blocks=4 top3=['RCA_INC_2026_0163', 'INC_C04_INC_2026_0163', 'FAQ_C20_039'] 4.423s
+2026-11-11T11:01:27Z smoke verdict: {'arm_labels_match_configuration': True, 'non_router_arms_have_no_route': True, 'GF_adds_chunks_somewhere': True, 'GF_query_not_rewritten': True, 'GFL_adds_chunks_somewhere': True, 'GFL_query_not_rewritten': True, 'GF_differs_from_plain_on_42_questions': True, 'GFL_link_hop_adds_documents': True, 'plain_search_equals_stored_B2_run1_on_all_42': True, 'proceed': True}
+2026-11-11T11:01:27Z retrieval diff summary (42 questions): {'questions': 42, 'gate_weight_positive': 23, 'plain_search_equals_stored_B2_run1_chunks': 42, 'GF_docs_differ_from_plain': 21, 'GFL_docs_differ_from_plain': 21, 'GF_added_chunks': 77, 'GFL_added_chunks': 77, 'GF_query_differs_from_question': 0, 'GFL_query_differs_from_question': 0, 'GFL_docs_differ_from_GF': 1, 'GFL_added_differ_from_GF': 1, 'related_neighbours_added_total': 41}
+2026-11-11T11:01:27Z smoke finished in 98s
+2026-11-11T11:02:28Z runtime estimate: generation 26 min for 252 answers (GF ~15 min, GFL ~12 min); scoring ~47 min; total ~76 min
+2026-11-11T11:04:02Z manifest written (git afbbe8df, dirty=False); reused arms verified: code identical, graph identical
+2026-11-11T11:04:03Z health: model qwen2.5:7b-instruct digest 845dbda0ea48 probe 1.13s loaded=['qwen2.5:7b-instruct']; power: discharging (on battery) charge=60% sleep_after={'AC': 0, 'DC': 0}
+2026-11-11T11:04:16Z models loaded; warming up
+2026-11-11T11:04:21Z plan: 252 generations, 0 already done, 252 to run
+2026-11-11T11:05:43Z HEARTBEAT [10/252] ok=10 failed=0 last=GF S06 run1 19.77s ETA 33 min
+2026-11-11T11:07:02Z HEARTBEAT [20/252] ok=20 failed=0 last=GF Q25 run1 9.226s ETA 31 min
+2026-11-11T11:08:53Z HEARTBEAT [30/252] ok=30 failed=0 last=GF MH01 run1 8.063s ETA 34 min
+2026-11-11T11:10:01Z HEARTBEAT [40/252] ok=40 failed=0 last=GF MH_RB_B06 run1 9.698s ETA 30 min
+2026-11-11T11:11:08Z HEARTBEAT [50/252] ok=50 failed=0 last=GF Q08 run2 5.195s ETA 27 min
+2026-11-11T11:12:25Z HEARTBEAT [60/252] ok=60 failed=0 last=GF RW_023 run2 8.619s ETA 26 min
+2026-11-11T11:13:52Z HEARTBEAT [70/252] ok=70 failed=0 last=GF S13 run2 10.087s ETA 25 min
+2026-11-11T11:14:53Z HEARTBEAT [80/252] ok=80 failed=0 last=GF MH_RB_B04 run2 7.837s ETA 23 min
+2026-11-11T11:16:09Z HEARTBEAT [90/252] ok=90 failed=0 last=GF RW_004 run3 8.445s ETA 21 min
+2026-11-11T11:17:17Z HEARTBEAT [100/252] ok=100 failed=0 last=GF S09 run3 9.874s ETA 20 min
+2026-11-11T11:18:36Z HEARTBEAT [110/252] ok=110 failed=0 last=GF S10 run3 9.753s ETA 18 min
+2026-11-11T11:19:36Z HEARTBEAT [120/252] ok=120 failed=0 last=GF MH_RB_B02 run3 4.489s ETA 17 min
+2026-11-11T11:20:21Z HEARTBEAT [130/252] ok=130 failed=0 last=GFL S03 run1 7.636s ETA 15 min
+2026-11-11T11:21:09Z HEARTBEAT [140/252] ok=140 failed=0 last=GFL Q17 run1 4.887s ETA 13 min
+2026-11-11T11:21:58Z HEARTBEAT [150/252] ok=150 failed=0 last=GFL S05 run1 4.984s ETA 12 min
+2026-11-11T11:22:47Z HEARTBEAT [160/252] ok=160 failed=0 last=GFL MH05 run1 2.752s ETA 11 min
+2026-11-11T11:23:28Z HEARTBEAT [170/252] ok=170 failed=0 last=GFL Q01 run2 5.117s ETA 9 min
+2026-11-11T11:24:24Z HEARTBEAT [180/252] ok=180 failed=0 last=GFL RW_010 run2 5.259s ETA 8 min
+2026-11-11T11:25:13Z HEARTBEAT [190/252] ok=190 failed=0 last=GFL Q28 run2 9.676s ETA 7 min
+2026-11-11T11:26:02Z HEARTBEAT [200/252] ok=200 failed=0 last=GFL MH03 run2 2.846s ETA 6 min
+2026-11-11T11:26:42Z HEARTBEAT [210/252] ok=210 failed=0 last=GFL MH13 run2 2.244s ETA 4 min
+2026-11-11T11:27:38Z HEARTBEAT [220/252] ok=220 failed=0 last=GFL S06 run3 11.875s ETA 3 min
+2026-11-11T11:28:25Z HEARTBEAT [230/252] ok=230 failed=0 last=GFL Q25 run3 5.693s ETA 2 min
+2026-11-11T11:29:23Z HEARTBEAT [240/252] ok=240 failed=0 last=GFL MH01 run3 3.809s ETA 1 min
+2026-11-11T11:30:05Z HEARTBEAT [250/252] ok=250 failed=0 last=GFL MH_RB_B06 run3 6.407s ETA 0 min
+2026-11-11T11:30:11Z HEARTBEAT [252/252] ok=252 failed=0 last=GFL MH13 run3 2.434s ETA 0 min
+2026-11-11T11:30:11Z generation loop done: ok=252 failed=0
+2026-11-11T11:30:11Z generate finished in 1568s
+2026-11-11T11:30:59Z scoring 252 records (0 already scored)
+2026-11-11T11:34:11Z HEARTBEAT [10/252] ok=10 failed=0 GF S06 run1 correctness=2 (judge calls 3, cache hits 27, of which seeded caches 27) ETA 78 min
+2026-11-11T11:38:22Z HEARTBEAT [20/252] ok=20 failed=0 GF Q25 run1 correctness=2 (judge calls 6, cache hits 54, of which seeded caches 54) ETA 86 min
+2026-11-11T11:46:54Z HEARTBEAT [30/252] ok=30 failed=0 GF MH01 run1 correctness=1 (judge calls 7, cache hits 84, of which seeded caches 84) ETA 118 min
+2026-11-11T11:56:10Z HEARTBEAT [40/252] ok=40 failed=0 GF MH_RB_B06 run1 correctness=1 (judge calls 14, cache hits 111, of which seeded caches 111) ETA 133 min
+2026-11-11T12:03:49Z HEARTBEAT [50/252] ok=50 failed=0 GF Q08 run2 correctness=1 (judge calls 16, cache hits 139, of which seeded caches 136) ETA 133 min
+2026-11-11T12:12:56Z HEARTBEAT [60/252] ok=60 failed=0 GF RW_023 run2 correctness=2 (judge calls 16, cache hits 169, of which seeded caches 166) ETA 134 min
+2026-11-11T12:17:03Z HEARTBEAT [70/252] ok=70 failed=0 GF S13 run2 correctness=2 (judge calls 19, cache hits 196, of which seeded caches 192) ETA 120 min
+2026-11-11T12:19:23Z HEARTBEAT [80/252] ok=80 failed=0 GF MH_RB_B04 run2 correctness=2 (judge calls 19, cache hits 231, of which seeded caches 223) ETA 104 min
+2026-11-11T12:25:42Z HEARTBEAT [90/252] ok=90 failed=0 GF RW_004 run3 correctness=2 (judge calls 22, cache hits 258, of which seeded caches 248) ETA 98 min
+2026-11-11T12:32:32Z HEARTBEAT [100/252] ok=100 failed=0 GF S09 run3 correctness=2 (judge calls 22, cache hits 288, of which seeded caches 275) ETA 94 min
+2026-11-11T12:34:10Z HEARTBEAT [110/252] ok=110 failed=0 GF S10 run3 correctness=2 (judge calls 22, cache hits 318, of which seeded caches 301) ETA 82 min
+2026-11-11T12:35:47Z HEARTBEAT [120/252] ok=120 failed=0 GF MH_RB_B02 run3 correctness=2 (judge calls 22, cache hits 353, of which seeded caches 332) ETA 71 min
+2026-11-11T12:37:47Z HEARTBEAT [130/252] ok=130 failed=0 GFL S03 run1 correctness=2 (judge calls 22, cache hits 383, of which seeded caches 357) ETA 63 min
+2026-11-11T12:39:37Z HEARTBEAT [140/252] ok=140 failed=0 GFL Q17 run1 correctness=2 (judge calls 22, cache hits 413, of which seeded caches 384) ETA 55 min
+2026-11-11T12:41:48Z HEARTBEAT [150/252] ok=150 failed=0 GFL S05 run1 correctness=2 (judge calls 23, cache hits 442, of which seeded caches 410) ETA 48 min
+2026-11-11T12:43:08Z HEARTBEAT [160/252] ok=160 failed=0 GFL MH05 run1 correctness=1 (judge calls 23, cache hits 477, of which seeded caches 441) ETA 41 min
+2026-11-11T12:45:01Z HEARTBEAT [170/252] ok=170 failed=0 GFL Q01 run2 correctness=2 (judge calls 23, cache hits 507, of which seeded caches 466) ETA 36 min
+2026-11-11T12:47:26Z HEARTBEAT [180/252] ok=180 failed=0 GFL RW_010 run2 correctness=1 (judge calls 23, cache hits 537, of which seeded caches 493) ETA 31 min
+2026-11-11T12:49:21Z HEARTBEAT [190/252] ok=190 failed=0 GFL Q28 run2 correctness=2 (judge calls 23, cache hits 567, of which seeded caches 520) ETA 26 min
+2026-11-11T12:50:38Z HEARTBEAT [200/252] ok=200 failed=0 GFL MH03 run2 correctness=1 (judge calls 23, cache hits 600, of which seeded caches 548) ETA 21 min
+2026-11-11T12:52:34Z HEARTBEAT [210/252] ok=210 failed=0 GFL MH13 run2 correctness=2 (judge calls 23, cache hits 632, of which seeded caches 575) ETA 16 min
+2026-11-11T12:54:40Z HEARTBEAT [220/252] ok=220 failed=0 GFL S06 run3 correctness=2 (judge calls 23, cache hits 662, of which seeded caches 602) ETA 12 min
+2026-11-11T12:57:06Z HEARTBEAT [230/252] ok=230 failed=0 GFL Q25 run3 correctness=2 (judge calls 23, cache hits 692, of which seeded caches 629) ETA 8 min
+2026-11-11T12:58:05Z HEARTBEAT [240/252] ok=240 failed=0 GFL MH01 run3 correctness=1 (judge calls 23, cache hits 723, of which seeded caches 659) ETA 4 min
+2026-11-11T13:00:10Z HEARTBEAT [250/252] ok=250 failed=0 GFL MH_RB_B06 run3 correctness=1 (judge calls 23, cache hits 757, of which seeded caches 686) ETA 1 min
+2026-11-11T13:00:19Z HEARTBEAT [252/252] ok=252 failed=0 GFL MH13 run3 correctness=2 (judge calls 23, cache hits 763, of which seeded caches 690) ETA 0 min
+2026-11-11T13:00:19Z scoring done: ok=252 failed=0; judge calls 23, cache hits 763 (seeded caches 690)

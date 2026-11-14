@@ -1,0 +1,128 @@
+# KG-hardening evaluation: comparison table
+
+All 42 questions, 3 runs per arm; percentages are the mean over runs (min-max range when the runs differ). v3_B2 and v3_C are the v3 report's arms (results/perf_report/, read-only), shown for the parser-effect and drift lines only. 'not scored' = that metric was not judged for that arm.
+
+## Headline and judge metrics
+
+| metric | v3_B2 | B2 | C_V0 | C_V1 | C_V1_links | v3_C |
+|---|---|---|---|---|---|---|
+| correctness, all 42 (partial credit) | 82.9% (range 82.1-84.5) | 84.1% (range 83.3-84.5) | 66.7% | 65.9% (range 65.5-66.7) | 68.7% (range 67.9-70.2) | 67.5% (range 66.7-67.9) |
+| correctness, core 22 | 89.4% (range 88.6-90.9) | 92.4% (range 90.9-93.2) | 77.3% | 75.0% | 75.0% | 79.5% |
+| relevance | not scored | 96.8% (range 96.4-97.6) | 82.5% (range 82.1-83.3) | 87.3% (range 86.9-88.1) | 86.9% | 82.9% (range 82.1-83.3) |
+| groundedness | 93.6% (range 92.9-94.0) | 95.6% (range 94.0-96.4) | 90.4% (range 89.5-90.8) | 93.8% (range 93.4-94.7) | 95.2% (range 94.7-96.1) | 88.2% |
+| hallucination vs reference evidence | not scored | 36.5% (range 35.7-38.1) | 48.4% (range 47.6-50.0) | 51.6% (range 50.0-52.4) | 47.6% | 43.7% (range 42.9-45.2) |
+| hallucination vs retrieved context | 7.9% (range 7.1-9.5) | 4.0% (range 2.4-7.1) | 2.6% | 6.1% (range 2.6-7.9) | 7.0% (range 5.3-7.9) | 7.9% |
+| citation coverage | not scored | 57.9% | 46.4% | 47.0% | 48.6% | 50.9% |
+| citation correctness | not scored | 73.6% | 75.8% | 73.6% | 76.2% | 76.7% |
+| unsupported-claim rate | not scored | 47.3% | 58.2% | 58.5% | 55.6% | 54.5% |
+
+## Per-category correctness (partial credit)
+
+| category (n) | v3_B2 | B2 | C_V0 | C_V1 | C_V1_links | v3_C |
+|---|---|---|---|---|---|---|
+| db (15) | 90.0% | 90.0% | 83.3% | 83.3% | 83.3% | 83.3% |
+| syn (8) | 89.6% (range 87.5-93.8) | 91.7% (range 87.5-93.8) | 81.2% | 75.0% | 75.0% | 81.2% |
+| trai (6) | 75.0% | 83.3% | 66.7% | 66.7% | 66.7% | 75.0% |
+| cross (6) | 75.0% | 75.0% | 50.0% | 44.5% (range 41.7-50.0) | 38.9% (range 33.3-50.0) | 63.9% (range 58.3-66.7) |
+| multi (7) | 73.8% (range 71.4-78.6) | 71.4% | 28.6% | 35.7% | 57.1% | 14.3% |
+
+## Retrieval (25 document questions, run 1; identical across runs unless stated) and database-row coverage
+
+| metric | v3_B2 | B2 | C_V0 | C_V1 | C_V1_links | v3_C |
+|---|---|---|---|---|---|---|
+| R@1 | 0.760 | 0.760 | 0.360 | 0.440 | 0.600 | 0.360 |
+| R@3 | 0.920 | 0.920 | 0.720 | 0.720 | 0.840 | 0.720 |
+| R@5 | 0.960 | 0.960 | 0.800 | 0.800 | 0.880 | 0.800 |
+| R@10 | 1.000 | 1.000 | 0.840 | 0.880 | 0.880 | 0.840 |
+| MRR@10 | 0.837 | 0.837 | 0.516 | 0.580 | 0.697 | 0.516 |
+| retrieval identical across runs | True | True | True | True | True | True |
+| database-row coverage | 89.2% | 93.8% | 93.8% | 93.8% | 93.8% | 89.2% |
+
+## Latency, prompt size, abstentions, routing
+
+| metric | v3_B2 | B2 | C_V0 | C_V1 | C_V1_links | v3_C |
+|---|---|---|---|---|---|---|
+| latency median | 4.1 s | 3.6 s | 4.6 s | 5.0 s | 4.9 s | 6.6 s |
+| latency p95 | 10.5 s | 7.3 s | 10.4 s | 10.4 s | 10.4 s | 14.2 s |
+| latency records excluded (gap/slow) | 0 | 0 | 0 | 0 | 0 | 0 |
+| prompt tokens median | 1,516 | 1,526 | 1,349 | 1,200 | 1,200 | 1,349 |
+| abstentions (records) | 0 | 0 | 12 | 12 | 12 | 12 |
+| routes (final) | no router | no router | {"structured": 57, "unstructured": 33, "hybrid": 33, "out_of_scope": 3} | {"structured": 57, "unstructured": 33, "hybrid": 33, "out_of_scope": 3} | {"structured": 57, "unstructured": 33, "hybrid": 33, "out_of_scope": 3} | {"structured": 57, "unstructured": 33, "hybrid": 33, "out_of_scope": 3} |
+| router errors | 0 | 0 | 0 | 0 | 0 | 0 |
+
+## Run-to-run variability
+
+| metric | v3_B2 | B2 | C_V0 | C_V1 | C_V1_links | v3_C |
+|---|---|---|---|---|---|---|
+| questions with identical correctness in all runs | 40/42 (95.2%) | 41/42 (97.6%) | 42/42 (100.0%) | 40/42 (95.2%) | 41/42 (97.6%) | 41/42 (97.6%) |
+| questions with identical answer text in all runs | 25/42 (59.5%) | 23/42 (54.8%) | 31/42 (73.8%) | 33/42 (78.6%) | 37/42 (88.1%) | 34/42 (81.0%) |
+| correctness per run | [84.5, 82.1, 82.1] | [83.3, 84.5, 84.5] | [66.7, 66.7, 66.7] | [66.7, 65.5, 65.5] | [70.2, 67.9, 67.9] | [66.7, 67.9, 67.9] |
+
+## Error causes (answers with correctness < 2; v3 rule, B2 of the same run as reference for the C arms)
+
+| cause | B2 | C_V0 | C_V1 | C_V1_links |
+|---|---|---|---|---|
+| retrieval | 6 | 9 | 11 | 11 |
+| context | 3 | 9 | 13 | 6 |
+| competing | 0 | 3 | 3 | 3 |
+| ranking | 0 | 6 | 0 | 0 |
+| model | 13 | 9 | 12 | 15 |
+| router | 0 | 12 | 12 | 12 |
+| graph | 0 | 3 | 3 | 3 |
+| scoring | 12 | 0 | 0 | 0 |
+| total | 34 | 51 | 54 | 50 |
+
+## Graph diagnostics (run 1; see graph_diagnostics.md)
+
+| item | C_V0 | C_V1 | C_V1_links |
+|---|---|---|---|
+| questions with chunks added | 14 | 14 | 14 |
+| chunks added (total) | 85 | 55 | 65 |
+| documents added (total) | 76 | 39 | 48 |
+| documents added per question (mean / max) | 5.43 / 10 | 2.79 / 3 | 3.43 / 5 |
+| added via RELATED_TO link | 0 | 0 | 12 |
+| added via bridge concept, hub-only | 44 | 0 | 0 |
+| added via bridge concept, has a specific concept | 41 | 55 | 53 |
+| added chunks relevant to the gold evidence | 7 of 85 | 13 of 55 | 19 of 65 |
+| questions where graph chunks displaced the gold document from the top 10 | 1 ['RW_017'] | 0 [] | 0 [] |
+| gold at rank 1 (B2 / this arm), 25 doc questions | 19 / 9 | 19 / 11 | 19 / 15 |
+| gold rank vs B2 (better / same / worse / lost) | 3 / 11 / 7 / 1 | 2 / 12 / 8 / 0 | 4 / 14 / 4 / 0 |
+| RELATED_TO documents appended by the layer (run 1) | 0 | 0 | 18 |
+
+## Paired comparisons (question level, 42 pairs; exact McNemar two-sided; paired bootstrap 95% CI in points of the per-question value)
+
+### Rule: strict
+
+| comparison | wins | losses | ties | McNemar p | 95% CI (pts) | mean diff (pts) | note |
+|---|---|---|---|---|---|---|---|
+| C_V1 vs C_V0 | 2 | 3 | 37 | 1.0000 | [-13.5, +7.9] | -2.4 | fewer than 10 discordant pairs (low power) wins ['Q08', 'MH_RB_B02'] losses ['Q04', 'Q25', 'MH_RB_B01'] |
+| C_V1_links vs C_V1 | 2 | 1 | 39 | 1.0000 | [-4.8, +11.9] | +3.2 | fewer than 10 discordant pairs (low power) wins ['MH02', 'MH03'] losses ['MH_RB_B02'] |
+| C_V0 vs B2 | 1 | 7 | 34 | 0.0703 | [-26.2, -1.6] | -13.5 | fewer than 10 discordant pairs (low power) wins ['S08'] losses ['Q17', 'RW_017', 'S09', 'S15', 'MH02', 'MH_RB_B02', 'MH_RB_B04'] |
+| C_V1 vs B2 | 2 | 9 | 31 | 0.0654 | [-30.2, -1.6] | -15.9 |  wins ['Q08', 'S08'] losses ['Q04', 'Q17', 'RW_017', 'S09', 'Q25', 'S15', 'MH02', 'MH_RB_B01', 'MH_RB_B04'] |
+| C_V1_links vs B2 | 3 | 9 | 30 | 0.1460 | [-28.6, +2.4] | -12.7 |  wins ['Q08', 'S08', 'MH03'] losses ['Q04', 'Q17', 'RW_017', 'S09', 'Q25', 'S15', 'MH_RB_B01', 'MH_RB_B02', 'MH_RB_B04'] |
+| B2 vs v3_B2 | 3 | 2 | 37 | 1.0000 | [-9.5, +9.5] | +0.0 | fewer than 10 discordant pairs (low power) wins ['Q20', 'MH12', 'MH13'] losses ['MH03', 'MH04'] |
+| C_V0 vs v3_C | 2 | 2 | 38 | 1.0000 | [-9.5, +9.5] | +0.0 | fewer than 10 discordant pairs (low power) wins ['MH12', 'MH13'] losses ['RW_001', 'MH_RB_B04'] |
+
+### Rule: partial
+
+| comparison | wins | losses | ties | McNemar p | 95% CI (pts) | mean diff (pts) | note |
+|---|---|---|---|---|---|---|---|
+| C_V1 vs C_V0 | 4 | 4 | 34 | 1.0000 | [-8.3, +6.3] | -0.8 | fewer than 10 discordant pairs (low power) wins ['Q08', 'MH02', 'MH_RB_B02', 'MH_RB_B04'] losses ['Q04', 'Q25', 'MH_RB_B01', 'MH_RB_B05'] |
+| C_V1_links vs C_V1 | 4 | 2 | 36 | 0.6875 | [-2.8, +9.1] | +2.8 | fewer than 10 discordant pairs (low power) wins ['MH02', 'MH03', 'MH_RB_B01', 'MH_RB_B05'] losses ['MH_RB_B02', 'MH_RB_B04'] |
+| C_V0 vs B2 | 2 | 11 | 29 | 0.0225 | [-28.6, -6.7] | -17.5 |  wins ['Q20', 'S08'] losses ['Q17', 'RW_017', 'S09', 'S15', 'MH01', 'MH02', 'MH03', 'MH04', 'MH05', 'MH_RB_B02', 'MH_RB_B04'] |
+| C_V1 vs B2 | 3 | 14 | 25 | 0.0127 | [-29.8, -7.5] | -18.3 |  wins ['Q08', 'Q20', 'S08'] losses ['Q04', 'Q17', 'RW_017', 'S09', 'Q25', 'S15', 'MH01', 'MH02', 'MH03', 'MH04', 'MH05', 'MH_RB_B01', 'MH_RB_B04', 'MH_RB_B05'] |
+| C_V1_links vs B2 | 4 | 12 | 26 | 0.0768 | [-27.4, -4.8] | -15.5 |  wins ['Q08', 'Q20', 'S08', 'MH03'] losses ['Q04', 'Q17', 'RW_017', 'S09', 'Q25', 'S15', 'MH01', 'MH04', 'MH05', 'MH_RB_B01', 'MH_RB_B02', 'MH_RB_B04'] |
+| B2 vs v3_B2 | 4 | 3 | 35 | 1.0000 | [-4.0, +6.7] | +1.2 | fewer than 10 discordant pairs (low power) wins ['RW_010', 'Q20', 'MH12', 'MH13'] losses ['MH01', 'MH03', 'MH04'] |
+| C_V0 vs v3_C | 3 | 2 | 37 | 1.0000 | [-7.5, +4.8] | -0.8 | fewer than 10 discordant pairs (low power) wins ['MH_RB_B06', 'MH12', 'MH13'] losses ['RW_001', 'MH_RB_B04'] |
+
+### Rule: lenient
+
+| comparison | wins | losses | ties | McNemar p | 95% CI (pts) | mean diff (pts) | note |
+|---|---|---|---|---|---|---|---|
+| C_V1 vs C_V0 | 1 | 1 | 40 | 1.0000 | [-6.3, +7.9] | +0.8 | fewer than 10 discordant pairs (low power) wins ['MH02'] losses ['MH_RB_B01'] |
+| C_V1_links vs C_V1 | 1 | 0 | 41 | 1.0000 | [-1.6, +7.9] | +2.4 | fewer than 10 discordant pairs (low power) wins ['MH03'] losses [] |
+| C_V0 vs B2 | 0 | 9 | 33 | 0.0039 | [-33.3, -9.5] | -21.4 | fewer than 10 discordant pairs (low power) wins [] losses ['Q17', 'RW_017', 'S15', 'MH01', 'MH02', 'MH03', 'MH04', 'MH05', 'MH_RB_B04'] |
+| C_V1 vs B2 | 0 | 9 | 33 | 0.0039 | [-33.3, -9.5] | -20.6 | fewer than 10 discordant pairs (low power) wins [] losses ['Q17', 'RW_017', 'S15', 'MH01', 'MH03', 'MH04', 'MH05', 'MH_RB_B01', 'MH_RB_B04'] |
+| C_V1_links vs B2 | 0 | 8 | 34 | 0.0078 | [-30.2, -7.1] | -18.3 | fewer than 10 discordant pairs (low power) wins [] losses ['Q17', 'RW_017', 'S15', 'MH01', 'MH04', 'MH05', 'MH_RB_B01', 'MH_RB_B04'] |
+| B2 vs v3_B2 | 1 | 0 | 41 | 1.0000 | [+0.0, +7.1] | +2.4 | fewer than 10 discordant pairs (low power) wins ['RW_010'] losses [] |
+| C_V0 vs v3_C | 0 | 1 | 41 | 1.0000 | [-7.1, +2.4] | -1.6 | fewer than 10 discordant pairs (low power) wins [] losses ['MH_RB_B04'] |

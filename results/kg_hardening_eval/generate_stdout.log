@@ -1,0 +1,64 @@
+2026-11-10T15:04:21Z manifest written (git 6f4f0fab, dirty=False)
+2026-11-10T15:04:21Z health: model qwen2.5:7b-instruct digest 845dbda0ea48 probe 0.29s loaded=['qwen2.5:7b-instruct']
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 10300.99it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]Loading weights: 100%|##########| 105/105 [00:00<00:00, 10529.89it/s]
+2026-11-10T15:04:29Z models loaded; warming up
+semantic layer: 37 of 84 RELATED_TO links are dangling (an endpoint is not an indexed document) and are skipped
+2026-11-10T15:04:32Z plan: 504 generations, 0 already done, 504 to run
+2026-11-10T15:05:16Z HEARTBEAT [10/504] ok=10 failed=0 last=B2 S06 run1 11.014s ETA 37 min
+2026-11-10T15:05:59Z HEARTBEAT [20/504] ok=20 failed=0 last=B2 Q25 run1 5.219s ETA 35 min
+2026-11-10T15:06:55Z HEARTBEAT [30/504] ok=30 failed=0 last=B2 MH01 run1 3.251s ETA 38 min
+2026-11-10T15:07:32Z HEARTBEAT [40/504] ok=40 failed=0 last=B2 MH_RB_B06 run1 5.774s ETA 35 min
+2026-11-10T15:08:08Z HEARTBEAT [50/504] ok=50 failed=0 last=B2 Q08 run2 3.556s ETA 33 min
+2026-11-10T15:08:50Z HEARTBEAT [60/504] ok=60 failed=0 last=B2 RW_023 run2 5.046s ETA 32 min
+2026-11-10T15:09:37Z HEARTBEAT [70/504] ok=70 failed=0 last=B2 S13 run2 5.317s ETA 32 min
+2026-11-10T15:10:07Z HEARTBEAT [80/504] ok=80 failed=0 last=B2 MH_RB_B04 run2 3.698s ETA 30 min
+2026-11-10T15:10:47Z HEARTBEAT [90/504] ok=90 failed=0 last=B2 RW_004 run3 4.36s ETA 29 min
+2026-11-10T15:11:26Z HEARTBEAT [100/504] ok=100 failed=0 last=B2 S09 run3 4.975s ETA 28 min
+2026-11-10T15:12:09Z HEARTBEAT [110/504] ok=110 failed=0 last=B2 S10 run3 5.382s ETA 27 min
+2026-11-10T15:12:44Z HEARTBEAT [120/504] ok=120 failed=0 last=B2 MH_RB_B02 run3 3.63s ETA 26 min
+2026-11-10T15:13:28Z HEARTBEAT [130/504] ok=130 failed=0 last=C_V0 S03 run1 15.201s ETA 26 min
+2026-11-10T15:14:06Z HEARTBEAT [140/504] ok=140 failed=0 last=C_V0 Q17 run1 2.887s ETA 25 min
+2026-11-10T15:14:52Z HEARTBEAT [150/504] ok=150 failed=0 last=C_V0 S05 run1 4.518s ETA 24 min
+2026-11-10T15:15:29Z HEARTBEAT [160/504] ok=160 failed=0 last=C_V0 MH05 run1 0.043s ETA 24 min
+2026-11-10T15:16:20Z HEARTBEAT [170/504] ok=170 failed=0 last=C_V0 Q01 run2 5.619s ETA 23 min
+2026-11-10T15:17:25Z HEARTBEAT [180/504] ok=180 failed=0 last=C_V0 RW_010 run2 5.399s ETA 23 min
+2026-11-10T15:18:12Z HEARTBEAT [190/504] ok=190 failed=0 last=C_V0 Q28 run2 10.304s ETA 23 min
+2026-11-10T15:18:54Z HEARTBEAT [200/504] ok=200 failed=0 last=C_V0 MH03 run2 3.702s ETA 22 min
+2026-11-10T15:19:32Z HEARTBEAT [210/504] ok=210 failed=0 last=C_V0 MH13 run2 2.168s ETA 21 min
+2026-11-10T15:20:33Z HEARTBEAT [220/504] ok=220 failed=0 last=C_V0 S06 run3 11.55s ETA 21 min
+2026-11-10T15:21:23Z HEARTBEAT [230/504] ok=230 failed=0 last=C_V0 Q25 run3 7.301s ETA 20 min
+2026-11-10T15:22:09Z HEARTBEAT [240/504] ok=240 failed=0 last=C_V0 MH01 run3 0.125s ETA 19 min
+2026-11-10T15:22:49Z HEARTBEAT [250/504] ok=250 failed=0 last=C_V0 MH_RB_B06 run3 5.298s ETA 19 min
+semantic layer: 37 of 84 RELATED_TO links are dangling (an endpoint is not an indexed document) and are skipped
+2026-11-10T15:23:40Z HEARTBEAT [260/504] ok=260 failed=0 last=C_V1 Q08 run1 6.57s ETA 18 min
+2026-11-10T15:24:35Z HEARTBEAT [270/504] ok=270 failed=0 last=C_V1 RW_023 run1 6.061s ETA 17 min
+2026-11-10T15:25:32Z HEARTBEAT [280/504] ok=280 failed=0 last=C_V1 S13 run1 5.927s ETA 17 min
+2026-11-10T15:26:10Z HEARTBEAT [290/504] ok=290 failed=0 last=C_V1 MH_RB_B04 run1 3.837s ETA 16 min
+2026-11-10T15:27:10Z HEARTBEAT [300/504] ok=300 failed=0 last=C_V1 RW_004 run2 5.312s ETA 15 min
+2026-11-10T15:28:00Z HEARTBEAT [310/504] ok=310 failed=0 last=C_V1 S09 run2 4.855s ETA 15 min
+2026-11-10T15:28:58Z HEARTBEAT [320/504] ok=320 failed=0 last=C_V1 S10 run2 6.149s ETA 14 min
+2026-11-10T15:29:31Z HEARTBEAT [330/504] ok=330 failed=0 last=C_V1 MH_RB_B02 run2 5.134s ETA 13 min
+2026-11-10T15:30:32Z HEARTBEAT [340/504] ok=340 failed=0 last=C_V1 S03 run3 15.751s ETA 13 min
+2026-11-10T15:31:21Z HEARTBEAT [350/504] ok=350 failed=0 last=C_V1 Q17 run3 3.902s ETA 12 min
+2026-11-10T15:32:16Z HEARTBEAT [360/504] ok=360 failed=0 last=C_V1 S05 run3 4.527s ETA 11 min
+2026-11-10T15:32:51Z HEARTBEAT [370/504] ok=370 failed=0 last=C_V1 MH05 run3 0.045s ETA 10 min
+semantic layer: 37 of 84 RELATED_TO links are dangling (an endpoint is not an indexed document) and are skipped
+2026-11-10T15:33:42Z HEARTBEAT [380/504] ok=380 failed=0 last=C_V1_links Q01 run1 5.506s ETA 10 min
+2026-11-10T15:34:48Z HEARTBEAT [390/504] ok=390 failed=0 last=C_V1_links RW_010 run1 5.477s ETA 9 min
+2026-11-10T15:35:41Z HEARTBEAT [400/504] ok=400 failed=0 last=C_V1_links Q28 run1 10.313s ETA 8 min
+2026-11-10T15:36:23Z HEARTBEAT [410/504] ok=410 failed=0 last=C_V1_links MH03 run1 3.19s ETA 7 min
+2026-11-10T15:37:04Z HEARTBEAT [420/504] ok=420 failed=0 last=C_V1_links MH13 run1 2.252s ETA 7 min
+2026-11-10T15:38:06Z HEARTBEAT [430/504] ok=430 failed=0 last=C_V1_links S06 run2 11.622s ETA 6 min
+2026-11-10T15:38:59Z HEARTBEAT [440/504] ok=440 failed=0 last=C_V1_links Q25 run2 7.378s ETA 5 min
+2026-11-10T15:39:45Z HEARTBEAT [450/504] ok=450 failed=0 last=C_V1_links MH01 run2 0.108s ETA 4 min
+2026-11-10T15:40:26Z HEARTBEAT [460/504] ok=460 failed=0 last=C_V1_links MH_RB_B06 run2 6.035s ETA 3 min
+2026-11-10T15:41:19Z HEARTBEAT [470/504] ok=470 failed=0 last=C_V1_links Q08 run3 6.691s ETA 3 min
+2026-11-10T15:42:13Z HEARTBEAT [480/504] ok=480 failed=0 last=C_V1_links RW_023 run3 6.096s ETA 2 min
+2026-11-10T15:43:09Z HEARTBEAT [490/504] ok=490 failed=0 last=C_V1_links S13 run3 5.961s ETA 1 min
+2026-11-10T15:43:44Z HEARTBEAT [500/504] ok=500 failed=0 last=C_V1_links MH_RB_B04 run3 3.586s ETA 0 min
+2026-11-10T15:43:59Z HEARTBEAT [504/504] ok=504 failed=0 last=C_V1_links MH13 run3 2.104s ETA 0 min
+2026-11-10T15:43:59Z generation loop done: ok=504 failed=0
+2026-11-10T15:43:59Z generate finished in 2379s
+GENERATE EXIT=0

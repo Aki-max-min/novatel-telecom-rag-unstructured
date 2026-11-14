@@ -1,0 +1,48 @@
+{
+  "n_total": 42,
+  "n_db": 15,
+  "n_syn": 8,
+  "n_trai": 6,
+  "n_cross": 6,
+  "n_multi": 7,
+  "n_core": 22,
+  "n_new": 20,
+  "n_docq": 25,
+  "per_category": {
+    "db": 15,
+    "syn": 8,
+    "trai": 6,
+    "multi": 7,
+    "cross": 6
+  },
+  "dropped": [],
+  "unreviewed_by_category": {
+    "db": [
+      "S02",
+      "S05",
+      "S08",
+      "S10",
+      "S11",
+      "S13",
+      "S14"
+    ],
+    "multi": [
+      "MH01",
+      "MH02",
+      "MH03",
+      "MH04",
+      "MH05",
+      "MH12",
+      "MH13"
+    ],
+    "cross": [
+      "MH_RB_B01",
+      "MH_RB_B02",
+      "MH_RB_B03",
+      "MH_RB_B04",
+      "MH_RB_B05",
+      "MH_RB_B06"
+    ]
+  },
+  "review_approved_file": "absent (no id is marked reviewed beyond E14a's own gold)"
+}

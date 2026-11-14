@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "generated_utc": "2026-10-27T13:02:20.365545+00:00",
+    "router": "auto",
+    "verifier": "nli",
+    "note": "Every kept question was run through answer_query and passed the kind-specific checks in build_demo_questions.py."
+  },
+  "dropped": [
+    {
+      "kind": "structured",
+      "question": "Which of customer 1056's subscriptions has run out, and on what date?",
+      "anchors": [
+        "expired",
+        "2025-09-22"
+      ],
+      "observed": {
+        "route": "structured",
+        "router": "laya_finetuned",
+        "router_label": "structured",
+        "router_confidence": 0.9931,
+        "abstained": false,
+        "answer_text": "subscription_id=3056 has run out. [E1]\nThe expiry date was 2025-09-22. [E1]",
+        "n_sentences": 2,
+        "support": [
+          "SUPPORTED",
+          "SUPPORTED"
+        ],
+        "cited": [
+          "table subscriptions, row 3056"
+        ],
+        "total_ms": 6170.1
+      },
+      "reasons": [
+        "anchor missing from answer: 'expired'"
+      ]
+    },
+    {
+      "kind": "structured",
+      "question": "Show the invoices of customer 1829 that are unpaid.",
+      "anchors": [
+        "unpaid",
+        "581.65"
+      ],
+      "observed": {
+        "route": "structured",
+        "router": "laya_finetuned",
+        "router_label": "structured",
+        "router_confidence": 0.9928,
+        "abstained": true,
+        "answer_text": "I don't have information about that in the NovaTel knowledge base.",
+        "n_sentences": 0,
+        "support": [],
+        "cited": [],
+        "total_ms": 3003.1
+      },
+      "reasons": [
+        "abstained (layer 3: the generator reported insufficient evidence)"
+      ]
+    },
+    {
+      "kind": "unstructured",
+      "question": "Can two promotional offers be applied to the same recharge?",
+      "expect_docs": [
+        "FAQ_C14_028"
+      ],
+      "observed": {
+        "route": "hybrid",
+        "router": "laya_finetuned",
+        "router_label": "hybrid",
+        "router_confidence": 0.992,
+        "abstained": false,
+        "answer_text": "Generally no — most promotional offers are mutually exclusive and the system will apply only one (typically the higher-value one) per transaction. [E1]\nTwo offers can only combine if at least one of them explicitly states it is stackable in its terms; otherwise only the higher-value one is applied. [E1]\nNOT ANSWERED: The exact conditions under which two promotional offers can be applied to the same recharge, if any, are not detailed in the provided evidence.",
+        "n_sentences": 2,
+        "support": [
+          "SUPPORTED",
+          "SUPPORTED"
+        ],
+        "cited": [
+          "NovaTel Synthetic: FAQ_C14_028 / FAQ_C14_028_chunk_000"
+        ],
+        "total_ms": 18589.7
+      },
+      "reasons": [
+        "routed hybrid, expected unstructured"
+      ]
+    },
+    {
+      "kind": "unstructured",
+      "question": "Where can I take my complaint if my telecom provider does not resolve it?",
+      "expect_docs": [
+        "PUBLIC_PDF_02"
+      ],
+      "observed": {
+        "route": "unstructured",
+        "router": "laya_finetuned",
+        "router_label": "unstructured",
+        "router_confidence": 0.9921,
+        "abstained": false,
+        "answer_text": "Complaints should be addressed through the Complaint Centre established by the service provider. [E3]\nNOT ANSWED: Specific procedures for escalating complaints if not resolved by the service provider.",
+        "n_sentences": 2,
+        "support": [
+          "SUPPORTED",
+          "UNSUPPORTED"
+        ],
+        "cited": [
+          "TRAI public: PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL / PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL_chunk_005, p. 5"
+        ],
+        "total_ms": 12851.9
+      },
+      "reasons": [
+        "contains an UNSUPPORTED sentence"
+      ]
+    },
+    {
+      "kind": "unstructured",
+      "question": "How long do loyalty points remain valid?",
+      "expect_docs": [
+        "FAQ_C15_029"
+      ],
+      "observed": {
+        "route": "hybrid",
+        "router": "laya_finetuned",
+        "router_label": "hybrid",
+        "router_confidence": 0.9917,
+        "abstained": false,
+        "answer_text": "Loyalty points typically expire 12 months after being credited if unused. [E1]",
+        "n_sentences": 1,
+        "support": [
+          "SUPPORTED"
+        ],
+        "cited": [
+          "NovaTel Synthetic: FAQ_C15_029 / FAQ_C15_029_chunk_000"
+        ],
+        "total_ms": 21093.5
+      },
+      "reasons": [
+        "routed hybrid, expected unstructured"
+      ]
+    },
+    {
+      "kind": "unstructured",
+      "question": "How do I enable biometric login in the NovaTel app?",
+      "expect_docs": [
+        "FAQ_C13_026"
+      ],
+      "observed": {
+        "route": "unstructured",
+        "router": "laya_finetuned",
+        "router_label": "unstructured",
+        "router_confidence": 0.9917,
+        "abstained": false,
+        "answer_text": "To enable biometric login in the NovaTel app, go to App Settings > Security > Biometric Login and enable fingerprint or face unlock, following your device's OS prompts.\nThis replaces password entry for subsequent logins on that device only. [E1]",
+        "n_sentences": 2,
+        "support": [
+          "UNSUPPORTED",
+          "SUPPORTED"
+        ],
+        "cited": [
+          "NovaTel Synthetic: FAQ_C13_026 / FAQ_C13_026_chunk_000"
+        ],
+        "total_ms": 20176.6
+      },
+      "reasons": [
+        "contains an UNSUPPORTED sentence"
+      ]
+    },
+    {
+      "kind": "hybrid",
+      "question": "Customer 1042 has a pending KYC. Could their number be disconnected, and what must they do?",
+      "anchors": [
+        "pending"
+      ],
+      "expect_docs": [
+        "C17"
+      ],
+      "observed": {
+        "route": "hybrid",
+        "router": "laya_finetuned",
+        "router_label": "hybrid",
+        "router_confidence": 0.9925,
+        "abstained": false,
+        "answer_text": "Customer 1042's KYC status is Pending. [E1]\nA customer with a pending KYC status can have their number disconnected. [E2] [E3]\nTo resolve this, customer 1042 must complete the KYC verification step. [E2] [E3]",
+        "n_sentences": 3,
+        "support": [
+          "SUPPORTED",
+          "WEAK",
+          "UNSUPPORTED"
+        ],
+        "cited": [
+          "NovaTel Synthetic: FAQ_C22_044 / FAQ_C22_044_chunk_000",
+          "NovaTel Synthetic: TRX_007 / TRX_007_chunk_000",
+          "table customer_master, row 1042"
+        ],
+        "total_ms": 58549.9
+      },
+      "reasons": [
+        "contains an UNSUPPORTED sentence",
+        "cited documents ['', 'FAQ_C22_044', 'TRX_007'] do not include any of ['C17']"
+      ]
+    },
+    {
+      "kind": "hybrid",
+      "question": "Customer 1829 has an unpaid invoice. If it stays unpaid, can the number be deactivated and later recovered?",
+      "anchors": [
+        "unpaid"
+      ],
+      "expect_docs": [
+        "C21",
+        "C04"
+      ],
+      "observed": {
+        "route": "hybrid",
+        "router": "laya_finetuned",
+        "router_label": "hybrid",
+        "router_confidence": 0.9921,
+        "abstained": false,
+        "answer_text": "INSUFFICIENT_EVIDENCE\nNOT ANSWERED: The evidence does not provide specific details on the exact status of the unpaid invoice for customer 1829 or the exact process for deactivating and reactivating the number based on the unpaid status.",
+        "n_sentences": 1,
+        "support": [
+          "UNSUPPORTED"
+        ],
+        "cited": [],
+        "total_ms": 8782.9
+      },
+      "reasons": [
+        "contains an UNSUPPORTED sentence",
+        "no citations",
+        "hybrid answer must cite both kinds; cited []",
+        "cited documents [] do not include any of ['C21', 'C04']"
+      ]
+    },
+    {
+      "kind": "hybrid",
+      "question": "Customer 1056's plan has expired. Can they still receive incoming calls and how do they restore service?",
+      "anchors": [
+        "expired"
+      ],
+      "expect_docs": [
+        "C02"
+      ],
+      "observed": {
+        "route": "hybrid",
+        "router": "laya_finetuned",
+        "router_label": "hybrid",
+        "router_confidence": 0.9926,
+        "abstained": false,
+        "answer_text": "Customer 1056 can still receive incoming calls during the grace period, which typically lasts 15-90 days. [E2]\nTo restore service, customer 1056 needs to recharge their account. [E2]\nNOT ANSWERED: The exact grace period length depends on the specific plan.",
+        "n_sentences": 2,
+        "support": [
+          "UNSUPPORTED",
+          "UNSUPPORTED"
+        ],
+        "cited": [
+          "NovaTel Synthetic: FAQ_C02_004 / FAQ_C02_004_chunk_000"
+        ],
+        "total_ms": 13900.6
+      },
+      "reasons": [
+        "anchor missing from answer: 'expired'",
+        "contains an UNSUPPORTED sentence",
+        "hybrid answer must cite both kinds; cited ['document_chunk']"
+      ]
+    },
+    {
+      "kind": "hybrid",
+      "question": "Customer 1056 has a recharge that failed. Where does the money go and what should they do?",
+      "anchors": [],
+      "expect_docs": [
+        "C03"
+      ],
+      "observed": {
+        "route": "hybrid",
+        "router": "laya_finetuned",
+        "router_label": "hybrid",
+        "router_confidence": 0.9919,
+        "abstained": true,
+        "answer_text": "I don't have information about that in the NovaTel knowledge base.",
+        "n_sentences": 0,
+        "support": [],
+        "cited": [],
+        "total_ms": 2104.3
+      },
+      "reasons": [
+        "pipeline error: retrieval failed: no such column: customer_id",
+        "abstained (layer 2: retrieval error: no such column: customer_id)"
+      ]
+    },
+    {
+      "kind": "hybrid",
+      "question": "How many tickets are open, and what is the escalation process for unresolved complaints?",
+      "anchors": [],
+      "expect_docs": [
+        "C"
+      ],
+      "observed": {
+        "route": "hybrid",
+        "router": "laya_finetuned",
+        "router_label": "hybrid",
+        "router_confidence": 0.9923,
+        "abstained": false,
+        "answer_text": "361 tickets have status Open. [E1]\nRoaming must be activated before you travel. [E2] [E3]",
+        "n_sentences": 2,
+        "support": [
+          "SUPPORTED",
+          "UNSUPPORTED"
+        ],
+        "cited": [
+          "NovaTel Synthetic: FAQ_C16_031 / FAQ_C16_031_chunk_000",
+          "NovaTel Synthetic: FAQ_C16_031 / FAQ_C16_031_chunk_001",
+          "table tickets, aggregate count"
+        ],
+        "total_ms": 14914.4
+      },
+      "reasons": [
+        "contains an UNSUPPORTED sentence"
+      ]
+    },
+    {
+      "kind": "hybrid",
+      "question": "Customer 1003's latest postpaid invoice seems too high. What does it show and how can they dispute it?",
+      "anchors": [],
+      "expect_docs": [
+        "C04"
+      ],
+      "observed": {
+        "route": "hybrid",
+        "router": "laya_finetuned",
+        "router_label": "hybrid",
+        "router_confidence": 0.9927,
+        "abstained": false,
+        "answer_text": "The latest invoice for customer 1003 shows a total amount of ₹1098.39 for the billing cycle from 2026-03-01 to 2026-03-31. [E1]\nCustomer 1003 can dispute the invoice by following the steps outlined in the billing disputes policy. [E2]\nDisputes must be raised within 90 days of the bill's generation date and are typically resolved within 5-7 working days. [E2]\nIf the dispute involves a specific charge, such as a value-added service, NovaTel will review and may process a refund. [E6]\nFor unresolved disputes, the customer can escalate the issue to the Nodal Officer team if the standard resolution period is exceeded. [E8] [E10]\nNOT ANSWERED: The exact steps for a customer to initiate a dispute through the self-care app or portal are not provided in the evidence.",
+        "n_sentences": 5,
+        "support": [
+          "WEAK",
+          "UNSUPPORTED",
+          "SUPPORTED",
+          "WEAK",
+          "SUPPORTED"
+        ],
+        "cited": [
+          "NovaTel Synthetic: EML_001 / EML_001_chunk_000",
+          "NovaTel Synthetic: FAQ_C16_031 / FAQ_C16_031_chunk_001",
+          "NovaTel Synthetic: Policy_C04_billing_disputes / Policy_C04_billing_disputes_chunk_000",
+          "NovaTel Synthetic: TRX_003 / TRX_003_chunk_000",
+          "table invoices, row 5007"
+        ],
+        "total_ms": 81586.5
+      },
+      "reasons": [
+        "contains an UNSUPPORTED sentence"
+      ]
+    },
+    {
+      "kind": "half",
+      "question": "What is the KYC status of customer 1042, and how much does the NovaTel satellite phone plan cost?",
+      "anchors": [
+        "pending"
+      ],
+      "absent": [
+        "satellite phone",
+        "satellite plan"
+      ],
+      "observed": {
+        "route": "structured",
+        "router": "laya_finetuned",
+        "router_label": "structured",
+        "router_confidence": 0.9935,
+        "abstained": true,
+        "answer_text": "I don't have information about that in the NovaTel knowledge base.",
+        "n_sentences": 0,
+        "support": [],
+        "cited": [],
+        "total_ms": 2962.6
+      },
+      "reasons": [
+        "pipeline error: retrieval failed: 'list' object has no attribute 'lower'",
+        "abstained (layer 2: retrieval error: 'list' object has no attribute 'lower')"
+      ]
+    },
+    {
+      "kind": "half",
+      "question": "Is customer 1031's KYC valid, and who is the chief executive of NovaTel?",
+      "anchors": [
+        "expired"
+      ],
+      "absent": [
+        "\\bCEO\\b",
+        "chief executive"
+      ],
+      "observed": {
+        "route": "structured",
+        "router": "laya_finetuned",
+        "router_label": "structured",
+        "router_confidence": 0.9926,
+        "abstained": true,
+        "answer_text": "I don't have information about that in the NovaTel knowledge base.",
+        "n_sentences": 0,
+        "support": [],
+        "cited": [],
+        "total_ms": 3123.2
+      },
+      "reasons": [
+        "pipeline error: retrieval failed: 'list' object has no attribute 'lower'",
+        "abstained (layer 2: retrieval error: 'list' object has no attribute 'lower')"
+      ]
+    }
+  ]
+}

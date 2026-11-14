@@ -1,0 +1,354 @@
+{"key": "8fc703b33bfd8d64e62d00f80791db392aa1057b", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "839475f8e06c4423bd7438040eead0c5a55a9406", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and relevant, but misses key rights.\"}"}
+{"key": "f77b5b5e4dffe1e8688c3279353e193c56165a2a", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claim about device permissions is not supported by the context.\"}"}
+{"key": "e461fc2a6b2fe9d6ecda74c133a6f528624a72d5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "84e5ec9375d709dc2d675ce87671ce3cdb2eb0d0", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "d7cd23283e9fac488fce5d56e196de2df4a3d586", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "23d09777a89994462ac78cc84d0f8f8410ca7bac", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "06eea7c4318ec10fcc6093a83ce57a0f70016af3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "245726c7e1119b0c783e623ba77bcc3c8481de0f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "1d4006d1328f52a9ff8478fc117faf6e5a58ce7a", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference and directly addresses how to complain to a telecom service provider.\"}"}
+{"key": "1636eff0da688b17b59b94577c862d62943c5c3f", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide specific hours for the Complaint Centre, nor does it mention SMS communication for docket numbers.\"}"}
+{"key": "cc689e27dc715c7ac7af39e260823b220961144f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "47c700fb08bcb5c9194a342f793871f7155d71bd", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "6f8f5fd0090728aec5140be2aeebfacc5354b54a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"The context directly supports the count of 440.\"}"}
+{"key": "e5532a4f7e0006ea279acec187bdb76b1909f7c6", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it aligns with the reference but lacks the step to check the Service Status directly.\"}"}
+{"key": "f39b7d2c67e87a42fdedc9bdba4997b3905c9175", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention a 'Service Status' or a 'coverage map'.\"}"}
+{"key": "77672c669333e91929e827caddde77f89688924e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "d272ef1b4bcf9490ff9e46d16cdec47390393160", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "2d2b13f07a12d0cebed3159f3e6252c9b6e9794e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "116592f5ee6917052a97b7ccedc712609e038c1e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "51ceb786ad331795fd2882123ed83369604068e8", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "fdd874fa8eadc063d90770608a4477ead28a8840", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "dfb2efee02f37e7cfc47fc9f78b818661340f954", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "42a7903887172d42ddcc18cc1632f5e826de6e88", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it aligns with the reference on quality management but does not provide specific service quality levels.\"}"}
+{"key": "39bfe32fd7ec1b28bb0ec76708b475cf97db06a7", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context provides specific QoS standards but does not support the claims about the importance of continuous improvement or the 'Quality by Design' approach.\"}"}
+{"key": "ff013f91f264283d645b285f90466222b4564b30", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "53e7f51a08f72f588fedf40ea057e6bbe595715c", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "71d4a93e92408c66a57740b3bd19c2f402cd13d0", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context only provides an aggregate count without specifying the status.\"}"}
+{"key": "313907028a4b40fd8aeccddfd90303dd7464d05a", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "ab881abbff3037377dd72102ecaa1e7f5f5d3432", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "4416b570359e352658f8aee4fab65a6c74e91d90", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention the need for re-verification or the specific documents required for re-verification.\"}"}
+{"key": "caa7d0c689ea05e5d3d69639257af70ace85eaf4", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes the steps to port a number and is relevant to the question.\"}"}
+{"key": "c7b8b5a3108787d54d3b3e2a582c85be9c3adf4e", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any procedural steps for porting a mobile number.\"}"}
+{"key": "a70a6f86140b22c63ca2792034711316e93199f6", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "e4bd7e059c1cc7d7a1b16b7d54be91cdd326c145", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "b77fb298d125886f6a548c17055bc64ac48ad44c", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "a4d6ad23cf3fcbf3b6759152dd849b019316f5b8", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question.\"}"}
+{"key": "4f1028eb0c113dde27aa268cf962f2e55594555e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context.\"}"}
+{"key": "bbd643058c8edc59f5ed776a4f21c77a8b3fe816", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context.\"}"}
+{"key": "4b4d3a316bb5bdb3ee8f7e74b34e500f68adc231", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "3b3de7fce32a600e3f4671527b7c5b202354b787", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All case IDs match the context.\"}"}
+{"key": "b51bea70d89ea6c60b4b910020fd699d4b41a278", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "69627699160b9bde44a8703540d4c96c5cb4dd0d", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the troubleshooting steps.\"}"}
+{"key": "c2531296040580fbc7551f416a191d3f54cf6391", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "12e38453c9d3f5522ef49994e641c8bcd3b07239", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "45099119b50879369f17b75b79ff850c6c92bccf", "raw": "{\"correctness\": 2, \"relevance\": 0, \"reason\": \"Correctly abstains from answering a random, irrelevant query.\"}"}
+{"key": "222659e00de1158c79764014eff1b87398d88976", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"The context does not provide any relevant information to the random query.\"}"}
+{"key": "b3e12f812f6a55d51940ff31bee1fa4bc5caf0cd", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"The context does not contain information related to the random query.\"}"}
+{"key": "d71de93a179c9138c3f9ec9aa363dbf3d6bf9b8b", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately summarizes TRAI's roles and aligns with the reference evidence.\"}"}
+{"key": "8a6c93fe00decf92d4d4dcadaa3bf41563734be0", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about tariff oversight, QoS benchmarks, and consumer protection are partially supported, but the mention of the TRAI Act is not in the context.\"}"}
+{"key": "151ef9562d986fdaaf049716af5c752614bc3c13", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "060d4513273924fff6b0e9770e9e134839d692e8", "raw": "{\"correctness\": 0, \"relevance\": 2, \"reason\": \"Contradicts the reference evidence.\"}"}
+{"key": "aac1552acde0312b7a4c0216cd8bf337a52f3b45", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any information about customer 1001 or plan_id 2007.\"}"}
+{"key": "f1bbf9b41f82a0a5fb89c176486950288cc0b5f4", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "febeab6254ca4d886118ab41e15fd58815615a9c", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "ef9bc466d9ca7e2a965c74cafd8d6335a89f5798", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Due dates are not provided in the context.\"}"}
+{"key": "c78108e6bdb7a8a7415283a241d0e4624e7abeda", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "d738aa84ce7b2fa64fb8fcccfce0dba7692a88c7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "a41b818ace64d69db2c5c66aa98fd56e0c4f7e26", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "d5a77505c9c919eaaec349180128cb8ba63f8448", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "d491b3f092b8ae2053292907c8c84374b1a7f7a8", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "18717207363243feaaed1077bc6ac146d6aa21b9", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context only provides order IDs and their status, not the detailed information in the answer.\"}"}
+{"key": "163efaba34fc09d85f5d1eaccda3b5be92673fc9", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "60184f6c5c1bacb7fd58ac55f2c9b0bd2d482d22", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "440a13cb55952d41f94daa93299b77bcd4fe75bf", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "38754c4f8dd10b417a767800d739cf968ea36076", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any specific fiber IDs or customer IDs.\"}"}
+{"key": "e73c669f0e0698b0921cc9a3a03779532becba35", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "3b12059e0cf7e3ada208c01251e7c502cc7251db", "raw": "{\"present\": 0, \"reason\": \"The answer does not explicitly state the fact.\"}"}
+{"key": "bee1f13e167d96c1605aadc10b5889ca9ea154e5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "8e042a45a15ae464a6bdd59fc1be3552d4a9bc2e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both the detection time and restoration time are directly stated in the context, and the reason for no automatic failover is also supported.\"}"}
+{"key": "3090cd81942d6989db7550f7c406f92962d91fa0", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence.\"}"}
+{"key": "7ad716769d55209451511dd1ea6b022275235970", "raw": "{\"present\": 1, \"reason\": \"The fact is explicitly stated in the answer.\"}"}
+{"key": "e32f6844756d114cd9c482150f1d610553341e8f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "2ba262b1a50e381567c29c20dc7a9005a331bdbc", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "22a312d052b3e2ff5fe76008cb9e3a3ef37e21ae", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer accurately reflects the reference evidence.\"}"}
+{"key": "a1cfa368219b3f490f1714a0ffa4ae7ed63c47f9", "raw": "{\"present\": 0, \"reason\": \"The fact only mentions the long-term fix but does not specify the exact time of service restoration.\"}"}
+{"key": "3cb0d356eeef0a18274c83b3a82ba2659043fbce", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "a4be9e985757d846afd3d53597f0355dd651dd97", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "5b951fb3e2ec318d1dbcb1e1d51a60a160d34167", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "0ef40e1cf05f14007d1c9be0178891b82f97015b", "raw": "{\"present\": 0, \"reason\": \"The answer provides additional details not present in the fact.\"}"}
+{"key": "6405c4d49fc3e35b200036eff99726273f3fa200", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "7b3bb95757f3b384dae6777889fb61ef0b1187c5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "a0990f5c5bc18ca6d56d05c68457c13f78414ec7", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "f2a38b5a22db4c736120229b242527ddbedbd82c", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "5e2091668796f71b6cc9ebcb09ea66fbf2a6e61c", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer is fully correct and directly answers the question.\"}"}
+{"key": "84c5dca712f4624da676595562f2dbe7a2eb6faf", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about Video KYC and store visits are supported, but the risk of disconnection is not directly mentioned in the context.\"}"}
+{"key": "29d51ac6387f273a6c4d16dadab59d369a0be3ee", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "b1d2b019512fc7ee975b38853a372823accb5506", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's concern.\"}"}
+{"key": "dfd8c0077a38a45a93b997e6adb382f5cc36a50d", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "c26a52677d9106bf17e080f4e29c899ea49cefb9", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention customer 1056, and the transaction ID 4996 does not match the question's customer ID.\"}"}
+{"key": "6b765004a100f1d9fff547eaa9c9baa68563b8ab", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correctly addresses the potential for deactivation and reactivation within the retention window.\"}"}
+{"key": "32a33db3b97a6c0e3289e36f510e5472961c7866", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about invoice status and reactivation window are partially supported, but the answer incorrectly states the current invoice is paid.\"}"}
+{"key": "9feab98a6f252b67ab473db847e8ba00f5ab7e87", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "40ab5013f95ece4566691a26e39dd12a8d6e35a6", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "7cdb868feccd17854635aa0d4a7bd963fdc0ab2c", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about specific documents and the process are partially supported, but the exact requirement for re-verification is not clear from the context.\"}"}
+{"key": "728103b46ad94a555482a1e9759bf8fa46db5bd6", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "0bcfe361cca00eed58ac352d211f0e9900b528d0", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence and fully addresses the question.\"}"}
+{"key": "3c9799a3d961e2ff9f6ddae247bb26a757ce27f3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "4d05c0c04ef0413983b73ab6db1fbfb9851648e9", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "4569f5f2b64f5b6e9dd42344ff4d5c02f6d8abc3", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "c812d4f90935f29e99580c86cda90c56c36b4d5a", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not specify the exact values for usage charge and tax/GST, and the exact breakdown is not provided.\"}"}
+{"key": "7d39c5e8c659957c25ffd9ff03843c1a22e7f688", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer includes a claim about the usage charge being $4.59, which is not supported by the context.\"}"}
+{"key": "c4290de26a73246b4062d3599586f23ae551ae02", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "ae0db6ef3f2d2e406bf0624eee87dfae0d00afae", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "a204b221e5257ee9a2e0182e0208e9a68efe4f53", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both the payment status and the payment transactions are directly supported by the context.\"}"}
+{"key": "501e5ef246eb619de8daeba2aa7c0895cde22fc9", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "ffd140f4def3a3ccb7c2670db1dc8f9784c01722", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "a280b669da61209151e0dc911a0839d3065cb486", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "4d1784f1ecc9842715bd6e1c08eed06b74796fd5", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and relevant, but misses key rights.\"}"}
+{"key": "4a0042cc176fa6396ccd7bbf1b016530029e4e07", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claim about device permissions is not supported by the context.\"}"}
+{"key": "db52c4ce546180de13ce30373b5f111986b4b630", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "e4d3bdbd694f308d2ad0556b36b467958ab3a788", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "983f5c91732014fc38e7813589d1cb895613fcef", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "c4c67961e963c92c37301b3178aad7021d6964d1", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "8adec89dd1919c98f122ab175e80e19d2ee5cfdc", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "f79e9db723427256dcbcf3c801150046455a21a0", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"While the context supports the existence of a complaint redressal mechanism, it does not specify the exact operational hours of the Complaint Centre.\"}"}
+{"key": "5d094cfa3d893d6ece1f79f8595c8d9ac5d2d9ae", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "74a1eaa38b1b49344b254863838a40f64f35371d", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "bda0c35ae7dcf6da1068ab52b51f75e10d7b51dd", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "f86a4f74a09a60ac73616395ada94a700d93fb58", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "c27961bb59cd99a909df4d2288a8e5d8e6596614", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it aligns with the reference on QoS importance but does not provide specific levels.\"}"}
+{"key": "bab16d6a5e4db31f872570addc186c3b3d4c7220", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context provides specific QoS standards, which are not aligned with the claims about the importance of QoS and the measures being taken.\"}"}
+{"key": "e0e9adc59a1b8f23ba46e838f29475f2ba094c72", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "fde8550b6754037536f277b53bad01610cf189af", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "e2fb9892c8cf66ec9f60a10b76a2640a7903eaf5", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any procedural steps for porting a mobile number.\"}"}
+{"key": "59c4dd3e88a8ff87b50443e34a773c23a5edb661", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer aligns with the reference policy and directly addresses the question.\"}"}
+{"key": "349c846876a45a6174073a3d1efaa9d066433410", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "07ec0872132ba3c859428cadbbfe17224831c3e7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context.\"}"}
+{"key": "4acd0c80f1e65aa8ce5afb4e2e00b31baded3912", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "6ab64ca7609ea19f2b4f73ee7ee9afff2f29d221", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All case IDs match the context.\"}"}
+{"key": "fd8b73b5e850017e0eb739d27d141e4c44b15b66", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the troubleshooting steps.\"}"}
+{"key": "7f9458239089367dcb2c0faf2a1012174487aa53", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "36ce1ef59ca80926ee54278bd2c026b410b4f0d9", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "6104fd92f56c489c09894aba50d1e675bf690e4b", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly answers the question.\"}"}
+{"key": "12a03a05d29901a9c4c8e1a911fa52a54a69d67c", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about tariff oversight and licence compliance are not supported by the context.\"}"}
+{"key": "3222d96af3a987d7e3310d502d7b652b9fbd0c08", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "9194add4ed6b66087ed4cea73b5ccdec6398a175", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Contradicts reference evidence.\"}"}
+{"key": "84646cc64e9dfea85e8a9627a509aba4b0d4ea7e", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide any information about customer 1001 or plan details.\"}"}
+{"key": "0e307a8a18e8d1538f9fa6113a26fc079773a60a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "5c508a6034e9915e771b185f3e767f5e86424c68", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "d6ce11d0e07dc09841f2cbc7571aa07c87f5986c", "raw": "{\"present\": 0, \"reason\": \"The answer provides additional details not present in the fact.\"}"}
+{"key": "bc5a950c183cabed2f009f2fd9bd7b3e26539da1", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "a5ba899f1384ad394c00ececb1f2625bf79694a8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "8db3ce7fe7d1fb45dfc60ed4347af08ee0eae8a3", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's concerns.\"}"}
+{"key": "9f4c74654eb2a4cd27a4056174d744a3191b8c33", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "abfce121c784e144d697a6a05fac0a5723c091de", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "cb416a5752027b1c4418b475cc3ee13c526bc942", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's concern.\"}"}
+{"key": "4cbdd534330118412af4ced7b727d0b34225677d", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "c1e6a7f766e5845b7a3c8e11451705a7cb8ae7ae", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention customer 1056, and the transaction ID 4996 does not match the question's customer ID.\"}"}
+{"key": "f1b9eabc2ee7f17fad32b47de886c92b24b9646d", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correctly addresses the potential for deactivation and reactivation within the retention window.\"}"}
+{"key": "3fd6d1c034f9e698855fa705eaff601e751bb067", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about invoice status and reactivation window are partially supported, but the statement about the current invoice being paid is not in the context.\"}"}
+{"key": "0246abd9952cfc4c376d291dcb27a29b3150ce6c", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "779a24699292990b93cabe3f9f18cd02c4698492", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "b986a5b9f94b60fbc4048ed3420d7f4ac44e6155", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about specific documents and re-verification routes are partially supported, but the exact requirement of one Proof of Identity and one Proof of Address is not directly stated in the context.\"}"}
+{"key": "e415e31308326ff1b4086f91df8abf7591b95f58", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "bc138652df431bc42d867db12cac80bd9c21af34", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence and fully addresses the question.\"}"}
+{"key": "c4a1b3884557d74141d2f2961385c820a2f0ce62", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "2afd45194ad02f05b83648033ce9cdda516a9db8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "299be07bad4f827ecf2a8ea24400bcb64ed424ca", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately identifies the reasons for the higher bill and provides the correct steps for dispute.\"}"}
+{"key": "e99cb239897eb276133b886eadbb68562017c20a", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer states that the bill can be higher due to usage charges and taxes, which are supported, but invoice_id=5011 does not match the provided context which shows invoice_id=5012.\"}"}
+{"key": "67f5d13436207ffd022cfba3e7a123a639337036", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "e7eff7dc127492a2adb9f503525b07663758c2aa", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately covers the main reasons for a higher bill as per the reference and directly addresses the question.\"}"}
+{"key": "3e0339a82ab15dd248049f3d31abfbf6c2ef74fc", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claim about plan change or SIM swap is not supported by the context.\"}"}
+{"key": "16addb89260c0a9b297bdf5378008cb5aa2fd1e8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "67edebbfabad44eb2342674aea94d8b12e817a87", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it mentions checking the Service Status page, but it does not fully align with the reference evidence.\"}"}
+{"key": "8b06dd3dc553353ddd2fb107a011f6adb9e5038f", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention the Service Status page or SMS notifications.\"}"}
+{"key": "7f8c12ebae710183a360a3d2fe5a37b20ca4585f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "7edf6af707214d3713ff2f37a214659ab3c3d8c4", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Does not provide the required documents for KYC verification.\"}"}
+{"key": "e9d00f8b20afa34dd1abe7400edbcead21a6bf1a", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about visiting a store and using the app are not in the context.\"}"}
+{"key": "da995c3104dfc833444c87eb13575176ed8e8373", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "c398e8185399772eafe95667e688a51651b84356", "raw": "{\"correctness\": 0, \"relevance\": 0, \"reason\": \"The answer is not provided and the reference does not contain relevant information.\"}"}
+{"key": "cf549a417f1d19a3511426149162b9830c381124", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not mention anything about porting a mobile number to another telecom company.\"}"}
+{"key": "b2bf33f334758318bead91254397266f19dcdf0d", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"The context does not contain information about porting a mobile number.\"}"}
+{"key": "4d342989845920803ed5fe07cb06e2de912fd819", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately follows the reference evidence and directly addresses the question.\"}"}
+{"key": "fac7155b8c8bc0dabd23c0bcb481459a25bb6086", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "e2c26847dbb3488f7bd934f99ebffe761bcbdebd", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the provided context.\"}"}
+{"key": "ef0544523478c22775e3d81b995a652182a62bdf", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes the troubleshooting steps and aligns with the reference evidence.\"}"}
+{"key": "01d88cbbe53b198e0cfe42517b9f373ae55c25e0", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claim about remote diagnostics and downtime compensation are not supported by the context.\"}"}
+{"key": "2e13091d5d8906f0849ff254c371ff86ff215c37", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "643b33a8a900149cb532c56d789b49937c4cdcb9", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it identifies the plan but the expiration date is from reference, not the question.\"}"}
+{"key": "61e4c0f680c7c9fd95f28fdc7707be3cd6ac0be3", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"No information about customer 1001 or plan_id 2007 is provided in the context.\"}"}
+{"key": "8c27fd70f991cfef81b621214ec6a1da3ec6b4be", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are supported by the context.\"}"}
+{"key": "b5ae098a14e812862e870e65cec3022d14f551d2", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "fb54abdf1293577af0a41f99ae6a4a2e5b5baf9e", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"Speed_mbps is not mentioned in the context.\"}"}
+{"key": "69372e14bd01b754c5737d0c3524ea71df6d2349", "raw": "{\"correctness\": 0, \"relevance\": 0, \"reason\": \"Answer is incorrect and irrelevant.\"}"}
+{"key": "1b21559b5dbc888ea90233fb28632bb4e6204057", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not provide the specific numbers or details about the reversal time or the exact configuration change.\"}"}
+{"key": "ad962a6e5fb8c15457ca98f68a2a997ffa58ae20", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"No claims are supported by the context.\"}"}
+{"key": "0f81fa6da93d29e43d28bf48475886d0b1074960", "raw": "{\"correctness\": 2, \"relevance\": 1, \"reason\": \"Partially correct on service restoration time but lacks the long-term fix.\"}"}
+{"key": "511b38e39ad12a78dc776dadba29aa633bdafd97", "raw": "{\"present\": 0, \"reason\": \"The fact does not address the specific outage or the restoration time.\"}"}
+{"key": "013ddc6123b19ef215ef744c16136f7b53e30cf4", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "aed074dd803991e384e1a956b7aadbb7187dbe2c", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not contain information about the specific outage INC-2026-0179.\"}"}
+{"key": "8a4bef6a379c97360629809aa5186fbdbf7f7b97", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "57f86b753df020293b3f6576dba43036672af0bc", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about regulatory requirements are not supported by the context.\"}"}
+{"key": "faee872bc8240e68967aa25673be8bcb03fcefb9", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "fb91c0a7bce013e7d77f078899114b9365a6d417", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's concern.\"}"}
+{"key": "82dd5c4006aed88835fda56987bd808047c3a86a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "e54c61d31ed5c05fd0c69934f4acbcc0e33dd428", "raw": "{\"groundedness\": 1, \"hallucination\": 0, \"reason\": \"The context supports the claims about the transaction status and the standard procedure.\"}"}
+{"key": "861ec0b21ab5d83d8992b55a8d24340a0efe1e52", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about the latest bill being paid and the existence of specific SOP references are not in the context.\"}"}
+{"key": "c7e0c9fa3560c1b1b8c93cd6549e082678e8b385", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question.\"}"}
+{"key": "ef65833634fcc13cb16eb5cbfe83f2bc0f5a05b4", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about specific documents and re-verification routes are partially supported, but the exact requirement of one Proof of Identity and one Proof of Address is not mentioned in the context.\"}"}
+{"key": "ba8cf9f43f35c9c2762f0fc72ba1252de24a2237", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "443914d1b5d35c8f3ff2a44ac91509ea7708c396", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer aligns with reference evidence and fully addresses the question.\"}"}
+{"key": "5864f85a796b6ea78bb9038c222df0369738241a", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "35c7c4ff1ca83e83a05ecebeeccc62c4fc233a1e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "6657d8a6fba54dd8a883c00b6b0d17996390703d", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "00489afddb5a6a4766f64791554135056762414d", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide the exact invoice ID (5011) or the specific VAS charge amount ($0.00).\"}"}
+{"key": "0df85a4f84f980f0f08424cc9e42f0a42599c6d4", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "5775fdb92295ecdacbb72909da4227e76891216c", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct payment status but missing transaction details.\"}"}
+{"key": "5c17376be6306ebcb036aedd1bba8156be86cdd1", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Payment method details are not supported by the context.\"}"}
+{"key": "7884ff2cb41cef5dbdbb5552be02684dd184a3ad", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "79122457fa8391e9499d946ecb37bb18ec990df7", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "0ab0673e78eeddb4495e39ad4a8095145b376f16", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "a533b3bdc191c3f8ee15f7049bac3821bd731773", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "24b4b6b1e1b1d489afc0a13e40b6a8df7fd049b7", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not discuss number porting procedures.\"}"}
+{"key": "5cbff2891c5af989c713b8cb612bb71bfe594d12", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately follows the reference evidence and directly addresses the question.\"}"}
+{"key": "c8149c3e2643224167dd1ee370d20778d9b77293", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "71797c65e3a8e455ea2a6badb208cfd22a6e79f9", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context.\"}"}
+{"key": "ce81aacef1f588a9225b5638498e7b2e55a2b1c6", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately describes the troubleshooting steps and aligns with the reference evidence.\"}"}
+{"key": "46b81bdff4bd11d92b6905a369d4573754f09dd6", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claim about remote diagnostics and downtime compensation are not supported by the context.\"}"}
+{"key": "d5fbeb7064b8bf0a354831a3ab58e4aa939622c5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "350110ff19031bfca90bab816675c4e8f2a171e9", "raw": "{\"correctness\": 0, \"relevance\": 0, \"reason\": \"Answer is incorrect and irrelevant as it does not provide the specific details requested.\"}"}
+{"key": "e1d7cd9982c4e621b5f1b4df1c1b554dc5b1b465", "raw": "{\"present\": 0, \"reason\": \"The fact does not state the specific outage or restoration time.\"}"}
+{"key": "dee30d36740530267461a179f19965131b1d582f", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"The context does not provide the specific details about the outage INC-2026-0179.\"}"}
+{"key": "78c00289f16f3230ba206149e85f4fbf970e2cd2", "raw": "{\"groundedness\": 0, \"hallucination\": 0, \"reason\": \"No claims are supported by the context.\"}"}
+{"key": "ebe8d0cf37c03285b973ef6c59e58f3f44955ae5", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer is fully correct and directly answers the question.\"}"}
+{"key": "4486a13b5b0e71a9dd81969053494b1590047353", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "1905c863f107c16282dd3295d7eb6ccbb69602bd", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "92bd6b0bce710bb804c1b526420474ace78592b4", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's concern.\"}"}
+{"key": "f193eb8c38043c2b05bfecbc7e0f0ae8f062a170", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "c04024ea52d4ef956aa8e6b84b793d229620cc27", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "f6e13f868e6bcba3771d082357e41046e47cce50", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it addresses the payment and reactivation aspects, but the bill status is incorrect.\"}"}
+{"key": "7f802ff7f10edf6395ae20795cb8d539c5d9f99e", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about the current bill status and reactivation are supported, but the statement about the current bill being paid is not in the context.\"}"}
+{"key": "c7ebc928ddd043a9df6bc042bc6bd88d56edd723", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "e216a4e5f6a0bdc1e9575ff426eb92bae25276da", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question.\"}"}
+{"key": "431487401572dfa53494d6d56af85c56bd021d3c", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about specific documents and re-verification routes are partially supported, but the explicit consent requirement for OTP-based verification is not in the context.\"}"}
+{"key": "e1ac24a5a386c6769024d0d7ac9472337ef0aeb4", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "6289292ed12bd67571f462ba64cea3f374e3791b", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer aligns with reference evidence and fully addresses the question.\"}"}
+{"key": "9935607270561cdbda08d21efa73112b487f8af4", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "135d364e8cc12e2a1b81720a07cb69f80f38627c", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "0f3826ee9d520ccbbf9f552838f63b700e920dfc", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "3088b7cf862ee9a6b92152a0d3cd3baa1bf840a7", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide the exact invoice ID (5011) or the specific tax amount ($162.65) mentioned in the answer.\"}"}
+{"key": "a1a8e25098b8b2c36f83ac81d947e363cf97af1e", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide specific details about the latest bill being higher than expected or the steps to dispute it.\"}"}
+{"key": "aa554f397f65c50f04acdd3e95cd98ebbe1275a5", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "ed58b07916604673f0d2f81c0cf6cee3083fde03", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "1e7fad66f828afbb88f8e7705e00548b22ca1e06", "raw": "{\"correctness\": 1, \"relevance\": 1, \"reason\": \"Partially correct and relevant, but misses key details from the reference.\"}"}
+{"key": "1339ada72b536e3993cb2b6f0460a52e5d779e7b", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not mention account changes not propagating across systems.\"}"}
+{"key": "f6cddf881a7c5ae24f5aed13373e094d9a7933c1", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are supported by the context.\"}"}
+{"key": "5bd15f4eb6654ebebd2148021d6c3607aa6a4226", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "2c1551276259951ce76eb5c0b849721cdf1d1db5", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention checking the Service Status app or the coverage map for outage information.\"}"}
+{"key": "4829baffb89e3bfaa6993f963ca71ac98c046de7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "47bd6e6494817f02ed9bc0bfc8b291afaa9fe80a", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"Partially correct but does not match the required documents as per the reference.\"}"}
+{"key": "346fe08c1f1a88fa366bb9c2723be09e2b1cec77", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about original ID proof and Video KYC are not in the context.\"}"}
+{"key": "6763c7c6d48c0791964e2d95a3c9107ae8220a6e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "63be4d904b6434dccb4c9eb15056f2e71baec4c1", "raw": "{\"correctness\": 0, \"relevance\": 2, \"reason\": \"The answer is partially correct but contradicts the reference evidence.\"}"}
+{"key": "98404b70e9bc18462abd6657fda1365568528ba5", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not mention NovaTel or any specific plans, timelines, or confirmation processes.\"}"}
+{"key": "e17e1613d9d5a2506020ee1531f5600a020019eb", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "3d7d7ded46b94ee9a0097fae5194100b0020b271", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "95dd74639ece612d3bd0c94ffda79a3ed36b7529", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "743fb133c63d732e1d78afa6ea52f92ffd775ae8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the provided context.\"}"}
+{"key": "e185bbcc7f84368862e4a6fef66a8beebccf57cf", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question.\"}"}
+{"key": "669f1f9075fc1a407964a0f51e7723a064781651", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention self-care portals or a reset procedure.\"}"}
+{"key": "b98ed01934041a8fe0de9f1ca61131aa7041ddb0", "raw": "{\"groundedness\": 1, \"hallucination\": 0, \"reason\": \"The context provides a general troubleshooting guide for FTTH broadband services, which supports the claims in the answer.\"}"}
+{"key": "7a0595c83250f16042c3fe10703f98370aa50e2c", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answers match the reference evidence.\"}"}
+{"key": "03be44a5a1e07d69f059e5249b4c2f50c590b7a1", "raw": "{\"present\": 1, \"reason\": \"The fact is explicitly stated in the answer.\"}"}
+{"key": "c77db90e873c611308137c7ed7556ca67147a6c7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "7b7b761571a17bb733186491bf7b63d9b5dd5562", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "bfdadc0caaa17c5b4bf6eb5be19e5e6d006a8fd9", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "e7d6300e8834ffac50fda55baccd47400dce0679", "raw": "{\"present\": 0, \"reason\": \"No relevant information provided\"}"}
+{"key": "21baff9eb5844364287912a3634467af48c66367", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "cdccabfc0528bcb19f5fb0704d7097d535f65f28", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not contain any information related to the Pune FTTH outage INC-2026-0179.\"}"}
+{"key": "dddbb11d0d1b7520c846cebaa1aea186308d9b09", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it does not contradict the reference but lacks specific details from the reference.\"}"}
+{"key": "f0152fdc0ad8feef908b03aef001c07d27aca881", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about video-KYC and data retention are not supported by the context.\"}"}
+{"key": "3e057bbcfc390c5b77acd8b3708aab9b47fab121", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "53252ee5a3ce5200390023e92e385a6436084b77", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "de1866911ac89f5a8f51c955a41d74bfe6c4a766", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claim about balance after recharge is not in context, and context does not state money is not deducted.\"}"}
+{"key": "2e335b241c9d40520def99d16a4dd027f043fc13", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "d12b78eb69a9266f916c62520eb1db486f28bf7f", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"The answer correctly addresses the potential for deactivation and reactivation but lacks specific details from the reference evidence.\"}"}
+{"key": "250ba1aa165bf9cf44d12fca82ebc9a51ac329c4", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention invoice_id=6735, and the deactivation process for unpaid bills is not explicitly stated.\"}"}
+{"key": "1b00c308c7cb4e8aa584ed2c92036ceb4b34fc98", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "80956a9024576ebd096e775b5d02e2c165df5016", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "f121e95fd92f7a87ba970a8e6a78d43308866483", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "82b69b98c9936a0c4ee5561b9ca0505650aedcc8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "ce1de4f02d2ea7708c6e8453d95e24368960e655", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correctly identifies the subscription status and the impact on incoming calls, but does not specify the grace period.\"}"}
+{"key": "a1f2be76da3ad8204b7afa6f7858124f105b6a5e", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not specify the exact date when the plan expired, and it does not mention that incoming calls are not possible after the subscription expires.\"}"}
+{"key": "37293fc5342b7d1435f4743c03dbd79ca89cf052", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "dc6299cce0db7cf82775cf67de46f2080a1f6ce5", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "5c80f445ca1a86fa051aca3bfdae974fb70f0e61", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide the exact invoice ID or the specific charges (usage charge and GST) mentioned in the answer.\"}"}
+{"key": "3de36cf9f6c36288f65aa8b2e4bb83b409275ec9", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "cc34ea15abe94d23807af229e2bf109f70e42998", "raw": "{\"correctness\": 0, \"relevance\": 1, \"reason\": \"The answer contains incorrect information and is not fully aligned with the reference.\"}"}
+{"key": "ea939e5cde5a605403065b4ec8c45ed54db1d27e", "raw": "{\"groundedness\": 0, \"hallucination\": 1, \"reason\": \"The context does not mention NovaTel or any specific plans, and the steps provided are not supported by the given text.\"}"}
+{"key": "fa2de911aef65176f3de0ab7e8913b57b735630d", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "64656f6f2993f006445c6e4e94de945e924fe928", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "e49df3143d5566f18197a5802c9d8492773c95b8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "f708fea6c0439692b48e4f802714ac1364d6393b", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the provided context.\"}"}
+{"key": "6b1c06a0587c0e34482298cd374baabfbd6d2639", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question.\"}"}
+{"key": "ad6f9f92371ba6899175449eebb412a7c2109a49", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer introduces new information not present in the context, such as self-care portal checks and ONT reset procedures.\"}"}
+{"key": "67b9d466c3f6c3e49ee4d85ab22aa9de15556492", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide information about LOS or ONT issues.\"}"}
+{"key": "49bbf3b2f00c345c5855dc839298500bec17eba0", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it does not mention the potential for service suspension, but relevant as it addresses the pending status and steps to take.\"}"}
+{"key": "f173fb4cb112baf61e2b2fd0e96785494972aee9", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about the New Connection and Re-Verification KYC Procedure and Fraud & Security Response SOP are not supported by the context.\"}"}
+{"key": "22bd685271280964bcb293aacf5ff2dc65a89c31", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "e328fe62f5a9b3674f37f52178176ed8f986b21e", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "01c4032cae5fbbe50cbcfc244fa7f5bf5ed9fad1", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claim about balance after recharge is not supported, and the context does not state that the money will not be deducted.\"}"}
+{"key": "9ceeb9431f0c739d9fac0b75e98a847036ca09e7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "80a99a9751c496eca167f5d38ce99b4dc2dc753b", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"The answer correctly addresses the customer's concern and aligns with the reference evidence.\"}"}
+{"key": "6b6d0cacd8b3501940dd62a9cf0c0a0548f453d2", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about the payment status and the cooling-off period are partially supported, but the specific invoice ID mismatch and the reactivation process details are not.\"}"}
+{"key": "00ae7f078bdd868528cf8a79bb2dcc37ca234073", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "28ff51bfe7b82ab3f99a4b41ad08c86cadac714f", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct and directly answers the question.\"}"}
+{"key": "e13361b3fa74c9dbbbf1552a96aa3bc2f154121b", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not specify the need for original ID proof for re-verification, and it does not mention the specific documents required for re-verification.\"}"}
+{"key": "2b86b6f1c7af6d162d60f2b3f2f8fa43d350861f", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "014221358978e478a0cba1c8b6022b72785aba80", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer aligns with reference evidence and fully addresses the question.\"}"}
+{"key": "46445ecc41158df93c71c90398df59dedde7ddc4", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not specify the exact plan type for customer 1056, and the grace period for incoming calls is not explicitly mentioned.\"}"}
+{"key": "650a502e8462226c294bc221d43adcace2114592", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer states that incoming calls would typically be restricted after the subscription expires, which is not explicitly supported by the context.\"}"}
+{"key": "3dc3b486ad3c94dce5e8dd9a05c263ab446b28b1", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Correctly identifies the bill components and the dispute process.\"}"}
+{"key": "8df317a34fd8c4078547fb4e3c31fa9f039db82d", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide the exact invoice ID or the specific charges (usage charge and GST) mentioned in the answer.\"}"}
+{"key": "da915bc722c4697b08095697946f4bf841f9e8f7", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "c8e75a5836e5214b54392bf770e38ce4ad923b53", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence.\"}"}
+{"key": "833ac52cdc403b69264f2b3699436dcc6f3a144d", "raw": "{\"present\": 1, \"reason\": \"The fact is explicitly stated in the answer.\"}"}
+{"key": "c2b2c7975ae492bebb0a5510a23c1f4d0bd6b3bf", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "1c4b99f9cc3d80213c9431ce71a76eeb466388c6", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "454023753d9fde3e5f96a8d329c3d49b4efdc35f", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence.\"}"}
+{"key": "3f042a41e769d17ace93bfbd08e49eb3803cae1e", "raw": "{\"present\": 1, \"reason\": \"The fact is explicitly stated in the answer.\"}"}
+{"key": "d9d3724193150cf4ef7448e6be0381d3e7c17e89", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "bf22ee487c29cd911cad4bb14751a3556bb3047e", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"Both claims are directly supported by the context.\"}"}
+{"key": "20a411ab1ceb5a0c7d0663102d45e2c0f85a878b", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer is fully correct and directly answers the question.\"}"}
+{"key": "3c5de5decb5398fa2fcc11a3a04187eb3675e3bc", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not mention the document [E1] or [E3], and the specific steps are not directly supported by the given context.\"}"}
+{"key": "5c85a43e75791a7618bc29662f7a86dea3ea5be8", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "510b5cd297171d5875dc3c929c4193bd3c49c034", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer aligns with the reference and directly addresses the question.\"}"}
+{"key": "86006b58b8a81a9b72794c1e643acd2066222954", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "dc5b176326a271a655403c213ca35d635eb37eb5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "8be668ddda3ae8f13b6bb1bc18ea744bd4f917aa", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it mentions the need for original ID proof and visiting a store, but misses the fastest route of e-KYC via OTP.\"}"}
+{"key": "e7dab249b21a14df104d872b086227469ce18fce", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about visiting a store and Video KYC are not in the context.\"}"}
+{"key": "65ea61f14142e4436e77ef1638a15dbd0fa54137", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "e74bf156404129d5c7398e98d76c48da7a7a9fba", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Answer matches the reference evidence and fully addresses the question.\"}"}
+{"key": "f120f0f3655aeb7fe3a5e817378df44bdf3b7315", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "93f5e4322463f629ba04c5468a7b21a16d6b081a", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not specify the grace period length, which is claimed in the answer.\"}"}
+{"key": "cce8a2ecb6f4b3956f33d0d473558383733fbaef", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the question.\"}"}
+{"key": "f0ac3dc8d19359bd08e5925c71c1a275e64ab3be", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not provide specific values for usage charges and VAS charges, only possible causes for higher bills.\"}"}
+{"key": "7e088545ef59f691d90682844fbe9b38a86ea263", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "0febc51dcfcc774a848ef0ea54696a433a06f463", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"Fully correct and directly answers the question.\"}"}
+{"key": "83faf4cd79c3bf85522c9751de5abbb21501e7b2", "raw": "{\"present\": 1, \"reason\": \"The fact is explicitly stated in the answer.\"}"}
+{"key": "18628257b11ac21097e15f74d09a1878e73cfb98", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "c4b6579ba5f6aab3c65b2957f1e356a551331241", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "cec5c3ce467787cfcb880c086c691c0e4d7a02e5", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it does not mention the potential for service suspension, but relevant as it addresses the pending status and steps to take.\"}"}
+{"key": "7f2930b2aa151de8338676bea240b280db385897", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about system status and steps to resolve pending status are not directly supported by the context.\"}"}
+{"key": "9b955f9b7c862df97423c6958cea8ac536a859cc", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are supported by the context.\"}"}
+{"key": "ff49b3036932f33bedc81f97511004ea1084aa30", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "6d76348a585aee2269dd5ca57bc28a7af6d79619", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "7432fadb2bb5cfe18ca6b0e9156a096c3d96cdf3", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims in the answer are directly supported by the context.\"}"}
+{"key": "c7ce08e8aa7f26d477a082ec89db517996c4b062", "raw": "{\"correctness\": 1, \"relevance\": 2, \"reason\": \"Partially correct as it mentions the need for original ID proof and visiting a store, but misses the fastest route of e-KYC via OTP.\"}"}
+{"key": "344147d236baa72e6997a6bd82cb0557b7c00181", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"Claims about visiting a store and Video KYC are not directly supported by the context.\"}"}
+{"key": "fd2cf1906cbe20ed2f65517b7758d0d9fa288ed5", "raw": "{\"groundedness\": 2, \"hallucination\": 0, \"reason\": \"All claims are directly supported by the context.\"}"}
+{"key": "0c62409e6ad9f3d5ea0c038f34e1bdf73d588ec7", "raw": "{\"correctness\": 2, \"relevance\": 2, \"reason\": \"The answer accurately reflects the reference evidence and directly addresses the customer's query.\"}"}
+{"key": "f3b9282d306ddb9959f5cec4389d31ede15084ef", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The context does not specify the exact charges causing the discrepancy, only that it is due to usage, VAS, and GST.\"}"}
+{"key": "bd99d609f2bb67f33a071c70499296a78ed0ad04", "raw": "{\"groundedness\": 1, \"hallucination\": 1, \"reason\": \"The answer states that the additional charges are due to usage and VAS charges, which is not explicitly stated in the context. The context mentions possible causes but does not confirm these specific charges.\"}"}

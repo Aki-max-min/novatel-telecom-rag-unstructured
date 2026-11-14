@@ -1,0 +1,1019 @@
+{
+  "definitions": "\nReport stage (both experiments; selected by FA_EXPERIMENT): raw_answers.jsonl + scored_answers.jsonl of the generated arms + the reused arms from\nresults/kg_hardening_eval/ -> every output under results/<experiment>/:\n  metrics.json, values.json (one flat key per number), comparison_table.md, paired_comparisons.md, ablation_table.md (final_ablation only),\n  graph_diagnostics.md (+ .json), error_table.csv, per_question_scores.csv.\n\n    FA_EXPERIMENT=final_ablation  .venv_colpali/Scripts/python.exe eval/final_ablation/fa_report.py\n    FA_EXPERIMENT=graph_merge_fix .venv_colpali/Scripts/python.exe eval/final_ablation/fa_report.py\n\nDefinitions are the v3 ones (eval/perf_report/run_report.py, imported and reused):\n  * 3 runs per arm; percentages are the MEAN over runs of the per-run percentage (min-max range in metrics.json);\n  * correctness (partial credit) = mean(score)/2 over scorable answers (E14a: 0/1/2); strict = share of questions fully correct (score 2) in a\n    majority of runs; lenient = share of questions with score >= 1 in a majority of runs;\n  * paired statistics compare per-question values under the three rules; exact two-sided McNemar on the discordant pairs; paired bootstrap over\n    QUESTIONS (10,000 resamples, seed 20261031) of the per-question difference;\n  * error causes: the v3 deterministic rule run_report.classify, one cause per answer with correctness < 2; the rule's arm key is \"router\" for R,\n    \"ontology\" for O, \"docgraph\" for the graph-only arms, \"C\" for the C arms, \"B\" / \"B2\" for the baselines; reference record = B2 of the same run for\n    router / layer arms; A is not classified (no retrieval: every cause but \"model\" is meaningless);\n  * \"n/a\" wherever a metric cannot exist (A: groundedness, hallucination vs context, citations, retrieval, row coverage).\n",
+  "experiment": "graph_merge_fix",
+  "manifest_git_commit": "afbbe8dff785bbc60c65d36258c4aafbbd49a1ff",
+  "questions": {
+    "S01": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q01": {
+      "category": "syn",
+      "is_core": true
+    },
+    "RW_001": {
+      "category": "trai",
+      "is_core": true
+    },
+    "S03": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q04": {
+      "category": "syn",
+      "is_core": true
+    },
+    "RW_004": {
+      "category": "trai",
+      "is_core": true
+    },
+    "S04": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q08": {
+      "category": "syn",
+      "is_core": true
+    },
+    "RW_007": {
+      "category": "trai",
+      "is_core": true
+    },
+    "S06": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q13": {
+      "category": "syn",
+      "is_core": true
+    },
+    "RW_010": {
+      "category": "trai",
+      "is_core": true
+    },
+    "S07": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q17": {
+      "category": "syn",
+      "is_core": true
+    },
+    "RW_017": {
+      "category": "trai",
+      "is_core": true
+    },
+    "S09": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q20": {
+      "category": "syn",
+      "is_core": true
+    },
+    "RW_023": {
+      "category": "trai",
+      "is_core": true
+    },
+    "S12": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q25": {
+      "category": "syn",
+      "is_core": true
+    },
+    "S15": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q28": {
+      "category": "syn",
+      "is_core": true
+    },
+    "S02": {
+      "category": "db",
+      "is_core": false
+    },
+    "S05": {
+      "category": "db",
+      "is_core": false
+    },
+    "S08": {
+      "category": "db",
+      "is_core": false
+    },
+    "S10": {
+      "category": "db",
+      "is_core": false
+    },
+    "S11": {
+      "category": "db",
+      "is_core": false
+    },
+    "S13": {
+      "category": "db",
+      "is_core": false
+    },
+    "S14": {
+      "category": "db",
+      "is_core": false
+    },
+    "MH01": {
+      "category": "multi",
+      "is_core": false
+    },
+    "MH02": {
+      "category": "multi",
+      "is_core": false
+    },
+    "MH03": {
+      "category": "multi",
+      "is_core": false
+    },
+    "MH04": {
+      "category": "multi",
+      "is_core": false
+    },
+    "MH05": {
+      "category": "multi",
+      "is_core": false
+    },
+    "MH_RB_B01": {
+      "category": "cross",
+      "is_core": false
+    },
+    "MH_RB_B02": {
+      "category": "cross",
+      "is_core": false
+    },
+    "MH_RB_B03": {
+      "category": "cross",
+      "is_core": false
+    },
+    "MH_RB_B04": {
+      "category": "cross",
+      "is_core": false
+    },
+    "MH_RB_B05": {
+      "category": "cross",
+      "is_core": false
+    },
+    "MH_RB_B06": {
+      "category": "cross",
+      "is_core": false
+    },
+    "MH12": {
+      "category": "multi",
+      "is_core": false
+    },
+    "MH13": {
+      "category": "multi",
+      "is_core": false
+    }
+  },
+  "arms_present": [
+    "B2",
+    "GF",
+    "GFL"
+  ],
+  "runs_per_arm": {
+    "B2": 3,
+    "GF": 3,
+    "GFL": 3
+  },
+  "arms": {
+    "B2": {
+      "n_records": 126,
+      "runs": [
+        1,
+        2,
+        3
+      ],
+      "generated_here": false,
+      "correctness.all": [
+        83.3,
+        84.5,
+        84.5
+      ],
+      "correctness.core": [
+        90.9,
+        93.2,
+        93.2
+      ],
+      "correctness.db": [
+        90.0,
+        90.0,
+        90.0
+      ],
+      "correctness.syn": [
+        87.5,
+        93.8,
+        93.8
+      ],
+      "correctness.trai": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.cross": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.multi": [
+        71.4,
+        71.4,
+        71.4
+      ],
+      "correctness_strict_pct": 73.8,
+      "correctness_lenient_pct": 95.2,
+      "relevance": [
+        97.6,
+        96.4,
+        96.4
+      ],
+      "relevance.core": [
+        95.5,
+        95.5,
+        95.5
+      ],
+      "groundedness": [
+        94.0,
+        96.4,
+        96.4
+      ],
+      "groundedness.core": [
+        93.2,
+        95.5,
+        95.5
+      ],
+      "halluc_ref": [
+        38.1,
+        35.7,
+        35.7
+      ],
+      "halluc_ref.core": [
+        36.4,
+        36.4,
+        36.4
+      ],
+      "halluc_ctx": [
+        7.1,
+        2.4,
+        2.4
+      ],
+      "halluc_ctx.core": [
+        4.5,
+        0.0,
+        0.0
+      ],
+      "latency_records_excluded": 0,
+      "n_scored": 126,
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 41,
+        "identical_correctness_pct": 97.6,
+        "questions_compared_text": 42,
+        "identical_answer_text": 23,
+        "identical_answer_text_pct": 54.8
+      },
+      "latency_median_s": 3.65,
+      "latency_p95_s": 7.29,
+      "prompt_tokens_median": 1526.5,
+      "n_cached_records": 0,
+      "n_abstained": 0,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.76,
+        "R@3": 0.92,
+        "R@5": 0.96,
+        "R@10": 1.0,
+        "MRR@10": 0.8367,
+        "hits": {
+          "1": 19,
+          "3": 23,
+          "5": 24,
+          "10": 25
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571,
+        "hits": {
+          "1": 11,
+          "3": 14,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        93.8,
+        93.8,
+        93.8
+      ],
+      "citation": {
+        "per_run": {
+          "cov": [
+            59.4,
+            57.1,
+            57.1
+          ],
+          "correct": [
+            71.8,
+            74.5,
+            74.5
+          ],
+          "unsup": [
+            46.2,
+            47.8,
+            47.8
+          ]
+        },
+        "totals": {
+          "checked": 123,
+          "skipped": 3,
+          "sentences": 745,
+          "cited": 431,
+          "supported_cited": 317,
+          "weak": 76,
+          "unsupported": 352
+        }
+      },
+      "routes": null,
+      "router_errors": 0,
+      "graph": null
+    },
+    "GF": {
+      "n_records": 126,
+      "runs": [
+        1,
+        2,
+        3
+      ],
+      "generated_here": true,
+      "correctness.all": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.core": [
+        90.9,
+        93.2,
+        93.2
+      ],
+      "correctness.db": [
+        90.0,
+        90.0,
+        90.0
+      ],
+      "correctness.syn": [
+        87.5,
+        93.8,
+        93.8
+      ],
+      "correctness.trai": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.cross": [
+        75.0,
+        66.7,
+        66.7
+      ],
+      "correctness.multi": [
+        71.4,
+        71.4,
+        71.4
+      ],
+      "correctness_strict_pct": 71.4,
+      "correctness_lenient_pct": 95.2,
+      "relevance": [
+        97.6,
+        96.4,
+        96.4
+      ],
+      "relevance.core": [
+        95.5,
+        95.5,
+        95.5
+      ],
+      "groundedness": [
+        94.0,
+        96.4,
+        96.4
+      ],
+      "groundedness.core": [
+        93.2,
+        95.5,
+        95.5
+      ],
+      "halluc_ref": [
+        38.1,
+        35.7,
+        35.7
+      ],
+      "halluc_ref.core": [
+        36.4,
+        36.4,
+        36.4
+      ],
+      "halluc_ctx": [
+        7.1,
+        2.4,
+        2.4
+      ],
+      "halluc_ctx.core": [
+        4.5,
+        0.0,
+        0.0
+      ],
+      "latency_records_excluded": 0,
+      "n_scored": 126,
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 40,
+        "identical_correctness_pct": 95.2,
+        "questions_compared_text": 42,
+        "identical_answer_text": 23,
+        "identical_answer_text_pct": 54.8
+      },
+      "latency_median_s": 7.03,
+      "latency_p95_s": 15.53,
+      "prompt_tokens_median": 1533.0,
+      "n_cached_records": 0,
+      "n_abstained": 0,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.76,
+        "R@3": 0.96,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8433,
+        "hits": {
+          "1": 19,
+          "3": 24,
+          "5": 25,
+          "10": 25
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571,
+        "hits": {
+          "1": 11,
+          "3": 14,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        93.8,
+        93.8,
+        93.8
+      ],
+      "citation": {
+        "per_run": {
+          "cov": [
+            61.8,
+            59.3,
+            59.3
+          ],
+          "correct": [
+            71.1,
+            74.1,
+            74.1
+          ],
+          "unsup": [
+            43.9,
+            45.6,
+            45.6
+          ]
+        },
+        "totals": {
+          "checked": 123,
+          "skipped": 3,
+          "sentences": 728,
+          "cited": 438,
+          "supported_cited": 320,
+          "weak": 80,
+          "unsupported": 328
+        }
+      },
+      "routes": null,
+      "router_errors": 0,
+      "graph": {
+        "records_with_added_chunks": 63,
+        "added_chunks_total_all_runs": 231,
+        "records_with_graph_weight_positive": 69,
+        "related_neighbours_added_all_runs": 0
+      }
+    },
+    "GFL": {
+      "n_records": 126,
+      "runs": [
+        1,
+        2,
+        3
+      ],
+      "generated_here": true,
+      "correctness.all": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.core": [
+        93.2,
+        93.2,
+        93.2
+      ],
+      "correctness.db": [
+        90.0,
+        90.0,
+        90.0
+      ],
+      "correctness.syn": [
+        93.8,
+        93.8,
+        93.8
+      ],
+      "correctness.trai": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.cross": [
+        66.7,
+        66.7,
+        66.7
+      ],
+      "correctness.multi": [
+        71.4,
+        71.4,
+        71.4
+      ],
+      "correctness_strict_pct": 71.4,
+      "correctness_lenient_pct": 95.2,
+      "relevance": [
+        96.4,
+        96.4,
+        96.4
+      ],
+      "relevance.core": [
+        95.5,
+        95.5,
+        95.5
+      ],
+      "groundedness": [
+        96.4,
+        96.4,
+        96.4
+      ],
+      "groundedness.core": [
+        95.5,
+        95.5,
+        95.5
+      ],
+      "halluc_ref": [
+        35.7,
+        35.7,
+        35.7
+      ],
+      "halluc_ref.core": [
+        36.4,
+        36.4,
+        36.4
+      ],
+      "halluc_ctx": [
+        2.4,
+        2.4,
+        2.4
+      ],
+      "halluc_ctx.core": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "latency_records_excluded": 0,
+      "n_scored": 126,
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 42,
+        "identical_correctness_pct": 100.0,
+        "questions_compared_text": 42,
+        "identical_answer_text": 42,
+        "identical_answer_text_pct": 100.0
+      },
+      "latency_median_s": 4.59,
+      "latency_p95_s": 8.31,
+      "prompt_tokens_median": 1533.0,
+      "n_cached_records": 0,
+      "n_abstained": 0,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.76,
+        "R@3": 0.96,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8433,
+        "hits": {
+          "1": 19,
+          "3": 24,
+          "5": 25,
+          "10": 25
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571,
+        "hits": {
+          "1": 11,
+          "3": 14,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        93.8,
+        93.8,
+        93.8
+      ],
+      "citation": {
+        "per_run": {
+          "cov": [
+            59.3,
+            59.3,
+            59.3
+          ],
+          "correct": [
+            74.1,
+            74.1,
+            74.1
+          ],
+          "unsup": [
+            45.6,
+            45.6,
+            45.6
+          ]
+        },
+        "totals": {
+          "checked": 123,
+          "skipped": 3,
+          "sentences": 723,
+          "cited": 429,
+          "supported_cited": 318,
+          "weak": 75,
+          "unsupported": 330
+        }
+      },
+      "routes": null,
+      "router_errors": 0,
+      "graph": {
+        "records_with_added_chunks": 63,
+        "added_chunks_total_all_runs": 231,
+        "records_with_graph_weight_positive": 69,
+        "related_neighbours_added_all_runs": 123
+      }
+    }
+  },
+  "paired": {
+    "GF_vs_B2": {
+      "strict": {
+        "rule": "strict",
+        "a": "GF",
+        "b": "B2",
+        "wins": 0,
+        "losses": 1,
+        "ties": 41,
+        "n_pairs": 42,
+        "discordant": 1,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -4.8,
+          0.0
+        ],
+        "mean_diff_pts": -1.6,
+        "win_ids": [],
+        "loss_ids": [
+          "MH_RB_B05"
+        ]
+      },
+      "partial": {
+        "rule": "partial",
+        "a": "GF",
+        "b": "B2",
+        "wins": 0,
+        "losses": 1,
+        "ties": 41,
+        "n_pairs": 42,
+        "discordant": 1,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -2.4,
+          0.0
+        ],
+        "mean_diff_pts": -0.8,
+        "win_ids": [],
+        "loss_ids": [
+          "MH_RB_B05"
+        ]
+      },
+      "lenient": {
+        "rule": "lenient",
+        "a": "GF",
+        "b": "B2",
+        "wins": 0,
+        "losses": 0,
+        "ties": 42,
+        "n_pairs": 42,
+        "discordant": 0,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          0.0,
+          0.0
+        ],
+        "mean_diff_pts": 0.0,
+        "win_ids": [],
+        "loss_ids": []
+      }
+    },
+    "GFL_vs_B2": {
+      "strict": {
+        "rule": "strict",
+        "a": "GFL",
+        "b": "B2",
+        "wins": 0,
+        "losses": 1,
+        "ties": 41,
+        "n_pairs": 42,
+        "discordant": 1,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -7.1,
+          2.4
+        ],
+        "mean_diff_pts": -1.6,
+        "win_ids": [],
+        "loss_ids": [
+          "MH_RB_B05"
+        ]
+      },
+      "partial": {
+        "rule": "partial",
+        "a": "GFL",
+        "b": "B2",
+        "wins": 1,
+        "losses": 1,
+        "ties": 40,
+        "n_pairs": 42,
+        "discordant": 2,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -3.6,
+          1.2
+        ],
+        "mean_diff_pts": -0.8,
+        "win_ids": [
+          "Q20"
+        ],
+        "loss_ids": [
+          "MH_RB_B05"
+        ]
+      },
+      "lenient": {
+        "rule": "lenient",
+        "a": "GFL",
+        "b": "B2",
+        "wins": 0,
+        "losses": 0,
+        "ties": 42,
+        "n_pairs": 42,
+        "discordant": 0,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          0.0,
+          0.0
+        ],
+        "mean_diff_pts": 0.0,
+        "win_ids": [],
+        "loss_ids": []
+      }
+    },
+    "GFL_vs_GF": {
+      "strict": {
+        "rule": "strict",
+        "a": "GFL",
+        "b": "GF",
+        "wins": 0,
+        "losses": 0,
+        "ties": 42,
+        "n_pairs": 42,
+        "discordant": 0,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -2.4,
+          2.4
+        ],
+        "mean_diff_pts": 0.0,
+        "win_ids": [],
+        "loss_ids": []
+      },
+      "partial": {
+        "rule": "partial",
+        "a": "GFL",
+        "b": "GF",
+        "wins": 1,
+        "losses": 1,
+        "ties": 40,
+        "n_pairs": 42,
+        "discordant": 2,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -1.2,
+          1.2
+        ],
+        "mean_diff_pts": 0.0,
+        "win_ids": [
+          "Q20"
+        ],
+        "loss_ids": [
+          "MH_RB_B05"
+        ]
+      },
+      "lenient": {
+        "rule": "lenient",
+        "a": "GFL",
+        "b": "GF",
+        "wins": 0,
+        "losses": 0,
+        "ties": 42,
+        "n_pairs": 42,
+        "discordant": 0,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          0.0,
+          0.0
+        ],
+        "mean_diff_pts": 0.0,
+        "win_ids": [],
+        "loss_ids": []
+      }
+    }
+  },
+  "error_analysis": {
+    "counts": {
+      "B2": {
+        "retrieval": 6,
+        "context": 3,
+        "competing": 0,
+        "ranking": 0,
+        "model": 13,
+        "router": 0,
+        "graph": 0,
+        "scoring": 12
+      },
+      "GF": {
+        "retrieval": 6,
+        "context": 3,
+        "competing": 3,
+        "ranking": 0,
+        "model": 12,
+        "router": 0,
+        "graph": 0,
+        "scoring": 12
+      },
+      "GFL": {
+        "retrieval": 6,
+        "context": 3,
+        "competing": 3,
+        "ranking": 0,
+        "model": 12,
+        "router": 0,
+        "graph": 0,
+        "scoring": 12
+      }
+    },
+    "totals": {
+      "B2": 34,
+      "GF": 36,
+      "GFL": 36
+    },
+    "not_classified": [
+      "A (no retrieval)"
+    ]
+  },
+  "graph_diagnostics_summary": {
+    "GF": {
+      "questions": 42,
+      "questions_doc_searched": 42,
+      "questions_gate_positive": 23,
+      "questions_with_added_chunks": 21,
+      "added_chunks_total": 77,
+      "added_documents_total": 71,
+      "added_via": {
+        "bridge concept (hub-only)": 33,
+        "bridge concept (has a specific concept)": 44
+      },
+      "added_relevant": 7,
+      "added_relevant_questions": 6,
+      "added_in_prompt": 12,
+      "docs_added_per_question": {
+        "mean": 3.38,
+        "max": 6,
+        "n": 21
+      },
+      "displaced_questions": [],
+      "gold_rank_1_B2": 19,
+      "gold_rank_1_arm": 19,
+      "doc_questions": 25,
+      "gold_rank_changes": {
+        "better": 1,
+        "same": 24,
+        "worse": 0,
+        "lost_from_top10": 0
+      },
+      "gold_rank_worse_or_lost_questions": [],
+      "link_docs_added_total": 0,
+      "link_docs_in_top10": 0,
+      "link_docs_in_prompt": 0
+    },
+    "GFL": {
+      "questions": 42,
+      "questions_doc_searched": 42,
+      "questions_gate_positive": 23,
+      "questions_with_added_chunks": 21,
+      "added_chunks_total": 77,
+      "added_documents_total": 71,
+      "added_via": {
+        "bridge concept (hub-only)": 32,
+        "bridge concept (has a specific concept)": 44,
+        "RELATED_TO": 1
+      },
+      "added_relevant": 7,
+      "added_relevant_questions": 6,
+      "added_in_prompt": 13,
+      "docs_added_per_question": {
+        "mean": 3.38,
+        "max": 6,
+        "n": 21
+      },
+      "displaced_questions": [],
+      "gold_rank_1_B2": 19,
+      "gold_rank_1_arm": 19,
+      "doc_questions": 25,
+      "gold_rank_changes": {
+        "better": 1,
+        "same": 24,
+        "worse": 0,
+        "lost_from_top10": 0
+      },
+      "gold_rank_worse_or_lost_questions": [],
+      "link_docs_added_total": 41,
+      "link_docs_in_top10": 1,
+      "link_docs_in_prompt": 1
+    }
+  }
+}

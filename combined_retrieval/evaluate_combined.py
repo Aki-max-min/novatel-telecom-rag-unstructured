@@ -676,7 +676,8 @@ def main():
     if synthetic_count != 383:
 
         raise ValueError(
-            "Expected 383 synthetic chunks, "
+            "Expected 383 chunks with source_corpus='synthetic' "
+            "(258 NovaTel + 125 SciFact), "
             f"found {synthetic_count}."
         )
 

@@ -1,0 +1,133 @@
+{
+  "experiment": "E14-BaseVsRAG",
+  "run_config": {
+    "generation_model": "qwen2.5:7b-instruct",
+    "quantization": "Q4_K_M",
+    "judge_model": "ollama:qwen2.5:7b-instruct (local, temperature 0)",
+    "base_condition": "same model, same temperature, NO retrieval and NO context",
+    "rag_condition": "structured SQL + unstructured FAISS/metadata -> RRF -> top-N context -> same model",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "fusion_method": "RRF",
+    "rrf_k": 60,
+    "top_n_context": 6,
+    "n_queries": 22,
+    "query_counts_by_intended_category": {
+      "structured": 8,
+      "unstructured_synthetic": 8,
+      "unstructured_public": 6
+    },
+    "query_counts_by_observed_type": {
+      "hybrid": 10,
+      "unstructured": 12
+    },
+    "scoring": {
+      "structured_correctness": "DETERMINISTIC (SQLite ground-truth anchors; anchors echoed by the question are dropped as non-discriminative)",
+      "negative_control_correctness": "DETERMINISTIC (correct abstention on S15 scores 2)",
+      "reference_retrieved": "DETERMINISTIC (expected document_id / expected_table present in the retrieved evidence) -- this is what separates retrieval failure from generation failure",
+      "structured_citation_factcheck": "DETERMINISTIC (exact-match of cited structured values)",
+      "document_correctness_and_relevance": "LLM-judged vs the REFERENCE evidence (known-relevant chunk), local model, temp 0",
+      "groundedness_and_hallucination": "LLM-judged vs the RETRIEVED CONTEXT only; the judge is explicitly told not to consider factual correctness, so a faithful summary of the wrong document counts as grounded (that shows up as a retrieval_failure instead)",
+      "base_hallucination_basis_asymmetry": "The base condition has NO retrieved context, so its hallucination is assessed against the reference evidence instead. Base vs RAG hallucination rates therefore rest on different bases and are not strictly comparable; base groundedness is left null by definition.",
+      "failure_type": "DERIVED from reference_retrieved (deterministic) x groundedness x correctness",
+      "caveat": "Document-side rubric scores are judged by a local 7B model and MUST be human spot-checked. Structured correctness, reference_retrieved and the citation factcheck are deterministic."
+    },
+    "not_measured": [
+      "latency as a benchmark metric",
+      "GPU/VRAM utilisation",
+      "cost"
+    ],
+    "timestamp_utc": "2026-10-14T07:54:04.735524+00:00"
+  },
+  "overall": {
+    "base": {
+      "correctness_pct": 45.45454545454545,
+      "relevance_pct": 81.81818181818183,
+      "hallucination_rate_pct": 90.9090909090909,
+      "groundedness_pct": null,
+      "n_scored": 22
+    },
+    "rag": {
+      "correctness_pct": 79.54545454545455,
+      "relevance_pct": 93.18181818181817,
+      "hallucination_rate_pct": 4.545454545454546,
+      "groundedness_pct": 97.72727272727273,
+      "n_scored": 22
+    }
+  },
+  "failure_type_distribution": {
+    "correct": 14,
+    "generation_failure": 8
+  },
+  "failure_type_by_category": {
+    "structured": {
+      "correct": 4,
+      "generation_failure": 4
+    },
+    "unstructured_public": {
+      "generation_failure": 3,
+      "correct": 3
+    },
+    "unstructured_synthetic": {
+      "correct": 7,
+      "generation_failure": 1
+    }
+  },
+  "reference_retrieved_count": 22,
+  "reference_retrieved_pct": 100.0,
+  "deltas": {
+    "correctness_pct": 34.09090909090909,
+    "relevance_pct": 11.363636363636346,
+    "hallucination_rate_pct": -86.36363636363636
+  },
+  "by_category": {
+    "structured": {
+      "n": 8,
+      "base_correctness_pct": 12.5,
+      "rag_correctness_pct": 75.0,
+      "base_hallucination_rate_pct": 100.0,
+      "rag_hallucination_rate_pct": 0.0,
+      "rag_groundedness_pct": 100.0
+    },
+    "unstructured_public": {
+      "n": 6,
+      "base_correctness_pct": 66.66666666666666,
+      "rag_correctness_pct": 66.66666666666666,
+      "base_hallucination_rate_pct": 83.33333333333334,
+      "rag_hallucination_rate_pct": 0.0,
+      "rag_groundedness_pct": 100.0
+    },
+    "unstructured_synthetic": {
+      "n": 8,
+      "base_correctness_pct": 62.5,
+      "rag_correctness_pct": 93.75,
+      "base_hallucination_rate_pct": 87.5,
+      "rag_hallucination_rate_pct": 12.5,
+      "rag_groundedness_pct": 93.75
+    }
+  },
+  "retrieval_precision_this_run": {
+    "R@1": 0.7857142857142857,
+    "R@3": 1.0,
+    "R@5": 1.0,
+    "MRR@10": 0.8571428571428571,
+    "n_document_queries": 14
+  },
+  "retrieval_precision_preexisting_benchmarks": {
+    "synthetic_29q": {
+      "Top-1": 0.7586206896551724,
+      "Top-3": 0.896551724137931,
+      "Top-5": 1.0,
+      "MRR@10": "not available (field absent in source file)",
+      "source": "data\\vectorstore\\retrieval_evaluation.json"
+    },
+    "public_30q": {
+      "Recall@1": 0.4666666666666667,
+      "Recall@3": 0.7666666666666667,
+      "Recall@5": 0.9,
+      "Recall@10": 1.0,
+      "MRR@10": 0.645,
+      "source": "data\\experiments\\public_pdfs\\public_pdf_retrieval_evaluation.json"
+    }
+  },
+  "judge_parse_failures": 0
+}

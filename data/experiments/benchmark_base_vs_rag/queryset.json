@@ -1,0 +1,310 @@
+{
+  "description": "Curated Base-vs-RAG benchmark query set. Every query is REUSED from an existing NovaTel eval file; none were written for this run. 'intended_category' is the query's source/intent. The runtime structured/unstructured/hybrid classification is recorded separately in answers.jsonl as 'observed_query_type', because hybrid is only observable after retrieval runs. Queries are interleaved across the three categories so partial runs stay category-balanced.",
+  "n_queries": 22,
+  "composition": {
+    "structured": 8,
+    "unstructured_synthetic": 8,
+    "unstructured_public": 6
+  },
+  "queries": [
+    {
+      "query_id": "S01",
+      "question": "What is customer 1001's account status?",
+      "intended_category": "structured",
+      "source_file": "structured\\benchmark.json",
+      "reference_evidence": {
+        "kind": "sql_record",
+        "expected_table": "customer_master",
+        "expected_method": "exact_filter",
+        "expected_filter_column": "customer_id",
+        "expected_filter_value": 1001,
+        "benchmark_query_type": "exact_lookup"
+      }
+    },
+    {
+      "query_id": "Q01",
+      "question": "I don't have access to my old registered phone number anymore. How can I update the number on my account?",
+      "intended_category": "unstructured_synthetic",
+      "source_file": "data\\vectorstore\\retrieval_evaluation.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "FAQ_C01_001"
+        ],
+        "category": "C01"
+      }
+    },
+    {
+      "query_id": "RW_001",
+      "question": "What rights do I have as a telecom customer?",
+      "intended_category": "unstructured_public",
+      "source_file": "data\\experiments\\public_pdfs\\public_pdf_queries.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "PUBLIC_PDF_01_TELECOM_CONSUMERS_PROTECTION"
+        ]
+      }
+    },
+    {
+      "query_id": "S03",
+      "question": "Show invoices for customer 1009",
+      "intended_category": "structured",
+      "source_file": "structured\\benchmark.json",
+      "reference_evidence": {
+        "kind": "sql_record",
+        "expected_table": "invoices",
+        "expected_method": "exact_filter",
+        "expected_filter_column": "customer_id",
+        "expected_filter_value": 1009,
+        "benchmark_query_type": "filter"
+      }
+    },
+    {
+      "query_id": "Q04",
+      "question": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
+      "intended_category": "unstructured_synthetic",
+      "source_file": "data\\vectorstore\\retrieval_evaluation.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "FAQ_C04_007",
+          "KB_C04_bill_disputes"
+        ],
+        "category": "C04"
+      }
+    },
+    {
+      "query_id": "RW_004",
+      "question": "How can I complain to my telecom service provider?",
+      "intended_category": "unstructured_public",
+      "source_file": "data\\experiments\\public_pdfs\\public_pdf_queries.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "PUBLIC_PDF_02_CONSUMER_COMPLAINT_REDRESSAL"
+        ]
+      }
+    },
+    {
+      "query_id": "S04",
+      "question": "How many recharge_transactions have status FAILED?",
+      "intended_category": "structured",
+      "source_file": "structured\\benchmark.json",
+      "reference_evidence": {
+        "kind": "sql_record",
+        "expected_table": "recharge_transactions",
+        "expected_method": "aggregate",
+        "expected_filter_column": "status",
+        "expected_filter_value": "FAILED",
+        "benchmark_query_type": "aggregate"
+      }
+    },
+    {
+      "query_id": "Q08",
+      "question": "There is no mobile signal where I am. How can I find out whether NovaTel is having a network outage?",
+      "intended_category": "unstructured_synthetic",
+      "source_file": "data\\vectorstore\\retrieval_evaluation.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "KB_C08_outage_status_check",
+          "FAQ_C08_015"
+        ],
+        "category": "C08"
+      }
+    },
+    {
+      "query_id": "RW_007",
+      "question": "How can I stop receiving unwanted promotional calls and messages?",
+      "intended_category": "unstructured_public",
+      "source_file": "data\\experiments\\public_pdfs\\public_pdf_queries.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "PUBLIC_PDF_03_COMMERCIAL_COMMUNICATIONS_CUSTOMER_PREFERENCE"
+        ]
+      }
+    },
+    {
+      "query_id": "S06",
+      "question": "Show all open tickets",
+      "intended_category": "structured",
+      "source_file": "structured\\benchmark.json",
+      "reference_evidence": {
+        "kind": "sql_record",
+        "expected_table": "tickets",
+        "expected_method": "exact_filter",
+        "expected_filter_column": "status",
+        "expected_filter_value": "Open",
+        "benchmark_query_type": "filter"
+      }
+    },
+    {
+      "query_id": "Q13",
+      "question": "The OTP for signing into the My NovaTel app isn't arriving. How can I log in?",
+      "intended_category": "unstructured_synthetic",
+      "source_file": "data\\vectorstore\\retrieval_evaluation.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "FAQ_C13_025",
+          "KB_C13_selfcare_login_issues"
+        ],
+        "category": "C13"
+      }
+    },
+    {
+      "query_id": "RW_010",
+      "question": "What level of service quality should I expect from my telecom provider?",
+      "intended_category": "unstructured_public",
+      "source_file": "data\\experiments\\public_pdfs\\public_pdf_queries.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "PUBLIC_PDF_04_QUALITY_OF_SERVICE_REGULATIONS"
+        ]
+      }
+    },
+    {
+      "query_id": "S07",
+      "question": "How many payment_transactions are SUCCESS?",
+      "intended_category": "structured",
+      "source_file": "structured\\benchmark.json",
+      "reference_evidence": {
+        "kind": "sql_record",
+        "expected_table": "payment_transactions",
+        "expected_method": "aggregate",
+        "expected_filter_column": "status",
+        "expected_filter_value": "SUCCESS",
+        "benchmark_query_type": "aggregate"
+      }
+    },
+    {
+      "query_id": "Q17",
+      "question": "What documents do I need to provide if NovaTel asks me to complete KYC verification again?",
+      "intended_category": "unstructured_synthetic",
+      "source_file": "data\\vectorstore\\retrieval_evaluation.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "FAQ_C17_033",
+          "KB_C17_kyc_reverification",
+          "FAQ_C17_034"
+        ],
+        "category": "C17"
+      }
+    },
+    {
+      "query_id": "RW_017",
+      "question": "How do I port my mobile number to another telecom company?",
+      "intended_category": "unstructured_public",
+      "source_file": "data\\experiments\\public_pdfs\\public_pdf_queries.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "PUBLIC_PDF_06_MOBILE_NUMBER_PORTABILITY"
+        ]
+      }
+    },
+    {
+      "query_id": "S09",
+      "question": "Show kyc_records with status Pending",
+      "intended_category": "structured",
+      "source_file": "structured\\benchmark.json",
+      "reference_evidence": {
+        "kind": "sql_record",
+        "expected_table": "kyc_records",
+        "expected_method": "exact_filter",
+        "expected_filter_column": "status",
+        "expected_filter_value": "Pending",
+        "benchmark_query_type": "filter"
+      }
+    },
+    {
+      "query_id": "Q20",
+      "question": "I was charged twice for the same recharge. How can I get the extra amount refunded?",
+      "intended_category": "unstructured_synthetic",
+      "source_file": "data\\vectorstore\\retrieval_evaluation.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "Policy_C20_refund_policy",
+          "KB_C20_refund_processing",
+          "SOP_C20_REFUND_PROCESSING",
+          "FAQ_C20_039"
+        ],
+        "category": "C20"
+      }
+    },
+    {
+      "query_id": "RW_023",
+      "question": "How did the telecom sector perform from April to June 2025?",
+      "intended_category": "unstructured_public",
+      "source_file": "data\\experiments\\public_pdfs\\public_pdf_queries.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "PUBLIC_PDF_08_TELECOM_PERFORMANCE_APR_JUN_2025"
+        ]
+      }
+    },
+    {
+      "query_id": "S12",
+      "question": "Show fraud_cases with status Investigating",
+      "intended_category": "structured",
+      "source_file": "structured\\benchmark.json",
+      "reference_evidence": {
+        "kind": "sql_record",
+        "expected_table": "fraud_cases",
+        "expected_method": "exact_filter",
+        "expected_filter_column": "status",
+        "expected_filter_value": "Investigating",
+        "benchmark_query_type": "filter"
+      }
+    },
+    {
+      "query_id": "Q25",
+      "question": "My home fibre connection shows LOS on the ONT. What does that mean and how can I troubleshoot it?",
+      "intended_category": "unstructured_synthetic",
+      "source_file": "data\\vectorstore\\retrieval_evaluation.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "FAQ_C25_049",
+          "KB_C25_ftth_fault_diagnosis",
+          "MAN_ROUTER_001"
+        ],
+        "category": "C25"
+      }
+    },
+    {
+      "query_id": "S15",
+      "question": "asdkjaslkdj random gibberish query",
+      "intended_category": "structured",
+      "source_file": "structured\\benchmark.json",
+      "reference_evidence": {
+        "kind": "sql_record",
+        "expected_table": null,
+        "expected_method": null,
+        "expected_filter_column": null,
+        "expected_filter_value": null,
+        "benchmark_query_type": "negative"
+      }
+    },
+    {
+      "query_id": "Q28",
+      "question": "What is TRAI's role in regulating telecom operators like NovaTel?",
+      "intended_category": "unstructured_synthetic",
+      "source_file": "data\\vectorstore\\retrieval_evaluation.json",
+      "reference_evidence": {
+        "kind": "document_ids",
+        "expected_document_ids": [
+          "Policy_C28_regulatory_compliance",
+          "FAQ_C28_055"
+        ],
+        "category": "C28"
+      }
+    }
+  ]
+}

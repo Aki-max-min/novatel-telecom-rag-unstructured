@@ -1,0 +1,107 @@
+arm,run,id,category,correctness,cause,detail
+B2,1,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+B2,1,Q08,syn,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,1,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,1,Q20,syn,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,1,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,1,S08,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,1,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,1,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,1,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,1,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,1,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+B2,1,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+B2,2,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+B2,2,Q08,syn,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,2,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,2,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,2,S08,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,2,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,2,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,2,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,2,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,2,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+B2,2,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+B2,3,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+B2,3,Q08,syn,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,3,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,3,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,3,S08,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+B2,3,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,3,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,3,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,3,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+B2,3,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+B2,3,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+GF,1,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+GF,1,Q08,syn,1,competing,"gold first, but cited ['FAQ_C08_016']"
+GF,1,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GF,1,Q20,syn,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GF,1,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GF,1,S08,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GF,1,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GF,1,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GF,1,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GF,1,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GF,1,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+GF,1,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+GF,2,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+GF,2,Q08,syn,1,competing,"gold first, but cited ['FAQ_C08_016']"
+GF,2,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GF,2,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GF,2,S08,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GF,2,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GF,2,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GF,2,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GF,2,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GF,2,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+GF,2,MH_RB_B05,cross,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GF,2,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+GF,3,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+GF,3,Q08,syn,1,competing,"gold first, but cited ['FAQ_C08_016']"
+GF,3,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GF,3,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GF,3,S08,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GF,3,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GF,3,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GF,3,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GF,3,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GF,3,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+GF,3,MH_RB_B05,cross,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GF,3,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+GFL,1,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+GFL,1,Q08,syn,1,competing,"gold first, but cited ['FAQ_C08_016']"
+GFL,1,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GFL,1,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GFL,1,S08,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GFL,1,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GFL,1,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GFL,1,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GFL,1,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GFL,1,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+GFL,1,MH_RB_B05,cross,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GFL,1,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+GFL,2,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+GFL,2,Q08,syn,1,competing,"gold first, but cited ['FAQ_C08_016']"
+GFL,2,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GFL,2,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GFL,2,S08,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GFL,2,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GFL,2,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GFL,2,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GFL,2,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GFL,2,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+GFL,2,MH_RB_B05,cross,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GFL,2,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False
+GFL,3,RW_001,trai,1,context,docs_in_prompt=False sql_rows_in_prompt=True
+GFL,3,Q08,syn,1,competing,"gold first, but cited ['FAQ_C08_016']"
+GFL,3,RW_010,trai,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GFL,3,S02,db,0,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GFL,3,S08,db,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GFL,3,MH01,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GFL,3,MH03,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GFL,3,MH04,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GFL,3,MH05,multi,1,scoring,"all deterministic anchors present; only a judge-scored fact is missing (inferred, needs human review)"
+GFL,3,MH_RB_B03,cross,0,retrieval,docs_retrieved=True sql_retrieved=False
+GFL,3,MH_RB_B05,cross,1,model,"right evidence in the prompt, answer wrong/partial/uncited"
+GFL,3,MH_RB_B06,cross,1,retrieval,docs_retrieved=True sql_retrieved=False

@@ -1,0 +1,357 @@
+{
+  "experiment": "E14-subset",
+  "description": "Integrated RAG: structured SQL + unstructured FAISS/metadata retrieval, RRF fusion, local Ollama generation. No KG/ontology/document-graph/ColPali wired in.",
+  "n_queries": 10,
+  "query_type_counts": {
+    "unstructured": 4,
+    "structured": 5,
+    "hybrid": 1
+  },
+  "deterministic_metrics": {
+    "R@1": 1.0,
+    "R@3": 1.0,
+    "R@5": 1.0,
+    "R@10": 1.0,
+    "MRR@10": 1.0,
+    "n_unstructured_queries": 5,
+    "structured_table_hit_rate": 1.0,
+    "n_structured_queries": 5
+  },
+  "deepeval_metrics": {
+    "per_query": [
+      {
+        "query_id": "Q01",
+        "scores": {
+          "AnswerRelevancyMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because the response directly addresses the user's query without any irrelevant statements."
+          },
+          "ContextualRelevancyMetric": {
+            "score": null,
+            "error": "Evaluation LLM outputted an invalid JSON. Please use a better evaluation model."
+          },
+          "FaithfulnessMetric": {
+            "score": 0.8333333333333334,
+            "reason": "The score is 0.83 because the actual output incorrectly states that a store visit is a designated fallback method for OTP verification, which contradicts the retrieval context that only mentions it as a requirement if the OTP route is unavailable."
+          },
+          "ContextualPrecisionMetric": {
+            "score": 0.9166666666666666,
+            "reason": "The score is 0.92 because the first, second, and fourth nodes are ranked higher as they provide relevant information on updating the number, while the third and fifth nodes, ranked lower, are not directly relevant to the specific issue of not having access to the old registered phone number."
+          }
+        }
+      },
+      {
+        "query_id": "S01",
+        "scores": {
+          "AnswerRelevancyMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because the response directly addresses the query without any irrelevant statements, achieving the highest relevancy."
+          },
+          "ContextualRelevancyMetric": {
+            "score": 0.09523809523809523,
+            "reason": "The score is 0.10 because the retrieval context primarily contains irrelevant information about customer details and general account statuses, with only one statement, 'status=Active', directly relevant to the input, which is insufficient to provide a comprehensive account status for customer 1001."
+          },
+          "FaithfulnessMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because there are no contradictions in the actual output."
+          },
+          "ContextualPrecisionMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because the first node directly provides the required information about customer 1001's account status, while the subsequent nodes ranked 2 to 6 are irrelevant, as they discuss topics such as call center accessibility, privacy, billing, international roaming, and number porting, which do not pertain to the account status."
+          }
+        }
+      },
+      {
+        "query_id": "Q02",
+        "scores": {
+          "AnswerRelevancyMetric": {
+            "score": null,
+            "error": "Evaluation LLM outputted an invalid JSON. Please use a better evaluation model."
+          },
+          "ContextualRelevancyMetric": {
+            "score": 0.19230769230769232,
+            "reason": "The score is 0.19 because the retrieval context primarily discusses general information about prepaid plans, their validity periods, and terms, which are not directly related to the specific method of checking when a prepaid plan will stop being valid. Relevant statements such as 'Your plan validity is shown under My Plan in the app' and 'The exact expiry date and time are displayed on the plan summary screen' are overshadowed by irrelevant details."
+          },
+          "FaithfulnessMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because there are no contradictions in the actual output."
+          },
+          "ContextualPrecisionMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because all relevant nodes (nodes 1, 2, and 3) are ranked higher than the irrelevant nodes (nodes 4 and 5), directly addressing the input's query about checking prepaid plan validity."
+          }
+        }
+      },
+      {
+        "query_id": "S02",
+        "scores": {
+          "AnswerRelevancyMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because the response directly addresses the query without any irrelevant statements."
+          },
+          "ContextualRelevancyMetric": {
+            "score": 0.045454545454545456,
+            "reason": "The score is 0.05 because the retrieval context primarily discusses general information and processes unrelated to customer 1001's specific plan, while only one statement mentions 'customer 1001 is on plan_id=2007', which is marginally relevant."
+          },
+          "FaithfulnessMetric": {
+            "score": 0.6666666666666666,
+            "reason": "The score is 0.67 because the actual output incorrectly states that the 'Value Combo 199' plan offers 1GB of data per day, contradicting the retrieval context which states it offers 2GB."
+          },
+          "ContextualPrecisionMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because all relevant nodes (nodes 1 and 2) are ranked higher than the irrelevant nodes (nodes 3-6). Nodes 3-6 provide general information that does not directly answer the specific question about customer 1001's plan."
+          }
+        }
+      },
+      {
+        "query_id": "Q03",
+        "scores": {
+          "AnswerRelevancyMetric": {
+            "score": 0.8571428571428571,
+            "reason": "The score is 0.86 because the response provides relevant advice on what to do, and the only irrelevant statement was about the typical time frame for the recharge, which does not significantly impact the overall relevancy."
+          },
+          "ContextualRelevancyMetric": {
+            "score": 0.5185185185185185,
+            "reason": "The score is 0.52 because the retrieval context contains statements about general recharge issues and procedures, which are somewhat relevant, but the majority of the statements are not directly addressing the specific issue of money being deducted but not appearing on the account. The relevant statements are mostly about delays and manual reconciliation, which are not as directly applicable as they could be."
+          },
+          "FaithfulnessMetric": {
+            "score": 0.5,
+            "reason": "The score is 0.50 because the actual output incorrectly states a 1-hour wait time for recharges, mentions a manual reconciliation process, and claims a troubleshooting section exists, all of which contradict the provided context."
+          },
+          "ContextualPrecisionMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because all relevant nodes (1-3) are ranked higher and provide direct guidance on the issue, while the fourth node (rank 4) is less relevant as it does not address the specific problem of a recharge not appearing after a deduction."
+          }
+        }
+      },
+      {
+        "query_id": "S03",
+        "scores": {
+          "AnswerRelevancyMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is completely relevant and there are no irrelevant statements to address. The response directly aligns with the input request."
+          },
+          "ContextualRelevancyMetric": {
+            "score": 0.16666666666666666,
+            "reason": "The score is 0.17 because the retrieval context primarily discusses general billing and invoice-related information, which is not specific to customer 1009. However, the relevant statements provide detailed invoices for customer 1009, making them directly pertinent to the input."
+          },
+          "FaithfulnessMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because there are no contradictions in the actual output."
+          },
+          "ContextualPrecisionMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because the first node, which is directly relevant to the query, is ranked first. The subsequent nodes, being irrelevant queries, are ranked lower as expected."
+          }
+        }
+      },
+      {
+        "query_id": "Q04",
+        "scores": {
+          "AnswerRelevancyMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because the response does not contain any irrelevant statements that could distract from the user's query about the discrepancy in their postpaid bill."
+          },
+          "ContextualRelevancyMetric": {
+            "score": 0.4666666666666667,
+            "reason": "The score is 0.47 because the relevant statements in the retrieval context, such as 'Charges above your base rental typically come from one or more of: pro-rated charges for a mid-cycle plan change, roaming usage, premium/IVR services, GST, or usage beyond your plan's fair-usage allowance,' directly address potential reasons for a higher postpaid bill compared to expected monthly rental, but the overall score is moderate due to the presence of irrelevant details."
+          },
+          "FaithfulnessMetric": {
+            "score": 0.0,
+            "reason": "The score is 0.00 because the actual output claims specific postpaid bill details and additional charges, which are not supported by the retrieval context."
+          },
+          "ContextualPrecisionMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because all relevant nodes (nodes 1 and 2) are ranked higher than the irrelevant nodes (nodes 3 to 6), providing detailed explanations and relevant information about postpaid bills."
+          }
+        }
+      },
+      {
+        "query_id": "S04",
+        "scores": {
+          "AnswerRelevancyMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output is relevant and directly addresses the question without any irrelevant statements."
+          },
+          "ContextualRelevancyMetric": {
+            "score": 0.038461538461538464,
+            "reason": "The score is 0.04 because the retrieval context does not provide any information about the number of recharge_transactions with status FAILED, with the exception of the statement 'Count of recharge_transactions where status=FAILED = 440', which is not included in the relevant statements, leading to a very low score."
+          },
+          "FaithfulnessMetric": {
+            "score": 1,
+            "reason": "The score is 1.00 because there are no contradictions in the actual output."
+          },
+          "ContextualPrecisionMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because the first node directly answers the question with the count of failed transactions, while the subsequent nodes, ranked 2 to 6, provide irrelevant context or specific issues without addressing the count."
+          }
+        }
+      },
+      {
+        "query_id": "Q05",
+        "scores": {
+          "AnswerRelevancyMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because the response directly addresses the issue without any irrelevant statements, making it fully relevant to the user's query."
+          },
+          "ContextualRelevancyMetric": {
+            "score": 0.25,
+            "reason": "The score is 0.25 because the retrieval context primarily contains troubleshooting steps for issues unrelated to transferring a SIM card to another phone, such as VoLTE compatibility and network mode settings. The relevant statements, such as 'Reinsert the SIM, restart the device, and confirm the correct network mode (Auto) is selected,' and 'Dial the SIM-status check code or visit a store for a replacement SIM with the same number,' are not closely aligned with the user's query about a SIM card not working in another phone."
+          },
+          "FaithfulnessMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because there are no contradictions in the actual output."
+          },
+          "ContextualPrecisionMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because the first two nodes are ranked correctly as 'yes', addressing the 'No Service' issue directly. The remaining nodes are ranked appropriately as 'no', as they do not pertain to SIM swap fraud, VoLTE, or other unrelated topics."
+          }
+        }
+      },
+      {
+        "query_id": "S05",
+        "scores": {
+          "AnswerRelevancyMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because the output exactly matches the requirement of listing all overdue invoices without any irrelevant statements."
+          },
+          "ContextualRelevancyMetric": {
+            "score": 0.06666666666666667,
+            "reason": "The score is 0.07 because the retrieval context primarily contains irrelevant statements about internal processes and documentation, while the relevant statement 'invoices record: invoice_id=5021, customer_id=1009, billing_cycle_start=2026-05-01, billing_cycle_end=2026-05-31, plan_charge=2999.0, usage_charge=15.8, vas_charge=29.0, tax_gst=547.88, late_fee=90.92, total_amount=3682.6, due_date=2026-06-15, payment_status=Overdue' only partially addresses the input by providing details of a single overdue invoice, which is not sufficient to meet the requirement of listing all overdue invoices."
+          },
+          "FaithfulnessMetric": {
+            "score": 1.0,
+            "reason": "The score is 1.00 because there are no contradictions in the actual output."
+          },
+          "ContextualPrecisionMetric": {
+            "score": 0.7555555555555555,
+            "reason": "The score is 0.76 because the second and fourth nodes, which are ranked 2nd and 4th respectively, are irrelevant documents about duplicate billing and general billing explanations, ranking lower than the relevant nodes 1, 3, and 5."
+          }
+        }
+      }
+    ],
+    "aggregate": {
+      "AnswerRelevancyMetric": 0.9841269841269842,
+      "ContextualRelevancyMetric": 0.20444226555337666,
+      "FaithfulnessMetric": 0.8,
+      "ContextualPrecisionMetric": 0.9672222222222222
+    }
+  },
+  "factcheck": {
+    "total_checked_claims": 7,
+    "total_unsupported_claims": 0
+  },
+  "faithfulness_judge_caveat": "CAVEAT: AnswerRelevancy, ContextualRelevancy, Faithfulness and ContextualPrecision above are judged by a local 7B/3B Ollama model (qwen2.5), not a ground-truth human or a large frontier model. These scores must be human spot-checked before being treated as reliable -- they are a signal, not ground truth. Compare them against the deterministic R@k/MRR@10 numbers (no LLM involved) printed alongside.",
+  "per_query_records": [
+    {
+      "query_id": "Q01",
+      "question": "I don't have access to my old registered phone number anymore. How can I update the number on my account?",
+      "query_type": "unstructured",
+      "answer": "To update the mobile number registered on your account, you can follow these steps:\n\n1. **Self-Service via App/Portal:**\n   - Log in to the My NovaTel app or self-care portal.\n   - Go to the Profile section and select \"Contact Details.\"\n   - Choose \"Update Alternate Number.\"\n   - You will need to verify via OTP (One-Time Password) sent to your existing registered number. [E1][E2]\n\n2. **In-Store Verification:**\n   - If you no longer have access to your existing registered number, visit a NovaTel Experience Store with valid photo ID. [E1]\n\n3. **Escalation:**\n   - If OTP verification isn't possible because the old number is unreachable, the store visit is the designated fallback rather than a general support escalation. [E1]\n\nIf you have any further issues or need assistance, you can contact the NovaTel Fraud Helpline. [E3]",
+      "factcheck": {
+        "checked_claims": 0,
+        "unsupported_claims": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "query_id": "S01",
+      "question": "What is customer 1001's account status?",
+      "query_type": "structured",
+      "answer": "Customer 1001's account status is Active [E1].",
+      "factcheck": {
+        "checked_claims": 1,
+        "unsupported_claims": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "query_id": "Q02",
+      "question": "How can I check when my current prepaid plan will stop being valid?",
+      "query_type": "unstructured",
+      "answer": "To check when your current prepaid plan will stop being valid, follow these steps:\n\n1. **Check the App**: The exact expiry date and time are displayed on the plan summary screen under \"My Plan\" in the app. This is the most accurate source of information for your plan's validity.\n\n2. **Plan Validity Cycles**: Most standard prepaid packs run for 28-day cycles from the date of activation. However, some promotional packs may have different validity periods (30, 56, 84, or 365 days). Therefore, it's important to verify the specific validity period of your plan.\n\n### Evidence References\n- [E1] (unstructured:novatel_synthetic#FAQ_C02_003) provides the detailed explanation and key details.\n- [E2] (unstructured:novatel_synthetic#Policy_C02_plan_lifecycle) outlines the general policy on plan validity and lifecycle, confirming the 28-day cycle for standard packs and noting that promotional packs may have different durations.",
+      "factcheck": {
+        "checked_claims": 0,
+        "unsupported_claims": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "query_id": "S02",
+      "question": "What plan is customer 1001 on?",
+      "query_type": "structured",
+      "answer": "The customer 1001 is on the plan with plan_id 2007, which is the \"Value Combo 199\" plan according to the structured evidence [E1]. This plan offers 1GB of data per day and unlimited voice and SMS, with a validity of 28 days [E2].",
+      "factcheck": {
+        "checked_claims": 1,
+        "unsupported_claims": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "query_id": "Q03",
+      "question": "Money was deducted when I tried to recharge, but the recharge hasn't appeared on my account. What should I do?",
+      "query_type": "unstructured",
+      "answer": "Based on the evidence provided, if you have already been debited for a recharge but the recharge hasn't appeared on your account, you should follow these steps:\n\n1. **Wait for Auto-Credit**: Typically, the recharge will auto-credit within 30-60 minutes after the payment gateway acknowledges the transaction [E1][E2][E3].\n\n2. **Check Transaction Status**: If more than 24 hours have passed and the recharge is still not credited, the amount will be automatically reversed to your source account [E1][E2][E3].\n\n3. **Raise a Ticket**: If the amount is not reversed within 24 hours, you should raise a ticket with the transaction reference ID. This can be done by contacting customer support and providing the transaction reference ID [E1][E2][E3].\n\n4. **Manual Reconciliation**: The support team will then initiate a manual reconciliation process to resolve the issue [E2][E3].\n\nIf you have already followed these steps and the issue persists, you can refer to the troubleshooting section in the knowledge base [E5] for further guidance.",
+      "factcheck": {
+        "checked_claims": 0,
+        "unsupported_claims": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "query_id": "S03",
+      "question": "Show invoices for customer 1009",
+      "query_type": "structured",
+      "answer": "Invoices for customer 1009 are as follows:\n\n- Invoice ID 5019, for the billing cycle from 2026-03-01 to 2026-03-31, with a total amount of ₹3596.91, which is Overdue [E1].\n- Invoice ID 5020, for the billing cycle from 2026-04-01 to 2026-04-30, with a total amount of ₹3628.79, which has been Paid [E3].\n- Invoice ID 5021, for the billing cycle from 2026-05-01 to 2026-05-31, with a total amount of ₹3682.60, which is Overdue [E5].",
+      "factcheck": {
+        "checked_claims": 3,
+        "unsupported_claims": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "query_id": "Q04",
+      "question": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
+      "query_type": "hybrid",
+      "answer": "Based on the evidence provided, your latest postpaid bill is higher than the monthly rental you expected to pay due to additional charges beyond the base plan rental. These additional charges can include:\n\n- Pro-rated charges for a mid-cycle plan change\n- Roaming usage\n- Premium/IVR services\n- GST\n- Usage beyond your plan's fair-usage allowance\n\nTo understand the specific causes for the higher bill, you can review the itemised breakdown under the \"Billing > View Bill Details\" section in the app. [E2][E4]",
+      "factcheck": {
+        "checked_claims": 0,
+        "unsupported_claims": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "query_id": "S04",
+      "question": "How many recharge_transactions have status FAILED?",
+      "query_type": "structured",
+      "answer": "According to the evidence provided, there are 440 recharge_transactions with a status of FAILED [E1]. This count is based on structured data from the database.",
+      "factcheck": {
+        "checked_claims": 1,
+        "unsupported_claims": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "query_id": "Q05",
+      "question": "I put my SIM into another phone and now it says there is no network. What can I do?",
+      "query_type": "unstructured",
+      "answer": "Based on the evidence provided, here are the steps you can take:\n\n1. **Reinsert the SIM card** into the phone and **restart the device**. [E1][E2]\n2. **Confirm the network mode** is set to **Auto**. [E1][E2]\n3. If the issue persists, **dial the SIM-status check code** or **visit a store** for a replacement SIM with the same number. [E1][E2]\n\nThese steps address the issue by first checking if the problem is device-related, and if not, moving to a network-side cause, such as the IMSI profile needing re-registration after a device switch. [E1][E2]",
+      "factcheck": {
+        "checked_claims": 0,
+        "unsupported_claims": 0,
+        "mismatches": []
+      }
+    },
+    {
+      "query_id": "S05",
+      "question": "List all overdue invoices",
+      "query_type": "structured",
+      "answer": "The following invoices are overdue:\n\n- Invoice ID: 5003, Due Date: 2026-06-15 [E1]\n- Invoice ID: 5019, Due Date: 2026-04-15 [E3]\n- Invoice ID: 5021, Due Date: 2026-06-15 [E5]",
+      "factcheck": {
+        "checked_claims": 1,
+        "unsupported_claims": 0,
+        "mismatches": []
+      }
+    }
+  ]
+}

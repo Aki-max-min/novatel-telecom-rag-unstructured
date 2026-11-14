@@ -1,0 +1,215 @@
+{
+  "thresholds": {
+    "jaccard": 0.8,
+    "cosine": 0.92,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "masking": "digits replaced by '#'"
+  },
+  "pairs": {
+    "router_test_vs_train+val": {
+      "held_out_n": 72,
+      "reference_n": 278,
+      "flagged_n": 1,
+      "flagged": [
+        {
+          "id": "test-0049",
+          "query": "How many porting requests were rejected, and why can a port be rejected?",
+          "nearest": "How many port requests are rejected, and what are the reasons a port gets rejected?",
+          "nearest_id": "train-0184",
+          "reasons": [
+            "cosine=0.97"
+          ],
+          "nearest_is_synthetic": true
+        }
+      ]
+    },
+    "router_val_vs_train": {
+      "held_out_n": 48,
+      "reference_n": 230,
+      "flagged_n": 2,
+      "flagged": [
+        {
+          "id": "val-0026",
+          "query": "How many invoices are overdue, and what penalties can be applied to them?",
+          "nearest": "How many invoices are overdue, and what penalties apply to them?",
+          "nearest_id": "train-0077",
+          "reasons": [
+            "cosine=1.00"
+          ],
+          "nearest_is_synthetic": true
+        },
+        {
+          "id": "val-0032",
+          "query": "How many sites are in outage and how do we communicate that to customers?",
+          "nearest": "How many sites are in outage, and how do we handle an outage?",
+          "nearest_id": "train-0029",
+          "reasons": [
+            "cosine=0.93"
+          ],
+          "nearest_is_synthetic": true
+        }
+      ]
+    },
+    "abstention_val_vs_router_all": {
+      "held_out_n": 58,
+      "reference_n": 350,
+      "flagged_n": 7,
+      "flagged": [
+        {
+          "id": "ABS_VAL_001",
+          "query": "What will the weather be like in Mumbai tomorrow?",
+          "nearest": "What's the weather going to be like in Mumbai this weekend?",
+          "nearest_id": "test-0055",
+          "reasons": [
+            "cosine=0.94"
+          ],
+          "nearest_is_synthetic": false
+        },
+        {
+          "id": "ABS_VAL_003",
+          "query": "Write me a short poem about the monsoon.",
+          "nearest": "Write a short poem about the monsoon.",
+          "nearest_id": "test-0056",
+          "reasons": [
+            "jaccard=0.88",
+            "cosine=0.99"
+          ],
+          "nearest_is_synthetic": false
+        },
+        {
+          "id": "ABS_VAL_015",
+          "query": "What is customer 99999's account status?",
+          "nearest": "What is the account status of customer 1008?",
+          "nearest_id": "train-0188",
+          "reasons": [
+            "exact(normalised)"
+          ],
+          "nearest_is_synthetic": false
+        },
+        {
+          "id": "ABS_VAL_016",
+          "query": "Show invoices for customer 88888.",
+          "nearest": "Show the invoices for customer 1192.",
+          "nearest_id": "train-0081",
+          "reasons": [
+            "jaccard=0.83"
+          ],
+          "nearest_is_synthetic": true
+        },
+        {
+          "id": "ABS_VAL_032",
+          "query": "I want to permanently close my postpaid connection. How do I do that?",
+          "nearest": "What is the process to permanently close a postpaid connection?",
+          "nearest_id": "test-0024",
+          "reasons": [
+            "cosine=0.94"
+          ],
+          "nearest_is_synthetic": false
+        },
+        {
+          "id": "ABS_VAL_038",
+          "query": "How can I complain to my telecom service provider?",
+          "nearest": "How can I complain to my telecom provider?",
+          "nearest_id": "train-0125",
+          "reasons": [
+            "jaccard=0.89",
+            "cosine=0.98"
+          ],
+          "nearest_is_synthetic": false
+        },
+        {
+          "id": "ABS_VAL_052",
+          "query": "What plan is customer 1001 on?",
+          "nearest": "What plan is customer 1700 on?",
+          "nearest_id": "train-0219",
+          "reasons": [
+            "exact(normalised)",
+            "jaccard=1.00"
+          ],
+          "nearest_is_synthetic": false
+        }
+      ]
+    },
+    "abstention_test_vs_router_all": {
+      "held_out_n": 58,
+      "reference_n": 350,
+      "flagged_n": 3,
+      "flagged": [
+        {
+          "id": "ABS_TEST_018",
+          "query": "What is customer 77777's KYC status?",
+          "nearest": "What is the KYC status of customer 1163?",
+          "nearest_id": "train-0150",
+          "reasons": [
+            "exact(normalised)"
+          ],
+          "nearest_is_synthetic": true
+        },
+        {
+          "id": "ABS_TEST_052",
+          "query": "What is customer 1001's account status?",
+          "nearest": "What is the account status of customer 1008?",
+          "nearest_id": "train-0188",
+          "reasons": [
+            "exact(normalised)"
+          ],
+          "nearest_is_synthetic": false
+        },
+        {
+          "id": "ABS_TEST_053",
+          "query": "Show invoices for customer 1009",
+          "nearest": "Show the invoices for customer 1192.",
+          "nearest_id": "train-0081",
+          "reasons": [
+            "jaccard=0.83"
+          ],
+          "nearest_is_synthetic": true
+        }
+      ]
+    },
+    "abstention_test_vs_abstention_val": {
+      "held_out_n": 58,
+      "reference_n": 58,
+      "flagged_n": 2,
+      "flagged": [
+        {
+          "id": "ABS_TEST_052",
+          "query": "What is customer 1001's account status?",
+          "nearest": "What is customer 99999's account status?",
+          "nearest_id": "ABS_VAL_015",
+          "reasons": [
+            "exact(normalised)",
+            "jaccard=1.00"
+          ],
+          "nearest_is_synthetic": null
+        },
+        {
+          "id": "ABS_TEST_053",
+          "query": "Show invoices for customer 1009",
+          "nearest": "Show invoices for customer 88888.",
+          "nearest_id": "ABS_VAL_016",
+          "reasons": [
+            "exact(normalised)",
+            "jaccard=1.00"
+          ],
+          "nearest_is_synthetic": null
+        }
+      ]
+    },
+    "demo_vs_router_train+val": {
+      "held_out_n": 0,
+      "reference_n": 278,
+      "flagged_n": 0,
+      "flagged": []
+    },
+    "demo_vs_router_test": {
+      "held_out_n": 0,
+      "reference_n": 72,
+      "flagged_n": 0,
+      "flagged": []
+    }
+  },
+  "router_test_flagged_ids": [
+    "test-0049"
+  ]
+}

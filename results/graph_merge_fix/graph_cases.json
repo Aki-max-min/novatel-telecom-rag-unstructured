@@ -1,0 +1,16 @@
+{
+  "arms": {
+    "GF": [],
+    "GFL": []
+  },
+  "rerun_matches_stored_run1": {
+    "GF": {
+      "doc_questions_checked": 25,
+      "mismatches": []
+    },
+    "GFL": {
+      "doc_questions_checked": 25,
+      "mismatches": []
+    }
+  }
+}

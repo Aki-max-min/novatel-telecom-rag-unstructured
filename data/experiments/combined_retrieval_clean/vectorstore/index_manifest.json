@@ -1,0 +1,33 @@
+{
+  "description": "Combined index without SciFact, built beside the original by combined_retrieval/build_clean_index.py",
+  "path": "data/experiments/combined_retrieval_clean/vectorstore",
+  "chunks": 1420,
+  "dimension": 384,
+  "index_type": "IndexFlatIP",
+  "composition": {
+    "NovaTel Synthetic": 258,
+    "TRAI": 1162
+  },
+  "embedding_model": "all-MiniLM-L6-v2 (vectors copied exactly from the source index, not recomputed)",
+  "sha256": {
+    "faiss.index": "bb24a29403103e65677e88f40b82e89ed20e23dabf776a87dfffae64c32ff592",
+    "chunk_metadata.json": "dbe3866059440dad4584d9267205ff3f4f24f09a9ebfb54d2e89ce4636337c74"
+  },
+  "source": {
+    "path": "data/experiments/combined_retrieval/vectorstore",
+    "chunks": 1545,
+    "composition": {
+      "NovaTel Synthetic": 258,
+      "SciFact": 125,
+      "TRAI": 1162
+    },
+    "sha256": {
+      "faiss.index": "3cebc55221ff9164b0dc96d6e4fe620c9cdefba8f82d63cecfdfba6ab689d275",
+      "chunk_metadata.json": "4a4347ec662a45e197562147c1efb0f36decfc0ca671d86bad33c744babc56f0"
+    }
+  },
+  "removed": {
+    "chunks": 125,
+    "rule": "document_id starts with 'SCIFACT_'"
+  }
+}

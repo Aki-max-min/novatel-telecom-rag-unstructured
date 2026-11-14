@@ -1,0 +1,41 @@
+===== NOVATEL KG - BUILD [METADATA + CONTENT] =====
+documents read : 148
+nodes          : 337
+edges          : 1636
+  node Category            : 30
+  node CustomerScope       : 4
+  node Dataset             : 1
+  node Department          : 13
+  node Document            : 177
+  node DocumentType        : 13
+  node SourceAuthority     : 1
+  node Tag                 : 68
+  node Channel             : 5
+  node Location            : 2
+  node Requirement         : 4
+  node Service             : 14
+  node VerificationMethod  : 5
+  edge APPLIES_TO_SCOPE      : 148
+  edge AUTHORED_BY           : 148
+  edge BELONGS_TO_CATEGORY   : 148
+  edge HAS_TAG               : 208
+  edge IS_TYPE               : 148
+  edge OWNED_BY_DEPARTMENT   : 148
+  edge PART_OF_DATASET       : 148
+  edge RELATED_TO            : 84
+  edge AVAILABLE_VIA         : 35
+  edge MENTIONS_CHANNEL      : 89
+  edge MENTIONS_LOCATION     : 9
+  edge MENTIONS_REQUIREMENT  : 15
+  edge MENTIONS_SERVICE      : 192
+  edge MENTIONS_VERIFICATION : 73
+  edge REQUIRES_DOCUMENT     : 12
+  edge REQUIRES_VERIFICATION : 31
+written:
+  graphml      : C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\knowledge_graph\output\novatel_kg.graphml
+  graph_json   : C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\knowledge_graph\output\graph.json
+  nodes_json   : C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\knowledge_graph\output\nodes.json
+  edges_json   : C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\knowledge_graph\output\edges.json
+  content_json : C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\knowledge_graph\output\content_extraction.json
+==============================================
+exit=0

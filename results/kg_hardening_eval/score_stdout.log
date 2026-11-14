@@ -1,0 +1,58 @@
+2026-11-10T15:44:39Z scoring 504 records (0 already scored)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+C:\Users\ast20\Downloads\NovaTel_Telecom_RAG_Knowledge_Base\.venv_colpali\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: `torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights: 100%|##########| 202/202 [00:00<00:00, 5444.28it/s]
+2026-11-10T15:47:18Z HEARTBEAT [10/504] ok=10 failed=0 B2 S06 run1 correctness=2 (judge calls 20, cache hits 10, of which v3 cache 10) ETA 130 min
+2026-11-10T15:49:55Z HEARTBEAT [20/504] ok=20 failed=0 B2 Q25 run1 correctness=2 (judge calls 45, cache hits 15, of which v3 cache 15) ETA 127 min
+2026-11-10T15:52:22Z HEARTBEAT [30/504] ok=30 failed=0 B2 MH01 run1 correctness=1 (judge calls 70, cache hits 21, of which v3 cache 21) ETA 122 min
+2026-11-10T15:55:07Z HEARTBEAT [40/504] ok=40 failed=0 B2 MH_RB_B06 run1 correctness=1 (judge calls 102, cache hits 23, of which v3 cache 23) ETA 121 min
+2026-11-10T15:57:09Z HEARTBEAT [50/504] ok=50 failed=0 B2 Q08 run2 correctness=1 (judge calls 117, cache hits 38, of which v3 cache 29) ETA 113 min
+2026-11-10T15:59:43Z HEARTBEAT [60/504] ok=60 failed=0 B2 RW_023 run2 correctness=2 (judge calls 128, cache hits 57, of which v3 cache 41) ETA 111 min
+2026-11-10T16:01:06Z HEARTBEAT [70/504] ok=70 failed=0 B2 S13 run2 correctness=2 (judge calls 139, cache hits 76, of which v3 cache 47) ETA 102 min
+2026-11-10T16:03:12Z HEARTBEAT [80/504] ok=80 failed=0 B2 MH_RB_B04 run2 correctness=2 (judge calls 155, cache hits 95, of which v3 cache 50) ETA 98 min
+2026-11-10T16:05:37Z HEARTBEAT [90/504] ok=90 failed=0 B2 RW_004 run3 correctness=2 (judge calls 161, cache hits 119, of which v3 cache 55) ETA 96 min
+2026-11-10T16:07:19Z HEARTBEAT [100/504] ok=100 failed=0 B2 S09 run3 correctness=2 (judge calls 161, cache hits 149, of which v3 cache 65) ETA 92 min
+2026-11-10T16:09:04Z HEARTBEAT [110/504] ok=110 failed=0 B2 S10 run3 correctness=2 (judge calls 161, cache hits 179, of which v3 cache 72) ETA 87 min
+2026-11-10T16:10:46Z HEARTBEAT [120/504] ok=120 failed=0 B2 MH_RB_B02 run3 correctness=2 (judge calls 161, cache hits 214, of which v3 cache 77) ETA 84 min
+2026-11-10T16:12:47Z HEARTBEAT [130/504] ok=130 failed=0 C_V0 S03 run1 correctness=2 (judge calls 161, cache hits 244, of which v3 cache 85) ETA 81 min
+2026-11-10T16:14:45Z HEARTBEAT [140/504] ok=140 failed=0 C_V0 Q17 run1 correctness=0 (judge calls 170, cache hits 265, of which v3 cache 97) ETA 78 min
+2026-11-10T16:16:23Z HEARTBEAT [150/504] ok=150 failed=0 C_V0 S05 run1 correctness=2 (judge calls 182, cache hits 282, of which v3 cache 111) ETA 75 min
+2026-11-10T16:17:05Z HEARTBEAT [160/504] ok=160 failed=0 C_V0 MH05 run1 correctness=0 (judge calls 191, cache hits 305, of which v3 cache 134) ETA 70 min
+2026-11-10T16:19:31Z HEARTBEAT [170/504] ok=170 failed=0 C_V0 Q01 run2 correctness=2 (judge calls 213, cache hits 313, of which v3 cache 141) ETA 68 min
+2026-11-10T16:22:01Z HEARTBEAT [180/504] ok=180 failed=0 C_V0 RW_010 run2 correctness=1 (judge calls 213, cache hits 343, of which v3 cache 153) ETA 67 min
+2026-11-10T16:23:33Z HEARTBEAT [190/504] ok=190 failed=0 C_V0 Q28 run2 correctness=2 (judge calls 220, cache hits 365, of which v3 cache 169) ETA 64 min
+2026-11-10T16:24:26Z HEARTBEAT [200/504] ok=200 failed=0 C_V0 MH03 run2 correctness=0 (judge calls 224, cache hits 393, of which v3 cache 189) ETA 60 min
+2026-11-10T16:25:58Z HEARTBEAT [210/504] ok=210 failed=0 C_V0 MH13 run2 correctness=2 (judge calls 242, cache hits 405, of which v3 cache 195) ETA 58 min
+2026-11-10T16:28:09Z HEARTBEAT [220/504] ok=220 failed=0 C_V0 S06 run3 correctness=2 (judge calls 242, cache hits 435, of which v3 cache 212) ETA 56 min
+2026-11-10T16:30:10Z HEARTBEAT [230/504] ok=230 failed=0 C_V0 Q25 run3 correctness=2 (judge calls 244, cache hits 463, of which v3 cache 224) ETA 54 min
+2026-11-10T16:30:57Z HEARTBEAT [240/504] ok=240 failed=0 C_V0 MH01 run3 correctness=0 (judge calls 244, cache hits 492, of which v3 cache 245) ETA 51 min
+2026-11-10T16:32:00Z HEARTBEAT [250/504] ok=250 failed=0 C_V0 MH_RB_B06 run3 correctness=1 (judge calls 244, cache hits 524, of which v3 cache 252) ETA 48 min
+2026-11-10T16:34:04Z HEARTBEAT [260/504] ok=260 failed=0 C_V1 Q08 run1 correctness=2 (judge calls 250, cache hits 548, of which v3 cache 263) ETA 46 min
+2026-11-10T16:36:40Z HEARTBEAT [270/504] ok=270 failed=0 C_V1 RW_023 run1 correctness=2 (judge calls 259, cache hits 569, of which v3 cache 278) ETA 45 min
+2026-11-10T16:37:36Z HEARTBEAT [280/504] ok=280 failed=0 C_V1 S13 run1 correctness=2 (judge calls 262, cache hits 595, of which v3 cache 296) ETA 42 min
+2026-11-10T16:39:31Z HEARTBEAT [290/504] ok=290 failed=0 C_V1 MH_RB_B04 run1 correctness=2 (judge calls 282, cache hits 607, of which v3 cache 306) ETA 40 min
+2026-11-10T16:41:46Z HEARTBEAT [300/504] ok=300 failed=0 C_V1 RW_004 run2 correctness=2 (judge calls 288, cache hits 631, of which v3 cache 314) ETA 39 min
+2026-11-10T16:43:48Z HEARTBEAT [310/504] ok=310 failed=0 C_V1 S09 run2 correctness=1 (judge calls 291, cache hits 658, of which v3 cache 329) ETA 37 min
+2026-11-10T16:45:30Z HEARTBEAT [320/504] ok=320 failed=0 C_V1 S10 run2 correctness=2 (judge calls 297, cache hits 681, of which v3 cache 344) ETA 35 min
+2026-11-10T16:46:36Z HEARTBEAT [330/504] ok=330 failed=0 C_V1 MH_RB_B02 run2 correctness=2 (judge calls 303, cache hits 707, of which v3 cache 360) ETA 33 min
+2026-11-10T16:49:12Z HEARTBEAT [340/504] ok=340 failed=0 C_V1 S03 run3 correctness=2 (judge calls 315, cache hits 725, of which v3 cache 368) ETA 31 min
+2026-11-10T16:51:14Z HEARTBEAT [350/504] ok=350 failed=0 C_V1 Q17 run3 correctness=0 (judge calls 315, cache hits 755, of which v3 cache 380) ETA 29 min
+2026-11-10T16:52:49Z HEARTBEAT [360/504] ok=360 failed=0 C_V1 S05 run3 correctness=2 (judge calls 315, cache hits 784, of which v3 cache 392) ETA 27 min
+2026-11-10T16:53:35Z HEARTBEAT [370/504] ok=370 failed=0 C_V1 MH05 run3 correctness=0 (judge calls 315, cache hits 816, of which v3 cache 414) ETA 25 min
+2026-11-10T16:55:33Z HEARTBEAT [380/504] ok=380 failed=0 C_V1_links Q01 run1 correctness=2 (judge calls 315, cache hits 846, of which v3 cache 419) ETA 23 min
+2026-11-10T16:58:06Z HEARTBEAT [390/504] ok=390 failed=0 C_V1_links RW_010 run1 correctness=1 (judge calls 315, cache hits 876, of which v3 cache 431) ETA 21 min
+2026-11-10T16:59:37Z HEARTBEAT [400/504] ok=400 failed=0 C_V1_links Q28 run1 correctness=2 (judge calls 315, cache hits 905, of which v3 cache 443) ETA 19 min
+2026-11-10T17:00:54Z HEARTBEAT [410/504] ok=410 failed=0 C_V1_links MH03 run1 correctness=2 (judge calls 323, cache hits 929, of which v3 cache 462) ETA 17 min
+2026-11-10T17:02:45Z HEARTBEAT [420/504] ok=420 failed=0 C_V1_links MH13 run1 correctness=2 (judge calls 338, cache hits 944, of which v3 cache 468) ETA 16 min
+2026-11-10T17:05:09Z HEARTBEAT [430/504] ok=430 failed=0 C_V1_links S06 run2 correctness=2 (judge calls 338, cache hits 974, of which v3 cache 485) ETA 14 min
+2026-11-10T17:07:20Z HEARTBEAT [440/504] ok=440 failed=0 C_V1_links Q25 run2 correctness=1 (judge calls 338, cache hits 1004, of which v3 cache 495) ETA 12 min
+2026-11-10T17:08:11Z HEARTBEAT [450/504] ok=450 failed=0 C_V1_links MH01 run2 correctness=0 (judge calls 338, cache hits 1033, of which v3 cache 516) ETA 10 min
+2026-11-10T17:10:29Z HEARTBEAT [460/504] ok=460 failed=0 C_V1_links MH_RB_B06 run2 correctness=1 (judge calls 354, cache hits 1049, of which v3 cache 522) ETA 8 min
+2026-11-10T17:12:33Z HEARTBEAT [470/504] ok=470 failed=0 C_V1_links Q08 run3 correctness=2 (judge calls 354, cache hits 1079, of which v3 cache 533) ETA 6 min
+2026-11-10T17:15:03Z HEARTBEAT [480/504] ok=480 failed=0 C_V1_links RW_023 run3 correctness=2 (judge calls 354, cache hits 1109, of which v3 cache 548) ETA 5 min
+2026-11-10T17:15:59Z HEARTBEAT [490/504] ok=490 failed=0 C_V1_links S13 run3 correctness=2 (judge calls 354, cache hits 1138, of which v3 cache 566) ETA 3 min
+2026-11-10T17:17:33Z HEARTBEAT [500/504] ok=500 failed=0 C_V1_links MH_RB_B04 run3 correctness=0 (judge calls 354, cache hits 1170, of which v3 cache 576) ETA 1 min
+2026-11-10T17:18:01Z HEARTBEAT [504/504] ok=504 failed=0 C_V1_links MH13 run3 correctness=2 (judge calls 354, cache hits 1182, of which v3 cache 576) ETA 0 min
+2026-11-10T17:18:01Z scoring done: ok=504 failed=0; judge calls 354, cache hits 1182 (v3 cache 576)
+SCORE EXIT=0

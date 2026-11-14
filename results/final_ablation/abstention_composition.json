@@ -1,0 +1,663 @@
+{
+  "should_abstain_questions": [
+    "S15"
+  ],
+  "arms": {
+    "C_V0": {
+      "n_abstained": 12,
+      "by_layer": {
+        "router": 3,
+        "retrieval": 9
+      },
+      "correct": 3,
+      "unnecessary": 9,
+      "questions": [
+        "S15",
+        "MH01",
+        "MH04",
+        "MH05"
+      ],
+      "rows": [
+        {
+          "id": "S15",
+          "run": 1,
+          "category": "db",
+          "route": "out_of_scope",
+          "router_confidence": 0.9927,
+          "layer": "router",
+          "why": "route out_of_scope -> fixed abstention message",
+          "correct_to_abstain": true,
+          "scored_correctness": 0,
+          "answer": "I don't have information about that in the NovaTel knowledge base."
+        },
+        {
+          "id": "MH01",
+          "run": 1,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.5141,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=None rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH04",
+          "run": 1,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9928,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=network_alarms rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH05",
+          "run": 1,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9926,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=fraud_cases rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "S15",
+          "run": 2,
+          "category": "db",
+          "route": "out_of_scope",
+          "router_confidence": 0.9927,
+          "layer": "router",
+          "why": "route out_of_scope -> fixed abstention message",
+          "correct_to_abstain": true,
+          "scored_correctness": 0,
+          "answer": "I don't have information about that in the NovaTel knowledge base."
+        },
+        {
+          "id": "MH01",
+          "run": 2,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.5141,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=None rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH04",
+          "run": 2,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9928,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=network_alarms rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH05",
+          "run": 2,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9926,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=fraud_cases rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "S15",
+          "run": 3,
+          "category": "db",
+          "route": "out_of_scope",
+          "router_confidence": 0.9927,
+          "layer": "router",
+          "why": "route out_of_scope -> fixed abstention message",
+          "correct_to_abstain": true,
+          "scored_correctness": 0,
+          "answer": "I don't have information about that in the NovaTel knowledge base."
+        },
+        {
+          "id": "MH01",
+          "run": 3,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.5141,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=None rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH04",
+          "run": 3,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9928,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=network_alarms rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH05",
+          "run": 3,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9926,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=fraud_cases rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        }
+      ],
+      "generator_abstention_like_not_flagged": [
+        {
+          "id": "RW_017",
+          "run": 1,
+          "category": "trai",
+          "route": "unstructured",
+          "scored_correctness": 0,
+          "prompt_docs": [
+            "TRX_001",
+            "SOP_C13_APP_ACCESS_ISSUES",
+            "SOP_C17_KYC_VERIFICATION"
+          ],
+          "n_sql_blocks": 0,
+          "answer": "ABSTAIN.\n\nThe provided evidence does not contain any information related to porting a mobile number to another telecom company. The evidence"
+        },
+        {
+          "id": "MH02",
+          "run": 1,
+          "category": "multi",
+          "route": "hybrid",
+          "scored_correctness": 0,
+          "prompt_docs": [
+            "RCA_INC_2026_0179",
+            "RCA_INC_2026_0184",
+            "RCA_INC_2026_0142"
+          ],
+          "n_sql_blocks": 1,
+          "answer": "The provided evidence does not contain any information related to incident INC-2026-0163, the number of postpaid customers billed twice, the"
+        },
+        {
+          "id": "MH03",
+          "run": 1,
+          "category": "multi",
+          "route": "hybrid",
+          "scored_correctness": 0,
+          "prompt_docs": [
+            "RCA_INC_2026_0142",
+            "RCA_INC_2026_0184",
+            "RCA_INC_2026_0197"
+          ],
+          "n_sql_blocks": 0,
+          "answer": "The provided evidence does not contain specific information about the Pune FTTH outage INC-2026-0179, including the time service was restore"
+        },
+        {
+          "id": "RW_017",
+          "run": 2,
+          "category": "trai",
+          "route": "unstructured",
+          "scored_correctness": 0,
+          "prompt_docs": [
+            "TRX_001",
+            "SOP_C13_APP_ACCESS_ISSUES",
+            "SOP_C17_KYC_VERIFICATION"
+          ],
+          "n_sql_blocks": 0,
+          "answer": "ABSTAIN.\n\nThe provided evidence does not contain any information related to porting a mobile number to another telecom company. The evidence"
+        },
+        {
+          "id": "MH02",
+          "run": 2,
+          "category": "multi",
+          "route": "hybrid",
+          "scored_correctness": 0,
+          "prompt_docs": [
+            "RCA_INC_2026_0179",
+            "RCA_INC_2026_0184",
+            "RCA_INC_2026_0142"
+          ],
+          "n_sql_blocks": 1,
+          "answer": "The provided evidence does not contain any information related to incident INC-2026-0163, the number of postpaid customers billed twice, the"
+        },
+        {
+          "id": "MH03",
+          "run": 2,
+          "category": "multi",
+          "route": "hybrid",
+          "scored_correctness": 0,
+          "prompt_docs": [
+            "RCA_INC_2026_0142",
+            "RCA_INC_2026_0184",
+            "RCA_INC_2026_0197"
+          ],
+          "n_sql_blocks": 0,
+          "answer": "The provided evidence does not contain specific information about the Pune FTTH outage INC-2026-0179, including the time service was restore"
+        },
+        {
+          "id": "RW_017",
+          "run": 3,
+          "category": "trai",
+          "route": "unstructured",
+          "scored_correctness": 0,
+          "prompt_docs": [
+            "TRX_001",
+            "SOP_C13_APP_ACCESS_ISSUES",
+            "SOP_C17_KYC_VERIFICATION"
+          ],
+          "n_sql_blocks": 0,
+          "answer": "ABSTAIN.\n\nThe provided evidence does not contain any information related to porting a mobile number to another telecom company. The evidence"
+        },
+        {
+          "id": "MH02",
+          "run": 3,
+          "category": "multi",
+          "route": "hybrid",
+          "scored_correctness": 0,
+          "prompt_docs": [
+            "RCA_INC_2026_0179",
+            "RCA_INC_2026_0184",
+            "RCA_INC_2026_0142"
+          ],
+          "n_sql_blocks": 1,
+          "answer": "The provided evidence does not contain any information related to incident INC-2026-0163, the number of postpaid customers billed twice, the"
+        },
+        {
+          "id": "MH03",
+          "run": 3,
+          "category": "multi",
+          "route": "hybrid",
+          "scored_correctness": 0,
+          "prompt_docs": [
+            "RCA_INC_2026_0142",
+            "RCA_INC_2026_0184",
+            "RCA_INC_2026_0197"
+          ],
+          "n_sql_blocks": 0,
+          "answer": "The provided evidence does not contain specific information about the Pune FTTH outage INC-2026-0179, including the time service was restore"
+        }
+      ]
+    },
+    "C_V1": {
+      "n_abstained": 12,
+      "by_layer": {
+        "router": 3,
+        "retrieval": 9
+      },
+      "correct": 3,
+      "unnecessary": 9,
+      "questions": [
+        "S15",
+        "MH01",
+        "MH04",
+        "MH05"
+      ],
+      "rows": [
+        {
+          "id": "S15",
+          "run": 1,
+          "category": "db",
+          "route": "out_of_scope",
+          "router_confidence": 0.9927,
+          "layer": "router",
+          "why": "route out_of_scope -> fixed abstention message",
+          "correct_to_abstain": true,
+          "scored_correctness": 0,
+          "answer": "I don't have information about that in the NovaTel knowledge base."
+        },
+        {
+          "id": "MH01",
+          "run": 1,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.5141,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=None rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH04",
+          "run": 1,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9928,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=network_alarms rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH05",
+          "run": 1,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9926,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=fraud_cases rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "S15",
+          "run": 2,
+          "category": "db",
+          "route": "out_of_scope",
+          "router_confidence": 0.9927,
+          "layer": "router",
+          "why": "route out_of_scope -> fixed abstention message",
+          "correct_to_abstain": true,
+          "scored_correctness": 0,
+          "answer": "I don't have information about that in the NovaTel knowledge base."
+        },
+        {
+          "id": "MH01",
+          "run": 2,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.5141,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=None rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH04",
+          "run": 2,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9928,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=network_alarms rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH05",
+          "run": 2,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9926,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=fraud_cases rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "S15",
+          "run": 3,
+          "category": "db",
+          "route": "out_of_scope",
+          "router_confidence": 0.9927,
+          "layer": "router",
+          "why": "route out_of_scope -> fixed abstention message",
+          "correct_to_abstain": true,
+          "scored_correctness": 0,
+          "answer": "I don't have information about that in the NovaTel knowledge base."
+        },
+        {
+          "id": "MH01",
+          "run": 3,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.5141,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=None rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH04",
+          "run": 3,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9928,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=network_alarms rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH05",
+          "run": 3,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9926,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=fraud_cases rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        }
+      ],
+      "generator_abstention_like_not_flagged": [
+        {
+          "id": "MH03",
+          "run": 1,
+          "category": "multi",
+          "route": "hybrid",
+          "scored_correctness": 0,
+          "prompt_docs": [
+            "RCA_INC_2026_0184",
+            "RCA_INC_2026_0197",
+            "RCA_INC_2026_0163"
+          ],
+          "n_sql_blocks": 0,
+          "answer": "The provided evidence does not contain information related to the Pune FTTH outage INC-2026-0179, including the time service was restored af"
+        },
+        {
+          "id": "MH03",
+          "run": 2,
+          "category": "multi",
+          "route": "hybrid",
+          "scored_correctness": 0,
+          "prompt_docs": [
+            "RCA_INC_2026_0184",
+            "RCA_INC_2026_0197",
+            "RCA_INC_2026_0163"
+          ],
+          "n_sql_blocks": 0,
+          "answer": "The provided evidence does not contain information related to the Pune FTTH outage INC-2026-0179, including the time service was restored af"
+        },
+        {
+          "id": "MH03",
+          "run": 3,
+          "category": "multi",
+          "route": "hybrid",
+          "scored_correctness": 0,
+          "prompt_docs": [
+            "RCA_INC_2026_0184",
+            "RCA_INC_2026_0197",
+            "RCA_INC_2026_0163"
+          ],
+          "n_sql_blocks": 0,
+          "answer": "The provided evidence does not contain information related to the Pune FTTH outage INC-2026-0179, including the time service was restored af"
+        }
+      ]
+    },
+    "C_V1_links": {
+      "n_abstained": 12,
+      "by_layer": {
+        "router": 3,
+        "retrieval": 9
+      },
+      "correct": 3,
+      "unnecessary": 9,
+      "questions": [
+        "S15",
+        "MH01",
+        "MH04",
+        "MH05"
+      ],
+      "rows": [
+        {
+          "id": "S15",
+          "run": 1,
+          "category": "db",
+          "route": "out_of_scope",
+          "router_confidence": 0.9927,
+          "layer": "router",
+          "why": "route out_of_scope -> fixed abstention message",
+          "correct_to_abstain": true,
+          "scored_correctness": 0,
+          "answer": "I don't have information about that in the NovaTel knowledge base."
+        },
+        {
+          "id": "MH01",
+          "run": 1,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.5141,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=None rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH04",
+          "run": 1,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9928,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=network_alarms rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH05",
+          "run": 1,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9926,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=fraud_cases rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "S15",
+          "run": 2,
+          "category": "db",
+          "route": "out_of_scope",
+          "router_confidence": 0.9927,
+          "layer": "router",
+          "why": "route out_of_scope -> fixed abstention message",
+          "correct_to_abstain": true,
+          "scored_correctness": 0,
+          "answer": "I don't have information about that in the NovaTel knowledge base."
+        },
+        {
+          "id": "MH01",
+          "run": 2,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.5141,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=None rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH04",
+          "run": 2,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9928,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=network_alarms rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH05",
+          "run": 2,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9926,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=fraud_cases rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "S15",
+          "run": 3,
+          "category": "db",
+          "route": "out_of_scope",
+          "router_confidence": 0.9927,
+          "layer": "router",
+          "why": "route out_of_scope -> fixed abstention message",
+          "correct_to_abstain": true,
+          "scored_correctness": 0,
+          "answer": "I don't have information about that in the NovaTel knowledge base."
+        },
+        {
+          "id": "MH01",
+          "run": 3,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.5141,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=None rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH04",
+          "run": 3,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9928,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=network_alarms rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        },
+        {
+          "id": "MH05",
+          "run": 3,
+          "category": "multi",
+          "route": "structured",
+          "router_confidence": 0.9926,
+          "layer": "retrieval",
+          "why": "empty prompt; structured: executed=True route=direct table=fraud_cases rows=0 note=Query could not be confidently resolved to structured data. May require unstruct",
+          "correct_to_abstain": false,
+          "scored_correctness": 0,
+          "answer": "I don't have enough evidence to answer this question. Abstaining."
+        }
+      ],
+      "generator_abstention_like_not_flagged": []
+    }
+  }
+}

@@ -1,0 +1,2128 @@
+{
+  "definitions": "\nReport stage of the KG-hardening evaluation: raw_answers.jsonl + scored_answers.jsonl (+ the v3 results, read-only) -> every output under\nresults/kg_hardening_eval/: metrics.json, comparison_table.md, error_table.csv, per_question_scores.csv, graph_diagnostics.md (+ .json).\n\n    .venv_colpali/Scripts/python.exe eval/kg_hardening_eval/run_report.py\n\nDefinitions are the v3 ones (eval/perf_report/run_report.py, imported and reused, not copied):\n  * 3 runs per arm; percentages are the MEAN over runs of the per-run percentage, with the min-max range in metrics.json;\n  * correctness % = mean(score)/2 over scorable answers (E14a: 0/1/2); \"right\" = score 2;\n  * paired statistics compare per-question values; exact two-sided McNemar on the discordant pairs; paired bootstrap over QUESTIONS (10,000\n    resamples, seed 20261031) of the per-question difference. Three scoring rules:\n      strict   per-question value = share of runs fully correct (score 2); right = value > 0.5 (majority of runs)      [the v3 rule]\n      partial  per-question value = mean(score)/2 over runs; win/loss = higher/lower value, tie = equal\n      lenient  per-question value = share of runs with score >= 1; right = value > 0.5\n  * error causes: the v3 deterministic rule (run_report.classify), one cause per answer with correctness < 2, with B2 of the same run as the\n    reference record for the C arms; error counts are ANSWERS (3 runs x 42 questions per arm);\n  * v3 arms B2 and C are loaded from results/perf_report/ (read-only) as \"v3_B2\" and \"v3_C\" for the parser-effect and drift lines.\n",
+  "manifest_git_commit": "6f4f0fab7383cb747a912b9439d96c1d4742b638",
+  "questions": {
+    "S01": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q01": {
+      "category": "syn",
+      "is_core": true
+    },
+    "RW_001": {
+      "category": "trai",
+      "is_core": true
+    },
+    "S03": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q04": {
+      "category": "syn",
+      "is_core": true
+    },
+    "RW_004": {
+      "category": "trai",
+      "is_core": true
+    },
+    "S04": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q08": {
+      "category": "syn",
+      "is_core": true
+    },
+    "RW_007": {
+      "category": "trai",
+      "is_core": true
+    },
+    "S06": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q13": {
+      "category": "syn",
+      "is_core": true
+    },
+    "RW_010": {
+      "category": "trai",
+      "is_core": true
+    },
+    "S07": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q17": {
+      "category": "syn",
+      "is_core": true
+    },
+    "RW_017": {
+      "category": "trai",
+      "is_core": true
+    },
+    "S09": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q20": {
+      "category": "syn",
+      "is_core": true
+    },
+    "RW_023": {
+      "category": "trai",
+      "is_core": true
+    },
+    "S12": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q25": {
+      "category": "syn",
+      "is_core": true
+    },
+    "S15": {
+      "category": "db",
+      "is_core": true
+    },
+    "Q28": {
+      "category": "syn",
+      "is_core": true
+    },
+    "S02": {
+      "category": "db",
+      "is_core": false
+    },
+    "S05": {
+      "category": "db",
+      "is_core": false
+    },
+    "S08": {
+      "category": "db",
+      "is_core": false
+    },
+    "S10": {
+      "category": "db",
+      "is_core": false
+    },
+    "S11": {
+      "category": "db",
+      "is_core": false
+    },
+    "S13": {
+      "category": "db",
+      "is_core": false
+    },
+    "S14": {
+      "category": "db",
+      "is_core": false
+    },
+    "MH01": {
+      "category": "multi",
+      "is_core": false
+    },
+    "MH02": {
+      "category": "multi",
+      "is_core": false
+    },
+    "MH03": {
+      "category": "multi",
+      "is_core": false
+    },
+    "MH04": {
+      "category": "multi",
+      "is_core": false
+    },
+    "MH05": {
+      "category": "multi",
+      "is_core": false
+    },
+    "MH_RB_B01": {
+      "category": "cross",
+      "is_core": false
+    },
+    "MH_RB_B02": {
+      "category": "cross",
+      "is_core": false
+    },
+    "MH_RB_B03": {
+      "category": "cross",
+      "is_core": false
+    },
+    "MH_RB_B04": {
+      "category": "cross",
+      "is_core": false
+    },
+    "MH_RB_B05": {
+      "category": "cross",
+      "is_core": false
+    },
+    "MH_RB_B06": {
+      "category": "cross",
+      "is_core": false
+    },
+    "MH12": {
+      "category": "multi",
+      "is_core": false
+    },
+    "MH13": {
+      "category": "multi",
+      "is_core": false
+    }
+  },
+  "runs_per_arm": {
+    "B2": 3,
+    "C_V0": 3,
+    "C_V1": 3,
+    "C_V1_links": 3,
+    "v3_B2": 3,
+    "v3_C": 3
+  },
+  "arms": {
+    "B2": {
+      "n_records": 126,
+      "runs": [
+        1,
+        2,
+        3
+      ],
+      "correctness.all": [
+        83.3,
+        84.5,
+        84.5
+      ],
+      "correctness.core": [
+        90.9,
+        93.2,
+        93.2
+      ],
+      "correctness.db": [
+        90.0,
+        90.0,
+        90.0
+      ],
+      "correctness.syn": [
+        87.5,
+        93.8,
+        93.8
+      ],
+      "correctness.trai": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.cross": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.multi": [
+        71.4,
+        71.4,
+        71.4
+      ],
+      "relevance": [
+        97.6,
+        96.4,
+        96.4
+      ],
+      "relevance.core": [
+        95.5,
+        95.5,
+        95.5
+      ],
+      "groundedness": [
+        94.0,
+        96.4,
+        96.4
+      ],
+      "groundedness.core": [
+        93.2,
+        95.5,
+        95.5
+      ],
+      "halluc_ref": [
+        38.1,
+        35.7,
+        35.7
+      ],
+      "halluc_ref.core": [
+        36.4,
+        36.4,
+        36.4
+      ],
+      "halluc_ctx": [
+        7.1,
+        2.4,
+        2.4
+      ],
+      "halluc_ctx.core": [
+        4.5,
+        0.0,
+        0.0
+      ],
+      "latency_records_excluded": 0,
+      "latency_exclusion_reasons": {},
+      "n_scored": 126,
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 41,
+        "identical_correctness_pct": 97.6,
+        "questions_compared_text": 42,
+        "identical_answer_text": 23,
+        "identical_answer_text_pct": 54.8
+      },
+      "latency_median_s": 3.65,
+      "latency_p95_s": 7.29,
+      "prompt_tokens_median": 1526.5,
+      "n_cached_records": 0,
+      "n_abstained": 0,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.76,
+        "R@3": 0.92,
+        "R@5": 0.96,
+        "R@10": 1.0,
+        "MRR@10": 0.8367,
+        "hits": {
+          "1": 19,
+          "3": 23,
+          "5": 24,
+          "10": 25
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571,
+        "hits": {
+          "1": 11,
+          "3": 14,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        93.8,
+        93.8,
+        93.8
+      ],
+      "citation": {
+        "per_run": {
+          "cov": [
+            59.4,
+            57.1,
+            57.1
+          ],
+          "correct": [
+            71.8,
+            74.5,
+            74.5
+          ],
+          "unsup": [
+            46.2,
+            47.8,
+            47.8
+          ]
+        },
+        "totals": {
+          "checked": 123,
+          "skipped": 3,
+          "sentences": 745,
+          "cited": 431,
+          "supported_cited": 317,
+          "weak": 76,
+          "unsupported": 352
+        }
+      },
+      "routes": null,
+      "router_errors": 0,
+      "graph": null
+    },
+    "C_V0": {
+      "n_records": 126,
+      "runs": [
+        1,
+        2,
+        3
+      ],
+      "correctness.all": [
+        66.7,
+        66.7,
+        66.7
+      ],
+      "correctness.core": [
+        77.3,
+        77.3,
+        77.3
+      ],
+      "correctness.db": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.syn": [
+        81.2,
+        81.2,
+        81.2
+      ],
+      "correctness.trai": [
+        66.7,
+        66.7,
+        66.7
+      ],
+      "correctness.cross": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "correctness.multi": [
+        28.6,
+        28.6,
+        28.6
+      ],
+      "relevance": [
+        83.3,
+        82.1,
+        82.1
+      ],
+      "relevance.core": [
+        88.6,
+        88.6,
+        88.6
+      ],
+      "groundedness": [
+        90.8,
+        90.8,
+        89.5
+      ],
+      "groundedness.core": [
+        95.2,
+        95.2,
+        92.9
+      ],
+      "halluc_ref": [
+        50.0,
+        47.6,
+        47.6
+      ],
+      "halluc_ref.core": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "halluc_ctx": [
+        2.6,
+        2.6,
+        2.6
+      ],
+      "halluc_ctx.core": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "latency_records_excluded": 0,
+      "latency_exclusion_reasons": {},
+      "n_scored": 126,
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 42,
+        "identical_correctness_pct": 100.0,
+        "questions_compared_text": 42,
+        "identical_answer_text": 31,
+        "identical_answer_text_pct": 73.8
+      },
+      "latency_median_s": 4.58,
+      "latency_p95_s": 10.39,
+      "prompt_tokens_median": 1349.0,
+      "n_cached_records": 0,
+      "n_abstained": 12,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.36,
+        "R@3": 0.72,
+        "R@5": 0.8,
+        "R@10": 0.84,
+        "MRR@10": 0.516,
+        "hits": {
+          "1": 9,
+          "3": 18,
+          "5": 20,
+          "10": 21
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.5714,
+        "R@3": 0.9286,
+        "R@5": 0.9286,
+        "R@10": 0.9286,
+        "MRR@10": 0.6905,
+        "hits": {
+          "1": 8,
+          "3": 13,
+          "5": 13,
+          "10": 13
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        93.8,
+        93.8,
+        93.8
+      ],
+      "citation": {
+        "per_run": {
+          "cov": [
+            46.9,
+            46.1,
+            46.1
+          ],
+          "correct": [
+            74.6,
+            77.3,
+            75.6
+          ],
+          "unsup": [
+            58.5,
+            58.1,
+            58.1
+          ]
+        },
+        "totals": {
+          "checked": 105,
+          "skipped": 21,
+          "sentences": 776,
+          "cited": 360,
+          "supported_cited": 273,
+          "weak": 51,
+          "unsupported": 452
+        }
+      },
+      "routes": {
+        "structured": 57,
+        "unstructured": 33,
+        "hybrid": 33,
+        "out_of_scope": 3
+      },
+      "router_errors": 0,
+      "graph": {
+        "records_with_added_chunks": 42,
+        "added_chunks_total_all_runs": 255,
+        "records_with_graph_weight_positive": 42,
+        "related_neighbours_added_all_runs": 0
+      }
+    },
+    "C_V1": {
+      "n_records": 126,
+      "runs": [
+        1,
+        2,
+        3
+      ],
+      "correctness.all": [
+        66.7,
+        65.5,
+        65.5
+      ],
+      "correctness.core": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.db": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.syn": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.trai": [
+        66.7,
+        66.7,
+        66.7
+      ],
+      "correctness.cross": [
+        50.0,
+        41.7,
+        41.7
+      ],
+      "correctness.multi": [
+        35.7,
+        35.7,
+        35.7
+      ],
+      "relevance": [
+        88.1,
+        86.9,
+        86.9
+      ],
+      "relevance.core": [
+        90.9,
+        88.6,
+        88.6
+      ],
+      "groundedness": [
+        94.7,
+        93.4,
+        93.4
+      ],
+      "groundedness.core": [
+        95.2,
+        95.2,
+        95.2
+      ],
+      "halluc_ref": [
+        50.0,
+        52.4,
+        52.4
+      ],
+      "halluc_ref.core": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "halluc_ctx": [
+        2.6,
+        7.9,
+        7.9
+      ],
+      "halluc_ctx.core": [
+        0.0,
+        4.8,
+        4.8
+      ],
+      "latency_records_excluded": 0,
+      "latency_exclusion_reasons": {},
+      "n_scored": 126,
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 40,
+        "identical_correctness_pct": 95.2,
+        "questions_compared_text": 42,
+        "identical_answer_text": 33,
+        "identical_answer_text_pct": 78.6
+      },
+      "latency_median_s": 5.05,
+      "latency_p95_s": 10.38,
+      "prompt_tokens_median": 1200.0,
+      "n_cached_records": 0,
+      "n_abstained": 12,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.44,
+        "R@3": 0.72,
+        "R@5": 0.8,
+        "R@10": 0.88,
+        "MRR@10": 0.58,
+        "hits": {
+          "1": 11,
+          "3": 18,
+          "5": 20,
+          "10": 22
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.6429,
+        "R@3": 0.9286,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.7679,
+        "hits": {
+          "1": 9,
+          "3": 13,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        93.8,
+        93.8,
+        93.8
+      ],
+      "citation": {
+        "per_run": {
+          "cov": [
+            47.7,
+            46.7,
+            46.7
+          ],
+          "correct": [
+            74.6,
+            73.1,
+            73.1
+          ],
+          "unsup": [
+            57.7,
+            58.9,
+            58.9
+          ]
+        },
+        "totals": {
+          "checked": 111,
+          "skipped": 15,
+          "sentences": 855,
+          "cited": 402,
+          "supported_cited": 296,
+          "weak": 59,
+          "unsupported": 500
+        }
+      },
+      "routes": {
+        "structured": 57,
+        "unstructured": 33,
+        "hybrid": 33,
+        "out_of_scope": 3
+      },
+      "router_errors": 0,
+      "graph": {
+        "records_with_added_chunks": 42,
+        "added_chunks_total_all_runs": 165,
+        "records_with_graph_weight_positive": 42,
+        "related_neighbours_added_all_runs": 0
+      }
+    },
+    "C_V1_links": {
+      "n_records": 126,
+      "runs": [
+        1,
+        2,
+        3
+      ],
+      "correctness.all": [
+        70.2,
+        67.9,
+        67.9
+      ],
+      "correctness.core": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.db": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.syn": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.trai": [
+        66.7,
+        66.7,
+        66.7
+      ],
+      "correctness.cross": [
+        50.0,
+        33.3,
+        33.3
+      ],
+      "correctness.multi": [
+        57.1,
+        57.1,
+        57.1
+      ],
+      "relevance": [
+        86.9,
+        86.9,
+        86.9
+      ],
+      "relevance.core": [
+        88.6,
+        88.6,
+        88.6
+      ],
+      "groundedness": [
+        96.1,
+        94.7,
+        94.7
+      ],
+      "groundedness.core": [
+        95.2,
+        95.2,
+        95.2
+      ],
+      "halluc_ref": [
+        47.6,
+        47.6,
+        47.6
+      ],
+      "halluc_ref.core": [
+        50.0,
+        50.0,
+        50.0
+      ],
+      "halluc_ctx": [
+        5.3,
+        7.9,
+        7.9
+      ],
+      "halluc_ctx.core": [
+        4.8,
+        4.8,
+        4.8
+      ],
+      "latency_records_excluded": 0,
+      "latency_exclusion_reasons": {},
+      "n_scored": 126,
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 41,
+        "identical_correctness_pct": 97.6,
+        "questions_compared_text": 42,
+        "identical_answer_text": 37,
+        "identical_answer_text_pct": 88.1
+      },
+      "latency_median_s": 4.89,
+      "latency_p95_s": 10.36,
+      "prompt_tokens_median": 1200.0,
+      "n_cached_records": 0,
+      "n_abstained": 12,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.6,
+        "R@3": 0.84,
+        "R@5": 0.88,
+        "R@10": 0.88,
+        "MRR@10": 0.6967,
+        "hits": {
+          "1": 15,
+          "3": 21,
+          "5": 22,
+          "10": 22
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.6429,
+        "R@3": 0.9286,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.7679,
+        "hits": {
+          "1": 9,
+          "3": 13,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        93.8,
+        93.8,
+        93.8
+      ],
+      "citation": {
+        "per_run": {
+          "cov": [
+            48.2,
+            48.8,
+            48.8
+          ],
+          "correct": [
+            75.4,
+            76.6,
+            76.6
+          ],
+          "unsup": [
+            56.5,
+            55.2,
+            55.2
+          ]
+        },
+        "totals": {
+          "checked": 114,
+          "skipped": 12,
+          "sentences": 840,
+          "cited": 408,
+          "supported_cited": 311,
+          "weak": 62,
+          "unsupported": 467
+        }
+      },
+      "routes": {
+        "structured": 57,
+        "unstructured": 33,
+        "hybrid": 33,
+        "out_of_scope": 3
+      },
+      "router_errors": 0,
+      "graph": {
+        "records_with_added_chunks": 42,
+        "added_chunks_total_all_runs": 195,
+        "records_with_graph_weight_positive": 42,
+        "related_neighbours_added_all_runs": 54
+      }
+    },
+    "v3_B2": {
+      "n_records": 126,
+      "runs": [
+        1,
+        2,
+        3
+      ],
+      "correctness.all": [
+        84.5,
+        82.1,
+        82.1
+      ],
+      "correctness.core": [
+        90.9,
+        88.6,
+        88.6
+      ],
+      "correctness.db": [
+        90.0,
+        90.0,
+        90.0
+      ],
+      "correctness.syn": [
+        93.8,
+        87.5,
+        87.5
+      ],
+      "correctness.trai": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.cross": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.multi": [
+        78.6,
+        71.4,
+        71.4
+      ],
+      "relevance": [
+        97.5,
+        97.5,
+        97.5
+      ],
+      "relevance.core": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "groundedness": [
+        92.9,
+        94.0,
+        94.0
+      ],
+      "groundedness.core": [
+        95.5,
+        95.5,
+        95.5
+      ],
+      "halluc_ref": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ref.core": [
+        null,
+        null,
+        null
+      ],
+      "halluc_ctx": [
+        9.5,
+        7.1,
+        7.1
+      ],
+      "halluc_ctx.core": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "latency_records_excluded": 0,
+      "latency_exclusion_reasons": {},
+      "n_scored": 126,
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 40,
+        "identical_correctness_pct": 95.2,
+        "questions_compared_text": 42,
+        "identical_answer_text": 25,
+        "identical_answer_text_pct": 59.5
+      },
+      "latency_median_s": 4.07,
+      "latency_p95_s": 10.46,
+      "prompt_tokens_median": 1515.5,
+      "n_cached_records": 0,
+      "n_abstained": 0,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.76,
+        "R@3": 0.92,
+        "R@5": 0.96,
+        "R@10": 1.0,
+        "MRR@10": 0.8367,
+        "hits": {
+          "1": 19,
+          "3": 23,
+          "5": 24,
+          "10": 25
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.7857,
+        "R@3": 1.0,
+        "R@5": 1.0,
+        "R@10": 1.0,
+        "MRR@10": 0.8571,
+        "hits": {
+          "1": 11,
+          "3": 14,
+          "5": 14,
+          "10": 14
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        89.2,
+        89.2,
+        89.2
+      ],
+      "citation": null,
+      "routes": null,
+      "router_errors": 0,
+      "graph": null
+    },
+    "v3_C": {
+      "n_records": 126,
+      "runs": [
+        1,
+        2,
+        3
+      ],
+      "correctness.all": [
+        66.7,
+        67.9,
+        67.9
+      ],
+      "correctness.core": [
+        79.5,
+        79.5,
+        79.5
+      ],
+      "correctness.db": [
+        83.3,
+        83.3,
+        83.3
+      ],
+      "correctness.syn": [
+        81.2,
+        81.2,
+        81.2
+      ],
+      "correctness.trai": [
+        75.0,
+        75.0,
+        75.0
+      ],
+      "correctness.cross": [
+        58.3,
+        66.7,
+        66.7
+      ],
+      "correctness.multi": [
+        14.3,
+        14.3,
+        14.3
+      ],
+      "relevance": [
+        82.1,
+        83.3,
+        83.3
+      ],
+      "relevance.core": [
+        88.6,
+        88.6,
+        88.6
+      ],
+      "groundedness": [
+        88.2,
+        88.2,
+        88.2
+      ],
+      "groundedness.core": [
+        92.9,
+        92.9,
+        92.9
+      ],
+      "halluc_ref": [
+        45.2,
+        42.9,
+        42.9
+      ],
+      "halluc_ref.core": [
+        54.5,
+        50.0,
+        50.0
+      ],
+      "halluc_ctx": [
+        7.9,
+        7.9,
+        7.9
+      ],
+      "halluc_ctx.core": [
+        4.8,
+        4.8,
+        4.8
+      ],
+      "latency_records_excluded": 0,
+      "latency_exclusion_reasons": {},
+      "n_scored": 126,
+      "scored_runs": [
+        1,
+        2,
+        3
+      ],
+      "variability": {
+        "questions_compared_correctness": 42,
+        "identical_correctness": 41,
+        "identical_correctness_pct": 97.6,
+        "questions_compared_text": 42,
+        "identical_answer_text": 34,
+        "identical_answer_text_pct": 81.0
+      },
+      "latency_median_s": 6.6,
+      "latency_p95_s": 14.18,
+      "prompt_tokens_median": 1349.0,
+      "n_cached_records": 0,
+      "n_abstained": 12,
+      "n_parse_errors_in_judge": 0,
+      "retrieval_docq": {
+        "n": 25,
+        "R@1": 0.36,
+        "R@3": 0.72,
+        "R@5": 0.8,
+        "R@10": 0.84,
+        "MRR@10": 0.516,
+        "hits": {
+          "1": 9,
+          "3": 18,
+          "5": 20,
+          "10": 21
+        }
+      },
+      "retrieval_core14": {
+        "n": 14,
+        "R@1": 0.5714,
+        "R@3": 0.9286,
+        "R@5": 0.9286,
+        "R@10": 0.9286,
+        "MRR@10": 0.6905,
+        "hits": {
+          "1": 8,
+          "3": 13,
+          "5": 13,
+          "10": 13
+        }
+      },
+      "retrieval_deterministic_across_runs": true,
+      "db_rowcov": [
+        89.2,
+        89.2,
+        89.2
+      ],
+      "citation": {
+        "per_run": {
+          "cov": [
+            59.2,
+            46.7,
+            46.7
+          ],
+          "correct": [
+            74.8,
+            77.7,
+            77.7
+          ],
+          "unsup": [
+            46.8,
+            58.3,
+            58.3
+          ]
+        },
+        "totals": {
+          "checked": 104,
+          "skipped": 22,
+          "sentences": 719,
+          "cited": 361,
+          "supported_cited": 277,
+          "weak": 46,
+          "unsupported": 396
+        }
+      },
+      "routes": {
+        "structured": 57,
+        "unstructured": 33,
+        "hybrid": 33,
+        "out_of_scope": 3
+      },
+      "router_errors": 0,
+      "graph": {
+        "records_with_added_chunks": 42,
+        "added_chunks_total_all_runs": 255,
+        "records_with_graph_weight_positive": 42,
+        "related_neighbours_added_all_runs": 0
+      }
+    }
+  },
+  "paired": {
+    "C_V1_vs_C_V0": {
+      "strict": {
+        "rule": "strict",
+        "a": "C_V1",
+        "b": "C_V0",
+        "wins": 2,
+        "losses": 3,
+        "ties": 37,
+        "n_pairs": 42,
+        "discordant": 5,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -13.5,
+          7.9
+        ],
+        "mean_diff_pts": -2.4,
+        "win_ids": [
+          "Q08",
+          "MH_RB_B02"
+        ],
+        "loss_ids": [
+          "Q04",
+          "Q25",
+          "MH_RB_B01"
+        ]
+      },
+      "partial": {
+        "rule": "partial",
+        "a": "C_V1",
+        "b": "C_V0",
+        "wins": 4,
+        "losses": 4,
+        "ties": 34,
+        "n_pairs": 42,
+        "discordant": 8,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -8.3,
+          6.3
+        ],
+        "mean_diff_pts": -0.8,
+        "win_ids": [
+          "Q08",
+          "MH02",
+          "MH_RB_B02",
+          "MH_RB_B04"
+        ],
+        "loss_ids": [
+          "Q04",
+          "Q25",
+          "MH_RB_B01",
+          "MH_RB_B05"
+        ]
+      },
+      "lenient": {
+        "rule": "lenient",
+        "a": "C_V1",
+        "b": "C_V0",
+        "wins": 1,
+        "losses": 1,
+        "ties": 40,
+        "n_pairs": 42,
+        "discordant": 2,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -6.3,
+          7.9
+        ],
+        "mean_diff_pts": 0.8,
+        "win_ids": [
+          "MH02"
+        ],
+        "loss_ids": [
+          "MH_RB_B01"
+        ]
+      }
+    },
+    "C_V1_links_vs_C_V1": {
+      "strict": {
+        "rule": "strict",
+        "a": "C_V1_links",
+        "b": "C_V1",
+        "wins": 2,
+        "losses": 1,
+        "ties": 39,
+        "n_pairs": 42,
+        "discordant": 3,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -4.8,
+          11.9
+        ],
+        "mean_diff_pts": 3.2,
+        "win_ids": [
+          "MH02",
+          "MH03"
+        ],
+        "loss_ids": [
+          "MH_RB_B02"
+        ]
+      },
+      "partial": {
+        "rule": "partial",
+        "a": "C_V1_links",
+        "b": "C_V1",
+        "wins": 4,
+        "losses": 2,
+        "ties": 36,
+        "n_pairs": 42,
+        "discordant": 6,
+        "p_mcnemar_exact": 0.6875,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -2.8,
+          9.1
+        ],
+        "mean_diff_pts": 2.8,
+        "win_ids": [
+          "MH02",
+          "MH03",
+          "MH_RB_B01",
+          "MH_RB_B05"
+        ],
+        "loss_ids": [
+          "MH_RB_B02",
+          "MH_RB_B04"
+        ]
+      },
+      "lenient": {
+        "rule": "lenient",
+        "a": "C_V1_links",
+        "b": "C_V1",
+        "wins": 1,
+        "losses": 0,
+        "ties": 41,
+        "n_pairs": 42,
+        "discordant": 1,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -1.6,
+          7.9
+        ],
+        "mean_diff_pts": 2.4,
+        "win_ids": [
+          "MH03"
+        ],
+        "loss_ids": []
+      }
+    },
+    "C_V0_vs_B2": {
+      "strict": {
+        "rule": "strict",
+        "a": "C_V0",
+        "b": "B2",
+        "wins": 1,
+        "losses": 7,
+        "ties": 34,
+        "n_pairs": 42,
+        "discordant": 8,
+        "p_mcnemar_exact": 0.0703,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -26.2,
+          -1.6
+        ],
+        "mean_diff_pts": -13.5,
+        "win_ids": [
+          "S08"
+        ],
+        "loss_ids": [
+          "Q17",
+          "RW_017",
+          "S09",
+          "S15",
+          "MH02",
+          "MH_RB_B02",
+          "MH_RB_B04"
+        ]
+      },
+      "partial": {
+        "rule": "partial",
+        "a": "C_V0",
+        "b": "B2",
+        "wins": 2,
+        "losses": 11,
+        "ties": 29,
+        "n_pairs": 42,
+        "discordant": 13,
+        "p_mcnemar_exact": 0.0225,
+        "fewer_than_10_discordant": false,
+        "ci95_pts": [
+          -28.6,
+          -6.7
+        ],
+        "mean_diff_pts": -17.5,
+        "win_ids": [
+          "Q20",
+          "S08"
+        ],
+        "loss_ids": [
+          "Q17",
+          "RW_017",
+          "S09",
+          "S15",
+          "MH01",
+          "MH02",
+          "MH03",
+          "MH04",
+          "MH05",
+          "MH_RB_B02",
+          "MH_RB_B04"
+        ]
+      },
+      "lenient": {
+        "rule": "lenient",
+        "a": "C_V0",
+        "b": "B2",
+        "wins": 0,
+        "losses": 9,
+        "ties": 33,
+        "n_pairs": 42,
+        "discordant": 9,
+        "p_mcnemar_exact": 0.0039,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -33.3,
+          -9.5
+        ],
+        "mean_diff_pts": -21.4,
+        "win_ids": [],
+        "loss_ids": [
+          "Q17",
+          "RW_017",
+          "S15",
+          "MH01",
+          "MH02",
+          "MH03",
+          "MH04",
+          "MH05",
+          "MH_RB_B04"
+        ]
+      }
+    },
+    "C_V1_vs_B2": {
+      "strict": {
+        "rule": "strict",
+        "a": "C_V1",
+        "b": "B2",
+        "wins": 2,
+        "losses": 9,
+        "ties": 31,
+        "n_pairs": 42,
+        "discordant": 11,
+        "p_mcnemar_exact": 0.0654,
+        "fewer_than_10_discordant": false,
+        "ci95_pts": [
+          -30.2,
+          -1.6
+        ],
+        "mean_diff_pts": -15.9,
+        "win_ids": [
+          "Q08",
+          "S08"
+        ],
+        "loss_ids": [
+          "Q04",
+          "Q17",
+          "RW_017",
+          "S09",
+          "Q25",
+          "S15",
+          "MH02",
+          "MH_RB_B01",
+          "MH_RB_B04"
+        ]
+      },
+      "partial": {
+        "rule": "partial",
+        "a": "C_V1",
+        "b": "B2",
+        "wins": 3,
+        "losses": 14,
+        "ties": 25,
+        "n_pairs": 42,
+        "discordant": 17,
+        "p_mcnemar_exact": 0.0127,
+        "fewer_than_10_discordant": false,
+        "ci95_pts": [
+          -29.8,
+          -7.5
+        ],
+        "mean_diff_pts": -18.3,
+        "win_ids": [
+          "Q08",
+          "Q20",
+          "S08"
+        ],
+        "loss_ids": [
+          "Q04",
+          "Q17",
+          "RW_017",
+          "S09",
+          "Q25",
+          "S15",
+          "MH01",
+          "MH02",
+          "MH03",
+          "MH04",
+          "MH05",
+          "MH_RB_B01",
+          "MH_RB_B04",
+          "MH_RB_B05"
+        ]
+      },
+      "lenient": {
+        "rule": "lenient",
+        "a": "C_V1",
+        "b": "B2",
+        "wins": 0,
+        "losses": 9,
+        "ties": 33,
+        "n_pairs": 42,
+        "discordant": 9,
+        "p_mcnemar_exact": 0.0039,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -33.3,
+          -9.5
+        ],
+        "mean_diff_pts": -20.6,
+        "win_ids": [],
+        "loss_ids": [
+          "Q17",
+          "RW_017",
+          "S15",
+          "MH01",
+          "MH03",
+          "MH04",
+          "MH05",
+          "MH_RB_B01",
+          "MH_RB_B04"
+        ]
+      }
+    },
+    "C_V1_links_vs_B2": {
+      "strict": {
+        "rule": "strict",
+        "a": "C_V1_links",
+        "b": "B2",
+        "wins": 3,
+        "losses": 9,
+        "ties": 30,
+        "n_pairs": 42,
+        "discordant": 12,
+        "p_mcnemar_exact": 0.146,
+        "fewer_than_10_discordant": false,
+        "ci95_pts": [
+          -28.6,
+          2.4
+        ],
+        "mean_diff_pts": -12.7,
+        "win_ids": [
+          "Q08",
+          "S08",
+          "MH03"
+        ],
+        "loss_ids": [
+          "Q04",
+          "Q17",
+          "RW_017",
+          "S09",
+          "Q25",
+          "S15",
+          "MH_RB_B01",
+          "MH_RB_B02",
+          "MH_RB_B04"
+        ]
+      },
+      "partial": {
+        "rule": "partial",
+        "a": "C_V1_links",
+        "b": "B2",
+        "wins": 4,
+        "losses": 12,
+        "ties": 26,
+        "n_pairs": 42,
+        "discordant": 16,
+        "p_mcnemar_exact": 0.0768,
+        "fewer_than_10_discordant": false,
+        "ci95_pts": [
+          -27.4,
+          -4.8
+        ],
+        "mean_diff_pts": -15.5,
+        "win_ids": [
+          "Q08",
+          "Q20",
+          "S08",
+          "MH03"
+        ],
+        "loss_ids": [
+          "Q04",
+          "Q17",
+          "RW_017",
+          "S09",
+          "Q25",
+          "S15",
+          "MH01",
+          "MH04",
+          "MH05",
+          "MH_RB_B01",
+          "MH_RB_B02",
+          "MH_RB_B04"
+        ]
+      },
+      "lenient": {
+        "rule": "lenient",
+        "a": "C_V1_links",
+        "b": "B2",
+        "wins": 0,
+        "losses": 8,
+        "ties": 34,
+        "n_pairs": 42,
+        "discordant": 8,
+        "p_mcnemar_exact": 0.0078,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -30.2,
+          -7.1
+        ],
+        "mean_diff_pts": -18.3,
+        "win_ids": [],
+        "loss_ids": [
+          "Q17",
+          "RW_017",
+          "S15",
+          "MH01",
+          "MH04",
+          "MH05",
+          "MH_RB_B01",
+          "MH_RB_B04"
+        ]
+      }
+    },
+    "B2_vs_v3_B2": {
+      "strict": {
+        "rule": "strict",
+        "a": "B2",
+        "b": "v3_B2",
+        "wins": 3,
+        "losses": 2,
+        "ties": 37,
+        "n_pairs": 42,
+        "discordant": 5,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -9.5,
+          9.5
+        ],
+        "mean_diff_pts": 0.0,
+        "win_ids": [
+          "Q20",
+          "MH12",
+          "MH13"
+        ],
+        "loss_ids": [
+          "MH03",
+          "MH04"
+        ]
+      },
+      "partial": {
+        "rule": "partial",
+        "a": "B2",
+        "b": "v3_B2",
+        "wins": 4,
+        "losses": 3,
+        "ties": 35,
+        "n_pairs": 42,
+        "discordant": 7,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -4.0,
+          6.7
+        ],
+        "mean_diff_pts": 1.2,
+        "win_ids": [
+          "RW_010",
+          "Q20",
+          "MH12",
+          "MH13"
+        ],
+        "loss_ids": [
+          "MH01",
+          "MH03",
+          "MH04"
+        ]
+      },
+      "lenient": {
+        "rule": "lenient",
+        "a": "B2",
+        "b": "v3_B2",
+        "wins": 1,
+        "losses": 0,
+        "ties": 41,
+        "n_pairs": 42,
+        "discordant": 1,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          0.0,
+          7.1
+        ],
+        "mean_diff_pts": 2.4,
+        "win_ids": [
+          "RW_010"
+        ],
+        "loss_ids": []
+      }
+    },
+    "C_V0_vs_v3_C": {
+      "strict": {
+        "rule": "strict",
+        "a": "C_V0",
+        "b": "v3_C",
+        "wins": 2,
+        "losses": 2,
+        "ties": 38,
+        "n_pairs": 42,
+        "discordant": 4,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -9.5,
+          9.5
+        ],
+        "mean_diff_pts": 0.0,
+        "win_ids": [
+          "MH12",
+          "MH13"
+        ],
+        "loss_ids": [
+          "RW_001",
+          "MH_RB_B04"
+        ]
+      },
+      "partial": {
+        "rule": "partial",
+        "a": "C_V0",
+        "b": "v3_C",
+        "wins": 3,
+        "losses": 2,
+        "ties": 37,
+        "n_pairs": 42,
+        "discordant": 5,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -7.5,
+          4.8
+        ],
+        "mean_diff_pts": -0.8,
+        "win_ids": [
+          "MH_RB_B06",
+          "MH12",
+          "MH13"
+        ],
+        "loss_ids": [
+          "RW_001",
+          "MH_RB_B04"
+        ]
+      },
+      "lenient": {
+        "rule": "lenient",
+        "a": "C_V0",
+        "b": "v3_C",
+        "wins": 0,
+        "losses": 1,
+        "ties": 41,
+        "n_pairs": 42,
+        "discordant": 1,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -7.1,
+          2.4
+        ],
+        "mean_diff_pts": -1.6,
+        "win_ids": [],
+        "loss_ids": [
+          "MH_RB_B04"
+        ]
+      }
+    }
+  },
+  "error_analysis": {
+    "counts": {
+      "B2": {
+        "retrieval": 6,
+        "context": 3,
+        "competing": 0,
+        "ranking": 0,
+        "model": 13,
+        "router": 0,
+        "graph": 0,
+        "scoring": 12
+      },
+      "C_V0": {
+        "retrieval": 9,
+        "context": 9,
+        "competing": 3,
+        "ranking": 6,
+        "model": 9,
+        "router": 12,
+        "graph": 3,
+        "scoring": 0
+      },
+      "C_V1": {
+        "retrieval": 11,
+        "context": 13,
+        "competing": 3,
+        "ranking": 0,
+        "model": 12,
+        "router": 12,
+        "graph": 3,
+        "scoring": 0
+      },
+      "C_V1_links": {
+        "retrieval": 11,
+        "context": 6,
+        "competing": 3,
+        "ranking": 0,
+        "model": 15,
+        "router": 12,
+        "graph": 3,
+        "scoring": 0
+      }
+    },
+    "totals": {
+      "B2": 34,
+      "C_V0": 51,
+      "C_V1": 54,
+      "C_V1_links": 50
+    }
+  },
+  "graph_diagnostics_summary": {
+    "C_V0": {
+      "questions": 42,
+      "questions_doc_searched": 22,
+      "questions_gate_positive": 14,
+      "questions_with_added_chunks": 14,
+      "added_chunks_total": 85,
+      "added_documents_total": 76,
+      "added_via": {
+        "bridge concept (hub-only)": 44,
+        "bridge concept (has a specific concept)": 41
+      },
+      "added_relevant": 7,
+      "added_relevant_questions": 5,
+      "docs_added_per_question": {
+        "mean": 5.43,
+        "max": 10,
+        "n": 14
+      },
+      "displaced_questions": [
+        "RW_017"
+      ],
+      "gold_rank_1_B2": 19,
+      "gold_rank_1_arm": 9,
+      "doc_questions": 25,
+      "gold_rank_changes": {
+        "better": 3,
+        "same": 11,
+        "worse": 7,
+        "lost_from_top10": 1
+      },
+      "link_docs_added_total": 0,
+      "link_docs_in_top10": 0,
+      "link_docs_in_prompt": 0
+    },
+    "C_V1": {
+      "questions": 42,
+      "questions_doc_searched": 22,
+      "questions_gate_positive": 14,
+      "questions_with_added_chunks": 14,
+      "added_chunks_total": 55,
+      "added_documents_total": 39,
+      "added_via": {
+        "bridge concept (has a specific concept)": 55
+      },
+      "added_relevant": 13,
+      "added_relevant_questions": 7,
+      "docs_added_per_question": {
+        "mean": 2.79,
+        "max": 3,
+        "n": 14
+      },
+      "displaced_questions": [],
+      "gold_rank_1_B2": 19,
+      "gold_rank_1_arm": 11,
+      "doc_questions": 25,
+      "gold_rank_changes": {
+        "better": 2,
+        "same": 12,
+        "worse": 8,
+        "lost_from_top10": 0
+      },
+      "link_docs_added_total": 0,
+      "link_docs_in_top10": 0,
+      "link_docs_in_prompt": 0
+    },
+    "C_V1_links": {
+      "questions": 42,
+      "questions_doc_searched": 22,
+      "questions_gate_positive": 14,
+      "questions_with_added_chunks": 14,
+      "added_chunks_total": 65,
+      "added_documents_total": 48,
+      "added_via": {
+        "bridge concept (has a specific concept)": 53,
+        "RELATED_TO": 12
+      },
+      "added_relevant": 19,
+      "added_relevant_questions": 12,
+      "docs_added_per_question": {
+        "mean": 3.43,
+        "max": 5,
+        "n": 14
+      },
+      "displaced_questions": [],
+      "gold_rank_1_B2": 19,
+      "gold_rank_1_arm": 15,
+      "doc_questions": 25,
+      "gold_rank_changes": {
+        "better": 4,
+        "same": 14,
+        "worse": 4,
+        "lost_from_top10": 0
+      },
+      "link_docs_added_total": 18,
+      "link_docs_in_top10": 10,
+      "link_docs_in_prompt": 6
+    }
+  },
+  "parser_effect_B2_new_vs_v3": {
+    "correctness_all_new": 84.1,
+    "correctness_all_v3": 82.9,
+    "paired": {
+      "strict": {
+        "rule": "strict",
+        "a": "B2",
+        "b": "v3_B2",
+        "wins": 3,
+        "losses": 2,
+        "ties": 37,
+        "n_pairs": 42,
+        "discordant": 5,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -9.5,
+          9.5
+        ],
+        "mean_diff_pts": 0.0,
+        "win_ids": [
+          "Q20",
+          "MH12",
+          "MH13"
+        ],
+        "loss_ids": [
+          "MH03",
+          "MH04"
+        ]
+      },
+      "partial": {
+        "rule": "partial",
+        "a": "B2",
+        "b": "v3_B2",
+        "wins": 4,
+        "losses": 3,
+        "ties": 35,
+        "n_pairs": 42,
+        "discordant": 7,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -4.0,
+          6.7
+        ],
+        "mean_diff_pts": 1.2,
+        "win_ids": [
+          "RW_010",
+          "Q20",
+          "MH12",
+          "MH13"
+        ],
+        "loss_ids": [
+          "MH01",
+          "MH03",
+          "MH04"
+        ]
+      },
+      "lenient": {
+        "rule": "lenient",
+        "a": "B2",
+        "b": "v3_B2",
+        "wins": 1,
+        "losses": 0,
+        "ties": 41,
+        "n_pairs": 42,
+        "discordant": 1,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          0.0,
+          7.1
+        ],
+        "mean_diff_pts": 2.4,
+        "win_ids": [
+          "RW_010"
+        ],
+        "loss_ids": []
+      }
+    },
+    "reading": "parser effect plus run-to-run noise; not a graph effect"
+  },
+  "drift_check_C_V0_vs_v3_C": {
+    "correctness_all_new": 66.7,
+    "correctness_all_v3": 67.5,
+    "paired": {
+      "strict": {
+        "rule": "strict",
+        "a": "C_V0",
+        "b": "v3_C",
+        "wins": 2,
+        "losses": 2,
+        "ties": 38,
+        "n_pairs": 42,
+        "discordant": 4,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -9.5,
+          9.5
+        ],
+        "mean_diff_pts": 0.0,
+        "win_ids": [
+          "MH12",
+          "MH13"
+        ],
+        "loss_ids": [
+          "RW_001",
+          "MH_RB_B04"
+        ]
+      },
+      "partial": {
+        "rule": "partial",
+        "a": "C_V0",
+        "b": "v3_C",
+        "wins": 3,
+        "losses": 2,
+        "ties": 37,
+        "n_pairs": 42,
+        "discordant": 5,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -7.5,
+          4.8
+        ],
+        "mean_diff_pts": -0.8,
+        "win_ids": [
+          "MH_RB_B06",
+          "MH12",
+          "MH13"
+        ],
+        "loss_ids": [
+          "RW_001",
+          "MH_RB_B04"
+        ]
+      },
+      "lenient": {
+        "rule": "lenient",
+        "a": "C_V0",
+        "b": "v3_C",
+        "wins": 0,
+        "losses": 1,
+        "ties": 41,
+        "n_pairs": 42,
+        "discordant": 1,
+        "p_mcnemar_exact": 1.0,
+        "fewer_than_10_discordant": true,
+        "ci95_pts": [
+          -7.1,
+          2.4
+        ],
+        "mean_diff_pts": -1.6,
+        "win_ids": [],
+        "loss_ids": [
+          "MH_RB_B04"
+        ]
+      }
+    }
+  }
+}

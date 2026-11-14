@@ -1,0 +1,409 @@
+doc_id,doc_type,category,text,predicted_concepts,evidence_phrase_in_text,correct_concepts,notes
+EML_001,EML,C04,"# Sample Email: Response to Billing Dispute
+
+**Document ID:** EML_001
+**Category:** C04 — Billing & Invoices
+**Department:** Billing
+**Customer Scope:** all
+**Last Updated:** 2026-06-15
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+**Channel:** Email
+
+---
+**Subject:** Update on Your Billing Dispute — Ref CMP-2026-77120
+
+**From:** NovaTel Billing Support <support@novatel.example>
+
+**To:** Customer <registered-email-on-file>
+
+## Context
+
+This correspondence follows an earlier customer contact (call or app request) regarding the matter below, and reflects the outcome of the inter",Service:Refund,Service:Refund=refund,Service:Refund,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. Refund is the outcome (full Rs149 refund of an unconsented VAS charge). Not in the 5-label vocabulary: the VAS topic (Concept: Value Added Services)."
+EML_008,EML,C17,"# Sample Email: KYC Re-verification Reminder
+
+**Document ID:** EML_008
+**Category:** C17 — KYC & Identity Verification
+**Department:** Compliance
+**Customer Scope:** all
+**Last Updated:** 2026-07-28
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+**Channel:** Email
+
+---
+**Subject:** Action Required: Complete Your KYC Re-verification by 30 August 2026
+
+**From:** NovaTel Compliance Support <support@novatel.example>
+
+**To:** Customer <registered-email-on-file>
+
+## Context
+
+This message is sent as a follow-up after the customer's original query was logged and investigated by the rel",Channel:My NovaTel App; Location:NovaTel Experience Store; Service:KYC Verification; VerificationMethod:Photo ID; VerificationMethod:Video KYC,Channel:My NovaTel App=My NovaTel app | Location:NovaTel Experience Store=Experience Store | Service:KYC Verification=KYC | VerificationMethod:Photo ID=Identity Verification | VerificationMethod:Video KYC=Video KYC,Channel:My NovaTel App; Location:NovaTel Experience Store; Service:KYC Verification; VerificationMethod:Photo ID; VerificationMethod:Video KYC,"HUMAN DECISION (owner, 2026-11-14, as relayed in chat): CORRECT: re-verification with original ID; concept fits although the extractor's evidence (header) was wrong. | earlier AI note: Drafted and re-checked by Claude (second pass), NOT human-reviewed. CHANGED in second pass: VerificationMethod:Photo ID is now counted correct. The extractor matched it from the metadata header 'KYC & Identity Verification' (wrong evidence), but the body says to visit a store 'with original ID', which is ID-based verification. Same call as TRN_004. UNSURE: Requirement:Valid Photo ID ('original ID') also arguable; left out."
+FAQ_C07_013,FAQ,C07,"Question: How do I activate international roaming before travelling?
+
+Answer: ### Short Answer
+
+Activate an International Roaming (IR) pack from the app under Roaming > International Packs at least 4-6 hours before departure. Ensure your device supports the destination network's bands and that data roaming is toggled on in device settings on arrival.
+
+### Detailed Explanation
+
+The 4-6 hour lead time exists because pack activation needs to propagate before you land, and the device-settings step matters separately from the pack itself — even with an active IR pack, roaming won't work if data roa",Service:Roaming Activation,Service:Roaming Activation=roaming,Service:Roaming Activation; Channel:My NovaTel App,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. Channel: 'activate ... from the app' means the NovaTel app, but the extractor only knows phrases like 'my novatel app', so it misses bare 'the app' (vocabulary gap, a false negative)."
+FAQ_C11_022,FAQ,C11,"Question: Can I call an international number that is out of network coverage in my recipient's country?
+
+Answer: ### Short Answer
+
+Call connectivity depends on the recipient's local network availability, not on your NovaTel plan. If the call fails to connect, retry later or use an internet-based calling alternative where data connectivity exists.
+
+### Detailed Explanation
+
+This clarifies where responsibility for call connectivity sits: once the call leaves NovaTel's network, whether it connects depends on the recipient's local network, which NovaTel's plan has no control over — so a failed cal",Concept:Network Coverage,Concept:Network Coverage=network coverage,NONE,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. Predicted Concept:Network Coverage is the wrong sense (it is about calling an international number, recipient-side network). The real topic 'International Calling & SMS' has no concept (International Calling & ISD was dropped by the rule)."
+FAQ_C12_024,FAQ,C12,"Question: Why doesn't VoLTE/HD Voice work on my phone?
+
+Answer: ### Short Answer
+
+VoLTE requires a VoLTE-enabled handset, a compatible SIM, and the VoLTE/4G Calling setting enabled in device settings. Some imported or older devices may not support VoLTE on Indian bands even if they support 4G data.
+
+### Detailed Explanation
+
+Three separate conditions need to align for VoLTE to work — the handset itself must be VoLTE-capable, the SIM must be compatible, and the setting must be turned on in the device — and the answer flags that some imported or older phones can do 4G data fine but still lack Vo",,,Concept:Device Compatibility,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. VoLTE handset/band support = Device Compatibility (footer 'Topic: Device Compatibility'). The sheet's prediction is empty because it predates the vocabulary overlay; the current extractor finds it."
+FAQ_C14_028,FAQ,C14,"Question: Can I combine two promotional offers on the same recharge?
+
+Answer: ### Short Answer
+
+Generally no — most promotional offers are mutually exclusive and the system will apply only one (typically the higher-value one) per transaction unless the offer terms explicitly state it is stackable.
+
+### Detailed Explanation
+
+'Generally no' leaves room for the documented exception: stacking is possible only when a specific offer's own terms say it's stackable, and the default system behaviour otherwise is to automatically pick the higher-value of two conflicting offers rather than reject the tra",Service:Recharge,Service:Recharge=recharge,Service:Recharge; Concept:Offers & Promotions,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. Recharge is the transaction the offers apply to; the topic is promotional offers (no Concept prediction in the sheet's state)."
+INC_C05_INC_2026_0171,INC,C05,"# Incident Report: SIM Provisioning Delay Post-System Upgrade
+
+**Document ID:** INC_C05_INC_2026_0171
+**Category:** C05 — SIM Card Services
+**Department:** Customer Care
+**Customer Scope:** all
+**Last Updated:** 2026-07-31
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+
+---
+## Summary
+
+A provisioning-system upgrade introduced a queueing bug that delayed new SIM activations by up to 6 hours.
+
+## Detection Method
+
+Detected automatically via NOC monitoring alarms, which triggered an on-call page within the standard 5-minute alerting SLA.
+
+## Timeline
+
+Issue identified via spike in",Service:Complaint Registration,Service:Complaint Registration=complaint,Concept:SIM Card Services,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. Service:Complaint Registration is a WRONG SENSE: 'complaint tickets' is how the delay was detected, not the complaint service. The subject is delayed SIM activation."
+INC_C08_INC_2026_0211,INC,C08,"# Incident Report: 5G Site Cluster Down Due to Power Outage
+
+**Document ID:** INC_C08_INC_2026_0211
+**Category:** C08 — Network Coverage & Outages
+**Department:** Network
+**Customer Scope:** all
+**Last Updated:** 2026-04-15
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+
+---
+## Summary
+
+A regional grid power outage without adequate battery backup runtime caused 14 5G sites to go offline.
+
+## Detection Method
+
+First flagged by a spike in customer-reported tickets and self-care app status checks, then confirmed against NOC monitoring dashboards.
+
+## Timeline
+
+Sites reverted to 4G",Channel:My NovaTel App; Channel:Self-Care Portal,Channel:My NovaTel App=self-care app | Channel:Self-Care Portal=self-care,Concept:Network Outages,"HUMAN DECISION (owner, 2026-11-14, as relayed in chat): WRONG: app status checks were only an incidental detection signal. | earlier AI note: Drafted and re-checked by Claude (second pass), NOT human-reviewed. Both channel predictions come from one passing phrase 'self-care app status checks' (a detection source). Self-Care Portal is a substring match (no portal); My NovaTel App is a weak mention. Neither counted. Subject: power outage taking 14 5G sites offline."
+INC_C25_INC_2026_0179,INC,C25,"# Incident Report: FTTH Regional Outage — Fibre Cut
+
+**Document ID:** INC_C25_INC_2026_0179
+**Category:** C25 — Broadband & FTTH Services
+**Department:** Network
+**Customer Scope:** all
+**Last Updated:** 2026-08-06
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+
+---
+## Summary
+
+A construction excavation severed a primary fibre trunk affecting ~2,800 broadband customers.
+
+## Detection Method
+
+Identified during routine NOC dashboard review, ahead of any customer-reported tickets.
+
+## Timeline
+
+Outage detected 14:02 IST; splicing team dispatched; service restored 19:45 IST after t",Service:Broadband/FTTH Installation,Service:Broadband/FTTH Installation=FTTH,Concept:Network Outages; Concept:Broadband & FTTH Services,"HUMAN DECISION (owner, 2026-11-14, as relayed in chat): WRONG: a fibre-cut outage, not an installation. Treated the same as SOP_C25. | earlier AI note: Drafted and re-checked by Claude (second pass), NOT human-reviewed. UNSURE: Service:Broadband/FTTH Installation is the closest vocabulary concept for FTTH, but this is an outage of the service, not an installation. Counted as correct because no other FTTH concept exists."
+KB_C04_bill_disputes,KB,C04,"# Reading and Disputing Your Postpaid Bill
+
+**Document ID:** KB_C04_bill_disputes
+**Category:** C04 — Billing & Invoices
+**Department:** Billing
+**Customer Scope:** all
+**Last Updated:** 2026-06-07
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+
+---
+## Summary
+
+This article explains how billing & invoices issues in this area are diagnosed and resolved, and what customers and front-line agents should check before escalating.
+
+## Symptoms
+
+- Customer reports the feature or service is not behaving as expected.
+- The self-care app or portal shows an error, a stuck status, or no vis",Channel:My NovaTel App; Channel:Self-Care Portal; Service:KYC Verification; Service:Plan Change; Service:SIM Swap; VerificationMethod:OTP,Channel:My NovaTel App=self-care app | Channel:Self-Care Portal=self-care | Service:KYC Verification=KYC | Service:Plan Change=plan change | Service:SIM Swap=SIM swap | VerificationMethod:OTP=OTP,Concept:Billing & Invoices,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. All six predictions are TEMPLATE boilerplate shared by every KB (symptoms: 'self-care app or portal'; precondition: 'OTP'; cause: 'plan change, SIM swap, KYC update'). The real subject (bill disputes) has no label in the 5-label vocabulary."
+KB_C20_refund_processing,KB,C20,"# Processing Duplicate Charge and Billing Refunds
+
+**Document ID:** KB_C20_refund_processing
+**Category:** C20 — Refunds & Adjustments
+**Department:** Billing
+**Customer Scope:** all
+**Last Updated:** 2026-06-09
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+
+---
+## Summary
+
+This article explains how refunds & adjustments issues in this area are diagnosed and resolved, and what customers and front-line agents should check before escalating.
+
+## Symptoms
+
+- Customer reports the feature or service is not behaving as expected.
+- The self-care app or portal shows an error, a stuck ",Channel:My NovaTel App; Channel:Self-Care Portal; Service:Refund; VerificationMethod:OTP,Channel:My NovaTel App=self-care app | Channel:Self-Care Portal=self-care | Service:Refund=Refunds | VerificationMethod:OTP=OTP,Service:Refund; Concept:Billing & Invoices,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. Refund is substantive (title). My NovaTel App, Self-Care Portal and OTP are KB template sentences (symptoms/precondition)."
+KB_C28_qos_disclosures,KB,C28,"# Understanding Published Quality of Service (QoS) Metrics
+
+**Document ID:** KB_C28_qos_disclosures
+**Category:** C28 — Regulatory & Compliance (TRAI)
+**Department:** Legal
+**Customer Scope:** all
+**Last Updated:** 2026-07-14
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+
+---
+## Summary
+
+This article explains how regulatory & compliance (trai) issues in this area are diagnosed and resolved, and what customers and front-line agents should check before escalating.
+
+## Symptoms
+
+- The customer has already attempted the standard steps without success.
+- Customer reports the featur",VerificationMethod:OTP,VerificationMethod:OTP=OTP,NONE,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. OTP is the KB template precondition, not specific to QoS disclosures. The topic (TRAI quality-of-service metrics) has no concept in the vocabulary."
+MAN_APP_001,MAN,C13,"# My NovaTel App — User Guide
+
+**Document ID:** MAN_APP_001
+**Category:** C13 — App & Self-Care Portal
+**Department:** Digital Channels
+**Customer Scope:** all
+**Last Updated:** 2026-07-27
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+
+---
+## Feature Overview
+
+# My NovaTel App — User Guide
+
+**Document ID:** MAN_APP_001
+**Category:** C13 — App & Self-Care Portal
+**Last Updated:** 2026-07-10
+**Version:** 1.0
+
+---
+
+## Getting Started
+
+Download from the Play Store/App Store, log in with your registered mobile number, and verify via OTP.
+
+## Key Features
+
+- Recharge & bill payment
+",Channel:My NovaTel App; Channel:Self-Care Portal; Service:Bill Payment; Service:Complaint Registration; Service:Mobile Number Update; Service:Recharge; Service:Roaming Activation; VerificationMethod:OTP,Channel:My NovaTel App=My NovaTel App | Channel:Self-Care Portal=Self-Care Portal | Service:Bill Payment=bill payment | Service:Complaint Registration=Complaint | Service:Mobile Number Update=registered mobile number | Service:Recharge=Recharge | Service:Roaming Activation=Roaming | VerificationMethod:OTP=OTP,Channel:My NovaTel App; Service:Bill Payment; Service:Complaint Registration; Service:Recharge; Service:Roaming Activation; VerificationMethod:OTP,"HUMAN DECISION (owner, 2026-11-14, as relayed in chat): WRONG: the app uses the number to log in but never updates it. | earlier AI note: Drafted and re-checked by Claude (second pass), NOT human-reviewed. Channel:Self-Care Portal predicted from the metadata header 'App & Self-Care Portal' (header echo), not counted. Service:Mobile Number Update matched 'registered mobile number' used for LOGIN (wrong sense), not counted. Missed topics outside the 5 labels: VAS management, usage tracking."
+MAN_ESIM_001,MAN,C05,"# Activating an eSIM on a Compatible Device
+
+**Document ID:** MAN_ESIM_001
+**Category:** C05 — SIM Card Services
+**Department:** Customer Care
+**Customer Scope:** all
+**Last Updated:** 2026-05-16
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+
+---
+## Feature Overview
+
+# Activating an eSIM on a Compatible Device
+
+**Document ID:** MAN_ESIM_001
+**Category:** C05 — SIM Card Services
+**Last Updated:** 2026-07-22
+**Version:** 1.0
+
+---
+
+## Requirements
+
+An eSIM-compatible, network-unlocked device and an active NovaTel connection eligible for eSIM conversion.
+
+## Steps
+
+1. Request eSIM",Service:eSIM Activation,Service:eSIM Activation=eSIM,Service:eSIM Activation; Channel:My NovaTel App; Concept:SIM Card Services,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. Channel: 'SIM Services > eSIM in the app' = the NovaTel app; extractor misses bare 'the app' (false negative)."
+MAN_IOT_PORTAL_001,MAN,C24,"# Enterprise IoT Management Portal — Quick Start
+
+**Document ID:** MAN_IOT_PORTAL_001
+**Category:** C24 — IoT & M2M Services
+**Department:** Enterprise Sales
+**Customer Scope:** all
+**Last Updated:** 2026-04-20
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+
+---
+## Feature Overview
+
+# Enterprise IoT Management Portal — Quick Start
+
+**Document ID:** MAN_IOT_PORTAL_001
+**Category:** C24 — IoT & M2M Services
+**Last Updated:** 2026-06-05
+**Version:** 1.0
+
+---
+
+## Purpose
+
+Guide for enterprise administrators managing bulk IoT/M2M SIM fleets.
+
+## Key Functions
+
+- Bulk activate/suspen",,,Concept:Enterprise & Business Services; Concept:IoT & M2M Services,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. Concept:IoT & M2M Services exists only in the vocabulary overlay (kg-fixes3/4), not in the original 23 concepts; the sheet's empty prediction predates it."
+SOP_C10_VAS_DISPUTE,SOP,C10,"Handling Unauthorised VAS Subscription Complaints
+
+Document ID: SOP_C10_VAS_DISPUTE
+
+Category: C10 — Value Added Services (VAS)
+
+Department: Product
+
+Customer Scope: all
+
+Version: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base
+
+Purpose
+
+To ensure unauthorised Value Added Service (VAS) charges are investigated and refunded consistently, per consent-based subscription regulations.
+
+Scope
+
+Applies to all channels and customer segments unless a specific exception is noted below.
+
+Preconditions
+
+Customer identity verified (registered number and OTP where applicable).
+
+",Service:Complaint Registration; Service:Mobile Number Update; Service:Refund; VerificationMethod:OTP,Service:Complaint Registration=Complaints | Service:Mobile Number Update=Registered mobile number | Service:Refund=refund | VerificationMethod:OTP=OTP,Service:Complaint Registration; Service:Refund; Concept:Value Added Services,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. Complaint Registration and Refund are the subject. Mobile Number Update ('Registered mobile number / account ID' under Required Information) and OTP (precondition) are SOP template sentences."
+SOP_C16_COMPLAINT_ESCALATION,SOP,C16,"Complaint Escalation and Nodal Officer Referral
+
+Document ID: SOP_C16_COMPLAINT_ESCALATION
+
+Category: C16 — Complaints & Grievances
+
+Department: Customer Care
+
+Customer Scope: all
+
+Version: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base
+
+Purpose
+
+To define the tiered escalation process for complaints exceeding standard resolution SLAs, aligned to TRAI's grievance redressal framework.
+
+Scope
+
+Applies to all channels and customer segments unless a specific exception is noted below.
+
+Preconditions
+
+Customer identity verified (registered number and OTP where applicabl",Service:Complaint Registration; Service:Mobile Number Update; VerificationMethod:OTP,Service:Complaint Registration=Complaint | Service:Mobile Number Update=Registered mobile number | VerificationMethod:OTP=OTP,Service:Complaint Registration; Concept:Complaints & Grievances,"Drafted and re-checked by Claude (second pass), NOT human-reviewed. Complaint is the subject. Mobile Number Update and OTP are SOP template sentences."
+SOP_C25_FTTH_FAULT_HANDLING,SOP,C25,"FTTH Broadband Fault Ticket Handling
+
+Document ID: SOP_C25_FTTH_FAULT_HANDLING
+
+Category: C25 — Broadband & FTTH Services
+
+Department: Network
+
+Customer Scope: all
+
+Version: 1.0    Last Updated: 2026-08-08    Source Authority: Internal Knowledge Base
+
+Purpose
+
+To standardise the diagnosis and field-repair dispatch process for home broadband fault reports.
+
+Scope
+
+Applies to all channels and customer segments unless a specific exception is noted below.
+
+Preconditions
+
+Customer identity verified (registered number and OTP where applicable).
+
+Account is active and not under a fraud, legal, or com",Service:Broadband/FTTH Installation; Service:Complaint Registration; Service:Mobile Number Update; VerificationMethod:OTP,Service:Broadband/FTTH Installation=FTTH | Service:Complaint Registration=Escalation | Service:Mobile Number Update=Registered mobile number | VerificationMethod:OTP=OTP,Concept:Broadband & FTTH Services,"HUMAN DECISION (owner, 2026-11-14, as relayed in chat): WRONG: fault diagnosis and repair dispatch, not installation. Treated the same as INC_C25. | earlier AI note: Drafted and re-checked by Claude (second pass), NOT human-reviewed. UNSURE as for the FTTH incident (fault handling, not installation). Complaint Registration matched the template heading 'Escalation'; Mobile Number Update and OTP are SOP template sentences."
+TRN_002,TRN,GENERAL,"# Frontline Response to Network Outage Queries
+
+**Document ID:** TRN_002
+**Category:** GENERAL — Cross-Category / General
+**Department:** Network
+**Customer Scope:** all
+**Last Updated:** 2026-07-30
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+
+---
+## Learning Objectives
+
+- Understand the customer scenario this module covers and why it matters.
+- Apply the correct process steps consistently and within SLA.
+- Recognise when to escalate rather than continue troubleshooting.
+
+## Core Content
+
+# Frontline Response to Network Outage Queries
+
+**Document ID:** TRN_002
+**Department:*",Service:Complaint Registration; VerificationMethod:Photo ID,Service:Complaint Registration=Escalation | VerificationMethod:Photo ID=identity verification,Concept:Network Outages,"HUMAN DECISION (owner, 2026-11-14, as relayed in chat): WRONG: the module is about outage status and NOC escalation, not registering complaints. | earlier AI note: Drafted and re-checked by Claude (second pass), NOT human-reviewed. Both predictions are wrong: 'Escalation' (Complaint Registration) is the escalation to NOC; 'identity verification' (Photo ID) is in the template 'Common Mistakes' list."
+TRN_004,TRN,GENERAL,"# KYC and Regulatory Basics for Frontline Staff
+
+**Document ID:** TRN_004
+**Category:** GENERAL — Cross-Category / General
+**Department:** Compliance
+**Customer Scope:** all
+**Last Updated:** 2026-05-15
+**Version:** 1.0
+**Source Authority:** Internal Knowledge Base
+
+---
+## Learning Objectives
+
+- Understand the customer scenario this module covers and why it matters.
+- Apply the correct process steps consistently and within SLA.
+- Recognise when to escalate rather than continue troubleshooting.
+
+## Core Content
+
+# KYC and Regulatory Basics for Frontline Staff
+
+**Document ID:** TRN_004
+**Departm",Requirement:Aadhaar; Requirement:Passport; Service:Complaint Registration; Service:KYC Verification; VerificationMethod:Biometric; VerificationMethod:Photo ID; VerificationMethod:Video KYC,Requirement:Aadhaar=Aadhaar | Requirement:Passport=Passport | Service:Complaint Registration=Escalation | Service:KYC Verification=KYC | VerificationMethod:Biometric=Liveness check | VerificationMethod:Photo ID=identity verification | VerificationMethod:Video KYC=Video KYC,Requirement:Aadhaar; Requirement:Passport; Service:KYC Verification; VerificationMethod:Biometric; VerificationMethod:Photo ID; VerificationMethod:Video KYC; Concept:KYC & Identity Verification,"HUMAN DECISION (owner, 2026-11-14, as relayed in chat): CORRECT: lists acceptable ID documents and the document-next-to-face check. | earlier AI note: Drafted and re-checked by Claude (second pass), NOT human-reviewed. Service:Complaint Registration matched the template heading 'Escalation' (not counted). VerificationMethod:Photo ID matched template text 'identity verification' but the concept fits (documents held next to the face); counted, UNSURE. Voter ID and Driving Licence are not in the vocabulary."

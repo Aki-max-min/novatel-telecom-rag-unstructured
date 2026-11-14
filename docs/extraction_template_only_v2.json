@@ -1,0 +1,40 @@
+{
+  "description": "Predictions (label:name) that exist only because of template boilerplate sentences or a weak passing mention in the 20-document gold sample. Used ONLY for the lenient score view (they count as correct there, wrong in the strict view). Judged by Claude, not by a human. v2: the owner's decisions of 2026-11-14 removed three entries that were judged wrong sense or incidental (TRN_002 Complaint Registration, MAN_APP_001 Mobile Number Update, INC_C08 My NovaTel App).",
+  "template_only": {
+    "KB_C04_bill_disputes": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "Service:KYC Verification",
+      "Service:Plan Change",
+      "Service:SIM Swap",
+      "VerificationMethod:OTP"
+    ],
+    "KB_C20_refund_processing": [
+      "Channel:My NovaTel App",
+      "Channel:Self-Care Portal",
+      "VerificationMethod:OTP"
+    ],
+    "KB_C28_qos_disclosures": [
+      "VerificationMethod:OTP"
+    ],
+    "SOP_C10_VAS_DISPUTE": [
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP"
+    ],
+    "SOP_C16_COMPLAINT_ESCALATION": [
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP"
+    ],
+    "SOP_C25_FTTH_FAULT_HANDLING": [
+      "Service:Complaint Registration",
+      "Service:Mobile Number Update",
+      "VerificationMethod:OTP"
+    ],
+    "TRN_002": [
+      "VerificationMethod:Photo ID"
+    ],
+    "TRN_004": [
+      "Service:Complaint Registration"
+    ]
+  }
+}

@@ -98,10 +98,15 @@ def score(docs: Dict[str, Dict[str, Any]], predictions: Dict[str, Iterable[str]]
 CAUSES = ("template sentence", "weak passing mention", "metadata-header echo", "wrong sense", "vocabulary gap", "Concept not comparable", "unclassified")
 _WRONG_SENSE = {("INC_C05_INC_2026_0171", "Service:Complaint Registration"),   # 'complaint tickets' is how the delay was detected
                 ("TRN_002", "Service:Complaint Registration"),                 # 'Escalation' is the escalation to the NOC
-                ("MAN_APP_001", "Service:Mobile Number Update")}               # 'registered mobile number' used for LOGIN
+                ("MAN_APP_001", "Service:Mobile Number Update"),               # 'registered mobile number' used for LOGIN
+                # decided WRONG by the project owner (v2 sheet): a fibre-cut outage / a fault, not an installation (these are false positives only in v2)
+                ("INC_C25_INC_2026_0179", "Service:Broadband/FTTH Installation"),
+                ("SOP_C25_FTTH_FAULT_HANDLING", "Service:Broadband/FTTH Installation")}
 _HEADER_ECHO = {("MAN_APP_001", "Channel:Self-Care Portal")}                   # predicted from the metadata header 'App & Self-Care Portal'
-_WEAK_MENTION = {("INC_C08_INC_2026_0211", "Channel:My NovaTel App"),          # one passing phrase 'self-care app status checks'
-                 ("INC_C08_INC_2026_0211", "Channel:Self-Care Portal")}        # substring match of the same phrase (no portal)
+_WEAK_MENTION = {("INC_C08_INC_2026_0211", "Channel:Self-Care Portal")}        # substring match of the phrase 'self-care app status checks' (no portal)
+#: A weak passing mention while the template-only list still carries it (v1); WRONG sense once the list no longer does (v2: the owner decided it is an
+#: incidental detection signal).
+_WEAK_IF_LISTED = {("INC_C08_INC_2026_0211", "Channel:My NovaTel App")}
 
 
 def classify_disagreements(disagreements: Iterable[Dict[str, str]], template_only: Dict[str, Set[str]]) -> List[Dict[str, str]]:
@@ -121,9 +126,20 @@ def classify_disagreements(disagreements: Iterable[Dict[str, str]], template_onl
             cause = "metadata-header echo"
         elif key in _WEAK_MENTION:
             cause = "weak passing mention"
+        elif key in _WEAK_IF_LISTED:
+            cause = "weak passing mention" if d["concept"] in template_only.get(d["doc_id"], set()) else "wrong sense"
         elif d["concept"] in template_only.get(d["doc_id"], set()):
             cause = "template sentence"
         else:
             cause = "unclassified"
         out.append(dict(d, cause=cause))
     return out
+
+
+def disagreements_path(sheet_path: Path) -> Path:
+    """Where the classified disagreements of a sheet are written: the v1 file name for the v1 reviewed sheet, a new name per other sheet (never the v1 file)."""
+    stem = Path(sheet_path).stem
+    docs = REPO_ROOT / "docs"
+    if stem == "extraction_gold_sheet_reviewed":
+        return docs / "extraction_validation_disagreements.csv"
+    return docs / f"extraction_validation_disagreements_{stem.replace('extraction_gold_sheet_', '')}.csv"

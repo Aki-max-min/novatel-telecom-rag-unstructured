@@ -1,6 +1,6 @@
 """Score the extraction against the AI-labelled gold sheet (human review pending) in three views.
 
-    python scripts/score_extraction_current.py [docs/extraction_gold_sheet_reviewed.csv]
+    python scripts/score_extraction_current.py [docs/extraction_gold_sheet_reviewed.csv [docs/extraction_template_only.json]]
 
   stale-strict    the sheet's own predicted_concepts (they predate the vocabulary overlay)
   current-strict  predictions regenerated with the CURRENT extractor for the same 20 documents
@@ -18,6 +18,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
 from knowledge_graph import gold_scoring as gs  # noqa: E402
+from knowledge_graph.gold_sheet import label_status  # noqa: E402
+
+WORDS = {7: "seven"}
 
 
 def fmt(v):
@@ -35,31 +38,44 @@ def show(title, res):
     print(f"{'Concept (separate)':<20}{fmt(c['precision']):>10}{fmt(c['recall']):>8}{c['tp']:>5}{c['fp']:>5}{c['fn']:>5}   <- {c['note']}")
 
 
-def main() -> int:
-    path = Path(sys.argv[1]) if len(sys.argv) > 1 else gs.REVIEWED_PATH
+def status_line(path):
+    status = label_status(path)
+    if status["owner_decided"]:
+        n = status["owner_decided"]
+        return (f"labels: AI-labelled; {WORDS.get(n, n)} rows decided by the project owner (as relayed in chat); "
+                f"{status['ai_only']} rows are AI-labelled, not human-reviewed. Not validation.")
+    return "labels: drafted and re-checked by an AI assistant; NOT human-reviewed."
+
+
+def main(argv=None, write_csv=True) -> int:
+    argv = list(sys.argv[1:] if argv is None else argv)
+    path = Path(argv[0]) if argv else gs.REVIEWED_PATH
+    template_path = Path(argv[1]) if len(argv) > 1 else gs.TEMPLATE_ONLY_PATH
     docs = gs.read_reviewed(path)
-    template = gs.load_template_only()
+    template = gs.load_template_only(template_path)
     stale = {k: v["predicted"] for k, v in docs.items()}
     current = gs.current_predictions()
     missing = sorted(set(docs) - set(current))
     if missing:
         print("the current extractor's sample does not contain:", missing)
         return 1
-    print(f"sheet: {path}\nlabels: drafted and re-checked by an AI assistant; NOT human-reviewed. Template-only list: {len(sum((list(v) for v in template.values()), []))} predictions.")
+    n_template = len(sum((list(v) for v in template.values()), []))
+    print(f"sheet: {path}\n{status_line(path)}\ntemplate-only list: {template_path} ({n_template} predictions)")
     show("stale-strict (the sheet's own predictions)", gs.score(docs, stale))
     show("current-strict (current extractor)", gs.score(docs, current))
     show("current-lenient (template-only predictions count as correct)", gs.score(docs, current, template_only=template, lenient=True))
     strict = gs.score(docs, current)
     rows = gs.classify_disagreements(strict["disagreements"], template)
-    out = REPO_ROOT / "docs" / "extraction_validation_disagreements.csv"
-    with out.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=["doc_id", "kind", "concept", "cause"], lineterminator="\n")
-        writer.writeheader()
-        writer.writerows(rows)
+    out = gs.disagreements_path(path)
+    if write_csv:
+        with out.open("w", encoding="utf-8", newline="") as handle:
+            writer = csv.DictWriter(handle, fieldnames=["doc_id", "kind", "concept", "cause"], lineterminator="\n")
+            writer.writeheader()
+            writer.writerows(rows)
     by_cause = {}
     for r in rows:
         by_cause[r["cause"]] = by_cause.get(r["cause"], 0) + 1
-    print(f"\ndisagreements of the current extractor by cause (written to {out.name}): {by_cause}")
+    print(f"\ndisagreements of the current extractor by cause ({'written to ' + out.name if write_csv else 'not written'}): {by_cause}")
     changed = [d for d in sorted(docs) if sorted(stale[d]) != sorted(current[d])]
     print(f"\ndocuments whose predictions differ between the sheet and the current extractor: {len(changed)}")
     for d in changed:

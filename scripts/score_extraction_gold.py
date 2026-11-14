@@ -12,13 +12,15 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
-from knowledge_graph.gold_sheet import SHEET_PATH, score_sheet  # noqa: E402
+from knowledge_graph.gold_sheet import SHEET_PATH, is_ai_labelled, score_sheet  # noqa: E402
 
 
 def main() -> int:
     path = Path(sys.argv[1]) if len(sys.argv) > 1 else SHEET_PATH
     res = score_sheet(path)
     print(f"sheet: {path}")
+    if is_ai_labelled(path):
+        print("NOTE: the labels in this sheet were drafted by an AI assistant and are NOT human-reviewed: this is not validation.")
     print(f"reviewed rows: {res['reviewed_rows']}   not reviewed (correct_concepts blank): {res['unreviewed_rows']}")
     if not res["reviewed_rows"]:
         print("No reviewed row: nothing to score. A human must fill correct_concepts first.")

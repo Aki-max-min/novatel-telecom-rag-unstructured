@@ -143,6 +143,12 @@ def score_sheet(path: Path) -> Dict[str, Any]:
     return {"reviewed_rows": reviewed, "unreviewed_rows": len(rows) - reviewed, "per_label": per_label, "disagreements": disagreements}
 
 
+def is_ai_labelled(path: Path) -> bool:
+    """True when a sheet's notes say its labels were NOT reviewed by a human (they were drafted by an AI assistant)."""
+    with Path(path).open(encoding="utf-8", newline="") as handle:
+        return any("NOT human-reviewed" in (row.get("notes") or "") for row in csv.DictReader(handle))
+
+
 def main() -> None:
     documents = load_documents()
     rows = build_rows(documents)

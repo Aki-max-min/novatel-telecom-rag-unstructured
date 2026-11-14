@@ -160,5 +160,47 @@ class TestRealFiles(unittest.TestCase):
         self.assertEqual(text.count("NOT human-reviewed"), 20)
 
 
+class TestDisagreementCauses(unittest.TestCase):
+    """Every disagreement of the CURRENT extractor on the AI-labelled sheet gets one cause, read from the reviewer's notes and the template-only list."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.docs = gs.read_reviewed(REVIEWED)
+        cls.tmpl = gs.load_template_only(TEMPLATE)
+        cls.res = gs.score(cls.docs, gs.current_predictions())
+        cls.rows = gs.classify_disagreements(cls.res["disagreements"], cls.tmpl)
+
+    def test_every_disagreement_has_a_cause(self):
+        self.assertEqual(len(self.rows), len(self.res["disagreements"]))
+        self.assertTrue(all(r["cause"] in gs.CAUSES for r in self.rows))
+        self.assertEqual([r for r in self.rows if r["cause"] == "unclassified"], [])
+
+    def test_counts_per_cause_for_the_five_content_labels(self):
+        five = [r for r in self.rows if r["concept"].split(":")[0] in gs.LABELS_FIVE]
+        counts = {}
+        for r in five:
+            counts[r["cause"]] = counts.get(r["cause"], 0) + 1
+        self.assertEqual(counts, {"template sentence": 19, "weak passing mention": 2, "metadata-header echo": 1,
+                                  "wrong sense": 3, "vocabulary gap": 2})
+        self.assertEqual(sum(counts.values()), 27)                       # 25 false positives + 2 false negatives
+
+    def test_vocabulary_gap_is_the_bare_the_app_channel(self):
+        gaps = sorted((r["doc_id"], r["concept"]) for r in self.rows if r["cause"] == "vocabulary gap")
+        self.assertEqual(gaps, [("FAQ_C07_013", "Channel:My NovaTel App"), ("MAN_ESIM_001", "Channel:My NovaTel App")])
+
+    def test_false_positives_in_the_template_list_are_template_unless_the_notes_say_otherwise(self):
+        wrong = {(r["doc_id"], r["concept"]) for r in self.rows if r["cause"] == "wrong sense"}
+        self.assertEqual(wrong, {("INC_C05_INC_2026_0171", "Service:Complaint Registration"), ("TRN_002", "Service:Complaint Registration"),
+                                 ("MAN_APP_001", "Service:Mobile Number Update")})
+        echo = {(r["doc_id"], r["concept"]) for r in self.rows if r["cause"] == "metadata-header echo"}
+        self.assertEqual(echo, {("MAN_APP_001", "Channel:Self-Care Portal")})
+
+    def test_concept_disagreements_are_kept_apart(self):
+        concept = [r for r in self.rows if r["concept"].startswith("Concept:")]
+        self.assertTrue(concept)
+        self.assertTrue(all(r["cause"] == "Concept not comparable" for r in concept))
+        self.assertEqual(len(concept), 14)                               # false negatives of the current extractor on the main-topic concepts
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

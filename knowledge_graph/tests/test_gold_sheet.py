@@ -138,5 +138,26 @@ class TestScoring(unittest.TestCase):
         self.assertEqual(res["per_label"], {})
 
 
+class TestAiLabelWarning(unittest.TestCase):
+    """KG fixes 5: a sheet whose notes say it was not reviewed by a human must be recognisable as AI-labelled by the scorer."""
+
+    def test_ai_labelled_sheet_is_detected(self):
+        with tempfile.TemporaryDirectory() as d:
+            p = Path(d) / "s.csv"
+            with p.open("w", encoding="utf-8", newline="") as f:
+                w = csv.DictWriter(f, fieldnames=COLUMNS)
+                w.writeheader()
+                w.writerow({"doc_id": "D1", "doc_type": "FAQ", "category": "C01", "text": "", "predicted_concepts": "",
+                            "evidence_phrase_in_text": "", "correct_concepts": "NONE", "notes": "Drafted by Claude, NOT human-reviewed."})
+            self.assertTrue(gold_sheet.is_ai_labelled(p))
+            q = Path(d) / "t.csv"
+            q.write_text(p.read_text(encoding="utf-8").replace("NOT human-reviewed", "reviewed by Priya"), encoding="utf-8")
+            self.assertFalse(gold_sheet.is_ai_labelled(q))
+
+    def test_the_real_reviewed_sheet_is_ai_labelled_and_the_blank_template_is_not_flagged(self):
+        self.assertTrue(gold_sheet.is_ai_labelled(REPO_ROOT / "docs" / "extraction_gold_sheet_reviewed.csv"))
+        self.assertFalse(gold_sheet.is_ai_labelled(gold_sheet.SHEET_PATH))
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

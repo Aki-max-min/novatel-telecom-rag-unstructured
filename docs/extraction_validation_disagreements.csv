@@ -1,0 +1,42 @@
+doc_id,kind,concept,cause
+FAQ_C07_013,false_negative,Channel:My NovaTel App,vocabulary gap
+FAQ_C14_028,false_negative,Concept:Offers & Promotions,Concept not comparable
+INC_C05_INC_2026_0171,false_negative,Concept:SIM Card Services,Concept not comparable
+INC_C05_INC_2026_0171,false_positive,Service:Complaint Registration,wrong sense
+INC_C08_INC_2026_0211,false_positive,Channel:My NovaTel App,weak passing mention
+INC_C08_INC_2026_0211,false_positive,Channel:Self-Care Portal,weak passing mention
+INC_C08_INC_2026_0211,false_negative,Concept:Network Outages,Concept not comparable
+INC_C25_INC_2026_0179,false_negative,Concept:Broadband & FTTH Services,Concept not comparable
+INC_C25_INC_2026_0179,false_negative,Concept:Network Outages,Concept not comparable
+KB_C04_bill_disputes,false_positive,Channel:My NovaTel App,template sentence
+KB_C04_bill_disputes,false_positive,Channel:Self-Care Portal,template sentence
+KB_C04_bill_disputes,false_negative,Concept:Billing & Invoices,Concept not comparable
+KB_C04_bill_disputes,false_positive,Service:KYC Verification,template sentence
+KB_C04_bill_disputes,false_positive,Service:Plan Change,template sentence
+KB_C04_bill_disputes,false_positive,Service:SIM Swap,template sentence
+KB_C04_bill_disputes,false_positive,VerificationMethod:OTP,template sentence
+KB_C20_refund_processing,false_positive,Channel:My NovaTel App,template sentence
+KB_C20_refund_processing,false_positive,Channel:Self-Care Portal,template sentence
+KB_C20_refund_processing,false_negative,Concept:Billing & Invoices,Concept not comparable
+KB_C20_refund_processing,false_positive,VerificationMethod:OTP,template sentence
+KB_C28_qos_disclosures,false_positive,VerificationMethod:OTP,template sentence
+MAN_APP_001,false_positive,Channel:Self-Care Portal,metadata-header echo
+MAN_APP_001,false_positive,Service:Mobile Number Update,wrong sense
+MAN_ESIM_001,false_negative,Channel:My NovaTel App,vocabulary gap
+MAN_ESIM_001,false_negative,Concept:SIM Card Services,Concept not comparable
+MAN_IOT_PORTAL_001,false_negative,Concept:Enterprise & Business Services,Concept not comparable
+SOP_C10_VAS_DISPUTE,false_negative,Concept:Value Added Services,Concept not comparable
+SOP_C10_VAS_DISPUTE,false_positive,Service:Mobile Number Update,template sentence
+SOP_C10_VAS_DISPUTE,false_positive,VerificationMethod:OTP,template sentence
+SOP_C16_COMPLAINT_ESCALATION,false_negative,Concept:Complaints & Grievances,Concept not comparable
+SOP_C16_COMPLAINT_ESCALATION,false_positive,Service:Mobile Number Update,template sentence
+SOP_C16_COMPLAINT_ESCALATION,false_positive,VerificationMethod:OTP,template sentence
+SOP_C25_FTTH_FAULT_HANDLING,false_negative,Concept:Broadband & FTTH Services,Concept not comparable
+SOP_C25_FTTH_FAULT_HANDLING,false_positive,Service:Complaint Registration,template sentence
+SOP_C25_FTTH_FAULT_HANDLING,false_positive,Service:Mobile Number Update,template sentence
+SOP_C25_FTTH_FAULT_HANDLING,false_positive,VerificationMethod:OTP,template sentence
+TRN_002,false_negative,Concept:Network Outages,Concept not comparable
+TRN_002,false_positive,Service:Complaint Registration,wrong sense
+TRN_002,false_positive,VerificationMethod:Photo ID,template sentence
+TRN_004,false_negative,Concept:KYC & Identity Verification,Concept not comparable
+TRN_004,false_positive,Service:Complaint Registration,template sentence

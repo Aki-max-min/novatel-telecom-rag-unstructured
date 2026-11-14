@@ -10,6 +10,7 @@ Per-label precision, recall, tp, fp, fn; the five content labels pooled; the Con
 Nothing here is validation: the labels were drafted by an AI assistant and no human has reviewed them.
 """
 
+import csv
 import sys
 from pathlib import Path
 
@@ -48,6 +49,17 @@ def main() -> int:
     show("stale-strict (the sheet's own predictions)", gs.score(docs, stale))
     show("current-strict (current extractor)", gs.score(docs, current))
     show("current-lenient (template-only predictions count as correct)", gs.score(docs, current, template_only=template, lenient=True))
+    strict = gs.score(docs, current)
+    rows = gs.classify_disagreements(strict["disagreements"], template)
+    out = REPO_ROOT / "docs" / "extraction_validation_disagreements.csv"
+    with out.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=["doc_id", "kind", "concept", "cause"], lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
+    by_cause = {}
+    for r in rows:
+        by_cause[r["cause"]] = by_cause.get(r["cause"], 0) + 1
+    print(f"\ndisagreements of the current extractor by cause (written to {out.name}): {by_cause}")
     changed = [d for d in sorted(docs) if sorted(stale[d]) != sorted(current[d])]
     print(f"\ndocuments whose predictions differ between the sheet and the current extractor: {len(changed)}")
     for d in changed:

@@ -92,3 +92,38 @@ def score(docs: Dict[str, Dict[str, Any]], predictions: Dict[str, Iterable[str]]
     concept["note"] = CONCEPT_NOTE
     return {"per_label": per_label, "five_label": _rates(pooled), "concept": concept, "disagreements": disagreements,
             "documents": len(docs), "predictions": sum(len(set(predictions.get(d, []))) for d in docs)}
+
+
+#: Causes of a disagreement. Read from the reviewer's notes in the sheet and the template-only list; the labels are an AI assistant's, not a human's.
+CAUSES = ("template sentence", "weak passing mention", "metadata-header echo", "wrong sense", "vocabulary gap", "Concept not comparable", "unclassified")
+_WRONG_SENSE = {("INC_C05_INC_2026_0171", "Service:Complaint Registration"),   # 'complaint tickets' is how the delay was detected
+                ("TRN_002", "Service:Complaint Registration"),                 # 'Escalation' is the escalation to the NOC
+                ("MAN_APP_001", "Service:Mobile Number Update")}               # 'registered mobile number' used for LOGIN
+_HEADER_ECHO = {("MAN_APP_001", "Channel:Self-Care Portal")}                   # predicted from the metadata header 'App & Self-Care Portal'
+_WEAK_MENTION = {("INC_C08_INC_2026_0211", "Channel:My NovaTel App"),          # one passing phrase 'self-care app status checks'
+                 ("INC_C08_INC_2026_0211", "Channel:Self-Care Portal")}        # substring match of the same phrase (no portal)
+
+
+def classify_disagreements(disagreements: Iterable[Dict[str, str]], template_only: Dict[str, Set[str]]) -> List[Dict[str, str]]:
+    """Add a ``cause`` to every disagreement: wrong sense, header echo and weak mention come from the reviewer's notes (listed above); other false positives on the
+    template-only list are template sentences; false negatives of the five content labels are vocabulary gaps (bare 'the app'); Concept rows are kept apart."""
+    out = []
+    for d in disagreements:
+        key = (d["doc_id"], d["concept"])
+        label = d["concept"].split(":", 1)[0]
+        if label == "Concept":
+            cause = "Concept not comparable"
+        elif d["kind"] == "false_negative":
+            cause = "vocabulary gap"
+        elif key in _WRONG_SENSE:
+            cause = "wrong sense"
+        elif key in _HEADER_ECHO:
+            cause = "metadata-header echo"
+        elif key in _WEAK_MENTION:
+            cause = "weak passing mention"
+        elif d["concept"] in template_only.get(d["doc_id"], set()):
+            cause = "template sentence"
+        else:
+            cause = "unclassified"
+        out.append(dict(d, cause=cause))
+    return out

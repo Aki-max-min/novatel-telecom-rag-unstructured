@@ -94,3 +94,11 @@ The one fact-inclusion miss (RB_B06: the answer does not state `plan_charge`) wa
 
 - Precision pass on the vocabulary overlay: the bare `deactivate`/`deactivated` (Account Closure & Deactivation) are replaced by three specific phrases, `Airplane Mode` is removed, and 7 wrong-sense matches out of 80 are gone (0 of 71 after; 1 unsure left unchanged). Connectivity Troubleshooting now links one document and is dropped by the rule, so `graph.json` has 5 overlay Concept nodes, 40 `MENTIONS_CONCEPT` edges, 344 nodes / 1730 edges.
 - Documents with a content concept: 129 before the overlay, 144 after KG fixes 3, 143 now (FAQ_C29_058 uncovered); 5 uncovered in all. Dev sets: top 5 identical for all 52 questions. Judgements are one reader's; extraction quality is still unvalidated (gold sheet unfilled). Details: `docs/E13_kg_fixes4.md`, table `docs/E13_kg_fixes4_judgements.csv`.
+
+---
+
+## Addendum 2026-11-14 (KG fixes 5, branch `person-b/kg-fixes5`): extraction check on the AI-labelled sheet
+
+- The 20-document gold sheet is now labelled **by an AI assistant (two passes), NOT by a human; human review of five borderline rows (EML_008, INC_C25_INC_2026_0179, SOP_C25_FTTH_FAULT_HANDLING, TRN_004, INC_C08_INC_2026_0211) is pending.** Status: AI-labelled, human review pending - not validated. The blank template `docs/extraction_gold_sheet.csv` is unchanged; the labelled copy is `docs/extraction_gold_sheet_reviewed.csv`. Method, causes and caveats: `docs/E13_extraction_validation.md`.
+- Five content labels pooled (Service, Channel, VerificationMethod, Requirement, Location), 52 predictions: **strict precision 0.519, recall 0.931 (tp 27, fp 25, fn 2); lenient precision 0.942, recall 0.961** (the 22 template-sentence or weak-mention predictions counted as correct). The current extractor and the sheet's own (pre-overlay) predictions score the same on these labels. The Concept label is reported separately and is not comparable.
+- **Main finding: a large part of the extractor's edges comes from template text.** 25 of 52 predictions (48

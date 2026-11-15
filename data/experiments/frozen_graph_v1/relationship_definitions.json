@@ -1,0 +1,391 @@
+{
+  "schema_version": "4.0.0",
+  "note": "One entry per relationship type. All edges are directed and originate at a Document node. Each edge is derived from exactly one metadata field, so the edge set is reproducible from the corpus alone. Phase 2 adds five MENTIONS_* relationships (Document -> concept, carrying the matched trigger and evidence text) and three Service-anchored co-occurrence relationships marked confidence='cooccurrence'.",
+  "relationships": {
+    "BELONGS_TO_CATEGORY": {
+      "type": "BELONGS_TO_CATEGORY",
+      "from_label": "Document",
+      "to_label": "Category",
+      "source_field": "category",
+      "meaning": "This document is filed under this NovaTel business category. Exactly one per document; the backbone of topical navigation in the graph.",
+      "cardinality": "1 per document",
+      "expected_edges": 148
+    },
+    "IS_TYPE": {
+      "type": "IS_TYPE",
+      "from_label": "Document",
+      "to_label": "DocumentType",
+      "source_field": "document_type",
+      "meaning": "This document has this editorial form (FAQ, SOP, RCA, Policy and so on). Lets a retriever prefer procedural SOPs over conversational transcripts for a how-to question.",
+      "cardinality": "1 per document",
+      "expected_edges": 148
+    },
+    "OWNED_BY_DEPARTMENT": {
+      "type": "OWNED_BY_DEPARTMENT",
+      "from_label": "Document",
+      "to_label": "Department",
+      "source_field": "department",
+      "meaning": "This department is the internal owner and authority for the document. Supports ownership and routing questions such as which team owns fraud policy.",
+      "cardinality": "1 per document",
+      "expected_edges": 148
+    },
+    "APPLIES_TO_SCOPE": {
+      "type": "APPLIES_TO_SCOPE",
+      "from_label": "Document",
+      "to_label": "CustomerScope",
+      "source_field": "customer_scope",
+      "meaning": "This document applies to this customer segment. Enables segment-correct answers so a prepaid customer is not shown a postpaid-only policy.",
+      "cardinality": "1 per document",
+      "expected_edges": 148
+    },
+    "HAS_TAG": {
+      "type": "HAS_TAG",
+      "from_label": "Document",
+      "to_label": "Tag",
+      "source_field": "tags",
+      "meaning": "This document carries this keyword. One edge per tag, so a document with three tags produces three edges. Tags are the densest cross-category connector in the graph.",
+      "cardinality": "0..n per document",
+      "expected_edges": 208
+    },
+    "AUTHORED_BY": {
+      "type": "AUTHORED_BY",
+      "from_label": "Document",
+      "to_label": "SourceAuthority",
+      "source_field": "source_authority",
+      "meaning": "This authority published or vouches for the document. Currently a single-valued field, kept as a first-class relationship because provenance and trust weighting will need it once external sources are ingested.",
+      "cardinality": "1 per document",
+      "expected_edges": 148
+    },
+    "PART_OF_DATASET": {
+      "type": "PART_OF_DATASET",
+      "from_label": "Document",
+      "to_label": "Dataset",
+      "source_field": "document_id",
+      "meaning": "This document belongs to this corpus, derived from the document_id prefix. Keeps benchmark data (SciFact) separable from NovaTel operational content in every downstream query.",
+      "cardinality": "1 per document",
+      "expected_edges": 148
+    },
+    "RELATED_TO": {
+      "type": "RELATED_TO",
+      "from_label": "Document",
+      "to_label": "Document",
+      "source_field": "related_ids",
+      "meaning": "The source document declares the target as a related read. The only document-to-document relationship in Phase 1. Targets that do not exist among the 148 canonical documents are preserved as stub Document nodes with resolved=false rather than being dropped, so the unresolved rate stays measurable.",
+      "cardinality": "0..n per document",
+      "directed": true,
+      "target_may_be_stub": true,
+      "expected_edges": 84
+    },
+    "MENTIONS_SERVICE": {
+      "type": "MENTIONS_SERVICE",
+      "layer": "content",
+      "from_label": "Document",
+      "to_label": "Service",
+      "source_field": "content,title",
+      "meaning": "The document text names this service. Carries the trigger phrases that fired and a snippet of the surrounding text, so the claim is auditable.",
+      "cardinality": "0..n per document, one edge per distinct concept",
+      "confidence": "pattern_match",
+      "edge_properties": [
+        "matched_terms",
+        "match_count",
+        "evidence",
+        "evidence_span",
+        "evidence_field"
+      ],
+      "expected_edges": 132
+    },
+    "MENTIONS_CHANNEL": {
+      "type": "MENTIONS_CHANNEL",
+      "layer": "content",
+      "from_label": "Document",
+      "to_label": "Channel",
+      "source_field": "content,title",
+      "meaning": "The document text names this delivery channel. Answers 'what can a customer do in the app' without reading the documents.",
+      "cardinality": "0..n per document, one edge per distinct concept",
+      "confidence": "pattern_match",
+      "edge_properties": [
+        "matched_terms",
+        "match_count",
+        "evidence",
+        "evidence_span",
+        "evidence_field"
+      ],
+      "expected_edges": 48
+    },
+    "MENTIONS_VERIFICATION": {
+      "type": "MENTIONS_VERIFICATION",
+      "layer": "content",
+      "from_label": "Document",
+      "to_label": "VerificationMethod",
+      "source_field": "content,title",
+      "meaning": "The document text names this identity-verification mechanism. Useful for impact analysis, e.g. every document affected by an OTP outage.",
+      "cardinality": "0..n per document, one edge per distinct concept",
+      "confidence": "pattern_match",
+      "edge_properties": [
+        "matched_terms",
+        "match_count",
+        "evidence",
+        "evidence_span",
+        "evidence_field"
+      ],
+      "expected_edges": 37
+    },
+    "MENTIONS_REQUIREMENT": {
+      "type": "MENTIONS_REQUIREMENT",
+      "layer": "content",
+      "from_label": "Document",
+      "to_label": "Requirement",
+      "source_field": "content,title",
+      "meaning": "The document text names this as something the customer must produce.",
+      "cardinality": "0..n per document, one edge per distinct concept",
+      "confidence": "pattern_match",
+      "edge_properties": [
+        "matched_terms",
+        "match_count",
+        "evidence",
+        "evidence_span",
+        "evidence_field"
+      ],
+      "expected_edges": 18
+    },
+    "MENTIONS_LOCATION": {
+      "type": "MENTIONS_LOCATION",
+      "layer": "content",
+      "from_label": "Document",
+      "to_label": "Location",
+      "source_field": "content,title",
+      "meaning": "The document text directs the customer to this physical place, i.e. the journey cannot be completed digitally.",
+      "cardinality": "0..n per document, one edge per distinct concept",
+      "confidence": "pattern_match",
+      "edge_properties": [
+        "matched_terms",
+        "match_count",
+        "evidence",
+        "evidence_span",
+        "evidence_field"
+      ],
+      "expected_edges": 8
+    },
+    "AVAILABLE_VIA": {
+      "type": "AVAILABLE_VIA",
+      "layer": "content",
+      "from_label": "Service",
+      "to_label": "Channel",
+      "source_field": "content_cooccurrence",
+      "meaning": "The service and the channel are mentioned in the same document, suggesting the service can be reached through that channel.",
+      "cardinality": "0..n, aggregated so one pair is one edge",
+      "confidence": "cooccurrence",
+      "caveat": "Heuristic, not an asserted fact. Same-document co-mention is weak evidence: a policy document listing every channel produces pairs no one intended. Read 'support' (how many documents back the pair) before trusting an edge.",
+      "edge_properties": [
+        "confidence",
+        "support",
+        "evidence_document_id",
+        "evidence_document_ids"
+      ],
+      "expected_edges": 28
+    },
+    "REQUIRES_VERIFICATION": {
+      "type": "REQUIRES_VERIFICATION",
+      "layer": "content",
+      "from_label": "Service",
+      "to_label": "VerificationMethod",
+      "source_field": "content_cooccurrence",
+      "meaning": "The service and the verification method are mentioned in the same document, suggesting the service is gated on that method.",
+      "cardinality": "0..n, aggregated so one pair is one edge",
+      "confidence": "cooccurrence",
+      "caveat": "Heuristic, not an asserted fact. Same-document co-mention is weak evidence: a policy document listing every channel produces pairs no one intended. Read 'support' (how many documents back the pair) before trusting an edge.",
+      "edge_properties": [
+        "confidence",
+        "support",
+        "evidence_document_id",
+        "evidence_document_ids"
+      ],
+      "expected_edges": 16
+    },
+    "REQUIRES_DOCUMENT": {
+      "type": "REQUIRES_DOCUMENT",
+      "layer": "content",
+      "from_label": "Service",
+      "to_label": "Requirement",
+      "source_field": "content_cooccurrence",
+      "meaning": "The service and the requirement are mentioned in the same document, suggesting the customer must produce it to complete the service.",
+      "cardinality": "0..n, aggregated so one pair is one edge",
+      "confidence": "cooccurrence",
+      "caveat": "Heuristic, not an asserted fact. Same-document co-mention is weak evidence: a policy document listing every channel produces pairs no one intended. Read 'support' (how many documents back the pair) before trusting an edge.",
+      "edge_properties": [
+        "confidence",
+        "support",
+        "evidence_document_id",
+        "evidence_document_ids"
+      ],
+      "expected_edges": 6
+    }
+  },
+  "structured_relationships": {
+    "OF_CUSTOMER": {
+      "type": "OF_CUSTOMER",
+      "branch": "structured",
+      "from_label": "(multiple)",
+      "from_labels": [
+        "DeviceRegistry (device_registry.customer_id)",
+        "ESIMProfile (esim_profiles.customer_id)",
+        "FiberInventory (fiber_inventory.customer_id)",
+        "FraudCase (fraud_cases.customer_id)",
+        "Invoice (invoices.customer_id)",
+        "KYCRecord (kyc_records.customer_id)",
+        "OTTSubscription (ott_subscriptions.customer_id)",
+        "Order (orders.customer_id)",
+        "PaymentTransaction (payment_transactions.customer_id)",
+        "PortingRequest (porting_requests.customer_id)",
+        "RoamingUsage (roaming_usage.customer_id)",
+        "Subscription (subscriptions.customer_id)",
+        "Ticket (tickets.customer_id)",
+        "VASSubscription (vas_subscriptions.customer_id)"
+      ],
+      "to_label": "Customer",
+      "source_field": "foreign key value (non-null)",
+      "meaning": "This row belongs to this customer. Aggregates the customer_id FK of all 14 referencing tables into one relationship, so 'everything about this customer' is a single hop instead of fourteen joins.",
+      "direction": "child -> parent",
+      "confidence": "referential_integrity",
+      "expected_edges": 15956,
+      "integrity": "Every edge is written only after the FK value is checked against the parent table's real primary-key set. Measured integrity is 1.0 with 0 dangling."
+    },
+    "FOR_PLAN": {
+      "type": "FOR_PLAN",
+      "branch": "structured",
+      "from_label": "RechargeTransaction",
+      "from_labels": [
+        "RechargeTransaction (recharge_transactions.plan_id)"
+      ],
+      "to_label": "Plan",
+      "source_field": "foreign key value (non-null)",
+      "meaning": "This recharge was purchased against this tariff plan.",
+      "direction": "child -> parent",
+      "confidence": "referential_integrity",
+      "expected_edges": 5259,
+      "integrity": "Every edge is written only after the FK value is checked against the parent table's real primary-key set. Measured integrity is 1.0 with 0 dangling."
+    },
+    "PAYS_INVOICE": {
+      "type": "PAYS_INVOICE",
+      "branch": "structured",
+      "from_label": "PaymentTransaction",
+      "from_labels": [
+        "PaymentTransaction (payment_transactions.invoice_id)"
+      ],
+      "to_label": "Invoice",
+      "source_field": "foreign key value (non-null)",
+      "meaning": "This payment attempt is against this invoice.",
+      "direction": "child -> parent",
+      "confidence": "referential_integrity",
+      "expected_edges": 4162,
+      "integrity": "Every edge is written only after the FK value is checked against the parent table's real primary-key set. Measured integrity is 1.0 with 0 dangling."
+    },
+    "AT_SITE": {
+      "type": "AT_SITE",
+      "branch": "structured",
+      "from_label": "NetworkAlarm",
+      "from_labels": [
+        "NetworkAlarm (network_alarms.site_id)"
+      ],
+      "to_label": "NetworkSite",
+      "source_field": "foreign key value (non-null)",
+      "meaning": "This alarm was raised at this network site.",
+      "direction": "child -> parent",
+      "confidence": "referential_integrity",
+      "expected_edges": 3049,
+      "integrity": "Every edge is written only after the FK value is checked against the parent table's real primary-key set. Measured integrity is 1.0 with 0 dangling."
+    },
+    "ON_PLAN": {
+      "type": "ON_PLAN",
+      "branch": "structured",
+      "from_label": "Subscription",
+      "from_labels": [
+        "Subscription (subscriptions.plan_id)"
+      ],
+      "to_label": "Plan",
+      "source_field": "foreign key value (non-null)",
+      "meaning": "This subscription is on this tariff plan.",
+      "direction": "child -> parent",
+      "confidence": "referential_integrity",
+      "expected_edges": 1809,
+      "integrity": "Every edge is written only after the FK value is checked against the parent table's real primary-key set. Measured integrity is 1.0 with 0 dangling."
+    },
+    "OF_DEVICE_TYPE": {
+      "type": "OF_DEVICE_TYPE",
+      "branch": "structured",
+      "from_label": "DeviceRegistry",
+      "from_labels": [
+        "DeviceRegistry (device_registry.device_id)"
+      ],
+      "to_label": "DeviceConfig",
+      "source_field": "foreign key value (non-null)",
+      "meaning": "This device registration is for this device model.",
+      "direction": "child -> parent",
+      "confidence": "referential_integrity",
+      "expected_edges": 507,
+      "integrity": "Every edge is written only after the FK value is checked against the parent table's real primary-key set. Measured integrity is 1.0 with 0 dangling."
+    },
+    "ESCALATES_TICKET": {
+      "type": "ESCALATES_TICKET",
+      "branch": "structured",
+      "from_label": "EscalationCase",
+      "from_labels": [
+        "EscalationCase (escalation_cases.ticket_id)"
+      ],
+      "to_label": "Ticket",
+      "source_field": "foreign key value (non-null)",
+      "meaning": "This escalation case escalates this support ticket.",
+      "direction": "child -> parent",
+      "confidence": "referential_integrity",
+      "expected_edges": 285,
+      "integrity": "Every edge is written only after the FK value is checked against the parent table's real primary-key set. Measured integrity is 1.0 with 0 dangling."
+    },
+    "IN_CATEGORY": {
+      "type": "IN_CATEGORY",
+      "branch": "structured",
+      "from_label": "EntityType",
+      "to_label": "StructuredCategory",
+      "source_field": "schema.category_tag",
+      "meaning": "Schema-view only: an entity type belongs to a structured category code. Never join this to the document branch's Category nodes - see the crosswalk warning.",
+      "direction": "EntityType -> StructuredCategory",
+      "expected_edges": 28
+    }
+  },
+  "concept_relationships": {
+    "REALIZES_CONCEPT": {
+      "type": "REALIZES_CONCEPT",
+      "branch": "bridge",
+      "from_label": "EntityType",
+      "to_label": "Concept",
+      "source_field": "structured_document_crosswalk.shared_domain_concept",
+      "meaning": "This structured table realizes this business concept. Deterministic: read straight from the Phase 4 crosswalk, one edge per crosswalk row.",
+      "confidence": "explicit_mapping",
+      "expected_edges": 28
+    },
+    "EXPRESSES_CONCEPT": {
+      "type": "EXPRESSES_CONCEPT",
+      "branch": "bridge",
+      "from_label": "Category | Service",
+      "to_label": "Concept",
+      "source_field": "crosswalk document_category_code (Category); concept_layer.service_concept_mapping (Service)",
+      "meaning": "This document category or extracted service expresses this business concept. Both mappings are explicit tables - no fuzzy or string matching is used anywhere in the bridge.",
+      "confidence": "explicit_mapping",
+      "expected_edges": 33,
+      "breakdown": {
+        "via_category": 22,
+        "via_service": 11
+      }
+    },
+    "INSTANCE_OF": {
+      "type": "INSTANCE_OF",
+      "branch": "bridge",
+      "from_label": "any structured instance node",
+      "to_label": "EntityType",
+      "source_field": "entity_type property of the instance node",
+      "meaning": "A database row is an instance of its EntityType. This is what carries the bridge down from the schema node to the 43,928 real rows; without it, Document -> Concept -> EntityType stops at the type and never reaches a Customer.",
+      "confidence": "structural",
+      "expected_edges": 43928,
+      "cost_note": "One edge per row. It is the largest single relationship type in the database - load it deliberately, and skip it with --no-instance-of if only schema-level bridging is wanted."
+    }
+  }
+}

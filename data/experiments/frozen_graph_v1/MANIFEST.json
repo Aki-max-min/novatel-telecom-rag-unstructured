@@ -1,0 +1,64 @@
+{
+  "frozen_utc": "2026-11-14T12:43:59.763067+00:00",
+  "source_commit_person_a_pinned_rerun": "86d2802caa994a5f939ea01239f6b26df6e1fccd",
+  "source_branch": "person-a/pinned-rerun (e29f010 = origin/person-b/kg-fixes6, merged with 0395c5a = exp/kg-hardening-eval)",
+  "graph_json": {
+    "copied_from": "knowledge_graph/output/graph.json (untracked build artifact)",
+    "file_mtime": "2026-11-10T14:49:26.816447+00:00",
+    "built_by": "python -m knowledge_graph.build_related_aliases + python -m knowledge_graph.graph_builder on 2026-11-10 at the kg-hardening code state (700a5dd, Person A's KG-hardening evaluation setup); NOT rebuilt with the e29f010 builder",
+    "schema_version": "2.0.0",
+    "nodes": 337,
+    "edges": 1636,
+    "node_labels": {
+      "Category": 30,
+      "CustomerScope": 4,
+      "Dataset": 1,
+      "Department": 13,
+      "Document": 177,
+      "DocumentType": 13,
+      "SourceAuthority": 1,
+      "Tag": 68,
+      "Channel": 5,
+      "Location": 2,
+      "Requirement": 4,
+      "Service": 14,
+      "VerificationMethod": 5
+    },
+    "edge_types": {
+      "BELONGS_TO_CATEGORY": 148,
+      "IS_TYPE": 148,
+      "OWNED_BY_DEPARTMENT": 148,
+      "APPLIES_TO_SCOPE": 148,
+      "AUTHORED_BY": 148,
+      "PART_OF_DATASET": 148,
+      "HAS_TAG": 208,
+      "RELATED_TO": 84,
+      "MENTIONS_CHANNEL": 89,
+      "MENTIONS_SERVICE": 192,
+      "MENTIONS_LOCATION": 9,
+      "MENTIONS_REQUIREMENT": 15,
+      "MENTIONS_VERIFICATION": 73,
+      "AVAILABLE_VIA": 35,
+      "REQUIRES_VERIFICATION": 31,
+      "REQUIRES_DOCUMENT": 12
+    },
+    "concept_nodes": 0,
+    "note": "0 Concept nodes / 0 EXPRESSES_CONCEPT or MENTIONS_CONCEPT edges: the KG fixes 3-6 concept layer and vocabulary overlay are NOT in this graph"
+  },
+  "files_sha256": {
+    "entity_definitions.json": "17114e58a48083d10c9abfcb3a710a3f2b7768ec48228b268a1b75f8c9c6458e",
+    "graph.json": "7d56dac7e787f0d91e57350e2f149a4847f6dedf1e3facf8f1176239ed17790f",
+    "ontology_schema.json": "08838c5f306bb2d4e1064e5f7b5be6dcf6b36e0cc800ab915cf5c9769973b227",
+    "related_id_alias_audit.csv": "fe24f561687937edc63df171b980049336afb990e21db2c35429eaea6240344e",
+    "related_id_aliases.json": "daaa86251f249ecae0d3fe7ef9839f9a5ce31b9f54ef0fdc02b24f8bd87f71df",
+    "relationship_definitions.json": "435c1773eb2fabe0d4c39dfe66f8acd8596cd6e8c9557567ecd479b6fb51aa3b",
+    "vocabulary_extension.json": "06dd4006a88095af5a77f385453cff5580467a4ee01b91094f44cce0267dd237"
+  },
+  "originals_sha256": {
+    "knowledge_graph/output/graph.json": "7d56dac7e787f0d91e57350e2f149a4847f6dedf1e3facf8f1176239ed17790f",
+    "knowledge_graph/vocabulary_extension.json": "06dd4006a88095af5a77f385453cff5580467a4ee01b91094f44cce0267dd237",
+    "ontology/ontology_schema.json": "08838c5f306bb2d4e1064e5f7b5be6dcf6b36e0cc800ab915cf5c9769973b227",
+    "knowledge_graph/related_id_aliases.json": "daaa86251f249ecae0d3fe7ef9839f9a5ce31b9f54ef0fdc02b24f8bd87f71df"
+  },
+  "how_to_use": "SemanticLayer(graph_path=Path('data/experiments/frozen_graph_v1/graph.json')) (constructor argument exists in integration/rag/semantic_layer.py); the harness eval/final_ablation/harness_fa.py::build_layers currently uses the default path and would need to pass graph_path (no env var exists yet)"
+}

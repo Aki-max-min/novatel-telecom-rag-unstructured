@@ -34,14 +34,24 @@ now 47 resolve, so O, G0, G1 and GF set it False explicitly and only G1L / GFL c
 Judge: the v3 judge (same local model, temperature 0, seed 42, E14a prompts), every arm at the "full" level; its prompt cache is seeded
 READ-ONLY from results/perf_report/judge_cache.jsonl and results/kg_hardening_eval/judge_cache.jsonl; new verdicts go to the experiment's
 own cache only.
+
+Graph selection (added 2026-11-15): environment variable FA_GRAPH_JSON. If set, it is the graph.json every layer built here reads
+(SemanticLayer(graph_path=...)) and the one fa_report / fa_graph_cases read; a relative value is taken from the repository root. If unset,
+the repository default (integration.rag.semantic_layer.GRAPH_JSON = knowledge_graph/output/graph.json) is used, exactly as before. The
+resolved path and the file's sha256 are logged at the start of every stage and written into run_manifest.json. When a MANIFEST.json
+sits beside the selected file (a frozen graph, e.g. data/experiments/frozen_graph_v1/), its recorded sha256 for that file must match,
+otherwise resolve_graph() raises GraphManifestMismatch before anything runs. The v3 Rig constructor (eval/perf_report/harness.py,
+unchanged) still builds its own three layers from the default path; they are replaced by build_layers() and never used here.
 """
 
 from __future__ import annotations
 
 import functools
 import hashlib
+import json
 import os
 import sys
+from collections.abc import Mapping
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -59,6 +69,7 @@ import harness_kg as kg  # noqa: E402  (eval/kg_hardening_eval/harness_kg.py; im
 #                                      re-points the v3 harness at results/kg_hardening_eval on import, which is undone right below)
 
 from integration.rag.rag_config import RagConfig  # noqa: E402
+from integration.rag.semantic_layer import GRAPH_JSON as _SL_GRAPH_JSON  # noqa: E402
 
 EXPERIMENT = os.environ.get("FA_EXPERIMENT", "final_ablation")
 EXPERIMENTS = {
@@ -118,12 +129,72 @@ h.MIN_ARMS = set()
 h.ABLATION_ARMS = set()
 
 
+# ---- graph selection (FA_GRAPH_JSON) ------------------------------------------------------------------------------------------------------
+GRAPH_ENV = "FA_GRAPH_JSON"
+DEFAULT_GRAPH_JSON = Path(_SL_GRAPH_JSON)       # integration.rag.semantic_layer.GRAPH_JSON = knowledge_graph/output/graph.json (unchanged default)
+GRAPH_MANIFEST_NAME = "MANIFEST.json"
+
+
+class GraphManifestMismatch(ValueError):
+    """The selected graph file's sha256 differs from what the MANIFEST.json beside it records for that file."""
+
+
+def graph_path_from_env(env: Mapping[str, str] | None = None) -> tuple[Path, str]:
+    """(path, source): the FA_GRAPH_JSON value (relative values are taken from the repository root) or the repository default.
+    Pure: nothing is read from disk."""
+    env = os.environ if env is None else env
+    raw = (env.get(GRAPH_ENV) or "").strip()
+    if not raw:
+        return DEFAULT_GRAPH_JSON, "default"
+    p = Path(raw)
+    return (p if p.is_absolute() else ROOT / p), GRAPH_ENV
+
+
+def graph_fingerprint(path: Path) -> dict:
+    """sha256 of the graph file, plus the check against a MANIFEST.json beside it when one exists (its files_sha256[<file name>]).
+    Raises FileNotFoundError when the file is missing and GraphManifestMismatch when the manifest records a different sha256."""
+    path = Path(path)
+    if not path.is_file():
+        raise FileNotFoundError(f"{GRAPH_ENV}: graph file not found: {path}")
+    sha = hashlib.sha256(path.read_bytes()).hexdigest()
+    manifest = path.parent / GRAPH_MANIFEST_NAME
+    out = {"sha256": sha, "manifest": None, "manifest_sha256": None, "manifest_checked": False}
+    if manifest.is_file():
+        recorded = (json.loads(manifest.read_text(encoding="utf-8")).get("files_sha256") or {}).get(path.name)
+        out["manifest"] = str(manifest)
+        out["manifest_sha256"] = recorded
+        if recorded is not None:
+            if recorded != sha:
+                raise GraphManifestMismatch(f"{path} has sha256 {sha} but {manifest} records {recorded} for {path.name}; refusing to run on a "
+                                            f"graph that differs from its frozen manifest")
+            out["manifest_checked"] = True
+    return out
+
+
+def resolve_graph(env: Mapping[str, str] | None = None) -> dict:
+    """The graph every layer of this run reads: {"path", "path_repo" (relative to the root when inside it), "source", "sha256",
+    "manifest", "manifest_sha256", "manifest_checked"}. Called once per process by Rig (and by fa_report / fa_graph_cases)."""
+    path, source = graph_path_from_env(env)
+    fp = graph_fingerprint(path)
+    try:
+        rel = str(path.resolve().relative_to(ROOT.resolve())).replace("\\", "/")
+    except ValueError:
+        rel = str(path)
+    return {"path": path, "path_repo": rel, "source": source, **fp}
+
+
+def describe_graph(g: dict) -> str:
+    check = "manifest ok" if g["manifest_checked"] else ("no manifest" if g["manifest"] is None else "manifest has no entry for this file")
+    return f"graph: {g['path_repo']} (source {g['source']}) sha256 {g['sha256']} [{check}]"
+
+
 class GraphOnlyLayer(h.DocGraphOnlyLayer):
     """v3 DocGraphOnlyLayer (no ontology terms in the FAISS query, gate weight kept) whose graph_expand call carries Person B's hardening
     keyword arguments. neighbours() is not overridden; the partial adds the arguments to the same call. Empty options = legacy call."""
 
     def __init__(self, graph_expand_options: dict, **kw):
         super().__init__(**kw)
+        self.graph_path = Path(kw.get("graph_path", DEFAULT_GRAPH_JSON))
         self.graph_expand_options = dict(graph_expand_options)
         if self.graph_expand_options:
             self._graph_expand = functools.partial(self._graph_expand, **self.graph_expand_options)
@@ -134,6 +205,7 @@ class OntologyOnlyLayer(h.OntologyOnlyLayer):
 
     def __init__(self, **kw):
         super().__init__(**kw)
+        self.graph_path = Path(kw.get("graph_path", DEFAULT_GRAPH_JSON))
         self.graph_expand_options = None
 
 
@@ -158,12 +230,15 @@ def arm_settings(arm: str) -> dict:
 h.arm_settings = arm_settings      # h.Rig.generate looks this name up in the harness module (undoes harness_kg's assignment)
 
 
-def build_layers() -> dict:
+def build_layers(graph: dict | None = None) -> dict:
+    """One layer per LAYER_ARMS entry, every one reading the graph selected by FA_GRAPH_JSON (resolve_graph(); default = repository path)."""
+    graph = graph or resolve_graph()
     mc = RagConfig().semantic_max_chunks_per_doc
     out = {}
     for arm in LAYER_ARMS:
         kind, opts, links = LAYER_SPECS[arm]
-        out[arm] = OntologyOnlyLayer(max_chunks_per_doc=mc, use_related_links=links) if kind == "onto" else GraphOnlyLayer(opts, max_chunks_per_doc=mc, use_related_links=links)
+        kw = {"graph_path": graph["path"], "max_chunks_per_doc": mc, "use_related_links": links}
+        out[arm] = OntologyOnlyLayer(**kw) if kind == "onto" else GraphOnlyLayer(opts, **kw)
     return out
 
 
@@ -181,11 +256,13 @@ def check_layer(layer, s: dict) -> None:
 
 
 class Rig(h.Rig):
-    """The v3 Rig (models loaded once, same TimeoutClient / router / pipeline) with this experiment's layers."""
+    """The v3 Rig (models loaded once, same TimeoutClient / router / pipeline) with this experiment's layers, all built on the graph
+    selected by FA_GRAPH_JSON (self.graph = resolve_graph(), evaluated before any model is loaded so a wrong graph fails fast)."""
 
     def __init__(self):
+        self.graph = resolve_graph()
         super().__init__()
-        self.layers = build_layers()
+        self.layers = build_layers(self.graph)
 
     def warm_up(self) -> None:
         self.client.chat(system="Reply with one word.", user="OK?")

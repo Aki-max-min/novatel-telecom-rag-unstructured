@@ -132,20 +132,21 @@ def verify_reused_arms() -> dict:
     head = git_info()["commit"]
     changed = _git("diff", "--name-only", kg_commit, head, "--", *fa.KG_CODE_DIRS).split()
     not_allowed = [f for f in changed if f not in fa.ALLOWED_CODE_CHANGES]
-    graph = fa.ROOT / "knowledge_graph" / "output" / "graph.json"
-    graph_sha = sha256_file(graph) if graph.exists() else "missing"
+    graph = fa.resolve_graph()                  # the graph THIS run's layers read (FA_GRAPH_JSON or the repository default)
+    graph_sha = graph["sha256"]
     kg_graph_sha = km.get("extra", {}).get("graph", {}).get("sha256")
     kg_index = {i["path"]: i for i in km.get("indexes", [])}
     fa.load_reused(check_counts=True)
     out = {"source": str(fa.KG_RES.relative_to(fa.ROOT)).replace("\\", "/"), "arms": fa.ARMS_REUSED, "records_per_arm": 126,
            "kg_manifest_commit": kg_commit, "head_commit": head, "code_dirs_compared": fa.KG_CODE_DIRS, "files_changed_in_code_dirs": changed,
            "allowed_code_changes": sorted(fa.ALLOWED_CODE_CHANGES), "files_changed_not_allowed": not_allowed,
+           "graph_path_now": graph["path_repo"], "graph_source": graph["source"],
            "graph_sha256_now": graph_sha, "graph_sha256_kg_run": kg_graph_sha, "graph_identical": graph_sha == kg_graph_sha,
            "kg_index_sha256": kg_index, "kg_parser_note": km.get("extra", {}).get("parser"), "kg_ollama_digest": km.get("extra", {}).get("ollama_model_digest")}
     if not_allowed:
         raise SystemExit(f"reused arms were generated at {kg_commit[:8]} but HEAD {head[:8]} differs in retrieval/generation code: {not_allowed[:8]}; refusing")
     if not out["graph_identical"]:
-        raise SystemExit(f"graph.json differs from the one the reused arms used ({graph_sha[:12]} vs {kg_graph_sha}); refusing")
+        raise SystemExit(f"the selected graph ({graph['path_repo']}) differs from the one the reused arms used ({graph_sha[:12]} vs {kg_graph_sha}); refusing")
     return out
 
 
@@ -168,7 +169,7 @@ def ensure_manifest(health: dict | None) -> dict:
     if g["dirty"]:
         raise SystemExit("working tree is not clean: commit or remove changes first so the manifest records dirty=false")
     reused = verify_reused_arms()
-    graph = fa.ROOT / "knowledge_graph" / "output" / "graph.json"
+    graph = fa.resolve_graph()
     index_dirs = [fa.ROOT / "data" / "experiments" / "combined_retrieval" / "vectorstore"]
     km = json.loads(fa.KG_MANIFEST.read_text(encoding="utf-8"))
     extra = {
@@ -198,7 +199,10 @@ def ensure_manifest(health: dict | None) -> dict:
                                           "the query gate's concept classification still sets the graph weight 0.5 / 0.15 / 0.0",
         "semantic_layer": {"seeds": "GRAPH_SEEDS (5)", "candidates": "GRAPH_CANDIDATES (20)", "max_chunks_per_doc": RagConfig().semantic_max_chunks_per_doc,
                            "gate": "hybrid/query_gate.graph_weight -> 0.5 / 0.15 / 0.0 (0.0 disables the graph for that question)", "V1_options": fa.V1_OPTIONS},
-        "graph": {"path": "knowledge_graph/output/graph.json (as rebuilt for the KG-hardening run; unchanged)", "sha256": sha256_file(graph) if graph.exists() else "missing",
+        "graph": {"path": graph["path_repo"], "source": graph["source"] + (" (environment variable FA_GRAPH_JSON)" if graph["source"] == fa.GRAPH_ENV else
+                                                                           " (repository default knowledge_graph/output/graph.json; FA_GRAPH_JSON unset)"),
+                  "sha256": graph["sha256"], "frozen_manifest": graph["manifest"], "frozen_manifest_sha256": graph["manifest_sha256"],
+                  "frozen_manifest_checked": graph["manifest_checked"],
                   "related_to": km.get("extra", {}).get("graph", {}).get("related_to")},
         "parser": "structured/query_parser.py blob " + _git("hash-object", "structured/query_parser.py")[:10] + " (merged Person B parser; same blob as the KG-hardening run: "
                   + str(km.get("extra", {}).get("parser")) + ")",
@@ -212,7 +216,8 @@ def ensure_manifest(health: dict | None) -> dict:
     m = build_manifest(rag_config=RagConfig.b2(), qa_config=QAConfig(), index_dirs=index_dirs, extra=extra)
     fa.RES.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(m, indent=2, ensure_ascii=False, default=str), encoding="utf-8")
-    log(f"manifest written (git {m['git']['commit'][:8]}, dirty={m['git']['dirty']}); reused arms verified: code identical, graph identical")
+    log(f"manifest written (git {m['git']['commit'][:8]}, dirty={m['git']['dirty']}); reused arms verified: code identical, graph identical; "
+        + fa.describe_graph(graph))
     return m
 
 
@@ -401,10 +406,12 @@ def main() -> None:
     if args.stage == "estimate":
         estimate()
         return
+    graph = fa.resolve_graph()              # fails here (missing file / frozen-manifest mismatch) before any model is loaded or file written
     if args.stage == "generate":
         health = health_stage(write=False)      # probe only: the manifest must be written on a clean tree, before any output file
         ensure_manifest(health)
         health_stage(write=True, out=health)
+        log(fa.describe_graph(graph))
         pw = health["power"]
         if pw.get("on_battery") and not args.allow_battery:
             raise SystemExit(f"machine is on battery power (charge {pw.get('battery_charge_pct')}%, est. {pw.get('battery_estimated_runtime_min')} min); "
@@ -413,6 +420,7 @@ def main() -> None:
             log(f"WARNING: sleep timeout is not 0 on both AC and DC: {pw.get('sleep_after_s')}")
     else:
         health = health_stage()
+        log(fa.describe_graph(graph))
     if args.stage == "health":
         return
     t0 = time.time()

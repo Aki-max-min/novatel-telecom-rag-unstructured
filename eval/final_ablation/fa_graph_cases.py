@@ -41,7 +41,8 @@ def main() -> None:
         raw[(r["arm"], r["id"], r["run"])] = r
     arms = [a for a in fa.GRAPH_ARMS if any(k[0] == a for k in raw)]
     rig = fa.Rig()
-    out = {"arms": {}, "rerun_matches_stored_run1": {}}
+    out = {"graph": {"path": rig.graph["path_repo"], "source": rig.graph["source"], "sha256": rig.graph["sha256"]}, "arms": {}, "rerun_matches_stored_run1": {}}
+    print(fa.describe_graph(rig.graph))
     for arm in arms:
         layer = rig.layers[arm]
         cases, mismatches, n = [], [], 0

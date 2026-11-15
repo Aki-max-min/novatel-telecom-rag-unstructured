@@ -34,7 +34,7 @@ import harness_fa as fa  # noqa: E402
 h = fa.h
 import run_report as rr  # noqa: E402  (eval/perf_report/run_report.py)
 
-from integration.rag.semantic_layer import GRAPH_JSON, _read_related_edges  # noqa: E402
+from integration.rag.semantic_layer import _read_related_edges  # noqa: E402
 from knowledge_graph.graph_augmented_retrieval import DEFAULT_BRIDGES, GRAPH_CANDIDATES, graph_expand, load_graph_index  # noqa: E402
 
 RES = fa.RES
@@ -181,6 +181,8 @@ def error_analysis(qs, raw, scored):
 # ---------------------------------------------------------------------------------------------------------------------------------
 def graph_diagnostics(qs, raw):
     arms = [a for a in fa.GRAPH_ARMS if any(key[0] == a for key in raw)]
+    graph = fa.resolve_graph()                  # same selection as the generation stage (FA_GRAPH_JSON or the repository default)
+    GRAPH_JSON = graph["path"]
     gi = load_graph_index(GRAPH_JSON)
     n_docs = gi.document_count
     hub_threshold = fa.V1_OPTIONS["hub_fraction"] * n_docs
@@ -188,7 +190,8 @@ def graph_diagnostics(qs, raw):
     for a, b in _read_related_edges(GRAPH_JSON):
         related.setdefault(a, set()).add(b); related.setdefault(b, set()).add(a)
     idx_docs = {m["document_id"] for m in json.loads(INDEX_META.read_text(encoding="utf-8"))}
-    out = {"graph": {"document_count_N": n_docs, "hub_threshold_docs": hub_threshold, "related_pairs_resolvable_in_index": sum(1 for a, b in _read_related_edges(GRAPH_JSON) if a in idx_docs and b in idx_docs)},
+    out = {"graph": {"path": graph["path_repo"], "source": graph["source"], "sha256": graph["sha256"], "frozen_manifest_checked": graph["manifest_checked"],
+                     "document_count_N": n_docs, "hub_threshold_docs": hub_threshold, "related_pairs_resolvable_in_index": sum(1 for a, b in _read_related_edges(GRAPH_JSON) if a in idx_docs and b in idx_docs)},
            "note": "run 1 is used (retrieval determinism across runs is checked per arm in metrics.json); 'relevant' = the added document is a gold document of the question "
                    "(the v3 rule); 'hub-only' = every bridge concept the added document shares with a seed has document frequency > hub_threshold (the V1 hub cut would drop it); "
                    "'displaced' = a gold document in B2's top 10 (same run) that is not in this arm's top 10 while this arm did search documents. Reference arm: B2.",

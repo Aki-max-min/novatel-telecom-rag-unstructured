@@ -37,6 +37,18 @@ from integration.rag.rag_config import RagConfig  # noqa: E402
 SMOKE_IDS = ["S01", "Q04", "MH02"]   # one db, one document (syn), one multi-hop; the graph fires on Q04 (gate 0.5) and MH02 (gate 0.15)
 log = fa.log
 
+# one line per experiment id (written into run_manifest.json); a test checks that every id in harness_fa.EXPERIMENTS has one
+EXPERIMENT_DESCRIPTIONS = {
+    "final_ablation": "final component ablation on one code state: A / B / R / O / G0 / G1 / G1L generated here; B2 / C_V0 / C_V1 / C_V1_links reused from results/kg_hardening_eval/",
+    "graph_merge_fix": "graph merge fix measurement: GF (v3 docgraph definition, legacy graph_expand, router OFF) and GFL (+ use_related_links) on the FIXED "
+                       "_semantic_merge (CrossEncoder order only); B2 reused from results/kg_hardening_eval/ (B2 has no layer and never calls _semantic_merge; "
+                       "verified by the smoke stage's plain-search comparison on all 42 questions)",
+    "graph_v1_regression": "v1 regression run on the pinned branch (Person B's kg-fixes6 merged with exp/kg-hardening-eval) with the FROZEN graph v1 "
+                           "(FA_GRAPH_JSON=data/experiments/frozen_graph_v1/graph.json): GF and GFL exactly as in results/graph_merge_fix/ (fixed merge, "
+                           "router OFF); B2 reused from results/kg_hardening_eval/; reference for comparison: results/graph_merge_fix/ (untouched)",
+}
+FIXED_MERGE_EXPERIMENTS = {"graph_merge_fix", "graph_v1_regression"}     # experiments whose code state carries the 2026-11-11 _semantic_merge fix
+
 
 def sha256_file(path: Path) -> str:
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
@@ -131,7 +143,7 @@ def verify_reused_arms() -> dict:
     kg_commit = km["git"]["commit"]
     head = git_info()["commit"]
     changed = _git("diff", "--name-only", kg_commit, head, "--", *fa.KG_CODE_DIRS).split()
-    not_allowed = [f for f in changed if f not in fa.ALLOWED_CODE_CHANGES]
+    not_allowed = [f for f in changed if f not in fa.ALLOWED_CODE_CHANGES and not f.startswith(fa.ALLOWED_CODE_CHANGE_PREFIXES)]
     graph = fa.resolve_graph()                  # the graph THIS run's layers read (FA_GRAPH_JSON or the repository default)
     graph_sha = graph["sha256"]
     kg_graph_sha = km.get("extra", {}).get("graph", {}).get("sha256")
@@ -139,7 +151,8 @@ def verify_reused_arms() -> dict:
     fa.load_reused(check_counts=True)
     out = {"source": str(fa.KG_RES.relative_to(fa.ROOT)).replace("\\", "/"), "arms": fa.ARMS_REUSED, "records_per_arm": 126,
            "kg_manifest_commit": kg_commit, "head_commit": head, "code_dirs_compared": fa.KG_CODE_DIRS, "files_changed_in_code_dirs": changed,
-           "allowed_code_changes": sorted(fa.ALLOWED_CODE_CHANGES), "files_changed_not_allowed": not_allowed,
+           "allowed_code_changes": sorted(fa.ALLOWED_CODE_CHANGES), "allowed_code_change_prefixes": list(fa.ALLOWED_CODE_CHANGE_PREFIXES),
+           "files_changed_not_allowed": not_allowed,
            "graph_path_now": graph["path_repo"], "graph_source": graph["source"],
            "graph_sha256_now": graph_sha, "graph_sha256_kg_run": kg_graph_sha, "graph_identical": graph_sha == kg_graph_sha,
            "kg_index_sha256": kg_index, "kg_parser_note": km.get("extra", {}).get("parser"), "kg_ollama_digest": km.get("extra", {}).get("ollama_model_digest")}
@@ -173,11 +186,9 @@ def ensure_manifest(health: dict | None) -> dict:
     index_dirs = [fa.ROOT / "data" / "experiments" / "combined_retrieval" / "vectorstore"]
     km = json.loads(fa.KG_MANIFEST.read_text(encoding="utf-8"))
     extra = {
-        "experiment": {"final_ablation": "final component ablation on one code state: A / B / R / O / G0 / G1 / G1L generated here; B2 / C_V0 / C_V1 / C_V1_links reused from results/kg_hardening_eval/",
-                       "graph_merge_fix": "graph merge fix measurement: GF (v3 docgraph definition, legacy graph_expand, router OFF) and GFL (+ use_related_links) on the FIXED "
-                                          "_semantic_merge (CrossEncoder order only); B2 reused from results/kg_hardening_eval/ (B2 has no layer and never calls _semantic_merge; "
-                                          "verified by the smoke stage's plain-search comparison on all 42 questions)"}[fa.EXPERIMENT],
+        "experiment": EXPERIMENT_DESCRIPTIONS[fa.EXPERIMENT],
         "experiment_id": fa.EXPERIMENT,
+        "reference_results": fa._E.get("reference_results"),
         "branch": g["branch"],
         "merged_commit_person_b": kg_merged(km), "v3_reference": {"commit": fa.V3_COMMIT, "results": "results/perf_report/ (never modified)"},
         "interpreter": sys.executable,
@@ -210,7 +221,7 @@ def ensure_manifest(health: dict | None) -> dict:
         "power_at_start": (health or {}).get("power"),
         "smoke_test": f"results/{fa.RES.name}/smoke_test.json (3 questions x {len(fa.ARMS_NEW)} generated arms, run 1; not part of raw_answers.jsonl)",
         "time_estimate": f"results/{fa.RES.name}/time_estimate.json",
-        "semantic_merge": "integration/rag/pipeline.py::_semantic_merge as of HEAD: " + ("FIXED 2026-11-11 (CrossEncoder order only)" if fa.EXPERIMENT == "graph_merge_fix"
+        "semantic_merge": "integration/rag/pipeline.py::_semantic_merge as of HEAD: " + ("FIXED 2026-11-11 (CrossEncoder order only)" if fa.EXPERIMENT in FIXED_MERGE_EXPERIMENTS
                                                                                            else "see git history of the file for the state at this commit"),
     }
     m = build_manifest(rag_config=RagConfig.b2(), qa_config=QAConfig(), index_dirs=index_dirs, extra=extra)

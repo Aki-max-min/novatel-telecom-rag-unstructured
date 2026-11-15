@@ -1,0 +1,29 @@
+{
+  "model": "qwen2.5:7b-instruct",
+  "timestamp_utc": "2026-11-15T12:27:03.652944+00:00",
+  "digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "quantization": "Q4_K_M",
+  "probe_latency_s": 0.28,
+  "probe_reply": "Yes.",
+  "loaded_after_probe": [
+    "qwen2.5:7b-instruct"
+  ],
+  "ok": true,
+  "power": {
+    "timestamp_utc": "2026-11-15T12:27:04.027972+00:00",
+    "battery_status_code": 2,
+    "battery_status": "on AC power",
+    "battery_charge_pct": 59,
+    "battery_estimated_runtime_min": 71582788,
+    "sleep_after_s": {
+      "AC": 0,
+      "DC": 0
+    },
+    "hibernate_after_s": {
+      "AC": 0,
+      "DC": 259200
+    },
+    "on_battery": false,
+    "sleep_disabled": true
+  }
+}

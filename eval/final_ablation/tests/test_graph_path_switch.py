@@ -105,3 +105,37 @@ def test_frozen_manifest_mismatch_raises_before_any_layer_is_built(monkeypatch, 
 def test_missing_file_raises(tmp_path):
     with pytest.raises(FileNotFoundError):
         fa.resolve_graph({"FA_GRAPH_JSON": str(tmp_path / "nope.json")})
+
+
+# ---- experiment ids and the Rig constructor (2026-11-15) ---------------------------------------------------------------------------------
+def test_graph_v1_regression_has_its_own_results_folder():
+    e, ref = fa.EXPERIMENTS["graph_v1_regression"], fa.EXPERIMENTS["graph_merge_fix"]
+    assert e["res"] == "graph_v1_regression" and e["res"] != ref["res"]
+    assert e["new"] == ref["new"] == ["GF", "GFL"] and e["reused"] == ref["reused"] == ["B2"] and e["comparisons"] == ref["comparisons"]
+    assert {x["res"] for x in fa.EXPERIMENTS.values()} == set(fa.EXPERIMENTS)          # one folder per id, no sharing
+    assert e["allowed_code_change_prefixes"] == ("knowledge_graph/", "hybrid/")
+
+
+def test_every_experiment_id_has_a_manifest_description():
+    import fa_generate
+    assert set(fa_generate.EXPERIMENT_DESCRIPTIONS) == set(fa.EXPERIMENTS)
+    assert fa_generate.FIXED_MERGE_EXPERIMENTS <= set(fa.EXPERIMENTS)
+
+
+def test_rig_builds_no_layer_on_the_default_graph(monkeypatch, tmp_path, fake_layers):
+    """Fresh clone: knowledge_graph/output/graph.json may be absent; Rig must only build this experiment's layers on the selected graph."""
+    import integration.rag.pipeline as pipeline
+    import query_router.registry as registry
+
+    def boom(*a, **kw):
+        raise AssertionError("v3 default-graph layer constructed")
+    for name in ("SemanticLayer", "OntologyOnlyLayer", "DocGraphOnlyLayer"):
+        monkeypatch.setattr(fa.h, name, boom)
+    monkeypatch.setattr(fa.h, "CountingClient", lambda: "client")
+    monkeypatch.setattr(pipeline, "RagPipeline", lambda **kw: ("pipeline", sorted(kw)))
+    monkeypatch.setattr(registry, "build_router", lambda name, opts: ("router", name, opts))
+    p = _graph(tmp_path)
+    monkeypatch.setenv("FA_GRAPH_JSON", str(p))
+    rig = fa.Rig()
+    assert rig.graph["path"] == p and rig.client == "client" and rig.pipeline[0] == "pipeline" and rig.router[0] == "router"
+    assert set(rig.layers) == set(fa.LAYER_ARMS) and all(c["graph_path"] == p for c in fake_layers.calls)

@@ -10,6 +10,8 @@ Experiment selection: environment variable FA_EXPERIMENT (default "final_ablatio
 
   final_ablation   results/final_ablation/   generated A, B, R, O, G0, G1, G1L; reused B2, C_V0, C_V1, C_V1_links
   graph_merge_fix  results/graph_merge_fix/  generated GF, GFL (graph-only arms on the FIXED _semantic_merge, 2026-11-11); reused B2
+  graph_v1_regression  results/graph_v1_regression/  GF, GFL again on the pinned branch (kg-fixes6 merged) with FA_GRAPH_JSON = frozen graph v1;
+                   reused B2; reference results/graph_merge_fix/ (never written to)
 
 Arm definitions (same model, prompts, decoding, seed 42, temperature 0, SciFact filter ON, answer cache OFF, 3 runs):
   A    Base LLM, no retrieval (E14a BASE_SYSTEM_PROMPT).                                                        == v3 arm "A"
@@ -40,8 +42,9 @@ Graph selection (added 2026-11-15): environment variable FA_GRAPH_JSON. If set, 
 the repository default (integration.rag.semantic_layer.GRAPH_JSON = knowledge_graph/output/graph.json) is used, exactly as before. The
 resolved path and the file's sha256 are logged at the start of every stage and written into run_manifest.json. When a MANIFEST.json
 sits beside the selected file (a frozen graph, e.g. data/experiments/frozen_graph_v1/), its recorded sha256 for that file must match,
-otherwise resolve_graph() raises GraphManifestMismatch before anything runs. The v3 Rig constructor (eval/perf_report/harness.py,
-unchanged) still builds its own three layers from the default path; they are replaced by build_layers() and never used here.
+otherwise resolve_graph() raises GraphManifestMismatch before anything runs. Rig no longer calls the v3 Rig constructor (which builds
+three layers on the default path and fails on a checkout without knowledge_graph/output/graph.json); it repeats its model-loading
+statements and builds only this experiment's layers.
 """
 
 from __future__ import annotations
@@ -84,6 +87,18 @@ EXPERIMENTS = {
                         # the fix itself and its tests are the only code allowed to differ from the reused B2's commit; B2 never calls _semantic_merge
                         # (no layer), which fa_generate's smoke stage verifies by comparing the plain search on all 42 questions with the stored B2 records
                         "allowed_code_changes_since_reused": {"integration/rag/pipeline.py", "integration/tests/test_semantic_merge_order.py"}},
+    # v1 regression run on the pinned branch (person-a/pinned-rerun = Person B's kg-fixes6 merged with exp/kg-hardening-eval) with the FROZEN graph
+    # v1 (FA_GRAPH_JSON=data/experiments/frozen_graph_v1/graph.json, same bytes as the graph every earlier run used). Same arms and reference as
+    # graph_merge_fix, so its outputs are directly comparable with results/graph_merge_fix/ (which must stay untouched: own results folder).
+    "graph_v1_regression": {"res": "graph_v1_regression", "new": ["GF", "GFL"], "reused": ["B2"], "all": ["B2", "GF", "GFL"],
+                            "comparisons": [("GF", "B2"), ("GFL", "B2"), ("GFL", "GF")],
+                            "allowed_code_changes_since_reused": {"integration/rag/pipeline.py", "integration/tests/test_semantic_merge_order.py"},
+                            # Person B's kg-fixes 3-6 changed knowledge_graph/ and hybrid/ after the reused B2 was generated (6f4f0fa). B2 has no
+                            # semantic layer and never imports either package (the smoke stage re-verifies: plain search == stored B2 on all 42
+                            # questions), so those changes cannot alter the reused arm; the GF / GFL arms generated here DO run on the new code,
+                            # which is the point of the regression run.
+                            "allowed_code_change_prefixes": ("knowledge_graph/", "hybrid/"),
+                            "reference_results": "results/graph_merge_fix (GF / GFL on the same frozen graph bytes, code state afbbe8d)"},
 }
 if EXPERIMENT not in EXPERIMENTS:
     raise SystemExit(f"FA_EXPERIMENT={EXPERIMENT!r}: choose one of {sorted(EXPERIMENTS)}")
@@ -109,6 +124,7 @@ ARMS_REUSED = list(_E["reused"])           # loaded from results/kg_hardening_ev
 ARMS_ALL = list(_E["all"])                 # table order
 COMPARISONS = list(_E["comparisons"])
 ALLOWED_CODE_CHANGES = set(_E["allowed_code_changes_since_reused"])
+ALLOWED_CODE_CHANGE_PREFIXES = tuple(_E.get("allowed_code_change_prefixes", ()))   # whole packages the reused arms never import
 RUNS = 3
 V1_OPTIONS = dict(kg.V1_OPTIONS)        # {"hub_fraction": 0.05, "specificity": True, "max_documents": 3}, exactly as given
 V3_COMMIT = kg.V3_COMMIT
@@ -260,8 +276,16 @@ class Rig(h.Rig):
     selected by FA_GRAPH_JSON (self.graph = resolve_graph(), evaluated before any model is loaded so a wrong graph fails fast)."""
 
     def __init__(self):
+        # The v3 constructor (h.Rig.__init__) is NOT called: it builds three SemanticLayers on the repository-default graph.json (unused here
+        # and a FileNotFoundError on a checkout where knowledge_graph/output/graph.json was never built). Its other three statements are
+        # repeated verbatim so that the client, the pipeline, the QA config and the router are exactly the v3 ones (2026-11-15).
+        from integration.rag.pipeline import RagPipeline
+        from query_router.registry import build_router
         self.graph = resolve_graph()
-        super().__init__()
+        self.client = h.CountingClient()
+        self.pipeline = RagPipeline(llm_client=self.client, config=RagConfig())     # models loaded once; config switched per arm
+        self.qa_cfg = h.QAConfig()
+        self.router = build_router(self.qa_cfg.router, {"chain": self.qa_cfg.router_chain})
         self.layers = build_layers(self.graph)
 
     def warm_up(self) -> None:

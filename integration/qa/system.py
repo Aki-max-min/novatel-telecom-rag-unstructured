@@ -208,7 +208,8 @@ def answer_query(query: str, config: QAConfig | None = None) -> dict:
     s_unexec = bool(s_diag) and s_diag.get("executed") is False
     s_reason = (s_diag or {}).get("unexecutable_reason")
     result["structured_status"] = None if s_diag is None else {
-        "executed": not s_unexec, "reason": s_reason, "route": s_diag.get("lookup_route"), "msisdn_lookup": s_diag.get("msisdn_lookup")}
+        "executed": not s_unexec, "reason": s_reason, "route": s_diag.get("lookup_route"), "msisdn_lookup": s_diag.get("msisdn_lookup"),
+        "empty_reason": s_diag.get("empty_reason")}
     if s_unexec and final_route == "structured":
         result.update(answer_text=f"The database lookup for this question could not be executed: {s_reason}.",
                       abstained=False)

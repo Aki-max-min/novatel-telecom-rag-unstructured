@@ -217,16 +217,15 @@ class UnstructuredSearcher:
 class StructuredSearchAdapter:
     """Pass-through -- StructuredRetriever already emits the Common Schema.
 
-    The only addition is integration/structured_guard.py: a customer-scoped lookup on a table with no `customer_id` column
-    (cdr, recharge_transactions, sim_inventory are keyed by msisdn) used to raise sqlite3.OperationalError and end the
-    question. Now such a lookup is run through the customer's msisdn (customer_master), or reported as not executable.
-    `last_status` holds the outcome of the latest call: {"executed", "route", "reason", ...}. For every query that worked
-    before, the results are exactly the retriever's own.
+    The only addition is integration/structured_guard.py, which READS the retriever's own result (Person B's customer-scoped
+    lookup maps msisdn-keyed tables through customer_master and reports why a result is empty) and turns it into a status.
+    `last_status` holds the outcome of the latest call: {"executed", "route", "reason", "empty_reason", ...}. The results are
+    exactly the retriever's own.
     """
 
     def __init__(self, db_path: str | None = None):
         self.retriever = StructuredRetriever(db_path=db_path)
-        self.last_status: dict = {"executed": True, "route": "direct", "reason": None}
+        self.last_status: dict = {"executed": True, "route": "direct", "reason": None, "empty_reason": None}
 
     def search(self, query: str, top_k: int = 5) -> list[dict]:
         guarded = guarded_structured_search(self.retriever, query, top_k)

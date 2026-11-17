@@ -95,7 +95,9 @@ class StructuredBackend:
             lookup_status = guarded.status
             # Person B's parser sends every KYC phrasing to kyc_records, which holds only submitted-document rows;
             # the customer's KYC *status* lives in customer_master. If a customer-scoped lookup comes back empty,
-            # retry ONCE with the profile lookup (thin adapter behaviour; structured/ is untouched) and say so.
+            # retry ONCE with the profile lookup (thin adapter behaviour; structured/ is untouched) and say so. Only a plain
+            # (route "direct", executed) empty lookup qualifies: a msisdn-mapped lookup that found nothing, or a lookup that
+            # could not be executed (route None), is reported as it is.
             cust = CUSTOMER_ID_RE.search(sub_query)
             first_table = (res.get("parsed_query") or {}).get("table")
             if (not res.get("results") and cust and first_table not in (None, "customer_master")
@@ -115,6 +117,7 @@ class StructuredBackend:
         diag = {"sub_query": sub_query, "parsed_query": parsed, "n_results": len(evidence),
                 "executed": lookup_status["executed"], "unexecutable_reason": lookup_status["reason"],
                 "lookup_route": lookup_status["route"], "msisdn_lookup": lookup_status["msisdn_lookup"],
+                "empty_reason": lookup_status["empty_reason"],
                 "resolved": bool(table) and parsed.get("method") not in (None, "exact_filter_unresolved"),
                 "note": res.get("note"), "profile_fallback": profile_fallback, "latency_ms": round((time.perf_counter() - start) * 1000, 1)}
         return evidence, diag

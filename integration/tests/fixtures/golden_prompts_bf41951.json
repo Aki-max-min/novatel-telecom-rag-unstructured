@@ -127,34 +127,30 @@
   {
    "query_id": "Q04",
    "question": "Why is my latest postpaid bill higher than the monthly rental I expected to pay?",
-   "n_blocks": 6,
+   "n_blocks": 5,
    "evidence_ids": [
-    [
-     "structured",
-     "5001"
-    ],
     [
      "unstructured",
      "FAQ_C04_007_chunk_000"
-    ],
-    [
-     "structured",
-     "5002"
     ],
     [
      "unstructured",
      "FAQ_C04_007_chunk_001"
     ],
     [
-     "structured",
-     "5004"
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_068"
     ],
     [
      "unstructured",
-     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_068"
+     "TARIFF_POSTPAID_2026H2_chunk_000"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_070"
     ]
    ],
-   "context_sha256": "36110bf16e664b3f66ef8e383a407710ae1324407687fad946887a0f0b334179"
+   "context_sha256": "fd12f8d53cafb4ad34d434fce9048d35d9191e3e11dda2dd912ebeee5ecac096"
   },
   {
    "query_id": "RW_004",
@@ -659,6 +655,64 @@
     ]
    ],
    "context_sha256": "c4a662e6dfbf6daf79d10bba311cb143707dc25795bb34d7d8ea25ad1894817e"
+  }
+ ],
+ "regenerations": [
+  {
+   "query_id": "Q04",
+   "reason": "parser",
+   "date_utc": "2026-11-17",
+   "repository_commit": "0c7de31532a9128add1fd48910040909348a8c47",
+   "old_context_sha256": "36110bf16e664b3f66ef8e383a407710ae1324407687fad946887a0f0b334179",
+   "new_context_sha256": "fd12f8d53cafb4ad34d434fce9048d35d9191e3e11dda2dd912ebeee5ecac096",
+   "old_evidence_ids": [
+    [
+     "structured",
+     "5001"
+    ],
+    [
+     "unstructured",
+     "FAQ_C04_007_chunk_000"
+    ],
+    [
+     "structured",
+     "5002"
+    ],
+    [
+     "unstructured",
+     "FAQ_C04_007_chunk_001"
+    ],
+    [
+     "structured",
+     "5004"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_068"
+    ]
+   ],
+   "new_evidence_ids": [
+    [
+     "unstructured",
+     "FAQ_C04_007_chunk_000"
+    ],
+    [
+     "unstructured",
+     "FAQ_C04_007_chunk_001"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_068"
+    ],
+    [
+     "unstructured",
+     "TARIFF_POSTPAID_2026H2_chunk_000"
+    ],
+    [
+     "unstructured",
+     "PUBLIC_PDF_07_TELECOM_YEARLY_PERFORMANCE_2024_2025_chunk_070"
+    ]
+   ]
   }
  ]
 }

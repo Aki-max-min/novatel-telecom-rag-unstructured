@@ -4,6 +4,10 @@ integration/tests/fixtures/golden_prompts_bf41951.json was produced by the unmod
 context assembly, no LLM) for the 22 E14a questions. This test rebuilds the same thing with the current code and default
 RagConfig and compares sha256 of the context text and the evidence ids. It needs the local FAISS index, the SQLite DB and the
 cached embedding models; it is skipped (not failed) when they are absent.
+
+Q04 was regenerated on 2026-11-17 with label "parser" (fixture key "regenerations"): Person B's word-boundary parser no longer reads "paid" inside
+"postpaid", so the question returns no invoice rows. The other 21 entries are still exactly what bf41951 produced.
+Tool: python -m integration.eval.regenerate_golden_prompt (refuses to write if any other prompt differs).
 """
 
 import hashlib

@@ -121,5 +121,108 @@ class TestCustomerScoping(unittest.TestCase):
         self.assertEqual((parsed["table"], parsed["filter_column"]), ("recharge_transactions", "customer_id"))
 
 
+class TestEmptyReasonContract(unittest.TestCase):
+    """customer_scoped_filter returns a string key "empty_reason" on EVERY return:
+        unknown table                                    -> "unknown_table"      (executed=False)
+        table has no customer key                        -> "table_not_scopable" (executed=False)
+        msisdn path, customer not found                  -> "unknown_customer"   (executed=True)
+        customer_id or msisdn path with zero rows        -> "no_rows"            (executed=True)
+        rows returned                                    -> None
+    executed, route, note text and result rows are exactly as before."""
+
+    REASONS = {"unknown_table", "table_not_scopable", "unknown_customer", "no_rows", None}
+
+    @classmethod
+    def setUpClass(cls):
+        cls.r = StructuredRetriever()
+        cls.db = sqlite3.connect(f"file:{DB.replace(os.sep, '/')}?mode=ro", uri=True)
+
+    def keys(self, out):
+        return set(out)
+
+    def test_unknown_table(self):
+        out = self.r.customer_scoped_filter("no_such_table", 1042)
+        self.assertEqual(out["empty_reason"], "unknown_table")
+        self.assertIs(out["executed"], False)
+        self.assertEqual(out["results"], [])
+        self.assertEqual(out["note"], "unknown table 'no_such_table'; cannot scope to a customer")
+        self.assertEqual(self.keys(out), {"results", "latency_sec", "executed", "note", "empty_reason"})
+
+    def test_table_not_scopable(self):
+        for table in ("offers", "plan_master", "network_sites"):
+            out = self.r.customer_scoped_filter(table, 1042)
+            self.assertEqual(out["empty_reason"], "table_not_scopable", table)
+            self.assertIs(out["executed"], False, table)
+            self.assertEqual(out["note"], "table has no customer key; cannot scope to a customer", table)
+            self.assertEqual(self.keys(out), {"results", "latency_sec", "executed", "note", "empty_reason"}, table)
+
+    def test_unknown_customer_on_the_msisdn_path(self):
+        for table in ("recharge_transactions", "cdr", "sim_inventory"):
+            out = self.r.customer_scoped_filter(table, 99999999)
+            self.assertEqual(out["empty_reason"], "unknown_customer", table)
+            self.assertIs(out["executed"], True, table)
+            self.assertEqual(out["results"], [], table)
+            self.assertEqual(out["note"], "unknown customer; nothing to scope to", table)
+            self.assertEqual(self.keys(out), {"results", "latency_sec", "executed", "note", "empty_reason"}, table)
+
+    def test_known_customer_with_zero_rows_on_the_msisdn_path_is_no_rows(self):
+        own = msisdn_of(self.db, 1004)
+        self.assertEqual(self.db.execute("SELECT count(*) FROM recharge_transactions WHERE msisdn = ?", (own,)).fetchone()[0], 0)
+        out = self.r.customer_scoped_filter("recharge_transactions", 1004)
+        self.assertEqual(out["empty_reason"], "no_rows")
+        self.assertIs(out["executed"], True)
+        self.assertEqual(out["results"], [])
+        self.assertEqual(out["route"], "msisdn_mapping")
+        self.assertNotIn("note", out)
+        self.assertEqual(self.keys(out), {"results", "latency_sec", "executed", "route", "empty_reason"})
+
+    def test_zero_rows_on_the_customer_id_path_is_no_rows(self):
+        self.assertEqual(self.db.execute("SELECT count(*) FROM tickets WHERE customer_id = ?", ("1001",)).fetchone()[0], 0)
+        for cid in (1001, 99999999):                                   # a customer without tickets, and an id that does not exist
+            out = self.r.customer_scoped_filter("tickets", cid)
+            self.assertEqual(out["empty_reason"], "no_rows", cid)
+            self.assertIs(out["executed"], True, cid)
+            self.assertEqual(out["results"], [], cid)
+            self.assertNotIn("route", out)
+            self.assertNotIn("note", out)
+            self.assertEqual(self.keys(out), {"results", "latency_sec", "executed", "empty_reason"}, cid)
+
+    def test_rows_returned_means_empty_reason_none_and_the_rows_are_unchanged(self):
+        out = self.r.customer_scoped_filter("tickets", 1042)
+        self.assertIsNone(out["empty_reason"])
+        self.assertIn("empty_reason", out)
+        self.assertEqual({x["record_id"] for x in out["results"]}, {"12099", "12323", "11335"})
+        self.assertEqual(out["results"], self.r._plain_filter("tickets", "customer_id", 1042, 10)["results"])
+        self.assertEqual(self.keys(out), {"results", "latency_sec", "executed", "empty_reason"})
+        own = msisdn_of(self.db, 1056)
+        out = self.r.customer_scoped_filter("recharge_transactions", 1056, top_k=50)
+        self.assertIsNone(out["empty_reason"])
+        self.assertEqual(out["route"], "msisdn_mapping")
+        self.assertTrue(all(x["metadata"]["msisdn"] == own and x["metadata"]["route"] == "msisdn_mapping" for x in out["results"]))
+        self.assertEqual(self.keys(out), {"results", "latency_sec", "executed", "route", "empty_reason"})
+
+    def test_exact_filter_on_customer_id_carries_the_key_through(self):
+        self.assertIsNone(self.r.exact_filter("tickets", "customer_id", 1042)["empty_reason"])
+        self.assertEqual(self.r.exact_filter("tickets", "customer_id", 1001)["empty_reason"], "no_rows")
+
+    def test_contract_over_every_table_and_a_sample_of_customers(self):
+        from schema import list_tables
+        seen = set()
+        for table in list_tables():
+            for cid in (1001, 1004, 1042, 1056, 99999999):
+                out = self.r.customer_scoped_filter(table, cid, top_k=5)
+                reason = out["empty_reason"]
+                seen.add(reason)
+                self.assertIn(reason, self.REASONS, (table, cid))
+                self.assertEqual(bool(out["results"]), reason is None, (table, cid))              # rows <=> None
+                self.assertEqual(out["executed"] is False, reason in ("unknown_table", "table_not_scopable"), (table, cid))
+        self.assertEqual(seen, {None, "table_not_scopable", "unknown_customer", "no_rows"})        # every reachable value was exercised
+
+    def test_the_docstring_lists_the_contract(self):
+        doc = StructuredRetriever.customer_scoped_filter.__doc__
+        for value in ("empty_reason", "unknown_table", "table_not_scopable", "unknown_customer", "no_rows"):
+            self.assertIn(value, doc)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

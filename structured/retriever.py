@@ -95,34 +95,44 @@ class StructuredRetriever:
         * neither (offers, plan_master, network_sites, ...) -> empty result with a note and executed=False
         Never raises "no such column", never returns unscoped rows, never falls back to an unfiltered query.
         Callers must pass the customer id of the SIGNED-IN session, not an id parsed from question text.
+
+        Every return carries a string key "empty_reason" that says WHY a result is empty (None when rows were returned):
+          * unknown table                                          -> "unknown_table"      (executed=False)
+          * table has no customer key                              -> "table_not_scopable" (executed=False)
+          * msisdn path, customer not found in customer_master     -> "unknown_customer"   (executed=True)
+          * customer_id or msisdn path, zero rows                  -> "no_rows"            (executed=True)
+          * rows returned                                          -> None
+        "empty_reason" is the only key this contract adds: executed, route, the note text and the result rows are unchanged.
         """
         start = time.time()
         columns = self._table_columns(table_name)
 
-        def empty(note, executed):
-            return {"results": [], "latency_sec": time.time() - start, "executed": executed, "note": note}
+        def empty(note, executed, reason):
+            return {"results": [], "latency_sec": time.time() - start, "executed": executed, "note": note, "empty_reason": reason}
 
         if columns is None:
-            return empty(f"unknown table {table_name!r}; cannot scope to a customer", False)
+            return empty(f"unknown table {table_name!r}; cannot scope to a customer", False, "unknown_table")
 
         if "customer_id" in columns:
             res = self._plain_filter(table_name, "customer_id", customer_id, top_k)
             res["executed"] = True
+            res["empty_reason"] = None if res["results"] else "no_rows"
             return res
 
         if "msisdn" in columns:
             rows = self.loader.conn.execute(
                 "SELECT msisdn FROM customer_master WHERE customer_id = ?", (str(customer_id),)).fetchall()
             if len(rows) != 1 or not rows[0][0]:
-                return empty("unknown customer; nothing to scope to", True)
+                return empty("unknown customer; nothing to scope to", True, "unknown_customer")
             res = self._plain_filter(table_name, "msisdn", rows[0][0], top_k)
             for r in res["results"]:
                 r["metadata"]["route"] = "msisdn_mapping"
             res["executed"] = True
             res["route"] = "msisdn_mapping"
+            res["empty_reason"] = None if res["results"] else "no_rows"
             return res
 
-        return empty("table has no customer key; cannot scope to a customer", False)
+        return empty("table has no customer key; cannot scope to a customer", False, "table_not_scopable")
 
     def fk_follow(self, question, customer_id=None, top_k=20):
         """Parent record + its child rows through an allow-listed foreign key, or None if this is not such a question.
